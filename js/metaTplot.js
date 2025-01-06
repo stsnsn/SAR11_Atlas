@@ -32,7 +32,6 @@ const downloadCSV = (csvFilePath) => {
         }
     });
 };
-
 const map = L.map('map').setView([20, 0], 2);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
@@ -56,19 +55,22 @@ const updateCircles = (csvFilePath) => {
                 const tpm = parseFloat(row.TPM);
 
                 if (!isNaN(lat) && !isNaN(lon) && tpm > 0) {
-                    const radius = Math.log10(tpm) * 100000; // Adjust size as needed
-                    const circle = L.circle([lat, lon], {
+                    // radiusはピクセル単位に変更
+                    const radius = Math.pow(tpm, 0.3) * 2/1 ; // ピクセル単位に調整
+
+                    const circleMarker = L.circleMarker([lat, lon], {
                         color: 'blue',
                         fillColor: '#3388ff',
                         fillOpacity: 0.5,
-                        radius: radius
+                        radius: radius // TPMに基づいて円のサイズを設定
                     }).addTo(map).bindPopup(`
                         <b>ENA_Run_ID:</b> ${row.sample || 'Unknown'}<br>
                         <b>TPM:</b> ${tpm.toFixed(2)}<br>
                         <b>Depth:</b> ${row.Depth || 'Unknown'}<br>
                         <b>Temperature:</b> ${row.Temperature || 'Unknown'}<br>
                     `);
-                    markers.push(circle);
+
+                    markers.push(circleMarker);
                 }
             });
             updatePlots(data);
@@ -79,9 +81,8 @@ const updateCircles = (csvFilePath) => {
     });
 };
 
-
 // 初期表示
-const initialCsvFile = '../data/env_corr/OG372.csv';
+const initialCsvFile = '../data/env_corr/OG91.csv';
 updateCircles(initialCsvFile);
 
 // 凡例の追加
@@ -90,13 +91,13 @@ const addLegend = () => {
 
     legend.onAdd = function () {
         const div = L.DomUtil.create('div', 'info legend');
-        const grades = [10, 100, 1000, 10000]; // Define the TPM breakpoints
+        const grades = [10, 100, 1000, 10000, 100000]; // Define the TPM breakpoints
         div.innerHTML += '<b>TPM</b><br>';
 
         // Loop through the grades to create the circles with appropriate sizes
         grades.forEach((grade, index) => {
             const nextGrade = grades[index + 1];
-            const circleSize = Math.sqrt(grade) * 0.5; // size
+            const circleSize = Math.pow(grade, 0.3) * 2/1; // size
             div.innerHTML += `
                 <i style="background: #3388ff; border-radius: 50%; width: ${circleSize}px; height: ${circleSize}px; display: inline-block;"></i>
                 ${grade}<br>
@@ -199,10 +200,10 @@ const updatePlots = (data) => {
         marker: { color: 'purple', size: 10, opacity: 0.2 }
     };
 
-    const temperatureLayout = { title: `Temperature vs TPM (r = ${tempCorr !== null ? tempCorr.toFixed(2) : 'N/A'})` };
-    const salinityLayout = { title: `Salinity vs TPM (r = ${salinityCorr !== null ? salinityCorr.toFixed(2) : 'N/A'})` };
-    const depthLayout = { title: `Depth vs TPM (r = ${depthCorr !== null ? depthCorr.toFixed(2) : 'N/A'})` };
-    const oxygenLayout = { title: `Oxygen vs TPM (r = ${oxygenCorr !== null ? oxygenCorr.toFixed(2) : 'N/A'})` };
+    const temperatureLayout = { title: `Temperature vs TPM (r = ${tempCorr !== null ? tempCorr.toFixed(2) : 'N/A'})`, xaxis: { title: 'Temperature' },yaxis: { title: 'TPM'}};
+    const salinityLayout = { title: `Salinity vs TPM (r = ${salinityCorr !== null ? salinityCorr.toFixed(2) : 'N/A'})` , xaxis: { title: 'Salinity' },yaxis: { title: 'TPM'}};
+    const depthLayout = { title: `Depth vs TPM (r = ${depthCorr !== null ? depthCorr.toFixed(2) : 'N/A'})` , xaxis: { title: 'Depth' },yaxis: { title: 'TPM'}};
+    const oxygenLayout = { title: `Oxygen vs TPM (r = ${oxygenCorr !== null ? oxygenCorr.toFixed(2) : 'N/A'})` , xaxis: { title: 'Oxygen' },yaxis: { title: 'TPM'}};
 
     Plotly.newPlot('temperaturePlot', [temperatureData], temperatureLayout);
     Plotly.newPlot('salinityPlot', [salinityData], salinityLayout);
