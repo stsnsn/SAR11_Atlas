@@ -18,6 +18,14 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+    <link rel="stylesheet" href="../css/leaflet.css">
+    <script src="../js/leaflet.js"></script>
+    <script src="../js/papaparse.min.js"></script>
+    <style>
+        #map { width: 100%; height: 500px; }
+        .popup-content { font-size: 14px; }
+        .popup-content strong { color: #007bff; }
+    </style>
 </head>
 
 <body>
@@ -88,9 +96,15 @@
                 <p>Expand the phylogenetic tree to see the names of the genomes. Hover the mouse pointer over it for more information.</p>
                 <p>Color by: pull-down menu allows you to change the color coding</p>
 
+                <!-- tree -->
                 <a href="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist">Full screen view</a> / Download <a href="../data/SAR11.tree" download="SAR11.tree">newick file</a> and <a href="../data/subclade.txt" download="subclade.txt">table</a>
-                <iframe src="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist" id="taxonium" width="100%" height="150%" data-external="1" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay">
+                <iframe src="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist" id="taxonium" width="90%" height="70%" data-external="1" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay">
                 </iframe>
+
+
+                <!-- map -->
+                <div id="map"></div>
+
 
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h4>Reference</h4>
@@ -109,6 +123,7 @@
                 <!-- EDITABLE ZONE END -->
 
             </main>
+            <script src="../js/genome_map.js"></script>
         </div>
     </div>
 </body>

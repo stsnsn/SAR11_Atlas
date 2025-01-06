@@ -1,4 +1,4 @@
-// ダウンロードボタンのクリックイベント
+// ダウンロードボタン
 document.getElementById('downloadData').addEventListener('click', () => {
     const csvFilePath = `../data/env_corr/${document.getElementById('ogInput').value.trim()}.csv`;
     downloadCSV(csvFilePath);
@@ -11,7 +11,7 @@ const resetUserPlot = () => {
     userPlotDiv.innerHTML = ''; // This removes the current plot
 };
 
-// CSVをダウンロードする関数
+// CSVダウンロード
 const downloadCSV = (csvFilePath) => {
     Papa.parse(csvFilePath, {
         download: true,
