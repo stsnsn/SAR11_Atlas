@@ -4,12 +4,12 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>the SAR11 Gene Catalog</title>
+    <title>The SAR11 Atlas</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/video_style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/3.2.0/sha256.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
-
 </head>
 
 
@@ -23,10 +23,9 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column align-items-center justify-content-center" id="content">
         <header class="masthead mb-auto">
             <div class="inner">
-                <h3 class="masthead-brand">the SAR11 gene catalog</h3>
+                <h1 class="masthead-brand">The SAR11 Atlas</h1>
                 <nav class="nav nav-masthead justify-content-center">
                     <a class="nav-link active" href="./index.html">Home</a>
-                    <a class="nav-link" href="./html/Overview.html">Catalog</a>
                     <a class="nav-link" href="./html/Overview.html">Publication</a>
                     <a class="nav-link" href="https://sites.google.com/view/snishino/english">Contact</a>
                 </nav>
@@ -34,8 +33,7 @@
         </header>
 
         <main role="main" class="inner cover">
-            <h1 class="cover-heading">SAR11 Gene Catalog</h1>
-            <p class="lead">The gene catalog of the SAR11 clade, the most abundant bacteria lineage in the ocean.</p>
+            <p class="lead">A genome and gene catalog of the SAR11 clade, the most abundant bacteria lineage in the ocean.</p>
             <p class="lead">
                 <a href="./html/Overview.html" class="btn btn-lg btn-secondary">Dive!</a>
             </p>
@@ -53,7 +51,7 @@
         </footer>
     </div>
 
-    <!-- Login Modal -->
+    <!-- Login Modal 
     <div class="modal" tabindex="-1" role="dialog" id="loginModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -75,9 +73,7 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <script src="../js/jquery-3.6.0.min.js"></script>
+    </div> 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Check if the user is logged in
@@ -122,17 +118,27 @@
             shaObj.update(message);
             return shaObj.getHash('HEX');
         }
-    </script>
-
+    </script>-->
     <script>
         window.onload = function() {
-            // ページのすべての要素が読み込まれた後にビデオの表示を開始
-            const video = document.getElementById('video-background');
-            video.style.display = 'block'; // ビデオを表示
-            video.load(); // ビデオを読み込み
-            video.play(); // ビデオの再生を開始
+            // safari用に最初に背景画像を読み込んで表示
+            const backgroundImage = new Image(); // 画像のインスタンス作成
+            backgroundImage.src = './data/image/background_image.jpg'; // 背景画像のパス
+            backgroundImage.onload = function() {
+                // 画像の読み込みが完了したら背景として設定
+                document.body.style.backgroundImage = `url('${backgroundImage.src}')`;
+                document.body.style.backgroundSize = 'cover'; // 画像を画面全体にフィット
+
+                // 次にビデオの表示を開始
+                const video = document.getElementById('video-background');
+                video.style.display = 'block'; // ビデオを表示
+                video.load(); // ビデオを読み込み
+                video.play(); // ビデオの再生を開始
+            };
         };
     </script>
+
+
 
 </body>
 </html>
