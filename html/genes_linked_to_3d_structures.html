@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://getbootstrap.jp/docs/4.3/examples/dashboard/ -->
+<html lang="ja">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4J68VLT52H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-4J68VLT52H');
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>SAR11 gene catalog</title>
+    <link rel="canonical" href="https://stsnsn.github.io/SAR11_Gene_Catalog/">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="../css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+</head>
+
+
+<body>
+    <!-- 後で消す -->
+    <!--<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if the user is logged in
+            if (!localStorage.getItem('loggedIn')) {
+                window.location.href = '../index.html';
+            }
+        });
+    </script>-->
+    <!-- 後で消す -->
+        <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="../index.html">SAR11 gene catalog (Developing)</a>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                    <div class="sidebar-sticky">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./Overview.html">Overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./SAR11_phylogeny.html">SAR11 Phylogenic Tree</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./metaT.html">Metatranscriptome Viewer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./og_list.html">List of All OGs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Neighborhood_network.html">Neighboring Network</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./download.html">Download</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4"><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <br><br><br><br><br>
+                    <h1 class="h2">P. ubique gene list (Developing)</h1>
+                    <br>
+                </div>
+
+                <!-- Dark-mode toggle -->
+                <button id="toggleTheme" class="mb-3">Toggle Dark/Light Mode</button>
+                <script>
+                    document.getElementById('toggleTheme').addEventListener('click', function() {
+                        document.body.classList.toggle('dark-mode'); // bodyにダークモードのクラスを切り替え
+                        document.getElementById('table').classList.toggle('dark-mode'); // tableにダークモードのクラスを切り替え
+                        this.classList.toggle('dark-mode'); // ボタンのスタイルも切り替え
+                    });
+                </script>
+                <!-- Dark-mode toggle END -->
+
+
+                <!-- EDITABLE ZONE START -->
+                <!-- HTML部分 -->
+                <div>
+                    <p>Structure viewer is below the table.</p>
+                    <p>Genes of the 24 pure-cultured strains were linked to Uniprot(2024-03) using DIAMOND.</p> 
+
+                    <a href="./pure_uniprot.html">Full screen view</a>
+                    <iframe src="./pure_uniprot.html" id="OGs" width="100%" height="500px" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
+
+                    <br><br>
+
+                    <label for="afdb-input">Enter Accession number:</label>
+                    <input type="text" id="afdb-input" placeholder="Q4FPQ5">
+                    <button onclick="updateIframeSrc()">Update Protein Structure</button>
+                    <button onclick="openFoldseek()">Open Foldseek</button>
+                    <br><br>
+                    <a href="#" id="molstar-link" target="_blank">Molstar viewer Full screen view</a> / Download <a href="../data/aligned.molx" download>MolX file</a>
+                    <iframe src="https://molstar.org/viewer/?afdb=Q4FPQ5" id="molstar-iframe" width="100%" height="500px" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
+                </div>
+
+                <!-- JavaScript部分 -->
+                <script>
+                function updateIframeSrc() {
+                    var afdbCode = document.getElementById('afdb-input').value;
+                    var molstarLink = document.getElementById('molstar-link');
+                    var molstarIframe = document.getElementById('molstar-iframe');
+
+                    // Update Molstar viewer link
+                    molstarLink.href = 'https://molstar.org/viewer/?afdb=' + afdbCode;
+
+                    // Update Molstar iframe src
+                    molstarIframe.src = 'https://molstar.org/viewer/?afdb=' + afdbCode;
+                }
+
+                function openFoldseek() {
+                    var afdbCode = document.getElementById('afdb-input').value;
+                    var foldseekUrl = 'https://search.foldseek.com/search?accession=' + afdbCode + '&source=AlphaFoldDB';
+                    window.open(foldseekUrl, '_blank');
+                }
+                </script>
+
+                <p>Some strains, such as HTCC1062, have predicted all protein structures.</p>
+                <br><br><br>
+
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h4>Reference</h4>
+                </div>
+                <!-- AF2 and AFDB -->
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    AlphaFold2<br>
+                    - Jumper, J. et al. “Highly accurate protein structure prediction with AlphaFold.” Nature, 596, pages 583–589 (2021). DOI: 10.1038/s41586-021-03819-2 <br><br>
+                    AlphaDatabase<br>
+                    - Varadi, M. et al. “AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models.” Nucleic Acids Research, 50(D1), pages D439–D444 (2021). DOI: 10.1093/nar/gkab1061<br>
+                    - Varadi, M. et al. “AlphaFold Protein Structure Database in 2024: Providing structure coverage for over 214 million protein sequences.” Nucleic Acids Research, gkad1011 (2023). DOI: 10.1093/nar/gkad1011<br>
+                </div>
+                <!-- Mol* viewer -->
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    Mol* viewer<br>
+                    - David Sehnal, S. et al. “Mol* Viewer: modern web app for 3D visualization and analysis of large biomolecular structures.”, Nucleic Acids Research, (2021). DOI: 10.1093/nar/gkad314<br>
+                </div>
+
+                <br><br><br>
+                <!-- EDITABLE ZONE END -->
+                <div class="border-top p-4 mb-4">
+                    <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
+                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Gene Catalog."</b> <em>in prep.</em></p>
+                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknownmics of SAR11 clade."</b> <em>in prep.</em></p>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

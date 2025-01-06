@@ -1,0 +1,56 @@
+/* metaStyle */
+#map {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.info.legend {
+    background: white;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+#controls {
+    margin: 20px;
+    text-align: center;
+}
+
+#controls input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#controls button {
+    padding: 5px 10px;
+}
+
+.plots-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.single-plot {
+    width: 48%;
+    height: 400px;
+}
+
+#userPlotContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#userPlot {
+    width: 48%;
+    height: 400px;
+}
+
+#temperaturePlot, #salinityPlot, #latitudePlot, #depthPlot, #oxygenPlot {
+    width: 50%;
+    height: 400px;  /* 初期の高さ */
+}

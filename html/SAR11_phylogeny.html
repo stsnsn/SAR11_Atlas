@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://getbootstrap.jp/docs/4.3/examples/dashboard/ -->
+<html lang="ja">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4J68VLT52H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-4J68VLT52H');
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>SAR11 gene catalog</title>
+    <link rel="canonical" href="https://stsnsn.github.io/SAR11_Gene_Catalog/">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="../css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+</head>
+
+<body>
+    <!-- 後で消す -->
+    <!--<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if the user is logged in
+            if (!localStorage.getItem('loggedIn')) {
+                window.location.href = '../index.html';
+            }
+        });
+    </script>-->
+    <!-- 後で消す -->
+        <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="../index.html">SAR11 gene catalog (Developing)</a>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                    <div class="sidebar-sticky">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./Overview.html">Overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./SAR11_phylogeny.html">SAR11 Phylogenic Tree</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./metaT.html">Metatranscriptome Viewer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./og_list.html">List of All OGs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Neighborhood_network.html">Neighboring Network</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./download.html">Download</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4"><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+
+                <div class="d-flex flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <br><br><br><br><br>
+                    <h1 class="h2">SAR11 phylogenic tree</h1>
+                    <br>
+                </div>
+
+                <!-- Dark-mode toggle -->
+                <button id="toggleTheme" class="mb-3">Toggle Dark/Light Mode</button>
+                <script>
+                    document.getElementById('toggleTheme').addEventListener('click', function() {
+                        document.body.classList.toggle('dark-mode'); // bodyにダークモードのクラスを切り替え
+                        document.getElementById('table').classList.toggle('dark-mode'); // tableにダークモードのクラスを切り替え
+                        this.classList.toggle('dark-mode'); // ボタンのスタイルも切り替え
+                    });
+                </script>
+                <!-- Dark-mode toggle END -->
+
+                <!-- EDITABLE ZONE START -->
+                <p>Expand the phylogenetic tree to see the names of the genomes. Hover the mouse pointer over it for more information.</p>
+                <p>Color by: pull-down menu allows you to change the color coding</p>
+
+                <a href="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist">Full screen view</a> / Download <a href="../data/SAR11.tree" download="SAR11.tree">newick file</a> and <a href="../data/subclade.txt" download="subclade.txt">table</a>
+                <iframe src="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist" id="taxonium" width="100%" height="150%" data-external="1" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay">
+                </iframe>
+
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h4>Reference</h4>
+                </div>
+
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    Sanderson, T "Taxonium, a web-based tool for exploring large phylogenetic trees." eLife (2022), 11:e82392 https://doi.org/10.7554/eLife.82392
+                </div>
+
+                <br><br><br>
+                <div class="border-top p-4 mb-4">
+                    <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
+                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Gene Catalog."</b> <em>in prep.</em></p>
+                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknownmics of SAR11 clade."</b> <em>in prep.</em></p>
+                </div>
+                <!-- EDITABLE ZONE END -->
+
+            </main>
+        </div>
+    </div>
+</body>
+</html>

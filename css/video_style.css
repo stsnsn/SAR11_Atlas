@@ -1,0 +1,27 @@
+/* video_styles.css */
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 110%;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+}
+
+#content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+    #video-background {
+        width: 100%;  /* 横幅を100%に設定 */
+        height: auto; /* 高さは自動調整 */
+    }
+}

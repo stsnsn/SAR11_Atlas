@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the SAR11 Gene Catalog</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/video_style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/3.2.0/sha256.min.js"></script>
+    <script src=".js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+
+<body class="text-center">
+
+    <video autoplay muted loop id="video-background">
+        <source src="./data/movie/opening_movie.mp4" type="video/mp4">
+    </video>
+
+    <!-- 中央揃え -->
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column align-items-center justify-content-center" id="content">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand">the SAR11 gene catalog</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="./index.html">Home</a>
+                    <a class="nav-link" href="./html/Overview.html">Catalog</a>
+                    <a class="nav-link" href="./html/Overview.html">Publication</a>
+                    <a class="nav-link" href="https://sites.google.com/view/snishino/english">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main role="main" class="inner cover">
+            <h1 class="cover-heading">SAR11 Gene Catalog</h1>
+            <p class="lead">The gene catalog of the SAR11 clade, the most abundant bacteria lineage in the ocean.</p>
+            <p class="lead">
+                <a href="./html/Overview.html" class="btn btn-lg btn-secondary">Dive!</a>
+            </p>
+        </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                <p>
+                    BGV taken by our colleague 
+                    <a href="https://chunqijiang.github.io">Dr. Chunqi JIANG</a> 
+                    on <a href="https://chunqijiang.github.io/posts/2024-03-07-blog-post-15-cruise">MR24-01C cruise</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal" tabindex="-1" role="dialog" id="loginModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                    <div id="loginError" class="text-danger mt-2" style="display: none;">Invalid credentials. Please try again.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if the user is logged in
+            if (!localStorage.getItem('loggedIn')) {
+                $('#loginModal').modal('show');
+            }
+
+            document.getElementById('loginForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                const password = document.getElementById('password').value;
+
+                console.log('Password:', password); // デバッグ用
+                const hash = sha256(password);
+                console.log('Hash:', hash); // デバッグ用
+
+                const filePath = `${hash}/check.html`;
+                console.log('Checking path:', filePath); // デバッグ用
+
+                // Check if the file exists on the server
+                const xhr = new XMLHttpRequest();
+                xhr.open('HEAD', filePath, true);
+                xhr.onload = function() {
+                    if (xhr.status === 200) {
+                        console.log('Login successful'); // デバッグ用
+                        localStorage.setItem('loggedIn', 'true');
+                        window.location.href = 'Overview.html';
+                    } else {
+                        console.log('Invalid credentials'); // デバッグ用
+                        document.getElementById('loginError').style.display = 'block';
+                    }
+                };
+                xhr.onerror = function() {
+                    console.error('Request error'); // デバッグ用
+                    document.getElementById('loginError').style.display = 'block';
+                };
+                xhr.send();
+            });
+        });
+
+        function sha256(message) {
+            const shaObj = new jsSHA('SHA-256', 'TEXT');
+            shaObj.update(message);
+            return shaObj.getHash('HEX');
+        }
+    </script>
+
+    <script>
+        window.onload = function() {
+            // ページのすべての要素が読み込まれた後にビデオの表示を開始
+            const video = document.getElementById('video-background');
+            video.style.display = 'block'; // ビデオを表示
+            video.load(); // ビデオを読み込み
+            video.play(); // ビデオの再生を開始
+        };
+    </script>
+
+</body>
+</html>

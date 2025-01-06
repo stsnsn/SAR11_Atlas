@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAR11 MetaTranscriptome Viewer</title>
+    <link rel="stylesheet" href="../css/leaflet.css">
+    <script src="../js/leaflet.js"></script>
+    <script src="../js/papaparse.min.js"></script>
+    <script src="../js/plotly-2.35.2.min.js"></script>
+    <link rel="stylesheet" href="../css/metaT_style.css">
+    <link rel="stylesheet" href="../css/data_table_style.css">
+
+</head>
+
+<body>
+    <h1>SAR11 MetaTranscriptome Viewer</h1>
+    <a href="./Overview.html">Back to Home</a>
+
+    <div id="map" style="width: 100%; height: 600px;"></div>
+    <div id="controls">
+        <input type="text" id="ogInput" placeholder="Enter OG ID: (e.g. OG372)">
+        <button id="updateMap">Update Plots</button>
+        <button id="downloadData">Download CSV</button>
+    </div>
+    <div id="userPlotContainer"> <!-- ユーザ指定のplot -->
+        <div>
+            <input type="text" id="userParameterInput" placeholder="Enter parameter (e.g., Oxygen)">
+            <button id="updateUserPlot">Update Plot</button>
+        </div>
+        <div id="userPlot"></div>
+    </div>
+    <p> option: Latitude, Longitude, Temperature, Sigma-theta, Salinity, Oxygen, Nitrate, Chl_a, fCDOM, Depth</p>
+
+    <div class="plots-container">
+        <div id="temperaturePlot" class="single-plot"></div>
+        <div id="salinityPlot" class="single-plot"></div>
+    </div>
+
+    <div class="plots-container">
+        <div id="depthPlot" class="single-plot"></div>
+        <div id="oxygenPlot" class="single-plot"></div>
+    </div>
+
+    <script src="../js/metaTplot.js"></script>
+    <br>
+    <a href="./Overview.html">Back to Home</a>
+</body>
+</html>

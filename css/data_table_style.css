@@ -1,0 +1,117 @@
+/* テーブル全体のデザイン */
+#table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+    font-size: 0.8rem; /* 全体の文字サイズを少し小さく */
+}
+
+/* ヘッダー部分のスタイル */
+table.dataTable thead th   {
+    background-color: #003366 ; /* だーくぶるー */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 行のスタイル */
+table.dataTable tbody td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* 奇数行と偶数行に異なる背景色をつける */
+table.dataTable tbody tr:nth-child(odd) {
+    background-color: #e0f7fa; /* 薄水色 */
+}
+
+/* カーソルが当たっている行の色 */
+#table tbody tr:hover {
+    background-color: #fff176;  /* 薄い黄色 */
+}
+
+/* ボタンのデザイン */
+button {
+    background-color: #003366; /* だーくぶるー */
+    color: white;
+}
+button:hover{
+    background-color: #120033; /* だーくぶるー */
+    color: white;
+}
+
+/* DataTableのボタンのカスタマイズ */
+.dt-buttons {
+    margin: 10px 0;
+}
+
+.dt-button {
+    background-color: #28a745; /* 緑色 */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.dt-button:hover {
+    background-color: #218838; /* ダークグリーン */
+}
+
+/* ページネーションのスタイル */
+.dataTables_paginate {
+    margin-top: 20px;
+}
+
+.dataTables_paginate a {
+    background-color: #007BFF; /* 青色 */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 0 2px;
+}
+
+.dataTables_paginate a:hover {
+    background-color: #0056b3; /* ダークブルー */
+}
+
+/* ダークモードの見た目設定 */
+body.dark-mode {
+    background-color: #333; /* ダークグレー */
+    color: #f2f2f2; /* 白色 */
+}
+
+#table.dark-mode thead th {
+    background-color: #000000; /* 黒色 */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ダークモード時のテーブルの奇数行 */
+#table.dark-mode tbody tr:nth-child(odd) {
+    background-color: #003366; /* ダークブルー */
+}
+
+/* ダークモード時にカーソルが当たった行の色 */
+#table.dark-mode tbody tr:hover {
+    background-color: #65a1fc;  /* 淡いブルー */
+}
+
+/* ダークモード時のテーブルのボーダー */
+#table.dark-mode {
+    border: 1px solid #666; /* グレーのボーダー */
+}
+
+/* ダークモード時のボタン */
+button.dark-mode {
+    background-color: #555; /* ダークグレー */
+    color: white;
+}
+button.dark-mode:hover{
+    background-color: #120033; /* だーくぶるー */
+    color: white;
+}
