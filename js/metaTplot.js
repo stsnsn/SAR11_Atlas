@@ -126,6 +126,42 @@ document.getElementById('updateMap').addEventListener('click', () => {
     }
 });
 
+// プルダウンメニューの選択肢を設定
+document.addEventListener('DOMContentLoaded', function () {
+    const parameters = [
+        { value: 'Oxygen', text: 'Oxygen' },
+        { value: 'Temperature', text: 'Temperature' },
+        { value: 'Salinity', text: 'Salinity' },
+        { value: 'Nitrate', text: 'Nitrate' },
+        { value: 'Chl_a', text: 'Chl_a' },
+        { value: 'fCDOM', text: 'fCDOM' },
+        { value: 'Depth', text: 'Depth' },
+        { value: 'Latitude', text: 'Latitude' },
+        { value: 'Longitude', text: 'Longitude' },
+        { value: 'Sigma-theta', text: 'Sigma-theta' }
+    ];
+
+    // プルダウンメニューのDOM要素を取得
+    const selectElement = document.getElementById('userParameterSelect');
+
+    // 選択肢を追加
+    parameters.forEach(function (param) {
+        const option = document.createElement('option');
+        option.value = param.value;
+        option.textContent = param.text;
+        selectElement.appendChild(option);
+    });
+
+    // プルダウンメニューが選択された後にプロットを描画する処理
+    document.getElementById('updateUserPlot').addEventListener('click', function () {
+        const selectedParam = selectElement.value;
+        console.log('Selected parameter:', selectedParam);
+        // ここで、選ばれたパラメータに基づいてプロットを更新する処理を追加
+        // 例: updatePlot(selectedParam);
+    });
+});
+
+
 // Pearson corr calculation
 const calculatePearsonCorrelation = (x, y) => {
     // x と y の配列から NaN や null を取り除く
