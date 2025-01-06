@@ -28,9 +28,27 @@
             <input type="text" id="userParameterInput" placeholder="Enter parameter (e.g., Oxygen)">
             <button id="updateUserPlot">Draw Plot</button>
         </div>
+
+        <div id="userPlotContainer">
+            <div>
+                <label for="parameterSelect">Choose a parameter:</label>
+                <select id="parameterSelect">
+                    <option value="Oxygen">Oxygen</option>
+                    <option value="Temperature">Temperature</option>
+                    <option value="Salinity">Salinity</option>
+                    <option value="Nitrate">Nitrate</option>
+                    <option value="Chl_a">Chl_a</option>
+                    <option value="fCDOM">fCDOM</option>
+                    <option value="Depth">Depth</option>
+                    <option value="Latitude">Latitude</option>
+                    <option value="Longitude">Longitude</option>
+                    <option value="Sigma-theta">Sigma-theta</option>
+                </select>
+                <button id="updateUserPlot">Draw Plot</button>
+            </div>
         <div id="userPlot"></div>
     </div>
-    <p> option: Latitude, Longitude, Temperature, Sigma-theta, Salinity, Oxygen, Nitrate, Chl_a, fCDOM, Depth</p>
+
 
     <div class="plots-container">
         <div id="temperaturePlot" class="single-plot"></div>
