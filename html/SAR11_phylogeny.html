@@ -13,18 +13,30 @@
     </script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>SAR11 gene catalog</title>
+    <title>SAR11 Atlas</title>
     <link rel="canonical" href="https://stsnsn.github.io/SAR11_Gene_Catalog/">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
     <link rel="stylesheet" href="../css/leaflet.css">
-    <script src="../js/leaflet.js"></script>
-    <script src="../js/papaparse.min.js"></script>
-    <script src="../js/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="../css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="../css/buttons.dataTables.min.css">
     <link rel="stylesheet" href="../css/MarkerCluster.css">
     <link rel="stylesheet" href="../css/MarkerCluster.Default.css">
     <link rel="stylesheet" href="../css/hue_roatte_icon.css">
+    <script src="../js/leaflet.js"></script>
+    <script src="../js/papaparse.min.js"></script>
+    <script src="../js/leaflet.markercluster.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery.dataTables.min.js"></script>
+    <script src="../js/dataTables.buttons.min.js"></script>
+    <script src="../js/jszip.min.js"></script>
+    <script src="../js/pdfmake.min.js"></script>
+    <script src="../js/vfs_fonts.js"></script>
+    <script src="../js/buttons.html5.min.js"></script>
+    <script src="../js/buttons.print.min.js"></script>
+    <script src="../js/dataTables.scroller.min.js"></script>
+
+    <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
     <style>
         #map { width: 100%; height: 600px; }
         .popup-content { font-size: 14px; }
@@ -44,7 +56,7 @@
     </script>-->
     <!-- 後で消す -->
         <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="../index.html">SAR11 gene catalog (Developing)</a>
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="../index.html">SAR11 Atlas (Developing)</a>
         </nav>
 
         <div class="container-fluid">
@@ -56,7 +68,7 @@
                                 <a class="nav-link active" href="./Overview.html">Overview</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./SAR11_phylogeny.html">SAR11 Phylogenic Tree</a>
+                                <a class="nav-link" href="./SAR11_phylogeny.html">SAR11 Genome Information</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./metaT.html">Metatranscriptome Viewer</a>
@@ -81,7 +93,7 @@
 
                 <div class="d-flex flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <br><br><br><br><br>
-                    <h1 class="h2">SAR11 phylogenic tree</h1>
+                    <h1 class="h2">SAR11 Genome Information</h1>
                     <br>
                 </div>
 
@@ -94,33 +106,119 @@
                         this.classList.toggle('dark-mode'); // ボタンのスタイルも切り替え
                     });
                 </script>
+                <hr style="margin-top: 20px; margin-bottom: 20px; border: 1px solid gray;">
                 <!-- Dark-mode toggle END -->
 
                 <!-- EDITABLE ZONE START -->
-                <p>Expand the phylogenetic tree to see the names of the genomes. Hover the mouse pointer over it for more information.</p>
-                <p>Color by: pull-down menu allows you to change the color coding</p>
-
-                <!-- tree -->
-                <a href="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist">Full screen view</a> / Download <a href="../data/SAR11.tree" download="SAR11.tree">newick file</a> and <a href="../data/subclade.txt" download="subclade.txt">table</a>
-                <iframe src="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist" id="taxonium" width="100%" height="70%" data-external="1" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay">
-                </iframe>
-
 
                 <!-- map -->
-                <div id="map"></div>
                 <br>
-                <p>
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h4>SAR11 Genome Map</h4>
+                </div>
+                <p style="text-align: right;">
                     <img src="../css/images/marker-icon.png" alt="Pure_culture" class="icon acmarker_yellow" /> Pure_culture (yellow),
                     <img src="../css/images/marker-icon.png" alt="SAG" class="icon acmarker_blue" /> SAG (blue),
                     <img src="../css/images/marker-icon.png" alt="MAG" class="icon acmarker_red" /> MAG (red)
                 </p>
+                <div id="map"></div>
+                <hr style="margin-top: 20px; margin-bottom: 20px; border: 1px solid gray;">
                 <br>
+
+                <!-- tree -->
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h4>SAR11 Phylogenic Tree</h4>
+                </div>
+                <p>Expand the phylogenetic tree to see the names of the genomes. Hover the mouse pointer over it for more information.</p>
+                <p>Color by: pull-down menu allows you to change the color coding</p>
+                <a href="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist">Full screen view</a> / Download <a href="../data/SAR11.tree" download="SAR11.tree">newick file</a> and <a href="../data/subclade.txt" download="subclade.txt">table</a>
+                <iframe src="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist" id="taxonium" width="100%" height="25%" data-external="1" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay">
+                </iframe>
+                <hr style="margin-top: 20px; margin-bottom: 20px; border: 1px solid gray;">
+
 
 
                 <!-- table -->
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h4>SAR11 Genome Information Table</h4>
+                </div>
                 <a href="./SAR11_genome_table.html">Full screen view</a>
-                <iframe src="./SAR11_genome_table.html" id="OGs" width="100%" height="50%" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay">
-                </iframe>
+                <table id="table" class="display" style="width:100%">
+                    <caption>まだ緯度経度情報を入力し終えていない</caption>
+                    <thead>
+                        <tr></tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+                <style>
+                    /* ページネーションを非表示に */
+                    .dataTables_wrapper .dataTables_paginate {display: none;}
+                    .dataTables_length {display: none;}
+                </style>
+                <script>
+                    $(document).ready(function () {
+                        // GitHub上のCSV/TSVファイルのURL
+                        const fileUrl = "../data/subclade.txt";
+                        // Papa Parseを使ってデータを取得
+                        Papa.parse(fileUrl, {
+                            download: true,
+                            delimiter: "\t", // TSVの場合
+                            header: true, // ヘッダー行を利用
+                            complete: function (result) {
+                                const data = result.data; // データ部分
+                                const headers = Object.keys(data[0]); // ヘッダー部分
+                                // ヘッダー行を生成
+                                let headerHtml = "";
+                                headers.forEach(header => {
+                                    headerHtml += `<th>${header}</th>`;
+                                });
+                                $("#table thead tr").html(headerHtml);
+                                // ボディ部分を生成
+                                let bodyHtml = "";
+                                data.forEach(row => {
+                                    bodyHtml += "<tr>";
+                                    headers.forEach(header => {
+                                        bodyHtml += `<td>${row[header]}</td>`;
+                                    });
+                                    bodyHtml += "</tr>";
+                                });
+                                $("#table tbody").html(bodyHtml);
+                                // DataTableを適用
+                                $("#table").DataTable({
+                                    dom: "Bfrtipl",
+                                    pageLength: 10,
+                                    buttons: ["copy", "csv",
+                                        {
+                                            text: "JSON", // JSONボタン
+                                            action: function (e, dt, node, config) {
+                                                const data = dt.buttons.exportData();
+                                                const json = JSON.stringify(data);
+                                                const blob = new Blob([json], { type: "application/json" });
+                                                const link = document.createElement("a");
+                                                link.href = URL.createObjectURL(blob);
+                                                link.download = "table_data.json";
+                                                document.body.appendChild(link);
+                                                link.click();
+                                                document.body.removeChild(link);
+                                            }
+                                    }, "excel", "print"],
+                                    responsive: true,
+                                    searching: true,
+                                    ordering: true,
+                                    paging: true,
+                                    scrollY: 600, // スクロール領域の高さをピクセル単位で指定
+                                    scroller: true, // Scrollerを有効化
+                                    language: {
+                                        infoEmpty: "No data available",
+                                        info: "Showing _START_ to _END_ of _TOTAL_ entries",
+                                        search: "Search:",
+                                    }
+                                });
+                            }
+                        });
+                    });
+                </script>
 
                 <br><br><br>
 
