@@ -21,8 +21,12 @@
     <link rel="stylesheet" href="../css/leaflet.css">
     <script src="../js/leaflet.js"></script>
     <script src="../js/papaparse.min.js"></script>
+    <script src="../js/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="../css/MarkerCluster.css">
+    <link rel="stylesheet" href="../css/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../css/hue_roatte_icon.css">
     <style>
-        #map { width: 100%; height: 500px; }
+        #map { width: 100%; height: 600px; }
         .popup-content { font-size: 14px; }
         .popup-content strong { color: #007bff; }
     </style>
@@ -98,13 +102,27 @@
 
                 <!-- tree -->
                 <a href="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist">Full screen view</a> / Download <a href="../data/SAR11.tree" download="SAR11.tree">newick file</a> and <a href="../data/subclade.txt" download="subclade.txt">table</a>
-                <iframe src="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist" id="taxonium" width="90%" height="70%" data-external="1" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay">
+                <iframe src="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist" id="taxonium" width="100%" height="70%" data-external="1" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay">
                 </iframe>
 
 
                 <!-- map -->
                 <div id="map"></div>
+                <br>
+                <p>
+                    <img src="../css/images/marker-icon.png" alt="Pure_culture" class="icon acmarker_yellow" /> Pure_culture (yellow),
+                    <img src="../css/images/marker-icon.png" alt="SAG" class="icon acmarker_blue" /> SAG (blue),
+                    <img src="../css/images/marker-icon.png" alt="MAG" class="icon acmarker_red" /> MAG (red)
+                </p>
+                <br>
 
+
+                <!-- table -->
+                <a href="./SAR11_genome_table.html">Full screen view</a>
+                <iframe src="./SAR11_genome_table.html" id="OGs" width="100%" height="50%" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay">
+                </iframe>
+
+                <br><br><br>
 
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h4>Reference</h4>

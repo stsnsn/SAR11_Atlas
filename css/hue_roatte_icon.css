@@ -1,0 +1,27 @@
+/* 基本のアイコン */
+.leaflet-marker-icon {
+    width: 25px;
+    height: 41px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* 赤色アイコン */
+.acmarker_red {
+    filter: hue-rotate(150deg);   /* 赤 */
+}
+
+/* 青色アイコン */
+.acmarker_blue {
+    filter: hue-rotate(0deg);  /* もとの青のまま */
+}
+
+/* 黄色アイコン */
+.acmarker_yellow {
+    filter: hue-rotate(200deg);   /* 黄色 */
+}
+
+/* 灰色アイコン */
+.acmarker_gray {
+    filter: saturate(0);   /* 彩度０で灰色 */
+}
