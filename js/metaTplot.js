@@ -126,42 +126,6 @@ document.getElementById('updateMap').addEventListener('click', () => {
     }
 });
 
-// プルダウンメニューの選択肢を設定
-document.addEventListener('DOMContentLoaded', function () {
-    const parameters = [
-        { value: 'Oxygen', text: 'Oxygen' },
-        { value: 'Temperature', text: 'Temperature' },
-        { value: 'Salinity', text: 'Salinity' },
-        { value: 'Nitrate', text: 'Nitrate' },
-        { value: 'Chl_a', text: 'Chl_a' },
-        { value: 'fCDOM', text: 'fCDOM' },
-        { value: 'Depth', text: 'Depth' },
-        { value: 'Latitude', text: 'Latitude' },
-        { value: 'Longitude', text: 'Longitude' },
-        { value: 'Sigma-theta', text: 'Sigma-theta' }
-    ];
-
-    // プルダウンメニューのDOM要素を取得
-    const selectElement = document.getElementById('userParameterSelect');
-
-    // 選択肢を追加
-    parameters.forEach(function (param) {
-        const option = document.createElement('option');
-        option.value = param.value;
-        option.textContent = param.text;
-        selectElement.appendChild(option);
-    });
-
-    // プルダウンメニューが選択された後にプロットを描画する処理
-    document.getElementById('updateUserPlot').addEventListener('click', function () {
-        const selectedParam = selectElement.value;
-        console.log('Selected parameter:', selectedParam);
-        // ここで、選ばれたパラメータに基づいてプロットを更新する処理を追加
-        // 例: updatePlot(selectedParam);
-    });
-});
-
-
 // Pearson corr calculation
 const calculatePearsonCorrelation = (x, y) => {
     // x と y の配列から NaN や null を取り除く
@@ -248,18 +212,30 @@ const updatePlots = (data) => {
 
 // ユーザー指定パラメータを基に相関プロット作成
 document.getElementById('updateUserPlot').addEventListener('click', () => {
-    const userParam = document.getElementById('userParameterInput').value.trim();
-    const validParams = ['Temperature', 'Salinity', 'Depth', 'Oxygen', 'Latitude', 'Longitude', 'Sigma-theta', 'Nitrate','Chl_a','fCDOM']; // 使用可能なパラメータを定義
+    // プルダウンメニューから選ばれたパラメータを取得
+    const userParam = document.getElementById('userParameterSelect').value;
+    const validParams = ['Temperature', 'Salinity', 'Depth', 'Oxygen', 'Latitude', 'Longitude', 'Sigma-theta', 'Nitrate', 'Chl_a', 'fCDOM']; // 使用可能なパラメータを定義
+
+    // パラメータが有効かどうかをチェック
     if (validParams.includes(userParam)) {
-        const csvFilePath = `../data/env_corr/${document.getElementById('ogInput').value.trim()}.csv`;
+        const ogId = document.getElementById('ogInput').value.trim();
+        const csvFilePath = `../data/env_corr/${ogId}.csv`;
+
+        // CSVファイルをパース
         Papa.parse(csvFilePath, {
             download: true,
             header: true,
             complete: function(results) {
                 const data = results.data;
+
+                // 指定されたパラメータとTPMデータを抽出
                 const paramData = data.map(row => parseFloat(row[userParam])).filter(val => !isNaN(val));
                 const tpm = data.map(row => parseFloat(row.TPM)).filter(val => !isNaN(val));
+
+                // ピアソン相関係数を計算
                 const correlation = calculatePearsonCorrelation(paramData, tpm);
+
+                // プロットデータの作成
                 const userPlotData = {
                     x: paramData,
                     y: tpm,
@@ -267,6 +243,8 @@ document.getElementById('updateUserPlot').addEventListener('click', () => {
                     type: 'scatter',
                     marker: { color: 'brown', size: 10, opacity: 0.2 }
                 };
+
+                // プロットのレイアウト
                 const userPlotLayout = {
                     title: `${userParam} vs TPM (r = ${correlation !== null ? correlation.toFixed(2) : 'N/A'})`,
                     xaxis: { title: userParam },
@@ -274,6 +252,8 @@ document.getElementById('updateUserPlot').addEventListener('click', () => {
                 };
                 Plotly.newPlot('userPlot', [userPlotData], userPlotLayout);
             },
+
+            // エラー処理
             error: function() {
                 alert('Invalid OG ID. Please enter a valid OG ID');
             }
@@ -282,6 +262,7 @@ document.getElementById('updateUserPlot').addEventListener('click', () => {
         alert('Invalid parameter. Valid options are: Latitude, Longitude, Temperature, Sigma-theta, Salinity, Oxygen, Nitrate, Chl_a, fCDOM, Depth');
     }
 });
+
 
 // ウィンドウサイズ変更時にプロットサイズを調整
 window.onresize = () => {
