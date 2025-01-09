@@ -32,10 +32,13 @@ const downloadCSV = (csvFilePath) => {
         }
     });
 };
-const map = L.map('map').setView([20, 0], 2);
+
+const map = L.map('map').setView([20, 0], 2); // 初期位置(緯度0度、経度0度）
+
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
+
 
 let markers = [];
 
@@ -56,7 +59,7 @@ const updateCircles = (csvFilePath) => {
 
                 if (!isNaN(lat) && !isNaN(lon) && tpm > 0) {
                     // radiusはピクセル単位に変更
-                    const radius = Math.pow(tpm, 0.3) * 2/1 ; // ピクセル単位に調整
+                    const radius = Math.pow(tpm, 0.3) * 1/1 ; // ピクセル単位に調整
 
                     const circleMarker = L.circleMarker([lat, lon], {
                         color: 'blue',
@@ -82,7 +85,7 @@ const updateCircles = (csvFilePath) => {
 };
 
 // 初期表示
-const initialCsvFile = '../data/env_corr/OG91.csv';
+const initialCsvFile = '../data/env_corr/OG1.csv';
 updateCircles(initialCsvFile);
 
 // 凡例の追加
@@ -97,7 +100,7 @@ const addLegend = () => {
         // Loop through the grades to create the circles with appropriate sizes
         grades.forEach((grade, index) => {
             const nextGrade = grades[index + 1];
-            const circleSize = Math.pow(grade, 0.3) * 2/1; // size
+            const circleSize = Math.pow(grade, 0.3) * 1/1; // size
             div.innerHTML += `
                 <i style="background: #3388ff; border-radius: 50%; width: ${circleSize}px; height: ${circleSize}px; display: inline-block;"></i>
                 ${grade}<br>

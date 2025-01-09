@@ -23,6 +23,7 @@
     <script src="../js/plotly-2.35.2.min.js"></script>
     <link rel="stylesheet" href="../css/metaT_style.css">
     <link rel="stylesheet" href="../css/data_table_style.css">
+    <script src="../js/pca_plot.js"></script>
 
 </head>
 
@@ -102,18 +103,40 @@
                 <!-- Dark-mode toggle END -->
 
                 <!-- EDITABLE ZONE START -->
-                <p>TPM: transcription per million</p>
-                <p>Metatranscriptome.</p>
-                <a href="./metaT_visualize.html">Full screen view</a> / Download <a href="./download.html" download="./download.html">mapping result</a>
-                <div id="map" style="width: 100%; height: 600px;"></div>
-                <div id="controls">
-                    <input type="text" id="ogInput" placeholder="Enter OG ID: (e.g. OG372)">
-                    <button id="updateMap">Update Plots</button>
-                    <button id="downloadData">Download CSV</button>
+                <div style="display: flex; justify-content: space-between;">
+                    <!-- PCA プロット -->
+                    <div id="plotly-3d-scatter" style="width: 100%; height: 500px;"></div>
                 </div>
+                <p>Please note that the cumulative proportion is only 20.0%. plotが大きいのでOGのIDだけでなく機能アノテーションも見れる様にすると、重すぎてブラウザが限界です</p>
+                <br>
+                <!-- MAP -->
+                <div style="display: flex; justify-content: space-between;">
+                    <div style="width: 100%; height: 800px;">
+                        <a href="./metaT_visualize.html">Full screen view</a>
+                        <a href="./download.html" download="./download.html">mapping result</a>
+                        <div id="map" style="width: 100%; height: 600px;"></div>
+                        <div id="controls">
+                            <input type="text" id="ogInput" placeholder="Enter OG ID: (e.g. OG372)">
+                            <button id="updateMap">Update Map and Correlation plots</button>
+                            <button id="downloadData">Download CSV</button>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br><br>
+
+                <div class="plots-container">
+                    <div id="temperaturePlot" class="single-plot"></div>
+                    <div id="salinityPlot" class="single-plot"></div>
+                </div>
+
+                <div class="plots-container">
+                    <div id="depthPlot" class="single-plot"></div>
+                    <div id="oxygenPlot" class="single-plot"></div>
+                </div>
+
                 <div id="userPlotContainer"> <!-- ユーザ指定のplot -->
                     <div>
-                        <label for="userParameterSelect">Choose a parameter:</label>
+                        <label for="userParameterSelect">Choose another parameter if you need:</label>
                         <select id="userParameterSelect">
                             <option value="Oxygen">Oxygen</option>
                             <option value="Temperature">Temperature</option>
@@ -132,16 +155,7 @@
                     <div id="userPlot"></div>
                 </div>
                 <p> option: Latitude, Longitude, Temperature, Sigma-theta, Salinity, Oxygen, Nitrate, Chl_a, fCDOM, Depth</p>
-
-                <div class="plots-container">
-                    <div id="temperaturePlot" class="single-plot"></div>
-                    <div id="salinityPlot" class="single-plot"></div>
-                </div>
-
-                <div class="plots-container">
-                    <div id="depthPlot" class="single-plot"></div>
-                    <div id="oxygenPlot" class="single-plot"></div>
-                </div>
+                <br>
 
                 <script src="../js/metaTplot.js"></script>
                 <br>
