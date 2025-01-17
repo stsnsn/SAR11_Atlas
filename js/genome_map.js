@@ -1,9 +1,20 @@
 // 地図を作成
-const map = L.map('map').setView([20, 0], 2); // 初期位置を緯度20、経度0に設定
+const map = L.map('map', {
+    minZoom: 2,  // 最小ズームレベル
+    maxZoom: 18  // 最大ズームレベル
+}).setView([0, 0], 2); // 初期位置(緯度00度、経度0度, zoom 1）
 
 // OpenStreetMapのタイルレイヤー
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+const MapPrintPlugin = L.easyPrint({
+    title: 'Save Map as Image',
+    position: 'topright',
+    exportOnly: true, // プレビューなしで直接ダウンロード
+    sizeModes: ['Current'], // 選択肢
+    filename: 'SAR11_Genome_Map',
 }).addTo(map);
 
 // MarkerClusterGroupの作成
@@ -25,7 +36,7 @@ function getIconByType(type) {
             iconClass = 'acmarker_yellow'; // Pure_cultureの場合は黄色いアイコン
             break;
         default:
-            iconClass = 'acmarker_gray'; // その他の場合は緑色のアイコン
+            iconClass = 'acmarker_gray'; // その他の場合は灰色のアイコン
             break;
     }
 
@@ -40,6 +51,47 @@ function getIconByType(type) {
 
 // TSVファイルのパス
 const tsvFilePath = '../data/subclade.txt'; // ここにTSVファイルのパスを指定
+let originalData = []; // 全データを保持する配列
+
+
+// 地図上のマーカーを更新する関数
+function updateMarkers(filterType) {
+    markers.clearLayers(); // 既存のマーカーを削除
+
+    originalData.forEach(row => {
+        const latitude = parseFloat(row.latitude); // 緯度
+        const longitude = parseFloat(row.longitude); // 経度
+
+        // 緯度経度が有効であり、フィルタ条件に一致する場合のみ表示
+        if (
+            !isNaN(latitude) &&
+            !isNaN(longitude) &&
+            (filterType === 'all' || row.type === filterType)
+        ) {
+            const marker = L.marker([latitude, longitude], {
+                icon: getIconByType(row.type) // typeに基づいてアイコンを設定
+            });
+
+            // ポップアップに表示する内容を動的に生成
+            let popupContent = '<div class="popup-content">';
+            for (let key in row) {
+                if (row.hasOwnProperty(key)) {
+                    popupContent += `<strong>${key}:</strong> ${row[key] || 'N/A'}<br>`;
+                }
+            }
+            popupContent += '</div>';
+
+            // クリック時にポップアップを表示
+            marker.bindPopup(popupContent);
+
+            // MarkerClusterGroupにマーカーを追加
+            markers.addLayer(marker);
+        }
+    });
+
+    // マーカーを地図に追加
+    map.addLayer(markers);
+}
 
 // TSVファイルを読み込む
 Papa.parse(tsvFilePath, {
@@ -47,41 +99,16 @@ Papa.parse(tsvFilePath, {
     header: true, // 1行目をヘッダーとして使用
     skipEmptyLines: true, // 空行をスキップ
     complete: function(results) {
-        // データ解析が完了した後に実行される
-        const data = results.data;
-        data.forEach(row => {
-            const latitude = parseFloat(row.latitude); // 緯度
-            const longitude = parseFloat(row.longitude); // 経度
-
-            // 緯度経度が有効であればマーカーを追加
-            if (!isNaN(latitude) && !isNaN(longitude)) {
-                // マーカーを作成
-                const marker = L.marker([latitude, longitude], {
-                    icon: getIconByType(row.type) // typeに基づいてアイコンを設定
-                });
-
-                // ポップアップに表示する内容を動的に生成
-                let popupContent = '<div class="popup-content">';
-                for (let key in row) {
-                    if (row.hasOwnProperty(key)) {
-                        popupContent += `<strong>${key}:</strong> ${row[key] || 'N/A'}<br>`;
-                    }
-                }
-                popupContent += '</div>';
-
-                // クリック時にポップアップを表示
-                marker.bindPopup(popupContent);
-
-                // MarkerClusterGroupにマーカーを追加
-                markers.addLayer(marker);
-            }
-        });
-
-        // マーカーを地図に追加
-        map.addLayer(markers);
+        originalData = results.data; // データを保持
+        updateMarkers('all'); // 初期状態で全データを表示
     },
     error: function(error) {
         console.error('TSV file loading error:', error);
     }
 });
 
+// プルダウンメニューの変更イベントを監視
+document.getElementById('filter').addEventListener('change', (event) => {
+    const selectedFilter = event.target.value; // 選択された値
+    updateMarkers(selectedFilter); // 地図を更新
+});

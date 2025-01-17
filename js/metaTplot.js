@@ -33,16 +33,27 @@ const downloadCSV = (csvFilePath) => {
     });
 };
 
-const map = L.map('map').setView([20, 0], 2); // 初期位置(緯度0度、経度0度）
+const map = L.map('map', {
+    minZoom: 1,  // 最小ズームレベル
+    maxZoom: 18  // 最大ズームレベル
+}).setView([20, 0], 1); // 初期位置(緯度20度、経度0度, zoom 1）
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
 
-let markers = [];
+const MapPrintPlugin = L.easyPrint({
+    title: 'Save Map as Image',
+    position: 'topright',
+    exportOnly: true, // プレビューなしで直接ダウンロード
+    sizeModes: ['A4Portrait'], // 選択肢
+    filename: 'SAR11_metaT_Map',
+}).addTo(map);
+
 
 // 地図の円を更新する関数
+let markers = [];
 const updateCircles = (csvFilePath) => {
     markers.forEach(marker => map.removeLayer(marker));
     markers = [];
@@ -106,7 +117,7 @@ const addLegend = () => {
                 ${grade}<br>
             `;
         });
-
+        div.style.backgroundColor = 'rgba(255, 255, 255, 0.5)';
         return div;
     };
 

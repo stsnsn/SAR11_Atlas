@@ -35,6 +35,9 @@
     <script src="../js/buttons.html5.min.js"></script>
     <script src="../js/buttons.print.min.js"></script>
     <script src="../js/dataTables.scroller.min.js"></script>
+    <!-- Leaflet easyprint plugin-->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-easyprint@2.1.9/dist/bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/leaflet-easyprint@2.1.9/libs/leaflet.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
     <style>
@@ -116,13 +119,24 @@
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h4>SAR11 Genome Map</h4>
                 </div>
+                <div id="controls"><!-- プルダウンメニュー -->
+                    <label for="filter">Data filter:</label>
+                    <select id="filter">
+                        <option value="all" selected>All</option>
+                        <option value="MAG">MAG</option>
+                        <option value="SAG">SAG</option>
+                        <option value="Pure_culture">Cultured strain</option>
+                    </select>
+                </div>
                 <p style="text-align: right;">
-                    <img src="../css/images/marker-icon.png" alt="Pure_culture" class="icon acmarker_yellow" /> Pure_culture (yellow),
+                    <img src="../css/images/marker-icon.png" alt="Pure_culture" class="icon acmarker_yellow" /> Cultured strain (yellow),
                     <img src="../css/images/marker-icon.png" alt="SAG" class="icon acmarker_blue" /> SAG (blue),
                     <img src="../css/images/marker-icon.png" alt="MAG" class="icon acmarker_red" /> MAG (red)
                 </p>
-                <div id="map"></div>
-                <hr style="margin-top: 20px; margin-bottom: 20px; border: 1px solid gray;">
+                <div style="display: flex; justify-content: space-between;">
+                    <div id="map" style="width: 1200px; height: 900px;"></div>
+                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 1px solid gray;">
+                </div>
                 <br>
 
                 <!-- tree -->
@@ -144,7 +158,7 @@
                 </div>
                 <a href="./SAR11_genome_table.html">Full screen view</a>
                 <table id="table" class="display" style="width:100%">
-                    <caption>まだ緯度経度情報を入力し終えていない</caption>
+                    <caption>修論321ゲノム + 全培養株</caption>
                     <thead>
                         <tr></tr>
                     </thead>
