@@ -36,7 +36,7 @@
 
     <table id="table" class="display" style="width:100%">
         <caption>SAR11 Ortholog List</caption>
-        <caption>仮でCOGclasssifierのE. coliアノテーションにリンクしてある</caption>
+        <caption>仮</caption>
         <thead>
             <tr></tr>
         </thead>
@@ -46,7 +46,7 @@
     <script>
         $(document).ready(function () {
             // GitHub上のCSV/TSVファイルのURL
-            const fileUrl = "https://raw.githubusercontent.com/moshi4/COGclassifier/main/example/output/ecoli_cog_classifier/classifier_result.tsv";
+            const fileUrl = "../data/annotation.tsv";
 
             // Papa Parseを使ってデータを取得
             Papa.parse(fileUrl, {
