@@ -127,7 +127,7 @@ addLegend();
 
 
 // 地図のズーム時に円のサイズを調整
-map.on('zoomend', () => updateCircles(initialCsvFile));
+map.on('zoomend', () => updateCircles(csvFilePath));
 
 // 地図更新ボタンのクリックイベント
 document.getElementById('updateMap').addEventListener('click', () => {
