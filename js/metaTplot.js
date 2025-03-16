@@ -127,7 +127,7 @@ addLegend();
 
 
 // 地図のズーム時に円のサイズを調整
-map.on('zoomend', () => updateCircles(csvFilePath));
+map.on('zoomend', () => updateCircles(`../data/env_corr/${document.getElementById('ogInput').value.trim()}.csv`));
 
 // 地図更新ボタンのクリックイベント
 document.getElementById('updateMap').addEventListener('click', () => {
