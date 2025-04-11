@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAR11 BLAST Search</title>
+    <link rel="canonical" href="https://stsnsn.github.io/SAR11_Gene_Catalog/">
+    <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="../index.html">SAR11 Genome Atlas</a>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Overview.html">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./SAR11_phylogeny.html">SAR11 Genome Information</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./metaT.html">Metatranscriptome Viewer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./og_list.html">List of All OGs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Neighborhood_network.html">Neighboring Network</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./SAR11_BLAST.html">SAR11 BLAST</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./download.html">Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <br><br><br><br><br>
+                    <h1 class="h2">BLAST Search</h1>
+                    <br>
+                </div>
+
+                <!-- Dark-mode toggle -->
+                <button id="toggleTheme" class="mb-3">Toggle Dark/Light Mode</button>
+                <script>
+                    document.getElementById('toggleTheme').addEventListener('click', function() {
+                        document.body.classList.toggle('dark-mode'); // bodyにダークモードのクラスを切り替え
+                        document.getElementById('table').classList.toggle('dark-mode'); // tableにダークモードのクラスを切り替え
+                        this.classList.toggle('dark-mode'); // ボタンのスタイルも切り替え
+                    });
+                </script>
+                <!-- Dark-mode toggle END -->
+
+                <p class="lead">On this page, you can view which ortholog group your entered amino acid sequence most closely aligns with in simple comparisons by the Smith-Waterman algorithm. For users interested in performing more detailed BLAST searches, we also provide access to the full BLAST database.</p>
+                <p class="lead">今は仮で藤原さんが集めたリファレンスロドプシン配列に検索がかかるようになっています</p>
+
+                <p>inputの例：<br>&gt;query<br>NIESLFEYTVGQFEAIDHLLTMGVGAHLAALVFFILVSRFVAPKYRVATALSCIVMVSAGQATMWTDAFAFNGRVYEPTDLTFSNGVNWMVTIPCLLTQLLIVLNIRGAALFKTAAALIFFAWGMIITGYVGQLYEVESIDQ</p>
+
+                <div>
+                    <textarea id="querySequence" placeholder="Enter a FASTA format amino acid sequence here" style="width: 100%; height: 150px;"></textarea>
+                    <button id="searchButton" class="btn btn-primary mt-2">Search</button>
+                </div>
+
+                <div id="results" class="mt-4">
+                    <!-- Results will be displayed here -->
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://biowasm.com/cdn/v3/aioli.js"></script>
+    <script type="module">
+        document.addEventListener('DOMContentLoaded', async () => {
+            const CLI = await new Aioli(["ssw/1.2.4"], {
+                printInterleaved: false
+            });
+
+            const searchButton = document.getElementById('searchButton');
+            const resultsDiv = document.getElementById('results');
+
+            const downloadButton = document.createElement('a');
+            downloadButton.id = 'downloadAlignmentResults';
+            downloadButton.className = 'btn btn-secondary ml-2';
+            downloadButton.style.display = 'none'; // Initially hidden
+            downloadButton.innerText = 'Download Table';
+            downloadButton.download = 'hit_scores.tsv'; // Set the download file name to 'hit_scores.tsv'
+            searchButton.insertAdjacentElement('afterend', downloadButton);
+
+            // Add a Refresh button next to the Download button
+            const refreshButton = document.createElement('button');
+            refreshButton.id = 'refreshButton';
+            refreshButton.className = 'btn btn-secondary ml-2';
+            refreshButton.innerText = 'Refresh';
+            refreshButton.style.display = 'none'; // Initially hide the Refresh button
+            refreshButton.addEventListener('click', () => {
+                location.reload(); // Reload the page
+            });
+            downloadButton.insertAdjacentElement('afterend', refreshButton);
+
+            // Move parsedAlignments outside the event listener
+            const parsedAlignments = []; // Define globally to maintain scope
+
+            searchButton.addEventListener('click', async () => {
+                // Initialize results and download button before any processing
+                resultsDiv.innerHTML = ''; // Clear previous results
+                parsedAlignments.length = 0; // Reset parsedAlignments array
+                downloadButton.style.display = 'none'; // Hide the download button
+
+                // Hide the Search button after it is clicked
+                searchButton.style.display = 'none';
+
+                // Revoke any previous object URL to avoid memory leaks
+                if (downloadButton.href) {
+                    URL.revokeObjectURL(downloadButton.href);
+                    downloadButton.href = ''; // Clear the href
+                }
+
+                const query = document.getElementById('querySequence').value.trim();
+
+                // Normalize line endings and split into lines
+                const normalizedQuery = query.replace(/\r\n|\r/g, '\n').trim();
+                const lines = normalizedQuery.split('\n');
+
+                // Validate input format
+                if (!lines[0].startsWith('>') || lines.length < 2) {
+                    alert('Error: Input must be in FASTA format with a single sequence.');
+                    // Show the Refresh button if an error occurs
+                    refreshButton.style.display = 'inline-block';
+                    return;
+                }
+
+                if (lines.filter(line => line.startsWith('>')).length > 1) {
+                    alert('Error: Only one sequence is allowed in the input.');
+                    // Show the Refresh button if an error occurs
+                    refreshButton.style.display = 'inline-block';
+                    return;
+                }
+
+                const sequenceName = lines[0].substring(1).trim(); // Extract sequence name
+                const sequenceData = lines.slice(1)
+                    .map(line => line.replace(/[^\x20-\x7E]/g, '').replace(/[^A-Za-z]/g, '').trim()) // Remove non-visible characters and non-alphabetic characters
+                    .join('').toUpperCase(); // Concatenate and convert to uppercase
+
+                // Validate sequence data (only alphabets allowed after processing)
+                if (!/^[A-Za-z]+$/.test(sequenceData)) {
+                    alert('Error: Sequence data must contain only alphabetic characters after removing spaces and numbers.');
+                    // Show the Refresh button if an error occurs
+                    refreshButton.style.display = 'inline-block';
+                    return;
+                }
+
+                if (!sequenceData) {
+                    alert('Error: Sequence data is missing.');
+                    // Show the Refresh button if an error occurs
+                    refreshButton.style.display = 'inline-block';
+                    return;
+                }
+
+                if (sequenceData.length > 5000) {
+                    alert('Error: Sequence data must not exceed 5000 AAs.');
+                    // Show the Refresh button if an error occurs
+                    refreshButton.style.display = 'inline-block';
+                    return;
+                }
+
+                // Display input sequence below the search button
+                const inputSeqDisplay = document.getElementById('inputSeqDisplay');
+                if (!inputSeqDisplay) {
+                    const newDisplay = document.createElement('p');
+                    newDisplay.id = 'inputSeqDisplay';
+                    newDisplay.style.fontSize = 'small';
+                    newDisplay.style.marginTop = '0.5rem';
+                    newDisplay.textContent = `Input seq: "${sequenceData}"`;
+                    searchButton.insertAdjacentElement('afterend', newDisplay);
+                } else {
+                    inputSeqDisplay.textContent = `Input seq: "${sequenceData}"`;
+                }
+
+                resultsDiv.innerHTML = '<p>Searching...</p>';
+
+                // Load the reference database only once when the Search button is clicked
+                const refData = await (await fetch("../data/BLAST/test_blast_db.fasta")).text();
+
+                // Mount the reference database and query sequence
+                await CLI.mount([
+                    {
+                        name: "ref.fa",
+                        data: refData
+                    },
+                    {
+                        name: "query.fa",
+                        data: `>${sequenceName}\n${sequenceData}\n`
+                    }
+                ]);
+
+                // Run "ssw" command to align query to reference and output SAM file
+                const output = await CLI.exec("ssw -s -header -c ref.fa query.fa");
+
+                // Debugging: Log the output to check its content
+                console.log("CLI.exec output:", output.stdout);
+                console.log("CLI.exec error output:", output.stderr);
+
+                // Parse SAM output and sort by score
+                const alignments = output.stdout.split("\n").filter(line => line && !line.startsWith("@"));
+                alignments.forEach(line => {
+                    const fields = line.split("\t");
+                    parsedAlignments.push({
+                        reference: fields[2] || "N/A",
+                        score: parseInt(fields.find(field => field.startsWith("AS:i:"))?.split(":")[2] || 0),
+                        cigar: fields[5] || "N/A"
+                    });
+                });
+
+                parsedAlignments.sort((a, b) => b.score - a.score);
+
+                // Get the top hit sequence from the reference database
+                const topHitName = parsedAlignments[0]?.reference || "";
+
+                if (!topHitName) {
+                    alert("No top hit found for alignment.");
+                    // Show the Refresh button if an error occurs
+                    refreshButton.style.display = 'inline-block';
+                    return;
+                }
+
+                // Extract the sequence corresponding to the top hit
+                const topHitSequence = refData.split(/\n(?=>)/).find(entry => entry.startsWith(`>${topHitName}`))?.split("\n").slice(1).join("") || "";
+
+                if (!topHitSequence) {
+                    alert(`Top hit sequence for ${topHitName} not found in the reference database.`);
+                    // Show the Refresh button if an error occurs
+                    refreshButton.style.display = 'inline-block';
+                    return;
+                }
+
+                // Load seq-align tools for Smith-Waterman and Needleman-Wunsch
+                const alignCLI = await new Aioli([
+                    "seq-align/smith_waterman/2017.10.18",
+                    "seq-align/needleman_wunsch/2017.10.18"
+                ]);
+
+                // Perform Smith-Waterman alignment
+                const swOutput = await alignCLI.exec(`smith_waterman ${sequenceData} ${topHitSequence}`);
+                console.log("Smith-Waterman Output:", swOutput);
+
+                // Perform Needleman-Wunsch alignment
+                const nwOutput = await alignCLI.exec(`needleman_wunsch ${sequenceData} ${topHitSequence}`);
+                console.log("Needleman-Wunsch Output:", nwOutput);
+
+                // Format and display alignment results without the score line
+                const formattedSWOutput = swOutput
+                    .split('\n')
+                    .filter(line => !line.includes('score:')) // Remove lines containing 'score:'
+                    .join('\n');
+
+                const formattedNWOutput = nwOutput
+                    .split('\n')
+                    .filter(line => !line.includes('score:')) // Remove lines containing 'score:'
+                    .join('\n');
+
+                resultsDiv.innerHTML = `
+                    <h4>"${sequenceName}" Alignment Results (vs top hit reference sequences):</h4>
+                    <div>
+                        <h5>Smith-Waterman:</h5>
+                        <pre>${formattedSWOutput}</pre>
+                        <h5>Needleman-Wunsch:</h5>
+                        <pre>${formattedNWOutput}</pre>
+                    </div>
+                `;
+
+                // Append alignment scores table
+                const scoresTable = `
+                    <h4>"${sequenceName}" Alignment Scores (Sorted by Score):</h4>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Reference</th>
+                                <th>Score</th>
+                                <th>CIGAR</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${parsedAlignments.map(alignment => `
+                                <tr>
+                                    <td>${alignment.reference}</td>
+                                    <td>${alignment.score}</td>
+                                    <td>${alignment.cigar}</td>
+                                </tr>
+                            `).join("")}
+                        </tbody>
+                    </table>
+                `;
+                resultsDiv.innerHTML += scoresTable;
+
+                // Generate downloadable results in SAM format
+                const blob = new Blob([output.stdout], { type: 'text/plain' });
+                downloadButton.href = URL.createObjectURL(blob);
+                downloadButton.style.display = 'inline-block'; // Show the download button
+
+                // Generate downloadable results for seq-align output
+                const seqAlignBlob = new Blob([`Smith-Waterman:\n${formattedSWOutput}\n\nNeedleman-Wunsch:\n${formattedNWOutput}`], { type: 'text/plain' });
+                const seqAlignDownloadButton = document.createElement('a');
+                seqAlignDownloadButton.id = 'downloadSeqAlignResults';
+                seqAlignDownloadButton.className = 'btn btn-secondary ml-2';
+                seqAlignDownloadButton.innerText = 'Download Seq-Align Results';
+                seqAlignDownloadButton.download = 'seq_align_results.txt';
+                seqAlignDownloadButton.href = URL.createObjectURL(seqAlignBlob);
+                seqAlignDownloadButton.style.display = 'inline-block';
+                downloadButton.insertAdjacentElement('afterend', seqAlignDownloadButton);
+
+                // Show the Refresh button after the search is complete
+                refreshButton.style.display = 'inline-block';
+
+                // Hide the input textarea after the search is complete
+                document.getElementById('querySequence').style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
