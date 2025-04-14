@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4J68VLT52H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-4J68VLT52H');
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>SAR11 Genome Atlas</title>
+    <link rel="canonical" href="https://stsnsn.github.io/SAR11_Gene_Catalog/">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="../css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+</head>
+
+<body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="../index.html">SAR11 Genome Atlas (Developing)</a>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Overview.html">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./SAR11_phylogeny.html">Genome Map</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./SAR11_OG_info.html">OG Information Viewer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./og_list.html">All OG List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./SAR11_BLAST.html">OG Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./SAR11_operon_vis.html">Neighboring Genes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Neighborhood_network.html">Neighboring Network</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./metaT.html">Metatranscriptome Viewer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./download.html">Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
+                    <div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                        <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0">
+                        </div>
+                    </div>
+                    <div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                        <div style="position:absolute;width:200%;height:200%;left:0; top:0">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <br><br><br><br><br>
+                    <h1 class="h2">Genome Context Viewer</h1>
+                    <br>
+                </div>
+                <!-- Dark-mode toggle -->
+                <button id="toggleTheme" class="mb-3">Toggle Dark/Light Mode</button>
+                <script>
+                    document.getElementById('toggleTheme').addEventListener('click', function () {
+                        document.body.classList.toggle('dark-mode'); // bodyにダークモードのクラスを切り替え
+                        document.getElementById('table').classList.toggle('dark-mode'); // tableにダークモードのクラスを切り替え
+                        this.classList.toggle('dark-mode'); // ボタンのスタイルも切り替え
+                    });
+                </script>
+                <!-- Dark-mode toggle END -->
+
+                <!-- EDITABLE ZONE START -->
+                <p>This page provides an interactive visualization tool for exploring the gene structures of SAR11 operons. Users can input a specific Orthologous Group (OG) to view the corresponding genes, their positions, and orientations. Key features include:</p>
+                <ul>
+                    <li><strong>Top 20 OG Highlighting:</strong> Highlights the most frequent 20 OGs with distinct colors, while others are displayed in gray.</li>
+                    <li><strong>Interactive Tooltips:</strong> Hover over genes to see detailed information such as sequence ID, group ID, and functional annotations.</li>
+                </ul>
+                <p>This tool is designed to help researchers and enthusiasts better understand the genomic context and relationships within the SAR11 clade.</p>
+                <div class="input-group mb-3">
+                    <input type="text" id="ogInput" class="form-control" placeholder="Enter OG (e.g., OG288)" aria-label="OG Input">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="loadData">Load Data</button>
+                    </div>
+                </div>
+                <div id="operonVisualization"></div>
+                <script src="https://d3js.org/d3.v6.min.js"></script>
+
+                <div id="operonVisualization"></div>
+
+                <script>
+                    // 凡例を追加する関数
+                    function addLegend(svg, colorScale, margin) {
+                        const legend = svg.append('g')
+                            .attr('transform', `translate(${svg.attr('width') - margin.right + 20}, ${margin.top})`);
+
+                        const legendData = colorScale.domain();
+
+                        legendData.forEach((d, i) => {
+                            const legendItem = legend.append('g')
+                                .attr('transform', `translate(0, ${i * 20})`);
+
+                            legendItem.append('rect')
+                                .attr('width', 15)
+                                .attr('height', 15)
+                                .attr('fill', colorScale(d));
+
+                            legendItem.append('text')
+                                .attr('x', 20)
+                                .attr('y', 12)
+                                .text(`OG${d}`)
+                                .attr('font-size', 12)
+                                .attr('alignment-baseline', 'middle');
+                        });
+                    }
+
+                    document.getElementById('loadData').addEventListener('click', function () {
+                        const og = document.getElementById('ogInput').value;
+                        if (!og) {
+                            alert('Please enter a valid OG.');
+                            return;
+                        }
+
+                        const filePath = `../data/operon_test/${og}.tsv`;
+                        d3.tsv(filePath).then(data => {
+                            d3.select('#operonVisualization').html(''); // Clear
+
+                            const width = 1000;
+                            const rowHeight = 50;
+                            const margin = { top: 20, right: 150, bottom: 20, left: 150 };
+                            const arrowHeight = 14;
+
+                            // 頻度計算
+                            const frequencyMap = d3.rollup(
+                                data,
+                                v => v.length,
+                                d => d.group_id
+                            );
+
+                            // 上位20OGを取得
+                            const top20OGs = Array.from(frequencyMap.entries())
+                                .sort((a, b) => b[1] - a[1]) // 頻度でソート
+                                .slice(0, 20) // 上位20個を取得
+                                .map(d => d[0]); // group_idのみ抽出
+
+                            // カラースケールを設定
+                            const ogColor = d3.scaleOrdinal(d3.schemeCategory10)
+                                .domain(top20OGs);
+
+                            const grouped = d3.groups(data, d => d.center_query);
+                            const height = grouped.length * rowHeight + margin.top + margin.bottom;
+
+                            const svg = d3.select('#operonVisualization')
+                                .append('svg')
+                                .attr('width', width)
+                                .attr('height', height);
+
+                            const g = svg.append('g').attr('transform', `translate(${margin.left}, ${margin.top})`);
+
+                            grouped.forEach(([center, genes], idx) => {
+                                const y = idx * rowHeight;
+
+                                const regionStart = d3.min(genes, d => +d.start);
+                                const regionEnd = d3.max(genes, d => +d.end);
+                                const xScale = d3.scaleLinear()
+                                    .domain([regionEnd, regionStart]) // 🔁 反転表示
+                                    .range([0, width - margin.left - margin.right]);
+
+                                // ラベル（genome名）
+                                svg.append('text')
+                                    .attr('x', margin.left - 10)
+                                    .attr('y', y + margin.top + arrowHeight / 2)
+                                    .attr('text-anchor', 'end')
+                                    .attr('alignment-baseline', 'middle')
+                                    .text(genes[0].genome);
+
+                                // contig名を追加
+                                svg.append('text')
+                                    .attr('x', margin.left - 10)
+                                    .attr('y', y + margin.top + arrowHeight / 2 + 12) // 少し下に配置
+                                    .attr('text-anchor', 'end')
+                                    .attr('alignment-baseline', 'middle')
+                                    .attr('font-size', 10) // 小さめのフォントサイズ
+                                    .attr('fill', 'gray') // 灰色で表示
+                                    .text(genes[0].contig);
+
+                                // 黒線（ベースライン）
+                                g.append('line')
+                                    .attr('x1', xScale(regionEnd))
+                                    .attr('x2', xScale(regionStart))
+                                    .attr('y1', y + arrowHeight / 2)
+                                    .attr('y2', y + arrowHeight / 2)
+                                    .attr('stroke', 'black')
+                                    .attr('stroke-width', 1);
+
+                                // 両端の塩基番号を表示
+                                g.append('text')
+                                    .attr('x', xScale(regionEnd))
+                                    .attr('y', y + arrowHeight + 12)
+                                    .attr('text-anchor', 'start')
+                                    .attr('font-size', 10)
+                                    .text(regionEnd);
+
+                                g.append('text')
+                                    .attr('x', xScale(regionStart))
+                                    .attr('y', y + arrowHeight + 12)
+                                    .attr('text-anchor', 'end')
+                                    .attr('font-size', 10)
+                                    .text(regionStart);
+
+                                genes.forEach(d => {
+                                    const geneStart = +d.start;
+                                    const geneEnd = +d.end;
+                                    const length = Math.min(Math.abs(geneEnd - geneStart), 3000);
+
+                                    const geneX = xScale(Math.min(geneStart, geneEnd) + length); // 反転に注意
+                                    const geneWidth = xScale(Math.min(geneStart, geneEnd)) - geneX;
+
+                                    const arrow = d.strand === '+'
+                                        ? `M${geneX},${y} h${geneWidth - 6} l6,${arrowHeight / 2} l-6,${arrowHeight / 2} h-${geneWidth - 6} z`
+                                        : `M${geneX + geneWidth},${y} h-${geneWidth - 6} l-6,${arrowHeight / 2} l6,${arrowHeight / 2} h${geneWidth - 6} z`;
+
+                                    // 上位20OGはカラースケール、それ以外はグレー
+                                    const fillColor = top20OGs.includes(d.group_id) ? ogColor(d.group_id) : '#cccccc';
+
+                                    g.append('path')
+                                        .attr('d', arrow)
+                                        .attr('fill', fillColor)
+                                        .attr('stroke', 'black')
+                                        .attr('stroke-width', d.center_query === d.seq_id ? 2 : 0.5)
+                                        .on('mouseover', function (event) {
+                                            const tooltip = d3.select('#tooltip');
+                                            tooltip.style('visibility', 'visible')
+                                                .style('top', `${event.pageY + 5}px`)
+                                                .style('left', `${event.pageX + 5}px`)
+                                                .html(`seq_id: ${d.seq_id}<br>group_id: ${d.group_id}<br>COG_ID: ${d.COG_ID || 'NA'}<br>COG_GENE_NAME: ${d.COG_GENE_NAME || 'NA'}<br>KO: ${d.KO || 'NA'}`);
+                                        })
+                                        .on('mouseout', function () {
+                                            d3.select('#tooltip').style('visibility', 'hidden');
+                                        });
+
+                                    // 🏷 OG番号（group_id）を矢印の上に表示
+                                    g.append('text')
+                                        .attr('x', geneX + geneWidth / 2)
+                                        .attr('y', y + arrowHeight / 2)
+                                        .attr('text-anchor', 'middle')
+                                        .attr('alignment-baseline', 'middle')
+                                        .attr('font-size', 10)
+                                        .attr('fill', 'white')
+                                        .text(`OG${d.group_id}`);
+                                });
+                            });
+
+                            // 凡例を追加
+                            addLegend(svg, ogColor, margin);
+                        }).catch(error => {
+                            alert('Error loading data: ' + error.message);
+                        });
+                    });
+                </script>
+
+                <!-- ツールチップ -->
+                <style>
+                    #tooltip {
+                        position: absolute;
+                        background-color: #fff;
+                        border: 1px solid #ccc;
+                        padding: 5px;
+                        font-size: 12px;
+                        pointer-events: none;
+                        visibility: hidden;
+                        white-space: pre-wrap;
+                        z-index: 10;
+                    }
+                </style>
+                <div id="tooltip"></div>
+
+                <!-- EDITABLE ZONE END -->
+
+                <div class="border-top p-4 mb-4">
+                    <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
+                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>ongoing.</em></p>
+                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade."</b> <em>in prep.</em></p>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>

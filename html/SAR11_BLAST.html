@@ -23,22 +23,28 @@
                             <a class="nav-link" href="./Overview.html">Overview</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./SAR11_phylogeny.html">SAR11 Genome Information</a>
+                            <a class="nav-link" href="./SAR11_phylogeny.html">Genome Map</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./metaT.html">Metatranscriptome Viewer</a>
+                            <a class="nav-link" href="./SAR11_OG_info.html">OG Information Viewer</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./og_list.html">List of All OGs</a>
+                            <a class="nav-link" href="./og_list.html">All OG List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./SAR11_BLAST.html">OG Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./SAR11_operon_vis.html">Neighboring Genes</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./Neighborhood_network.html">Neighboring Network</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
+                            <a class="nav-link" href="./metaT.html">Metatranscriptome Viewer</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./SAR11_BLAST.html">SAR11 BLAST</a>
+                            <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./download.html">Download</a>
@@ -313,7 +319,7 @@
                 downloadButton.style.display = 'inline-block'; // Show the download button
 
                 // Generate downloadable results for seq-align output
-                const seqAlignBlob = new Blob([`Smith-Waterman:\n${formattedSWOutput}\n\nNeedleman-Wunsch:\n${formattedNWOutput}`], { type: 'text/plain' });
+                const seqAlignBlob = new Blob([`Local alignment (Smith-Waterman):\n${formattedSWOutput}\n\nGLOBAL Alignment (Needleman-Wunsch):\n${formattedNWOutput}`], { type: 'text/plain' });
                 const seqAlignDownloadButton = document.createElement('a');
                 seqAlignDownloadButton.id = 'downloadSeqAlignResults';
                 seqAlignDownloadButton.className = 'btn btn-secondary ml-2';
