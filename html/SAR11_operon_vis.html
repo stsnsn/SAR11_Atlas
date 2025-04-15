@@ -100,7 +100,7 @@
                 </ul>
                 <p>This tool is designed to help researchers and enthusiasts better understand the genomic context and relationships within the SAR11 clade.</p>
                 <div class="input-group mb-3">
-                    <input type="text" id="ogInput" class="form-control" placeholder="Enter OG (e.g., OG288)" aria-label="OG Input">
+                    <input type="text" id="ogInput" class="form-control" placeholder="Enter OG (e.g., OG860)" aria-label="OG Input">
                     <div class="input-group-append">
                         <button class="btn btn-outline-secondary" type="button" id="loadData">Load Data</button>
                     </div>
@@ -108,9 +108,18 @@
                 <div id="operonVisualization"></div>
                 <script src="https://d3js.org/d3.v6.min.js"></script>
 
-                <div id="operonVisualization"></div>
+                <div id="operonVisualization2"></div>
 
                 <script>
+                    let grouped; // グローバルスコープに移動
+
+                    // getTextColor関数を追加
+                    function getTextColor(backgroundColor) {
+                        const rgb = d3.color(backgroundColor).rgb();
+                        const brightness = (rgb.r * 299 + rgb.g * 587 + rgb.b * 114) / 1000;
+                        return brightness > 128 ? 'black' : 'white';
+                    }
+
                     // 凡例を追加する関数
                     function addLegend(svg, colorScale, margin) {
                         const legend = svg.append('g')
@@ -169,7 +178,7 @@
                             const ogColor = d3.scaleOrdinal(d3.schemeCategory10)
                                 .domain(top20OGs);
 
-                            const grouped = d3.groups(data, d => d.center_query);
+                            grouped = d3.groups(data, d => d.center_query); // グローバル変数に代入
                             const height = grouped.length * rowHeight + margin.top + margin.bottom;
 
                             const svg = d3.select('#operonVisualization')
@@ -182,67 +191,97 @@
                             grouped.forEach(([center, genes], idx) => {
                                 const y = idx * rowHeight;
 
-                                const regionStart = d3.min(genes, d => +d.start);
-                                const regionEnd = d3.max(genes, d => +d.end);
+                                // 中心遺伝子を取得
+                                const centerGene = genes.find(d => d.seq_id === d.center_query);
+                                if (!centerGene) {
+                                    console.warn(`No center gene found for center_query: ${center}`);
+                                    return;
+                                }
+
+                                // strandがマイナスの場合、配列を逆順にし、座標を反転
+                                if (centerGene.strand === '-') {
+                                    genes.reverse();
+                                    genes.forEach(gene => {
+                                        const tempStart = gene.start;
+                                        gene.start = -gene.end;
+                                        gene.end = -tempStart;
+                                    });
+                                }
+
+                                // ゲノム名を描画（横幅を狭めるためにx座標を調整）
+                                g.append('text')
+                                    .attr('x', -50) // 左側にさらに配置
+                                    .attr('y', y + arrowHeight / 2)
+                                    .attr('text-anchor', 'end')
+                                    .attr('alignment-baseline', 'middle')
+                                    .attr('font-size', 12)
+                                    .text(centerGene.genome);
+
+                                // contig名を描画（横幅を狭めるためにx座標を調整）
+                                g.append('text')
+                                    .attr('x', -50) // 左側にさらに配置
+                                    .attr('y', y + arrowHeight / 2 + 12) // 少し下に配置
+                                    .attr('text-anchor', 'end')
+                                    .attr('alignment-baseline', 'middle')
+                                    .attr('font-size', 10)
+                                    .attr('fill', 'gray') // 灰色で表示
+                                    .text(centerGene.contig);
+
+                                // 中心遺伝子の中心座標を計算
+                                const centerMid = (+centerGene.start + +centerGene.end) / 2;
+
+                                // 遺伝子の範囲を計算
+                                let regionStart = d3.min(genes, d => +d.start);
+                                let regionEnd = d3.max(genes, d => +d.end);
+
+                                // 初期化されていない場合のデフォルト値
+                                if (regionStart === undefined || regionEnd === undefined) {
+                                    console.error('Error: Unable to determine regionStart or regionEnd. Setting default values.');
+                                    regionStart = 0;
+                                    regionEnd = 10000; // デフォルトの範囲
+                                }
+
+                                // 全体のスケールを遺伝子の範囲に設定
                                 const xScale = d3.scaleLinear()
-                                    .domain([regionEnd, regionStart]) // 🔁 反転表示
+                                    .domain([regionStart, regionEnd])
                                     .range([0, width - margin.left - margin.right]);
 
-                                // ラベル（genome名）
-                                svg.append('text')
-                                    .attr('x', margin.left - 10)
-                                    .attr('y', y + margin.top + arrowHeight / 2)
-                                    .attr('text-anchor', 'end')
-                                    .attr('alignment-baseline', 'middle')
-                                    .text(genes[0].genome);
-
-                                // contig名を追加
-                                svg.append('text')
-                                    .attr('x', margin.left - 10)
-                                    .attr('y', y + margin.top + arrowHeight / 2 + 12) // 少し下に配置
-                                    .attr('text-anchor', 'end')
-                                    .attr('alignment-baseline', 'middle')
-                                    .attr('font-size', 10) // 小さめのフォントサイズ
-                                    .attr('fill', 'gray') // 灰色で表示
-                                    .text(genes[0].contig);
-
-                                // 黒線（ベースライン）
+                                // 黒線（ベースライン）の描画
                                 g.append('line')
-                                    .attr('x1', xScale(regionEnd))
-                                    .attr('x2', xScale(regionStart))
+                                    .attr('x1', xScale(regionStart))
+                                    .attr('x2', xScale(regionEnd))
                                     .attr('y1', y + arrowHeight / 2)
                                     .attr('y2', y + arrowHeight / 2)
                                     .attr('stroke', 'black')
                                     .attr('stroke-width', 1);
 
-                                // 両端の塩基番号を表示
-                                g.append('text')
-                                    .attr('x', xScale(regionEnd))
-                                    .attr('y', y + arrowHeight + 12)
-                                    .attr('text-anchor', 'start')
-                                    .attr('font-size', 10)
-                                    .text(regionEnd);
-
+                                // 両端の塩基番号を表示（絶対値を使用）
                                 g.append('text')
                                     .attr('x', xScale(regionStart))
                                     .attr('y', y + arrowHeight + 12)
+                                    .attr('text-anchor', 'start')
+                                    .attr('font-size', 10)
+                                    .text(Math.abs(regionStart));
+
+                                g.append('text')
+                                    .attr('x', xScale(regionEnd))
+                                    .attr('y', y + arrowHeight + 12)
                                     .attr('text-anchor', 'end')
                                     .attr('font-size', 10)
-                                    .text(regionStart);
+                                    .text(Math.abs(regionEnd));
 
                                 genes.forEach(d => {
                                     const geneStart = +d.start;
                                     const geneEnd = +d.end;
                                     const length = Math.min(Math.abs(geneEnd - geneStart), 3000);
 
-                                    const geneX = xScale(Math.min(geneStart, geneEnd) + length); // 反転に注意
-                                    const geneWidth = xScale(Math.min(geneStart, geneEnd)) - geneX;
+                                    const x1 = xScale(Math.min(geneStart, geneEnd));
+                                    const x2 = xScale(Math.min(geneStart, geneEnd) + length);
+                                    const geneX = x1;
+                                    const geneWidth = Math.abs(x2 - x1);
 
-                                    const arrow = d.strand === '+'
-                                        ? `M${geneX},${y} h${geneWidth - 6} l6,${arrowHeight / 2} l-6,${arrowHeight / 2} h-${geneWidth - 6} z`
-                                        : `M${geneX + geneWidth},${y} h-${geneWidth - 6} l-6,${arrowHeight / 2} l6,${arrowHeight / 2} h${geneWidth - 6} z`;
+                                    const arrow = `M${geneX},${y} h${geneWidth - 6} l6,${arrowHeight / 2} l-6,${arrowHeight / 2} h-${geneWidth - 6} z`;
 
-                                    // 上位20OGはカラースケール、それ以外はグレー
                                     const fillColor = top20OGs.includes(d.group_id) ? ogColor(d.group_id) : '#cccccc';
 
                                     g.append('path')
@@ -268,12 +307,22 @@
                                         .attr('text-anchor', 'middle')
                                         .attr('alignment-baseline', 'middle')
                                         .attr('font-size', 10)
-                                        .attr('fill', 'white')
-                                        .text(`OG${d.group_id}`);
+                                        .attr('fill', getTextColor(fillColor))
+                                        .text(`OG${d.group_id}`)
+                                        .on('mouseover', function (event) {
+                                            const tooltip = d3.select('#tooltip');
+                                            tooltip.style('visibility', 'visible')
+                                                .style('top', `${event.pageY + 5}px`)
+                                                .style('left', `${event.pageX + 5}px`)
+                                                .html(`seq_id: ${d.seq_id}<br>group_id: ${d.group_id}<br>COG_ID: ${d.COG_ID || 'NA'}<br>COG_GENE_NAME: ${d.COG_GENE_NAME || 'NA'}<br>KO: ${d.KO || 'NA'}`);
+                                        })
+                                        .on('mouseout', function () {
+                                            d3.select('#tooltip').style('visibility', 'hidden');
+                                        });
                                 });
                             });
 
-                            // 凡例を追加
+                            // 凡例を描画
                             addLegend(svg, ogColor, margin);
                         }).catch(error => {
                             alert('Error loading data: ' + error.message);
