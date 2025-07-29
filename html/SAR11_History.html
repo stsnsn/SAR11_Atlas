@@ -18,6 +18,18 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+    <link rel="stylesheet" href="../css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="../css/buttons.dataTables.min.css">
+    <script src="../js/papaparse.min.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery.dataTables.min.js"></script>
+    <script src="../js/dataTables.buttons.min.js"></script>
+    <script src="../js/jszip.min.js"></script>
+    <script src="../js/pdfmake.min.js"></script>
+    <script src="../js/vfs_fonts.js"></script>
+    <script src="../js/buttons.html5.min.js"></script>
+    <script src="../js/buttons.print.min.js"></script>
+    <script src="../js/dataTables.scroller.min.js"></script>
 </head>
 
 <body>
@@ -58,10 +70,10 @@
                             <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./SAR11_History.html">History of SAR11</a>
+                            <a class="nav-link active" href="./SAR11_History.html">History of SAR11</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./download.html">Download</a>
+                            <a class="nav-link" href="./download.html">Download</a>
                         </li>
                     </ul>
                 </div>
@@ -81,7 +93,7 @@
 
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <br><br><br><br><br>
-                    <h1 class="h2">Download link</h1>
+                    <h1 class="h2">History of SAR11 clade</h1>
                     <br>
                 </div>
                 <!-- Dark-mode toggle -->
@@ -95,9 +107,80 @@
                 </script>
                 <!-- Dark-mode toggle END -->
 
+
+
+                <script>
+                    $(document).ready(function () {
+                        const fileUrl = "../data/250729_SAR11_paper_list.tsv";
+
+                        // Papa Parseを使ってデータを取得
+                        Papa.parse(fileUrl, {
+                            download: true,
+                            delimiter: "\t", // TSVの場合
+                            header: true, // ヘッダー行を利用
+                            complete: function (result) {
+                                const data = result.data; // データ部分
+                                const headers = Object.keys(data[0]); // ヘッダー部分
+
+                                // ヘッダー行を生成
+                                let headerHtml = "";
+                                headers.forEach(header => {
+                                    headerHtml += `<th>${header}</th>`;
+                                });
+                                $("#table thead tr").html(headerHtml);
+
+                                // ボディ部分を生成
+                                let bodyHtml = "";
+                                data.forEach(row => {
+                                    bodyHtml += "<tr>";
+                                    headers.forEach(header => {
+                                        bodyHtml += `<td>${row[header]}</td>`;
+                                    });
+                                    bodyHtml += "</tr>";
+                                });
+                                $("#table tbody").html(bodyHtml);
+
+                                // DataTableを適用
+                                $("#table").DataTable({
+                                    dom: "Bfrtipl",
+                                    pageLength: 10,
+                                    buttons: ["copy", "csv", "excel", "pdf", "print"],
+                                    responsive: true,
+                                    lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
+                                    searching: true,
+                                    ordering: true,
+                                    scrollY: 400, // スクロール領域の高さをピクセル単位で指定
+                                    scroller: true, // Scrollerを有効化
+                                    language: {
+                                        infoEmpty: "No data available",
+                                        lengthMenu: "Show _MENU_ entries",
+                                        info: "Showing _START_ to _END_ of _TOTAL_ entries",
+                                        search: "Search:",
+                                        paginate: {
+                                            first: "First",
+                                            previous: "Previous",
+                                            next: "Next",
+                                            last: "Last"
+                                        }
+                                    }
+                                });
+                            }
+                        });
+                    });
+                </script>
+
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <a href="" download="../data/subclade.txt">Genome Information Table</a> <br>
+                    <a href="" download="../data/250729_SAR11_paper_list.tsv">SAR11 Paper List (tsv format)</a> <br>
                 </div>
+
+                <iframe src="https://app.vosviewer.com/?map=../data/vos/vos_coauth_map.txt&network=../data/vos/vos_coauth_net.txt&n_lines=500" width="100%" height="600px"></iframe>
+
+                <table id="table" class="display" style="width:100%">
+                    <thead><tr></tr></thead>
+                    <tbody></tbody>
+                </table>
+
+
 
                 <div class="border-top p-4 mb-4">
                     <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
