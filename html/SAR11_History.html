@@ -70,7 +70,7 @@
                             <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./SAR11_History.html">History of SAR11</a>
+                            <a class="nav-link active" href="./SAR11_History.html">Literatures</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./download.html">Download</a>
@@ -93,7 +93,7 @@
 
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <br><br><br><br><br>
-                    <h1 class="h2">History of SAR11 clade</h1>
+                    <h1 class="h2">Literatures of SAR11 clade</h1>
                     <br>
                 </div>
                 <!-- Dark-mode toggle -->
@@ -146,10 +146,11 @@
                                     pageLength: 10,
                                     buttons: ["copy", "csv", "excel", "pdf", "print"],
                                     responsive: true,
-                                    lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
+                                    lengthChange: false, // エントリー数選択ドロップダウンを非表示に
+                                    // lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
                                     searching: true,
                                     ordering: true,
-                                    scrollY: 400, // スクロール領域の高さをピクセル単位で指定
+                                    scrollY: 600, // スクロール領域の高さを600pxに拡大
                                     scroller: true, // Scrollerを有効化
                                     language: {
                                         infoEmpty: "No data available",
@@ -169,6 +170,11 @@
                     });
                 </script>
 
+                <div style="margin-bottom: 10px;">
+                    <h3 style="font-weight:bold; color:#000000;">SAR11 Paper Networks</h3>
+                    <p style="font-size:1.1em; color:#1e1e1e;">These networks were created using VOSviewer based on the reference information organized in the table at the bottom of this page.</p>
+                </div>
+
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <a href="" download="../data/250729_SAR11_paper_list.tsv">SAR11 Paper List (tsv format)</a> <br>
                 </div>
@@ -182,6 +188,12 @@
                         <h5>Co-authorship map</h5>
                         <iframe src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1gYrLf2fPu3ui4eLfGJTrW8UaVSndEl-z" width="100%" height="600px"></iframe>
                     </div>
+                </div>
+                <br><br>
+
+                <div style="margin-bottom: 10px;">
+                    <h3 style="font-weight:bold; color:#000000;">SAR11 Paper List</h3>
+                    <p style="font-size:1.1em; color:#1e1e1e;">This is a list of papers related to the SAR11 clade. You can search, sort, and download information such as titles, authors, publication years, journals, and more for each paper. The paper data was obtained from the PubMed database on July 29, 2025, using the search terms (SAR11 OR Pelagibacter OR Pelagibacterales OR HTCC1062 OR Pelagiphage). Citation count data was retrieved using the Schematic Scholar API.</p>
                 </div>
 
                 <table id="table" class="display" style="width:100%">
