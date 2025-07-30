@@ -93,7 +93,7 @@
 
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <br><br><br><br><br>
-                    <h1 class="h2">Literatures of SAR11 clade</h1>
+                    <h1 class="h2">Literatures Information of SAR11 clade</h1>
                     <br>
                 </div>
                 <!-- Dark-mode toggle -->
@@ -171,35 +171,46 @@
                 </script>
 
                 <div style="margin-bottom: 10px;">
-                    <h3 style="font-weight:bold; color:#000000;">SAR11 Paper Networks</h3>
-                    <p style="font-size:1.1em; color:#1e1e1e;">These networks were created using VOSviewer based on the reference information organized in the table at the bottom of this page.</p>
+                    <h3 style="font-weight:bold">SAR11 Paper Networks</h3>
+                    <p style="font-size:1.1em">These networks were created using VOSviewer.</p>
                 </div>
 
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <a href="" download="../data/250729_SAR11_paper_list.tsv">SAR11 Paper List (tsv format)</a> <br>
+                    <a href="" download="../data/vos/250730_wos_paper_list.txt">SAR11 Paper List for Network</a> <br>
                 </div>
 
                 <div style="display: flex; gap: 10px;">
                     <div style="flex: 1; text-align: center;">
-                        <h5>Co-occurrence key words</h5>
-                        <iframe src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1L5eb_WE-ezU6mzkW8Mm1LCW9kFajIBco" width="100%" height="600px"></iframe>
+                        <h5>Citation map (Paper)</h5>
+                        <iframe src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D16h3QyjVetR41kABUodWM_OEqVs6TPKwK&item_color=1&item_size=2&item_size_variation=0.7&link_size_variation=0&min_link_strength=1&scale=0.5&simple_ui=true" width="100%" height="600px"></iframe>
+                    </div>
+                    <div style="flex: 1; text-align: center;">
+                        <h5>Citation map (Author)</h5>
+                        <iframe src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ALYxFAzT1x4d7wiocYhpvropDvXr-C8_&item_size_variation=1.0&link_size_variation=0&scale=0.5&simple_ui=true" width="100%" height="600px"></iframe>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 10px;">
+                    <div style="flex: 1; text-align: center;">
+                        <h5>Co-occurrence key words in titles and abstracts</h5>
+                        <iframe src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1GhCXexqaI_M5l0r32iCWR_s_7DtendJS&simple_ui=true&item_color=1&item_size=3&item_size_variation=0.8&scale=0.5" width="100%" height="600px"></iframe>
                     </div>
                     <div style="flex: 1; text-align: center;">
                         <h5>Co-authorship map</h5>
-                        <iframe src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1gYrLf2fPu3ui4eLfGJTrW8UaVSndEl-z" width="100%" height="600px"></iframe>
+                        <iframe src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1YmYpph-jhgYqPXiSK3C4T5y0T9F-UGE_&item_color=1&item_size=3&item_size_variation=1&scale=0.8" width="100%" height="600px"></iframe>
                     </div>
                 </div>
                 <br><br>
 
                 <div style="margin-bottom: 10px;">
-                    <h3 style="font-weight:bold; color:#000000;">SAR11 Paper List</h3>
-                    <p style="font-size:1.1em; color:#1e1e1e;">This is a list of papers related to the SAR11 clade. You can search, sort, and download information such as titles, authors, publication years, journals, and more for each paper. The paper data was obtained from the PubMed database on July 29, 2025. Citation count data was retrieved using the Schematic Scholar API.</p>
+                    <h3 style="font-weight:bold">SAR11 Paper List</h3>
+                    <p style="font-size:1.1em">This is a list of papers related to the SAR11 clade. You can search, sort, and download information such as titles, authors, publication years, journals, and more for each paper. The paper data was obtained from PubMed and Web of Science on July 2025, using the search terms (SAR11 OR Pelagibacter OR Pelagibacterales OR HTCC1062 OR Pelagiphage). Citation count data on PubMed table were retrieved using the Schematic Scholar API via doi.</p>
+                    <a href="" download="../data/250729_SAR11_paper_list.tsv">SAR11 Paper List for Table</a> <br>
+                    <table id="table" class="display" style="width:100%">
+                        <thead><tr></tr></thead>
+                        <tbody></tbody>
+                    </table>
                 </div>
-
-                <table id="table" class="display" style="width:100%">
-                    <thead><tr></tr></thead>
-                    <tbody></tbody>
-                </table>
 
 
 
