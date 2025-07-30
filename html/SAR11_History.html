@@ -142,7 +142,7 @@
 
                                 // DataTableを適用
                                 $("#table").DataTable({
-                                    dom: "Bfrtipl",
+                                    dom: "Bfrtil", // p=ページネーションコントロールボタンを消す
                                     pageLength: 10,
                                     buttons: ["copy", "csv", "excel", "pdf", "print"],
                                     responsive: true,
@@ -151,7 +151,7 @@
                                     searching: true,
                                     ordering: true,
                                     scrollY: 600, // スクロール領域の高さを600pxに拡大
-                                    scroller: true, // Scrollerを有効化
+                                    scroller: true, // Scrollerを有効化、このとき、paginationは有効でないといけない
                                     language: {
                                         infoEmpty: "No data available",
                                         lengthMenu: "Show _MENU_ entries",
