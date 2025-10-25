@@ -108,7 +108,7 @@
 
                 <div class="d-flex flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <br><br><br><br><br>
-                    <h1 class="h2">SAR11 Genome Information (Developing)</h1>
+                    <h1 class="h2">SAR11 Genome Information</h1>
                     <br>
                 </div>
 
@@ -131,20 +131,32 @@
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h4>SAR11 Genome Map</h4>
                 </div>
+
+                <!-- 説明 -->
+                <p style="text-align: left;">
+                    This map and table includes 541 SAR11 genomes with available isolation site information.<br>
+                    You can filter the genomes by selecting "MAG", "SAG", or "Cultured strain" from the "Data filter" pull-down menu.<br>
+                    Click on the markers to see more information about each genome.
+                    We are diligently collecting additional metadata.
+                </p>
+
                 <div id="controls"><!-- プルダウンメニュー -->
                     <label for="filter">Data filter:</label>
                     <select id="filter">
                         <option value="all" selected>All</option>
                         <option value="MAG">MAG</option>
                         <option value="SAG">SAG</option>
-                        <option value="Pure_culture">Cultured strain</option>
+                        <option value="isolate">Cultured strain</option>
                     </select>
                 </div>
+
+                <!-- 凡例 -->
                 <p style="text-align: right;">
-                    <img src="../css/images/marker-icon.png" alt="Pure_culture" class="icon acmarker_yellow" /> Cultured strain (yellow),
+                    <img src="../css/images/marker-icon.png" alt="isolate" class="icon acmarker_yellow" /> Cultured strain (yellow),
                     <img src="../css/images/marker-icon.png" alt="SAG" class="icon acmarker_blue" /> SAG (blue),
                     <img src="../css/images/marker-icon.png" alt="MAG" class="icon acmarker_red" /> MAG (red)
                 </p>
+
                 <div style="display: flex; justify-content: space-between;">
                     <div id="map" style="width: 1100px; height: 900px;"></div>
                     <hr style="margin-top: 20px; margin-bottom: 20px; border: 1px solid gray;">
@@ -155,11 +167,22 @@
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h4>SAR11 Phylogenic Tree</h4>
                 </div>
+                    <h5>Tree for Functional Unknomics (321 Genomes and an outgroup)</h5>
                 <p>Expand the phylogenetic tree to see the names of each genome. Hover the mouse pointer over it for more information.</p>
                 <p>Color by: pull-down menu allows you to change the color coding</p>
                 <a href="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist">Full screen view</a> / Download <a href="../data/SAR11.tree" download="SAR11.tree">newick file</a> and <a href="../data/subclade.txt" download="subclade.txt">table</a>
                 <iframe src="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist" id="taxonium" width="100%" height="25%" data-external="1" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay">
                 </iframe>
+                <br><br><br>
+                                    <h5>Tree for the SAR11 Genome Atlas (541 Genomes and outgroups)</h5>
+                <iframe
+                src="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D1nXZXHqop8sAuDAlvG5SFhdUk0KhhFh6D&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D1eDdPa2-I4A2tAqVI4hVmtRax0Jg0R2rm&metaType=meta_tsv&xType=x_dist"
+                width="100%"
+                height="600"
+                style="border: 1px solid #666;"
+                allowfullscreen
+                ></iframe>
+
                 <hr style="margin-top: 20px; margin-bottom: 20px; border: 1px solid gray;">
 
 
@@ -170,7 +193,7 @@
                 </div>
                 <a href="./SAR11_genome_table.html">Full screen view</a>
                 <table id="table" class="display" style="width:100%">
-                    <caption>全培養株を含むSAR11ゲノムカタログ</caption>
+                    <caption>The 541 genomes' information table</caption>
                     <thead>
                         <tr></tr>
                     </thead>

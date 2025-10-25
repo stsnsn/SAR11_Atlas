@@ -32,7 +32,7 @@ function getIconByType(type) {
         case 'SAG':
             iconClass = 'acmarker_blue'; // SAGの場合は青いアイコン
             break;
-        case 'Pure_culture':
+        case 'isolate':
             iconClass = 'acmarker_yellow'; // Pure_cultureの場合は黄色いアイコン
             break;
         default:
