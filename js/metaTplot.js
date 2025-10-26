@@ -4,6 +4,12 @@ document.getElementById('downloadData').addEventListener('click', () => {
     downloadCSV(csvFilePath);
 });
 
+// OG入力欄の初期値を設定（空ならOG1をセット）
+const ogInputEl = document.getElementById('ogInput');
+if (ogInputEl && !ogInputEl.value.trim()) {
+    ogInputEl.value = 'OG1';
+}
+
 // Reset the user plot
 const resetUserPlot = () => {
     // Clear the plot by removing the existing graph
@@ -22,12 +28,6 @@ const downloadCSV = (csvFilePath) => {
             const blob = new Blob([csv], { type: 'text/csv' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
-            a.href = url;
-            a.download = `${document.getElementById('ogInput').value.trim()}.csv`;
-            a.click();
-            URL.revokeObjectURL(url);
-        },
-        error: function() {
             alert('CSV file loading error');
         }
     });
