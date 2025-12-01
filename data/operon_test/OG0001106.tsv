@@ -1,0 +1,796 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP159811.1	Prodigal:2.6	CDS	586299	587255	.	+	0	Uisw_137_00654	Uisw_137	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_137_00659
+CP159811.1	Prodigal:2.6	CDS	587255	588109	.	+	0	Uisw_137_00655	Uisw_137	284	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_137_00659
+CP159811.1	Prodigal:2.6	CDS	588134	588937	.	-	0	Uisw_137_00656	Uisw_137	267	OG0002300	NA	NA	NA	NA	NA	Uisw_137_00659
+CP159811.1	Prodigal:2.6	CDS	588943	589638	.	-	0	Uisw_137_00657	Uisw_137	231	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	Uisw_137_00659
+CP159811.1	Prodigal:2.6	CDS	589647	590837	.	-	0	Uisw_137_00658	Uisw_137	396	OG0000814	NA	NA	COG4976	NA	Predicted methyltransferase, contains TPR repeat	Uisw_137_00659
+CP159811.1	Prodigal:2.6	CDS	590837	591367	.	-	0	Uisw_137_00659	Uisw_137	176	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_137_00659
+CP159811.1	Prodigal:2.6	CDS	591370	592257	.	-	0	Uisw_137_00660	Uisw_137	295	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_137_00659
+CP159811.1	Prodigal:2.6	CDS	592258	594381	.	-	0	Uisw_137_00661	Uisw_137	707	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	Uisw_137_00659
+CP159811.1	Prodigal:2.6	CDS	594378	594632	.	-	0	Uisw_137_00662	Uisw_137	84	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_137_00659
+CP159811.1	Aragorn:1.2	tRNA	594641	594715	.	-	.	Uisw_137_00663	Uisw_137	NA	NA	NA	NA	NA	NA	NA	Uisw_137_00659
+CP159811.1	Prodigal:2.6	CDS	594766	596460	.	-	0	Uisw_137_00664	Uisw_137	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_137_00659
+CP159821.1	Prodigal:2.6	CDS	879673	880200	.	+	0	Uisw_101_00947	Uisw_101	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	Uisw_101_00952
+CP159821.1	Prodigal:2.6	CDS	880209	880886	.	+	0	Uisw_101_00948	Uisw_101	225	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	Uisw_101_00952
+CP159821.1	Prodigal:2.6	CDS	880883	881707	.	-	0	Uisw_101_00949	Uisw_101	274	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_101_00952
+CP159821.1	Prodigal:2.6	CDS	881743	882762	.	+	0	Uisw_101_00950	Uisw_101	339	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	Uisw_101_00952
+CP159821.1	Prodigal:2.6	CDS	882759	883625	.	+	0	Uisw_101_00951	Uisw_101	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	Uisw_101_00952
+CP159821.1	Prodigal:2.6	CDS	883626	884153	.	+	0	Uisw_101_00952	Uisw_101	175	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_101_00952
+CP159821.1	Aragorn:1.2	tRNA	884848	884924	.	-	.	Uisw_101_00953	Uisw_101	NA	NA	NA	NA	NA	NA	NA	Uisw_101_00952
+CP159821.1	Prodigal:2.6	CDS	884989	885216	.	-	0	Uisw_101_00954	Uisw_101	75	OG0001202	NA	NA	NA	NA	NA	Uisw_101_00952
+CP159821.1	Prodigal:2.6	CDS	885259	887703	.	-	0	Uisw_101_00955	Uisw_101	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_101_00952
+CP159821.1	Prodigal:2.6	CDS	887750	888193	.	-	0	Uisw_101_00956	Uisw_101	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_101_00952
+CP159821.1	Prodigal:2.6	CDS	888212	888739	.	+	0	Uisw_101_00957	Uisw_101	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_101_00952
+CP159820.1	Prodigal:2.6	CDS	885316	885843	.	+	0	Uisw_104_00975	Uisw_104	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	Uisw_104_00980
+CP159820.1	Prodigal:2.6	CDS	885852	886529	.	+	0	Uisw_104_00976	Uisw_104	225	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	Uisw_104_00980
+CP159820.1	Prodigal:2.6	CDS	886526	887350	.	-	0	Uisw_104_00977	Uisw_104	274	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_104_00980
+CP159820.1	Prodigal:2.6	CDS	887386	888405	.	+	0	Uisw_104_00978	Uisw_104	339	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	Uisw_104_00980
+CP159820.1	Prodigal:2.6	CDS	888402	889268	.	+	0	Uisw_104_00979	Uisw_104	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	Uisw_104_00980
+CP159820.1	Prodigal:2.6	CDS	889269	889796	.	+	0	Uisw_104_00980	Uisw_104	175	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_104_00980
+CP159820.1	Prodigal:2.6	CDS	889789	890421	.	+	0	Uisw_104_00981	Uisw_104	210	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	Uisw_104_00980
+CP159820.1	Aragorn:1.2	tRNA	890492	890568	.	-	.	Uisw_104_00982	Uisw_104	NA	NA	NA	NA	NA	NA	NA	Uisw_104_00980
+CP159820.1	Prodigal:2.6	CDS	890710	891381	.	+	0	Uisw_104_00983	Uisw_104	223	OG0005331	NA	NA	NA	NA	NA	Uisw_104_00980
+CP159820.1	Aragorn:1.2	tRNA	891700	891772	.	-	.	Uisw_104_00984	Uisw_104	NA	NA	NA	NA	NA	NA	NA	Uisw_104_00980
+CP159820.1	Prodigal:2.6	CDS	891838	892065	.	-	0	Uisw_104_00985	Uisw_104	75	OG0001202	NA	NA	NA	NA	NA	Uisw_104_00980
+CP159819.1	Prodigal:2.6	CDS	176451	176765	.	+	0	Uisw_106_00187	Uisw_106	104	OG0001706	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_106_00192
+CP159819.1	Prodigal:2.6	CDS	176770	177585	.	+	0	Uisw_106_00188	Uisw_106	271	OG0001240	NA	NA	NA	NA	NA	Uisw_106_00192
+CP159819.1	Prodigal:2.6	CDS	177699	178259	.	+	0	Uisw_106_00189	Uisw_106	186	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	Uisw_106_00192
+CP159819.1	Prodigal:2.6	CDS	178249	179298	.	+	0	Uisw_106_00190	Uisw_106	349	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_106_00192
+CP159819.1	Prodigal:2.6	CDS	179305	180519	.	+	0	Uisw_106_00191	Uisw_106	404	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	Uisw_106_00192
+CP159819.1	Prodigal:2.6	CDS	180509	181045	.	+	0	Uisw_106_00192	Uisw_106	178	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_106_00192
+CP159819.1	Prodigal:2.6	CDS	181042	181968	.	+	0	Uisw_106_00193	Uisw_106	308	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_106_00192
+CP159819.1	Prodigal:2.6	CDS	181965	182930	.	+	0	Uisw_106_00194	Uisw_106	321	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_106_00192
+CP159819.1	Prodigal:2.6	CDS	182927	183157	.	+	0	Uisw_106_00195	Uisw_106	76	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_106_00192
+CP159819.1	Prodigal:2.6	CDS	183280	183663	.	+	0	Uisw_106_00196	Uisw_106	127	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_106_00192
+CP159819.1	Prodigal:2.6	CDS	183784	184122	.	+	0	Uisw_106_00197	Uisw_106	112	NA	NA	NA	NA	NA	NA	Uisw_106_00192
+CP159809.1	Aragorn:1.2	tRNA	397469	397543	.	+	.	Uisw_113_00418	Uisw_113	NA	NA	NA	NA	NA	NA	NA	Uisw_113_00423
+CP159809.1	Prodigal:2.6	CDS	398432	399295	.	+	0	Uisw_113_00419	Uisw_113	287	OG0001279	NA	NA	NA	NA	NA	Uisw_113_00423
+CP159809.1	Prodigal:2.6	CDS	399312	400475	.	-	0	Uisw_113_00420	Uisw_113	387	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_113_00423
+CP159809.1	Prodigal:2.6	CDS	400472	401746	.	-	0	Uisw_113_00421	Uisw_113	424	OG0001832	K16435	dTDP-4-dehydro-6-deoxy-alpha-D-glucopyranose 2,3-dehydratase [EC:4.2.1.159]	NA	NA	NA	Uisw_113_00423
+CP159809.1	Prodigal:2.6	CDS	401724	402938	.	-	0	Uisw_113_00422	Uisw_113	404	OG0000814	NA	NA	COG4976	NA	Predicted methyltransferase, contains TPR repeat	Uisw_113_00423
+CP159809.1	Prodigal:2.6	CDS	402945	403478	.	-	0	Uisw_113_00423	Uisw_113	177	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_113_00423
+CP159809.1	Prodigal:2.6	CDS	403541	404401	.	-	0	Uisw_113_00424	Uisw_113	286	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_113_00423
+CP159809.1	Prodigal:2.6	CDS	404711	405274	.	-	0	Uisw_113_00425	Uisw_113	187	OG0001414	NA	NA	NA	NA	NA	Uisw_113_00423
+CP159809.1	Prodigal:2.6	CDS	405476	405718	.	-	0	Uisw_113_00426	Uisw_113	80	OG0002766	NA	NA	COG3056	YajG	Uncharacterized lipoprotein YajG	Uisw_113_00423
+CP159809.1	Prodigal:2.6	CDS	405733	405942	.	-	0	Uisw_113_00427	Uisw_113	69	OG0002334	NA	NA	NA	NA	NA	Uisw_113_00423
+CP159809.1	Prodigal:2.6	CDS	405996	406376	.	-	0	Uisw_113_00428	Uisw_113	126	OG0003225	NA	NA	NA	NA	NA	Uisw_113_00423
+CP159817.1	Prodigal:2.6	CDS	560006	560998	.	+	0	Uisw_116_00636	Uisw_116	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_116_00641
+CP159817.1	Prodigal:2.6	CDS	560998	561945	.	+	0	Uisw_116_00637	Uisw_116	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_116_00641
+CP159817.1	Prodigal:2.6	CDS	561942	563636	.	+	0	Uisw_116_00638	Uisw_116	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_116_00641
+CP159817.1	Aragorn:1.2	tRNA	563687	563761	.	+	.	Uisw_116_00639	Uisw_116	NA	NA	NA	NA	NA	NA	NA	Uisw_116_00641
+CP159817.1	Prodigal:2.6	CDS	563771	564052	.	+	0	Uisw_116_00640	Uisw_116	93	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_116_00641
+CP159817.1	Prodigal:2.6	CDS	564039	564566	.	+	0	Uisw_116_00641	Uisw_116	175	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_116_00641
+CP159817.1	Prodigal:2.6	CDS	564617	564847	.	+	0	Uisw_116_00642	Uisw_116	76	OG0001964	NA	NA	COG1043	LpxA	Acyl-[acyl carrier protein]--UDP-N-acetylglucosamine O-acyltransferase	Uisw_116_00641
+CP159817.1	Prodigal:2.6	CDS	564868	565206	.	+	0	Uisw_116_00643	Uisw_116	112	OG0001964	NA	NA	COG1043	LpxA	Acyl-[acyl carrier protein]--UDP-N-acetylglucosamine O-acyltransferase	Uisw_116_00641
+CP159817.1	Prodigal:2.6	CDS	565203	567224	.	+	0	Uisw_116_00644	Uisw_116	673	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_116_00641
+CP159817.1	Prodigal:2.6	CDS	567299	567913	.	+	0	Uisw_116_00645	Uisw_116	204	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_116_00641
+CP159817.1	Prodigal:2.6	CDS	567873	568382	.	+	0	Uisw_116_00646	Uisw_116	169	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_116_00641
+CP159816.1	Prodigal:2.6	CDS	602598	603590	.	+	0	Uisw_121_00642	Uisw_121	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_121_00647
+CP159816.1	Prodigal:2.6	CDS	603590	604537	.	+	0	Uisw_121_00643	Uisw_121	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_121_00647
+CP159816.1	Prodigal:2.6	CDS	604534	606228	.	+	0	Uisw_121_00644	Uisw_121	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_121_00647
+CP159816.1	Aragorn:1.2	tRNA	606279	606353	.	+	.	Uisw_121_00645	Uisw_121	NA	NA	NA	NA	NA	NA	NA	Uisw_121_00647
+CP159816.1	Prodigal:2.6	CDS	606378	606641	.	+	0	Uisw_121_00646	Uisw_121	87	OG0000863	NA	NA	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_121_00647
+CP159816.1	Prodigal:2.6	CDS	606628	607161	.	+	0	Uisw_121_00647	Uisw_121	177	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_121_00647
+CP159816.1	Prodigal:2.6	CDS	607165	607503	.	+	0	Uisw_121_00648	Uisw_121	112	OG0000842	NA	NA	NA	NA	NA	Uisw_121_00647
+CP159816.1	Prodigal:2.6	CDS	607517	607753	.	+	0	Uisw_121_00649	Uisw_121	78	OG0000842	NA	NA	NA	NA	NA	Uisw_121_00647
+CP159816.1	Prodigal:2.6	CDS	607755	609278	.	+	0	Uisw_121_00650	Uisw_121	507	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	Uisw_121_00647
+CP159816.1	Prodigal:2.6	CDS	609286	610173	.	+	0	Uisw_121_00651	Uisw_121	295	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_121_00647
+CP159816.1	Prodigal:2.6	CDS	610178	611389	.	+	0	Uisw_121_00652	Uisw_121	403	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_121_00647
+CP159818.1	Prodigal:2.6	CDS	648198	649070	.	+	0	Uisw_114_00763	Uisw_114	290	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_114_00768
+CP159818.1	Prodigal:2.6	CDS	649070	649909	.	+	0	Uisw_114_00764	Uisw_114	279	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_114_00768
+CP159818.1	Prodigal:2.6	CDS	650013	651707	.	+	0	Uisw_114_00765	Uisw_114	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_114_00768
+CP159818.1	Aragorn:1.2	tRNA	651758	651832	.	+	.	Uisw_114_00766	Uisw_114	NA	NA	NA	NA	NA	NA	NA	Uisw_114_00768
+CP159818.1	Prodigal:2.6	CDS	651842	652123	.	+	0	Uisw_114_00767	Uisw_114	93	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_114_00768
+CP159818.1	Prodigal:2.6	CDS	652110	652637	.	+	0	Uisw_114_00768	Uisw_114	175	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_114_00768
+CP159818.1	Prodigal:2.6	CDS	652687	652920	.	+	0	Uisw_114_00769	Uisw_114	77	OG0001964	NA	NA	COG1043	LpxA	Acyl-[acyl carrier protein]--UDP-N-acetylglucosamine O-acyltransferase	Uisw_114_00768
+CP159818.1	Prodigal:2.6	CDS	652938	653276	.	+	0	Uisw_114_00770	Uisw_114	112	OG0001964	NA	NA	COG1043	LpxA	Acyl-[acyl carrier protein]--UDP-N-acetylglucosamine O-acyltransferase	Uisw_114_00768
+CP159818.1	Prodigal:2.6	CDS	653273	655315	.	+	0	Uisw_114_00771	Uisw_114	680	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_114_00768
+CP159818.1	Prodigal:2.6	CDS	655369	656586	.	+	0	Uisw_114_00772	Uisw_114	405	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_114_00768
+CP159818.1	Prodigal:2.6	CDS	657483	658364	.	+	0	Uisw_114_00773	Uisw_114	293	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_114_00768
+CP159814.1	Prodigal:2.6	CDS	148763	149866	.	+	0	Uisw_130_00156	Uisw_130	367	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	Uisw_130_00161
+CP159814.1	Prodigal:2.6	CDS	149880	150599	.	+	0	Uisw_130_00157	Uisw_130	239	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	Uisw_130_00161
+CP159814.1	Prodigal:2.6	CDS	150592	151446	.	-	0	Uisw_130_00158	Uisw_130	284	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_130_00161
+CP159814.1	Prodigal:2.6	CDS	151450	152367	.	-	0	Uisw_130_00159	Uisw_130	305	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_130_00161
+CP159814.1	Prodigal:2.6	CDS	152364	152777	.	-	0	Uisw_130_00160	Uisw_130	137	OG0001803	NA	NA	NA	NA	NA	Uisw_130_00161
+CP159814.1	Prodigal:2.6	CDS	152774	153274	.	-	0	Uisw_130_00161	Uisw_130	166	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_130_00161
+CP159814.1	Prodigal:2.6	CDS	153350	154441	.	+	0	Uisw_130_00162	Uisw_130	363	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_130_00161
+CP159814.1	Prodigal:2.6	CDS	154457	154555	.	+	0	Uisw_130_00163	Uisw_130	32	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	Uisw_130_00161
+CP159814.1	Prodigal:2.6	CDS	154560	155051	.	+	0	Uisw_130_00164	Uisw_130	163	OG0000109	NA	NA	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	Uisw_130_00161
+CP159814.1	Prodigal:2.6	CDS	155048	156151	.	-	0	Uisw_130_00165	Uisw_130	367	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_130_00161
+CP159814.1	Prodigal:2.6	CDS	156155	157375	.	-	0	Uisw_130_00166	Uisw_130	406	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_130_00161
+CP159824.1	Prodigal:2.6	CDS	586038	587732	.	+	0	Uisw_092_00644	Uisw_092	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_092_00649
+CP159824.1	Aragorn:1.2	tRNA	587783	587857	.	+	.	Uisw_092_00645	Uisw_092	NA	NA	NA	NA	NA	NA	NA	Uisw_092_00649
+CP159824.1	Prodigal:2.6	CDS	587882	588115	.	+	0	Uisw_092_00646	Uisw_092	77	OG0000863	NA	NA	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_092_00649
+CP159824.1	Prodigal:2.6	CDS	588115	590229	.	+	0	Uisw_092_00647	Uisw_092	704	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	Uisw_092_00649
+CP159824.1	Prodigal:2.6	CDS	590231	591115	.	+	0	Uisw_092_00648	Uisw_092	294	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_092_00649
+CP159824.1	Prodigal:2.6	CDS	591118	591648	.	+	0	Uisw_092_00649	Uisw_092	176	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_092_00649
+CP159824.1	Prodigal:2.6	CDS	591648	592838	.	+	0	Uisw_092_00650	Uisw_092	396	OG0000814	NA	NA	COG4976	NA	Predicted methyltransferase, contains TPR repeat	Uisw_092_00649
+CP159824.1	Prodigal:2.6	CDS	592848	593660	.	+	0	Uisw_092_00651	Uisw_092	270	OG0001205	NA	NA	NA	NA	NA	Uisw_092_00649
+CP159824.1	Prodigal:2.6	CDS	593708	594508	.	+	0	Uisw_092_00652	Uisw_092	266	OG0002300	NA	NA	NA	NA	NA	Uisw_092_00649
+CP159824.1	Prodigal:2.6	CDS	594539	595393	.	-	0	Uisw_092_00653	Uisw_092	284	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_092_00649
+CP159824.1	Prodigal:2.6	CDS	595393	595677	.	-	0	Uisw_092_00654	Uisw_092	94	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_092_00649
+CP159810.1	Prodigal:2.6	CDS	839363	840217	.	-	0	Uisw_090_00937	Uisw_090	284	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_090_00941
+CP159810.1	Prodigal:2.6	CDS	840221	841447	.	-	0	Uisw_090_00938	Uisw_090	408	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	Uisw_090_00941
+CP159810.1	Prodigal:2.6	CDS	841576	842346	.	-	0	Uisw_090_00939	Uisw_090	256	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	Uisw_090_00941
+CP159810.1	Prodigal:2.6	CDS	842376	844121	.	-	0	Uisw_090_00940	Uisw_090	581	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	Uisw_090_00941
+CP159810.1	Prodigal:2.6	CDS	842376	844121	.	-	0	Uisw_090_00940	Uisw_090	581	OG0000032	K01992	ABC-2 type transport system permease protein	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	Uisw_090_00941
+CP159810.1	Prodigal:2.6	CDS	844142	844696	.	-	0	Uisw_090_00941	Uisw_090	184	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_090_00941
+CP159810.1	Prodigal:2.6	CDS	844693	845574	.	-	0	Uisw_090_00942	Uisw_090	293	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	Uisw_090_00941
+CP159810.1	Prodigal:2.6	CDS	845578	846651	.	-	0	Uisw_090_00943	Uisw_090	357	OG0000001	K01710	dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	Uisw_090_00941
+CP159810.1	Prodigal:2.6	CDS	846695	847738	.	-	0	Uisw_090_00944	Uisw_090	347	OG0004419	NA	NA	COG3765	WzzB	LPS O-antigen chain length determinant protein, WzzB/FepE family	Uisw_090_00941
+CP159810.1	Prodigal:2.6	CDS	847832	848914	.	-	0	Uisw_090_00945	Uisw_090	360	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	Uisw_090_00941
+CP159810.1	Prodigal:2.6	CDS	848943	849077	.	-	0	Uisw_090_00946	Uisw_090	44	OG0001435	NA	NA	NA	NA	NA	Uisw_090_00941
+CP159822.1	Prodigal:2.6	CDS	391265	393103	.	+	0	Uisw_099_02_00422	Uisw_099_02	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_099_02_00427
+CP159822.1	Prodigal:2.6	CDS	393314	394204	.	+	0	Uisw_099_02_00423	Uisw_099_02	296	OG0001394	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	Uisw_099_02_00427
+CP159822.1	Prodigal:2.6	CDS	394489	396522	.	+	0	Uisw_099_02_00424	Uisw_099_02	677	OG0001795	NA	NA	NA	NA	NA	Uisw_099_02_00427
+CP159822.1	Aragorn:1.2	tRNA	396679	396755	.	+	.	Uisw_099_02_00425	Uisw_099_02	NA	NA	NA	NA	NA	NA	NA	Uisw_099_02_00427
+CP159822.1	Prodigal:2.6	CDS	396758	397483	.	-	0	Uisw_099_02_00426	Uisw_099_02	241	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	Uisw_099_02_00427
+CP159822.1	Prodigal:2.6	CDS	397449	397982	.	-	0	Uisw_099_02_00427	Uisw_099_02	177	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_099_02_00427
+CP159822.1	Prodigal:2.6	CDS	397979	398848	.	-	0	Uisw_099_02_00428	Uisw_099_02	289	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	Uisw_099_02_00427
+CP159822.1	Prodigal:2.6	CDS	398845	399867	.	-	0	Uisw_099_02_00429	Uisw_099_02	340	OG0000001	K01710	dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	Uisw_099_02_00427
+CP159822.1	Prodigal:2.6	CDS	399915	400775	.	+	0	Uisw_099_02_00430	Uisw_099_02	286	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_099_02_00427
+CP159822.1	Prodigal:2.6	CDS	400772	401299	.	-	0	Uisw_099_02_00431	Uisw_099_02	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	Uisw_099_02_00427
+CP159822.1	Prodigal:2.6	CDS	401341	402213	.	+	0	Uisw_099_02_00432	Uisw_099_02	290	OG0000956	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	Uisw_099_02_00427
+NZ_LANA01000002.1	Prodigal:2.6	CDS	306086	307045	.	+	0	HTCC9565_01153	HTCC9565	319	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC9565_01158
+NZ_LANA01000002.1	Prodigal:2.6	CDS	307045	307893	.	+	0	HTCC9565_01154	HTCC9565	282	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC9565_01158
+NZ_LANA01000002.1	Prodigal:2.6	CDS	307898	308656	.	-	0	HTCC9565_01155	HTCC9565	252	OG0003665	NA	NA	NA	NA	NA	HTCC9565_01158
+NZ_LANA01000002.1	Prodigal:2.6	CDS	308662	310050	.	-	0	HTCC9565_01156	HTCC9565	462	OG0001566	NA	NA	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	HTCC9565_01158
+NZ_LANA01000002.1	Prodigal:2.6	CDS	310052	310483	.	-	0	HTCC9565_01157	HTCC9565	143	OG0001831	NA	NA	NA	NA	NA	HTCC9565_01158
+NZ_LANA01000002.1	Prodigal:2.6	CDS	310501	311031	.	-	0	HTCC9565_01158	HTCC9565	176	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HTCC9565_01158
+NZ_LANA01000002.1	Prodigal:2.6	CDS	311028	311918	.	-	0	HTCC9565_01159	HTCC9565	296	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC9565_01158
+NZ_LANA01000002.1	Prodigal:2.6	CDS	311923	314040	.	-	0	HTCC9565_01160	HTCC9565	705	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HTCC9565_01158
+NZ_LANA01000002.1	Prodigal:2.6	CDS	314037	314291	.	-	0	HTCC9565_01161	HTCC9565	84	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC9565_01158
+NZ_LANA01000002.1	Aragorn:1.2	tRNA	314297	314371	.	-	.	HTCC9565_01162	HTCC9565	NA	NA	NA	NA	NA	NA	NA	HTCC9565_01158
+NZ_LANA01000002.1	Prodigal:2.6	CDS	314421	316115	.	-	0	HTCC9565_01163	HTCC9565	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HTCC9565_01158
+CP159813.1	Prodigal:2.6	CDS	546517	547365	.	+	0	Uisw_134_02_00616	Uisw_134_02	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_134_02_00621
+CP159813.1	Prodigal:2.6	CDS	547897	548175	.	-	0	Uisw_134_02_00617	Uisw_134_02	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_134_02_00621
+CP159813.1	Prodigal:2.6	CDS	548156	548593	.	-	0	Uisw_134_02_00618	Uisw_134_02	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_134_02_00621
+CP159813.1	Prodigal:2.6	CDS	548633	549124	.	-	0	Uisw_134_02_00619	Uisw_134_02	163	OG0002746	NA	NA	COG1714	YckC	Uncharacterized membrane protein YckC, RDD family	Uisw_134_02_00621
+CP159813.1	Prodigal:2.6	CDS	549206	550162	.	+	0	Uisw_134_02_00620	Uisw_134_02	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_134_02_00621
+CP159813.1	Prodigal:2.6	CDS	550159	550686	.	-	0	Uisw_134_02_00621	Uisw_134_02	175	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_134_02_00621
+CP159813.1	Prodigal:2.6	CDS	550848	551738	.	+	0	Uisw_134_02_00622	Uisw_134_02	296	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_134_02_00621
+CP159813.1	Prodigal:2.6	CDS	551738	552535	.	+	0	Uisw_134_02_00623	Uisw_134_02	265	OG0001828	NA	NA	NA	NA	NA	Uisw_134_02_00621
+CP159813.1	Prodigal:2.6	CDS	552556	553428	.	-	0	Uisw_134_02_00624	Uisw_134_02	290	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_134_02_00621
+CP159813.1	Prodigal:2.6	CDS	553438	555552	.	-	0	Uisw_134_02_00625	Uisw_134_02	704	OG0000842	K06320	spore maturation protein CgeB	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_134_02_00621
+CP159813.1	Prodigal:2.6	CDS	555549	555800	.	-	0	Uisw_134_02_00626	Uisw_134_02	83	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_134_02_00621
+DS995298.1	Prodigal:2.6	CDS	119261	120100	.	-	0	HTCC7211_00133	HTCC7211	279	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC7211_00138
+DS995298.1	Prodigal:2.6	CDS	120134	121153	.	+	0	HTCC7211_00134	HTCC7211	339	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HTCC7211_00138
+DS995298.1	Prodigal:2.6	CDS	121150	122031	.	+	0	HTCC7211_00135	HTCC7211	293	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HTCC7211_00138
+DS995298.1	Prodigal:2.6	CDS	122024	122878	.	+	0	HTCC7211_00136	HTCC7211	284	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC7211_00138
+DS995298.1	Prodigal:2.6	CDS	122897	124099	.	+	0	HTCC7211_00137	HTCC7211	400	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC7211_00138
+DS995298.1	Prodigal:2.6	CDS	124090	124635	.	+	0	HTCC7211_00138	HTCC7211	181	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HTCC7211_00138
+DS995298.1	Prodigal:2.6	CDS	124655	126463	.	-	0	HTCC7211_00139	HTCC7211	602	OG0000287	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	HTCC7211_00138
+DS995298.1	Prodigal:2.6	CDS	126466	128874	.	-	0	HTCC7211_00140	HTCC7211	802	OG0000215	K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	COG0072	PheT	Phenylalanyl-tRNA synthetase beta subunit	HTCC7211_00138
+DS995298.1	Prodigal:2.6	CDS	128871	129938	.	-	0	HTCC7211_00141	HTCC7211	355	OG0000201	K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]	COG0016	PheS	Phenylalanyl-tRNA synthetase alpha subunit	HTCC7211_00138
+DS995298.1	Prodigal:2.6	CDS	129982	130338	.	-	0	HTCC7211_00142	HTCC7211	118	OG0000274	K02887	large subunit ribosomal protein L20	COG0292	RplT	Ribosomal protein L20	HTCC7211_00138
+DS995298.1	Prodigal:2.6	CDS	130340	130546	.	-	0	HTCC7211_00143	HTCC7211	68	OG0000257	K02916	large subunit ribosomal protein L35	COG0291	RpmI	Ribosomal protein L35	HTCC7211_00138
+KL370779.1	Prodigal:2.6	CDS	597156	597938	.	-	0	HTCC7214_00620	HTCC7214	260	OG0001455	NA	NA	COG4627	NA	Predicted SAM-depedendent methyltransferase	HTCC7214_00625
+KL370779.1	Prodigal:2.6	CDS	597957	598796	.	-	0	HTCC7214_00621	HTCC7214	279	NA	NA	NA	NA	NA	NA	HTCC7214_00625
+KL370779.1	Prodigal:2.6	CDS	598969	599865	.	-	0	HTCC7214_00622	HTCC7214	298	OG0001128	K00067	dTDP-4-dehydrorhamnose reductase [EC:1.1.1.133]	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HTCC7214_00625
+KL370779.1	Prodigal:2.6	CDS	599897	600778	.	-	0	HTCC7214_00623	HTCC7214	293	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HTCC7214_00625
+KL370779.1	Prodigal:2.6	CDS	600812	601816	.	-	0	HTCC7214_00624	HTCC7214	334	OG0000001	K01710	dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HTCC7214_00625
+KL370779.1	Prodigal:2.6	CDS	601849	602400	.	-	0	HTCC7214_00625	HTCC7214	183	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HTCC7214_00625
+KL370779.1	Prodigal:2.6	CDS	602623	603531	.	+	0	HTCC7214_00626	HTCC7214	302	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HTCC7214_00625
+KL370779.1	Prodigal:2.6	CDS	603531	604517	.	+	0	HTCC7214_00627	HTCC7214	328	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC7214_00625
+KL370779.1	Prodigal:2.6	CDS	604598	605542	.	+	0	HTCC7214_00628	HTCC7214	314	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC7214_00625
+KL370779.1	Prodigal:2.6	CDS	605535	606194	.	+	0	HTCC7214_00629	HTCC7214	219	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC7214_00625
+KL370779.1	Prodigal:2.6	CDS	606179	607153	.	+	0	HTCC7214_00630	HTCC7214	324	OG0001444	NA	NA	COG1071	AcoA	TPP-dependent pyruvate or acetoin dehydrogenase subunit alpha	HTCC7214_00625
+JNIU01000001.1	Prodigal:2.6	CDS	804460	804570	.	+	0	HTCC7217_00874	HTCC7217	36	OG0005188	NA	NA	NA	NA	NA	HTCC7217_00879
+JNIU01000001.1	Prodigal:2.6	CDS	804624	806732	.	+	0	HTCC7217_00875	HTCC7217	702	OG0005188	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7217_00879
+JNIU01000001.1	Prodigal:2.6	CDS	806928	808142	.	+	0	HTCC7217_00876	HTCC7217	404	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC7217_00879
+JNIU01000001.1	Prodigal:2.6	CDS	808169	809158	.	+	0	HTCC7217_00877	HTCC7217	329	OG0000001	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	HTCC7217_00879
+JNIU01000001.1	Prodigal:2.6	CDS	809155	810399	.	+	0	HTCC7217_00878	HTCC7217	414	OG0005189	NA	NA	COG2244	RfbX	Membrane protein involved in the export of O-antigen and teichoic acid	HTCC7217_00879
+JNIU01000001.1	Prodigal:2.6	CDS	810438	810905	.	+	0	HTCC7217_00879	HTCC7217	155	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HTCC7217_00879
+JNIU01000001.1	Prodigal:2.6	CDS	810884	811603	.	+	0	HTCC7217_00880	HTCC7217	239	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HTCC7217_00879
+JNIU01000001.1	Prodigal:2.6	CDS	811600	812781	.	+	0	HTCC7217_00881	HTCC7217	393	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HTCC7217_00879
+JNIU01000001.1	Prodigal:2.6	CDS	812781	813443	.	+	0	HTCC7217_00882	HTCC7217	220	NA	NA	NA	COG1018	Fpr	Flavodoxin/ferredoxin--NADP reductase	HTCC7217_00879
+JNIU01000001.1	Prodigal:2.6	CDS	813443	814963	.	+	0	HTCC7217_00883	HTCC7217	506	OG0005138	NA	NA	COG1032	YgiQ	Radical SAM superfamily enzyme YgiQ, UPF0313 family	HTCC7217_00879
+JNIU01000001.1	Prodigal:2.6	CDS	814972	815886	.	+	0	HTCC7217_00884	HTCC7217	304	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC7217_00879
+JNIU01000001.1	Prodigal:2.6	CDS	821325	822467	.	-	0	HTCC7217_00890	HTCC7217	380	OG0005190	NA	NA	NA	NA	NA	HTCC7217_00895
+JNIU01000001.1	Prodigal:2.6	CDS	822469	824655	.	-	0	HTCC7217_00891	HTCC7217	728	OG0005191	NA	NA	NA	NA	NA	HTCC7217_00895
+JNIU01000001.1	Prodigal:2.6	CDS	824639	826480	.	-	0	HTCC7217_00892	HTCC7217	613	OG0005190	NA	NA	NA	NA	NA	HTCC7217_00895
+JNIU01000001.1	Prodigal:2.6	CDS	826473	828674	.	-	0	HTCC7217_00893	HTCC7217	733	OG0005191	NA	NA	NA	NA	NA	HTCC7217_00895
+JNIU01000001.1	Prodigal:2.6	CDS	828708	829976	.	-	0	HTCC7217_00894	HTCC7217	422	OG0005189	NA	NA	COG2244	RfbX	Membrane protein involved in the export of O-antigen and teichoic acid	HTCC7217_00895
+JNIU01000001.1	Prodigal:2.6	CDS	829983	830486	.	-	0	HTCC7217_00895	HTCC7217	167	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HTCC7217_00895
+JNIU01000001.1	Prodigal:2.6	CDS	830473	831537	.	-	0	HTCC7217_00896	HTCC7217	354	OG0000001	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC7217_00895
+JNIU01000001.1	Prodigal:2.6	CDS	831534	832655	.	-	0	HTCC7217_00897	HTCC7217	373	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC7217_00895
+JNIU01000001.1	Prodigal:2.6	CDS	832649	833443	.	-	0	HTCC7217_00898	HTCC7217	264	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HTCC7217_00895
+JNIU01000001.1	Prodigal:2.6	CDS	833449	834657	.	-	0	HTCC7217_00899	HTCC7217	402	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7217_00895
+JNIU01000001.1	Prodigal:2.6	CDS	834647	835483	.	-	0	HTCC7217_00900	HTCC7217	278	OG0000002	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC7217_00895
+HIMB1412-00000000001	Prodigal:2.6	CDS	8498	9373	.	+	0	HIMB1412_00009	HIMB1412	291	OG0004341	NA	NA	NA	NA	NA	HIMB1412_00014
+HIMB1412-00000000001	Prodigal:2.6	CDS	9342	10229	.	-	0	HIMB1412_00010	HIMB1412	295	OG0001090	NA	NA	NA	NA	NA	HIMB1412_00014
+HIMB1412-00000000001	Prodigal:2.6	CDS	10177	10917	.	-	0	HIMB1412_00011	HIMB1412	246	OG0003768	NA	NA	COG4627	NA	Predicted SAM-depedendent methyltransferase	HIMB1412_00014
+HIMB1412-00000000001	Prodigal:2.6	CDS	10923	11927	.	-	0	HIMB1412_00012	HIMB1412	334	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	HIMB1412_00014
+HIMB1412-00000000001	Prodigal:2.6	CDS	11932	12876	.	-	0	HIMB1412_00013	HIMB1412	314	OG0000865	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1412_00014
+HIMB1412-00000000001	Prodigal:2.6	CDS	12879	13400	.	-	0	HIMB1412_00014	HIMB1412	173	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1412_00014
+HIMB1412-00000000001	Prodigal:2.6	CDS	13390	14388	.	-	0	HIMB1412_00015	HIMB1412	332	OG0000865	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1412_00014
+HIMB1412-00000000001	Prodigal:2.6	CDS	14392	16128	.	-	0	HIMB1412_00016	HIMB1412	578	OG0000003	NA	NA	COG2274	SunT	ABC-type bacteriocin/lantibiotic exporters, contain an N-terminal double-glycine peptidase domain	HIMB1412_00014
+HIMB1412-00000000001	Prodigal:2.6	CDS	16133	17146	.	-	0	HIMB1412_00017	HIMB1412	337	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1412_00014
+HIMB1412-00000000001	Prodigal:2.6	CDS	17143	18000	.	-	0	HIMB1412_00018	HIMB1412	285	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1412_00014
+HIMB1412-00000000001	Prodigal:2.6	CDS	18107	18916	.	-	0	HIMB1412_00019	HIMB1412	269	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1412_00014
+HIMB1412-00000000001	Prodigal:2.6	CDS	1057611	1058681	.	-	0	HIMB1412_01129	HIMB1412	356	OG0000931	K08963	methylthioribose-1-phosphate isomerase [EC:5.3.1.23]	COG0182	MtnA	5-methylthioribose/5-deoxyribulose 1-phosphate isomerase (methionine salvage pathway), a paralog of eIF-2B alpha subunit	HIMB1412_01134
+HIMB1412-00000000001	Prodigal:2.6	CDS	1058678	1059544	.	-	0	HIMB1412_01130	HIMB1412	288	OG0000956	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	HIMB1412_01134
+HIMB1412-00000000001	Prodigal:2.6	CDS	1059593	1060120	.	+	0	HIMB1412_01131	HIMB1412	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB1412_01134
+HIMB1412-00000000001	Prodigal:2.6	CDS	1060122	1061135	.	+	0	HIMB1412_01132	HIMB1412	337	OG0000001	K01710	dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1412_01134
+HIMB1412-00000000001	Prodigal:2.6	CDS	1061132	1062004	.	+	0	HIMB1412_01133	HIMB1412	290	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1412_01134
+HIMB1412-00000000001	Prodigal:2.6	CDS	1062001	1062531	.	+	0	HIMB1412_01134	HIMB1412	176	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1412_01134
+HIMB1412-00000000001	Prodigal:2.6	CDS	1062518	1063231	.	+	0	HIMB1412_01135	HIMB1412	237	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1412_01134
+HIMB1412-00000000001	Prodigal:2.6	CDS	1063435	1063935	.	-	0	HIMB1412_01136	HIMB1412	166	OG0002761	NA	NA	COG4891	NA	Uncharacterized conserved protein	HIMB1412_01134
+HIMB1412-00000000001	Prodigal:2.6	CDS	1064023	1065354	.	-	0	HIMB1412_01137	HIMB1412	443	OG0001518	NA	NA	NA	NA	NA	HIMB1412_01134
+HIMB1412-00000000001	Aragorn:1.2	tRNA	1065460	1065536	.	-	NA	HIMB1412_01138	HIMB1412	NA	NA	NA	NA	NA	NA	NA	HIMB1412_01134
+HIMB1412-00000000001	Prodigal:2.6	CDS	1065864	1066118	.	-	0	HIMB1412_01139	HIMB1412	84	OG0001694	NA	NA	NA	NA	NA	HIMB1412_01134
+HIMB1420-00000000002	Prodigal:2.6	CDS	371949	372845	.	-	0	HIMB1420_01144	HIMB1420	298	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1420_01149
+HIMB1420-00000000002	Prodigal:2.6	CDS	372908	373921	.	+	0	HIMB1420_01145	HIMB1420	337	OG0000001	K01710	dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1420_01149
+HIMB1420-00000000002	Prodigal:2.6	CDS	373918	374796	.	+	0	HIMB1420_01146	HIMB1420	292	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1420_01149
+HIMB1420-00000000002	Prodigal:2.6	CDS	374803	375639	.	+	0	HIMB1420_01147	HIMB1420	278	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1420_01149
+HIMB1420-00000000002	Prodigal:2.6	CDS	375682	376875	.	+	0	HIMB1420_01148	HIMB1420	397	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1420_01149
+HIMB1420-00000000002	Prodigal:2.6	CDS	376875	377393	.	+	0	HIMB1420_01149	HIMB1420	172	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1420_01149
+HIMB1420-00000000002	Prodigal:2.6	CDS	377396	379414	.	-	0	HIMB1420_01150	HIMB1420	672	OG0001675	NA	NA	COG4993	Gcd	Glucose dehydrogenase, PQQ-dependent	HIMB1420_01149
+HIMB1420-00000000002	Prodigal:2.6	CDS	379381	380238	.	-	0	HIMB1420_01151	HIMB1420	285	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1420_01149
+HIMB1420-00000000002	Prodigal:2.6	CDS	380521	381348	.	-	0	HIMB1420_01152	HIMB1420	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1420_01149
+HIMB1420-00000000002	Prodigal:2.6	CDS	381483	381980	.	-	0	HIMB1420_01153	HIMB1420	165	OG0002761	NA	NA	COG4891	NA	Uncharacterized conserved protein	HIMB1420_01149
+HIMB1420-00000000002	Prodigal:2.6	CDS	382072	383403	.	-	0	HIMB1420_01154	HIMB1420	443	OG0001518	NA	NA	NA	NA	NA	HIMB1420_01149
+HIMB1463-00000000047	Prodigal:2.6	CDS	850	1557	.	-	0	HIMB1463_01280	HIMB1463	235	OG0001832	NA	NA	NA	NA	NA	HIMB1463_01283
+HIMB1463-00000000047	Prodigal:2.6	CDS	1554	2735	.	-	0	HIMB1463_01281	HIMB1463	393	OG0000814	NA	NA	COG4976	NA	Predicted methyltransferase, contains TPR repeat	HIMB1463_01283
+HIMB1463-00000000047	Prodigal:2.6	CDS	2732	3442	.	-	0	HIMB1463_01282	HIMB1463	236	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1463_01283
+HIMB1463-00000000047	Prodigal:2.6	CDS	3439	3915	.	-	0	HIMB1463_01283	HIMB1463	158	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1463_01283
+HIMB1463-00000000047	Prodigal:2.6	CDS	3912	4787	.	-	0	HIMB1463_01284	HIMB1463	291	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1463_01283
+HIMB1463-00000000047	Prodigal:2.6	CDS	4780	5805	.	-	0	HIMB1463_01285	HIMB1463	341	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1463_01283
+HIMB1463-00000000047	Prodigal:2.6	CDS	5807	6505	.	-	0	HIMB1463_01286	HIMB1463	232	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1463_01283
+HIMB1564-00000000001	Prodigal:2.6	CDS	30550	32358	.	+	0	HIMB1564_00025	HIMB1564	602	OG0000287	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	HIMB1564_00030
+HIMB1564-00000000001	Prodigal:2.6	CDS	32363	33298	.	-	0	HIMB1564_00026	HIMB1564	311	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1564_00030
+HIMB1564-00000000001	Prodigal:2.6	CDS	33298	34005	.	-	0	HIMB1564_00027	HIMB1564	235	OG0001832	NA	NA	NA	NA	NA	HIMB1564_00030
+HIMB1564-00000000001	Prodigal:2.6	CDS	34002	35183	.	-	0	HIMB1564_00028	HIMB1564	393	OG0000814	NA	NA	COG4976	NA	Predicted methyltransferase, contains TPR repeat	HIMB1564_00030
+HIMB1564-00000000001	Prodigal:2.6	CDS	35180	35890	.	-	0	HIMB1564_00029	HIMB1564	236	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1564_00030
+HIMB1564-00000000001	Prodigal:2.6	CDS	35887	36363	.	-	0	HIMB1564_00030	HIMB1564	158	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1564_00030
+HIMB1564-00000000001	Prodigal:2.6	CDS	36360	37235	.	-	0	HIMB1564_00031	HIMB1564	291	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1564_00030
+HIMB1564-00000000001	Prodigal:2.6	CDS	37228	38253	.	-	0	HIMB1564_00032	HIMB1564	341	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1564_00030
+HIMB1564-00000000001	Prodigal:2.6	CDS	38255	39058	.	-	0	HIMB1564_00033	HIMB1564	267	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1564_00030
+HIMB1564-00000000001	Aragorn:1.2	tRNA	39126	39215	.	+	.	HIMB1564_00034	HIMB1564	NA	NA	NA	NA	NA	NA	NA	HIMB1564_00030
+HIMB1564-00000000001	Prodigal:2.6	CDS	39223	40137	.	-	0	HIMB1564_00035	HIMB1564	304	OG0000087	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB1564_00030
+HIMB1520-00000000001	Prodigal:2.6	CDS	142438	143316	.	-	0	HIMB1520_00165	HIMB1520	292	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1520_00170
+HIMB1520-00000000001	Prodigal:2.6	CDS	143313	144455	.	-	0	HIMB1520_00166	HIMB1520	380	OG0001797	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	HIMB1520_00170
+HIMB1520-00000000001	Prodigal:2.6	CDS	144483	145295	.	-	0	HIMB1520_00167	HIMB1520	270	OG0001279	NA	NA	NA	NA	NA	HIMB1520_00170
+HIMB1520-00000000001	Prodigal:2.6	CDS	145282	146145	.	-	0	HIMB1520_00168	HIMB1520	287	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1520_00170
+HIMB1520-00000000001	Prodigal:2.6	CDS	146145	148262	.	-	0	HIMB1520_00169	HIMB1520	705	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1520_00170
+HIMB1520-00000000001	Prodigal:2.6	CDS	148270	148800	.	-	0	HIMB1520_00170	HIMB1520	176	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1520_00170
+HIMB1520-00000000001	Prodigal:2.6	CDS	148787	149038	.	-	0	HIMB1520_00171	HIMB1520	83	OG0000863	NA	NA	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1520_00170
+HIMB1520-00000000001	Aragorn:1.2	tRNA	149062	149136	.	-	.	HIMB1520_00172	HIMB1520	NA	NA	NA	NA	NA	NA	NA	HIMB1520_00170
+HIMB1520-00000000001	Prodigal:2.6	CDS	149182	150864	.	-	0	HIMB1520_00173	HIMB1520	560	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1520_00170
+HIMB1520-00000000001	Prodigal:2.6	CDS	150861	151805	.	-	0	HIMB1520_00174	HIMB1520	314	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1520_00170
+HIMB1520-00000000001	Prodigal:2.6	CDS	151805	152794	.	-	0	HIMB1520_00175	HIMB1520	329	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1520_00170
+CP003809.1	Prodigal:2.6	CDS	607602	608591	.	+	0	HIMB5_00666	HIMB5	329	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB5_00671
+CP003809.1	Prodigal:2.6	CDS	608591	609535	.	+	0	HIMB5_00667	HIMB5	314	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB5_00671
+CP003809.1	Prodigal:2.6	CDS	609532	611214	.	+	0	HIMB5_00668	HIMB5	560	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB5_00671
+CP003809.1	Aragorn:1.2	tRNA	611260	611334	.	+	.	HIMB5_00669	HIMB5	NA	NA	NA	NA	NA	NA	NA	HIMB5_00671
+CP003809.1	Prodigal:2.6	CDS	611339	611608	.	+	0	HIMB5_00670	HIMB5	89	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB5_00671
+CP003809.1	Prodigal:2.6	CDS	611595	612125	.	+	0	HIMB5_00671	HIMB5	176	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB5_00671
+CP003809.1	Prodigal:2.6	CDS	612132	614246	.	+	0	HIMB5_00672	HIMB5	704	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB5_00671
+CP003809.1	Prodigal:2.6	CDS	614250	615119	.	+	0	HIMB5_00673	HIMB5	289	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB5_00671
+CP003809.1	Prodigal:2.6	CDS	615123	615803	.	+	0	HIMB5_00674	HIMB5	226	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB5_00671
+CP003809.1	Prodigal:2.6	CDS	615804	616637	.	-	0	HIMB5_00675	HIMB5	277	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB5_00671
+CP003809.1	Prodigal:2.6	CDS	616643	617599	.	-	0	HIMB5_00676	HIMB5	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB5_00671
+CP003809.1	Prodigal:2.6	CDS	1107473	1108558	.	-	0	HIMB5_01195	HIMB5	361	OG0002875	K19169	DNA sulfur modification protein DndB	NA	NA	NA	HIMB5_01200
+CP003809.1	Prodigal:2.6	CDS	1108639	1109772	.	+	0	HIMB5_01196	HIMB5	377	OG0000090	K04487	cysteine desulfurase [EC:2.8.1.7]	COG1104	NifS	Cysteine desulfurase/Cysteine sulfinate desulfinase IscS or related enzyme, NifS family	HIMB5_01200
+CP003809.1	Prodigal:2.6	CDS	1109769	1110716	.	-	0	HIMB5_01197	HIMB5	315	OG0003555	K04096	DNA processing protein	COG0758	Smf	Predicted Rossmann fold nucleotide-binding protein DprA/Smf involved in DNA uptake	HIMB5_01200
+CP003809.1	Prodigal:2.6	CDS	1110713	1111285	.	-	0	HIMB5_01198	HIMB5	190	OG0000308	K02242	competence protein ComFC	COG1040	ComFC	DNA utilization protein ComFC/GntX, contains phosphoribosyltransferase domain	HIMB5_01200
+CP003809.1	Prodigal:2.6	CDS	1111371	1111982	.	+	0	HIMB5_01199	HIMB5	203	OG0001785	NA	NA	NA	NA	NA	HIMB5_01200
+CP003809.1	Prodigal:2.6	CDS	1111985	1112404	.	-	0	HIMB5_01200	HIMB5	139	OG0001106	NA	NA	NA	NA	NA	HIMB5_01200
+CP003809.1	Prodigal:2.6	CDS	1112538	1112990	.	+	0	HIMB5_01201	HIMB5	150	OG0001726	NA	NA	COG4775	BamA	Outer membrane protein assembly factor BamA	HIMB5_01200
+CP003809.1	Prodigal:2.6	CDS	1112987	1113316	.	-	0	HIMB5_01202	HIMB5	109	OG0001874	NA	NA	NA	NA	NA	HIMB5_01200
+CP003809.1	Prodigal:2.6	CDS	1113428	1113823	.	-	0	HIMB5_01203	HIMB5	131	OG0002338	NA	NA	NA	NA	NA	HIMB5_01200
+CP003809.1	Prodigal:2.6	CDS	1113829	1114278	.	-	0	HIMB5_01204	HIMB5	149	OG0002506	NA	NA	NA	NA	NA	HIMB5_01200
+CP003809.1	Prodigal:2.6	CDS	1114259	1114393	.	-	0	HIMB5_01205	HIMB5	44	NA	NA	NA	NA	NA	NA	HIMB5_01200
+LT840186.1	Prodigal:2.6	CDS	656489	657016	.	+	0	HIMB1321_00730	HIMB1321	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB1321_00735
+LT840186.1	Prodigal:2.6	CDS	657023	657700	.	+	0	HIMB1321_00731	HIMB1321	225	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB1321_00735
+LT840186.1	Prodigal:2.6	CDS	657697	658551	.	-	0	HIMB1321_00732	HIMB1321	284	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1321_00735
+LT840186.1	Prodigal:2.6	CDS	658591	659607	.	+	0	HIMB1321_00733	HIMB1321	338	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1321_00735
+LT840186.1	Prodigal:2.6	CDS	659604	660470	.	+	0	HIMB1321_00734	HIMB1321	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1321_00735
+LT840186.1	Prodigal:2.6	CDS	660470	660994	.	+	0	HIMB1321_00735	HIMB1321	174	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1321_00735
+LT840186.1	Prodigal:2.6	CDS	660991	661701	.	+	0	HIMB1321_00736	HIMB1321	236	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1321_00735
+LT840186.1	Prodigal:2.6	CDS	662058	662225	.	+	0	HIMB1321_00737	HIMB1321	55	OG0000746	NA	NA	COG0031	CysK	Cysteine synthase	HIMB1321_00735
+LT840186.1	Prodigal:2.6	CDS	662305	662589	.	+	0	HIMB1321_00738	HIMB1321	94	OG0001100	NA	NA	NA	NA	NA	HIMB1321_00735
+LT840186.1	Prodigal:2.6	CDS	662597	662884	.	+	0	HIMB1321_00739	HIMB1321	95	OG0001220	NA	NA	NA	NA	NA	HIMB1321_00735
+LT840186.1	Prodigal:2.6	CDS	662884	663198	.	+	0	HIMB1321_00740	HIMB1321	104	OG0001397	NA	NA	NA	NA	NA	HIMB1321_00735
+HIMB1505-00000000001	Prodigal:2.6	CDS	125275	126171	.	-	0	HIMB1505_00131	HIMB1505	298	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1505_00136
+HIMB1505-00000000001	Prodigal:2.6	CDS	126156	126953	.	-	0	HIMB1505_00132	HIMB1505	265	OG0000089	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	HIMB1505_00136
+HIMB1505-00000000001	Prodigal:2.6	CDS	126988	128070	.	+	0	HIMB1505_00133	HIMB1505	360	OG0001881	NA	NA	COG0579	LhgO	L-2-hydroxyglutarate oxidase LhgO	HIMB1505_00136
+HIMB1505-00000000001	Aragorn:1.2	tRNA	128071	128160	.	-	.	HIMB1505_00134	HIMB1505	NA	NA	NA	NA	NA	NA	NA	HIMB1505_00136
+HIMB1505-00000000001	Prodigal:2.6	CDS	128165	128884	.	-	0	HIMB1505_00135	HIMB1505	239	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1505_00136
+HIMB1505-00000000001	Prodigal:2.6	CDS	128887	129402	.	-	0	HIMB1505_00136	HIMB1505	171	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1505_00136
+HIMB1505-00000000001	Prodigal:2.6	CDS	129407	131215	.	-	0	HIMB1505_00137	HIMB1505	602	OG0000287	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	HIMB1505_00136
+HIMB1505-00000000001	Prodigal:2.6	CDS	131220	133628	.	-	0	HIMB1505_00138	HIMB1505	802	OG0000215	K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	COG0072	PheT	Phenylalanyl-tRNA synthetase beta subunit	HIMB1505_00136
+HIMB1505-00000000001	Prodigal:2.6	CDS	133625	134692	.	-	0	HIMB1505_00139	HIMB1505	355	OG0000201	K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]	COG0016	PheS	Phenylalanyl-tRNA synthetase alpha subunit	HIMB1505_00136
+HIMB1505-00000000001	Prodigal:2.6	CDS	134733	135089	.	-	0	HIMB1505_00140	HIMB1505	118	OG0000274	K02887	large subunit ribosomal protein L20	COG0292	RplT	Ribosomal protein L20	HIMB1505_00136
+HIMB1505-00000000001	Prodigal:2.6	CDS	135091	135297	.	-	0	HIMB1505_00141	HIMB1505	68	OG0000257	K02916	large subunit ribosomal protein L35	COG0291	RpmI	Ribosomal protein L35	HIMB1505_00136
+HIMB1549-00000000001	Prodigal:2.6	CDS	535506	536498	.	+	0	HIMB1549_00564	HIMB1549	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1549_00569
+HIMB1549-00000000001	Prodigal:2.6	CDS	536498	537439	.	+	0	HIMB1549_00565	HIMB1549	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1549_00569
+HIMB1549-00000000001	Prodigal:2.6	CDS	537439	539130	.	+	0	HIMB1549_00566	HIMB1549	563	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1549_00569
+HIMB1549-00000000001	Aragorn:1.2	tRNA	539173	539247	.	+	.	HIMB1549_00567	HIMB1549	NA	NA	NA	NA	NA	NA	NA	HIMB1549_00569
+HIMB1549-00000000001	Prodigal:2.6	CDS	539253	539531	.	+	0	HIMB1549_00568	HIMB1549	92	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1549_00569
+HIMB1549-00000000001	Prodigal:2.6	CDS	539702	540223	.	+	0	HIMB1549_00569	HIMB1549	173	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1549_00569
+HIMB1549-00000000001	Prodigal:2.6	CDS	540223	541401	.	+	0	HIMB1549_00570	HIMB1549	392	OG0000814	NA	NA	COG4976	NA	Predicted methyltransferase, contains TPR repeat	HIMB1549_00569
+HIMB1549-00000000001	Prodigal:2.6	CDS	541479	543596	.	+	0	HIMB1549_00571	HIMB1549	705	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1549_00569
+HIMB1549-00000000001	Prodigal:2.6	CDS	543596	544477	.	+	0	HIMB1549_00572	HIMB1549	293	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1549_00569
+HIMB1549-00000000001	Prodigal:2.6	CDS	544491	545186	.	+	0	HIMB1549_00573	HIMB1549	231	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB1549_00569
+HIMB1549-00000000001	Prodigal:2.6	CDS	545191	546039	.	-	0	HIMB1549_00574	HIMB1549	282	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1549_00569
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	419777	420673	.	-	0	HIMB4_00452	HIMB4	298	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB4_00457
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	420658	421455	.	-	0	HIMB4_00453	HIMB4	265	OG0000089	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	HIMB4_00457
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	421490	422572	.	+	0	HIMB4_00454	HIMB4	360	OG0001881	NA	NA	COG0579	LhgO	L-2-hydroxyglutarate oxidase LhgO	HIMB4_00457
+NZ_JBPPFS010000001.1	Aragorn:1.2	tRNA	422573	422662	.	-	.	HIMB4_00455	HIMB4	NA	NA	NA	NA	NA	NA	NA	HIMB4_00457
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	422667	423386	.	-	0	HIMB4_00456	HIMB4	239	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB4_00457
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	423389	423904	.	-	0	HIMB4_00457	HIMB4	171	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB4_00457
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	423909	425717	.	-	0	HIMB4_00458	HIMB4	602	OG0000287	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	HIMB4_00457
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	425722	428130	.	-	0	HIMB4_00459	HIMB4	802	OG0000215	K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	COG0072	PheT	Phenylalanyl-tRNA synthetase beta subunit	HIMB4_00457
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	428127	429194	.	-	0	HIMB4_00460	HIMB4	355	OG0000201	K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]	COG0016	PheS	Phenylalanyl-tRNA synthetase alpha subunit	HIMB4_00457
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	429235	429591	.	-	0	HIMB4_00461	HIMB4	118	OG0000274	K02887	large subunit ribosomal protein L20	COG0292	RplT	Ribosomal protein L20	HIMB4_00457
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	429593	429799	.	-	0	HIMB4_00462	HIMB4	68	OG0000257	K02916	large subunit ribosomal protein L35	COG0291	RpmI	Ribosomal protein L35	HIMB4_00457
+KI421440.1	Prodigal:2.6	CDS	474581	477025	.	+	0	HTCC8051_00496	HTCC8051	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC8051_00501
+KI421440.1	Prodigal:2.6	CDS	477075	477284	.	+	0	HTCC8051_00497	HTCC8051	69	OG0001202	NA	NA	NA	NA	NA	HTCC8051_00501
+KI421440.1	Prodigal:2.6	CDS	477521	478333	.	-	0	HTCC8051_00498	HTCC8051	270	OG0003060	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HTCC8051_00501
+KI421440.1	Aragorn:1.2	tRNA	478656	478732	.	+	NA	HTCC8051_00499	HTCC8051	NA	NA	NA	NA	NA	NA	NA	HTCC8051_00501
+KI421440.1	Prodigal:2.6	CDS	478742	479455	.	-	0	HTCC8051_00500	HTCC8051	237	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HTCC8051_00501
+KI421440.1	Prodigal:2.6	CDS	479452	479976	.	-	0	HTCC8051_00501	HTCC8051	174	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HTCC8051_00501
+KI421440.1	Prodigal:2.6	CDS	479980	480846	.	-	0	HTCC8051_00502	HTCC8051	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HTCC8051_00501
+KI421440.1	Prodigal:2.6	CDS	480839	481855	.	-	0	HTCC8051_00503	HTCC8051	338	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HTCC8051_00501
+KI421440.1	Prodigal:2.6	CDS	481896	482798	.	+	0	HTCC8051_00504	HTCC8051	300	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC8051_00501
+KI421440.1	Prodigal:2.6	CDS	482795	483322	.	-	0	HTCC8051_00505	HTCC8051	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HTCC8051_00501
+KI421440.1	Prodigal:2.6	CDS	483328	483852	.	+	0	HTCC8051_00506	HTCC8051	174	OG0001751	NA	NA	COG0775	MtnN	Nucleoside phosphorylase/nucleosidase, includes 5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase MtnN and futalosine hydrolase MqnB	HTCC8051_00501
+AWZW01000001.1	Prodigal:2.6	CDS	356243	357001	.	+	0	HTCC9022_00380	HTCC9022	252	OG0000008	NA	NA	NA	NA	NA	HTCC9022_00385
+AWZW01000001.1	Prodigal:2.6	CDS	356991	358145	.	+	0	HTCC9022_00381	HTCC9022	384	OG0003831	NA	NA	NA	NA	NA	HTCC9022_00385
+AWZW01000001.1	Prodigal:2.6	CDS	358138	358893	.	+	0	HTCC9022_00382	HTCC9022	251	OG0000058	NA	NA	COG3959	TktA1	Transketolase, N-terminal subunit	HTCC9022_00385
+AWZW01000001.1	Prodigal:2.6	CDS	358890	359681	.	+	0	HTCC9022_00383	HTCC9022	263	OG0000066	NA	NA	COG3958	TktA2	Transketolase, C-terminal subunit	HTCC9022_00385
+AWZW01000001.1	Prodigal:2.6	CDS	359671	360663	.	+	0	HTCC9022_00384	HTCC9022	330	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC9022_00385
+AWZW01000001.1	Prodigal:2.6	CDS	360653	361075	.	+	0	HTCC9022_00385	HTCC9022	140	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HTCC9022_00385
+AWZW01000001.1	Prodigal:2.6	CDS	361078	362268	.	+	0	HTCC9022_00386	HTCC9022	396	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC9022_00385
+AWZW01000001.1	Prodigal:2.6	CDS	362270	363385	.	+	0	HTCC9022_00387	HTCC9022	371	OG0000113	K01711	GDPmannose 4,6-dehydratase [EC:4.2.1.47]	COG1089	Gmd	GDP-D-mannose dehydratase	HTCC9022_00385
+AWZW01000001.1	Prodigal:2.6	CDS	363366	364172	.	+	0	HTCC9022_00388	HTCC9022	268	OG0002348	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HTCC9022_00385
+AWZW01000001.1	Prodigal:2.6	CDS	364176	365216	.	+	0	HTCC9022_00389	HTCC9022	346	OG0003711	NA	NA	NA	NA	NA	HTCC9022_00385
+AWZW01000001.1	Prodigal:2.6	CDS	365168	366208	.	-	0	HTCC9022_00390	HTCC9022	346	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC9022_00385
+HIMB1456-00000000001	Prodigal:2.6	CDS	232677	235121	.	+	0	HIMB1456_00240	HIMB1456	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1456_00245
+HIMB1456-00000000001	Prodigal:2.6	CDS	235171	235380	.	+	0	HIMB1456_00241	HIMB1456	69	OG0001202	NA	NA	NA	NA	NA	HIMB1456_00245
+HIMB1456-00000000001	Aragorn:1.2	tRNA	235450	235526	.	+	.	HIMB1456_00242	HIMB1456	NA	NA	NA	NA	NA	NA	NA	HIMB1456_00245
+HIMB1456-00000000001	Prodigal:2.6	CDS	236053	237087	.	-	0	HIMB1456_00243	HIMB1456	344	OG0000048	K00364	GMP reductase [EC:1.7.1.7]	COG0516	GuaB	IMP dehydrogenase/GMP reductase	HIMB1456_00245
+HIMB1456-00000000001	Prodigal:2.6	CDS	237159	237866	.	-	0	HIMB1456_00244	HIMB1456	235	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1456_00245
+HIMB1456-00000000001	Prodigal:2.6	CDS	237866	238387	.	-	0	HIMB1456_00245	HIMB1456	173	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1456_00245
+HIMB1456-00000000001	Prodigal:2.6	CDS	238387	239253	.	-	0	HIMB1456_00246	HIMB1456	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1456_00245
+HIMB1456-00000000001	Prodigal:2.6	CDS	239250	240263	.	-	0	HIMB1456_00247	HIMB1456	337	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1456_00245
+HIMB1456-00000000001	Prodigal:2.6	CDS	240321	241226	.	+	0	HIMB1456_00248	HIMB1456	301	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1456_00245
+HIMB1456-00000000001	Prodigal:2.6	CDS	241204	241734	.	-	0	HIMB1456_00249	HIMB1456	176	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB1456_00245
+HIMB1456-00000000001	Prodigal:2.6	CDS	241805	242554	.	+	0	HIMB1456_00250	HIMB1456	249	OG0001487	NA	NA	NA	NA	NA	HIMB1456_00245
+HIMB2201-00000000001	Prodigal:2.6	CDS	549049	550119	.	-	0	HIMB2201_00616	HIMB2201	356	OG0000931	K08963	methylthioribose-1-phosphate isomerase [EC:5.3.1.23]	COG0182	MtnA	5-methylthioribose/5-deoxyribulose 1-phosphate isomerase (methionine salvage pathway), a paralog of eIF-2B alpha subunit	HIMB2201_00621
+HIMB2201-00000000001	Prodigal:2.6	CDS	550116	550988	.	-	0	HIMB2201_00617	HIMB2201	290	OG0000956	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	HIMB2201_00621
+HIMB2201-00000000001	Prodigal:2.6	CDS	551029	551556	.	+	0	HIMB2201_00618	HIMB2201	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB2201_00621
+HIMB2201-00000000001	Prodigal:2.6	CDS	551597	552610	.	+	0	HIMB2201_00619	HIMB2201	337	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB2201_00621
+HIMB2201-00000000001	Prodigal:2.6	CDS	552607	553473	.	+	0	HIMB2201_00620	HIMB2201	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB2201_00621
+HIMB2201-00000000001	Prodigal:2.6	CDS	553474	553995	.	+	0	HIMB2201_00621	HIMB2201	173	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB2201_00621
+HIMB2201-00000000001	Prodigal:2.6	CDS	553995	554810	.	+	0	HIMB2201_00622	HIMB2201	271	OG0001279	NA	NA	NA	NA	NA	HIMB2201_00621
+HIMB2201-00000000001	Prodigal:2.6	CDS	554807	555991	.	+	0	HIMB2201_00623	HIMB2201	394	OG0000814	NA	NA	COG4976	NA	Predicted methyltransferase, contains TPR repeat	HIMB2201_00621
+HIMB2201-00000000001	Prodigal:2.6	CDS	555988	556707	.	+	0	HIMB2201_00624	HIMB2201	239	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB2201_00621
+HIMB2201-00000000001	Prodigal:2.6	CDS	556803	557837	.	+	0	HIMB2201_00625	HIMB2201	344	OG0000048	K00364	GMP reductase [EC:1.7.1.7]	COG0516	GuaB	IMP dehydrogenase/GMP reductase	HIMB2201_00621
+HIMB2201-00000000001	Prodigal:2.6	CDS	557842	558357	.	-	0	HIMB2201_00626	HIMB2201	171	OG0000119	K07101	uncharacterized protein	COG2236	Hpt1	Hypoxanthine phosphoribosyltransferase	HIMB2201_00621
+HIMB1444-00000000002	Prodigal:2.6	CDS	394044	394916	.	-	0	HIMB1444_00855	HIMB1444	290	OG0000956	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	HIMB1444_00860
+HIMB1444-00000000002	Prodigal:2.6	CDS	394958	395485	.	+	0	HIMB1444_00856	HIMB1444	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB1444_00860
+HIMB1444-00000000002	Prodigal:2.6	CDS	395482	396375	.	-	0	HIMB1444_00857	HIMB1444	297	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1444_00860
+HIMB1444-00000000002	Prodigal:2.6	CDS	396437	397450	.	+	0	HIMB1444_00858	HIMB1444	337	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1444_00860
+HIMB1444-00000000002	Prodigal:2.6	CDS	397447	398316	.	+	0	HIMB1444_00859	HIMB1444	289	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1444_00860
+HIMB1444-00000000002	Prodigal:2.6	CDS	398313	398840	.	+	0	HIMB1444_00860	HIMB1444	175	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1444_00860
+HIMB1444-00000000002	Prodigal:2.6	CDS	398837	399583	.	+	0	HIMB1444_00861	HIMB1444	248	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1444_00860
+HIMB1444-00000000002	Prodigal:2.6	CDS	399614	400648	.	+	0	HIMB1444_00862	HIMB1444	344	OG0000048	K00364	GMP reductase [EC:1.7.1.7]	COG0516	GuaB	IMP dehydrogenase/GMP reductase	HIMB1444_00860
+HIMB1444-00000000002	Prodigal:2.6	CDS	400650	401168	.	-	0	HIMB1444_00863	HIMB1444	172	OG0000119	K07101	uncharacterized protein	COG2236	Hpt1	Hypoxanthine phosphoribosyltransferase	HIMB1444_00860
+HIMB1444-00000000002	Aragorn:1.2	tRNA	401175	401251	.	-	.	HIMB1444_00864	HIMB1444	NA	NA	NA	NA	NA	NA	NA	HIMB1444_00860
+HIMB1444-00000000002	Prodigal:2.6	CDS	401320	401529	.	-	0	HIMB1444_00865	HIMB1444	69	OG0001202	NA	NA	NA	NA	NA	HIMB1444_00860
+HIMB1413-00000000001	Prodigal:2.6	CDS	6642	6767	.	+	0	HIMB1413_00008	HIMB1413	41	NA	NA	NA	NA	NA	NA	HIMB1413_00013
+HIMB1413-00000000001	Prodigal:2.6	CDS	6797	7807	.	+	0	HIMB1413_00009	HIMB1413	336	OG0000113	K15856	GDP-4-dehydro-6-deoxy-D-mannose reductase [EC:1.1.1.281]	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB1413_00013
+HIMB1413-00000000001	Prodigal:2.6	CDS	7813	8400	.	+	0	HIMB1413_00010	HIMB1413	195	OG0001444	NA	NA	COG1071	AcoA	TPP-dependent pyruvate or acetoin dehydrogenase subunit alpha	HIMB1413_00013
+HIMB1413-00000000001	Prodigal:2.6	CDS	8400	8936	.	+	0	HIMB1413_00011	HIMB1413	178	OG0001472	NA	NA	NA	NA	NA	HIMB1413_00013
+HIMB1413-00000000001	Prodigal:2.6	CDS	8955	9947	.	+	0	HIMB1413_00012	HIMB1413	330	OG0000865	K02377	GDP-L-fucose synthase [EC:1.1.1.271]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1413_00013
+HIMB1413-00000000001	Prodigal:2.6	CDS	9944	10459	.	+	0	HIMB1413_00013	HIMB1413	171	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1413_00013
+HIMB1413-00000000001	Prodigal:2.6	CDS	10469	11422	.	+	0	HIMB1413_00014	HIMB1413	317	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1413_00013
+HIMB1413-00000000001	Prodigal:2.6	CDS	11419	12420	.	+	0	HIMB1413_00015	HIMB1413	333	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	HIMB1413_00013
+HIMB1413-00000000001	Prodigal:2.6	CDS	12422	13603	.	-	0	HIMB1413_00016	HIMB1413	393	OG0000015	NA	NA	COG0241	HisB1/GmhB	Histidinol phosphatase/D-glycero-mannoheptose bisphosphatephosphatase, HAD superfamily	HIMB1413_00013
+HIMB1413-00000000001	Prodigal:2.6	CDS	13692	14474	.	+	0	HIMB1413_00017	HIMB1413	260	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1413_00013
+HIMB1413-00000000001	Prodigal:2.6	CDS	14471	15202	.	+	0	HIMB1413_00018	HIMB1413	243	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1413_00013
+CP031125.1	Prodigal:2.6	CDS	1216185	1217168	.	-	0	FZCC0015_01297	FZCC0015	327	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	FZCC0015_01302
+CP031125.1	Prodigal:2.6	CDS	1217255	1218352	.	+	0	FZCC0015_01298	FZCC0015	365	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	FZCC0015_01302
+CP031125.1	Prodigal:2.6	CDS	1218385	1219248	.	+	0	FZCC0015_01299	FZCC0015	287	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	FZCC0015_01302
+CP031125.1	Prodigal:2.6	CDS	1219249	1220163	.	+	0	FZCC0015_01300	FZCC0015	304	OG0001450	NA	NA	NA	NA	NA	FZCC0015_01302
+CP031125.1	Prodigal:2.6	CDS	1220205	1220918	.	-	0	FZCC0015_01301	FZCC0015	237	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	FZCC0015_01302
+CP031125.1	Prodigal:2.6	CDS	1220915	1221442	.	-	0	FZCC0015_01302	FZCC0015	175	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	FZCC0015_01302
+CP031125.1	Prodigal:2.6	CDS	1221439	1222305	.	-	0	FZCC0015_01303	FZCC0015	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	FZCC0015_01302
+CP031125.1	Prodigal:2.6	CDS	1222298	1223323	.	-	0	FZCC0015_01304	FZCC0015	341	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	FZCC0015_01302
+CP031125.1	Prodigal:2.6	CDS	1223375	1224328	.	-	0	FZCC0015_01305	FZCC0015	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	FZCC0015_01302
+CP031125.1	Prodigal:2.6	CDS	1224413	1224634	.	+	0	FZCC0015_01306	FZCC0015	73	OG0001201	NA	NA	NA	NA	NA	FZCC0015_01302
+CP031125.1	Prodigal:2.6	CDS	1224634	1224903	.	+	0	FZCC0015_01307	FZCC0015	89	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	FZCC0015_01302
+AZAL01000001.1	Prodigal:2.6	CDS	1337269	1338327	.	+	0	HIMB083_01433	HIMB083	352	OG0002429	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB083_01438
+AZAL01000001.1	Aragorn:1.2	tRNA	1338387	1338463	.	+	NA	HIMB083_01434	HIMB083	NA	NA	NA	NA	NA	NA	NA	HIMB083_01438
+AZAL01000001.1	Prodigal:2.6	CDS	1338531	1339679	.	-	0	HIMB083_01435	HIMB083	382	OG0002917	NA	NA	NA	NA	NA	HIMB083_01438
+AZAL01000001.1	Prodigal:2.6	CDS	1339767	1340438	.	-	0	HIMB083_01436	HIMB083	223	OG0001683	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB083_01438
+AZAL01000001.1	Prodigal:2.6	CDS	1340706	1341410	.	-	0	HIMB083_01437	HIMB083	234	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB083_01438
+AZAL01000001.1	Prodigal:2.6	CDS	1341415	1341930	.	-	0	HIMB083_01438	HIMB083	171	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB083_01438
+AZAL01000001.1	Prodigal:2.6	CDS	1341934	1342800	.	-	0	HIMB083_01439	HIMB083	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB083_01438
+AZAL01000001.1	Prodigal:2.6	CDS	1342793	1343815	.	-	0	HIMB083_01440	HIMB083	340	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB083_01438
+AZAL01000001.1	Prodigal:2.6	CDS	1343868	1344731	.	+	0	HIMB083_01441	HIMB083	287	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB083_01438
+AZAL01000001.1	Prodigal:2.6	CDS	1344735	1345262	.	-	0	HIMB083_01442	HIMB083	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB083_01438
+AZAL01000001.1	Prodigal:2.6	CDS	1345304	1346176	.	+	0	HIMB083_01443	HIMB083	290	OG0000956	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	HIMB083_01438
+HIMB1685-00000000001	Prodigal:2.6	CDS	161331	162140	.	-	0	HIMB1685_00191	HIMB1685	269	OG0001279	NA	NA	NA	NA	NA	HIMB1685_00196
+HIMB1685-00000000001	Prodigal:2.6	CDS	162232	163257	.	+	0	HIMB1685_00192	HIMB1685	341	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1685_00196
+HIMB1685-00000000001	Prodigal:2.6	CDS	163254	164126	.	+	0	HIMB1685_00193	HIMB1685	290	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1685_00196
+HIMB1685-00000000001	Prodigal:2.6	CDS	164132	164986	.	+	0	HIMB1685_00194	HIMB1685	284	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1685_00196
+HIMB1685-00000000001	Prodigal:2.6	CDS	165027	166232	.	+	0	HIMB1685_00195	HIMB1685	401	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1685_00196
+HIMB1685-00000000001	Prodigal:2.6	CDS	166219	166752	.	+	0	HIMB1685_00196	HIMB1685	177	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1685_00196
+HIMB1685-00000000001	Prodigal:2.6	CDS	166763	167647	.	-	0	HIMB1685_00197	HIMB1685	294	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1685_00196
+HIMB1685-00000000001	Prodigal:2.6	CDS	167647	168531	.	-	0	HIMB1685_00198	HIMB1685	294	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1685_00196
+HIMB1685-00000000001	Prodigal:2.6	CDS	168547	170601	.	-	0	HIMB1685_00199	HIMB1685	684	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	HIMB1685_00196
+HIMB1685-00000000001	Prodigal:2.6	CDS	170594	170857	.	-	0	HIMB1685_00200	HIMB1685	87	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1685_00196
+HIMB1685-00000000001	Aragorn:1.2	tRNA	170860	170934	.	-	.	HIMB1685_00201	HIMB1685	NA	NA	NA	NA	NA	NA	NA	HIMB1685_00196
+HIMB1573-00000000001	Prodigal:2.6	CDS	959373	960350	.	-	0	HIMB1573_01016	HIMB1573	325	OG0000001	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	HIMB1573_01021
+HIMB1573-00000000001	Prodigal:2.6	CDS	960389	962833	.	+	0	HIMB1573_01017	HIMB1573	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1573_01021
+HIMB1573-00000000001	Prodigal:2.6	CDS	962843	963316	.	-	0	HIMB1573_01018	HIMB1573	157	OG0001575	NA	NA	NA	NA	NA	HIMB1573_01021
+HIMB1573-00000000001	Aragorn:1.2	tRNA	963375	963451	.	+	.	HIMB1573_01019	HIMB1573	NA	NA	NA	NA	NA	NA	NA	HIMB1573_01021
+HIMB1573-00000000001	Prodigal:2.6	CDS	963471	964667	.	-	0	HIMB1573_01020	HIMB1573	398	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1573_01021
+HIMB1573-00000000001	Prodigal:2.6	CDS	964749	965315	.	-	0	HIMB1573_01021	HIMB1573	188	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1573_01021
+HIMB1573-00000000001	Prodigal:2.6	CDS	965391	966245	.	-	0	HIMB1573_01022	HIMB1573	284	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1573_01021
+HIMB1573-00000000001	Prodigal:2.6	CDS	966316	966843	.	-	0	HIMB1573_01023	HIMB1573	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB1573_01021
+HIMB1573-00000000001	Prodigal:2.6	CDS	966890	968020	.	+	0	HIMB1573_01024	HIMB1573	376	OG0004739	NA	NA	NA	NA	NA	HIMB1573_01021
+HIMB1573-00000000001	Prodigal:2.6	CDS	968137	968910	.	+	0	HIMB1573_01025	HIMB1573	257	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1573_01021
+HIMB1573-00000000001	Prodigal:2.6	CDS	968932	969495	.	+	0	HIMB1573_01026	HIMB1573	187	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1573_01021
+HIMB1573-00000000001	Prodigal:2.6	CDS	964749	965315	.	-	0	HIMB1573_01021	HIMB1573	188	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1573_01026
+HIMB1573-00000000001	Prodigal:2.6	CDS	965391	966245	.	-	0	HIMB1573_01022	HIMB1573	284	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1573_01026
+HIMB1573-00000000001	Prodigal:2.6	CDS	966316	966843	.	-	0	HIMB1573_01023	HIMB1573	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB1573_01026
+HIMB1573-00000000001	Prodigal:2.6	CDS	966890	968020	.	+	0	HIMB1573_01024	HIMB1573	376	OG0004739	NA	NA	NA	NA	NA	HIMB1573_01026
+HIMB1573-00000000001	Prodigal:2.6	CDS	968137	968910	.	+	0	HIMB1573_01025	HIMB1573	257	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1573_01026
+HIMB1573-00000000001	Prodigal:2.6	CDS	968932	969495	.	+	0	HIMB1573_01026	HIMB1573	187	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1573_01026
+HIMB1573-00000000001	Prodigal:2.6	CDS	969492	970715	.	+	0	HIMB1573_01027	HIMB1573	407	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1573_01026
+HIMB1573-00000000001	Prodigal:2.6	CDS	970737	971804	.	+	0	HIMB1573_01028	HIMB1573	355	OG0000001	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1573_01026
+HIMB1573-00000000001	Prodigal:2.6	CDS	971801	972697	.	+	0	HIMB1573_01029	HIMB1573	298	OG0003695	NA	NA	NA	NA	NA	HIMB1573_01026
+HIMB1573-00000000001	Prodigal:2.6	CDS	972694	973566	.	+	0	HIMB1573_01030	HIMB1573	290	OG0000956	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	HIMB1573_01026
+HIMB1573-00000000001	Prodigal:2.6	CDS	973563	974633	.	+	0	HIMB1573_01031	HIMB1573	356	OG0000931	K08963	methylthioribose-1-phosphate isomerase [EC:5.3.1.23]	COG0182	MtnA	5-methylthioribose/5-deoxyribulose 1-phosphate isomerase (methionine salvage pathway), a paralog of eIF-2B alpha subunit	HIMB1573_01026
+HIMB1490-00000000009	Prodigal:2.6	CDS	63999	65042	.	+	0	HIMB1490_00645	HIMB1490	347	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1490_00650
+HIMB1490-00000000009	Prodigal:2.6	CDS	65053	66213	.	+	0	HIMB1490_00646	HIMB1490	386	OG0001272	NA	NA	COG0381	WecB	UDP-N-acetylglucosamine 2-epimerase	HIMB1490_00650
+HIMB1490-00000000009	Prodigal:2.6	CDS	66201	67223	.	+	0	HIMB1490_00647	HIMB1490	340	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1490_00650
+HIMB1490-00000000009	Prodigal:2.6	CDS	67265	67999	.	+	0	HIMB1490_00648	HIMB1490	244	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1490_00650
+HIMB1490-00000000009	Prodigal:2.6	CDS	68070	68810	.	+	0	HIMB1490_00649	HIMB1490	246	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1490_00650
+HIMB1490-00000000009	Prodigal:2.6	CDS	68894	69421	.	+	0	HIMB1490_00650	HIMB1490	175	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1490_00650
+HIMB1490-00000000009	Prodigal:2.6	CDS	69407	70282	.	-	0	HIMB1490_00651	HIMB1490	291	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1490_00650
+HIMB1490-00000000009	Prodigal:2.6	CDS	70325	71320	.	+	0	HIMB1490_00652	HIMB1490	331	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	HIMB1490_00650
+HIMB1490-00000000013	Prodigal:2.6	CDS	9374	11173	.	-	0	HIMB1490_00988	HIMB1490	599	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1490_00993
+HIMB1490-00000000013	Prodigal:2.6	CDS	11194	12132	.	-	0	HIMB1490_00989	HIMB1490	312	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1490_00993
+HIMB1490-00000000013	Prodigal:2.6	CDS	12170	12862	.	-	0	HIMB1490_00990	HIMB1490	230	OG0000015	K15669	D-glycero-alpha-D-manno-heptose 1-phosphate guanylyltransferase [EC:2.7.7.71]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1490_00993
+HIMB1490-00000000013	Prodigal:2.6	CDS	12868	14025	.	-	0	HIMB1490_00991	HIMB1490	385	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1490_00993
+HIMB1490-00000000013	Prodigal:2.6	CDS	14052	15038	.	-	0	HIMB1490_00992	HIMB1490	328	OG0005094	NA	NA	NA	NA	NA	HIMB1490_00993
+HIMB1490-00000000013	Prodigal:2.6	CDS	15089	15565	.	-	0	HIMB1490_00993	HIMB1490	158	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1490_00993
+HIMB1490-00000000013	Prodigal:2.6	CDS	15583	16569	.	-	0	HIMB1490_00994	HIMB1490	328	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	HIMB1490_00993
+HIMB1490-00000000013	Prodigal:2.6	CDS	16698	17597	.	+	0	HIMB1490_00995	HIMB1490	299	OG0001444	NA	NA	COG1071	AcoA	TPP-dependent pyruvate or acetoin dehydrogenase subunit alpha	HIMB1490_00993
+HIMB1490-00000000013	Prodigal:2.6	CDS	17555	18481	.	+	0	HIMB1490_00996	HIMB1490	308	OG0001472	NA	NA	COG0022	AcoB	Pyruvate/2-oxoglutarate/acetoin dehydrogenase complex, dehydrogenase (E1) component, beta subunit	HIMB1490_00993
+HIMB1490-00000000013	Prodigal:2.6	CDS	18484	20007	.	+	0	HIMB1490_00997	HIMB1490	507	OG0001520	K04034	anaerobic magnesium-protoporphyrin IX monomethyl ester cyclase [EC:1.21.98.3]	COG1032	YgiQ	Radical SAM superfamily enzyme YgiQ, UPF0313 family	HIMB1490_00993
+HIMB1490-00000000013	Prodigal:2.6	CDS	20041	20553	.	-	0	HIMB1490_00998	HIMB1490	170	OG0001183	NA	NA	COG0494	MutT	8-oxo-dGTP pyrophosphatase MutT and related house-cleaning NTP pyrophosphohydrolases, NUDIX family	HIMB1490_00993
+HIMB1491-00000000001	Prodigal:2.6	CDS	632266	633309	.	+	0	HIMB1491_00651	HIMB1491	347	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1491_00656
+HIMB1491-00000000001	Prodigal:2.6	CDS	633320	634480	.	+	0	HIMB1491_00652	HIMB1491	386	OG0001272	NA	NA	COG0381	WecB	UDP-N-acetylglucosamine 2-epimerase	HIMB1491_00656
+HIMB1491-00000000001	Prodigal:2.6	CDS	634468	635490	.	+	0	HIMB1491_00653	HIMB1491	340	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1491_00656
+HIMB1491-00000000001	Prodigal:2.6	CDS	635532	636266	.	+	0	HIMB1491_00654	HIMB1491	244	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1491_00656
+HIMB1491-00000000001	Prodigal:2.6	CDS	636337	637077	.	+	0	HIMB1491_00655	HIMB1491	246	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1491_00656
+HIMB1491-00000000001	Prodigal:2.6	CDS	637161	637688	.	+	0	HIMB1491_00656	HIMB1491	175	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1491_00656
+HIMB1491-00000000001	Prodigal:2.6	CDS	637674	638549	.	-	0	HIMB1491_00657	HIMB1491	291	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1491_00656
+HIMB1491-00000000001	Prodigal:2.6	CDS	638592	639587	.	+	0	HIMB1491_00658	HIMB1491	331	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	HIMB1491_00656
+HIMB1491-00000000001	Prodigal:2.6	CDS	639574	640641	.	+	0	HIMB1491_00659	HIMB1491	355	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1491_00656
+HIMB1491-00000000001	Prodigal:2.6	CDS	640647	641756	.	+	0	HIMB1491_00660	HIMB1491	369	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1491_00656
+HIMB1491-00000000001	Prodigal:2.6	CDS	641824	642861	.	+	0	HIMB1491_00661	HIMB1491	345	OG0002233	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1491_00656
+HIMB1491-00000000001	Prodigal:2.6	CDS	647084	647596	.	+	0	HIMB1491_00667	HIMB1491	170	OG0001183	NA	NA	COG0494	MutT	8-oxo-dGTP pyrophosphatase MutT and related house-cleaning NTP pyrophosphohydrolases, NUDIX family	HIMB1491_00672
+HIMB1491-00000000001	Prodigal:2.6	CDS	647630	649153	.	-	0	HIMB1491_00668	HIMB1491	507	OG0001520	K04034	anaerobic magnesium-protoporphyrin IX monomethyl ester cyclase [EC:1.21.98.3]	COG1032	YgiQ	Radical SAM superfamily enzyme YgiQ, UPF0313 family	HIMB1491_00672
+HIMB1491-00000000001	Prodigal:2.6	CDS	649156	650082	.	-	0	HIMB1491_00669	HIMB1491	308	OG0001472	NA	NA	COG0022	AcoB	Pyruvate/2-oxoglutarate/acetoin dehydrogenase complex, dehydrogenase (E1) component, beta subunit	HIMB1491_00672
+HIMB1491-00000000001	Prodigal:2.6	CDS	650040	650939	.	-	0	HIMB1491_00670	HIMB1491	299	OG0001444	NA	NA	COG1071	AcoA	TPP-dependent pyruvate or acetoin dehydrogenase subunit alpha	HIMB1491_00672
+HIMB1491-00000000001	Prodigal:2.6	CDS	651068	652054	.	+	0	HIMB1491_00671	HIMB1491	328	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	HIMB1491_00672
+HIMB1491-00000000001	Prodigal:2.6	CDS	652072	652548	.	+	0	HIMB1491_00672	HIMB1491	158	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1491_00672
+HIMB1491-00000000001	Prodigal:2.6	CDS	652599	653585	.	+	0	HIMB1491_00673	HIMB1491	328	OG0005094	NA	NA	NA	NA	NA	HIMB1491_00672
+HIMB1491-00000000001	Prodigal:2.6	CDS	653612	654769	.	+	0	HIMB1491_00674	HIMB1491	385	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1491_00672
+HIMB1491-00000000001	Prodigal:2.6	CDS	654775	655467	.	+	0	HIMB1491_00675	HIMB1491	230	OG0000015	K15669	D-glycero-alpha-D-manno-heptose 1-phosphate guanylyltransferase [EC:2.7.7.71]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1491_00672
+HIMB1491-00000000001	Prodigal:2.6	CDS	655505	656443	.	+	0	HIMB1491_00676	HIMB1491	312	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1491_00672
+HIMB1491-00000000001	Prodigal:2.6	CDS	656464	658263	.	+	0	HIMB1491_00677	HIMB1491	599	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1491_00672
+HIMB1494-00000000001	Aragorn:1.2	tRNA	1006494	1006568	.	+	.	HIMB1494_01080	HIMB1494	NA	NA	NA	NA	NA	NA	NA	HIMB1494_01085
+HIMB1494-00000000001	Prodigal:2.6	CDS	1006573	1006827	.	+	0	HIMB1494_01081	HIMB1494	84	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1494_01085
+HIMB1494-00000000001	Prodigal:2.6	CDS	1006824	1008917	.	+	0	HIMB1494_01082	HIMB1494	697	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1494_01085
+HIMB1494-00000000001	Prodigal:2.6	CDS	1008931	1009815	.	+	0	HIMB1494_01083	HIMB1494	294	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1494_01085
+HIMB1494-00000000001	Prodigal:2.6	CDS	1009812	1010519	.	-	0	HIMB1494_01084	HIMB1494	235	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1494_01085
+HIMB1494-00000000001	Prodigal:2.6	CDS	1010516	1011040	.	-	0	HIMB1494_01085	HIMB1494	174	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1494_01085
+HIMB1494-00000000001	Prodigal:2.6	CDS	1011037	1011903	.	-	0	HIMB1494_01086	HIMB1494	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1494_01085
+HIMB1494-00000000001	Prodigal:2.6	CDS	1011896	1012924	.	-	0	HIMB1494_01087	HIMB1494	342	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1494_01085
+HIMB1494-00000000001	Prodigal:2.6	CDS	1013041	1013910	.	+	0	HIMB1494_01088	HIMB1494	289	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1494_01085
+HIMB1494-00000000001	Prodigal:2.6	CDS	1013913	1014593	.	+	0	HIMB1494_01089	HIMB1494	226	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB1494_01085
+HIMB1494-00000000001	Prodigal:2.6	CDS	1014602	1015435	.	-	0	HIMB1494_01090	HIMB1494	277	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1494_01085
+HIMB1495-00000000001	Aragorn:1.2	tRNA	983151	983225	.	+	.	HIMB1495_01058	HIMB1495	NA	NA	NA	NA	NA	NA	NA	HIMB1495_01063
+HIMB1495-00000000001	Prodigal:2.6	CDS	983230	983484	.	+	0	HIMB1495_01059	HIMB1495	84	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1495_01063
+HIMB1495-00000000001	Prodigal:2.6	CDS	983481	985574	.	+	0	HIMB1495_01060	HIMB1495	697	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1495_01063
+HIMB1495-00000000001	Prodigal:2.6	CDS	985588	986472	.	+	0	HIMB1495_01061	HIMB1495	294	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1495_01063
+HIMB1495-00000000001	Prodigal:2.6	CDS	986469	987176	.	-	0	HIMB1495_01062	HIMB1495	235	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1495_01063
+HIMB1495-00000000001	Prodigal:2.6	CDS	987173	987697	.	-	0	HIMB1495_01063	HIMB1495	174	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1495_01063
+HIMB1495-00000000001	Prodigal:2.6	CDS	987694	988560	.	-	0	HIMB1495_01064	HIMB1495	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1495_01063
+HIMB1495-00000000001	Prodigal:2.6	CDS	988553	989581	.	-	0	HIMB1495_01065	HIMB1495	342	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1495_01063
+HIMB1495-00000000001	Prodigal:2.6	CDS	989698	990567	.	+	0	HIMB1495_01066	HIMB1495	289	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1495_01063
+HIMB1495-00000000001	Prodigal:2.6	CDS	990570	991250	.	+	0	HIMB1495_01067	HIMB1495	226	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB1495_01063
+HIMB1495-00000000001	Prodigal:2.6	CDS	991259	992092	.	-	0	HIMB1495_01068	HIMB1495	277	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1495_01063
+HIMB1485-00000000001	Prodigal:2.6	CDS	412535	413464	.	+	0	HIMB1485_00440	HIMB1485	309	OG0002179	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1485_00445
+HIMB1485-00000000001	Prodigal:2.6	CDS	413457	414392	.	+	0	HIMB1485_00441	HIMB1485	311	OG0001772	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1485_00445
+HIMB1485-00000000001	Prodigal:2.6	CDS	414398	415306	.	+	0	HIMB1485_00442	HIMB1485	302	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1485_00445
+HIMB1485-00000000001	Prodigal:2.6	CDS	415454	416230	.	+	0	HIMB1485_00443	HIMB1485	258	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1485_00445
+HIMB1485-00000000001	Prodigal:2.6	CDS	416221	417276	.	+	0	HIMB1485_00444	HIMB1485	351	OG0000001	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1485_00445
+HIMB1485-00000000001	Prodigal:2.6	CDS	417273	417833	.	+	0	HIMB1485_00445	HIMB1485	186	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1485_00445
+HIMB1485-00000000001	Prodigal:2.6	CDS	417830	419059	.	+	0	HIMB1485_00446	HIMB1485	409	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1485_00445
+HIMB1485-00000000001	Prodigal:2.6	CDS	419084	419914	.	+	0	HIMB1485_00447	HIMB1485	276	OG0001346	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1485_00445
+HIMB1485-00000000001	Prodigal:2.6	CDS	419934	420683	.	+	0	HIMB1485_00448	HIMB1485	249	OG0002062	NA	NA	COG3510	CmcI	Rhamnose/hydroxycephalosporin O-methyltransferase, CmcI/Rv2959c family	HIMB1485_00445
+HIMB1485-00000000001	Prodigal:2.6	CDS	420704	421678	.	+	0	HIMB1485_00449	HIMB1485	324	OG0001646	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1485_00445
+HIMB1485-00000000001	Prodigal:2.6	CDS	421681	422646	.	+	0	HIMB1485_00450	HIMB1485	321	OG0001772	NA	NA	NA	NA	NA	HIMB1485_00445
+HIMB1485-00000000002	Prodigal:2.6	CDS	949331	950365	.	+	0	HIMB1485_01495	HIMB1485	344	OG0001526	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB1485_01500
+HIMB1485-00000000002	Prodigal:2.6	CDS	950432	951316	.	+	0	HIMB1485_01496	HIMB1485	294	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1485_01500
+HIMB1485-00000000002	Prodigal:2.6	CDS	951316	952203	.	+	0	HIMB1485_01497	HIMB1485	295	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1485_01500
+HIMB1485-00000000002	Prodigal:2.6	CDS	952213	953097	.	-	0	HIMB1485_01498	HIMB1485	294	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1485_01500
+HIMB1485-00000000002	Prodigal:2.6	CDS	953116	953826	.	-	0	HIMB1485_01499	HIMB1485	236	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1485_01500
+HIMB1485-00000000002	Prodigal:2.6	CDS	953823	954347	.	-	0	HIMB1485_01500	HIMB1485	174	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1485_01500
+HIMB1485-00000000002	Prodigal:2.6	CDS	954348	955214	.	-	0	HIMB1485_01501	HIMB1485	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1485_01500
+HIMB1485-00000000002	Prodigal:2.6	CDS	955211	956236	.	-	0	HIMB1485_01502	HIMB1485	341	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1485_01500
+HIMB1485-00000000002	Prodigal:2.6	CDS	956687	957154	.	+	0	HIMB1485_01503	HIMB1485	155	OG0002300	NA	NA	NA	NA	NA	HIMB1485_01500
+HIMB1485-00000000002	Prodigal:2.6	CDS	957147	957905	.	+	0	HIMB1485_01504	HIMB1485	252	NA	NA	NA	NA	NA	NA	HIMB1485_01500
+HIMB1485-00000000002	Prodigal:2.6	CDS	957906	959039	.	+	0	HIMB1485_01505	HIMB1485	377	OG0001797	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	HIMB1485_01500
+HIMB1507-00000000001	Prodigal:2.6	CDS	996265	996552	.	-	0	HIMB1507_01026	HIMB1507	95	OG0001837	NA	NA	NA	NA	NA	HIMB1507_01031
+HIMB1507-00000000001	Prodigal:2.6	CDS	996631	996873	.	-	0	HIMB1507_01027	HIMB1507	80	OG0001887	NA	NA	NA	NA	NA	HIMB1507_01031
+HIMB1507-00000000001	Prodigal:2.6	CDS	996884	997303	.	-	0	HIMB1507_01028	HIMB1507	139	OG0002338	NA	NA	NA	NA	NA	HIMB1507_01031
+HIMB1507-00000000001	Prodigal:2.6	CDS	997310	997954	.	-	0	HIMB1507_01029	HIMB1507	214	OG0003647	NA	NA	NA	NA	NA	HIMB1507_01031
+HIMB1507-00000000001	Prodigal:2.6	CDS	998059	999330	.	+	0	HIMB1507_01030	HIMB1507	423	OG0002196	NA	NA	NA	NA	NA	HIMB1507_01031
+HIMB1507-00000000001	Prodigal:2.6	CDS	999774	1000325	.	-	0	HIMB1507_01031	HIMB1507	183	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1507_01031
+HIMB1507-00000000001	Prodigal:2.6	CDS	1000316	1001518	.	-	0	HIMB1507_01032	HIMB1507	400	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1507_01031
+HIMB1507-00000000001	Prodigal:2.6	CDS	1001530	1002387	.	-	0	HIMB1507_01033	HIMB1507	285	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1507_01031
+HIMB1507-00000000001	Prodigal:2.6	CDS	1002394	1003260	.	-	0	HIMB1507_01034	HIMB1507	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1507_01031
+HIMB1507-00000000001	Prodigal:2.6	CDS	1003257	1004279	.	-	0	HIMB1507_01035	HIMB1507	340	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1507_01031
+HIMB1507-00000000001	Prodigal:2.6	CDS	1004313	1005164	.	+	0	HIMB1507_01036	HIMB1507	283	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1507_01031
+HIMB1723-00000000001	Prodigal:2.6	CDS	898357	899310	.	+	0	HIMB1723_00946	HIMB1723	317	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1723_00951
+HIMB1723-00000000001	Prodigal:2.6	CDS	899314	900342	.	+	0	HIMB1723_00947	HIMB1723	342	OG0002695	NA	NA	NA	NA	NA	HIMB1723_00951
+HIMB1723-00000000001	Prodigal:2.6	CDS	900335	901123	.	+	0	HIMB1723_00948	HIMB1723	262	OG0002180	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1723_00951
+HIMB1723-00000000001	Prodigal:2.6	CDS	901125	901505	.	-	0	HIMB1723_00949	HIMB1723	126	OG0001803	NA	NA	NA	NA	NA	HIMB1723_00951
+HIMB1723-00000000001	Prodigal:2.6	CDS	901510	902421	.	-	0	HIMB1723_00950	HIMB1723	303	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1723_00951
+HIMB1723-00000000001	Prodigal:2.6	CDS	902425	902874	.	-	0	HIMB1723_00951	HIMB1723	149	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1723_00951
+HIMB1723-00000000001	Prodigal:2.6	CDS	902879	903619	.	-	0	HIMB1723_00952	HIMB1723	246	OG0002062	NA	NA	COG3510	CmcI	Rhamnose/hydroxycephalosporin O-methyltransferase, CmcI/Rv2959c family	HIMB1723_00951
+HIMB1723-00000000001	Prodigal:2.6	CDS	903654	904499	.	+	0	HIMB1723_00953	HIMB1723	281	OG0001448	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1723_00951
+HIMB1723-00000000001	Prodigal:2.6	CDS	904492	905586	.	-	0	HIMB1723_00954	HIMB1723	364	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1723_00951
+HIMB1723-00000000001	Prodigal:2.6	CDS	905583	906815	.	-	0	HIMB1723_00955	HIMB1723	410	OG0000814	NA	NA	COG4976	NA	Predicted methyltransferase, contains TPR repeat	HIMB1723_00951
+HIMB1723-00000000001	Prodigal:2.6	CDS	906812	907678	.	-	0	HIMB1723_00956	HIMB1723	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1723_00951
+HIMB1430-00000000014	Prodigal:2.6	CDS	34871	36040	.	+	0	HIMB1430_01251	HIMB1430	389	OG0001371	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1430_01256
+HIMB1430-00000000014	Prodigal:2.6	CDS	36033	37061	.	+	0	HIMB1430_01252	HIMB1430	342	OG0001292	K16568	exopolysaccharide production protein ExoZ	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	HIMB1430_01256
+HIMB1430-00000000014	Prodigal:2.6	CDS	37151	38215	.	-	0	HIMB1430_01253	HIMB1430	354	OG0000001	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1430_01256
+HIMB1430-00000000014	Prodigal:2.6	CDS	38224	39159	.	-	0	HIMB1430_01254	HIMB1430	311	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1430_01256
+HIMB1430-00000000014	Prodigal:2.6	CDS	39156	40001	.	-	0	HIMB1430_01255	HIMB1430	281	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1430_01256
+HIMB1430-00000000014	Prodigal:2.6	CDS	40009	40494	.	-	0	HIMB1430_01256	HIMB1430	161	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1430_01256
+HIMB1430-00000000014	Prodigal:2.6	CDS	40485	41213	.	-	0	HIMB1430_01257	HIMB1430	242	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1430_01256
+HIMB1430-00000000014	Prodigal:2.6	CDS	41361	42701	.	+	0	HIMB1430_01258	HIMB1430	446	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1430_01256
+HIMB1430-00000000014	Prodigal:2.6	CDS	42713	43936	.	+	0	HIMB1430_01259	HIMB1430	407	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1430_01256
+HIMB1430-00000000014	Prodigal:2.6	CDS	43933	44610	.	+	0	HIMB1430_01260	HIMB1430	225	OG0004344	NA	NA	NA	NA	NA	HIMB1430_01256
+HIMB1430-00000000014	Prodigal:2.6	CDS	44607	45752	.	+	0	HIMB1430_01261	HIMB1430	381	OG0004345	NA	NA	NA	NA	NA	HIMB1430_01256
+HIMB1611-00000000001	Prodigal:2.6	CDS	1423867	1425036	.	+	0	HIMB1611_01533	HIMB1611	389	OG0001371	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1611_01538
+HIMB1611-00000000001	Prodigal:2.6	CDS	1425029	1426057	.	+	0	HIMB1611_01534	HIMB1611	342	OG0001292	K16568	exopolysaccharide production protein ExoZ	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	HIMB1611_01538
+HIMB1611-00000000001	Prodigal:2.6	CDS	1426147	1427211	.	-	0	HIMB1611_01535	HIMB1611	354	OG0000001	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1611_01538
+HIMB1611-00000000001	Prodigal:2.6	CDS	1427220	1428155	.	-	0	HIMB1611_01536	HIMB1611	311	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1611_01538
+HIMB1611-00000000001	Prodigal:2.6	CDS	1428152	1428997	.	-	0	HIMB1611_01537	HIMB1611	281	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1611_01538
+HIMB1611-00000000001	Prodigal:2.6	CDS	1429005	1429490	.	-	0	HIMB1611_01538	HIMB1611	161	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1611_01538
+HIMB1611-00000000001	Prodigal:2.6	CDS	1429481	1430209	.	-	0	HIMB1611_01539	HIMB1611	242	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1611_01538
+HIMB1611-00000000001	Prodigal:2.6	CDS	1430357	1431697	.	+	0	HIMB1611_01540	HIMB1611	446	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1611_01538
+HIMB1611-00000000001	Prodigal:2.6	CDS	1431709	1432932	.	+	0	HIMB1611_01541	HIMB1611	407	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1611_01538
+HIMB1611-00000000001	Prodigal:2.6	CDS	1432929	1433606	.	+	0	HIMB1611_01542	HIMB1611	225	OG0004344	NA	NA	NA	NA	NA	HIMB1611_01538
+HIMB1611-00000000001	Prodigal:2.6	CDS	1433603	1434748	.	+	0	HIMB1611_01543	HIMB1611	381	OG0004345	NA	NA	NA	NA	NA	HIMB1611_01538
+HIMB1758-00000000001	Prodigal:2.6	CDS	629044	630213	.	+	0	HIMB1758_00645	HIMB1758	389	OG0001371	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1758_00650
+HIMB1758-00000000001	Prodigal:2.6	CDS	630206	631234	.	+	0	HIMB1758_00646	HIMB1758	342	OG0001292	K16568	exopolysaccharide production protein ExoZ	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	HIMB1758_00650
+HIMB1758-00000000001	Prodigal:2.6	CDS	631324	632388	.	-	0	HIMB1758_00647	HIMB1758	354	OG0000001	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1758_00650
+HIMB1758-00000000001	Prodigal:2.6	CDS	632397	633332	.	-	0	HIMB1758_00648	HIMB1758	311	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1758_00650
+HIMB1758-00000000001	Prodigal:2.6	CDS	633329	634174	.	-	0	HIMB1758_00649	HIMB1758	281	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1758_00650
+HIMB1758-00000000001	Prodigal:2.6	CDS	634182	634667	.	-	0	HIMB1758_00650	HIMB1758	161	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1758_00650
+HIMB1758-00000000001	Prodigal:2.6	CDS	634658	635386	.	-	0	HIMB1758_00651	HIMB1758	242	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1758_00650
+HIMB1758-00000000001	Prodigal:2.6	CDS	635534	636874	.	+	0	HIMB1758_00652	HIMB1758	446	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1758_00650
+HIMB1758-00000000001	Prodigal:2.6	CDS	636886	638109	.	+	0	HIMB1758_00653	HIMB1758	407	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1758_00650
+HIMB1758-00000000001	Prodigal:2.6	CDS	638106	638783	.	+	0	HIMB1758_00654	HIMB1758	225	OG0004344	NA	NA	NA	NA	NA	HIMB1758_00650
+HIMB1758-00000000001	Prodigal:2.6	CDS	638780	639925	.	+	0	HIMB1758_00655	HIMB1758	381	OG0004345	NA	NA	NA	NA	NA	HIMB1758_00650
+HIMB1488-00000000001	Prodigal:2.6	CDS	945230	946102	.	-	0	HIMB1488_01040	HIMB1488	290	OG0000956	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	HIMB1488_01045
+HIMB1488-00000000001	Prodigal:2.6	CDS	946136	946663	.	+	0	HIMB1488_01041	HIMB1488	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB1488_01045
+HIMB1488-00000000001	Prodigal:2.6	CDS	946664	947551	.	-	0	HIMB1488_01042	HIMB1488	295	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1488_01045
+HIMB1488-00000000001	Prodigal:2.6	CDS	947610	948623	.	+	0	HIMB1488_01043	HIMB1488	337	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1488_01045
+HIMB1488-00000000001	Prodigal:2.6	CDS	948620	949486	.	+	0	HIMB1488_01044	HIMB1488	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1488_01045
+HIMB1488-00000000001	Prodigal:2.6	CDS	949483	950010	.	+	0	HIMB1488_01045	HIMB1488	175	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1488_01045
+HIMB1488-00000000001	Prodigal:2.6	CDS	950011	950721	.	+	0	HIMB1488_01046	HIMB1488	236	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1488_01045
+HIMB1488-00000000001	Aragorn:1.2	tRNA	950725	950801	.	-	.	HIMB1488_01047	HIMB1488	NA	NA	NA	NA	NA	NA	NA	HIMB1488_01045
+HIMB1488-00000000001	Prodigal:2.6	CDS	950860	951333	.	+	0	HIMB1488_01048	HIMB1488	157	OG0001575	NA	NA	NA	NA	NA	HIMB1488_01045
+HIMB1488-00000000001	Prodigal:2.6	CDS	951343	953787	.	-	0	HIMB1488_01049	HIMB1488	814	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1488_01045
+HIMB1488-00000000001	Prodigal:2.6	CDS	953790	954914	.	-	0	HIMB1488_01050	HIMB1488	374	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	HIMB1488_01045
+HIMB1488-00000000001	Prodigal:2.6	CDS	1267050	1268945	.	+	0	HIMB1488_01374	HIMB1488	631	OG0001292	K16568	exopolysaccharide production protein ExoZ	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	HIMB1488_01379
+HIMB1488-00000000001	Prodigal:2.6	CDS	1269000	1270805	.	+	0	HIMB1488_01375	HIMB1488	601	OG0001196	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	HIMB1488_01379
+HIMB1488-00000000001	Prodigal:2.6	CDS	1270822	1271913	.	-	0	HIMB1488_01376	HIMB1488	363	OG0001496	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1488_01379
+HIMB1488-00000000001	Prodigal:2.6	CDS	1271920	1272528	.	-	0	HIMB1488_01377	HIMB1488	202	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	HIMB1488_01379
+HIMB1488-00000000001	Prodigal:2.6	CDS	1272608	1273624	.	+	0	HIMB1488_01378	HIMB1488	338	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1488_01379
+HIMB1488-00000000001	Prodigal:2.6	CDS	1273638	1274168	.	+	0	HIMB1488_01379	HIMB1488	176	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1488_01379
+HIMB1488-00000000001	Prodigal:2.6	CDS	1274182	1275051	.	+	0	HIMB1488_01380	HIMB1488	289	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1488_01379
+HIMB1488-00000000001	Prodigal:2.6	CDS	1275048	1276235	.	+	0	HIMB1488_01381	HIMB1488	395	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1488_01379
+HIMB1488-00000000001	Prodigal:2.6	CDS	1276222	1277208	.	+	0	HIMB1488_01382	HIMB1488	328	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	HIMB1488_01379
+HIMB1488-00000000001	Prodigal:2.6	CDS	1277162	1278076	.	+	0	HIMB1488_01383	HIMB1488	304	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1488_01379
+HIMB1488-00000000001	Prodigal:2.6	CDS	1278069	1278881	.	-	0	HIMB1488_01384	HIMB1488	270	OG0002300	NA	NA	NA	NA	NA	HIMB1488_01379
+HIMB1506-00000000001	Prodigal:2.6	CDS	10666	11529	.	-	0	HIMB1506_00010	HIMB1506	287	OG0000074	NA	NA	COG0115	IlvE	Branched-chain amino acid aminotransferase/4-amino-4-deoxychorismate lyase	HIMB1506_00015
+HIMB1506-00000000001	Prodigal:2.6	CDS	11564	12682	.	-	0	HIMB1506_00011	HIMB1506	372	OG0002337	NA	NA	NA	NA	NA	HIMB1506_00015
+HIMB1506-00000000001	Prodigal:2.6	CDS	12692	13309	.	-	0	HIMB1506_00012	HIMB1506	205	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	HIMB1506_00015
+HIMB1506-00000000001	Prodigal:2.6	CDS	13357	14391	.	+	0	HIMB1506_00013	HIMB1506	344	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1506_00015
+HIMB1506-00000000001	Prodigal:2.6	CDS	14391	15617	.	+	0	HIMB1506_00014	HIMB1506	408	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1506_00015
+HIMB1506-00000000001	Prodigal:2.6	CDS	15617	16144	.	+	0	HIMB1506_00015	HIMB1506	175	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1506_00015
+HIMB1506-00000000001	Prodigal:2.6	CDS	16156	17364	.	+	0	HIMB1506_00016	HIMB1506	402	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1506_00015
+HIMB1506-00000000001	Prodigal:2.6	CDS	17339	18349	.	+	0	HIMB1506_00017	HIMB1506	336	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	HIMB1506_00015
+HIMB1506-00000000001	Prodigal:2.6	CDS	18346	19260	.	-	0	HIMB1506_00018	HIMB1506	304	OG0004184	NA	NA	NA	NA	NA	HIMB1506_00015
+HIMB1506-00000000001	Prodigal:2.6	CDS	19263	20360	.	-	0	HIMB1506_00019	HIMB1506	365	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1506_00015
+HIMB1506-00000000001	Prodigal:2.6	CDS	20335	21420	.	-	0	HIMB1506_00020	HIMB1506	361	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1506_00015
+HIMB1506-00000000001	Aragorn:1.2	tRNA	336509	336585	.	+	.	HIMB1506_00343	HIMB1506	NA	NA	NA	NA	NA	NA	NA	HIMB1506_00348
+HIMB1506-00000000001	Prodigal:2.6	CDS	336643	337074	.	-	0	HIMB1506_00344	HIMB1506	143	OG0002949	NA	NA	COG5612	CnrX	Ni/Co/Cd-binding protein CnrX (heavy-metal resistance)	HIMB1506_00348
+HIMB1506-00000000001	Prodigal:2.6	CDS	337071	337400	.	-	0	HIMB1506_00345	HIMB1506	109	OG0002948	NA	NA	NA	NA	NA	HIMB1506_00348
+HIMB1506-00000000001	Prodigal:2.6	CDS	337417	337965	.	-	0	HIMB1506_00346	HIMB1506	182	OG0002947	K03088	RNA polymerase sigma-70 factor, ECF subfamily	COG1595	RpoE	DNA-directed RNA polymerase specialized sigma subunit, sigma24 family	HIMB1506_00348
+HIMB1506-00000000001	Prodigal:2.6	CDS	338042	338338	.	-	0	HIMB1506_00347	HIMB1506	98	OG0002946	NA	NA	COG5126	FRQ1	Ca2+-binding protein, EF-hand superfamily	HIMB1506_00348
+HIMB1506-00000000001	Prodigal:2.6	CDS	338589	339131	.	-	0	HIMB1506_00348	HIMB1506	180	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1506_00348
+HIMB1506-00000000001	Prodigal:2.6	CDS	339128	339994	.	-	0	HIMB1506_00349	HIMB1506	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1506_00348
+HIMB1506-00000000001	Prodigal:2.6	CDS	339987	341003	.	-	0	HIMB1506_00350	HIMB1506	338	OG0000001	K01710	dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1506_00348
+HIMB1506-00000000001	Prodigal:2.6	CDS	341072	341947	.	+	0	HIMB1506_00351	HIMB1506	291	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1506_00348
+HIMB1506-00000000001	Prodigal:2.6	CDS	341944	342471	.	-	0	HIMB1506_00352	HIMB1506	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB1506_00348
+HIMB1506-00000000001	Prodigal:2.6	CDS	342505	343377	.	+	0	HIMB1506_00353	HIMB1506	290	OG0000956	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	HIMB1506_00348
+HIMB2211-00000000002	Prodigal:2.6	CDS	5269	5868	.	-	0	HIMB2211_01565	HIMB2211	199	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	HIMB2211_01570
+HIMB2211-00000000002	Prodigal:2.6	CDS	5921	7123	.	+	0	HIMB2211_01566	HIMB2211	400	OG0000015	NA	NA	COG0241	HisB1/GmhB	Histidinol phosphatase/D-glycero-mannoheptose bisphosphatephosphatase, HAD superfamily	HIMB2211_01570
+HIMB2211-00000000002	Prodigal:2.6	CDS	7196	8089	.	+	0	HIMB2211_01567	HIMB2211	297	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB2211_01570
+HIMB2211-00000000002	Prodigal:2.6	CDS	8094	8855	.	+	0	HIMB2211_01568	HIMB2211	253	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB2211_01570
+HIMB2211-00000000002	Prodigal:2.6	CDS	8840	9865	.	+	0	HIMB2211_01569	HIMB2211	341	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2211_01570
+HIMB2211-00000000002	Prodigal:2.6	CDS	9862	10356	.	+	0	HIMB2211_01570	HIMB2211	164	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB2211_01570
+HIMB2211-00000000002	Prodigal:2.6	CDS	10367	11590	.	+	0	HIMB2211_01571	HIMB2211	407	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB2211_01570
+HIMB2211-00000000002	Prodigal:2.6	CDS	11872	12783	.	-	0	HIMB2211_01572	HIMB2211	303	OG0004184	NA	NA	NA	NA	NA	HIMB2211_01570
+HIMB2211-00000000002	Prodigal:2.6	CDS	12780	13874	.	-	0	HIMB2211_01573	HIMB2211	364	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB2211_01570
+HIMB2211-00000000002	Prodigal:2.6	CDS	13849	14943	.	-	0	HIMB2211_01574	HIMB2211	364	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB2211_01570
+HIMB2211-00000000002	Prodigal:2.6	CDS	14992	16131	.	+	0	HIMB2211_01575	HIMB2211	379	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB2211_01570
+HIMB1715-00000000001	Prodigal:2.6	CDS	28518	28826	.	-	0	HIMB1715_00034	HIMB1715	102	OG0000430	NA	NA	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	HIMB1715_00039
+HIMB1715-00000000001	Prodigal:2.6	CDS	28831	29919	.	-	0	HIMB1715_00035	HIMB1715	362	OG0000337	K00324	H+-translocating NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2 7.1.1.1]	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	HIMB1715_00039
+HIMB1715-00000000001	Prodigal:2.6	CDS	29934	30095	.	-	0	HIMB1715_00036	HIMB1715	53	OG0001182	NA	NA	NA	NA	NA	HIMB1715_00039
+HIMB1715-00000000001	barrnap:0.9	rRNA	30192	30301	3.8e-12	-	.	HIMB1715_00037	HIMB1715	NA	NA	NA	NA	NA	NA	NA	HIMB1715_00039
+HIMB1715-00000000001	Prodigal:2.6	CDS	30501	31304	.	-	0	HIMB1715_00038	HIMB1715	267	OG0001321	NA	NA	NA	NA	NA	HIMB1715_00039
+HIMB1715-00000000001	Prodigal:2.6	CDS	31322	31849	.	-	0	HIMB1715_00039	HIMB1715	175	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1715_00039
+HIMB1715-00000000001	Prodigal:2.6	CDS	31852	32667	.	-	0	HIMB1715_00040	HIMB1715	271	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1715_00039
+HIMB1715-00000000001	Prodigal:2.6	CDS	32640	33656	.	-	0	HIMB1715_00041	HIMB1715	338	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1715_00039
+HIMB1715-00000000001	Prodigal:2.6	CDS	33653	34534	.	-	0	HIMB1715_00042	HIMB1715	293	OG0000066	NA	NA	COG3958	TktA2	Transketolase, C-terminal subunit	HIMB1715_00039
+HIMB1715-00000000001	Prodigal:2.6	CDS	34539	35306	.	-	0	HIMB1715_00043	HIMB1715	255	OG0000058	NA	NA	COG3959	TktA1	Transketolase, N-terminal subunit	HIMB1715_00039
+CP020777.1	Prodigal:2.6	CDS	171641	172846	.	+	0	RS39_00191	RS39	401	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	RS39_00196
+CP020777.1	Prodigal:2.6	CDS	172841	173938	.	-	0	RS39_00192	RS39	365	OG0001471	NA	NA	COG4421	NA	Predicted N-acetylglucosamine transferase involved in capsular polysaccharide biosynthesis, GT61 family	RS39_00196
+CP020777.1	Prodigal:2.6	CDS	174003	174857	.	+	0	RS39_00193	RS39	284	OG0001205	NA	NA	NA	NA	NA	RS39_00196
+CP020777.1	Prodigal:2.6	CDS	174869	175588	.	+	0	RS39_00194	RS39	239	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	RS39_00196
+CP020777.1	Prodigal:2.6	CDS	175605	176405	.	+	0	RS39_00195	RS39	266	OG0001279	NA	NA	NA	NA	NA	RS39_00196
+CP020777.1	Prodigal:2.6	CDS	176411	176926	.	+	0	RS39_00196	RS39	171	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	RS39_00196
+CP020777.1	Aragorn:1.2	tRNA	176934	177023	.	+	.	RS39_00197	RS39	NA	NA	NA	NA	NA	NA	NA	RS39_00196
+CP020777.1	Prodigal:2.6	CDS	177148	177915	.	+	0	RS39_00198	RS39	255	OG0001640	NA	NA	COG0300	YqjQ	Short-chain dehydrogenase	RS39_00196
+CP020777.1	Prodigal:2.6	CDS	178086	180143	.	+	0	RS39_00199	RS39	685	OG0000086	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	RS39_00196
+CP020777.1	Prodigal:2.6	CDS	180147	181427	.	+	0	RS39_00200	RS39	426	OG0000225	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	RS39_00196
+CP020777.1	Prodigal:2.6	CDS	181424	183223	.	-	0	RS39_00201	RS39	599	OG0000171	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	RS39_00196
+HIMB1436-00000000001	Prodigal:2.6	CDS	105546	106520	.	+	0	HIMB1436_00115	HIMB1436	324	OG0000303	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0645	AAA	Predicted kinase, contains AAA domain	HIMB1436_00120
+HIMB1436-00000000001	Prodigal:2.6	CDS	106520	108319	.	+	0	HIMB1436_00116	HIMB1436	599	OG0000171	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	HIMB1436_00120
+HIMB1436-00000000001	Prodigal:2.6	CDS	108316	109596	.	-	0	HIMB1436_00117	HIMB1436	426	OG0000225	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	HIMB1436_00120
+HIMB1436-00000000001	Prodigal:2.6	CDS	109600	111657	.	-	0	HIMB1436_00118	HIMB1436	685	OG0000086	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	HIMB1436_00120
+HIMB1436-00000000001	Aragorn:1.2	tRNA	111911	112000	.	-	.	HIMB1436_00119	HIMB1436	NA	NA	NA	NA	NA	NA	NA	HIMB1436_00120
+HIMB1436-00000000001	Prodigal:2.6	CDS	112009	112524	.	-	0	HIMB1436_00120	HIMB1436	171	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1436_00120
+HIMB1436-00000000001	Prodigal:2.6	CDS	112530	113336	.	-	0	HIMB1436_00121	HIMB1436	268	OG0001279	NA	NA	NA	NA	NA	HIMB1436_00120
+HIMB1436-00000000001	Prodigal:2.6	CDS	113344	114060	.	-	0	HIMB1436_00122	HIMB1436	238	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1436_00120
+HIMB1436-00000000001	Prodigal:2.6	CDS	114071	114925	.	-	0	HIMB1436_00123	HIMB1436	284	OG0001205	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1436_00120
+HIMB1436-00000000001	Prodigal:2.6	CDS	114990	116084	.	+	0	HIMB1436_00124	HIMB1436	364	OG0001471	NA	NA	COG4421	NA	Predicted N-acetylglucosamine transferase involved in capsular polysaccharide biosynthesis, GT61 family	HIMB1436_00120
+HIMB1436-00000000001	Prodigal:2.6	CDS	116145	117023	.	+	0	HIMB1436_00125	HIMB1436	292	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1436_00120
+HIMB2226-00000000002	Aragorn:1.2	tRNA	18118	18194	.	+	.	HIMB2226_00712	HIMB2226	NA	NA	NA	NA	NA	NA	NA	HIMB2226_00717
+HIMB2226-00000000002	Prodigal:2.6	CDS	18201	19019	.	+	0	HIMB2226_00713	HIMB2226	272	OG0001205	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB2226_00717
+HIMB2226-00000000002	Prodigal:2.6	CDS	19026	19733	.	-	0	HIMB2226_00714	HIMB2226	235	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB2226_00717
+HIMB2226-00000000002	Prodigal:2.6	CDS	19730	20917	.	-	0	HIMB2226_00715	HIMB2226	395	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB2226_00717
+HIMB2226-00000000002	Prodigal:2.6	CDS	20914	21729	.	-	0	HIMB2226_00716	HIMB2226	271	OG0001279	NA	NA	NA	NA	NA	HIMB2226_00717
+HIMB2226-00000000002	Prodigal:2.6	CDS	21731	22249	.	-	0	HIMB2226_00717	HIMB2226	172	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB2226_00717
+HIMB2226-00000000002	Prodigal:2.6	CDS	22250	23116	.	-	0	HIMB2226_00718	HIMB2226	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB2226_00717
+HIMB2226-00000000002	Prodigal:2.6	CDS	23113	24126	.	-	0	HIMB2226_00719	HIMB2226	337	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB2226_00717
+HIMB2226-00000000002	Prodigal:2.6	CDS	24181	25053	.	+	0	HIMB2226_00720	HIMB2226	290	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB2226_00717
+HIMB2226-00000000002	Prodigal:2.6	CDS	25058	25585	.	-	0	HIMB2226_00721	HIMB2226	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB2226_00717
+HIMB2226-00000000002	Prodigal:2.6	CDS	25633	26499	.	+	0	HIMB2226_00722	HIMB2226	288	OG0000956	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	HIMB2226_00717
+HIMB2187-00000000001	Prodigal:2.6	CDS	233305	234177	.	-	0	HIMB2187_00267	HIMB2187	290	OG0000956	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	HIMB2187_00272
+HIMB2187-00000000001	Prodigal:2.6	CDS	234219	234746	.	+	0	HIMB2187_00268	HIMB2187	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB2187_00272
+HIMB2187-00000000001	Prodigal:2.6	CDS	234751	235623	.	-	0	HIMB2187_00269	HIMB2187	290	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB2187_00272
+HIMB2187-00000000001	Prodigal:2.6	CDS	235678	236691	.	+	0	HIMB2187_00270	HIMB2187	337	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB2187_00272
+HIMB2187-00000000001	Prodigal:2.6	CDS	236688	237551	.	+	0	HIMB2187_00271	HIMB2187	287	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB2187_00272
+HIMB2187-00000000001	Prodigal:2.6	CDS	237551	238075	.	+	0	HIMB2187_00272	HIMB2187	174	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB2187_00272
+HIMB2187-00000000001	Prodigal:2.6	CDS	238072	238776	.	+	0	HIMB2187_00273	HIMB2187	234	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB2187_00272
+HIMB2187-00000000001	Aragorn:1.2	tRNA	238780	238856	.	-	.	HIMB2187_00274	HIMB2187	NA	NA	NA	NA	NA	NA	NA	HIMB2187_00272
+HIMB2187-00000000001	Prodigal:2.6	CDS	238926	240653	.	-	0	HIMB2187_00275	HIMB2187	575	OG0001301	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	HIMB2187_00272
+HIMB2187-00000000001	Prodigal:2.6	CDS	240765	240974	.	-	0	HIMB2187_00276	HIMB2187	69	OG0001202	NA	NA	NA	NA	NA	HIMB2187_00272
+HIMB2187-00000000001	Prodigal:2.6	CDS	241016	241246	.	-	0	HIMB2187_00277	HIMB2187	76	OG0001434	NA	NA	NA	NA	NA	HIMB2187_00272
+ATTF01000014.1	Prodigal:2.6	CDS	8670	9554	.	-	0	HIMB058_00749	HIMB058	294	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB058_00754
+ATTF01000014.1	Prodigal:2.6	CDS	9587	10420	.	-	0	HIMB058_00750	HIMB058	277	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB058_00754
+ATTF01000014.1	Prodigal:2.6	CDS	10495	11517	.	+	0	HIMB058_00751	HIMB058	340	OG0000001	K01710	dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB058_00754
+ATTF01000014.1	Prodigal:2.6	CDS	11514	12386	.	+	0	HIMB058_00752	HIMB058	290	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB058_00754
+ATTF01000014.1	Prodigal:2.6	CDS	12379	13074	.	+	0	HIMB058_00753	HIMB058	231	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB058_00754
+ATTF01000014.1	Prodigal:2.6	CDS	13071	13604	.	+	0	HIMB058_00754	HIMB058	177	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB058_00754
+ATTF01000014.1	Prodigal:2.6	CDS	13601	14494	.	-	0	HIMB058_00755	HIMB058	297	OG0001279	NA	NA	NA	NA	NA	HIMB058_00754
+ATTF01000014.1	Prodigal:2.6	CDS	14587	15726	.	+	0	HIMB058_00756	HIMB058	379	NA	NA	NA	NA	NA	NA	HIMB058_00754
+ATTF01000014.1	Prodigal:2.6	CDS	15771	16796	.	+	0	HIMB058_00757	HIMB058	341	OG0002049	NA	NA	NA	NA	NA	HIMB058_00754
+ATTF01000014.1	Aragorn:1.2	tRNA	16919	16995	.	-	.	HIMB058_00758	HIMB058	NA	NA	NA	NA	NA	NA	NA	HIMB058_00754
+ATTF01000014.1	Prodigal:2.6	CDS	17074	17259	.	-	0	HIMB058_00759	HIMB058	61	OG0001381	NA	NA	NA	NA	NA	HIMB058_00754
+ADAC02000001.1	Prodigal:2.6	CDS	41296	43104	.	+	0	HIMB114_00046	HIMB114	602	OG0000287	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	HIMB114_00051
+ADAC02000001.1	Prodigal:2.6	CDS	43101	44012	.	-	0	HIMB114_00047	HIMB114	303	OG0000087	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB114_00051
+ADAC02000001.1	Prodigal:2.6	CDS	44099	45097	.	+	0	HIMB114_00048	HIMB114	332	OG0001339	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB114_00051
+ADAC02000001.1	Prodigal:2.6	CDS	45105	45902	.	+	0	HIMB114_00049	HIMB114	265	OG0000089	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	HIMB114_00051
+ADAC02000001.1	Prodigal:2.6	CDS	45906	46835	.	-	0	HIMB114_00050	HIMB114	309	OG0000001	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB114_00051
+ADAC02000001.1	Prodigal:2.6	CDS	46804	47322	.	-	0	HIMB114_00051	HIMB114	172	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB114_00051
+ADAC02000001.1	Prodigal:2.6	CDS	47303	48187	.	-	0	HIMB114_00052	HIMB114	294	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB114_00051
+ADAC02000001.1	Prodigal:2.6	CDS	48184	49209	.	-	0	HIMB114_00053	HIMB114	341	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB114_00051
+ADAC02000001.1	Prodigal:2.6	CDS	49260	50090	.	+	0	HIMB114_00054	HIMB114	276	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB114_00051
+ADAC02000001.1	Aragorn:1.2	tRNA	50097	50186	.	+	.	HIMB114_00055	HIMB114	NA	NA	NA	NA	NA	NA	NA	HIMB114_00051
+ADAC02000001.1	Prodigal:2.6	CDS	50230	50928	.	+	0	HIMB114_00056	HIMB114	232	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB114_00051
+HIMB1565-00000000001	Prodigal:2.6	CDS	441822	443630	.	+	0	HIMB1565_00493	HIMB1565	602	OG0000287	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	HIMB1565_00498
+HIMB1565-00000000001	Prodigal:2.6	CDS	443627	444538	.	-	0	HIMB1565_00494	HIMB1565	303	OG0000087	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB1565_00498
+HIMB1565-00000000001	Prodigal:2.6	CDS	444624	445622	.	+	0	HIMB1565_00495	HIMB1565	332	OG0001339	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1565_00498
+HIMB1565-00000000001	Prodigal:2.6	CDS	445630	446427	.	+	0	HIMB1565_00496	HIMB1565	265	OG0000089	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	HIMB1565_00498
+HIMB1565-00000000001	Prodigal:2.6	CDS	446431	447360	.	-	0	HIMB1565_00497	HIMB1565	309	OG0000001	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1565_00498
+HIMB1565-00000000001	Prodigal:2.6	CDS	447329	447847	.	-	0	HIMB1565_00498	HIMB1565	172	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1565_00498
+HIMB1565-00000000001	Prodigal:2.6	CDS	447828	448712	.	-	0	HIMB1565_00499	HIMB1565	294	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1565_00498
+HIMB1565-00000000001	Prodigal:2.6	CDS	448709	449734	.	-	0	HIMB1565_00500	HIMB1565	341	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1565_00498
+HIMB1565-00000000001	Prodigal:2.6	CDS	449785	450615	.	+	0	HIMB1565_00501	HIMB1565	276	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1565_00498
+HIMB1565-00000000001	Aragorn:1.2	tRNA	450623	450712	.	+	.	HIMB1565_00502	HIMB1565	NA	NA	NA	NA	NA	NA	NA	HIMB1565_00498
+HIMB1565-00000000001	Prodigal:2.6	CDS	450756	451454	.	+	0	HIMB1565_00503	HIMB1565	232	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB1565_00498
+Ga0255589_11	Prodigal:2.6	CDS	836738	837928	.	-	0	LSUCC0664_00910	LSUCC0664	396	OG0001706	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	LSUCC0664_00915
+Ga0255589_11	Prodigal:2.6	CDS	837925	839325	.	-	0	LSUCC0664_00911	LSUCC0664	466	OG0002178	NA	NA	NA	NA	NA	LSUCC0664_00915
+Ga0255589_11	Prodigal:2.6	CDS	839325	840470	.	-	0	LSUCC0664_00912	LSUCC0664	381	OG0001958	NA	NA	NA	NA	NA	LSUCC0664_00915
+Ga0255589_11	Prodigal:2.6	CDS	840482	841069	.	+	0	LSUCC0664_00913	LSUCC0664	195	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	LSUCC0664_00915
+Ga0255589_11	Prodigal:2.6	CDS	841077	842012	.	-	0	LSUCC0664_00914	LSUCC0664	311	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	LSUCC0664_00915
+Ga0255589_11	Prodigal:2.6	CDS	842012	842485	.	-	0	LSUCC0664_00915	LSUCC0664	157	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	LSUCC0664_00915
+Ga0255589_11	Prodigal:2.6	CDS	842485	843642	.	-	0	LSUCC0664_00916	LSUCC0664	385	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	LSUCC0664_00915
+Ga0255589_11	Prodigal:2.6	CDS	843667	844647	.	-	0	LSUCC0664_00917	LSUCC0664	326	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	LSUCC0664_00915
+Ga0255589_11	Prodigal:2.6	CDS	844696	845580	.	+	0	LSUCC0664_00918	LSUCC0664	294	OG0001444	NA	NA	COG1071	AcoA	TPP-dependent pyruvate or acetoin dehydrogenase subunit alpha	LSUCC0664_00915
+Ga0255589_11	Prodigal:2.6	CDS	845553	846461	.	+	0	LSUCC0664_00919	LSUCC0664	302	OG0001472	NA	NA	COG3958	TktA2	Transketolase, C-terminal subunit	LSUCC0664_00915
+Ga0255589_11	Prodigal:2.6	CDS	846458	846862	.	-	0	LSUCC0664_00920	LSUCC0664	134	OG0001183	NA	NA	COG0494	MutT	8-oxo-dGTP pyrophosphatase MutT and related house-cleaning NTP pyrophosphohydrolases, NUDIX family	LSUCC0664_00915
+CP024034.1	Prodigal:2.6	CDS	202345	203271	.	-	0	LSUCC0530_00226	LSUCC0530	308	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	LSUCC0530_00231
+CP024034.1	Prodigal:2.6	CDS	203268	203672	.	-	0	LSUCC0530_00227	LSUCC0530	134	OG0001803	NA	NA	NA	NA	NA	LSUCC0530_00231
+CP024034.1	Prodigal:2.6	CDS	203798	204727	.	-	0	LSUCC0530_00228	LSUCC0530	309	OG0001502	NA	NA	NA	NA	NA	LSUCC0530_00231
+CP024034.1	Prodigal:2.6	CDS	204732	204887	.	-	0	LSUCC0530_00229	LSUCC0530	51	NA	NA	NA	NA	NA	NA	LSUCC0530_00231
+CP024034.1	Prodigal:2.6	CDS	204903	205679	.	-	0	LSUCC0530_00230	LSUCC0530	258	OG0001321	NA	NA	NA	NA	NA	LSUCC0530_00231
+CP024034.1	Prodigal:2.6	CDS	205806	206315	.	-	0	LSUCC0530_00231	LSUCC0530	169	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	LSUCC0530_00231
+CP024034.1	Prodigal:2.6	CDS	206403	207497	.	+	0	LSUCC0530_00232	LSUCC0530	364	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	LSUCC0530_00231
+CP024034.1	Prodigal:2.6	CDS	207546	208304	.	+	0	LSUCC0530_00233	LSUCC0530	252	OG0000008	NA	NA	NA	NA	NA	LSUCC0530_00231
+CP024034.1	Aragorn:1.2	tRNA	208337	208413	.	-	.	LSUCC0530_00234	LSUCC0530	NA	NA	NA	NA	NA	NA	NA	LSUCC0530_00231
+CP024034.1	Prodigal:2.6	CDS	208471	209451	.	-	0	LSUCC0530_00235	LSUCC0530	326	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	LSUCC0530_00231
+CP024034.1	Prodigal:2.6	CDS	209452	210204	.	-	0	LSUCC0530_00236	LSUCC0530	250	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	LSUCC0530_00231
+OZ247815.1	Prodigal:2.6	CDS	194596	195594	.	-	0	ME-33_00224	ME-33	332	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	ME-33_00229
+OZ247815.1	Prodigal:2.6	CDS	195647	196729	.	-	0	ME-33_00225	ME-33	360	OG0002337	NA	NA	NA	NA	NA	ME-33_00229
+OZ247815.1	Prodigal:2.6	CDS	196794	197417	.	-	0	ME-33_00226	ME-33	207	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	ME-33_00229
+OZ247815.1	Prodigal:2.6	CDS	197468	198508	.	+	0	ME-33_00227	ME-33	346	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	ME-33_00229
+OZ247815.1	Prodigal:2.6	CDS	198501	199727	.	+	0	ME-33_00228	ME-33	408	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	ME-33_00229
+OZ247815.1	Prodigal:2.6	CDS	199724	200248	.	+	0	ME-33_00229	ME-33	174	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	ME-33_00229
+OZ247815.1	Prodigal:2.6	CDS	200250	201110	.	+	0	ME-33_00230	ME-33	286	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	ME-33_00229
+OZ247815.1	Prodigal:2.6	CDS	201107	202327	.	+	0	ME-33_00231	ME-33	406	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	ME-33_00229
+OZ247815.1	Prodigal:2.6	CDS	202317	203312	.	+	0	ME-33_00232	ME-33	331	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	ME-33_00229
+OZ247815.1	Aragorn:1.2	tRNA	203323	203399	.	-	.	ME-33_00233	ME-33	NA	NA	NA	NA	NA	NA	NA	ME-33_00229
+OZ247815.1	Prodigal:2.6	CDS	203498	204247	.	+	0	ME-33_00234	ME-33	249	OG0000008	NA	NA	COG2813	RsmC	16S rRNA G1207 or 23S rRNA G1835 methylase RsmC/RlmG	ME-33_00229
+OZ247815.1	Prodigal:2.6	CDS	836386	837078	.	-	0	ME-33_00929	ME-33	230	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	ME-33_00934
+OZ247815.1	Prodigal:2.6	CDS	837075	837224	.	-	0	ME-33_00930	ME-33	49	NA	NA	NA	NA	NA	NA	ME-33_00934
+OZ247815.1	Prodigal:2.6	CDS	837191	838045	.	-	0	ME-33_00931	ME-33	284	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	ME-33_00934
+OZ247815.1	Prodigal:2.6	CDS	838111	839121	.	+	0	ME-33_00932	ME-33	336	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	ME-33_00934
+OZ247815.1	Prodigal:2.6	CDS	839118	839981	.	+	0	ME-33_00933	ME-33	287	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	ME-33_00934
+OZ247815.1	Prodigal:2.6	CDS	839988	840509	.	+	0	ME-33_00934	ME-33	173	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	ME-33_00934
+OZ247815.1	Prodigal:2.6	CDS	840513	841247	.	+	0	ME-33_00935	ME-33	244	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	ME-33_00934
+OZ247815.1	Prodigal:2.6	CDS	841250	842062	.	-	0	ME-33_00936	ME-33	270	OG0000089	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	ME-33_00934
+OZ247815.1	Aragorn:1.2	tRNA	842084	842173	.	-	.	ME-33_00937	ME-33	NA	NA	NA	NA	NA	NA	NA	ME-33_00934
+OZ247815.1	Prodigal:2.6	CDS	842194	842946	.	-	0	ME-33_00938	ME-33	250	OG0000008	NA	NA	NA	NA	NA	ME-33_00934
+OZ247815.1	Prodigal:2.6	CDS	842939	844750	.	-	0	ME-33_00939	ME-33	603	OG0000287	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	ME-33_00934
+OZ249405.1	Prodigal:2.6	CDS	829597	830520	.	+	0	MiE-29_00923	MiE-29	307	OG0000087	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	MiE-29_00928
+OZ249405.1	Aragorn:1.2	tRNA	830523	830612	.	-	NA	MiE-29_00924	MiE-29	NA	NA	NA	NA	NA	NA	NA	MiE-29_00928
+OZ249405.1	Prodigal:2.6	CDS	830675	831487	.	+	0	MiE-29_00925	MiE-29	270	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	MiE-29_00928
+OZ249405.1	Prodigal:2.6	CDS	831498	832529	.	+	0	MiE-29_00926	MiE-29	343	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	MiE-29_00928
+OZ249405.1	Prodigal:2.6	CDS	832519	833391	.	+	0	MiE-29_00927	MiE-29	290	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	MiE-29_00928
+OZ249405.1	Prodigal:2.6	CDS	833396	833878	.	+	0	MiE-29_00928	MiE-29	160	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	MiE-29_00928
+OZ249405.1	Prodigal:2.6	CDS	833875	834585	.	+	0	MiE-29_00929	MiE-29	236	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	MiE-29_00928
+OZ249405.1	Prodigal:2.6	CDS	834588	835766	.	+	0	MiE-29_00930	MiE-29	392	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	MiE-29_00928
+OZ249405.1	Prodigal:2.6	CDS	835763	836467	.	+	0	MiE-29_00931	MiE-29	234	OG0001832	K16435	dTDP-4-dehydro-6-deoxy-alpha-D-glucopyranose 2,3-dehydratase [EC:4.2.1.159]	NA	NA	NA	MiE-29_00928
+OZ249405.1	Prodigal:2.6	CDS	836511	837428	.	+	0	MiE-29_00932	MiE-29	305	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	MiE-29_00928
+OZ249405.1	Prodigal:2.6	CDS	837443	839254	.	-	0	MiE-29_00933	MiE-29	603	OG0000287	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	MiE-29_00928
+OZ247814.1	Prodigal:2.6	CDS	166884	168167	.	-	0	MKE-138_00204	MKE-138	427	OG0000877	NA	NA	COG3307	RfaL	O-antigen ligase	MKE-138_00209
+OZ247814.1	Prodigal:2.6	CDS	168279	169292	.	+	0	MKE-138_00205	MKE-138	337	OG0001045	NA	NA	COG0472	Rfe	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase/archaeal AglH	MKE-138_00209
+OZ247814.1	Prodigal:2.6	CDS	169434	170198	.	-	0	MKE-138_00206	MKE-138	254	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	MKE-138_00209
+OZ247814.1	Prodigal:2.6	CDS	170355	172112	.	-	0	MKE-138_00207	MKE-138	585	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	MKE-138_00209
+OZ247814.1	Prodigal:2.6	CDS	172131	173300	.	-	0	MKE-138_00208	MKE-138	389	OG0002847	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	MKE-138_00209
+OZ247814.1	Prodigal:2.6	CDS	173457	174005	.	-	0	MKE-138_00209	MKE-138	182	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	MKE-138_00209
+OZ247814.1	Prodigal:2.6	CDS	174067	174957	.	-	0	MKE-138_00210	MKE-138	296	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	MKE-138_00209
+OZ247814.1	Prodigal:2.6	CDS	174972	175784	.	-	0	MKE-138_00211	MKE-138	270	OG0001703	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	MKE-138_00209
+OZ247814.1	Prodigal:2.6	CDS	175781	176893	.	-	0	MKE-138_00212	MKE-138	370	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	MKE-138_00209
+OZ247814.1	Prodigal:2.6	CDS	177375	178013	.	-	0	MKE-138_00213	MKE-138	212	OG0001549	NA	NA	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	MKE-138_00209
+OZ247814.1	Prodigal:2.6	CDS	178015	179310	.	-	0	MKE-138_00214	MKE-138	431	OG0002859	NA	NA	COG0318	MenE	O-succinylbenzoic acid-CoA ligase MenE or related acyl-CoA synthetase (AMP-forming)	MKE-138_00209

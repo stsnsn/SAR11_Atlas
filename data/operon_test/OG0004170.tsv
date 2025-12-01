@@ -1,0 +1,23 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP159818.1	Prodigal:2.6	CDS	750025	750804	.	-	0	Uisw_114_00902	Uisw_114	259	OG0000949	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	Uisw_114_00907
+CP159818.1	Aragorn:1.2	tRNA	750809	750893	.	-	.	Uisw_114_00903	Uisw_114	NA	NA	NA	NA	NA	NA	NA	Uisw_114_00907
+CP159818.1	Prodigal:2.6	CDS	750973	751374	.	-	0	Uisw_114_00904	Uisw_114	133	OG0001011	K00682	gamma-glutamylcyclotransferase [EC:4.3.2.9]	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	Uisw_114_00907
+CP159818.1	Prodigal:2.6	CDS	751379	752128	.	-	0	Uisw_114_00905	Uisw_114	249	OG0000785	NA	NA	COG1058	CinA	ADP-ribose pyrophosphatase domain of DNA damage- and competence-inducible protein CinA	Uisw_114_00907
+CP159818.1	Prodigal:2.6	CDS	752150	752848	.	+	0	Uisw_114_00906	Uisw_114	232	OG0000796	K06206	sugar fermentation stimulation protein A	COG1489	SfsA	DNA-binding protein, stimulates sugar fermentation	Uisw_114_00907
+CP159818.1	Prodigal:2.6	CDS	752852	753004	.	+	0	Uisw_114_00907	Uisw_114	50	OG0004170	NA	NA	NA	NA	NA	Uisw_114_00907
+CP159818.1	Prodigal:2.6	CDS	753009	753779	.	+	0	Uisw_114_00908	Uisw_114	256	OG0000699	K01265	methionyl aminopeptidase [EC:3.4.11.18]	COG0024	Map	Methionine aminopeptidase	Uisw_114_00907
+CP159818.1	Prodigal:2.6	CDS	753783	755075	.	+	0	Uisw_114_00909	Uisw_114	430	OG0000779	K01756	adenylosuccinate lyase [EC:4.3.2.2]	COG0015	PurB	Adenylosuccinate lyase	Uisw_114_00907
+CP159818.1	Prodigal:2.6	CDS	755075	755857	.	+	0	Uisw_114_00910	Uisw_114	260	OG0000751	K01923	phosphoribosylaminoimidazole-succinocarboxamide synthase [EC:6.3.2.6]	COG0152	PurC	Phosphoribosylaminoimidazole-succinocarboxamide synthase	Uisw_114_00907
+CP159818.1	Prodigal:2.6	CDS	755859	756101	.	+	0	Uisw_114_00911	Uisw_114	80	OG0000760	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	Uisw_114_00907
+CP159818.1	Prodigal:2.6	CDS	756108	756791	.	+	0	Uisw_114_00912	Uisw_114	227	OG0000662	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	Uisw_114_00907
+HIMB1520-00000000001	Prodigal:2.6	CDS	38482	39165	.	-	0	HIMB1520_00034	HIMB1520	227	OG0000662	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	HIMB1520_00039
+HIMB1520-00000000001	Prodigal:2.6	CDS	39173	39406	.	-	0	HIMB1520_00035	HIMB1520	77	OG0000760	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	HIMB1520_00039
+HIMB1520-00000000001	Prodigal:2.6	CDS	39403	40188	.	-	0	HIMB1520_00036	HIMB1520	261	OG0000751	K01923	phosphoribosylaminoimidazole-succinocarboxamide synthase [EC:6.3.2.6]	COG0152	PurC	Phosphoribosylaminoimidazole-succinocarboxamide synthase	HIMB1520_00039
+HIMB1520-00000000001	Prodigal:2.6	CDS	40188	41480	.	-	0	HIMB1520_00037	HIMB1520	430	OG0000779	K01756	adenylosuccinate lyase [EC:4.3.2.2]	COG0015	PurB	Adenylosuccinate lyase	HIMB1520_00039
+HIMB1520-00000000001	Prodigal:2.6	CDS	41483	42250	.	-	0	HIMB1520_00038	HIMB1520	255	OG0000699	K01265	methionyl aminopeptidase [EC:3.4.11.18]	COG0024	Map	Methionine aminopeptidase	HIMB1520_00039
+HIMB1520-00000000001	Prodigal:2.6	CDS	42264	42407	.	-	0	HIMB1520_00039	HIMB1520	47	OG0004170	NA	NA	NA	NA	NA	HIMB1520_00039
+HIMB1520-00000000001	Prodigal:2.6	CDS	42411	43106	.	-	0	HIMB1520_00040	HIMB1520	231	OG0000796	K06206	sugar fermentation stimulation protein A	COG1489	SfsA	DNA-binding protein, stimulates sugar fermentation	HIMB1520_00039
+HIMB1520-00000000001	Prodigal:2.6	CDS	43129	43878	.	+	0	HIMB1520_00041	HIMB1520	249	OG0000785	NA	NA	COG1058	CinA	ADP-ribose pyrophosphatase domain of DNA damage- and competence-inducible protein CinA	HIMB1520_00039
+HIMB1520-00000000001	Prodigal:2.6	CDS	43885	44292	.	+	0	HIMB1520_00042	HIMB1520	135	OG0001011	K00682	gamma-glutamylcyclotransferase [EC:4.3.2.9]	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1520_00039
+HIMB1520-00000000001	Prodigal:2.6	CDS	44537	45730	.	+	0	HIMB1520_00043	HIMB1520	397	OG0002567	NA	NA	NA	NA	NA	HIMB1520_00039
+HIMB1520-00000000001	Prodigal:2.6	CDS	45748	46851	.	+	0	HIMB1520_00044	HIMB1520	367	OG0002709	NA	NA	NA	NA	NA	HIMB1520_00039

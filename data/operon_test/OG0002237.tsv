@@ -1,0 +1,23 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+OZ249404.1	Prodigal:2.6	CDS	811727	812770	.	+	0	ME-17_00908	ME-17	347	OG0000625	K06861	lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]	COG1137	LptB	ABC-type lipopolysaccharide export system, ATPase component	ME-17_00913
+OZ249404.1	Prodigal:2.6	CDS	812771	812998	.	-	0	ME-17_00909	ME-17	75	OG0001115	NA	NA	NA	NA	NA	ME-17_00913
+OZ249404.1	Prodigal:2.6	CDS	813002	813313	.	-	0	ME-17_00910	ME-17	103	OG0000087	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	ME-17_00913
+OZ249404.1	Prodigal:2.6	CDS	813286	813675	.	-	0	ME-17_00911	ME-17	129	OG0000087	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	ME-17_00913
+OZ249404.1	Prodigal:2.6	CDS	813916	814026	.	+	0	ME-17_00912	ME-17	36	NA	NA	NA	NA	NA	NA	ME-17_00913
+OZ249404.1	Prodigal:2.6	CDS	814010	814150	.	+	0	ME-17_00913	ME-17	46	OG0002237	NA	NA	NA	NA	NA	ME-17_00913
+OZ249404.1	Prodigal:2.6	CDS	814154	814624	.	-	0	ME-17_00914	ME-17	156	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	ME-17_00913
+OZ249404.1	Prodigal:2.6	CDS	814635	816140	.	-	0	ME-17_00915	ME-17	501	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	ME-17_00913
+OZ249404.1	Prodigal:2.6	CDS	816183	816611	.	-	0	ME-17_00916	ME-17	142	OG0003033	K09005	uncharacterized protein	COG1430	NA	Uncharacterized conserved membrane protein, UPF0127 family	ME-17_00913
+OZ249404.1	Prodigal:2.6	CDS	816611	816937	.	-	0	ME-17_00917	ME-17	108	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	ME-17_00913
+OZ249404.1	Prodigal:2.6	CDS	816965	817360	.	+	0	ME-17_00918	ME-17	131	OG0001374	NA	NA	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	ME-17_00913
+OZ247814.1	Prodigal:2.6	CDS	602970	603365	.	-	0	MKE-138_00690	MKE-138	131	OG0001374	NA	NA	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	MKE-138_00695
+OZ247814.1	Prodigal:2.6	CDS	603393	603719	.	+	0	MKE-138_00691	MKE-138	108	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	MKE-138_00695
+OZ247814.1	Prodigal:2.6	CDS	603719	604147	.	+	0	MKE-138_00692	MKE-138	142	OG0003033	K09005	uncharacterized protein	COG1430	NA	Uncharacterized conserved membrane protein, UPF0127 family	MKE-138_00695
+OZ247814.1	Prodigal:2.6	CDS	604189	605694	.	+	0	MKE-138_00693	MKE-138	501	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	MKE-138_00695
+OZ247814.1	Prodigal:2.6	CDS	605705	606175	.	+	0	MKE-138_00694	MKE-138	156	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	MKE-138_00695
+OZ247814.1	Prodigal:2.6	CDS	606179	606289	.	-	0	MKE-138_00695	MKE-138	36	OG0002237	NA	NA	NA	NA	NA	MKE-138_00695
+OZ247814.1	Prodigal:2.6	CDS	606347	606574	.	+	0	MKE-138_00696	MKE-138	75	OG0001115	NA	NA	NA	NA	NA	MKE-138_00695
+OZ247814.1	Prodigal:2.6	CDS	606575	607618	.	-	0	MKE-138_00697	MKE-138	347	OG0000625	K06861	lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]	COG1137	LptB	ABC-type lipopolysaccharide export system, ATPase component	MKE-138_00695
+OZ247814.1	Prodigal:2.6	CDS	607611	608228	.	-	0	MKE-138_00698	MKE-138	205	OG0000826	NA	NA	COG5375	LptC2	Predicted lipopolysaccharide assembly protein, LptC/YrbK-like family	MKE-138_00695
+OZ247814.1	Prodigal:2.6	CDS	608228	609187	.	-	0	MKE-138_00699	MKE-138	319	OG0000377	K06041	arabinose-5-phosphate isomerase [EC:5.3.1.13]	COG0794	GutQ	D-arabinose 5-phosphate isomerase GutQ	MKE-138_00695
+OZ247814.1	Prodigal:2.6	CDS	609188	609799	.	-	0	MKE-138_00700	MKE-138	203	OG0000416	NA	NA	COG0349	Rnd	Ribonuclease D, nanoRNase NrnC or deoxydinuclease (diDNase)	MKE-138_00695

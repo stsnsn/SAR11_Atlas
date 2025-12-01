@@ -1,0 +1,177 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+KI421437.1	Prodigal:2.6	CDS	658572	660065	.	-	0	HTCC1013_00697	HTCC1013	497	OG0000325	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HTCC1013_00702
+KI421437.1	Prodigal:2.6	CDS	660243	661424	.	+	0	HTCC1013_00698	HTCC1013	393	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	HTCC1013_00702
+KI421437.1	Prodigal:2.6	CDS	661486	662565	.	+	0	HTCC1013_00699	HTCC1013	359	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HTCC1013_00702
+KI421437.1	Prodigal:2.6	CDS	662650	663216	.	+	0	HTCC1013_00700	HTCC1013	188	OG0001877	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HTCC1013_00702
+KI421437.1	Prodigal:2.6	CDS	663216	664577	.	+	0	HTCC1013_00701	HTCC1013	453	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HTCC1013_00702
+KI421437.1	Prodigal:2.6	CDS	664596	665045	.	+	0	HTCC1013_00702	HTCC1013	149	OG0001788	NA	NA	NA	NA	NA	HTCC1013_00702
+KI421437.1	Prodigal:2.6	CDS	665105	666070	.	+	0	HTCC1013_00703	HTCC1013	321	OG0000520	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	HTCC1013_00702
+KI421437.1	Prodigal:2.6	CDS	666070	667230	.	+	0	HTCC1013_00704	HTCC1013	386	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	HTCC1013_00702
+KI421437.1	Prodigal:2.6	CDS	667232	668107	.	+	0	HTCC1013_00705	HTCC1013	291	OG0000078	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	HTCC1013_00702
+KI421437.1	Prodigal:2.6	CDS	668142	671045	.	+	0	HTCC1013_00706	HTCC1013	967	OG0000547	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	HTCC1013_00702
+KI421437.1	Prodigal:2.6	CDS	671048	672325	.	+	0	HTCC1013_00707	HTCC1013	425	OG0000580	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HTCC1013_00702
+ARVY01000001.1	Prodigal:2.6	CDS	66868	68145	.	-	0	HTCC1040_00069	HTCC1040	425	OG0000580	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HTCC1040_00074
+ARVY01000001.1	Prodigal:2.6	CDS	68148	71051	.	-	0	HTCC1040_00070	HTCC1040	967	OG0000547	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	HTCC1040_00074
+ARVY01000001.1	Prodigal:2.6	CDS	71086	71961	.	-	0	HTCC1040_00071	HTCC1040	291	OG0000078	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	HTCC1040_00074
+ARVY01000001.1	Prodigal:2.6	CDS	71963	73123	.	-	0	HTCC1040_00072	HTCC1040	386	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	HTCC1040_00074
+ARVY01000001.1	Prodigal:2.6	CDS	73123	74088	.	-	0	HTCC1040_00073	HTCC1040	321	OG0000520	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	HTCC1040_00074
+ARVY01000001.1	Prodigal:2.6	CDS	74148	74597	.	-	0	HTCC1040_00074	HTCC1040	149	OG0001788	NA	NA	NA	NA	NA	HTCC1040_00074
+ARVY01000001.1	Prodigal:2.6	CDS	74616	75977	.	-	0	HTCC1040_00075	HTCC1040	453	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HTCC1040_00074
+ARVY01000001.1	Prodigal:2.6	CDS	75977	76543	.	-	0	HTCC1040_00076	HTCC1040	188	OG0001877	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HTCC1040_00074
+ARVY01000001.1	Prodigal:2.6	CDS	76628	77707	.	-	0	HTCC1040_00077	HTCC1040	359	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HTCC1040_00074
+ARVY01000001.1	Prodigal:2.6	CDS	77770	78972	.	-	0	HTCC1040_00078	HTCC1040	400	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	HTCC1040_00074
+ARVY01000001.1	Prodigal:2.6	CDS	79127	80620	.	+	0	HTCC1040_00079	HTCC1040	497	OG0000325	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HTCC1040_00074
+CP159817.1	Prodigal:2.6	CDS	1138325	1139629	.	-	0	Uisw_116_01269	Uisw_116	434	OG0000580	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	Uisw_116_01274
+CP159817.1	Prodigal:2.6	CDS	1139631	1142537	.	-	0	Uisw_116_01270	Uisw_116	968	OG0000547	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	Uisw_116_01274
+CP159817.1	Prodigal:2.6	CDS	1142572	1143447	.	-	0	Uisw_116_01271	Uisw_116	291	OG0000078	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	Uisw_116_01274
+CP159817.1	Prodigal:2.6	CDS	1143449	1144609	.	-	0	Uisw_116_01272	Uisw_116	386	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	Uisw_116_01274
+CP159817.1	Prodigal:2.6	CDS	1144612	1145577	.	-	0	Uisw_116_01273	Uisw_116	321	OG0000520	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	Uisw_116_01274
+CP159817.1	Prodigal:2.6	CDS	1145637	1146080	.	-	0	Uisw_116_01274	Uisw_116	147	OG0001788	NA	NA	NA	NA	NA	Uisw_116_01274
+CP159817.1	Prodigal:2.6	CDS	1146099	1147460	.	-	0	Uisw_116_01275	Uisw_116	453	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_116_01274
+CP159817.1	Prodigal:2.6	CDS	1147461	1148030	.	-	0	Uisw_116_01276	Uisw_116	189	OG0001877	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_116_01274
+CP159817.1	Prodigal:2.6	CDS	1148115	1149299	.	-	0	Uisw_116_01277	Uisw_116	394	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	Uisw_116_01274
+CP159817.1	Prodigal:2.6	CDS	1149256	1150458	.	-	0	Uisw_116_01278	Uisw_116	400	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	Uisw_116_01274
+CP159817.1	Prodigal:2.6	CDS	1150611	1152104	.	+	0	Uisw_116_01279	Uisw_116	497	OG0000325	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	Uisw_116_01274
+CP159816.1	Prodigal:2.6	CDS	1186378	1186656	.	-	0	Uisw_121_01294	Uisw_121	92	OG0000580	NA	NA	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	Uisw_121_01299
+CP159816.1	Prodigal:2.6	CDS	1186659	1189562	.	-	0	Uisw_121_01295	Uisw_121	967	OG0000547	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	Uisw_121_01299
+CP159816.1	Prodigal:2.6	CDS	1189597	1190472	.	-	0	Uisw_121_01296	Uisw_121	291	OG0000078	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	Uisw_121_01299
+CP159816.1	Prodigal:2.6	CDS	1190474	1191634	.	-	0	Uisw_121_01297	Uisw_121	386	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	Uisw_121_01299
+CP159816.1	Prodigal:2.6	CDS	1191638	1192603	.	-	0	Uisw_121_01298	Uisw_121	321	OG0000520	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	Uisw_121_01299
+CP159816.1	Prodigal:2.6	CDS	1192663	1192839	.	-	0	Uisw_121_01299	Uisw_121	58	OG0001788	NA	NA	NA	NA	NA	Uisw_121_01299
+CP159816.1	Prodigal:2.6	CDS	1192799	1193107	.	-	0	Uisw_121_01300	Uisw_121	102	OG0001788	NA	NA	NA	NA	NA	Uisw_121_01299
+CP159816.1	Prodigal:2.6	CDS	1193126	1194487	.	-	0	Uisw_121_01301	Uisw_121	453	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_121_01299
+CP159816.1	Prodigal:2.6	CDS	1194488	1195057	.	-	0	Uisw_121_01302	Uisw_121	189	OG0001877	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_121_01299
+CP159816.1	Prodigal:2.6	CDS	1195142	1196326	.	-	0	Uisw_121_01303	Uisw_121	394	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	Uisw_121_01299
+CP159816.1	Prodigal:2.6	CDS	1196283	1197485	.	-	0	Uisw_121_01304	Uisw_121	400	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	Uisw_121_01299
+CP159816.1	Prodigal:2.6	CDS	1186659	1189562	.	-	0	Uisw_121_01295	Uisw_121	967	OG0000547	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	Uisw_121_01300
+CP159816.1	Prodigal:2.6	CDS	1189597	1190472	.	-	0	Uisw_121_01296	Uisw_121	291	OG0000078	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	Uisw_121_01300
+CP159816.1	Prodigal:2.6	CDS	1190474	1191634	.	-	0	Uisw_121_01297	Uisw_121	386	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	Uisw_121_01300
+CP159816.1	Prodigal:2.6	CDS	1191638	1192603	.	-	0	Uisw_121_01298	Uisw_121	321	OG0000520	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	Uisw_121_01300
+CP159816.1	Prodigal:2.6	CDS	1192663	1192839	.	-	0	Uisw_121_01299	Uisw_121	58	OG0001788	NA	NA	NA	NA	NA	Uisw_121_01300
+CP159816.1	Prodigal:2.6	CDS	1192799	1193107	.	-	0	Uisw_121_01300	Uisw_121	102	OG0001788	NA	NA	NA	NA	NA	Uisw_121_01300
+CP159816.1	Prodigal:2.6	CDS	1193126	1194487	.	-	0	Uisw_121_01301	Uisw_121	453	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_121_01300
+CP159816.1	Prodigal:2.6	CDS	1194488	1195057	.	-	0	Uisw_121_01302	Uisw_121	189	OG0001877	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_121_01300
+CP159816.1	Prodigal:2.6	CDS	1195142	1196326	.	-	0	Uisw_121_01303	Uisw_121	394	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	Uisw_121_01300
+CP159816.1	Prodigal:2.6	CDS	1196283	1197485	.	-	0	Uisw_121_01304	Uisw_121	400	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	Uisw_121_01300
+CP159816.1	Prodigal:2.6	CDS	1197638	1199131	.	+	0	Uisw_121_01305	Uisw_121	497	OG0000325	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	Uisw_121_01300
+CP159814.1	Prodigal:2.6	CDS	1255616	1256929	.	-	0	Uisw_130_01371	Uisw_130	437	OG0000580	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	Uisw_130_01376
+CP159814.1	Prodigal:2.6	CDS	1256931	1259837	.	-	0	Uisw_130_01372	Uisw_130	968	OG0000547	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	Uisw_130_01376
+CP159814.1	Prodigal:2.6	CDS	1259872	1260747	.	-	0	Uisw_130_01373	Uisw_130	291	OG0000078	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	Uisw_130_01376
+CP159814.1	Prodigal:2.6	CDS	1260749	1261909	.	-	0	Uisw_130_01374	Uisw_130	386	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	Uisw_130_01376
+CP159814.1	Prodigal:2.6	CDS	1261912	1262877	.	-	0	Uisw_130_01375	Uisw_130	321	OG0000520	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	Uisw_130_01376
+CP159814.1	Prodigal:2.6	CDS	1262937	1263380	.	-	0	Uisw_130_01376	Uisw_130	147	OG0001788	NA	NA	NA	NA	NA	Uisw_130_01376
+CP159814.1	Prodigal:2.6	CDS	1263399	1264760	.	-	0	Uisw_130_01377	Uisw_130	453	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_130_01376
+CP159814.1	Prodigal:2.6	CDS	1264761	1265330	.	-	0	Uisw_130_01378	Uisw_130	189	OG0001877	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_130_01376
+CP159814.1	Prodigal:2.6	CDS	1265415	1266599	.	-	0	Uisw_130_01379	Uisw_130	394	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	Uisw_130_01376
+CP159814.1	Prodigal:2.6	CDS	1266556	1267758	.	-	0	Uisw_130_01380	Uisw_130	400	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	Uisw_130_01376
+CP159814.1	Prodigal:2.6	CDS	1267911	1269404	.	+	0	Uisw_130_01381	Uisw_130	497	OG0000325	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	Uisw_130_01376
+LT840186.1	Prodigal:2.6	CDS	1247864	1249357	.	-	0	HIMB1321_01352	HIMB1321	497	OG0000325	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HIMB1321_01357
+LT840186.1	Prodigal:2.6	CDS	1249556	1250737	.	+	0	HIMB1321_01353	HIMB1321	393	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	HIMB1321_01357
+LT840186.1	Prodigal:2.6	CDS	1250802	1251866	.	+	0	HIMB1321_01354	HIMB1321	354	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1321_01357
+LT840186.1	Prodigal:2.6	CDS	1251943	1252512	.	+	0	HIMB1321_01355	HIMB1321	189	OG0001877	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1321_01357
+LT840186.1	Prodigal:2.6	CDS	1252509	1253873	.	+	0	HIMB1321_01356	HIMB1321	454	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1321_01357
+LT840186.1	Prodigal:2.6	CDS	1253879	1254325	.	+	0	HIMB1321_01357	HIMB1321	148	OG0001788	NA	NA	NA	NA	NA	HIMB1321_01357
+LT840186.1	Prodigal:2.6	CDS	1254383	1255348	.	+	0	HIMB1321_01358	HIMB1321	321	OG0000520	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	HIMB1321_01357
+LT840186.1	Prodigal:2.6	CDS	1255348	1256508	.	+	0	HIMB1321_01359	HIMB1321	386	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	HIMB1321_01357
+LT840186.1	Prodigal:2.6	CDS	1256508	1257383	.	+	0	HIMB1321_01360	HIMB1321	291	OG0000078	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	HIMB1321_01357
+LT840186.1	Prodigal:2.6	CDS	1257419	1260313	.	+	0	HIMB1321_01361	HIMB1321	964	OG0000547	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	HIMB1321_01357
+LT840186.1	Prodigal:2.6	CDS	1260320	1261621	.	+	0	HIMB1321_01362	HIMB1321	433	OG0000580	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HIMB1321_01357
+HIMB1505-00000000001	Prodigal:2.6	CDS	345131	346624	.	-	0	HIMB1505_00366	HIMB1505	497	OG0000325	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HIMB1505_00371
+HIMB1505-00000000001	Prodigal:2.6	CDS	346822	348003	.	+	0	HIMB1505_00367	HIMB1505	393	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	HIMB1505_00371
+HIMB1505-00000000001	Prodigal:2.6	CDS	348068	349132	.	+	0	HIMB1505_00368	HIMB1505	354	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1505_00371
+HIMB1505-00000000001	Prodigal:2.6	CDS	349209	349778	.	+	0	HIMB1505_00369	HIMB1505	189	OG0001877	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1505_00371
+HIMB1505-00000000001	Prodigal:2.6	CDS	349775	351139	.	+	0	HIMB1505_00370	HIMB1505	454	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1505_00371
+HIMB1505-00000000001	Prodigal:2.6	CDS	351145	351591	.	+	0	HIMB1505_00371	HIMB1505	148	OG0001788	NA	NA	NA	NA	NA	HIMB1505_00371
+HIMB1505-00000000001	Prodigal:2.6	CDS	351649	352614	.	+	0	HIMB1505_00372	HIMB1505	321	OG0000520	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	HIMB1505_00371
+HIMB1505-00000000001	Prodigal:2.6	CDS	352614	353774	.	+	0	HIMB1505_00373	HIMB1505	386	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	HIMB1505_00371
+HIMB1505-00000000001	Prodigal:2.6	CDS	353774	354649	.	+	0	HIMB1505_00374	HIMB1505	291	OG0000078	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	HIMB1505_00371
+HIMB1505-00000000001	Prodigal:2.6	CDS	354685	357579	.	+	0	HIMB1505_00375	HIMB1505	964	OG0000547	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	HIMB1505_00371
+HIMB1505-00000000001	Prodigal:2.6	CDS	357586	358887	.	+	0	HIMB1505_00376	HIMB1505	433	OG0000580	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HIMB1505_00371
+HIMB1549-00000000001	Prodigal:2.6	CDS	966286	967587	.	-	0	HIMB1549_01038	HIMB1549	433	OG0000580	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HIMB1549_01043
+HIMB1549-00000000001	Prodigal:2.6	CDS	967594	970488	.	-	0	HIMB1549_01039	HIMB1549	964	OG0000547	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	HIMB1549_01043
+HIMB1549-00000000001	Prodigal:2.6	CDS	970524	971399	.	-	0	HIMB1549_01040	HIMB1549	291	OG0000078	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	HIMB1549_01043
+HIMB1549-00000000001	Prodigal:2.6	CDS	971399	972559	.	-	0	HIMB1549_01041	HIMB1549	386	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	HIMB1549_01043
+HIMB1549-00000000001	Prodigal:2.6	CDS	972559	973524	.	-	0	HIMB1549_01042	HIMB1549	321	OG0000520	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	HIMB1549_01043
+HIMB1549-00000000001	Prodigal:2.6	CDS	973582	974028	.	-	0	HIMB1549_01043	HIMB1549	148	OG0001788	NA	NA	NA	NA	NA	HIMB1549_01043
+HIMB1549-00000000001	Prodigal:2.6	CDS	974034	975398	.	-	0	HIMB1549_01044	HIMB1549	454	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1549_01043
+HIMB1549-00000000001	Prodigal:2.6	CDS	975395	975964	.	-	0	HIMB1549_01045	HIMB1549	189	OG0001877	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1549_01043
+HIMB1549-00000000001	Prodigal:2.6	CDS	976041	977105	.	-	0	HIMB1549_01046	HIMB1549	354	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1549_01043
+HIMB1549-00000000001	Prodigal:2.6	CDS	977170	978351	.	-	0	HIMB1549_01047	HIMB1549	393	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	HIMB1549_01043
+HIMB1549-00000000001	Prodigal:2.6	CDS	978549	980042	.	+	0	HIMB1549_01048	HIMB1549	497	OG0000325	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HIMB1549_01043
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1291975	1293276	.	-	0	HIMB4_01393	HIMB4	433	OG0000580	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HIMB4_01398
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1293283	1296177	.	-	0	HIMB4_01394	HIMB4	964	OG0000547	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	HIMB4_01398
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1296213	1297088	.	-	0	HIMB4_01395	HIMB4	291	OG0000078	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	HIMB4_01398
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1297088	1298248	.	-	0	HIMB4_01396	HIMB4	386	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	HIMB4_01398
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1298248	1299213	.	-	0	HIMB4_01397	HIMB4	321	OG0000520	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	HIMB4_01398
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1299271	1299717	.	-	0	HIMB4_01398	HIMB4	148	OG0001788	NA	NA	NA	NA	NA	HIMB4_01398
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1299723	1301087	.	-	0	HIMB4_01399	HIMB4	454	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB4_01398
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1301084	1301653	.	-	0	HIMB4_01400	HIMB4	189	OG0001877	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB4_01398
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1301730	1302794	.	-	0	HIMB4_01401	HIMB4	354	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB4_01398
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1302859	1304040	.	-	0	HIMB4_01402	HIMB4	393	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	HIMB4_01398
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1304238	1305731	.	+	0	HIMB4_01403	HIMB4	497	OG0000325	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HIMB4_01398
+KI421433.1	Prodigal:2.6	CDS	186587	187702	.	+	0	HTCC9022_00747	HTCC9022	371	OG0000914	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	HTCC9022_00752
+KI421433.1	Prodigal:2.6	CDS	187704	188756	.	+	0	HTCC9022_00748	HTCC9022	350	OG0001223	K01620	threonine aldolase [EC:4.1.2.48]	COG2008	GLY1	Threonine aldolase	HTCC9022_00752
+KI421433.1	Prodigal:2.6	CDS	188749	188943	.	-	0	HTCC9022_00749	HTCC9022	64	OG0001050	NA	NA	NA	NA	NA	HTCC9022_00752
+KI421433.1	Prodigal:2.6	CDS	189100	189441	.	-	0	HTCC9022_00750	HTCC9022	113	OG0003559	NA	NA	NA	NA	NA	HTCC9022_00752
+KI421433.1	Prodigal:2.6	CDS	189560	189691	.	-	0	HTCC9022_00751	HTCC9022	43	OG0001886	NA	NA	NA	NA	NA	HTCC9022_00752
+KI421433.1	Prodigal:2.6	CDS	189698	190153	.	-	0	HTCC9022_00752	HTCC9022	151	OG0001788	NA	NA	NA	NA	NA	HTCC9022_00752
+KI421433.1	Prodigal:2.6	CDS	190154	191266	.	-	0	HTCC9022_00753	HTCC9022	370	OG0000068	NA	NA	COG0265	DegQ	Periplasmic serine protease DegP/DegQ, contain C-terminal PDZ domain	HTCC9022_00752
+KI421433.1	Prodigal:2.6	CDS	191326	191535	.	-	0	HTCC9022_00754	HTCC9022	69	OG0002723	NA	NA	NA	NA	NA	HTCC9022_00752
+KI421433.1	Prodigal:2.6	CDS	191923	192228	.	-	0	HTCC9022_00755	HTCC9022	101	NA	NA	NA	NA	NA	NA	HTCC9022_00752
+KI421433.1	Prodigal:2.6	CDS	192250	193002	.	-	0	HTCC9022_00756	HTCC9022	250	OG0004447	NA	NA	NA	NA	NA	HTCC9022_00752
+KI421433.1	Prodigal:2.6	CDS	193005	193400	.	-	0	HTCC9022_00757	HTCC9022	131	NA	NA	NA	NA	NA	NA	HTCC9022_00752
+HIMB1709-00000000001	Prodigal:2.6	CDS	843441	844739	.	-	0	HIMB1709_00922	HIMB1709	432	OG0000580	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HIMB1709_00927
+HIMB1709-00000000001	Prodigal:2.6	CDS	844746	847664	.	-	0	HIMB1709_00923	HIMB1709	972	OG0000547	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	HIMB1709_00927
+HIMB1709-00000000001	Prodigal:2.6	CDS	847703	848578	.	-	0	HIMB1709_00924	HIMB1709	291	OG0000078	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	HIMB1709_00927
+HIMB1709-00000000001	Prodigal:2.6	CDS	848579	849739	.	-	0	HIMB1709_00925	HIMB1709	386	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	HIMB1709_00927
+HIMB1709-00000000001	Prodigal:2.6	CDS	849742	850707	.	-	0	HIMB1709_00926	HIMB1709	321	OG0000520	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	HIMB1709_00927
+HIMB1709-00000000001	Prodigal:2.6	CDS	850765	851238	.	-	0	HIMB1709_00927	HIMB1709	157	OG0001788	NA	NA	NA	NA	NA	HIMB1709_00927
+HIMB1709-00000000001	Prodigal:2.6	CDS	851228	852592	.	-	0	HIMB1709_00928	HIMB1709	454	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1709_00927
+HIMB1709-00000000001	Prodigal:2.6	CDS	852589	853158	.	-	0	HIMB1709_00929	HIMB1709	189	OG0001877	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1709_00927
+HIMB1709-00000000001	Prodigal:2.6	CDS	853240	854304	.	-	0	HIMB1709_00930	HIMB1709	354	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1709_00927
+HIMB1709-00000000001	Prodigal:2.6	CDS	854361	855548	.	-	0	HIMB1709_00931	HIMB1709	395	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	HIMB1709_00927
+HIMB1709-00000000001	Prodigal:2.6	CDS	855690	857183	.	+	0	HIMB1709_00932	HIMB1709	497	OG0000325	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HIMB1709_00927
+HIMB2305-00000000008	Prodigal:2.6	CDS	17768	18565	.	+	0	HIMB2305_00428	HIMB2305	265	OG0000395	K04754	phospholipid-binding lipoprotein MlaA	COG2853	MlaA	Outer membrane channel MlaA of the intermembrane phospholipid transporter MlaABCDEF complex	HIMB2305_00433
+HIMB2305-00000000008	Prodigal:2.6	CDS	18572	19162	.	+	0	HIMB2305_00429	HIMB2305	196	OG0000396	K07323	phospholipid transport system substrate-binding protein	COG2854	MlaC	Periplasmic subunit MlaC of the ABC-type intermembrane phospholipid transporter Mla	HIMB2305_00433
+HIMB2305-00000000008	Prodigal:2.6	CDS	19163	19618	.	-	0	HIMB2305_00430	HIMB2305	151	OG0001360	NA	NA	NA	NA	NA	HIMB2305_00433
+HIMB2305-00000000008	Prodigal:2.6	CDS	19848	19949	.	-	0	HIMB2305_00431	HIMB2305	33	NA	NA	NA	NA	NA	NA	HIMB2305_00433
+HIMB2305-00000000008	Prodigal:2.6	CDS	19949	20545	.	-	0	HIMB2305_00432	HIMB2305	198	OG0002331	NA	NA	NA	NA	NA	HIMB2305_00433
+HIMB2305-00000000008	Prodigal:2.6	CDS	20545	21000	.	-	0	HIMB2305_00433	HIMB2305	151	OG0001788	NA	NA	NA	NA	NA	HIMB2305_00433
+HIMB2305-00000000008	Prodigal:2.6	CDS	21001	21513	.	-	0	HIMB2305_00434	HIMB2305	170	OG0003115	NA	NA	NA	NA	NA	HIMB2305_00433
+HIMB2305-00000000008	Aragorn:1.2	tRNA	21662	21738	.	-	.	HIMB2305_00435	HIMB2305	NA	NA	NA	NA	NA	NA	NA	HIMB2305_00433
+HIMB2305-00000000008	Prodigal:2.6	CDS	21797	21904	.	-	0	HIMB2305_00436	HIMB2305	35	OG0003809	NA	NA	NA	NA	NA	HIMB2305_00433
+HIMB2305-00000000008	Prodigal:2.6	CDS	21870	23969	.	-	0	HIMB2305_00437	HIMB2305	699	OG0002402	NA	NA	NA	NA	NA	HIMB2305_00433
+HIMB2305-00000000008	Prodigal:2.6	CDS	23993	24580	.	-	0	HIMB2305_00438	HIMB2305	195	OG0002604	NA	NA	NA	NA	NA	HIMB2305_00433
+Ga0255589_11	Prodigal:2.6	CDS	99717	100250	.	-	0	LSUCC0664_00116	LSUCC0664	177	OG0003534	NA	NA	NA	NA	NA	LSUCC0664_00121
+Ga0255589_11	Prodigal:2.6	CDS	100250	100831	.	-	0	LSUCC0664_00117	LSUCC0664	193	OG0000245	NA	NA	COG4764	SLT	Predicted transglycosylase, contains SLT domain	LSUCC0664_00121
+Ga0255589_11	Prodigal:2.6	CDS	100880	101527	.	+	0	LSUCC0664_00118	LSUCC0664	215	OG0000936	K07149	uncharacterized protein	COG2364	YczE	Membrane protein possibly involved in the transport of sulfur-containing compounds	LSUCC0664_00121
+Ga0255589_11	Prodigal:2.6	CDS	101571	101942	.	+	0	LSUCC0664_00119	LSUCC0664	123	OG0002383	NA	NA	NA	NA	NA	LSUCC0664_00121
+Ga0255589_11	Prodigal:2.6	CDS	101962	102825	.	+	0	LSUCC0664_00120	LSUCC0664	287	OG0003864	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	LSUCC0664_00121
+Ga0255589_11	Prodigal:2.6	CDS	102981	103406	.	+	0	LSUCC0664_00121	LSUCC0664	141	OG0001788	NA	NA	NA	NA	NA	LSUCC0664_00121
+Ga0255589_11	Prodigal:2.6	CDS	103452	104048	.	-	0	LSUCC0664_00122	LSUCC0664	198	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	LSUCC0664_00121
+Ga0255589_11	Prodigal:2.6	CDS	104114	104572	.	+	0	LSUCC0664_00123	LSUCC0664	152	OG0001335	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	LSUCC0664_00121
+Ga0255589_11	Prodigal:2.6	CDS	104544	106145	.	+	0	LSUCC0664_00124	LSUCC0664	533	OG0002336	NA	NA	COG1196	Smc	Chromosome segregation ATPase Smc	LSUCC0664_00121
+Ga0255589_11	Prodigal:2.6	CDS	106148	106930	.	+	0	LSUCC0664_00125	LSUCC0664	260	OG0002373	NA	NA	COG3883	CwlO1	Uncharacterized N-terminal coiled-coil domain of peptidoglycan hydrolase CwlO	LSUCC0664_00121
+Ga0255589_11	Prodigal:2.6	CDS	107054	107650	.	+	0	LSUCC0664_00126	LSUCC0664	198	OG0001508	NA	NA	NA	NA	NA	LSUCC0664_00121
+CP002511.1	Prodigal:2.6	CDS	860382	860798	.	+	0	IMCC9063_00974	IMCC9063	138	OG0000961	NA	NA	NA	NA	NA	IMCC9063_00979
+CP002511.1	Prodigal:2.6	CDS	860812	861285	.	+	0	IMCC9063_00975	IMCC9063	157	OG0000932	NA	NA	NA	NA	NA	IMCC9063_00979
+CP002511.1	Prodigal:2.6	CDS	861371	861526	.	-	0	IMCC9063_00976	IMCC9063	51	OG0003267	NA	NA	NA	NA	NA	IMCC9063_00979
+CP002511.1	Prodigal:2.6	CDS	861523	861687	.	-	0	IMCC9063_00977	IMCC9063	54	OG0001635	NA	NA	NA	NA	NA	IMCC9063_00979
+CP002511.1	Prodigal:2.6	CDS	861701	862378	.	-	0	IMCC9063_00978	IMCC9063	225	OG0002430	NA	NA	NA	NA	NA	IMCC9063_00979
+CP002511.1	Prodigal:2.6	CDS	862375	862821	.	-	0	IMCC9063_00979	IMCC9063	148	OG0001788	NA	NA	NA	NA	NA	IMCC9063_00979
+CP002511.1	Prodigal:2.6	CDS	862818	863135	.	-	0	IMCC9063_00980	IMCC9063	105	NA	NA	NA	NA	NA	NA	IMCC9063_00979
+CP002511.1	Prodigal:2.6	CDS	863218	866358	.	+	0	IMCC9063_00981	IMCC9063	1046	OG0002231	NA	NA	COG4889	NA	Predicted helicase	IMCC9063_00979
+CP002511.1	Prodigal:2.6	CDS	866355	866744	.	+	0	IMCC9063_00982	IMCC9063	129	NA	NA	NA	NA	NA	NA	IMCC9063_00979
+CP002511.1	Prodigal:2.6	CDS	866796	867176	.	+	0	IMCC9063_00983	IMCC9063	126	OG0003847	NA	NA	NA	NA	NA	IMCC9063_00979
+CP002511.1	Prodigal:2.6	CDS	867176	867739	.	+	0	IMCC9063_00984	IMCC9063	187	OG0001508	NA	NA	NA	NA	NA	IMCC9063_00979
+Ga0182791_11	Prodigal:2.6	CDS	1089284	1090468	.	-	0	LSUCC0261_01173	LSUCC0261	394	OG0000580	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	LSUCC0261_01178
+Ga0182791_11	Prodigal:2.6	CDS	1090469	1093399	.	-	0	LSUCC0261_01174	LSUCC0261	976	OG0000547	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	LSUCC0261_01178
+Ga0182791_11	Prodigal:2.6	CDS	1093421	1094296	.	-	0	LSUCC0261_01175	LSUCC0261	291	OG0000078	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	LSUCC0261_01178
+Ga0182791_11	Prodigal:2.6	CDS	1094296	1095453	.	-	0	LSUCC0261_01176	LSUCC0261	385	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	LSUCC0261_01178
+Ga0182791_11	Prodigal:2.6	CDS	1095454	1096449	.	-	0	LSUCC0261_01177	LSUCC0261	331	OG0000520	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	LSUCC0261_01178
+Ga0182791_11	Prodigal:2.6	CDS	1096493	1096951	.	-	0	LSUCC0261_01178	LSUCC0261	152	OG0001788	NA	NA	NA	NA	NA	LSUCC0261_01178
+Ga0182791_11	Prodigal:2.6	CDS	1096956	1098317	.	-	0	LSUCC0261_01179	LSUCC0261	453	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	LSUCC0261_01178
+Ga0182791_11	Prodigal:2.6	CDS	1098314	1098880	.	-	0	LSUCC0261_01180	LSUCC0261	188	OG0001877	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	LSUCC0261_01178
+Ga0182791_11	Prodigal:2.6	CDS	1098954	1100030	.	-	0	LSUCC0261_01181	LSUCC0261	358	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	LSUCC0261_01178
+Ga0182791_11	Prodigal:2.6	CDS	1100087	1101283	.	-	0	LSUCC0261_01182	LSUCC0261	398	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	LSUCC0261_01178
+Ga0182791_11	Prodigal:2.6	CDS	1101442	1102935	.	+	0	LSUCC0261_01183	LSUCC0261	497	OG0000325	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	LSUCC0261_01178

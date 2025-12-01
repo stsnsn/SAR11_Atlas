@@ -1,0 +1,995 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CH724130.1	Prodigal:2.6	CDS	424551	424955	.	+	0	HTCC1002_00466	HTCC1002	134	OG0001192	NA	NA	NA	NA	NA	HTCC1002_00471
+CH724130.1	Prodigal:2.6	CDS	424984	425751	.	-	0	HTCC1002_00467	HTCC1002	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	HTCC1002_00471
+CH724130.1	Prodigal:2.6	CDS	425741	426676	.	-	0	HTCC1002_00468	HTCC1002	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HTCC1002_00471
+CH724130.1	Prodigal:2.6	CDS	426726	428174	.	-	0	HTCC1002_00469	HTCC1002	482	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	HTCC1002_00471
+CH724130.1	Prodigal:2.6	CDS	428328	429182	.	+	0	HTCC1002_00470	HTCC1002	284	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HTCC1002_00471
+CH724130.1	Prodigal:2.6	CDS	429195	429698	.	-	0	HTCC1002_00471	HTCC1002	167	OG0001307	NA	NA	NA	NA	NA	HTCC1002_00471
+CH724130.1	Prodigal:2.6	CDS	429711	430823	.	-	0	HTCC1002_00472	HTCC1002	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	HTCC1002_00471
+CH724130.1	Prodigal:2.6	CDS	429711	430823	.	-	0	HTCC1002_00472	HTCC1002	370	OG0000884	K00324	H+-translocating NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2 7.1.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	HTCC1002_00471
+CH724130.1	Prodigal:2.6	CDS	430866	432212	.	-	0	HTCC1002_00473	HTCC1002	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	HTCC1002_00471
+CH724130.1	Prodigal:2.6	CDS	432418	433359	.	+	0	HTCC1002_00474	HTCC1002	313	OG0000966	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	HTCC1002_00471
+CH724130.1	Prodigal:2.6	CDS	433447	434244	.	+	0	HTCC1002_00475	HTCC1002	265	OG0000899	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	HTCC1002_00471
+KI421437.1	Prodigal:2.6	CDS	108742	109875	.	-	0	HTCC1013_00113	HTCC1013	377	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	HTCC1013_00118
+KI421437.1	Prodigal:2.6	CDS	109994	110398	.	+	0	HTCC1013_00114	HTCC1013	134	OG0001192	NA	NA	NA	NA	NA	HTCC1013_00118
+KI421437.1	Prodigal:2.6	CDS	110427	111194	.	-	0	HTCC1013_00115	HTCC1013	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	HTCC1013_00118
+KI421437.1	Prodigal:2.6	CDS	111184	112119	.	-	0	HTCC1013_00116	HTCC1013	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HTCC1013_00118
+KI421437.1	Prodigal:2.6	CDS	112169	113617	.	-	0	HTCC1013_00117	HTCC1013	482	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	HTCC1013_00118
+KI421437.1	Prodigal:2.6	CDS	113726	114241	.	-	0	HTCC1013_00118	HTCC1013	171	OG0001307	NA	NA	NA	NA	NA	HTCC1013_00118
+KI421437.1	Prodigal:2.6	CDS	114254	115366	.	-	0	HTCC1013_00119	HTCC1013	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	HTCC1013_00118
+KI421437.1	Prodigal:2.6	CDS	114254	115366	.	-	0	HTCC1013_00119	HTCC1013	370	OG0000884	K00324	H+-translocating NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2 7.1.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	HTCC1013_00118
+KI421437.1	Prodigal:2.6	CDS	115409	116755	.	-	0	HTCC1013_00120	HTCC1013	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	HTCC1013_00118
+KI421437.1	Prodigal:2.6	CDS	116963	117904	.	+	0	HTCC1013_00121	HTCC1013	313	OG0000966	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	HTCC1013_00118
+KI421437.1	Prodigal:2.6	CDS	117992	118789	.	+	0	HTCC1013_00122	HTCC1013	265	OG0000899	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	HTCC1013_00118
+CP000084.1	Prodigal:2.6	CDS	779476	781389	.	-	0	HTCC1062_00815	HTCC1062	637	OG0000953	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	HTCC1062_00820
+CP000084.1	Prodigal:2.6	CDS	781391	782188	.	-	0	HTCC1062_00816	HTCC1062	265	OG0000899	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	HTCC1062_00820
+CP000084.1	Prodigal:2.6	CDS	782276	783217	.	-	0	HTCC1062_00817	HTCC1062	313	OG0000966	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	HTCC1062_00820
+CP000084.1	Prodigal:2.6	CDS	783435	784781	.	+	0	HTCC1062_00818	HTCC1062	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	HTCC1062_00820
+CP000084.1	Prodigal:2.6	CDS	784825	785937	.	+	0	HTCC1062_00819	HTCC1062	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	HTCC1062_00820
+CP000084.1	Prodigal:2.6	CDS	785951	786466	.	+	0	HTCC1062_00820	HTCC1062	171	OG0001307	NA	NA	NA	NA	NA	HTCC1062_00820
+CP000084.1	Prodigal:2.6	CDS	786575	788023	.	+	0	HTCC1062_00821	HTCC1062	482	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	HTCC1062_00820
+CP000084.1	Prodigal:2.6	CDS	788073	789008	.	+	0	HTCC1062_00822	HTCC1062	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HTCC1062_00820
+CP000084.1	Prodigal:2.6	CDS	788998	789765	.	+	0	HTCC1062_00823	HTCC1062	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	HTCC1062_00820
+CP000084.1	Prodigal:2.6	CDS	789794	790198	.	-	0	HTCC1062_00824	HTCC1062	134	OG0001192	NA	NA	NA	NA	NA	HTCC1062_00820
+CP000084.1	Prodigal:2.6	CDS	790317	791450	.	+	0	HTCC1062_00825	HTCC1062	377	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	HTCC1062_00820
+ARVY01000001.1	Prodigal:2.6	CDS	626658	628571	.	-	0	HTCC1040_00662	HTCC1040	637	OG0000953	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	HTCC1040_00667
+ARVY01000001.1	Prodigal:2.6	CDS	628573	629370	.	-	0	HTCC1040_00663	HTCC1040	265	OG0000899	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	HTCC1040_00667
+ARVY01000001.1	Prodigal:2.6	CDS	629458	630399	.	-	0	HTCC1040_00664	HTCC1040	313	OG0000966	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	HTCC1040_00667
+ARVY01000001.1	Prodigal:2.6	CDS	630607	631953	.	+	0	HTCC1040_00665	HTCC1040	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	HTCC1040_00667
+ARVY01000001.1	Prodigal:2.6	CDS	631997	633109	.	+	0	HTCC1040_00666	HTCC1040	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	HTCC1040_00667
+ARVY01000001.1	Prodigal:2.6	CDS	633122	633637	.	+	0	HTCC1040_00667	HTCC1040	171	OG0001307	NA	NA	NA	NA	NA	HTCC1040_00667
+ARVY01000001.1	Prodigal:2.6	CDS	633746	635194	.	+	0	HTCC1040_00668	HTCC1040	482	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	HTCC1040_00667
+ARVY01000001.1	Prodigal:2.6	CDS	635244	636179	.	+	0	HTCC1040_00669	HTCC1040	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HTCC1040_00667
+ARVY01000001.1	Prodigal:2.6	CDS	636169	636936	.	+	0	HTCC1040_00670	HTCC1040	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	HTCC1040_00667
+ARVY01000001.1	Prodigal:2.6	CDS	636965	637369	.	-	0	HTCC1040_00671	HTCC1040	134	OG0001192	NA	NA	NA	NA	NA	HTCC1040_00667
+ARVY01000001.1	Prodigal:2.6	CDS	637489	638622	.	+	0	HTCC1040_00672	HTCC1040	377	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	HTCC1040_00667
+CP038852.1	Prodigal:2.6	CDS	334413	335546	.	-	0	NP1_00389	NP1	377	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	NP1_00394
+CP038852.1	Prodigal:2.6	CDS	335584	336351	.	-	0	NP1_00390	NP1	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	NP1_00394
+CP038852.1	Prodigal:2.6	CDS	336341	337276	.	-	0	NP1_00391	NP1	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	NP1_00394
+CP038852.1	Prodigal:2.6	CDS	337508	339001	.	+	0	NP1_00392	NP1	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	NP1_00394
+CP038852.1	Prodigal:2.6	CDS	339001	339663	.	+	0	NP1_00393	NP1	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	NP1_00394
+CP038852.1	Prodigal:2.6	CDS	339668	340177	.	-	0	NP1_00394	NP1	169	OG0001307	NA	NA	NA	NA	NA	NP1_00394
+CP038852.1	Prodigal:2.6	CDS	340191	341303	.	-	0	NP1_00395	NP1	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	NP1_00394
+CP038852.1	Prodigal:2.6	CDS	341348	342694	.	-	0	NP1_00396	NP1	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	NP1_00394
+CP038852.1	Prodigal:2.6	CDS	342909	343853	.	+	0	NP1_00397	NP1	314	OG0000966	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	NP1_00394
+CP038852.1	Prodigal:2.6	CDS	343942	344739	.	+	0	NP1_00398	NP1	265	OG0000899	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	NP1_00394
+CP038852.1	Prodigal:2.6	CDS	344741	346654	.	+	0	NP1_00399	NP1	637	OG0000953	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	NP1_00394
+CP159811.1	Prodigal:2.6	CDS	803401	803676	.	-	0	Uisw_137_00888	Uisw_137	91	OG0000018	NA	NA	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	Uisw_137_00893
+CP159811.1	Prodigal:2.6	CDS	803816	804949	.	-	0	Uisw_137_00889	Uisw_137	377	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	Uisw_137_00893
+CP159811.1	Prodigal:2.6	CDS	804987	805754	.	-	0	Uisw_137_00890	Uisw_137	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_137_00893
+CP159811.1	Prodigal:2.6	CDS	805744	806679	.	-	0	Uisw_137_00891	Uisw_137	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_137_00893
+CP159811.1	Prodigal:2.6	CDS	806728	808176	.	-	0	Uisw_137_00892	Uisw_137	482	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_137_00893
+CP159811.1	Prodigal:2.6	CDS	808286	808801	.	-	0	Uisw_137_00893	Uisw_137	171	OG0001307	NA	NA	NA	NA	NA	Uisw_137_00893
+CP159811.1	Prodigal:2.6	CDS	808817	809260	.	-	0	Uisw_137_00894	Uisw_137	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_137_00893
+CP159811.1	Prodigal:2.6	CDS	809279	809806	.	+	0	Uisw_137_00895	Uisw_137	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_137_00893
+CP159811.1	Prodigal:2.6	CDS	809803	810516	.	-	0	Uisw_137_00896	Uisw_137	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_137_00893
+CP159811.1	Prodigal:2.6	CDS	810568	811521	.	+	0	Uisw_137_00897	Uisw_137	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_137_00893
+CP159811.1	Prodigal:2.6	CDS	811522	812841	.	+	0	Uisw_137_00898	Uisw_137	439	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_137_00893
+CP159821.1	Prodigal:2.6	CDS	419406	420446	.	+	0	Uisw_101_00444	Uisw_101	346	OG0001135	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	Uisw_101_00449
+CP159821.1	Prodigal:2.6	CDS	420540	421823	.	+	0	Uisw_101_00445	Uisw_101	427	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	Uisw_101_00449
+CP159821.1	Prodigal:2.6	CDS	421828	422337	.	+	0	Uisw_101_00446	Uisw_101	169	OG0001473	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	Uisw_101_00449
+CP159821.1	Prodigal:2.6	CDS	422446	423792	.	+	0	Uisw_101_00447	Uisw_101	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	Uisw_101_00449
+CP159821.1	Prodigal:2.6	CDS	423835	424947	.	+	0	Uisw_101_00448	Uisw_101	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	Uisw_101_00449
+CP159821.1	Prodigal:2.6	CDS	424961	425470	.	+	0	Uisw_101_00449	Uisw_101	169	OG0001307	NA	NA	NA	NA	NA	Uisw_101_00449
+CP159821.1	Prodigal:2.6	CDS	425475	426137	.	-	0	Uisw_101_00450	Uisw_101	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_101_00449
+CP159821.1	Prodigal:2.6	CDS	426134	427630	.	-	0	Uisw_101_00451	Uisw_101	498	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_101_00449
+CP159821.1	Prodigal:2.6	CDS	427861	428796	.	+	0	Uisw_101_00452	Uisw_101	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_101_00449
+CP159821.1	Prodigal:2.6	CDS	428786	429553	.	+	0	Uisw_101_00453	Uisw_101	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_101_00449
+CP159821.1	Prodigal:2.6	CDS	429562	430329	.	+	0	Uisw_101_00454	Uisw_101	255	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_101_00449
+CP159820.1	Prodigal:2.6	CDS	422209	423249	.	+	0	Uisw_104_00449	Uisw_104	346	OG0001135	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	Uisw_104_00454
+CP159820.1	Prodigal:2.6	CDS	423343	424626	.	+	0	Uisw_104_00450	Uisw_104	427	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	Uisw_104_00454
+CP159820.1	Prodigal:2.6	CDS	424739	425140	.	+	0	Uisw_104_00451	Uisw_104	133	OG0001473	NA	NA	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	Uisw_104_00454
+CP159820.1	Prodigal:2.6	CDS	425249	426595	.	+	0	Uisw_104_00452	Uisw_104	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	Uisw_104_00454
+CP159820.1	Prodigal:2.6	CDS	426638	427750	.	+	0	Uisw_104_00453	Uisw_104	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	Uisw_104_00454
+CP159820.1	Prodigal:2.6	CDS	427764	428273	.	+	0	Uisw_104_00454	Uisw_104	169	OG0001307	NA	NA	NA	NA	NA	Uisw_104_00454
+CP159820.1	Prodigal:2.6	CDS	428278	428940	.	-	0	Uisw_104_00455	Uisw_104	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_104_00454
+CP159820.1	Prodigal:2.6	CDS	428937	430433	.	-	0	Uisw_104_00456	Uisw_104	498	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_104_00454
+CP159820.1	Prodigal:2.6	CDS	430664	431599	.	+	0	Uisw_104_00457	Uisw_104	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_104_00454
+CP159820.1	Prodigal:2.6	CDS	431589	432356	.	+	0	Uisw_104_00458	Uisw_104	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_104_00454
+CP159820.1	Prodigal:2.6	CDS	432451	433131	.	+	0	Uisw_104_00459	Uisw_104	226	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_104_00454
+CP159819.1	Prodigal:2.6	CDS	432330	433370	.	+	0	Uisw_106_00466	Uisw_106	346	OG0001135	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	Uisw_106_00471
+CP159819.1	Prodigal:2.6	CDS	433464	434747	.	+	0	Uisw_106_00467	Uisw_106	427	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	Uisw_106_00471
+CP159819.1	Prodigal:2.6	CDS	434752	435261	.	+	0	Uisw_106_00468	Uisw_106	169	OG0001473	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	Uisw_106_00471
+CP159819.1	Prodigal:2.6	CDS	435369	436715	.	+	0	Uisw_106_00469	Uisw_106	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	Uisw_106_00471
+CP159819.1	Prodigal:2.6	CDS	436758	437870	.	+	0	Uisw_106_00470	Uisw_106	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	Uisw_106_00471
+CP159819.1	Prodigal:2.6	CDS	437884	438387	.	+	0	Uisw_106_00471	Uisw_106	167	OG0001307	NA	NA	NA	NA	NA	Uisw_106_00471
+CP159819.1	Prodigal:2.6	CDS	438400	439254	.	-	0	Uisw_106_00472	Uisw_106	284	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	Uisw_106_00471
+CP159819.1	Prodigal:2.6	CDS	439295	439957	.	-	0	Uisw_106_00473	Uisw_106	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_106_00471
+CP159819.1	Prodigal:2.6	CDS	439957	441450	.	-	0	Uisw_106_00474	Uisw_106	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_106_00471
+CP159819.1	Prodigal:2.6	CDS	441680	442615	.	+	0	Uisw_106_00475	Uisw_106	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_106_00471
+CP159819.1	Prodigal:2.6	CDS	442605	443372	.	+	0	Uisw_106_00476	Uisw_106	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_106_00471
+CP159823.1	Prodigal:2.6	CDS	473888	475801	.	-	0	Uisw_094_00509	Uisw_094	637	OG0000953	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	Uisw_094_00514
+CP159823.1	Prodigal:2.6	CDS	475803	476600	.	-	0	Uisw_094_00510	Uisw_094	265	OG0000899	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	Uisw_094_00514
+CP159823.1	Prodigal:2.6	CDS	476689	477633	.	-	0	Uisw_094_00511	Uisw_094	314	OG0000966	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	Uisw_094_00514
+CP159823.1	Prodigal:2.6	CDS	477841	479187	.	+	0	Uisw_094_00512	Uisw_094	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	Uisw_094_00514
+CP159823.1	Prodigal:2.6	CDS	479231	480343	.	+	0	Uisw_094_00513	Uisw_094	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	Uisw_094_00514
+CP159823.1	Prodigal:2.6	CDS	480357	480860	.	+	0	Uisw_094_00514	Uisw_094	167	OG0001307	NA	NA	NA	NA	NA	Uisw_094_00514
+CP159823.1	Prodigal:2.6	CDS	480873	481727	.	-	0	Uisw_094_00515	Uisw_094	284	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	Uisw_094_00514
+CP159823.1	Prodigal:2.6	CDS	481768	482430	.	-	0	Uisw_094_00516	Uisw_094	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_094_00514
+CP159823.1	Prodigal:2.6	CDS	482430	483923	.	-	0	Uisw_094_00517	Uisw_094	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_094_00514
+CP159823.1	Prodigal:2.6	CDS	484153	485088	.	+	0	Uisw_094_00518	Uisw_094	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_094_00514
+CP159823.1	Prodigal:2.6	CDS	485078	485845	.	+	0	Uisw_094_00519	Uisw_094	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_094_00514
+CP159812.1	Prodigal:2.6	CDS	433111	434454	.	-	0	Uisw_136_00456	Uisw_136	447	OG0000953	NA	NA	NA	NA	NA	Uisw_136_00461
+CP159812.1	Prodigal:2.6	CDS	434456	435253	.	-	0	Uisw_136_00457	Uisw_136	265	OG0000899	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	Uisw_136_00461
+CP159812.1	Prodigal:2.6	CDS	435342	436286	.	-	0	Uisw_136_00458	Uisw_136	314	OG0000966	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	Uisw_136_00461
+CP159812.1	Prodigal:2.6	CDS	436494	437840	.	+	0	Uisw_136_00459	Uisw_136	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	Uisw_136_00461
+CP159812.1	Prodigal:2.6	CDS	437876	438988	.	+	0	Uisw_136_00460	Uisw_136	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	Uisw_136_00461
+CP159812.1	Prodigal:2.6	CDS	439002	439508	.	+	0	Uisw_136_00461	Uisw_136	168	OG0001307	NA	NA	NA	NA	NA	Uisw_136_00461
+CP159812.1	Prodigal:2.6	CDS	439518	440372	.	-	0	Uisw_136_00462	Uisw_136	284	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	Uisw_136_00461
+CP159812.1	Prodigal:2.6	CDS	440413	441075	.	-	0	Uisw_136_00463	Uisw_136	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_136_00461
+CP159812.1	Prodigal:2.6	CDS	441075	442568	.	-	0	Uisw_136_00464	Uisw_136	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_136_00461
+CP159812.1	Prodigal:2.6	CDS	442798	443733	.	+	0	Uisw_136_00465	Uisw_136	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_136_00461
+CP159812.1	Prodigal:2.6	CDS	443723	444490	.	+	0	Uisw_136_00466	Uisw_136	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_136_00461
+CP159809.1	Prodigal:2.6	CDS	783225	784358	.	-	0	Uisw_113_00862	Uisw_113	377	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	Uisw_113_00867
+CP159809.1	Prodigal:2.6	CDS	784396	785163	.	-	0	Uisw_113_00863	Uisw_113	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_113_00867
+CP159809.1	Prodigal:2.6	CDS	785153	786088	.	-	0	Uisw_113_00864	Uisw_113	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_113_00867
+CP159809.1	Prodigal:2.6	CDS	786319	787812	.	+	0	Uisw_113_00865	Uisw_113	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_113_00867
+CP159809.1	Prodigal:2.6	CDS	787812	788474	.	+	0	Uisw_113_00866	Uisw_113	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_113_00867
+CP159809.1	Prodigal:2.6	CDS	788479	788988	.	-	0	Uisw_113_00867	Uisw_113	169	OG0001307	NA	NA	NA	NA	NA	Uisw_113_00867
+CP159809.1	Prodigal:2.6	CDS	789006	790061	.	-	0	Uisw_113_00868	Uisw_113	351	OG0002429	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_113_00867
+CP159809.1	Prodigal:2.6	CDS	790182	790415	.	-	0	Uisw_113_00869	Uisw_113	77	OG0001202	NA	NA	NA	NA	NA	Uisw_113_00867
+CP159809.1	Prodigal:2.6	CDS	790457	792901	.	-	0	Uisw_113_00870	Uisw_113	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_113_00867
+CP159809.1	Prodigal:2.6	CDS	792911	794029	.	-	0	Uisw_113_00871	Uisw_113	372	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	Uisw_113_00867
+CP159809.1	Prodigal:2.6	CDS	794071	795417	.	-	0	Uisw_113_00872	Uisw_113	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	Uisw_113_00867
+CP159817.1	Prodigal:2.6	CDS	376705	378048	.	-	0	Uisw_116_00423	Uisw_116	447	OG0000953	NA	NA	NA	NA	NA	Uisw_116_00428
+CP159817.1	Prodigal:2.6	CDS	378050	378847	.	-	0	Uisw_116_00424	Uisw_116	265	OG0000899	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	Uisw_116_00428
+CP159817.1	Prodigal:2.6	CDS	378936	379880	.	-	0	Uisw_116_00425	Uisw_116	314	OG0000966	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	Uisw_116_00428
+CP159817.1	Prodigal:2.6	CDS	380082	381428	.	+	0	Uisw_116_00426	Uisw_116	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	Uisw_116_00428
+CP159817.1	Prodigal:2.6	CDS	381470	382582	.	+	0	Uisw_116_00427	Uisw_116	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	Uisw_116_00428
+CP159817.1	Prodigal:2.6	CDS	382596	383105	.	+	0	Uisw_116_00428	Uisw_116	169	OG0001307	NA	NA	NA	NA	NA	Uisw_116_00428
+CP159817.1	Prodigal:2.6	CDS	383110	383772	.	-	0	Uisw_116_00429	Uisw_116	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_116_00428
+CP159817.1	Prodigal:2.6	CDS	383772	385265	.	-	0	Uisw_116_00430	Uisw_116	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_116_00428
+CP159817.1	Prodigal:2.6	CDS	385496	386431	.	+	0	Uisw_116_00431	Uisw_116	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_116_00428
+CP159817.1	Prodigal:2.6	CDS	386421	387188	.	+	0	Uisw_116_00432	Uisw_116	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_116_00428
+CP159817.1	Prodigal:2.6	CDS	387226	388359	.	+	0	Uisw_116_00433	Uisw_116	377	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	Uisw_116_00428
+CP159816.1	Prodigal:2.6	CDS	356900	358813	.	-	0	Uisw_121_00399	Uisw_121	637	OG0000953	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	Uisw_121_00404
+CP159816.1	Prodigal:2.6	CDS	358815	359612	.	-	0	Uisw_121_00400	Uisw_121	265	OG0000899	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	Uisw_121_00404
+CP159816.1	Prodigal:2.6	CDS	359701	360645	.	-	0	Uisw_121_00401	Uisw_121	314	OG0000966	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	Uisw_121_00404
+CP159816.1	Prodigal:2.6	CDS	360847	362193	.	+	0	Uisw_121_00402	Uisw_121	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	Uisw_121_00404
+CP159816.1	Prodigal:2.6	CDS	362235	363347	.	+	0	Uisw_121_00403	Uisw_121	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	Uisw_121_00404
+CP159816.1	Prodigal:2.6	CDS	363361	363870	.	+	0	Uisw_121_00404	Uisw_121	169	OG0001307	NA	NA	NA	NA	NA	Uisw_121_00404
+CP159816.1	Prodigal:2.6	CDS	363875	364537	.	-	0	Uisw_121_00405	Uisw_121	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_121_00404
+CP159816.1	Prodigal:2.6	CDS	364537	366030	.	-	0	Uisw_121_00406	Uisw_121	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_121_00404
+CP159816.1	Prodigal:2.6	CDS	366261	367196	.	+	0	Uisw_121_00407	Uisw_121	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_121_00404
+CP159816.1	Prodigal:2.6	CDS	367186	367953	.	+	0	Uisw_121_00408	Uisw_121	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_121_00404
+CP159816.1	Prodigal:2.6	CDS	367991	369124	.	+	0	Uisw_121_00409	Uisw_121	377	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	Uisw_121_00404
+CP159818.1	Prodigal:2.6	CDS	397784	398683	.	+	0	Uisw_114_00496	Uisw_114	299	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	Uisw_114_00501
+CP159818.1	Prodigal:2.6	CDS	398688	398930	.	+	0	Uisw_114_00497	Uisw_114	80	OG0000004	NA	NA	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	Uisw_114_00501
+CP159818.1	Prodigal:2.6	CDS	398935	399444	.	+	0	Uisw_114_00498	Uisw_114	169	OG0001473	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	Uisw_114_00501
+CP159818.1	Prodigal:2.6	CDS	399552	400898	.	+	0	Uisw_114_00499	Uisw_114	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	Uisw_114_00501
+CP159818.1	Prodigal:2.6	CDS	400942	402054	.	+	0	Uisw_114_00500	Uisw_114	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	Uisw_114_00501
+CP159818.1	Prodigal:2.6	CDS	402068	402571	.	+	0	Uisw_114_00501	Uisw_114	167	OG0001307	NA	NA	NA	NA	NA	Uisw_114_00501
+CP159818.1	Prodigal:2.6	CDS	402584	403438	.	-	0	Uisw_114_00502	Uisw_114	284	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	Uisw_114_00501
+CP159818.1	Prodigal:2.6	CDS	403479	404141	.	-	0	Uisw_114_00503	Uisw_114	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_114_00501
+CP159818.1	Prodigal:2.6	CDS	404141	405634	.	-	0	Uisw_114_00504	Uisw_114	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_114_00501
+CP159818.1	Prodigal:2.6	CDS	405865	406800	.	+	0	Uisw_114_00505	Uisw_114	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_114_00501
+CP159818.1	Prodigal:2.6	CDS	406790	407557	.	+	0	Uisw_114_00506	Uisw_114	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_114_00501
+CP159814.1	Prodigal:2.6	CDS	376345	377658	.	-	0	Uisw_130_00407	Uisw_130	437	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_130_00412
+CP159814.1	Prodigal:2.6	CDS	377659	378612	.	-	0	Uisw_130_00408	Uisw_130	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_130_00412
+CP159814.1	Prodigal:2.6	CDS	378664	379377	.	+	0	Uisw_130_00409	Uisw_130	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_130_00412
+CP159814.1	Prodigal:2.6	CDS	379374	379901	.	-	0	Uisw_130_00410	Uisw_130	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_130_00412
+CP159814.1	Prodigal:2.6	CDS	379920	380363	.	+	0	Uisw_130_00411	Uisw_130	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_130_00412
+CP159814.1	Prodigal:2.6	CDS	380379	380888	.	+	0	Uisw_130_00412	Uisw_130	169	OG0001307	NA	NA	NA	NA	NA	Uisw_130_00412
+CP159814.1	Prodigal:2.6	CDS	380893	381555	.	-	0	Uisw_130_00413	Uisw_130	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_130_00412
+CP159814.1	Prodigal:2.6	CDS	381555	383048	.	-	0	Uisw_130_00414	Uisw_130	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_130_00412
+CP159814.1	Prodigal:2.6	CDS	383278	384213	.	+	0	Uisw_130_00415	Uisw_130	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_130_00412
+CP159814.1	Prodigal:2.6	CDS	384203	384970	.	+	0	Uisw_130_00416	Uisw_130	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_130_00412
+CP159814.1	Prodigal:2.6	CDS	384989	386053	.	+	0	Uisw_130_00417	Uisw_130	354	OG0001229	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	Uisw_130_00412
+CP159824.1	Prodigal:2.6	CDS	410328	411368	.	+	0	Uisw_092_00449	Uisw_092	346	OG0001135	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	Uisw_092_00454
+CP159824.1	Prodigal:2.6	CDS	411462	412745	.	+	0	Uisw_092_00450	Uisw_092	427	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	Uisw_092_00454
+CP159824.1	Prodigal:2.6	CDS	412750	413259	.	+	0	Uisw_092_00451	Uisw_092	169	OG0001473	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	Uisw_092_00454
+CP159824.1	Prodigal:2.6	CDS	413367	414713	.	+	0	Uisw_092_00452	Uisw_092	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	Uisw_092_00454
+CP159824.1	Prodigal:2.6	CDS	414758	415870	.	+	0	Uisw_092_00453	Uisw_092	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	Uisw_092_00454
+CP159824.1	Prodigal:2.6	CDS	415884	416393	.	+	0	Uisw_092_00454	Uisw_092	169	OG0001307	NA	NA	NA	NA	NA	Uisw_092_00454
+CP159824.1	Prodigal:2.6	CDS	416398	417060	.	-	0	Uisw_092_00455	Uisw_092	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_092_00454
+CP159824.1	Prodigal:2.6	CDS	417060	418553	.	-	0	Uisw_092_00456	Uisw_092	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_092_00454
+CP159824.1	Prodigal:2.6	CDS	418783	419718	.	+	0	Uisw_092_00457	Uisw_092	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_092_00454
+CP159824.1	Prodigal:2.6	CDS	419708	420475	.	+	0	Uisw_092_00458	Uisw_092	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_092_00454
+CP159824.1	Prodigal:2.6	CDS	420513	421622	.	+	0	Uisw_092_00459	Uisw_092	369	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	Uisw_092_00454
+CP159810.1	Prodigal:2.6	CDS	869963	870844	.	+	0	Uisw_090_00973	Uisw_090	293	OG0000083	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	Uisw_090_00978
+CP159810.1	Prodigal:2.6	CDS	870856	871623	.	-	0	Uisw_090_00974	Uisw_090	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_090_00978
+CP159810.1	Prodigal:2.6	CDS	871613	872548	.	-	0	Uisw_090_00975	Uisw_090	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_090_00978
+CP159810.1	Prodigal:2.6	CDS	872778	874271	.	+	0	Uisw_090_00976	Uisw_090	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_090_00978
+CP159810.1	Prodigal:2.6	CDS	874271	874933	.	+	0	Uisw_090_00977	Uisw_090	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_090_00978
+CP159810.1	Prodigal:2.6	CDS	874938	875447	.	-	0	Uisw_090_00978	Uisw_090	169	OG0001307	NA	NA	NA	NA	NA	Uisw_090_00978
+CP159810.1	Prodigal:2.6	CDS	875460	876572	.	-	0	Uisw_090_00979	Uisw_090	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	Uisw_090_00978
+CP159810.1	Prodigal:2.6	CDS	876618	877964	.	-	0	Uisw_090_00980	Uisw_090	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	Uisw_090_00978
+CP159810.1	Prodigal:2.6	CDS	878073	878582	.	-	0	Uisw_090_00981	Uisw_090	169	OG0001473	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	Uisw_090_00978
+CP159810.1	Prodigal:2.6	CDS	878587	879870	.	-	0	Uisw_090_00982	Uisw_090	427	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	Uisw_090_00978
+CP159810.1	Prodigal:2.6	CDS	879964	881004	.	-	0	Uisw_090_00983	Uisw_090	346	OG0001135	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	Uisw_090_00978
+CP159815.1	Prodigal:2.6	CDS	754454	755563	.	-	0	Uisw_127_00843	Uisw_127	369	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	Uisw_127_00848
+CP159815.1	Prodigal:2.6	CDS	755601	756368	.	-	0	Uisw_127_00844	Uisw_127	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_127_00848
+CP159815.1	Prodigal:2.6	CDS	756358	757293	.	-	0	Uisw_127_00845	Uisw_127	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_127_00848
+CP159815.1	Prodigal:2.6	CDS	757524	759017	.	+	0	Uisw_127_00846	Uisw_127	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_127_00848
+CP159815.1	Prodigal:2.6	CDS	759017	759679	.	+	0	Uisw_127_00847	Uisw_127	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_127_00848
+CP159815.1	Prodigal:2.6	CDS	759684	760193	.	-	0	Uisw_127_00848	Uisw_127	169	OG0001307	NA	NA	NA	NA	NA	Uisw_127_00848
+CP159815.1	Prodigal:2.6	CDS	760207	761319	.	-	0	Uisw_127_00849	Uisw_127	370	OG0000884	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	Uisw_127_00848
+CP159815.1	Prodigal:2.6	CDS	761362	762708	.	-	0	Uisw_127_00850	Uisw_127	448	OG0000092	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	Uisw_127_00848
+CP159815.1	Prodigal:2.6	CDS	762817	763326	.	-	0	Uisw_127_00851	Uisw_127	169	OG0001473	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	Uisw_127_00848
+CP159815.1	Prodigal:2.6	CDS	763331	764614	.	-	0	Uisw_127_00852	Uisw_127	427	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	Uisw_127_00848
+CP159815.1	Prodigal:2.6	CDS	764708	765748	.	-	0	Uisw_127_00853	Uisw_127	346	OG0001135	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	Uisw_127_00848
+CP159822.1	Prodigal:2.6	CDS	350100	350552	.	-	0	Uisw_099_02_00374	Uisw_099_02	150	OG0000854	NA	NA	NA	NA	NA	Uisw_099_02_00378
+CP159822.1	Prodigal:2.6	CDS	350552	351070	.	-	0	Uisw_099_02_00375	Uisw_099_02	172	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	Uisw_099_02_00378
+CP159822.1	Prodigal:2.6	CDS	351090	351515	.	-	0	Uisw_099_02_00376	Uisw_099_02	141	OG0001280	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	Uisw_099_02_00378
+CP159822.1	Prodigal:2.6	CDS	351568	352251	.	-	0	Uisw_099_02_00377	Uisw_099_02	227	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_099_02_00378
+CP159822.1	Prodigal:2.6	CDS	351568	352251	.	-	0	Uisw_099_02_00377	Uisw_099_02	227	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_099_02_00378
+CP159822.1	Prodigal:2.6	CDS	352321	352830	.	+	0	Uisw_099_02_00378	Uisw_099_02	169	OG0001307	NA	NA	NA	NA	NA	Uisw_099_02_00378
+CP159822.1	Prodigal:2.6	CDS	352835	353497	.	-	0	Uisw_099_02_00379	Uisw_099_02	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_099_02_00378
+CP159822.1	Prodigal:2.6	CDS	353497	354990	.	-	0	Uisw_099_02_00380	Uisw_099_02	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_099_02_00378
+CP159822.1	Prodigal:2.6	CDS	355220	356155	.	+	0	Uisw_099_02_00381	Uisw_099_02	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_099_02_00378
+CP159822.1	Prodigal:2.6	CDS	356145	356912	.	+	0	Uisw_099_02_00382	Uisw_099_02	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_099_02_00378
+CP159822.1	Prodigal:2.6	CDS	356915	358081	.	-	0	Uisw_099_02_00383	Uisw_099_02	388	OG0000957	K22209	D(-)-tartrate dehydratase [EC:4.2.1.81]	COG4948	RspA	L-alanine-DL-glutamate epimerase or related enzyme of enolase superfamily	Uisw_099_02_00378
+NZ_LANA01000002.1	Prodigal:2.6	CDS	496070	496345	.	-	0	HTCC9565_01366	HTCC9565	91	OG0000018	NA	NA	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	HTCC9565_01371
+NZ_LANA01000002.1	Prodigal:2.6	CDS	496486	497619	.	-	0	HTCC9565_01367	HTCC9565	377	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	HTCC9565_01371
+NZ_LANA01000002.1	Prodigal:2.6	CDS	497657	498424	.	-	0	HTCC9565_01368	HTCC9565	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	HTCC9565_01371
+NZ_LANA01000002.1	Prodigal:2.6	CDS	498414	499349	.	-	0	HTCC9565_01369	HTCC9565	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HTCC9565_01371
+NZ_LANA01000002.1	Prodigal:2.6	CDS	499399	500847	.	-	0	HTCC9565_01370	HTCC9565	482	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	HTCC9565_01371
+NZ_LANA01000002.1	Prodigal:2.6	CDS	500956	501471	.	-	0	HTCC9565_01371	HTCC9565	171	OG0001307	NA	NA	NA	NA	NA	HTCC9565_01371
+NZ_LANA01000002.1	Prodigal:2.6	CDS	501461	502177	.	-	0	HTCC9565_01372	HTCC9565	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC9565_01371
+NZ_LANA01000002.1	Prodigal:2.6	CDS	502194	502640	.	-	0	HTCC9565_01373	HTCC9565	148	OG0000854	NA	NA	NA	NA	NA	HTCC9565_01371
+NZ_LANA01000002.1	Prodigal:2.6	CDS	502645	503148	.	-	0	HTCC9565_01374	HTCC9565	167	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HTCC9565_01371
+NZ_LANA01000002.1	Prodigal:2.6	CDS	503218	503904	.	+	0	HTCC9565_01375	HTCC9565	228	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC9565_01371
+NZ_LANA01000002.1	Prodigal:2.6	CDS	503218	503904	.	+	0	HTCC9565_01375	HTCC9565	228	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC9565_01371
+CP159813.1	Prodigal:2.6	CDS	369071	369385	.	-	0	Uisw_134_02_00397	Uisw_134_02	104	OG0001397	NA	NA	NA	NA	NA	Uisw_134_02_00402
+CP159813.1	Prodigal:2.6	CDS	369597	370010	.	+	0	Uisw_134_02_00398	Uisw_134_02	137	OG0000961	NA	NA	NA	NA	NA	Uisw_134_02_00402
+CP159813.1	Prodigal:2.6	CDS	370276	370989	.	+	0	Uisw_134_02_00399	Uisw_134_02	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_134_02_00402
+CP159813.1	Prodigal:2.6	CDS	370986	371507	.	-	0	Uisw_134_02_00400	Uisw_134_02	173	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_134_02_00402
+CP159813.1	Prodigal:2.6	CDS	371532	371975	.	+	0	Uisw_134_02_00401	Uisw_134_02	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_134_02_00402
+CP159813.1	Prodigal:2.6	CDS	371995	372504	.	+	0	Uisw_134_02_00402	Uisw_134_02	169	OG0001307	NA	NA	NA	NA	NA	Uisw_134_02_00402
+CP159813.1	Prodigal:2.6	CDS	372509	373171	.	-	0	Uisw_134_02_00403	Uisw_134_02	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_134_02_00402
+CP159813.1	Prodigal:2.6	CDS	373171	374664	.	-	0	Uisw_134_02_00404	Uisw_134_02	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_134_02_00402
+CP159813.1	Prodigal:2.6	CDS	374895	375830	.	+	0	Uisw_134_02_00405	Uisw_134_02	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_134_02_00402
+CP159813.1	Prodigal:2.6	CDS	375820	376587	.	+	0	Uisw_134_02_00406	Uisw_134_02	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	Uisw_134_02_00402
+CP159813.1	Prodigal:2.6	CDS	376634	377743	.	+	0	Uisw_134_02_00407	Uisw_134_02	369	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	Uisw_134_02_00402
+DS995298.1	Prodigal:2.6	CDS	1139767	1139928	.	+	0	HTCC7211_01249	HTCC7211	53	OG0001043	NA	NA	NA	NA	NA	HTCC7211_01254
+DS995298.1	Prodigal:2.6	CDS	1140011	1141285	.	+	0	HTCC7211_01250	HTCC7211	424	OG0001037	K01637	isocitrate lyase [EC:4.1.3.1]	COG2224	AceA	Isocitrate lyase	HTCC7211_01254
+DS995298.1	Prodigal:2.6	CDS	1141380	1142522	.	+	0	HTCC7211_01251	HTCC7211	380	OG0000006	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC7211_01254
+DS995298.1	Prodigal:2.6	CDS	1142519	1143286	.	-	0	HTCC7211_01252	HTCC7211	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	HTCC7211_01254
+DS995298.1	Prodigal:2.6	CDS	1143276	1144211	.	-	0	HTCC7211_01253	HTCC7211	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HTCC7211_01254
+DS995298.1	Prodigal:2.6	CDS	1144294	1144818	.	-	0	HTCC7211_01254	HTCC7211	174	OG0001307	NA	NA	NA	NA	NA	HTCC7211_01254
+DS995298.1	Prodigal:2.6	CDS	1144830	1145249	.	-	0	HTCC7211_01255	HTCC7211	139	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC7211_01254
+DS995298.1	Prodigal:2.6	CDS	1145292	1145819	.	+	0	HTCC7211_01256	HTCC7211	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC7211_01254
+DS995298.1	Prodigal:2.6	CDS	1145820	1146530	.	-	0	HTCC7211_01257	HTCC7211	236	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC7211_01254
+DS995298.1	Prodigal:2.6	CDS	1146586	1147893	.	+	0	HTCC7211_01258	HTCC7211	435	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HTCC7211_01254
+DS995298.1	Prodigal:2.6	CDS	1147897	1148334	.	-	0	HTCC7211_01259	HTCC7211	145	OG0000854	NA	NA	NA	NA	NA	HTCC7211_01254
+KL370779.1	Prodigal:2.6	CDS	916629	917066	.	+	0	HTCC7214_00946	HTCC7214	145	OG0000854	NA	NA	NA	NA	NA	HTCC7214_00951
+KL370779.1	Prodigal:2.6	CDS	917070	918377	.	-	0	HTCC7214_00947	HTCC7214	435	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HTCC7214_00951
+KL370779.1	Prodigal:2.6	CDS	918433	919143	.	+	0	HTCC7214_00948	HTCC7214	236	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC7214_00951
+KL370779.1	Prodigal:2.6	CDS	919144	919671	.	-	0	HTCC7214_00949	HTCC7214	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC7214_00951
+KL370779.1	Prodigal:2.6	CDS	919735	920133	.	+	0	HTCC7214_00950	HTCC7214	132	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC7214_00951
+KL370779.1	Prodigal:2.6	CDS	920150	920674	.	+	0	HTCC7214_00951	HTCC7214	174	OG0001307	NA	NA	NA	NA	NA	HTCC7214_00951
+KL370779.1	Prodigal:2.6	CDS	920757	921692	.	+	0	HTCC7214_00952	HTCC7214	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HTCC7214_00951
+KL370779.1	Prodigal:2.6	CDS	921682	922449	.	+	0	HTCC7214_00953	HTCC7214	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	HTCC7214_00951
+KL370779.1	Prodigal:2.6	CDS	922446	923588	.	-	0	HTCC7214_00954	HTCC7214	380	OG0000006	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC7214_00951
+KL370779.1	Prodigal:2.6	CDS	923683	924957	.	-	0	HTCC7214_00955	HTCC7214	424	OG0001037	K01637	isocitrate lyase [EC:4.1.3.1]	COG2224	AceA	Isocitrate lyase	HTCC7214_00951
+KL370779.1	Prodigal:2.6	CDS	925037	925198	.	-	0	HTCC7214_00956	HTCC7214	53	OG0001043	NA	NA	NA	NA	NA	HTCC7214_00951
+JNIU01000001.1	Prodigal:2.6	CDS	504240	504401	.	+	0	HTCC7217_00564	HTCC7217	53	OG0001043	NA	NA	NA	NA	NA	HTCC7217_00569
+JNIU01000001.1	Prodigal:2.6	CDS	504484	505758	.	+	0	HTCC7217_00565	HTCC7217	424	OG0001037	K01637	isocitrate lyase [EC:4.1.3.1]	COG2224	AceA	Isocitrate lyase	HTCC7217_00569
+JNIU01000001.1	Prodigal:2.6	CDS	505853	506995	.	+	0	HTCC7217_00566	HTCC7217	380	OG0000006	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC7217_00569
+JNIU01000001.1	Prodigal:2.6	CDS	506992	507759	.	-	0	HTCC7217_00567	HTCC7217	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	HTCC7217_00569
+JNIU01000001.1	Prodigal:2.6	CDS	507749	508684	.	-	0	HTCC7217_00568	HTCC7217	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HTCC7217_00569
+JNIU01000001.1	Prodigal:2.6	CDS	508767	509291	.	-	0	HTCC7217_00569	HTCC7217	174	OG0001307	NA	NA	NA	NA	NA	HTCC7217_00569
+JNIU01000001.1	Prodigal:2.6	CDS	509303	509722	.	-	0	HTCC7217_00570	HTCC7217	139	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC7217_00569
+JNIU01000001.1	Prodigal:2.6	CDS	509765	510292	.	+	0	HTCC7217_00571	HTCC7217	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC7217_00569
+JNIU01000001.1	Prodigal:2.6	CDS	510293	511003	.	-	0	HTCC7217_00572	HTCC7217	236	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC7217_00569
+JNIU01000001.1	Prodigal:2.6	CDS	511059	512366	.	+	0	HTCC7217_00573	HTCC7217	435	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HTCC7217_00569
+JNIU01000001.1	Prodigal:2.6	CDS	512370	512807	.	-	0	HTCC7217_00574	HTCC7217	145	OG0000854	NA	NA	NA	NA	NA	HTCC7217_00569
+HIMB1412-00000000001	Prodigal:2.6	CDS	1099057	1099392	.	+	0	HIMB1412_01178	HIMB1412	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB1412_01183
+HIMB1412-00000000001	Prodigal:2.6	CDS	1099389	1099946	.	-	0	HIMB1412_01179	HIMB1412	185	OG0002327	NA	NA	NA	NA	NA	HIMB1412_01183
+HIMB1412-00000000001	Prodigal:2.6	CDS	1099946	1100752	.	-	0	HIMB1412_01180	HIMB1412	268	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB1412_01183
+HIMB1412-00000000001	Prodigal:2.6	CDS	1100796	1101200	.	-	0	HIMB1412_01181	HIMB1412	134	OG0001363	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1412_01183
+HIMB1412-00000000001	Prodigal:2.6	CDS	1101210	1101401	.	-	0	HIMB1412_01182	HIMB1412	63	OG0001364	NA	NA	NA	NA	NA	HIMB1412_01183
+HIMB1412-00000000001	Prodigal:2.6	CDS	1101758	1102291	.	-	0	HIMB1412_01183	HIMB1412	177	OG0001307	NA	NA	NA	NA	NA	HIMB1412_01183
+HIMB1412-00000000001	Prodigal:2.6	CDS	1102295	1104724	.	-	0	HIMB1412_01184	HIMB1412	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1412_01183
+HIMB1412-00000000001	Prodigal:2.6	CDS	1104829	1105290	.	-	0	HIMB1412_01185	HIMB1412	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1412_01183
+HIMB1412-00000000001	Prodigal:2.6	CDS	1105291	1105818	.	+	0	HIMB1412_01186	HIMB1412	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1412_01183
+HIMB1412-00000000001	Prodigal:2.6	CDS	1105811	1106527	.	-	0	HIMB1412_01187	HIMB1412	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1412_01183
+HIMB1412-00000000001	Prodigal:2.6	CDS	1106579	1107532	.	+	0	HIMB1412_01188	HIMB1412	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1412_01183
+HIMB1420-00000000002	Prodigal:2.6	CDS	412090	412425	.	+	0	HIMB1420_01189	HIMB1420	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB1420_01194
+HIMB1420-00000000002	Prodigal:2.6	CDS	412426	413319	.	-	0	HIMB1420_01190	HIMB1420	297	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1420_01194
+HIMB1420-00000000002	Prodigal:2.6	CDS	413316	414110	.	-	0	HIMB1420_01191	HIMB1420	264	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB1420_01194
+HIMB1420-00000000002	Prodigal:2.6	CDS	414163	414567	.	-	0	HIMB1420_01192	HIMB1420	134	OG0001363	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1420_01194
+HIMB1420-00000000002	Prodigal:2.6	CDS	414574	414756	.	-	0	HIMB1420_01193	HIMB1420	60	OG0001364	NA	NA	NA	NA	NA	HIMB1420_01194
+HIMB1420-00000000002	Prodigal:2.6	CDS	415104	415637	.	-	0	HIMB1420_01194	HIMB1420	177	OG0001307	NA	NA	NA	NA	NA	HIMB1420_01194
+HIMB1420-00000000002	Prodigal:2.6	CDS	415650	418079	.	-	0	HIMB1420_01195	HIMB1420	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1420_01194
+HIMB1420-00000000002	Prodigal:2.6	CDS	418245	418706	.	-	0	HIMB1420_01196	HIMB1420	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1420_01194
+HIMB1420-00000000002	Prodigal:2.6	CDS	418707	419234	.	+	0	HIMB1420_01197	HIMB1420	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1420_01194
+HIMB1420-00000000002	Prodigal:2.6	CDS	419227	419943	.	-	0	HIMB1420_01198	HIMB1420	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1420_01194
+HIMB1420-00000000002	Prodigal:2.6	CDS	419995	420948	.	+	0	HIMB1420_01199	HIMB1420	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1420_01194
+HIMB1427-00000000001	Prodigal:2.6	CDS	51629	53068	.	-	0	HIMB1427_00035	HIMB1427	479	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	HIMB1427_00040
+HIMB1427-00000000001	Prodigal:2.6	CDS	53234	53524	.	-	0	HIMB1427_00036	HIMB1427	96	OG0001219	NA	NA	NA	NA	NA	HIMB1427_00040
+HIMB1427-00000000001	Prodigal:2.6	CDS	53585	54649	.	+	0	HIMB1427_00037	HIMB1427	354	OG0001229	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB1427_00040
+HIMB1427-00000000001	Prodigal:2.6	CDS	54646	55044	.	-	0	HIMB1427_00038	HIMB1427	132	OG0001363	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1427_00040
+HIMB1427-00000000001	Prodigal:2.6	CDS	55052	55234	.	-	0	HIMB1427_00039	HIMB1427	60	OG0001364	NA	NA	NA	NA	NA	HIMB1427_00040
+HIMB1427-00000000001	Prodigal:2.6	CDS	55581	56114	.	-	0	HIMB1427_00040	HIMB1427	177	OG0001307	NA	NA	NA	NA	NA	HIMB1427_00040
+HIMB1427-00000000001	Prodigal:2.6	CDS	56127	58556	.	-	0	HIMB1427_00041	HIMB1427	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1427_00040
+HIMB1427-00000000001	Prodigal:2.6	CDS	58722	59183	.	-	0	HIMB1427_00042	HIMB1427	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1427_00040
+HIMB1427-00000000001	Prodigal:2.6	CDS	59184	59711	.	+	0	HIMB1427_00043	HIMB1427	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1427_00040
+HIMB1427-00000000001	Prodigal:2.6	CDS	59704	60420	.	-	0	HIMB1427_00044	HIMB1427	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1427_00040
+HIMB1427-00000000001	Prodigal:2.6	CDS	60472	61425	.	+	0	HIMB1427_00045	HIMB1427	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1427_00040
+HIMB1463-00000000015	Prodigal:2.6	CDS	3048	4514	.	+	0	HIMB1463_00825	HIMB1463	488	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	HIMB1463_00830
+HIMB1463-00000000015	Prodigal:2.6	CDS	4498	5190	.	+	0	HIMB1463_00826	HIMB1463	230	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	HIMB1463_00830
+HIMB1463-00000000015	Prodigal:2.6	CDS	5191	5718	.	-	0	HIMB1463_00827	HIMB1463	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1463_00830
+HIMB1463-00000000015	Prodigal:2.6	CDS	5719	6180	.	+	0	HIMB1463_00828	HIMB1463	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1463_00830
+HIMB1463-00000000015	Prodigal:2.6	CDS	6348	8777	.	+	0	HIMB1463_00829	HIMB1463	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1463_00830
+HIMB1463-00000000015	Prodigal:2.6	CDS	8782	9315	.	+	0	HIMB1463_00830	HIMB1463	177	OG0001307	NA	NA	NA	NA	NA	HIMB1463_00830
+HIMB1463-00000000015	Prodigal:2.6	CDS	9663	9845	.	+	0	HIMB1463_00831	HIMB1463	60	OG0001364	NA	NA	NA	NA	NA	HIMB1463_00830
+HIMB1463-00000000015	Prodigal:2.6	CDS	9852	10250	.	+	0	HIMB1463_00832	HIMB1463	132	OG0001363	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1463_00830
+HIMB1463-00000000015	Prodigal:2.6	CDS	10247	11311	.	-	0	HIMB1463_00833	HIMB1463	354	OG0001229	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB1463_00830
+HIMB1463-00000000015	Prodigal:2.6	CDS	11372	11662	.	+	0	HIMB1463_00834	HIMB1463	96	OG0001219	NA	NA	NA	NA	NA	HIMB1463_00830
+HIMB1463-00000000015	Prodigal:2.6	CDS	11828	13267	.	+	0	HIMB1463_00835	HIMB1463	479	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	HIMB1463_00830
+HIMB1564-00000000001	Prodigal:2.6	CDS	372755	373708	.	-	0	HIMB1564_00390	HIMB1564	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1564_00395
+HIMB1564-00000000001	Prodigal:2.6	CDS	373760	374476	.	+	0	HIMB1564_00391	HIMB1564	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1564_00395
+HIMB1564-00000000001	Prodigal:2.6	CDS	374469	374996	.	-	0	HIMB1564_00392	HIMB1564	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1564_00395
+HIMB1564-00000000001	Prodigal:2.6	CDS	374997	375458	.	+	0	HIMB1564_00393	HIMB1564	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1564_00395
+HIMB1564-00000000001	Prodigal:2.6	CDS	375625	378054	.	+	0	HIMB1564_00394	HIMB1564	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1564_00395
+HIMB1564-00000000001	Prodigal:2.6	CDS	378059	378580	.	+	0	HIMB1564_00395	HIMB1564	173	OG0001307	NA	NA	NA	NA	NA	HIMB1564_00395
+HIMB1564-00000000001	Prodigal:2.6	CDS	378940	379122	.	+	0	HIMB1564_00396	HIMB1564	60	OG0001364	NA	NA	NA	NA	NA	HIMB1564_00395
+HIMB1564-00000000001	Prodigal:2.6	CDS	379131	379529	.	+	0	HIMB1564_00397	HIMB1564	132	OG0001363	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1564_00395
+HIMB1564-00000000001	Prodigal:2.6	CDS	379526	380590	.	-	0	HIMB1564_00398	HIMB1564	354	OG0001229	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB1564_00395
+HIMB1564-00000000001	Prodigal:2.6	CDS	380651	380941	.	+	0	HIMB1564_00399	HIMB1564	96	OG0001219	NA	NA	NA	NA	NA	HIMB1564_00395
+HIMB1564-00000000001	Prodigal:2.6	CDS	381108	382547	.	+	0	HIMB1564_00400	HIMB1564	479	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	HIMB1564_00395
+HIMB1520-00000000001	Prodigal:2.6	CDS	1280608	1281318	.	+	0	HIMB1520_01389	HIMB1520	236	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1520_01394
+HIMB1520-00000000001	Prodigal:2.6	CDS	1281315	1282007	.	+	0	HIMB1520_01390	HIMB1520	230	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1520_01394
+HIMB1520-00000000001	Prodigal:2.6	CDS	1282004	1282531	.	-	0	HIMB1520_01391	HIMB1520	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1520_01394
+HIMB1520-00000000001	Prodigal:2.6	CDS	1282532	1282993	.	+	0	HIMB1520_01392	HIMB1520	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1520_01394
+HIMB1520-00000000001	Prodigal:2.6	CDS	1283159	1285588	.	+	0	HIMB1520_01393	HIMB1520	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1520_01394
+HIMB1520-00000000001	Prodigal:2.6	CDS	1285593	1286126	.	+	0	HIMB1520_01394	HIMB1520	177	OG0001307	NA	NA	NA	NA	NA	HIMB1520_01394
+HIMB1520-00000000001	Prodigal:2.6	CDS	1286473	1286655	.	+	0	HIMB1520_01395	HIMB1520	60	OG0001364	NA	NA	NA	NA	NA	HIMB1520_01394
+HIMB1520-00000000001	Prodigal:2.6	CDS	1286664	1287062	.	+	0	HIMB1520_01396	HIMB1520	132	OG0001363	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1520_01394
+HIMB1520-00000000001	Prodigal:2.6	CDS	1287059	1288123	.	-	0	HIMB1520_01397	HIMB1520	354	OG0001229	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB1520_01394
+HIMB1520-00000000001	Prodigal:2.6	CDS	1288202	1288726	.	+	0	HIMB1520_01398	HIMB1520	174	OG0001165	NA	NA	COG1357	DotG	Type IVB secretion/DNA transfer system protein DotG/IcmE, contains pentapeptide repeats	HIMB1520_01394
+HIMB1520-00000000001	Prodigal:2.6	CDS	1288726	1289016	.	+	0	HIMB1520_01399	HIMB1520	96	OG0001219	NA	NA	NA	NA	NA	HIMB1520_01394
+CP003809.1	Prodigal:2.6	CDS	792262	792552	.	-	0	HIMB5_00861	HIMB5	96	OG0001219	NA	NA	NA	NA	NA	HIMB5_00866
+CP003809.1	Prodigal:2.6	CDS	792552	793076	.	-	0	HIMB5_00862	HIMB5	174	OG0001165	NA	NA	COG1357	DotG	Type IVB secretion/DNA transfer system protein DotG/IcmE, contains pentapeptide repeats	HIMB5_00866
+CP003809.1	Prodigal:2.6	CDS	793155	794219	.	+	0	HIMB5_00863	HIMB5	354	OG0001229	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB5_00866
+CP003809.1	Prodigal:2.6	CDS	794216	794614	.	-	0	HIMB5_00864	HIMB5	132	OG0001363	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB5_00866
+CP003809.1	Prodigal:2.6	CDS	794623	794805	.	-	0	HIMB5_00865	HIMB5	60	OG0001364	NA	NA	NA	NA	NA	HIMB5_00866
+CP003809.1	Prodigal:2.6	CDS	795153	795686	.	-	0	HIMB5_00866	HIMB5	177	OG0001307	NA	NA	NA	NA	NA	HIMB5_00866
+CP003809.1	Prodigal:2.6	CDS	795691	798120	.	-	0	HIMB5_00867	HIMB5	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB5_00866
+CP003809.1	Prodigal:2.6	CDS	798287	798748	.	-	0	HIMB5_00868	HIMB5	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB5_00866
+CP003809.1	Prodigal:2.6	CDS	798749	799276	.	+	0	HIMB5_00869	HIMB5	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB5_00866
+CP003809.1	Prodigal:2.6	CDS	799269	799985	.	-	0	HIMB5_00870	HIMB5	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB5_00866
+CP003809.1	Prodigal:2.6	CDS	800037	800156	.	+	0	HIMB5_00871	HIMB5	39	OG0001283	NA	NA	NA	NA	NA	HIMB5_00866
+LT840186.1	Prodigal:2.6	CDS	761473	762276	.	-	0	HIMB1321_00841	HIMB1321	267	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB1321_00846
+LT840186.1	Prodigal:2.6	CDS	762342	763442	.	+	0	HIMB1321_00842	HIMB1321	366	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	HIMB1321_00846
+LT840186.1	Prodigal:2.6	CDS	763439	764305	.	-	0	HIMB1321_00843	HIMB1321	288	OG0000022	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1321_00846
+LT840186.1	Prodigal:2.6	CDS	764315	764494	.	-	0	HIMB1321_00844	HIMB1321	59	OG0001364	NA	NA	NA	NA	NA	HIMB1321_00846
+LT840186.1	Prodigal:2.6	CDS	764539	765396	.	+	0	HIMB1321_00845	HIMB1321	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1321_00846
+LT840186.1	Prodigal:2.6	CDS	765709	766242	.	-	0	HIMB1321_00846	HIMB1321	177	OG0001307	NA	NA	NA	NA	NA	HIMB1321_00846
+LT840186.1	Prodigal:2.6	CDS	766284	766493	.	-	0	HIMB1321_00847	HIMB1321	69	OG0003743	NA	NA	NA	NA	NA	HIMB1321_00846
+LT840186.1	Prodigal:2.6	CDS	766500	767276	.	-	0	HIMB1321_00848	HIMB1321	258	OG0003744	NA	NA	NA	NA	NA	HIMB1321_00846
+LT840186.1	Prodigal:2.6	CDS	767334	768221	.	-	0	HIMB1321_00849	HIMB1321	295	OG0001310	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1321_00846
+LT840186.1	Prodigal:2.6	CDS	768244	769569	.	-	0	HIMB1321_00850	HIMB1321	441	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1321_00846
+LT840186.1	Prodigal:2.6	CDS	769566	770084	.	-	0	HIMB1321_00851	HIMB1321	172	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1321_00846
+HIMB1527-00000000002	Prodigal:2.6	CDS	515435	516238	.	-	0	HIMB1527_01176	HIMB1527	267	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB1527_01181
+HIMB1527-00000000002	Prodigal:2.6	CDS	516304	517404	.	+	0	HIMB1527_01177	HIMB1527	366	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	HIMB1527_01181
+HIMB1527-00000000002	Prodigal:2.6	CDS	517401	518267	.	-	0	HIMB1527_01178	HIMB1527	288	OG0000022	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1527_01181
+HIMB1527-00000000002	Prodigal:2.6	CDS	518277	518456	.	-	0	HIMB1527_01179	HIMB1527	59	OG0001364	NA	NA	NA	NA	NA	HIMB1527_01181
+HIMB1527-00000000002	Prodigal:2.6	CDS	518501	519358	.	+	0	HIMB1527_01180	HIMB1527	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1527_01181
+HIMB1527-00000000002	Prodigal:2.6	CDS	519672	520205	.	-	0	HIMB1527_01181	HIMB1527	177	OG0001307	NA	NA	NA	NA	NA	HIMB1527_01181
+HIMB1527-00000000002	Prodigal:2.6	CDS	520208	522637	.	-	0	HIMB1527_01182	HIMB1527	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1527_01181
+HIMB1527-00000000002	Prodigal:2.6	CDS	522759	523202	.	-	0	HIMB1527_01183	HIMB1527	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1527_01181
+HIMB1527-00000000002	Prodigal:2.6	CDS	523221	523748	.	+	0	HIMB1527_01184	HIMB1527	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1527_01181
+HIMB1527-00000000002	Prodigal:2.6	CDS	523749	524441	.	-	0	HIMB1527_01185	HIMB1527	230	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	HIMB1527_01181
+HIMB1527-00000000002	Prodigal:2.6	CDS	524425	525843	.	-	0	HIMB1527_01186	HIMB1527	472	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	HIMB1527_01181
+HIMB1505-00000000001	Prodigal:2.6	CDS	673942	675405	.	+	0	HIMB1505_00707	HIMB1505	487	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	HIMB1505_00712
+HIMB1505-00000000001	Prodigal:2.6	CDS	675389	676081	.	+	0	HIMB1505_00708	HIMB1505	230	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	HIMB1505_00712
+HIMB1505-00000000001	Prodigal:2.6	CDS	676082	676609	.	-	0	HIMB1505_00709	HIMB1505	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1505_00712
+HIMB1505-00000000001	Prodigal:2.6	CDS	676628	677071	.	+	0	HIMB1505_00710	HIMB1505	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1505_00712
+HIMB1505-00000000001	Prodigal:2.6	CDS	677193	679622	.	+	0	HIMB1505_00711	HIMB1505	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1505_00712
+HIMB1505-00000000001	Prodigal:2.6	CDS	679625	680158	.	+	0	HIMB1505_00712	HIMB1505	177	OG0001307	NA	NA	NA	NA	NA	HIMB1505_00712
+HIMB1505-00000000001	Prodigal:2.6	CDS	680472	681329	.	-	0	HIMB1505_00713	HIMB1505	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1505_00712
+HIMB1505-00000000001	Prodigal:2.6	CDS	681374	681553	.	+	0	HIMB1505_00714	HIMB1505	59	OG0001364	NA	NA	NA	NA	NA	HIMB1505_00712
+HIMB1505-00000000001	Prodigal:2.6	CDS	681563	682429	.	+	0	HIMB1505_00715	HIMB1505	288	OG0000022	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1505_00712
+HIMB1505-00000000001	Prodigal:2.6	CDS	682431	683495	.	-	0	HIMB1505_00716	HIMB1505	354	OG0001229	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB1505_00712
+HIMB1505-00000000001	Prodigal:2.6	CDS	683521	684438	.	-	0	HIMB1505_00717	HIMB1505	305	OG0001924	NA	NA	COG2307	Alpha-E	Uncharacterized conserved protein, Alpha-E superfamily	HIMB1505_00712
+HIMB1549-00000000001	Prodigal:2.6	CDS	244620	246038	.	+	0	HIMB1549_00258	HIMB1549	472	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	HIMB1549_00263
+HIMB1549-00000000001	Prodigal:2.6	CDS	246022	246714	.	+	0	HIMB1549_00259	HIMB1549	230	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	HIMB1549_00263
+HIMB1549-00000000001	Prodigal:2.6	CDS	246715	247242	.	-	0	HIMB1549_00260	HIMB1549	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1549_00263
+HIMB1549-00000000001	Prodigal:2.6	CDS	247261	247704	.	+	0	HIMB1549_00261	HIMB1549	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1549_00263
+HIMB1549-00000000001	Prodigal:2.6	CDS	247826	250255	.	+	0	HIMB1549_00262	HIMB1549	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1549_00263
+HIMB1549-00000000001	Prodigal:2.6	CDS	250258	250791	.	+	0	HIMB1549_00263	HIMB1549	177	OG0001307	NA	NA	NA	NA	NA	HIMB1549_00263
+HIMB1549-00000000001	Prodigal:2.6	CDS	251106	251963	.	-	0	HIMB1549_00264	HIMB1549	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1549_00263
+HIMB1549-00000000001	Prodigal:2.6	CDS	252008	252187	.	+	0	HIMB1549_00265	HIMB1549	59	OG0001364	NA	NA	NA	NA	NA	HIMB1549_00263
+HIMB1549-00000000001	Prodigal:2.6	CDS	252197	253063	.	+	0	HIMB1549_00266	HIMB1549	288	OG0000022	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1549_00263
+HIMB1549-00000000001	Prodigal:2.6	CDS	253065	254129	.	-	0	HIMB1549_00267	HIMB1549	354	OG0001229	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB1549_00263
+HIMB1549-00000000001	Prodigal:2.6	CDS	254155	255072	.	-	0	HIMB1549_00268	HIMB1549	305	OG0001924	NA	NA	COG2307	Alpha-E	Uncharacterized conserved protein, Alpha-E superfamily	HIMB1549_00263
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	966424	967341	.	+	0	HIMB4_01052	HIMB4	305	OG0001924	NA	NA	COG2307	Alpha-E	Uncharacterized conserved protein, Alpha-E superfamily	HIMB4_01057
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	967367	968431	.	+	0	HIMB4_01053	HIMB4	354	OG0001229	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB4_01057
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	968433	969299	.	-	0	HIMB4_01054	HIMB4	288	OG0000022	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB4_01057
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	969309	969488	.	-	0	HIMB4_01055	HIMB4	59	OG0001364	NA	NA	NA	NA	NA	HIMB4_01057
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	969533	970390	.	+	0	HIMB4_01056	HIMB4	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB4_01057
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	970704	971237	.	-	0	HIMB4_01057	HIMB4	177	OG0001307	NA	NA	NA	NA	NA	HIMB4_01057
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	971240	973669	.	-	0	HIMB4_01058	HIMB4	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB4_01057
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	973791	974234	.	-	0	HIMB4_01059	HIMB4	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB4_01057
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	974253	974780	.	+	0	HIMB4_01060	HIMB4	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB4_01057
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	974781	975473	.	-	0	HIMB4_01061	HIMB4	230	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	HIMB4_01057
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	975457	976920	.	-	0	HIMB4_01062	HIMB4	487	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	HIMB4_01057
+KI421440.1	Prodigal:2.6	CDS	801265	802890	.	-	0	HTCC8051_00874	HTCC8051	541	OG0001843	K03321	sulfate permease, SulP family	COG0659	SUL1	Sulfate permease or related transporter, MFS superfamily, contains STAS domain	HTCC8051_00879
+KI421440.1	Prodigal:2.6	CDS	802922	803467	.	-	0	HTCC8051_00875	HTCC8051	181	OG0000982	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	HTCC8051_00879
+KI421440.1	Prodigal:2.6	CDS	803501	804013	.	-	0	HTCC8051_00876	HTCC8051	170	OG0001081	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HTCC8051_00879
+KI421440.1	Prodigal:2.6	CDS	804108	804773	.	+	0	HTCC8051_00877	HTCC8051	221	OG0000003	K02003	putative ABC transport system ATP-binding protein	COG1136	LolD	ABC-type lipoprotein targeting system ATPase component LolD	HTCC8051_00879
+KI421440.1	Prodigal:2.6	CDS	804757	807294	.	+	0	HTCC8051_00878	HTCC8051	845	OG0001096	K01992	ABC-2 type transport system permease protein	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	HTCC8051_00879
+KI421440.1	Prodigal:2.6	CDS	807281	807805	.	-	0	HTCC8051_00879	HTCC8051	174	OG0001307	NA	NA	NA	NA	NA	HTCC8051_00879
+KI421440.1	Prodigal:2.6	CDS	807835	808239	.	-	0	HTCC8051_00880	HTCC8051	134	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC8051_00879
+KI421440.1	Prodigal:2.6	CDS	808297	808824	.	+	0	HTCC8051_00881	HTCC8051	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC8051_00879
+KI421440.1	Prodigal:2.6	CDS	808825	809535	.	-	0	HTCC8051_00882	HTCC8051	236	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC8051_00879
+KI421440.1	Prodigal:2.6	CDS	809549	810751	.	-	0	HTCC8051_00883	HTCC8051	400	OG0001147	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HTCC8051_00879
+KI421440.1	Prodigal:2.6	CDS	810780	811217	.	-	0	HTCC8051_00884	HTCC8051	145	OG0000854	NA	NA	NA	NA	NA	HTCC8051_00879
+KI421433.1	Prodigal:2.6	CDS	706254	707879	.	-	0	HTCC9022_01336	HTCC9022	541	OG0001843	K03321	sulfate permease, SulP family	COG0659	SUL1	Sulfate permease or related transporter, MFS superfamily, contains STAS domain	HTCC9022_01341
+KI421433.1	Prodigal:2.6	CDS	707910	708455	.	-	0	HTCC9022_01337	HTCC9022	181	OG0000982	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	HTCC9022_01341
+KI421433.1	Prodigal:2.6	CDS	708490	709002	.	-	0	HTCC9022_01338	HTCC9022	170	OG0001081	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HTCC9022_01341
+KI421433.1	Prodigal:2.6	CDS	709097	709762	.	+	0	HTCC9022_01339	HTCC9022	221	OG0000003	K02003	putative ABC transport system ATP-binding protein	COG1136	LolD	ABC-type lipoprotein targeting system ATPase component LolD	HTCC9022_01341
+KI421433.1	Prodigal:2.6	CDS	709746	712283	.	+	0	HTCC9022_01340	HTCC9022	845	OG0001096	NA	NA	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	HTCC9022_01341
+KI421433.1	Prodigal:2.6	CDS	712270	712794	.	-	0	HTCC9022_01341	HTCC9022	174	OG0001307	NA	NA	NA	NA	NA	HTCC9022_01341
+KI421433.1	Prodigal:2.6	CDS	712823	713290	.	-	0	HTCC9022_01342	HTCC9022	155	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC9022_01341
+KI421433.1	Prodigal:2.6	CDS	713363	713812	.	+	0	HTCC9022_01343	HTCC9022	149	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC9022_01341
+KI421433.1	Prodigal:2.6	CDS	713813	714523	.	-	0	HTCC9022_01344	HTCC9022	236	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC9022_01341
+KI421433.1	Prodigal:2.6	CDS	714580	715896	.	+	0	HTCC9022_01345	HTCC9022	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HTCC9022_01341
+KI421433.1	Prodigal:2.6	CDS	715876	717066	.	-	0	HTCC9022_01346	HTCC9022	396	OG0001147	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HTCC9022_01341
+HIMB1456-00000000001	Prodigal:2.6	CDS	169729	170412	.	-	0	HIMB1456_00171	HIMB1456	227	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1456_00175
+HIMB1456-00000000001	Prodigal:2.6	CDS	169729	170412	.	-	0	HIMB1456_00171	HIMB1456	227	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1456_00175
+HIMB1456-00000000001	Prodigal:2.6	CDS	170435	170872	.	+	0	HIMB1456_00172	HIMB1456	145	OG0000854	NA	NA	NA	NA	NA	HIMB1456_00175
+HIMB1456-00000000001	Prodigal:2.6	CDS	170875	171357	.	-	0	HIMB1456_00173	HIMB1456	160	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1456_00175
+HIMB1456-00000000001	Prodigal:2.6	CDS	171397	171864	.	+	0	HIMB1456_00174	HIMB1456	155	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1456_00175
+HIMB1456-00000000001	Prodigal:2.6	CDS	171881	172408	.	+	0	HIMB1456_00175	HIMB1456	175	OG0001307	NA	NA	NA	NA	NA	HIMB1456_00175
+HIMB1456-00000000001	Prodigal:2.6	CDS	172693	173550	.	-	0	HIMB1456_00176	HIMB1456	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1456_00175
+HIMB1456-00000000001	Prodigal:2.6	CDS	173565	174431	.	-	0	HIMB1456_00177	HIMB1456	288	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1456_00175
+HIMB1456-00000000001	Prodigal:2.6	CDS	174444	175985	.	-	0	HIMB1456_00178	HIMB1456	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1456_00175
+HIMB1456-00000000001	Prodigal:2.6	CDS	175996	177780	.	+	0	HIMB1456_00179	HIMB1456	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1456_00175
+HIMB1456-00000000001	Prodigal:2.6	CDS	177782	178750	.	+	0	HIMB1456_00180	HIMB1456	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1456_00175
+HIMB123-00000000025	Prodigal:2.6	CDS	303	770	.	+	0	HIMB123_01144	HIMB123	155	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB123_01145
+HIMB123-00000000025	Prodigal:2.6	CDS	784	1311	.	+	0	HIMB123_01145	HIMB123	175	OG0001307	NA	NA	NA	NA	NA	HIMB123_01145
+HIMB123-00000000025	Prodigal:2.6	CDS	1602	2459	.	-	0	HIMB123_01146	HIMB123	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB123_01145
+HIMB123-00000000025	Prodigal:2.6	CDS	2474	3340	.	-	0	HIMB123_01147	HIMB123	288	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB123_01145
+HIMB123-00000000025	Prodigal:2.6	CDS	3353	4894	.	-	0	HIMB123_01148	HIMB123	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB123_01145
+HIMB123-00000000025	Prodigal:2.6	CDS	4905	6689	.	+	0	HIMB123_01149	HIMB123	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB123_01145
+HIMB123-00000000025	Prodigal:2.6	CDS	6691	7659	.	+	0	HIMB123_01150	HIMB123	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB123_01145
+HIMB2304-00000000197	Prodigal:2.6	CDS	156	623	.	+	0	HIMB2304_00709	HIMB2304	155	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB2304_00710
+HIMB2304-00000000197	Prodigal:2.6	CDS	639	1166	.	+	0	HIMB2304_00710	HIMB2304	175	OG0001307	NA	NA	NA	NA	NA	HIMB2304_00710
+HIMB2250-00000000001	Prodigal:2.6	CDS	362610	363293	.	-	0	HIMB2250_00369	HIMB2250	227	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB2250_00373
+HIMB2250-00000000001	Prodigal:2.6	CDS	362610	363293	.	-	0	HIMB2250_00369	HIMB2250	227	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB2250_00373
+HIMB2250-00000000001	Prodigal:2.6	CDS	363316	363753	.	+	0	HIMB2250_00370	HIMB2250	145	OG0000854	NA	NA	NA	NA	NA	HIMB2250_00373
+HIMB2250-00000000001	Prodigal:2.6	CDS	363756	364238	.	-	0	HIMB2250_00371	HIMB2250	160	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB2250_00373
+HIMB2250-00000000001	Prodigal:2.6	CDS	364278	364745	.	+	0	HIMB2250_00372	HIMB2250	155	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB2250_00373
+HIMB2250-00000000001	Prodigal:2.6	CDS	364759	365286	.	+	0	HIMB2250_00373	HIMB2250	175	OG0001307	NA	NA	NA	NA	NA	HIMB2250_00373
+HIMB2250-00000000001	Prodigal:2.6	CDS	365572	366429	.	-	0	HIMB2250_00374	HIMB2250	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB2250_00373
+HIMB2250-00000000001	Prodigal:2.6	CDS	366444	367307	.	-	0	HIMB2250_00375	HIMB2250	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB2250_00373
+HIMB2250-00000000001	Prodigal:2.6	CDS	367320	368861	.	-	0	HIMB2250_00376	HIMB2250	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB2250_00373
+HIMB2250-00000000001	Prodigal:2.6	CDS	368872	370656	.	+	0	HIMB2250_00377	HIMB2250	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB2250_00373
+HIMB2250-00000000001	Prodigal:2.6	CDS	370658	371626	.	+	0	HIMB2250_00378	HIMB2250	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB2250_00373
+CP031125.1	Prodigal:2.6	CDS	79369	80337	.	-	0	FZCC0015_00090	FZCC0015	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	FZCC0015_00095
+CP031125.1	Prodigal:2.6	CDS	80339	82123	.	-	0	FZCC0015_00091	FZCC0015	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	FZCC0015_00095
+CP031125.1	Prodigal:2.6	CDS	82170	83675	.	+	0	FZCC0015_00092	FZCC0015	501	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	FZCC0015_00095
+CP031125.1	Prodigal:2.6	CDS	83688	84554	.	+	0	FZCC0015_00093	FZCC0015	288	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	FZCC0015_00095
+CP031125.1	Prodigal:2.6	CDS	84569	85426	.	+	0	FZCC0015_00094	FZCC0015	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	FZCC0015_00095
+CP031125.1	Prodigal:2.6	CDS	85716	86243	.	-	0	FZCC0015_00095	FZCC0015	175	OG0001307	NA	NA	NA	NA	NA	FZCC0015_00095
+CP031125.1	Prodigal:2.6	CDS	86257	86724	.	-	0	FZCC0015_00096	FZCC0015	155	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	FZCC0015_00095
+CP031125.1	Prodigal:2.6	CDS	86764	87246	.	+	0	FZCC0015_00097	FZCC0015	160	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	FZCC0015_00095
+CP031125.1	Prodigal:2.6	CDS	87263	88579	.	+	0	FZCC0015_00098	FZCC0015	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	FZCC0015_00095
+CP031125.1	Prodigal:2.6	CDS	88566	89006	.	-	0	FZCC0015_00099	FZCC0015	146	OG0000854	NA	NA	NA	NA	NA	FZCC0015_00095
+CP031125.1	Prodigal:2.6	CDS	89006	89440	.	-	0	FZCC0015_00100	FZCC0015	144	OG0001280	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	FZCC0015_00095
+AZAL01000001.1	Prodigal:2.6	CDS	385612	386580	.	-	0	HIMB083_00441	HIMB083	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB083_00446
+AZAL01000001.1	Prodigal:2.6	CDS	386582	388366	.	-	0	HIMB083_00442	HIMB083	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB083_00446
+AZAL01000001.1	Prodigal:2.6	CDS	388413	389918	.	+	0	HIMB083_00443	HIMB083	501	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB083_00446
+AZAL01000001.1	Prodigal:2.6	CDS	389930	390799	.	+	0	HIMB083_00444	HIMB083	289	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB083_00446
+AZAL01000001.1	Prodigal:2.6	CDS	390813	391670	.	+	0	HIMB083_00445	HIMB083	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB083_00446
+AZAL01000001.1	Prodigal:2.6	CDS	391959	392480	.	-	0	HIMB083_00446	HIMB083	173	OG0001307	NA	NA	NA	NA	NA	HIMB083_00446
+AZAL01000001.1	Prodigal:2.6	CDS	392489	394918	.	-	0	HIMB083_00447	HIMB083	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB083_00446
+AZAL01000001.1	Prodigal:2.6	CDS	394996	395463	.	-	0	HIMB083_00448	HIMB083	155	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB083_00446
+AZAL01000001.1	Prodigal:2.6	CDS	395503	395985	.	+	0	HIMB083_00449	HIMB083	160	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB083_00446
+AZAL01000001.1	Prodigal:2.6	CDS	396011	397327	.	+	0	HIMB083_00450	HIMB083	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB083_00446
+AZAL01000001.1	Prodigal:2.6	CDS	397314	397751	.	-	0	HIMB083_00451	HIMB083	145	OG0000854	NA	NA	NA	NA	NA	HIMB083_00446
+HIMB1685-00000000001	Prodigal:2.6	CDS	1386640	1387080	.	+	0	HIMB1685_01489	HIMB1685	146	OG0000854	NA	NA	NA	NA	NA	HIMB1685_01494
+HIMB1685-00000000001	Prodigal:2.6	CDS	1387067	1388383	.	-	0	HIMB1685_01490	HIMB1685	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1685_01494
+HIMB1685-00000000001	Prodigal:2.6	CDS	1388400	1388927	.	-	0	HIMB1685_01491	HIMB1685	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1685_01494
+HIMB1685-00000000001	Prodigal:2.6	CDS	1388982	1389389	.	+	0	HIMB1685_01492	HIMB1685	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1685_01494
+HIMB1685-00000000001	Prodigal:2.6	CDS	1389467	1391896	.	+	0	HIMB1685_01493	HIMB1685	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1685_01494
+HIMB1685-00000000001	Prodigal:2.6	CDS	1391905	1392426	.	+	0	HIMB1685_01494	HIMB1685	173	OG0001307	NA	NA	NA	NA	NA	HIMB1685_01494
+HIMB1685-00000000001	Prodigal:2.6	CDS	1392710	1393567	.	-	0	HIMB1685_01495	HIMB1685	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1685_01494
+HIMB1685-00000000001	Prodigal:2.6	CDS	1393581	1394444	.	-	0	HIMB1685_01496	HIMB1685	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1685_01494
+HIMB1685-00000000001	Prodigal:2.6	CDS	1394458	1395963	.	-	0	HIMB1685_01497	HIMB1685	501	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1685_01494
+HIMB1685-00000000001	Prodigal:2.6	CDS	1396011	1397795	.	+	0	HIMB1685_01498	HIMB1685	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1685_01494
+HIMB1685-00000000001	Prodigal:2.6	CDS	1397796	1398764	.	+	0	HIMB1685_01499	HIMB1685	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1685_01494
+HIMB1559-00000000001	Prodigal:2.6	CDS	521663	522631	.	-	0	HIMB1559_00592	HIMB1559	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1559_00597
+HIMB1559-00000000001	Prodigal:2.6	CDS	522632	524416	.	-	0	HIMB1559_00593	HIMB1559	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1559_00597
+HIMB1559-00000000001	Prodigal:2.6	CDS	524427	525968	.	+	0	HIMB1559_00594	HIMB1559	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1559_00597
+HIMB1559-00000000001	Prodigal:2.6	CDS	525982	526845	.	+	0	HIMB1559_00595	HIMB1559	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1559_00597
+HIMB1559-00000000001	Prodigal:2.6	CDS	526859	527716	.	+	0	HIMB1559_00596	HIMB1559	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1559_00597
+HIMB1559-00000000001	Prodigal:2.6	CDS	528001	528522	.	-	0	HIMB1559_00597	HIMB1559	173	OG0001307	NA	NA	NA	NA	NA	HIMB1559_00597
+HIMB1559-00000000001	Prodigal:2.6	CDS	528531	530960	.	-	0	HIMB1559_00598	HIMB1559	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1559_00597
+HIMB1559-00000000001	Prodigal:2.6	CDS	531038	531445	.	-	0	HIMB1559_00599	HIMB1559	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1559_00597
+HIMB1559-00000000001	Prodigal:2.6	CDS	531500	532027	.	+	0	HIMB1559_00600	HIMB1559	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1559_00597
+HIMB1559-00000000001	Prodigal:2.6	CDS	532044	533360	.	+	0	HIMB1559_00601	HIMB1559	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1559_00597
+HIMB1559-00000000001	Prodigal:2.6	CDS	533347	533787	.	-	0	HIMB1559_00602	HIMB1559	146	OG0000854	NA	NA	NA	NA	NA	HIMB1559_00597
+HIMB1597-00000000001	Prodigal:2.6	CDS	1258227	1258664	.	+	0	HIMB1597_01319	HIMB1597	145	OG0000854	NA	NA	NA	NA	NA	HIMB1597_01324
+HIMB1597-00000000001	Prodigal:2.6	CDS	1258651	1259967	.	-	0	HIMB1597_01320	HIMB1597	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1597_01324
+HIMB1597-00000000001	Prodigal:2.6	CDS	1259984	1260511	.	-	0	HIMB1597_01321	HIMB1597	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1597_01324
+HIMB1597-00000000001	Prodigal:2.6	CDS	1260566	1260973	.	+	0	HIMB1597_01322	HIMB1597	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1597_01324
+HIMB1597-00000000001	Prodigal:2.6	CDS	1261051	1263480	.	+	0	HIMB1597_01323	HIMB1597	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1597_01324
+HIMB1597-00000000001	Prodigal:2.6	CDS	1263489	1264010	.	+	0	HIMB1597_01324	HIMB1597	173	OG0001307	NA	NA	NA	NA	NA	HIMB1597_01324
+HIMB1597-00000000001	Prodigal:2.6	CDS	1264295	1265152	.	-	0	HIMB1597_01325	HIMB1597	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1597_01324
+HIMB1597-00000000001	Prodigal:2.6	CDS	1265166	1266029	.	-	0	HIMB1597_01326	HIMB1597	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1597_01324
+HIMB1597-00000000001	Prodigal:2.6	CDS	1266043	1267584	.	-	0	HIMB1597_01327	HIMB1597	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1597_01324
+HIMB1597-00000000001	Prodigal:2.6	CDS	1267661	1269379	.	+	0	HIMB1597_01328	HIMB1597	572	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1597_01324
+HIMB1597-00000000001	Prodigal:2.6	CDS	1269380	1270348	.	+	0	HIMB1597_01329	HIMB1597	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1597_01324
+HIMB1587-00000000001	Prodigal:2.6	CDS	540839	541807	.	-	0	HIMB1587_00616	HIMB1587	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1587_00621
+HIMB1587-00000000001	Prodigal:2.6	CDS	541808	543526	.	-	0	HIMB1587_00617	HIMB1587	572	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1587_00621
+HIMB1587-00000000001	Prodigal:2.6	CDS	543603	545144	.	+	0	HIMB1587_00618	HIMB1587	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1587_00621
+HIMB1587-00000000001	Prodigal:2.6	CDS	545158	546021	.	+	0	HIMB1587_00619	HIMB1587	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1587_00621
+HIMB1587-00000000001	Prodigal:2.6	CDS	546035	546892	.	+	0	HIMB1587_00620	HIMB1587	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1587_00621
+HIMB1587-00000000001	Prodigal:2.6	CDS	547177	547698	.	-	0	HIMB1587_00621	HIMB1587	173	OG0001307	NA	NA	NA	NA	NA	HIMB1587_00621
+HIMB1587-00000000001	Prodigal:2.6	CDS	547707	550136	.	-	0	HIMB1587_00622	HIMB1587	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1587_00621
+HIMB1587-00000000001	Prodigal:2.6	CDS	550215	550622	.	-	0	HIMB1587_00623	HIMB1587	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1587_00621
+HIMB1587-00000000001	Prodigal:2.6	CDS	550677	551204	.	+	0	HIMB1587_00624	HIMB1587	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1587_00621
+HIMB1587-00000000001	Prodigal:2.6	CDS	551221	552537	.	+	0	HIMB1587_00625	HIMB1587	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1587_00621
+HIMB1587-00000000001	Prodigal:2.6	CDS	552524	552964	.	-	0	HIMB1587_00626	HIMB1587	146	OG0000854	NA	NA	NA	NA	NA	HIMB1587_00621
+HIMB1573-00000000001	Prodigal:2.6	CDS	879911	880351	.	+	0	HIMB1573_00932	HIMB1573	146	OG0000854	NA	NA	NA	NA	NA	HIMB1573_00937
+HIMB1573-00000000001	Prodigal:2.6	CDS	880338	881654	.	-	0	HIMB1573_00933	HIMB1573	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1573_00937
+HIMB1573-00000000001	Prodigal:2.6	CDS	881671	882198	.	-	0	HIMB1573_00934	HIMB1573	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1573_00937
+HIMB1573-00000000001	Prodigal:2.6	CDS	882253	882660	.	+	0	HIMB1573_00935	HIMB1573	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1573_00937
+HIMB1573-00000000001	Prodigal:2.6	CDS	882738	885167	.	+	0	HIMB1573_00936	HIMB1573	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1573_00937
+HIMB1573-00000000001	Prodigal:2.6	CDS	885176	885697	.	+	0	HIMB1573_00937	HIMB1573	173	OG0001307	NA	NA	NA	NA	NA	HIMB1573_00937
+HIMB1573-00000000001	Prodigal:2.6	CDS	885982	886839	.	-	0	HIMB1573_00938	HIMB1573	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1573_00937
+HIMB1573-00000000001	Prodigal:2.6	CDS	886853	887716	.	-	0	HIMB1573_00939	HIMB1573	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1573_00937
+HIMB1573-00000000001	Prodigal:2.6	CDS	887730	889235	.	-	0	HIMB1573_00940	HIMB1573	501	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1573_00937
+HIMB1573-00000000001	Prodigal:2.6	CDS	889283	891067	.	+	0	HIMB1573_00941	HIMB1573	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1573_00937
+HIMB1573-00000000001	Prodigal:2.6	CDS	891068	892036	.	+	0	HIMB1573_00942	HIMB1573	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1573_00937
+HIMB1490-00000000011	Prodigal:2.6	CDS	72066	72506	.	+	0	HIMB1490_00813	HIMB1490	146	OG0000854	NA	NA	NA	NA	NA	HIMB1490_00818
+HIMB1490-00000000011	Prodigal:2.6	CDS	72493	73809	.	-	0	HIMB1490_00814	HIMB1490	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1490_00818
+HIMB1490-00000000011	Prodigal:2.6	CDS	73826	74353	.	-	0	HIMB1490_00815	HIMB1490	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1490_00818
+HIMB1490-00000000011	Prodigal:2.6	CDS	74408	74815	.	+	0	HIMB1490_00816	HIMB1490	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1490_00818
+HIMB1490-00000000011	Prodigal:2.6	CDS	74893	77322	.	+	0	HIMB1490_00817	HIMB1490	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1490_00818
+HIMB1490-00000000011	Prodigal:2.6	CDS	77331	77852	.	+	0	HIMB1490_00818	HIMB1490	173	OG0001307	NA	NA	NA	NA	NA	HIMB1490_00818
+HIMB1490-00000000011	Prodigal:2.6	CDS	78137	78994	.	-	0	HIMB1490_00819	HIMB1490	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1490_00818
+HIMB1490-00000000011	Prodigal:2.6	CDS	79008	79871	.	-	0	HIMB1490_00820	HIMB1490	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1490_00818
+HIMB1490-00000000011	Prodigal:2.6	CDS	79885	81426	.	-	0	HIMB1490_00821	HIMB1490	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1490_00818
+HIMB1490-00000000011	Prodigal:2.6	CDS	81437	83221	.	+	0	HIMB1490_00822	HIMB1490	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1490_00818
+HIMB1490-00000000011	Prodigal:2.6	CDS	83222	84190	.	+	0	HIMB1490_00823	HIMB1490	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1490_00818
+HIMB1491-00000000001	Prodigal:2.6	CDS	899000	899440	.	+	0	HIMB1491_00927	HIMB1491	146	OG0000854	NA	NA	NA	NA	NA	HIMB1491_00932
+HIMB1491-00000000001	Prodigal:2.6	CDS	899427	900743	.	-	0	HIMB1491_00928	HIMB1491	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1491_00932
+HIMB1491-00000000001	Prodigal:2.6	CDS	900760	901287	.	-	0	HIMB1491_00929	HIMB1491	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1491_00932
+HIMB1491-00000000001	Prodigal:2.6	CDS	901342	901749	.	+	0	HIMB1491_00930	HIMB1491	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1491_00932
+HIMB1491-00000000001	Prodigal:2.6	CDS	901827	904256	.	+	0	HIMB1491_00931	HIMB1491	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1491_00932
+HIMB1491-00000000001	Prodigal:2.6	CDS	904265	904786	.	+	0	HIMB1491_00932	HIMB1491	173	OG0001307	NA	NA	NA	NA	NA	HIMB1491_00932
+HIMB1491-00000000001	Prodigal:2.6	CDS	905071	905928	.	-	0	HIMB1491_00933	HIMB1491	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1491_00932
+HIMB1491-00000000001	Prodigal:2.6	CDS	905942	906805	.	-	0	HIMB1491_00934	HIMB1491	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1491_00932
+HIMB1491-00000000001	Prodigal:2.6	CDS	906819	908360	.	-	0	HIMB1491_00935	HIMB1491	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1491_00932
+HIMB1491-00000000001	Prodigal:2.6	CDS	908371	910155	.	+	0	HIMB1491_00936	HIMB1491	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1491_00932
+HIMB1491-00000000001	Prodigal:2.6	CDS	910156	911124	.	+	0	HIMB1491_00937	HIMB1491	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1491_00932
+HIMB1765-00000000001	Prodigal:2.6	CDS	531804	532772	.	-	0	HIMB1765_00604	HIMB1765	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1765_00609
+HIMB1765-00000000001	Prodigal:2.6	CDS	532773	534557	.	-	0	HIMB1765_00605	HIMB1765	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1765_00609
+HIMB1765-00000000001	Prodigal:2.6	CDS	534568	536109	.	+	0	HIMB1765_00606	HIMB1765	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1765_00609
+HIMB1765-00000000001	Prodigal:2.6	CDS	536123	536986	.	+	0	HIMB1765_00607	HIMB1765	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1765_00609
+HIMB1765-00000000001	Prodigal:2.6	CDS	537000	537860	.	+	0	HIMB1765_00608	HIMB1765	286	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1765_00609
+HIMB1765-00000000001	Prodigal:2.6	CDS	538141	538662	.	-	0	HIMB1765_00609	HIMB1765	173	OG0001307	NA	NA	NA	NA	NA	HIMB1765_00609
+HIMB1765-00000000001	Prodigal:2.6	CDS	538671	541100	.	-	0	HIMB1765_00610	HIMB1765	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1765_00609
+HIMB1765-00000000001	Prodigal:2.6	CDS	541178	541585	.	-	0	HIMB1765_00611	HIMB1765	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1765_00609
+HIMB1765-00000000001	Prodigal:2.6	CDS	541640	542167	.	+	0	HIMB1765_00612	HIMB1765	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1765_00609
+HIMB1765-00000000001	Prodigal:2.6	CDS	542184	543500	.	+	0	HIMB1765_00613	HIMB1765	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1765_00609
+HIMB1765-00000000001	Prodigal:2.6	CDS	543487	543924	.	-	0	HIMB1765_00614	HIMB1765	145	OG0000854	NA	NA	NA	NA	NA	HIMB1765_00609
+HIMB1494-00000000002	Prodigal:2.6	CDS	197496	198464	.	-	0	HIMB1494_01324	HIMB1494	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1494_01329
+HIMB1494-00000000002	Prodigal:2.6	CDS	198465	200249	.	-	0	HIMB1494_01325	HIMB1494	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1494_01329
+HIMB1494-00000000002	Prodigal:2.6	CDS	200260	201801	.	+	0	HIMB1494_01326	HIMB1494	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1494_01329
+HIMB1494-00000000002	Prodigal:2.6	CDS	201815	202678	.	+	0	HIMB1494_01327	HIMB1494	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1494_01329
+HIMB1494-00000000002	Prodigal:2.6	CDS	202692	203549	.	+	0	HIMB1494_01328	HIMB1494	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1494_01329
+HIMB1494-00000000002	Prodigal:2.6	CDS	203834	204355	.	-	0	HIMB1494_01329	HIMB1494	173	OG0001307	NA	NA	NA	NA	NA	HIMB1494_01329
+HIMB1494-00000000002	Prodigal:2.6	CDS	204364	206793	.	-	0	HIMB1494_01330	HIMB1494	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1494_01329
+HIMB1494-00000000002	Prodigal:2.6	CDS	206872	207279	.	-	0	HIMB1494_01331	HIMB1494	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1494_01329
+HIMB1494-00000000002	Prodigal:2.6	CDS	207334	207861	.	+	0	HIMB1494_01332	HIMB1494	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1494_01329
+HIMB1494-00000000002	Prodigal:2.6	CDS	207878	209194	.	+	0	HIMB1494_01333	HIMB1494	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1494_01329
+HIMB1494-00000000002	Prodigal:2.6	CDS	209181	209618	.	-	0	HIMB1494_01334	HIMB1494	145	OG0000854	NA	NA	NA	NA	NA	HIMB1494_01329
+HIMB1495-00000000001	Prodigal:2.6	CDS	1192081	1193049	.	-	0	HIMB1495_01302	HIMB1495	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1495_01307
+HIMB1495-00000000001	Prodigal:2.6	CDS	1193050	1194834	.	-	0	HIMB1495_01303	HIMB1495	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1495_01307
+HIMB1495-00000000001	Prodigal:2.6	CDS	1194845	1196386	.	+	0	HIMB1495_01304	HIMB1495	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1495_01307
+HIMB1495-00000000001	Prodigal:2.6	CDS	1196400	1197263	.	+	0	HIMB1495_01305	HIMB1495	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1495_01307
+HIMB1495-00000000001	Prodigal:2.6	CDS	1197277	1198134	.	+	0	HIMB1495_01306	HIMB1495	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1495_01307
+HIMB1495-00000000001	Prodigal:2.6	CDS	1198419	1198940	.	-	0	HIMB1495_01307	HIMB1495	173	OG0001307	NA	NA	NA	NA	NA	HIMB1495_01307
+HIMB1495-00000000001	Prodigal:2.6	CDS	1198949	1201378	.	-	0	HIMB1495_01308	HIMB1495	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1495_01307
+HIMB1495-00000000001	Prodigal:2.6	CDS	1201457	1201864	.	-	0	HIMB1495_01309	HIMB1495	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1495_01307
+HIMB1495-00000000001	Prodigal:2.6	CDS	1201919	1202446	.	+	0	HIMB1495_01310	HIMB1495	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1495_01307
+HIMB1495-00000000001	Prodigal:2.6	CDS	1202463	1203779	.	+	0	HIMB1495_01311	HIMB1495	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1495_01307
+HIMB1495-00000000001	Prodigal:2.6	CDS	1203766	1204203	.	-	0	HIMB1495_01312	HIMB1495	145	OG0000854	NA	NA	NA	NA	NA	HIMB1495_01307
+HIMB1593-00000000001	Prodigal:2.6	CDS	1179753	1180721	.	-	0	HIMB1593_01263	HIMB1593	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1593_01268
+HIMB1593-00000000001	Prodigal:2.6	CDS	1180722	1182440	.	-	0	HIMB1593_01264	HIMB1593	572	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1593_01268
+HIMB1593-00000000001	Prodigal:2.6	CDS	1182517	1184058	.	+	0	HIMB1593_01265	HIMB1593	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1593_01268
+HIMB1593-00000000001	Prodigal:2.6	CDS	1184072	1184935	.	+	0	HIMB1593_01266	HIMB1593	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1593_01268
+HIMB1593-00000000001	Prodigal:2.6	CDS	1184949	1185806	.	+	0	HIMB1593_01267	HIMB1593	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1593_01268
+HIMB1593-00000000001	Prodigal:2.6	CDS	1186091	1186612	.	-	0	HIMB1593_01268	HIMB1593	173	OG0001307	NA	NA	NA	NA	NA	HIMB1593_01268
+HIMB1593-00000000001	Prodigal:2.6	CDS	1186621	1189050	.	-	0	HIMB1593_01269	HIMB1593	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1593_01268
+HIMB1593-00000000001	Prodigal:2.6	CDS	1189148	1189555	.	-	0	HIMB1593_01270	HIMB1593	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1593_01268
+HIMB1593-00000000001	Prodigal:2.6	CDS	1189610	1190137	.	+	0	HIMB1593_01271	HIMB1593	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1593_01268
+HIMB1593-00000000001	Prodigal:2.6	CDS	1190154	1191470	.	+	0	HIMB1593_01272	HIMB1593	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1593_01268
+HIMB1593-00000000001	Prodigal:2.6	CDS	1191457	1191897	.	-	0	HIMB1593_01273	HIMB1593	146	OG0000854	NA	NA	NA	NA	NA	HIMB1593_01268
+HIMB1509-00000000001	Prodigal:2.6	CDS	1181869	1182837	.	-	0	HIMB1509_01291	HIMB1509	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1509_01296
+HIMB1509-00000000001	Prodigal:2.6	CDS	1182838	1184622	.	-	0	HIMB1509_01292	HIMB1509	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1509_01296
+HIMB1509-00000000001	Prodigal:2.6	CDS	1184670	1186175	.	+	0	HIMB1509_01293	HIMB1509	501	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1509_01296
+HIMB1509-00000000001	Prodigal:2.6	CDS	1186189	1187058	.	+	0	HIMB1509_01294	HIMB1509	289	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1509_01296
+HIMB1509-00000000001	Prodigal:2.6	CDS	1187069	1187926	.	+	0	HIMB1509_01295	HIMB1509	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1509_01296
+HIMB1509-00000000001	Prodigal:2.6	CDS	1188210	1188731	.	-	0	HIMB1509_01296	HIMB1509	173	OG0001307	NA	NA	NA	NA	NA	HIMB1509_01296
+HIMB1509-00000000001	Prodigal:2.6	CDS	1188740	1191169	.	-	0	HIMB1509_01297	HIMB1509	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1509_01296
+HIMB1509-00000000001	Prodigal:2.6	CDS	1191247	1191654	.	-	0	HIMB1509_01298	HIMB1509	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1509_01296
+HIMB1509-00000000001	Prodigal:2.6	CDS	1191709	1192236	.	+	0	HIMB1509_01299	HIMB1509	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1509_01296
+HIMB1509-00000000001	Prodigal:2.6	CDS	1192253	1193569	.	+	0	HIMB1509_01300	HIMB1509	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1509_01296
+HIMB1509-00000000001	Prodigal:2.6	CDS	1193556	1193996	.	-	0	HIMB1509_01301	HIMB1509	146	OG0000854	NA	NA	NA	NA	NA	HIMB1509_01296
+HIMB1485-00000000002	Prodigal:2.6	CDS	199487	200455	.	-	0	HIMB1485_00717	HIMB1485	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1485_00722
+HIMB1485-00000000002	Prodigal:2.6	CDS	200456	202240	.	-	0	HIMB1485_00718	HIMB1485	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1485_00722
+HIMB1485-00000000002	Prodigal:2.6	CDS	202251	203792	.	+	0	HIMB1485_00719	HIMB1485	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1485_00722
+HIMB1485-00000000002	Prodigal:2.6	CDS	203806	204669	.	+	0	HIMB1485_00720	HIMB1485	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1485_00722
+HIMB1485-00000000002	Prodigal:2.6	CDS	204683	205540	.	+	0	HIMB1485_00721	HIMB1485	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1485_00722
+HIMB1485-00000000002	Prodigal:2.6	CDS	205825	206346	.	-	0	HIMB1485_00722	HIMB1485	173	OG0001307	NA	NA	NA	NA	NA	HIMB1485_00722
+HIMB1485-00000000002	Prodigal:2.6	CDS	206355	208784	.	-	0	HIMB1485_00723	HIMB1485	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1485_00722
+HIMB1485-00000000002	Prodigal:2.6	CDS	208862	209269	.	-	0	HIMB1485_00724	HIMB1485	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1485_00722
+HIMB1485-00000000002	Prodigal:2.6	CDS	209324	209851	.	+	0	HIMB1485_00725	HIMB1485	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1485_00722
+HIMB1485-00000000002	Prodigal:2.6	CDS	209868	211184	.	+	0	HIMB1485_00726	HIMB1485	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1485_00722
+HIMB1485-00000000002	Prodigal:2.6	CDS	211171	211608	.	-	0	HIMB1485_00727	HIMB1485	145	OG0000854	NA	NA	NA	NA	NA	HIMB1485_00722
+HIMB1492-00000000023	Prodigal:2.6	CDS	680	1648	.	-	0	HIMB1492_00438	HIMB1492	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1492_00443
+HIMB1492-00000000023	Prodigal:2.6	CDS	1649	3433	.	-	0	HIMB1492_00439	HIMB1492	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1492_00443
+HIMB1492-00000000023	Prodigal:2.6	CDS	3444	4985	.	+	0	HIMB1492_00440	HIMB1492	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1492_00443
+HIMB1492-00000000023	Prodigal:2.6	CDS	4999	5862	.	+	0	HIMB1492_00441	HIMB1492	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1492_00443
+HIMB1492-00000000023	Prodigal:2.6	CDS	5876	6733	.	+	0	HIMB1492_00442	HIMB1492	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1492_00443
+HIMB1492-00000000023	Prodigal:2.6	CDS	7018	7539	.	-	0	HIMB1492_00443	HIMB1492	173	OG0001307	NA	NA	NA	NA	NA	HIMB1492_00443
+HIMB1492-00000000023	Prodigal:2.6	CDS	7548	9977	.	-	0	HIMB1492_00444	HIMB1492	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1492_00443
+HIMB1492-00000000023	Prodigal:2.6	CDS	10055	10522	.	-	0	HIMB1492_00445	HIMB1492	155	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1492_00443
+HIMB1493-00000000001	Prodigal:2.6	CDS	214871	215308	.	+	0	HIMB1493_00227	HIMB1493	145	OG0000854	NA	NA	NA	NA	NA	HIMB1493_00232
+HIMB1493-00000000001	Prodigal:2.6	CDS	215295	216611	.	-	0	HIMB1493_00228	HIMB1493	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1493_00232
+HIMB1493-00000000001	Prodigal:2.6	CDS	216628	217155	.	-	0	HIMB1493_00229	HIMB1493	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1493_00232
+HIMB1493-00000000001	Prodigal:2.6	CDS	217210	217617	.	+	0	HIMB1493_00230	HIMB1493	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1493_00232
+HIMB1493-00000000001	Prodigal:2.6	CDS	217695	220124	.	+	0	HIMB1493_00231	HIMB1493	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1493_00232
+HIMB1493-00000000001	Prodigal:2.6	CDS	220133	220654	.	+	0	HIMB1493_00232	HIMB1493	173	OG0001307	NA	NA	NA	NA	NA	HIMB1493_00232
+HIMB1493-00000000001	Prodigal:2.6	CDS	220939	221796	.	-	0	HIMB1493_00233	HIMB1493	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1493_00232
+HIMB1493-00000000001	Prodigal:2.6	CDS	221810	222673	.	-	0	HIMB1493_00234	HIMB1493	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1493_00232
+HIMB1493-00000000001	Prodigal:2.6	CDS	222687	224228	.	-	0	HIMB1493_00235	HIMB1493	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1493_00232
+HIMB1493-00000000001	Prodigal:2.6	CDS	224239	226023	.	+	0	HIMB1493_00236	HIMB1493	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1493_00232
+HIMB1493-00000000001	Prodigal:2.6	CDS	226024	226992	.	+	0	HIMB1493_00237	HIMB1493	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1493_00232
+HIMB1518-00000000001	Prodigal:2.6	CDS	370322	370759	.	+	0	HIMB1518_00382	HIMB1518	145	OG0000854	NA	NA	NA	NA	NA	HIMB1518_00387
+HIMB1518-00000000001	Prodigal:2.6	CDS	370746	372062	.	-	0	HIMB1518_00383	HIMB1518	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1518_00387
+HIMB1518-00000000001	Prodigal:2.6	CDS	372079	372606	.	-	0	HIMB1518_00384	HIMB1518	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1518_00387
+HIMB1518-00000000001	Prodigal:2.6	CDS	372661	373068	.	+	0	HIMB1518_00385	HIMB1518	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1518_00387
+HIMB1518-00000000001	Prodigal:2.6	CDS	373146	375575	.	+	0	HIMB1518_00386	HIMB1518	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1518_00387
+HIMB1518-00000000001	Prodigal:2.6	CDS	375584	376105	.	+	0	HIMB1518_00387	HIMB1518	173	OG0001307	NA	NA	NA	NA	NA	HIMB1518_00387
+HIMB1518-00000000001	Prodigal:2.6	CDS	376390	377247	.	-	0	HIMB1518_00388	HIMB1518	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1518_00387
+HIMB1518-00000000001	Prodigal:2.6	CDS	377261	378124	.	-	0	HIMB1518_00389	HIMB1518	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1518_00387
+HIMB1518-00000000001	Prodigal:2.6	CDS	378138	379679	.	-	0	HIMB1518_00390	HIMB1518	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1518_00387
+HIMB1518-00000000001	Prodigal:2.6	CDS	379690	381474	.	+	0	HIMB1518_00391	HIMB1518	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1518_00387
+HIMB1518-00000000001	Prodigal:2.6	CDS	381475	382443	.	+	0	HIMB1518_00392	HIMB1518	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1518_00387
+HIMB1770-00000000001	Prodigal:2.6	CDS	1297293	1297730	.	+	0	HIMB1770_01383	HIMB1770	145	OG0000854	NA	NA	NA	NA	NA	HIMB1770_01388
+HIMB1770-00000000001	Prodigal:2.6	CDS	1297717	1299033	.	-	0	HIMB1770_01384	HIMB1770	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1770_01388
+HIMB1770-00000000001	Prodigal:2.6	CDS	1299050	1299577	.	-	0	HIMB1770_01385	HIMB1770	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1770_01388
+HIMB1770-00000000001	Prodigal:2.6	CDS	1299632	1300039	.	+	0	HIMB1770_01386	HIMB1770	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1770_01388
+HIMB1770-00000000001	Prodigal:2.6	CDS	1300117	1302546	.	+	0	HIMB1770_01387	HIMB1770	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1770_01388
+HIMB1770-00000000001	Prodigal:2.6	CDS	1302555	1303076	.	+	0	HIMB1770_01388	HIMB1770	173	OG0001307	NA	NA	NA	NA	NA	HIMB1770_01388
+HIMB1770-00000000001	Prodigal:2.6	CDS	1303361	1304218	.	-	0	HIMB1770_01389	HIMB1770	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1770_01388
+HIMB1770-00000000001	Prodigal:2.6	CDS	1304232	1305095	.	-	0	HIMB1770_01390	HIMB1770	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1770_01388
+HIMB1770-00000000001	Prodigal:2.6	CDS	1305109	1306650	.	-	0	HIMB1770_01391	HIMB1770	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1770_01388
+HIMB1770-00000000001	Prodigal:2.6	CDS	1306661	1308445	.	+	0	HIMB1770_01392	HIMB1770	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1770_01388
+HIMB1770-00000000001	Prodigal:2.6	CDS	1308446	1309414	.	+	0	HIMB1770_01393	HIMB1770	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1770_01388
+HIMB1507-00000000001	Prodigal:2.6	CDS	924828	925265	.	+	0	HIMB1507_00947	HIMB1507	145	OG0000854	NA	NA	NA	NA	NA	HIMB1507_00952
+HIMB1507-00000000001	Prodigal:2.6	CDS	925252	926568	.	-	0	HIMB1507_00948	HIMB1507	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1507_00952
+HIMB1507-00000000001	Prodigal:2.6	CDS	926585	927112	.	-	0	HIMB1507_00949	HIMB1507	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1507_00952
+HIMB1507-00000000001	Prodigal:2.6	CDS	927167	927574	.	+	0	HIMB1507_00950	HIMB1507	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1507_00952
+HIMB1507-00000000001	Prodigal:2.6	CDS	927652	930081	.	+	0	HIMB1507_00951	HIMB1507	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1507_00952
+HIMB1507-00000000001	Prodigal:2.6	CDS	930090	930611	.	+	0	HIMB1507_00952	HIMB1507	173	OG0001307	NA	NA	NA	NA	NA	HIMB1507_00952
+HIMB1507-00000000001	Prodigal:2.6	CDS	930895	931752	.	-	0	HIMB1507_00953	HIMB1507	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1507_00952
+HIMB1507-00000000001	Prodigal:2.6	CDS	931766	932629	.	-	0	HIMB1507_00954	HIMB1507	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1507_00952
+HIMB1507-00000000001	Prodigal:2.6	CDS	932643	934184	.	-	0	HIMB1507_00955	HIMB1507	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1507_00952
+HIMB1507-00000000001	Prodigal:2.6	CDS	934195	935979	.	+	0	HIMB1507_00956	HIMB1507	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1507_00952
+HIMB1507-00000000001	Prodigal:2.6	CDS	935980	936948	.	+	0	HIMB1507_00957	HIMB1507	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1507_00952
+HIMB1526-00000000001	Prodigal:2.6	CDS	1031961	1032929	.	-	0	HIMB1526_01115	HIMB1526	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1526_01120
+HIMB1526-00000000001	Prodigal:2.6	CDS	1032930	1034714	.	-	0	HIMB1526_01116	HIMB1526	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1526_01120
+HIMB1526-00000000001	Prodigal:2.6	CDS	1034725	1036266	.	+	0	HIMB1526_01117	HIMB1526	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1526_01120
+HIMB1526-00000000001	Prodigal:2.6	CDS	1036280	1037143	.	+	0	HIMB1526_01118	HIMB1526	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1526_01120
+HIMB1526-00000000001	Prodigal:2.6	CDS	1037157	1038014	.	+	0	HIMB1526_01119	HIMB1526	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1526_01120
+HIMB1526-00000000001	Prodigal:2.6	CDS	1038299	1038820	.	-	0	HIMB1526_01120	HIMB1526	173	OG0001307	NA	NA	NA	NA	NA	HIMB1526_01120
+HIMB1526-00000000001	Prodigal:2.6	CDS	1038829	1041258	.	-	0	HIMB1526_01121	HIMB1526	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1526_01120
+HIMB1526-00000000001	Prodigal:2.6	CDS	1041336	1041743	.	-	0	HIMB1526_01122	HIMB1526	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1526_01120
+HIMB1526-00000000001	Prodigal:2.6	CDS	1041798	1042325	.	+	0	HIMB1526_01123	HIMB1526	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1526_01120
+HIMB1526-00000000001	Prodigal:2.6	CDS	1042342	1043658	.	+	0	HIMB1526_01124	HIMB1526	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1526_01120
+HIMB1526-00000000001	Prodigal:2.6	CDS	1043645	1044082	.	-	0	HIMB1526_01125	HIMB1526	145	OG0000854	NA	NA	NA	NA	NA	HIMB1526_01120
+HIMB1552-00000000001	Prodigal:2.6	CDS	582324	583292	.	-	0	HIMB1552_00651	HIMB1552	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1552_00656
+HIMB1552-00000000001	Prodigal:2.6	CDS	583293	585077	.	-	0	HIMB1552_00652	HIMB1552	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1552_00656
+HIMB1552-00000000001	Prodigal:2.6	CDS	585088	586629	.	+	0	HIMB1552_00653	HIMB1552	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1552_00656
+HIMB1552-00000000001	Prodigal:2.6	CDS	586643	587506	.	+	0	HIMB1552_00654	HIMB1552	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1552_00656
+HIMB1552-00000000001	Prodigal:2.6	CDS	587520	588377	.	+	0	HIMB1552_00655	HIMB1552	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1552_00656
+HIMB1552-00000000001	Prodigal:2.6	CDS	588662	589183	.	-	0	HIMB1552_00656	HIMB1552	173	OG0001307	NA	NA	NA	NA	NA	HIMB1552_00656
+HIMB1552-00000000001	Prodigal:2.6	CDS	589192	591621	.	-	0	HIMB1552_00657	HIMB1552	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1552_00656
+HIMB1552-00000000001	Prodigal:2.6	CDS	591699	592106	.	-	0	HIMB1552_00658	HIMB1552	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1552_00656
+HIMB1552-00000000001	Prodigal:2.6	CDS	592161	592688	.	+	0	HIMB1552_00659	HIMB1552	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1552_00656
+HIMB1552-00000000001	Prodigal:2.6	CDS	592705	594021	.	+	0	HIMB1552_00660	HIMB1552	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1552_00656
+HIMB1552-00000000001	Prodigal:2.6	CDS	594008	594445	.	-	0	HIMB1552_00661	HIMB1552	145	OG0000854	NA	NA	NA	NA	NA	HIMB1552_00656
+HIMB1641-00000000001	Prodigal:2.6	CDS	821732	822169	.	+	0	HIMB1641_00842	HIMB1641	145	OG0000854	NA	NA	NA	NA	NA	HIMB1641_00847
+HIMB1641-00000000001	Prodigal:2.6	CDS	822156	823472	.	-	0	HIMB1641_00843	HIMB1641	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1641_00847
+HIMB1641-00000000001	Prodigal:2.6	CDS	823489	824016	.	-	0	HIMB1641_00844	HIMB1641	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1641_00847
+HIMB1641-00000000001	Prodigal:2.6	CDS	824071	824478	.	+	0	HIMB1641_00845	HIMB1641	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1641_00847
+HIMB1641-00000000001	Prodigal:2.6	CDS	824556	826985	.	+	0	HIMB1641_00846	HIMB1641	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1641_00847
+HIMB1641-00000000001	Prodigal:2.6	CDS	826994	827515	.	+	0	HIMB1641_00847	HIMB1641	173	OG0001307	NA	NA	NA	NA	NA	HIMB1641_00847
+HIMB1641-00000000001	Prodigal:2.6	CDS	827800	828657	.	-	0	HIMB1641_00848	HIMB1641	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1641_00847
+HIMB1641-00000000001	Prodigal:2.6	CDS	828671	829534	.	-	0	HIMB1641_00849	HIMB1641	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1641_00847
+HIMB1641-00000000001	Prodigal:2.6	CDS	829548	831089	.	-	0	HIMB1641_00850	HIMB1641	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1641_00847
+HIMB1641-00000000001	Prodigal:2.6	CDS	831100	832884	.	+	0	HIMB1641_00851	HIMB1641	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1641_00847
+HIMB1641-00000000001	Prodigal:2.6	CDS	832885	833853	.	+	0	HIMB1641_00852	HIMB1641	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1641_00847
+HIMB1636-00000000001	Prodigal:2.6	CDS	233082	233519	.	+	0	HIMB1636_00235	HIMB1636	145	OG0000854	NA	NA	NA	NA	NA	HIMB1636_00240
+HIMB1636-00000000001	Prodigal:2.6	CDS	233506	234822	.	-	0	HIMB1636_00236	HIMB1636	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1636_00240
+HIMB1636-00000000001	Prodigal:2.6	CDS	234839	235366	.	-	0	HIMB1636_00237	HIMB1636	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1636_00240
+HIMB1636-00000000001	Prodigal:2.6	CDS	235421	235828	.	+	0	HIMB1636_00238	HIMB1636	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1636_00240
+HIMB1636-00000000001	Prodigal:2.6	CDS	235906	238335	.	+	0	HIMB1636_00239	HIMB1636	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1636_00240
+HIMB1636-00000000001	Prodigal:2.6	CDS	238344	238865	.	+	0	HIMB1636_00240	HIMB1636	173	OG0001307	NA	NA	NA	NA	NA	HIMB1636_00240
+HIMB1636-00000000001	Prodigal:2.6	CDS	239150	240007	.	-	0	HIMB1636_00241	HIMB1636	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1636_00240
+HIMB1636-00000000001	Prodigal:2.6	CDS	240021	240884	.	-	0	HIMB1636_00242	HIMB1636	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1636_00240
+HIMB1636-00000000001	Prodigal:2.6	CDS	240898	242439	.	-	0	HIMB1636_00243	HIMB1636	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1636_00240
+HIMB1636-00000000001	Prodigal:2.6	CDS	242450	244234	.	+	0	HIMB1636_00244	HIMB1636	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1636_00240
+HIMB1636-00000000001	Prodigal:2.6	CDS	244235	245203	.	+	0	HIMB1636_00245	HIMB1636	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1636_00240
+HIMB1702-00000000001	Prodigal:2.6	CDS	1200660	1201628	.	-	0	HIMB1702_01280	HIMB1702	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1702_01285
+HIMB1702-00000000001	Prodigal:2.6	CDS	1201629	1203413	.	-	0	HIMB1702_01281	HIMB1702	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1702_01285
+HIMB1702-00000000001	Prodigal:2.6	CDS	1203424	1204965	.	+	0	HIMB1702_01282	HIMB1702	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1702_01285
+HIMB1702-00000000001	Prodigal:2.6	CDS	1204979	1205842	.	+	0	HIMB1702_01283	HIMB1702	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1702_01285
+HIMB1702-00000000001	Prodigal:2.6	CDS	1205856	1206713	.	+	0	HIMB1702_01284	HIMB1702	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1702_01285
+HIMB1702-00000000001	Prodigal:2.6	CDS	1206998	1207519	.	-	0	HIMB1702_01285	HIMB1702	173	OG0001307	NA	NA	NA	NA	NA	HIMB1702_01285
+HIMB1702-00000000001	Prodigal:2.6	CDS	1207528	1209957	.	-	0	HIMB1702_01286	HIMB1702	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1702_01285
+HIMB1702-00000000001	Prodigal:2.6	CDS	1210035	1210442	.	-	0	HIMB1702_01287	HIMB1702	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1702_01285
+HIMB1702-00000000001	Prodigal:2.6	CDS	1210497	1211024	.	+	0	HIMB1702_01288	HIMB1702	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1702_01285
+HIMB1702-00000000001	Prodigal:2.6	CDS	1211041	1212357	.	+	0	HIMB1702_01289	HIMB1702	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1702_01285
+HIMB1702-00000000001	Prodigal:2.6	CDS	1212344	1212781	.	-	0	HIMB1702_01290	HIMB1702	145	OG0000854	NA	NA	NA	NA	NA	HIMB1702_01285
+HIMB1710-00000000003	Prodigal:2.6	CDS	1192907	1193875	.	-	0	HIMB1710_01290	HIMB1710	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1710_01295
+HIMB1710-00000000003	Prodigal:2.6	CDS	1193876	1195660	.	-	0	HIMB1710_01291	HIMB1710	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1710_01295
+HIMB1710-00000000003	Prodigal:2.6	CDS	1195671	1197212	.	+	0	HIMB1710_01292	HIMB1710	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1710_01295
+HIMB1710-00000000003	Prodigal:2.6	CDS	1197226	1198089	.	+	0	HIMB1710_01293	HIMB1710	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1710_01295
+HIMB1710-00000000003	Prodigal:2.6	CDS	1198103	1198960	.	+	0	HIMB1710_01294	HIMB1710	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1710_01295
+HIMB1710-00000000003	Prodigal:2.6	CDS	1199245	1199766	.	-	0	HIMB1710_01295	HIMB1710	173	OG0001307	NA	NA	NA	NA	NA	HIMB1710_01295
+HIMB1710-00000000003	Prodigal:2.6	CDS	1199775	1202204	.	-	0	HIMB1710_01296	HIMB1710	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1710_01295
+HIMB1710-00000000003	Prodigal:2.6	CDS	1202282	1202689	.	-	0	HIMB1710_01297	HIMB1710	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1710_01295
+HIMB1710-00000000003	Prodigal:2.6	CDS	1202744	1203271	.	+	0	HIMB1710_01298	HIMB1710	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1710_01295
+HIMB1710-00000000003	Prodigal:2.6	CDS	1203288	1204604	.	+	0	HIMB1710_01299	HIMB1710	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1710_01295
+HIMB1710-00000000003	Prodigal:2.6	CDS	1204591	1205028	.	-	0	HIMB1710_01300	HIMB1710	145	OG0000854	NA	NA	NA	NA	NA	HIMB1710_01295
+HIMB1556-00000000001	Prodigal:2.6	CDS	834625	835062	.	+	0	HIMB1556_00852	HIMB1556	145	OG0000854	NA	NA	NA	NA	NA	HIMB1556_00857
+HIMB1556-00000000001	Prodigal:2.6	CDS	835049	836365	.	-	0	HIMB1556_00853	HIMB1556	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1556_00857
+HIMB1556-00000000001	Prodigal:2.6	CDS	836382	836909	.	-	0	HIMB1556_00854	HIMB1556	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1556_00857
+HIMB1556-00000000001	Prodigal:2.6	CDS	836964	837371	.	+	0	HIMB1556_00855	HIMB1556	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1556_00857
+HIMB1556-00000000001	Prodigal:2.6	CDS	837449	839878	.	+	0	HIMB1556_00856	HIMB1556	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1556_00857
+HIMB1556-00000000001	Prodigal:2.6	CDS	839887	840408	.	+	0	HIMB1556_00857	HIMB1556	173	OG0001307	NA	NA	NA	NA	NA	HIMB1556_00857
+HIMB1556-00000000001	Prodigal:2.6	CDS	840693	841550	.	-	0	HIMB1556_00858	HIMB1556	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1556_00857
+HIMB1556-00000000001	Prodigal:2.6	CDS	841564	842427	.	-	0	HIMB1556_00859	HIMB1556	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1556_00857
+HIMB1556-00000000001	Prodigal:2.6	CDS	842441	843982	.	-	0	HIMB1556_00860	HIMB1556	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1556_00857
+HIMB1556-00000000001	Prodigal:2.6	CDS	843993	845777	.	+	0	HIMB1556_00861	HIMB1556	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1556_00857
+HIMB1556-00000000001	Prodigal:2.6	CDS	845778	846746	.	+	0	HIMB1556_00862	HIMB1556	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1556_00857
+HIMB1748-00000000003	Prodigal:2.6	CDS	227155	227592	.	+	0	HIMB1748_00859	HIMB1748	145	OG0000854	NA	NA	NA	NA	NA	HIMB1748_00864
+HIMB1748-00000000003	Prodigal:2.6	CDS	227579	228895	.	-	0	HIMB1748_00860	HIMB1748	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1748_00864
+HIMB1748-00000000003	Prodigal:2.6	CDS	228912	229439	.	-	0	HIMB1748_00861	HIMB1748	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1748_00864
+HIMB1748-00000000003	Prodigal:2.6	CDS	229494	229901	.	+	0	HIMB1748_00862	HIMB1748	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1748_00864
+HIMB1748-00000000003	Prodigal:2.6	CDS	229979	232408	.	+	0	HIMB1748_00863	HIMB1748	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1748_00864
+HIMB1748-00000000003	Prodigal:2.6	CDS	232417	232938	.	+	0	HIMB1748_00864	HIMB1748	173	OG0001307	NA	NA	NA	NA	NA	HIMB1748_00864
+HIMB1748-00000000003	Prodigal:2.6	CDS	233223	234080	.	-	0	HIMB1748_00865	HIMB1748	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1748_00864
+HIMB1748-00000000003	Prodigal:2.6	CDS	234094	234957	.	-	0	HIMB1748_00866	HIMB1748	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1748_00864
+HIMB1748-00000000003	Prodigal:2.6	CDS	234971	236512	.	-	0	HIMB1748_00867	HIMB1748	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1748_00864
+HIMB1748-00000000003	Prodigal:2.6	CDS	236523	238307	.	+	0	HIMB1748_00868	HIMB1748	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1748_00864
+HIMB1748-00000000003	Prodigal:2.6	CDS	238308	239276	.	+	0	HIMB1748_00869	HIMB1748	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1748_00864
+HIMB1662-00000000001	Prodigal:2.6	CDS	829287	829727	.	+	0	HIMB1662_00852	HIMB1662	146	OG0000854	NA	NA	NA	NA	NA	HIMB1662_00857
+HIMB1662-00000000001	Prodigal:2.6	CDS	829714	831030	.	-	0	HIMB1662_00853	HIMB1662	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1662_00857
+HIMB1662-00000000001	Prodigal:2.6	CDS	831047	831574	.	-	0	HIMB1662_00854	HIMB1662	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1662_00857
+HIMB1662-00000000001	Prodigal:2.6	CDS	831629	832036	.	+	0	HIMB1662_00855	HIMB1662	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1662_00857
+HIMB1662-00000000001	Prodigal:2.6	CDS	832114	834543	.	+	0	HIMB1662_00856	HIMB1662	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1662_00857
+HIMB1662-00000000001	Prodigal:2.6	CDS	834552	835073	.	+	0	HIMB1662_00857	HIMB1662	173	OG0001307	NA	NA	NA	NA	NA	HIMB1662_00857
+HIMB1662-00000000001	Prodigal:2.6	CDS	835358	836215	.	-	0	HIMB1662_00858	HIMB1662	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1662_00857
+HIMB1662-00000000001	Prodigal:2.6	CDS	836229	837092	.	-	0	HIMB1662_00859	HIMB1662	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1662_00857
+HIMB1662-00000000001	Prodigal:2.6	CDS	837106	838647	.	-	0	HIMB1662_00860	HIMB1662	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1662_00857
+HIMB1662-00000000001	Prodigal:2.6	CDS	838658	840442	.	+	0	HIMB1662_00861	HIMB1662	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1662_00857
+HIMB1662-00000000001	Prodigal:2.6	CDS	840443	841411	.	+	0	HIMB1662_00862	HIMB1662	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1662_00857
+HIMB1723-00000000001	Prodigal:2.6	CDS	1159104	1159541	.	+	0	HIMB1723_01214	HIMB1723	145	OG0000854	NA	NA	NA	NA	NA	HIMB1723_01219
+HIMB1723-00000000001	Prodigal:2.6	CDS	1159528	1160844	.	-	0	HIMB1723_01215	HIMB1723	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1723_01219
+HIMB1723-00000000001	Prodigal:2.6	CDS	1160861	1161388	.	-	0	HIMB1723_01216	HIMB1723	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1723_01219
+HIMB1723-00000000001	Prodigal:2.6	CDS	1161443	1161850	.	+	0	HIMB1723_01217	HIMB1723	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1723_01219
+HIMB1723-00000000001	Prodigal:2.6	CDS	1161929	1164358	.	+	0	HIMB1723_01218	HIMB1723	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1723_01219
+HIMB1723-00000000001	Prodigal:2.6	CDS	1164367	1164891	.	+	0	HIMB1723_01219	HIMB1723	174	OG0001307	NA	NA	NA	NA	NA	HIMB1723_01219
+HIMB1723-00000000001	Prodigal:2.6	CDS	1165199	1166056	.	-	0	HIMB1723_01220	HIMB1723	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1723_01219
+HIMB1723-00000000001	Prodigal:2.6	CDS	1166070	1166933	.	-	0	HIMB1723_01221	HIMB1723	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1723_01219
+HIMB1723-00000000001	Prodigal:2.6	CDS	1166947	1168488	.	-	0	HIMB1723_01222	HIMB1723	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1723_01219
+HIMB1723-00000000001	Prodigal:2.6	CDS	1168499	1170283	.	+	0	HIMB1723_01223	HIMB1723	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1723_01219
+HIMB1723-00000000001	Prodigal:2.6	CDS	1170284	1171252	.	+	0	HIMB1723_01224	HIMB1723	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1723_01219
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1373286	1373723	.	+	0	HIMB140_01473	HIMB140	145	OG0000854	NA	NA	NA	NA	NA	HIMB140_01478
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1373710	1375026	.	-	0	HIMB140_01474	HIMB140	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB140_01478
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1375043	1375570	.	-	0	HIMB140_01475	HIMB140	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB140_01478
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1375625	1376032	.	+	0	HIMB140_01476	HIMB140	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB140_01478
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1376111	1378540	.	+	0	HIMB140_01477	HIMB140	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB140_01478
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1378549	1379070	.	+	0	HIMB140_01478	HIMB140	173	OG0001307	NA	NA	NA	NA	NA	HIMB140_01478
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1379355	1380212	.	-	0	HIMB140_01479	HIMB140	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB140_01478
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1380226	1381089	.	-	0	HIMB140_01480	HIMB140	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB140_01478
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1381103	1382644	.	-	0	HIMB140_01481	HIMB140	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB140_01478
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1382655	1384439	.	+	0	HIMB140_01482	HIMB140	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB140_01478
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1384440	1385408	.	+	0	HIMB140_01483	HIMB140	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB140_01478
+HIMB1513-00000000001	Prodigal:2.6	CDS	909346	909783	.	+	0	HIMB1513_00934	HIMB1513	145	OG0000854	NA	NA	NA	NA	NA	HIMB1513_00939
+HIMB1513-00000000001	Prodigal:2.6	CDS	909770	911086	.	-	0	HIMB1513_00935	HIMB1513	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1513_00939
+HIMB1513-00000000001	Prodigal:2.6	CDS	911103	911630	.	-	0	HIMB1513_00936	HIMB1513	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1513_00939
+HIMB1513-00000000001	Prodigal:2.6	CDS	911685	912092	.	+	0	HIMB1513_00937	HIMB1513	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1513_00939
+HIMB1513-00000000001	Prodigal:2.6	CDS	912171	914600	.	+	0	HIMB1513_00938	HIMB1513	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1513_00939
+HIMB1513-00000000001	Prodigal:2.6	CDS	914609	915130	.	+	0	HIMB1513_00939	HIMB1513	173	OG0001307	NA	NA	NA	NA	NA	HIMB1513_00939
+HIMB1513-00000000001	Prodigal:2.6	CDS	915415	916272	.	-	0	HIMB1513_00940	HIMB1513	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1513_00939
+HIMB1513-00000000001	Prodigal:2.6	CDS	916286	917149	.	-	0	HIMB1513_00941	HIMB1513	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1513_00939
+HIMB1513-00000000001	Prodigal:2.6	CDS	917163	918704	.	-	0	HIMB1513_00942	HIMB1513	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1513_00939
+HIMB1513-00000000001	Prodigal:2.6	CDS	918715	920499	.	+	0	HIMB1513_00943	HIMB1513	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1513_00939
+HIMB1513-00000000001	Prodigal:2.6	CDS	920500	921468	.	+	0	HIMB1513_00944	HIMB1513	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1513_00939
+HIMB1521-00000000007	Prodigal:2.6	CDS	85218	86186	.	-	0	HIMB1521_00802	HIMB1521	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1521_00807
+HIMB1521-00000000007	Prodigal:2.6	CDS	86187	87971	.	-	0	HIMB1521_00803	HIMB1521	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1521_00807
+HIMB1521-00000000007	Prodigal:2.6	CDS	87982	89523	.	+	0	HIMB1521_00804	HIMB1521	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1521_00807
+HIMB1521-00000000007	Prodigal:2.6	CDS	89537	90400	.	+	0	HIMB1521_00805	HIMB1521	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1521_00807
+HIMB1521-00000000007	Prodigal:2.6	CDS	90414	91271	.	+	0	HIMB1521_00806	HIMB1521	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1521_00807
+HIMB1521-00000000007	Prodigal:2.6	CDS	91556	92077	.	-	0	HIMB1521_00807	HIMB1521	173	OG0001307	NA	NA	NA	NA	NA	HIMB1521_00807
+HIMB1521-00000000007	Prodigal:2.6	CDS	92086	94515	.	-	0	HIMB1521_00808	HIMB1521	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1521_00807
+HIMB1521-00000000007	Prodigal:2.6	CDS	94594	95001	.	-	0	HIMB1521_00809	HIMB1521	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1521_00807
+HIMB1521-00000000007	Prodigal:2.6	CDS	95056	95583	.	+	0	HIMB1521_00810	HIMB1521	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1521_00807
+HIMB1430-00000000004	Prodigal:2.6	CDS	43282	43719	.	+	0	HIMB1430_00511	HIMB1430	145	OG0000854	NA	NA	NA	NA	NA	HIMB1430_00516
+HIMB1430-00000000004	Prodigal:2.6	CDS	43706	45022	.	-	0	HIMB1430_00512	HIMB1430	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1430_00516
+HIMB1430-00000000004	Prodigal:2.6	CDS	45039	45566	.	-	0	HIMB1430_00513	HIMB1430	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1430_00516
+HIMB1430-00000000004	Prodigal:2.6	CDS	45621	46028	.	+	0	HIMB1430_00514	HIMB1430	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1430_00516
+HIMB1430-00000000004	Prodigal:2.6	CDS	46107	48536	.	+	0	HIMB1430_00515	HIMB1430	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1430_00516
+HIMB1430-00000000004	Prodigal:2.6	CDS	48545	49066	.	+	0	HIMB1430_00516	HIMB1430	173	OG0001307	NA	NA	NA	NA	NA	HIMB1430_00516
+HIMB1430-00000000004	Prodigal:2.6	CDS	49351	50208	.	-	0	HIMB1430_00517	HIMB1430	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1430_00516
+HIMB1430-00000000004	Prodigal:2.6	CDS	50217	51086	.	-	0	HIMB1430_00518	HIMB1430	289	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1430_00516
+HIMB1430-00000000004	Prodigal:2.6	CDS	51100	52641	.	-	0	HIMB1430_00519	HIMB1430	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1430_00516
+HIMB1430-00000000004	Prodigal:2.6	CDS	52652	54436	.	+	0	HIMB1430_00520	HIMB1430	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1430_00516
+HIMB1430-00000000004	Prodigal:2.6	CDS	54437	55405	.	+	0	HIMB1430_00521	HIMB1430	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1430_00516
+HIMB1611-00000000001	Prodigal:2.6	CDS	228343	228780	.	+	0	HIMB1611_00237	HIMB1611	145	OG0000854	NA	NA	NA	NA	NA	HIMB1611_00242
+HIMB1611-00000000001	Prodigal:2.6	CDS	228767	230083	.	-	0	HIMB1611_00238	HIMB1611	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1611_00242
+HIMB1611-00000000001	Prodigal:2.6	CDS	230100	230627	.	-	0	HIMB1611_00239	HIMB1611	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1611_00242
+HIMB1611-00000000001	Prodigal:2.6	CDS	230682	231089	.	+	0	HIMB1611_00240	HIMB1611	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1611_00242
+HIMB1611-00000000001	Prodigal:2.6	CDS	231168	233597	.	+	0	HIMB1611_00241	HIMB1611	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1611_00242
+HIMB1611-00000000001	Prodigal:2.6	CDS	233606	234127	.	+	0	HIMB1611_00242	HIMB1611	173	OG0001307	NA	NA	NA	NA	NA	HIMB1611_00242
+HIMB1611-00000000001	Prodigal:2.6	CDS	234412	235269	.	-	0	HIMB1611_00243	HIMB1611	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1611_00242
+HIMB1611-00000000001	Prodigal:2.6	CDS	235278	236147	.	-	0	HIMB1611_00244	HIMB1611	289	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1611_00242
+HIMB1611-00000000001	Prodigal:2.6	CDS	236161	237702	.	-	0	HIMB1611_00245	HIMB1611	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1611_00242
+HIMB1611-00000000001	Prodigal:2.6	CDS	237713	239497	.	+	0	HIMB1611_00246	HIMB1611	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1611_00242
+HIMB1611-00000000001	Prodigal:2.6	CDS	239498	240466	.	+	0	HIMB1611_00247	HIMB1611	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1611_00242
+HIMB1758-00000000001	Prodigal:2.6	CDS	887159	887596	.	+	0	HIMB1758_00910	HIMB1758	145	OG0000854	NA	NA	NA	NA	NA	HIMB1758_00915
+HIMB1758-00000000001	Prodigal:2.6	CDS	887583	888899	.	-	0	HIMB1758_00911	HIMB1758	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1758_00915
+HIMB1758-00000000001	Prodigal:2.6	CDS	888916	889443	.	-	0	HIMB1758_00912	HIMB1758	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1758_00915
+HIMB1758-00000000001	Prodigal:2.6	CDS	889498	889905	.	+	0	HIMB1758_00913	HIMB1758	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1758_00915
+HIMB1758-00000000001	Prodigal:2.6	CDS	889984	892413	.	+	0	HIMB1758_00914	HIMB1758	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1758_00915
+HIMB1758-00000000001	Prodigal:2.6	CDS	892422	892943	.	+	0	HIMB1758_00915	HIMB1758	173	OG0001307	NA	NA	NA	NA	NA	HIMB1758_00915
+HIMB1758-00000000001	Prodigal:2.6	CDS	893228	894085	.	-	0	HIMB1758_00916	HIMB1758	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1758_00915
+HIMB1758-00000000001	Prodigal:2.6	CDS	894094	894963	.	-	0	HIMB1758_00917	HIMB1758	289	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1758_00915
+HIMB1758-00000000001	Prodigal:2.6	CDS	894977	896518	.	-	0	HIMB1758_00918	HIMB1758	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1758_00915
+HIMB1758-00000000001	Prodigal:2.6	CDS	896529	898313	.	+	0	HIMB1758_00919	HIMB1758	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1758_00915
+HIMB1758-00000000001	Prodigal:2.6	CDS	898314	899282	.	+	0	HIMB1758_00920	HIMB1758	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1758_00915
+HIMB1488-00000000001	Prodigal:2.6	CDS	1004457	1005425	.	-	0	HIMB1488_01107	HIMB1488	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1488_01112
+HIMB1488-00000000001	Prodigal:2.6	CDS	1005426	1007210	.	-	0	HIMB1488_01108	HIMB1488	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1488_01112
+HIMB1488-00000000001	Prodigal:2.6	CDS	1007221	1008762	.	+	0	HIMB1488_01109	HIMB1488	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1488_01112
+HIMB1488-00000000001	Prodigal:2.6	CDS	1008776	1009639	.	+	0	HIMB1488_01110	HIMB1488	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1488_01112
+HIMB1488-00000000001	Prodigal:2.6	CDS	1009653	1010513	.	+	0	HIMB1488_01111	HIMB1488	286	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1488_01112
+HIMB1488-00000000001	Prodigal:2.6	CDS	1010794	1011315	.	-	0	HIMB1488_01112	HIMB1488	173	OG0001307	NA	NA	NA	NA	NA	HIMB1488_01112
+HIMB1488-00000000001	Prodigal:2.6	CDS	1011324	1013753	.	-	0	HIMB1488_01113	HIMB1488	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1488_01112
+HIMB1488-00000000001	Prodigal:2.6	CDS	1013833	1014240	.	-	0	HIMB1488_01114	HIMB1488	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1488_01112
+HIMB1488-00000000001	Prodigal:2.6	CDS	1014295	1014822	.	+	0	HIMB1488_01115	HIMB1488	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3658	CytB	Cytochrome b subunit of Ni2+-dependent hydrogenase	HIMB1488_01112
+HIMB1488-00000000001	Prodigal:2.6	CDS	1014839	1016155	.	+	0	HIMB1488_01116	HIMB1488	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1488_01112
+HIMB1488-00000000001	Prodigal:2.6	CDS	1016142	1016579	.	-	0	HIMB1488_01117	HIMB1488	145	OG0000854	NA	NA	NA	NA	NA	HIMB1488_01112
+HIMB1506-00000000001	Prodigal:2.6	CDS	271082	271519	.	+	0	HIMB1506_00274	HIMB1506	145	OG0000854	NA	NA	NA	NA	NA	HIMB1506_00279
+HIMB1506-00000000001	Prodigal:2.6	CDS	271506	272822	.	-	0	HIMB1506_00275	HIMB1506	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1506_00279
+HIMB1506-00000000001	Prodigal:2.6	CDS	272839	273366	.	-	0	HIMB1506_00276	HIMB1506	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1506_00279
+HIMB1506-00000000001	Prodigal:2.6	CDS	273421	273828	.	+	0	HIMB1506_00277	HIMB1506	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1506_00279
+HIMB1506-00000000001	Prodigal:2.6	CDS	273906	276335	.	+	0	HIMB1506_00278	HIMB1506	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1506_00279
+HIMB1506-00000000001	Prodigal:2.6	CDS	276344	276865	.	+	0	HIMB1506_00279	HIMB1506	173	OG0001307	NA	NA	NA	NA	NA	HIMB1506_00279
+HIMB1506-00000000001	Prodigal:2.6	CDS	277150	278007	.	-	0	HIMB1506_00280	HIMB1506	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1506_00279
+HIMB1506-00000000001	Prodigal:2.6	CDS	278021	278884	.	-	0	HIMB1506_00281	HIMB1506	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1506_00279
+HIMB1506-00000000001	Prodigal:2.6	CDS	278898	280439	.	-	0	HIMB1506_00282	HIMB1506	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1506_00279
+HIMB1506-00000000001	Prodigal:2.6	CDS	280516	282234	.	+	0	HIMB1506_00283	HIMB1506	572	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1506_00279
+HIMB1506-00000000001	Prodigal:2.6	CDS	282235	283203	.	+	0	HIMB1506_00284	HIMB1506	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1506_00279
+HIMB2211-00000000001	Prodigal:2.6	CDS	238720	239157	.	+	0	HIMB2211_00246	HIMB2211	145	OG0000854	NA	NA	NA	NA	NA	HIMB2211_00251
+HIMB2211-00000000001	Prodigal:2.6	CDS	239144	240460	.	-	0	HIMB2211_00247	HIMB2211	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB2211_00251
+HIMB2211-00000000001	Prodigal:2.6	CDS	240477	241004	.	-	0	HIMB2211_00248	HIMB2211	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB2211_00251
+HIMB2211-00000000001	Prodigal:2.6	CDS	241059	241466	.	+	0	HIMB2211_00249	HIMB2211	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB2211_00251
+HIMB2211-00000000001	Prodigal:2.6	CDS	241545	243974	.	+	0	HIMB2211_00250	HIMB2211	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB2211_00251
+HIMB2211-00000000001	Prodigal:2.6	CDS	243983	244504	.	+	0	HIMB2211_00251	HIMB2211	173	OG0001307	NA	NA	NA	NA	NA	HIMB2211_00251
+HIMB2211-00000000001	Prodigal:2.6	CDS	244789	245646	.	-	0	HIMB2211_00252	HIMB2211	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB2211_00251
+HIMB2211-00000000001	Prodigal:2.6	CDS	245660	246523	.	-	0	HIMB2211_00253	HIMB2211	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB2211_00251
+HIMB2211-00000000001	Prodigal:2.6	CDS	246537	248078	.	-	0	HIMB2211_00254	HIMB2211	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB2211_00251
+HIMB2211-00000000001	Prodigal:2.6	CDS	248089	249873	.	+	0	HIMB2211_00255	HIMB2211	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB2211_00251
+HIMB2211-00000000001	Prodigal:2.6	CDS	249874	250842	.	+	0	HIMB2211_00256	HIMB2211	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB2211_00251
+HIMB1746-00000000001	Prodigal:2.6	CDS	262130	262567	.	+	0	HIMB1746_00289	HIMB1746	145	OG0000854	NA	NA	NA	NA	NA	HIMB1746_00294
+HIMB1746-00000000001	Prodigal:2.6	CDS	262554	263870	.	-	0	HIMB1746_00290	HIMB1746	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1746_00294
+HIMB1746-00000000001	Prodigal:2.6	CDS	263887	264414	.	-	0	HIMB1746_00291	HIMB1746	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1746_00294
+HIMB1746-00000000001	Prodigal:2.6	CDS	264469	264876	.	+	0	HIMB1746_00292	HIMB1746	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1746_00294
+HIMB1746-00000000001	Prodigal:2.6	CDS	264955	267384	.	+	0	HIMB1746_00293	HIMB1746	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1746_00294
+HIMB1746-00000000001	Prodigal:2.6	CDS	267393	267914	.	+	0	HIMB1746_00294	HIMB1746	173	OG0001307	NA	NA	NA	NA	NA	HIMB1746_00294
+HIMB1746-00000000001	Prodigal:2.6	CDS	268199	269056	.	-	0	HIMB1746_00295	HIMB1746	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1746_00294
+HIMB1746-00000000001	Prodigal:2.6	CDS	269070	269933	.	-	0	HIMB1746_00296	HIMB1746	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1746_00294
+HIMB1746-00000000001	Prodigal:2.6	CDS	269947	271452	.	-	0	HIMB1746_00297	HIMB1746	501	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1746_00294
+HIMB1746-00000000001	Prodigal:2.6	CDS	271500	273284	.	+	0	HIMB1746_00298	HIMB1746	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1746_00294
+HIMB1746-00000000001	Prodigal:2.6	CDS	273285	274253	.	+	0	HIMB1746_00299	HIMB1746	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1746_00294
+HIMB1542-00000000001	Prodigal:2.6	CDS	253868	254305	.	+	0	HIMB1542_00263	HIMB1542	145	OG0000854	NA	NA	NA	NA	NA	HIMB1542_00268
+HIMB1542-00000000001	Prodigal:2.6	CDS	254292	255608	.	-	0	HIMB1542_00264	HIMB1542	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1542_00268
+HIMB1542-00000000001	Prodigal:2.6	CDS	255625	256152	.	-	0	HIMB1542_00265	HIMB1542	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1542_00268
+HIMB1542-00000000001	Prodigal:2.6	CDS	256207	256614	.	+	0	HIMB1542_00266	HIMB1542	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1542_00268
+HIMB1542-00000000001	Prodigal:2.6	CDS	256692	259121	.	+	0	HIMB1542_00267	HIMB1542	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1542_00268
+HIMB1542-00000000001	Prodigal:2.6	CDS	259130	259651	.	+	0	HIMB1542_00268	HIMB1542	173	OG0001307	NA	NA	NA	NA	NA	HIMB1542_00268
+HIMB1542-00000000001	Prodigal:2.6	CDS	259936	260793	.	-	0	HIMB1542_00269	HIMB1542	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1542_00268
+HIMB1542-00000000001	Prodigal:2.6	CDS	260807	261670	.	-	0	HIMB1542_00270	HIMB1542	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1542_00268
+HIMB1542-00000000001	Prodigal:2.6	CDS	261684	263225	.	-	0	HIMB1542_00271	HIMB1542	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1542_00268
+HIMB1542-00000000001	Prodigal:2.6	CDS	263236	265020	.	+	0	HIMB1542_00272	HIMB1542	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1542_00268
+HIMB1542-00000000001	Prodigal:2.6	CDS	265021	265989	.	+	0	HIMB1542_00273	HIMB1542	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1542_00268
+HIMB1695-00000000001	Prodigal:2.6	CDS	34502	34942	.	+	0	HIMB1695_00038	HIMB1695	146	OG0000854	NA	NA	NA	NA	NA	HIMB1695_00043
+HIMB1695-00000000001	Prodigal:2.6	CDS	34929	36245	.	-	0	HIMB1695_00039	HIMB1695	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1695_00043
+HIMB1695-00000000001	Prodigal:2.6	CDS	36262	36789	.	-	0	HIMB1695_00040	HIMB1695	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1695_00043
+HIMB1695-00000000001	Prodigal:2.6	CDS	36844	37251	.	+	0	HIMB1695_00041	HIMB1695	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1695_00043
+HIMB1695-00000000001	Prodigal:2.6	CDS	37329	39758	.	+	0	HIMB1695_00042	HIMB1695	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1695_00043
+HIMB1695-00000000001	Prodigal:2.6	CDS	39767	40288	.	+	0	HIMB1695_00043	HIMB1695	173	OG0001307	NA	NA	NA	NA	NA	HIMB1695_00043
+HIMB1695-00000000001	Prodigal:2.6	CDS	40572	41429	.	-	0	HIMB1695_00044	HIMB1695	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1695_00043
+HIMB1695-00000000001	Prodigal:2.6	CDS	41443	42306	.	-	0	HIMB1695_00045	HIMB1695	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1695_00043
+HIMB1695-00000000001	Prodigal:2.6	CDS	42321	43826	.	-	0	HIMB1695_00046	HIMB1695	501	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1695_00043
+HIMB1695-00000000001	Prodigal:2.6	CDS	43874	45658	.	+	0	HIMB1695_00047	HIMB1695	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1695_00043
+HIMB1695-00000000001	Prodigal:2.6	CDS	45659	46627	.	+	0	HIMB1695_00048	HIMB1695	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1695_00043
+HIMB1577-00000000001	Prodigal:2.6	CDS	207010	207978	.	-	0	HIMB1577_00238	HIMB1577	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1577_00243
+HIMB1577-00000000001	Prodigal:2.6	CDS	207979	209763	.	-	0	HIMB1577_00239	HIMB1577	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1577_00243
+HIMB1577-00000000001	Prodigal:2.6	CDS	209774	211315	.	+	0	HIMB1577_00240	HIMB1577	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1577_00243
+HIMB1577-00000000001	Prodigal:2.6	CDS	211329	212192	.	+	0	HIMB1577_00241	HIMB1577	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1577_00243
+HIMB1577-00000000001	Prodigal:2.6	CDS	212206	213066	.	+	0	HIMB1577_00242	HIMB1577	286	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1577_00243
+HIMB1577-00000000001	Prodigal:2.6	CDS	213346	213867	.	-	0	HIMB1577_00243	HIMB1577	173	OG0001307	NA	NA	NA	NA	NA	HIMB1577_00243
+HIMB1577-00000000001	Prodigal:2.6	CDS	213876	216305	.	-	0	HIMB1577_00244	HIMB1577	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1577_00243
+HIMB1577-00000000001	Prodigal:2.6	CDS	216384	216791	.	-	0	HIMB1577_00245	HIMB1577	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1577_00243
+HIMB1577-00000000001	Prodigal:2.6	CDS	216846	217373	.	+	0	HIMB1577_00246	HIMB1577	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1577_00243
+HIMB1577-00000000001	Prodigal:2.6	CDS	217390	218706	.	+	0	HIMB1577_00247	HIMB1577	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1577_00243
+HIMB1577-00000000001	Prodigal:2.6	CDS	218693	219130	.	-	0	HIMB1577_00248	HIMB1577	145	OG0000854	NA	NA	NA	NA	NA	HIMB1577_00243
+HIMB1631-00000000001	Prodigal:2.6	CDS	536771	537739	.	-	0	HIMB1631_00606	HIMB1631	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1631_00611
+HIMB1631-00000000001	Prodigal:2.6	CDS	537740	539458	.	-	0	HIMB1631_00607	HIMB1631	572	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1631_00611
+HIMB1631-00000000001	Prodigal:2.6	CDS	539535	541076	.	+	0	HIMB1631_00608	HIMB1631	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1631_00611
+HIMB1631-00000000001	Prodigal:2.6	CDS	541090	541953	.	+	0	HIMB1631_00609	HIMB1631	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1631_00611
+HIMB1631-00000000001	Prodigal:2.6	CDS	541967	542827	.	+	0	HIMB1631_00610	HIMB1631	286	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1631_00611
+HIMB1631-00000000001	Prodigal:2.6	CDS	543107	543628	.	-	0	HIMB1631_00611	HIMB1631	173	OG0001307	NA	NA	NA	NA	NA	HIMB1631_00611
+HIMB1631-00000000001	Prodigal:2.6	CDS	543637	546066	.	-	0	HIMB1631_00612	HIMB1631	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1631_00611
+HIMB1631-00000000001	Prodigal:2.6	CDS	546145	546552	.	-	0	HIMB1631_00613	HIMB1631	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1631_00611
+HIMB1631-00000000001	Prodigal:2.6	CDS	546607	547134	.	+	0	HIMB1631_00614	HIMB1631	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1631_00611
+HIMB1631-00000000001	Prodigal:2.6	CDS	547151	548467	.	+	0	HIMB1631_00615	HIMB1631	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1631_00611
+HIMB1631-00000000001	Prodigal:2.6	CDS	548454	548891	.	-	0	HIMB1631_00616	HIMB1631	145	OG0000854	NA	NA	NA	NA	NA	HIMB1631_00611
+HIMB1715-00000000004	Prodigal:2.6	CDS	536	943	.	+	0	HIMB1715_00293	HIMB1715	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1715_00295
+HIMB1715-00000000004	Prodigal:2.6	CDS	1021	3450	.	+	0	HIMB1715_00294	HIMB1715	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1715_00295
+HIMB1715-00000000004	Prodigal:2.6	CDS	3459	3980	.	+	0	HIMB1715_00295	HIMB1715	173	OG0001307	NA	NA	NA	NA	NA	HIMB1715_00295
+HIMB1715-00000000004	Prodigal:2.6	CDS	4264	5121	.	-	0	HIMB1715_00296	HIMB1715	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1715_00295
+HIMB1715-00000000004	Prodigal:2.6	CDS	5135	5998	.	-	0	HIMB1715_00297	HIMB1715	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1715_00295
+HIMB1715-00000000004	Prodigal:2.6	CDS	6012	7517	.	-	0	HIMB1715_00298	HIMB1715	501	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1715_00295
+HIMB1715-00000000004	Prodigal:2.6	CDS	7565	9349	.	+	0	HIMB1715_00299	HIMB1715	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1715_00295
+HIMB1715-00000000004	Prodigal:2.6	CDS	9350	10318	.	+	0	HIMB1715_00300	HIMB1715	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1715_00295
+HIMB1701-00000000001	Prodigal:2.6	CDS	1420611	1421048	.	+	0	HIMB1701_01513	HIMB1701	145	OG0000854	NA	NA	NA	NA	NA	HIMB1701_01518
+HIMB1701-00000000001	Prodigal:2.6	CDS	1421035	1422351	.	-	0	HIMB1701_01514	HIMB1701	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1701_01518
+HIMB1701-00000000001	Prodigal:2.6	CDS	1422368	1422895	.	-	0	HIMB1701_01515	HIMB1701	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1701_01518
+HIMB1701-00000000001	Prodigal:2.6	CDS	1422950	1423357	.	+	0	HIMB1701_01516	HIMB1701	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1701_01518
+HIMB1701-00000000001	Prodigal:2.6	CDS	1423435	1425864	.	+	0	HIMB1701_01517	HIMB1701	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1701_01518
+HIMB1701-00000000001	Prodigal:2.6	CDS	1425873	1426394	.	+	0	HIMB1701_01518	HIMB1701	173	OG0001307	NA	NA	NA	NA	NA	HIMB1701_01518
+HIMB1701-00000000001	Prodigal:2.6	CDS	1426675	1427535	.	-	0	HIMB1701_01519	HIMB1701	286	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1701_01518
+HIMB1701-00000000001	Prodigal:2.6	CDS	1427549	1428412	.	-	0	HIMB1701_01520	HIMB1701	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1701_01518
+HIMB1701-00000000001	Prodigal:2.6	CDS	1428426	1429967	.	-	0	HIMB1701_01521	HIMB1701	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1701_01518
+HIMB1701-00000000001	Prodigal:2.6	CDS	1429978	1431762	.	+	0	HIMB1701_01522	HIMB1701	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1701_01518
+HIMB1701-00000000001	Prodigal:2.6	CDS	1431763	1432731	.	+	0	HIMB1701_01523	HIMB1701	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1701_01518
+HIMB1782-00000000002	Prodigal:2.6	CDS	261814	262251	.	+	0	HIMB1782_01194	HIMB1782	145	OG0000854	NA	NA	NA	NA	NA	HIMB1782_01199
+HIMB1782-00000000002	Prodigal:2.6	CDS	262238	263554	.	-	0	HIMB1782_01195	HIMB1782	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1782_01199
+HIMB1782-00000000002	Prodigal:2.6	CDS	263571	264098	.	-	0	HIMB1782_01196	HIMB1782	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1782_01199
+HIMB1782-00000000002	Prodigal:2.6	CDS	264153	264560	.	+	0	HIMB1782_01197	HIMB1782	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1782_01199
+HIMB1782-00000000002	Prodigal:2.6	CDS	264639	267068	.	+	0	HIMB1782_01198	HIMB1782	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1782_01199
+HIMB1782-00000000002	Prodigal:2.6	CDS	267077	267598	.	+	0	HIMB1782_01199	HIMB1782	173	OG0001307	NA	NA	NA	NA	NA	HIMB1782_01199
+HIMB1782-00000000002	Prodigal:2.6	CDS	267883	268740	.	-	0	HIMB1782_01200	HIMB1782	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1782_01199
+HIMB1782-00000000002	Prodigal:2.6	CDS	268754	269617	.	-	0	HIMB1782_01201	HIMB1782	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1782_01199
+HIMB1782-00000000002	Prodigal:2.6	CDS	269631	271172	.	-	0	HIMB1782_01202	HIMB1782	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1782_01199
+HIMB1782-00000000002	Prodigal:2.6	CDS	271183	272967	.	+	0	HIMB1782_01203	HIMB1782	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1782_01199
+HIMB1782-00000000002	Prodigal:2.6	CDS	272968	273936	.	+	0	HIMB1782_01204	HIMB1782	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1782_01199
+HIMB1602-00000000094	Prodigal:2.6	CDS	161	682	.	-	0	HIMB1602_00872	HIMB1602	173	OG0001307	NA	NA	NA	NA	NA	HIMB1602_00872
+HIMB1602-00000000094	Prodigal:2.6	CDS	691	3120	.	-	0	HIMB1602_00873	HIMB1602	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1602_00872
+HIMB1602-00000000094	Prodigal:2.6	CDS	3197	3664	.	-	0	HIMB1602_00874	HIMB1602	155	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1602_00872
+HIMB1623-00000000001	Prodigal:2.6	CDS	104006	104974	.	-	0	HIMB1623_00116	HIMB1623	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1623_00121
+HIMB1623-00000000001	Prodigal:2.6	CDS	104974	106758	.	-	0	HIMB1623_00117	HIMB1623	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1623_00121
+HIMB1623-00000000001	Prodigal:2.6	CDS	106769	108310	.	+	0	HIMB1623_00118	HIMB1623	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1623_00121
+HIMB1623-00000000001	Prodigal:2.6	CDS	108324	109187	.	+	0	HIMB1623_00119	HIMB1623	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1623_00121
+HIMB1623-00000000001	Prodigal:2.6	CDS	109201	110058	.	+	0	HIMB1623_00120	HIMB1623	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1623_00121
+HIMB1623-00000000001	Prodigal:2.6	CDS	110345	110866	.	-	0	HIMB1623_00121	HIMB1623	173	OG0001307	NA	NA	NA	NA	NA	HIMB1623_00121
+HIMB1623-00000000001	Prodigal:2.6	CDS	110889	111296	.	-	0	HIMB1623_00122	HIMB1623	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1623_00121
+HIMB1623-00000000001	Prodigal:2.6	CDS	111351	111878	.	+	0	HIMB1623_00123	HIMB1623	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1623_00121
+HIMB1623-00000000001	Prodigal:2.6	CDS	111895	113211	.	+	0	HIMB1623_00124	HIMB1623	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1623_00121
+HIMB1623-00000000001	Prodigal:2.6	CDS	113198	113638	.	-	0	HIMB1623_00125	HIMB1623	146	OG0000854	NA	NA	NA	NA	NA	HIMB1623_00121
+HIMB1623-00000000001	Prodigal:2.6	CDS	113648	114157	.	-	0	HIMB1623_00126	HIMB1623	169	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HIMB1623_00121
+HIMB1709-00000000001	Prodigal:2.6	CDS	425869	426837	.	-	0	HIMB1709_00485	HIMB1709	322	OG0000012	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	HIMB1709_00490
+HIMB1709-00000000001	Prodigal:2.6	CDS	426837	428621	.	-	0	HIMB1709_00486	HIMB1709	594	OG0000062	K22186	xylonate dehydratase [EC:4.2.1.82]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1709_00490
+HIMB1709-00000000001	Prodigal:2.6	CDS	428632	430173	.	+	0	HIMB1709_00487	HIMB1709	513	OG0001333	K26399	arabinonate dehydratase [EC:4.2.1.5]	COG2721	UxaA	Altronate dehydratase	HIMB1709_00490
+HIMB1709-00000000001	Prodigal:2.6	CDS	430187	431050	.	+	0	HIMB1709_00488	HIMB1709	287	OG0001269	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1709_00490
+HIMB1709-00000000001	Prodigal:2.6	CDS	431064	431921	.	+	0	HIMB1709_00489	HIMB1709	285	OG0001261	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	HIMB1709_00490
+HIMB1709-00000000001	Prodigal:2.6	CDS	432208	432729	.	-	0	HIMB1709_00490	HIMB1709	173	OG0001307	NA	NA	NA	NA	NA	HIMB1709_00490
+HIMB1709-00000000001	Prodigal:2.6	CDS	432752	433159	.	-	0	HIMB1709_00491	HIMB1709	135	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1709_00490
+HIMB1709-00000000001	Prodigal:2.6	CDS	433214	433741	.	+	0	HIMB1709_00492	HIMB1709	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1709_00490
+HIMB1709-00000000001	Prodigal:2.6	CDS	433758	435074	.	+	0	HIMB1709_00493	HIMB1709	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1709_00490
+HIMB1709-00000000001	Prodigal:2.6	CDS	435061	435501	.	-	0	HIMB1709_00494	HIMB1709	146	OG0000854	NA	NA	NA	NA	NA	HIMB1709_00490
+HIMB1709-00000000001	Prodigal:2.6	CDS	435511	436020	.	-	0	HIMB1709_00495	HIMB1709	169	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HIMB1709_00490

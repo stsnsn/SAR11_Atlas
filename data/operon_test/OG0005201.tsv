@@ -1,0 +1,23 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP024034.1	Prodigal:2.6	CDS	296529	297878	.	+	0	LSUCC0530_00333	LSUCC0530	449	OG0001639	NA	NA	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	LSUCC0530_00338
+CP024034.1	Prodigal:2.6	CDS	297986	298798	.	+	0	LSUCC0530_00334	LSUCC0530	270	OG0000019	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	LSUCC0530_00338
+CP024034.1	Prodigal:2.6	CDS	298821	299618	.	+	0	LSUCC0530_00335	LSUCC0530	265	OG0000020	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	LSUCC0530_00338
+CP024034.1	Prodigal:2.6	CDS	299611	300516	.	+	0	LSUCC0530_00336	LSUCC0530	301	OG0000088	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	LSUCC0530_00338
+CP024034.1	Prodigal:2.6	CDS	300520	301548	.	+	0	LSUCC0530_00337	LSUCC0530	342	OG0000084	K01998	branched-chain amino acid transport system permease protein	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	LSUCC0530_00338
+CP024034.1	Prodigal:2.6	CDS	301506	301817	.	+	0	LSUCC0530_00338	LSUCC0530	103	OG0005201	NA	NA	NA	NA	NA	LSUCC0530_00338
+CP024034.1	Prodigal:2.6	CDS	301824	303494	.	-	0	LSUCC0530_00339	LSUCC0530	556	OG0000911	K01938	formate--tetrahydrofolate ligase [EC:6.3.4.3]	COG2759	MIS1	Formyltetrahydrofolate synthetase	LSUCC0530_00338
+CP024034.1	Prodigal:2.6	CDS	303683	304780	.	+	0	LSUCC0530_00340	LSUCC0530	365	OG0000337	K00324	H+-translocating NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2 7.1.1.1]	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	LSUCC0530_00338
+CP024034.1	Prodigal:2.6	CDS	304780	305082	.	+	0	LSUCC0530_00341	LSUCC0530	100	OG0000430	NA	NA	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	LSUCC0530_00338
+CP024034.1	Prodigal:2.6	CDS	305079	306485	.	+	0	LSUCC0530_00342	LSUCC0530	468	OG0000399	K00325	H+-translocating NAD(P) transhydrogenase subunit beta [EC:1.6.1.2 7.1.1.1]	COG1282	PntB	NAD/NADP transhydrogenase beta subunit	LSUCC0530_00338
+CP024034.1	Prodigal:2.6	CDS	306491	307285	.	-	0	LSUCC0530_00343	LSUCC0530	264	OG0000866	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	LSUCC0530_00338
+OZ247814.1	Prodigal:2.6	CDS	253252	253341	.	+	0	MKE-138_00293	MKE-138	29	OG0003904	NA	NA	NA	NA	NA	MKE-138_00298
+OZ247814.1	Prodigal:2.6	CDS	253311	253577	.	-	0	MKE-138_00294	MKE-138	88	OG0003024	NA	NA	NA	NA	NA	MKE-138_00298
+OZ247814.1	Prodigal:2.6	CDS	253736	254599	.	-	0	MKE-138_00295	MKE-138	287	OG0003023	NA	NA	NA	NA	NA	MKE-138_00298
+OZ247814.1	Prodigal:2.6	CDS	254678	255355	.	+	0	MKE-138_00296	MKE-138	225	OG0001564	K07167	putative transcriptional regulator	COG3806	ChrR	Anti-sigma factor ChrR, cupin superfamily	MKE-138_00298
+OZ247814.1	Prodigal:2.6	CDS	255540	257210	.	+	0	MKE-138_00297	MKE-138	556	OG0000911	K01938	formate--tetrahydrofolate ligase [EC:6.3.4.3]	COG2759	MIS1	Formyltetrahydrofolate synthetase	MKE-138_00298
+OZ247814.1	Prodigal:2.6	CDS	257219	257530	.	-	0	MKE-138_00298	MKE-138	103	OG0005201	NA	NA	NA	NA	NA	MKE-138_00298
+OZ247814.1	Prodigal:2.6	CDS	257488	258516	.	-	0	MKE-138_00299	MKE-138	342	OG0000084	K01998	branched-chain amino acid transport system permease protein	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	MKE-138_00298
+OZ247814.1	Prodigal:2.6	CDS	258520	259425	.	-	0	MKE-138_00300	MKE-138	301	OG0000088	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	MKE-138_00298
+OZ247814.1	Prodigal:2.6	CDS	259418	260272	.	-	0	MKE-138_00301	MKE-138	284	OG0000020	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	MKE-138_00298
+OZ247814.1	Prodigal:2.6	CDS	260272	261081	.	-	0	MKE-138_00302	MKE-138	269	OG0000019	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	MKE-138_00298
+OZ247814.1	Prodigal:2.6	CDS	261197	262552	.	-	0	MKE-138_00303	MKE-138	451	OG0001639	NA	NA	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	MKE-138_00298

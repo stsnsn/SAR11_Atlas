@@ -1,0 +1,34 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+Ga0255589_11	Aragorn:1.2	tRNA	868037	868113	.	-	.	LSUCC0664_00942	LSUCC0664	NA	NA	NA	NA	NA	NA	NA	LSUCC0664_00946
+Ga0255589_11	barrnap:0.9	rRNA	868225	869705	0	-	.	LSUCC0664_00943	LSUCC0664	NA	NA	NA	NA	NA	NA	NA	LSUCC0664_00946
+Ga0255589_11	Prodigal:2.6	CDS	870106	871377	.	+	0	LSUCC0664_00944	LSUCC0664	423	OG0000827	K19304	murein DD-endopeptidase [EC:3.4.24.-]	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	LSUCC0664_00946
+Ga0255589_11	Prodigal:2.6	CDS	870106	871377	.	+	0	LSUCC0664_00944	LSUCC0664	423	OG0000827	K21472	peptidoglycan LD-endopeptidase LytH [EC:3.4.-.-]	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	LSUCC0664_00946
+Ga0255589_11	Prodigal:2.6	CDS	871374	873185	.	-	0	LSUCC0664_00945	LSUCC0664	603	OG0001442	NA	NA	COG2895	CysN	Sulfate adenylyltransferase subunit 1, EFTu-like GTPase family	LSUCC0664_00946
+Ga0255589_11	Prodigal:2.6	CDS	873185	874078	.	-	0	LSUCC0664_00946	LSUCC0664	297	OG0002664	K00957	sulfate adenylyltransferase subunit 2 [EC:2.7.7.4]	COG0175	CysH	Phosphoadenylyl sulfate (PAPS) reductase/FAD synthetase or related enzyme	LSUCC0664_00946
+Ga0255589_11	Prodigal:2.6	CDS	874110	874538	.	-	0	LSUCC0664_00947	LSUCC0664	142	OG0000839	NA	NA	NA	NA	NA	LSUCC0664_00946
+Ga0255589_11	Prodigal:2.6	CDS	874614	875480	.	-	0	LSUCC0664_00948	LSUCC0664	288	OG0000584	NA	NA	COG2890	HemK	Methylase of polypeptide chain release factors	LSUCC0664_00946
+Ga0255589_11	Prodigal:2.6	CDS	875480	876547	.	-	0	LSUCC0664_00949	LSUCC0664	355	OG0000728	K02835	peptide chain release factor 1	COG0216	PrfA	Protein chain release factor RF1	LSUCC0664_00946
+Ga0255589_11	Prodigal:2.6	CDS	876531	877649	.	-	0	LSUCC0664_00950	LSUCC0664	372	OG0000657	K03526	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase [EC:1.17.7.1 1.17.7.3]	COG0821	IspG	4-hydroxy-3-methylbut-2-enyl diphosphate synthase IspG/GcpE	LSUCC0664_00946
+Ga0255589_11	Prodigal:2.6	CDS	877659	878861	.	-	0	LSUCC0664_00951	LSUCC0664	400	OG0000697	K00928	aspartate kinase [EC:2.7.2.4]	COG0527	MetL1	Aspartate kinase	LSUCC0664_00946
+Ga0182791_11	Prodigal:2.6	CDS	128133	129335	.	+	0	LSUCC0261_00128	LSUCC0261	400	OG0000697	K00928	aspartate kinase [EC:2.7.2.4]	COG0527	MetL1	Aspartate kinase	LSUCC0261_00133
+Ga0182791_11	Prodigal:2.6	CDS	129332	130435	.	+	0	LSUCC0261_00129	LSUCC0261	367	OG0000657	K03526	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase [EC:1.17.7.1 1.17.7.3]	COG0821	IspG	4-hydroxy-3-methylbut-2-enyl diphosphate synthase IspG/GcpE	LSUCC0261_00133
+Ga0182791_11	Prodigal:2.6	CDS	130442	131515	.	+	0	LSUCC0261_00130	LSUCC0261	357	OG0000728	K02835	peptide chain release factor 1	COG0216	PrfA	Protein chain release factor RF1	LSUCC0261_00133
+Ga0182791_11	Prodigal:2.6	CDS	131518	132372	.	+	0	LSUCC0261_00131	LSUCC0261	284	OG0000584	NA	NA	COG2890	HemK	Methylase of polypeptide chain release factors	LSUCC0261_00133
+Ga0182791_11	Prodigal:2.6	CDS	132446	132895	.	+	0	LSUCC0261_00132	LSUCC0261	149	OG0000839	NA	NA	NA	NA	NA	LSUCC0261_00133
+Ga0182791_11	Prodigal:2.6	CDS	132920	133822	.	+	0	LSUCC0261_00133	LSUCC0261	300	OG0002664	K00957	sulfate adenylyltransferase subunit 2 [EC:2.7.7.4]	COG0175	CysH	Phosphoadenylyl sulfate (PAPS) reductase/FAD synthetase or related enzyme	LSUCC0261_00133
+Ga0182791_11	Prodigal:2.6	CDS	133822	135651	.	+	0	LSUCC0261_00134	LSUCC0261	609	OG0001442	NA	NA	COG2895	CysN	Sulfate adenylyltransferase subunit 1, EFTu-like GTPase family	LSUCC0261_00133
+Ga0182791_11	Prodigal:2.6	CDS	135644	136942	.	-	0	LSUCC0261_00135	LSUCC0261	432	OG0000827	K19304	murein DD-endopeptidase [EC:3.4.24.-]	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	LSUCC0261_00133
+Ga0182791_11	Prodigal:2.6	CDS	135644	136942	.	-	0	LSUCC0261_00135	LSUCC0261	432	OG0000827	K21472	peptidoglycan LD-endopeptidase LytH [EC:3.4.-.-]	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	LSUCC0261_00133
+Ga0182791_11	barrnap:0.9	rRNA	137334	138814	0	+	.	LSUCC0261_00136	LSUCC0261	NA	NA	NA	NA	NA	NA	NA	LSUCC0261_00133
+Ga0182791_11	Aragorn:1.2	tRNA	138950	139026	.	+	.	LSUCC0261_00137	LSUCC0261	NA	NA	NA	NA	NA	NA	NA	LSUCC0261_00133
+OZ247816.1	Prodigal:2.6	CDS	164125	165423	.	-	0	ME-20_00194	ME-20	432	OG0000827	K21472	peptidoglycan LD-endopeptidase LytH [EC:3.4.-.-]	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	ME-20_00199
+OZ247816.1	barrnap:0.9	rRNA	165832	167312	0	+	.	ME-20_00195	ME-20	NA	NA	NA	NA	NA	NA	NA	ME-20_00199
+OZ247816.1	Aragorn:1.2	tRNA	167427	167503	.	+	.	ME-20_00196	ME-20	NA	NA	NA	NA	NA	NA	NA	ME-20_00199
+OZ247816.1	Aragorn:1.2	tRNA	167513	167588	.	+	.	ME-20_00197	ME-20	NA	NA	NA	NA	NA	NA	NA	ME-20_00199
+OZ247816.1	barrnap:0.9	rRNA	167712	170463	0	+	.	ME-20_00198	ME-20	NA	NA	NA	NA	NA	NA	NA	ME-20_00199
+OZ247816.1	Prodigal:2.6	CDS	170577	171467	.	+	0	ME-20_00199	ME-20	296	OG0002664	K00957	sulfate adenylyltransferase subunit 2 [EC:2.7.7.4]	COG0175	CysH	Phosphoadenylyl sulfate (PAPS) reductase/FAD synthetase or related enzyme	ME-20_00199
+OZ247816.1	Prodigal:2.6	CDS	171467	173281	.	+	0	ME-20_00200	ME-20	604	OG0001442	NA	NA	COG2895	CysN	Sulfate adenylyltransferase subunit 1, EFTu-like GTPase family	ME-20_00199
+OZ247816.1	Prodigal:2.6	CDS	173845	175134	.	+	0	ME-20_00201	ME-20	429	OG0000039	K02474	UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	ME-20_00199
+OZ247816.1	Prodigal:2.6	CDS	175172	176149	.	+	0	ME-20_00202	ME-20	325	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	ME-20_00199
+OZ247816.1	Prodigal:2.6	CDS	176155	176754	.	+	0	ME-20_00203	ME-20	199	OG0000835	K13018	UDP-2-acetamido-3-amino-2,3-dideoxy-glucuronate N-acetyltransferase [EC:2.3.1.201]	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	ME-20_00199
+OZ247816.1	Prodigal:2.6	CDS	176757	177851	.	+	0	ME-20_00204	ME-20	364	OG0000011	K13017	UDP-2-acetamido-2-deoxy-ribo-hexuluronate aminotransferase [EC:2.6.1.98]	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	ME-20_00199

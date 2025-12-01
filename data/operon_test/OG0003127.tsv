@@ -1,0 +1,18 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP159810.1	Prodigal:2.6	CDS	820993	821931	.	-	0	Uisw_090_00920	Uisw_090	312	NA	NA	NA	NA	NA	NA	Uisw_090_00925
+CP159810.1	Prodigal:2.6	CDS	822131	823429	.	-	0	Uisw_090_00921	Uisw_090	432	OG0000039	K02474	UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	Uisw_090_00925
+CP159810.1	Prodigal:2.6	CDS	823463	824530	.	-	0	Uisw_090_00922	Uisw_090	355	OG0003301	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_090_00925
+CP159810.1	Prodigal:2.6	CDS	824571	825512	.	-	0	Uisw_090_00923	Uisw_090	313	NA	NA	NA	NA	NA	NA	Uisw_090_00925
+CP159810.1	Prodigal:2.6	CDS	825682	826380	.	+	0	Uisw_090_00924	Uisw_090	232	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_090_00925
+CP159810.1	Prodigal:2.6	CDS	826457	827470	.	-	0	Uisw_090_00925	Uisw_090	337	OG0003127	NA	NA	NA	NA	NA	Uisw_090_00925
+CP159810.1	Prodigal:2.6	CDS	827460	828320	.	-	0	Uisw_090_00926	Uisw_090	286	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	Uisw_090_00925
+CP159810.1	Prodigal:2.6	CDS	828379	830031	.	-	0	Uisw_090_00927	Uisw_090	550	NA	NA	NA	COG3391	YncE	DNA-binding beta-propeller fold protein YncE	Uisw_090_00925
+CP159810.1	Prodigal:2.6	CDS	830039	830938	.	-	0	Uisw_090_00928	Uisw_090	299	OG0002412	NA	NA	COG3919	NA	Predicted ATP-dependent carboligase, ATP-grasp superfamily	Uisw_090_00925
+CP159810.1	Prodigal:2.6	CDS	830935	832035	.	-	0	Uisw_090_00929	Uisw_090	366	OG0003527	NA	NA	COG0439	AccC	Biotin carboxylase	Uisw_090_00925
+CP159810.1	Prodigal:2.6	CDS	832049	833377	.	-	0	Uisw_090_00930	Uisw_090	442	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	Uisw_090_00925
+HIMB1456-00000000006	Prodigal:2.6	CDS	96	428	.	+	0	HIMB1456_00941	HIMB1456	110	OG0003127	NA	NA	NA	NA	NA	HIMB1456_00941
+HIMB1456-00000000006	Prodigal:2.6	CDS	418	1476	.	+	0	HIMB1456_00942	HIMB1456	352	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1456_00941
+HIMB1456-00000000006	Prodigal:2.6	CDS	1483	2166	.	+	0	HIMB1456_00943	HIMB1456	227	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1456_00941
+HIMB1456-00000000006	Prodigal:2.6	CDS	2160	2846	.	+	0	HIMB1456_00944	HIMB1456	228	OG0000172	NA	NA	NA	NA	NA	HIMB1456_00941
+HIMB1456-00000000006	Prodigal:2.6	CDS	2847	4574	.	+	0	HIMB1456_00945	HIMB1456	575	OG0000032	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1456_00941
+HIMB1456-00000000006	barrnap:0.9	rRNA	4766	7514	0	-	.	HIMB1456_00946	HIMB1456	NA	NA	NA	NA	NA	NA	NA	HIMB1456_00941

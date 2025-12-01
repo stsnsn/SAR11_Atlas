@@ -1,0 +1,928 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CH724130.1	Prodigal:2.6	CDS	1312358	1312747	.	+	0	HTCC1002_01395	HTCC1002	129	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	HTCC1002_01400
+CH724130.1	Prodigal:2.6	CDS	1312747	1313121	.	+	0	HTCC1002_01396	HTCC1002	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	HTCC1002_01400
+CH724130.1	Prodigal:2.6	CDS	1313105	1313890	.	+	0	HTCC1002_01397	HTCC1002	261	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HTCC1002_01400
+CH724130.1	Prodigal:2.6	CDS	1313890	1314327	.	+	0	HTCC1002_01398	HTCC1002	145	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HTCC1002_01400
+CH724130.1	Prodigal:2.6	CDS	1314328	1314747	.	+	0	HTCC1002_01399	HTCC1002	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HTCC1002_01400
+CH724130.1	Prodigal:2.6	CDS	1314744	1315166	.	+	0	HTCC1002_01400	HTCC1002	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HTCC1002_01400
+CH724130.1	Prodigal:2.6	CDS	1315124	1315321	.	-	0	HTCC1002_01401	HTCC1002	65	OG0001764	NA	NA	NA	NA	NA	HTCC1002_01400
+CH724130.1	Prodigal:2.6	CDS	1315360	1315929	.	+	0	HTCC1002_01402	HTCC1002	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HTCC1002_01400
+CH724130.1	Prodigal:2.6	CDS	1315874	1316374	.	+	0	HTCC1002_01403	HTCC1002	166	OG0000932	NA	NA	NA	NA	NA	HTCC1002_01400
+CH724130.1	Prodigal:2.6	CDS	1316434	1318866	.	+	0	HTCC1002_01404	HTCC1002	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC1002_01400
+CH724130.1	Prodigal:2.6	CDS	1318866	1319615	.	+	0	HTCC1002_01405	HTCC1002	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HTCC1002_01400
+KI421438.1	Prodigal:2.6	CDS	274262	275011	.	-	0	HTCC1013_01096	HTCC1013	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HTCC1013_01101
+KI421438.1	Prodigal:2.6	CDS	275011	277443	.	-	0	HTCC1013_01097	HTCC1013	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC1013_01101
+KI421438.1	Prodigal:2.6	CDS	277503	278003	.	-	0	HTCC1013_01098	HTCC1013	166	OG0000932	NA	NA	NA	NA	NA	HTCC1013_01101
+KI421438.1	Prodigal:2.6	CDS	277948	278517	.	-	0	HTCC1013_01099	HTCC1013	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HTCC1013_01101
+KI421438.1	Prodigal:2.6	CDS	278556	278753	.	+	0	HTCC1013_01100	HTCC1013	65	OG0001764	NA	NA	NA	NA	NA	HTCC1013_01101
+KI421438.1	Prodigal:2.6	CDS	278711	279133	.	-	0	HTCC1013_01101	HTCC1013	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HTCC1013_01101
+KI421438.1	Prodigal:2.6	CDS	279130	279549	.	-	0	HTCC1013_01102	HTCC1013	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HTCC1013_01101
+KI421438.1	Prodigal:2.6	CDS	279550	279987	.	-	0	HTCC1013_01103	HTCC1013	145	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HTCC1013_01101
+KI421438.1	Prodigal:2.6	CDS	279987	280772	.	-	0	HTCC1013_01104	HTCC1013	261	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HTCC1013_01101
+KI421438.1	Prodigal:2.6	CDS	280756	281130	.	-	0	HTCC1013_01105	HTCC1013	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	HTCC1013_01101
+KI421438.1	Prodigal:2.6	CDS	281130	281537	.	-	0	HTCC1013_01106	HTCC1013	135	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	HTCC1013_01101
+CP000084.1	Prodigal:2.6	CDS	1192772	1193521	.	-	0	HTCC1062_01264	HTCC1062	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HTCC1062_01269
+CP000084.1	Prodigal:2.6	CDS	1193521	1195953	.	-	0	HTCC1062_01265	HTCC1062	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC1062_01269
+CP000084.1	Prodigal:2.6	CDS	1196013	1196513	.	-	0	HTCC1062_01266	HTCC1062	166	OG0000932	NA	NA	NA	NA	NA	HTCC1062_01269
+CP000084.1	Prodigal:2.6	CDS	1196458	1197027	.	-	0	HTCC1062_01267	HTCC1062	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HTCC1062_01269
+CP000084.1	Prodigal:2.6	CDS	1197066	1197263	.	+	0	HTCC1062_01268	HTCC1062	65	OG0001764	NA	NA	NA	NA	NA	HTCC1062_01269
+CP000084.1	Prodigal:2.6	CDS	1197221	1197643	.	-	0	HTCC1062_01269	HTCC1062	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HTCC1062_01269
+CP000084.1	Prodigal:2.6	CDS	1197640	1198059	.	-	0	HTCC1062_01270	HTCC1062	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HTCC1062_01269
+CP000084.1	Prodigal:2.6	CDS	1198060	1198497	.	-	0	HTCC1062_01271	HTCC1062	145	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HTCC1062_01269
+CP000084.1	Prodigal:2.6	CDS	1198497	1199282	.	-	0	HTCC1062_01272	HTCC1062	261	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HTCC1062_01269
+CP000084.1	Prodigal:2.6	CDS	1199266	1199640	.	-	0	HTCC1062_01273	HTCC1062	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	HTCC1062_01269
+CP000084.1	Prodigal:2.6	CDS	1199640	1200047	.	-	0	HTCC1062_01274	HTCC1062	135	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	HTCC1062_01269
+ARVY01000001.1	Prodigal:2.6	CDS	1011514	1012263	.	-	0	HTCC1040_01101	HTCC1040	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HTCC1040_01106
+ARVY01000001.1	Prodigal:2.6	CDS	1012263	1014695	.	-	0	HTCC1040_01102	HTCC1040	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC1040_01106
+ARVY01000001.1	Prodigal:2.6	CDS	1014755	1015255	.	-	0	HTCC1040_01103	HTCC1040	166	OG0000932	NA	NA	NA	NA	NA	HTCC1040_01106
+ARVY01000001.1	Prodigal:2.6	CDS	1015200	1015769	.	-	0	HTCC1040_01104	HTCC1040	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HTCC1040_01106
+ARVY01000001.1	Prodigal:2.6	CDS	1015808	1016005	.	+	0	HTCC1040_01105	HTCC1040	65	OG0001764	NA	NA	NA	NA	NA	HTCC1040_01106
+ARVY01000001.1	Prodigal:2.6	CDS	1015963	1016385	.	-	0	HTCC1040_01106	HTCC1040	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HTCC1040_01106
+ARVY01000001.1	Prodigal:2.6	CDS	1016382	1016801	.	-	0	HTCC1040_01107	HTCC1040	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HTCC1040_01106
+ARVY01000001.1	Prodigal:2.6	CDS	1016802	1017239	.	-	0	HTCC1040_01108	HTCC1040	145	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HTCC1040_01106
+ARVY01000001.1	Prodigal:2.6	CDS	1017239	1018024	.	-	0	HTCC1040_01109	HTCC1040	261	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HTCC1040_01106
+ARVY01000001.1	Prodigal:2.6	CDS	1018008	1018382	.	-	0	HTCC1040_01110	HTCC1040	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	HTCC1040_01106
+ARVY01000001.1	Prodigal:2.6	CDS	1018382	1018771	.	-	0	HTCC1040_01111	HTCC1040	129	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	HTCC1040_01106
+CP159821.1	Prodigal:2.6	CDS	911893	912642	.	-	0	Uisw_101_00985	Uisw_101	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	Uisw_101_00990
+CP159821.1	Prodigal:2.6	CDS	912642	915074	.	-	0	Uisw_101_00986	Uisw_101	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_101_00990
+CP159821.1	Prodigal:2.6	CDS	915134	915637	.	-	0	Uisw_101_00987	Uisw_101	167	OG0000932	NA	NA	NA	NA	NA	Uisw_101_00990
+CP159821.1	Prodigal:2.6	CDS	915579	916148	.	-	0	Uisw_101_00988	Uisw_101	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	Uisw_101_00990
+CP159821.1	Prodigal:2.6	CDS	916183	916380	.	+	0	Uisw_101_00989	Uisw_101	65	OG0001764	NA	NA	NA	NA	NA	Uisw_101_00990
+CP159821.1	Prodigal:2.6	CDS	916338	916760	.	-	0	Uisw_101_00990	Uisw_101	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_101_00990
+CP159821.1	Prodigal:2.6	CDS	916757	917176	.	-	0	Uisw_101_00991	Uisw_101	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_101_00990
+CP159821.1	Prodigal:2.6	CDS	917177	917614	.	-	0	Uisw_101_00992	Uisw_101	145	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	Uisw_101_00990
+CP159821.1	Prodigal:2.6	CDS	917614	918399	.	-	0	Uisw_101_00993	Uisw_101	261	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	Uisw_101_00990
+CP159821.1	Prodigal:2.6	CDS	918383	918757	.	-	0	Uisw_101_00994	Uisw_101	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	Uisw_101_00990
+CP159821.1	Prodigal:2.6	CDS	918760	919164	.	-	0	Uisw_101_00995	Uisw_101	134	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	Uisw_101_00990
+CP159820.1	Prodigal:2.6	CDS	918744	919493	.	-	0	Uisw_104_01017	Uisw_104	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	Uisw_104_01022
+CP159820.1	Prodigal:2.6	CDS	919493	921925	.	-	0	Uisw_104_01018	Uisw_104	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_104_01022
+CP159820.1	Prodigal:2.6	CDS	921985	922488	.	-	0	Uisw_104_01019	Uisw_104	167	OG0000932	NA	NA	NA	NA	NA	Uisw_104_01022
+CP159820.1	Prodigal:2.6	CDS	922430	922999	.	-	0	Uisw_104_01020	Uisw_104	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	Uisw_104_01022
+CP159820.1	Prodigal:2.6	CDS	923034	923231	.	+	0	Uisw_104_01021	Uisw_104	65	OG0001764	NA	NA	NA	NA	NA	Uisw_104_01022
+CP159820.1	Prodigal:2.6	CDS	923189	923611	.	-	0	Uisw_104_01022	Uisw_104	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_104_01022
+CP159820.1	Prodigal:2.6	CDS	923608	924027	.	-	0	Uisw_104_01023	Uisw_104	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_104_01022
+CP159820.1	Prodigal:2.6	CDS	924028	924465	.	-	0	Uisw_104_01024	Uisw_104	145	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	Uisw_104_01022
+CP159820.1	Prodigal:2.6	CDS	924465	925250	.	-	0	Uisw_104_01025	Uisw_104	261	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	Uisw_104_01022
+CP159820.1	Prodigal:2.6	CDS	925234	925608	.	-	0	Uisw_104_01026	Uisw_104	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	Uisw_104_01022
+CP159820.1	Prodigal:2.6	CDS	925611	926015	.	-	0	Uisw_104_01027	Uisw_104	134	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	Uisw_104_01022
+CP159823.1	Prodigal:2.6	CDS	883919	884668	.	-	0	Uisw_094_00998	Uisw_094	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	Uisw_094_01003
+CP159823.1	Prodigal:2.6	CDS	884668	887100	.	-	0	Uisw_094_00999	Uisw_094	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_094_01003
+CP159823.1	Prodigal:2.6	CDS	887160	887663	.	-	0	Uisw_094_01000	Uisw_094	167	OG0000932	NA	NA	NA	NA	NA	Uisw_094_01003
+CP159823.1	Prodigal:2.6	CDS	887605	888174	.	-	0	Uisw_094_01001	Uisw_094	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	Uisw_094_01003
+CP159823.1	Prodigal:2.6	CDS	888209	888406	.	+	0	Uisw_094_01002	Uisw_094	65	OG0001764	NA	NA	NA	NA	NA	Uisw_094_01003
+CP159823.1	Prodigal:2.6	CDS	888364	888786	.	-	0	Uisw_094_01003	Uisw_094	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_094_01003
+CP159823.1	Prodigal:2.6	CDS	888783	889202	.	-	0	Uisw_094_01004	Uisw_094	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_094_01003
+CP159823.1	Prodigal:2.6	CDS	889203	889640	.	-	0	Uisw_094_01005	Uisw_094	145	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	Uisw_094_01003
+CP159823.1	Prodigal:2.6	CDS	889640	890425	.	-	0	Uisw_094_01006	Uisw_094	261	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	Uisw_094_01003
+CP159823.1	Prodigal:2.6	CDS	890409	890783	.	-	0	Uisw_094_01007	Uisw_094	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	Uisw_094_01003
+CP159823.1	Prodigal:2.6	CDS	890783	891172	.	-	0	Uisw_094_01008	Uisw_094	129	OG0001022	NA	NA	COG0529	CysC	Adenylylsulfate kinase or related kinase	Uisw_094_01003
+CP159812.1	Prodigal:2.6	CDS	876748	877497	.	-	0	Uisw_136_00966	Uisw_136	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	Uisw_136_00971
+CP159812.1	Prodigal:2.6	CDS	877497	879929	.	-	0	Uisw_136_00967	Uisw_136	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_136_00971
+CP159812.1	Prodigal:2.6	CDS	879989	880492	.	-	0	Uisw_136_00968	Uisw_136	167	OG0000932	NA	NA	NA	NA	NA	Uisw_136_00971
+CP159812.1	Prodigal:2.6	CDS	880434	881003	.	-	0	Uisw_136_00969	Uisw_136	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	Uisw_136_00971
+CP159812.1	Prodigal:2.6	CDS	881038	881235	.	+	0	Uisw_136_00970	Uisw_136	65	OG0001764	NA	NA	NA	NA	NA	Uisw_136_00971
+CP159812.1	Prodigal:2.6	CDS	881193	881615	.	-	0	Uisw_136_00971	Uisw_136	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_136_00971
+CP159812.1	Prodigal:2.6	CDS	881612	882031	.	-	0	Uisw_136_00972	Uisw_136	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_136_00971
+CP159812.1	Prodigal:2.6	CDS	882032	882469	.	-	0	Uisw_136_00973	Uisw_136	145	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	Uisw_136_00971
+CP159812.1	Prodigal:2.6	CDS	882469	883254	.	-	0	Uisw_136_00974	Uisw_136	261	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	Uisw_136_00971
+CP159812.1	Prodigal:2.6	CDS	883238	883612	.	-	0	Uisw_136_00975	Uisw_136	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	Uisw_136_00971
+CP159812.1	Prodigal:2.6	CDS	883612	884019	.	-	0	Uisw_136_00976	Uisw_136	135	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	Uisw_136_00971
+CP159809.1	Prodigal:2.6	CDS	365948	366352	.	+	0	Uisw_113_00378	Uisw_113	134	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	Uisw_113_00383
+CP159809.1	Prodigal:2.6	CDS	366355	366729	.	+	0	Uisw_113_00379	Uisw_113	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	Uisw_113_00383
+CP159809.1	Prodigal:2.6	CDS	366713	367498	.	+	0	Uisw_113_00380	Uisw_113	261	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	Uisw_113_00383
+CP159809.1	Prodigal:2.6	CDS	367498	367935	.	+	0	Uisw_113_00381	Uisw_113	145	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	Uisw_113_00383
+CP159809.1	Prodigal:2.6	CDS	367936	368355	.	+	0	Uisw_113_00382	Uisw_113	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_113_00383
+CP159809.1	Prodigal:2.6	CDS	368352	368774	.	+	0	Uisw_113_00383	Uisw_113	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_113_00383
+CP159809.1	Prodigal:2.6	CDS	368732	368929	.	-	0	Uisw_113_00384	Uisw_113	65	OG0001764	NA	NA	NA	NA	NA	Uisw_113_00383
+CP159809.1	Prodigal:2.6	CDS	368964	369533	.	+	0	Uisw_113_00385	Uisw_113	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	Uisw_113_00383
+CP159809.1	Prodigal:2.6	CDS	369475	369978	.	+	0	Uisw_113_00386	Uisw_113	167	OG0000932	NA	NA	NA	NA	NA	Uisw_113_00383
+CP159809.1	Prodigal:2.6	CDS	370038	372470	.	+	0	Uisw_113_00387	Uisw_113	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_113_00383
+CP159809.1	Prodigal:2.6	CDS	372470	373219	.	+	0	Uisw_113_00388	Uisw_113	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	Uisw_113_00383
+CP159818.1	Prodigal:2.6	CDS	857433	858386	.	-	0	Uisw_114_01036	Uisw_114	317	OG0000907	K03522	electron transfer flavoprotein alpha subunit	COG2025	FixB	Electron transfer flavoprotein, alpha subunit FixB	Uisw_114_01041
+CP159818.1	Prodigal:2.6	CDS	858386	859135	.	-	0	Uisw_114_01037	Uisw_114	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	Uisw_114_01041
+CP159818.1	Prodigal:2.6	CDS	859135	861567	.	-	0	Uisw_114_01038	Uisw_114	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_114_01041
+CP159818.1	Prodigal:2.6	CDS	861628	862641	.	-	0	Uisw_114_01039	Uisw_114	337	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	Uisw_114_01041
+CP159818.1	Prodigal:2.6	CDS	862676	862873	.	+	0	Uisw_114_01040	Uisw_114	65	OG0001764	NA	NA	NA	NA	NA	Uisw_114_01041
+CP159818.1	Prodigal:2.6	CDS	862831	863253	.	-	0	Uisw_114_01041	Uisw_114	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_114_01041
+CP159818.1	Prodigal:2.6	CDS	863250	863669	.	-	0	Uisw_114_01042	Uisw_114	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_114_01041
+CP159818.1	Prodigal:2.6	CDS	863670	864107	.	-	0	Uisw_114_01043	Uisw_114	145	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	Uisw_114_01041
+CP159818.1	Prodigal:2.6	CDS	864107	864892	.	-	0	Uisw_114_01044	Uisw_114	261	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	Uisw_114_01041
+CP159818.1	Prodigal:2.6	CDS	864876	865250	.	-	0	Uisw_114_01045	Uisw_114	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	Uisw_114_01041
+CP159818.1	Prodigal:2.6	CDS	865250	865639	.	-	0	Uisw_114_01046	Uisw_114	129	OG0001022	NA	NA	COG0529	CysC	Adenylylsulfate kinase or related kinase	Uisw_114_01041
+CP159810.1	Prodigal:2.6	CDS	402927	403316	.	+	0	Uisw_090_00437	Uisw_090	129	OG0001022	NA	NA	COG0529	CysC	Adenylylsulfate kinase or related kinase	Uisw_090_00442
+CP159810.1	Prodigal:2.6	CDS	403316	403690	.	+	0	Uisw_090_00438	Uisw_090	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	Uisw_090_00442
+CP159810.1	Prodigal:2.6	CDS	403674	404459	.	+	0	Uisw_090_00439	Uisw_090	261	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	Uisw_090_00442
+CP159810.1	Prodigal:2.6	CDS	404459	404896	.	+	0	Uisw_090_00440	Uisw_090	145	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	Uisw_090_00442
+CP159810.1	Prodigal:2.6	CDS	404897	405316	.	+	0	Uisw_090_00441	Uisw_090	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_090_00442
+CP159810.1	Prodigal:2.6	CDS	405313	405735	.	+	0	Uisw_090_00442	Uisw_090	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_090_00442
+CP159810.1	Prodigal:2.6	CDS	405693	405890	.	-	0	Uisw_090_00443	Uisw_090	65	OG0001764	NA	NA	NA	NA	NA	Uisw_090_00442
+CP159810.1	Prodigal:2.6	CDS	405925	406494	.	+	0	Uisw_090_00444	Uisw_090	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	Uisw_090_00442
+CP159810.1	Prodigal:2.6	CDS	406436	406939	.	+	0	Uisw_090_00445	Uisw_090	167	OG0000932	NA	NA	NA	NA	NA	Uisw_090_00442
+CP159810.1	Prodigal:2.6	CDS	406999	409431	.	+	0	Uisw_090_00446	Uisw_090	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_090_00442
+CP159810.1	Prodigal:2.6	CDS	409431	410180	.	+	0	Uisw_090_00447	Uisw_090	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	Uisw_090_00442
+CP159815.1	Prodigal:2.6	CDS	329117	329506	.	+	0	Uisw_127_00342	Uisw_127	129	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	Uisw_127_00347
+CP159815.1	Prodigal:2.6	CDS	329506	329880	.	+	0	Uisw_127_00343	Uisw_127	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	Uisw_127_00347
+CP159815.1	Prodigal:2.6	CDS	329873	330649	.	+	0	Uisw_127_00344	Uisw_127	258	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	Uisw_127_00347
+CP159815.1	Prodigal:2.6	CDS	330649	331086	.	+	0	Uisw_127_00345	Uisw_127	145	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	Uisw_127_00347
+CP159815.1	Prodigal:2.6	CDS	331087	331506	.	+	0	Uisw_127_00346	Uisw_127	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_127_00347
+CP159815.1	Prodigal:2.6	CDS	331503	331925	.	+	0	Uisw_127_00347	Uisw_127	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	Uisw_127_00347
+CP159815.1	Prodigal:2.6	CDS	331883	332080	.	-	0	Uisw_127_00348	Uisw_127	65	OG0001764	NA	NA	NA	NA	NA	Uisw_127_00347
+CP159815.1	Prodigal:2.6	CDS	332115	332684	.	+	0	Uisw_127_00349	Uisw_127	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	Uisw_127_00347
+CP159815.1	Prodigal:2.6	CDS	332626	333129	.	+	0	Uisw_127_00350	Uisw_127	167	OG0000932	NA	NA	NA	NA	NA	Uisw_127_00347
+CP159815.1	Prodigal:2.6	CDS	333189	335621	.	+	0	Uisw_127_00351	Uisw_127	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_127_00347
+CP159815.1	Prodigal:2.6	CDS	335621	336370	.	+	0	Uisw_127_00352	Uisw_127	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	Uisw_127_00347
+HIMB1412-00000000001	Prodigal:2.6	CDS	1125104	1125853	.	-	0	HIMB1412_01209	HIMB1412	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1412_01214
+HIMB1412-00000000001	Prodigal:2.6	CDS	1125853	1128285	.	-	0	HIMB1412_01210	HIMB1412	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1412_01214
+HIMB1412-00000000001	Prodigal:2.6	CDS	1128343	1128819	.	-	0	HIMB1412_01211	HIMB1412	158	OG0000932	NA	NA	NA	NA	NA	HIMB1412_01214
+HIMB1412-00000000001	Prodigal:2.6	CDS	1128788	1129357	.	-	0	HIMB1412_01212	HIMB1412	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1412_01214
+HIMB1412-00000000001	Prodigal:2.6	CDS	1129387	1129584	.	+	0	HIMB1412_01213	HIMB1412	65	OG0001764	NA	NA	NA	NA	NA	HIMB1412_01214
+HIMB1412-00000000001	Prodigal:2.6	CDS	1129542	1129964	.	-	0	HIMB1412_01214	HIMB1412	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1412_01214
+HIMB1412-00000000001	Prodigal:2.6	CDS	1129961	1130380	.	-	0	HIMB1412_01215	HIMB1412	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1412_01214
+HIMB1412-00000000001	Prodigal:2.6	CDS	1130380	1130820	.	-	0	HIMB1412_01216	HIMB1412	146	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1412_01214
+HIMB1412-00000000001	Prodigal:2.6	CDS	1130820	1131593	.	-	0	HIMB1412_01217	HIMB1412	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1412_01214
+HIMB1412-00000000001	Prodigal:2.6	CDS	1131642	1132745	.	-	0	HIMB1412_01218	HIMB1412	367	OG0000957	K21624	cis-L-3-hydroxyproline dehydratase [EC:4.2.1.171]	COG4948	RspA	L-alanine-DL-glutamate epimerase or related enzyme of enolase superfamily	HIMB1412_01214
+HIMB1412-00000000001	Prodigal:2.6	CDS	1132742	1133962	.	-	0	HIMB1412_01219	HIMB1412	406	OG0001528	K00441	coenzyme F420 hydrogenase subunit beta [EC:1.12.98.1]	COG1035	FrhB	Coenzyme F420-reducing hydrogenase, beta subunit	HIMB1412_01214
+HIMB1420-00000000002	Prodigal:2.6	CDS	437843	438592	.	-	0	HIMB1420_01219	HIMB1420	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1420_01224
+HIMB1420-00000000002	Prodigal:2.6	CDS	438592	441024	.	-	0	HIMB1420_01220	HIMB1420	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1420_01224
+HIMB1420-00000000002	Prodigal:2.6	CDS	441083	441556	.	-	0	HIMB1420_01221	HIMB1420	157	OG0000932	NA	NA	NA	NA	NA	HIMB1420_01224
+HIMB1420-00000000002	Prodigal:2.6	CDS	441528	442097	.	-	0	HIMB1420_01222	HIMB1420	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1420_01224
+HIMB1420-00000000002	Prodigal:2.6	CDS	442127	442324	.	+	0	HIMB1420_01223	HIMB1420	65	OG0001764	NA	NA	NA	NA	NA	HIMB1420_01224
+HIMB1420-00000000002	Prodigal:2.6	CDS	442282	442704	.	-	0	HIMB1420_01224	HIMB1420	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1420_01224
+HIMB1420-00000000002	Prodigal:2.6	CDS	442701	443120	.	-	0	HIMB1420_01225	HIMB1420	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1420_01224
+HIMB1420-00000000002	Prodigal:2.6	CDS	443120	443560	.	-	0	HIMB1420_01226	HIMB1420	146	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1420_01224
+HIMB1420-00000000002	Prodigal:2.6	CDS	443560	444333	.	-	0	HIMB1420_01227	HIMB1420	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1420_01224
+HIMB1420-00000000002	Prodigal:2.6	CDS	444382	445485	.	-	0	HIMB1420_01228	HIMB1420	367	OG0000957	K21624	cis-L-3-hydroxyproline dehydratase [EC:4.2.1.171]	COG4948	RspA	L-alanine-DL-glutamate epimerase or related enzyme of enolase superfamily	HIMB1420_01224
+HIMB1420-00000000002	Prodigal:2.6	CDS	445482	446702	.	-	0	HIMB1420_01229	HIMB1420	406	OG0001528	K00441	coenzyme F420 hydrogenase subunit beta [EC:1.12.98.1]	COG1035	FrhB	Coenzyme F420-reducing hydrogenase, beta subunit	HIMB1420_01224
+HIMB1427-00000000001	Prodigal:2.6	CDS	77691	78440	.	-	0	HIMB1427_00064	HIMB1427	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1427_00069
+HIMB1427-00000000001	Prodigal:2.6	CDS	78440	80872	.	-	0	HIMB1427_00065	HIMB1427	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1427_00069
+HIMB1427-00000000001	Prodigal:2.6	CDS	80930	81382	.	-	0	HIMB1427_00066	HIMB1427	150	OG0000932	NA	NA	NA	NA	NA	HIMB1427_00069
+HIMB1427-00000000001	Prodigal:2.6	CDS	81375	81944	.	-	0	HIMB1427_00067	HIMB1427	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1427_00069
+HIMB1427-00000000001	Prodigal:2.6	CDS	81974	82171	.	+	0	HIMB1427_00068	HIMB1427	65	OG0001764	NA	NA	NA	NA	NA	HIMB1427_00069
+HIMB1427-00000000001	Prodigal:2.6	CDS	82129	82551	.	-	0	HIMB1427_00069	HIMB1427	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1427_00069
+HIMB1427-00000000001	Prodigal:2.6	CDS	82548	82967	.	-	0	HIMB1427_00070	HIMB1427	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1427_00069
+HIMB1427-00000000001	Prodigal:2.6	CDS	82967	83407	.	-	0	HIMB1427_00071	HIMB1427	146	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1427_00069
+HIMB1427-00000000001	Prodigal:2.6	CDS	83407	84180	.	-	0	HIMB1427_00072	HIMB1427	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1427_00069
+HIMB1427-00000000001	Prodigal:2.6	CDS	84229	85332	.	-	0	HIMB1427_00073	HIMB1427	367	OG0000957	K21624	cis-L-3-hydroxyproline dehydratase [EC:4.2.1.171]	COG4948	RspA	L-alanine-DL-glutamate epimerase or related enzyme of enolase superfamily	HIMB1427_00069
+HIMB1427-00000000001	Prodigal:2.6	CDS	85329	86549	.	-	0	HIMB1427_00074	HIMB1427	406	OG0001528	K00441	coenzyme F420 hydrogenase subunit beta [EC:1.12.98.1]	COG1035	FrhB	Coenzyme F420-reducing hydrogenase, beta subunit	HIMB1427_00069
+HIMB1463-00000000001	Prodigal:2.6	CDS	13908	14657	.	-	0	HIMB1463_00018	HIMB1463	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1463_00023
+HIMB1463-00000000001	Prodigal:2.6	CDS	14657	17089	.	-	0	HIMB1463_00019	HIMB1463	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1463_00023
+HIMB1463-00000000001	Prodigal:2.6	CDS	17148	17561	.	-	0	HIMB1463_00020	HIMB1463	137	OG0000932	NA	NA	NA	NA	NA	HIMB1463_00023
+HIMB1463-00000000001	Prodigal:2.6	CDS	17593	18162	.	-	0	HIMB1463_00021	HIMB1463	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1463_00023
+HIMB1463-00000000001	Prodigal:2.6	CDS	18192	18389	.	+	0	HIMB1463_00022	HIMB1463	65	OG0001764	NA	NA	NA	NA	NA	HIMB1463_00023
+HIMB1463-00000000001	Prodigal:2.6	CDS	18347	18769	.	-	0	HIMB1463_00023	HIMB1463	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1463_00023
+HIMB1463-00000000001	Prodigal:2.6	CDS	18766	19185	.	-	0	HIMB1463_00024	HIMB1463	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1463_00023
+HIMB1463-00000000001	Prodigal:2.6	CDS	19185	19625	.	-	0	HIMB1463_00025	HIMB1463	146	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1463_00023
+HIMB1463-00000000001	Prodigal:2.6	CDS	19625	20398	.	-	0	HIMB1463_00026	HIMB1463	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1463_00023
+HIMB1463-00000000001	Prodigal:2.6	CDS	20447	21550	.	-	0	HIMB1463_00027	HIMB1463	367	OG0000957	K21624	cis-L-3-hydroxyproline dehydratase [EC:4.2.1.171]	COG4948	RspA	L-alanine-DL-glutamate epimerase or related enzyme of enolase superfamily	HIMB1463_00023
+HIMB1463-00000000001	Prodigal:2.6	CDS	21547	22767	.	-	0	HIMB1463_00028	HIMB1463	406	OG0001528	K00441	coenzyme F420 hydrogenase subunit beta [EC:1.12.98.1]	COG1035	FrhB	Coenzyme F420-reducing hydrogenase, beta subunit	HIMB1463_00023
+HIMB1564-00000000001	Prodigal:2.6	CDS	349562	350782	.	+	0	HIMB1564_00362	HIMB1564	406	OG0001528	K00441	coenzyme F420 hydrogenase subunit beta [EC:1.12.98.1]	COG1035	FrhB	Coenzyme F420-reducing hydrogenase, beta subunit	HIMB1564_00367
+HIMB1564-00000000001	Prodigal:2.6	CDS	350779	351882	.	+	0	HIMB1564_00363	HIMB1564	367	OG0000957	K21624	cis-L-3-hydroxyproline dehydratase [EC:4.2.1.171]	COG4948	RspA	L-alanine-DL-glutamate epimerase or related enzyme of enolase superfamily	HIMB1564_00367
+HIMB1564-00000000001	Prodigal:2.6	CDS	351931	352704	.	+	0	HIMB1564_00364	HIMB1564	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1564_00367
+HIMB1564-00000000001	Prodigal:2.6	CDS	352704	353144	.	+	0	HIMB1564_00365	HIMB1564	146	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1564_00367
+HIMB1564-00000000001	Prodigal:2.6	CDS	353144	353563	.	+	0	HIMB1564_00366	HIMB1564	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1564_00367
+HIMB1564-00000000001	Prodigal:2.6	CDS	353560	353982	.	+	0	HIMB1564_00367	HIMB1564	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1564_00367
+HIMB1564-00000000001	Prodigal:2.6	CDS	353940	354137	.	-	0	HIMB1564_00368	HIMB1564	65	OG0001764	NA	NA	NA	NA	NA	HIMB1564_00367
+HIMB1564-00000000001	Prodigal:2.6	CDS	354167	354736	.	+	0	HIMB1564_00369	HIMB1564	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1564_00367
+HIMB1564-00000000001	Prodigal:2.6	CDS	354708	355181	.	+	0	HIMB1564_00370	HIMB1564	157	OG0000932	NA	NA	NA	NA	NA	HIMB1564_00367
+HIMB1564-00000000001	Prodigal:2.6	CDS	355240	357672	.	+	0	HIMB1564_00371	HIMB1564	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1564_00367
+HIMB1564-00000000001	Prodigal:2.6	CDS	357672	358421	.	+	0	HIMB1564_00372	HIMB1564	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1564_00367
+HIMB1520-00000000001	Prodigal:2.6	CDS	1256846	1257253	.	+	0	HIMB1520_01359	HIMB1520	135	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	HIMB1520_01364
+HIMB1520-00000000001	Prodigal:2.6	CDS	1257253	1257627	.	+	0	HIMB1520_01360	HIMB1520	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	HIMB1520_01364
+HIMB1520-00000000001	Prodigal:2.6	CDS	1257638	1258411	.	+	0	HIMB1520_01361	HIMB1520	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1520_01364
+HIMB1520-00000000001	Prodigal:2.6	CDS	1258411	1258851	.	+	0	HIMB1520_01362	HIMB1520	146	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1520_01364
+HIMB1520-00000000001	Prodigal:2.6	CDS	1258851	1259270	.	+	0	HIMB1520_01363	HIMB1520	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1520_01364
+HIMB1520-00000000001	Prodigal:2.6	CDS	1259267	1259689	.	+	0	HIMB1520_01364	HIMB1520	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1520_01364
+HIMB1520-00000000001	Prodigal:2.6	CDS	1259647	1259844	.	-	0	HIMB1520_01365	HIMB1520	65	OG0001764	NA	NA	NA	NA	NA	HIMB1520_01364
+HIMB1520-00000000001	Prodigal:2.6	CDS	1259874	1260443	.	+	0	HIMB1520_01366	HIMB1520	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1520_01364
+HIMB1520-00000000001	Prodigal:2.6	CDS	1260475	1260888	.	+	0	HIMB1520_01367	HIMB1520	137	OG0000932	NA	NA	NA	NA	NA	HIMB1520_01364
+HIMB1520-00000000001	Prodigal:2.6	CDS	1260947	1263379	.	+	0	HIMB1520_01368	HIMB1520	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1520_01364
+HIMB1520-00000000001	Prodigal:2.6	CDS	1263379	1264128	.	+	0	HIMB1520_01369	HIMB1520	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1520_01364
+CP003809.1	Prodigal:2.6	CDS	816202	816951	.	-	0	HIMB5_00891	HIMB5	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB5_00896
+CP003809.1	Prodigal:2.6	CDS	816951	819383	.	-	0	HIMB5_00892	HIMB5	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB5_00896
+CP003809.1	Prodigal:2.6	CDS	819442	819915	.	-	0	HIMB5_00893	HIMB5	157	OG0000932	NA	NA	NA	NA	NA	HIMB5_00896
+CP003809.1	Prodigal:2.6	CDS	819887	820456	.	-	0	HIMB5_00894	HIMB5	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB5_00896
+CP003809.1	Prodigal:2.6	CDS	820486	820683	.	+	0	HIMB5_00895	HIMB5	65	OG0001764	NA	NA	NA	NA	NA	HIMB5_00896
+CP003809.1	Prodigal:2.6	CDS	820641	821063	.	-	0	HIMB5_00896	HIMB5	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB5_00896
+CP003809.1	Prodigal:2.6	CDS	821060	821479	.	-	0	HIMB5_00897	HIMB5	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB5_00896
+CP003809.1	Prodigal:2.6	CDS	821479	821919	.	-	0	HIMB5_00898	HIMB5	146	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB5_00896
+CP003809.1	Prodigal:2.6	CDS	821919	822692	.	-	0	HIMB5_00899	HIMB5	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB5_00896
+CP003809.1	Prodigal:2.6	CDS	822741	823844	.	-	0	HIMB5_00900	HIMB5	367	OG0000957	K21624	cis-L-3-hydroxyproline dehydratase [EC:4.2.1.171]	COG4948	RspA	L-alanine-DL-glutamate epimerase or related enzyme of enolase superfamily	HIMB5_00896
+CP003809.1	Prodigal:2.6	CDS	823841	825061	.	-	0	HIMB5_00901	HIMB5	406	OG0001528	K00441	coenzyme F420 hydrogenase subunit beta [EC:1.12.98.1]	COG1035	FrhB	Coenzyme F420-reducing hydrogenase, beta subunit	HIMB5_00896
+LT840186.1	Prodigal:2.6	CDS	283524	283931	.	+	0	HIMB1321_00304	HIMB1321	135	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	HIMB1321_00309
+LT840186.1	Prodigal:2.6	CDS	284047	284304	.	+	0	HIMB1321_00305	HIMB1321	85	OG0000887	NA	NA	NA	NA	NA	HIMB1321_00309
+LT840186.1	Prodigal:2.6	CDS	284321	285094	.	+	0	HIMB1321_00306	HIMB1321	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1321_00309
+LT840186.1	Prodigal:2.6	CDS	285098	285532	.	+	0	HIMB1321_00307	HIMB1321	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1321_00309
+LT840186.1	Prodigal:2.6	CDS	285536	285955	.	+	0	HIMB1321_00308	HIMB1321	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1321_00309
+LT840186.1	Prodigal:2.6	CDS	285952	286362	.	+	0	HIMB1321_00309	HIMB1321	136	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1321_00309
+LT840186.1	Prodigal:2.6	CDS	286407	288017	.	+	0	HIMB1321_00310	HIMB1321	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1321_00309
+LT840186.1	Prodigal:2.6	CDS	288057	288626	.	+	0	HIMB1321_00311	HIMB1321	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1321_00309
+LT840186.1	Prodigal:2.6	CDS	288571	289071	.	+	0	HIMB1321_00312	HIMB1321	166	OG0000932	NA	NA	NA	NA	NA	HIMB1321_00309
+LT840186.1	Prodigal:2.6	CDS	289133	291565	.	+	0	HIMB1321_00313	HIMB1321	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1321_00309
+LT840186.1	Prodigal:2.6	CDS	291565	292314	.	+	0	HIMB1321_00314	HIMB1321	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1321_00309
+HIMB1527-00000000002	Prodigal:2.6	CDS	561077	561826	.	-	0	HIMB1527_01230	HIMB1527	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1527_01235
+HIMB1527-00000000002	Prodigal:2.6	CDS	561826	564258	.	-	0	HIMB1527_01231	HIMB1527	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1527_01235
+HIMB1527-00000000002	Prodigal:2.6	CDS	564320	564820	.	-	0	HIMB1527_01232	HIMB1527	166	OG0000932	NA	NA	NA	NA	NA	HIMB1527_01235
+HIMB1527-00000000002	Prodigal:2.6	CDS	564765	565334	.	-	0	HIMB1527_01233	HIMB1527	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1527_01235
+HIMB1527-00000000002	Prodigal:2.6	CDS	565375	566985	.	-	0	HIMB1527_01234	HIMB1527	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1527_01235
+HIMB1527-00000000002	Prodigal:2.6	CDS	567030	567440	.	-	0	HIMB1527_01235	HIMB1527	136	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1527_01235
+HIMB1527-00000000002	Prodigal:2.6	CDS	567437	567856	.	-	0	HIMB1527_01236	HIMB1527	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1527_01235
+HIMB1527-00000000002	Prodigal:2.6	CDS	567860	568294	.	-	0	HIMB1527_01237	HIMB1527	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1527_01235
+HIMB1527-00000000002	Prodigal:2.6	CDS	568298	569071	.	-	0	HIMB1527_01238	HIMB1527	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1527_01235
+HIMB1527-00000000002	Prodigal:2.6	CDS	569088	569462	.	-	0	HIMB1527_01239	HIMB1527	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	HIMB1527_01235
+HIMB1527-00000000002	Prodigal:2.6	CDS	569462	569869	.	-	0	HIMB1527_01240	HIMB1527	135	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	HIMB1527_01235
+HIMB1505-00000000001	Prodigal:2.6	CDS	635732	636139	.	+	0	HIMB1505_00665	HIMB1505	135	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	HIMB1505_00670
+HIMB1505-00000000001	Prodigal:2.6	CDS	636139	636513	.	+	0	HIMB1505_00666	HIMB1505	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	HIMB1505_00670
+HIMB1505-00000000001	Prodigal:2.6	CDS	636530	637303	.	+	0	HIMB1505_00667	HIMB1505	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1505_00670
+HIMB1505-00000000001	Prodigal:2.6	CDS	637307	637741	.	+	0	HIMB1505_00668	HIMB1505	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1505_00670
+HIMB1505-00000000001	Prodigal:2.6	CDS	637745	638164	.	+	0	HIMB1505_00669	HIMB1505	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1505_00670
+HIMB1505-00000000001	Prodigal:2.6	CDS	638161	638571	.	+	0	HIMB1505_00670	HIMB1505	136	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1505_00670
+HIMB1505-00000000001	Prodigal:2.6	CDS	638616	640226	.	+	0	HIMB1505_00671	HIMB1505	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1505_00670
+HIMB1505-00000000001	Prodigal:2.6	CDS	640266	640835	.	+	0	HIMB1505_00672	HIMB1505	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1505_00670
+HIMB1505-00000000001	Prodigal:2.6	CDS	640780	641280	.	+	0	HIMB1505_00673	HIMB1505	166	OG0000932	NA	NA	NA	NA	NA	HIMB1505_00670
+HIMB1505-00000000001	Prodigal:2.6	CDS	641342	643774	.	+	0	HIMB1505_00674	HIMB1505	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1505_00670
+HIMB1505-00000000001	Prodigal:2.6	CDS	643774	644523	.	+	0	HIMB1505_00675	HIMB1505	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1505_00670
+HIMB1549-00000000001	Prodigal:2.6	CDS	207600	208007	.	+	0	HIMB1549_00217	HIMB1549	135	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	HIMB1549_00222
+HIMB1549-00000000001	Prodigal:2.6	CDS	208007	208381	.	+	0	HIMB1549_00218	HIMB1549	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	HIMB1549_00222
+HIMB1549-00000000001	Prodigal:2.6	CDS	208398	209171	.	+	0	HIMB1549_00219	HIMB1549	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1549_00222
+HIMB1549-00000000001	Prodigal:2.6	CDS	209175	209609	.	+	0	HIMB1549_00220	HIMB1549	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1549_00222
+HIMB1549-00000000001	Prodigal:2.6	CDS	209613	210032	.	+	0	HIMB1549_00221	HIMB1549	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1549_00222
+HIMB1549-00000000001	Prodigal:2.6	CDS	210029	210439	.	+	0	HIMB1549_00222	HIMB1549	136	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1549_00222
+HIMB1549-00000000001	Prodigal:2.6	CDS	210484	212094	.	+	0	HIMB1549_00223	HIMB1549	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1549_00222
+HIMB1549-00000000001	Prodigal:2.6	CDS	212134	212703	.	+	0	HIMB1549_00224	HIMB1549	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1549_00222
+HIMB1549-00000000001	Prodigal:2.6	CDS	212648	213148	.	+	0	HIMB1549_00225	HIMB1549	166	OG0000932	NA	NA	NA	NA	NA	HIMB1549_00222
+HIMB1549-00000000001	Prodigal:2.6	CDS	213210	215642	.	+	0	HIMB1549_00226	HIMB1549	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1549_00222
+HIMB1549-00000000001	Prodigal:2.6	CDS	215642	216391	.	+	0	HIMB1549_00227	HIMB1549	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1549_00222
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1006339	1007088	.	-	0	HIMB4_01094	HIMB4	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB4_01099
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1007088	1009520	.	-	0	HIMB4_01095	HIMB4	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB4_01099
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1009582	1010082	.	-	0	HIMB4_01096	HIMB4	166	OG0000932	NA	NA	NA	NA	NA	HIMB4_01099
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1010027	1010596	.	-	0	HIMB4_01097	HIMB4	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB4_01099
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1010636	1012246	.	-	0	HIMB4_01098	HIMB4	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB4_01099
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1012291	1012701	.	-	0	HIMB4_01099	HIMB4	136	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB4_01099
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1012698	1013117	.	-	0	HIMB4_01100	HIMB4	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB4_01099
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1013121	1013555	.	-	0	HIMB4_01101	HIMB4	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB4_01099
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1013559	1014332	.	-	0	HIMB4_01102	HIMB4	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB4_01099
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1014349	1014723	.	-	0	HIMB4_01103	HIMB4	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	HIMB4_01099
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1014723	1015130	.	-	0	HIMB4_01104	HIMB4	135	OG0001022	NA	NA	COG0645	AAA	Predicted kinase, contains AAA domain	HIMB4_01099
+KI421433.1	Prodigal:2.6	CDS	729287	730240	.	-	0	HTCC9022_01362	HTCC9022	317	OG0000907	K03522	electron transfer flavoprotein alpha subunit	COG2025	FixB	Electron transfer flavoprotein, alpha subunit FixB	HTCC9022_01367
+KI421433.1	Prodigal:2.6	CDS	730240	730989	.	-	0	HTCC9022_01363	HTCC9022	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HTCC9022_01367
+KI421433.1	Prodigal:2.6	CDS	730989	733418	.	-	0	HTCC9022_01364	HTCC9022	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC9022_01367
+KI421433.1	Prodigal:2.6	CDS	733475	733951	.	-	0	HTCC9022_01365	HTCC9022	158	OG0000932	NA	NA	NA	NA	NA	HTCC9022_01367
+KI421433.1	Prodigal:2.6	CDS	733920	734489	.	-	0	HTCC9022_01366	HTCC9022	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HTCC9022_01367
+KI421433.1	Prodigal:2.6	CDS	734506	734919	.	-	0	HTCC9022_01367	HTCC9022	137	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HTCC9022_01367
+KI421433.1	Prodigal:2.6	CDS	734916	735335	.	-	0	HTCC9022_01368	HTCC9022	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HTCC9022_01367
+KI421433.1	Prodigal:2.6	CDS	735335	735769	.	-	0	HTCC9022_01369	HTCC9022	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HTCC9022_01367
+KI421433.1	Prodigal:2.6	CDS	735773	735970	.	-	0	HTCC9022_01370	HTCC9022	65	OG0001080	NA	NA	NA	NA	NA	HTCC9022_01367
+KI421433.1	Prodigal:2.6	CDS	735970	736749	.	-	0	HTCC9022_01371	HTCC9022	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HTCC9022_01367
+KI421433.1	Prodigal:2.6	CDS	736756	737130	.	-	0	HTCC9022_01372	HTCC9022	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	HTCC9022_01367
+CP031125.1	Prodigal:2.6	CDS	101732	102481	.	-	0	FZCC0015_00115	FZCC0015	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	FZCC0015_00120
+CP031125.1	Prodigal:2.6	CDS	102481	104913	.	-	0	FZCC0015_00116	FZCC0015	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	FZCC0015_00120
+CP031125.1	Prodigal:2.6	CDS	104971	105447	.	-	0	FZCC0015_00117	FZCC0015	158	OG0000932	NA	NA	NA	NA	NA	FZCC0015_00120
+CP031125.1	Prodigal:2.6	CDS	105416	105985	.	-	0	FZCC0015_00118	FZCC0015	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	FZCC0015_00120
+CP031125.1	Prodigal:2.6	CDS	105997	107607	.	-	0	FZCC0015_00119	FZCC0015	536	OG0001143	NA	NA	NA	NA	NA	FZCC0015_00120
+CP031125.1	Prodigal:2.6	CDS	107650	108069	.	-	0	FZCC0015_00120	FZCC0015	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	FZCC0015_00120
+CP031125.1	Prodigal:2.6	CDS	108066	108485	.	-	0	FZCC0015_00121	FZCC0015	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	FZCC0015_00120
+CP031125.1	Prodigal:2.6	CDS	108486	108920	.	-	0	FZCC0015_00122	FZCC0015	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	FZCC0015_00120
+CP031125.1	Prodigal:2.6	CDS	108917	109102	.	-	0	FZCC0015_00123	FZCC0015	61	OG0001080	NA	NA	NA	NA	NA	FZCC0015_00120
+CP031125.1	Prodigal:2.6	CDS	109102	109881	.	-	0	FZCC0015_00124	FZCC0015	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	FZCC0015_00120
+CP031125.1	Prodigal:2.6	CDS	109882	110733	.	-	0	FZCC0015_00125	FZCC0015	283	OG0001199	NA	NA	NA	NA	NA	FZCC0015_00120
+AZAL01000001.1	Prodigal:2.6	CDS	410034	410783	.	-	0	HIMB083_00466	HIMB083	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB083_00471
+AZAL01000001.1	Prodigal:2.6	CDS	410783	413215	.	-	0	HIMB083_00467	HIMB083	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB083_00471
+AZAL01000001.1	Prodigal:2.6	CDS	413273	413746	.	-	0	HIMB083_00468	HIMB083	157	OG0000932	NA	NA	NA	NA	NA	HIMB083_00471
+AZAL01000001.1	Prodigal:2.6	CDS	413718	414287	.	-	0	HIMB083_00469	HIMB083	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB083_00471
+AZAL01000001.1	Prodigal:2.6	CDS	414299	415909	.	-	0	HIMB083_00470	HIMB083	536	OG0001143	NA	NA	NA	NA	NA	HIMB083_00471
+AZAL01000001.1	Prodigal:2.6	CDS	415952	416371	.	-	0	HIMB083_00471	HIMB083	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB083_00471
+AZAL01000001.1	Prodigal:2.6	CDS	416368	416787	.	-	0	HIMB083_00472	HIMB083	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB083_00471
+AZAL01000001.1	Prodigal:2.6	CDS	416788	417222	.	-	0	HIMB083_00473	HIMB083	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB083_00471
+AZAL01000001.1	Prodigal:2.6	CDS	417219	417404	.	-	0	HIMB083_00474	HIMB083	61	OG0001080	NA	NA	NA	NA	NA	HIMB083_00471
+AZAL01000001.1	Prodigal:2.6	CDS	417404	418183	.	-	0	HIMB083_00475	HIMB083	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB083_00471
+AZAL01000001.1	Prodigal:2.6	CDS	418184	419035	.	-	0	HIMB083_00476	HIMB083	283	OG0001199	NA	NA	NA	NA	NA	HIMB083_00471
+HIMB1685-00000000001	Prodigal:2.6	CDS	1365100	1365474	.	+	0	HIMB1685_01464	HIMB1685	124	OG0000887	NA	NA	COG1056	NadM	Nicotinamide mononucleotide adenylyltransferase	HIMB1685_01469
+HIMB1685-00000000001	Prodigal:2.6	CDS	1365481	1366332	.	+	0	HIMB1685_01465	HIMB1685	283	OG0001199	NA	NA	NA	NA	NA	HIMB1685_01469
+HIMB1685-00000000001	Prodigal:2.6	CDS	1366333	1367112	.	+	0	HIMB1685_01466	HIMB1685	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1685_01469
+HIMB1685-00000000001	Prodigal:2.6	CDS	1367112	1367546	.	+	0	HIMB1685_01467	HIMB1685	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1685_01469
+HIMB1685-00000000001	Prodigal:2.6	CDS	1367551	1367970	.	+	0	HIMB1685_01468	HIMB1685	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1685_01469
+HIMB1685-00000000001	Prodigal:2.6	CDS	1367967	1368386	.	+	0	HIMB1685_01469	HIMB1685	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1685_01469
+HIMB1685-00000000001	Prodigal:2.6	CDS	1368433	1370043	.	+	0	HIMB1685_01470	HIMB1685	536	OG0001143	NA	NA	NA	NA	NA	HIMB1685_01469
+HIMB1685-00000000001	Prodigal:2.6	CDS	1370090	1370659	.	+	0	HIMB1685_01471	HIMB1685	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1685_01469
+HIMB1685-00000000001	Prodigal:2.6	CDS	1370631	1371104	.	+	0	HIMB1685_01472	HIMB1685	157	OG0000932	NA	NA	NA	NA	NA	HIMB1685_01469
+HIMB1685-00000000001	Prodigal:2.6	CDS	1371162	1373594	.	+	0	HIMB1685_01473	HIMB1685	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1685_01469
+HIMB1685-00000000001	Prodigal:2.6	CDS	1373594	1374343	.	+	0	HIMB1685_01474	HIMB1685	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1685_01469
+HIMB1559-00000000001	Prodigal:2.6	CDS	546925	549357	.	-	0	HIMB1559_00618	HIMB1559	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1559_00623
+HIMB1559-00000000001	Prodigal:2.6	CDS	549415	549888	.	-	0	HIMB1559_00619	HIMB1559	157	OG0000932	NA	NA	NA	NA	NA	HIMB1559_00623
+HIMB1559-00000000001	Prodigal:2.6	CDS	549860	550429	.	-	0	HIMB1559_00620	HIMB1559	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1559_00623
+HIMB1559-00000000001	Prodigal:2.6	CDS	550476	552086	.	-	0	HIMB1559_00621	HIMB1559	536	OG0001143	NA	NA	NA	NA	NA	HIMB1559_00623
+HIMB1559-00000000001	Prodigal:2.6	CDS	552079	552411	.	-	0	HIMB1559_00622	HIMB1559	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1559_00623
+HIMB1559-00000000001	Prodigal:2.6	CDS	552432	552851	.	-	0	HIMB1559_00623	HIMB1559	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1559_00623
+HIMB1559-00000000001	Prodigal:2.6	CDS	552848	553267	.	-	0	HIMB1559_00624	HIMB1559	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1559_00623
+HIMB1559-00000000001	Prodigal:2.6	CDS	553272	553706	.	-	0	HIMB1559_00625	HIMB1559	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1559_00623
+HIMB1559-00000000001	Prodigal:2.6	CDS	553711	553911	.	-	0	HIMB1559_00626	HIMB1559	66	OG0001080	NA	NA	NA	NA	NA	HIMB1559_00623
+HIMB1559-00000000001	Prodigal:2.6	CDS	553914	554693	.	-	0	HIMB1559_00627	HIMB1559	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1559_00623
+HIMB1559-00000000001	Prodigal:2.6	CDS	554694	555545	.	-	0	HIMB1559_00628	HIMB1559	283	OG0001199	NA	NA	NA	NA	NA	HIMB1559_00623
+HIMB1597-00000000001	Prodigal:2.6	CDS	1236914	1237765	.	+	0	HIMB1597_01294	HIMB1597	283	OG0001199	NA	NA	NA	NA	NA	HIMB1597_01299
+HIMB1597-00000000001	Prodigal:2.6	CDS	1237766	1238545	.	+	0	HIMB1597_01295	HIMB1597	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1597_01299
+HIMB1597-00000000001	Prodigal:2.6	CDS	1238548	1238748	.	+	0	HIMB1597_01296	HIMB1597	66	OG0001080	NA	NA	NA	NA	NA	HIMB1597_01299
+HIMB1597-00000000001	Prodigal:2.6	CDS	1238753	1239187	.	+	0	HIMB1597_01297	HIMB1597	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1597_01299
+HIMB1597-00000000001	Prodigal:2.6	CDS	1239192	1239611	.	+	0	HIMB1597_01298	HIMB1597	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1597_01299
+HIMB1597-00000000001	Prodigal:2.6	CDS	1239608	1240027	.	+	0	HIMB1597_01299	HIMB1597	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1597_01299
+HIMB1597-00000000001	Prodigal:2.6	CDS	1240048	1240380	.	+	0	HIMB1597_01300	HIMB1597	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1597_01299
+HIMB1597-00000000001	Prodigal:2.6	CDS	1240373	1241983	.	+	0	HIMB1597_01301	HIMB1597	536	OG0001143	NA	NA	NA	NA	NA	HIMB1597_01299
+HIMB1597-00000000001	Prodigal:2.6	CDS	1242030	1242599	.	+	0	HIMB1597_01302	HIMB1597	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1597_01299
+HIMB1597-00000000001	Prodigal:2.6	CDS	1242571	1243044	.	+	0	HIMB1597_01303	HIMB1597	157	OG0000932	NA	NA	NA	NA	NA	HIMB1597_01299
+HIMB1597-00000000001	Prodigal:2.6	CDS	1243102	1245534	.	+	0	HIMB1597_01304	HIMB1597	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1597_01299
+HIMB1587-00000000001	Prodigal:2.6	CDS	566102	568534	.	-	0	HIMB1587_00642	HIMB1587	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1587_00647
+HIMB1587-00000000001	Prodigal:2.6	CDS	568592	569065	.	-	0	HIMB1587_00643	HIMB1587	157	OG0000932	NA	NA	NA	NA	NA	HIMB1587_00647
+HIMB1587-00000000001	Prodigal:2.6	CDS	569037	569606	.	-	0	HIMB1587_00644	HIMB1587	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1587_00647
+HIMB1587-00000000001	Prodigal:2.6	CDS	569653	571263	.	-	0	HIMB1587_00645	HIMB1587	536	OG0001143	NA	NA	NA	NA	NA	HIMB1587_00647
+HIMB1587-00000000001	Prodigal:2.6	CDS	571256	571588	.	-	0	HIMB1587_00646	HIMB1587	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1587_00647
+HIMB1587-00000000001	Prodigal:2.6	CDS	571609	572028	.	-	0	HIMB1587_00647	HIMB1587	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1587_00647
+HIMB1587-00000000001	Prodigal:2.6	CDS	572025	572444	.	-	0	HIMB1587_00648	HIMB1587	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1587_00647
+HIMB1587-00000000001	Prodigal:2.6	CDS	572449	572883	.	-	0	HIMB1587_00649	HIMB1587	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1587_00647
+HIMB1587-00000000001	Prodigal:2.6	CDS	572888	573088	.	-	0	HIMB1587_00650	HIMB1587	66	OG0001080	NA	NA	NA	NA	NA	HIMB1587_00647
+HIMB1587-00000000001	Prodigal:2.6	CDS	573091	573870	.	-	0	HIMB1587_00651	HIMB1587	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1587_00647
+HIMB1587-00000000001	Prodigal:2.6	CDS	573871	574722	.	-	0	HIMB1587_00652	HIMB1587	283	OG0001199	NA	NA	NA	NA	NA	HIMB1587_00647
+HIMB1573-00000000001	Prodigal:2.6	CDS	857919	858770	.	+	0	HIMB1573_00906	HIMB1573	283	OG0001199	NA	NA	NA	NA	NA	HIMB1573_00911
+HIMB1573-00000000001	Prodigal:2.6	CDS	858771	859550	.	+	0	HIMB1573_00907	HIMB1573	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1573_00911
+HIMB1573-00000000001	Prodigal:2.6	CDS	859553	859753	.	+	0	HIMB1573_00908	HIMB1573	66	OG0001080	NA	NA	NA	NA	NA	HIMB1573_00911
+HIMB1573-00000000001	Prodigal:2.6	CDS	859758	860192	.	+	0	HIMB1573_00909	HIMB1573	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1573_00911
+HIMB1573-00000000001	Prodigal:2.6	CDS	860197	860616	.	+	0	HIMB1573_00910	HIMB1573	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1573_00911
+HIMB1573-00000000001	Prodigal:2.6	CDS	860613	861032	.	+	0	HIMB1573_00911	HIMB1573	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1573_00911
+HIMB1573-00000000001	Prodigal:2.6	CDS	861079	862689	.	+	0	HIMB1573_00912	HIMB1573	536	OG0001143	NA	NA	NA	NA	NA	HIMB1573_00911
+HIMB1573-00000000001	Prodigal:2.6	CDS	862736	863305	.	+	0	HIMB1573_00913	HIMB1573	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1573_00911
+HIMB1573-00000000001	Prodigal:2.6	CDS	863277	863750	.	+	0	HIMB1573_00914	HIMB1573	157	OG0000932	NA	NA	NA	NA	NA	HIMB1573_00911
+HIMB1573-00000000001	Prodigal:2.6	CDS	863808	866240	.	+	0	HIMB1573_00915	HIMB1573	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1573_00911
+HIMB1573-00000000001	Prodigal:2.6	CDS	866240	866989	.	+	0	HIMB1573_00916	HIMB1573	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1573_00911
+HIMB1490-00000000011	Prodigal:2.6	CDS	50650	51501	.	+	0	HIMB1490_00788	HIMB1490	283	OG0001199	NA	NA	NA	NA	NA	HIMB1490_00793
+HIMB1490-00000000011	Prodigal:2.6	CDS	51502	52281	.	+	0	HIMB1490_00789	HIMB1490	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1490_00793
+HIMB1490-00000000011	Prodigal:2.6	CDS	52284	52484	.	+	0	HIMB1490_00790	HIMB1490	66	OG0001080	NA	NA	NA	NA	NA	HIMB1490_00793
+HIMB1490-00000000011	Prodigal:2.6	CDS	52489	52923	.	+	0	HIMB1490_00791	HIMB1490	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1490_00793
+HIMB1490-00000000011	Prodigal:2.6	CDS	52928	53347	.	+	0	HIMB1490_00792	HIMB1490	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1490_00793
+HIMB1490-00000000011	Prodigal:2.6	CDS	53344	53763	.	+	0	HIMB1490_00793	HIMB1490	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1490_00793
+HIMB1490-00000000011	Prodigal:2.6	CDS	53810	55420	.	+	0	HIMB1490_00794	HIMB1490	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1490_00793
+HIMB1490-00000000011	Prodigal:2.6	CDS	55467	56036	.	+	0	HIMB1490_00795	HIMB1490	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1490_00793
+HIMB1490-00000000011	Prodigal:2.6	CDS	56008	56481	.	+	0	HIMB1490_00796	HIMB1490	157	OG0000932	NA	NA	NA	NA	NA	HIMB1490_00793
+HIMB1490-00000000011	Prodigal:2.6	CDS	56539	58971	.	+	0	HIMB1490_00797	HIMB1490	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1490_00793
+HIMB1490-00000000011	Prodigal:2.6	CDS	58971	59720	.	+	0	HIMB1490_00798	HIMB1490	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1490_00793
+HIMB1491-00000000001	Prodigal:2.6	CDS	877584	878435	.	+	0	HIMB1491_00902	HIMB1491	283	OG0001199	NA	NA	NA	NA	NA	HIMB1491_00907
+HIMB1491-00000000001	Prodigal:2.6	CDS	878436	879215	.	+	0	HIMB1491_00903	HIMB1491	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1491_00907
+HIMB1491-00000000001	Prodigal:2.6	CDS	879218	879418	.	+	0	HIMB1491_00904	HIMB1491	66	OG0001080	NA	NA	NA	NA	NA	HIMB1491_00907
+HIMB1491-00000000001	Prodigal:2.6	CDS	879423	879857	.	+	0	HIMB1491_00905	HIMB1491	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1491_00907
+HIMB1491-00000000001	Prodigal:2.6	CDS	879862	880281	.	+	0	HIMB1491_00906	HIMB1491	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1491_00907
+HIMB1491-00000000001	Prodigal:2.6	CDS	880278	880697	.	+	0	HIMB1491_00907	HIMB1491	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1491_00907
+HIMB1491-00000000001	Prodigal:2.6	CDS	880744	882354	.	+	0	HIMB1491_00908	HIMB1491	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1491_00907
+HIMB1491-00000000001	Prodigal:2.6	CDS	882401	882970	.	+	0	HIMB1491_00909	HIMB1491	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1491_00907
+HIMB1491-00000000001	Prodigal:2.6	CDS	882942	883415	.	+	0	HIMB1491_00910	HIMB1491	157	OG0000932	NA	NA	NA	NA	NA	HIMB1491_00907
+HIMB1491-00000000001	Prodigal:2.6	CDS	883473	885905	.	+	0	HIMB1491_00911	HIMB1491	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1491_00907
+HIMB1491-00000000001	Prodigal:2.6	CDS	885905	886654	.	+	0	HIMB1491_00912	HIMB1491	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1491_00907
+HIMB1765-00000000001	Prodigal:2.6	CDS	555868	556617	.	-	0	HIMB1765_00628	HIMB1765	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1765_00633
+HIMB1765-00000000001	Prodigal:2.6	CDS	556617	559049	.	-	0	HIMB1765_00629	HIMB1765	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1765_00633
+HIMB1765-00000000001	Prodigal:2.6	CDS	559107	559580	.	-	0	HIMB1765_00630	HIMB1765	157	OG0000932	NA	NA	NA	NA	NA	HIMB1765_00633
+HIMB1765-00000000001	Prodigal:2.6	CDS	559552	560121	.	-	0	HIMB1765_00631	HIMB1765	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1765_00633
+HIMB1765-00000000001	Prodigal:2.6	CDS	560168	561778	.	-	0	HIMB1765_00632	HIMB1765	536	OG0001143	NA	NA	NA	NA	NA	HIMB1765_00633
+HIMB1765-00000000001	Prodigal:2.6	CDS	561825	562244	.	-	0	HIMB1765_00633	HIMB1765	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1765_00633
+HIMB1765-00000000001	Prodigal:2.6	CDS	562241	562660	.	-	0	HIMB1765_00634	HIMB1765	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1765_00633
+HIMB1765-00000000001	Prodigal:2.6	CDS	562665	563099	.	-	0	HIMB1765_00635	HIMB1765	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1765_00633
+HIMB1765-00000000001	Prodigal:2.6	CDS	563104	563304	.	-	0	HIMB1765_00636	HIMB1765	66	OG0001080	NA	NA	NA	NA	NA	HIMB1765_00633
+HIMB1765-00000000001	Prodigal:2.6	CDS	563307	564086	.	-	0	HIMB1765_00637	HIMB1765	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1765_00633
+HIMB1765-00000000001	Prodigal:2.6	CDS	564087	564938	.	-	0	HIMB1765_00638	HIMB1765	283	OG0001199	NA	NA	NA	NA	NA	HIMB1765_00633
+HIMB1494-00000000002	Prodigal:2.6	CDS	222311	224743	.	-	0	HIMB1494_01349	HIMB1494	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1494_01354
+HIMB1494-00000000002	Prodigal:2.6	CDS	224801	225274	.	-	0	HIMB1494_01350	HIMB1494	157	OG0000932	NA	NA	NA	NA	NA	HIMB1494_01354
+HIMB1494-00000000002	Prodigal:2.6	CDS	225246	225815	.	-	0	HIMB1494_01351	HIMB1494	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1494_01354
+HIMB1494-00000000002	Prodigal:2.6	CDS	225862	227472	.	-	0	HIMB1494_01352	HIMB1494	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1494_01354
+HIMB1494-00000000002	Prodigal:2.6	CDS	227465	227797	.	-	0	HIMB1494_01353	HIMB1494	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1494_01354
+HIMB1494-00000000002	Prodigal:2.6	CDS	227818	228237	.	-	0	HIMB1494_01354	HIMB1494	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1494_01354
+HIMB1494-00000000002	Prodigal:2.6	CDS	228234	228653	.	-	0	HIMB1494_01355	HIMB1494	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1494_01354
+HIMB1494-00000000002	Prodigal:2.6	CDS	228658	229092	.	-	0	HIMB1494_01356	HIMB1494	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1494_01354
+HIMB1494-00000000002	Prodigal:2.6	CDS	229097	229297	.	-	0	HIMB1494_01357	HIMB1494	66	OG0001080	NA	NA	NA	NA	NA	HIMB1494_01354
+HIMB1494-00000000002	Prodigal:2.6	CDS	229300	230079	.	-	0	HIMB1494_01358	HIMB1494	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1494_01354
+HIMB1494-00000000002	Prodigal:2.6	CDS	230080	230931	.	-	0	HIMB1494_01359	HIMB1494	283	OG0001199	NA	NA	NA	NA	NA	HIMB1494_01354
+HIMB1495-00000000001	Prodigal:2.6	CDS	1216896	1219328	.	-	0	HIMB1495_01327	HIMB1495	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1495_01332
+HIMB1495-00000000001	Prodigal:2.6	CDS	1219386	1219859	.	-	0	HIMB1495_01328	HIMB1495	157	OG0000932	NA	NA	NA	NA	NA	HIMB1495_01332
+HIMB1495-00000000001	Prodigal:2.6	CDS	1219831	1220400	.	-	0	HIMB1495_01329	HIMB1495	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1495_01332
+HIMB1495-00000000001	Prodigal:2.6	CDS	1220447	1222057	.	-	0	HIMB1495_01330	HIMB1495	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1495_01332
+HIMB1495-00000000001	Prodigal:2.6	CDS	1222050	1222382	.	-	0	HIMB1495_01331	HIMB1495	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1495_01332
+HIMB1495-00000000001	Prodigal:2.6	CDS	1222403	1222822	.	-	0	HIMB1495_01332	HIMB1495	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1495_01332
+HIMB1495-00000000001	Prodigal:2.6	CDS	1222819	1223238	.	-	0	HIMB1495_01333	HIMB1495	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1495_01332
+HIMB1495-00000000001	Prodigal:2.6	CDS	1223243	1223677	.	-	0	HIMB1495_01334	HIMB1495	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1495_01332
+HIMB1495-00000000001	Prodigal:2.6	CDS	1223682	1223882	.	-	0	HIMB1495_01335	HIMB1495	66	OG0001080	NA	NA	NA	NA	NA	HIMB1495_01332
+HIMB1495-00000000001	Prodigal:2.6	CDS	1223885	1224664	.	-	0	HIMB1495_01336	HIMB1495	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1495_01332
+HIMB1495-00000000001	Prodigal:2.6	CDS	1224665	1225516	.	-	0	HIMB1495_01337	HIMB1495	283	OG0001199	NA	NA	NA	NA	NA	HIMB1495_01332
+HIMB1593-00000000001	Prodigal:2.6	CDS	1204285	1205034	.	-	0	HIMB1593_01288	HIMB1593	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1593_01293
+HIMB1593-00000000001	Prodigal:2.6	CDS	1205034	1207466	.	-	0	HIMB1593_01289	HIMB1593	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1593_01293
+HIMB1593-00000000001	Prodigal:2.6	CDS	1207524	1207997	.	-	0	HIMB1593_01290	HIMB1593	157	OG0000932	NA	NA	NA	NA	NA	HIMB1593_01293
+HIMB1593-00000000001	Prodigal:2.6	CDS	1207969	1208538	.	-	0	HIMB1593_01291	HIMB1593	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1593_01293
+HIMB1593-00000000001	Prodigal:2.6	CDS	1208585	1210195	.	-	0	HIMB1593_01292	HIMB1593	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1593_01293
+HIMB1593-00000000001	Prodigal:2.6	CDS	1210242	1210661	.	-	0	HIMB1593_01293	HIMB1593	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1593_01293
+HIMB1593-00000000001	Prodigal:2.6	CDS	1210658	1211077	.	-	0	HIMB1593_01294	HIMB1593	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1593_01293
+HIMB1593-00000000001	Prodigal:2.6	CDS	1211082	1211516	.	-	0	HIMB1593_01295	HIMB1593	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1593_01293
+HIMB1593-00000000001	Prodigal:2.6	CDS	1211521	1211721	.	-	0	HIMB1593_01296	HIMB1593	66	OG0001080	NA	NA	NA	NA	NA	HIMB1593_01293
+HIMB1593-00000000001	Prodigal:2.6	CDS	1211724	1212503	.	-	0	HIMB1593_01297	HIMB1593	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1593_01293
+HIMB1593-00000000001	Prodigal:2.6	CDS	1212504	1213355	.	-	0	HIMB1593_01298	HIMB1593	283	OG0001199	NA	NA	NA	NA	NA	HIMB1593_01293
+HIMB1509-00000000001	Prodigal:2.6	CDS	1206294	1207043	.	-	0	HIMB1509_01316	HIMB1509	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1509_01321
+HIMB1509-00000000001	Prodigal:2.6	CDS	1207043	1209475	.	-	0	HIMB1509_01317	HIMB1509	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1509_01321
+HIMB1509-00000000001	Prodigal:2.6	CDS	1209533	1210006	.	-	0	HIMB1509_01318	HIMB1509	157	OG0000932	NA	NA	NA	NA	NA	HIMB1509_01321
+HIMB1509-00000000001	Prodigal:2.6	CDS	1209978	1210547	.	-	0	HIMB1509_01319	HIMB1509	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1509_01321
+HIMB1509-00000000001	Prodigal:2.6	CDS	1210594	1212204	.	-	0	HIMB1509_01320	HIMB1509	536	OG0001143	NA	NA	NA	NA	NA	HIMB1509_01321
+HIMB1509-00000000001	Prodigal:2.6	CDS	1212251	1212670	.	-	0	HIMB1509_01321	HIMB1509	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1509_01321
+HIMB1509-00000000001	Prodigal:2.6	CDS	1212667	1213086	.	-	0	HIMB1509_01322	HIMB1509	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1509_01321
+HIMB1509-00000000001	Prodigal:2.6	CDS	1213091	1213525	.	-	0	HIMB1509_01323	HIMB1509	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1509_01321
+HIMB1509-00000000001	Prodigal:2.6	CDS	1213530	1213730	.	-	0	HIMB1509_01324	HIMB1509	66	OG0001080	NA	NA	NA	NA	NA	HIMB1509_01321
+HIMB1509-00000000001	Prodigal:2.6	CDS	1213733	1214512	.	-	0	HIMB1509_01325	HIMB1509	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1509_01321
+HIMB1509-00000000001	Prodigal:2.6	CDS	1214513	1215364	.	-	0	HIMB1509_01326	HIMB1509	283	OG0001199	NA	NA	NA	NA	NA	HIMB1509_01321
+HIMB1485-00000000002	Prodigal:2.6	CDS	224189	224938	.	-	0	HIMB1485_00742	HIMB1485	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1485_00747
+HIMB1485-00000000002	Prodigal:2.6	CDS	224938	227370	.	-	0	HIMB1485_00743	HIMB1485	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1485_00747
+HIMB1485-00000000002	Prodigal:2.6	CDS	227428	227901	.	-	0	HIMB1485_00744	HIMB1485	157	OG0000932	NA	NA	NA	NA	NA	HIMB1485_00747
+HIMB1485-00000000002	Prodigal:2.6	CDS	227873	228442	.	-	0	HIMB1485_00745	HIMB1485	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1485_00747
+HIMB1485-00000000002	Prodigal:2.6	CDS	228489	230099	.	-	0	HIMB1485_00746	HIMB1485	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1485_00747
+HIMB1485-00000000002	Prodigal:2.6	CDS	230146	230565	.	-	0	HIMB1485_00747	HIMB1485	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1485_00747
+HIMB1485-00000000002	Prodigal:2.6	CDS	230562	230981	.	-	0	HIMB1485_00748	HIMB1485	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1485_00747
+HIMB1485-00000000002	Prodigal:2.6	CDS	230986	231420	.	-	0	HIMB1485_00749	HIMB1485	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1485_00747
+HIMB1485-00000000002	Prodigal:2.6	CDS	231425	231625	.	-	0	HIMB1485_00750	HIMB1485	66	OG0001080	NA	NA	NA	NA	NA	HIMB1485_00747
+HIMB1485-00000000002	Prodigal:2.6	CDS	231628	232407	.	-	0	HIMB1485_00751	HIMB1485	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1485_00747
+HIMB1485-00000000002	Prodigal:2.6	CDS	232408	233259	.	-	0	HIMB1485_00752	HIMB1485	283	OG0001199	NA	NA	NA	NA	NA	HIMB1485_00747
+HIMB1492-00000000063	Prodigal:2.6	CDS	12	266	.	+	0	HIMB1492_00758	HIMB1492	84	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1492_00758
+HIMB1492-00000000063	Prodigal:2.6	CDS	287	619	.	+	0	HIMB1492_00759	HIMB1492	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1492_00758
+HIMB1492-00000000063	Prodigal:2.6	CDS	612	2222	.	+	0	HIMB1492_00760	HIMB1492	536	OG0001143	NA	NA	NA	NA	NA	HIMB1492_00758
+HIMB1492-00000000063	Prodigal:2.6	CDS	2269	2838	.	+	0	HIMB1492_00761	HIMB1492	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1492_00758
+HIMB1492-00000000063	Prodigal:2.6	CDS	2810	3283	.	+	0	HIMB1492_00762	HIMB1492	157	OG0000932	NA	NA	NA	NA	NA	HIMB1492_00758
+HIMB1492-00000000063	Prodigal:2.6	CDS	3341	5773	.	+	0	HIMB1492_00763	HIMB1492	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1492_00758
+HIMB1493-00000000001	Prodigal:2.6	CDS	192018	192869	.	+	0	HIMB1493_00199	HIMB1493	283	OG0001199	NA	NA	NA	NA	NA	HIMB1493_00204
+HIMB1493-00000000001	Prodigal:2.6	CDS	192870	193649	.	+	0	HIMB1493_00200	HIMB1493	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1493_00204
+HIMB1493-00000000001	Prodigal:2.6	CDS	193652	193852	.	+	0	HIMB1493_00201	HIMB1493	66	OG0001080	NA	NA	NA	NA	NA	HIMB1493_00204
+HIMB1493-00000000001	Prodigal:2.6	CDS	193857	194291	.	+	0	HIMB1493_00202	HIMB1493	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1493_00204
+HIMB1493-00000000001	Prodigal:2.6	CDS	194296	194715	.	+	0	HIMB1493_00203	HIMB1493	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1493_00204
+HIMB1493-00000000001	Prodigal:2.6	CDS	194712	195131	.	+	0	HIMB1493_00204	HIMB1493	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1493_00204
+HIMB1493-00000000001	Prodigal:2.6	CDS	195152	195484	.	+	0	HIMB1493_00205	HIMB1493	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1493_00204
+HIMB1493-00000000001	Prodigal:2.6	CDS	195477	197087	.	+	0	HIMB1493_00206	HIMB1493	536	OG0001143	NA	NA	NA	NA	NA	HIMB1493_00204
+HIMB1493-00000000001	Prodigal:2.6	CDS	197134	197703	.	+	0	HIMB1493_00207	HIMB1493	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1493_00204
+HIMB1493-00000000001	Prodigal:2.6	CDS	197675	198148	.	+	0	HIMB1493_00208	HIMB1493	157	OG0000932	NA	NA	NA	NA	NA	HIMB1493_00204
+HIMB1493-00000000001	Prodigal:2.6	CDS	198206	200638	.	+	0	HIMB1493_00209	HIMB1493	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1493_00204
+HIMB1518-00000000001	Prodigal:2.6	CDS	347469	348320	.	+	0	HIMB1518_00354	HIMB1518	283	OG0001199	NA	NA	NA	NA	NA	HIMB1518_00359
+HIMB1518-00000000001	Prodigal:2.6	CDS	348321	349100	.	+	0	HIMB1518_00355	HIMB1518	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1518_00359
+HIMB1518-00000000001	Prodigal:2.6	CDS	349103	349303	.	+	0	HIMB1518_00356	HIMB1518	66	OG0001080	NA	NA	NA	NA	NA	HIMB1518_00359
+HIMB1518-00000000001	Prodigal:2.6	CDS	349308	349742	.	+	0	HIMB1518_00357	HIMB1518	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1518_00359
+HIMB1518-00000000001	Prodigal:2.6	CDS	349747	350166	.	+	0	HIMB1518_00358	HIMB1518	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1518_00359
+HIMB1518-00000000001	Prodigal:2.6	CDS	350163	350582	.	+	0	HIMB1518_00359	HIMB1518	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1518_00359
+HIMB1518-00000000001	Prodigal:2.6	CDS	350603	350935	.	+	0	HIMB1518_00360	HIMB1518	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1518_00359
+HIMB1518-00000000001	Prodigal:2.6	CDS	350928	352538	.	+	0	HIMB1518_00361	HIMB1518	536	OG0001143	NA	NA	NA	NA	NA	HIMB1518_00359
+HIMB1518-00000000001	Prodigal:2.6	CDS	352585	353154	.	+	0	HIMB1518_00362	HIMB1518	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1518_00359
+HIMB1518-00000000001	Prodigal:2.6	CDS	353126	353599	.	+	0	HIMB1518_00363	HIMB1518	157	OG0000932	NA	NA	NA	NA	NA	HIMB1518_00359
+HIMB1518-00000000001	Prodigal:2.6	CDS	353657	356089	.	+	0	HIMB1518_00364	HIMB1518	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1518_00359
+HIMB1770-00000000001	Prodigal:2.6	CDS	1274440	1275291	.	+	0	HIMB1770_01355	HIMB1770	283	OG0001199	NA	NA	NA	NA	NA	HIMB1770_01360
+HIMB1770-00000000001	Prodigal:2.6	CDS	1275292	1276071	.	+	0	HIMB1770_01356	HIMB1770	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1770_01360
+HIMB1770-00000000001	Prodigal:2.6	CDS	1276074	1276274	.	+	0	HIMB1770_01357	HIMB1770	66	OG0001080	NA	NA	NA	NA	NA	HIMB1770_01360
+HIMB1770-00000000001	Prodigal:2.6	CDS	1276279	1276713	.	+	0	HIMB1770_01358	HIMB1770	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1770_01360
+HIMB1770-00000000001	Prodigal:2.6	CDS	1276718	1277137	.	+	0	HIMB1770_01359	HIMB1770	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1770_01360
+HIMB1770-00000000001	Prodigal:2.6	CDS	1277134	1277553	.	+	0	HIMB1770_01360	HIMB1770	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1770_01360
+HIMB1770-00000000001	Prodigal:2.6	CDS	1277574	1277906	.	+	0	HIMB1770_01361	HIMB1770	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1770_01360
+HIMB1770-00000000001	Prodigal:2.6	CDS	1277899	1279509	.	+	0	HIMB1770_01362	HIMB1770	536	OG0001143	NA	NA	NA	NA	NA	HIMB1770_01360
+HIMB1770-00000000001	Prodigal:2.6	CDS	1279556	1280125	.	+	0	HIMB1770_01363	HIMB1770	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1770_01360
+HIMB1770-00000000001	Prodigal:2.6	CDS	1280097	1280570	.	+	0	HIMB1770_01364	HIMB1770	157	OG0000932	NA	NA	NA	NA	NA	HIMB1770_01360
+HIMB1770-00000000001	Prodigal:2.6	CDS	1280628	1283060	.	+	0	HIMB1770_01365	HIMB1770	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1770_01360
+HIMB1507-00000000001	Prodigal:2.6	CDS	902872	903723	.	+	0	HIMB1507_00921	HIMB1507	283	OG0001199	NA	NA	NA	NA	NA	HIMB1507_00926
+HIMB1507-00000000001	Prodigal:2.6	CDS	903724	904503	.	+	0	HIMB1507_00922	HIMB1507	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1507_00926
+HIMB1507-00000000001	Prodigal:2.6	CDS	904506	904706	.	+	0	HIMB1507_00923	HIMB1507	66	OG0001080	NA	NA	NA	NA	NA	HIMB1507_00926
+HIMB1507-00000000001	Prodigal:2.6	CDS	904711	905145	.	+	0	HIMB1507_00924	HIMB1507	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1507_00926
+HIMB1507-00000000001	Prodigal:2.6	CDS	905150	905569	.	+	0	HIMB1507_00925	HIMB1507	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1507_00926
+HIMB1507-00000000001	Prodigal:2.6	CDS	905566	905985	.	+	0	HIMB1507_00926	HIMB1507	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1507_00926
+HIMB1507-00000000001	Prodigal:2.6	CDS	906006	906338	.	+	0	HIMB1507_00927	HIMB1507	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1507_00926
+HIMB1507-00000000001	Prodigal:2.6	CDS	906331	907941	.	+	0	HIMB1507_00928	HIMB1507	536	OG0001143	NA	NA	NA	NA	NA	HIMB1507_00926
+HIMB1507-00000000001	Prodigal:2.6	CDS	907988	908557	.	+	0	HIMB1507_00929	HIMB1507	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1507_00926
+HIMB1507-00000000001	Prodigal:2.6	CDS	908529	909002	.	+	0	HIMB1507_00930	HIMB1507	157	OG0000932	NA	NA	NA	NA	NA	HIMB1507_00926
+HIMB1507-00000000001	Prodigal:2.6	CDS	909060	911492	.	+	0	HIMB1507_00931	HIMB1507	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1507_00926
+HIMB1526-00000000001	Prodigal:2.6	CDS	1056657	1057406	.	-	0	HIMB1526_01140	HIMB1526	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1526_01145
+HIMB1526-00000000001	Prodigal:2.6	CDS	1057406	1059838	.	-	0	HIMB1526_01141	HIMB1526	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1526_01145
+HIMB1526-00000000001	Prodigal:2.6	CDS	1059896	1060369	.	-	0	HIMB1526_01142	HIMB1526	157	OG0000932	NA	NA	NA	NA	NA	HIMB1526_01145
+HIMB1526-00000000001	Prodigal:2.6	CDS	1060341	1060910	.	-	0	HIMB1526_01143	HIMB1526	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1526_01145
+HIMB1526-00000000001	Prodigal:2.6	CDS	1060957	1062567	.	-	0	HIMB1526_01144	HIMB1526	536	OG0001143	NA	NA	NA	NA	NA	HIMB1526_01145
+HIMB1526-00000000001	Prodigal:2.6	CDS	1062615	1063034	.	-	0	HIMB1526_01145	HIMB1526	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1526_01145
+HIMB1526-00000000001	Prodigal:2.6	CDS	1063031	1063450	.	-	0	HIMB1526_01146	HIMB1526	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1526_01145
+HIMB1526-00000000001	Prodigal:2.6	CDS	1063455	1063889	.	-	0	HIMB1526_01147	HIMB1526	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1526_01145
+HIMB1526-00000000001	Prodigal:2.6	CDS	1063894	1064094	.	-	0	HIMB1526_01148	HIMB1526	66	OG0001080	NA	NA	NA	NA	NA	HIMB1526_01145
+HIMB1526-00000000001	Prodigal:2.6	CDS	1064097	1064876	.	-	0	HIMB1526_01149	HIMB1526	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1526_01145
+HIMB1526-00000000001	Prodigal:2.6	CDS	1064877	1065728	.	-	0	HIMB1526_01150	HIMB1526	283	OG0001199	NA	NA	NA	NA	NA	HIMB1526_01145
+HIMB1552-00000000001	Prodigal:2.6	CDS	607020	607769	.	-	0	HIMB1552_00676	HIMB1552	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1552_00681
+HIMB1552-00000000001	Prodigal:2.6	CDS	607769	610201	.	-	0	HIMB1552_00677	HIMB1552	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1552_00681
+HIMB1552-00000000001	Prodigal:2.6	CDS	610259	610732	.	-	0	HIMB1552_00678	HIMB1552	157	OG0000932	NA	NA	NA	NA	NA	HIMB1552_00681
+HIMB1552-00000000001	Prodigal:2.6	CDS	610704	611273	.	-	0	HIMB1552_00679	HIMB1552	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1552_00681
+HIMB1552-00000000001	Prodigal:2.6	CDS	611320	612930	.	-	0	HIMB1552_00680	HIMB1552	536	OG0001143	NA	NA	NA	NA	NA	HIMB1552_00681
+HIMB1552-00000000001	Prodigal:2.6	CDS	612978	613397	.	-	0	HIMB1552_00681	HIMB1552	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1552_00681
+HIMB1552-00000000001	Prodigal:2.6	CDS	613394	613813	.	-	0	HIMB1552_00682	HIMB1552	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1552_00681
+HIMB1552-00000000001	Prodigal:2.6	CDS	613818	614252	.	-	0	HIMB1552_00683	HIMB1552	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1552_00681
+HIMB1552-00000000001	Prodigal:2.6	CDS	614257	614457	.	-	0	HIMB1552_00684	HIMB1552	66	OG0001080	NA	NA	NA	NA	NA	HIMB1552_00681
+HIMB1552-00000000001	Prodigal:2.6	CDS	614460	615239	.	-	0	HIMB1552_00685	HIMB1552	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1552_00681
+HIMB1552-00000000001	Prodigal:2.6	CDS	615240	616091	.	-	0	HIMB1552_00686	HIMB1552	283	OG0001199	NA	NA	NA	NA	NA	HIMB1552_00681
+HIMB1641-00000000001	Prodigal:2.6	CDS	800086	800937	.	+	0	HIMB1641_00817	HIMB1641	283	OG0001199	NA	NA	NA	NA	NA	HIMB1641_00822
+HIMB1641-00000000001	Prodigal:2.6	CDS	800938	801717	.	+	0	HIMB1641_00818	HIMB1641	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1641_00822
+HIMB1641-00000000001	Prodigal:2.6	CDS	801720	801920	.	+	0	HIMB1641_00819	HIMB1641	66	OG0001080	NA	NA	NA	NA	NA	HIMB1641_00822
+HIMB1641-00000000001	Prodigal:2.6	CDS	801925	802359	.	+	0	HIMB1641_00820	HIMB1641	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1641_00822
+HIMB1641-00000000001	Prodigal:2.6	CDS	802364	802783	.	+	0	HIMB1641_00821	HIMB1641	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1641_00822
+HIMB1641-00000000001	Prodigal:2.6	CDS	802780	803199	.	+	0	HIMB1641_00822	HIMB1641	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1641_00822
+HIMB1641-00000000001	Prodigal:2.6	CDS	803247	804857	.	+	0	HIMB1641_00823	HIMB1641	536	OG0001143	NA	NA	NA	NA	NA	HIMB1641_00822
+HIMB1641-00000000001	Prodigal:2.6	CDS	804904	805473	.	+	0	HIMB1641_00824	HIMB1641	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1641_00822
+HIMB1641-00000000001	Prodigal:2.6	CDS	805445	805918	.	+	0	HIMB1641_00825	HIMB1641	157	OG0000932	NA	NA	NA	NA	NA	HIMB1641_00822
+HIMB1641-00000000001	Prodigal:2.6	CDS	805976	808408	.	+	0	HIMB1641_00826	HIMB1641	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1641_00822
+HIMB1641-00000000001	Prodigal:2.6	CDS	808408	809157	.	+	0	HIMB1641_00827	HIMB1641	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1641_00822
+HIMB1636-00000000001	Prodigal:2.6	CDS	211436	212287	.	+	0	HIMB1636_00210	HIMB1636	283	OG0001199	NA	NA	NA	NA	NA	HIMB1636_00215
+HIMB1636-00000000001	Prodigal:2.6	CDS	212288	213067	.	+	0	HIMB1636_00211	HIMB1636	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1636_00215
+HIMB1636-00000000001	Prodigal:2.6	CDS	213070	213270	.	+	0	HIMB1636_00212	HIMB1636	66	OG0001080	NA	NA	NA	NA	NA	HIMB1636_00215
+HIMB1636-00000000001	Prodigal:2.6	CDS	213275	213709	.	+	0	HIMB1636_00213	HIMB1636	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1636_00215
+HIMB1636-00000000001	Prodigal:2.6	CDS	213714	214133	.	+	0	HIMB1636_00214	HIMB1636	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1636_00215
+HIMB1636-00000000001	Prodigal:2.6	CDS	214130	214549	.	+	0	HIMB1636_00215	HIMB1636	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1636_00215
+HIMB1636-00000000001	Prodigal:2.6	CDS	214597	216207	.	+	0	HIMB1636_00216	HIMB1636	536	OG0001143	NA	NA	NA	NA	NA	HIMB1636_00215
+HIMB1636-00000000001	Prodigal:2.6	CDS	216254	216823	.	+	0	HIMB1636_00217	HIMB1636	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1636_00215
+HIMB1636-00000000001	Prodigal:2.6	CDS	216795	217268	.	+	0	HIMB1636_00218	HIMB1636	157	OG0000932	NA	NA	NA	NA	NA	HIMB1636_00215
+HIMB1636-00000000001	Prodigal:2.6	CDS	217326	219758	.	+	0	HIMB1636_00219	HIMB1636	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1636_00215
+HIMB1636-00000000001	Prodigal:2.6	CDS	219758	220507	.	+	0	HIMB1636_00220	HIMB1636	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1636_00215
+HIMB1702-00000000001	Prodigal:2.6	CDS	1225356	1226105	.	-	0	HIMB1702_01305	HIMB1702	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1702_01310
+HIMB1702-00000000001	Prodigal:2.6	CDS	1226105	1228537	.	-	0	HIMB1702_01306	HIMB1702	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1702_01310
+HIMB1702-00000000001	Prodigal:2.6	CDS	1228595	1229068	.	-	0	HIMB1702_01307	HIMB1702	157	OG0000932	NA	NA	NA	NA	NA	HIMB1702_01310
+HIMB1702-00000000001	Prodigal:2.6	CDS	1229040	1229609	.	-	0	HIMB1702_01308	HIMB1702	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1702_01310
+HIMB1702-00000000001	Prodigal:2.6	CDS	1229656	1231266	.	-	0	HIMB1702_01309	HIMB1702	536	OG0001143	NA	NA	NA	NA	NA	HIMB1702_01310
+HIMB1702-00000000001	Prodigal:2.6	CDS	1231314	1231733	.	-	0	HIMB1702_01310	HIMB1702	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1702_01310
+HIMB1702-00000000001	Prodigal:2.6	CDS	1231730	1232149	.	-	0	HIMB1702_01311	HIMB1702	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1702_01310
+HIMB1702-00000000001	Prodigal:2.6	CDS	1232154	1232588	.	-	0	HIMB1702_01312	HIMB1702	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1702_01310
+HIMB1702-00000000001	Prodigal:2.6	CDS	1232593	1232793	.	-	0	HIMB1702_01313	HIMB1702	66	OG0001080	NA	NA	NA	NA	NA	HIMB1702_01310
+HIMB1702-00000000001	Prodigal:2.6	CDS	1232796	1233575	.	-	0	HIMB1702_01314	HIMB1702	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1702_01310
+HIMB1702-00000000001	Prodigal:2.6	CDS	1233576	1234427	.	-	0	HIMB1702_01315	HIMB1702	283	OG0001199	NA	NA	NA	NA	NA	HIMB1702_01310
+HIMB1710-00000000003	Prodigal:2.6	CDS	1217603	1218352	.	-	0	HIMB1710_01315	HIMB1710	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1710_01320
+HIMB1710-00000000003	Prodigal:2.6	CDS	1218352	1220784	.	-	0	HIMB1710_01316	HIMB1710	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1710_01320
+HIMB1710-00000000003	Prodigal:2.6	CDS	1220842	1221315	.	-	0	HIMB1710_01317	HIMB1710	157	OG0000932	NA	NA	NA	NA	NA	HIMB1710_01320
+HIMB1710-00000000003	Prodigal:2.6	CDS	1221287	1221856	.	-	0	HIMB1710_01318	HIMB1710	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1710_01320
+HIMB1710-00000000003	Prodigal:2.6	CDS	1221903	1223513	.	-	0	HIMB1710_01319	HIMB1710	536	OG0001143	NA	NA	NA	NA	NA	HIMB1710_01320
+HIMB1710-00000000003	Prodigal:2.6	CDS	1223561	1223980	.	-	0	HIMB1710_01320	HIMB1710	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1710_01320
+HIMB1710-00000000003	Prodigal:2.6	CDS	1223977	1224396	.	-	0	HIMB1710_01321	HIMB1710	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1710_01320
+HIMB1710-00000000003	Prodigal:2.6	CDS	1224401	1224835	.	-	0	HIMB1710_01322	HIMB1710	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1710_01320
+HIMB1710-00000000003	Prodigal:2.6	CDS	1224840	1225040	.	-	0	HIMB1710_01323	HIMB1710	66	OG0001080	NA	NA	NA	NA	NA	HIMB1710_01320
+HIMB1710-00000000003	Prodigal:2.6	CDS	1225043	1225822	.	-	0	HIMB1710_01324	HIMB1710	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1710_01320
+HIMB1710-00000000003	Prodigal:2.6	CDS	1225823	1226674	.	-	0	HIMB1710_01325	HIMB1710	283	OG0001199	NA	NA	NA	NA	NA	HIMB1710_01320
+HIMB1556-00000000001	Prodigal:2.6	CDS	812979	813830	.	+	0	HIMB1556_00827	HIMB1556	283	OG0001199	NA	NA	NA	NA	NA	HIMB1556_00832
+HIMB1556-00000000001	Prodigal:2.6	CDS	813831	814610	.	+	0	HIMB1556_00828	HIMB1556	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1556_00832
+HIMB1556-00000000001	Prodigal:2.6	CDS	814613	814813	.	+	0	HIMB1556_00829	HIMB1556	66	OG0001080	NA	NA	NA	NA	NA	HIMB1556_00832
+HIMB1556-00000000001	Prodigal:2.6	CDS	814818	815252	.	+	0	HIMB1556_00830	HIMB1556	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1556_00832
+HIMB1556-00000000001	Prodigal:2.6	CDS	815257	815676	.	+	0	HIMB1556_00831	HIMB1556	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1556_00832
+HIMB1556-00000000001	Prodigal:2.6	CDS	815673	816092	.	+	0	HIMB1556_00832	HIMB1556	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1556_00832
+HIMB1556-00000000001	Prodigal:2.6	CDS	816140	817750	.	+	0	HIMB1556_00833	HIMB1556	536	OG0001143	NA	NA	NA	NA	NA	HIMB1556_00832
+HIMB1556-00000000001	Prodigal:2.6	CDS	817797	818366	.	+	0	HIMB1556_00834	HIMB1556	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1556_00832
+HIMB1556-00000000001	Prodigal:2.6	CDS	818338	818811	.	+	0	HIMB1556_00835	HIMB1556	157	OG0000932	NA	NA	NA	NA	NA	HIMB1556_00832
+HIMB1556-00000000001	Prodigal:2.6	CDS	818869	821301	.	+	0	HIMB1556_00836	HIMB1556	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1556_00832
+HIMB1556-00000000001	Prodigal:2.6	CDS	821301	822050	.	+	0	HIMB1556_00837	HIMB1556	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1556_00832
+HIMB1748-00000000003	Prodigal:2.6	CDS	205509	206360	.	+	0	HIMB1748_00834	HIMB1748	283	OG0001199	NA	NA	NA	NA	NA	HIMB1748_00839
+HIMB1748-00000000003	Prodigal:2.6	CDS	206361	207140	.	+	0	HIMB1748_00835	HIMB1748	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1748_00839
+HIMB1748-00000000003	Prodigal:2.6	CDS	207143	207343	.	+	0	HIMB1748_00836	HIMB1748	66	OG0001080	NA	NA	NA	NA	NA	HIMB1748_00839
+HIMB1748-00000000003	Prodigal:2.6	CDS	207348	207782	.	+	0	HIMB1748_00837	HIMB1748	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1748_00839
+HIMB1748-00000000003	Prodigal:2.6	CDS	207787	208206	.	+	0	HIMB1748_00838	HIMB1748	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1748_00839
+HIMB1748-00000000003	Prodigal:2.6	CDS	208203	208622	.	+	0	HIMB1748_00839	HIMB1748	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1748_00839
+HIMB1748-00000000003	Prodigal:2.6	CDS	208670	210280	.	+	0	HIMB1748_00840	HIMB1748	536	OG0001143	NA	NA	NA	NA	NA	HIMB1748_00839
+HIMB1748-00000000003	Prodigal:2.6	CDS	210327	210896	.	+	0	HIMB1748_00841	HIMB1748	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1748_00839
+HIMB1748-00000000003	Prodigal:2.6	CDS	210868	211341	.	+	0	HIMB1748_00842	HIMB1748	157	OG0000932	NA	NA	NA	NA	NA	HIMB1748_00839
+HIMB1748-00000000003	Prodigal:2.6	CDS	211399	213831	.	+	0	HIMB1748_00843	HIMB1748	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1748_00839
+HIMB1748-00000000003	Prodigal:2.6	CDS	213831	214580	.	+	0	HIMB1748_00844	HIMB1748	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1748_00839
+HIMB1662-00000000001	Prodigal:2.6	CDS	806900	807751	.	+	0	HIMB1662_00825	HIMB1662	283	OG0001199	NA	NA	NA	NA	NA	HIMB1662_00830
+HIMB1662-00000000001	Prodigal:2.6	CDS	807752	808531	.	+	0	HIMB1662_00826	HIMB1662	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1662_00830
+HIMB1662-00000000001	Prodigal:2.6	CDS	808534	808734	.	+	0	HIMB1662_00827	HIMB1662	66	OG0001080	NA	NA	NA	NA	NA	HIMB1662_00830
+HIMB1662-00000000001	Prodigal:2.6	CDS	808739	809173	.	+	0	HIMB1662_00828	HIMB1662	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1662_00830
+HIMB1662-00000000001	Prodigal:2.6	CDS	809178	809597	.	+	0	HIMB1662_00829	HIMB1662	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1662_00830
+HIMB1662-00000000001	Prodigal:2.6	CDS	809594	810013	.	+	0	HIMB1662_00830	HIMB1662	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1662_00830
+HIMB1662-00000000001	Prodigal:2.6	CDS	810034	810366	.	+	0	HIMB1662_00831	HIMB1662	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1662_00830
+HIMB1662-00000000001	Prodigal:2.6	CDS	810359	811969	.	+	0	HIMB1662_00832	HIMB1662	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1662_00830
+HIMB1662-00000000001	Prodigal:2.6	CDS	812016	812585	.	+	0	HIMB1662_00833	HIMB1662	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1662_00830
+HIMB1662-00000000001	Prodigal:2.6	CDS	812557	813030	.	+	0	HIMB1662_00834	HIMB1662	157	OG0000932	NA	NA	NA	NA	NA	HIMB1662_00830
+HIMB1662-00000000001	Prodigal:2.6	CDS	813088	815520	.	+	0	HIMB1662_00835	HIMB1662	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1662_00830
+HIMB1723-00000000001	Prodigal:2.6	CDS	1136743	1137594	.	+	0	HIMB1723_01188	HIMB1723	283	OG0001199	NA	NA	NA	NA	NA	HIMB1723_01193
+HIMB1723-00000000001	Prodigal:2.6	CDS	1137595	1138374	.	+	0	HIMB1723_01189	HIMB1723	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1723_01193
+HIMB1723-00000000001	Prodigal:2.6	CDS	1138377	1138577	.	+	0	HIMB1723_01190	HIMB1723	66	OG0001080	NA	NA	NA	NA	NA	HIMB1723_01193
+HIMB1723-00000000001	Prodigal:2.6	CDS	1138582	1139016	.	+	0	HIMB1723_01191	HIMB1723	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1723_01193
+HIMB1723-00000000001	Prodigal:2.6	CDS	1139021	1139440	.	+	0	HIMB1723_01192	HIMB1723	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1723_01193
+HIMB1723-00000000001	Prodigal:2.6	CDS	1139437	1139856	.	+	0	HIMB1723_01193	HIMB1723	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1723_01193
+HIMB1723-00000000001	Prodigal:2.6	CDS	1139904	1141514	.	+	0	HIMB1723_01194	HIMB1723	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1723_01193
+HIMB1723-00000000001	Prodigal:2.6	CDS	1141561	1142130	.	+	0	HIMB1723_01195	HIMB1723	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1723_01193
+HIMB1723-00000000001	Prodigal:2.6	CDS	1142102	1142575	.	+	0	HIMB1723_01196	HIMB1723	157	OG0000932	NA	NA	NA	NA	NA	HIMB1723_01193
+HIMB1723-00000000001	Prodigal:2.6	CDS	1142633	1145065	.	+	0	HIMB1723_01197	HIMB1723	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1723_01193
+HIMB1723-00000000001	Prodigal:2.6	CDS	1145065	1145814	.	+	0	HIMB1723_01198	HIMB1723	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1723_01193
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1350574	1351425	.	+	0	HIMB140_01446	HIMB140	283	OG0001199	NA	NA	NA	NA	NA	HIMB140_01451
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1351426	1352205	.	+	0	HIMB140_01447	HIMB140	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB140_01451
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1352211	1352411	.	+	0	HIMB140_01448	HIMB140	66	OG0001080	NA	NA	NA	NA	NA	HIMB140_01451
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1352416	1352850	.	+	0	HIMB140_01449	HIMB140	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB140_01451
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1352855	1353274	.	+	0	HIMB140_01450	HIMB140	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB140_01451
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1353271	1353690	.	+	0	HIMB140_01451	HIMB140	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB140_01451
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1353711	1354043	.	+	0	HIMB140_01452	HIMB140	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB140_01451
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1354036	1355646	.	+	0	HIMB140_01453	HIMB140	536	OG0001143	NA	NA	NA	NA	NA	HIMB140_01451
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1355693	1356262	.	+	0	HIMB140_01454	HIMB140	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB140_01451
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1356234	1356707	.	+	0	HIMB140_01455	HIMB140	157	OG0000932	NA	NA	NA	NA	NA	HIMB140_01451
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1356765	1359197	.	+	0	HIMB140_01456	HIMB140	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB140_01451
+HIMB1513-00000000001	Prodigal:2.6	CDS	886931	887782	.	+	0	HIMB1513_00908	HIMB1513	283	OG0001199	NA	NA	NA	NA	NA	HIMB1513_00913
+HIMB1513-00000000001	Prodigal:2.6	CDS	887783	888562	.	+	0	HIMB1513_00909	HIMB1513	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1513_00913
+HIMB1513-00000000001	Prodigal:2.6	CDS	888565	888765	.	+	0	HIMB1513_00910	HIMB1513	66	OG0001080	NA	NA	NA	NA	NA	HIMB1513_00913
+HIMB1513-00000000001	Prodigal:2.6	CDS	888770	889204	.	+	0	HIMB1513_00911	HIMB1513	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1513_00913
+HIMB1513-00000000001	Prodigal:2.6	CDS	889209	889628	.	+	0	HIMB1513_00912	HIMB1513	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1513_00913
+HIMB1513-00000000001	Prodigal:2.6	CDS	889625	890044	.	+	0	HIMB1513_00913	HIMB1513	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1513_00913
+HIMB1513-00000000001	Prodigal:2.6	CDS	890091	891701	.	+	0	HIMB1513_00914	HIMB1513	536	OG0001143	NA	NA	NA	NA	NA	HIMB1513_00913
+HIMB1513-00000000001	Prodigal:2.6	CDS	891748	892317	.	+	0	HIMB1513_00915	HIMB1513	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1513_00913
+HIMB1513-00000000001	Prodigal:2.6	CDS	892289	892762	.	+	0	HIMB1513_00916	HIMB1513	157	OG0000932	NA	NA	NA	NA	NA	HIMB1513_00913
+HIMB1513-00000000001	Prodigal:2.6	CDS	892820	895252	.	+	0	HIMB1513_00917	HIMB1513	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1513_00913
+HIMB1513-00000000001	Prodigal:2.6	CDS	895252	896001	.	+	0	HIMB1513_00918	HIMB1513	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1513_00913
+HIMB1521-00000000004	Prodigal:2.6	CDS	77676	78527	.	+	0	HIMB1521_00467	HIMB1521	283	OG0001199	NA	NA	NA	NA	NA	HIMB1521_00472
+HIMB1521-00000000004	Prodigal:2.6	CDS	78528	79307	.	+	0	HIMB1521_00468	HIMB1521	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1521_00472
+HIMB1521-00000000004	Prodigal:2.6	CDS	79310	79510	.	+	0	HIMB1521_00469	HIMB1521	66	OG0001080	NA	NA	NA	NA	NA	HIMB1521_00472
+HIMB1521-00000000004	Prodigal:2.6	CDS	79515	79949	.	+	0	HIMB1521_00470	HIMB1521	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1521_00472
+HIMB1521-00000000004	Prodigal:2.6	CDS	79954	80373	.	+	0	HIMB1521_00471	HIMB1521	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1521_00472
+HIMB1521-00000000004	Prodigal:2.6	CDS	80370	80789	.	+	0	HIMB1521_00472	HIMB1521	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1521_00472
+HIMB1521-00000000004	Prodigal:2.6	CDS	80836	82446	.	+	0	HIMB1521_00473	HIMB1521	536	OG0001143	NA	NA	NA	NA	NA	HIMB1521_00472
+HIMB1521-00000000004	Prodigal:2.6	CDS	82493	83062	.	+	0	HIMB1521_00474	HIMB1521	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1521_00472
+HIMB1521-00000000004	Prodigal:2.6	CDS	83034	83507	.	+	0	HIMB1521_00475	HIMB1521	157	OG0000932	NA	NA	NA	NA	NA	HIMB1521_00472
+HIMB1521-00000000004	Prodigal:2.6	CDS	83565	85997	.	+	0	HIMB1521_00476	HIMB1521	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1521_00472
+HIMB1521-00000000004	Prodigal:2.6	CDS	85997	86746	.	+	0	HIMB1521_00477	HIMB1521	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1521_00472
+HIMB1430-00000000004	Prodigal:2.6	CDS	21589	22440	.	+	0	HIMB1430_00486	HIMB1430	283	OG0001199	NA	NA	NA	NA	NA	HIMB1430_00491
+HIMB1430-00000000004	Prodigal:2.6	CDS	22441	23220	.	+	0	HIMB1430_00487	HIMB1430	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1430_00491
+HIMB1430-00000000004	Prodigal:2.6	CDS	23223	23423	.	+	0	HIMB1430_00488	HIMB1430	66	OG0001080	NA	NA	NA	NA	NA	HIMB1430_00491
+HIMB1430-00000000004	Prodigal:2.6	CDS	23428	23862	.	+	0	HIMB1430_00489	HIMB1430	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1430_00491
+HIMB1430-00000000004	Prodigal:2.6	CDS	23867	24286	.	+	0	HIMB1430_00490	HIMB1430	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1430_00491
+HIMB1430-00000000004	Prodigal:2.6	CDS	24283	24702	.	+	0	HIMB1430_00491	HIMB1430	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1430_00491
+HIMB1430-00000000004	Prodigal:2.6	CDS	24749	26359	.	+	0	HIMB1430_00492	HIMB1430	536	OG0001143	NA	NA	NA	NA	NA	HIMB1430_00491
+HIMB1430-00000000004	Prodigal:2.6	CDS	26406	26975	.	+	0	HIMB1430_00493	HIMB1430	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1430_00491
+HIMB1430-00000000004	Prodigal:2.6	CDS	26947	27420	.	+	0	HIMB1430_00494	HIMB1430	157	OG0000932	NA	NA	NA	NA	NA	HIMB1430_00491
+HIMB1430-00000000004	Prodigal:2.6	CDS	27478	29910	.	+	0	HIMB1430_00495	HIMB1430	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1430_00491
+HIMB1430-00000000004	Prodigal:2.6	CDS	29910	30659	.	+	0	HIMB1430_00496	HIMB1430	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1430_00491
+HIMB1611-00000000001	Prodigal:2.6	CDS	206650	207501	.	+	0	HIMB1611_00212	HIMB1611	283	OG0001199	NA	NA	NA	NA	NA	HIMB1611_00217
+HIMB1611-00000000001	Prodigal:2.6	CDS	207502	208281	.	+	0	HIMB1611_00213	HIMB1611	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1611_00217
+HIMB1611-00000000001	Prodigal:2.6	CDS	208284	208484	.	+	0	HIMB1611_00214	HIMB1611	66	OG0001080	NA	NA	NA	NA	NA	HIMB1611_00217
+HIMB1611-00000000001	Prodigal:2.6	CDS	208489	208923	.	+	0	HIMB1611_00215	HIMB1611	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1611_00217
+HIMB1611-00000000001	Prodigal:2.6	CDS	208928	209347	.	+	0	HIMB1611_00216	HIMB1611	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1611_00217
+HIMB1611-00000000001	Prodigal:2.6	CDS	209344	209763	.	+	0	HIMB1611_00217	HIMB1611	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1611_00217
+HIMB1611-00000000001	Prodigal:2.6	CDS	209810	211420	.	+	0	HIMB1611_00218	HIMB1611	536	OG0001143	NA	NA	NA	NA	NA	HIMB1611_00217
+HIMB1611-00000000001	Prodigal:2.6	CDS	211467	212036	.	+	0	HIMB1611_00219	HIMB1611	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1611_00217
+HIMB1611-00000000001	Prodigal:2.6	CDS	212008	212481	.	+	0	HIMB1611_00220	HIMB1611	157	OG0000932	NA	NA	NA	NA	NA	HIMB1611_00217
+HIMB1611-00000000001	Prodigal:2.6	CDS	212539	214971	.	+	0	HIMB1611_00221	HIMB1611	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1611_00217
+HIMB1611-00000000001	Prodigal:2.6	CDS	214971	215720	.	+	0	HIMB1611_00222	HIMB1611	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1611_00217
+HIMB1758-00000000001	Prodigal:2.6	CDS	865466	866317	.	+	0	HIMB1758_00885	HIMB1758	283	OG0001199	NA	NA	NA	NA	NA	HIMB1758_00890
+HIMB1758-00000000001	Prodigal:2.6	CDS	866318	867097	.	+	0	HIMB1758_00886	HIMB1758	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1758_00890
+HIMB1758-00000000001	Prodigal:2.6	CDS	867100	867300	.	+	0	HIMB1758_00887	HIMB1758	66	OG0001080	NA	NA	NA	NA	NA	HIMB1758_00890
+HIMB1758-00000000001	Prodigal:2.6	CDS	867305	867739	.	+	0	HIMB1758_00888	HIMB1758	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1758_00890
+HIMB1758-00000000001	Prodigal:2.6	CDS	867744	868163	.	+	0	HIMB1758_00889	HIMB1758	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1758_00890
+HIMB1758-00000000001	Prodigal:2.6	CDS	868160	868579	.	+	0	HIMB1758_00890	HIMB1758	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1758_00890
+HIMB1758-00000000001	Prodigal:2.6	CDS	868626	870236	.	+	0	HIMB1758_00891	HIMB1758	536	OG0001143	NA	NA	NA	NA	NA	HIMB1758_00890
+HIMB1758-00000000001	Prodigal:2.6	CDS	870283	870852	.	+	0	HIMB1758_00892	HIMB1758	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1758_00890
+HIMB1758-00000000001	Prodigal:2.6	CDS	870824	871297	.	+	0	HIMB1758_00893	HIMB1758	157	OG0000932	NA	NA	NA	NA	NA	HIMB1758_00890
+HIMB1758-00000000001	Prodigal:2.6	CDS	871355	873787	.	+	0	HIMB1758_00894	HIMB1758	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1758_00890
+HIMB1758-00000000001	Prodigal:2.6	CDS	873787	874536	.	+	0	HIMB1758_00895	HIMB1758	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1758_00890
+HIMB1488-00000000001	Prodigal:2.6	CDS	1028523	1029272	.	-	0	HIMB1488_01131	HIMB1488	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1488_01136
+HIMB1488-00000000001	Prodigal:2.6	CDS	1029272	1031704	.	-	0	HIMB1488_01132	HIMB1488	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1488_01136
+HIMB1488-00000000001	Prodigal:2.6	CDS	1031762	1032235	.	-	0	HIMB1488_01133	HIMB1488	157	OG0000932	NA	NA	NA	NA	NA	HIMB1488_01136
+HIMB1488-00000000001	Prodigal:2.6	CDS	1032207	1032776	.	-	0	HIMB1488_01134	HIMB1488	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1488_01136
+HIMB1488-00000000001	Prodigal:2.6	CDS	1032823	1034433	.	-	0	HIMB1488_01135	HIMB1488	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1488_01136
+HIMB1488-00000000001	Prodigal:2.6	CDS	1034480	1034899	.	-	0	HIMB1488_01136	HIMB1488	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1488_01136
+HIMB1488-00000000001	Prodigal:2.6	CDS	1034896	1035315	.	-	0	HIMB1488_01137	HIMB1488	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1488_01136
+HIMB1488-00000000001	Prodigal:2.6	CDS	1035320	1035754	.	-	0	HIMB1488_01138	HIMB1488	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1488_01136
+HIMB1488-00000000001	Prodigal:2.6	CDS	1035759	1035959	.	-	0	HIMB1488_01139	HIMB1488	66	OG0001080	NA	NA	NA	NA	NA	HIMB1488_01136
+HIMB1488-00000000001	Prodigal:2.6	CDS	1035962	1036741	.	-	0	HIMB1488_01140	HIMB1488	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1488_01136
+HIMB1488-00000000001	Prodigal:2.6	CDS	1036742	1037593	.	-	0	HIMB1488_01141	HIMB1488	283	OG0001199	NA	NA	NA	NA	NA	HIMB1488_01136
+HIMB1506-00000000001	Prodigal:2.6	CDS	250068	250919	.	+	0	HIMB1506_00250	HIMB1506	283	OG0001199	NA	NA	NA	NA	NA	HIMB1506_00255
+HIMB1506-00000000001	Prodigal:2.6	CDS	250920	251699	.	+	0	HIMB1506_00251	HIMB1506	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1506_00255
+HIMB1506-00000000001	Prodigal:2.6	CDS	251702	251902	.	+	0	HIMB1506_00252	HIMB1506	66	OG0001080	NA	NA	NA	NA	NA	HIMB1506_00255
+HIMB1506-00000000001	Prodigal:2.6	CDS	251907	252341	.	+	0	HIMB1506_00253	HIMB1506	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1506_00255
+HIMB1506-00000000001	Prodigal:2.6	CDS	252346	252765	.	+	0	HIMB1506_00254	HIMB1506	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1506_00255
+HIMB1506-00000000001	Prodigal:2.6	CDS	252762	253181	.	+	0	HIMB1506_00255	HIMB1506	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1506_00255
+HIMB1506-00000000001	Prodigal:2.6	CDS	253228	254838	.	+	0	HIMB1506_00256	HIMB1506	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1506_00255
+HIMB1506-00000000001	Prodigal:2.6	CDS	254885	255454	.	+	0	HIMB1506_00257	HIMB1506	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1506_00255
+HIMB1506-00000000001	Prodigal:2.6	CDS	255426	255899	.	+	0	HIMB1506_00258	HIMB1506	157	OG0000932	NA	NA	NA	NA	NA	HIMB1506_00255
+HIMB1506-00000000001	Prodigal:2.6	CDS	255957	258389	.	+	0	HIMB1506_00259	HIMB1506	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1506_00255
+HIMB1506-00000000001	Prodigal:2.6	CDS	258389	259138	.	+	0	HIMB1506_00260	HIMB1506	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1506_00255
+HIMB2211-00000000001	Prodigal:2.6	CDS	217707	218558	.	+	0	HIMB2211_00222	HIMB2211	283	OG0001199	NA	NA	NA	NA	NA	HIMB2211_00227
+HIMB2211-00000000001	Prodigal:2.6	CDS	218559	219338	.	+	0	HIMB2211_00223	HIMB2211	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB2211_00227
+HIMB2211-00000000001	Prodigal:2.6	CDS	219341	219541	.	+	0	HIMB2211_00224	HIMB2211	66	OG0001080	NA	NA	NA	NA	NA	HIMB2211_00227
+HIMB2211-00000000001	Prodigal:2.6	CDS	219546	219980	.	+	0	HIMB2211_00225	HIMB2211	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB2211_00227
+HIMB2211-00000000001	Prodigal:2.6	CDS	219985	220404	.	+	0	HIMB2211_00226	HIMB2211	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB2211_00227
+HIMB2211-00000000001	Prodigal:2.6	CDS	220401	220820	.	+	0	HIMB2211_00227	HIMB2211	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB2211_00227
+HIMB2211-00000000001	Prodigal:2.6	CDS	220867	222477	.	+	0	HIMB2211_00228	HIMB2211	536	OG0001143	NA	NA	NA	NA	NA	HIMB2211_00227
+HIMB2211-00000000001	Prodigal:2.6	CDS	222524	223093	.	+	0	HIMB2211_00229	HIMB2211	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB2211_00227
+HIMB2211-00000000001	Prodigal:2.6	CDS	223065	223538	.	+	0	HIMB2211_00230	HIMB2211	157	OG0000932	NA	NA	NA	NA	NA	HIMB2211_00227
+HIMB2211-00000000001	Prodigal:2.6	CDS	223596	226028	.	+	0	HIMB2211_00231	HIMB2211	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB2211_00227
+HIMB2211-00000000001	Prodigal:2.6	CDS	226028	226777	.	+	0	HIMB2211_00232	HIMB2211	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB2211_00227
+HIMB1746-00000000001	Prodigal:2.6	CDS	240485	241336	.	+	0	HIMB1746_00264	HIMB1746	283	OG0001199	NA	NA	NA	NA	NA	HIMB1746_00269
+HIMB1746-00000000001	Prodigal:2.6	CDS	241337	242116	.	+	0	HIMB1746_00265	HIMB1746	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1746_00269
+HIMB1746-00000000001	Prodigal:2.6	CDS	242119	242319	.	+	0	HIMB1746_00266	HIMB1746	66	OG0001080	NA	NA	NA	NA	NA	HIMB1746_00269
+HIMB1746-00000000001	Prodigal:2.6	CDS	242324	242758	.	+	0	HIMB1746_00267	HIMB1746	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1746_00269
+HIMB1746-00000000001	Prodigal:2.6	CDS	242763	243182	.	+	0	HIMB1746_00268	HIMB1746	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1746_00269
+HIMB1746-00000000001	Prodigal:2.6	CDS	243179	243598	.	+	0	HIMB1746_00269	HIMB1746	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1746_00269
+HIMB1746-00000000001	Prodigal:2.6	CDS	243645	245255	.	+	0	HIMB1746_00270	HIMB1746	536	OG0001143	NA	NA	NA	NA	NA	HIMB1746_00269
+HIMB1746-00000000001	Prodigal:2.6	CDS	245302	245871	.	+	0	HIMB1746_00271	HIMB1746	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1746_00269
+HIMB1746-00000000001	Prodigal:2.6	CDS	245843	246316	.	+	0	HIMB1746_00272	HIMB1746	157	OG0000932	NA	NA	NA	NA	NA	HIMB1746_00269
+HIMB1746-00000000001	Prodigal:2.6	CDS	246374	248806	.	+	0	HIMB1746_00273	HIMB1746	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1746_00269
+HIMB1746-00000000001	Prodigal:2.6	CDS	248806	249555	.	+	0	HIMB1746_00274	HIMB1746	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1746_00269
+HIMB1542-00000000001	Prodigal:2.6	CDS	232853	233704	.	+	0	HIMB1542_00239	HIMB1542	283	OG0001199	NA	NA	NA	NA	NA	HIMB1542_00244
+HIMB1542-00000000001	Prodigal:2.6	CDS	233705	234484	.	+	0	HIMB1542_00240	HIMB1542	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1542_00244
+HIMB1542-00000000001	Prodigal:2.6	CDS	234487	234687	.	+	0	HIMB1542_00241	HIMB1542	66	OG0001080	NA	NA	NA	NA	NA	HIMB1542_00244
+HIMB1542-00000000001	Prodigal:2.6	CDS	234692	235126	.	+	0	HIMB1542_00242	HIMB1542	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1542_00244
+HIMB1542-00000000001	Prodigal:2.6	CDS	235131	235550	.	+	0	HIMB1542_00243	HIMB1542	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1542_00244
+HIMB1542-00000000001	Prodigal:2.6	CDS	235547	235966	.	+	0	HIMB1542_00244	HIMB1542	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1542_00244
+HIMB1542-00000000001	Prodigal:2.6	CDS	236014	237624	.	+	0	HIMB1542_00245	HIMB1542	536	OG0001143	NA	NA	NA	NA	NA	HIMB1542_00244
+HIMB1542-00000000001	Prodigal:2.6	CDS	237671	238240	.	+	0	HIMB1542_00246	HIMB1542	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1542_00244
+HIMB1542-00000000001	Prodigal:2.6	CDS	238212	238685	.	+	0	HIMB1542_00247	HIMB1542	157	OG0000932	NA	NA	NA	NA	NA	HIMB1542_00244
+HIMB1542-00000000001	Prodigal:2.6	CDS	238743	241175	.	+	0	HIMB1542_00248	HIMB1542	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1542_00244
+HIMB1542-00000000001	Prodigal:2.6	CDS	241175	241924	.	+	0	HIMB1542_00249	HIMB1542	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1542_00244
+HIMB1695-00000000001	Prodigal:2.6	CDS	13044	13895	.	+	0	HIMB1695_00013	HIMB1695	283	OG0001199	NA	NA	NA	NA	NA	HIMB1695_00018
+HIMB1695-00000000001	Prodigal:2.6	CDS	13896	14675	.	+	0	HIMB1695_00014	HIMB1695	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1695_00018
+HIMB1695-00000000001	Prodigal:2.6	CDS	14678	14878	.	+	0	HIMB1695_00015	HIMB1695	66	OG0001080	NA	NA	NA	NA	NA	HIMB1695_00018
+HIMB1695-00000000001	Prodigal:2.6	CDS	14883	15317	.	+	0	HIMB1695_00016	HIMB1695	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1695_00018
+HIMB1695-00000000001	Prodigal:2.6	CDS	15322	15741	.	+	0	HIMB1695_00017	HIMB1695	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1695_00018
+HIMB1695-00000000001	Prodigal:2.6	CDS	15738	16157	.	+	0	HIMB1695_00018	HIMB1695	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1695_00018
+HIMB1695-00000000001	Prodigal:2.6	CDS	16204	17814	.	+	0	HIMB1695_00019	HIMB1695	536	OG0001143	NA	NA	NA	NA	NA	HIMB1695_00018
+HIMB1695-00000000001	Prodigal:2.6	CDS	17861	18430	.	+	0	HIMB1695_00020	HIMB1695	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1695_00018
+HIMB1695-00000000001	Prodigal:2.6	CDS	18402	18875	.	+	0	HIMB1695_00021	HIMB1695	157	OG0000932	NA	NA	NA	NA	NA	HIMB1695_00018
+HIMB1695-00000000001	Prodigal:2.6	CDS	18933	21365	.	+	0	HIMB1695_00022	HIMB1695	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1695_00018
+HIMB1695-00000000001	Prodigal:2.6	CDS	21365	22114	.	+	0	HIMB1695_00023	HIMB1695	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1695_00018
+HIMB1577-00000000001	Prodigal:2.6	CDS	232474	234906	.	-	0	HIMB1577_00264	HIMB1577	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1577_00269
+HIMB1577-00000000001	Prodigal:2.6	CDS	234964	235437	.	-	0	HIMB1577_00265	HIMB1577	157	OG0000932	NA	NA	NA	NA	NA	HIMB1577_00269
+HIMB1577-00000000001	Prodigal:2.6	CDS	235409	235978	.	-	0	HIMB1577_00266	HIMB1577	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1577_00269
+HIMB1577-00000000001	Prodigal:2.6	CDS	236025	237635	.	-	0	HIMB1577_00267	HIMB1577	536	OG0001143	NA	NA	NA	NA	NA	HIMB1577_00269
+HIMB1577-00000000001	Prodigal:2.6	CDS	237628	237960	.	-	0	HIMB1577_00268	HIMB1577	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1577_00269
+HIMB1577-00000000001	Prodigal:2.6	CDS	237981	238400	.	-	0	HIMB1577_00269	HIMB1577	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1577_00269
+HIMB1577-00000000001	Prodigal:2.6	CDS	238397	238816	.	-	0	HIMB1577_00270	HIMB1577	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1577_00269
+HIMB1577-00000000001	Prodigal:2.6	CDS	238821	239255	.	-	0	HIMB1577_00271	HIMB1577	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1577_00269
+HIMB1577-00000000001	Prodigal:2.6	CDS	239260	239460	.	-	0	HIMB1577_00272	HIMB1577	66	OG0001080	NA	NA	NA	NA	NA	HIMB1577_00269
+HIMB1577-00000000001	Prodigal:2.6	CDS	239463	240242	.	-	0	HIMB1577_00273	HIMB1577	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1577_00269
+HIMB1577-00000000001	Prodigal:2.6	CDS	240243	241094	.	-	0	HIMB1577_00274	HIMB1577	283	OG0001199	NA	NA	NA	NA	NA	HIMB1577_00269
+HIMB1631-00000000001	Prodigal:2.6	CDS	562235	564667	.	-	0	HIMB1631_00632	HIMB1631	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1631_00637
+HIMB1631-00000000001	Prodigal:2.6	CDS	564725	565198	.	-	0	HIMB1631_00633	HIMB1631	157	OG0000932	NA	NA	NA	NA	NA	HIMB1631_00637
+HIMB1631-00000000001	Prodigal:2.6	CDS	565170	565739	.	-	0	HIMB1631_00634	HIMB1631	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1631_00637
+HIMB1631-00000000001	Prodigal:2.6	CDS	565786	567396	.	-	0	HIMB1631_00635	HIMB1631	536	OG0001143	NA	NA	NA	NA	NA	HIMB1631_00637
+HIMB1631-00000000001	Prodigal:2.6	CDS	567389	567721	.	-	0	HIMB1631_00636	HIMB1631	110	OG0001960	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	HIMB1631_00637
+HIMB1631-00000000001	Prodigal:2.6	CDS	567742	568161	.	-	0	HIMB1631_00637	HIMB1631	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1631_00637
+HIMB1631-00000000001	Prodigal:2.6	CDS	568158	568577	.	-	0	HIMB1631_00638	HIMB1631	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1631_00637
+HIMB1631-00000000001	Prodigal:2.6	CDS	568582	569016	.	-	0	HIMB1631_00639	HIMB1631	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1631_00637
+HIMB1631-00000000001	Prodigal:2.6	CDS	569021	569221	.	-	0	HIMB1631_00640	HIMB1631	66	OG0001080	NA	NA	NA	NA	NA	HIMB1631_00637
+HIMB1631-00000000001	Prodigal:2.6	CDS	569224	570003	.	-	0	HIMB1631_00641	HIMB1631	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1631_00637
+HIMB1631-00000000001	Prodigal:2.6	CDS	570004	570855	.	-	0	HIMB1631_00642	HIMB1631	283	OG0001199	NA	NA	NA	NA	NA	HIMB1631_00637
+HIMB1715-00000000003	Prodigal:2.6	CDS	14019	14768	.	-	0	HIMB1715_00138	HIMB1715	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1715_00143
+HIMB1715-00000000003	Prodigal:2.6	CDS	14768	17200	.	-	0	HIMB1715_00139	HIMB1715	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1715_00143
+HIMB1715-00000000003	Prodigal:2.6	CDS	17258	17686	.	-	0	HIMB1715_00140	HIMB1715	142	OG0000932	NA	NA	NA	NA	NA	HIMB1715_00143
+HIMB1715-00000000003	Prodigal:2.6	CDS	17703	18272	.	-	0	HIMB1715_00141	HIMB1715	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1715_00143
+HIMB1715-00000000003	Prodigal:2.6	CDS	18319	19929	.	-	0	HIMB1715_00142	HIMB1715	536	OG0001143	NA	NA	NA	NA	NA	HIMB1715_00143
+HIMB1715-00000000003	Prodigal:2.6	CDS	19976	20395	.	-	0	HIMB1715_00143	HIMB1715	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1715_00143
+HIMB1715-00000000003	Prodigal:2.6	CDS	20392	20811	.	-	0	HIMB1715_00144	HIMB1715	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1715_00143
+HIMB1715-00000000003	Prodigal:2.6	CDS	20816	21250	.	-	0	HIMB1715_00145	HIMB1715	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1715_00143
+HIMB1715-00000000003	Prodigal:2.6	CDS	21255	21455	.	-	0	HIMB1715_00146	HIMB1715	66	OG0001080	NA	NA	NA	NA	NA	HIMB1715_00143
+HIMB1715-00000000003	Prodigal:2.6	CDS	21458	22237	.	-	0	HIMB1715_00147	HIMB1715	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1715_00143
+HIMB1715-00000000003	Prodigal:2.6	CDS	22238	23089	.	-	0	HIMB1715_00148	HIMB1715	283	OG0001199	NA	NA	NA	NA	NA	HIMB1715_00143
+HIMB1701-00000000001	Prodigal:2.6	CDS	1398957	1399808	.	+	0	HIMB1701_01488	HIMB1701	283	OG0001199	NA	NA	NA	NA	NA	HIMB1701_01493
+HIMB1701-00000000001	Prodigal:2.6	CDS	1399809	1400588	.	+	0	HIMB1701_01489	HIMB1701	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1701_01493
+HIMB1701-00000000001	Prodigal:2.6	CDS	1400591	1400791	.	+	0	HIMB1701_01490	HIMB1701	66	OG0001080	NA	NA	NA	NA	NA	HIMB1701_01493
+HIMB1701-00000000001	Prodigal:2.6	CDS	1400796	1401230	.	+	0	HIMB1701_01491	HIMB1701	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1701_01493
+HIMB1701-00000000001	Prodigal:2.6	CDS	1401235	1401654	.	+	0	HIMB1701_01492	HIMB1701	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1701_01493
+HIMB1701-00000000001	Prodigal:2.6	CDS	1401651	1402070	.	+	0	HIMB1701_01493	HIMB1701	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1701_01493
+HIMB1701-00000000001	Prodigal:2.6	CDS	1402117	1403727	.	+	0	HIMB1701_01494	HIMB1701	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1701_01493
+HIMB1701-00000000001	Prodigal:2.6	CDS	1403774	1404343	.	+	0	HIMB1701_01495	HIMB1701	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1701_01493
+HIMB1701-00000000001	Prodigal:2.6	CDS	1404315	1404788	.	+	0	HIMB1701_01496	HIMB1701	157	OG0000932	NA	NA	NA	NA	NA	HIMB1701_01493
+HIMB1701-00000000001	Prodigal:2.6	CDS	1404846	1407278	.	+	0	HIMB1701_01497	HIMB1701	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1701_01493
+HIMB1701-00000000001	Prodigal:2.6	CDS	1407278	1408027	.	+	0	HIMB1701_01498	HIMB1701	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1701_01493
+HIMB1782-00000000002	Prodigal:2.6	CDS	240800	241651	.	+	0	HIMB1782_01170	HIMB1782	283	OG0001199	NA	NA	NA	NA	NA	HIMB1782_01175
+HIMB1782-00000000002	Prodigal:2.6	CDS	241652	242431	.	+	0	HIMB1782_01171	HIMB1782	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1782_01175
+HIMB1782-00000000002	Prodigal:2.6	CDS	242434	242634	.	+	0	HIMB1782_01172	HIMB1782	66	OG0001080	NA	NA	NA	NA	NA	HIMB1782_01175
+HIMB1782-00000000002	Prodigal:2.6	CDS	242639	243073	.	+	0	HIMB1782_01173	HIMB1782	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1782_01175
+HIMB1782-00000000002	Prodigal:2.6	CDS	243078	243497	.	+	0	HIMB1782_01174	HIMB1782	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1782_01175
+HIMB1782-00000000002	Prodigal:2.6	CDS	243494	243913	.	+	0	HIMB1782_01175	HIMB1782	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1782_01175
+HIMB1782-00000000002	Prodigal:2.6	CDS	243960	245570	.	+	0	HIMB1782_01176	HIMB1782	536	OG0001143	NA	NA	NA	NA	NA	HIMB1782_01175
+HIMB1782-00000000002	Prodigal:2.6	CDS	245617	246186	.	+	0	HIMB1782_01177	HIMB1782	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1782_01175
+HIMB1782-00000000002	Prodigal:2.6	CDS	246158	246631	.	+	0	HIMB1782_01178	HIMB1782	157	OG0000932	NA	NA	NA	NA	NA	HIMB1782_01175
+HIMB1782-00000000002	Prodigal:2.6	CDS	246689	249121	.	+	0	HIMB1782_01179	HIMB1782	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1782_01175
+HIMB1782-00000000002	Prodigal:2.6	CDS	249121	249870	.	+	0	HIMB1782_01180	HIMB1782	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1782_01175
+HIMB1602-00000000014	Prodigal:2.6	CDS	6266	7015	.	-	0	HIMB1602_00252	HIMB1602	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1602_00257
+HIMB1602-00000000014	Prodigal:2.6	CDS	7015	9447	.	-	0	HIMB1602_00253	HIMB1602	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1602_00257
+HIMB1602-00000000014	Prodigal:2.6	CDS	9505	9978	.	-	0	HIMB1602_00254	HIMB1602	157	OG0000932	NA	NA	NA	NA	NA	HIMB1602_00257
+HIMB1602-00000000014	Prodigal:2.6	CDS	9950	10519	.	-	0	HIMB1602_00255	HIMB1602	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1602_00257
+HIMB1602-00000000014	Prodigal:2.6	CDS	10566	12176	.	-	0	HIMB1602_00256	HIMB1602	536	OG0001143	NA	NA	COG2211	MelB	Na+/melibiose symporter or related transporter	HIMB1602_00257
+HIMB1602-00000000014	Prodigal:2.6	CDS	12224	12643	.	-	0	HIMB1602_00257	HIMB1602	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1602_00257
+HIMB1602-00000000014	Prodigal:2.6	CDS	12640	13059	.	-	0	HIMB1602_00258	HIMB1602	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1602_00257
+HIMB1602-00000000014	Prodigal:2.6	CDS	13064	13498	.	-	0	HIMB1602_00259	HIMB1602	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1602_00257
+HIMB1623-00000000012	Prodigal:2.6	CDS	44545	45540	.	-	0	HIMB1623_00686	HIMB1623	331	OG0002389	NA	NA	COG0265	DegQ	Periplasmic serine protease DegP/DegQ, contain C-terminal PDZ domain	HIMB1623_00691
+HIMB1623-00000000012	Prodigal:2.6	CDS	45540	46088	.	-	0	HIMB1623_00687	HIMB1623	182	OG0000982	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	HIMB1623_00691
+HIMB1623-00000000012	Prodigal:2.6	CDS	46129	46599	.	-	0	HIMB1623_00688	HIMB1623	156	OG0001104	NA	NA	NA	NA	NA	HIMB1623_00691
+HIMB1623-00000000012	Prodigal:2.6	CDS	46571	47140	.	-	0	HIMB1623_00689	HIMB1623	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1623_00691
+HIMB1623-00000000012	Prodigal:2.6	CDS	47187	48797	.	-	0	HIMB1623_00690	HIMB1623	536	OG0001143	NA	NA	NA	NA	NA	HIMB1623_00691
+HIMB1623-00000000012	Prodigal:2.6	CDS	48844	49263	.	-	0	HIMB1623_00691	HIMB1623	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1623_00691
+HIMB1623-00000000012	Prodigal:2.6	CDS	49260	49679	.	-	0	HIMB1623_00692	HIMB1623	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1623_00691
+HIMB1623-00000000012	Prodigal:2.6	CDS	49684	50118	.	-	0	HIMB1623_00693	HIMB1623	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1623_00691
+HIMB1623-00000000012	Prodigal:2.6	CDS	50123	50326	.	-	0	HIMB1623_00694	HIMB1623	67	OG0001080	NA	NA	NA	NA	NA	HIMB1623_00691
+HIMB1623-00000000012	Prodigal:2.6	CDS	50326	51105	.	-	0	HIMB1623_00695	HIMB1623	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1623_00691
+HIMB1623-00000000012	Prodigal:2.6	CDS	51106	51957	.	-	0	HIMB1623_00696	HIMB1623	283	OG0001199	NA	NA	NA	NA	NA	HIMB1623_00691
+HIMB1709-00000000002	Prodigal:2.6	CDS	39736	40731	.	-	0	HIMB1709_01305	HIMB1709	331	OG0002389	NA	NA	COG0265	DegQ	Periplasmic serine protease DegP/DegQ, contain C-terminal PDZ domain	HIMB1709_01310
+HIMB1709-00000000002	Prodigal:2.6	CDS	40731	41279	.	-	0	HIMB1709_01306	HIMB1709	182	OG0000982	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	HIMB1709_01310
+HIMB1709-00000000002	Prodigal:2.6	CDS	41320	41790	.	-	0	HIMB1709_01307	HIMB1709	156	OG0001104	NA	NA	NA	NA	NA	HIMB1709_01310
+HIMB1709-00000000002	Prodigal:2.6	CDS	41762	42331	.	-	0	HIMB1709_01308	HIMB1709	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1709_01310
+HIMB1709-00000000002	Prodigal:2.6	CDS	42378	43988	.	-	0	HIMB1709_01309	HIMB1709	536	OG0001143	NA	NA	NA	NA	NA	HIMB1709_01310
+HIMB1709-00000000002	Prodigal:2.6	CDS	44035	44454	.	-	0	HIMB1709_01310	HIMB1709	139	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1709_01310
+HIMB1709-00000000002	Prodigal:2.6	CDS	44451	44870	.	-	0	HIMB1709_01311	HIMB1709	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1709_01310
+HIMB1709-00000000002	Prodigal:2.6	CDS	44875	45309	.	-	0	HIMB1709_01312	HIMB1709	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1709_01310
+HIMB1709-00000000002	Prodigal:2.6	CDS	45314	45514	.	-	0	HIMB1709_01313	HIMB1709	66	OG0001080	NA	NA	NA	NA	NA	HIMB1709_01310
+HIMB1709-00000000002	Prodigal:2.6	CDS	45517	46296	.	-	0	HIMB1709_01314	HIMB1709	259	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1709_01310
+HIMB1709-00000000002	Prodigal:2.6	CDS	46297	47148	.	-	0	HIMB1709_01315	HIMB1709	283	OG0001199	NA	NA	NA	NA	NA	HIMB1709_01310
+HIMB1483-00000000002	Prodigal:2.6	CDS	916613	917362	.	-	0	HIMB1483_01130	HIMB1483	249	OG0000922	K03521	electron transfer flavoprotein beta subunit	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	HIMB1483_01135
+HIMB1483-00000000002	Prodigal:2.6	CDS	917362	919794	.	-	0	HIMB1483_01131	HIMB1483	810	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1483_01135
+HIMB1483-00000000002	Prodigal:2.6	CDS	919851	920327	.	-	0	HIMB1483_01132	HIMB1483	158	OG0000932	NA	NA	NA	NA	NA	HIMB1483_01135
+HIMB1483-00000000002	Prodigal:2.6	CDS	920296	920865	.	-	0	HIMB1483_01133	HIMB1483	189	OG0001076	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	HIMB1483_01135
+HIMB1483-00000000002	Prodigal:2.6	CDS	920928	921128	.	+	0	HIMB1483_01134	HIMB1483	66	OG0001764	NA	NA	COG3087	FtsN	Cell division protein FtsN	HIMB1483_01135
+HIMB1483-00000000002	Prodigal:2.6	CDS	921086	921508	.	-	0	HIMB1483_01135	HIMB1483	140	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1483_01135
+HIMB1483-00000000002	Prodigal:2.6	CDS	921505	921924	.	-	0	HIMB1483_01136	HIMB1483	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB1483_01135
+HIMB1483-00000000002	Prodigal:2.6	CDS	921925	922359	.	-	0	HIMB1483_01137	HIMB1483	144	OG0000895	K06929	uncharacterized protein	COG1832	YccU	Predicted CoA-binding protein	HIMB1483_01135
+HIMB1483-00000000002	Prodigal:2.6	CDS	922359	922541	.	-	0	HIMB1483_01138	HIMB1483	60	OG0001080	NA	NA	NA	NA	NA	HIMB1483_01135
+HIMB1483-00000000002	Prodigal:2.6	CDS	922541	923314	.	-	0	HIMB1483_01139	HIMB1483	257	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	HIMB1483_01135
+HIMB1483-00000000002	Prodigal:2.6	CDS	923315	923671	.	-	0	HIMB1483_01140	HIMB1483	118	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1483_01135
+ATTF01000003.1	Prodigal:2.6	CDS	40348	41343	.	+	0	HIMB058_00226	HIMB058	331	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB058_00230
+ATTF01000003.1	Prodigal:2.6	CDS	40348	41343	.	+	0	HIMB058_00226	HIMB058	331	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB058_00230
+ATTF01000003.1	Prodigal:2.6	CDS	41344	42003	.	-	0	HIMB058_00227	HIMB058	219	OG0001300	K24158	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG0450	AhpC	Alkyl hydroperoxide reductase subunit AhpC (peroxiredoxin)	HIMB058_00230
+ATTF01000003.1	Prodigal:2.6	CDS	42057	42635	.	+	0	HIMB058_00228	HIMB058	192	OG0002998	NA	NA	NA	NA	NA	HIMB058_00230
+ATTF01000003.1	Prodigal:2.6	CDS	42670	43089	.	+	0	HIMB058_00229	HIMB058	139	OG0001437	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB058_00230
+ATTF01000003.1	Prodigal:2.6	CDS	43086	43499	.	+	0	HIMB058_00230	HIMB058	137	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	HIMB058_00230
+ATTF01000003.1	Prodigal:2.6	CDS	43483	44796	.	+	0	HIMB058_00231	HIMB058	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB058_00230
+ATTF01000003.1	Prodigal:2.6	CDS	44786	46042	.	-	0	HIMB058_00232	HIMB058	418	OG0000068	NA	NA	COG0265	DegQ	Periplasmic serine protease DegP/DegQ, contain C-terminal PDZ domain	HIMB058_00230
+ATTF01000003.1	Prodigal:2.6	CDS	46042	46293	.	-	0	HIMB058_00233	HIMB058	83	OG0002394	NA	NA	NA	NA	NA	HIMB058_00230
+ATTF01000003.1	Prodigal:2.6	CDS	46293	46883	.	-	0	HIMB058_00234	HIMB058	196	OG0002692	NA	NA	NA	NA	NA	HIMB058_00230
+ATTF01000003.1	Prodigal:2.6	CDS	46886	47275	.	-	0	HIMB058_00235	HIMB058	129	OG0002585	NA	NA	NA	NA	NA	HIMB058_00230
+CP024034.1	Prodigal:2.6	CDS	73389	74276	.	+	0	LSUCC0530_00075	LSUCC0530	295	OG0001282	K01561	haloacetate dehalogenase [EC:3.8.1.3]	COG0596	MenH	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase MenH/undecaprenyl monophosphate-sugar esterase UshA/YqjL	LSUCC0530_00080
+CP024034.1	Prodigal:2.6	CDS	74266	75681	.	-	0	LSUCC0530_00076	LSUCC0530	471	OG0001031	K21686	XRE family transcriptional regulator, fatty acid utilization regulator	COG3800	NA	Predicted transcriptional regulator	LSUCC0530_00080
+CP024034.1	Prodigal:2.6	CDS	75817	76053	.	+	0	LSUCC0530_00077	LSUCC0530	78	OG0004361	NA	NA	NA	NA	NA	LSUCC0530_00080
+CP024034.1	Prodigal:2.6	CDS	76046	77320	.	+	0	LSUCC0530_00078	LSUCC0530	424	OG0001037	K01637	isocitrate lyase [EC:4.1.3.1]	COG2224	AceA	Isocitrate lyase	LSUCC0530_00080
+CP024034.1	Prodigal:2.6	CDS	77356	77541	.	-	0	LSUCC0530_00079	LSUCC0530	61	OG0003020	NA	NA	NA	NA	NA	LSUCC0530_00080
+CP024034.1	Prodigal:2.6	CDS	77559	78089	.	-	0	LSUCC0530_00080	LSUCC0530	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	LSUCC0530_00080
+CP024034.1	Prodigal:2.6	CDS	78092	78637	.	-	0	LSUCC0530_00081	LSUCC0530	181	OG0001437	K07112	uncharacterized protein	NA	NA	NA	LSUCC0530_00080
+CP024034.1	Prodigal:2.6	CDS	78782	79159	.	+	0	LSUCC0530_00082	LSUCC0530	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	LSUCC0530_00080
+CP024034.1	Prodigal:2.6	CDS	79146	80423	.	+	0	LSUCC0530_00083	LSUCC0530	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	LSUCC0530_00080
+CP024034.1	Prodigal:2.6	CDS	80435	81934	.	+	0	LSUCC0530_00084	LSUCC0530	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	LSUCC0530_00080
+CP024034.1	Prodigal:2.6	CDS	81938	82309	.	-	0	LSUCC0530_00085	LSUCC0530	123	OG0000977	NA	NA	NA	NA	NA	LSUCC0530_00080
+OZ247815.1	Prodigal:2.6	CDS	71163	71885	.	+	0	ME-33_00074	ME-33	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-33_00078
+OZ247815.1	Prodigal:2.6	CDS	71163	71885	.	+	0	ME-33_00074	ME-33	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-33_00078
+OZ247815.1	Prodigal:2.6	CDS	71911	73107	.	+	0	ME-33_00075	ME-33	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	ME-33_00078
+OZ247815.1	Prodigal:2.6	CDS	73116	73865	.	+	0	ME-33_00076	ME-33	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	ME-33_00078
+OZ247815.1	Prodigal:2.6	CDS	73870	74055	.	-	0	ME-33_00077	ME-33	61	OG0003020	NA	NA	NA	NA	NA	ME-33_00078
+OZ247815.1	Prodigal:2.6	CDS	74073	74603	.	-	0	ME-33_00078	ME-33	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	ME-33_00078
+OZ247815.1	Prodigal:2.6	CDS	74606	75157	.	-	0	ME-33_00079	ME-33	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	ME-33_00078
+OZ247815.1	Prodigal:2.6	CDS	75296	75673	.	+	0	ME-33_00080	ME-33	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	ME-33_00078
+OZ247815.1	Prodigal:2.6	CDS	75660	76937	.	+	0	ME-33_00081	ME-33	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	ME-33_00078
+OZ247815.1	Prodigal:2.6	CDS	76950	78449	.	+	0	ME-33_00082	ME-33	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	ME-33_00078
+OZ247815.1	Prodigal:2.6	CDS	78461	78832	.	-	0	ME-33_00083	ME-33	123	OG0000977	NA	NA	NA	NA	NA	ME-33_00078
+OZ247817.1	Prodigal:2.6	CDS	70584	71306	.	+	0	ME-31_00073	ME-31	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-31_00077
+OZ247817.1	Prodigal:2.6	CDS	70584	71306	.	+	0	ME-31_00073	ME-31	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-31_00077
+OZ247817.1	Prodigal:2.6	CDS	71332	72528	.	+	0	ME-31_00074	ME-31	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	ME-31_00077
+OZ247817.1	Prodigal:2.6	CDS	72537	73286	.	+	0	ME-31_00075	ME-31	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	ME-31_00077
+OZ247817.1	Prodigal:2.6	CDS	73291	73476	.	-	0	ME-31_00076	ME-31	61	OG0003020	NA	NA	NA	NA	NA	ME-31_00077
+OZ247817.1	Prodigal:2.6	CDS	73494	74024	.	-	0	ME-31_00077	ME-31	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	ME-31_00077
+OZ247817.1	Prodigal:2.6	CDS	74027	74578	.	-	0	ME-31_00078	ME-31	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	ME-31_00077
+OZ247817.1	Prodigal:2.6	CDS	74717	75094	.	+	0	ME-31_00079	ME-31	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	ME-31_00077
+OZ247817.1	Prodigal:2.6	CDS	75081	76358	.	+	0	ME-31_00080	ME-31	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	ME-31_00077
+OZ247817.1	Prodigal:2.6	CDS	76371	77870	.	+	0	ME-31_00081	ME-31	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	ME-31_00077
+OZ247817.1	Prodigal:2.6	CDS	77882	78253	.	-	0	ME-31_00082	ME-31	123	OG0000977	NA	NA	NA	NA	NA	ME-31_00077
+OZ249404.1	Prodigal:2.6	CDS	68899	69621	.	+	0	ME-17_00072	ME-17	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-17_00076
+OZ249404.1	Prodigal:2.6	CDS	68899	69621	.	+	0	ME-17_00072	ME-17	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-17_00076
+OZ249404.1	Prodigal:2.6	CDS	69647	70843	.	+	0	ME-17_00073	ME-17	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	ME-17_00076
+OZ249404.1	Prodigal:2.6	CDS	70852	71601	.	+	0	ME-17_00074	ME-17	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	ME-17_00076
+OZ249404.1	Prodigal:2.6	CDS	71610	71795	.	-	0	ME-17_00075	ME-17	61	OG0003020	NA	NA	NA	NA	NA	ME-17_00076
+OZ249404.1	Prodigal:2.6	CDS	71813	72343	.	-	0	ME-17_00076	ME-17	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	ME-17_00076
+OZ249404.1	Prodigal:2.6	CDS	72346	72897	.	-	0	ME-17_00077	ME-17	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	ME-17_00076
+OZ249404.1	Prodigal:2.6	CDS	73036	73413	.	+	0	ME-17_00078	ME-17	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	ME-17_00076
+OZ249404.1	Prodigal:2.6	CDS	73400	74677	.	+	0	ME-17_00079	ME-17	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	ME-17_00076
+OZ249404.1	Prodigal:2.6	CDS	74690	76189	.	+	0	ME-17_00080	ME-17	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	ME-17_00076
+OZ249404.1	Prodigal:2.6	CDS	76201	76572	.	-	0	ME-17_00081	ME-17	123	OG0000977	NA	NA	NA	NA	NA	ME-17_00076
+OZ247816.1	Prodigal:2.6	CDS	69427	70149	.	+	0	ME-20_00073	ME-20	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-20_00077
+OZ247816.1	Prodigal:2.6	CDS	69427	70149	.	+	0	ME-20_00073	ME-20	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-20_00077
+OZ247816.1	Prodigal:2.6	CDS	70175	71371	.	+	0	ME-20_00074	ME-20	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	ME-20_00077
+OZ247816.1	Prodigal:2.6	CDS	71380	72129	.	+	0	ME-20_00075	ME-20	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	ME-20_00077
+OZ247816.1	Prodigal:2.6	CDS	72134	72319	.	-	0	ME-20_00076	ME-20	61	OG0003020	NA	NA	NA	NA	NA	ME-20_00077
+OZ247816.1	Prodigal:2.6	CDS	72337	72867	.	-	0	ME-20_00077	ME-20	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	ME-20_00077
+OZ247816.1	Prodigal:2.6	CDS	72870	73421	.	-	0	ME-20_00078	ME-20	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	ME-20_00077
+OZ247816.1	Prodigal:2.6	CDS	73560	73937	.	+	0	ME-20_00079	ME-20	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	ME-20_00077
+OZ247816.1	Prodigal:2.6	CDS	73924	75201	.	+	0	ME-20_00080	ME-20	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	ME-20_00077
+OZ247816.1	Prodigal:2.6	CDS	75214	76713	.	+	0	ME-20_00081	ME-20	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	ME-20_00077
+OZ247816.1	Prodigal:2.6	CDS	76725	77096	.	-	0	ME-20_00082	ME-20	123	OG0000977	NA	NA	NA	NA	NA	ME-20_00077
+OZ247825.1	Prodigal:2.6	CDS	71372	72094	.	+	0	ME-18_00075	ME-18	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-18_00079
+OZ247825.1	Prodigal:2.6	CDS	71372	72094	.	+	0	ME-18_00075	ME-18	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-18_00079
+OZ247825.1	Prodigal:2.6	CDS	72120	73316	.	+	0	ME-18_00076	ME-18	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	ME-18_00079
+OZ247825.1	Prodigal:2.6	CDS	73325	74074	.	+	0	ME-18_00077	ME-18	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	ME-18_00079
+OZ247825.1	Prodigal:2.6	CDS	74079	74264	.	-	0	ME-18_00078	ME-18	61	OG0003020	NA	NA	NA	NA	NA	ME-18_00079
+OZ247825.1	Prodigal:2.6	CDS	74282	74812	.	-	0	ME-18_00079	ME-18	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	ME-18_00079
+OZ247825.1	Prodigal:2.6	CDS	74815	75366	.	-	0	ME-18_00080	ME-18	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	ME-18_00079
+OZ247825.1	Prodigal:2.6	CDS	75505	75882	.	+	0	ME-18_00081	ME-18	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	ME-18_00079
+OZ247825.1	Prodigal:2.6	CDS	75869	77146	.	+	0	ME-18_00082	ME-18	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	ME-18_00079
+OZ247825.1	Prodigal:2.6	CDS	77159	78658	.	+	0	ME-18_00083	ME-18	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	ME-18_00079
+OZ247825.1	Prodigal:2.6	CDS	78670	79041	.	-	0	ME-18_00084	ME-18	123	OG0000977	NA	NA	NA	NA	NA	ME-18_00079
+OZ249405.1	Prodigal:2.6	CDS	66619	67341	.	+	0	MiE-29_00069	MiE-29	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	MiE-29_00073
+OZ249405.1	Prodigal:2.6	CDS	66619	67341	.	+	0	MiE-29_00069	MiE-29	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	MiE-29_00073
+OZ249405.1	Prodigal:2.6	CDS	67366	68562	.	+	0	MiE-29_00070	MiE-29	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	MiE-29_00073
+OZ249405.1	Prodigal:2.6	CDS	68571	69320	.	+	0	MiE-29_00071	MiE-29	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	MiE-29_00073
+OZ249405.1	Prodigal:2.6	CDS	69328	69513	.	-	0	MiE-29_00072	MiE-29	61	OG0003020	NA	NA	NA	NA	NA	MiE-29_00073
+OZ249405.1	Prodigal:2.6	CDS	69539	70069	.	-	0	MiE-29_00073	MiE-29	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	MiE-29_00073
+OZ249405.1	Prodigal:2.6	CDS	70072	70623	.	-	0	MiE-29_00074	MiE-29	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	MiE-29_00073
+OZ249405.1	Prodigal:2.6	CDS	70761	71138	.	+	0	MiE-29_00075	MiE-29	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	MiE-29_00073
+OZ249405.1	Prodigal:2.6	CDS	71125	72402	.	+	0	MiE-29_00076	MiE-29	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	MiE-29_00073
+OZ249405.1	Prodigal:2.6	CDS	72415	73914	.	+	0	MiE-29_00077	MiE-29	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	MiE-29_00073
+OZ249405.1	Prodigal:2.6	CDS	73926	74297	.	-	0	MiE-29_00078	MiE-29	123	OG0000977	NA	NA	NA	NA	NA	MiE-29_00073
+OZ247814.1	Prodigal:2.6	CDS	295146	295517	.	+	0	MKE-138_00349	MKE-138	123	OG0000977	NA	NA	NA	NA	NA	MKE-138_00354
+OZ247814.1	Prodigal:2.6	CDS	295529	297028	.	-	0	MKE-138_00350	MKE-138	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	MKE-138_00354
+OZ247814.1	Prodigal:2.6	CDS	297041	298318	.	-	0	MKE-138_00351	MKE-138	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	MKE-138_00354
+OZ247814.1	Prodigal:2.6	CDS	298305	298682	.	-	0	MKE-138_00352	MKE-138	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	MKE-138_00354
+OZ247814.1	Prodigal:2.6	CDS	298821	299372	.	+	0	MKE-138_00353	MKE-138	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	MKE-138_00354
+OZ247814.1	Prodigal:2.6	CDS	299375	299905	.	+	0	MKE-138_00354	MKE-138	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	MKE-138_00354
+OZ247814.1	Prodigal:2.6	CDS	299931	300116	.	+	0	MKE-138_00355	MKE-138	61	OG0003020	NA	NA	NA	NA	NA	MKE-138_00354
+OZ247814.1	Prodigal:2.6	CDS	300124	300873	.	-	0	MKE-138_00356	MKE-138	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	MKE-138_00354
+OZ247814.1	Prodigal:2.6	CDS	300882	302078	.	-	0	MKE-138_00357	MKE-138	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	MKE-138_00354
+OZ247814.1	Prodigal:2.6	CDS	302104	302826	.	-	0	MKE-138_00358	MKE-138	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	MKE-138_00354
+OZ247814.1	Prodigal:2.6	CDS	302104	302826	.	-	0	MKE-138_00358	MKE-138	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	MKE-138_00354

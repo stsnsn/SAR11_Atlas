@@ -1,0 +1,89 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP024034.1	Prodigal:2.6	CDS	72635	73384	.	+	0	LSUCC0530_00074	LSUCC0530	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	LSUCC0530_00079
+CP024034.1	Prodigal:2.6	CDS	73389	74276	.	+	0	LSUCC0530_00075	LSUCC0530	295	OG0001282	K01561	haloacetate dehalogenase [EC:3.8.1.3]	COG0596	MenH	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase MenH/undecaprenyl monophosphate-sugar esterase UshA/YqjL	LSUCC0530_00079
+CP024034.1	Prodigal:2.6	CDS	74266	75681	.	-	0	LSUCC0530_00076	LSUCC0530	471	OG0001031	K21686	XRE family transcriptional regulator, fatty acid utilization regulator	COG3800	NA	Predicted transcriptional regulator	LSUCC0530_00079
+CP024034.1	Prodigal:2.6	CDS	75817	76053	.	+	0	LSUCC0530_00077	LSUCC0530	78	OG0004361	NA	NA	NA	NA	NA	LSUCC0530_00079
+CP024034.1	Prodigal:2.6	CDS	76046	77320	.	+	0	LSUCC0530_00078	LSUCC0530	424	OG0001037	K01637	isocitrate lyase [EC:4.1.3.1]	COG2224	AceA	Isocitrate lyase	LSUCC0530_00079
+CP024034.1	Prodigal:2.6	CDS	77356	77541	.	-	0	LSUCC0530_00079	LSUCC0530	61	OG0003020	NA	NA	NA	NA	NA	LSUCC0530_00079
+CP024034.1	Prodigal:2.6	CDS	77559	78089	.	-	0	LSUCC0530_00080	LSUCC0530	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	LSUCC0530_00079
+CP024034.1	Prodigal:2.6	CDS	78092	78637	.	-	0	LSUCC0530_00081	LSUCC0530	181	OG0001437	K07112	uncharacterized protein	NA	NA	NA	LSUCC0530_00079
+CP024034.1	Prodigal:2.6	CDS	78782	79159	.	+	0	LSUCC0530_00082	LSUCC0530	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	LSUCC0530_00079
+CP024034.1	Prodigal:2.6	CDS	79146	80423	.	+	0	LSUCC0530_00083	LSUCC0530	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	LSUCC0530_00079
+CP024034.1	Prodigal:2.6	CDS	80435	81934	.	+	0	LSUCC0530_00084	LSUCC0530	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	LSUCC0530_00079
+OZ247815.1	Prodigal:2.6	CDS	70558	71013	.	+	0	ME-33_00073	ME-33	151	OG0002343	NA	NA	COG5490	Phasin	Polyhydroxyalkanoate inclusion-associated protein PhaP/PhaF, phasin family	ME-33_00077
+OZ247815.1	Prodigal:2.6	CDS	71163	71885	.	+	0	ME-33_00074	ME-33	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-33_00077
+OZ247815.1	Prodigal:2.6	CDS	71163	71885	.	+	0	ME-33_00074	ME-33	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-33_00077
+OZ247815.1	Prodigal:2.6	CDS	71911	73107	.	+	0	ME-33_00075	ME-33	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	ME-33_00077
+OZ247815.1	Prodigal:2.6	CDS	73116	73865	.	+	0	ME-33_00076	ME-33	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	ME-33_00077
+OZ247815.1	Prodigal:2.6	CDS	73870	74055	.	-	0	ME-33_00077	ME-33	61	OG0003020	NA	NA	NA	NA	NA	ME-33_00077
+OZ247815.1	Prodigal:2.6	CDS	74073	74603	.	-	0	ME-33_00078	ME-33	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	ME-33_00077
+OZ247815.1	Prodigal:2.6	CDS	74606	75157	.	-	0	ME-33_00079	ME-33	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	ME-33_00077
+OZ247815.1	Prodigal:2.6	CDS	75296	75673	.	+	0	ME-33_00080	ME-33	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	ME-33_00077
+OZ247815.1	Prodigal:2.6	CDS	75660	76937	.	+	0	ME-33_00081	ME-33	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	ME-33_00077
+OZ247815.1	Prodigal:2.6	CDS	76950	78449	.	+	0	ME-33_00082	ME-33	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	ME-33_00077
+OZ247817.1	Prodigal:2.6	CDS	69982	70434	.	+	0	ME-31_00072	ME-31	150	OG0002343	NA	NA	COG5490	Phasin	Polyhydroxyalkanoate inclusion-associated protein PhaP/PhaF, phasin family	ME-31_00076
+OZ247817.1	Prodigal:2.6	CDS	70584	71306	.	+	0	ME-31_00073	ME-31	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-31_00076
+OZ247817.1	Prodigal:2.6	CDS	70584	71306	.	+	0	ME-31_00073	ME-31	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-31_00076
+OZ247817.1	Prodigal:2.6	CDS	71332	72528	.	+	0	ME-31_00074	ME-31	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	ME-31_00076
+OZ247817.1	Prodigal:2.6	CDS	72537	73286	.	+	0	ME-31_00075	ME-31	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	ME-31_00076
+OZ247817.1	Prodigal:2.6	CDS	73291	73476	.	-	0	ME-31_00076	ME-31	61	OG0003020	NA	NA	NA	NA	NA	ME-31_00076
+OZ247817.1	Prodigal:2.6	CDS	73494	74024	.	-	0	ME-31_00077	ME-31	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	ME-31_00076
+OZ247817.1	Prodigal:2.6	CDS	74027	74578	.	-	0	ME-31_00078	ME-31	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	ME-31_00076
+OZ247817.1	Prodigal:2.6	CDS	74717	75094	.	+	0	ME-31_00079	ME-31	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	ME-31_00076
+OZ247817.1	Prodigal:2.6	CDS	75081	76358	.	+	0	ME-31_00080	ME-31	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	ME-31_00076
+OZ247817.1	Prodigal:2.6	CDS	76371	77870	.	+	0	ME-31_00081	ME-31	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	ME-31_00076
+OZ249404.1	Prodigal:2.6	CDS	68296	68748	.	+	0	ME-17_00071	ME-17	150	OG0002343	NA	NA	COG5490	Phasin	Polyhydroxyalkanoate inclusion-associated protein PhaP/PhaF, phasin family	ME-17_00075
+OZ249404.1	Prodigal:2.6	CDS	68899	69621	.	+	0	ME-17_00072	ME-17	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-17_00075
+OZ249404.1	Prodigal:2.6	CDS	68899	69621	.	+	0	ME-17_00072	ME-17	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-17_00075
+OZ249404.1	Prodigal:2.6	CDS	69647	70843	.	+	0	ME-17_00073	ME-17	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	ME-17_00075
+OZ249404.1	Prodigal:2.6	CDS	70852	71601	.	+	0	ME-17_00074	ME-17	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	ME-17_00075
+OZ249404.1	Prodigal:2.6	CDS	71610	71795	.	-	0	ME-17_00075	ME-17	61	OG0003020	NA	NA	NA	NA	NA	ME-17_00075
+OZ249404.1	Prodigal:2.6	CDS	71813	72343	.	-	0	ME-17_00076	ME-17	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	ME-17_00075
+OZ249404.1	Prodigal:2.6	CDS	72346	72897	.	-	0	ME-17_00077	ME-17	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	ME-17_00075
+OZ249404.1	Prodigal:2.6	CDS	73036	73413	.	+	0	ME-17_00078	ME-17	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	ME-17_00075
+OZ249404.1	Prodigal:2.6	CDS	73400	74677	.	+	0	ME-17_00079	ME-17	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	ME-17_00075
+OZ249404.1	Prodigal:2.6	CDS	74690	76189	.	+	0	ME-17_00080	ME-17	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	ME-17_00075
+OZ247816.1	Prodigal:2.6	CDS	68822	69277	.	+	0	ME-20_00072	ME-20	151	OG0002343	NA	NA	COG5490	Phasin	Polyhydroxyalkanoate inclusion-associated protein PhaP/PhaF, phasin family	ME-20_00076
+OZ247816.1	Prodigal:2.6	CDS	69427	70149	.	+	0	ME-20_00073	ME-20	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-20_00076
+OZ247816.1	Prodigal:2.6	CDS	69427	70149	.	+	0	ME-20_00073	ME-20	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-20_00076
+OZ247816.1	Prodigal:2.6	CDS	70175	71371	.	+	0	ME-20_00074	ME-20	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	ME-20_00076
+OZ247816.1	Prodigal:2.6	CDS	71380	72129	.	+	0	ME-20_00075	ME-20	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	ME-20_00076
+OZ247816.1	Prodigal:2.6	CDS	72134	72319	.	-	0	ME-20_00076	ME-20	61	OG0003020	NA	NA	NA	NA	NA	ME-20_00076
+OZ247816.1	Prodigal:2.6	CDS	72337	72867	.	-	0	ME-20_00077	ME-20	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	ME-20_00076
+OZ247816.1	Prodigal:2.6	CDS	72870	73421	.	-	0	ME-20_00078	ME-20	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	ME-20_00076
+OZ247816.1	Prodigal:2.6	CDS	73560	73937	.	+	0	ME-20_00079	ME-20	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	ME-20_00076
+OZ247816.1	Prodigal:2.6	CDS	73924	75201	.	+	0	ME-20_00080	ME-20	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	ME-20_00076
+OZ247816.1	Prodigal:2.6	CDS	75214	76713	.	+	0	ME-20_00081	ME-20	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	ME-20_00076
+OZ247825.1	Prodigal:2.6	CDS	70766	71221	.	+	0	ME-18_00074	ME-18	151	OG0002343	NA	NA	COG5490	Phasin	Polyhydroxyalkanoate inclusion-associated protein PhaP/PhaF, phasin family	ME-18_00078
+OZ247825.1	Prodigal:2.6	CDS	71372	72094	.	+	0	ME-18_00075	ME-18	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-18_00078
+OZ247825.1	Prodigal:2.6	CDS	71372	72094	.	+	0	ME-18_00075	ME-18	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-18_00078
+OZ247825.1	Prodigal:2.6	CDS	72120	73316	.	+	0	ME-18_00076	ME-18	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	ME-18_00078
+OZ247825.1	Prodigal:2.6	CDS	73325	74074	.	+	0	ME-18_00077	ME-18	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	ME-18_00078
+OZ247825.1	Prodigal:2.6	CDS	74079	74264	.	-	0	ME-18_00078	ME-18	61	OG0003020	NA	NA	NA	NA	NA	ME-18_00078
+OZ247825.1	Prodigal:2.6	CDS	74282	74812	.	-	0	ME-18_00079	ME-18	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	ME-18_00078
+OZ247825.1	Prodigal:2.6	CDS	74815	75366	.	-	0	ME-18_00080	ME-18	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	ME-18_00078
+OZ247825.1	Prodigal:2.6	CDS	75505	75882	.	+	0	ME-18_00081	ME-18	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	ME-18_00078
+OZ247825.1	Prodigal:2.6	CDS	75869	77146	.	+	0	ME-18_00082	ME-18	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	ME-18_00078
+OZ247825.1	Prodigal:2.6	CDS	77159	78658	.	+	0	ME-18_00083	ME-18	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	ME-18_00078
+OZ249405.1	Prodigal:2.6	CDS	65955	66467	.	+	0	MiE-29_00068	MiE-29	170	OG0002343	NA	NA	COG5490	Phasin	Polyhydroxyalkanoate inclusion-associated protein PhaP/PhaF, phasin family	MiE-29_00072
+OZ249405.1	Prodigal:2.6	CDS	66619	67341	.	+	0	MiE-29_00069	MiE-29	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	MiE-29_00072
+OZ249405.1	Prodigal:2.6	CDS	66619	67341	.	+	0	MiE-29_00069	MiE-29	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	MiE-29_00072
+OZ249405.1	Prodigal:2.6	CDS	67366	68562	.	+	0	MiE-29_00070	MiE-29	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	MiE-29_00072
+OZ249405.1	Prodigal:2.6	CDS	68571	69320	.	+	0	MiE-29_00071	MiE-29	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	MiE-29_00072
+OZ249405.1	Prodigal:2.6	CDS	69328	69513	.	-	0	MiE-29_00072	MiE-29	61	OG0003020	NA	NA	NA	NA	NA	MiE-29_00072
+OZ249405.1	Prodigal:2.6	CDS	69539	70069	.	-	0	MiE-29_00073	MiE-29	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	MiE-29_00072
+OZ249405.1	Prodigal:2.6	CDS	70072	70623	.	-	0	MiE-29_00074	MiE-29	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	MiE-29_00072
+OZ249405.1	Prodigal:2.6	CDS	70761	71138	.	+	0	MiE-29_00075	MiE-29	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	MiE-29_00072
+OZ249405.1	Prodigal:2.6	CDS	71125	72402	.	+	0	MiE-29_00076	MiE-29	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	MiE-29_00072
+OZ249405.1	Prodigal:2.6	CDS	72415	73914	.	+	0	MiE-29_00077	MiE-29	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	MiE-29_00072
+OZ247814.1	Prodigal:2.6	CDS	295529	297028	.	-	0	MKE-138_00350	MKE-138	499	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	MKE-138_00355
+OZ247814.1	Prodigal:2.6	CDS	297041	298318	.	-	0	MKE-138_00351	MKE-138	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	MKE-138_00355
+OZ247814.1	Prodigal:2.6	CDS	298305	298682	.	-	0	MKE-138_00352	MKE-138	125	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	MKE-138_00355
+OZ247814.1	Prodigal:2.6	CDS	298821	299372	.	+	0	MKE-138_00353	MKE-138	183	OG0001437	K07112	uncharacterized protein	NA	NA	NA	MKE-138_00355
+OZ247814.1	Prodigal:2.6	CDS	299375	299905	.	+	0	MKE-138_00354	MKE-138	176	OG0001438	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	MKE-138_00355
+OZ247814.1	Prodigal:2.6	CDS	299931	300116	.	+	0	MKE-138_00355	MKE-138	61	OG0003020	NA	NA	NA	NA	NA	MKE-138_00355
+OZ247814.1	Prodigal:2.6	CDS	300124	300873	.	-	0	MKE-138_00356	MKE-138	249	OG0000059	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	MKE-138_00355
+OZ247814.1	Prodigal:2.6	CDS	300882	302078	.	-	0	MKE-138_00357	MKE-138	398	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	MKE-138_00355
+OZ247814.1	Prodigal:2.6	CDS	302104	302826	.	-	0	MKE-138_00358	MKE-138	240	OG0000000	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	MKE-138_00355
+OZ247814.1	Prodigal:2.6	CDS	302104	302826	.	-	0	MKE-138_00358	MKE-138	240	OG0000000	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	MKE-138_00355
+OZ247814.1	Prodigal:2.6	CDS	302977	303489	.	-	0	MKE-138_00359	MKE-138	170	OG0002343	NA	NA	COG5490	Phasin	Polyhydroxyalkanoate inclusion-associated protein PhaP/PhaF, phasin family	MKE-138_00355

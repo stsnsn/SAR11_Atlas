@@ -1,0 +1,89 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP024034.1	Prodigal:2.6	CDS	919536	920495	.	+	0	LSUCC0530_01003	LSUCC0530	319	OG0000377	K06041	arabinose-5-phosphate isomerase [EC:5.3.1.13]	COG0794	GutQ	D-arabinose 5-phosphate isomerase GutQ	LSUCC0530_01008
+CP024034.1	Prodigal:2.6	CDS	920495	921115	.	+	0	LSUCC0530_01004	LSUCC0530	206	OG0000826	NA	NA	COG5375	LptC2	Predicted lipopolysaccharide assembly protein, LptC/YrbK-like family	LSUCC0530_01008
+CP024034.1	Prodigal:2.6	CDS	921105	922148	.	+	0	LSUCC0530_01005	LSUCC0530	347	OG0000625	K06861	lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]	COG1137	LptB	ABC-type lipopolysaccharide export system, ATPase component	LSUCC0530_01008
+CP024034.1	Prodigal:2.6	CDS	922292	922762	.	-	0	LSUCC0530_01006	LSUCC0530	156	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	LSUCC0530_01008
+CP024034.1	Prodigal:2.6	CDS	922773	924278	.	-	0	LSUCC0530_01007	LSUCC0530	501	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	LSUCC0530_01008
+CP024034.1	Prodigal:2.6	CDS	924322	924750	.	-	0	LSUCC0530_01008	LSUCC0530	142	OG0003033	K09005	uncharacterized protein	COG1430	NA	Uncharacterized conserved membrane protein, UPF0127 family	LSUCC0530_01008
+CP024034.1	Prodigal:2.6	CDS	924750	925076	.	-	0	LSUCC0530_01009	LSUCC0530	108	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	LSUCC0530_01008
+CP024034.1	Prodigal:2.6	CDS	925104	925499	.	+	0	LSUCC0530_01010	LSUCC0530	131	OG0001374	NA	NA	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	LSUCC0530_01008
+CP024034.1	Prodigal:2.6	CDS	925501	926337	.	+	0	LSUCC0530_01011	LSUCC0530	278	OG0002615	K07115	23S rRNA (adenine2030-N6)-methyltransferase [EC:2.1.1.266]	COG2961	RlmJ	23S rRNA A2030 N6-methylase RlmJ	LSUCC0530_01008
+CP024034.1	Prodigal:2.6	CDS	926334	927713	.	-	0	LSUCC0530_01012	LSUCC0530	459	OG0000514	K06213	magnesium transporter	COG2239	MgtE	Mg/Co/Ni transporter MgtE (contains CBS domain)	LSUCC0530_01008
+CP024034.1	Prodigal:2.6	CDS	927956	928843	.	+	0	LSUCC0530_01013	LSUCC0530	295	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	LSUCC0530_01008
+OZ247815.1	Prodigal:2.6	CDS	864247	865290	.	+	0	ME-33_00956	ME-33	347	OG0000625	K06861	lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]	COG1137	LptB	ABC-type lipopolysaccharide export system, ATPase component	ME-33_00961
+OZ247815.1	Prodigal:2.6	CDS	865291	865518	.	-	0	ME-33_00957	ME-33	75	OG0001115	NA	NA	NA	NA	NA	ME-33_00961
+OZ247815.1	Prodigal:2.6	CDS	865577	865687	.	+	0	ME-33_00958	ME-33	36	OG0001845	NA	NA	NA	NA	NA	ME-33_00961
+OZ247815.1	Prodigal:2.6	CDS	865691	866161	.	-	0	ME-33_00959	ME-33	156	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	ME-33_00961
+OZ247815.1	Prodigal:2.6	CDS	866172	867677	.	-	0	ME-33_00960	ME-33	501	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	ME-33_00961
+OZ247815.1	Prodigal:2.6	CDS	867720	868148	.	-	0	ME-33_00961	ME-33	142	OG0003033	K09005	uncharacterized protein	COG1430	NA	Uncharacterized conserved membrane protein, UPF0127 family	ME-33_00961
+OZ247815.1	Prodigal:2.6	CDS	868148	868474	.	-	0	ME-33_00962	ME-33	108	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	ME-33_00961
+OZ247815.1	Prodigal:2.6	CDS	868502	868897	.	+	0	ME-33_00963	ME-33	131	OG0001374	NA	NA	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	ME-33_00961
+OZ247815.1	Prodigal:2.6	CDS	868899	869735	.	+	0	ME-33_00964	ME-33	278	OG0002615	K07115	23S rRNA (adenine2030-N6)-methyltransferase [EC:2.1.1.266]	COG2961	RlmJ	23S rRNA A2030 N6-methylase RlmJ	ME-33_00961
+OZ247815.1	Prodigal:2.6	CDS	869732	871111	.	-	0	ME-33_00965	ME-33	459	OG0000514	K06213	magnesium transporter	COG2239	MgtE	Mg/Co/Ni transporter MgtE (contains CBS domain)	ME-33_00961
+OZ247815.1	Prodigal:2.6	CDS	871354	872241	.	+	0	ME-33_00966	ME-33	295	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	ME-33_00961
+OZ247817.1	Prodigal:2.6	CDS	859477	860520	.	+	0	ME-31_00940	ME-31	347	OG0000625	K06861	lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]	COG1137	LptB	ABC-type lipopolysaccharide export system, ATPase component	ME-31_00945
+OZ247817.1	Prodigal:2.6	CDS	860521	860748	.	-	0	ME-31_00941	ME-31	75	OG0001115	NA	NA	NA	NA	NA	ME-31_00945
+OZ247817.1	Prodigal:2.6	CDS	860807	860917	.	+	0	ME-31_00942	ME-31	36	OG0001845	NA	NA	NA	NA	NA	ME-31_00945
+OZ247817.1	Prodigal:2.6	CDS	860921	861391	.	-	0	ME-31_00943	ME-31	156	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	ME-31_00945
+OZ247817.1	Prodigal:2.6	CDS	861402	862907	.	-	0	ME-31_00944	ME-31	501	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	ME-31_00945
+OZ247817.1	Prodigal:2.6	CDS	862950	863378	.	-	0	ME-31_00945	ME-31	142	OG0003033	K09005	uncharacterized protein	COG1430	NA	Uncharacterized conserved membrane protein, UPF0127 family	ME-31_00945
+OZ247817.1	Prodigal:2.6	CDS	863378	863704	.	-	0	ME-31_00946	ME-31	108	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	ME-31_00945
+OZ247817.1	Prodigal:2.6	CDS	863732	864127	.	+	0	ME-31_00947	ME-31	131	OG0001374	NA	NA	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	ME-31_00945
+OZ247817.1	Prodigal:2.6	CDS	864129	864965	.	+	0	ME-31_00948	ME-31	278	OG0002615	K07115	23S rRNA (adenine2030-N6)-methyltransferase [EC:2.1.1.266]	COG2961	RlmJ	23S rRNA A2030 N6-methylase RlmJ	ME-31_00945
+OZ247817.1	Prodigal:2.6	CDS	864962	866341	.	-	0	ME-31_00949	ME-31	459	OG0000514	K06213	magnesium transporter	COG2239	MgtE	Mg/Co/Ni transporter MgtE (contains CBS domain)	ME-31_00945
+OZ247817.1	Prodigal:2.6	CDS	866584	867471	.	+	0	ME-31_00950	ME-31	295	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	ME-31_00945
+OZ249404.1	Prodigal:2.6	CDS	813286	813675	.	-	0	ME-17_00911	ME-17	129	OG0000087	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	ME-17_00916
+OZ249404.1	Prodigal:2.6	CDS	813916	814026	.	+	0	ME-17_00912	ME-17	36	NA	NA	NA	NA	NA	NA	ME-17_00916
+OZ249404.1	Prodigal:2.6	CDS	814010	814150	.	+	0	ME-17_00913	ME-17	46	OG0002237	NA	NA	NA	NA	NA	ME-17_00916
+OZ249404.1	Prodigal:2.6	CDS	814154	814624	.	-	0	ME-17_00914	ME-17	156	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	ME-17_00916
+OZ249404.1	Prodigal:2.6	CDS	814635	816140	.	-	0	ME-17_00915	ME-17	501	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	ME-17_00916
+OZ249404.1	Prodigal:2.6	CDS	816183	816611	.	-	0	ME-17_00916	ME-17	142	OG0003033	K09005	uncharacterized protein	COG1430	NA	Uncharacterized conserved membrane protein, UPF0127 family	ME-17_00916
+OZ249404.1	Prodigal:2.6	CDS	816611	816937	.	-	0	ME-17_00917	ME-17	108	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	ME-17_00916
+OZ249404.1	Prodigal:2.6	CDS	816965	817360	.	+	0	ME-17_00918	ME-17	131	OG0001374	NA	NA	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	ME-17_00916
+OZ249404.1	Prodigal:2.6	CDS	817362	818198	.	+	0	ME-17_00919	ME-17	278	OG0002615	K07115	23S rRNA (adenine2030-N6)-methyltransferase [EC:2.1.1.266]	COG2961	RlmJ	23S rRNA A2030 N6-methylase RlmJ	ME-17_00916
+OZ249404.1	Prodigal:2.6	CDS	818195	819574	.	-	0	ME-17_00920	ME-17	459	OG0000514	K06213	magnesium transporter	COG2239	MgtE	Mg/Co/Ni transporter MgtE (contains CBS domain)	ME-17_00916
+OZ249404.1	Prodigal:2.6	CDS	819817	820704	.	+	0	ME-17_00921	ME-17	295	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	ME-17_00916
+OZ247816.1	Prodigal:2.6	CDS	834212	835255	.	+	0	ME-20_00914	ME-20	347	OG0000625	K06861	lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]	COG1137	LptB	ABC-type lipopolysaccharide export system, ATPase component	ME-20_00919
+OZ247816.1	Prodigal:2.6	CDS	835256	835483	.	-	0	ME-20_00915	ME-20	75	OG0001115	NA	NA	NA	NA	NA	ME-20_00919
+OZ247816.1	Prodigal:2.6	CDS	835542	835652	.	+	0	ME-20_00916	ME-20	36	OG0001845	NA	NA	NA	NA	NA	ME-20_00919
+OZ247816.1	Prodigal:2.6	CDS	835656	836126	.	-	0	ME-20_00917	ME-20	156	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	ME-20_00919
+OZ247816.1	Prodigal:2.6	CDS	836137	837642	.	-	0	ME-20_00918	ME-20	501	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	ME-20_00919
+OZ247816.1	Prodigal:2.6	CDS	837685	838113	.	-	0	ME-20_00919	ME-20	142	OG0003033	K09005	uncharacterized protein	COG1430	NA	Uncharacterized conserved membrane protein, UPF0127 family	ME-20_00919
+OZ247816.1	Prodigal:2.6	CDS	838113	838439	.	-	0	ME-20_00920	ME-20	108	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	ME-20_00919
+OZ247816.1	Prodigal:2.6	CDS	838467	838862	.	+	0	ME-20_00921	ME-20	131	OG0001374	NA	NA	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	ME-20_00919
+OZ247816.1	Prodigal:2.6	CDS	838864	839700	.	+	0	ME-20_00922	ME-20	278	OG0002615	K07115	23S rRNA (adenine2030-N6)-methyltransferase [EC:2.1.1.266]	COG2961	RlmJ	23S rRNA A2030 N6-methylase RlmJ	ME-20_00919
+OZ247816.1	Prodigal:2.6	CDS	839697	841076	.	-	0	ME-20_00923	ME-20	459	OG0000514	K06213	magnesium transporter	COG2239	MgtE	Mg/Co/Ni transporter MgtE (contains CBS domain)	ME-20_00919
+OZ247816.1	Prodigal:2.6	CDS	841319	842206	.	+	0	ME-20_00924	ME-20	295	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	ME-20_00919
+OZ247825.1	Prodigal:2.6	CDS	843019	844062	.	+	0	ME-18_00930	ME-18	347	OG0000625	K06861	lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]	COG1137	LptB	ABC-type lipopolysaccharide export system, ATPase component	ME-18_00935
+OZ247825.1	Prodigal:2.6	CDS	844063	844290	.	-	0	ME-18_00931	ME-18	75	OG0001115	NA	NA	NA	NA	NA	ME-18_00935
+OZ247825.1	Prodigal:2.6	CDS	844349	844459	.	+	0	ME-18_00932	ME-18	36	OG0001845	NA	NA	NA	NA	NA	ME-18_00935
+OZ247825.1	Prodigal:2.6	CDS	844463	844933	.	-	0	ME-18_00933	ME-18	156	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	ME-18_00935
+OZ247825.1	Prodigal:2.6	CDS	844944	846449	.	-	0	ME-18_00934	ME-18	501	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	ME-18_00935
+OZ247825.1	Prodigal:2.6	CDS	846492	846920	.	-	0	ME-18_00935	ME-18	142	OG0003033	K09005	uncharacterized protein	COG1430	NA	Uncharacterized conserved membrane protein, UPF0127 family	ME-18_00935
+OZ247825.1	Prodigal:2.6	CDS	846920	847246	.	-	0	ME-18_00936	ME-18	108	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	ME-18_00935
+OZ247825.1	Prodigal:2.6	CDS	847274	847669	.	+	0	ME-18_00937	ME-18	131	OG0001374	NA	NA	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	ME-18_00935
+OZ247825.1	Prodigal:2.6	CDS	847671	848507	.	+	0	ME-18_00938	ME-18	278	OG0002615	K07115	23S rRNA (adenine2030-N6)-methyltransferase [EC:2.1.1.266]	COG2961	RlmJ	23S rRNA A2030 N6-methylase RlmJ	ME-18_00935
+OZ247825.1	Prodigal:2.6	CDS	848504	849883	.	-	0	ME-18_00939	ME-18	459	OG0000514	K06213	magnesium transporter	COG2239	MgtE	Mg/Co/Ni transporter MgtE (contains CBS domain)	ME-18_00935
+OZ247825.1	Prodigal:2.6	CDS	850126	851013	.	+	0	ME-18_00940	ME-18	295	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	ME-18_00935
+OZ249405.1	Prodigal:2.6	CDS	858139	858756	.	+	0	MiE-29_00949	MiE-29	205	OG0000826	NA	NA	COG5375	LptC2	Predicted lipopolysaccharide assembly protein, LptC/YrbK-like family	MiE-29_00954
+OZ249405.1	Prodigal:2.6	CDS	858749	859792	.	+	0	MiE-29_00950	MiE-29	347	OG0000625	K06861	lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]	COG1137	LptB	ABC-type lipopolysaccharide export system, ATPase component	MiE-29_00954
+OZ249405.1	Prodigal:2.6	CDS	859793	860020	.	-	0	MiE-29_00951	MiE-29	75	OG0001115	NA	NA	NA	NA	NA	MiE-29_00954
+OZ249405.1	Prodigal:2.6	CDS	860193	860663	.	-	0	MiE-29_00952	MiE-29	156	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	MiE-29_00954
+OZ249405.1	Prodigal:2.6	CDS	860674	862179	.	-	0	MiE-29_00953	MiE-29	501	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	MiE-29_00954
+OZ249405.1	Prodigal:2.6	CDS	862222	862650	.	-	0	MiE-29_00954	MiE-29	142	OG0003033	K09005	uncharacterized protein	COG1430	NA	Uncharacterized conserved membrane protein, UPF0127 family	MiE-29_00954
+OZ249405.1	Prodigal:2.6	CDS	862647	862976	.	-	0	MiE-29_00955	MiE-29	109	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	MiE-29_00954
+OZ249405.1	Prodigal:2.6	CDS	863004	863399	.	+	0	MiE-29_00956	MiE-29	131	OG0001374	NA	NA	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	MiE-29_00954
+OZ249405.1	Prodigal:2.6	CDS	863401	864237	.	+	0	MiE-29_00957	MiE-29	278	OG0002615	K07115	23S rRNA (adenine2030-N6)-methyltransferase [EC:2.1.1.266]	COG2961	RlmJ	23S rRNA A2030 N6-methylase RlmJ	MiE-29_00954
+OZ249405.1	Prodigal:2.6	CDS	864234	865613	.	-	0	MiE-29_00958	MiE-29	459	OG0000514	K06213	magnesium transporter	COG2239	MgtE	Mg/Co/Ni transporter MgtE (contains CBS domain)	MiE-29_00954
+OZ249405.1	Prodigal:2.6	CDS	865856	866743	.	+	0	MiE-29_00959	MiE-29	295	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	MiE-29_00954
+OZ247814.1	Prodigal:2.6	CDS	599626	600513	.	-	0	MKE-138_00687	MKE-138	295	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	MKE-138_00692
+OZ247814.1	Prodigal:2.6	CDS	600756	602135	.	+	0	MKE-138_00688	MKE-138	459	OG0000514	K06213	magnesium transporter	COG2239	MgtE	Mg/Co/Ni transporter MgtE (contains CBS domain)	MKE-138_00692
+OZ247814.1	Prodigal:2.6	CDS	602132	602968	.	-	0	MKE-138_00689	MKE-138	278	OG0002615	K07115	23S rRNA (adenine2030-N6)-methyltransferase [EC:2.1.1.266]	COG2961	RlmJ	23S rRNA A2030 N6-methylase RlmJ	MKE-138_00692
+OZ247814.1	Prodigal:2.6	CDS	602970	603365	.	-	0	MKE-138_00690	MKE-138	131	OG0001374	NA	NA	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	MKE-138_00692
+OZ247814.1	Prodigal:2.6	CDS	603393	603719	.	+	0	MKE-138_00691	MKE-138	108	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	MKE-138_00692
+OZ247814.1	Prodigal:2.6	CDS	603719	604147	.	+	0	MKE-138_00692	MKE-138	142	OG0003033	K09005	uncharacterized protein	COG1430	NA	Uncharacterized conserved membrane protein, UPF0127 family	MKE-138_00692
+OZ247814.1	Prodigal:2.6	CDS	604189	605694	.	+	0	MKE-138_00693	MKE-138	501	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	MKE-138_00692
+OZ247814.1	Prodigal:2.6	CDS	605705	606175	.	+	0	MKE-138_00694	MKE-138	156	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	MKE-138_00692
+OZ247814.1	Prodigal:2.6	CDS	606179	606289	.	-	0	MKE-138_00695	MKE-138	36	OG0002237	NA	NA	NA	NA	NA	MKE-138_00692
+OZ247814.1	Prodigal:2.6	CDS	606347	606574	.	+	0	MKE-138_00696	MKE-138	75	OG0001115	NA	NA	NA	NA	NA	MKE-138_00692
+OZ247814.1	Prodigal:2.6	CDS	606575	607618	.	-	0	MKE-138_00697	MKE-138	347	OG0000625	K06861	lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]	COG1137	LptB	ABC-type lipopolysaccharide export system, ATPase component	MKE-138_00692

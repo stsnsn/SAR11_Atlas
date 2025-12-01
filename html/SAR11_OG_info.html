@@ -18,6 +18,13 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+
+    <!-- 検索窓のsuggest用 -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="../js/plotly-2.35.2.min.js"></script>
 </head>
 
 <body>
@@ -43,9 +50,6 @@
                             <a class="nav-link" href="./og_list.html">All OG List</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./SAR11_BLAST.html">OG Search</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="./SAR11_operon_vis.html">Neighboring Genes</a>
                         </li>
                         <li class="nav-item">
@@ -68,20 +72,11 @@
             </nav>
 
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-                <div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
-                    <div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
-                        <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0">
-                        </div>
-                    </div>
-                    <div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
-                        <div style="position:absolute;width:200%;height:200%;left:0; top:0">
-                        </div>
-                    </div>
-                </div>
+                <!-- removed ChartJS size monitor (not used) -->
 
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <br><br><br><br><br>
-                    <h1 class="h2">OG Information Viewer (To be developed)</h1>
+                    <h1 class="h2">OG Information Viewer</h1>
                     <br>
                 </div>
                 <!-- Dark-mode toggle -->
@@ -95,15 +90,433 @@
                 </script>
                 <!-- Dark-mode toggle END -->
 
+                <!-- Dark-mode toggle END -->
+                <script>
+                    let og_data = [];
+                    d3.tsv("../data/og_suggest.tsv").then(data => {
+                        // TSV → Autocomplete 用データに変換
+                        og_data = data.map(d => ({
+                            label: `${d.og_id} | ${d.ko}: ${d.ko_name} | ${d.cog}: ${d.cog_name} | ${d.pfams}: ${d.pfam_names} `, // 表示内容
+                            value: d.og_id                                          // 入力値
+                        }));
 
+                        // Autocomplete 適用
+                        $("#ogInput").autocomplete({
+                            source: function(request, response) {
+                                const term = request.term.toLowerCase();
+                                const hits = og_data.filter(d =>
+                                    d.label.toLowerCase().includes(term))
+                                    .slice(0, 50);
+                                response(hits);
+                            },
+                            minLength: 2,
+                            delay: 50,
+                            autoFocus: true,   // ← 下のscriptにあった設定をこちらに統合
+                            select: function(event, ui) {
+                                $("#ogInput").val(ui.item.value);
+                                return false;
+                            }
+                        });
+                        // Enterで loadData
+                        $("#ogInput").keydown(e => {
+                            if (e.key === "Enter") {
+                                $("#loadData").click();
+                            }
+                        });
+                    });
+                    </script>
 
 
                 <!-- OG名を受け取る部分 -->
                 <br><br>
-                <label for="og-input">Enter OG name:</label>
-                <input type="text" id="og-input" placeholder="OG1">
-                <button onclick="updateOGData()">Update OG Data</button>
+                <!-- ページ説明: Enter OG name の上に表示 -->
+                <div id="pageDescription" style="font-size:0.98em; color:#222; margin-bottom:8px; line-height:1.4;">
+                    This page provides annotation summaries by Orthogroup (OG). Search is available via OG ID, KEGG Orthology (KO), COG, Pfam, or gene name. Auto-complete suggestions are enabled. <br>
+                    If you want to explore syntheny information, please visit the <a href="./SAR11_operon_vis.html">Neighboring Genes Viewer</a>.<br>
+                    If you want to explore the protein 3D structures related to genes in these OGs, please visit the <a href="./genes_linked_to_3d_structures.html">Protein Structures Viewer</a>.
+                </div>
+
+                <label for="ogInput">Enter OG name:</label>
+                <input type="text" id="ogInput" placeholder="OG0000001">
+                <button id="updateOGButton">Update OG Data</button>
                 <br><br>
+
+                <!-- 大きな説明をここに表示（Enter OG name の下、見やすく） -->
+                <div id="bigOgCaption" style="font-size:1.05em; color:#1a1a1a; margin-bottom:12px; font-weight:600;">Select an OG and click "Update OG Data" to see details here.</div>
+
+
+                <!-- OG に基づく円グラフと Taxonium 埋め込みの領域 -->
+                <div id="ogPlots" style="display:flex; gap:20px; align-items:flex-start;">
+                    <!-- 左カラム: 円グラフ（幅の40%） -->
+                    <div id="leftPlots" style="width:40%; display:flex; flex-direction:column; gap:20px;">
+                        <div id="cogDesc" style="font-size:0.95em; color:#333;">Pie chart of COG2024 annotation results</div>
+                        <div id="cogPie" style="width:100%; height:360px;"></div>
+                        <div id="koDesc" style="font-size:0.95em; color:#333;">Pie chart of KEGG Orthology annotation results</div>
+                        <div id="koPie" style="width:100%; height:360px;"></div>
+                        <!-- Pfam 棒グラフ: OG に応じた Pfam_ID vs Specific_Pfam_Count -->
+                        <div id="pfamBar" style="width:100%; height:420px;">Bar plot of Pfam domain count.</div>
+                    </div>
+
+                    <!-- 右カラム: Taxonium 埋め込み（縦長） -->
+                    <div id="taxoniumContainer" style="width:60%;">
+                        <!-- 系統樹上の小さな説明（Presence/Absence 表示） -->
+                        <div id="taxoniumCaption" style="font-size:0.95em; color:#333; margin-bottom:8px;">Presence(yellow)/Absence(blue) of <strong>OG0000000</strong></div>
+                        <!-- ローカル wrapper を使って taxonium を埋め込みます。wrapper を再読み込みすることで外部表示を確実に更新できます -->
+                        <iframe id="taxoniumFrame"
+                        src="./taxonium_wrapper.html?og=OG0000000&ts=0"
+                        width="100%"
+                        height="1200"
+                        style="border: 1px solid #666;"
+                        allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+
+                <script>
+                    // 汎用: CSV からラベル/値を推定して Pie 用配列を作る
+                    function csvToPieData(rows) {
+                        if (!rows || rows.length === 0) return {labels: [], values: []};
+
+                        const cols = Object.keys(rows[0]);
+
+                        // 数値列を自動検出（最も多く数値を含む列を採用）
+                        let numericCol = null; let numericCountMax = -1;
+                        cols.forEach(col => {
+                            let cnt = 0; rows.forEach(r => { if (!isNaN(parseFloat(r[col])) && r[col] !== '') cnt++; });
+                            if (cnt > numericCountMax) { numericCountMax = cnt; numericCol = col; }
+                        });
+
+                        // ラベル列を自動検出（文字列列、数値列以外）
+                        let labelCol = cols.find(c => c !== numericCol) || cols[0];
+
+                        // 1: numericCol と labelCol が異なる -> 直接利用
+                        if (numericCol && labelCol && numericCol !== labelCol) {
+                            const labels = rows.map(r => r[labelCol] || 'NA');
+                            const values = rows.map(r => +r[numericCol] || 0);
+                            return {labels, values};
+                        }
+
+                        // 2: 単一列（カテゴリ列）がある場合は出現回数を集計
+                        const aggregated = {};
+                        rows.forEach(r => {
+                            const key = r[cols[0]] || 'NA';
+                            aggregated[key] = (aggregated[key] || 0) + 1;
+                        });
+                        const labels = Object.keys(aggregated);
+                        const values = labels.map(l => aggregated[l]);
+                        return {labels, values};
+                    }
+
+                    function drawPie(divId, labels, values, title) {
+                        const data = [{
+                            values: values,
+                            labels: labels,
+                            type: 'pie',
+                            textinfo: 'label+percent',
+                            hoverinfo: 'label+value+percent',
+                            automargin: true
+                        }];
+                        const layout = {
+                            title: title,
+                            margin: {t:40, l:10, r:10, b:10},
+                            showlegend: false
+                        };
+                        Plotly.newPlot(divId, data, layout, {displayModeBar: false});
+                    }
+
+                    // (removed unused helper) big caption is set inline where needed to avoid an unused/function indirection
+
+                    async function updateOGData() {
+                        const og = document.getElementById('ogInput').value.trim();
+                        if (!og) { alert('Enter OG name'); return; }
+
+                        // KO pie
+                        const koPath = `../data/og_annot_count/ko/${og}.csv`;
+                        try {
+                            const koRows = await d3.csv(koPath);
+                            if (koRows && koRows.length > 0) {
+                                const labels = koRows.map(r => r.ko_id || r.ko || 'NA');
+                                const values = koRows.map(r => {
+                                    const v = parseFloat(r.Rate);
+                                    return isNaN(v) ? 0 : v;
+                                });
+                                const custom = koRows.map(r => `Description: ${r.ko_description || 'NA'}<br>Count: ${r.Specific_KO_Count || '0'}`);
+
+                                // Hide labels and percent for very small slices: show "label (xx%)" only when >= minShare
+                                const total = values.reduce((a, b) => a + b, 0);
+                                const minShare = 0.03; // 3% 未満は表示しない
+                                const text = labels.map((lab, i) => {
+                                    if (total === 0) return '';
+                                    const share = values[i] / total;
+                                    if (share >= minShare) {
+                                        const pct = (share * 100).toFixed(1) + '%';
+                                        return `${lab} (${pct})`;
+                                    }
+                                    return '';
+                                });
+
+                                // カラー割り当て: label が 'NA' のものは灰色、それ以外は d3.schemeCategory10 を順に使う
+                                const palette = d3.schemeCategory10 || ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'];
+                                const colors = labels.map((lab, i) => {
+                                    if (!lab || lab === 'NA') return '#cccccc';
+                                    return palette[i % palette.length];
+                                });
+
+                                const data = [{
+                                    values: values,
+                                    labels: labels,
+                                    text: text,
+                                    type: 'pie',
+                                    // show only the prepared text (label + percent when above threshold)
+                                    textinfo: 'text',
+                                    hoverinfo: 'label+value+text',
+                                    customdata: custom,
+                                    hovertemplate: '%{label}<br>Rate: %{value}<br>%{customdata}<extra></extra>',
+                                    insidetextorientation: 'radial',
+                                    marker: { colors: colors }
+                                }];
+                                const layout = {
+                                    title: 'KO Annotation Results',
+                                    margin: { t: 40, l: 10, r: 10, b: 10 },
+                                    showlegend: true,
+                                    legend: {
+                                        orientation: 'v',
+                                        x: 1.02,
+                                        y: 0.5
+                                    }
+                                };
+                                Plotly.newPlot('koPie', data, layout, { displayModeBar: false, responsive: true });
+                            } else {
+                                document.getElementById('koPie').innerHTML = '<p style="color:gray;">KO data not found</p>';
+                            }
+                        } catch (e) {
+                            console.error('KO CSV load error', e);
+                            document.getElementById('koPie').innerHTML = '<p style="color:gray;">KO data not found</p>';
+                        }
+
+                        // COG pie
+                        const cogPath = `../data/og_annot_count/cog/${og}.csv`;
+                        try {
+                            const cogRows = await d3.csv(cogPath);
+                            if (cogRows && cogRows.length > 0) {
+                                const labels = cogRows.map(r => r.COG_ID || r.COG || 'NA');
+                                const values = cogRows.map(r => {
+                                    const v = parseFloat(r.Rate);
+                                    return isNaN(v) ? 0 : v;
+                                });
+                                const custom = cogRows.map(r => `Name: ${r.COG_NAME || 'NA'}<br>Count: ${r.Specific_COG_Count || '0'}`);
+
+                                // Hide labels and percent for very small slices: show "label (xx%)" only when >= minShareC
+                                const totalC = values.reduce((a, b) => a + b, 0);
+                                const minShareC = 0.03; // 3% threshold
+                                const textC = labels.map((lab, i) => {
+                                    if (totalC === 0) return '';
+                                    const share = values[i] / totalC;
+                                    if (share >= minShareC) {
+                                        const pct = (share * 100).toFixed(1) + '%';
+                                        return `${lab} (${pct})`;
+                                    }
+                                    return '';
+                                });
+
+                                // カラー割り当て: COG_ID が 'NA' のものは灰色、それ以外はパレットを順に使用
+                                const paletteC = d3.schemeCategory10 || ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'];
+                                const colorsC = labels.map((lab, i) => {
+                                    if (!lab || lab === 'NA') return '#cccccc';
+                                    return paletteC[i % paletteC.length];
+                                });
+
+                                const data = [{
+                                    values: values,
+                                    labels: labels,
+                                    text: textC,
+                                    type: 'pie',
+                                    // show only prepared text (label + percent when above threshold)
+                                    textinfo: 'text',
+                                    hoverinfo: 'label+value+text',
+                                    customdata: custom,
+                                    hovertemplate: '%{label}<br>Rate: %{value}<br>%{customdata}<extra></extra>',
+                                    insidetextorientation: 'radial',
+                                    marker: { colors: colorsC }
+                                }];
+
+                                const layout = {
+                                    title: 'COG Annotation Results',
+                                    margin: { t: 40, l: 10, r: 10, b: 60 },
+                                    showlegend: true,
+                                    legend: {
+                                        orientation: 'v',
+                                        x: 1.02,
+                                        y: 0.5
+                                    }
+                                };
+
+                                Plotly.newPlot('cogPie', data, layout, { displayModeBar: false, responsive: true });
+                            } else {
+                                document.getElementById('cogPie').innerHTML = '<p style="color:gray;">COG data not found</p>';
+                            }
+                        } catch (e) {
+                            console.error('COG CSV load error', e);
+                            document.getElementById('cogPie').innerHTML = '<p style="color:gray;">COG data not found</p>';
+                        }
+
+                        // ローカル wrapper を使って Taxonium を埋め込む: wrapper の URL を更新することで確実に再読み込みされる
+                        try {
+                            // キャプションを OG 情報に基づいて更新
+                            try {
+                                // 大キャプション（Enter OG name の下）を更新
+                                const bigEl = document.getElementById('bigOgCaption');
+                                if (bigEl && typeof og_data !== 'undefined' && og_data && og_data.length > 0) {
+                                    const entry = og_data.find(d => d.value === og || d.value === String(og));
+                                    if (entry && entry.label) {
+                                        const parts = entry.label.split(' | ').map(p => p.trim());
+                                        const ogId = parts[0] || og;
+                                        const koPart = parts[1] || '';
+                                        const cogPart = parts[2] || '';
+                                        const pfamPart = parts[3] || '';
+                                        // koPart like "K12345: name"
+                                        const [koIdRaw, ...koNameParts] = koPart.split(':').map(s => s.trim());
+                                        const koId = koIdRaw || '';
+                                        const koName = koNameParts.join(':') || '';
+                                        // cogPart like "COG0123: name"
+                                        const [cogIdRaw, ...cogNameParts] = cogPart.split(':').map(s => s.trim());
+                                        const cogId = cogIdRaw || '';
+                                        const cogName = cogNameParts.join(':') || '';
+                                        // pfamPart like "PF01370,PF16363: name1,name2"
+                                        const [pfamIdsRaw, ...pfamNamesParts] = pfamPart.split(':').map(s => s.trim());
+                                        const pfamIdsFromSuggest = pfamIdsRaw || '';
+                                        const pfamNamesFromSuggest = pfamNamesParts.join(':') || '';
+                                        // Show only the requested lines: KO, COG, Pfams (IDs: names)
+                                        bigEl.innerHTML = `
+                                            <div><strong>KO ${koId || 'NA'}:</strong> ${koName || ''}</div>
+                                            <div style="margin-top:6px;"><strong>COG ${cogId || 'NA'}:</strong> ${cogName || ''}</div>
+                                            <div style="margin-top:6px;"><strong>Pfams:</strong> ${pfamIdsFromSuggest}${pfamNamesFromSuggest ? ': ' + pfamNamesFromSuggest : ''}</div>
+                                        `;
+                                        // store parsed pieces for later update (pfam list)
+                                        bigEl.dataset.ogId = ogId || '';
+                                        bigEl.dataset.koId = koId || '';
+                                        bigEl.dataset.koName = koName || '';
+                                        bigEl.dataset.cogId = cogId || '';
+                                        bigEl.dataset.cogName = cogName || '';
+                                        bigEl.dataset.pfamIds = pfamIdsFromSuggest || '';
+                                        bigEl.dataset.pfamNames = pfamNamesFromSuggest || '';
+                                    } else {
+                                        bigEl.innerHTML = `<strong>${og}</strong> — Coloring field: <code>meta_${og}</code>`;
+                                    }
+                                }
+
+                                // taxonium 上には簡潔な Presence/Absence 表示だけを出す
+                                const smallEl = document.getElementById('taxoniumCaption');
+                                if (smallEl) {
+                                    smallEl.innerHTML = `Presence/Absence of <strong>${og}</strong>`;
+                                }
+                            } catch (capErr) {
+                                console.warn('Failed to update captions', capErr);
+                            }
+
+                            // wrapper を再読み込みして taxonium を更新
+                            const wrapperUrl = `./taxonium_wrapper.html?og=${encodeURIComponent(og)}&ts=${Date.now()}`;
+                            const oldFrame = document.getElementById('taxoniumFrame');
+                            if (oldFrame && oldFrame.parentNode) {
+                                const newFrame = oldFrame.cloneNode(true);
+                                newFrame.src = wrapperUrl;
+                                oldFrame.parentNode.replaceChild(newFrame, oldFrame);
+                            } else {
+                                const f = document.getElementById('taxoniumFrame');
+                                if (f) f.src = wrapperUrl;
+                            }
+                        
+                            // --- Pfam barplot (Pfam_ID x Specific_Pfam_Count) ---
+                            try {
+                                const pfamPath = `../data/og_annot_count/pfam/pfam_count_barplot.csv`;
+                                const pfamRows = await d3.csv(pfamPath);
+                                const filtered = (pfamRows || []).filter(r => {
+                                    const key = (r.Orthogroup || r.orthogroup || r.OG || '').trim();
+                                    return key === og;
+                                });
+                                if (filtered && filtered.length > 0) {
+                                    const ids = filtered.map(r => r.Pfam_ID || r.Pfam || 'NA');
+                                    const counts = filtered.map(r => {
+                                        const v = parseFloat(r.Specific_Pfam_Count);
+                                        return isNaN(v) ? 0 : v;
+                                    });
+                                    // hover には Pfam 名を表示し、Count は %{y}（棒の値）で表示する
+                                    const hover = filtered.map(r => `${r.Pfam_NAME || ''}`);
+
+                                    const palette = d3.schemeCategory10 || ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'];
+                                    const colors = ids.map((_,i) => palette[i % palette.length]);
+
+                                    const data = [{
+                                        x: ids,
+                                        y: counts,
+                                        type: 'bar',
+                                        text: hover,
+                                        hovertemplate: '%{x}<br>Count: %{y}<br>%{text}<extra></extra>',
+                                        marker: { color: colors }
+                                    }];
+                                    const layout = {
+                                        title: 'Pfam specific counts',
+                                        margin: { t: 40, l: 60, r: 10, b: 140 },
+                                        xaxis: { tickangle: -45, automargin: true },
+                                        yaxis: { title: 'Specific Pfam Count' }
+                                    };
+                                    Plotly.newPlot('pfamBar', data, layout, { displayModeBar: false, responsive: true });
+                                    // update big caption with Pfam list (limit to first 30)
+                                    try {
+                                        const bigEl = document.getElementById('bigOgCaption');
+                                        if (bigEl) {
+                                            const pfamList = ids.slice(0, 30).join(', ');
+                                            const more = ids.length > 30 ? `, ...(+${ids.length - 30})` : '';
+                                            const ogId = bigEl.dataset.ogId || og;
+                                            const koId = bigEl.dataset.koId || '';
+                                            const koName = bigEl.dataset.koName || '';
+                                            const cogId = bigEl.dataset.cogId || '';
+                                            const cogName = bigEl.dataset.cogName || '';
+                                            // prefer pfam names from CSV when available, otherwise use suggestion data
+                                            const pfamNamesFromCSV = filtered.map(r => r.Pfam_NAME || '').filter(Boolean).join(', ');
+                                            const pfamNamesStr = pfamNamesFromCSV || (bigEl.dataset.pfamNames || '');
+                                            bigEl.innerHTML = `
+                                                <div><strong>KO ${koId || 'NA'}:</strong> ${koName || ''}</div>
+                                                <div style="margin-top:6px;"><strong>COG ${cogId || 'NA'}:</strong> ${cogName || ''}</div>
+                                                <div style="margin-top:6px;"><strong>Pfams:</strong> ${pfamList}${more}${pfamNamesStr ? ': ' + pfamNamesStr : ''}</div>
+                                            `;
+                                        }
+                                    } catch (e) { console.warn('Failed to update big caption with pfams', e); }
+                                } else {
+                                    document.getElementById('pfamBar').innerHTML = '<p style="color:gray;">Pfam data not found for this OG</p>';
+                                    try {
+                                        const bigEl = document.getElementById('bigOgCaption');
+                                        if (bigEl) {
+                                            const ogId = bigEl.dataset.ogId || og;
+                                            const koId = bigEl.dataset.koId || '';
+                                            const koName = bigEl.dataset.koName || '';
+                                            const cogId = bigEl.dataset.cogId || '';
+                                            const cogName = bigEl.dataset.cogName || '';
+                                            bigEl.innerHTML = `
+                                                <div><strong>KO ${koId || 'NA'}:</strong> ${koName || ''}</div>
+                                                <div style="margin-top:6px;"><strong>COG ${cogId || 'NA'}:</strong> ${cogName || ''}</div>
+                                                <div style="margin-top:6px;"><strong>Pfams:</strong> (none)</div>
+                                            `;
+                                        }
+                                    } catch (e) { console.warn(e); }
+                                }
+                            } catch (e) {
+                                console.error('Pfam CSV load error', e);
+                                document.getElementById('pfamBar').innerHTML = '<p style="color:gray;">Pfam data not found</p>';
+                            }
+                        } catch (e) {
+                            console.error('Failed to set taxonium wrapper', e);
+                            const f = document.getElementById('taxoniumFrame');
+                            if (f) f.src = 'about:blank';
+                        }
+                    }
+
+                    // ボタンにイベントを割り当て
+                    document.getElementById('updateOGButton').addEventListener('click', updateOGData);
+                </script>
+                <br><br>
+
+
 
                 <div class="border-top p-4 mb-4">
                     <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>

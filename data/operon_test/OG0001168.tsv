@@ -1,0 +1,904 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+ARVY01000001.1	Prodigal:2.6	CDS	1189889	1190833	.	-	0	HTCC1040_01279	HTCC1040	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HTCC1040_01284
+ARVY01000001.1	Prodigal:2.6	CDS	1190855	1191799	.	+	0	HTCC1040_01280	HTCC1040	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HTCC1040_01284
+ARVY01000001.1	Prodigal:2.6	CDS	1191801	1192178	.	-	0	HTCC1040_01281	HTCC1040	125	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	HTCC1040_01284
+ARVY01000001.1	Prodigal:2.6	CDS	1192284	1193303	.	+	0	HTCC1040_01282	HTCC1040	339	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC1040_01284
+ARVY01000001.1	Prodigal:2.6	CDS	1193300	1195729	.	-	0	HTCC1040_01283	HTCC1040	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC1040_01284
+ARVY01000001.1	Prodigal:2.6	CDS	1195775	1196464	.	-	0	HTCC1040_01284	HTCC1040	229	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HTCC1040_01284
+ARVY01000001.1	Prodigal:2.6	CDS	1196464	1196913	.	-	0	HTCC1040_01285	HTCC1040	149	OG0001411	NA	NA	NA	NA	NA	HTCC1040_01284
+ARVY01000001.1	Prodigal:2.6	CDS	1196913	1198112	.	-	0	HTCC1040_01286	HTCC1040	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HTCC1040_01284
+ARVY01000001.1	Prodigal:2.6	CDS	1198148	1200319	.	+	0	HTCC1040_01287	HTCC1040	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HTCC1040_01284
+ARVY01000001.1	Prodigal:2.6	CDS	1200301	1201053	.	+	0	HTCC1040_01288	HTCC1040	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HTCC1040_01284
+ARVY01000001.1	Prodigal:2.6	CDS	1201050	1202054	.	+	0	HTCC1040_01289	HTCC1040	334	OG0001216	NA	NA	NA	NA	NA	HTCC1040_01284
+CP038852.1	Prodigal:2.6	CDS	1073554	1074570	.	-	0	NP1_01196	NP1	338	OG0001216	NA	NA	NA	NA	NA	NP1_01201
+CP038852.1	Prodigal:2.6	CDS	1074567	1075319	.	-	0	NP1_01197	NP1	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	NP1_01201
+CP038852.1	Prodigal:2.6	CDS	1075301	1077472	.	-	0	NP1_01198	NP1	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	NP1_01201
+CP038852.1	Prodigal:2.6	CDS	1077508	1078707	.	+	0	NP1_01199	NP1	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	NP1_01201
+CP038852.1	Prodigal:2.6	CDS	1078707	1079156	.	+	0	NP1_01200	NP1	149	OG0001411	NA	NA	NA	NA	NA	NP1_01201
+CP038852.1	Prodigal:2.6	CDS	1079168	1079824	.	+	0	NP1_01201	NP1	218	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	NP1_01201
+CP038852.1	Prodigal:2.6	CDS	1079821	1080765	.	-	0	NP1_01202	NP1	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	NP1_01201
+CP038852.1	Prodigal:2.6	CDS	1080787	1081731	.	+	0	NP1_01203	NP1	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	NP1_01201
+CP038852.1	Prodigal:2.6	CDS	1081731	1082393	.	+	0	NP1_01204	NP1	220	OG0000334	NA	NA	NA	NA	NA	NP1_01201
+CP038852.1	Prodigal:2.6	CDS	1082526	1083539	.	+	0	NP1_01205	NP1	337	OG0001154	K02669	twitching motility protein PilT	COG2805	PilT/PilU	Type IV pilus retraction ATPase PilT/PilU	NP1_01201
+CP038852.1	Prodigal:2.6	CDS	1083514	1084263	.	+	0	NP1_01206	NP1	249	OG0001277	NA	NA	COG4970	FimT	Type IV pilus assembly protein FimT or FimU	NP1_01201
+CP159811.1	Prodigal:2.6	CDS	1082228	1082890	.	-	0	Uisw_137_01170	Uisw_137	220	OG0000334	NA	NA	NA	NA	NA	Uisw_137_01175
+CP159811.1	Prodigal:2.6	CDS	1082877	1083830	.	-	0	Uisw_137_01171	Uisw_137	317	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	Uisw_137_01175
+CP159811.1	Prodigal:2.6	CDS	1083852	1084796	.	+	0	Uisw_137_01172	Uisw_137	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_137_01175
+CP159811.1	Prodigal:2.6	CDS	1084798	1085175	.	-	0	Uisw_137_01173	Uisw_137	125	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_137_01175
+CP159811.1	Prodigal:2.6	CDS	1085281	1086300	.	+	0	Uisw_137_01174	Uisw_137	339	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_137_01175
+CP159811.1	Prodigal:2.6	CDS	1086306	1086959	.	-	0	Uisw_137_01175	Uisw_137	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_137_01175
+CP159811.1	Prodigal:2.6	CDS	1086959	1087408	.	-	0	Uisw_137_01176	Uisw_137	149	OG0001411	NA	NA	NA	NA	NA	Uisw_137_01175
+CP159811.1	Prodigal:2.6	CDS	1087512	1089281	.	+	0	Uisw_137_01177	Uisw_137	589	OG0000032	NA	NA	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_137_01175
+CP159811.1	Prodigal:2.6	CDS	1089274	1090473	.	-	0	Uisw_137_01178	Uisw_137	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_137_01175
+CP159811.1	Prodigal:2.6	CDS	1090509	1092680	.	+	0	Uisw_137_01179	Uisw_137	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_137_01175
+CP159811.1	Prodigal:2.6	CDS	1092662	1093414	.	+	0	Uisw_137_01180	Uisw_137	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_137_01175
+CP159821.1	Prodigal:2.6	CDS	1109067	1109729	.	-	0	Uisw_101_01195	Uisw_101	220	OG0000334	NA	NA	NA	NA	NA	Uisw_101_01200
+CP159821.1	Prodigal:2.6	CDS	1109729	1110673	.	-	0	Uisw_101_01196	Uisw_101	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	Uisw_101_01200
+CP159821.1	Prodigal:2.6	CDS	1110695	1111639	.	+	0	Uisw_101_01197	Uisw_101	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_101_01200
+CP159821.1	Prodigal:2.6	CDS	1111641	1112018	.	-	0	Uisw_101_01198	Uisw_101	125	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_101_01200
+CP159821.1	Prodigal:2.6	CDS	1112125	1113144	.	+	0	Uisw_101_01199	Uisw_101	339	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_101_01200
+CP159821.1	Prodigal:2.6	CDS	1113150	1113803	.	-	0	Uisw_101_01200	Uisw_101	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_101_01200
+CP159821.1	Prodigal:2.6	CDS	1113803	1114252	.	-	0	Uisw_101_01201	Uisw_101	149	OG0001411	NA	NA	NA	NA	NA	Uisw_101_01200
+CP159821.1	Prodigal:2.6	CDS	1114356	1116125	.	+	0	Uisw_101_01202	Uisw_101	589	OG0000032	K24821	ATP-binding cassette, subfamily B, heavy metal transporter	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_101_01200
+CP159821.1	Prodigal:2.6	CDS	1116118	1117317	.	-	0	Uisw_101_01203	Uisw_101	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_101_01200
+CP159821.1	Prodigal:2.6	CDS	1117353	1119524	.	+	0	Uisw_101_01204	Uisw_101	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_101_01200
+CP159821.1	Prodigal:2.6	CDS	1119506	1120258	.	+	0	Uisw_101_01205	Uisw_101	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_101_01200
+CP159820.1	Prodigal:2.6	CDS	1105458	1106120	.	-	0	Uisw_104_01208	Uisw_104	220	OG0000334	NA	NA	NA	NA	NA	Uisw_104_01213
+CP159820.1	Prodigal:2.6	CDS	1106120	1107064	.	-	0	Uisw_104_01209	Uisw_104	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	Uisw_104_01213
+CP159820.1	Prodigal:2.6	CDS	1107086	1108030	.	+	0	Uisw_104_01210	Uisw_104	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_104_01213
+CP159820.1	Prodigal:2.6	CDS	1108032	1108409	.	-	0	Uisw_104_01211	Uisw_104	125	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_104_01213
+CP159820.1	Prodigal:2.6	CDS	1108516	1109535	.	+	0	Uisw_104_01212	Uisw_104	339	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_104_01213
+CP159820.1	Prodigal:2.6	CDS	1109541	1110194	.	-	0	Uisw_104_01213	Uisw_104	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_104_01213
+CP159820.1	Prodigal:2.6	CDS	1110194	1110643	.	-	0	Uisw_104_01214	Uisw_104	149	OG0001411	NA	NA	NA	NA	NA	Uisw_104_01213
+CP159820.1	Prodigal:2.6	CDS	1110747	1112516	.	+	0	Uisw_104_01215	Uisw_104	589	OG0000032	K24821	ATP-binding cassette, subfamily B, heavy metal transporter	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_104_01213
+CP159820.1	Prodigal:2.6	CDS	1112509	1113708	.	-	0	Uisw_104_01216	Uisw_104	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_104_01213
+CP159820.1	Prodigal:2.6	CDS	1113744	1115915	.	+	0	Uisw_104_01217	Uisw_104	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_104_01213
+CP159820.1	Prodigal:2.6	CDS	1115897	1116649	.	+	0	Uisw_104_01218	Uisw_104	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_104_01213
+CP159819.1	Prodigal:2.6	CDS	1012278	1013222	.	+	0	Uisw_106_01130	Uisw_106	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_106_01135
+CP159819.1	Prodigal:2.6	CDS	1013223	1013897	.	+	0	Uisw_106_01131	Uisw_106	224	OG0001852	NA	NA	COG4221	YdfG	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	Uisw_106_01135
+CP159819.1	Prodigal:2.6	CDS	1013944	1014282	.	-	0	Uisw_106_01132	Uisw_106	112	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_106_01135
+CP159819.1	Prodigal:2.6	CDS	1014297	1014566	.	-	0	Uisw_106_01133	Uisw_106	89	OG0001542	NA	NA	NA	NA	NA	Uisw_106_01135
+CP159819.1	Prodigal:2.6	CDS	1014707	1015768	.	+	0	Uisw_106_01134	Uisw_106	353	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_106_01135
+CP159819.1	Prodigal:2.6	CDS	1015754	1016416	.	-	0	Uisw_106_01135	Uisw_106	220	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_106_01135
+CP159819.1	Prodigal:2.6	CDS	1016416	1016865	.	-	0	Uisw_106_01136	Uisw_106	149	OG0001411	NA	NA	NA	NA	NA	Uisw_106_01135
+CP159819.1	Prodigal:2.6	CDS	1016970	1018739	.	+	0	Uisw_106_01137	Uisw_106	589	OG0000032	K24821	ATP-binding cassette, subfamily B, heavy metal transporter	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_106_01135
+CP159819.1	Prodigal:2.6	CDS	1018732	1019931	.	-	0	Uisw_106_01138	Uisw_106	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_106_01135
+CP159819.1	Prodigal:2.6	CDS	1019967	1022138	.	+	0	Uisw_106_01139	Uisw_106	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_106_01135
+CP159819.1	Prodigal:2.6	CDS	1022120	1022872	.	+	0	Uisw_106_01140	Uisw_106	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_106_01135
+CP159823.1	Prodigal:2.6	CDS	1050520	1051182	.	-	0	Uisw_094_01166	Uisw_094	220	OG0000334	NA	NA	NA	NA	NA	Uisw_094_01171
+CP159823.1	Prodigal:2.6	CDS	1051182	1052126	.	-	0	Uisw_094_01167	Uisw_094	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	Uisw_094_01171
+CP159823.1	Prodigal:2.6	CDS	1052148	1053092	.	+	0	Uisw_094_01168	Uisw_094	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_094_01171
+CP159823.1	Prodigal:2.6	CDS	1053094	1053471	.	-	0	Uisw_094_01169	Uisw_094	125	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_094_01171
+CP159823.1	Prodigal:2.6	CDS	1053578	1054597	.	+	0	Uisw_094_01170	Uisw_094	339	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_094_01171
+CP159823.1	Prodigal:2.6	CDS	1054603	1055256	.	-	0	Uisw_094_01171	Uisw_094	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_094_01171
+CP159823.1	Prodigal:2.6	CDS	1055256	1055705	.	-	0	Uisw_094_01172	Uisw_094	149	OG0001411	NA	NA	NA	NA	NA	Uisw_094_01171
+CP159823.1	Prodigal:2.6	CDS	1055809	1057578	.	+	0	Uisw_094_01173	Uisw_094	589	OG0000032	K24821	ATP-binding cassette, subfamily B, heavy metal transporter	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_094_01171
+CP159823.1	Prodigal:2.6	CDS	1057571	1058770	.	-	0	Uisw_094_01174	Uisw_094	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_094_01171
+CP159823.1	Prodigal:2.6	CDS	1058806	1060977	.	+	0	Uisw_094_01175	Uisw_094	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_094_01171
+CP159823.1	Prodigal:2.6	CDS	1060959	1061711	.	+	0	Uisw_094_01176	Uisw_094	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_094_01171
+CP159812.1	Prodigal:2.6	CDS	1051053	1051715	.	-	0	Uisw_136_01138	Uisw_136	220	OG0000334	NA	NA	NA	NA	NA	Uisw_136_01143
+CP159812.1	Prodigal:2.6	CDS	1051702	1052655	.	-	0	Uisw_136_01139	Uisw_136	317	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	Uisw_136_01143
+CP159812.1	Prodigal:2.6	CDS	1052677	1053621	.	+	0	Uisw_136_01140	Uisw_136	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_136_01143
+CP159812.1	Prodigal:2.6	CDS	1053623	1054000	.	-	0	Uisw_136_01141	Uisw_136	125	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_136_01143
+CP159812.1	Prodigal:2.6	CDS	1054107	1055126	.	+	0	Uisw_136_01142	Uisw_136	339	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_136_01143
+CP159812.1	Prodigal:2.6	CDS	1055132	1055785	.	-	0	Uisw_136_01143	Uisw_136	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_136_01143
+CP159812.1	Prodigal:2.6	CDS	1055797	1056246	.	-	0	Uisw_136_01144	Uisw_136	149	OG0001411	NA	NA	NA	NA	NA	Uisw_136_01143
+CP159812.1	Prodigal:2.6	CDS	1056350	1058119	.	+	0	Uisw_136_01145	Uisw_136	589	OG0000032	K24821	ATP-binding cassette, subfamily B, heavy metal transporter	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_136_01143
+CP159812.1	Prodigal:2.6	CDS	1058112	1059311	.	-	0	Uisw_136_01146	Uisw_136	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_136_01143
+CP159812.1	Prodigal:2.6	CDS	1059347	1061518	.	+	0	Uisw_136_01147	Uisw_136	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_136_01143
+CP159812.1	Prodigal:2.6	CDS	1061500	1062252	.	+	0	Uisw_136_01148	Uisw_136	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_136_01143
+CP159809.1	Prodigal:2.6	CDS	1026526	1027188	.	-	0	Uisw_113_01106	Uisw_113	220	OG0000334	NA	NA	NA	NA	NA	Uisw_113_01111
+CP159809.1	Prodigal:2.6	CDS	1027175	1028128	.	-	0	Uisw_113_01107	Uisw_113	317	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	Uisw_113_01111
+CP159809.1	Prodigal:2.6	CDS	1028150	1029094	.	+	0	Uisw_113_01108	Uisw_113	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_113_01111
+CP159809.1	Prodigal:2.6	CDS	1029096	1029473	.	-	0	Uisw_113_01109	Uisw_113	125	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_113_01111
+CP159809.1	Prodigal:2.6	CDS	1029579	1030598	.	+	0	Uisw_113_01110	Uisw_113	339	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_113_01111
+CP159809.1	Prodigal:2.6	CDS	1030604	1031257	.	-	0	Uisw_113_01111	Uisw_113	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_113_01111
+CP159809.1	Prodigal:2.6	CDS	1031269	1031718	.	-	0	Uisw_113_01112	Uisw_113	149	OG0001411	NA	NA	NA	NA	NA	Uisw_113_01111
+CP159809.1	Prodigal:2.6	CDS	1031822	1033591	.	+	0	Uisw_113_01113	Uisw_113	589	OG0000032	K24821	ATP-binding cassette, subfamily B, heavy metal transporter	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_113_01111
+CP159809.1	Prodigal:2.6	CDS	1033584	1034783	.	-	0	Uisw_113_01114	Uisw_113	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_113_01111
+CP159809.1	Prodigal:2.6	CDS	1034819	1036990	.	+	0	Uisw_113_01115	Uisw_113	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_113_01111
+CP159809.1	Prodigal:2.6	CDS	1036972	1037724	.	+	0	Uisw_113_01116	Uisw_113	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_113_01111
+CP159817.1	Prodigal:2.6	CDS	989561	990289	.	-	0	Uisw_116_01104	Uisw_116	242	OG0001277	NA	NA	COG4970	FimT	Type IV pilus assembly protein FimT or FimU	Uisw_116_01109
+CP159817.1	Prodigal:2.6	CDS	990264	991277	.	-	0	Uisw_116_01105	Uisw_116	337	OG0001154	K02669	twitching motility protein PilT	COG2805	PilT/PilU	Type IV pilus retraction ATPase PilT/PilU	Uisw_116_01109
+CP159817.1	Prodigal:2.6	CDS	991410	992072	.	-	0	Uisw_116_01106	Uisw_116	220	OG0000334	NA	NA	NA	NA	NA	Uisw_116_01109
+CP159817.1	Prodigal:2.6	CDS	992072	993016	.	-	0	Uisw_116_01107	Uisw_116	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	Uisw_116_01109
+CP159817.1	Prodigal:2.6	CDS	993038	993982	.	+	0	Uisw_116_01108	Uisw_116	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_116_01109
+CP159817.1	Prodigal:2.6	CDS	993979	994635	.	-	0	Uisw_116_01109	Uisw_116	218	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_116_01109
+CP159817.1	Prodigal:2.6	CDS	994647	995096	.	-	0	Uisw_116_01110	Uisw_116	149	OG0001411	NA	NA	NA	NA	NA	Uisw_116_01109
+CP159817.1	Prodigal:2.6	CDS	995096	996295	.	-	0	Uisw_116_01111	Uisw_116	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_116_01109
+CP159817.1	Prodigal:2.6	CDS	996331	998502	.	+	0	Uisw_116_01112	Uisw_116	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_116_01109
+CP159817.1	Prodigal:2.6	CDS	998484	999236	.	+	0	Uisw_116_01113	Uisw_116	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_116_01109
+CP159817.1	Prodigal:2.6	CDS	999233	999658	.	+	0	Uisw_116_01114	Uisw_116	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	Uisw_116_01109
+CP159816.1	Prodigal:2.6	CDS	1037815	1038477	.	-	0	Uisw_121_01123	Uisw_121	220	OG0000334	NA	NA	NA	NA	NA	Uisw_121_01128
+CP159816.1	Prodigal:2.6	CDS	1038477	1039421	.	-	0	Uisw_121_01124	Uisw_121	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	Uisw_121_01128
+CP159816.1	Prodigal:2.6	CDS	1039443	1040387	.	+	0	Uisw_121_01125	Uisw_121	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_121_01128
+CP159816.1	Prodigal:2.6	CDS	1040389	1040766	.	-	0	Uisw_121_01126	Uisw_121	125	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_121_01128
+CP159816.1	Prodigal:2.6	CDS	1040872	1041891	.	+	0	Uisw_121_01127	Uisw_121	339	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_121_01128
+CP159816.1	Prodigal:2.6	CDS	1041883	1042539	.	-	0	Uisw_121_01128	Uisw_121	218	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_121_01128
+CP159816.1	Prodigal:2.6	CDS	1042551	1043000	.	-	0	Uisw_121_01129	Uisw_121	149	OG0001411	NA	NA	COG3613	RCL	Nucleoside 2-deoxyribosyltransferase	Uisw_121_01128
+CP159816.1	Prodigal:2.6	CDS	1042994	1044199	.	-	0	Uisw_121_01130	Uisw_121	401	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_121_01128
+CP159816.1	Prodigal:2.6	CDS	1044235	1046406	.	+	0	Uisw_121_01131	Uisw_121	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_121_01128
+CP159816.1	Prodigal:2.6	CDS	1046388	1047563	.	+	0	Uisw_121_01132	Uisw_121	391	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_121_01128
+CP159816.1	Prodigal:2.6	CDS	1047511	1049385	.	+	0	Uisw_121_01133	Uisw_121	624	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	Uisw_121_01128
+CP159818.1	Prodigal:2.6	CDS	1067955	1068899	.	+	0	Uisw_114_01267	Uisw_114	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_114_01272
+CP159818.1	Prodigal:2.6	CDS	1068900	1069574	.	+	0	Uisw_114_01268	Uisw_114	224	OG0001852	NA	NA	COG4221	YdfG	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	Uisw_114_01272
+CP159818.1	Prodigal:2.6	CDS	1069621	1069959	.	-	0	Uisw_114_01269	Uisw_114	112	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_114_01272
+CP159818.1	Prodigal:2.6	CDS	1069974	1070243	.	-	0	Uisw_114_01270	Uisw_114	89	OG0001542	NA	NA	NA	NA	NA	Uisw_114_01272
+CP159818.1	Prodigal:2.6	CDS	1070387	1071448	.	+	0	Uisw_114_01271	Uisw_114	353	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_114_01272
+CP159818.1	Prodigal:2.6	CDS	1071434	1072096	.	-	0	Uisw_114_01272	Uisw_114	220	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_114_01272
+CP159818.1	Prodigal:2.6	CDS	1072096	1072545	.	-	0	Uisw_114_01273	Uisw_114	149	OG0001411	NA	NA	NA	NA	NA	Uisw_114_01272
+CP159818.1	Prodigal:2.6	CDS	1072649	1074418	.	+	0	Uisw_114_01274	Uisw_114	589	OG0000032	K24821	ATP-binding cassette, subfamily B, heavy metal transporter	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_114_01272
+CP159818.1	Prodigal:2.6	CDS	1074411	1075610	.	-	0	Uisw_114_01275	Uisw_114	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_114_01272
+CP159818.1	Prodigal:2.6	CDS	1075646	1077817	.	+	0	Uisw_114_01276	Uisw_114	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_114_01272
+CP159818.1	Prodigal:2.6	CDS	1077799	1078551	.	+	0	Uisw_114_01277	Uisw_114	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_114_01272
+CP159814.1	Prodigal:2.6	CDS	1069691	1070746	.	-	0	Uisw_130_01162	Uisw_130	351	OG0002126	K01921	D-alanine-D-alanine ligase [EC:6.3.2.4]	COG1181	DdlA	D-alanine-D-alanine ligase or related ATP-grasp enzyme	Uisw_130_01167
+CP159814.1	Prodigal:2.6	CDS	1071128	1071976	.	-	0	Uisw_130_01163	Uisw_130	282	OG0000832	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	Uisw_130_01167
+CP159814.1	Prodigal:2.6	CDS	1072032	1072694	.	-	0	Uisw_130_01164	Uisw_130	220	OG0000334	NA	NA	NA	NA	NA	Uisw_130_01167
+CP159814.1	Prodigal:2.6	CDS	1072694	1073638	.	-	0	Uisw_130_01165	Uisw_130	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	Uisw_130_01167
+CP159814.1	Prodigal:2.6	CDS	1073660	1074604	.	+	0	Uisw_130_01166	Uisw_130	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_130_01167
+CP159814.1	Prodigal:2.6	CDS	1074601	1075257	.	-	0	Uisw_130_01167	Uisw_130	218	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_130_01167
+CP159814.1	Prodigal:2.6	CDS	1075257	1075706	.	-	0	Uisw_130_01168	Uisw_130	149	OG0001411	NA	NA	NA	NA	NA	Uisw_130_01167
+CP159814.1	Prodigal:2.6	CDS	1075810	1077579	.	+	0	Uisw_130_01169	Uisw_130	589	OG0000032	K24821	ATP-binding cassette, subfamily B, heavy metal transporter	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_130_01167
+CP159814.1	Prodigal:2.6	CDS	1077572	1078771	.	-	0	Uisw_130_01170	Uisw_130	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_130_01167
+CP159814.1	Prodigal:2.6	CDS	1078807	1080978	.	+	0	Uisw_130_01171	Uisw_130	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_130_01167
+CP159814.1	Prodigal:2.6	CDS	1080960	1081712	.	+	0	Uisw_130_01172	Uisw_130	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_130_01167
+CP159824.1	Prodigal:2.6	CDS	186713	187465	.	-	0	Uisw_092_00208	Uisw_092	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_092_00213
+CP159824.1	Prodigal:2.6	CDS	187447	189618	.	-	0	Uisw_092_00209	Uisw_092	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_092_00213
+CP159824.1	Prodigal:2.6	CDS	189654	190853	.	+	0	Uisw_092_00210	Uisw_092	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_092_00213
+CP159824.1	Prodigal:2.6	CDS	190846	192579	.	-	0	Uisw_092_00211	Uisw_092	577	OG0000032	K24821	ATP-binding cassette, subfamily B, heavy metal transporter	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_092_00213
+CP159824.1	Prodigal:2.6	CDS	192719	193168	.	+	0	Uisw_092_00212	Uisw_092	149	OG0001411	NA	NA	NA	NA	NA	Uisw_092_00213
+CP159824.1	Prodigal:2.6	CDS	193180	193836	.	+	0	Uisw_092_00213	Uisw_092	218	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_092_00213
+CP159824.1	Prodigal:2.6	CDS	193828	194850	.	-	0	Uisw_092_00214	Uisw_092	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_092_00213
+CP159824.1	Prodigal:2.6	CDS	195032	195301	.	+	0	Uisw_092_00215	Uisw_092	89	OG0001542	NA	NA	NA	NA	NA	Uisw_092_00213
+CP159824.1	Prodigal:2.6	CDS	195314	195658	.	+	0	Uisw_092_00216	Uisw_092	114	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_092_00213
+CP159824.1	Prodigal:2.6	CDS	195697	196194	.	-	0	Uisw_092_00217	Uisw_092	165	OG0000145	NA	NA	COG4783	BepA	Periplasmic chaperone/metalloprotease BepA/YfgC, contains M48 and TPR domains	Uisw_092_00213
+CP159824.1	Prodigal:2.6	CDS	196262	197191	.	-	0	Uisw_092_00218	Uisw_092	309	OG0001283	NA	NA	COG5185	HEC1	Chromosome segregation protein NDC80, interacts with SMC proteins	Uisw_092_00213
+CP159810.1	Prodigal:2.6	CDS	1027028	1027690	.	-	0	Uisw_090_01147	Uisw_090	220	OG0000334	NA	NA	NA	NA	NA	Uisw_090_01152
+CP159810.1	Prodigal:2.6	CDS	1027690	1028634	.	-	0	Uisw_090_01148	Uisw_090	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	Uisw_090_01152
+CP159810.1	Prodigal:2.6	CDS	1028656	1029600	.	+	0	Uisw_090_01149	Uisw_090	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_090_01152
+CP159810.1	Prodigal:2.6	CDS	1029602	1029940	.	-	0	Uisw_090_01150	Uisw_090	112	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_090_01152
+CP159810.1	Prodigal:2.6	CDS	1030086	1031105	.	+	0	Uisw_090_01151	Uisw_090	339	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_090_01152
+CP159810.1	Prodigal:2.6	CDS	1031111	1031764	.	-	0	Uisw_090_01152	Uisw_090	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_090_01152
+CP159810.1	Prodigal:2.6	CDS	1031764	1032213	.	-	0	Uisw_090_01153	Uisw_090	149	OG0001411	NA	NA	NA	NA	NA	Uisw_090_01152
+CP159810.1	Prodigal:2.6	CDS	1032317	1034086	.	+	0	Uisw_090_01154	Uisw_090	589	OG0000032	K24821	ATP-binding cassette, subfamily B, heavy metal transporter	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_090_01152
+CP159810.1	Prodigal:2.6	CDS	1034079	1035278	.	-	0	Uisw_090_01155	Uisw_090	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_090_01152
+CP159810.1	Prodigal:2.6	CDS	1035314	1037485	.	+	0	Uisw_090_01156	Uisw_090	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_090_01152
+CP159810.1	Prodigal:2.6	CDS	1037467	1038219	.	+	0	Uisw_090_01157	Uisw_090	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_090_01152
+CP159815.1	Prodigal:2.6	CDS	1000688	1001350	.	-	0	Uisw_127_01097	Uisw_127	220	OG0000334	NA	NA	NA	NA	NA	Uisw_127_01102
+CP159815.1	Prodigal:2.6	CDS	1001337	1002290	.	-	0	Uisw_127_01098	Uisw_127	317	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	Uisw_127_01102
+CP159815.1	Prodigal:2.6	CDS	1002312	1003256	.	+	0	Uisw_127_01099	Uisw_127	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	Uisw_127_01102
+CP159815.1	Prodigal:2.6	CDS	1003258	1003635	.	-	0	Uisw_127_01100	Uisw_127	125	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_127_01102
+CP159815.1	Prodigal:2.6	CDS	1003742	1004761	.	+	0	Uisw_127_01101	Uisw_127	339	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_127_01102
+CP159815.1	Prodigal:2.6	CDS	1004767	1005420	.	-	0	Uisw_127_01102	Uisw_127	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_127_01102
+CP159815.1	Prodigal:2.6	CDS	1005420	1005869	.	-	0	Uisw_127_01103	Uisw_127	149	OG0001411	NA	NA	NA	NA	NA	Uisw_127_01102
+CP159815.1	Prodigal:2.6	CDS	1005973	1007742	.	+	0	Uisw_127_01104	Uisw_127	589	OG0000032	K24821	ATP-binding cassette, subfamily B, heavy metal transporter	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_127_01102
+CP159815.1	Prodigal:2.6	CDS	1007735	1008934	.	-	0	Uisw_127_01105	Uisw_127	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_127_01102
+CP159815.1	Prodigal:2.6	CDS	1008970	1011141	.	+	0	Uisw_127_01106	Uisw_127	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_127_01102
+CP159815.1	Prodigal:2.6	CDS	1011123	1011875	.	+	0	Uisw_127_01107	Uisw_127	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_127_01102
+CP159822.1	Prodigal:2.6	CDS	968824	969837	.	-	0	Uisw_099_02_01057	Uisw_099_02	337	OG0001154	K02669	twitching motility protein PilT	COG2805	PilT/PilU	Type IV pilus retraction ATPase PilT/PilU	Uisw_099_02_01062
+CP159822.1	Prodigal:2.6	CDS	969977	972346	.	+	0	Uisw_099_02_01058	Uisw_099_02	789	OG0000098	NA	NA	COG4625	NA	Uncharacterized conserved protein, contains a C-terminal beta-barrel porin domain	Uisw_099_02_01062
+CP159822.1	Prodigal:2.6	CDS	972565	974652	.	+	0	Uisw_099_02_01059	Uisw_099_02	695	OG0000098	NA	NA	COG4625	NA	Uncharacterized conserved protein, contains a C-terminal beta-barrel porin domain	Uisw_099_02_01062
+CP159822.1	Prodigal:2.6	CDS	974652	974996	.	+	0	Uisw_099_02_01060	Uisw_099_02	114	OG0001373	NA	NA	NA	NA	NA	Uisw_099_02_01062
+CP159822.1	Prodigal:2.6	CDS	975005	976816	.	-	0	Uisw_099_02_01061	Uisw_099_02	603	OG0001577	NA	NA	NA	NA	NA	Uisw_099_02_01062
+CP159822.1	Prodigal:2.6	CDS	977023	977673	.	-	0	Uisw_099_02_01062	Uisw_099_02	216	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_099_02_01062
+CP159822.1	Prodigal:2.6	CDS	977685	978134	.	-	0	Uisw_099_02_01063	Uisw_099_02	149	OG0001411	NA	NA	NA	NA	NA	Uisw_099_02_01062
+CP159822.1	Prodigal:2.6	CDS	978238	980007	.	+	0	Uisw_099_02_01064	Uisw_099_02	589	OG0000032	K24821	ATP-binding cassette, subfamily B, heavy metal transporter	COG5265	ATM1	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components	Uisw_099_02_01062
+CP159822.1	Prodigal:2.6	CDS	980000	981199	.	-	0	Uisw_099_02_01065	Uisw_099_02	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_099_02_01062
+CP159822.1	Prodigal:2.6	CDS	981235	983406	.	+	0	Uisw_099_02_01066	Uisw_099_02	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_099_02_01062
+CP159822.1	Prodigal:2.6	CDS	983388	984140	.	+	0	Uisw_099_02_01067	Uisw_099_02	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_099_02_01062
+NZ_LANA01000001.1	Prodigal:2.6	CDS	655532	655957	.	-	0	HTCC9565_00705	HTCC9565	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HTCC9565_00710
+NZ_LANA01000001.1	Prodigal:2.6	CDS	655954	656706	.	-	0	HTCC9565_00706	HTCC9565	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HTCC9565_00710
+NZ_LANA01000001.1	Prodigal:2.6	CDS	656688	658859	.	-	0	HTCC9565_00707	HTCC9565	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HTCC9565_00710
+NZ_LANA01000001.1	Prodigal:2.6	CDS	658895	660094	.	+	0	HTCC9565_00708	HTCC9565	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HTCC9565_00710
+NZ_LANA01000001.1	Prodigal:2.6	CDS	660094	660543	.	+	0	HTCC9565_00709	HTCC9565	149	OG0001411	NA	NA	NA	NA	NA	HTCC9565_00710
+NZ_LANA01000001.1	Prodigal:2.6	CDS	660555	661208	.	+	0	HTCC9565_00710	HTCC9565	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HTCC9565_00710
+NZ_LANA01000001.1	Prodigal:2.6	CDS	661214	661630	.	-	0	HTCC9565_00711	HTCC9565	138	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC9565_00710
+NZ_LANA01000001.1	Prodigal:2.6	CDS	661656	662603	.	-	0	HTCC9565_00712	HTCC9565	315	OG0001283	NA	NA	NA	NA	NA	HTCC9565_00710
+NZ_LANA01000001.1	Prodigal:2.6	CDS	662613	663557	.	-	0	HTCC9565_00713	HTCC9565	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HTCC9565_00710
+NZ_LANA01000001.1	Prodigal:2.6	CDS	663579	664532	.	+	0	HTCC9565_00714	HTCC9565	317	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HTCC9565_00710
+NZ_LANA01000001.1	Prodigal:2.6	CDS	664519	665181	.	+	0	HTCC9565_00715	HTCC9565	220	OG0000334	NA	NA	NA	NA	NA	HTCC9565_00710
+CP159813.1	Prodigal:2.6	CDS	993015	993689	.	+	0	Uisw_134_02_01093	Uisw_134_02	224	OG0001852	NA	NA	COG4221	YdfG	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	Uisw_134_02_01098
+CP159813.1	Prodigal:2.6	CDS	993695	994642	.	+	0	Uisw_134_02_01094	Uisw_134_02	315	OG0001283	NA	NA	COG5185	HEC1	Chromosome segregation protein NDC80, interacts with SMC proteins	Uisw_134_02_01098
+CP159813.1	Prodigal:2.6	CDS	994710	995207	.	+	0	Uisw_134_02_01095	Uisw_134_02	165	OG0000145	NA	NA	COG4783	BepA	Periplasmic chaperone/metalloprotease BepA/YfgC, contains M48 and TPR domains	Uisw_134_02_01098
+CP159813.1	Prodigal:2.6	CDS	995246	995629	.	-	0	Uisw_134_02_01096	Uisw_134_02	127	OG0001470	NA	NA	COG1733	HxlR	DNA-binding transcriptional regulator, HxlR family	Uisw_134_02_01098
+CP159813.1	Prodigal:2.6	CDS	995735	996757	.	+	0	Uisw_134_02_01097	Uisw_134_02	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_134_02_01098
+CP159813.1	Prodigal:2.6	CDS	996749	997405	.	-	0	Uisw_134_02_01098	Uisw_134_02	218	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	Uisw_134_02_01098
+CP159813.1	Prodigal:2.6	CDS	997405	997854	.	-	0	Uisw_134_02_01099	Uisw_134_02	149	OG0001411	NA	NA	NA	NA	NA	Uisw_134_02_01098
+CP159813.1	Prodigal:2.6	CDS	997854	999053	.	-	0	Uisw_134_02_01100	Uisw_134_02	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_134_02_01098
+CP159813.1	Prodigal:2.6	CDS	999089	1001260	.	+	0	Uisw_134_02_01101	Uisw_134_02	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	Uisw_134_02_01098
+CP159813.1	Prodigal:2.6	CDS	1001242	1001994	.	+	0	Uisw_134_02_01102	Uisw_134_02	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_134_02_01098
+CP159813.1	Prodigal:2.6	CDS	1001991	1002416	.	+	0	Uisw_134_02_01103	Uisw_134_02	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	Uisw_134_02_01098
+DS995298.1	Prodigal:2.6	CDS	464439	464864	.	-	0	HTCC7211_00498	HTCC7211	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HTCC7211_00503
+DS995298.1	Prodigal:2.6	CDS	464868	465878	.	-	0	HTCC7211_00499	HTCC7211	336	OG0001216	NA	NA	NA	NA	NA	HTCC7211_00503
+DS995298.1	Prodigal:2.6	CDS	465875	466627	.	-	0	HTCC7211_00500	HTCC7211	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HTCC7211_00503
+DS995298.1	Prodigal:2.6	CDS	466609	468780	.	-	0	HTCC7211_00501	HTCC7211	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HTCC7211_00503
+DS995298.1	Prodigal:2.6	CDS	468816	470003	.	+	0	HTCC7211_00502	HTCC7211	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HTCC7211_00503
+DS995298.1	Prodigal:2.6	CDS	470007	470657	.	+	0	HTCC7211_00503	HTCC7211	216	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HTCC7211_00503
+DS995298.1	Prodigal:2.6	CDS	470654	471664	.	-	0	HTCC7211_00504	HTCC7211	336	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC7211_00503
+DS995298.1	Prodigal:2.6	CDS	471696	472643	.	-	0	HTCC7211_00505	HTCC7211	315	OG0001283	NA	NA	COG5185	HEC1	Chromosome segregation protein NDC80, interacts with SMC proteins	HTCC7211_00503
+DS995298.1	Prodigal:2.6	CDS	472649	473320	.	-	0	HTCC7211_00506	HTCC7211	223	OG0001852	NA	NA	COG4221	YdfG	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	HTCC7211_00503
+DS995298.1	Prodigal:2.6	CDS	473324	474268	.	-	0	HTCC7211_00507	HTCC7211	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HTCC7211_00503
+DS995298.1	Prodigal:2.6	CDS	474290	475234	.	+	0	HTCC7211_00508	HTCC7211	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HTCC7211_00503
+JNIU01000001.1	Prodigal:2.6	CDS	1267583	1269448	.	-	0	HTCC7217_01369	HTCC7217	621	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HTCC7217_01374
+JNIU01000001.1	Prodigal:2.6	CDS	1269405	1269830	.	-	0	HTCC7217_01370	HTCC7217	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HTCC7217_01374
+JNIU01000001.1	Prodigal:2.6	CDS	1269827	1270573	.	-	0	HTCC7217_01371	HTCC7217	248	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HTCC7217_01374
+JNIU01000001.1	Prodigal:2.6	CDS	1270589	1272757	.	-	0	HTCC7217_01372	HTCC7217	722	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HTCC7217_01374
+JNIU01000001.1	Prodigal:2.6	CDS	1272793	1273980	.	+	0	HTCC7217_01373	HTCC7217	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HTCC7217_01374
+JNIU01000001.1	Prodigal:2.6	CDS	1273984	1274637	.	+	0	HTCC7217_01374	HTCC7217	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HTCC7217_01374
+JNIU01000001.1	Prodigal:2.6	CDS	1274640	1275587	.	-	0	HTCC7217_01375	HTCC7217	315	OG0001283	NA	NA	COG5185	HEC1	Chromosome segregation protein NDC80, interacts with SMC proteins	HTCC7217_01374
+JNIU01000001.1	Prodigal:2.6	CDS	1275593	1276267	.	-	0	HTCC7217_01376	HTCC7217	224	OG0001852	NA	NA	COG4221	YdfG	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	HTCC7217_01374
+JNIU01000001.1	Prodigal:2.6	CDS	1276293	1276706	.	-	0	HTCC7217_01377	HTCC7217	137	OG0001689	NA	NA	NA	NA	NA	HTCC7217_01374
+JNIU01000001.1	Prodigal:2.6	CDS	1276710	1277654	.	-	0	HTCC7217_01378	HTCC7217	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HTCC7217_01374
+JNIU01000001.1	Prodigal:2.6	CDS	1277676	1278620	.	+	0	HTCC7217_01379	HTCC7217	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HTCC7217_01374
+KI421440.1	Prodigal:2.6	CDS	155497	157332	.	-	0	HTCC8051_00166	HTCC8051	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HTCC8051_00171
+KI421440.1	Prodigal:2.6	CDS	157319	157744	.	-	0	HTCC8051_00167	HTCC8051	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HTCC8051_00171
+KI421440.1	Prodigal:2.6	CDS	157741	158493	.	-	0	HTCC8051_00168	HTCC8051	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HTCC8051_00171
+KI421440.1	Prodigal:2.6	CDS	158475	160646	.	-	0	HTCC8051_00169	HTCC8051	723	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HTCC8051_00171
+KI421440.1	Prodigal:2.6	CDS	160682	161881	.	+	0	HTCC8051_00170	HTCC8051	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HTCC8051_00171
+KI421440.1	Prodigal:2.6	CDS	161881	162537	.	+	0	HTCC8051_00171	HTCC8051	218	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HTCC8051_00171
+KI421440.1	Prodigal:2.6	CDS	162529	163551	.	-	0	HTCC8051_00172	HTCC8051	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC8051_00171
+KI421440.1	Prodigal:2.6	CDS	163593	164537	.	-	0	HTCC8051_00173	HTCC8051	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HTCC8051_00171
+KI421440.1	Prodigal:2.6	CDS	164559	165503	.	+	0	HTCC8051_00174	HTCC8051	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HTCC8051_00171
+KI421440.1	Prodigal:2.6	CDS	165503	166168	.	+	0	HTCC8051_00175	HTCC8051	221	OG0000334	NA	NA	NA	NA	NA	HTCC8051_00171
+KI421440.1	Prodigal:2.6	CDS	166165	169389	.	-	0	HTCC8051_00176	HTCC8051	1074	OG0000141	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	COG0458	CarB	Carbamoylphosphate synthase large subunit	HTCC8051_00171
+HIMB1456-00000000003	Prodigal:2.6	CDS	51639	53504	.	-	0	HIMB1456_00693	HIMB1456	621	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1456_00698
+HIMB1456-00000000003	Prodigal:2.6	CDS	53461	53886	.	-	0	HIMB1456_00694	HIMB1456	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1456_00698
+HIMB1456-00000000003	Prodigal:2.6	CDS	53883	54635	.	-	0	HIMB1456_00695	HIMB1456	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1456_00698
+HIMB1456-00000000003	Prodigal:2.6	CDS	54617	56791	.	-	0	HIMB1456_00696	HIMB1456	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1456_00698
+HIMB1456-00000000003	Prodigal:2.6	CDS	56828	58027	.	+	0	HIMB1456_00697	HIMB1456	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1456_00698
+HIMB1456-00000000003	Prodigal:2.6	CDS	58027	58674	.	+	0	HIMB1456_00698	HIMB1456	215	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1456_00698
+HIMB1456-00000000003	Prodigal:2.6	CDS	58675	59697	.	-	0	HIMB1456_00699	HIMB1456	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1456_00698
+HIMB1456-00000000003	Prodigal:2.6	CDS	59698	60645	.	-	0	HIMB1456_00700	HIMB1456	315	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1456_00698
+HIMB1456-00000000003	Prodigal:2.6	CDS	60667	61611	.	+	0	HIMB1456_00701	HIMB1456	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1456_00698
+HIMB1456-00000000003	Prodigal:2.6	CDS	61611	62276	.	+	0	HIMB1456_00702	HIMB1456	221	OG0000334	NA	NA	NA	NA	NA	HIMB1456_00698
+HIMB1456-00000000003	Prodigal:2.6	CDS	62273	65497	.	-	0	HIMB1456_00703	HIMB1456	1074	OG0000141	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	COG0458	CarB	Carbamoylphosphate synthase large subunit	HIMB1456_00698
+HIMB2201-00000000001	Prodigal:2.6	CDS	1318991	1319416	.	-	0	HIMB2201_01435	HIMB2201	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB2201_01440
+HIMB2201-00000000001	Prodigal:2.6	CDS	1319416	1319562	.	-	0	HIMB2201_01436	HIMB2201	48	OG0001513	NA	NA	NA	NA	NA	HIMB2201_01440
+HIMB2201-00000000001	Prodigal:2.6	CDS	1319559	1320314	.	-	0	HIMB2201_01437	HIMB2201	251	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2201_01440
+HIMB2201-00000000001	Prodigal:2.6	CDS	1320296	1322470	.	-	0	HIMB2201_01438	HIMB2201	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB2201_01440
+HIMB2201-00000000001	Prodigal:2.6	CDS	1322507	1323706	.	+	0	HIMB2201_01439	HIMB2201	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB2201_01440
+HIMB2201-00000000001	Prodigal:2.6	CDS	1323706	1324362	.	+	0	HIMB2201_01440	HIMB2201	218	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB2201_01440
+HIMB2201-00000000001	Prodigal:2.6	CDS	1324354	1325376	.	-	0	HIMB2201_01441	HIMB2201	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2201_01440
+HIMB2201-00000000001	Prodigal:2.6	CDS	1325385	1325798	.	-	0	HIMB2201_01442	HIMB2201	137	OG0001689	NA	NA	NA	NA	NA	HIMB2201_01440
+HIMB2201-00000000001	Prodigal:2.6	CDS	1325802	1326746	.	-	0	HIMB2201_01443	HIMB2201	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB2201_01440
+HIMB2201-00000000001	Prodigal:2.6	CDS	1326768	1327712	.	+	0	HIMB2201_01444	HIMB2201	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB2201_01440
+HIMB2201-00000000001	Prodigal:2.6	CDS	1327712	1328374	.	+	0	HIMB2201_01445	HIMB2201	220	OG0000334	NA	NA	NA	NA	NA	HIMB2201_01440
+HIMB123-00000000012	Prodigal:2.6	CDS	43471	44136	.	-	0	HIMB123_00658	HIMB123	221	OG0000334	NA	NA	NA	NA	NA	HIMB123_00663
+HIMB123-00000000012	Prodigal:2.6	CDS	44136	45080	.	-	0	HIMB123_00659	HIMB123	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB123_00663
+HIMB123-00000000012	Prodigal:2.6	CDS	45102	46046	.	+	0	HIMB123_00660	HIMB123	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB123_00663
+HIMB123-00000000012	Prodigal:2.6	CDS	46088	47110	.	+	0	HIMB123_00661	HIMB123	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB123_00663
+HIMB123-00000000012	Prodigal:2.6	CDS	47160	47792	.	+	0	HIMB123_00662	HIMB123	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB123_00663
+HIMB123-00000000012	Prodigal:2.6	CDS	47795	48448	.	-	0	HIMB123_00663	HIMB123	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB123_00663
+HIMB123-00000000012	Prodigal:2.6	CDS	48452	49651	.	-	0	HIMB123_00664	HIMB123	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB123_00663
+HIMB123-00000000012	Prodigal:2.6	CDS	49688	51862	.	+	0	HIMB123_00665	HIMB123	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB123_00663
+HIMB123-00000000012	Prodigal:2.6	CDS	51844	52596	.	+	0	HIMB123_00666	HIMB123	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB123_00663
+HIMB123-00000000012	Prodigal:2.6	CDS	52593	53018	.	+	0	HIMB123_00667	HIMB123	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB123_00663
+HIMB123-00000000012	Prodigal:2.6	CDS	53005	54840	.	+	0	HIMB123_00668	HIMB123	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB123_00663
+HIMB123-00000000024	Prodigal:2.6	CDS	2290	4125	.	-	0	HIMB123_01124	HIMB123	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB123_01129
+HIMB123-00000000024	Prodigal:2.6	CDS	4112	4537	.	-	0	HIMB123_01125	HIMB123	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB123_01129
+HIMB123-00000000024	Prodigal:2.6	CDS	4534	5286	.	-	0	HIMB123_01126	HIMB123	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB123_01129
+HIMB123-00000000024	Prodigal:2.6	CDS	5268	7442	.	-	0	HIMB123_01127	HIMB123	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB123_01129
+HIMB123-00000000024	Prodigal:2.6	CDS	7479	8678	.	+	0	HIMB123_01128	HIMB123	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB123_01129
+HIMB123-00000000024	Prodigal:2.6	CDS	8682	9335	.	+	0	HIMB123_01129	HIMB123	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB123_01129
+HIMB123-00000000024	Prodigal:2.6	CDS	9338	9970	.	-	0	HIMB123_01130	HIMB123	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB123_01129
+HIMB123-00000000024	Prodigal:2.6	CDS	10020	11042	.	-	0	HIMB123_01131	HIMB123	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB123_01129
+HIMB123-00000000024	Prodigal:2.6	CDS	11084	12028	.	-	0	HIMB123_01132	HIMB123	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB123_01129
+HIMB123-00000000024	Prodigal:2.6	CDS	12050	12871	.	+	0	HIMB123_01133	HIMB123	273	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB123_01129
+HIMB123-00000000024	Prodigal:2.6	CDS	12846	12995	.	+	0	HIMB123_01134	HIMB123	49	OG0000315	NA	NA	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB123_01129
+HIMB1444-00000000001	Prodigal:2.6	CDS	239143	239568	.	-	0	HIMB1444_00259	HIMB1444	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1444_00264
+HIMB1444-00000000001	Prodigal:2.6	CDS	239568	239714	.	-	0	HIMB1444_00260	HIMB1444	48	OG0001513	NA	NA	NA	NA	NA	HIMB1444_00264
+HIMB1444-00000000001	Prodigal:2.6	CDS	239711	240466	.	-	0	HIMB1444_00261	HIMB1444	251	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1444_00264
+HIMB1444-00000000001	Prodigal:2.6	CDS	240448	242622	.	-	0	HIMB1444_00262	HIMB1444	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1444_00264
+HIMB1444-00000000001	Prodigal:2.6	CDS	242659	243858	.	+	0	HIMB1444_00263	HIMB1444	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1444_00264
+HIMB1444-00000000001	Prodigal:2.6	CDS	243858	244505	.	+	0	HIMB1444_00264	HIMB1444	215	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1444_00264
+HIMB1444-00000000001	Prodigal:2.6	CDS	244506	245528	.	-	0	HIMB1444_00265	HIMB1444	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1444_00264
+HIMB1444-00000000001	Prodigal:2.6	CDS	245529	246476	.	-	0	HIMB1444_00266	HIMB1444	315	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1444_00264
+HIMB1444-00000000001	Prodigal:2.6	CDS	246498	247442	.	+	0	HIMB1444_00267	HIMB1444	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1444_00264
+HIMB1444-00000000001	Prodigal:2.6	CDS	247442	248107	.	+	0	HIMB1444_00268	HIMB1444	221	OG0000334	NA	NA	NA	NA	NA	HIMB1444_00264
+HIMB1444-00000000001	Prodigal:2.6	CDS	248104	251328	.	-	0	HIMB1444_00269	HIMB1444	1074	OG0000141	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	COG0458	CarB	Carbamoylphosphate synthase large subunit	HIMB1444_00264
+HIMB2304-00000000216	Prodigal:2.6	CDS	852	1796	.	+	0	HIMB2304_00750	HIMB2304	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB2304_00751
+HIMB2304-00000000216	Prodigal:2.6	CDS	1785	2438	.	-	0	HIMB2304_00751	HIMB2304	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB2304_00751
+HIMB2304-00000000216	Prodigal:2.6	CDS	2438	3637	.	-	0	HIMB2304_00752	HIMB2304	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB2304_00751
+HIMB2304-00000000216	Prodigal:2.6	CDS	3674	5848	.	+	0	HIMB2304_00753	HIMB2304	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB2304_00751
+HIMB2304-00000000216	Prodigal:2.6	CDS	5830	6582	.	+	0	HIMB2304_00754	HIMB2304	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2304_00751
+HIMB2304-00000000216	Prodigal:2.6	CDS	6579	7004	.	+	0	HIMB2304_00755	HIMB2304	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB2304_00751
+HIMB2304-00000000216	Prodigal:2.6	CDS	6961	8826	.	+	0	HIMB2304_00756	HIMB2304	621	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB2304_00751
+HIMB1409-00000000006	Prodigal:2.6	CDS	32906	33631	.	+	0	HIMB1409_01097	HIMB1409	241	OG0001158	K07395	putative proteasome-type protease	COG3484	NA	Predicted proteasome-type protease	HIMB1409_01102
+HIMB1409-00000000006	Prodigal:2.6	CDS	33634	34296	.	-	0	HIMB1409_01098	HIMB1409	220	OG0000334	NA	NA	NA	NA	NA	HIMB1409_01102
+HIMB1409-00000000006	Prodigal:2.6	CDS	34296	35240	.	-	0	HIMB1409_01099	HIMB1409	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1409_01102
+HIMB1409-00000000006	Prodigal:2.6	CDS	35262	36209	.	+	0	HIMB1409_01100	HIMB1409	315	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1409_01102
+HIMB1409-00000000006	Prodigal:2.6	CDS	36210	37232	.	+	0	HIMB1409_01101	HIMB1409	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1409_01102
+HIMB1409-00000000006	Prodigal:2.6	CDS	37233	37880	.	-	0	HIMB1409_01102	HIMB1409	215	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1409_01102
+HIMB1409-00000000006	Prodigal:2.6	CDS	37880	39079	.	-	0	HIMB1409_01103	HIMB1409	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1409_01102
+HIMB1409-00000000006	Prodigal:2.6	CDS	39116	41290	.	+	0	HIMB1409_01104	HIMB1409	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1409_01102
+HIMB1409-00000000006	Prodigal:2.6	CDS	41272	42024	.	+	0	HIMB1409_01105	HIMB1409	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1409_01102
+HIMB1409-00000000006	Prodigal:2.6	CDS	42021	42446	.	+	0	HIMB1409_01106	HIMB1409	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1409_01102
+HIMB1409-00000000006	Prodigal:2.6	CDS	42403	44268	.	+	0	HIMB1409_01107	HIMB1409	621	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1409_01102
+HIMB1413-00000000001	Prodigal:2.6	CDS	902866	903528	.	-	0	HIMB1413_00977	HIMB1413	220	OG0000334	NA	NA	NA	NA	NA	HIMB1413_00982
+HIMB1413-00000000001	Prodigal:2.6	CDS	903528	904472	.	-	0	HIMB1413_00978	HIMB1413	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1413_00982
+HIMB1413-00000000001	Prodigal:2.6	CDS	904494	905438	.	+	0	HIMB1413_00979	HIMB1413	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1413_00982
+HIMB1413-00000000001	Prodigal:2.6	CDS	905442	905855	.	+	0	HIMB1413_00980	HIMB1413	137	OG0001689	NA	NA	NA	NA	NA	HIMB1413_00982
+HIMB1413-00000000001	Prodigal:2.6	CDS	905864	906886	.	+	0	HIMB1413_00981	HIMB1413	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1413_00982
+HIMB1413-00000000001	Prodigal:2.6	CDS	906878	907534	.	-	0	HIMB1413_00982	HIMB1413	218	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1413_00982
+HIMB1413-00000000001	Prodigal:2.6	CDS	907534	908733	.	-	0	HIMB1413_00983	HIMB1413	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1413_00982
+HIMB1413-00000000001	Prodigal:2.6	CDS	908770	910944	.	+	0	HIMB1413_00984	HIMB1413	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1413_00982
+HIMB1413-00000000001	Prodigal:2.6	CDS	910926	911678	.	+	0	HIMB1413_00985	HIMB1413	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1413_00982
+HIMB1413-00000000001	Prodigal:2.6	CDS	911675	912100	.	+	0	HIMB1413_00986	HIMB1413	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1413_00982
+HIMB1413-00000000001	Prodigal:2.6	CDS	912087	913922	.	+	0	HIMB1413_00987	HIMB1413	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1413_00982
+HIMB2250-00000000001	Prodigal:2.6	CDS	981718	984942	.	+	0	HIMB2250_01060	HIMB2250	1074	OG0000141	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	COG0458	CarB	Carbamoylphosphate synthase large subunit	HIMB2250_01065
+HIMB2250-00000000001	Prodigal:2.6	CDS	984939	985604	.	-	0	HIMB2250_01061	HIMB2250	221	OG0000334	NA	NA	NA	NA	NA	HIMB2250_01065
+HIMB2250-00000000001	Prodigal:2.6	CDS	985604	986548	.	-	0	HIMB2250_01062	HIMB2250	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB2250_01065
+HIMB2250-00000000001	Prodigal:2.6	CDS	986570	987517	.	+	0	HIMB2250_01063	HIMB2250	315	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB2250_01065
+HIMB2250-00000000001	Prodigal:2.6	CDS	987518	988540	.	+	0	HIMB2250_01064	HIMB2250	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2250_01065
+HIMB2250-00000000001	Prodigal:2.6	CDS	988541	989188	.	-	0	HIMB2250_01065	HIMB2250	215	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB2250_01065
+HIMB2250-00000000001	Prodigal:2.6	CDS	989188	990387	.	-	0	HIMB2250_01066	HIMB2250	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB2250_01065
+HIMB2250-00000000001	Prodigal:2.6	CDS	990424	992598	.	+	0	HIMB2250_01067	HIMB2250	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB2250_01065
+HIMB2250-00000000001	Prodigal:2.6	CDS	992580	993335	.	+	0	HIMB2250_01068	HIMB2250	251	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2250_01065
+HIMB2250-00000000001	Prodigal:2.6	CDS	993332	993478	.	+	0	HIMB2250_01069	HIMB2250	48	OG0001513	NA	NA	NA	NA	NA	HIMB2250_01065
+HIMB2250-00000000001	Prodigal:2.6	CDS	993478	993903	.	+	0	HIMB2250_01070	HIMB2250	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB2250_01065
+CP031125.1	Prodigal:2.6	CDS	788532	790367	.	-	0	FZCC0015_00842	FZCC0015	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	FZCC0015_00847
+CP031125.1	Prodigal:2.6	CDS	790354	790779	.	-	0	FZCC0015_00843	FZCC0015	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	FZCC0015_00847
+CP031125.1	Prodigal:2.6	CDS	790776	791528	.	-	0	FZCC0015_00844	FZCC0015	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	FZCC0015_00847
+CP031125.1	Prodigal:2.6	CDS	791510	793684	.	-	0	FZCC0015_00845	FZCC0015	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	FZCC0015_00847
+CP031125.1	Prodigal:2.6	CDS	793721	794920	.	+	0	FZCC0015_00846	FZCC0015	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	FZCC0015_00847
+CP031125.1	Prodigal:2.6	CDS	794920	795573	.	+	0	FZCC0015_00847	FZCC0015	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	FZCC0015_00847
+CP031125.1	Prodigal:2.6	CDS	795562	796506	.	-	0	FZCC0015_00848	FZCC0015	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	FZCC0015_00847
+CP031125.1	Prodigal:2.6	CDS	796528	797472	.	+	0	FZCC0015_00849	FZCC0015	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	FZCC0015_00847
+CP031125.1	Prodigal:2.6	CDS	797472	798137	.	+	0	FZCC0015_00850	FZCC0015	221	OG0000334	NA	NA	NA	NA	NA	FZCC0015_00847
+CP031125.1	Prodigal:2.6	CDS	798134	801358	.	-	0	FZCC0015_00851	FZCC0015	1074	OG0000141	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	COG0458	CarB	Carbamoylphosphate synthase large subunit	FZCC0015_00847
+CP031125.1	Prodigal:2.6	CDS	801336	802532	.	-	0	FZCC0015_00852	FZCC0015	398	OG0000163	K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]	COG0505	CarA	Carbamoylphosphate synthase small subunit	FZCC0015_00847
+AZAL01000001.1	Prodigal:2.6	CDS	1082337	1084202	.	-	0	HIMB083_01179	HIMB083	621	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB083_01184
+AZAL01000001.1	Prodigal:2.6	CDS	1084159	1084584	.	-	0	HIMB083_01180	HIMB083	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB083_01184
+AZAL01000001.1	Prodigal:2.6	CDS	1084581	1085333	.	-	0	HIMB083_01181	HIMB083	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB083_01184
+AZAL01000001.1	Prodigal:2.6	CDS	1085315	1087489	.	-	0	HIMB083_01182	HIMB083	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB083_01184
+AZAL01000001.1	Prodigal:2.6	CDS	1087526	1088725	.	+	0	HIMB083_01183	HIMB083	399	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB083_01184
+AZAL01000001.1	Prodigal:2.6	CDS	1088725	1089378	.	+	0	HIMB083_01184	HIMB083	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB083_01184
+AZAL01000001.1	Prodigal:2.6	CDS	1089381	1090013	.	-	0	HIMB083_01185	HIMB083	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB083_01184
+AZAL01000001.1	Prodigal:2.6	CDS	1090061	1091083	.	-	0	HIMB083_01186	HIMB083	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB083_01184
+AZAL01000001.1	Prodigal:2.6	CDS	1091125	1092069	.	-	0	HIMB083_01187	HIMB083	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB083_01184
+AZAL01000001.1	Prodigal:2.6	CDS	1092091	1093035	.	+	0	HIMB083_01188	HIMB083	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB083_01184
+AZAL01000001.1	Prodigal:2.6	CDS	1093035	1093700	.	+	0	HIMB083_01189	HIMB083	221	OG0000334	NA	NA	NA	NA	NA	HIMB083_01184
+HIMB1685-00000000001	Prodigal:2.6	CDS	670893	671231	.	+	0	HIMB1685_00730	HIMB1685	112	OG0001388	NA	NA	COG2608	CopZ	Copper chaperone CopZ	HIMB1685_00735
+HIMB1685-00000000001	Prodigal:2.6	CDS	671228	671893	.	-	0	HIMB1685_00731	HIMB1685	221	OG0000334	NA	NA	NA	NA	NA	HIMB1685_00735
+HIMB1685-00000000001	Prodigal:2.6	CDS	671893	672837	.	-	0	HIMB1685_00732	HIMB1685	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1685_00735
+HIMB1685-00000000001	Prodigal:2.6	CDS	672859	673803	.	+	0	HIMB1685_00733	HIMB1685	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1685_00735
+HIMB1685-00000000001	Prodigal:2.6	CDS	673845	674867	.	+	0	HIMB1685_00734	HIMB1685	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1685_00735
+HIMB1685-00000000001	Prodigal:2.6	CDS	674871	675524	.	-	0	HIMB1685_00735	HIMB1685	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1685_00735
+HIMB1685-00000000001	Prodigal:2.6	CDS	675528	676715	.	-	0	HIMB1685_00736	HIMB1685	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1685_00735
+HIMB1685-00000000001	Prodigal:2.6	CDS	676752	678926	.	+	0	HIMB1685_00737	HIMB1685	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1685_00735
+HIMB1685-00000000001	Prodigal:2.6	CDS	678908	679660	.	+	0	HIMB1685_00738	HIMB1685	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1685_00735
+HIMB1685-00000000001	Prodigal:2.6	CDS	679657	680082	.	+	0	HIMB1685_00739	HIMB1685	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1685_00735
+HIMB1685-00000000001	Prodigal:2.6	CDS	680039	681904	.	+	0	HIMB1685_00740	HIMB1685	621	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1685_00735
+HIMB1559-00000000001	Prodigal:2.6	CDS	1285211	1287046	.	-	0	HIMB1559_01413	HIMB1559	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1559_01418
+HIMB1559-00000000001	Prodigal:2.6	CDS	1287033	1287458	.	-	0	HIMB1559_01414	HIMB1559	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1559_01418
+HIMB1559-00000000001	Prodigal:2.6	CDS	1287455	1288207	.	-	0	HIMB1559_01415	HIMB1559	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1559_01418
+HIMB1559-00000000001	Prodigal:2.6	CDS	1288189	1290363	.	-	0	HIMB1559_01416	HIMB1559	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1559_01418
+HIMB1559-00000000001	Prodigal:2.6	CDS	1290400	1291587	.	+	0	HIMB1559_01417	HIMB1559	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1559_01418
+HIMB1559-00000000001	Prodigal:2.6	CDS	1291591	1292244	.	+	0	HIMB1559_01418	HIMB1559	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1559_01418
+HIMB1559-00000000001	Prodigal:2.6	CDS	1292247	1292879	.	-	0	HIMB1559_01419	HIMB1559	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1559_01418
+HIMB1559-00000000001	Prodigal:2.6	CDS	1292994	1293938	.	-	0	HIMB1559_01420	HIMB1559	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1559_01418
+HIMB1559-00000000001	Prodigal:2.6	CDS	1293960	1294898	.	+	0	HIMB1559_01421	HIMB1559	312	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1559_01418
+HIMB1559-00000000001	Prodigal:2.6	CDS	1294904	1295569	.	+	0	HIMB1559_01422	HIMB1559	221	OG0000334	NA	NA	NA	NA	NA	HIMB1559_01418
+HIMB1559-00000000001	Prodigal:2.6	CDS	1295566	1295904	.	-	0	HIMB1559_01423	HIMB1559	112	OG0001388	NA	NA	COG2608	CopZ	Copper chaperone CopZ	HIMB1559_01418
+HIMB1597-00000000001	Prodigal:2.6	CDS	515518	515856	.	+	0	HIMB1597_00530	HIMB1597	112	OG0001388	NA	NA	COG2608	CopZ	Copper chaperone CopZ	HIMB1597_00535
+HIMB1597-00000000001	Prodigal:2.6	CDS	515853	516518	.	-	0	HIMB1597_00531	HIMB1597	221	OG0000334	NA	NA	NA	NA	NA	HIMB1597_00535
+HIMB1597-00000000001	Prodigal:2.6	CDS	516524	517462	.	-	0	HIMB1597_00532	HIMB1597	312	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1597_00535
+HIMB1597-00000000001	Prodigal:2.6	CDS	517484	518428	.	+	0	HIMB1597_00533	HIMB1597	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1597_00535
+HIMB1597-00000000001	Prodigal:2.6	CDS	518543	519175	.	+	0	HIMB1597_00534	HIMB1597	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1597_00535
+HIMB1597-00000000001	Prodigal:2.6	CDS	519178	519831	.	-	0	HIMB1597_00535	HIMB1597	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1597_00535
+HIMB1597-00000000001	Prodigal:2.6	CDS	519835	521022	.	-	0	HIMB1597_00536	HIMB1597	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1597_00535
+HIMB1597-00000000001	Prodigal:2.6	CDS	521059	523233	.	+	0	HIMB1597_00537	HIMB1597	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1597_00535
+HIMB1597-00000000001	Prodigal:2.6	CDS	523215	523967	.	+	0	HIMB1597_00538	HIMB1597	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1597_00535
+HIMB1597-00000000001	Prodigal:2.6	CDS	523964	524389	.	+	0	HIMB1597_00539	HIMB1597	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1597_00535
+HIMB1597-00000000001	Prodigal:2.6	CDS	524376	526211	.	+	0	HIMB1597_00540	HIMB1597	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1597_00535
+HIMB1587-00000000002	Prodigal:2.6	CDS	468212	470047	.	-	0	HIMB1587_01406	HIMB1587	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1587_01411
+HIMB1587-00000000002	Prodigal:2.6	CDS	470034	470459	.	-	0	HIMB1587_01407	HIMB1587	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1587_01411
+HIMB1587-00000000002	Prodigal:2.6	CDS	470456	471208	.	-	0	HIMB1587_01408	HIMB1587	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1587_01411
+HIMB1587-00000000002	Prodigal:2.6	CDS	471190	473364	.	-	0	HIMB1587_01409	HIMB1587	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1587_01411
+HIMB1587-00000000002	Prodigal:2.6	CDS	473401	474588	.	+	0	HIMB1587_01410	HIMB1587	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1587_01411
+HIMB1587-00000000002	Prodigal:2.6	CDS	474592	475245	.	+	0	HIMB1587_01411	HIMB1587	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1587_01411
+HIMB1587-00000000002	Prodigal:2.6	CDS	475248	475880	.	-	0	HIMB1587_01412	HIMB1587	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1587_01411
+HIMB1587-00000000002	Prodigal:2.6	CDS	475995	476939	.	-	0	HIMB1587_01413	HIMB1587	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1587_01411
+HIMB1587-00000000002	Prodigal:2.6	CDS	476961	477899	.	+	0	HIMB1587_01414	HIMB1587	312	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1587_01411
+HIMB1587-00000000002	Prodigal:2.6	CDS	477905	478570	.	+	0	HIMB1587_01415	HIMB1587	221	OG0000334	NA	NA	NA	NA	NA	HIMB1587_01411
+HIMB1587-00000000002	Prodigal:2.6	CDS	478567	478905	.	-	0	HIMB1587_01416	HIMB1587	112	OG0001388	NA	NA	COG2608	CopZ	Copper chaperone CopZ	HIMB1587_01411
+HIMB1573-00000000001	Prodigal:2.6	CDS	168417	168755	.	+	0	HIMB1573_00168	HIMB1573	112	OG0001388	NA	NA	COG2608	CopZ	Copper chaperone CopZ	HIMB1573_00173
+HIMB1573-00000000001	Prodigal:2.6	CDS	168752	169417	.	-	0	HIMB1573_00169	HIMB1573	221	OG0000334	NA	NA	NA	NA	NA	HIMB1573_00173
+HIMB1573-00000000001	Prodigal:2.6	CDS	169417	170361	.	-	0	HIMB1573_00170	HIMB1573	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1573_00173
+HIMB1573-00000000001	Prodigal:2.6	CDS	170383	171327	.	+	0	HIMB1573_00171	HIMB1573	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1573_00173
+HIMB1573-00000000001	Prodigal:2.6	CDS	171369	172391	.	+	0	HIMB1573_00172	HIMB1573	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1573_00173
+HIMB1573-00000000001	Prodigal:2.6	CDS	172395	173048	.	-	0	HIMB1573_00173	HIMB1573	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1573_00173
+HIMB1573-00000000001	Prodigal:2.6	CDS	173052	174239	.	-	0	HIMB1573_00174	HIMB1573	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1573_00173
+HIMB1573-00000000001	Prodigal:2.6	CDS	174276	176450	.	+	0	HIMB1573_00175	HIMB1573	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1573_00173
+HIMB1573-00000000001	Prodigal:2.6	CDS	176432	177184	.	+	0	HIMB1573_00176	HIMB1573	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1573_00173
+HIMB1573-00000000001	Prodigal:2.6	CDS	177181	177606	.	+	0	HIMB1573_00177	HIMB1573	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1573_00173
+HIMB1573-00000000001	Prodigal:2.6	CDS	177593	179428	.	+	0	HIMB1573_00178	HIMB1573	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1573_00173
+HIMB1490-00000000005	Prodigal:2.6	CDS	33019	34854	.	-	0	HIMB1490_00410	HIMB1490	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1490_00415
+HIMB1490-00000000005	Prodigal:2.6	CDS	34841	35266	.	-	0	HIMB1490_00411	HIMB1490	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1490_00415
+HIMB1490-00000000005	Prodigal:2.6	CDS	35263	36015	.	-	0	HIMB1490_00412	HIMB1490	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1490_00415
+HIMB1490-00000000005	Prodigal:2.6	CDS	35997	38171	.	-	0	HIMB1490_00413	HIMB1490	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1490_00415
+HIMB1490-00000000005	Prodigal:2.6	CDS	38208	39395	.	+	0	HIMB1490_00414	HIMB1490	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1490_00415
+HIMB1490-00000000005	Prodigal:2.6	CDS	39399	40052	.	+	0	HIMB1490_00415	HIMB1490	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1490_00415
+HIMB1490-00000000005	Prodigal:2.6	CDS	40055	40687	.	-	0	HIMB1490_00416	HIMB1490	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1490_00415
+HIMB1490-00000000005	Prodigal:2.6	CDS	40737	41759	.	-	0	HIMB1490_00417	HIMB1490	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1490_00415
+HIMB1490-00000000005	Prodigal:2.6	CDS	41801	42745	.	-	0	HIMB1490_00418	HIMB1490	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1490_00415
+HIMB1490-00000000005	Prodigal:2.6	CDS	42767	43711	.	+	0	HIMB1490_00419	HIMB1490	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1490_00415
+HIMB1490-00000000005	Prodigal:2.6	CDS	43711	44376	.	+	0	HIMB1490_00420	HIMB1490	221	OG0000334	NA	NA	NA	NA	NA	HIMB1490_00415
+HIMB1491-00000000001	Prodigal:2.6	CDS	195681	196346	.	-	0	HIMB1491_00179	HIMB1491	221	OG0000334	NA	NA	NA	NA	NA	HIMB1491_00184
+HIMB1491-00000000001	Prodigal:2.6	CDS	196346	197290	.	-	0	HIMB1491_00180	HIMB1491	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1491_00184
+HIMB1491-00000000001	Prodigal:2.6	CDS	197312	198256	.	+	0	HIMB1491_00181	HIMB1491	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1491_00184
+HIMB1491-00000000001	Prodigal:2.6	CDS	198298	199320	.	+	0	HIMB1491_00182	HIMB1491	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1491_00184
+HIMB1491-00000000001	Prodigal:2.6	CDS	199370	200002	.	+	0	HIMB1491_00183	HIMB1491	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1491_00184
+HIMB1491-00000000001	Prodigal:2.6	CDS	200005	200658	.	-	0	HIMB1491_00184	HIMB1491	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1491_00184
+HIMB1491-00000000001	Prodigal:2.6	CDS	200662	201849	.	-	0	HIMB1491_00185	HIMB1491	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1491_00184
+HIMB1491-00000000001	Prodigal:2.6	CDS	201886	204060	.	+	0	HIMB1491_00186	HIMB1491	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1491_00184
+HIMB1491-00000000001	Prodigal:2.6	CDS	204042	204794	.	+	0	HIMB1491_00187	HIMB1491	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1491_00184
+HIMB1491-00000000001	Prodigal:2.6	CDS	204791	205216	.	+	0	HIMB1491_00188	HIMB1491	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1491_00184
+HIMB1491-00000000001	Prodigal:2.6	CDS	205203	207038	.	+	0	HIMB1491_00189	HIMB1491	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1491_00184
+HIMB1765-00000000001	Prodigal:2.6	CDS	1216667	1218502	.	-	0	HIMB1765_01328	HIMB1765	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1765_01333
+HIMB1765-00000000001	Prodigal:2.6	CDS	1218489	1218914	.	-	0	HIMB1765_01329	HIMB1765	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1765_01333
+HIMB1765-00000000001	Prodigal:2.6	CDS	1218911	1219663	.	-	0	HIMB1765_01330	HIMB1765	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1765_01333
+HIMB1765-00000000001	Prodigal:2.6	CDS	1219645	1221819	.	-	0	HIMB1765_01331	HIMB1765	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1765_01333
+HIMB1765-00000000001	Prodigal:2.6	CDS	1221856	1223043	.	+	0	HIMB1765_01332	HIMB1765	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1765_01333
+HIMB1765-00000000001	Prodigal:2.6	CDS	1223047	1223700	.	+	0	HIMB1765_01333	HIMB1765	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1765_01333
+HIMB1765-00000000001	Prodigal:2.6	CDS	1223703	1224335	.	-	0	HIMB1765_01334	HIMB1765	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1765_01333
+HIMB1765-00000000001	Prodigal:2.6	CDS	1224385	1225407	.	-	0	HIMB1765_01335	HIMB1765	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1765_01333
+HIMB1765-00000000001	Prodigal:2.6	CDS	1225449	1226393	.	-	0	HIMB1765_01336	HIMB1765	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1765_01333
+HIMB1765-00000000001	Prodigal:2.6	CDS	1226415	1227359	.	+	0	HIMB1765_01337	HIMB1765	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1765_01333
+HIMB1765-00000000001	Prodigal:2.6	CDS	1227359	1228024	.	+	0	HIMB1765_01338	HIMB1765	221	OG0000334	NA	NA	NA	NA	NA	HIMB1765_01333
+HIMB1494-00000000001	Prodigal:2.6	CDS	470566	472401	.	-	0	HIMB1494_00509	HIMB1494	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1494_00514
+HIMB1494-00000000001	Prodigal:2.6	CDS	472388	472813	.	-	0	HIMB1494_00510	HIMB1494	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1494_00514
+HIMB1494-00000000001	Prodigal:2.6	CDS	472810	473562	.	-	0	HIMB1494_00511	HIMB1494	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1494_00514
+HIMB1494-00000000001	Prodigal:2.6	CDS	473544	475718	.	-	0	HIMB1494_00512	HIMB1494	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1494_00514
+HIMB1494-00000000001	Prodigal:2.6	CDS	475755	476942	.	+	0	HIMB1494_00513	HIMB1494	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1494_00514
+HIMB1494-00000000001	Prodigal:2.6	CDS	476946	477599	.	+	0	HIMB1494_00514	HIMB1494	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1494_00514
+HIMB1494-00000000001	Prodigal:2.6	CDS	477602	478234	.	-	0	HIMB1494_00515	HIMB1494	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1494_00514
+HIMB1494-00000000001	Prodigal:2.6	CDS	478284	479306	.	-	0	HIMB1494_00516	HIMB1494	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1494_00514
+HIMB1494-00000000001	Prodigal:2.6	CDS	479348	480292	.	-	0	HIMB1494_00517	HIMB1494	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1494_00514
+HIMB1494-00000000001	Prodigal:2.6	CDS	480314	481258	.	+	0	HIMB1494_00518	HIMB1494	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1494_00514
+HIMB1494-00000000001	Prodigal:2.6	CDS	481258	481923	.	+	0	HIMB1494_00519	HIMB1494	221	OG0000334	NA	NA	NA	NA	NA	HIMB1494_00514
+HIMB1495-00000000001	Prodigal:2.6	CDS	447271	449106	.	-	0	HIMB1495_00487	HIMB1495	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1495_00492
+HIMB1495-00000000001	Prodigal:2.6	CDS	449093	449518	.	-	0	HIMB1495_00488	HIMB1495	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1495_00492
+HIMB1495-00000000001	Prodigal:2.6	CDS	449515	450267	.	-	0	HIMB1495_00489	HIMB1495	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1495_00492
+HIMB1495-00000000001	Prodigal:2.6	CDS	450249	452423	.	-	0	HIMB1495_00490	HIMB1495	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1495_00492
+HIMB1495-00000000001	Prodigal:2.6	CDS	452460	453647	.	+	0	HIMB1495_00491	HIMB1495	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1495_00492
+HIMB1495-00000000001	Prodigal:2.6	CDS	453651	454304	.	+	0	HIMB1495_00492	HIMB1495	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1495_00492
+HIMB1495-00000000001	Prodigal:2.6	CDS	454307	454939	.	-	0	HIMB1495_00493	HIMB1495	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1495_00492
+HIMB1495-00000000001	Prodigal:2.6	CDS	454989	456011	.	-	0	HIMB1495_00494	HIMB1495	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1495_00492
+HIMB1495-00000000001	Prodigal:2.6	CDS	456053	456997	.	-	0	HIMB1495_00495	HIMB1495	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1495_00492
+HIMB1495-00000000001	Prodigal:2.6	CDS	457019	457963	.	+	0	HIMB1495_00496	HIMB1495	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1495_00492
+HIMB1495-00000000001	Prodigal:2.6	CDS	457963	458628	.	+	0	HIMB1495_00497	HIMB1495	221	OG0000334	NA	NA	NA	NA	NA	HIMB1495_00492
+HIMB1593-00000000001	Prodigal:2.6	CDS	458124	459959	.	-	0	HIMB1593_00496	HIMB1593	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1593_00501
+HIMB1593-00000000001	Prodigal:2.6	CDS	459946	460371	.	-	0	HIMB1593_00497	HIMB1593	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1593_00501
+HIMB1593-00000000001	Prodigal:2.6	CDS	460368	461120	.	-	0	HIMB1593_00498	HIMB1593	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1593_00501
+HIMB1593-00000000001	Prodigal:2.6	CDS	461102	463276	.	-	0	HIMB1593_00499	HIMB1593	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1593_00501
+HIMB1593-00000000001	Prodigal:2.6	CDS	463313	464500	.	+	0	HIMB1593_00500	HIMB1593	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1593_00501
+HIMB1593-00000000001	Prodigal:2.6	CDS	464504	465157	.	+	0	HIMB1593_00501	HIMB1593	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1593_00501
+HIMB1593-00000000001	Prodigal:2.6	CDS	465160	465792	.	-	0	HIMB1593_00502	HIMB1593	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1593_00501
+HIMB1593-00000000001	Prodigal:2.6	CDS	465842	466864	.	-	0	HIMB1593_00503	HIMB1593	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1593_00501
+HIMB1593-00000000001	Prodigal:2.6	CDS	466906	467850	.	-	0	HIMB1593_00504	HIMB1593	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1593_00501
+HIMB1593-00000000001	Prodigal:2.6	CDS	467872	468816	.	+	0	HIMB1593_00505	HIMB1593	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1593_00501
+HIMB1593-00000000001	Prodigal:2.6	CDS	468816	469481	.	+	0	HIMB1593_00506	HIMB1593	221	OG0000334	NA	NA	NA	NA	NA	HIMB1593_00501
+HIMB1509-00000000001	Prodigal:2.6	CDS	454376	456211	.	-	0	HIMB1509_00482	HIMB1509	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1509_00487
+HIMB1509-00000000001	Prodigal:2.6	CDS	456198	456623	.	-	0	HIMB1509_00483	HIMB1509	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1509_00487
+HIMB1509-00000000001	Prodigal:2.6	CDS	456620	457372	.	-	0	HIMB1509_00484	HIMB1509	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1509_00487
+HIMB1509-00000000001	Prodigal:2.6	CDS	457354	459528	.	-	0	HIMB1509_00485	HIMB1509	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1509_00487
+HIMB1509-00000000001	Prodigal:2.6	CDS	459565	460752	.	+	0	HIMB1509_00486	HIMB1509	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1509_00487
+HIMB1509-00000000001	Prodigal:2.6	CDS	460756	461409	.	+	0	HIMB1509_00487	HIMB1509	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1509_00487
+HIMB1509-00000000001	Prodigal:2.6	CDS	461413	462435	.	-	0	HIMB1509_00488	HIMB1509	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1509_00487
+HIMB1509-00000000001	Prodigal:2.6	CDS	462477	463421	.	-	0	HIMB1509_00489	HIMB1509	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1509_00487
+HIMB1509-00000000001	Prodigal:2.6	CDS	463443	464387	.	+	0	HIMB1509_00490	HIMB1509	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1509_00487
+HIMB1509-00000000001	Prodigal:2.6	CDS	464387	465052	.	+	0	HIMB1509_00491	HIMB1509	221	OG0000334	NA	NA	NA	NA	NA	HIMB1509_00487
+HIMB1509-00000000001	Prodigal:2.6	CDS	465049	465348	.	-	0	HIMB1509_00492	HIMB1509	99	OG0001388	NA	NA	COG2608	CopZ	Copper chaperone CopZ	HIMB1509_00487
+HIMB1485-00000000002	Prodigal:2.6	CDS	459441	459866	.	-	0	HIMB1485_00988	HIMB1485	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1485_00993
+HIMB1485-00000000002	Prodigal:2.6	CDS	459867	460823	.	-	0	HIMB1485_00989	HIMB1485	318	OG0001216	NA	NA	COG1506	DAP2	Dipeptidyl aminopeptidase/acylaminoacyl peptidase	HIMB1485_00993
+HIMB1485-00000000002	Prodigal:2.6	CDS	460820	461572	.	-	0	HIMB1485_00990	HIMB1485	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1485_00993
+HIMB1485-00000000002	Prodigal:2.6	CDS	461554	463728	.	-	0	HIMB1485_00991	HIMB1485	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1485_00993
+HIMB1485-00000000002	Prodigal:2.6	CDS	463765	464952	.	+	0	HIMB1485_00992	HIMB1485	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1485_00993
+HIMB1485-00000000002	Prodigal:2.6	CDS	464956	465609	.	+	0	HIMB1485_00993	HIMB1485	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1485_00993
+HIMB1485-00000000002	Prodigal:2.6	CDS	465612	466244	.	-	0	HIMB1485_00994	HIMB1485	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1485_00993
+HIMB1485-00000000002	Prodigal:2.6	CDS	466294	467316	.	-	0	HIMB1485_00995	HIMB1485	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1485_00993
+HIMB1485-00000000002	Prodigal:2.6	CDS	467358	468302	.	-	0	HIMB1485_00996	HIMB1485	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1485_00993
+HIMB1485-00000000002	Prodigal:2.6	CDS	468324	469268	.	+	0	HIMB1485_00997	HIMB1485	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1485_00993
+HIMB1485-00000000002	Prodigal:2.6	CDS	469268	469933	.	+	0	HIMB1485_00998	HIMB1485	221	OG0000334	NA	NA	NA	NA	NA	HIMB1485_00993
+HIMB1492-00000000057	Prodigal:2.6	CDS	1581	2768	.	+	0	HIMB1492_00734	HIMB1492	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1492_00735
+HIMB1492-00000000057	Prodigal:2.6	CDS	2772	3425	.	+	0	HIMB1492_00735	HIMB1492	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1492_00735
+HIMB1492-00000000057	Prodigal:2.6	CDS	3428	4060	.	-	0	HIMB1492_00736	HIMB1492	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1492_00735
+HIMB1492-00000000057	Prodigal:2.6	CDS	4110	5132	.	-	0	HIMB1492_00737	HIMB1492	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1492_00735
+HIMB1492-00000000057	Prodigal:2.6	CDS	5173	6117	.	-	0	HIMB1492_00738	HIMB1492	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1492_00735
+HIMB1493-00000000001	Prodigal:2.6	CDS	956682	957347	.	-	0	HIMB1493_01010	HIMB1493	221	OG0000334	NA	NA	NA	NA	NA	HIMB1493_01015
+HIMB1493-00000000001	Prodigal:2.6	CDS	957347	958291	.	-	0	HIMB1493_01011	HIMB1493	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1493_01015
+HIMB1493-00000000001	Prodigal:2.6	CDS	958313	959257	.	+	0	HIMB1493_01012	HIMB1493	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1493_01015
+HIMB1493-00000000001	Prodigal:2.6	CDS	959298	960320	.	+	0	HIMB1493_01013	HIMB1493	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1493_01015
+HIMB1493-00000000001	Prodigal:2.6	CDS	960370	961002	.	+	0	HIMB1493_01014	HIMB1493	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1493_01015
+HIMB1493-00000000001	Prodigal:2.6	CDS	961005	961658	.	-	0	HIMB1493_01015	HIMB1493	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1493_01015
+HIMB1493-00000000001	Prodigal:2.6	CDS	961662	962849	.	-	0	HIMB1493_01016	HIMB1493	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1493_01015
+HIMB1493-00000000001	Prodigal:2.6	CDS	962886	965060	.	+	0	HIMB1493_01017	HIMB1493	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1493_01015
+HIMB1493-00000000001	Prodigal:2.6	CDS	965042	965794	.	+	0	HIMB1493_01018	HIMB1493	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1493_01015
+HIMB1493-00000000001	Prodigal:2.6	CDS	965791	966216	.	+	0	HIMB1493_01019	HIMB1493	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1493_01015
+HIMB1493-00000000001	Prodigal:2.6	CDS	966203	968038	.	+	0	HIMB1493_01020	HIMB1493	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1493_01015
+HIMB1518-00000000001	Prodigal:2.6	CDS	1112135	1112800	.	-	0	HIMB1518_01165	HIMB1518	221	OG0000334	NA	NA	NA	NA	NA	HIMB1518_01170
+HIMB1518-00000000001	Prodigal:2.6	CDS	1112800	1113744	.	-	0	HIMB1518_01166	HIMB1518	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1518_01170
+HIMB1518-00000000001	Prodigal:2.6	CDS	1113766	1114710	.	+	0	HIMB1518_01167	HIMB1518	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1518_01170
+HIMB1518-00000000001	Prodigal:2.6	CDS	1114751	1115773	.	+	0	HIMB1518_01168	HIMB1518	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1518_01170
+HIMB1518-00000000001	Prodigal:2.6	CDS	1115823	1116455	.	+	0	HIMB1518_01169	HIMB1518	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1518_01170
+HIMB1518-00000000001	Prodigal:2.6	CDS	1116458	1117111	.	-	0	HIMB1518_01170	HIMB1518	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1518_01170
+HIMB1518-00000000001	Prodigal:2.6	CDS	1117115	1118302	.	-	0	HIMB1518_01171	HIMB1518	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1518_01170
+HIMB1518-00000000001	Prodigal:2.6	CDS	1118339	1120513	.	+	0	HIMB1518_01172	HIMB1518	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1518_01170
+HIMB1518-00000000001	Prodigal:2.6	CDS	1120495	1121247	.	+	0	HIMB1518_01173	HIMB1518	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1518_01170
+HIMB1518-00000000001	Prodigal:2.6	CDS	1121244	1121669	.	+	0	HIMB1518_01174	HIMB1518	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1518_01170
+HIMB1518-00000000001	Prodigal:2.6	CDS	1121656	1123491	.	+	0	HIMB1518_01175	HIMB1518	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1518_01170
+HIMB1770-00000000001	Prodigal:2.6	CDS	590410	591075	.	-	0	HIMB1770_00632	HIMB1770	221	OG0000334	NA	NA	NA	NA	NA	HIMB1770_00637
+HIMB1770-00000000001	Prodigal:2.6	CDS	591075	592019	.	-	0	HIMB1770_00633	HIMB1770	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1770_00637
+HIMB1770-00000000001	Prodigal:2.6	CDS	592041	592985	.	+	0	HIMB1770_00634	HIMB1770	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1770_00637
+HIMB1770-00000000001	Prodigal:2.6	CDS	593026	594048	.	+	0	HIMB1770_00635	HIMB1770	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1770_00637
+HIMB1770-00000000001	Prodigal:2.6	CDS	594098	594730	.	+	0	HIMB1770_00636	HIMB1770	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1770_00637
+HIMB1770-00000000001	Prodigal:2.6	CDS	594733	595386	.	-	0	HIMB1770_00637	HIMB1770	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1770_00637
+HIMB1770-00000000001	Prodigal:2.6	CDS	595390	596577	.	-	0	HIMB1770_00638	HIMB1770	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1770_00637
+HIMB1770-00000000001	Prodigal:2.6	CDS	596614	598788	.	+	0	HIMB1770_00639	HIMB1770	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1770_00637
+HIMB1770-00000000001	Prodigal:2.6	CDS	598770	599522	.	+	0	HIMB1770_00640	HIMB1770	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1770_00637
+HIMB1770-00000000001	Prodigal:2.6	CDS	599519	599944	.	+	0	HIMB1770_00641	HIMB1770	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1770_00637
+HIMB1770-00000000001	Prodigal:2.6	CDS	599931	601766	.	+	0	HIMB1770_00642	HIMB1770	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1770_00637
+HIMB1507-00000000001	Prodigal:2.6	CDS	215496	216161	.	-	0	HIMB1507_00197	HIMB1507	221	OG0000334	NA	NA	NA	NA	NA	HIMB1507_00202
+HIMB1507-00000000001	Prodigal:2.6	CDS	216161	217105	.	-	0	HIMB1507_00198	HIMB1507	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1507_00202
+HIMB1507-00000000001	Prodigal:2.6	CDS	217127	218071	.	+	0	HIMB1507_00199	HIMB1507	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1507_00202
+HIMB1507-00000000001	Prodigal:2.6	CDS	218113	219135	.	+	0	HIMB1507_00200	HIMB1507	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1507_00202
+HIMB1507-00000000001	Prodigal:2.6	CDS	219185	219817	.	+	0	HIMB1507_00201	HIMB1507	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1507_00202
+HIMB1507-00000000001	Prodigal:2.6	CDS	219820	220473	.	-	0	HIMB1507_00202	HIMB1507	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1507_00202
+HIMB1507-00000000001	Prodigal:2.6	CDS	220477	221664	.	-	0	HIMB1507_00203	HIMB1507	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1507_00202
+HIMB1507-00000000001	Prodigal:2.6	CDS	221701	223875	.	+	0	HIMB1507_00204	HIMB1507	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1507_00202
+HIMB1507-00000000001	Prodigal:2.6	CDS	223857	224609	.	+	0	HIMB1507_00205	HIMB1507	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1507_00202
+HIMB1507-00000000001	Prodigal:2.6	CDS	224606	225031	.	+	0	HIMB1507_00206	HIMB1507	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1507_00202
+HIMB1507-00000000001	Prodigal:2.6	CDS	225018	226853	.	+	0	HIMB1507_00207	HIMB1507	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1507_00202
+HIMB1526-00000000001	Prodigal:2.6	CDS	315793	317628	.	-	0	HIMB1526_00349	HIMB1526	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1526_00354
+HIMB1526-00000000001	Prodigal:2.6	CDS	317615	318040	.	-	0	HIMB1526_00350	HIMB1526	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1526_00354
+HIMB1526-00000000001	Prodigal:2.6	CDS	318037	318789	.	-	0	HIMB1526_00351	HIMB1526	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1526_00354
+HIMB1526-00000000001	Prodigal:2.6	CDS	318771	320945	.	-	0	HIMB1526_00352	HIMB1526	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1526_00354
+HIMB1526-00000000001	Prodigal:2.6	CDS	320982	322169	.	+	0	HIMB1526_00353	HIMB1526	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1526_00354
+HIMB1526-00000000001	Prodigal:2.6	CDS	322173	322826	.	+	0	HIMB1526_00354	HIMB1526	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1526_00354
+HIMB1526-00000000001	Prodigal:2.6	CDS	322829	323461	.	-	0	HIMB1526_00355	HIMB1526	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1526_00354
+HIMB1526-00000000001	Prodigal:2.6	CDS	323511	324533	.	-	0	HIMB1526_00356	HIMB1526	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1526_00354
+HIMB1526-00000000001	Prodigal:2.6	CDS	324575	325519	.	-	0	HIMB1526_00357	HIMB1526	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1526_00354
+HIMB1526-00000000001	Prodigal:2.6	CDS	325541	326485	.	+	0	HIMB1526_00358	HIMB1526	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1526_00354
+HIMB1526-00000000001	Prodigal:2.6	CDS	326485	327150	.	+	0	HIMB1526_00359	HIMB1526	221	OG0000334	NA	NA	NA	NA	NA	HIMB1526_00354
+HIMB1552-00000000001	Prodigal:2.6	CDS	1295507	1297342	.	-	0	HIMB1552_01401	HIMB1552	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1552_01406
+HIMB1552-00000000001	Prodigal:2.6	CDS	1297329	1297754	.	-	0	HIMB1552_01402	HIMB1552	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1552_01406
+HIMB1552-00000000001	Prodigal:2.6	CDS	1297751	1298503	.	-	0	HIMB1552_01403	HIMB1552	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1552_01406
+HIMB1552-00000000001	Prodigal:2.6	CDS	1298485	1300659	.	-	0	HIMB1552_01404	HIMB1552	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1552_01406
+HIMB1552-00000000001	Prodigal:2.6	CDS	1300696	1301883	.	+	0	HIMB1552_01405	HIMB1552	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1552_01406
+HIMB1552-00000000001	Prodigal:2.6	CDS	1301887	1302540	.	+	0	HIMB1552_01406	HIMB1552	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1552_01406
+HIMB1552-00000000001	Prodigal:2.6	CDS	1302543	1303175	.	-	0	HIMB1552_01407	HIMB1552	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1552_01406
+HIMB1552-00000000001	Prodigal:2.6	CDS	1303225	1304247	.	-	0	HIMB1552_01408	HIMB1552	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1552_01406
+HIMB1552-00000000001	Prodigal:2.6	CDS	1304289	1305233	.	-	0	HIMB1552_01409	HIMB1552	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1552_01406
+HIMB1552-00000000001	Prodigal:2.6	CDS	1305255	1306199	.	+	0	HIMB1552_01410	HIMB1552	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1552_01406
+HIMB1552-00000000001	Prodigal:2.6	CDS	1306199	1306864	.	+	0	HIMB1552_01411	HIMB1552	221	OG0000334	NA	NA	NA	NA	NA	HIMB1552_01406
+HIMB1641-00000000001	Prodigal:2.6	CDS	122279	122944	.	-	0	HIMB1641_00104	HIMB1641	221	OG0000334	NA	NA	NA	NA	NA	HIMB1641_00109
+HIMB1641-00000000001	Prodigal:2.6	CDS	122944	123888	.	-	0	HIMB1641_00105	HIMB1641	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1641_00109
+HIMB1641-00000000001	Prodigal:2.6	CDS	123910	124854	.	+	0	HIMB1641_00106	HIMB1641	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1641_00109
+HIMB1641-00000000001	Prodigal:2.6	CDS	124896	125918	.	+	0	HIMB1641_00107	HIMB1641	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1641_00109
+HIMB1641-00000000001	Prodigal:2.6	CDS	125968	126600	.	+	0	HIMB1641_00108	HIMB1641	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1641_00109
+HIMB1641-00000000001	Prodigal:2.6	CDS	126603	127256	.	-	0	HIMB1641_00109	HIMB1641	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1641_00109
+HIMB1641-00000000001	Prodigal:2.6	CDS	127260	128447	.	-	0	HIMB1641_00110	HIMB1641	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1641_00109
+HIMB1641-00000000001	Prodigal:2.6	CDS	128484	130658	.	+	0	HIMB1641_00111	HIMB1641	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1641_00109
+HIMB1641-00000000001	Prodigal:2.6	CDS	130640	131392	.	+	0	HIMB1641_00112	HIMB1641	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1641_00109
+HIMB1641-00000000001	Prodigal:2.6	CDS	131389	131814	.	+	0	HIMB1641_00113	HIMB1641	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1641_00109
+HIMB1641-00000000001	Prodigal:2.6	CDS	131801	133636	.	+	0	HIMB1641_00114	HIMB1641	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1641_00109
+HIMB1636-00000000001	Prodigal:2.6	CDS	967560	968225	.	-	0	HIMB1636_01000	HIMB1636	221	OG0000334	NA	NA	NA	NA	NA	HIMB1636_01005
+HIMB1636-00000000001	Prodigal:2.6	CDS	968225	969169	.	-	0	HIMB1636_01001	HIMB1636	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1636_01005
+HIMB1636-00000000001	Prodigal:2.6	CDS	969191	970135	.	+	0	HIMB1636_01002	HIMB1636	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1636_01005
+HIMB1636-00000000001	Prodigal:2.6	CDS	970177	971199	.	+	0	HIMB1636_01003	HIMB1636	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1636_01005
+HIMB1636-00000000001	Prodigal:2.6	CDS	971249	971881	.	+	0	HIMB1636_01004	HIMB1636	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1636_01005
+HIMB1636-00000000001	Prodigal:2.6	CDS	971884	972537	.	-	0	HIMB1636_01005	HIMB1636	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1636_01005
+HIMB1636-00000000001	Prodigal:2.6	CDS	972541	973728	.	-	0	HIMB1636_01006	HIMB1636	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1636_01005
+HIMB1636-00000000001	Prodigal:2.6	CDS	973765	975939	.	+	0	HIMB1636_01007	HIMB1636	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1636_01005
+HIMB1636-00000000001	Prodigal:2.6	CDS	975921	976673	.	+	0	HIMB1636_01008	HIMB1636	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1636_01005
+HIMB1636-00000000001	Prodigal:2.6	CDS	976670	977095	.	+	0	HIMB1636_01009	HIMB1636	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1636_01005
+HIMB1636-00000000001	Prodigal:2.6	CDS	977082	978917	.	+	0	HIMB1636_01010	HIMB1636	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1636_01005
+HIMB1702-00000000001	Prodigal:2.6	CDS	457259	459094	.	-	0	HIMB1702_00495	HIMB1702	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1702_00500
+HIMB1702-00000000001	Prodigal:2.6	CDS	459081	459506	.	-	0	HIMB1702_00496	HIMB1702	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1702_00500
+HIMB1702-00000000001	Prodigal:2.6	CDS	459503	460255	.	-	0	HIMB1702_00497	HIMB1702	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1702_00500
+HIMB1702-00000000001	Prodigal:2.6	CDS	460237	462411	.	-	0	HIMB1702_00498	HIMB1702	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1702_00500
+HIMB1702-00000000001	Prodigal:2.6	CDS	462448	463635	.	+	0	HIMB1702_00499	HIMB1702	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1702_00500
+HIMB1702-00000000001	Prodigal:2.6	CDS	463639	464292	.	+	0	HIMB1702_00500	HIMB1702	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1702_00500
+HIMB1702-00000000001	Prodigal:2.6	CDS	464295	464927	.	-	0	HIMB1702_00501	HIMB1702	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1702_00500
+HIMB1702-00000000001	Prodigal:2.6	CDS	464977	465999	.	-	0	HIMB1702_00502	HIMB1702	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1702_00500
+HIMB1702-00000000001	Prodigal:2.6	CDS	466041	466985	.	-	0	HIMB1702_00503	HIMB1702	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1702_00500
+HIMB1702-00000000001	Prodigal:2.6	CDS	467007	467951	.	+	0	HIMB1702_00504	HIMB1702	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1702_00500
+HIMB1702-00000000001	Prodigal:2.6	CDS	467951	468616	.	+	0	HIMB1702_00505	HIMB1702	221	OG0000334	NA	NA	NA	NA	NA	HIMB1702_00500
+HIMB1710-00000000003	Prodigal:2.6	CDS	433238	435073	.	-	0	HIMB1710_00491	HIMB1710	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1710_00496
+HIMB1710-00000000003	Prodigal:2.6	CDS	435060	435485	.	-	0	HIMB1710_00492	HIMB1710	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1710_00496
+HIMB1710-00000000003	Prodigal:2.6	CDS	435482	436234	.	-	0	HIMB1710_00493	HIMB1710	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1710_00496
+HIMB1710-00000000003	Prodigal:2.6	CDS	436216	438390	.	-	0	HIMB1710_00494	HIMB1710	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1710_00496
+HIMB1710-00000000003	Prodigal:2.6	CDS	438427	439614	.	+	0	HIMB1710_00495	HIMB1710	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1710_00496
+HIMB1710-00000000003	Prodigal:2.6	CDS	439618	440271	.	+	0	HIMB1710_00496	HIMB1710	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1710_00496
+HIMB1710-00000000003	Prodigal:2.6	CDS	440274	440906	.	-	0	HIMB1710_00497	HIMB1710	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1710_00496
+HIMB1710-00000000003	Prodigal:2.6	CDS	440956	441978	.	-	0	HIMB1710_00498	HIMB1710	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1710_00496
+HIMB1710-00000000003	Prodigal:2.6	CDS	442020	442964	.	-	0	HIMB1710_00499	HIMB1710	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1710_00496
+HIMB1710-00000000003	Prodigal:2.6	CDS	442986	443930	.	+	0	HIMB1710_00500	HIMB1710	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1710_00496
+HIMB1710-00000000003	Prodigal:2.6	CDS	443930	444595	.	+	0	HIMB1710_00501	HIMB1710	221	OG0000334	NA	NA	NA	NA	NA	HIMB1710_00496
+HIMB1556-00000000001	Prodigal:2.6	CDS	122207	122872	.	-	0	HIMB1556_00104	HIMB1556	221	OG0000334	NA	NA	NA	NA	NA	HIMB1556_00109
+HIMB1556-00000000001	Prodigal:2.6	CDS	122872	123816	.	-	0	HIMB1556_00105	HIMB1556	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1556_00109
+HIMB1556-00000000001	Prodigal:2.6	CDS	123838	124782	.	+	0	HIMB1556_00106	HIMB1556	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1556_00109
+HIMB1556-00000000001	Prodigal:2.6	CDS	124824	125846	.	+	0	HIMB1556_00107	HIMB1556	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1556_00109
+HIMB1556-00000000001	Prodigal:2.6	CDS	125896	126528	.	+	0	HIMB1556_00108	HIMB1556	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1556_00109
+HIMB1556-00000000001	Prodigal:2.6	CDS	126531	127184	.	-	0	HIMB1556_00109	HIMB1556	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1556_00109
+HIMB1556-00000000001	Prodigal:2.6	CDS	127188	128375	.	-	0	HIMB1556_00110	HIMB1556	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1556_00109
+HIMB1556-00000000001	Prodigal:2.6	CDS	128412	130586	.	+	0	HIMB1556_00111	HIMB1556	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1556_00109
+HIMB1556-00000000001	Prodigal:2.6	CDS	130568	131320	.	+	0	HIMB1556_00112	HIMB1556	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1556_00109
+HIMB1556-00000000001	Prodigal:2.6	CDS	131317	131742	.	+	0	HIMB1556_00113	HIMB1556	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1556_00109
+HIMB1556-00000000001	Prodigal:2.6	CDS	131729	133564	.	+	0	HIMB1556_00114	HIMB1556	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1556_00109
+HIMB1748-00000000001	Prodigal:2.6	CDS	430039	431874	.	-	0	HIMB1748_00468	HIMB1748	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1748_00473
+HIMB1748-00000000001	Prodigal:2.6	CDS	431861	432286	.	-	0	HIMB1748_00469	HIMB1748	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1748_00473
+HIMB1748-00000000001	Prodigal:2.6	CDS	432283	433035	.	-	0	HIMB1748_00470	HIMB1748	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1748_00473
+HIMB1748-00000000001	Prodigal:2.6	CDS	433017	435191	.	-	0	HIMB1748_00471	HIMB1748	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1748_00473
+HIMB1748-00000000001	Prodigal:2.6	CDS	435228	436415	.	+	0	HIMB1748_00472	HIMB1748	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1748_00473
+HIMB1748-00000000001	Prodigal:2.6	CDS	436419	437072	.	+	0	HIMB1748_00473	HIMB1748	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1748_00473
+HIMB1748-00000000001	Prodigal:2.6	CDS	437075	437707	.	-	0	HIMB1748_00474	HIMB1748	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1748_00473
+HIMB1748-00000000001	Prodigal:2.6	CDS	437757	438779	.	-	0	HIMB1748_00475	HIMB1748	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1748_00473
+HIMB1748-00000000001	Prodigal:2.6	CDS	438821	439765	.	-	0	HIMB1748_00476	HIMB1748	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1748_00473
+HIMB1748-00000000001	Prodigal:2.6	CDS	439787	440731	.	+	0	HIMB1748_00477	HIMB1748	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1748_00473
+HIMB1748-00000000001	Prodigal:2.6	CDS	440731	441396	.	+	0	HIMB1748_00478	HIMB1748	221	OG0000334	NA	NA	NA	NA	NA	HIMB1748_00473
+HIMB1662-00000000001	Prodigal:2.6	CDS	131434	132099	.	-	0	HIMB1662_00114	HIMB1662	221	OG0000334	NA	NA	NA	NA	NA	HIMB1662_00119
+HIMB1662-00000000001	Prodigal:2.6	CDS	132099	133043	.	-	0	HIMB1662_00115	HIMB1662	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1662_00119
+HIMB1662-00000000001	Prodigal:2.6	CDS	133065	134009	.	+	0	HIMB1662_00116	HIMB1662	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1662_00119
+HIMB1662-00000000001	Prodigal:2.6	CDS	134051	135073	.	+	0	HIMB1662_00117	HIMB1662	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1662_00119
+HIMB1662-00000000001	Prodigal:2.6	CDS	135123	135755	.	+	0	HIMB1662_00118	HIMB1662	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1662_00119
+HIMB1662-00000000001	Prodigal:2.6	CDS	135758	136411	.	-	0	HIMB1662_00119	HIMB1662	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1662_00119
+HIMB1662-00000000001	Prodigal:2.6	CDS	136415	137602	.	-	0	HIMB1662_00120	HIMB1662	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1662_00119
+HIMB1662-00000000001	Prodigal:2.6	CDS	137639	139813	.	+	0	HIMB1662_00121	HIMB1662	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1662_00119
+HIMB1662-00000000001	Prodigal:2.6	CDS	139795	140547	.	+	0	HIMB1662_00122	HIMB1662	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1662_00119
+HIMB1662-00000000001	Prodigal:2.6	CDS	140544	140969	.	+	0	HIMB1662_00123	HIMB1662	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1662_00119
+HIMB1662-00000000001	Prodigal:2.6	CDS	140956	142791	.	+	0	HIMB1662_00124	HIMB1662	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1662_00119
+HIMB1723-00000000001	Prodigal:2.6	CDS	452249	452914	.	-	0	HIMB1723_00469	HIMB1723	221	OG0000334	NA	NA	NA	NA	NA	HIMB1723_00474
+HIMB1723-00000000001	Prodigal:2.6	CDS	452914	453858	.	-	0	HIMB1723_00470	HIMB1723	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1723_00474
+HIMB1723-00000000001	Prodigal:2.6	CDS	453880	454824	.	+	0	HIMB1723_00471	HIMB1723	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1723_00474
+HIMB1723-00000000001	Prodigal:2.6	CDS	454866	455888	.	+	0	HIMB1723_00472	HIMB1723	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1723_00474
+HIMB1723-00000000001	Prodigal:2.6	CDS	455938	456570	.	+	0	HIMB1723_00473	HIMB1723	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1723_00474
+HIMB1723-00000000001	Prodigal:2.6	CDS	456573	457226	.	-	0	HIMB1723_00474	HIMB1723	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1723_00474
+HIMB1723-00000000001	Prodigal:2.6	CDS	457230	458417	.	-	0	HIMB1723_00475	HIMB1723	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1723_00474
+HIMB1723-00000000001	Prodigal:2.6	CDS	458454	460628	.	+	0	HIMB1723_00476	HIMB1723	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1723_00474
+HIMB1723-00000000001	Prodigal:2.6	CDS	460610	461362	.	+	0	HIMB1723_00477	HIMB1723	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1723_00474
+HIMB1723-00000000001	Prodigal:2.6	CDS	461359	461784	.	+	0	HIMB1723_00478	HIMB1723	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1723_00474
+HIMB1723-00000000001	Prodigal:2.6	CDS	461771	463606	.	+	0	HIMB1723_00479	HIMB1723	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1723_00474
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	666060	666725	.	-	0	HIMB140_00722	HIMB140	221	OG0000334	NA	NA	NA	NA	NA	HIMB140_00727
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	666725	667669	.	-	0	HIMB140_00723	HIMB140	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB140_00727
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	667691	668635	.	+	0	HIMB140_00724	HIMB140	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB140_00727
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	668676	669698	.	+	0	HIMB140_00725	HIMB140	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB140_00727
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	669748	670380	.	+	0	HIMB140_00726	HIMB140	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB140_00727
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	670383	671036	.	-	0	HIMB140_00727	HIMB140	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB140_00727
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	671040	672227	.	-	0	HIMB140_00728	HIMB140	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB140_00727
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	672264	674438	.	+	0	HIMB140_00729	HIMB140	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB140_00727
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	674420	675172	.	+	0	HIMB140_00730	HIMB140	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB140_00727
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	675169	675594	.	+	0	HIMB140_00731	HIMB140	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB140_00727
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	675581	677416	.	+	0	HIMB140_00732	HIMB140	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB140_00727
+HIMB1513-00000000001	Prodigal:2.6	CDS	195126	195791	.	-	0	HIMB1513_00179	HIMB1513	221	OG0000334	NA	NA	NA	NA	NA	HIMB1513_00184
+HIMB1513-00000000001	Prodigal:2.6	CDS	195791	196735	.	-	0	HIMB1513_00180	HIMB1513	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1513_00184
+HIMB1513-00000000001	Prodigal:2.6	CDS	196757	197701	.	+	0	HIMB1513_00181	HIMB1513	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1513_00184
+HIMB1513-00000000001	Prodigal:2.6	CDS	197743	198765	.	+	0	HIMB1513_00182	HIMB1513	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1513_00184
+HIMB1513-00000000001	Prodigal:2.6	CDS	198815	199447	.	+	0	HIMB1513_00183	HIMB1513	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1513_00184
+HIMB1513-00000000001	Prodigal:2.6	CDS	199450	200103	.	-	0	HIMB1513_00184	HIMB1513	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1513_00184
+HIMB1513-00000000001	Prodigal:2.6	CDS	200107	201294	.	-	0	HIMB1513_00185	HIMB1513	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1513_00184
+HIMB1513-00000000001	Prodigal:2.6	CDS	201331	203505	.	+	0	HIMB1513_00186	HIMB1513	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1513_00184
+HIMB1513-00000000001	Prodigal:2.6	CDS	203487	204239	.	+	0	HIMB1513_00187	HIMB1513	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1513_00184
+HIMB1513-00000000001	Prodigal:2.6	CDS	204236	204661	.	+	0	HIMB1513_00188	HIMB1513	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1513_00184
+HIMB1513-00000000001	Prodigal:2.6	CDS	204648	206483	.	+	0	HIMB1513_00189	HIMB1513	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1513_00184
+HIMB1521-00000000001	Prodigal:2.6	CDS	90855	92690	.	-	0	HIMB1521_00105	HIMB1521	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1521_00110
+HIMB1521-00000000001	Prodigal:2.6	CDS	92677	93102	.	-	0	HIMB1521_00106	HIMB1521	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1521_00110
+HIMB1521-00000000001	Prodigal:2.6	CDS	93099	93851	.	-	0	HIMB1521_00107	HIMB1521	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1521_00110
+HIMB1521-00000000001	Prodigal:2.6	CDS	93833	96007	.	-	0	HIMB1521_00108	HIMB1521	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1521_00110
+HIMB1521-00000000001	Prodigal:2.6	CDS	96044	97231	.	+	0	HIMB1521_00109	HIMB1521	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1521_00110
+HIMB1521-00000000001	Prodigal:2.6	CDS	97235	97888	.	+	0	HIMB1521_00110	HIMB1521	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1521_00110
+HIMB1521-00000000001	Prodigal:2.6	CDS	97891	98523	.	-	0	HIMB1521_00111	HIMB1521	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1521_00110
+HIMB1521-00000000001	Prodigal:2.6	CDS	98573	99595	.	-	0	HIMB1521_00112	HIMB1521	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1521_00110
+HIMB1521-00000000001	Prodigal:2.6	CDS	99637	100581	.	-	0	HIMB1521_00113	HIMB1521	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1521_00110
+HIMB1521-00000000001	Prodigal:2.6	CDS	100603	101547	.	+	0	HIMB1521_00114	HIMB1521	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1521_00110
+HIMB1521-00000000001	Prodigal:2.6	CDS	101547	102212	.	+	0	HIMB1521_00115	HIMB1521	221	OG0000334	NA	NA	NA	NA	NA	HIMB1521_00110
+HIMB1430-00000000013	Prodigal:2.6	CDS	155483	157318	.	-	0	HIMB1430_01153	HIMB1430	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1430_01158
+HIMB1430-00000000013	Prodigal:2.6	CDS	157305	157730	.	-	0	HIMB1430_01154	HIMB1430	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1430_01158
+HIMB1430-00000000013	Prodigal:2.6	CDS	157727	158479	.	-	0	HIMB1430_01155	HIMB1430	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1430_01158
+HIMB1430-00000000013	Prodigal:2.6	CDS	158461	160635	.	-	0	HIMB1430_01156	HIMB1430	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1430_01158
+HIMB1430-00000000013	Prodigal:2.6	CDS	160672	161859	.	+	0	HIMB1430_01157	HIMB1430	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1430_01158
+HIMB1430-00000000013	Prodigal:2.6	CDS	161863	162516	.	+	0	HIMB1430_01158	HIMB1430	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1430_01158
+HIMB1430-00000000013	Prodigal:2.6	CDS	162519	163151	.	-	0	HIMB1430_01159	HIMB1430	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1430_01158
+HIMB1430-00000000013	Prodigal:2.6	CDS	163201	164223	.	-	0	HIMB1430_01160	HIMB1430	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1430_01158
+HIMB1430-00000000013	Prodigal:2.6	CDS	164265	165209	.	-	0	HIMB1430_01161	HIMB1430	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1430_01158
+HIMB1430-00000000013	Prodigal:2.6	CDS	165231	166175	.	+	0	HIMB1430_01162	HIMB1430	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1430_01158
+HIMB1430-00000000013	Prodigal:2.6	CDS	166175	166840	.	+	0	HIMB1430_01163	HIMB1430	221	OG0000334	NA	NA	NA	NA	NA	HIMB1430_01158
+HIMB1611-00000000001	Prodigal:2.6	CDS	994566	995231	.	-	0	HIMB1611_01069	HIMB1611	221	OG0000334	NA	NA	NA	NA	NA	HIMB1611_01074
+HIMB1611-00000000001	Prodigal:2.6	CDS	995231	996175	.	-	0	HIMB1611_01070	HIMB1611	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1611_01074
+HIMB1611-00000000001	Prodigal:2.6	CDS	996197	997141	.	+	0	HIMB1611_01071	HIMB1611	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1611_01074
+HIMB1611-00000000001	Prodigal:2.6	CDS	997183	998205	.	+	0	HIMB1611_01072	HIMB1611	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1611_01074
+HIMB1611-00000000001	Prodigal:2.6	CDS	998255	998887	.	+	0	HIMB1611_01073	HIMB1611	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1611_01074
+HIMB1611-00000000001	Prodigal:2.6	CDS	998890	999543	.	-	0	HIMB1611_01074	HIMB1611	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1611_01074
+HIMB1611-00000000001	Prodigal:2.6	CDS	999547	1000734	.	-	0	HIMB1611_01075	HIMB1611	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1611_01074
+HIMB1611-00000000001	Prodigal:2.6	CDS	1000771	1002945	.	+	0	HIMB1611_01076	HIMB1611	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1611_01074
+HIMB1611-00000000001	Prodigal:2.6	CDS	1002927	1003679	.	+	0	HIMB1611_01077	HIMB1611	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1611_01074
+HIMB1611-00000000001	Prodigal:2.6	CDS	1003676	1004101	.	+	0	HIMB1611_01078	HIMB1611	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1611_01074
+HIMB1611-00000000001	Prodigal:2.6	CDS	1004088	1005923	.	+	0	HIMB1611_01079	HIMB1611	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1611_01074
+HIMB1758-00000000001	Prodigal:2.6	CDS	199710	200375	.	-	0	HIMB1758_00181	HIMB1758	221	OG0000334	NA	NA	NA	NA	NA	HIMB1758_00186
+HIMB1758-00000000001	Prodigal:2.6	CDS	200375	201319	.	-	0	HIMB1758_00182	HIMB1758	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1758_00186
+HIMB1758-00000000001	Prodigal:2.6	CDS	201341	202285	.	+	0	HIMB1758_00183	HIMB1758	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1758_00186
+HIMB1758-00000000001	Prodigal:2.6	CDS	202327	203349	.	+	0	HIMB1758_00184	HIMB1758	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1758_00186
+HIMB1758-00000000001	Prodigal:2.6	CDS	203399	204031	.	+	0	HIMB1758_00185	HIMB1758	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1758_00186
+HIMB1758-00000000001	Prodigal:2.6	CDS	204034	204687	.	-	0	HIMB1758_00186	HIMB1758	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1758_00186
+HIMB1758-00000000001	Prodigal:2.6	CDS	204691	205878	.	-	0	HIMB1758_00187	HIMB1758	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1758_00186
+HIMB1758-00000000001	Prodigal:2.6	CDS	205915	208089	.	+	0	HIMB1758_00188	HIMB1758	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1758_00186
+HIMB1758-00000000001	Prodigal:2.6	CDS	208071	208823	.	+	0	HIMB1758_00189	HIMB1758	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1758_00186
+HIMB1758-00000000001	Prodigal:2.6	CDS	208820	209245	.	+	0	HIMB1758_00190	HIMB1758	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1758_00186
+HIMB1758-00000000001	Prodigal:2.6	CDS	209232	211067	.	+	0	HIMB1758_00191	HIMB1758	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1758_00186
+HIMB1488-00000000001	Prodigal:2.6	CDS	256257	256682	.	-	0	HIMB1488_00299	HIMB1488	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1488_00304
+HIMB1488-00000000001	Prodigal:2.6	CDS	256684	257631	.	-	0	HIMB1488_00300	HIMB1488	315	OG0001216	NA	NA	COG1506	DAP2	Dipeptidyl aminopeptidase/acylaminoacyl peptidase	HIMB1488_00304
+HIMB1488-00000000001	Prodigal:2.6	CDS	257628	258380	.	-	0	HIMB1488_00301	HIMB1488	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1488_00304
+HIMB1488-00000000001	Prodigal:2.6	CDS	258362	260536	.	-	0	HIMB1488_00302	HIMB1488	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1488_00304
+HIMB1488-00000000001	Prodigal:2.6	CDS	260573	261760	.	+	0	HIMB1488_00303	HIMB1488	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1488_00304
+HIMB1488-00000000001	Prodigal:2.6	CDS	261764	262417	.	+	0	HIMB1488_00304	HIMB1488	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1488_00304
+HIMB1488-00000000001	Prodigal:2.6	CDS	262420	263013	.	-	0	HIMB1488_00305	HIMB1488	197	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1488_00304
+HIMB1488-00000000001	Prodigal:2.6	CDS	263166	264110	.	-	0	HIMB1488_00306	HIMB1488	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1488_00304
+HIMB1488-00000000001	Prodigal:2.6	CDS	264132	265076	.	+	0	HIMB1488_00307	HIMB1488	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1488_00304
+HIMB1488-00000000001	Prodigal:2.6	CDS	265076	265741	.	+	0	HIMB1488_00308	HIMB1488	221	OG0000334	NA	NA	NA	NA	NA	HIMB1488_00304
+HIMB1488-00000000001	Prodigal:2.6	CDS	265738	266118	.	-	0	HIMB1488_00309	HIMB1488	126	OG0001388	NA	NA	COG2608	CopZ	Copper chaperone CopZ	HIMB1488_00304
+HIMB1506-00000000001	Prodigal:2.6	CDS	1018503	1018841	.	+	0	HIMB1506_01081	HIMB1506	112	OG0001388	NA	NA	COG2608	CopZ	Copper chaperone CopZ	HIMB1506_01086
+HIMB1506-00000000001	Prodigal:2.6	CDS	1018838	1019503	.	-	0	HIMB1506_01082	HIMB1506	221	OG0000334	NA	NA	NA	NA	NA	HIMB1506_01086
+HIMB1506-00000000001	Prodigal:2.6	CDS	1019503	1020447	.	-	0	HIMB1506_01083	HIMB1506	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1506_01086
+HIMB1506-00000000001	Prodigal:2.6	CDS	1020469	1021413	.	+	0	HIMB1506_01084	HIMB1506	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1506_01086
+HIMB1506-00000000001	Prodigal:2.6	CDS	1021528	1022160	.	+	0	HIMB1506_01085	HIMB1506	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1506_01086
+HIMB1506-00000000001	Prodigal:2.6	CDS	1022163	1022816	.	-	0	HIMB1506_01086	HIMB1506	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1506_01086
+HIMB1506-00000000001	Prodigal:2.6	CDS	1022820	1024007	.	-	0	HIMB1506_01087	HIMB1506	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1506_01086
+HIMB1506-00000000001	Prodigal:2.6	CDS	1024044	1026218	.	+	0	HIMB1506_01088	HIMB1506	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1506_01086
+HIMB1506-00000000001	Prodigal:2.6	CDS	1026200	1026952	.	+	0	HIMB1506_01089	HIMB1506	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1506_01086
+HIMB1506-00000000001	Prodigal:2.6	CDS	1026949	1027374	.	+	0	HIMB1506_01090	HIMB1506	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1506_01086
+HIMB1506-00000000001	Prodigal:2.6	CDS	1027361	1029196	.	+	0	HIMB1506_01091	HIMB1506	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1506_01086
+HIMB2211-00000000001	Prodigal:2.6	CDS	973620	974285	.	-	0	HIMB2211_01030	HIMB2211	221	OG0000334	NA	NA	NA	NA	NA	HIMB2211_01035
+HIMB2211-00000000001	Prodigal:2.6	CDS	974285	975229	.	-	0	HIMB2211_01031	HIMB2211	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB2211_01035
+HIMB2211-00000000001	Prodigal:2.6	CDS	975251	976195	.	+	0	HIMB2211_01032	HIMB2211	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB2211_01035
+HIMB2211-00000000001	Prodigal:2.6	CDS	976237	977259	.	+	0	HIMB2211_01033	HIMB2211	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2211_01035
+HIMB2211-00000000001	Prodigal:2.6	CDS	977309	977941	.	+	0	HIMB2211_01034	HIMB2211	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB2211_01035
+HIMB2211-00000000001	Prodigal:2.6	CDS	977944	978597	.	-	0	HIMB2211_01035	HIMB2211	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB2211_01035
+HIMB2211-00000000001	Prodigal:2.6	CDS	978601	979788	.	-	0	HIMB2211_01036	HIMB2211	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB2211_01035
+HIMB2211-00000000001	Prodigal:2.6	CDS	979825	981999	.	+	0	HIMB2211_01037	HIMB2211	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB2211_01035
+HIMB2211-00000000001	Prodigal:2.6	CDS	981981	982733	.	+	0	HIMB2211_01038	HIMB2211	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2211_01035
+HIMB2211-00000000001	Prodigal:2.6	CDS	982730	983155	.	+	0	HIMB2211_01039	HIMB2211	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB2211_01035
+HIMB2211-00000000001	Prodigal:2.6	CDS	983142	984977	.	+	0	HIMB2211_01040	HIMB2211	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB2211_01035
+HIMB1746-00000000002	Prodigal:2.6	CDS	84960	85625	.	-	0	HIMB1746_00623	HIMB1746	221	OG0000334	NA	NA	NA	NA	NA	HIMB1746_00628
+HIMB1746-00000000002	Prodigal:2.6	CDS	85625	86569	.	-	0	HIMB1746_00624	HIMB1746	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1746_00628
+HIMB1746-00000000002	Prodigal:2.6	CDS	86591	87535	.	+	0	HIMB1746_00625	HIMB1746	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1746_00628
+HIMB1746-00000000002	Prodigal:2.6	CDS	87576	88598	.	+	0	HIMB1746_00626	HIMB1746	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1746_00628
+HIMB1746-00000000002	Prodigal:2.6	CDS	88648	89280	.	+	0	HIMB1746_00627	HIMB1746	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1746_00628
+HIMB1746-00000000002	Prodigal:2.6	CDS	89283	89936	.	-	0	HIMB1746_00628	HIMB1746	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1746_00628
+HIMB1746-00000000002	Prodigal:2.6	CDS	89940	91127	.	-	0	HIMB1746_00629	HIMB1746	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1746_00628
+HIMB1746-00000000002	Prodigal:2.6	CDS	91164	93338	.	+	0	HIMB1746_00630	HIMB1746	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1746_00628
+HIMB1746-00000000002	Prodigal:2.6	CDS	93320	94072	.	+	0	HIMB1746_00631	HIMB1746	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1746_00628
+HIMB1746-00000000002	Prodigal:2.6	CDS	94069	94494	.	+	0	HIMB1746_00632	HIMB1746	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1746_00628
+HIMB1746-00000000002	Prodigal:2.6	CDS	94481	96316	.	+	0	HIMB1746_00633	HIMB1746	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1746_00628
+HIMB1542-00000000002	Prodigal:2.6	CDS	176362	177027	.	-	0	HIMB1542_01035	HIMB1542	221	OG0000334	NA	NA	NA	NA	NA	HIMB1542_01040
+HIMB1542-00000000002	Prodigal:2.6	CDS	177027	177971	.	-	0	HIMB1542_01036	HIMB1542	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1542_01040
+HIMB1542-00000000002	Prodigal:2.6	CDS	177993	178937	.	+	0	HIMB1542_01037	HIMB1542	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1542_01040
+HIMB1542-00000000002	Prodigal:2.6	CDS	178978	180000	.	+	0	HIMB1542_01038	HIMB1542	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1542_01040
+HIMB1542-00000000002	Prodigal:2.6	CDS	180050	180682	.	+	0	HIMB1542_01039	HIMB1542	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1542_01040
+HIMB1542-00000000002	Prodigal:2.6	CDS	180685	180795	.	-	0	HIMB1542_01040	HIMB1542	36	OG0001168	NA	NA	NA	NA	NA	HIMB1542_01040
+HIMB1542-00000000002	Prodigal:2.6	CDS	180895	181338	.	-	0	HIMB1542_01041	HIMB1542	147	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1542_01040
+HIMB1542-00000000002	Prodigal:2.6	CDS	181342	182529	.	-	0	HIMB1542_01042	HIMB1542	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1542_01040
+HIMB1542-00000000002	Prodigal:2.6	CDS	182566	184740	.	+	0	HIMB1542_01043	HIMB1542	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1542_01040
+HIMB1542-00000000002	Prodigal:2.6	CDS	184722	185474	.	+	0	HIMB1542_01044	HIMB1542	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1542_01040
+HIMB1542-00000000002	Prodigal:2.6	CDS	185471	185896	.	+	0	HIMB1542_01045	HIMB1542	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1542_01040
+HIMB1542-00000000002	Prodigal:2.6	CDS	177027	177971	.	-	0	HIMB1542_01036	HIMB1542	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1542_01041
+HIMB1542-00000000002	Prodigal:2.6	CDS	177993	178937	.	+	0	HIMB1542_01037	HIMB1542	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1542_01041
+HIMB1542-00000000002	Prodigal:2.6	CDS	178978	180000	.	+	0	HIMB1542_01038	HIMB1542	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1542_01041
+HIMB1542-00000000002	Prodigal:2.6	CDS	180050	180682	.	+	0	HIMB1542_01039	HIMB1542	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1542_01041
+HIMB1542-00000000002	Prodigal:2.6	CDS	180685	180795	.	-	0	HIMB1542_01040	HIMB1542	36	OG0001168	NA	NA	NA	NA	NA	HIMB1542_01041
+HIMB1542-00000000002	Prodigal:2.6	CDS	180895	181338	.	-	0	HIMB1542_01041	HIMB1542	147	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1542_01041
+HIMB1542-00000000002	Prodigal:2.6	CDS	181342	182529	.	-	0	HIMB1542_01042	HIMB1542	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1542_01041
+HIMB1542-00000000002	Prodigal:2.6	CDS	182566	184740	.	+	0	HIMB1542_01043	HIMB1542	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1542_01041
+HIMB1542-00000000002	Prodigal:2.6	CDS	184722	185474	.	+	0	HIMB1542_01044	HIMB1542	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1542_01041
+HIMB1542-00000000002	Prodigal:2.6	CDS	185471	185896	.	+	0	HIMB1542_01045	HIMB1542	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1542_01041
+HIMB1542-00000000002	Prodigal:2.6	CDS	185883	187718	.	+	0	HIMB1542_01046	HIMB1542	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1542_01041
+HIMB1695-00000000001	Prodigal:2.6	CDS	756569	757234	.	-	0	HIMB1695_00823	HIMB1695	221	OG0000334	NA	NA	NA	NA	NA	HIMB1695_00828
+HIMB1695-00000000001	Prodigal:2.6	CDS	757234	758178	.	-	0	HIMB1695_00824	HIMB1695	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1695_00828
+HIMB1695-00000000001	Prodigal:2.6	CDS	758200	759147	.	+	0	HIMB1695_00825	HIMB1695	315	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1695_00828
+HIMB1695-00000000001	Prodigal:2.6	CDS	759148	759717	.	+	0	HIMB1695_00826	HIMB1695	189	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1695_00828
+HIMB1695-00000000001	Prodigal:2.6	CDS	759660	760169	.	+	0	HIMB1695_00827	HIMB1695	169	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1695_00828
+HIMB1695-00000000001	Prodigal:2.6	CDS	760161	760817	.	-	0	HIMB1695_00828	HIMB1695	218	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1695_00828
+HIMB1695-00000000001	Prodigal:2.6	CDS	760821	762008	.	-	0	HIMB1695_00829	HIMB1695	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1695_00828
+HIMB1695-00000000001	Prodigal:2.6	CDS	762045	764219	.	+	0	HIMB1695_00830	HIMB1695	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1695_00828
+HIMB1695-00000000001	Prodigal:2.6	CDS	764201	764953	.	+	0	HIMB1695_00831	HIMB1695	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1695_00828
+HIMB1695-00000000001	Prodigal:2.6	CDS	764950	765375	.	+	0	HIMB1695_00832	HIMB1695	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1695_00828
+HIMB1695-00000000001	Prodigal:2.6	CDS	765362	767197	.	+	0	HIMB1695_00833	HIMB1695	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1695_00828
+HIMB1577-00000000001	Prodigal:2.6	CDS	902930	904795	.	-	0	HIMB1577_00977	HIMB1577	621	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1577_00982
+HIMB1577-00000000001	Prodigal:2.6	CDS	904752	905177	.	-	0	HIMB1577_00978	HIMB1577	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1577_00982
+HIMB1577-00000000001	Prodigal:2.6	CDS	905174	905926	.	-	0	HIMB1577_00979	HIMB1577	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1577_00982
+HIMB1577-00000000001	Prodigal:2.6	CDS	905908	908082	.	-	0	HIMB1577_00980	HIMB1577	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1577_00982
+HIMB1577-00000000001	Prodigal:2.6	CDS	908119	909306	.	+	0	HIMB1577_00981	HIMB1577	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1577_00982
+HIMB1577-00000000001	Prodigal:2.6	CDS	909310	909963	.	+	0	HIMB1577_00982	HIMB1577	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1577_00982
+HIMB1577-00000000001	Prodigal:2.6	CDS	909966	910598	.	-	0	HIMB1577_00983	HIMB1577	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1577_00982
+HIMB1577-00000000001	Prodigal:2.6	CDS	910648	911670	.	-	0	HIMB1577_00984	HIMB1577	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1577_00982
+HIMB1577-00000000001	Prodigal:2.6	CDS	911712	912656	.	-	0	HIMB1577_00985	HIMB1577	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1577_00982
+HIMB1577-00000000001	Prodigal:2.6	CDS	912678	913622	.	+	0	HIMB1577_00986	HIMB1577	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1577_00982
+HIMB1577-00000000001	Prodigal:2.6	CDS	913622	914287	.	+	0	HIMB1577_00987	HIMB1577	221	OG0000334	NA	NA	NA	NA	NA	HIMB1577_00982
+HIMB1631-00000000001	Prodigal:2.6	CDS	1232688	1234523	.	-	0	HIMB1631_01346	HIMB1631	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1631_01351
+HIMB1631-00000000001	Prodigal:2.6	CDS	1234510	1234935	.	-	0	HIMB1631_01347	HIMB1631	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1631_01351
+HIMB1631-00000000001	Prodigal:2.6	CDS	1234932	1235684	.	-	0	HIMB1631_01348	HIMB1631	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1631_01351
+HIMB1631-00000000001	Prodigal:2.6	CDS	1235666	1237840	.	-	0	HIMB1631_01349	HIMB1631	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1631_01351
+HIMB1631-00000000001	Prodigal:2.6	CDS	1237877	1239064	.	+	0	HIMB1631_01350	HIMB1631	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1631_01351
+HIMB1631-00000000001	Prodigal:2.6	CDS	1239068	1239721	.	+	0	HIMB1631_01351	HIMB1631	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1631_01351
+HIMB1631-00000000001	Prodigal:2.6	CDS	1239724	1240356	.	-	0	HIMB1631_01352	HIMB1631	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1631_01351
+HIMB1631-00000000001	Prodigal:2.6	CDS	1240406	1241428	.	-	0	HIMB1631_01353	HIMB1631	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1631_01351
+HIMB1631-00000000001	Prodigal:2.6	CDS	1241470	1242414	.	-	0	HIMB1631_01354	HIMB1631	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1631_01351
+HIMB1631-00000000001	Prodigal:2.6	CDS	1242436	1243380	.	+	0	HIMB1631_01355	HIMB1631	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1631_01351
+HIMB1631-00000000001	Prodigal:2.6	CDS	1243380	1244045	.	+	0	HIMB1631_01356	HIMB1631	221	OG0000334	NA	NA	NA	NA	NA	HIMB1631_01351
+HIMB1715-00000000020	Prodigal:2.6	CDS	22214	24049	.	-	0	HIMB1715_01138	HIMB1715	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1715_01143
+HIMB1715-00000000020	Prodigal:2.6	CDS	24036	24461	.	-	0	HIMB1715_01139	HIMB1715	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1715_01143
+HIMB1715-00000000020	Prodigal:2.6	CDS	24458	25210	.	-	0	HIMB1715_01140	HIMB1715	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1715_01143
+HIMB1715-00000000020	Prodigal:2.6	CDS	25192	27366	.	-	0	HIMB1715_01141	HIMB1715	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1715_01143
+HIMB1715-00000000020	Prodigal:2.6	CDS	27403	28590	.	+	0	HIMB1715_01142	HIMB1715	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1715_01143
+HIMB1715-00000000020	Prodigal:2.6	CDS	28594	29247	.	+	0	HIMB1715_01143	HIMB1715	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1715_01143
+HIMB1715-00000000020	Prodigal:2.6	CDS	29251	30273	.	-	0	HIMB1715_01144	HIMB1715	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1715_01143
+HIMB1715-00000000020	Prodigal:2.6	CDS	30315	31259	.	-	0	HIMB1715_01145	HIMB1715	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1715_01143
+HIMB1715-00000000020	Prodigal:2.6	CDS	31281	32225	.	+	0	HIMB1715_01146	HIMB1715	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1715_01143
+HIMB1715-00000000020	Prodigal:2.6	CDS	32225	32887	.	+	0	HIMB1715_01147	HIMB1715	220	OG0000334	NA	NA	NA	NA	NA	HIMB1715_01143
+HIMB1715-00000000020	Prodigal:2.6	CDS	32887	33594	.	+	0	HIMB1715_01148	HIMB1715	235	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1715_01143
+HIMB1701-00000000001	Prodigal:2.6	CDS	698997	699662	.	-	0	HIMB1701_00752	HIMB1701	221	OG0000334	NA	NA	NA	NA	NA	HIMB1701_00757
+HIMB1701-00000000001	Prodigal:2.6	CDS	699662	700606	.	-	0	HIMB1701_00753	HIMB1701	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1701_00757
+HIMB1701-00000000001	Prodigal:2.6	CDS	700628	701572	.	+	0	HIMB1701_00754	HIMB1701	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1701_00757
+HIMB1701-00000000001	Prodigal:2.6	CDS	701614	702636	.	+	0	HIMB1701_00755	HIMB1701	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1701_00757
+HIMB1701-00000000001	Prodigal:2.6	CDS	702686	703318	.	+	0	HIMB1701_00756	HIMB1701	210	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1701_00757
+HIMB1701-00000000001	Prodigal:2.6	CDS	703321	703974	.	-	0	HIMB1701_00757	HIMB1701	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1701_00757
+HIMB1701-00000000001	Prodigal:2.6	CDS	703978	705165	.	-	0	HIMB1701_00758	HIMB1701	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1701_00757
+HIMB1701-00000000001	Prodigal:2.6	CDS	705202	707376	.	+	0	HIMB1701_00759	HIMB1701	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1701_00757
+HIMB1701-00000000001	Prodigal:2.6	CDS	707358	708110	.	+	0	HIMB1701_00760	HIMB1701	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1701_00757
+HIMB1701-00000000001	Prodigal:2.6	CDS	708107	708532	.	+	0	HIMB1701_00761	HIMB1701	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1701_00757
+HIMB1701-00000000001	Prodigal:2.6	CDS	708519	710354	.	+	0	HIMB1701_00762	HIMB1701	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1701_00757
+HIMB1782-00000000001	Prodigal:2.6	CDS	405993	406658	.	-	0	HIMB1782_00415	HIMB1782	221	OG0000334	NA	NA	NA	NA	NA	HIMB1782_00420
+HIMB1782-00000000001	Prodigal:2.6	CDS	406658	407602	.	-	0	HIMB1782_00416	HIMB1782	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1782_00420
+HIMB1782-00000000001	Prodigal:2.6	CDS	407624	408568	.	+	0	HIMB1782_00417	HIMB1782	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1782_00420
+HIMB1782-00000000001	Prodigal:2.6	CDS	408610	409632	.	+	0	HIMB1782_00418	HIMB1782	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1782_00420
+HIMB1782-00000000001	Prodigal:2.6	CDS	409721	410314	.	+	0	HIMB1782_00419	HIMB1782	197	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1782_00420
+HIMB1782-00000000001	Prodigal:2.6	CDS	410317	410970	.	-	0	HIMB1782_00420	HIMB1782	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1782_00420
+HIMB1782-00000000001	Prodigal:2.6	CDS	410974	412161	.	-	0	HIMB1782_00421	HIMB1782	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1782_00420
+HIMB1782-00000000001	Prodigal:2.6	CDS	412198	414372	.	+	0	HIMB1782_00422	HIMB1782	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1782_00420
+HIMB1782-00000000001	Prodigal:2.6	CDS	414354	415106	.	+	0	HIMB1782_00423	HIMB1782	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1782_00420
+HIMB1782-00000000001	Prodigal:2.6	CDS	415103	415528	.	+	0	HIMB1782_00424	HIMB1782	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1782_00420
+HIMB1782-00000000001	Prodigal:2.6	CDS	415515	417350	.	+	0	HIMB1782_00425	HIMB1782	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1782_00420
+HIMB1602-00000000013	Prodigal:2.6	CDS	863	1201	.	+	0	HIMB1602_00230	HIMB1602	112	OG0001388	NA	NA	COG2608	CopZ	Copper chaperone CopZ	HIMB1602_00235
+HIMB1602-00000000013	Prodigal:2.6	CDS	1198	1863	.	-	0	HIMB1602_00231	HIMB1602	221	OG0000334	NA	NA	NA	NA	NA	HIMB1602_00235
+HIMB1602-00000000013	Prodigal:2.6	CDS	1869	2807	.	-	0	HIMB1602_00232	HIMB1602	312	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1602_00235
+HIMB1602-00000000013	Prodigal:2.6	CDS	2829	3773	.	+	0	HIMB1602_00233	HIMB1602	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1602_00235
+HIMB1602-00000000013	Prodigal:2.6	CDS	3815	4837	.	+	0	HIMB1602_00234	HIMB1602	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1602_00235
+HIMB1602-00000000013	Prodigal:2.6	CDS	4841	5494	.	-	0	HIMB1602_00235	HIMB1602	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1602_00235
+HIMB1602-00000000013	Prodigal:2.6	CDS	5498	6685	.	-	0	HIMB1602_00236	HIMB1602	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1602_00235
+HIMB1602-00000000013	Prodigal:2.6	CDS	6722	8896	.	+	0	HIMB1602_00237	HIMB1602	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1602_00235
+HIMB1602-00000000013	Prodigal:2.6	CDS	8878	9630	.	+	0	HIMB1602_00238	HIMB1602	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1602_00235
+HIMB1602-00000000013	Prodigal:2.6	CDS	9627	10052	.	+	0	HIMB1602_00239	HIMB1602	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1602_00235
+HIMB1602-00000000013	Prodigal:2.6	CDS	10039	11874	.	+	0	HIMB1602_00240	HIMB1602	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1602_00235
+HIMB1623-00000000013	Prodigal:2.6	CDS	472256	474091	.	-	0	HIMB1623_01439	HIMB1623	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1623_01444
+HIMB1623-00000000013	Prodigal:2.6	CDS	474078	474503	.	-	0	HIMB1623_01440	HIMB1623	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1623_01444
+HIMB1623-00000000013	Prodigal:2.6	CDS	474500	475252	.	-	0	HIMB1623_01441	HIMB1623	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1623_01444
+HIMB1623-00000000013	Prodigal:2.6	CDS	475234	477408	.	-	0	HIMB1623_01442	HIMB1623	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1623_01444
+HIMB1623-00000000013	Prodigal:2.6	CDS	477445	478632	.	+	0	HIMB1623_01443	HIMB1623	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1623_01444
+HIMB1623-00000000013	Prodigal:2.6	CDS	478636	479289	.	+	0	HIMB1623_01444	HIMB1623	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1623_01444
+HIMB1623-00000000013	Prodigal:2.6	CDS	479293	480315	.	-	0	HIMB1623_01445	HIMB1623	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1623_01444
+HIMB1623-00000000013	Prodigal:2.6	CDS	480357	481301	.	-	0	HIMB1623_01446	HIMB1623	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1623_01444
+HIMB1623-00000000013	Prodigal:2.6	CDS	481323	482267	.	+	0	HIMB1623_01447	HIMB1623	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1623_01444
+HIMB1623-00000000013	Prodigal:2.6	CDS	482267	482932	.	+	0	HIMB1623_01448	HIMB1623	221	OG0000334	NA	NA	NA	NA	NA	HIMB1623_01444
+HIMB1623-00000000013	Prodigal:2.6	CDS	482929	486153	.	-	0	HIMB1623_01449	HIMB1623	1074	OG0000141	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	COG0458	CarB	Carbamoylphosphate synthase large subunit	HIMB1623_01444
+HIMB1709-00000000001	Prodigal:2.6	CDS	289304	289672	.	-	0	HIMB1709_00325	HIMB1709	122	OG0000709	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	HIMB1709_00330
+HIMB1709-00000000001	Aragorn:1.2	tRNA	289761	289837	.	-	.	HIMB1709_00326	HIMB1709	NA	NA	NA	NA	NA	NA	NA	HIMB1709_00330
+HIMB1709-00000000001	Aragorn:1.2	tRNA	289850	289925	.	-	.	HIMB1709_00327	HIMB1709	NA	NA	NA	NA	NA	NA	NA	HIMB1709_00330
+HIMB1709-00000000001	Prodigal:2.6	CDS	290293	290814	.	-	0	HIMB1709_00328	HIMB1709	173	OG0005162	NA	NA	NA	NA	NA	HIMB1709_00330
+HIMB1709-00000000001	Prodigal:2.6	CDS	290844	291383	.	-	0	HIMB1709_00329	HIMB1709	179	OG0002334	NA	NA	NA	NA	NA	HIMB1709_00330
+HIMB1709-00000000001	Prodigal:2.6	CDS	291395	292036	.	-	0	HIMB1709_00330	HIMB1709	213	OG0001168	NA	NA	COG2910	YwnB	Putative NADH-flavin reductase	HIMB1709_00330
+HIMB1709-00000000001	Prodigal:2.6	CDS	292283	294661	.	-	0	HIMB1709_00331	HIMB1709	792	OG0000548	K01338	ATP-dependent Lon protease [EC:3.4.21.53]	COG0466	Lon	ATP-dependent Lon protease, bacterial type	HIMB1709_00330
+HIMB1709-00000000001	Prodigal:2.6	CDS	294722	295990	.	-	0	HIMB1709_00332	HIMB1709	422	OG0000476	K03544	ATP-dependent Clp protease ATP-binding subunit ClpX	COG1219	ClpX	ATP-dependent protease Clp, ATPase subunit ClpX	HIMB1709_00330
+HIMB1709-00000000001	Prodigal:2.6	CDS	296080	296691	.	-	0	HIMB1709_00333	HIMB1709	203	OG0000614	K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]	COG0740	ClpP	ATP-dependent protease ClpP, protease subunit	HIMB1709_00330
+HIMB1709-00000000001	Prodigal:2.6	CDS	296734	298182	.	-	0	HIMB1709_00334	HIMB1709	482	OG0000715	K03545	trigger factor	COG0544	Tig	Trigger factor Tig, ribosome-bound chaperone (peptidyl-prolyl cis-trans isomerase)	HIMB1709_00330
+HIMB1709-00000000001	Aragorn:1.2	tRNA	298192	298276	.	-	.	HIMB1709_00335	HIMB1709	NA	NA	NA	NA	NA	NA	NA	HIMB1709_00330
+HIMB1709-00000000001	Prodigal:2.6	CDS	697377	700601	.	+	0	HIMB1709_00764	HIMB1709	1074	OG0000141	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	COG0458	CarB	Carbamoylphosphate synthase large subunit	HIMB1709_00769
+HIMB1709-00000000001	Prodigal:2.6	CDS	700598	701263	.	-	0	HIMB1709_00765	HIMB1709	221	OG0000334	NA	NA	NA	NA	NA	HIMB1709_00769
+HIMB1709-00000000001	Prodigal:2.6	CDS	701263	702207	.	-	0	HIMB1709_00766	HIMB1709	314	OG0000315	K07276	uncharacterized protein	COG3660	ELM1	Mitochondrial fission protein ELM1	HIMB1709_00769
+HIMB1709-00000000001	Prodigal:2.6	CDS	702229	703173	.	+	0	HIMB1709_00767	HIMB1709	314	OG0000265	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	COG0492	TrxB	Thioredoxin reductase	HIMB1709_00769
+HIMB1709-00000000001	Prodigal:2.6	CDS	703215	704237	.	+	0	HIMB1709_00768	HIMB1709	340	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1709_00769
+HIMB1709-00000000001	Prodigal:2.6	CDS	704241	704894	.	-	0	HIMB1709_00769	HIMB1709	217	OG0001168	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	HIMB1709_00769
+HIMB1709-00000000001	Prodigal:2.6	CDS	704898	706085	.	-	0	HIMB1709_00770	HIMB1709	395	OG0000014	K00812	aspartate aminotransferase [EC:2.6.1.1]	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1709_00769
+HIMB1709-00000000001	Prodigal:2.6	CDS	706122	708296	.	+	0	HIMB1709_00771	HIMB1709	724	OG0000482	K03702	excinuclease ABC subunit B	COG0556	UvrB	Excinuclease UvrABC helicase subunit UvrB	HIMB1709_00769
+HIMB1709-00000000001	Prodigal:2.6	CDS	708278	709030	.	+	0	HIMB1709_00772	HIMB1709	250	OG0000175	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1709_00769
+HIMB1709-00000000001	Prodigal:2.6	CDS	709027	709452	.	+	0	HIMB1709_00773	HIMB1709	141	OG0000635	NA	NA	COG1539	FolB	Dihydroneopterin aldolase	HIMB1709_00769
+HIMB1709-00000000001	Prodigal:2.6	CDS	709439	711274	.	+	0	HIMB1709_00774	HIMB1709	611	OG0000280	K03703	excinuclease ABC subunit C	COG0322	UvrC	Excinuclease UvrABC, nuclease subunit	HIMB1709_00769

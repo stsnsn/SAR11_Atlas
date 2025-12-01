@@ -1,0 +1,34 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP159811.1	Prodigal:2.6	CDS	730077	730667	.	+	0	Uisw_137_00814	Uisw_137	196	OG0000716	NA	NA	COG0861	TerC	Tellurite resistance membrane protein TerC	Uisw_137_00819
+CP159811.1	Prodigal:2.6	CDS	730668	731426	.	+	0	Uisw_137_00815	Uisw_137	252	OG0000000	K03331	L-xylulose reductase [EC:1.1.1.10]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_137_00819
+CP159811.1	Prodigal:2.6	CDS	731411	732211	.	+	0	Uisw_137_00816	Uisw_137	266	OG0000473	NA	NA	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	Uisw_137_00819
+CP159811.1	Prodigal:2.6	CDS	732211	732987	.	+	0	Uisw_137_00817	Uisw_137	258	OG0001107	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	Uisw_137_00819
+CP159811.1	Prodigal:2.6	CDS	733110	734261	.	+	0	Uisw_137_00818	Uisw_137	383	OG0000061	NA	NA	COG0006	PepP	Xaa-Pro aminopeptidase	Uisw_137_00819
+CP159811.1	Prodigal:2.6	CDS	734323	735111	.	-	0	Uisw_137_00819	Uisw_137	262	OG0002580	NA	NA	NA	NA	NA	Uisw_137_00819
+CP159811.1	Prodigal:2.6	CDS	735287	736579	.	-	0	Uisw_137_00820	Uisw_137	430	OG0001309	NA	NA	COG4091	NA	Predicted homoserine dehydrogenase, contains C-terminal SAF domain	Uisw_137_00819
+CP159811.1	Prodigal:2.6	CDS	736594	737166	.	-	0	Uisw_137_00821	Uisw_137	190	OG0001081	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	Uisw_137_00819
+CP159811.1	Prodigal:2.6	CDS	737207	737872	.	+	0	Uisw_137_00822	Uisw_137	221	OG0000003	K02003	putative ABC transport system ATP-binding protein	COG1136	LolD	ABC-type lipoprotein targeting system ATPase component LolD	Uisw_137_00819
+CP159811.1	Prodigal:2.6	CDS	737856	740393	.	+	0	Uisw_137_00823	Uisw_137	845	OG0001096	K01992	ABC-2 type transport system permease protein	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	Uisw_137_00819
+CP159811.1	Prodigal:2.6	CDS	740394	741698	.	-	0	Uisw_137_00824	Uisw_137	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	Uisw_137_00819
+CP159810.1	Prodigal:2.6	CDS	44897	45964	.	+	0	Uisw_090_00043	Uisw_090	355	OG0000201	K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]	COG0016	PheS	Phenylalanyl-tRNA synthetase alpha subunit	Uisw_090_00048
+CP159810.1	Prodigal:2.6	CDS	45961	46947	.	+	0	Uisw_090_00044	Uisw_090	328	OG0000215	K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	COG0072	PheT	Phenylalanyl-tRNA synthetase beta subunit	Uisw_090_00048
+CP159810.1	Prodigal:2.6	CDS	46941	48368	.	+	0	Uisw_090_00045	Uisw_090	475	OG0000215	K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	COG0072	PheT	Phenylalanyl-tRNA synthetase beta subunit	Uisw_090_00048
+CP159810.1	Prodigal:2.6	CDS	48371	50179	.	+	0	Uisw_090_00046	Uisw_090	602	OG0000287	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	Uisw_090_00048
+CP159810.1	Aragorn:1.2	tRNA	51212	51301	.	+	.	Uisw_090_00047	Uisw_090	NA	NA	NA	NA	NA	NA	NA	Uisw_090_00048
+CP159810.1	Prodigal:2.6	CDS	51321	51620	.	-	0	Uisw_090_00048	Uisw_090	99	OG0002580	NA	NA	NA	NA	NA	Uisw_090_00048
+CP159810.1	Prodigal:2.6	CDS	52124	54175	.	+	0	Uisw_090_00049	Uisw_090	683	OG0000086	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	Uisw_090_00048
+CP159810.1	Prodigal:2.6	CDS	54178	55458	.	+	0	Uisw_090_00050	Uisw_090	426	OG0000225	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	Uisw_090_00048
+CP159810.1	Prodigal:2.6	CDS	55455	57263	.	-	0	Uisw_090_00051	Uisw_090	602	OG0000171	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	Uisw_090_00048
+CP159810.1	Prodigal:2.6	CDS	57264	58202	.	-	0	Uisw_090_00052	Uisw_090	312	OG0000303	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	Uisw_090_00048
+CP159810.1	Prodigal:2.6	CDS	58228	58755	.	-	0	Uisw_090_00053	Uisw_090	175	OG0000288	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	Uisw_090_00048
+HIMB1444-00000000002	Prodigal:2.6	CDS	614160	615032	.	-	0	HIMB1444_01083	HIMB1444	290	OG0000351	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1444_01088
+HIMB1444-00000000002	Prodigal:2.6	CDS	615034	616131	.	-	0	HIMB1444_01084	HIMB1444	365	OG0000358	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1444_01088
+HIMB1444-00000000002	Prodigal:2.6	CDS	616183	617007	.	+	0	HIMB1444_01085	HIMB1444	274	OG0000339	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1444_01088
+HIMB1444-00000000002	Prodigal:2.6	CDS	616988	617935	.	-	0	HIMB1444_01086	HIMB1444	315	OG0000236	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1444_01088
+HIMB1444-00000000002	Aragorn:1.2	tmRNA	617963	618271	.	+	.	HIMB1444_01087	HIMB1444	NA	NA	NA	NA	NA	NA	NA	HIMB1444_01088
+HIMB1444-00000000002	Prodigal:2.6	CDS	618507	619346	.	-	0	HIMB1444_01088	HIMB1444	279	OG0002580	NA	NA	NA	NA	NA	HIMB1444_01088
+HIMB1444-00000000002	Prodigal:2.6	CDS	619327	622002	.	-	0	HIMB1444_01089	HIMB1444	891	OG0000773	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1444_01088
+HIMB1444-00000000002	Prodigal:2.6	CDS	622002	624068	.	-	0	HIMB1444_01090	HIMB1444	688	OG0000851	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1444_01088
+HIMB1444-00000000002	Prodigal:2.6	CDS	624068	624973	.	-	0	HIMB1444_01091	HIMB1444	301	OG0000843	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1444_01088
+HIMB1444-00000000002	Prodigal:2.6	CDS	624939	625745	.	-	0	HIMB1444_01092	HIMB1444	268	OG0000604	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1444_01088
+HIMB1444-00000000002	Prodigal:2.6	CDS	625859	626872	.	+	0	HIMB1444_01093	HIMB1444	337	OG0000626	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1444_01088

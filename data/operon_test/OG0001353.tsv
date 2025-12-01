@@ -1,0 +1,951 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CH724130.1	Prodigal:2.6	CDS	578683	579078	.	+	0	HTCC1002_00629	HTCC1002	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HTCC1002_00634
+CH724130.1	Prodigal:2.6	CDS	579056	580336	.	+	0	HTCC1002_00630	HTCC1002	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HTCC1002_00634
+CH724130.1	Prodigal:2.6	CDS	580329	581201	.	-	0	HTCC1002_00631	HTCC1002	290	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1002_00634
+CH724130.1	Prodigal:2.6	CDS	581198	582520	.	-	0	HTCC1002_00632	HTCC1002	440	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HTCC1002_00634
+CH724130.1	Prodigal:2.6	CDS	582599	583141	.	+	0	HTCC1002_00633	HTCC1002	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC1002_00634
+CH724130.1	Prodigal:2.6	CDS	583176	583961	.	-	0	HTCC1002_00634	HTCC1002	261	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC1002_00634
+CH724130.1	Prodigal:2.6	CDS	583980	584099	.	+	0	HTCC1002_00635	HTCC1002	39	OG0001208	NA	NA	NA	NA	NA	HTCC1002_00634
+CH724130.1	Prodigal:2.6	CDS	584096	585427	.	+	0	HTCC1002_00636	HTCC1002	443	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HTCC1002_00634
+CH724130.1	Prodigal:2.6	CDS	585432	586058	.	-	0	HTCC1002_00637	HTCC1002	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC1002_00634
+CH724130.1	Prodigal:2.6	CDS	585432	586058	.	-	0	HTCC1002_00637	HTCC1002	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC1002_00634
+CH724130.1	Prodigal:2.6	CDS	586055	587071	.	-	0	HTCC1002_00638	HTCC1002	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	HTCC1002_00634
+KI421437.1	Prodigal:2.6	CDS	274575	274970	.	+	0	HTCC1013_00287	HTCC1013	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HTCC1013_00292
+KI421437.1	Prodigal:2.6	CDS	274948	276228	.	+	0	HTCC1013_00288	HTCC1013	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HTCC1013_00292
+KI421437.1	Prodigal:2.6	CDS	276221	277093	.	-	0	HTCC1013_00289	HTCC1013	290	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1013_00292
+KI421437.1	Prodigal:2.6	CDS	277090	278412	.	-	0	HTCC1013_00290	HTCC1013	440	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HTCC1013_00292
+KI421437.1	Prodigal:2.6	CDS	278491	279033	.	+	0	HTCC1013_00291	HTCC1013	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC1013_00292
+KI421437.1	Prodigal:2.6	CDS	279067	279840	.	-	0	HTCC1013_00292	HTCC1013	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC1013_00292
+KI421437.1	Prodigal:2.6	CDS	279849	280475	.	-	0	HTCC1013_00293	HTCC1013	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC1013_00292
+KI421437.1	Prodigal:2.6	CDS	279849	280475	.	-	0	HTCC1013_00293	HTCC1013	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC1013_00292
+KI421437.1	Prodigal:2.6	CDS	280472	281488	.	-	0	HTCC1013_00294	HTCC1013	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	HTCC1013_00292
+KI421437.1	Prodigal:2.6	CDS	281489	281809	.	-	0	HTCC1013_00295	HTCC1013	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	HTCC1013_00292
+KI421437.1	Prodigal:2.6	CDS	281893	282660	.	-	0	HTCC1013_00296	HTCC1013	255	OG0000173	K04643	sensory rhodopsin	COG5524	NA	Bacteriorhodopsin	HTCC1013_00292
+CP000084.1	Prodigal:2.6	CDS	614302	615069	.	+	0	HTCC1062_00639	HTCC1062	255	OG0000173	K04643	sensory rhodopsin	COG5524	NA	Bacteriorhodopsin	HTCC1062_00643
+CP000084.1	Prodigal:2.6	CDS	615153	615473	.	+	0	HTCC1062_00640	HTCC1062	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	HTCC1062_00643
+CP000084.1	Prodigal:2.6	CDS	615474	616490	.	+	0	HTCC1062_00641	HTCC1062	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	HTCC1062_00643
+CP000084.1	Prodigal:2.6	CDS	616487	617113	.	+	0	HTCC1062_00642	HTCC1062	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC1062_00643
+CP000084.1	Prodigal:2.6	CDS	616487	617113	.	+	0	HTCC1062_00642	HTCC1062	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC1062_00643
+CP000084.1	Prodigal:2.6	CDS	617122	617895	.	+	0	HTCC1062_00643	HTCC1062	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC1062_00643
+CP000084.1	Prodigal:2.6	CDS	617929	618471	.	-	0	HTCC1062_00644	HTCC1062	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC1062_00643
+CP000084.1	Prodigal:2.6	CDS	618550	619872	.	+	0	HTCC1062_00645	HTCC1062	440	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HTCC1062_00643
+CP000084.1	Prodigal:2.6	CDS	619869	620741	.	+	0	HTCC1062_00646	HTCC1062	290	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1062_00643
+CP000084.1	Prodigal:2.6	CDS	620734	622014	.	-	0	HTCC1062_00647	HTCC1062	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HTCC1062_00643
+CP000084.1	Prodigal:2.6	CDS	621992	622387	.	-	0	HTCC1062_00648	HTCC1062	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HTCC1062_00643
+ARVY01000001.1	Prodigal:2.6	CDS	461892	462659	.	+	0	HTCC1040_00487	HTCC1040	255	OG0000173	K04643	sensory rhodopsin	COG5524	NA	Bacteriorhodopsin	HTCC1040_00491
+ARVY01000001.1	Prodigal:2.6	CDS	462743	463063	.	+	0	HTCC1040_00488	HTCC1040	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	HTCC1040_00491
+ARVY01000001.1	Prodigal:2.6	CDS	463064	464080	.	+	0	HTCC1040_00489	HTCC1040	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	HTCC1040_00491
+ARVY01000001.1	Prodigal:2.6	CDS	464077	464703	.	+	0	HTCC1040_00490	HTCC1040	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC1040_00491
+ARVY01000001.1	Prodigal:2.6	CDS	464077	464703	.	+	0	HTCC1040_00490	HTCC1040	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC1040_00491
+ARVY01000001.1	Prodigal:2.6	CDS	464712	465485	.	+	0	HTCC1040_00491	HTCC1040	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC1040_00491
+ARVY01000001.1	Prodigal:2.6	CDS	465519	466061	.	-	0	HTCC1040_00492	HTCC1040	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC1040_00491
+ARVY01000001.1	Prodigal:2.6	CDS	466140	467462	.	+	0	HTCC1040_00493	HTCC1040	440	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HTCC1040_00491
+ARVY01000001.1	Prodigal:2.6	CDS	467459	468331	.	+	0	HTCC1040_00494	HTCC1040	290	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1040_00491
+ARVY01000001.1	Prodigal:2.6	CDS	468324	469604	.	-	0	HTCC1040_00495	HTCC1040	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HTCC1040_00491
+ARVY01000001.1	Prodigal:2.6	CDS	469582	469977	.	-	0	HTCC1040_00496	HTCC1040	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HTCC1040_00491
+CP038852.1	Prodigal:2.6	CDS	518995	520275	.	+	0	NP1_00590	NP1	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	NP1_00595
+CP038852.1	Prodigal:2.6	CDS	520268	521140	.	-	0	NP1_00591	NP1	290	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	NP1_00595
+CP038852.1	Prodigal:2.6	CDS	521137	521553	.	-	0	NP1_00592	NP1	138	OG0000720	NA	NA	NA	NA	NA	NP1_00595
+CP038852.1	Prodigal:2.6	CDS	521634	522458	.	-	0	NP1_00593	NP1	274	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	NP1_00595
+CP038852.1	Prodigal:2.6	CDS	522537	523079	.	+	0	NP1_00594	NP1	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	NP1_00595
+CP038852.1	Prodigal:2.6	CDS	523114	523887	.	-	0	NP1_00595	NP1	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	NP1_00595
+CP038852.1	Prodigal:2.6	CDS	523896	524522	.	-	0	NP1_00596	NP1	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	NP1_00595
+CP038852.1	Prodigal:2.6	CDS	523896	524522	.	-	0	NP1_00596	NP1	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	NP1_00595
+CP038852.1	Prodigal:2.6	CDS	524519	525535	.	-	0	NP1_00597	NP1	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	NP1_00595
+CP038852.1	Prodigal:2.6	CDS	525536	525856	.	-	0	NP1_00598	NP1	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	NP1_00595
+CP038852.1	Prodigal:2.6	CDS	525938	526708	.	-	0	NP1_00599	NP1	256	OG0000173	K04643	sensory rhodopsin	COG5524	NA	Bacteriorhodopsin	NP1_00595
+CP159811.1	Prodigal:2.6	CDS	225808	226128	.	+	0	Uisw_137_00240	Uisw_137	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_137_00244
+CP159811.1	Prodigal:2.6	CDS	226129	227145	.	+	0	Uisw_137_00241	Uisw_137	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_137_00244
+CP159811.1	Prodigal:2.6	CDS	227142	227768	.	+	0	Uisw_137_00242	Uisw_137	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_137_00244
+CP159811.1	Prodigal:2.6	CDS	227142	227768	.	+	0	Uisw_137_00242	Uisw_137	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_137_00244
+CP159811.1	Prodigal:2.6	CDS	227769	228596	.	-	0	Uisw_137_00243	Uisw_137	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_137_00244
+CP159811.1	Prodigal:2.6	CDS	228615	229406	.	+	0	Uisw_137_00244	Uisw_137	263	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_137_00244
+CP159811.1	Prodigal:2.6	CDS	229513	230361	.	+	0	Uisw_137_00245	Uisw_137	282	OG0001580	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_137_00244
+CP159811.1	Prodigal:2.6	CDS	230443	231114	.	+	0	Uisw_137_00246	Uisw_137	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_137_00244
+CP159811.1	Prodigal:2.6	CDS	231116	231793	.	+	0	Uisw_137_00247	Uisw_137	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_137_00244
+CP159811.1	Prodigal:2.6	CDS	231794	232588	.	+	0	Uisw_137_00248	Uisw_137	264	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_137_00244
+CP159811.1	Prodigal:2.6	CDS	232605	233147	.	-	0	Uisw_137_00249	Uisw_137	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_137_00244
+CP159821.1	Prodigal:2.6	CDS	210464	211234	.	+	0	Uisw_101_00223	Uisw_101	256	OG0000173	K04643	sensory rhodopsin	COG5524	NA	Bacteriorhodopsin	Uisw_101_00227
+CP159821.1	Prodigal:2.6	CDS	211316	211636	.	+	0	Uisw_101_00224	Uisw_101	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_101_00227
+CP159821.1	Prodigal:2.6	CDS	211637	212653	.	+	0	Uisw_101_00225	Uisw_101	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_101_00227
+CP159821.1	Prodigal:2.6	CDS	212650	213276	.	+	0	Uisw_101_00226	Uisw_101	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_101_00227
+CP159821.1	Prodigal:2.6	CDS	212650	213276	.	+	0	Uisw_101_00226	Uisw_101	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_101_00227
+CP159821.1	Prodigal:2.6	CDS	213285	214058	.	+	0	Uisw_101_00227	Uisw_101	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_101_00227
+CP159821.1	Prodigal:2.6	CDS	214113	214655	.	-	0	Uisw_101_00228	Uisw_101	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_101_00227
+CP159821.1	Prodigal:2.6	CDS	214734	216056	.	+	0	Uisw_101_00229	Uisw_101	440	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_101_00227
+CP159821.1	Prodigal:2.6	CDS	216053	216922	.	+	0	Uisw_101_00230	Uisw_101	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_101_00227
+CP159821.1	Prodigal:2.6	CDS	216919	218199	.	-	0	Uisw_101_00231	Uisw_101	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	Uisw_101_00227
+CP159821.1	Prodigal:2.6	CDS	218177	218572	.	-	0	Uisw_101_00232	Uisw_101	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	Uisw_101_00227
+CP159820.1	Prodigal:2.6	CDS	214400	215185	.	+	0	Uisw_104_00227	Uisw_104	261	OG0000173	K04643	sensory rhodopsin	COG5524	NA	Bacteriorhodopsin	Uisw_104_00231
+CP159820.1	Prodigal:2.6	CDS	215267	215587	.	+	0	Uisw_104_00228	Uisw_104	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_104_00231
+CP159820.1	Prodigal:2.6	CDS	215588	216604	.	+	0	Uisw_104_00229	Uisw_104	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_104_00231
+CP159820.1	Prodigal:2.6	CDS	216601	217227	.	+	0	Uisw_104_00230	Uisw_104	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_104_00231
+CP159820.1	Prodigal:2.6	CDS	216601	217227	.	+	0	Uisw_104_00230	Uisw_104	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_104_00231
+CP159820.1	Prodigal:2.6	CDS	217236	218009	.	+	0	Uisw_104_00231	Uisw_104	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_104_00231
+CP159820.1	Prodigal:2.6	CDS	218064	218606	.	-	0	Uisw_104_00232	Uisw_104	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_104_00231
+CP159820.1	Prodigal:2.6	CDS	218685	220007	.	+	0	Uisw_104_00233	Uisw_104	440	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_104_00231
+CP159820.1	Prodigal:2.6	CDS	220004	220876	.	+	0	Uisw_104_00234	Uisw_104	290	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_104_00231
+CP159820.1	Prodigal:2.6	CDS	220869	222149	.	-	0	Uisw_104_00235	Uisw_104	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	Uisw_104_00231
+CP159820.1	Prodigal:2.6	CDS	222127	222522	.	-	0	Uisw_104_00236	Uisw_104	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	Uisw_104_00231
+CP159819.1	Prodigal:2.6	CDS	244262	244624	.	+	0	Uisw_106_00267	Uisw_106	120	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_106_00271
+CP159819.1	Prodigal:2.6	CDS	244625	245641	.	+	0	Uisw_106_00268	Uisw_106	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_106_00271
+CP159819.1	Prodigal:2.6	CDS	245638	246264	.	+	0	Uisw_106_00269	Uisw_106	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_106_00271
+CP159819.1	Prodigal:2.6	CDS	245638	246264	.	+	0	Uisw_106_00269	Uisw_106	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_106_00271
+CP159819.1	Prodigal:2.6	CDS	246265	247092	.	-	0	Uisw_106_00270	Uisw_106	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_106_00271
+CP159819.1	Prodigal:2.6	CDS	247111	247902	.	+	0	Uisw_106_00271	Uisw_106	263	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_106_00271
+CP159819.1	Prodigal:2.6	CDS	248010	248861	.	+	0	Uisw_106_00272	Uisw_106	283	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_106_00271
+CP159819.1	Prodigal:2.6	CDS	248942	249613	.	+	0	Uisw_106_00273	Uisw_106	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_106_00271
+CP159819.1	Prodigal:2.6	CDS	249615	250292	.	+	0	Uisw_106_00274	Uisw_106	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_106_00271
+CP159819.1	Prodigal:2.6	CDS	250293	251081	.	+	0	Uisw_106_00275	Uisw_106	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_106_00271
+CP159819.1	Prodigal:2.6	CDS	251098	251640	.	-	0	Uisw_106_00276	Uisw_106	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_106_00271
+CP159812.1	Prodigal:2.6	CDS	231665	231985	.	+	0	Uisw_136_00240	Uisw_136	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_136_00244
+CP159812.1	Prodigal:2.6	CDS	231986	233002	.	+	0	Uisw_136_00241	Uisw_136	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_136_00244
+CP159812.1	Prodigal:2.6	CDS	232999	233625	.	+	0	Uisw_136_00242	Uisw_136	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_136_00244
+CP159812.1	Prodigal:2.6	CDS	232999	233625	.	+	0	Uisw_136_00242	Uisw_136	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_136_00244
+CP159812.1	Prodigal:2.6	CDS	233626	234453	.	-	0	Uisw_136_00243	Uisw_136	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_136_00244
+CP159812.1	Prodigal:2.6	CDS	234472	235263	.	+	0	Uisw_136_00244	Uisw_136	263	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_136_00244
+CP159812.1	Prodigal:2.6	CDS	235370	236221	.	+	0	Uisw_136_00245	Uisw_136	283	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_136_00244
+CP159812.1	Prodigal:2.6	CDS	236302	236973	.	+	0	Uisw_136_00246	Uisw_136	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_136_00244
+CP159812.1	Prodigal:2.6	CDS	236975	237652	.	+	0	Uisw_136_00247	Uisw_136	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_136_00244
+CP159812.1	Prodigal:2.6	CDS	237653	238441	.	+	0	Uisw_136_00248	Uisw_136	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_136_00244
+CP159812.1	Prodigal:2.6	CDS	238458	239000	.	-	0	Uisw_136_00249	Uisw_136	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_136_00244
+CP159809.1	Prodigal:2.6	CDS	972513	973055	.	+	0	Uisw_113_01058	Uisw_113	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_113_01063
+CP159809.1	Prodigal:2.6	CDS	973072	973860	.	-	0	Uisw_113_01059	Uisw_113	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_113_01063
+CP159809.1	Prodigal:2.6	CDS	973861	974538	.	-	0	Uisw_113_01060	Uisw_113	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_113_01063
+CP159809.1	Prodigal:2.6	CDS	974540	975211	.	-	0	Uisw_113_01061	Uisw_113	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_113_01063
+CP159809.1	Prodigal:2.6	CDS	975292	976143	.	-	0	Uisw_113_01062	Uisw_113	283	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_113_01063
+CP159809.1	Prodigal:2.6	CDS	976249	977040	.	-	0	Uisw_113_01063	Uisw_113	263	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_113_01063
+CP159809.1	Prodigal:2.6	CDS	977059	977886	.	+	0	Uisw_113_01064	Uisw_113	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_113_01063
+CP159809.1	Prodigal:2.6	CDS	977887	978513	.	-	0	Uisw_113_01065	Uisw_113	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_113_01063
+CP159809.1	Prodigal:2.6	CDS	977887	978513	.	-	0	Uisw_113_01065	Uisw_113	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_113_01063
+CP159809.1	Prodigal:2.6	CDS	978510	979526	.	-	0	Uisw_113_01066	Uisw_113	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_113_01063
+CP159809.1	Prodigal:2.6	CDS	979527	979847	.	-	0	Uisw_113_01067	Uisw_113	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_113_01063
+CP159817.1	Prodigal:2.6	CDS	228922	229692	.	+	0	Uisw_116_00259	Uisw_116	256	OG0000173	K04643	sensory rhodopsin	COG5524	NA	Bacteriorhodopsin	Uisw_116_00263
+CP159817.1	Prodigal:2.6	CDS	229774	230094	.	+	0	Uisw_116_00260	Uisw_116	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_116_00263
+CP159817.1	Prodigal:2.6	CDS	230095	231111	.	+	0	Uisw_116_00261	Uisw_116	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_116_00263
+CP159817.1	Prodigal:2.6	CDS	231108	231734	.	+	0	Uisw_116_00262	Uisw_116	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_116_00263
+CP159817.1	Prodigal:2.6	CDS	231108	231734	.	+	0	Uisw_116_00262	Uisw_116	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_116_00263
+CP159817.1	Prodigal:2.6	CDS	231743	232465	.	+	0	Uisw_116_00263	Uisw_116	240	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_116_00263
+CP159817.1	Prodigal:2.6	CDS	232536	233072	.	-	0	Uisw_116_00264	Uisw_116	178	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_116_00263
+CP159817.1	Prodigal:2.6	CDS	233151	234473	.	+	0	Uisw_116_00265	Uisw_116	440	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_116_00263
+CP159817.1	Prodigal:2.6	CDS	234470	235342	.	+	0	Uisw_116_00266	Uisw_116	290	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_116_00263
+CP159817.1	Prodigal:2.6	CDS	235335	236615	.	-	0	Uisw_116_00267	Uisw_116	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	Uisw_116_00263
+CP159817.1	Prodigal:2.6	CDS	236593	236988	.	-	0	Uisw_116_00268	Uisw_116	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	Uisw_116_00263
+CP159816.1	Prodigal:2.6	CDS	211561	212331	.	+	0	Uisw_121_00239	Uisw_121	256	OG0000173	K04643	sensory rhodopsin	COG5524	NA	Bacteriorhodopsin	Uisw_121_00243
+CP159816.1	Prodigal:2.6	CDS	212412	212732	.	+	0	Uisw_121_00240	Uisw_121	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_121_00243
+CP159816.1	Prodigal:2.6	CDS	212733	213749	.	+	0	Uisw_121_00241	Uisw_121	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_121_00243
+CP159816.1	Prodigal:2.6	CDS	213746	214372	.	+	0	Uisw_121_00242	Uisw_121	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_121_00243
+CP159816.1	Prodigal:2.6	CDS	213746	214372	.	+	0	Uisw_121_00242	Uisw_121	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_121_00243
+CP159816.1	Prodigal:2.6	CDS	214381	215154	.	+	0	Uisw_121_00243	Uisw_121	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_121_00243
+CP159816.1	Prodigal:2.6	CDS	215175	215711	.	-	0	Uisw_121_00244	Uisw_121	178	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_121_00243
+CP159816.1	Prodigal:2.6	CDS	215790	217112	.	+	0	Uisw_121_00245	Uisw_121	440	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_121_00243
+CP159816.1	Prodigal:2.6	CDS	217109	217981	.	+	0	Uisw_121_00246	Uisw_121	290	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_121_00243
+CP159816.1	Prodigal:2.6	CDS	217974	219254	.	-	0	Uisw_121_00247	Uisw_121	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	Uisw_121_00243
+CP159816.1	Prodigal:2.6	CDS	219232	219627	.	-	0	Uisw_121_00248	Uisw_121	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	Uisw_121_00243
+CP159818.1	Prodigal:2.6	CDS	232037	232399	.	+	0	Uisw_114_00284	Uisw_114	120	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_114_00288
+CP159818.1	Prodigal:2.6	CDS	232400	233416	.	+	0	Uisw_114_00285	Uisw_114	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_114_00288
+CP159818.1	Prodigal:2.6	CDS	233413	234039	.	+	0	Uisw_114_00286	Uisw_114	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_114_00288
+CP159818.1	Prodigal:2.6	CDS	233413	234039	.	+	0	Uisw_114_00286	Uisw_114	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_114_00288
+CP159818.1	Prodigal:2.6	CDS	234040	234867	.	-	0	Uisw_114_00287	Uisw_114	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_114_00288
+CP159818.1	Prodigal:2.6	CDS	234886	235677	.	+	0	Uisw_114_00288	Uisw_114	263	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_114_00288
+CP159818.1	Prodigal:2.6	CDS	235784	236635	.	+	0	Uisw_114_00289	Uisw_114	283	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_114_00288
+CP159818.1	Prodigal:2.6	CDS	236716	237387	.	+	0	Uisw_114_00290	Uisw_114	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_114_00288
+CP159818.1	Prodigal:2.6	CDS	237389	238066	.	+	0	Uisw_114_00291	Uisw_114	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_114_00288
+CP159818.1	Prodigal:2.6	CDS	238067	238855	.	+	0	Uisw_114_00292	Uisw_114	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_114_00288
+CP159818.1	Prodigal:2.6	CDS	238872	239414	.	-	0	Uisw_114_00293	Uisw_114	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_114_00288
+CP159814.1	Prodigal:2.6	CDS	231537	231857	.	+	0	Uisw_130_00250	Uisw_130	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_130_00254
+CP159814.1	Prodigal:2.6	CDS	231858	232874	.	+	0	Uisw_130_00251	Uisw_130	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_130_00254
+CP159814.1	Prodigal:2.6	CDS	232871	233497	.	+	0	Uisw_130_00252	Uisw_130	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_130_00254
+CP159814.1	Prodigal:2.6	CDS	232871	233497	.	+	0	Uisw_130_00252	Uisw_130	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_130_00254
+CP159814.1	Prodigal:2.6	CDS	233498	234325	.	-	0	Uisw_130_00253	Uisw_130	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_130_00254
+CP159814.1	Prodigal:2.6	CDS	234344	235135	.	+	0	Uisw_130_00254	Uisw_130	263	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_130_00254
+CP159814.1	Prodigal:2.6	CDS	235243	236094	.	+	0	Uisw_130_00255	Uisw_130	283	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_130_00254
+CP159814.1	Prodigal:2.6	CDS	236176	236847	.	+	0	Uisw_130_00256	Uisw_130	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_130_00254
+CP159814.1	Prodigal:2.6	CDS	236849	237526	.	+	0	Uisw_130_00257	Uisw_130	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_130_00254
+CP159814.1	Prodigal:2.6	CDS	237527	238315	.	+	0	Uisw_130_00258	Uisw_130	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_130_00254
+CP159814.1	Prodigal:2.6	CDS	238332	238874	.	-	0	Uisw_130_00259	Uisw_130	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_130_00254
+CP159824.1	Prodigal:2.6	CDS	949602	950144	.	+	0	Uisw_092_01082	Uisw_092	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_092_01087
+CP159824.1	Prodigal:2.6	CDS	950160	950948	.	-	0	Uisw_092_01083	Uisw_092	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_092_01087
+CP159824.1	Prodigal:2.6	CDS	950949	951626	.	-	0	Uisw_092_01084	Uisw_092	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_092_01087
+CP159824.1	Prodigal:2.6	CDS	951628	952176	.	-	0	Uisw_092_01085	Uisw_092	182	OG0000007	NA	NA	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_092_01087
+CP159824.1	Prodigal:2.6	CDS	952379	953230	.	-	0	Uisw_092_01086	Uisw_092	283	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_092_01087
+CP159824.1	Prodigal:2.6	CDS	953338	954129	.	-	0	Uisw_092_01087	Uisw_092	263	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_092_01087
+CP159824.1	Prodigal:2.6	CDS	954148	954975	.	+	0	Uisw_092_01088	Uisw_092	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_092_01087
+CP159824.1	Prodigal:2.6	CDS	955072	955188	.	+	0	Uisw_092_01089	Uisw_092	38	OG0002732	NA	NA	NA	NA	NA	Uisw_092_01087
+CP159824.1	Prodigal:2.6	CDS	955185	955280	.	+	0	Uisw_092_01090	Uisw_092	31	OG0001404	NA	NA	NA	NA	NA	Uisw_092_01087
+CP159824.1	Prodigal:2.6	CDS	955285	955911	.	-	0	Uisw_092_01091	Uisw_092	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_092_01087
+CP159824.1	Prodigal:2.6	CDS	955285	955911	.	-	0	Uisw_092_01091	Uisw_092	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_092_01087
+CP159810.1	Prodigal:2.6	CDS	178201	178563	.	+	0	Uisw_090_00194	Uisw_090	120	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_090_00198
+CP159810.1	Prodigal:2.6	CDS	178564	179580	.	+	0	Uisw_090_00195	Uisw_090	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_090_00198
+CP159810.1	Prodigal:2.6	CDS	179577	180203	.	+	0	Uisw_090_00196	Uisw_090	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_090_00198
+CP159810.1	Prodigal:2.6	CDS	179577	180203	.	+	0	Uisw_090_00196	Uisw_090	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_090_00198
+CP159810.1	Prodigal:2.6	CDS	180204	181031	.	-	0	Uisw_090_00197	Uisw_090	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_090_00198
+CP159810.1	Prodigal:2.6	CDS	181050	181841	.	+	0	Uisw_090_00198	Uisw_090	263	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_090_00198
+CP159810.1	Prodigal:2.6	CDS	181949	182800	.	+	0	Uisw_090_00199	Uisw_090	283	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_090_00198
+CP159810.1	Prodigal:2.6	CDS	182881	183552	.	+	0	Uisw_090_00200	Uisw_090	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_090_00198
+CP159810.1	Prodigal:2.6	CDS	183554	184231	.	+	0	Uisw_090_00201	Uisw_090	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_090_00198
+CP159810.1	Prodigal:2.6	CDS	184232	185020	.	+	0	Uisw_090_00202	Uisw_090	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_090_00198
+CP159810.1	Prodigal:2.6	CDS	185037	185579	.	-	0	Uisw_090_00203	Uisw_090	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_090_00198
+CP159815.1	Prodigal:2.6	CDS	224931	225701	.	+	0	Uisw_127_00237	Uisw_127	256	OG0000173	K04643	sensory rhodopsin	COG5524	NA	Bacteriorhodopsin	Uisw_127_00241
+CP159815.1	Prodigal:2.6	CDS	225783	226103	.	+	0	Uisw_127_00238	Uisw_127	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_127_00241
+CP159815.1	Prodigal:2.6	CDS	226104	227120	.	+	0	Uisw_127_00239	Uisw_127	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_127_00241
+CP159815.1	Prodigal:2.6	CDS	227117	227743	.	+	0	Uisw_127_00240	Uisw_127	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_127_00241
+CP159815.1	Prodigal:2.6	CDS	227117	227743	.	+	0	Uisw_127_00240	Uisw_127	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_127_00241
+CP159815.1	Prodigal:2.6	CDS	227751	228530	.	+	0	Uisw_127_00241	Uisw_127	259	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_127_00241
+CP159815.1	Prodigal:2.6	CDS	228580	229122	.	-	0	Uisw_127_00242	Uisw_127	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_127_00241
+CP159815.1	Prodigal:2.6	CDS	229230	230552	.	+	0	Uisw_127_00243	Uisw_127	440	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_127_00241
+CP159815.1	Prodigal:2.6	CDS	230549	231421	.	+	0	Uisw_127_00244	Uisw_127	290	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_127_00241
+CP159815.1	Prodigal:2.6	CDS	231414	232694	.	-	0	Uisw_127_00245	Uisw_127	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	Uisw_127_00241
+CP159815.1	Prodigal:2.6	CDS	232672	233067	.	-	0	Uisw_127_00246	Uisw_127	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	Uisw_127_00241
+CP159822.1	Prodigal:2.6	CDS	873733	874275	.	+	0	Uisw_099_02_00971	Uisw_099_02	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_099_02_00976
+CP159822.1	Prodigal:2.6	CDS	874291	875085	.	-	0	Uisw_099_02_00972	Uisw_099_02	264	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_099_02_00976
+CP159822.1	Prodigal:2.6	CDS	875086	875763	.	-	0	Uisw_099_02_00973	Uisw_099_02	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_099_02_00976
+CP159822.1	Prodigal:2.6	CDS	875765	876436	.	-	0	Uisw_099_02_00974	Uisw_099_02	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_099_02_00976
+CP159822.1	Prodigal:2.6	CDS	876518	877366	.	-	0	Uisw_099_02_00975	Uisw_099_02	282	OG0001580	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_099_02_00976
+CP159822.1	Prodigal:2.6	CDS	877472	878263	.	-	0	Uisw_099_02_00976	Uisw_099_02	263	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_099_02_00976
+CP159822.1	Prodigal:2.6	CDS	878276	878902	.	-	0	Uisw_099_02_00977	Uisw_099_02	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_099_02_00976
+CP159822.1	Prodigal:2.6	CDS	878276	878902	.	-	0	Uisw_099_02_00977	Uisw_099_02	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_099_02_00976
+CP159822.1	Prodigal:2.6	CDS	878899	879915	.	-	0	Uisw_099_02_00978	Uisw_099_02	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_099_02_00976
+CP159822.1	Prodigal:2.6	CDS	879916	880236	.	-	0	Uisw_099_02_00979	Uisw_099_02	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_099_02_00976
+CP159822.1	Prodigal:2.6	CDS	880318	881088	.	-	0	Uisw_099_02_00980	Uisw_099_02	256	OG0000173	K04643	sensory rhodopsin	COG5524	NA	Bacteriorhodopsin	Uisw_099_02_00976
+NZ_LANA01000001.1	Prodigal:2.6	CDS	107715	108257	.	+	0	HTCC9565_00116	HTCC9565	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC9565_00121
+NZ_LANA01000001.1	Prodigal:2.6	CDS	108272	109066	.	-	0	HTCC9565_00117	HTCC9565	264	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HTCC9565_00121
+NZ_LANA01000001.1	Prodigal:2.6	CDS	109067	109744	.	-	0	HTCC9565_00118	HTCC9565	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC9565_00121
+NZ_LANA01000001.1	Prodigal:2.6	CDS	109746	110417	.	-	0	HTCC9565_00119	HTCC9565	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC9565_00121
+NZ_LANA01000001.1	Prodigal:2.6	CDS	110496	111341	.	-	0	HTCC9565_00120	HTCC9565	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HTCC9565_00121
+NZ_LANA01000001.1	Prodigal:2.6	CDS	111448	112230	.	-	0	HTCC9565_00121	HTCC9565	260	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC9565_00121
+NZ_LANA01000001.1	Prodigal:2.6	CDS	112249	113076	.	+	0	HTCC9565_00122	HTCC9565	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HTCC9565_00121
+NZ_LANA01000001.1	Prodigal:2.6	CDS	113083	113196	.	+	0	HTCC9565_00123	HTCC9565	37	OG0002732	NA	NA	NA	NA	NA	HTCC9565_00121
+NZ_LANA01000001.1	Prodigal:2.6	CDS	113197	113292	.	+	0	HTCC9565_00124	HTCC9565	31	OG0001404	NA	NA	NA	NA	NA	HTCC9565_00121
+NZ_LANA01000001.1	Prodigal:2.6	CDS	113297	113923	.	-	0	HTCC9565_00125	HTCC9565	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC9565_00121
+NZ_LANA01000001.1	Prodigal:2.6	CDS	113297	113923	.	-	0	HTCC9565_00125	HTCC9565	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC9565_00121
+CP159813.1	Prodigal:2.6	CDS	226234	227250	.	+	0	Uisw_134_02_00239	Uisw_134_02	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_134_02_00243
+CP159813.1	Prodigal:2.6	CDS	227247	227873	.	+	0	Uisw_134_02_00240	Uisw_134_02	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_134_02_00243
+CP159813.1	Prodigal:2.6	CDS	227247	227873	.	+	0	Uisw_134_02_00240	Uisw_134_02	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_134_02_00243
+CP159813.1	Prodigal:2.6	CDS	227972	228085	.	-	0	Uisw_134_02_00241	Uisw_134_02	37	OG0002732	NA	NA	NA	NA	NA	Uisw_134_02_00243
+CP159813.1	Prodigal:2.6	CDS	228092	228919	.	-	0	Uisw_134_02_00242	Uisw_134_02	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_134_02_00243
+CP159813.1	Prodigal:2.6	CDS	228938	229729	.	+	0	Uisw_134_02_00243	Uisw_134_02	263	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_134_02_00243
+CP159813.1	Prodigal:2.6	CDS	229835	230680	.	+	0	Uisw_134_02_00244	Uisw_134_02	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_134_02_00243
+CP159813.1	Prodigal:2.6	CDS	230764	231435	.	+	0	Uisw_134_02_00245	Uisw_134_02	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_134_02_00243
+CP159813.1	Prodigal:2.6	CDS	231435	232112	.	+	0	Uisw_134_02_00246	Uisw_134_02	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_134_02_00243
+CP159813.1	Prodigal:2.6	CDS	232113	232907	.	+	0	Uisw_134_02_00247	Uisw_134_02	264	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_134_02_00243
+CP159813.1	Prodigal:2.6	CDS	232924	233466	.	-	0	Uisw_134_02_00248	Uisw_134_02	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_134_02_00243
+DS995298.1	Prodigal:2.6	CDS	530860	531876	.	+	0	HTCC7211_00561	HTCC7211	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	HTCC7211_00565
+DS995298.1	Prodigal:2.6	CDS	531873	532499	.	+	0	HTCC7211_00562	HTCC7211	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC7211_00565
+DS995298.1	Prodigal:2.6	CDS	531873	532499	.	+	0	HTCC7211_00562	HTCC7211	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC7211_00565
+DS995298.1	Prodigal:2.6	CDS	532769	534460	.	-	0	HTCC7211_00563	HTCC7211	563	OG0001301	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	HTCC7211_00565
+DS995298.1	Prodigal:2.6	CDS	534462	535289	.	-	0	HTCC7211_00564	HTCC7211	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HTCC7211_00565
+DS995298.1	Prodigal:2.6	CDS	535309	536094	.	+	0	HTCC7211_00565	HTCC7211	261	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC7211_00565
+DS995298.1	Prodigal:2.6	CDS	536196	537041	.	+	0	HTCC7211_00566	HTCC7211	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HTCC7211_00565
+DS995298.1	Prodigal:2.6	CDS	537115	537786	.	+	0	HTCC7211_00567	HTCC7211	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC7211_00565
+DS995298.1	Prodigal:2.6	CDS	537788	538474	.	+	0	HTCC7211_00568	HTCC7211	228	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC7211_00565
+DS995298.1	Prodigal:2.6	CDS	538476	539264	.	+	0	HTCC7211_00569	HTCC7211	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HTCC7211_00565
+DS995298.1	Prodigal:2.6	CDS	539271	539813	.	-	0	HTCC7211_00570	HTCC7211	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC7211_00565
+KL370779.1	Prodigal:2.6	CDS	112165	112707	.	+	0	HTCC7214_00111	HTCC7214	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC7214_00116
+KL370779.1	Prodigal:2.6	CDS	112714	113502	.	-	0	HTCC7214_00112	HTCC7214	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HTCC7214_00116
+KL370779.1	Prodigal:2.6	CDS	113504	114190	.	-	0	HTCC7214_00113	HTCC7214	228	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC7214_00116
+KL370779.1	Prodigal:2.6	CDS	114192	114863	.	-	0	HTCC7214_00114	HTCC7214	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC7214_00116
+KL370779.1	Prodigal:2.6	CDS	114935	115780	.	-	0	HTCC7214_00115	HTCC7214	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HTCC7214_00116
+KL370779.1	Prodigal:2.6	CDS	115883	116668	.	-	0	HTCC7214_00116	HTCC7214	261	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC7214_00116
+KL370779.1	Prodigal:2.6	CDS	116688	117515	.	+	0	HTCC7214_00117	HTCC7214	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HTCC7214_00116
+KL370779.1	Prodigal:2.6	CDS	117733	118359	.	-	0	HTCC7214_00118	HTCC7214	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC7214_00116
+KL370779.1	Prodigal:2.6	CDS	117733	118359	.	-	0	HTCC7214_00118	HTCC7214	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC7214_00116
+KL370779.1	Prodigal:2.6	CDS	118356	119372	.	-	0	HTCC7214_00119	HTCC7214	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	HTCC7214_00116
+KL370779.1	Prodigal:2.6	CDS	119373	119693	.	-	0	HTCC7214_00120	HTCC7214	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	HTCC7214_00116
+JNIU01000001.1	Prodigal:2.6	CDS	1331117	1331743	.	+	0	HTCC7217_01428	HTCC7217	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC7217_01432
+JNIU01000001.1	Prodigal:2.6	CDS	1331117	1331743	.	+	0	HTCC7217_01428	HTCC7217	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC7217_01432
+JNIU01000001.1	Prodigal:2.6	CDS	1331745	1331840	.	-	0	HTCC7217_01429	HTCC7217	31	OG0001404	NA	NA	NA	NA	NA	HTCC7217_01432
+JNIU01000001.1	Prodigal:2.6	CDS	1331837	1331953	.	-	0	HTCC7217_01430	HTCC7217	38	OG0002732	NA	NA	NA	NA	NA	HTCC7217_01432
+JNIU01000001.1	Prodigal:2.6	CDS	1331960	1332787	.	-	0	HTCC7217_01431	HTCC7217	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HTCC7217_01432
+JNIU01000001.1	Prodigal:2.6	CDS	1332807	1333592	.	+	0	HTCC7217_01432	HTCC7217	261	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC7217_01432
+JNIU01000001.1	Prodigal:2.6	CDS	1333694	1334539	.	+	0	HTCC7217_01433	HTCC7217	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HTCC7217_01432
+JNIU01000001.1	Prodigal:2.6	CDS	1334613	1335284	.	+	0	HTCC7217_01434	HTCC7217	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC7217_01432
+JNIU01000001.1	Prodigal:2.6	CDS	1335286	1335972	.	+	0	HTCC7217_01435	HTCC7217	228	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC7217_01432
+JNIU01000001.1	Prodigal:2.6	CDS	1335974	1336762	.	+	0	HTCC7217_01436	HTCC7217	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HTCC7217_01432
+JNIU01000001.1	Prodigal:2.6	CDS	1336774	1337316	.	-	0	HTCC7217_01437	HTCC7217	180	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC7217_01432
+HIMB1520-00000000001	Prodigal:2.6	CDS	535724	536275	.	+	0	HIMB1520_00613	HIMB1520	183	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HIMB1520_00618
+HIMB1520-00000000001	Prodigal:2.6	CDS	536276	537067	.	-	0	HIMB1520_00614	HIMB1520	263	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1520_00618
+HIMB1520-00000000001	Prodigal:2.6	CDS	537071	537748	.	-	0	HIMB1520_00615	HIMB1520	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1520_00618
+HIMB1520-00000000001	Prodigal:2.6	CDS	537751	538458	.	-	0	HIMB1520_00616	HIMB1520	235	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1520_00618
+HIMB1520-00000000001	Prodigal:2.6	CDS	538497	539339	.	-	0	HIMB1520_00617	HIMB1520	280	OG0001580	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1520_00618
+HIMB1520-00000000001	Prodigal:2.6	CDS	539496	540281	.	-	0	HIMB1520_00618	HIMB1520	261	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1520_00618
+HIMB1520-00000000001	Prodigal:2.6	CDS	540299	541126	.	+	0	HIMB1520_00619	HIMB1520	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1520_00618
+HIMB1520-00000000001	Prodigal:2.6	CDS	541127	541753	.	-	0	HIMB1520_00620	HIMB1520	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HIMB1520_00618
+HIMB1520-00000000001	Prodigal:2.6	CDS	541127	541753	.	-	0	HIMB1520_00620	HIMB1520	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HIMB1520_00618
+HIMB1520-00000000001	Prodigal:2.6	CDS	541746	542768	.	-	0	HIMB1520_00621	HIMB1520	340	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	HIMB1520_00618
+HIMB1520-00000000001	Prodigal:2.6	CDS	542768	543088	.	-	0	HIMB1520_00622	HIMB1520	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	HIMB1520_00618
+LT840186.1	Prodigal:2.6	CDS	175895	176800	.	+	0	HIMB1321_00184	HIMB1321	301	OG0000900	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1321_00189
+LT840186.1	Prodigal:2.6	CDS	176808	178025	.	+	0	HIMB1321_00185	HIMB1321	405	OG0001232	K08688	creatinase [EC:3.5.3.3]	COG0006	PepP	Xaa-Pro aminopeptidase	HIMB1321_00189
+LT840186.1	Prodigal:2.6	CDS	178031	179146	.	+	0	HIMB1321_00186	HIMB1321	371	OG0000914	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	HIMB1321_00189
+LT840186.1	Prodigal:2.6	CDS	179148	180200	.	+	0	HIMB1321_00187	HIMB1321	350	OG0001223	K01620	threonine aldolase [EC:4.1.2.48]	COG2008	GLY1	Threonine aldolase	HIMB1321_00189
+LT840186.1	Prodigal:2.6	CDS	180205	181032	.	-	0	HIMB1321_00188	HIMB1321	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1321_00189
+LT840186.1	Prodigal:2.6	CDS	181054	181821	.	+	0	HIMB1321_00189	HIMB1321	255	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1321_00189
+LT840186.1	Prodigal:2.6	CDS	181814	182041	.	-	0	HIMB1321_00190	HIMB1321	75	OG0001050	NA	NA	NA	NA	NA	HIMB1321_00189
+LT840186.1	Prodigal:2.6	CDS	182453	183103	.	+	0	HIMB1321_00191	HIMB1321	216	OG0001414	NA	NA	NA	NA	NA	HIMB1321_00189
+LT840186.1	Prodigal:2.6	CDS	183149	184546	.	+	0	HIMB1321_00192	HIMB1321	465	OG0004232	NA	NA	COG3597	NA	Uncharacterized conserved protein, DUF697 family	HIMB1321_00189
+LT840186.1	Prodigal:2.6	CDS	184603	184845	.	+	0	HIMB1321_00193	HIMB1321	80	OG0001887	NA	NA	NA	NA	NA	HIMB1321_00189
+LT840186.1	Prodigal:2.6	CDS	184846	185232	.	+	0	HIMB1321_00194	HIMB1321	128	OG0001837	NA	NA	NA	NA	NA	HIMB1321_00189
+HIMB1527-00000000001	Prodigal:2.6	CDS	32363	34093	.	-	0	HIMB1527_00033	HIMB1527	576	OG0001869	NA	NA	COG4249	NA	Uncharacterized conserved protein, contains caspase domain	HIMB1527_00038
+HIMB1527-00000000001	Prodigal:2.6	CDS	34093	36693	.	-	0	HIMB1527_00034	HIMB1527	866	OG0001869	NA	NA	COG4249	NA	Uncharacterized conserved protein, contains caspase domain	HIMB1527_00038
+HIMB1527-00000000001	Prodigal:2.6	CDS	36693	38810	.	-	0	HIMB1527_00035	HIMB1527	705	OG0001869	K22684	metacaspase-1 [EC:3.4.22.-]	COG4249	NA	Uncharacterized conserved protein, contains caspase domain	HIMB1527_00038
+HIMB1527-00000000001	Prodigal:2.6	CDS	38810	42034	.	-	0	HIMB1527_00036	HIMB1527	1074	OG0001869	NA	NA	COG4249	NA	Uncharacterized conserved protein, contains caspase domain	HIMB1527_00038
+HIMB1527-00000000001	Prodigal:2.6	CDS	42178	42405	.	+	0	HIMB1527_00037	HIMB1527	75	OG0001050	NA	NA	NA	NA	NA	HIMB1527_00038
+HIMB1527-00000000001	Prodigal:2.6	CDS	42398	43165	.	-	0	HIMB1527_00038	HIMB1527	255	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1527_00038
+HIMB1527-00000000001	Prodigal:2.6	CDS	43187	44014	.	+	0	HIMB1527_00039	HIMB1527	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1527_00038
+HIMB1527-00000000001	Prodigal:2.6	CDS	44015	45016	.	+	0	HIMB1527_00040	HIMB1527	333	OG0000746	K01754	threonine dehydratase [EC:4.3.1.19]	COG1171	IlvA	Threonine deaminase	HIMB1527_00038
+HIMB1527-00000000001	Prodigal:2.6	CDS	45006	46001	.	+	0	HIMB1527_00041	HIMB1527	331	OG0003169	NA	NA	COG2423	OCDMu	Ornithine cyclodeaminase/archaeal alanine dehydrogenase, mu-crystallin family	HIMB1527_00038
+HIMB1527-00000000001	Prodigal:2.6	CDS	45998	47368	.	-	0	HIMB1527_00042	HIMB1527	456	OG0000092	K15785	L-2,4-diaminobutyrate transaminase [EC:2.6.1.76]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	HIMB1527_00038
+HIMB1527-00000000001	Prodigal:2.6	CDS	47419	48534	.	-	0	HIMB1527_00043	HIMB1527	371	OG0000914	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	HIMB1527_00038
+HIMB1505-00000000002	Prodigal:2.6	CDS	119889	121004	.	+	0	HIMB1505_01393	HIMB1505	371	OG0000914	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	HIMB1505_01398
+HIMB1505-00000000002	Prodigal:2.6	CDS	121055	122425	.	+	0	HIMB1505_01394	HIMB1505	456	OG0000092	K15785	L-2,4-diaminobutyrate transaminase [EC:2.6.1.76]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	HIMB1505_01398
+HIMB1505-00000000002	Prodigal:2.6	CDS	122422	123417	.	-	0	HIMB1505_01395	HIMB1505	331	OG0003169	NA	NA	COG2423	OCDMu	Ornithine cyclodeaminase/archaeal alanine dehydrogenase, mu-crystallin family	HIMB1505_01398
+HIMB1505-00000000002	Prodigal:2.6	CDS	123407	124408	.	-	0	HIMB1505_01396	HIMB1505	333	OG0000746	K01754	threonine dehydratase [EC:4.3.1.19]	COG1171	IlvA	Threonine deaminase	HIMB1505_01398
+HIMB1505-00000000002	Prodigal:2.6	CDS	124471	125295	.	-	0	HIMB1505_01397	HIMB1505	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1505_01398
+HIMB1505-00000000002	Prodigal:2.6	CDS	125314	126099	.	+	0	HIMB1505_01398	HIMB1505	261	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1505_01398
+HIMB1505-00000000002	Prodigal:2.6	CDS	126183	127028	.	+	0	HIMB1505_01399	HIMB1505	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1505_01398
+HIMB1505-00000000002	Prodigal:2.6	CDS	127093	127764	.	+	0	HIMB1505_01400	HIMB1505	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1505_01398
+HIMB1505-00000000002	Prodigal:2.6	CDS	127768	128454	.	+	0	HIMB1505_01401	HIMB1505	228	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1505_01398
+HIMB1505-00000000002	Prodigal:2.6	CDS	128455	129240	.	+	0	HIMB1505_01402	HIMB1505	261	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1505_01398
+HIMB1505-00000000002	Prodigal:2.6	CDS	129241	129468	.	-	0	HIMB1505_01403	HIMB1505	75	OG0001050	NA	NA	NA	NA	NA	HIMB1505_01398
+HIMB1549-00000000001	Prodigal:2.6	CDS	822985	823863	.	-	0	HIMB1549_00889	HIMB1549	292	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1549_00894
+HIMB1549-00000000001	Prodigal:2.6	CDS	823945	824670	.	+	0	HIMB1549_00890	HIMB1549	241	OG0002618	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	HIMB1549_00894
+HIMB1549-00000000001	Prodigal:2.6	CDS	824667	825686	.	-	0	HIMB1549_00891	HIMB1549	339	OG0001345	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1549_00894
+HIMB1549-00000000001	Prodigal:2.6	CDS	825736	826221	.	+	0	HIMB1549_00892	HIMB1549	161	OG0001191	K09767	cyclic-di-GMP-binding protein	COG1666	YajQ	Cyclic di-GMP-binding protein YajQ, UPF0234 family	HIMB1549_00894
+HIMB1549-00000000001	Prodigal:2.6	CDS	826228	826455	.	+	0	HIMB1549_00893	HIMB1549	75	OG0001050	NA	NA	NA	NA	NA	HIMB1549_00894
+HIMB1549-00000000001	Prodigal:2.6	CDS	826448	827215	.	-	0	HIMB1549_00894	HIMB1549	255	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1549_00894
+HIMB1549-00000000001	Prodigal:2.6	CDS	827237	828064	.	+	0	HIMB1549_00895	HIMB1549	275	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1549_00894
+HIMB1549-00000000001	Prodigal:2.6	CDS	828065	829066	.	+	0	HIMB1549_00896	HIMB1549	333	OG0000746	K01754	threonine dehydratase [EC:4.3.1.19]	COG1171	IlvA	Threonine deaminase	HIMB1549_00894
+HIMB1549-00000000001	Prodigal:2.6	CDS	829056	830051	.	+	0	HIMB1549_00897	HIMB1549	331	OG0003169	NA	NA	COG2423	OCDMu	Ornithine cyclodeaminase/archaeal alanine dehydrogenase, mu-crystallin family	HIMB1549_00894
+HIMB1549-00000000001	Prodigal:2.6	CDS	830048	831418	.	-	0	HIMB1549_00898	HIMB1549	456	OG0000092	K15785	L-2,4-diaminobutyrate transaminase [EC:2.6.1.76]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	HIMB1549_00894
+HIMB1549-00000000001	Prodigal:2.6	CDS	831470	832585	.	-	0	HIMB1549_00899	HIMB1549	371	OG0000914	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	HIMB1549_00894
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	164983	165210	.	+	0	HIMB4_00182	HIMB4	75	OG0001050	NA	NA	NA	NA	NA	HIMB4_00187
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	165211	165996	.	-	0	HIMB4_00183	HIMB4	261	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB4_00187
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	165997	166683	.	-	0	HIMB4_00184	HIMB4	228	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB4_00187
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	166687	167358	.	-	0	HIMB4_00185	HIMB4	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB4_00187
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	167423	168268	.	-	0	HIMB4_00186	HIMB4	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB4_00187
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	168351	169136	.	-	0	HIMB4_00187	HIMB4	261	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB4_00187
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	169155	169979	.	+	0	HIMB4_00188	HIMB4	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB4_00187
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	170042	171040	.	+	0	HIMB4_00189	HIMB4	332	OG0000746	K01754	threonine dehydratase [EC:4.3.1.19]	COG1171	IlvA	Threonine deaminase	HIMB4_00187
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	171033	172028	.	+	0	HIMB4_00190	HIMB4	331	OG0003169	NA	NA	COG2423	OCDMu	Ornithine cyclodeaminase/archaeal alanine dehydrogenase, mu-crystallin family	HIMB4_00187
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	172025	173395	.	-	0	HIMB4_00191	HIMB4	456	OG0000092	K15785	L-2,4-diaminobutyrate transaminase [EC:2.6.1.76]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	HIMB4_00187
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	173446	174561	.	-	0	HIMB4_00192	HIMB4	371	OG0000914	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	HIMB4_00187
+KI421440.1	Prodigal:2.6	CDS	215400	216416	.	+	0	HTCC8051_00220	HTCC8051	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	HTCC8051_00224
+KI421440.1	Prodigal:2.6	CDS	216413	217042	.	+	0	HTCC8051_00221	HTCC8051	209	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC8051_00224
+KI421440.1	Prodigal:2.6	CDS	216413	217042	.	+	0	HTCC8051_00221	HTCC8051	209	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC8051_00224
+KI421440.1	Prodigal:2.6	CDS	217039	218112	.	-	0	HTCC8051_00222	HTCC8051	357	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HTCC8051_00224
+KI421440.1	Prodigal:2.6	CDS	218105	219118	.	-	0	HTCC8051_00223	HTCC8051	337	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HTCC8051_00224
+KI421440.1	Prodigal:2.6	CDS	219172	219957	.	+	0	HTCC8051_00224	HTCC8051	261	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC8051_00224
+KI421440.1	Prodigal:2.6	CDS	219962	220483	.	-	0	HTCC8051_00225	HTCC8051	173	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC8051_00224
+KI421440.1	Prodigal:2.6	CDS	220562	221884	.	+	0	HTCC8051_00226	HTCC8051	440	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HTCC8051_00224
+KI421440.1	Prodigal:2.6	CDS	221887	222759	.	+	0	HTCC8051_00227	HTCC8051	290	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC8051_00224
+KI421440.1	Prodigal:2.6	CDS	222824	223045	.	-	0	HTCC8051_00228	HTCC8051	73	OG0001319	NA	NA	NA	NA	NA	HTCC8051_00224
+KI421440.1	Prodigal:2.6	CDS	223130	224071	.	-	0	HTCC8051_00229	HTCC8051	313	OG0001672	NA	NA	NA	NA	NA	HTCC8051_00224
+KI421433.1	Prodigal:2.6	CDS	127607	128608	.	+	0	HTCC9022_00687	HTCC9022	333	OG0001331	NA	NA	COG3239	DesA	Fatty acid desaturase	HTCC9022_00691
+KI421433.1	Prodigal:2.6	CDS	128670	128990	.	+	0	HTCC9022_00688	HTCC9022	106	OG0000231	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	HTCC9022_00691
+KI421433.1	Prodigal:2.6	CDS	128991	130007	.	+	0	HTCC9022_00689	HTCC9022	338	OG0000251	NA	NA	COG0492	TrxB	Thioredoxin reductase	HTCC9022_00691
+KI421433.1	Prodigal:2.6	CDS	130004	130630	.	+	0	HTCC9022_00690	HTCC9022	208	OG0000217	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC9022_00691
+KI421433.1	Prodigal:2.6	CDS	130004	130630	.	+	0	HTCC9022_00690	HTCC9022	208	OG0000217	K00799	glutathione S-transferase [EC:2.5.1.18]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC9022_00691
+KI421433.1	Prodigal:2.6	CDS	130693	131481	.	+	0	HTCC9022_00691	HTCC9022	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC9022_00691
+KI421433.1	Prodigal:2.6	CDS	131491	132027	.	-	0	HTCC9022_00692	HTCC9022	178	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC9022_00691
+KI421433.1	Prodigal:2.6	CDS	132106	133428	.	+	0	HTCC9022_00693	HTCC9022	440	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HTCC9022_00691
+KI421433.1	Prodigal:2.6	CDS	133431	134303	.	+	0	HTCC9022_00694	HTCC9022	290	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC9022_00691
+KI421433.1	Prodigal:2.6	CDS	134306	135751	.	+	0	HTCC9022_00695	HTCC9022	481	OG0001308	NA	NA	COG5267	NA	Uncharacterized conserved protein, DUF1800 family	HTCC9022_00691
+KI421433.1	Prodigal:2.6	CDS	135748	136914	.	+	0	HTCC9022_00696	HTCC9022	388	OG0001314	NA	NA	COG4102	NA	Uncharacterized conserved protein, DUF1501 family	HTCC9022_00691
+HIMB2304-00000000091	Prodigal:2.6	CDS	40	447	.	+	0	HIMB2304_00359	HIMB2304	135	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB2304_00359
+HIMB2304-00000000091	Prodigal:2.6	CDS	545	1390	.	+	0	HIMB2304_00360	HIMB2304	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB2304_00359
+HIMB2304-00000000091	Prodigal:2.6	CDS	1461	2132	.	+	0	HIMB2304_00361	HIMB2304	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB2304_00359
+HIMB2304-00000000091	Prodigal:2.6	CDS	2136	2813	.	+	0	HIMB2304_00362	HIMB2304	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB2304_00359
+HIMB2304-00000000091	Prodigal:2.6	CDS	2817	3605	.	+	0	HIMB2304_00363	HIMB2304	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB2304_00359
+HIMB2304-00000000091	Prodigal:2.6	CDS	3614	4930	.	-	0	HIMB2304_00364	HIMB2304	438	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB2304_00359
+HIMB1685-00000000001	Prodigal:2.6	CDS	503629	504936	.	+	0	HIMB1685_00569	HIMB1685	435	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1685_00574
+HIMB1685-00000000001	Prodigal:2.6	CDS	504947	505738	.	-	0	HIMB1685_00570	HIMB1685	263	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1685_00574
+HIMB1685-00000000001	Prodigal:2.6	CDS	505743	506420	.	-	0	HIMB1685_00571	HIMB1685	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1685_00574
+HIMB1685-00000000001	Prodigal:2.6	CDS	506424	507095	.	-	0	HIMB1685_00572	HIMB1685	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1685_00574
+HIMB1685-00000000001	Prodigal:2.6	CDS	507162	508007	.	-	0	HIMB1685_00573	HIMB1685	281	OG0001580	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1685_00574
+HIMB1685-00000000001	Prodigal:2.6	CDS	508107	508895	.	-	0	HIMB1685_00574	HIMB1685	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1685_00574
+HIMB1685-00000000001	Prodigal:2.6	CDS	508915	509739	.	+	0	HIMB1685_00575	HIMB1685	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1685_00574
+HIMB1685-00000000001	Prodigal:2.6	CDS	509744	510424	.	+	0	HIMB1685_00576	HIMB1685	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1685_00574
+HIMB1685-00000000001	Prodigal:2.6	CDS	510452	511462	.	+	0	HIMB1685_00577	HIMB1685	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1685_00574
+HIMB1685-00000000001	Prodigal:2.6	CDS	511459	512532	.	+	0	HIMB1685_00578	HIMB1685	357	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1685_00574
+HIMB1685-00000000001	Prodigal:2.6	CDS	512556	513485	.	+	0	HIMB1685_00579	HIMB1685	309	OG0001216	NA	NA	COG0400	YpfH	Palmitoyl-CoA esterase	HIMB1685_00574
+HIMB1559-00000000001	Prodigal:2.6	CDS	1463968	1465041	.	-	0	HIMB1559_01573	HIMB1559	357	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1559_01578
+HIMB1559-00000000001	Prodigal:2.6	CDS	1465038	1466048	.	-	0	HIMB1559_01574	HIMB1559	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1559_01578
+HIMB1559-00000000001	Prodigal:2.6	CDS	1466051	1467391	.	-	0	HIMB1559_01575	HIMB1559	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1559_01578
+HIMB1559-00000000001	Prodigal:2.6	CDS	1467418	1468098	.	-	0	HIMB1559_01576	HIMB1559	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1559_01578
+HIMB1559-00000000001	Prodigal:2.6	CDS	1468103	1468927	.	-	0	HIMB1559_01577	HIMB1559	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1559_01578
+HIMB1559-00000000001	Prodigal:2.6	CDS	1468939	1469712	.	+	0	HIMB1559_01578	HIMB1559	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1559_01578
+HIMB1559-00000000001	Prodigal:2.6	CDS	1469709	1471037	.	-	0	HIMB1559_01579	HIMB1559	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1559_01578
+HIMB1559-00000000001	Prodigal:2.6	CDS	1471069	1471944	.	-	0	HIMB1559_01580	HIMB1559	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1559_01578
+HIMB1559-00000000001	Prodigal:2.6	CDS	1471941	1472864	.	-	0	HIMB1559_01581	HIMB1559	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1559_01578
+HIMB1559-00000000001	Prodigal:2.6	CDS	1472854	1474149	.	-	0	HIMB1559_01582	HIMB1559	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1559_01578
+HIMB1559-00000000001	Prodigal:2.6	CDS	1474179	1474736	.	-	0	HIMB1559_01583	HIMB1559	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1559_01578
+HIMB1597-00000000001	Prodigal:2.6	CDS	336686	337243	.	+	0	HIMB1597_00370	HIMB1597	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1597_00375
+HIMB1597-00000000001	Prodigal:2.6	CDS	337273	338568	.	+	0	HIMB1597_00371	HIMB1597	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1597_00375
+HIMB1597-00000000001	Prodigal:2.6	CDS	338558	339481	.	+	0	HIMB1597_00372	HIMB1597	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1597_00375
+HIMB1597-00000000001	Prodigal:2.6	CDS	339478	340353	.	+	0	HIMB1597_00373	HIMB1597	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1597_00375
+HIMB1597-00000000001	Prodigal:2.6	CDS	340385	341713	.	+	0	HIMB1597_00374	HIMB1597	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1597_00375
+HIMB1597-00000000001	Prodigal:2.6	CDS	341710	342483	.	-	0	HIMB1597_00375	HIMB1597	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1597_00375
+HIMB1597-00000000001	Prodigal:2.6	CDS	342495	343319	.	+	0	HIMB1597_00376	HIMB1597	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1597_00375
+HIMB1597-00000000001	Prodigal:2.6	CDS	343324	344004	.	+	0	HIMB1597_00377	HIMB1597	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1597_00375
+HIMB1597-00000000001	Prodigal:2.6	CDS	344031	345371	.	+	0	HIMB1597_00378	HIMB1597	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1597_00375
+HIMB1597-00000000001	Prodigal:2.6	CDS	345374	346384	.	+	0	HIMB1597_00379	HIMB1597	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1597_00375
+HIMB1597-00000000001	Prodigal:2.6	CDS	346381	347454	.	+	0	HIMB1597_00380	HIMB1597	357	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1597_00375
+HIMB1587-00000000002	Prodigal:2.6	CDS	646969	648042	.	-	0	HIMB1587_01566	HIMB1587	357	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1587_01571
+HIMB1587-00000000002	Prodigal:2.6	CDS	648039	649049	.	-	0	HIMB1587_01567	HIMB1587	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1587_01571
+HIMB1587-00000000002	Prodigal:2.6	CDS	649052	650392	.	-	0	HIMB1587_01568	HIMB1587	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1587_01571
+HIMB1587-00000000002	Prodigal:2.6	CDS	650419	651099	.	-	0	HIMB1587_01569	HIMB1587	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1587_01571
+HIMB1587-00000000002	Prodigal:2.6	CDS	651104	651928	.	-	0	HIMB1587_01570	HIMB1587	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1587_01571
+HIMB1587-00000000002	Prodigal:2.6	CDS	651940	652713	.	+	0	HIMB1587_01571	HIMB1587	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1587_01571
+HIMB1587-00000000002	Prodigal:2.6	CDS	652710	654038	.	-	0	HIMB1587_01572	HIMB1587	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1587_01571
+HIMB1587-00000000002	Prodigal:2.6	CDS	654070	654945	.	-	0	HIMB1587_01573	HIMB1587	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1587_01571
+HIMB1587-00000000002	Prodigal:2.6	CDS	654942	655865	.	-	0	HIMB1587_01574	HIMB1587	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1587_01571
+HIMB1587-00000000002	Prodigal:2.6	CDS	655855	657150	.	-	0	HIMB1587_01575	HIMB1587	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1587_01571
+HIMB1587-00000000002	Prodigal:2.6	CDS	657180	657737	.	-	0	HIMB1587_01576	HIMB1587	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1587_01571
+HIMB1573-00000000001	Prodigal:2.6	CDS	16662	17585	.	+	0	HIMB1573_00018	HIMB1573	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1573_00023
+HIMB1573-00000000001	Prodigal:2.6	CDS	17582	18457	.	+	0	HIMB1573_00019	HIMB1573	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1573_00023
+HIMB1573-00000000001	Prodigal:2.6	CDS	18489	19781	.	+	0	HIMB1573_00020	HIMB1573	430	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1573_00023
+HIMB1573-00000000001	Prodigal:2.6	CDS	19844	20863	.	+	0	HIMB1573_00021	HIMB1573	339	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1573_00023
+HIMB1573-00000000001	Prodigal:2.6	CDS	20863	21729	.	+	0	HIMB1573_00022	HIMB1573	288	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB1573_00023
+HIMB1573-00000000001	Prodigal:2.6	CDS	21726	22502	.	-	0	HIMB1573_00023	HIMB1573	258	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1573_00023
+HIMB1573-00000000001	Prodigal:2.6	CDS	22514	23338	.	+	0	HIMB1573_00024	HIMB1573	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1573_00023
+HIMB1573-00000000001	Prodigal:2.6	CDS	23343	24023	.	+	0	HIMB1573_00025	HIMB1573	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1573_00023
+HIMB1573-00000000001	Prodigal:2.6	CDS	24051	25058	.	+	0	HIMB1573_00026	HIMB1573	335	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1573_00023
+HIMB1573-00000000001	Prodigal:2.6	CDS	25058	26134	.	+	0	HIMB1573_00027	HIMB1573	358	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1573_00023
+HIMB1573-00000000001	Prodigal:2.6	CDS	26134	26961	.	+	0	HIMB1573_00028	HIMB1573	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1573_00023
+HIMB1490-00000000007	Prodigal:2.6	CDS	149	499	.	+	0	HIMB1490_00465	HIMB1490	116	OG0000882	NA	NA	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1490_00468
+HIMB1490-00000000007	Prodigal:2.6	CDS	532	1371	.	+	0	HIMB1490_00466	HIMB1490	279	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1490_00468
+HIMB1490-00000000007	Prodigal:2.6	CDS	1403	2731	.	+	0	HIMB1490_00467	HIMB1490	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1490_00468
+HIMB1490-00000000007	Prodigal:2.6	CDS	2728	3501	.	-	0	HIMB1490_00468	HIMB1490	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1490_00468
+HIMB1490-00000000007	Prodigal:2.6	CDS	3513	4337	.	+	0	HIMB1490_00469	HIMB1490	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1490_00468
+HIMB1490-00000000007	Prodigal:2.6	CDS	4342	5682	.	+	0	HIMB1490_00470	HIMB1490	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1490_00468
+HIMB1490-00000000007	Prodigal:2.6	CDS	5685	6695	.	+	0	HIMB1490_00471	HIMB1490	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1490_00468
+HIMB1490-00000000007	Prodigal:2.6	CDS	6692	7771	.	+	0	HIMB1490_00472	HIMB1490	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1490_00468
+HIMB1490-00000000007	Prodigal:2.6	CDS	7768	8595	.	+	0	HIMB1490_00473	HIMB1490	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1490_00468
+HIMB1491-00000000001	Prodigal:2.6	CDS	14662	15219	.	+	0	HIMB1491_00016	HIMB1491	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1491_00021
+HIMB1491-00000000001	Prodigal:2.6	CDS	15249	16544	.	+	0	HIMB1491_00017	HIMB1491	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1491_00021
+HIMB1491-00000000001	Prodigal:2.6	CDS	16534	17457	.	+	0	HIMB1491_00018	HIMB1491	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1491_00021
+HIMB1491-00000000001	Prodigal:2.6	CDS	17490	18329	.	+	0	HIMB1491_00019	HIMB1491	279	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1491_00021
+HIMB1491-00000000001	Prodigal:2.6	CDS	18361	19689	.	+	0	HIMB1491_00020	HIMB1491	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1491_00021
+HIMB1491-00000000001	Prodigal:2.6	CDS	19686	20459	.	-	0	HIMB1491_00021	HIMB1491	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1491_00021
+HIMB1491-00000000001	Prodigal:2.6	CDS	20471	21295	.	+	0	HIMB1491_00022	HIMB1491	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1491_00021
+HIMB1491-00000000001	Prodigal:2.6	CDS	21300	22640	.	+	0	HIMB1491_00023	HIMB1491	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1491_00021
+HIMB1491-00000000001	Prodigal:2.6	CDS	22643	23653	.	+	0	HIMB1491_00024	HIMB1491	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1491_00021
+HIMB1491-00000000001	Prodigal:2.6	CDS	23650	24729	.	+	0	HIMB1491_00025	HIMB1491	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1491_00021
+HIMB1491-00000000001	Prodigal:2.6	CDS	24726	25553	.	+	0	HIMB1491_00026	HIMB1491	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1491_00021
+HIMB1765-00000000001	Prodigal:2.6	CDS	1408249	1408995	.	-	0	HIMB1765_01505	HIMB1765	248	OG0001690	NA	NA	COG1434	ElyC	Lipid carrier protein ElyC involved in cell wall biogenesis, DUF218 family	HIMB1765_01510
+HIMB1765-00000000001	Prodigal:2.6	CDS	1408992	1410074	.	-	0	HIMB1765_01506	HIMB1765	360	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1765_01510
+HIMB1765-00000000001	Prodigal:2.6	CDS	1410071	1411081	.	-	0	HIMB1765_01507	HIMB1765	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1765_01510
+HIMB1765-00000000001	Prodigal:2.6	CDS	1411084	1412421	.	-	0	HIMB1765_01508	HIMB1765	445	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1765_01510
+HIMB1765-00000000001	Prodigal:2.6	CDS	1412426	1413250	.	-	0	HIMB1765_01509	HIMB1765	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1765_01510
+HIMB1765-00000000001	Prodigal:2.6	CDS	1413269	1414057	.	+	0	HIMB1765_01510	HIMB1765	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1765_01510
+HIMB1765-00000000001	Prodigal:2.6	CDS	1414098	1415000	.	+	0	HIMB1765_01511	HIMB1765	300	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1765_01510
+HIMB1765-00000000001	Prodigal:2.6	CDS	1415072	1415743	.	+	0	HIMB1765_01512	HIMB1765	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1765_01510
+HIMB1765-00000000001	Prodigal:2.6	CDS	1415747	1416424	.	+	0	HIMB1765_01513	HIMB1765	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1765_01510
+HIMB1765-00000000001	Prodigal:2.6	CDS	1416428	1417216	.	+	0	HIMB1765_01514	HIMB1765	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1765_01510
+HIMB1765-00000000001	Prodigal:2.6	CDS	1417221	1418534	.	-	0	HIMB1765_01515	HIMB1765	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1765_01510
+HIMB1494-00000000001	Prodigal:2.6	CDS	652926	653999	.	-	0	HIMB1494_00679	HIMB1494	357	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1494_00684
+HIMB1494-00000000001	Prodigal:2.6	CDS	653996	655006	.	-	0	HIMB1494_00680	HIMB1494	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1494_00684
+HIMB1494-00000000001	Prodigal:2.6	CDS	655009	656349	.	-	0	HIMB1494_00681	HIMB1494	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1494_00684
+HIMB1494-00000000001	Prodigal:2.6	CDS	656376	657056	.	-	0	HIMB1494_00682	HIMB1494	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1494_00684
+HIMB1494-00000000001	Prodigal:2.6	CDS	657061	657885	.	-	0	HIMB1494_00683	HIMB1494	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1494_00684
+HIMB1494-00000000001	Prodigal:2.6	CDS	657897	658670	.	+	0	HIMB1494_00684	HIMB1494	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1494_00684
+HIMB1494-00000000001	Prodigal:2.6	CDS	658667	659995	.	-	0	HIMB1494_00685	HIMB1494	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1494_00684
+HIMB1494-00000000001	Prodigal:2.6	CDS	660027	660902	.	-	0	HIMB1494_00686	HIMB1494	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1494_00684
+HIMB1494-00000000001	Prodigal:2.6	CDS	660899	661822	.	-	0	HIMB1494_00687	HIMB1494	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1494_00684
+HIMB1494-00000000001	Prodigal:2.6	CDS	661812	663107	.	-	0	HIMB1494_00688	HIMB1494	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1494_00684
+HIMB1494-00000000001	Prodigal:2.6	CDS	663137	663694	.	-	0	HIMB1494_00689	HIMB1494	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1494_00684
+HIMB1495-00000000001	Prodigal:2.6	CDS	629631	630704	.	-	0	HIMB1495_00657	HIMB1495	357	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1495_00662
+HIMB1495-00000000001	Prodigal:2.6	CDS	630701	631711	.	-	0	HIMB1495_00658	HIMB1495	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1495_00662
+HIMB1495-00000000001	Prodigal:2.6	CDS	631714	633054	.	-	0	HIMB1495_00659	HIMB1495	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1495_00662
+HIMB1495-00000000001	Prodigal:2.6	CDS	633081	633761	.	-	0	HIMB1495_00660	HIMB1495	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1495_00662
+HIMB1495-00000000001	Prodigal:2.6	CDS	633766	634590	.	-	0	HIMB1495_00661	HIMB1495	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1495_00662
+HIMB1495-00000000001	Prodigal:2.6	CDS	634602	635375	.	+	0	HIMB1495_00662	HIMB1495	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1495_00662
+HIMB1495-00000000001	Prodigal:2.6	CDS	635372	636700	.	-	0	HIMB1495_00663	HIMB1495	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1495_00662
+HIMB1495-00000000001	Prodigal:2.6	CDS	636732	637607	.	-	0	HIMB1495_00664	HIMB1495	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1495_00662
+HIMB1495-00000000001	Prodigal:2.6	CDS	637604	638527	.	-	0	HIMB1495_00665	HIMB1495	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1495_00662
+HIMB1495-00000000001	Prodigal:2.6	CDS	638517	639812	.	-	0	HIMB1495_00666	HIMB1495	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1495_00662
+HIMB1495-00000000001	Prodigal:2.6	CDS	639842	640399	.	-	0	HIMB1495_00667	HIMB1495	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1495_00662
+HIMB1593-00000000001	Prodigal:2.6	CDS	643315	644397	.	-	0	HIMB1593_00664	HIMB1593	360	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1593_00669
+HIMB1593-00000000001	Prodigal:2.6	CDS	644394	645404	.	-	0	HIMB1593_00665	HIMB1593	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1593_00669
+HIMB1593-00000000001	Prodigal:2.6	CDS	645407	646810	.	-	0	HIMB1593_00666	HIMB1593	467	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1593_00669
+HIMB1593-00000000001	Prodigal:2.6	CDS	646773	647453	.	-	0	HIMB1593_00667	HIMB1593	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1593_00669
+HIMB1593-00000000001	Prodigal:2.6	CDS	647458	648282	.	-	0	HIMB1593_00668	HIMB1593	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1593_00669
+HIMB1593-00000000001	Prodigal:2.6	CDS	648294	649067	.	+	0	HIMB1593_00669	HIMB1593	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1593_00669
+HIMB1593-00000000001	Prodigal:2.6	CDS	649064	650392	.	-	0	HIMB1593_00670	HIMB1593	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1593_00669
+HIMB1593-00000000001	Prodigal:2.6	CDS	650424	651299	.	-	0	HIMB1593_00671	HIMB1593	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1593_00669
+HIMB1593-00000000001	Prodigal:2.6	CDS	651296	652219	.	-	0	HIMB1593_00672	HIMB1593	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1593_00669
+HIMB1593-00000000001	Prodigal:2.6	CDS	652209	653504	.	-	0	HIMB1593_00673	HIMB1593	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1593_00669
+HIMB1593-00000000001	Prodigal:2.6	CDS	653534	654091	.	-	0	HIMB1593_00674	HIMB1593	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1593_00669
+HIMB1509-00000000001	Prodigal:2.6	CDS	605459	606388	.	-	0	HIMB1509_00625	HIMB1509	309	OG0001216	NA	NA	COG0400	YpfH	Palmitoyl-CoA esterase	HIMB1509_00630
+HIMB1509-00000000001	Prodigal:2.6	CDS	606412	607485	.	-	0	HIMB1509_00626	HIMB1509	357	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1509_00630
+HIMB1509-00000000001	Prodigal:2.6	CDS	607482	608492	.	-	0	HIMB1509_00627	HIMB1509	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1509_00630
+HIMB1509-00000000001	Prodigal:2.6	CDS	608520	609200	.	-	0	HIMB1509_00628	HIMB1509	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1509_00630
+HIMB1509-00000000001	Prodigal:2.6	CDS	609205	610029	.	-	0	HIMB1509_00629	HIMB1509	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1509_00630
+HIMB1509-00000000001	Prodigal:2.6	CDS	610041	610814	.	+	0	HIMB1509_00630	HIMB1509	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1509_00630
+HIMB1509-00000000001	Prodigal:2.6	CDS	610811	612139	.	-	0	HIMB1509_00631	HIMB1509	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1509_00630
+HIMB1509-00000000001	Prodigal:2.6	CDS	612171	613046	.	-	0	HIMB1509_00632	HIMB1509	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1509_00630
+HIMB1509-00000000001	Prodigal:2.6	CDS	613043	613966	.	-	0	HIMB1509_00633	HIMB1509	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1509_00630
+HIMB1509-00000000001	Prodigal:2.6	CDS	613956	615251	.	-	0	HIMB1509_00634	HIMB1509	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1509_00630
+HIMB1509-00000000001	Prodigal:2.6	CDS	615281	615838	.	-	0	HIMB1509_00635	HIMB1509	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1509_00630
+HIMB1485-00000000002	Prodigal:2.6	CDS	632806	633885	.	-	0	HIMB1485_01148	HIMB1485	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1485_01153
+HIMB1485-00000000002	Prodigal:2.6	CDS	633882	634892	.	-	0	HIMB1485_01149	HIMB1485	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1485_01153
+HIMB1485-00000000002	Prodigal:2.6	CDS	634900	636606	.	-	0	HIMB1485_01150	HIMB1485	568	OG0001301	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	HIMB1485_01153
+HIMB1485-00000000002	Prodigal:2.6	CDS	636634	637314	.	-	0	HIMB1485_01151	HIMB1485	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1485_01153
+HIMB1485-00000000002	Prodigal:2.6	CDS	637319	638143	.	-	0	HIMB1485_01152	HIMB1485	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1485_01153
+HIMB1485-00000000002	Prodigal:2.6	CDS	638162	638950	.	+	0	HIMB1485_01153	HIMB1485	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1485_01153
+HIMB1485-00000000002	Prodigal:2.6	CDS	639048	639893	.	+	0	HIMB1485_01154	HIMB1485	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1485_01153
+HIMB1485-00000000002	Prodigal:2.6	CDS	639965	640636	.	+	0	HIMB1485_01155	HIMB1485	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1485_01153
+HIMB1485-00000000002	Prodigal:2.6	CDS	640646	641317	.	+	0	HIMB1485_01156	HIMB1485	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1485_01153
+HIMB1485-00000000002	Prodigal:2.6	CDS	641321	642109	.	+	0	HIMB1485_01157	HIMB1485	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1485_01153
+HIMB1485-00000000002	Prodigal:2.6	CDS	642114	643427	.	-	0	HIMB1485_01158	HIMB1485	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1485_01153
+HIMB1492-00000000111	Prodigal:2.6	CDS	475	1263	.	+	0	HIMB1492_01013	HIMB1492	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1492_01013
+HIMB1492-00000000111	Prodigal:2.6	CDS	1361	2206	.	+	0	HIMB1492_01014	HIMB1492	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1492_01013
+HIMB1492-00000000111	Prodigal:2.6	CDS	2278	2949	.	+	0	HIMB1492_01015	HIMB1492	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1492_01013
+HIMB1492-00000000111	Prodigal:2.6	CDS	2959	3630	.	+	0	HIMB1492_01016	HIMB1492	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1492_01013
+HIMB1493-00000000001	Prodigal:2.6	CDS	764525	765838	.	+	0	HIMB1493_00830	HIMB1493	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1493_00835
+HIMB1493-00000000001	Prodigal:2.6	CDS	765843	766631	.	-	0	HIMB1493_00831	HIMB1493	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1493_00835
+HIMB1493-00000000001	Prodigal:2.6	CDS	766635	767306	.	-	0	HIMB1493_00832	HIMB1493	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1493_00835
+HIMB1493-00000000001	Prodigal:2.6	CDS	767316	767987	.	-	0	HIMB1493_00833	HIMB1493	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1493_00835
+HIMB1493-00000000001	Prodigal:2.6	CDS	768059	768904	.	-	0	HIMB1493_00834	HIMB1493	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1493_00835
+HIMB1493-00000000001	Prodigal:2.6	CDS	769002	769790	.	-	0	HIMB1493_00835	HIMB1493	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1493_00835
+HIMB1493-00000000001	Prodigal:2.6	CDS	769809	770633	.	+	0	HIMB1493_00836	HIMB1493	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1493_00835
+HIMB1493-00000000001	Prodigal:2.6	CDS	770638	771648	.	+	0	HIMB1493_00837	HIMB1493	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1493_00835
+HIMB1493-00000000001	Prodigal:2.6	CDS	771645	772721	.	+	0	HIMB1493_00838	HIMB1493	358	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1493_00835
+HIMB1493-00000000001	Prodigal:2.6	CDS	772721	773548	.	+	0	HIMB1493_00839	HIMB1493	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1493_00835
+HIMB1493-00000000001	Prodigal:2.6	CDS	773541	774011	.	-	0	HIMB1493_00840	HIMB1493	156	OG0001695	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1493_00835
+HIMB1518-00000000001	Prodigal:2.6	CDS	919976	921289	.	+	0	HIMB1518_00985	HIMB1518	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1518_00990
+HIMB1518-00000000001	Prodigal:2.6	CDS	921294	922082	.	-	0	HIMB1518_00986	HIMB1518	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1518_00990
+HIMB1518-00000000001	Prodigal:2.6	CDS	922086	922757	.	-	0	HIMB1518_00987	HIMB1518	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1518_00990
+HIMB1518-00000000001	Prodigal:2.6	CDS	922767	923438	.	-	0	HIMB1518_00988	HIMB1518	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1518_00990
+HIMB1518-00000000001	Prodigal:2.6	CDS	923510	924355	.	-	0	HIMB1518_00989	HIMB1518	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1518_00990
+HIMB1518-00000000001	Prodigal:2.6	CDS	924453	925241	.	-	0	HIMB1518_00990	HIMB1518	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1518_00990
+HIMB1518-00000000001	Prodigal:2.6	CDS	925260	926084	.	+	0	HIMB1518_00991	HIMB1518	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1518_00990
+HIMB1518-00000000001	Prodigal:2.6	CDS	926089	927099	.	+	0	HIMB1518_00992	HIMB1518	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1518_00990
+HIMB1518-00000000001	Prodigal:2.6	CDS	927096	928172	.	+	0	HIMB1518_00993	HIMB1518	358	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1518_00990
+HIMB1518-00000000001	Prodigal:2.6	CDS	928172	928999	.	+	0	HIMB1518_00994	HIMB1518	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1518_00990
+HIMB1518-00000000001	Prodigal:2.6	CDS	928992	929462	.	-	0	HIMB1518_00995	HIMB1518	156	OG0001695	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1518_00990
+HIMB1770-00000000001	Prodigal:2.6	CDS	398253	399566	.	+	0	HIMB1770_00452	HIMB1770	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1770_00457
+HIMB1770-00000000001	Prodigal:2.6	CDS	399571	400359	.	-	0	HIMB1770_00453	HIMB1770	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1770_00457
+HIMB1770-00000000001	Prodigal:2.6	CDS	400363	401034	.	-	0	HIMB1770_00454	HIMB1770	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1770_00457
+HIMB1770-00000000001	Prodigal:2.6	CDS	401044	401715	.	-	0	HIMB1770_00455	HIMB1770	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1770_00457
+HIMB1770-00000000001	Prodigal:2.6	CDS	401787	402632	.	-	0	HIMB1770_00456	HIMB1770	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1770_00457
+HIMB1770-00000000001	Prodigal:2.6	CDS	402730	403518	.	-	0	HIMB1770_00457	HIMB1770	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1770_00457
+HIMB1770-00000000001	Prodigal:2.6	CDS	403537	404361	.	+	0	HIMB1770_00458	HIMB1770	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1770_00457
+HIMB1770-00000000001	Prodigal:2.6	CDS	404366	405376	.	+	0	HIMB1770_00459	HIMB1770	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1770_00457
+HIMB1770-00000000001	Prodigal:2.6	CDS	405373	406449	.	+	0	HIMB1770_00460	HIMB1770	358	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1770_00457
+HIMB1770-00000000001	Prodigal:2.6	CDS	406449	407276	.	+	0	HIMB1770_00461	HIMB1770	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1770_00457
+HIMB1770-00000000001	Prodigal:2.6	CDS	407269	407739	.	-	0	HIMB1770_00462	HIMB1770	156	OG0001695	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1770_00457
+HIMB1507-00000000001	Prodigal:2.6	CDS	14654	15211	.	+	0	HIMB1507_00016	HIMB1507	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1507_00021
+HIMB1507-00000000001	Prodigal:2.6	CDS	15241	16536	.	+	0	HIMB1507_00017	HIMB1507	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1507_00021
+HIMB1507-00000000001	Prodigal:2.6	CDS	16526	17449	.	+	0	HIMB1507_00018	HIMB1507	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1507_00021
+HIMB1507-00000000001	Prodigal:2.6	CDS	17446	18321	.	+	0	HIMB1507_00019	HIMB1507	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1507_00021
+HIMB1507-00000000001	Prodigal:2.6	CDS	18353	19681	.	+	0	HIMB1507_00020	HIMB1507	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1507_00021
+HIMB1507-00000000001	Prodigal:2.6	CDS	19678	20451	.	-	0	HIMB1507_00021	HIMB1507	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1507_00021
+HIMB1507-00000000001	Prodigal:2.6	CDS	20463	21287	.	+	0	HIMB1507_00022	HIMB1507	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1507_00021
+HIMB1507-00000000001	Prodigal:2.6	CDS	21292	21972	.	+	0	HIMB1507_00023	HIMB1507	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1507_00021
+HIMB1507-00000000001	Prodigal:2.6	CDS	21998	23338	.	+	0	HIMB1507_00024	HIMB1507	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1507_00021
+HIMB1507-00000000001	Prodigal:2.6	CDS	23341	24351	.	+	0	HIMB1507_00025	HIMB1507	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1507_00021
+HIMB1507-00000000001	Prodigal:2.6	CDS	24348	25427	.	+	0	HIMB1507_00026	HIMB1507	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1507_00021
+HIMB1526-00000000001	Prodigal:2.6	CDS	500252	501079	.	-	0	HIMB1526_00513	HIMB1526	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1526_00518
+HIMB1526-00000000001	Prodigal:2.6	CDS	501076	502155	.	-	0	HIMB1526_00514	HIMB1526	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1526_00518
+HIMB1526-00000000001	Prodigal:2.6	CDS	502152	503162	.	-	0	HIMB1526_00515	HIMB1526	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1526_00518
+HIMB1526-00000000001	Prodigal:2.6	CDS	503190	503870	.	-	0	HIMB1526_00516	HIMB1526	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1526_00518
+HIMB1526-00000000001	Prodigal:2.6	CDS	503875	504699	.	-	0	HIMB1526_00517	HIMB1526	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1526_00518
+HIMB1526-00000000001	Prodigal:2.6	CDS	504711	505484	.	+	0	HIMB1526_00518	HIMB1526	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1526_00518
+HIMB1526-00000000001	Prodigal:2.6	CDS	505481	506809	.	-	0	HIMB1526_00519	HIMB1526	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1526_00518
+HIMB1526-00000000001	Prodigal:2.6	CDS	506841	507716	.	-	0	HIMB1526_00520	HIMB1526	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1526_00518
+HIMB1526-00000000001	Prodigal:2.6	CDS	507713	508636	.	-	0	HIMB1526_00521	HIMB1526	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1526_00518
+HIMB1526-00000000001	Prodigal:2.6	CDS	508626	509921	.	-	0	HIMB1526_00522	HIMB1526	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1526_00518
+HIMB1526-00000000001	Prodigal:2.6	CDS	509951	510508	.	-	0	HIMB1526_00523	HIMB1526	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1526_00518
+HIMB1552-00000000001	Prodigal:2.6	CDS	50614	51441	.	-	0	HIMB1552_00049	HIMB1552	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1552_00054
+HIMB1552-00000000001	Prodigal:2.6	CDS	51438	52517	.	-	0	HIMB1552_00050	HIMB1552	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1552_00054
+HIMB1552-00000000001	Prodigal:2.6	CDS	52514	53524	.	-	0	HIMB1552_00051	HIMB1552	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1552_00054
+HIMB1552-00000000001	Prodigal:2.6	CDS	53552	54232	.	-	0	HIMB1552_00052	HIMB1552	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1552_00054
+HIMB1552-00000000001	Prodigal:2.6	CDS	54237	55061	.	-	0	HIMB1552_00053	HIMB1552	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1552_00054
+HIMB1552-00000000001	Prodigal:2.6	CDS	55073	55846	.	+	0	HIMB1552_00054	HIMB1552	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1552_00054
+HIMB1552-00000000001	Prodigal:2.6	CDS	55843	57171	.	-	0	HIMB1552_00055	HIMB1552	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1552_00054
+HIMB1552-00000000001	Prodigal:2.6	CDS	57203	58096	.	-	0	HIMB1552_00056	HIMB1552	297	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1552_00054
+HIMB1552-00000000001	Prodigal:2.6	CDS	58075	58998	.	-	0	HIMB1552_00057	HIMB1552	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1552_00054
+HIMB1552-00000000001	Prodigal:2.6	CDS	58988	60283	.	-	0	HIMB1552_00058	HIMB1552	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1552_00054
+HIMB1552-00000000001	Prodigal:2.6	CDS	60313	60870	.	-	0	HIMB1552_00059	HIMB1552	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1552_00054
+HIMB1641-00000000001	Prodigal:2.6	CDS	1377530	1378087	.	+	0	HIMB1641_01451	HIMB1641	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1641_01456
+HIMB1641-00000000001	Prodigal:2.6	CDS	1378117	1379412	.	+	0	HIMB1641_01452	HIMB1641	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1641_01456
+HIMB1641-00000000001	Prodigal:2.6	CDS	1379402	1380325	.	+	0	HIMB1641_01453	HIMB1641	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1641_01456
+HIMB1641-00000000001	Prodigal:2.6	CDS	1380322	1381197	.	+	0	HIMB1641_01454	HIMB1641	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1641_01456
+HIMB1641-00000000001	Prodigal:2.6	CDS	1381229	1382557	.	+	0	HIMB1641_01455	HIMB1641	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1641_01456
+HIMB1641-00000000001	Prodigal:2.6	CDS	1382554	1383327	.	-	0	HIMB1641_01456	HIMB1641	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1641_01456
+HIMB1641-00000000001	Prodigal:2.6	CDS	1383339	1384163	.	+	0	HIMB1641_01457	HIMB1641	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1641_01456
+HIMB1641-00000000001	Prodigal:2.6	CDS	1384168	1384848	.	+	0	HIMB1641_01458	HIMB1641	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1641_01456
+HIMB1641-00000000001	Prodigal:2.6	CDS	1384876	1385886	.	+	0	HIMB1641_01459	HIMB1641	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1641_01456
+HIMB1641-00000000001	Prodigal:2.6	CDS	1385883	1386962	.	+	0	HIMB1641_01460	HIMB1641	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1641_01456
+HIMB1641-00000000001	Prodigal:2.6	CDS	1386959	1387786	.	+	0	HIMB1641_01461	HIMB1641	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1641_01456
+HIMB1636-00000000001	Prodigal:2.6	CDS	784407	784964	.	+	0	HIMB1636_00837	HIMB1636	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1636_00842
+HIMB1636-00000000001	Prodigal:2.6	CDS	784994	786289	.	+	0	HIMB1636_00838	HIMB1636	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1636_00842
+HIMB1636-00000000001	Prodigal:2.6	CDS	786279	787202	.	+	0	HIMB1636_00839	HIMB1636	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1636_00842
+HIMB1636-00000000001	Prodigal:2.6	CDS	787199	788074	.	+	0	HIMB1636_00840	HIMB1636	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1636_00842
+HIMB1636-00000000001	Prodigal:2.6	CDS	788106	789434	.	+	0	HIMB1636_00841	HIMB1636	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1636_00842
+HIMB1636-00000000001	Prodigal:2.6	CDS	789431	790204	.	-	0	HIMB1636_00842	HIMB1636	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1636_00842
+HIMB1636-00000000001	Prodigal:2.6	CDS	790216	791040	.	+	0	HIMB1636_00843	HIMB1636	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1636_00842
+HIMB1636-00000000001	Prodigal:2.6	CDS	791045	791725	.	+	0	HIMB1636_00844	HIMB1636	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1636_00842
+HIMB1636-00000000001	Prodigal:2.6	CDS	791753	792763	.	+	0	HIMB1636_00845	HIMB1636	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1636_00842
+HIMB1636-00000000001	Prodigal:2.6	CDS	792760	793839	.	+	0	HIMB1636_00846	HIMB1636	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1636_00842
+HIMB1636-00000000001	Prodigal:2.6	CDS	793836	794663	.	+	0	HIMB1636_00847	HIMB1636	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1636_00842
+HIMB1702-00000000001	Prodigal:2.6	CDS	640633	641460	.	-	0	HIMB1702_00659	HIMB1702	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1702_00664
+HIMB1702-00000000001	Prodigal:2.6	CDS	641457	642536	.	-	0	HIMB1702_00660	HIMB1702	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1702_00664
+HIMB1702-00000000001	Prodigal:2.6	CDS	642533	643543	.	-	0	HIMB1702_00661	HIMB1702	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1702_00664
+HIMB1702-00000000001	Prodigal:2.6	CDS	643571	644251	.	-	0	HIMB1702_00662	HIMB1702	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1702_00664
+HIMB1702-00000000001	Prodigal:2.6	CDS	644256	645080	.	-	0	HIMB1702_00663	HIMB1702	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1702_00664
+HIMB1702-00000000001	Prodigal:2.6	CDS	645092	645865	.	+	0	HIMB1702_00664	HIMB1702	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1702_00664
+HIMB1702-00000000001	Prodigal:2.6	CDS	645862	647190	.	-	0	HIMB1702_00665	HIMB1702	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1702_00664
+HIMB1702-00000000001	Prodigal:2.6	CDS	647222	648097	.	-	0	HIMB1702_00666	HIMB1702	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1702_00664
+HIMB1702-00000000001	Prodigal:2.6	CDS	648094	649017	.	-	0	HIMB1702_00667	HIMB1702	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1702_00664
+HIMB1702-00000000001	Prodigal:2.6	CDS	649007	650302	.	-	0	HIMB1702_00668	HIMB1702	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1702_00664
+HIMB1702-00000000001	Prodigal:2.6	CDS	650332	650889	.	-	0	HIMB1702_00669	HIMB1702	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1702_00664
+HIMB1710-00000000003	Prodigal:2.6	CDS	617595	618422	.	-	0	HIMB1710_00653	HIMB1710	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1710_00658
+HIMB1710-00000000003	Prodigal:2.6	CDS	618419	619498	.	-	0	HIMB1710_00654	HIMB1710	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1710_00658
+HIMB1710-00000000003	Prodigal:2.6	CDS	619495	620505	.	-	0	HIMB1710_00655	HIMB1710	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1710_00658
+HIMB1710-00000000003	Prodigal:2.6	CDS	620533	621213	.	-	0	HIMB1710_00656	HIMB1710	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1710_00658
+HIMB1710-00000000003	Prodigal:2.6	CDS	621218	622042	.	-	0	HIMB1710_00657	HIMB1710	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1710_00658
+HIMB1710-00000000003	Prodigal:2.6	CDS	622054	622827	.	+	0	HIMB1710_00658	HIMB1710	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1710_00658
+HIMB1710-00000000003	Prodigal:2.6	CDS	622824	624152	.	-	0	HIMB1710_00659	HIMB1710	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1710_00658
+HIMB1710-00000000003	Prodigal:2.6	CDS	624184	625059	.	-	0	HIMB1710_00660	HIMB1710	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1710_00658
+HIMB1710-00000000003	Prodigal:2.6	CDS	625056	625979	.	-	0	HIMB1710_00661	HIMB1710	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1710_00658
+HIMB1710-00000000003	Prodigal:2.6	CDS	625969	627264	.	-	0	HIMB1710_00662	HIMB1710	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1710_00658
+HIMB1710-00000000003	Prodigal:2.6	CDS	627294	627851	.	-	0	HIMB1710_00663	HIMB1710	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1710_00658
+HIMB1556-00000000001	Prodigal:2.6	CDS	1404162	1404719	.	+	0	HIMB1556_01486	HIMB1556	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1556_01491
+HIMB1556-00000000001	Prodigal:2.6	CDS	1404749	1406044	.	+	0	HIMB1556_01487	HIMB1556	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1556_01491
+HIMB1556-00000000001	Prodigal:2.6	CDS	1406034	1406957	.	+	0	HIMB1556_01488	HIMB1556	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1556_01491
+HIMB1556-00000000001	Prodigal:2.6	CDS	1406954	1407829	.	+	0	HIMB1556_01489	HIMB1556	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1556_01491
+HIMB1556-00000000001	Prodigal:2.6	CDS	1407861	1409189	.	+	0	HIMB1556_01490	HIMB1556	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1556_01491
+HIMB1556-00000000001	Prodigal:2.6	CDS	1409186	1409959	.	-	0	HIMB1556_01491	HIMB1556	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1556_01491
+HIMB1556-00000000001	Prodigal:2.6	CDS	1409971	1410795	.	+	0	HIMB1556_01492	HIMB1556	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1556_01491
+HIMB1556-00000000001	Prodigal:2.6	CDS	1410800	1411480	.	+	0	HIMB1556_01493	HIMB1556	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1556_01491
+HIMB1556-00000000001	Prodigal:2.6	CDS	1411508	1412518	.	+	0	HIMB1556_01494	HIMB1556	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1556_01491
+HIMB1556-00000000001	Prodigal:2.6	CDS	1412515	1413594	.	+	0	HIMB1556_01495	HIMB1556	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1556_01491
+HIMB1556-00000000001	Prodigal:2.6	CDS	1413591	1414418	.	+	0	HIMB1556_01496	HIMB1556	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1556_01491
+HIMB1748-00000000003	Prodigal:2.6	CDS	782954	783511	.	+	0	HIMB1748_01470	HIMB1748	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1748_01475
+HIMB1748-00000000003	Prodigal:2.6	CDS	783541	784836	.	+	0	HIMB1748_01471	HIMB1748	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1748_01475
+HIMB1748-00000000003	Prodigal:2.6	CDS	784826	785749	.	+	0	HIMB1748_01472	HIMB1748	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1748_01475
+HIMB1748-00000000003	Prodigal:2.6	CDS	785746	786621	.	+	0	HIMB1748_01473	HIMB1748	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1748_01475
+HIMB1748-00000000003	Prodigal:2.6	CDS	786653	787981	.	+	0	HIMB1748_01474	HIMB1748	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1748_01475
+HIMB1748-00000000003	Prodigal:2.6	CDS	787978	788751	.	-	0	HIMB1748_01475	HIMB1748	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1748_01475
+HIMB1748-00000000003	Prodigal:2.6	CDS	788763	789587	.	+	0	HIMB1748_01476	HIMB1748	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1748_01475
+HIMB1748-00000000003	Prodigal:2.6	CDS	789592	790272	.	+	0	HIMB1748_01477	HIMB1748	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1748_01475
+HIMB1748-00000000003	Prodigal:2.6	CDS	790300	791310	.	+	0	HIMB1748_01478	HIMB1748	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1748_01475
+HIMB1748-00000000003	Prodigal:2.6	CDS	791307	792386	.	+	0	HIMB1748_01479	HIMB1748	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1748_01475
+HIMB1748-00000000003	Prodigal:2.6	CDS	792383	793210	.	+	0	HIMB1748_01480	HIMB1748	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1748_01475
+HIMB1662-00000000001	Prodigal:2.6	CDS	1359762	1360319	.	+	0	HIMB1662_01451	HIMB1662	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1662_01456
+HIMB1662-00000000001	Prodigal:2.6	CDS	1360349	1361644	.	+	0	HIMB1662_01452	HIMB1662	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1662_01456
+HIMB1662-00000000001	Prodigal:2.6	CDS	1361634	1362557	.	+	0	HIMB1662_01453	HIMB1662	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1662_01456
+HIMB1662-00000000001	Prodigal:2.6	CDS	1362554	1363429	.	+	0	HIMB1662_01454	HIMB1662	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1662_01456
+HIMB1662-00000000001	Prodigal:2.6	CDS	1363461	1364789	.	+	0	HIMB1662_01455	HIMB1662	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1662_01456
+HIMB1662-00000000001	Prodigal:2.6	CDS	1364786	1365559	.	-	0	HIMB1662_01456	HIMB1662	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1662_01456
+HIMB1662-00000000001	Prodigal:2.6	CDS	1365571	1366395	.	+	0	HIMB1662_01457	HIMB1662	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1662_01456
+HIMB1662-00000000001	Prodigal:2.6	CDS	1366400	1367080	.	+	0	HIMB1662_01458	HIMB1662	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1662_01456
+HIMB1662-00000000001	Prodigal:2.6	CDS	1367107	1368447	.	+	0	HIMB1662_01459	HIMB1662	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1662_01456
+HIMB1662-00000000001	Prodigal:2.6	CDS	1368450	1369460	.	+	0	HIMB1662_01460	HIMB1662	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1662_01456
+HIMB1662-00000000001	Prodigal:2.6	CDS	1369457	1370536	.	+	0	HIMB1662_01461	HIMB1662	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1662_01456
+HIMB1723-00000000001	Prodigal:2.6	CDS	269311	270624	.	+	0	HIMB1723_00302	HIMB1723	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1723_00307
+HIMB1723-00000000001	Prodigal:2.6	CDS	270629	271417	.	-	0	HIMB1723_00303	HIMB1723	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1723_00307
+HIMB1723-00000000001	Prodigal:2.6	CDS	271421	272098	.	-	0	HIMB1723_00304	HIMB1723	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1723_00307
+HIMB1723-00000000001	Prodigal:2.6	CDS	272102	272773	.	-	0	HIMB1723_00305	HIMB1723	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1723_00307
+HIMB1723-00000000001	Prodigal:2.6	CDS	272845	273747	.	-	0	HIMB1723_00306	HIMB1723	300	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1723_00307
+HIMB1723-00000000001	Prodigal:2.6	CDS	273788	274576	.	-	0	HIMB1723_00307	HIMB1723	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1723_00307
+HIMB1723-00000000001	Prodigal:2.6	CDS	274595	275419	.	+	0	HIMB1723_00308	HIMB1723	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1723_00307
+HIMB1723-00000000001	Prodigal:2.6	CDS	275424	276434	.	+	0	HIMB1723_00309	HIMB1723	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1723_00307
+HIMB1723-00000000001	Prodigal:2.6	CDS	276431	277510	.	+	0	HIMB1723_00310	HIMB1723	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1723_00307
+HIMB1723-00000000001	Prodigal:2.6	CDS	277507	278334	.	+	0	HIMB1723_00311	HIMB1723	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1723_00307
+HIMB1723-00000000001	Prodigal:2.6	CDS	278327	278797	.	-	0	HIMB1723_00312	HIMB1723	156	OG0001695	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1723_00307
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	491043	492356	.	+	0	HIMB140_00565	HIMB140	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB140_00570
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	492361	493149	.	-	0	HIMB140_00566	HIMB140	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB140_00570
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	493153	493824	.	-	0	HIMB140_00567	HIMB140	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB140_00570
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	493834	494505	.	-	0	HIMB140_00568	HIMB140	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB140_00570
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	494577	495422	.	-	0	HIMB140_00569	HIMB140	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB140_00570
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	495520	496308	.	-	0	HIMB140_00570	HIMB140	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB140_00570
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	496327	497151	.	+	0	HIMB140_00571	HIMB140	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB140_00570
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	497156	497836	.	+	0	HIMB140_00572	HIMB140	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB140_00570
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	497863	499203	.	+	0	HIMB140_00573	HIMB140	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB140_00570
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	499206	500216	.	+	0	HIMB140_00574	HIMB140	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB140_00570
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	500213	501292	.	+	0	HIMB140_00575	HIMB140	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB140_00570
+HIMB1513-00000000001	Prodigal:2.6	CDS	14722	15279	.	+	0	HIMB1513_00016	HIMB1513	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1513_00021
+HIMB1513-00000000001	Prodigal:2.6	CDS	15309	16604	.	+	0	HIMB1513_00017	HIMB1513	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1513_00021
+HIMB1513-00000000001	Prodigal:2.6	CDS	16594	17517	.	+	0	HIMB1513_00018	HIMB1513	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1513_00021
+HIMB1513-00000000001	Prodigal:2.6	CDS	17514	18389	.	+	0	HIMB1513_00019	HIMB1513	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1513_00021
+HIMB1513-00000000001	Prodigal:2.6	CDS	18421	19749	.	+	0	HIMB1513_00020	HIMB1513	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1513_00021
+HIMB1513-00000000001	Prodigal:2.6	CDS	19746	20519	.	-	0	HIMB1513_00021	HIMB1513	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1513_00021
+HIMB1513-00000000001	Prodigal:2.6	CDS	20531	21355	.	+	0	HIMB1513_00022	HIMB1513	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1513_00021
+HIMB1513-00000000001	Prodigal:2.6	CDS	21360	22040	.	+	0	HIMB1513_00023	HIMB1513	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1513_00021
+HIMB1513-00000000001	Prodigal:2.6	CDS	22114	23820	.	+	0	HIMB1513_00024	HIMB1513	568	OG0001301	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	HIMB1513_00021
+HIMB1513-00000000001	Prodigal:2.6	CDS	23828	24838	.	+	0	HIMB1513_00025	HIMB1513	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1513_00021
+HIMB1513-00000000001	Prodigal:2.6	CDS	24835	25914	.	+	0	HIMB1513_00026	HIMB1513	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1513_00021
+HIMB1521-00000000006	Prodigal:2.6	CDS	74715	75794	.	-	0	HIMB1521_00683	HIMB1521	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1521_00688
+HIMB1521-00000000006	Prodigal:2.6	CDS	75791	76801	.	-	0	HIMB1521_00684	HIMB1521	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1521_00688
+HIMB1521-00000000006	Prodigal:2.6	CDS	76809	78515	.	-	0	HIMB1521_00685	HIMB1521	568	OG0001301	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	HIMB1521_00688
+HIMB1521-00000000006	Prodigal:2.6	CDS	78589	79269	.	-	0	HIMB1521_00686	HIMB1521	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1521_00688
+HIMB1521-00000000006	Prodigal:2.6	CDS	79274	80098	.	-	0	HIMB1521_00687	HIMB1521	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1521_00688
+HIMB1521-00000000006	Prodigal:2.6	CDS	80110	80883	.	+	0	HIMB1521_00688	HIMB1521	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1521_00688
+HIMB1521-00000000006	Prodigal:2.6	CDS	80880	82208	.	-	0	HIMB1521_00689	HIMB1521	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1521_00688
+HIMB1521-00000000006	Prodigal:2.6	CDS	82240	83115	.	-	0	HIMB1521_00690	HIMB1521	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1521_00688
+HIMB1521-00000000006	Prodigal:2.6	CDS	83112	84035	.	-	0	HIMB1521_00691	HIMB1521	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1521_00688
+HIMB1521-00000000006	Prodigal:2.6	CDS	84025	85320	.	-	0	HIMB1521_00692	HIMB1521	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1521_00688
+HIMB1521-00000000006	Prodigal:2.6	CDS	85350	85907	.	-	0	HIMB1521_00693	HIMB1521	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1521_00688
+HIMB1430-00000000010	Prodigal:2.6	CDS	46235	47164	.	-	0	HIMB1430_00722	HIMB1430	309	OG0001216	NA	NA	COG2267	PldB	Lysophospholipase, alpha-beta hydrolase superfamily	HIMB1430_00727
+HIMB1430-00000000010	Prodigal:2.6	CDS	47188	48261	.	-	0	HIMB1430_00723	HIMB1430	357	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1430_00727
+HIMB1430-00000000010	Prodigal:2.6	CDS	48258	49268	.	-	0	HIMB1430_00724	HIMB1430	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1430_00727
+HIMB1430-00000000010	Prodigal:2.6	CDS	49271	50611	.	-	0	HIMB1430_00725	HIMB1430	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1430_00727
+HIMB1430-00000000010	Prodigal:2.6	CDS	50616	51440	.	-	0	HIMB1430_00726	HIMB1430	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1430_00727
+HIMB1430-00000000010	Prodigal:2.6	CDS	51452	52225	.	+	0	HIMB1430_00727	HIMB1430	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1430_00727
+HIMB1430-00000000010	Prodigal:2.6	CDS	52222	53550	.	-	0	HIMB1430_00728	HIMB1430	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1430_00727
+HIMB1430-00000000010	Prodigal:2.6	CDS	53582	54457	.	-	0	HIMB1430_00729	HIMB1430	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1430_00727
+HIMB1430-00000000010	Prodigal:2.6	CDS	54454	55377	.	-	0	HIMB1430_00730	HIMB1430	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1430_00727
+HIMB1430-00000000010	Prodigal:2.6	CDS	55367	56662	.	-	0	HIMB1430_00731	HIMB1430	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1430_00727
+HIMB1430-00000000010	Prodigal:2.6	CDS	56692	57249	.	-	0	HIMB1430_00732	HIMB1430	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1430_00727
+HIMB1611-00000000001	Prodigal:2.6	CDS	809374	809931	.	+	0	HIMB1611_00904	HIMB1611	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1611_00909
+HIMB1611-00000000001	Prodigal:2.6	CDS	809961	811256	.	+	0	HIMB1611_00905	HIMB1611	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1611_00909
+HIMB1611-00000000001	Prodigal:2.6	CDS	811246	812169	.	+	0	HIMB1611_00906	HIMB1611	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1611_00909
+HIMB1611-00000000001	Prodigal:2.6	CDS	812166	813041	.	+	0	HIMB1611_00907	HIMB1611	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1611_00909
+HIMB1611-00000000001	Prodigal:2.6	CDS	813073	814401	.	+	0	HIMB1611_00908	HIMB1611	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1611_00909
+HIMB1611-00000000001	Prodigal:2.6	CDS	814398	815171	.	-	0	HIMB1611_00909	HIMB1611	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1611_00909
+HIMB1611-00000000001	Prodigal:2.6	CDS	815183	816007	.	+	0	HIMB1611_00910	HIMB1611	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1611_00909
+HIMB1611-00000000001	Prodigal:2.6	CDS	816012	817352	.	+	0	HIMB1611_00911	HIMB1611	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1611_00909
+HIMB1611-00000000001	Prodigal:2.6	CDS	817355	818365	.	+	0	HIMB1611_00912	HIMB1611	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1611_00909
+HIMB1611-00000000001	Prodigal:2.6	CDS	818362	819435	.	+	0	HIMB1611_00913	HIMB1611	357	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1611_00909
+HIMB1611-00000000001	Prodigal:2.6	CDS	819459	820388	.	+	0	HIMB1611_00914	HIMB1611	309	OG0001216	NA	NA	COG2267	PldB	Lysophospholipase, alpha-beta hydrolase superfamily	HIMB1611_00909
+HIMB1758-00000000001	Prodigal:2.6	CDS	14518	15075	.	+	0	HIMB1758_00016	HIMB1758	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1758_00021
+HIMB1758-00000000001	Prodigal:2.6	CDS	15105	16400	.	+	0	HIMB1758_00017	HIMB1758	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1758_00021
+HIMB1758-00000000001	Prodigal:2.6	CDS	16390	17313	.	+	0	HIMB1758_00018	HIMB1758	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1758_00021
+HIMB1758-00000000001	Prodigal:2.6	CDS	17310	18185	.	+	0	HIMB1758_00019	HIMB1758	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1758_00021
+HIMB1758-00000000001	Prodigal:2.6	CDS	18217	19545	.	+	0	HIMB1758_00020	HIMB1758	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1758_00021
+HIMB1758-00000000001	Prodigal:2.6	CDS	19542	20315	.	-	0	HIMB1758_00021	HIMB1758	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1758_00021
+HIMB1758-00000000001	Prodigal:2.6	CDS	20327	21151	.	+	0	HIMB1758_00022	HIMB1758	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1758_00021
+HIMB1758-00000000001	Prodigal:2.6	CDS	21156	22496	.	+	0	HIMB1758_00023	HIMB1758	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1758_00021
+HIMB1758-00000000001	Prodigal:2.6	CDS	22499	23509	.	+	0	HIMB1758_00024	HIMB1758	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1758_00021
+HIMB1758-00000000001	Prodigal:2.6	CDS	23506	24579	.	+	0	HIMB1758_00025	HIMB1758	357	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1758_00021
+HIMB1758-00000000001	Prodigal:2.6	CDS	24603	25532	.	+	0	HIMB1758_00026	HIMB1758	309	OG0001216	NA	NA	COG2267	PldB	Lysophospholipase, alpha-beta hydrolase superfamily	HIMB1758_00021
+HIMB1488-00000000001	Prodigal:2.6	CDS	433189	434157	.	-	0	HIMB1488_00456	HIMB1488	322	OG0001216	NA	NA	COG2267	PldB	Lysophospholipase, alpha-beta hydrolase superfamily	HIMB1488_00461
+HIMB1488-00000000001	Prodigal:2.6	CDS	434142	435215	.	-	0	HIMB1488_00457	HIMB1488	357	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1488_00461
+HIMB1488-00000000001	Prodigal:2.6	CDS	435212	436222	.	-	0	HIMB1488_00458	HIMB1488	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1488_00461
+HIMB1488-00000000001	Prodigal:2.6	CDS	436225	437562	.	-	0	HIMB1488_00459	HIMB1488	445	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1488_00461
+HIMB1488-00000000001	Prodigal:2.6	CDS	437567	438391	.	-	0	HIMB1488_00460	HIMB1488	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1488_00461
+HIMB1488-00000000001	Prodigal:2.6	CDS	438410	439198	.	+	0	HIMB1488_00461	HIMB1488	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1488_00461
+HIMB1488-00000000001	Prodigal:2.6	CDS	439297	440142	.	+	0	HIMB1488_00462	HIMB1488	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1488_00461
+HIMB1488-00000000001	Prodigal:2.6	CDS	440214	440885	.	+	0	HIMB1488_00463	HIMB1488	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1488_00461
+HIMB1488-00000000001	Prodigal:2.6	CDS	440889	441566	.	+	0	HIMB1488_00464	HIMB1488	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1488_00461
+HIMB1488-00000000001	Prodigal:2.6	CDS	441570	442358	.	+	0	HIMB1488_00465	HIMB1488	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1488_00461
+HIMB1488-00000000001	Prodigal:2.6	CDS	442363	443676	.	-	0	HIMB1488_00466	HIMB1488	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1488_00461
+HIMB1506-00000000001	Prodigal:2.6	CDS	840728	841285	.	+	0	HIMB1506_00920	HIMB1506	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1506_00925
+HIMB1506-00000000001	Prodigal:2.6	CDS	841315	842610	.	+	0	HIMB1506_00921	HIMB1506	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1506_00925
+HIMB1506-00000000001	Prodigal:2.6	CDS	842600	843523	.	+	0	HIMB1506_00922	HIMB1506	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1506_00925
+HIMB1506-00000000001	Prodigal:2.6	CDS	843520	844395	.	+	0	HIMB1506_00923	HIMB1506	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1506_00925
+HIMB1506-00000000001	Prodigal:2.6	CDS	844427	845755	.	+	0	HIMB1506_00924	HIMB1506	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1506_00925
+HIMB1506-00000000001	Prodigal:2.6	CDS	845752	846525	.	-	0	HIMB1506_00925	HIMB1506	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1506_00925
+HIMB1506-00000000001	Prodigal:2.6	CDS	846537	847361	.	+	0	HIMB1506_00926	HIMB1506	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1506_00925
+HIMB1506-00000000001	Prodigal:2.6	CDS	847366	848046	.	+	0	HIMB1506_00927	HIMB1506	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1506_00925
+HIMB1506-00000000001	Prodigal:2.6	CDS	848074	849084	.	+	0	HIMB1506_00928	HIMB1506	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1506_00925
+HIMB1506-00000000001	Prodigal:2.6	CDS	849081	850160	.	+	0	HIMB1506_00929	HIMB1506	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1506_00925
+HIMB1506-00000000001	Prodigal:2.6	CDS	850157	850984	.	+	0	HIMB1506_00930	HIMB1506	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1506_00925
+HIMB2211-00000000001	Prodigal:2.6	CDS	796062	796619	.	+	0	HIMB2211_00871	HIMB2211	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB2211_00876
+HIMB2211-00000000001	Prodigal:2.6	CDS	796649	797944	.	+	0	HIMB2211_00872	HIMB2211	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB2211_00876
+HIMB2211-00000000001	Prodigal:2.6	CDS	797934	798857	.	+	0	HIMB2211_00873	HIMB2211	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB2211_00876
+HIMB2211-00000000001	Prodigal:2.6	CDS	798854	799729	.	+	0	HIMB2211_00874	HIMB2211	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB2211_00876
+HIMB2211-00000000001	Prodigal:2.6	CDS	799761	801089	.	+	0	HIMB2211_00875	HIMB2211	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB2211_00876
+HIMB2211-00000000001	Prodigal:2.6	CDS	801086	801859	.	-	0	HIMB2211_00876	HIMB2211	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB2211_00876
+HIMB2211-00000000001	Prodigal:2.6	CDS	801871	802695	.	+	0	HIMB2211_00877	HIMB2211	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB2211_00876
+HIMB2211-00000000001	Prodigal:2.6	CDS	802700	804040	.	+	0	HIMB2211_00878	HIMB2211	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB2211_00876
+HIMB2211-00000000001	Prodigal:2.6	CDS	804043	805053	.	+	0	HIMB2211_00879	HIMB2211	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB2211_00876
+HIMB2211-00000000001	Prodigal:2.6	CDS	805050	806129	.	+	0	HIMB2211_00880	HIMB2211	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB2211_00876
+HIMB2211-00000000001	Prodigal:2.6	CDS	806126	806953	.	+	0	HIMB2211_00881	HIMB2211	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB2211_00876
+HIMB1746-00000000005	Prodigal:2.6	CDS	18573	19886	.	+	0	HIMB1746_01361	HIMB1746	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1746_01366
+HIMB1746-00000000005	Prodigal:2.6	CDS	19891	20679	.	-	0	HIMB1746_01362	HIMB1746	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1746_01366
+HIMB1746-00000000005	Prodigal:2.6	CDS	20683	21360	.	-	0	HIMB1746_01363	HIMB1746	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1746_01366
+HIMB1746-00000000005	Prodigal:2.6	CDS	21364	22035	.	-	0	HIMB1746_01364	HIMB1746	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1746_01366
+HIMB1746-00000000005	Prodigal:2.6	CDS	22107	23009	.	-	0	HIMB1746_01365	HIMB1746	300	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1746_01366
+HIMB1746-00000000005	Prodigal:2.6	CDS	23050	23838	.	-	0	HIMB1746_01366	HIMB1746	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1746_01366
+HIMB1746-00000000005	Prodigal:2.6	CDS	23857	24681	.	+	0	HIMB1746_01367	HIMB1746	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1746_01366
+HIMB1746-00000000005	Prodigal:2.6	CDS	24686	25366	.	+	0	HIMB1746_01368	HIMB1746	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1746_01366
+HIMB1746-00000000005	Prodigal:2.6	CDS	25393	26730	.	+	0	HIMB1746_01369	HIMB1746	445	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1746_01366
+HIMB1746-00000000005	Prodigal:2.6	CDS	26733	27743	.	+	0	HIMB1746_01370	HIMB1746	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1746_01366
+HIMB1746-00000000005	Prodigal:2.6	CDS	27740	28819	.	+	0	HIMB1746_01371	HIMB1746	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1746_01366
+HIMB1542-00000000001	Prodigal:2.6	CDS	784987	786300	.	+	0	HIMB1542_00864	HIMB1542	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1542_00869
+HIMB1542-00000000001	Prodigal:2.6	CDS	786305	787093	.	-	0	HIMB1542_00865	HIMB1542	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1542_00869
+HIMB1542-00000000001	Prodigal:2.6	CDS	787097	787774	.	-	0	HIMB1542_00866	HIMB1542	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1542_00869
+HIMB1542-00000000001	Prodigal:2.6	CDS	787778	788449	.	-	0	HIMB1542_00867	HIMB1542	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1542_00869
+HIMB1542-00000000001	Prodigal:2.6	CDS	788521	789366	.	-	0	HIMB1542_00868	HIMB1542	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1542_00869
+HIMB1542-00000000001	Prodigal:2.6	CDS	789464	790252	.	-	0	HIMB1542_00869	HIMB1542	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1542_00869
+HIMB1542-00000000001	Prodigal:2.6	CDS	790271	791095	.	+	0	HIMB1542_00870	HIMB1542	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1542_00869
+HIMB1542-00000000001	Prodigal:2.6	CDS	791100	792110	.	+	0	HIMB1542_00871	HIMB1542	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1542_00869
+HIMB1542-00000000001	Prodigal:2.6	CDS	792107	793186	.	+	0	HIMB1542_00872	HIMB1542	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1542_00869
+HIMB1542-00000000001	Prodigal:2.6	CDS	793183	794010	.	+	0	HIMB1542_00873	HIMB1542	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1542_00869
+HIMB1542-00000000001	Prodigal:2.6	CDS	794003	794473	.	-	0	HIMB1542_00874	HIMB1542	156	OG0001695	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1542_00869
+HIMB1695-00000000001	Prodigal:2.6	CDS	586603	587160	.	+	0	HIMB1695_00652	HIMB1695	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1695_00657
+HIMB1695-00000000001	Prodigal:2.6	CDS	587190	588485	.	+	0	HIMB1695_00653	HIMB1695	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1695_00657
+HIMB1695-00000000001	Prodigal:2.6	CDS	588475	589398	.	+	0	HIMB1695_00654	HIMB1695	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1695_00657
+HIMB1695-00000000001	Prodigal:2.6	CDS	589395	590270	.	+	0	HIMB1695_00655	HIMB1695	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1695_00657
+HIMB1695-00000000001	Prodigal:2.6	CDS	590302	591630	.	+	0	HIMB1695_00656	HIMB1695	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1695_00657
+HIMB1695-00000000001	Prodigal:2.6	CDS	591627	592400	.	-	0	HIMB1695_00657	HIMB1695	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1695_00657
+HIMB1695-00000000001	Prodigal:2.6	CDS	592412	593236	.	+	0	HIMB1695_00658	HIMB1695	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1695_00657
+HIMB1695-00000000001	Prodigal:2.6	CDS	593241	593921	.	+	0	HIMB1695_00659	HIMB1695	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1695_00657
+HIMB1695-00000000001	Prodigal:2.6	CDS	593949	594959	.	+	0	HIMB1695_00660	HIMB1695	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1695_00657
+HIMB1695-00000000001	Prodigal:2.6	CDS	594956	596035	.	+	0	HIMB1695_00661	HIMB1695	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1695_00657
+HIMB1695-00000000001	Prodigal:2.6	CDS	596032	596859	.	+	0	HIMB1695_00662	HIMB1695	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1695_00657
+HIMB1577-00000000001	Prodigal:2.6	CDS	1089918	1090745	.	-	0	HIMB1577_01154	HIMB1577	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1577_01159
+HIMB1577-00000000001	Prodigal:2.6	CDS	1090745	1091821	.	-	0	HIMB1577_01155	HIMB1577	358	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1577_01159
+HIMB1577-00000000001	Prodigal:2.6	CDS	1091818	1092828	.	-	0	HIMB1577_01156	HIMB1577	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1577_01159
+HIMB1577-00000000001	Prodigal:2.6	CDS	1092856	1093536	.	-	0	HIMB1577_01157	HIMB1577	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1577_01159
+HIMB1577-00000000001	Prodigal:2.6	CDS	1093541	1094365	.	-	0	HIMB1577_01158	HIMB1577	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1577_01159
+HIMB1577-00000000001	Prodigal:2.6	CDS	1094377	1095150	.	+	0	HIMB1577_01159	HIMB1577	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1577_01159
+HIMB1577-00000000001	Prodigal:2.6	CDS	1095147	1096475	.	-	0	HIMB1577_01160	HIMB1577	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1577_01159
+HIMB1577-00000000001	Prodigal:2.6	CDS	1096507	1097382	.	-	0	HIMB1577_01161	HIMB1577	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1577_01159
+HIMB1577-00000000001	Prodigal:2.6	CDS	1097379	1098302	.	-	0	HIMB1577_01162	HIMB1577	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1577_01159
+HIMB1577-00000000001	Prodigal:2.6	CDS	1098292	1099587	.	-	0	HIMB1577_01163	HIMB1577	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1577_01159
+HIMB1577-00000000001	Prodigal:2.6	CDS	1099617	1100174	.	-	0	HIMB1577_01164	HIMB1577	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1577_01159
+HIMB1631-00000000001	Prodigal:2.6	CDS	1419676	1420503	.	-	0	HIMB1631_01522	HIMB1631	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1631_01527
+HIMB1631-00000000001	Prodigal:2.6	CDS	1420503	1421579	.	-	0	HIMB1631_01523	HIMB1631	358	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1631_01527
+HIMB1631-00000000001	Prodigal:2.6	CDS	1421576	1422586	.	-	0	HIMB1631_01524	HIMB1631	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1631_01527
+HIMB1631-00000000001	Prodigal:2.6	CDS	1422614	1423294	.	-	0	HIMB1631_01525	HIMB1631	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1631_01527
+HIMB1631-00000000001	Prodigal:2.6	CDS	1423299	1424123	.	-	0	HIMB1631_01526	HIMB1631	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1631_01527
+HIMB1631-00000000001	Prodigal:2.6	CDS	1424135	1424908	.	+	0	HIMB1631_01527	HIMB1631	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1631_01527
+HIMB1631-00000000001	Prodigal:2.6	CDS	1424905	1426233	.	-	0	HIMB1631_01528	HIMB1631	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1631_01527
+HIMB1631-00000000001	Prodigal:2.6	CDS	1426265	1427140	.	-	0	HIMB1631_01529	HIMB1631	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1631_01527
+HIMB1631-00000000001	Prodigal:2.6	CDS	1427137	1428060	.	-	0	HIMB1631_01530	HIMB1631	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1631_01527
+HIMB1631-00000000001	Prodigal:2.6	CDS	1428050	1429345	.	-	0	HIMB1631_01531	HIMB1631	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1631_01527
+HIMB1631-00000000001	Prodigal:2.6	CDS	1429375	1429932	.	-	0	HIMB1631_01532	HIMB1631	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1631_01527
+HIMB1715-00000000030	Prodigal:2.6	CDS	1095	2105	.	-	0	HIMB1715_01314	HIMB1715	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1715_01317
+HIMB1715-00000000030	Prodigal:2.6	CDS	2133	2813	.	-	0	HIMB1715_01315	HIMB1715	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1715_01317
+HIMB1715-00000000030	Prodigal:2.6	CDS	2818	3642	.	-	0	HIMB1715_01316	HIMB1715	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1715_01317
+HIMB1715-00000000030	Prodigal:2.6	CDS	3654	4427	.	+	0	HIMB1715_01317	HIMB1715	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1715_01317
+HIMB1715-00000000030	Prodigal:2.6	CDS	4424	5752	.	-	0	HIMB1715_01318	HIMB1715	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1715_01317
+HIMB1715-00000000030	Prodigal:2.6	CDS	5784	6659	.	-	0	HIMB1715_01319	HIMB1715	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1715_01317
+HIMB1715-00000000030	Prodigal:2.6	CDS	6656	7579	.	-	0	HIMB1715_01320	HIMB1715	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1715_01317
+HIMB1715-00000000030	Prodigal:2.6	CDS	7569	8864	.	-	0	HIMB1715_01321	HIMB1715	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1715_01317
+HIMB1715-00000000030	Prodigal:2.6	CDS	8894	9451	.	-	0	HIMB1715_01322	HIMB1715	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1715_01317
+HIMB1701-00000000001	Prodigal:2.6	CDS	520109	521422	.	+	0	HIMB1701_00591	HIMB1701	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1701_00596
+HIMB1701-00000000001	Prodigal:2.6	CDS	521427	522215	.	-	0	HIMB1701_00592	HIMB1701	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1701_00596
+HIMB1701-00000000001	Prodigal:2.6	CDS	522219	522896	.	-	0	HIMB1701_00593	HIMB1701	225	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1701_00596
+HIMB1701-00000000001	Prodigal:2.6	CDS	522900	523571	.	-	0	HIMB1701_00594	HIMB1701	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1701_00596
+HIMB1701-00000000001	Prodigal:2.6	CDS	523643	524488	.	-	0	HIMB1701_00595	HIMB1701	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1701_00596
+HIMB1701-00000000001	Prodigal:2.6	CDS	524586	525374	.	-	0	HIMB1701_00596	HIMB1701	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1701_00596
+HIMB1701-00000000001	Prodigal:2.6	CDS	525393	526217	.	+	0	HIMB1701_00597	HIMB1701	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1701_00596
+HIMB1701-00000000001	Prodigal:2.6	CDS	526222	527559	.	+	0	HIMB1701_00598	HIMB1701	445	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1701_00596
+HIMB1701-00000000001	Prodigal:2.6	CDS	527562	528572	.	+	0	HIMB1701_00599	HIMB1701	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1701_00596
+HIMB1701-00000000001	Prodigal:2.6	CDS	528569	529648	.	+	0	HIMB1701_00600	HIMB1701	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1701_00596
+HIMB1701-00000000001	Prodigal:2.6	CDS	529645	530472	.	+	0	HIMB1701_00601	HIMB1701	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1701_00596
+HIMB1782-00000000001	Prodigal:2.6	CDS	232433	232990	.	+	0	HIMB1782_00253	HIMB1782	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1782_00258
+HIMB1782-00000000001	Prodigal:2.6	CDS	233020	234315	.	+	0	HIMB1782_00254	HIMB1782	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1782_00258
+HIMB1782-00000000001	Prodigal:2.6	CDS	234305	235228	.	+	0	HIMB1782_00255	HIMB1782	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1782_00258
+HIMB1782-00000000001	Prodigal:2.6	CDS	235225	236100	.	+	0	HIMB1782_00256	HIMB1782	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1782_00258
+HIMB1782-00000000001	Prodigal:2.6	CDS	236132	237460	.	+	0	HIMB1782_00257	HIMB1782	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1782_00258
+HIMB1782-00000000001	Prodigal:2.6	CDS	237457	238230	.	-	0	HIMB1782_00258	HIMB1782	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1782_00258
+HIMB1782-00000000001	Prodigal:2.6	CDS	238242	239066	.	+	0	HIMB1782_00259	HIMB1782	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1782_00258
+HIMB1782-00000000001	Prodigal:2.6	CDS	239071	239751	.	+	0	HIMB1782_00260	HIMB1782	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1782_00258
+HIMB1782-00000000001	Prodigal:2.6	CDS	239778	241118	.	+	0	HIMB1782_00261	HIMB1782	446	OG0002198	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1782_00258
+HIMB1782-00000000001	Prodigal:2.6	CDS	241121	242131	.	+	0	HIMB1782_00262	HIMB1782	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1782_00258
+HIMB1782-00000000001	Prodigal:2.6	CDS	242128	243210	.	+	0	HIMB1782_00263	HIMB1782	360	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1782_00258
+HIMB1602-00000000004	Prodigal:2.6	CDS	1059	2069	.	-	0	HIMB1602_00072	HIMB1602	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1602_00075
+HIMB1602-00000000004	Prodigal:2.6	CDS	2097	2777	.	-	0	HIMB1602_00073	HIMB1602	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1602_00075
+HIMB1602-00000000004	Prodigal:2.6	CDS	2782	3606	.	-	0	HIMB1602_00074	HIMB1602	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1602_00075
+HIMB1602-00000000004	Prodigal:2.6	CDS	3625	4413	.	+	0	HIMB1602_00075	HIMB1602	262	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1602_00075
+HIMB1602-00000000004	Prodigal:2.6	CDS	4511	5356	.	+	0	HIMB1602_00076	HIMB1602	281	OG0001580	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1602_00075
+HIMB1602-00000000004	Prodigal:2.6	CDS	5428	6099	.	+	0	HIMB1602_00077	HIMB1602	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1602_00075
+HIMB1602-00000000004	Prodigal:2.6	CDS	6109	6780	.	+	0	HIMB1602_00078	HIMB1602	223	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1602_00075
+HIMB1602-00000000004	Prodigal:2.6	CDS	6784	7572	.	+	0	HIMB1602_00079	HIMB1602	262	OG0000003	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1602_00075
+HIMB1602-00000000004	Prodigal:2.6	CDS	7577	8890	.	-	0	HIMB1602_00080	HIMB1602	437	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1602_00075
+HIMB1623-00000000014	Prodigal:2.6	CDS	14422	14979	.	+	0	HIMB1623_01488	HIMB1623	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1623_01493
+HIMB1623-00000000014	Prodigal:2.6	CDS	15009	16304	.	+	0	HIMB1623_01489	HIMB1623	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1623_01493
+HIMB1623-00000000014	Prodigal:2.6	CDS	16294	17217	.	+	0	HIMB1623_01490	HIMB1623	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1623_01493
+HIMB1623-00000000014	Prodigal:2.6	CDS	17214	18089	.	+	0	HIMB1623_01491	HIMB1623	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1623_01493
+HIMB1623-00000000014	Prodigal:2.6	CDS	18121	19449	.	+	0	HIMB1623_01492	HIMB1623	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1623_01493
+HIMB1623-00000000014	Prodigal:2.6	CDS	19446	20219	.	-	0	HIMB1623_01493	HIMB1623	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1623_01493
+HIMB1623-00000000014	Prodigal:2.6	CDS	20231	21055	.	+	0	HIMB1623_01494	HIMB1623	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1623_01493
+HIMB1623-00000000014	Prodigal:2.6	CDS	21060	21740	.	+	0	HIMB1623_01495	HIMB1623	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1623_01493
+HIMB1623-00000000014	Prodigal:2.6	CDS	21768	22778	.	+	0	HIMB1623_01496	HIMB1623	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1623_01493
+HIMB1623-00000000014	Prodigal:2.6	CDS	22775	23854	.	+	0	HIMB1623_01497	HIMB1623	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1623_01493
+HIMB1623-00000000014	Prodigal:2.6	CDS	23851	24678	.	+	0	HIMB1623_01498	HIMB1623	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1623_01493
+HIMB1709-00000000001	Prodigal:2.6	CDS	569790	570347	.	+	0	HIMB1709_00640	HIMB1709	185	OG0001041	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB1709_00645
+HIMB1709-00000000001	Prodigal:2.6	CDS	570377	571672	.	+	0	HIMB1709_00641	HIMB1709	431	OG0000880	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	COG3572	Gsh2	Gamma-glutamylcysteine synthetase	HIMB1709_00645
+HIMB1709-00000000001	Prodigal:2.6	CDS	571662	572585	.	+	0	HIMB1709_00642	HIMB1709	307	OG0000882	K01920	glutathione synthase [EC:6.3.2.3]	COG0189	LysX	Glutathione synthase, LysX or RimK-type ligase, ATP-grasp superfamily	HIMB1709_00645
+HIMB1709-00000000001	Prodigal:2.6	CDS	572582	573457	.	+	0	HIMB1709_00643	HIMB1709	291	OG0000971	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1709_00645
+HIMB1709-00000000001	Prodigal:2.6	CDS	573489	574817	.	+	0	HIMB1709_00644	HIMB1709	442	OG0000901	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1709_00645
+HIMB1709-00000000001	Prodigal:2.6	CDS	574814	575587	.	-	0	HIMB1709_00645	HIMB1709	257	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1709_00645
+HIMB1709-00000000001	Prodigal:2.6	CDS	575599	576423	.	+	0	HIMB1709_00646	HIMB1709	274	OG0001208	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1709_00645
+HIMB1709-00000000001	Prodigal:2.6	CDS	576428	577108	.	+	0	HIMB1709_00647	HIMB1709	226	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1709_00645
+HIMB1709-00000000001	Prodigal:2.6	CDS	577136	578146	.	+	0	HIMB1709_00648	HIMB1709	336	OG0001380	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1709_00645
+HIMB1709-00000000001	Prodigal:2.6	CDS	578143	579222	.	+	0	HIMB1709_00649	HIMB1709	359	OG0000974	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1709_00645
+HIMB1709-00000000001	Prodigal:2.6	CDS	579219	580046	.	+	0	HIMB1709_00650	HIMB1709	275	OG0001567	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1709_00645
+HIMB109-00000000001	Prodigal:2.6	CDS	65576	65890	.	+	0	HIMB109_00094	HIMB109	104	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	HIMB109_00099
+HIMB109-00000000001	Prodigal:2.6	CDS	65898	66233	.	+	0	HIMB109_00095	HIMB109	111	OG0001352	NA	NA	NA	NA	NA	HIMB109_00099
+HIMB109-00000000001	Prodigal:2.6	CDS	66233	66418	.	+	0	HIMB109_00096	HIMB109	61	OG0001764	NA	NA	NA	NA	NA	HIMB109_00099
+HIMB109-00000000001	Prodigal:2.6	CDS	66425	67063	.	-	0	HIMB109_00097	HIMB109	212	OG0001396	K07152	protein SCO1	COG1999	Sco1	Cytochrome oxidase Cu insertion factor, SCO1/SenC/PrrC family	HIMB109_00099
+HIMB109-00000000001	Prodigal:2.6	CDS	67064	68290	.	-	0	HIMB109_00098	HIMB109	408	OG0000472	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	HIMB109_00099
+HIMB109-00000000001	Prodigal:2.6	CDS	68291	69067	.	-	0	HIMB109_00099	HIMB109	258	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB109_00099
+HIMB109-00000000001	Prodigal:2.6	CDS	69111	69212	.	+	0	HIMB109_00100	HIMB109	33	OG0003158	NA	NA	NA	NA	NA	HIMB109_00099
+HIMB109-00000000001	Prodigal:2.6	CDS	69403	70692	.	+	0	HIMB109_00101	HIMB109	429	OG0000040	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB109_00099
+HIMB109-00000000001	Prodigal:2.6	CDS	70772	71017	.	+	0	HIMB109_00102	HIMB109	81	OG0001841	NA	NA	NA	NA	NA	HIMB109_00099
+HIMB109-00000000001	Prodigal:2.6	CDS	71139	72962	.	-	0	HIMB109_00103	HIMB109	607	OG0000968	K06207	GTP-binding protein	COG1217	TypA	Predicted membrane GTPase TypA/BipA involved in stress response	HIMB109_00099
+HIMB109-00000000001	Prodigal:2.6	CDS	73210	74439	.	-	0	HIMB109_00104	HIMB109	409	OG0002428	NA	NA	COG2271	UhpC	Sugar phosphate permease	HIMB109_00099
+ADAC02000001.1	Prodigal:2.6	CDS	1190538	1191767	.	+	0	HIMB114_01296	HIMB114	409	OG0002428	NA	NA	COG2271	UhpC	Sugar phosphate permease	HIMB114_01301
+ADAC02000001.1	Prodigal:2.6	CDS	1192015	1193838	.	+	0	HIMB114_01297	HIMB114	607	OG0000968	K06207	GTP-binding protein	COG1217	TypA	Predicted membrane GTPase TypA/BipA involved in stress response	HIMB114_01301
+ADAC02000001.1	Prodigal:2.6	CDS	1193960	1194205	.	-	0	HIMB114_01298	HIMB114	81	OG0001841	NA	NA	NA	NA	NA	HIMB114_01301
+ADAC02000001.1	Prodigal:2.6	CDS	1194285	1195574	.	-	0	HIMB114_01299	HIMB114	429	OG0000040	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB114_01301
+ADAC02000001.1	Prodigal:2.6	CDS	1195766	1195867	.	-	0	HIMB114_01300	HIMB114	33	OG0003158	NA	NA	NA	NA	NA	HIMB114_01301
+ADAC02000001.1	Prodigal:2.6	CDS	1195911	1196687	.	+	0	HIMB114_01301	HIMB114	258	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB114_01301
+ADAC02000001.1	Prodigal:2.6	CDS	1196688	1197914	.	+	0	HIMB114_01302	HIMB114	408	OG0000472	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	HIMB114_01301
+ADAC02000001.1	Prodigal:2.6	CDS	1197915	1198436	.	+	0	HIMB114_01303	HIMB114	173	OG0001972	K09796	periplasmic copper chaperone A	COG2847	NA	Copper(I)-binding protein	HIMB114_01301
+ADAC02000001.1	Prodigal:2.6	CDS	1198436	1199074	.	+	0	HIMB114_01304	HIMB114	212	OG0001396	K07152	protein SCO1	COG1999	Sco1	Cytochrome oxidase Cu insertion factor, SCO1/SenC/PrrC family	HIMB114_01301
+ADAC02000001.1	Prodigal:2.6	CDS	1199081	1199266	.	-	0	HIMB114_01305	HIMB114	61	OG0001764	NA	NA	NA	NA	NA	HIMB114_01301
+ADAC02000001.1	Prodigal:2.6	CDS	1199266	1199601	.	-	0	HIMB114_01306	HIMB114	111	OG0001352	NA	NA	NA	NA	NA	HIMB114_01301
+HIMB1565-00000000001	Prodigal:2.6	CDS	355903	357132	.	+	0	HIMB1565_00386	HIMB1565	409	OG0002428	NA	NA	COG2271	UhpC	Sugar phosphate permease	HIMB1565_00391
+HIMB1565-00000000001	Prodigal:2.6	CDS	357380	359203	.	+	0	HIMB1565_00387	HIMB1565	607	OG0000968	K06207	GTP-binding protein	COG1217	TypA	Predicted membrane GTPase TypA/BipA involved in stress response	HIMB1565_00391
+HIMB1565-00000000001	Prodigal:2.6	CDS	359325	359570	.	-	0	HIMB1565_00388	HIMB1565	81	OG0001841	NA	NA	NA	NA	NA	HIMB1565_00391
+HIMB1565-00000000001	Prodigal:2.6	CDS	359650	360939	.	-	0	HIMB1565_00389	HIMB1565	429	OG0000040	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1565_00391
+HIMB1565-00000000001	Prodigal:2.6	CDS	361130	361231	.	-	0	HIMB1565_00390	HIMB1565	33	OG0003158	NA	NA	NA	NA	NA	HIMB1565_00391
+HIMB1565-00000000001	Prodigal:2.6	CDS	361275	362051	.	+	0	HIMB1565_00391	HIMB1565	258	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1565_00391
+HIMB1565-00000000001	Prodigal:2.6	CDS	362052	363278	.	+	0	HIMB1565_00392	HIMB1565	408	OG0000472	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	HIMB1565_00391
+HIMB1565-00000000001	Prodigal:2.6	CDS	363279	363917	.	+	0	HIMB1565_00393	HIMB1565	212	OG0001396	K07152	protein SCO1	COG1999	Sco1	Cytochrome oxidase Cu insertion factor, SCO1/SenC/PrrC family	HIMB1565_00391
+HIMB1565-00000000001	Prodigal:2.6	CDS	363924	364109	.	-	0	HIMB1565_00394	HIMB1565	61	OG0001764	NA	NA	NA	NA	NA	HIMB1565_00391
+HIMB1565-00000000001	Prodigal:2.6	CDS	364109	364444	.	-	0	HIMB1565_00395	HIMB1565	111	OG0001352	NA	NA	NA	NA	NA	HIMB1565_00391
+HIMB1565-00000000001	Prodigal:2.6	CDS	364452	364766	.	-	0	HIMB1565_00396	HIMB1565	104	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	HIMB1565_00391
+HIMB1517-00000000001	Prodigal:2.6	CDS	124882	125217	.	+	0	HIMB1517_00151	HIMB1517	111	OG0001352	NA	NA	NA	NA	NA	HIMB1517_00156
+HIMB1517-00000000001	Prodigal:2.6	CDS	125217	125402	.	+	0	HIMB1517_00152	HIMB1517	61	OG0001764	NA	NA	COG3087	FtsN	Cell division protein FtsN	HIMB1517_00156
+HIMB1517-00000000001	Prodigal:2.6	CDS	125410	126048	.	-	0	HIMB1517_00153	HIMB1517	212	OG0001396	K07152	protein SCO1	COG1999	Sco1	Cytochrome oxidase Cu insertion factor, SCO1/SenC/PrrC family	HIMB1517_00156
+HIMB1517-00000000001	Prodigal:2.6	CDS	126048	126569	.	-	0	HIMB1517_00154	HIMB1517	173	OG0001972	K09796	periplasmic copper chaperone A	COG2847	NA	Copper(I)-binding protein	HIMB1517_00156
+HIMB1517-00000000001	Prodigal:2.6	CDS	126570	127787	.	-	0	HIMB1517_00155	HIMB1517	405	OG0000472	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	HIMB1517_00156
+HIMB1517-00000000001	Prodigal:2.6	CDS	127794	128570	.	-	0	HIMB1517_00156	HIMB1517	258	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1517_00156
+HIMB1517-00000000001	Prodigal:2.6	CDS	128712	129917	.	-	0	HIMB1517_00157	HIMB1517	401	OG0000040	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1517_00156
+HIMB1517-00000000001	Prodigal:2.6	CDS	129917	130255	.	-	0	HIMB1517_00158	HIMB1517	112	OG0001806	K04751	nitrogen regulatory protein P-II 1	COG0347	GlnK	Nitrogen regulatory protein PII	HIMB1517_00156
+HIMB1517-00000000001	Prodigal:2.6	CDS	130346	130591	.	+	0	HIMB1517_00159	HIMB1517	81	OG0001841	NA	NA	NA	NA	NA	HIMB1517_00156
+HIMB1517-00000000001	Prodigal:2.6	CDS	130713	132536	.	-	0	HIMB1517_00160	HIMB1517	607	OG0000968	K06207	GTP-binding protein	COG1217	TypA	Predicted membrane GTPase TypA/BipA involved in stress response	HIMB1517_00156
+HIMB1517-00000000001	Prodigal:2.6	CDS	132784	134013	.	-	0	HIMB1517_00161	HIMB1517	409	OG0002428	NA	NA	COG2271	UhpC	Sugar phosphate permease	HIMB1517_00156
+Ga0197930_11	Prodigal:2.6	CDS	993945	994250	.	+	0	LSUCC0723_01100	LSUCC0723	101	OG0002245	K16904	dCTP diphosphatase [EC:3.6.1.12]	COG1694	MazG	NTP pyrophosphatase, house-cleaning of non-canonical NTPs	LSUCC0723_01105
+Ga0197930_11	Prodigal:2.6	CDS	994228	994602	.	+	0	LSUCC0723_01101	LSUCC0723	124	OG0001352	NA	NA	NA	NA	NA	LSUCC0723_01105
+Ga0197930_11	Prodigal:2.6	CDS	994602	994787	.	+	0	LSUCC0723_01102	LSUCC0723	61	OG0001764	NA	NA	NA	NA	NA	LSUCC0723_01105
+Ga0197930_11	Prodigal:2.6	CDS	994794	995432	.	-	0	LSUCC0723_01103	LSUCC0723	212	OG0001396	K07152	protein SCO1	COG1999	Sco1	Cytochrome oxidase Cu insertion factor, SCO1/SenC/PrrC family	LSUCC0723_01105
+Ga0197930_11	Prodigal:2.6	CDS	995433	996659	.	-	0	LSUCC0723_01104	LSUCC0723	408	OG0000472	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	LSUCC0723_01105
+Ga0197930_11	Prodigal:2.6	CDS	996660	997436	.	-	0	LSUCC0723_01105	LSUCC0723	258	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	LSUCC0723_01105
+Ga0197930_11	Prodigal:2.6	CDS	997480	997581	.	+	0	LSUCC0723_01106	LSUCC0723	33	OG0003158	NA	NA	NA	NA	NA	LSUCC0723_01105
+Ga0197930_11	Prodigal:2.6	CDS	997770	999059	.	+	0	LSUCC0723_01107	LSUCC0723	429	OG0000040	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	LSUCC0723_01105
+Ga0197930_11	Prodigal:2.6	CDS	999139	999384	.	+	0	LSUCC0723_01108	LSUCC0723	81	OG0001841	NA	NA	NA	NA	NA	LSUCC0723_01105
+Ga0197930_11	Prodigal:2.6	CDS	999506	1001329	.	-	0	LSUCC0723_01109	LSUCC0723	607	OG0000968	K06207	GTP-binding protein	COG1217	TypA	Predicted membrane GTPase TypA/BipA involved in stress response	LSUCC0723_01105
+Ga0197930_11	Prodigal:2.6	CDS	1001577	1002806	.	-	0	LSUCC0723_01110	LSUCC0723	409	OG0002428	NA	NA	COG2271	UhpC	Sugar phosphate permease	LSUCC0723_01105
+Ga0255589_11	Prodigal:2.6	CDS	962227	962601	.	+	0	LSUCC0664_01049	LSUCC0664	124	OG0001352	NA	NA	NA	NA	NA	LSUCC0664_01054
+Ga0255589_11	Prodigal:2.6	CDS	962601	962786	.	+	0	LSUCC0664_01050	LSUCC0664	61	OG0001764	NA	NA	NA	NA	NA	LSUCC0664_01054
+Ga0255589_11	Prodigal:2.6	CDS	962796	963434	.	-	0	LSUCC0664_01051	LSUCC0664	212	OG0001396	K07152	protein SCO1	COG1999	Sco1	Cytochrome oxidase Cu insertion factor, SCO1/SenC/PrrC family	LSUCC0664_01054
+Ga0255589_11	Prodigal:2.6	CDS	963434	963940	.	-	0	LSUCC0664_01052	LSUCC0664	168	OG0001972	K09796	periplasmic copper chaperone A	COG2847	NA	Copper(I)-binding protein	LSUCC0664_01054
+Ga0255589_11	Prodigal:2.6	CDS	963945	965165	.	-	0	LSUCC0664_01053	LSUCC0664	406	OG0000472	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	LSUCC0664_01054
+Ga0255589_11	Prodigal:2.6	CDS	965172	965948	.	-	0	LSUCC0664_01054	LSUCC0664	258	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	LSUCC0664_01054
+Ga0255589_11	Prodigal:2.6	CDS	966090	967295	.	-	0	LSUCC0664_01055	LSUCC0664	401	OG0000040	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	LSUCC0664_01054
+Ga0255589_11	Prodigal:2.6	CDS	967296	967634	.	-	0	LSUCC0664_01056	LSUCC0664	112	OG0001806	K04751	nitrogen regulatory protein P-II 1	COG0347	GlnK	Nitrogen regulatory protein PII	LSUCC0664_01054
+Ga0255589_11	Prodigal:2.6	CDS	967724	967969	.	+	0	LSUCC0664_01057	LSUCC0664	81	OG0001841	NA	NA	NA	NA	NA	LSUCC0664_01054
+Ga0255589_11	Prodigal:2.6	CDS	968088	969911	.	-	0	LSUCC0664_01058	LSUCC0664	607	OG0000968	K06207	GTP-binding protein	COG1217	TypA	Predicted membrane GTPase TypA/BipA involved in stress response	LSUCC0664_01054
+Ga0255589_11	Prodigal:2.6	CDS	969968	970111	.	-	0	LSUCC0664_01059	LSUCC0664	47	OG0005203	NA	NA	NA	NA	NA	LSUCC0664_01054
+Ga0182791_11	Prodigal:2.6	CDS	1002400	1002723	.	-	0	LSUCC0261_01068	LSUCC0261	107	OG0000130	K03671	thioredoxin 1	COG3118	CnoX	Chaperedoxin CnoX, contains thioredoxin-like and TPR-like domains, YbbN/TrxSC family	LSUCC0261_01073
+Ga0182791_11	Prodigal:2.6	CDS	1002779	1004200	.	-	0	LSUCC0261_01069	LSUCC0261	473	OG0000147	NA	NA	COG2925	SbcB	Exonuclease I (degrades ssDNA)	LSUCC0261_01073
+Ga0182791_11	Prodigal:2.6	CDS	1004200	1005117	.	-	0	LSUCC0261_01070	LSUCC0261	305	OG0001810	NA	NA	COG1322	RmuC	DNA anti-recombination protein (rearrangement mutator) RmuC	LSUCC0261_01073
+Ga0182791_11	Prodigal:2.6	CDS	1005298	1005933	.	-	0	LSUCC0261_01071	LSUCC0261	211	OG0001091	NA	NA	COG2135	SRAP	ssDNA abasic site-binding protein YedK/HMCES, SRAP family	LSUCC0261_01073
+Ga0182791_11	Prodigal:2.6	CDS	1005933	1006628	.	-	0	LSUCC0261_01072	LSUCC0261	231	OG0001983	NA	NA	NA	NA	NA	LSUCC0261_01073
+Ga0182791_11	Prodigal:2.6	CDS	1006630	1007349	.	-	0	LSUCC0261_01073	LSUCC0261	239	OG0001353	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	LSUCC0261_01073
+Ga0182791_11	Prodigal:2.6	CDS	1007391	1008824	.	-	0	LSUCC0261_01074	LSUCC0261	477	OG0001079	K08997	protein adenylyltransferase [EC:2.7.7.108]	COG0397	SelO	Protein adenylyltransferase (AMPylase) SelO/YdiU (selenoprotein O)	LSUCC0261_01073
+Ga0182791_11	Prodigal:2.6	CDS	1009007	1009978	.	-	0	LSUCC0261_01075	LSUCC0261	323	OG0001017	K18208	renalase [EC:1.6.3.5]	COG3380	NA	Predicted NAD/FAD-dependent oxidoreductase	LSUCC0261_01073
+Ga0182791_11	Prodigal:2.6	CDS	1010570	1010896	.	+	0	LSUCC0261_01076	LSUCC0261	108	OG0002553	NA	NA	NA	NA	NA	LSUCC0261_01073
+Ga0182791_11	Prodigal:2.6	CDS	1010929	1011264	.	+	0	LSUCC0261_01077	LSUCC0261	111	OG0001352	NA	NA	NA	NA	NA	LSUCC0261_01073
+Ga0182791_11	Prodigal:2.6	CDS	1011314	1011631	.	+	0	LSUCC0261_01078	LSUCC0261	105	OG0002609	NA	NA	NA	NA	NA	LSUCC0261_01073

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Taxonium Wrapper</title>
+  <style>html,body{height:100%;margin:0}#frameContainer{width:100%;height:100%}</style>
+</head>
+<body>
+  <div id="frameContainer">Loading Taxonium...</div>
+  <script>
+    (function(){
+      try {
+        const params = new URLSearchParams(location.search);
+        const og = params.get('og') || 'OG0000000';
+        const ts = params.get('ts') || Date.now();
+
+        const treeUrl = 'https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/SAR11_extracted_iqtree2.treefile';
+        const metaUrl = 'https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/tree_annottable_ogpage.tsv';
+        const colorParam = encodeURIComponent(JSON.stringify({ field: `meta_${og}` }));
+
+        const taxoniumUrl = `https://taxonium.org/?treeUrl=${encodeURIComponent(treeUrl)}&ladderizeTree=true&treeType=nwk&metaUrl=${encodeURIComponent(metaUrl)}&metaType=meta_tsv&xType=x_dist&color=${colorParam}&ts=${ts}`;
+
+        const container = document.getElementById('frameContainer');
+        container.innerHTML = '';
+        const iframe = document.createElement('iframe');
+        iframe.src = taxoniumUrl;
+        iframe.width = '100%';
+        iframe.height = '1200';
+        iframe.style.border = '1px solid #666';
+        iframe.allowFullscreen = true;
+        container.appendChild(iframe);
+      } catch (e) {
+        console.error('taxonium_wrapper error', e);
+        document.getElementById('frameContainer').innerText = 'Failed to load Taxonium.';
+      }
+    })();
+  </script>
+</body>
+</html>

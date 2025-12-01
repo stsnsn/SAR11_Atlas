@@ -1,0 +1,23 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP159817.1	Prodigal:2.6	CDS	513295	514554	.	+	0	Uisw_116_00578	Uisw_116	419	OG0001002	K02038	phosphate transport system permease protein	COG0581	PstA	ABC-type phosphate transport system, permease component	Uisw_116_00583
+CP159817.1	Prodigal:2.6	CDS	514554	515321	.	+	0	Uisw_116_00579	Uisw_116	255	OG0000003	K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]	COG1117	PstB	ABC-type phosphate transport system, ATPase component	Uisw_116_00583
+CP159817.1	Prodigal:2.6	CDS	515324	516022	.	+	0	Uisw_116_00580	Uisw_116	232	OG0000997	K02039	phosphate transport system protein	COG0704	PhoU	Phosphate uptake regulator PhoU	Uisw_116_00583
+CP159817.1	Prodigal:2.6	CDS	516022	516702	.	+	0	Uisw_116_00581	Uisw_116	226	OG0001004	NA	NA	COG0745	OmpR	DNA-binding response regulator, OmpR family, contains REC and winged-helix (wHTH) domain	Uisw_116_00583
+CP159817.1	Prodigal:2.6	CDS	516699	516920	.	-	0	Uisw_116_00582	Uisw_116	73	OG0000331	NA	NA	NA	NA	NA	Uisw_116_00583
+CP159817.1	Prodigal:2.6	CDS	517009	518154	.	-	0	Uisw_116_00583	Uisw_116	381	OG0003113	NA	NA	COG3203	OmpC	Outer membrane porin OmpC/OmpF/PhoE	Uisw_116_00583
+CP159817.1	Prodigal:2.6	CDS	518309	519289	.	-	0	Uisw_116_00584	Uisw_116	326	OG0000938	NA	NA	COG4531	ZnuA	ABC-type Zn2+ transport system, periplasmic component/surface adhesin ZnuA	Uisw_116_00583
+CP159817.1	Prodigal:2.6	CDS	519364	520110	.	+	0	Uisw_116_00585	Uisw_116	248	OG0000948	K09817	zinc transport system ATP-binding protein [EC:7.2.2.20]	COG1121	ZnuC	ABC-type Mn2+/Zn2+ transport system, ATPase component	Uisw_116_00583
+CP159817.1	Prodigal:2.6	CDS	520111	520914	.	+	0	Uisw_116_00586	Uisw_116	267	OG0000939	K09816	zinc transport system permease protein	COG1108	ZnuB	ABC-type Mn2+/Zn2+ transport system, permease component	Uisw_116_00583
+CP159817.1	Prodigal:2.6	CDS	520936	521334	.	+	0	Uisw_116_00587	Uisw_116	132	OG0000616	K09823	Fur family transcriptional regulator, zinc uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	Uisw_116_00583
+CP159817.1	Prodigal:2.6	CDS	521335	522333	.	+	0	Uisw_116_00588	Uisw_116	332	OG0001056	K13609	delta1-piperideine-2-carboxylate reductase [EC:1.5.1.21]	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	Uisw_116_00583
+CP159810.1	Prodigal:2.6	CDS	669963	670961	.	-	0	Uisw_090_00758	Uisw_090	332	OG0001056	K13609	delta1-piperideine-2-carboxylate reductase [EC:1.5.1.21]	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	Uisw_090_00763
+CP159810.1	Prodigal:2.6	CDS	670962	671360	.	-	0	Uisw_090_00759	Uisw_090	132	OG0000616	K09823	Fur family transcriptional regulator, zinc uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	Uisw_090_00763
+CP159810.1	Prodigal:2.6	CDS	671382	672185	.	-	0	Uisw_090_00760	Uisw_090	267	OG0000939	K09816	zinc transport system permease protein	COG1108	ZnuB	ABC-type Mn2+/Zn2+ transport system, permease component	Uisw_090_00763
+CP159810.1	Prodigal:2.6	CDS	672186	672932	.	-	0	Uisw_090_00761	Uisw_090	248	OG0000948	K09817	zinc transport system ATP-binding protein [EC:7.2.2.20]	COG1121	ZnuC	ABC-type Mn2+/Zn2+ transport system, ATPase component	Uisw_090_00763
+CP159810.1	Prodigal:2.6	CDS	673007	673978	.	+	0	Uisw_090_00762	Uisw_090	323	OG0000938	NA	NA	COG4531	ZnuA	ABC-type Zn2+ transport system, periplasmic component/surface adhesin ZnuA	Uisw_090_00763
+CP159810.1	Prodigal:2.6	CDS	674133	675278	.	+	0	Uisw_090_00763	Uisw_090	381	OG0003113	NA	NA	COG3203	OmpC	Outer membrane porin OmpC/OmpF/PhoE	Uisw_090_00763
+CP159810.1	Prodigal:2.6	CDS	675366	675587	.	+	0	Uisw_090_00764	Uisw_090	73	OG0000331	NA	NA	NA	NA	NA	Uisw_090_00763
+CP159810.1	Prodigal:2.6	CDS	675873	676838	.	+	0	Uisw_090_00765	Uisw_090	321	OG0001419	NA	NA	NA	NA	NA	Uisw_090_00763
+CP159810.1	Prodigal:2.6	CDS	676862	678067	.	-	0	Uisw_090_00766	Uisw_090	401	OG0000799	K00971	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0836	CpsB	Mannose-1-phosphate guanylyltransferase	Uisw_090_00763
+CP159810.1	Prodigal:2.6	CDS	678067	679785	.	-	0	Uisw_090_00767	Uisw_090	572	OG0000062	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	Uisw_090_00763
+CP159810.1	Prodigal:2.6	CDS	679785	682412	.	-	0	Uisw_090_00768	Uisw_090	875	OG0000862	K01873	valyl-tRNA synthetase [EC:6.1.1.9]	COG0525	ValS	Valyl-tRNA synthetase	Uisw_090_00763

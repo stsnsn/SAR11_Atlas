@@ -1,0 +1,45 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP038852.1	Prodigal:2.6	CDS	32089	33231	.	-	0	NP1_00040	NP1	380	OG0000006	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	NP1_00045
+CP038852.1	Prodigal:2.6	CDS	33268	33549	.	-	0	NP1_00041	NP1	93	OG0001667	NA	NA	NA	NA	NA	NP1_00045
+CP038852.1	Prodigal:2.6	CDS	33533	34987	.	-	0	NP1_00042	NP1	484	OG0000243	K15778	phosphomannomutase / phosphoglucomutase [EC:5.4.2.8 5.4.2.2]	COG1109	ManB	Phosphomannomutase	NP1_00045
+CP038852.1	Prodigal:2.6	CDS	35144	37081	.	+	0	NP1_00043	NP1	645	OG0000640	K00525	ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]	COG0209	NrdA	Ribonucleotide reductase alpha subunit	NP1_00045
+CP038852.1	Prodigal:2.6	CDS	37087	38100	.	+	0	NP1_00044	NP1	337	OG0000546	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	NP1_00045
+CP038852.1	Prodigal:2.6	CDS	38120	38710	.	+	0	NP1_00045	NP1	196	OG0001879	NA	NA	COG0778	NfnB	Nitroreductase	NP1_00045
+CP038852.1	Prodigal:2.6	CDS	38753	39379	.	+	0	NP1_00046	NP1	208	OG0001160	NA	NA	NA	NA	NA	NP1_00045
+CP038852.1	Prodigal:2.6	CDS	39380	40504	.	-	0	NP1_00047	NP1	374	OG0000118	K01647	citrate synthase [EC:2.3.3.1]	COG0372	GltA	Citrate synthase	NP1_00045
+CP038852.1	Prodigal:2.6	CDS	40504	41400	.	-	0	NP1_00048	NP1	298	OG0000083	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	NP1_00045
+CP038852.1	Prodigal:2.6	CDS	41400	42902	.	-	0	NP1_00049	NP1	500	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	NP1_00045
+CP038852.1	Prodigal:2.6	CDS	42953	43642	.	-	0	NP1_00050	NP1	229	OG0000161	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	NP1_00045
+DS995298.1	Prodigal:2.6	CDS	765807	766094	.	-	0	HTCC7211_00812	HTCC7211	95	OG0001667	NA	NA	NA	NA	NA	HTCC7211_00817
+DS995298.1	Prodigal:2.6	CDS	766078	767532	.	-	0	HTCC7211_00813	HTCC7211	484	OG0000243	K15778	phosphomannomutase / phosphoglucomutase [EC:5.4.2.8 5.4.2.2]	COG1109	ManB	Phosphomannomutase	HTCC7211_00817
+DS995298.1	Prodigal:2.6	CDS	767712	769649	.	+	0	HTCC7211_00814	HTCC7211	645	OG0000640	K00525	ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]	COG0209	NrdA	Ribonucleotide reductase alpha subunit	HTCC7211_00817
+DS995298.1	Prodigal:2.6	CDS	769640	770647	.	+	0	HTCC7211_00815	HTCC7211	335	OG0000546	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	HTCC7211_00817
+DS995298.1	Prodigal:2.6	CDS	770650	771303	.	+	0	HTCC7211_00816	HTCC7211	217	OG0001160	NA	NA	NA	NA	NA	HTCC7211_00817
+DS995298.1	Prodigal:2.6	CDS	771309	771872	.	+	0	HTCC7211_00817	HTCC7211	187	OG0001879	NA	NA	COG0778	NfnB	Nitroreductase	HTCC7211_00817
+DS995298.1	Prodigal:2.6	CDS	771863	772987	.	-	0	HTCC7211_00818	HTCC7211	374	OG0000118	NA	NA	COG0372	GltA	Citrate synthase	HTCC7211_00817
+DS995298.1	Prodigal:2.6	CDS	772987	773883	.	-	0	HTCC7211_00819	HTCC7211	298	OG0000083	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	HTCC7211_00817
+DS995298.1	Prodigal:2.6	CDS	773883	775385	.	-	0	HTCC7211_00820	HTCC7211	500	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	HTCC7211_00817
+DS995298.1	Prodigal:2.6	CDS	775440	776123	.	-	0	HTCC7211_00821	HTCC7211	227	OG0000161	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	HTCC7211_00817
+DS995298.1	Prodigal:2.6	CDS	776193	776810	.	+	0	HTCC7211_00822	HTCC7211	205	OG0000109	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	HTCC7211_00817
+KL370779.1	Prodigal:2.6	CDS	1242843	1243460	.	-	0	HTCC7214_01318	HTCC7214	205	OG0000109	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	HTCC7214_01323
+KL370779.1	Prodigal:2.6	CDS	1243530	1244213	.	+	0	HTCC7214_01319	HTCC7214	227	OG0000161	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	HTCC7214_01323
+KL370779.1	Prodigal:2.6	CDS	1244268	1245770	.	+	0	HTCC7214_01320	HTCC7214	500	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	HTCC7214_01323
+KL370779.1	Prodigal:2.6	CDS	1245770	1246666	.	+	0	HTCC7214_01321	HTCC7214	298	OG0000083	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	HTCC7214_01323
+KL370779.1	Prodigal:2.6	CDS	1246666	1247790	.	+	0	HTCC7214_01322	HTCC7214	374	OG0000118	NA	NA	COG0372	GltA	Citrate synthase	HTCC7214_01323
+KL370779.1	Prodigal:2.6	CDS	1247781	1248344	.	-	0	HTCC7214_01323	HTCC7214	187	OG0001879	NA	NA	COG0778	NfnB	Nitroreductase	HTCC7214_01323
+KL370779.1	Prodigal:2.6	CDS	1248350	1249003	.	-	0	HTCC7214_01324	HTCC7214	217	OG0001160	NA	NA	NA	NA	NA	HTCC7214_01323
+KL370779.1	Prodigal:2.6	CDS	1249006	1250013	.	-	0	HTCC7214_01325	HTCC7214	335	OG0000546	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	HTCC7214_01323
+KL370779.1	Prodigal:2.6	CDS	1250004	1251941	.	-	0	HTCC7214_01326	HTCC7214	645	OG0000640	K00525	ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]	COG0209	NrdA	Ribonucleotide reductase alpha subunit	HTCC7214_01323
+KL370779.1	Prodigal:2.6	CDS	1252100	1253554	.	+	0	HTCC7214_01327	HTCC7214	484	OG0000243	K15778	phosphomannomutase / phosphoglucomutase [EC:5.4.2.8 5.4.2.2]	COG1109	ManB	Phosphomannomutase	HTCC7214_01323
+KL370779.1	Prodigal:2.6	CDS	1253538	1253825	.	+	0	HTCC7214_01328	HTCC7214	95	OG0001667	NA	NA	NA	NA	NA	HTCC7214_01323
+JNIU01000001.1	Prodigal:2.6	CDS	146108	146395	.	-	0	HTCC7217_00158	HTCC7217	95	OG0001667	NA	NA	NA	NA	NA	HTCC7217_00163
+JNIU01000001.1	Prodigal:2.6	CDS	146379	147833	.	-	0	HTCC7217_00159	HTCC7217	484	OG0000243	K15778	phosphomannomutase / phosphoglucomutase [EC:5.4.2.8 5.4.2.2]	COG1109	ManB	Phosphomannomutase	HTCC7217_00163
+JNIU01000001.1	Prodigal:2.6	CDS	148013	149950	.	+	0	HTCC7217_00160	HTCC7217	645	OG0000640	K00525	ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]	COG0209	NrdA	Ribonucleotide reductase alpha subunit	HTCC7217_00163
+JNIU01000001.1	Prodigal:2.6	CDS	149941	150948	.	+	0	HTCC7217_00161	HTCC7217	335	OG0000546	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	HTCC7217_00163
+JNIU01000001.1	Prodigal:2.6	CDS	150951	151604	.	+	0	HTCC7217_00162	HTCC7217	217	OG0001160	NA	NA	NA	NA	NA	HTCC7217_00163
+JNIU01000001.1	Prodigal:2.6	CDS	151609	152172	.	+	0	HTCC7217_00163	HTCC7217	187	OG0001879	NA	NA	COG0778	NfnB	Nitroreductase	HTCC7217_00163
+JNIU01000001.1	Prodigal:2.6	CDS	152163	153287	.	-	0	HTCC7217_00164	HTCC7217	374	OG0000118	NA	NA	COG0372	GltA	Citrate synthase	HTCC7217_00163
+JNIU01000001.1	Prodigal:2.6	CDS	153287	154183	.	-	0	HTCC7217_00165	HTCC7217	298	OG0000083	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	HTCC7217_00163
+JNIU01000001.1	Prodigal:2.6	CDS	154183	155685	.	-	0	HTCC7217_00166	HTCC7217	500	OG0000797	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	HTCC7217_00163
+JNIU01000001.1	Prodigal:2.6	CDS	155739	156422	.	-	0	HTCC7217_00167	HTCC7217	227	OG0000161	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	HTCC7217_00163
+JNIU01000001.1	Prodigal:2.6	CDS	156492	157109	.	+	0	HTCC7217_00168	HTCC7217	205	OG0000109	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	HTCC7217_00163

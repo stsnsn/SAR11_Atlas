@@ -1,0 +1,608 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CH724130.1	Prodigal:2.6	CDS	215493	216449	.	+	0	HTCC1002_00262	HTCC1002	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC1002_00267
+CH724130.1	Prodigal:2.6	CDS	216457	217257	.	-	0	HTCC1002_00263	HTCC1002	266	NA	K13665	pyruvyltransferase	COG2327	WcaK	Polysaccharide pyruvyl transferase family protein WcaK (colanic acid biosynthesis)	HTCC1002_00267
+CH724130.1	Prodigal:2.6	CDS	217276	219402	.	-	0	HTCC1002_00264	HTCC1002	708	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00267
+CH724130.1	Prodigal:2.6	CDS	219402	219653	.	-	0	HTCC1002_00265	HTCC1002	83	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC1002_00267
+CH724130.1	Aragorn:1.2	tRNA	219659	219733	.	-	NA	HTCC1002_00266	HTCC1002	NA	NA	NA	NA	NA	NA	NA	HTCC1002_00267
+CH724130.1	Prodigal:2.6	CDS	219783	221477	.	-	0	HTCC1002_00267	HTCC1002	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HTCC1002_00267
+CH724130.1	Prodigal:2.6	CDS	221474	222421	.	-	0	HTCC1002_00268	HTCC1002	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HTCC1002_00267
+CH724130.1	Prodigal:2.6	CDS	222421	223413	.	-	0	HTCC1002_00269	HTCC1002	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HTCC1002_00267
+CH724130.1	Prodigal:2.6	CDS	223416	223697	.	-	0	HTCC1002_00270	HTCC1002	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HTCC1002_00267
+CH724130.1	Aragorn:1.2	tRNA	223702	223778	.	-	NA	HTCC1002_00271	HTCC1002	NA	NA	NA	NA	NA	NA	NA	HTCC1002_00267
+CH724130.1	Prodigal:2.6	CDS	223872	224384	.	+	0	HTCC1002_00272	HTCC1002	170	OG0000105	NA	NA	NA	NA	NA	HTCC1002_00267
+KI421438.1	Prodigal:2.6	CDS	72504	73016	.	-	0	HTCC1013_00852	HTCC1013	170	OG0000105	NA	NA	NA	NA	NA	HTCC1013_00857
+KI421438.1	Aragorn:1.2	tRNA	73110	73186	.	+	.	HTCC1013_00853	HTCC1013	NA	NA	NA	NA	NA	NA	NA	HTCC1013_00857
+KI421438.1	Prodigal:2.6	CDS	73191	73472	.	+	0	HTCC1013_00854	HTCC1013	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HTCC1013_00857
+KI421438.1	Prodigal:2.6	CDS	73475	74467	.	+	0	HTCC1013_00855	HTCC1013	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HTCC1013_00857
+KI421438.1	Prodigal:2.6	CDS	74467	75414	.	+	0	HTCC1013_00856	HTCC1013	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HTCC1013_00857
+KI421438.1	Prodigal:2.6	CDS	75411	77105	.	+	0	HTCC1013_00857	HTCC1013	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HTCC1013_00857
+KI421438.1	Aragorn:1.2	tRNA	77156	77230	.	+	.	HTCC1013_00858	HTCC1013	NA	NA	NA	NA	NA	NA	NA	HTCC1013_00857
+KI421438.1	Prodigal:2.6	CDS	77234	77494	.	+	0	HTCC1013_00859	HTCC1013	86	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC1013_00857
+KI421438.1	Prodigal:2.6	CDS	77494	79605	.	+	0	HTCC1013_00860	HTCC1013	703	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1013_00857
+KI421438.1	Prodigal:2.6	CDS	79633	80523	.	+	0	HTCC1013_00861	HTCC1013	296	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC1013_00857
+KI421438.1	Prodigal:2.6	CDS	80510	81352	.	-	0	HTCC1013_00862	HTCC1013	280	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC1013_00857
+CP000084.1	Prodigal:2.6	CDS	985615	986127	.	-	0	HTCC1062_01012	HTCC1062	170	OG0000105	NA	NA	NA	NA	NA	HTCC1062_01017
+CP000084.1	Aragorn:1.2	tRNA	986221	986297	.	+	.	HTCC1062_01013	HTCC1062	NA	NA	NA	NA	NA	NA	NA	HTCC1062_01017
+CP000084.1	Prodigal:2.6	CDS	986302	986583	.	+	0	HTCC1062_01014	HTCC1062	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HTCC1062_01017
+CP000084.1	Prodigal:2.6	CDS	986586	987578	.	+	0	HTCC1062_01015	HTCC1062	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HTCC1062_01017
+CP000084.1	Prodigal:2.6	CDS	987578	988525	.	+	0	HTCC1062_01016	HTCC1062	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HTCC1062_01017
+CP000084.1	Prodigal:2.6	CDS	988522	990216	.	+	0	HTCC1062_01017	HTCC1062	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HTCC1062_01017
+CP000084.1	Aragorn:1.2	tRNA	990267	990341	.	+	.	HTCC1062_01018	HTCC1062	NA	NA	NA	NA	NA	NA	NA	HTCC1062_01017
+CP000084.1	Prodigal:2.6	CDS	990347	990598	.	+	0	HTCC1062_01019	HTCC1062	83	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC1062_01017
+CP000084.1	Prodigal:2.6	CDS	990598	992703	.	+	0	HTCC1062_01020	HTCC1062	701	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	HTCC1062_01017
+CP000084.1	Prodigal:2.6	CDS	992704	993414	.	+	0	HTCC1062_01021	HTCC1062	236	OG0001429	NA	NA	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HTCC1062_01017
+CP000084.1	Prodigal:2.6	CDS	993386	994618	.	+	0	HTCC1062_01022	HTCC1062	410	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC1062_01017
+ARVY01000001.1	Prodigal:2.6	CDS	804370	804882	.	-	0	HTCC1040_00851	HTCC1040	170	OG0000105	NA	NA	NA	NA	NA	HTCC1040_00856
+ARVY01000001.1	Aragorn:1.2	tRNA	804976	805052	.	+	NA	HTCC1040_00852	HTCC1040	NA	NA	NA	NA	NA	NA	NA	HTCC1040_00856
+ARVY01000001.1	Prodigal:2.6	CDS	805057	805338	.	+	0	HTCC1040_00853	HTCC1040	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HTCC1040_00856
+ARVY01000001.1	Prodigal:2.6	CDS	805341	806333	.	+	0	HTCC1040_00854	HTCC1040	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HTCC1040_00856
+ARVY01000001.1	Prodigal:2.6	CDS	806333	807280	.	+	0	HTCC1040_00855	HTCC1040	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HTCC1040_00856
+ARVY01000001.1	Prodigal:2.6	CDS	807277	808971	.	+	0	HTCC1040_00856	HTCC1040	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HTCC1040_00856
+ARVY01000001.1	Aragorn:1.2	tRNA	809022	809096	.	+	NA	HTCC1040_00857	HTCC1040	NA	NA	NA	NA	NA	NA	NA	HTCC1040_00856
+ARVY01000001.1	Prodigal:2.6	CDS	809120	809353	.	+	0	HTCC1040_00858	HTCC1040	77	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC1040_00856
+ARVY01000001.1	Prodigal:2.6	CDS	809353	811482	.	+	0	HTCC1040_00859	HTCC1040	709	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HTCC1040_00856
+ARVY01000001.1	Prodigal:2.6	CDS	811492	812367	.	+	0	HTCC1040_00860	HTCC1040	291	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC1040_00856
+ARVY01000001.1	Prodigal:2.6	CDS	812418	813425	.	+	0	HTCC1040_00861	HTCC1040	335	OG0003711	K20151	alpha(1,3/1,4) fucosyltransferase [EC:2.4.1.65 2.4.1.152]	NA	NA	NA	HTCC1040_00856
+CP038852.1	Prodigal:2.6	CDS	153381	153743	.	-	0	NP1_00189	NP1	120	OG0004415	NA	NA	NA	NA	NA	NP1_00194
+CP038852.1	Prodigal:2.6	CDS	153819	154736	.	+	0	NP1_00190	NP1	305	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	NP1_00194
+CP038852.1	Prodigal:2.6	CDS	154794	156914	.	-	0	NP1_00191	NP1	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	NP1_00194
+CP038852.1	Prodigal:2.6	CDS	156892	157152	.	-	0	NP1_00192	NP1	86	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	NP1_00194
+CP038852.1	Aragorn:1.2	tRNA	157167	157241	.	-	.	NP1_00193	NP1	NA	NA	NA	NA	NA	NA	NA	NP1_00194
+CP038852.1	Prodigal:2.6	CDS	157292	158986	.	-	0	NP1_00194	NP1	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	NP1_00194
+CP038852.1	Prodigal:2.6	CDS	158983	159930	.	-	0	NP1_00195	NP1	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	NP1_00194
+CP038852.1	Prodigal:2.6	CDS	159930	160922	.	-	0	NP1_00196	NP1	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	NP1_00194
+CP038852.1	Prodigal:2.6	CDS	160922	161203	.	-	0	NP1_00197	NP1	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	NP1_00194
+CP038852.1	Aragorn:1.2	tRNA	161208	161284	.	-	.	NP1_00198	NP1	NA	NA	NA	NA	NA	NA	NA	NP1_00194
+CP038852.1	Prodigal:2.6	CDS	161378	161884	.	+	0	NP1_00199	NP1	168	OG0000105	NA	NA	NA	NA	NA	NP1_00194
+CP159811.1	Prodigal:2.6	CDS	590837	591367	.	-	0	Uisw_137_00659	Uisw_137	176	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_137_00664
+CP159811.1	Prodigal:2.6	CDS	591370	592257	.	-	0	Uisw_137_00660	Uisw_137	295	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_137_00664
+CP159811.1	Prodigal:2.6	CDS	592258	594381	.	-	0	Uisw_137_00661	Uisw_137	707	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	Uisw_137_00664
+CP159811.1	Prodigal:2.6	CDS	594378	594632	.	-	0	Uisw_137_00662	Uisw_137	84	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_137_00664
+CP159811.1	Aragorn:1.2	tRNA	594641	594715	.	-	.	Uisw_137_00663	Uisw_137	NA	NA	NA	NA	NA	NA	NA	Uisw_137_00664
+CP159811.1	Prodigal:2.6	CDS	594766	596460	.	-	0	Uisw_137_00664	Uisw_137	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_137_00664
+CP159811.1	Prodigal:2.6	CDS	596457	597404	.	-	0	Uisw_137_00665	Uisw_137	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_137_00664
+CP159811.1	Prodigal:2.6	CDS	597404	598396	.	-	0	Uisw_137_00666	Uisw_137	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_137_00664
+CP159811.1	Prodigal:2.6	CDS	598402	598644	.	-	0	Uisw_137_00667	Uisw_137	80	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_137_00664
+CP159811.1	Aragorn:1.2	tRNA	598688	598764	.	-	.	Uisw_137_00668	Uisw_137	NA	NA	NA	NA	NA	NA	NA	Uisw_137_00664
+CP159811.1	Prodigal:2.6	CDS	598859	599371	.	+	0	Uisw_137_00669	Uisw_137	170	OG0000105	NA	NA	NA	NA	NA	Uisw_137_00664
+CP159821.1	Prodigal:2.6	CDS	689303	689815	.	-	0	Uisw_101_00710	Uisw_101	170	OG0000105	NA	NA	NA	NA	NA	Uisw_101_00715
+CP159821.1	Aragorn:1.2	tRNA	689909	689985	.	+	.	Uisw_101_00711	Uisw_101	NA	NA	NA	NA	NA	NA	NA	Uisw_101_00715
+CP159821.1	Prodigal:2.6	CDS	690297	690578	.	+	0	Uisw_101_00712	Uisw_101	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_101_00715
+CP159821.1	Prodigal:2.6	CDS	690578	691570	.	+	0	Uisw_101_00713	Uisw_101	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_101_00715
+CP159821.1	Prodigal:2.6	CDS	691570	692517	.	+	0	Uisw_101_00714	Uisw_101	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_101_00715
+CP159821.1	Prodigal:2.6	CDS	692514	694208	.	+	0	Uisw_101_00715	Uisw_101	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_101_00715
+CP159821.1	Aragorn:1.2	tRNA	694259	694333	.	+	.	Uisw_101_00716	Uisw_101	NA	NA	NA	NA	NA	NA	NA	Uisw_101_00715
+CP159821.1	Prodigal:2.6	CDS	694348	694608	.	+	0	Uisw_101_00717	Uisw_101	86	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_101_00715
+CP159821.1	Prodigal:2.6	CDS	694586	696706	.	+	0	Uisw_101_00718	Uisw_101	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	Uisw_101_00715
+CP159821.1	Prodigal:2.6	CDS	696973	697251	.	+	0	Uisw_101_00719	Uisw_101	92	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	Uisw_101_00715
+CP159821.1	Prodigal:2.6	CDS	697252	698208	.	-	0	Uisw_101_00720	Uisw_101	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_101_00715
+CP159820.1	Prodigal:2.6	CDS	688500	689012	.	-	0	Uisw_104_00721	Uisw_104	170	OG0000105	NA	NA	NA	NA	NA	Uisw_104_00726
+CP159820.1	Aragorn:1.2	tRNA	689106	689182	.	+	.	Uisw_104_00722	Uisw_104	NA	NA	NA	NA	NA	NA	NA	Uisw_104_00726
+CP159820.1	Prodigal:2.6	CDS	689494	689775	.	+	0	Uisw_104_00723	Uisw_104	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_104_00726
+CP159820.1	Prodigal:2.6	CDS	689775	690767	.	+	0	Uisw_104_00724	Uisw_104	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_104_00726
+CP159820.1	Prodigal:2.6	CDS	690767	691714	.	+	0	Uisw_104_00725	Uisw_104	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_104_00726
+CP159820.1	Prodigal:2.6	CDS	691711	693405	.	+	0	Uisw_104_00726	Uisw_104	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_104_00726
+CP159820.1	Aragorn:1.2	tRNA	693456	693530	.	+	.	Uisw_104_00727	Uisw_104	NA	NA	NA	NA	NA	NA	NA	Uisw_104_00726
+CP159820.1	Prodigal:2.6	CDS	693545	693805	.	+	0	Uisw_104_00728	Uisw_104	86	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_104_00726
+CP159820.1	Prodigal:2.6	CDS	693783	695903	.	+	0	Uisw_104_00729	Uisw_104	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	Uisw_104_00726
+CP159820.1	Prodigal:2.6	CDS	696170	696448	.	+	0	Uisw_104_00730	Uisw_104	92	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	Uisw_104_00726
+CP159820.1	Prodigal:2.6	CDS	696449	697405	.	-	0	Uisw_104_00731	Uisw_104	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_104_00726
+CP159819.1	Prodigal:2.6	CDS	618387	618935	.	-	0	Uisw_106_00675	Uisw_106	182	OG0000105	NA	NA	NA	NA	NA	Uisw_106_00680
+CP159819.1	Aragorn:1.2	tRNA	619029	619105	.	+	.	Uisw_106_00676	Uisw_106	NA	NA	NA	NA	NA	NA	NA	Uisw_106_00680
+CP159819.1	Prodigal:2.6	CDS	619149	619391	.	+	0	Uisw_106_00677	Uisw_106	80	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_106_00680
+CP159819.1	Prodigal:2.6	CDS	619397	620389	.	+	0	Uisw_106_00678	Uisw_106	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_106_00680
+CP159819.1	Prodigal:2.6	CDS	620389	621336	.	+	0	Uisw_106_00679	Uisw_106	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_106_00680
+CP159819.1	Prodigal:2.6	CDS	621333	623027	.	+	0	Uisw_106_00680	Uisw_106	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_106_00680
+CP159819.1	Aragorn:1.2	tRNA	623078	623152	.	+	.	Uisw_106_00681	Uisw_106	NA	NA	NA	NA	NA	NA	NA	Uisw_106_00680
+CP159819.1	Prodigal:2.6	CDS	623167	625527	.	+	0	Uisw_106_00682	Uisw_106	786	OG0000842	K06320	spore maturation protein CgeB	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_106_00680
+CP159819.1	Prodigal:2.6	CDS	623167	625527	.	+	0	Uisw_106_00682	Uisw_106	786	OG0000842	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_106_00680
+CP159819.1	Prodigal:2.6	CDS	625550	626431	.	+	0	Uisw_106_00683	Uisw_106	293	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_106_00680
+CP159819.1	Prodigal:2.6	CDS	626432	627349	.	-	0	Uisw_106_00684	Uisw_106	305	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_106_00680
+CP159823.1	Prodigal:2.6	CDS	666369	666689	.	+	0	Uisw_094_00725	Uisw_094	106	OG0005329	NA	NA	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	Uisw_094_00730
+CP159823.1	Prodigal:2.6	CDS	666731	667384	.	+	0	Uisw_094_00726	Uisw_094	217	OG0002049	NA	NA	NA	NA	NA	Uisw_094_00730
+CP159823.1	Prodigal:2.6	CDS	667624	667905	.	+	0	Uisw_094_00727	Uisw_094	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_094_00730
+CP159823.1	Prodigal:2.6	CDS	667905	668897	.	+	0	Uisw_094_00728	Uisw_094	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_094_00730
+CP159823.1	Prodigal:2.6	CDS	668897	669844	.	+	0	Uisw_094_00729	Uisw_094	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_094_00730
+CP159823.1	Prodigal:2.6	CDS	669841	671535	.	+	0	Uisw_094_00730	Uisw_094	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_094_00730
+CP159823.1	Aragorn:1.2	tRNA	671586	671660	.	+	.	Uisw_094_00731	Uisw_094	NA	NA	NA	NA	NA	NA	NA	Uisw_094_00730
+CP159823.1	Prodigal:2.6	CDS	671687	671950	.	+	0	Uisw_094_00732	Uisw_094	87	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_094_00730
+CP159823.1	Prodigal:2.6	CDS	671922	672965	.	+	0	Uisw_094_00733	Uisw_094	347	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_094_00730
+CP159823.1	Prodigal:2.6	CDS	672975	673931	.	-	0	Uisw_094_00734	Uisw_094	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_094_00730
+CP159823.1	Prodigal:2.6	CDS	674012	674257	.	+	0	Uisw_094_00735	Uisw_094	81	NA	NA	NA	NA	NA	NA	Uisw_094_00730
+CP159812.1	Prodigal:2.6	CDS	637023	638927	.	+	0	Uisw_136_00681	Uisw_136	634	OG0001292	K16568	exopolysaccharide production protein ExoZ	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	Uisw_136_00686
+CP159812.1	Aragorn:1.2	tRNA	639056	639132	.	+	.	Uisw_136_00682	Uisw_136	NA	NA	NA	NA	NA	NA	NA	Uisw_136_00686
+CP159812.1	Prodigal:2.6	CDS	639137	639418	.	+	0	Uisw_136_00683	Uisw_136	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_136_00686
+CP159812.1	Prodigal:2.6	CDS	639418	640410	.	+	0	Uisw_136_00684	Uisw_136	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_136_00686
+CP159812.1	Prodigal:2.6	CDS	640410	641357	.	+	0	Uisw_136_00685	Uisw_136	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_136_00686
+CP159812.1	Prodigal:2.6	CDS	641354	643048	.	+	0	Uisw_136_00686	Uisw_136	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_136_00686
+CP159812.1	Aragorn:1.2	tRNA	643099	643173	.	+	.	Uisw_136_00687	Uisw_136	NA	NA	NA	NA	NA	NA	NA	Uisw_136_00686
+CP159812.1	Prodigal:2.6	CDS	643177	643464	.	+	0	Uisw_136_00688	Uisw_136	95	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_136_00686
+CP159812.1	Prodigal:2.6	CDS	643436	645550	.	+	0	Uisw_136_00689	Uisw_136	704	OG0000842	K06320	spore maturation protein CgeB	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_136_00686
+CP159812.1	Prodigal:2.6	CDS	645558	645845	.	+	0	Uisw_136_00690	Uisw_136	95	OG0003281	NA	NA	NA	NA	NA	Uisw_136_00686
+CP159812.1	Prodigal:2.6	CDS	645842	647398	.	+	0	Uisw_136_00691	Uisw_136	518	OG0002251	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_136_00686
+CP159809.1	Prodigal:2.6	CDS	582919	584133	.	-	0	Uisw_113_00647	Uisw_113	404	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_113_00652
+CP159809.1	Prodigal:2.6	CDS	584245	585093	.	-	0	Uisw_113_00648	Uisw_113	282	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_113_00652
+CP159809.1	Prodigal:2.6	CDS	585093	587210	.	-	0	Uisw_113_00649	Uisw_113	705	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	Uisw_113_00652
+CP159809.1	Prodigal:2.6	CDS	587207	587440	.	-	0	Uisw_113_00650	Uisw_113	77	OG0000863	NA	NA	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_113_00652
+CP159809.1	Aragorn:1.2	tRNA	587467	587541	.	-	.	Uisw_113_00651	Uisw_113	NA	NA	NA	NA	NA	NA	NA	Uisw_113_00652
+CP159809.1	Prodigal:2.6	CDS	587592	589286	.	-	0	Uisw_113_00652	Uisw_113	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_113_00652
+CP159809.1	Prodigal:2.6	CDS	589283	590230	.	-	0	Uisw_113_00653	Uisw_113	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_113_00652
+CP159809.1	Prodigal:2.6	CDS	590230	591222	.	-	0	Uisw_113_00654	Uisw_113	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_113_00652
+CP159809.1	Prodigal:2.6	CDS	591222	591503	.	-	0	Uisw_113_00655	Uisw_113	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_113_00652
+CP159809.1	Aragorn:1.2	tRNA	591508	591584	.	-	.	Uisw_113_00656	Uisw_113	NA	NA	NA	NA	NA	NA	NA	Uisw_113_00652
+CP159809.1	Prodigal:2.6	CDS	591678	592217	.	+	0	Uisw_113_00657	Uisw_113	179	OG0000105	NA	NA	NA	NA	NA	Uisw_113_00652
+CP159817.1	Prodigal:2.6	CDS	558325	558690	.	+	0	Uisw_116_00633	Uisw_116	121	NA	NA	NA	NA	NA	NA	Uisw_116_00638
+CP159817.1	Prodigal:2.6	CDS	558666	559469	.	+	0	Uisw_116_00634	Uisw_116	267	OG0002049	NA	NA	NA	NA	NA	Uisw_116_00638
+CP159817.1	Prodigal:2.6	CDS	559719	560000	.	+	0	Uisw_116_00635	Uisw_116	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_116_00638
+CP159817.1	Prodigal:2.6	CDS	560006	560998	.	+	0	Uisw_116_00636	Uisw_116	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_116_00638
+CP159817.1	Prodigal:2.6	CDS	560998	561945	.	+	0	Uisw_116_00637	Uisw_116	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_116_00638
+CP159817.1	Prodigal:2.6	CDS	561942	563636	.	+	0	Uisw_116_00638	Uisw_116	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_116_00638
+CP159817.1	Aragorn:1.2	tRNA	563687	563761	.	+	.	Uisw_116_00639	Uisw_116	NA	NA	NA	NA	NA	NA	NA	Uisw_116_00638
+CP159817.1	Prodigal:2.6	CDS	563771	564052	.	+	0	Uisw_116_00640	Uisw_116	93	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_116_00638
+CP159817.1	Prodigal:2.6	CDS	564039	564566	.	+	0	Uisw_116_00641	Uisw_116	175	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_116_00638
+CP159817.1	Prodigal:2.6	CDS	564617	564847	.	+	0	Uisw_116_00642	Uisw_116	76	OG0001964	NA	NA	COG1043	LpxA	Acyl-[acyl carrier protein]--UDP-N-acetylglucosamine O-acyltransferase	Uisw_116_00638
+CP159817.1	Prodigal:2.6	CDS	564868	565206	.	+	0	Uisw_116_00643	Uisw_116	112	OG0001964	NA	NA	COG1043	LpxA	Acyl-[acyl carrier protein]--UDP-N-acetylglucosamine O-acyltransferase	Uisw_116_00638
+CP159816.1	Prodigal:2.6	CDS	601591	602139	.	-	0	Uisw_121_00639	Uisw_121	182	OG0000105	NA	NA	NA	NA	NA	Uisw_121_00644
+CP159816.1	Aragorn:1.2	tRNA	602233	602309	.	+	.	Uisw_121_00640	Uisw_121	NA	NA	NA	NA	NA	NA	NA	Uisw_121_00644
+CP159816.1	Prodigal:2.6	CDS	602314	602595	.	+	0	Uisw_121_00641	Uisw_121	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_121_00644
+CP159816.1	Prodigal:2.6	CDS	602598	603590	.	+	0	Uisw_121_00642	Uisw_121	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_121_00644
+CP159816.1	Prodigal:2.6	CDS	603590	604537	.	+	0	Uisw_121_00643	Uisw_121	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_121_00644
+CP159816.1	Prodigal:2.6	CDS	604534	606228	.	+	0	Uisw_121_00644	Uisw_121	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_121_00644
+CP159816.1	Aragorn:1.2	tRNA	606279	606353	.	+	.	Uisw_121_00645	Uisw_121	NA	NA	NA	NA	NA	NA	NA	Uisw_121_00644
+CP159816.1	Prodigal:2.6	CDS	606378	606641	.	+	0	Uisw_121_00646	Uisw_121	87	OG0000863	NA	NA	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_121_00644
+CP159816.1	Prodigal:2.6	CDS	606628	607161	.	+	0	Uisw_121_00647	Uisw_121	177	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_121_00644
+CP159816.1	Prodigal:2.6	CDS	607165	607503	.	+	0	Uisw_121_00648	Uisw_121	112	OG0000842	NA	NA	NA	NA	NA	Uisw_121_00644
+CP159816.1	Prodigal:2.6	CDS	607517	607753	.	+	0	Uisw_121_00649	Uisw_121	78	OG0000842	NA	NA	NA	NA	NA	Uisw_121_00644
+CP159818.1	Prodigal:2.6	CDS	647068	647616	.	-	0	Uisw_114_00760	Uisw_114	182	OG0000105	NA	NA	NA	NA	NA	Uisw_114_00765
+CP159818.1	Aragorn:1.2	tRNA	647709	647785	.	+	.	Uisw_114_00761	Uisw_114	NA	NA	NA	NA	NA	NA	NA	Uisw_114_00765
+CP159818.1	Prodigal:2.6	CDS	647829	648071	.	+	0	Uisw_114_00762	Uisw_114	80	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_114_00765
+CP159818.1	Prodigal:2.6	CDS	648198	649070	.	+	0	Uisw_114_00763	Uisw_114	290	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_114_00765
+CP159818.1	Prodigal:2.6	CDS	649070	649909	.	+	0	Uisw_114_00764	Uisw_114	279	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_114_00765
+CP159818.1	Prodigal:2.6	CDS	650013	651707	.	+	0	Uisw_114_00765	Uisw_114	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_114_00765
+CP159818.1	Aragorn:1.2	tRNA	651758	651832	.	+	.	Uisw_114_00766	Uisw_114	NA	NA	NA	NA	NA	NA	NA	Uisw_114_00765
+CP159818.1	Prodigal:2.6	CDS	651842	652123	.	+	0	Uisw_114_00767	Uisw_114	93	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_114_00765
+CP159818.1	Prodigal:2.6	CDS	652110	652637	.	+	0	Uisw_114_00768	Uisw_114	175	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_114_00765
+CP159818.1	Prodigal:2.6	CDS	652687	652920	.	+	0	Uisw_114_00769	Uisw_114	77	OG0001964	NA	NA	COG1043	LpxA	Acyl-[acyl carrier protein]--UDP-N-acetylglucosamine O-acyltransferase	Uisw_114_00765
+CP159818.1	Prodigal:2.6	CDS	652938	653276	.	+	0	Uisw_114_00770	Uisw_114	112	OG0001964	NA	NA	COG1043	LpxA	Acyl-[acyl carrier protein]--UDP-N-acetylglucosamine O-acyltransferase	Uisw_114_00765
+CP159814.1	Prodigal:2.6	CDS	624011	624418	.	-	0	Uisw_130_00673	Uisw_130	135	OG0000105	NA	NA	NA	NA	NA	Uisw_130_00678
+CP159814.1	Prodigal:2.6	CDS	624448	625431	.	-	0	Uisw_130_00674	Uisw_130	327	OG0002404	NA	NA	NA	NA	NA	Uisw_130_00678
+CP159814.1	Aragorn:1.2	tRNA	625505	625581	.	+	.	Uisw_130_00675	Uisw_130	NA	NA	NA	NA	NA	NA	NA	Uisw_130_00678
+CP159814.1	Prodigal:2.6	CDS	625867	626859	.	+	0	Uisw_130_00676	Uisw_130	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_130_00678
+CP159814.1	Prodigal:2.6	CDS	626859	627806	.	+	0	Uisw_130_00677	Uisw_130	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_130_00678
+CP159814.1	Prodigal:2.6	CDS	627803	629497	.	+	0	Uisw_130_00678	Uisw_130	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_130_00678
+CP159814.1	Aragorn:1.2	tRNA	629548	629622	.	+	.	Uisw_130_00679	Uisw_130	NA	NA	NA	NA	NA	NA	NA	Uisw_130_00678
+CP159814.1	Prodigal:2.6	CDS	629628	629888	.	+	0	Uisw_130_00680	Uisw_130	86	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_130_00678
+CP159814.1	Prodigal:2.6	CDS	629878	631995	.	+	0	Uisw_130_00681	Uisw_130	705	OG0000842	K06320	spore maturation protein CgeB	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_130_00678
+CP159814.1	Prodigal:2.6	CDS	632004	632861	.	+	0	Uisw_130_00682	Uisw_130	285	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_130_00678
+CP159814.1	Prodigal:2.6	CDS	632851	633753	.	+	0	Uisw_130_00683	Uisw_130	300	OG0001450	NA	NA	NA	NA	NA	Uisw_130_00678
+CP159824.1	Prodigal:2.6	CDS	583128	583640	.	-	0	Uisw_092_00639	Uisw_092	170	OG0000105	NA	NA	NA	NA	NA	Uisw_092_00644
+CP159824.1	Aragorn:1.2	tRNA	583734	583810	.	+	.	Uisw_092_00640	Uisw_092	NA	NA	NA	NA	NA	NA	NA	Uisw_092_00644
+CP159824.1	Prodigal:2.6	CDS	583854	584096	.	+	0	Uisw_092_00641	Uisw_092	80	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_092_00644
+CP159824.1	Prodigal:2.6	CDS	584102	585094	.	+	0	Uisw_092_00642	Uisw_092	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_092_00644
+CP159824.1	Prodigal:2.6	CDS	585094	586038	.	+	0	Uisw_092_00643	Uisw_092	314	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_092_00644
+CP159824.1	Prodigal:2.6	CDS	586038	587732	.	+	0	Uisw_092_00644	Uisw_092	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_092_00644
+CP159824.1	Aragorn:1.2	tRNA	587783	587857	.	+	.	Uisw_092_00645	Uisw_092	NA	NA	NA	NA	NA	NA	NA	Uisw_092_00644
+CP159824.1	Prodigal:2.6	CDS	587882	588115	.	+	0	Uisw_092_00646	Uisw_092	77	OG0000863	NA	NA	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_092_00644
+CP159824.1	Prodigal:2.6	CDS	588115	590229	.	+	0	Uisw_092_00647	Uisw_092	704	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	Uisw_092_00644
+CP159824.1	Prodigal:2.6	CDS	590231	591115	.	+	0	Uisw_092_00648	Uisw_092	294	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_092_00644
+CP159824.1	Prodigal:2.6	CDS	591118	591648	.	+	0	Uisw_092_00649	Uisw_092	176	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_092_00644
+CP159810.1	Prodigal:2.6	CDS	625974	627056	.	-	0	Uisw_090_00708	Uisw_090	360	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_090_00713
+CP159810.1	Prodigal:2.6	CDS	627073	629157	.	-	0	Uisw_090_00709	Uisw_090	694	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_090_00713
+CP159810.1	Prodigal:2.6	CDS	629154	629744	.	-	0	Uisw_090_00710	Uisw_090	196	OG0001964	NA	NA	COG1043	LpxA	Acyl-[acyl carrier protein]--UDP-N-acetylglucosamine O-acyltransferase	Uisw_090_00713
+CP159810.1	Prodigal:2.6	CDS	629737	629982	.	-	0	Uisw_090_00711	Uisw_090	81	OG0000863	NA	NA	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_090_00713
+CP159810.1	Aragorn:1.2	tRNA	630026	630100	.	-	.	Uisw_090_00712	Uisw_090	NA	NA	NA	NA	NA	NA	NA	Uisw_090_00713
+CP159810.1	Prodigal:2.6	CDS	630151	631845	.	-	0	Uisw_090_00713	Uisw_090	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_090_00713
+CP159810.1	Prodigal:2.6	CDS	631842	632789	.	-	0	Uisw_090_00714	Uisw_090	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_090_00713
+CP159810.1	Prodigal:2.6	CDS	632789	633781	.	-	0	Uisw_090_00715	Uisw_090	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_090_00713
+CP159810.1	Prodigal:2.6	CDS	633787	634068	.	-	0	Uisw_090_00716	Uisw_090	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_090_00713
+CP159810.1	Aragorn:1.2	tRNA	634074	634150	.	-	.	Uisw_090_00717	Uisw_090	NA	NA	NA	NA	NA	NA	NA	Uisw_090_00713
+CP159810.1	Prodigal:2.6	CDS	634244	634768	.	+	0	Uisw_090_00718	Uisw_090	174	OG0000105	NA	NA	NA	NA	NA	Uisw_090_00713
+CP159815.1	Prodigal:2.6	CDS	570697	571590	.	-	0	Uisw_127_00640	Uisw_127	297	OG0001526	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	Uisw_127_00645
+CP159815.1	Prodigal:2.6	CDS	571594	572586	.	-	0	Uisw_127_00641	Uisw_127	330	OG0000113	K01711	GDPmannose 4,6-dehydratase [EC:4.2.1.47]	COG1089	Gmd	GDP-D-mannose dehydratase	Uisw_127_00645
+CP159815.1	Prodigal:2.6	CDS	572587	574707	.	-	0	Uisw_127_00642	Uisw_127	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	Uisw_127_00645
+CP159815.1	Prodigal:2.6	CDS	574704	574940	.	-	0	Uisw_127_00643	Uisw_127	78	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_127_00645
+CP159815.1	Aragorn:1.2	tRNA	574964	575038	.	-	.	Uisw_127_00644	Uisw_127	NA	NA	NA	NA	NA	NA	NA	Uisw_127_00645
+CP159815.1	Prodigal:2.6	CDS	575089	576783	.	-	0	Uisw_127_00645	Uisw_127	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_127_00645
+CP159815.1	Prodigal:2.6	CDS	576780	577727	.	-	0	Uisw_127_00646	Uisw_127	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_127_00645
+CP159815.1	Prodigal:2.6	CDS	577727	578719	.	-	0	Uisw_127_00647	Uisw_127	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_127_00645
+CP159815.1	Prodigal:2.6	CDS	578719	579000	.	-	0	Uisw_127_00648	Uisw_127	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_127_00645
+CP159815.1	Aragorn:1.2	tRNA	579005	579081	.	-	.	Uisw_127_00649	Uisw_127	NA	NA	NA	NA	NA	NA	NA	Uisw_127_00645
+CP159815.1	Prodigal:2.6	CDS	579175	579726	.	+	0	Uisw_127_00650	Uisw_127	183	OG0000105	NA	NA	NA	NA	NA	Uisw_127_00645
+CP159822.1	Aragorn:1.2	tRNA	567661	567737	.	+	.	Uisw_099_02_00617	Uisw_099_02	NA	NA	NA	NA	NA	NA	NA	Uisw_099_02_00622
+CP159822.1	Prodigal:2.6	CDS	567743	568024	.	+	0	Uisw_099_02_00618	Uisw_099_02	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_099_02_00622
+CP159822.1	Prodigal:2.6	CDS	568027	569019	.	+	0	Uisw_099_02_00619	Uisw_099_02	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_099_02_00622
+CP159822.1	Prodigal:2.6	CDS	569019	569474	.	+	0	Uisw_099_02_00620	Uisw_099_02	151	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_099_02_00622
+CP159822.1	Prodigal:2.6	CDS	569507	569965	.	+	0	Uisw_099_02_00621	Uisw_099_02	152	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_099_02_00622
+CP159822.1	Prodigal:2.6	CDS	569962	571656	.	+	0	Uisw_099_02_00622	Uisw_099_02	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_099_02_00622
+CP159822.1	Aragorn:1.2	tRNA	571707	571781	.	+	.	Uisw_099_02_00623	Uisw_099_02	NA	NA	NA	NA	NA	NA	NA	Uisw_099_02_00622
+CP159822.1	Prodigal:2.6	CDS	571787	572068	.	+	0	Uisw_099_02_00624	Uisw_099_02	93	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_099_02_00622
+CP159822.1	Prodigal:2.6	CDS	572037	573599	.	+	0	Uisw_099_02_00625	Uisw_099_02	520	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_099_02_00622
+CP159822.1	Prodigal:2.6	CDS	573553	574149	.	+	0	Uisw_099_02_00626	Uisw_099_02	198	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	Uisw_099_02_00622
+CP159822.1	Prodigal:2.6	CDS	574149	575000	.	+	0	Uisw_099_02_00627	Uisw_099_02	283	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_099_02_00622
+NZ_LANA01000002.1	Prodigal:2.6	CDS	310501	311031	.	-	0	HTCC9565_01158	HTCC9565	176	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HTCC9565_01163
+NZ_LANA01000002.1	Prodigal:2.6	CDS	311028	311918	.	-	0	HTCC9565_01159	HTCC9565	296	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC9565_01163
+NZ_LANA01000002.1	Prodigal:2.6	CDS	311923	314040	.	-	0	HTCC9565_01160	HTCC9565	705	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HTCC9565_01163
+NZ_LANA01000002.1	Prodigal:2.6	CDS	314037	314291	.	-	0	HTCC9565_01161	HTCC9565	84	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC9565_01163
+NZ_LANA01000002.1	Aragorn:1.2	tRNA	314297	314371	.	-	.	HTCC9565_01162	HTCC9565	NA	NA	NA	NA	NA	NA	NA	HTCC9565_01163
+NZ_LANA01000002.1	Prodigal:2.6	CDS	314421	316115	.	-	0	HTCC9565_01163	HTCC9565	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HTCC9565_01163
+NZ_LANA01000002.1	Prodigal:2.6	CDS	316112	317059	.	-	0	HTCC9565_01164	HTCC9565	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HTCC9565_01163
+NZ_LANA01000002.1	Prodigal:2.6	CDS	317059	318051	.	-	0	HTCC9565_01165	HTCC9565	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HTCC9565_01163
+NZ_LANA01000002.1	Prodigal:2.6	CDS	318057	318299	.	-	0	HTCC9565_01166	HTCC9565	80	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HTCC9565_01163
+NZ_LANA01000002.1	Aragorn:1.2	tRNA	318345	318421	.	-	.	HTCC9565_01167	HTCC9565	NA	NA	NA	NA	NA	NA	NA	HTCC9565_01163
+NZ_LANA01000002.1	Prodigal:2.6	CDS	318515	319021	.	+	0	HTCC9565_01168	HTCC9565	168	OG0000105	NA	NA	NA	NA	NA	HTCC9565_01163
+CP159813.1	Prodigal:2.6	CDS	551738	552535	.	+	0	Uisw_134_02_00623	Uisw_134_02	265	OG0001828	NA	NA	NA	NA	NA	Uisw_134_02_00628
+CP159813.1	Prodigal:2.6	CDS	552556	553428	.	-	0	Uisw_134_02_00624	Uisw_134_02	290	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_134_02_00628
+CP159813.1	Prodigal:2.6	CDS	553438	555552	.	-	0	Uisw_134_02_00625	Uisw_134_02	704	OG0000842	K06320	spore maturation protein CgeB	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_134_02_00628
+CP159813.1	Prodigal:2.6	CDS	555549	555800	.	-	0	Uisw_134_02_00626	Uisw_134_02	83	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_134_02_00628
+CP159813.1	Aragorn:1.2	tRNA	555806	555880	.	-	.	Uisw_134_02_00627	Uisw_134_02	NA	NA	NA	NA	NA	NA	NA	Uisw_134_02_00628
+CP159813.1	Prodigal:2.6	CDS	555931	557625	.	-	0	Uisw_134_02_00628	Uisw_134_02	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_134_02_00628
+CP159813.1	Prodigal:2.6	CDS	557622	558569	.	-	0	Uisw_134_02_00629	Uisw_134_02	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_134_02_00628
+CP159813.1	Prodigal:2.6	CDS	558569	559561	.	-	0	Uisw_134_02_00630	Uisw_134_02	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_134_02_00628
+CP159813.1	Prodigal:2.6	CDS	559565	559846	.	-	0	Uisw_134_02_00631	Uisw_134_02	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_134_02_00628
+CP159813.1	Aragorn:1.2	tRNA	559851	559927	.	-	.	Uisw_134_02_00632	Uisw_134_02	NA	NA	NA	NA	NA	NA	NA	Uisw_134_02_00628
+CP159813.1	Prodigal:2.6	CDS	560021	560539	.	+	0	Uisw_134_02_00633	Uisw_134_02	172	OG0000105	NA	NA	NA	NA	NA	Uisw_134_02_00628
+DS995298.1	Prodigal:2.6	CDS	920958	921860	.	-	0	HTCC7211_01009	HTCC7211	300	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC7211_01014
+DS995298.1	Prodigal:2.6	CDS	921869	922843	.	-	0	HTCC7211_01010	HTCC7211	324	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7211_01014
+DS995298.1	Prodigal:2.6	CDS	922843	924969	.	-	0	HTCC7211_01011	HTCC7211	708	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HTCC7211_01014
+DS995298.1	Prodigal:2.6	CDS	924944	925207	.	-	0	HTCC7211_01012	HTCC7211	87	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC7211_01014
+DS995298.1	Aragorn:1.2	tRNA	925225	925299	.	-	.	HTCC7211_01013	HTCC7211	NA	NA	NA	NA	NA	NA	NA	HTCC7211_01014
+DS995298.1	Prodigal:2.6	CDS	925341	927044	.	-	0	HTCC7211_01014	HTCC7211	567	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HTCC7211_01014
+DS995298.1	Prodigal:2.6	CDS	927041	927988	.	-	0	HTCC7211_01015	HTCC7211	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HTCC7211_01014
+DS995298.1	Prodigal:2.6	CDS	927988	928980	.	-	0	HTCC7211_01016	HTCC7211	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HTCC7211_01014
+DS995298.1	Prodigal:2.6	CDS	928984	929226	.	-	0	HTCC7211_01017	HTCC7211	80	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HTCC7211_01014
+DS995298.1	Aragorn:1.2	tRNA	929272	929348	.	-	.	HTCC7211_01018	HTCC7211	NA	NA	NA	NA	NA	NA	NA	HTCC7211_01014
+DS995298.1	Prodigal:2.6	CDS	929443	929931	.	+	0	HTCC7211_01019	HTCC7211	162	OG0000105	NA	NA	NA	NA	NA	HTCC7211_01014
+KL370779.1	Prodigal:2.6	CDS	1112919	1113410	.	-	0	HTCC7214_01159	HTCC7214	163	OG0000105	NA	NA	COG1326	NA	Uncharacterized archaeal Zn-finger protein	HTCC7214_01164
+KL370779.1	Aragorn:1.2	tRNA	1113505	1113581	.	+	NA	HTCC7214_01160	HTCC7214	NA	NA	NA	NA	NA	NA	NA	HTCC7214_01164
+KL370779.1	Prodigal:2.6	CDS	1113627	1113869	.	+	0	HTCC7214_01161	HTCC7214	80	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HTCC7214_01164
+KL370779.1	Prodigal:2.6	CDS	1113873	1114865	.	+	0	HTCC7214_01162	HTCC7214	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HTCC7214_01164
+KL370779.1	Prodigal:2.6	CDS	1114865	1115812	.	+	0	HTCC7214_01163	HTCC7214	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HTCC7214_01164
+KL370779.1	Prodigal:2.6	CDS	1115809	1117512	.	+	0	HTCC7214_01164	HTCC7214	567	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HTCC7214_01164
+KL370779.1	Aragorn:1.2	tRNA	1117554	1117628	.	+	NA	HTCC7214_01165	HTCC7214	NA	NA	NA	NA	NA	NA	NA	HTCC7214_01164
+KL370779.1	Prodigal:2.6	CDS	1117632	1117889	.	+	0	HTCC7214_01166	HTCC7214	85	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC7214_01164
+KL370779.1	Prodigal:2.6	CDS	1117886	1119961	.	+	0	HTCC7214_01167	HTCC7214	691	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7214_01164
+KL370779.1	Prodigal:2.6	CDS	1120072	1121073	.	+	0	HTCC7214_01168	HTCC7214	333	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7214_01164
+KL370779.1	Prodigal:2.6	CDS	1121070	1122044	.	-	0	HTCC7214_01169	HTCC7214	324	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC7214_01164
+JNIU01000001.1	Prodigal:2.6	CDS	281179	281349	.	-	0	HTCC7217_00322	HTCC7217	56	OG0001201	NA	NA	NA	NA	NA	HTCC7217_00327
+JNIU01000001.1	Prodigal:2.6	CDS	281486	282442	.	+	0	HTCC7217_00323	HTCC7217	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC7217_00327
+JNIU01000001.1	Prodigal:2.6	CDS	282449	283489	.	-	0	HTCC7217_00324	HTCC7217	346	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7217_00327
+JNIU01000001.1	Prodigal:2.6	CDS	283461	283736	.	-	0	HTCC7217_00325	HTCC7217	91	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC7217_00327
+JNIU01000001.1	Aragorn:1.2	tRNA	283741	283815	.	-	.	HTCC7217_00326	HTCC7217	NA	NA	NA	NA	NA	NA	NA	HTCC7217_00327
+JNIU01000001.1	Prodigal:2.6	CDS	283865	285559	.	-	0	HTCC7217_00327	HTCC7217	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HTCC7217_00327
+JNIU01000001.1	Prodigal:2.6	CDS	285556	286503	.	-	0	HTCC7217_00328	HTCC7217	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HTCC7217_00327
+JNIU01000001.1	Prodigal:2.6	CDS	286503	287495	.	-	0	HTCC7217_00329	HTCC7217	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HTCC7217_00327
+JNIU01000001.1	Prodigal:2.6	CDS	287499	287741	.	-	0	HTCC7217_00330	HTCC7217	80	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HTCC7217_00327
+JNIU01000001.1	Aragorn:1.2	tRNA	287787	287863	.	-	.	HTCC7217_00331	HTCC7217	NA	NA	NA	NA	NA	NA	NA	HTCC7217_00327
+JNIU01000001.1	Prodigal:2.6	CDS	287958	288446	.	+	0	HTCC7217_00332	HTCC7217	162	OG0000105	NA	NA	COG1996	RPC10	DNA-directed RNA polymerase, subunit RPC12/RpoP, contains C4-type Zn-finger	HTCC7217_00327
+HIMB1412-00000000001	Prodigal:2.6	CDS	895368	895808	.	-	0	HIMB1412_00939	HIMB1412	146	OG0000105	NA	NA	NA	NA	NA	HIMB1412_00944
+HIMB1412-00000000001	Aragorn:1.2	tRNA	895901	895977	.	+	NA	HIMB1412_00940	HIMB1412	NA	NA	NA	NA	NA	NA	NA	HIMB1412_00944
+HIMB1412-00000000001	Prodigal:2.6	CDS	895983	896264	.	+	0	HIMB1412_00941	HIMB1412	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB1412_00944
+HIMB1412-00000000001	Prodigal:2.6	CDS	896268	897257	.	+	0	HIMB1412_00942	HIMB1412	329	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1412_00944
+HIMB1412-00000000001	Prodigal:2.6	CDS	897257	898198	.	+	0	HIMB1412_00943	HIMB1412	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1412_00944
+HIMB1412-00000000001	Prodigal:2.6	CDS	898198	899889	.	+	0	HIMB1412_00944	HIMB1412	563	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1412_00944
+HIMB1412-00000000001	Aragorn:1.2	tRNA	899925	899999	.	+	NA	HIMB1412_00945	HIMB1412	NA	NA	NA	NA	NA	NA	NA	HIMB1412_00944
+HIMB1412-00000000001	Prodigal:2.6	CDS	900004	900258	.	+	0	HIMB1412_00946	HIMB1412	84	OG0000863	NA	NA	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1412_00944
+HIMB1412-00000000001	Prodigal:2.6	CDS	900248	902362	.	+	0	HIMB1412_00947	HIMB1412	704	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1412_00944
+HIMB1412-00000000001	Prodigal:2.6	CDS	902362	903222	.	+	0	HIMB1412_00948	HIMB1412	286	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1412_00944
+HIMB1412-00000000001	Prodigal:2.6	CDS	903247	904251	.	+	0	HIMB1412_00949	HIMB1412	334	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1412_00944
+HIMB1420-00000000002	Prodigal:2.6	CDS	170756	171853	.	-	0	HIMB1420_00929	HIMB1420	365	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1420_00934
+HIMB1420-00000000002	Prodigal:2.6	CDS	171840	173921	.	-	0	HIMB1420_00930	HIMB1420	693	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1420_00934
+HIMB1420-00000000002	Prodigal:2.6	CDS	173918	174502	.	-	0	HIMB1420_00931	HIMB1420	194	OG0001964	NA	NA	COG1043	LpxA	Acyl-[acyl carrier protein]--UDP-N-acetylglucosamine O-acyltransferase	HIMB1420_00934
+HIMB1420-00000000002	Prodigal:2.6	CDS	174489	174755	.	-	0	HIMB1420_00932	HIMB1420	88	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1420_00934
+HIMB1420-00000000002	Aragorn:1.2	tRNA	174760	174834	.	-	.	HIMB1420_00933	HIMB1420	NA	NA	NA	NA	NA	NA	NA	HIMB1420_00934
+HIMB1420-00000000002	Prodigal:2.6	CDS	174880	176562	.	-	0	HIMB1420_00934	HIMB1420	560	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1420_00934
+HIMB1420-00000000002	Prodigal:2.6	CDS	176559	177503	.	-	0	HIMB1420_00935	HIMB1420	314	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1420_00934
+HIMB1420-00000000002	Prodigal:2.6	CDS	177503	178492	.	-	0	HIMB1420_00936	HIMB1420	329	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1420_00934
+HIMB1420-00000000002	Prodigal:2.6	CDS	178496	178777	.	-	0	HIMB1420_00937	HIMB1420	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB1420_00934
+HIMB1420-00000000002	Aragorn:1.2	tRNA	178786	178862	.	-	.	HIMB1420_00938	HIMB1420	NA	NA	NA	NA	NA	NA	NA	HIMB1420_00934
+HIMB1420-00000000002	Prodigal:2.6	CDS	178955	179377	.	+	0	HIMB1420_00939	HIMB1420	140	OG0000105	NA	NA	NA	NA	NA	HIMB1420_00934
+HIMB1463-00000000094	Prodigal:2.6	CDS	35	844	.	+	0	HIMB1463_01435	HIMB1463	269	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1463_01435
+HIMB1463-00000000094	Aragorn:1.2	tRNA	890	964	.	+	.	HIMB1463_01436	HIMB1463	NA	NA	NA	NA	NA	NA	NA	HIMB1463_01435
+HIMB1564-00000000001	Prodigal:2.6	CDS	585170	586177	.	-	0	HIMB1564_00624	HIMB1564	335	OG0001685	NA	NA	NA	NA	NA	HIMB1564_00629
+HIMB1564-00000000001	Prodigal:2.6	CDS	586190	587149	.	-	0	HIMB1564_00625	HIMB1564	319	OG0000113	K01711	GDPmannose 4,6-dehydratase [EC:4.2.1.47]	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB1564_00629
+HIMB1564-00000000001	Prodigal:2.6	CDS	587137	589242	.	-	0	HIMB1564_00626	HIMB1564	701	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1564_00629
+HIMB1564-00000000001	Prodigal:2.6	CDS	589239	589472	.	-	0	HIMB1564_00627	HIMB1564	77	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1564_00629
+HIMB1564-00000000001	Aragorn:1.2	tRNA	589500	589574	.	-	.	HIMB1564_00628	HIMB1564	NA	NA	NA	NA	NA	NA	NA	HIMB1564_00629
+HIMB1564-00000000001	Prodigal:2.6	CDS	589620	591302	.	-	0	HIMB1564_00629	HIMB1564	560	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1564_00629
+HIMB1564-00000000001	Prodigal:2.6	CDS	591302	592243	.	-	0	HIMB1564_00630	HIMB1564	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1564_00629
+HIMB1564-00000000001	Prodigal:2.6	CDS	592243	593232	.	-	0	HIMB1564_00631	HIMB1564	329	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1564_00629
+HIMB1564-00000000001	Prodigal:2.6	CDS	593236	593517	.	-	0	HIMB1564_00632	HIMB1564	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB1564_00629
+HIMB1564-00000000001	Aragorn:1.2	tRNA	593523	593599	.	-	.	HIMB1564_00633	HIMB1564	NA	NA	NA	NA	NA	NA	NA	HIMB1564_00629
+HIMB1564-00000000001	Prodigal:2.6	CDS	593692	594114	.	+	0	HIMB1564_00634	HIMB1564	140	OG0000105	NA	NA	NA	NA	NA	HIMB1564_00629
+HIMB1520-00000000001	Prodigal:2.6	CDS	145282	146145	.	-	0	HIMB1520_00168	HIMB1520	287	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1520_00173
+HIMB1520-00000000001	Prodigal:2.6	CDS	146145	148262	.	-	0	HIMB1520_00169	HIMB1520	705	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1520_00173
+HIMB1520-00000000001	Prodigal:2.6	CDS	148270	148800	.	-	0	HIMB1520_00170	HIMB1520	176	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1520_00173
+HIMB1520-00000000001	Prodigal:2.6	CDS	148787	149038	.	-	0	HIMB1520_00171	HIMB1520	83	OG0000863	NA	NA	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1520_00173
+HIMB1520-00000000001	Aragorn:1.2	tRNA	149062	149136	.	-	.	HIMB1520_00172	HIMB1520	NA	NA	NA	NA	NA	NA	NA	HIMB1520_00173
+HIMB1520-00000000001	Prodigal:2.6	CDS	149182	150864	.	-	0	HIMB1520_00173	HIMB1520	560	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1520_00173
+HIMB1520-00000000001	Prodigal:2.6	CDS	150861	151805	.	-	0	HIMB1520_00174	HIMB1520	314	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1520_00173
+HIMB1520-00000000001	Prodigal:2.6	CDS	151805	152794	.	-	0	HIMB1520_00175	HIMB1520	329	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1520_00173
+HIMB1520-00000000001	Prodigal:2.6	CDS	152798	153079	.	-	0	HIMB1520_00176	HIMB1520	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB1520_00173
+HIMB1520-00000000001	Aragorn:1.2	tRNA	153085	153161	.	-	.	HIMB1520_00177	HIMB1520	NA	NA	NA	NA	NA	NA	NA	HIMB1520_00173
+HIMB1520-00000000001	Prodigal:2.6	CDS	153254	153676	.	+	0	HIMB1520_00178	HIMB1520	140	OG0000105	NA	NA	NA	NA	NA	HIMB1520_00173
+CP003809.1	Prodigal:2.6	CDS	606720	607142	.	-	0	HIMB5_00663	HIMB5	140	OG0000105	NA	NA	NA	NA	NA	HIMB5_00668
+CP003809.1	Aragorn:1.2	tRNA	607235	607311	.	+	.	HIMB5_00664	HIMB5	NA	NA	NA	NA	NA	NA	NA	HIMB5_00668
+CP003809.1	Prodigal:2.6	CDS	607317	607598	.	+	0	HIMB5_00665	HIMB5	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB5_00668
+CP003809.1	Prodigal:2.6	CDS	607602	608591	.	+	0	HIMB5_00666	HIMB5	329	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB5_00668
+CP003809.1	Prodigal:2.6	CDS	608591	609535	.	+	0	HIMB5_00667	HIMB5	314	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB5_00668
+CP003809.1	Prodigal:2.6	CDS	609532	611214	.	+	0	HIMB5_00668	HIMB5	560	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB5_00668
+CP003809.1	Aragorn:1.2	tRNA	611260	611334	.	+	.	HIMB5_00669	HIMB5	NA	NA	NA	NA	NA	NA	NA	HIMB5_00668
+CP003809.1	Prodigal:2.6	CDS	611339	611608	.	+	0	HIMB5_00670	HIMB5	89	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB5_00668
+CP003809.1	Prodigal:2.6	CDS	611595	612125	.	+	0	HIMB5_00671	HIMB5	176	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB5_00668
+CP003809.1	Prodigal:2.6	CDS	612132	614246	.	+	0	HIMB5_00672	HIMB5	704	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB5_00668
+CP003809.1	Prodigal:2.6	CDS	614250	615119	.	+	0	HIMB5_00673	HIMB5	289	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB5_00668
+LT840186.1	Prodigal:2.6	CDS	515075	515860	.	-	0	HIMB1321_00560	HIMB1321	261	OG0001584	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1321_00565
+LT840186.1	Aragorn:1.2	tRNA	515958	516034	.	+	.	HIMB1321_00561	HIMB1321	NA	NA	NA	NA	NA	NA	NA	HIMB1321_00565
+LT840186.1	Prodigal:2.6	CDS	516038	516319	.	+	0	HIMB1321_00562	HIMB1321	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB1321_00565
+LT840186.1	Prodigal:2.6	CDS	516323	517315	.	+	0	HIMB1321_00563	HIMB1321	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1321_00565
+LT840186.1	Prodigal:2.6	CDS	517315	518256	.	+	0	HIMB1321_00564	HIMB1321	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1321_00565
+LT840186.1	Prodigal:2.6	CDS	518256	519956	.	+	0	HIMB1321_00565	HIMB1321	566	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1321_00565
+LT840186.1	Aragorn:1.2	tRNA	519993	520067	.	+	.	HIMB1321_00566	HIMB1321	NA	NA	NA	NA	NA	NA	NA	HIMB1321_00565
+LT840186.1	Prodigal:2.6	CDS	520070	520321	.	+	0	HIMB1321_00567	HIMB1321	83	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1321_00565
+LT840186.1	Prodigal:2.6	CDS	520323	522431	.	+	0	HIMB1321_00568	HIMB1321	702	OG0000842	K06320	spore maturation protein CgeB	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1321_00565
+LT840186.1	Prodigal:2.6	CDS	522452	523306	.	+	0	HIMB1321_00569	HIMB1321	284	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1321_00565
+LT840186.1	Prodigal:2.6	CDS	523332	524336	.	-	0	HIMB1321_00570	HIMB1321	334	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1321_00565
+HIMB1527-00000000002	Prodigal:2.6	CDS	254870	255556	.	-	0	HIMB1527_00902	HIMB1527	228	OG0000008	NA	NA	NA	NA	NA	HIMB1527_00907
+HIMB1527-00000000002	Prodigal:2.6	CDS	255557	256420	.	-	0	HIMB1527_00903	HIMB1527	287	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1527_00907
+HIMB1527-00000000002	Prodigal:2.6	CDS	256402	258510	.	-	0	HIMB1527_00904	HIMB1527	702	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1527_00907
+HIMB1527-00000000002	Prodigal:2.6	CDS	258467	258742	.	-	0	HIMB1527_00905	HIMB1527	91	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1527_00907
+HIMB1527-00000000002	Aragorn:1.2	tRNA	258765	258839	.	-	.	HIMB1527_00906	HIMB1527	NA	NA	NA	NA	NA	NA	NA	HIMB1527_00907
+HIMB1527-00000000002	Prodigal:2.6	CDS	258882	260573	.	-	0	HIMB1527_00907	HIMB1527	563	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1527_00907
+HIMB1527-00000000002	Prodigal:2.6	CDS	260573	261514	.	-	0	HIMB1527_00908	HIMB1527	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1527_00907
+HIMB1527-00000000002	Prodigal:2.6	CDS	261514	262506	.	-	0	HIMB1527_00909	HIMB1527	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1527_00907
+HIMB1527-00000000002	Prodigal:2.6	CDS	262510	262791	.	-	0	HIMB1527_00910	HIMB1527	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB1527_00907
+HIMB1527-00000000002	Aragorn:1.2	tRNA	262795	262871	.	-	.	HIMB1527_00911	HIMB1527	NA	NA	NA	NA	NA	NA	NA	HIMB1527_00907
+HIMB1527-00000000002	Prodigal:2.6	CDS	262963	263457	.	+	0	HIMB1527_00912	HIMB1527	164	OG0000105	NA	NA	COG1996	RPC10	DNA-directed RNA polymerase, subunit RPC12/RpoP, contains C4-type Zn-finger	HIMB1527_00907
+HIMB1505-00000000001	Prodigal:2.6	CDS	979792	980286	.	-	0	HIMB1505_01030	HIMB1505	164	OG0000105	NA	NA	NA	NA	NA	HIMB1505_01035
+HIMB1505-00000000001	Aragorn:1.2	tRNA	980378	980454	.	+	.	HIMB1505_01031	HIMB1505	NA	NA	NA	NA	NA	NA	NA	HIMB1505_01035
+HIMB1505-00000000001	Prodigal:2.6	CDS	980458	980739	.	+	0	HIMB1505_01032	HIMB1505	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB1505_01035
+HIMB1505-00000000001	Prodigal:2.6	CDS	980743	981735	.	+	0	HIMB1505_01033	HIMB1505	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1505_01035
+HIMB1505-00000000001	Prodigal:2.6	CDS	981735	982676	.	+	0	HIMB1505_01034	HIMB1505	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1505_01035
+HIMB1505-00000000001	Prodigal:2.6	CDS	982676	984367	.	+	0	HIMB1505_01035	HIMB1505	563	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1505_01035
+HIMB1505-00000000001	Aragorn:1.2	tRNA	984410	984484	.	+	.	HIMB1505_01036	HIMB1505	NA	NA	NA	NA	NA	NA	NA	HIMB1505_01035
+HIMB1505-00000000001	Prodigal:2.6	CDS	984489	984767	.	+	0	HIMB1505_01037	HIMB1505	92	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1505_01035
+HIMB1505-00000000001	Prodigal:2.6	CDS	984739	986847	.	+	0	HIMB1505_01038	HIMB1505	702	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1505_01035
+HIMB1505-00000000001	Prodigal:2.6	CDS	986849	987685	.	+	0	HIMB1505_01039	HIMB1505	278	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1505_01035
+HIMB1505-00000000001	Prodigal:2.6	CDS	987675	988679	.	-	0	HIMB1505_01040	HIMB1505	334	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1505_01035
+HIMB1549-00000000001	Prodigal:2.6	CDS	534555	535049	.	-	0	HIMB1549_00561	HIMB1549	164	OG0000105	NA	NA	COG1996	RPC10	DNA-directed RNA polymerase, subunit RPC12/RpoP, contains C4-type Zn-finger	HIMB1549_00566
+HIMB1549-00000000001	Aragorn:1.2	tRNA	535141	535217	.	+	.	HIMB1549_00562	HIMB1549	NA	NA	NA	NA	NA	NA	NA	HIMB1549_00566
+HIMB1549-00000000001	Prodigal:2.6	CDS	535221	535502	.	+	0	HIMB1549_00563	HIMB1549	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB1549_00566
+HIMB1549-00000000001	Prodigal:2.6	CDS	535506	536498	.	+	0	HIMB1549_00564	HIMB1549	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1549_00566
+HIMB1549-00000000001	Prodigal:2.6	CDS	536498	537439	.	+	0	HIMB1549_00565	HIMB1549	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1549_00566
+HIMB1549-00000000001	Prodigal:2.6	CDS	537439	539130	.	+	0	HIMB1549_00566	HIMB1549	563	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1549_00566
+HIMB1549-00000000001	Aragorn:1.2	tRNA	539173	539247	.	+	.	HIMB1549_00567	HIMB1549	NA	NA	NA	NA	NA	NA	NA	HIMB1549_00566
+HIMB1549-00000000001	Prodigal:2.6	CDS	539253	539531	.	+	0	HIMB1549_00568	HIMB1549	92	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1549_00566
+HIMB1549-00000000001	Prodigal:2.6	CDS	539702	540223	.	+	0	HIMB1549_00569	HIMB1549	173	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1549_00566
+HIMB1549-00000000001	Prodigal:2.6	CDS	540223	541401	.	+	0	HIMB1549_00570	HIMB1549	392	OG0000814	NA	NA	COG4976	NA	Predicted methyltransferase, contains TPR repeat	HIMB1549_00566
+HIMB1549-00000000001	Prodigal:2.6	CDS	541479	543596	.	+	0	HIMB1549_00571	HIMB1549	705	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1549_00566
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	662182	663186	.	+	0	HIMB4_00727	HIMB4	334	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB4_00732
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	663176	664012	.	-	0	HIMB4_00728	HIMB4	278	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB4_00732
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	664014	666122	.	-	0	HIMB4_00729	HIMB4	702	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB4_00732
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	666094	666372	.	-	0	HIMB4_00730	HIMB4	92	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB4_00732
+NZ_JBPPFS010000001.1	Aragorn:1.2	tRNA	666377	666451	.	-	.	HIMB4_00731	HIMB4	NA	NA	NA	NA	NA	NA	NA	HIMB4_00732
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	666494	668185	.	-	0	HIMB4_00732	HIMB4	563	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB4_00732
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	668185	669126	.	-	0	HIMB4_00733	HIMB4	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB4_00732
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	669126	670118	.	-	0	HIMB4_00734	HIMB4	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB4_00732
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	670122	670403	.	-	0	HIMB4_00735	HIMB4	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB4_00732
+NZ_JBPPFS010000001.1	Aragorn:1.2	tRNA	670407	670483	.	-	.	HIMB4_00736	HIMB4	NA	NA	NA	NA	NA	NA	NA	HIMB4_00732
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	670575	671069	.	+	0	HIMB4_00737	HIMB4	164	OG0000105	NA	NA	NA	NA	NA	HIMB4_00732
+KI421440.1	Prodigal:2.6	CDS	623791	623955	.	-	0	HTCC8051_00677	HTCC8051	54	NA	NA	NA	NA	NA	NA	HTCC8051_00682
+KI421440.1	Prodigal:2.6	CDS	624046	625002	.	+	0	HTCC8051_00678	HTCC8051	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC8051_00682
+KI421440.1	Prodigal:2.6	CDS	625020	627143	.	-	0	HTCC8051_00679	HTCC8051	707	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	HTCC8051_00682
+KI421440.1	Prodigal:2.6	CDS	627140	627376	.	-	0	HTCC8051_00680	HTCC8051	78	OG0000863	NA	NA	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC8051_00682
+KI421440.1	Aragorn:1.2	tRNA	627400	627474	.	-	NA	HTCC8051_00681	HTCC8051	NA	NA	NA	NA	NA	NA	NA	HTCC8051_00682
+KI421440.1	Prodigal:2.6	CDS	627525	629219	.	-	0	HTCC8051_00682	HTCC8051	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HTCC8051_00682
+KI421440.1	Prodigal:2.6	CDS	629216	630163	.	-	0	HTCC8051_00683	HTCC8051	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HTCC8051_00682
+KI421440.1	Prodigal:2.6	CDS	630163	631155	.	-	0	HTCC8051_00684	HTCC8051	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HTCC8051_00682
+KI421440.1	Prodigal:2.6	CDS	631159	631401	.	-	0	HTCC8051_00685	HTCC8051	80	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HTCC8051_00682
+KI421440.1	Aragorn:1.2	tRNA	631447	631523	.	-	NA	HTCC8051_00686	HTCC8051	NA	NA	NA	NA	NA	NA	NA	HTCC8051_00682
+KI421440.1	Prodigal:2.6	CDS	631618	632109	.	+	0	HTCC8051_00687	HTCC8051	163	OG0000105	NA	NA	COG4487	NA	Uncharacterized conserved protein, contains DUF2130 domain	HTCC8051_00682
+KI421433.1	Prodigal:2.6	CDS	523697	525130	.	+	0	HTCC9022_01134	HTCC9022	477	OG0002283	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG1232	HemY	Protoporphyrinogen oxidase HemY/PPOX	HTCC9022_01139
+KI421433.1	Prodigal:2.6	CDS	525133	526017	.	-	0	HTCC9022_01135	HTCC9022	294	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC9022_01139
+KI421433.1	Prodigal:2.6	CDS	526018	528099	.	-	0	HTCC9022_01136	HTCC9022	693	OG0000842	K06320	spore maturation protein CgeB	NA	NA	NA	HTCC9022_01139
+KI421433.1	Prodigal:2.6	CDS	528092	528352	.	-	0	HTCC9022_01137	HTCC9022	86	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC9022_01139
+KI421433.1	Aragorn:1.2	tRNA	528356	528430	.	-	.	HTCC9022_01138	HTCC9022	NA	NA	NA	NA	NA	NA	NA	HTCC9022_01139
+KI421433.1	Prodigal:2.6	CDS	528481	530175	.	-	0	HTCC9022_01139	HTCC9022	564	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HTCC9022_01139
+KI421433.1	Prodigal:2.6	CDS	530172	531119	.	-	0	HTCC9022_01140	HTCC9022	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HTCC9022_01139
+KI421433.1	Prodigal:2.6	CDS	531119	532111	.	-	0	HTCC9022_01141	HTCC9022	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HTCC9022_01139
+KI421433.1	Prodigal:2.6	CDS	532115	532357	.	-	0	HTCC9022_01142	HTCC9022	80	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HTCC9022_01139
+KI421433.1	Aragorn:1.2	tRNA	532403	532479	.	-	.	HTCC9022_01143	HTCC9022	NA	NA	NA	NA	NA	NA	NA	HTCC9022_01139
+KI421433.1	Prodigal:2.6	CDS	532574	533062	.	+	0	HTCC9022_01144	HTCC9022	162	OG0000105	NA	NA	COG4487	NA	Uncharacterized conserved protein, contains DUF2130 domain	HTCC9022_01139
+HIMB1623-00000000005	Prodigal:2.6	CDS	5115	6113	.	-	0	HIMB1623_00546	HIMB1623	332	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1623_00551
+HIMB1623-00000000005	Prodigal:2.6	CDS	6130	7122	.	-	0	HIMB1623_00547	HIMB1623	330	OG0001526	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB1623_00551
+HIMB1623-00000000005	Prodigal:2.6	CDS	7115	8155	.	-	0	HIMB1623_00548	HIMB1623	346	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	HIMB1623_00551
+HIMB1623-00000000005	Prodigal:2.6	CDS	8142	8411	.	-	0	HIMB1623_00549	HIMB1623	89	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1623_00551
+HIMB1623-00000000005	Aragorn:1.2	tRNA	9393	9467	.	-	.	HIMB1623_00550	HIMB1623	NA	NA	NA	NA	NA	NA	NA	HIMB1623_00551
+HIMB1623-00000000005	Prodigal:2.6	CDS	9520	11211	.	-	0	HIMB1623_00551	HIMB1623	563	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1623_00551
+HIMB1623-00000000005	Prodigal:2.6	CDS	11211	12152	.	-	0	HIMB1623_00552	HIMB1623	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1623_00551
+HIMB1623-00000000005	Prodigal:2.6	CDS	12152	13144	.	-	0	HIMB1623_00553	HIMB1623	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1623_00551
+HIMB1623-00000000005	Prodigal:2.6	CDS	13148	13429	.	-	0	HIMB1623_00554	HIMB1623	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB1623_00551
+HIMB1623-00000000005	Aragorn:1.2	tRNA	13437	13513	.	-	.	HIMB1623_00555	HIMB1623	NA	NA	NA	NA	NA	NA	NA	HIMB1623_00551
+HIMB1623-00000000005	Prodigal:2.6	CDS	13607	14113	.	+	0	HIMB1623_00556	HIMB1623	168	OG0000105	NA	NA	NA	NA	NA	HIMB1623_00551
+HIMB1709-00000000001	Prodigal:2.6	CDS	164306	165304	.	-	0	HIMB1709_00194	HIMB1709	332	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1709_00199
+HIMB1709-00000000001	Prodigal:2.6	CDS	165321	166313	.	-	0	HIMB1709_00195	HIMB1709	330	OG0001526	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB1709_00199
+HIMB1709-00000000001	Prodigal:2.6	CDS	166306	167346	.	-	0	HIMB1709_00196	HIMB1709	346	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	HIMB1709_00199
+HIMB1709-00000000001	Prodigal:2.6	CDS	167333	167602	.	-	0	HIMB1709_00197	HIMB1709	89	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1709_00199
+HIMB1709-00000000001	Aragorn:1.2	tRNA	168584	168658	.	-	.	HIMB1709_00198	HIMB1709	NA	NA	NA	NA	NA	NA	NA	HIMB1709_00199
+HIMB1709-00000000001	Prodigal:2.6	CDS	168711	170402	.	-	0	HIMB1709_00199	HIMB1709	563	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1709_00199
+HIMB1709-00000000001	Prodigal:2.6	CDS	170402	171343	.	-	0	HIMB1709_00200	HIMB1709	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1709_00199
+HIMB1709-00000000001	Prodigal:2.6	CDS	171343	172335	.	-	0	HIMB1709_00201	HIMB1709	330	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1709_00199
+HIMB1709-00000000001	Prodigal:2.6	CDS	172339	172620	.	-	0	HIMB1709_00202	HIMB1709	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB1709_00199
+HIMB1709-00000000001	Aragorn:1.2	tRNA	172628	172704	.	-	.	HIMB1709_00203	HIMB1709	NA	NA	NA	NA	NA	NA	NA	HIMB1709_00199
+HIMB1709-00000000001	Prodigal:2.6	CDS	172798	173304	.	+	0	HIMB1709_00204	HIMB1709	168	OG0000105	NA	NA	NA	NA	NA	HIMB1709_00199
+HIMB109-00000000003	Prodigal:2.6	CDS	45361	45642	.	-	0	HIMB109_00575	HIMB109	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	HIMB109_00580
+HIMB109-00000000003	Aragorn:1.2	tRNA	45655	45731	.	-	.	HIMB109_00576	HIMB109	NA	NA	NA	NA	NA	NA	NA	HIMB109_00580
+HIMB109-00000000003	Prodigal:2.6	CDS	45817	47004	.	+	0	HIMB109_00577	HIMB109	395	OG0000870	K03313	Na+:H+ antiporter, NhaA family	COG3004	NhaA	Na+/H+ antiporter NhaA	HIMB109_00580
+HIMB109-00000000003	Prodigal:2.6	CDS	46991	47518	.	+	0	HIMB109_00578	HIMB109	175	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	HIMB109_00580
+HIMB109-00000000003	Aragorn:1.2	tRNA	47522	47596	.	-	.	HIMB109_00579	HIMB109	NA	NA	NA	NA	NA	NA	NA	HIMB109_00580
+HIMB109-00000000003	Prodigal:2.6	CDS	47644	49386	.	-	0	HIMB109_00580	HIMB109	580	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB109_00580
+HIMB109-00000000003	Prodigal:2.6	CDS	49383	50324	.	-	0	HIMB109_00581	HIMB109	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB109_00580
+HIMB109-00000000003	Prodigal:2.6	CDS	50324	51619	.	-	0	HIMB109_00582	HIMB109	431	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB109_00580
+HIMB109-00000000003	Prodigal:2.6	CDS	51619	52632	.	-	0	HIMB109_00583	HIMB109	337	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	HIMB109_00580
+HIMB109-00000000003	Prodigal:2.6	CDS	52687	53100	.	-	0	HIMB109_00584	HIMB109	137	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	HIMB109_00580
+HIMB109-00000000003	Prodigal:2.6	CDS	53103	53564	.	-	0	HIMB109_00585	HIMB109	153	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	HIMB109_00580
+ADAC02000001.1	Prodigal:2.6	CDS	442243	442704	.	+	0	HIMB114_00490	HIMB114	153	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	HIMB114_00495
+ADAC02000001.1	Prodigal:2.6	CDS	442707	443120	.	+	0	HIMB114_00491	HIMB114	137	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	HIMB114_00495
+ADAC02000001.1	Prodigal:2.6	CDS	443176	444189	.	+	0	HIMB114_00492	HIMB114	337	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	HIMB114_00495
+ADAC02000001.1	Prodigal:2.6	CDS	444189	445484	.	+	0	HIMB114_00493	HIMB114	431	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB114_00495
+ADAC02000001.1	Prodigal:2.6	CDS	445484	446425	.	+	0	HIMB114_00494	HIMB114	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB114_00495
+ADAC02000001.1	Prodigal:2.6	CDS	446422	448164	.	+	0	HIMB114_00495	HIMB114	580	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB114_00495
+ADAC02000001.1	Aragorn:1.2	tRNA	448212	448286	.	+	.	HIMB114_00496	HIMB114	NA	NA	NA	NA	NA	NA	NA	HIMB114_00495
+ADAC02000001.1	Prodigal:2.6	CDS	448396	449163	.	+	0	HIMB114_00497	HIMB114	255	OG0001194	K01713	cyclohexadienyl dehydratase [EC:4.2.1.51 4.2.1.91]	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB114_00495
+ADAC02000001.1	Prodigal:2.6	CDS	448396	449163	.	+	0	HIMB114_00497	HIMB114	255	OG0001194	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB114_00495
+ADAC02000001.1	Prodigal:2.6	CDS	449204	449935	.	+	0	HIMB114_00498	HIMB114	243	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB114_00495
+ADAC02000001.1	Prodigal:2.6	CDS	449932	451302	.	-	0	HIMB114_00499	HIMB114	456	OG0000758	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB114_00495
+HIMB1565-00000000001	Prodigal:2.6	CDS	854038	854499	.	+	0	HIMB1565_00953	HIMB1565	153	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	HIMB1565_00958
+HIMB1565-00000000001	Prodigal:2.6	CDS	854502	854915	.	+	0	HIMB1565_00954	HIMB1565	137	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	HIMB1565_00958
+HIMB1565-00000000001	Prodigal:2.6	CDS	854970	855983	.	+	0	HIMB1565_00955	HIMB1565	337	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	HIMB1565_00958
+HIMB1565-00000000001	Prodigal:2.6	CDS	855983	857278	.	+	0	HIMB1565_00956	HIMB1565	431	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1565_00958
+HIMB1565-00000000001	Prodigal:2.6	CDS	857278	858219	.	+	0	HIMB1565_00957	HIMB1565	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1565_00958
+HIMB1565-00000000001	Prodigal:2.6	CDS	858216	859958	.	+	0	HIMB1565_00958	HIMB1565	580	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1565_00958
+HIMB1565-00000000001	Aragorn:1.2	tRNA	860006	860080	.	+	.	HIMB1565_00959	HIMB1565	NA	NA	NA	NA	NA	NA	NA	HIMB1565_00958
+HIMB1565-00000000001	Prodigal:2.6	CDS	860084	860611	.	-	0	HIMB1565_00960	HIMB1565	175	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	HIMB1565_00958
+HIMB1565-00000000001	Prodigal:2.6	CDS	860598	861785	.	-	0	HIMB1565_00961	HIMB1565	395	OG0000870	K03313	Na+:H+ antiporter, NhaA family	COG3004	NhaA	Na+/H+ antiporter NhaA	HIMB1565_00958
+HIMB1565-00000000001	Aragorn:1.2	tRNA	861871	861947	.	+	.	HIMB1565_00962	HIMB1565	NA	NA	NA	NA	NA	NA	NA	HIMB1565_00958
+HIMB1565-00000000001	Prodigal:2.6	CDS	861955	862710	.	+	0	HIMB1565_00963	HIMB1565	251	OG0001791	NA	NA	NA	NA	NA	HIMB1565_00958
+HIMB1517-00000000012	Prodigal:2.6	CDS	18438	19808	.	+	0	HIMB1517_01205	HIMB1517	456	OG0000758	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1517_01209
+HIMB1517-00000000012	Prodigal:2.6	CDS	19805	20536	.	-	0	HIMB1517_01206	HIMB1517	243	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1517_01209
+HIMB1517-00000000012	Prodigal:2.6	CDS	20577	21344	.	-	0	HIMB1517_01207	HIMB1517	255	OG0001194	K01713	cyclohexadienyl dehydratase [EC:4.2.1.51 4.2.1.91]	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1517_01209
+HIMB1517-00000000012	Prodigal:2.6	CDS	20577	21344	.	-	0	HIMB1517_01207	HIMB1517	255	OG0001194	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1517_01209
+HIMB1517-00000000012	Aragorn:1.2	tRNA	21443	21517	.	-	.	HIMB1517_01208	HIMB1517	NA	NA	NA	NA	NA	NA	NA	HIMB1517_01209
+HIMB1517-00000000012	Prodigal:2.6	CDS	21565	23307	.	-	0	HIMB1517_01209	HIMB1517	580	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	HIMB1517_01209
+HIMB1517-00000000012	Prodigal:2.6	CDS	23304	24245	.	-	0	HIMB1517_01210	HIMB1517	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1517_01209
+HIMB1517-00000000012	Prodigal:2.6	CDS	24245	25540	.	-	0	HIMB1517_01211	HIMB1517	431	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1517_01209
+HIMB1517-00000000012	Prodigal:2.6	CDS	25540	26553	.	-	0	HIMB1517_01212	HIMB1517	337	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	HIMB1517_01209
+HIMB1517-00000000012	Prodigal:2.6	CDS	26608	27021	.	-	0	HIMB1517_01213	HIMB1517	137	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	HIMB1517_01209
+HIMB1517-00000000012	Prodigal:2.6	CDS	27024	27485	.	-	0	HIMB1517_01214	HIMB1517	153	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	HIMB1517_01209
+Ga0197930_11	Prodigal:2.6	CDS	491162	491623	.	+	0	LSUCC0723_00530	LSUCC0723	153	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	LSUCC0723_00535
+Ga0197930_11	Prodigal:2.6	CDS	491626	492039	.	+	0	LSUCC0723_00531	LSUCC0723	137	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	LSUCC0723_00535
+Ga0197930_11	Prodigal:2.6	CDS	492094	493107	.	+	0	LSUCC0723_00532	LSUCC0723	337	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	LSUCC0723_00535
+Ga0197930_11	Prodigal:2.6	CDS	493107	494402	.	+	0	LSUCC0723_00533	LSUCC0723	431	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	LSUCC0723_00535
+Ga0197930_11	Prodigal:2.6	CDS	494402	495343	.	+	0	LSUCC0723_00534	LSUCC0723	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	LSUCC0723_00535
+Ga0197930_11	Prodigal:2.6	CDS	495340	497082	.	+	0	LSUCC0723_00535	LSUCC0723	580	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	LSUCC0723_00535
+Ga0197930_11	Aragorn:1.2	tRNA	497130	497204	.	+	NA	LSUCC0723_00536	LSUCC0723	NA	NA	NA	NA	NA	NA	NA	LSUCC0723_00535
+Ga0197930_11	Prodigal:2.6	CDS	497208	497735	.	-	0	LSUCC0723_00537	LSUCC0723	175	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	LSUCC0723_00535
+Ga0197930_11	Prodigal:2.6	CDS	497722	498909	.	-	0	LSUCC0723_00538	LSUCC0723	395	OG0000870	K03313	Na+:H+ antiporter, NhaA family	COG3004	NhaA	Na+/H+ antiporter NhaA	LSUCC0723_00535
+Ga0197930_11	Aragorn:1.2	tRNA	498995	499071	.	+	NA	LSUCC0723_00539	LSUCC0723	NA	NA	NA	NA	NA	NA	NA	LSUCC0723_00535
+Ga0197930_11	Prodigal:2.6	CDS	499084	499365	.	+	0	LSUCC0723_00540	LSUCC0723	93	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	LSUCC0723_00535
+Ga0255589_11	Prodigal:2.6	CDS	495197	495658	.	+	0	LSUCC0664_00559	LSUCC0664	153	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	LSUCC0664_00564
+Ga0255589_11	Prodigal:2.6	CDS	495658	496071	.	+	0	LSUCC0664_00560	LSUCC0664	137	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	LSUCC0664_00564
+Ga0255589_11	Prodigal:2.6	CDS	496126	497139	.	+	0	LSUCC0664_00561	LSUCC0664	337	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	LSUCC0664_00564
+Ga0255589_11	Prodigal:2.6	CDS	497139	498434	.	+	0	LSUCC0664_00562	LSUCC0664	431	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	LSUCC0664_00564
+Ga0255589_11	Prodigal:2.6	CDS	498434	499375	.	+	0	LSUCC0664_00563	LSUCC0664	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	LSUCC0664_00564
+Ga0255589_11	Prodigal:2.6	CDS	499372	501114	.	+	0	LSUCC0664_00564	LSUCC0664	580	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	LSUCC0664_00564
+Ga0255589_11	Aragorn:1.2	tRNA	501163	501237	.	+	.	LSUCC0664_00565	LSUCC0664	NA	NA	NA	NA	NA	NA	NA	LSUCC0664_00564
+Ga0255589_11	Prodigal:2.6	CDS	501271	501414	.	-	0	LSUCC0664_00566	LSUCC0664	47	OG0005120	NA	NA	NA	NA	NA	LSUCC0664_00564
+Ga0255589_11	Prodigal:2.6	CDS	501424	501951	.	-	0	LSUCC0664_00567	LSUCC0664	175	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	LSUCC0664_00564
+Ga0255589_11	Prodigal:2.6	CDS	501938	503128	.	-	0	LSUCC0664_00568	LSUCC0664	396	OG0000870	K03313	Na+:H+ antiporter, NhaA family	COG3004	NhaA	Na+/H+ antiporter NhaA	LSUCC0664_00564
+Ga0255589_11	Aragorn:1.2	tRNA	503212	503288	.	+	.	LSUCC0664_00569	LSUCC0664	NA	NA	NA	NA	NA	NA	NA	LSUCC0664_00564
+CP002511.1	Prodigal:2.6	CDS	987684	988142	.	+	0	IMCC9063_01122	IMCC9063	152	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	IMCC9063_01127
+CP002511.1	Prodigal:2.6	CDS	988145	988555	.	+	0	IMCC9063_01123	IMCC9063	136	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	IMCC9063_01127
+CP002511.1	Prodigal:2.6	CDS	988622	989647	.	+	0	IMCC9063_01124	IMCC9063	341	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	IMCC9063_01127
+CP002511.1	Prodigal:2.6	CDS	989651	990946	.	+	0	IMCC9063_01125	IMCC9063	431	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	IMCC9063_01127
+CP002511.1	Prodigal:2.6	CDS	990946	991887	.	+	0	IMCC9063_01126	IMCC9063	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	IMCC9063_01127
+CP002511.1	Prodigal:2.6	CDS	991884	993638	.	+	0	IMCC9063_01127	IMCC9063	584	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	IMCC9063_01127
+CP002511.1	Aragorn:1.2	tRNA	993694	993768	.	+	.	IMCC9063_01128	IMCC9063	NA	NA	NA	NA	NA	NA	NA	IMCC9063_01127
+CP002511.1	Prodigal:2.6	CDS	993780	994334	.	-	0	IMCC9063_01129	IMCC9063	184	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	IMCC9063_01127
+CP002511.1	Prodigal:2.6	CDS	994321	995523	.	-	0	IMCC9063_01130	IMCC9063	400	OG0000870	K03313	Na+:H+ antiporter, NhaA family	COG3004	NhaA	Na+/H+ antiporter NhaA	IMCC9063_01127
+CP002511.1	Aragorn:1.2	tRNA	995596	995672	.	+	.	IMCC9063_01131	IMCC9063	NA	NA	NA	NA	NA	NA	NA	IMCC9063_01127
+CP002511.1	Prodigal:2.6	CDS	995967	996941	.	+	0	IMCC9063_01132	IMCC9063	324	OG0000634	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	IMCC9063_01127
+Ga0182791_11	Prodigal:2.6	CDS	548223	548507	.	-	0	LSUCC0261_00569	LSUCC0261	94	OG0000800	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	LSUCC0261_00574
+Ga0182791_11	Aragorn:1.2	tRNA	548520	548596	.	-	.	LSUCC0261_00570	LSUCC0261	NA	NA	NA	NA	NA	NA	NA	LSUCC0261_00574
+Ga0182791_11	Prodigal:2.6	CDS	548686	549864	.	+	0	LSUCC0261_00571	LSUCC0261	392	OG0000870	K03313	Na+:H+ antiporter, NhaA family	COG3004	NhaA	Na+/H+ antiporter NhaA	LSUCC0261_00574
+Ga0182791_11	Prodigal:2.6	CDS	549857	550411	.	+	0	LSUCC0261_00572	LSUCC0261	184	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	LSUCC0261_00574
+Ga0182791_11	Aragorn:1.2	tRNA	550414	550488	.	-	.	LSUCC0261_00573	LSUCC0261	NA	NA	NA	NA	NA	NA	NA	LSUCC0261_00574
+Ga0182791_11	Prodigal:2.6	CDS	550535	552292	.	-	0	LSUCC0261_00574	LSUCC0261	585	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	LSUCC0261_00574
+Ga0182791_11	Prodigal:2.6	CDS	552289	553230	.	-	0	LSUCC0261_00575	LSUCC0261	313	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	LSUCC0261_00574
+Ga0182791_11	Prodigal:2.6	CDS	553230	554525	.	-	0	LSUCC0261_00576	LSUCC0261	431	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	LSUCC0261_00574
+Ga0182791_11	Prodigal:2.6	CDS	554525	555556	.	-	0	LSUCC0261_00577	LSUCC0261	343	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	LSUCC0261_00574
+Ga0182791_11	Prodigal:2.6	CDS	555622	556032	.	-	0	LSUCC0261_00578	LSUCC0261	136	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	LSUCC0261_00574
+Ga0182791_11	Prodigal:2.6	CDS	556032	556490	.	-	0	LSUCC0261_00579	LSUCC0261	152	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	LSUCC0261_00574
+CP024034.1	Prodigal:2.6	CDS	478152	478607	.	+	0	LSUCC0530_00549	LSUCC0530	151	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	LSUCC0530_00554
+CP024034.1	Prodigal:2.6	CDS	478611	479021	.	+	0	LSUCC0530_00550	LSUCC0530	136	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	LSUCC0530_00554
+CP024034.1	Prodigal:2.6	CDS	479079	480110	.	+	0	LSUCC0530_00551	LSUCC0530	343	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	LSUCC0530_00554
+CP024034.1	Prodigal:2.6	CDS	480110	481417	.	+	0	LSUCC0530_00552	LSUCC0530	435	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	LSUCC0530_00554
+CP024034.1	Prodigal:2.6	CDS	481414	482361	.	+	0	LSUCC0530_00553	LSUCC0530	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	LSUCC0530_00554
+CP024034.1	Prodigal:2.6	CDS	482358	484109	.	+	0	LSUCC0530_00554	LSUCC0530	583	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	LSUCC0530_00554
+CP024034.1	Aragorn:1.2	tRNA	484188	484262	.	+	.	LSUCC0530_00555	LSUCC0530	NA	NA	NA	NA	NA	NA	NA	LSUCC0530_00554
+CP024034.1	Prodigal:2.6	CDS	484272	485105	.	+	0	LSUCC0530_00556	LSUCC0530	277	OG0000348	K18336	2,4-didehydro-3-deoxy-L-rhamnonate hydrolase [EC:3.7.1.26]	COG0179	FAHD1	Oxaloacetate decarboxylase and tautomerase, fumarylacetoacetate (FAA) hydrolase family	LSUCC0530_00554
+CP024034.1	Prodigal:2.6	CDS	485107	485661	.	-	0	LSUCC0530_00557	LSUCC0530	184	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	LSUCC0530_00554
+CP024034.1	Prodigal:2.6	CDS	485665	486057	.	-	0	LSUCC0530_00558	LSUCC0530	130	OG0000846	NA	NA	COG0822	IscU	Fe-S cluster assembly scaffold protein IscU, NifU family	LSUCC0530_00554
+CP024034.1	Aragorn:1.2	tRNA	486186	486262	.	+	.	LSUCC0530_00559	LSUCC0530	NA	NA	NA	NA	NA	NA	NA	LSUCC0530_00554
+OZ247815.1	Prodigal:2.6	CDS	436443	436898	.	+	0	ME-33_00513	ME-33	151	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	ME-33_00518
+OZ247815.1	Prodigal:2.6	CDS	436903	437313	.	+	0	ME-33_00514	ME-33	136	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	ME-33_00518
+OZ247815.1	Prodigal:2.6	CDS	437371	438402	.	+	0	ME-33_00515	ME-33	343	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	ME-33_00518
+OZ247815.1	Prodigal:2.6	CDS	438402	439709	.	+	0	ME-33_00516	ME-33	435	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	ME-33_00518
+OZ247815.1	Prodigal:2.6	CDS	439706	440653	.	+	0	ME-33_00517	ME-33	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	ME-33_00518
+OZ247815.1	Prodigal:2.6	CDS	440650	442401	.	+	0	ME-33_00518	ME-33	583	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	ME-33_00518
+OZ247815.1	Aragorn:1.2	tRNA	442479	442553	.	+	.	ME-33_00519	ME-33	NA	NA	NA	NA	NA	NA	NA	ME-33_00518
+OZ247815.1	Prodigal:2.6	CDS	442562	443395	.	+	0	ME-33_00520	ME-33	277	OG0000348	K18336	2,4-didehydro-3-deoxy-L-rhamnonate hydrolase [EC:3.7.1.26]	COG0179	FAHD1	Oxaloacetate decarboxylase and tautomerase, fumarylacetoacetate (FAA) hydrolase family	ME-33_00518
+OZ247815.1	Prodigal:2.6	CDS	443397	443915	.	-	0	ME-33_00521	ME-33	172	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	ME-33_00518
+OZ247815.1	Prodigal:2.6	CDS	443955	444347	.	-	0	ME-33_00522	ME-33	130	OG0000846	NA	NA	COG0822	IscU	Fe-S cluster assembly scaffold protein IscU, NifU family	ME-33_00518
+OZ247815.1	Aragorn:1.2	tRNA	444476	444552	.	+	.	ME-33_00523	ME-33	NA	NA	NA	NA	NA	NA	NA	ME-33_00518
+OZ247817.1	Prodigal:2.6	CDS	446916	447371	.	+	0	ME-31_00516	ME-31	151	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	ME-31_00521
+OZ247817.1	Prodigal:2.6	CDS	447376	447786	.	+	0	ME-31_00517	ME-31	136	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	ME-31_00521
+OZ247817.1	Prodigal:2.6	CDS	447844	448875	.	+	0	ME-31_00518	ME-31	343	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	ME-31_00521
+OZ247817.1	Prodigal:2.6	CDS	448875	450182	.	+	0	ME-31_00519	ME-31	435	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	ME-31_00521
+OZ247817.1	Prodigal:2.6	CDS	450179	451126	.	+	0	ME-31_00520	ME-31	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	ME-31_00521
+OZ247817.1	Prodigal:2.6	CDS	451123	452874	.	+	0	ME-31_00521	ME-31	583	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	ME-31_00521
+OZ247817.1	Aragorn:1.2	tRNA	452952	453026	.	+	.	ME-31_00522	ME-31	NA	NA	NA	NA	NA	NA	NA	ME-31_00521
+OZ247817.1	Prodigal:2.6	CDS	453035	453868	.	+	0	ME-31_00523	ME-31	277	OG0000348	K18336	2,4-didehydro-3-deoxy-L-rhamnonate hydrolase [EC:3.7.1.26]	COG0179	FAHD1	Oxaloacetate decarboxylase and tautomerase, fumarylacetoacetate (FAA) hydrolase family	ME-31_00521
+OZ247817.1	Prodigal:2.6	CDS	453870	454388	.	-	0	ME-31_00524	ME-31	172	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	ME-31_00521
+OZ247817.1	Prodigal:2.6	CDS	454428	454820	.	-	0	ME-31_00525	ME-31	130	OG0000846	NA	NA	COG0822	IscU	Fe-S cluster assembly scaffold protein IscU, NifU family	ME-31_00521
+OZ247817.1	Aragorn:1.2	tRNA	454949	455025	.	+	.	ME-31_00526	ME-31	NA	NA	NA	NA	NA	NA	NA	ME-31_00521
+OZ249404.1	Prodigal:2.6	CDS	412345	412800	.	+	0	ME-17_00495	ME-17	151	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	ME-17_00500
+OZ249404.1	Prodigal:2.6	CDS	412805	413215	.	+	0	ME-17_00496	ME-17	136	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	ME-17_00500
+OZ249404.1	Prodigal:2.6	CDS	413273	414304	.	+	0	ME-17_00497	ME-17	343	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	ME-17_00500
+OZ249404.1	Prodigal:2.6	CDS	414304	415611	.	+	0	ME-17_00498	ME-17	435	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	ME-17_00500
+OZ249404.1	Prodigal:2.6	CDS	415608	416555	.	+	0	ME-17_00499	ME-17	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	ME-17_00500
+OZ249404.1	Prodigal:2.6	CDS	416552	418303	.	+	0	ME-17_00500	ME-17	583	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	ME-17_00500
+OZ249404.1	Aragorn:1.2	tRNA	418381	418455	.	+	.	ME-17_00501	ME-17	NA	NA	NA	NA	NA	NA	NA	ME-17_00500
+OZ249404.1	Prodigal:2.6	CDS	418464	419297	.	+	0	ME-17_00502	ME-17	277	OG0000348	K18336	2,4-didehydro-3-deoxy-L-rhamnonate hydrolase [EC:3.7.1.26]	COG0179	FAHD1	Oxaloacetate decarboxylase and tautomerase, fumarylacetoacetate (FAA) hydrolase family	ME-17_00500
+OZ249404.1	Prodigal:2.6	CDS	419299	419817	.	-	0	ME-17_00503	ME-17	172	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	ME-17_00500
+OZ249404.1	Prodigal:2.6	CDS	419857	420249	.	-	0	ME-17_00504	ME-17	130	OG0000846	NA	NA	COG0822	IscU	Fe-S cluster assembly scaffold protein IscU, NifU family	ME-17_00500
+OZ249404.1	Aragorn:1.2	tRNA	420378	420454	.	+	.	ME-17_00505	ME-17	NA	NA	NA	NA	NA	NA	NA	ME-17_00500
+OZ247816.1	Prodigal:2.6	CDS	418874	419329	.	+	0	ME-20_00482	ME-20	151	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	ME-20_00487
+OZ247816.1	Prodigal:2.6	CDS	419334	419744	.	+	0	ME-20_00483	ME-20	136	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	ME-20_00487
+OZ247816.1	Prodigal:2.6	CDS	419802	420833	.	+	0	ME-20_00484	ME-20	343	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	ME-20_00487
+OZ247816.1	Prodigal:2.6	CDS	420833	422140	.	+	0	ME-20_00485	ME-20	435	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	ME-20_00487
+OZ247816.1	Prodigal:2.6	CDS	422137	423084	.	+	0	ME-20_00486	ME-20	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	ME-20_00487
+OZ247816.1	Prodigal:2.6	CDS	423081	424832	.	+	0	ME-20_00487	ME-20	583	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	ME-20_00487
+OZ247816.1	Aragorn:1.2	tRNA	424910	424984	.	+	.	ME-20_00488	ME-20	NA	NA	NA	NA	NA	NA	NA	ME-20_00487
+OZ247816.1	Prodigal:2.6	CDS	424993	425826	.	+	0	ME-20_00489	ME-20	277	OG0000348	K18336	2,4-didehydro-3-deoxy-L-rhamnonate hydrolase [EC:3.7.1.26]	COG0179	FAHD1	Oxaloacetate decarboxylase and tautomerase, fumarylacetoacetate (FAA) hydrolase family	ME-20_00487
+OZ247816.1	Prodigal:2.6	CDS	425828	426346	.	-	0	ME-20_00490	ME-20	172	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	ME-20_00487
+OZ247816.1	Prodigal:2.6	CDS	426386	426778	.	-	0	ME-20_00491	ME-20	130	OG0000846	NA	NA	COG0822	IscU	Fe-S cluster assembly scaffold protein IscU, NifU family	ME-20_00487
+OZ247816.1	Aragorn:1.2	tRNA	426907	426983	.	+	.	ME-20_00492	ME-20	NA	NA	NA	NA	NA	NA	NA	ME-20_00487
+OZ247825.1	Prodigal:2.6	CDS	432799	433254	.	+	0	ME-18_00507	ME-18	151	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	ME-18_00512
+OZ247825.1	Prodigal:2.6	CDS	433259	433669	.	+	0	ME-18_00508	ME-18	136	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	ME-18_00512
+OZ247825.1	Prodigal:2.6	CDS	433727	434758	.	+	0	ME-18_00509	ME-18	343	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	ME-18_00512
+OZ247825.1	Prodigal:2.6	CDS	434758	436065	.	+	0	ME-18_00510	ME-18	435	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	ME-18_00512
+OZ247825.1	Prodigal:2.6	CDS	436062	437009	.	+	0	ME-18_00511	ME-18	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	ME-18_00512
+OZ247825.1	Prodigal:2.6	CDS	437006	438757	.	+	0	ME-18_00512	ME-18	583	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	ME-18_00512
+OZ247825.1	Aragorn:1.2	tRNA	438835	438909	.	+	NA	ME-18_00513	ME-18	NA	NA	NA	NA	NA	NA	NA	ME-18_00512
+OZ247825.1	Prodigal:2.6	CDS	438918	439751	.	+	0	ME-18_00514	ME-18	277	OG0000348	K18336	2,4-didehydro-3-deoxy-L-rhamnonate hydrolase [EC:3.7.1.26]	COG0179	FAHD1	Oxaloacetate decarboxylase and tautomerase, fumarylacetoacetate (FAA) hydrolase family	ME-18_00512
+OZ247825.1	Prodigal:2.6	CDS	439753	440307	.	-	0	ME-18_00515	ME-18	184	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	ME-18_00512
+OZ247825.1	Prodigal:2.6	CDS	440311	440703	.	-	0	ME-18_00516	ME-18	130	OG0000846	NA	NA	COG0822	IscU	Fe-S cluster assembly scaffold protein IscU, NifU family	ME-18_00512
+OZ247825.1	Aragorn:1.2	tRNA	440832	440908	.	+	NA	ME-18_00517	ME-18	NA	NA	NA	NA	NA	NA	NA	ME-18_00512
+OZ249405.1	Prodigal:2.6	CDS	427837	428292	.	+	0	MiE-29_00501	MiE-29	151	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	MiE-29_00506
+OZ249405.1	Prodigal:2.6	CDS	428296	428706	.	+	0	MiE-29_00502	MiE-29	136	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	MiE-29_00506
+OZ249405.1	Prodigal:2.6	CDS	428764	429795	.	+	0	MiE-29_00503	MiE-29	343	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	MiE-29_00506
+OZ249405.1	Prodigal:2.6	CDS	429795	431102	.	+	0	MiE-29_00504	MiE-29	435	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	MiE-29_00506
+OZ249405.1	Prodigal:2.6	CDS	431099	432046	.	+	0	MiE-29_00505	MiE-29	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	MiE-29_00506
+OZ249405.1	Prodigal:2.6	CDS	432043	433794	.	+	0	MiE-29_00506	MiE-29	583	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	MiE-29_00506
+OZ249405.1	Aragorn:1.2	tRNA	433872	433946	.	+	NA	MiE-29_00507	MiE-29	NA	NA	NA	NA	NA	NA	NA	MiE-29_00506
+OZ249405.1	Prodigal:2.6	CDS	433955	434788	.	+	0	MiE-29_00508	MiE-29	277	OG0000348	K18336	2,4-didehydro-3-deoxy-L-rhamnonate hydrolase [EC:3.7.1.26]	COG0179	FAHD1	Oxaloacetate decarboxylase and tautomerase, fumarylacetoacetate (FAA) hydrolase family	MiE-29_00506
+OZ249405.1	Prodigal:2.6	CDS	434790	435344	.	-	0	MiE-29_00509	MiE-29	184	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	MiE-29_00506
+OZ249405.1	Prodigal:2.6	CDS	435348	435740	.	-	0	MiE-29_00510	MiE-29	130	OG0000846	NA	NA	COG0822	IscU	Fe-S cluster assembly scaffold protein IscU, NifU family	MiE-29_00506
+OZ249405.1	Aragorn:1.2	tRNA	435869	435945	.	+	NA	MiE-29_00511	MiE-29	NA	NA	NA	NA	NA	NA	NA	MiE-29_00506
+OZ247814.1	Aragorn:1.2	tRNA	1009668	1009744	.	-	.	MKE-138_01110	MKE-138	NA	NA	NA	NA	NA	NA	NA	MKE-138_01115
+OZ247814.1	Prodigal:2.6	CDS	1009873	1010265	.	+	0	MKE-138_01111	MKE-138	130	OG0000846	NA	NA	COG0822	IscU	Fe-S cluster assembly scaffold protein IscU, NifU family	MKE-138_01115
+OZ247814.1	Prodigal:2.6	CDS	1010305	1010823	.	+	0	MKE-138_01112	MKE-138	172	OG0000536	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	MKE-138_01115
+OZ247814.1	Prodigal:2.6	CDS	1010825	1011658	.	-	0	MKE-138_01113	MKE-138	277	OG0000348	K18336	2,4-didehydro-3-deoxy-L-rhamnonate hydrolase [EC:3.7.1.26]	COG0179	FAHD1	Oxaloacetate decarboxylase and tautomerase, fumarylacetoacetate (FAA) hydrolase family	MKE-138_01115
+OZ247814.1	Aragorn:1.2	tRNA	1011667	1011741	.	-	.	MKE-138_01114	MKE-138	NA	NA	NA	NA	NA	NA	NA	MKE-138_01115
+OZ247814.1	Prodigal:2.6	CDS	1011819	1013570	.	-	0	MKE-138_01115	MKE-138	583	OG0001357	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	MKE-138_01115
+OZ247814.1	Prodigal:2.6	CDS	1013567	1014514	.	-	0	MKE-138_01116	MKE-138	315	OG0000618	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	MKE-138_01115
+OZ247814.1	Prodigal:2.6	CDS	1014511	1015818	.	-	0	MKE-138_01117	MKE-138	435	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	MKE-138_01115
+OZ247814.1	Prodigal:2.6	CDS	1015818	1016849	.	-	0	MKE-138_01118	MKE-138	343	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	MKE-138_01115
+OZ247814.1	Prodigal:2.6	CDS	1016907	1017317	.	-	0	MKE-138_01119	MKE-138	136	OG0000479	K02996	small subunit ribosomal protein S9	COG0103	RpsI	Ribosomal protein S9	MKE-138_01115
+OZ247814.1	Prodigal:2.6	CDS	1017321	1017776	.	-	0	MKE-138_01120	MKE-138	151	OG0000480	K02871	large subunit ribosomal protein L13	COG0102	RplM	Ribosomal protein L13	MKE-138_01115

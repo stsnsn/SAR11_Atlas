@@ -1,0 +1,532 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP159811.1	Prodigal:2.6	CDS	741695	743029	.	-	0	Uisw_137_00825	Uisw_137	444	OG0001738	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	Uisw_137_00830
+CP159811.1	Prodigal:2.6	CDS	743064	744203	.	-	0	Uisw_137_00826	Uisw_137	379	OG0001394	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	Uisw_137_00830
+CP159811.1	Prodigal:2.6	CDS	744184	746022	.	-	0	Uisw_137_00827	Uisw_137	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_137_00830
+CP159811.1	Prodigal:2.6	CDS	746024	746173	.	-	0	Uisw_137_00828	Uisw_137	49	OG0001235	NA	NA	NA	NA	NA	Uisw_137_00830
+CP159811.1	Prodigal:2.6	CDS	746241	747152	.	-	0	Uisw_137_00829	Uisw_137	303	OG0001481	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	Uisw_137_00830
+CP159811.1	Prodigal:2.6	CDS	747324	747713	.	-	0	Uisw_137_00830	Uisw_137	129	OG0001218	NA	NA	NA	NA	NA	Uisw_137_00830
+CP159811.1	Prodigal:2.6	CDS	747716	749497	.	-	0	Uisw_137_00831	Uisw_137	593	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	Uisw_137_00830
+CP159811.1	Prodigal:2.6	CDS	749610	749894	.	+	0	Uisw_137_00832	Uisw_137	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	Uisw_137_00830
+CP159811.1	Prodigal:2.6	CDS	749900	751066	.	+	0	Uisw_137_00833	Uisw_137	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	Uisw_137_00830
+CP159811.1	Prodigal:2.6	CDS	751084	752160	.	+	0	Uisw_137_00834	Uisw_137	358	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	Uisw_137_00830
+CP159811.1	Prodigal:2.6	CDS	752193	753206	.	+	0	Uisw_137_00835	Uisw_137	337	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_137_00830
+CP159819.1	Prodigal:2.6	CDS	961004	962104	.	-	0	Uisw_106_01082	Uisw_106	366	OG0000358	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	Uisw_106_01087
+CP159819.1	Prodigal:2.6	CDS	962156	962986	.	+	0	Uisw_106_01083	Uisw_106	276	OG0000339	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	Uisw_106_01087
+CP159819.1	Prodigal:2.6	CDS	962976	964343	.	-	0	Uisw_106_01084	Uisw_106	455	OG0001371	NA	NA	COG1221	PspF	Transcriptional regulators containing sigma54-interacting ATPase domain	Uisw_106_01087
+CP159819.1	Prodigal:2.6	CDS	964373	966211	.	-	0	Uisw_106_01085	Uisw_106	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_106_01087
+CP159819.1	Prodigal:2.6	CDS	966212	966361	.	-	0	Uisw_106_01086	Uisw_106	49	OG0001235	NA	NA	NA	NA	NA	Uisw_106_01087
+CP159819.1	Prodigal:2.6	CDS	966459	966842	.	-	0	Uisw_106_01087	Uisw_106	127	OG0001218	NA	NA	NA	NA	NA	Uisw_106_01087
+CP159819.1	Prodigal:2.6	CDS	966886	967833	.	-	0	Uisw_106_01088	Uisw_106	315	OG0000236	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	Uisw_106_01087
+CP159819.1	Aragorn:1.2	tmRNA	967875	968184	.	+	.	Uisw_106_01089	Uisw_106	NA	NA	NA	NA	NA	NA	NA	Uisw_106_01087
+CP159819.1	Prodigal:2.6	CDS	968154	969164	.	-	0	Uisw_106_01090	Uisw_106	336	OG0002453	NA	NA	NA	NA	NA	Uisw_106_01087
+CP159819.1	Prodigal:2.6	CDS	969194	969373	.	+	0	Uisw_106_01091	Uisw_106	59	NA	NA	NA	NA	NA	NA	Uisw_106_01087
+CP159819.1	Prodigal:2.6	CDS	969389	969760	.	-	0	Uisw_106_01092	Uisw_106	123	OG0000725	NA	NA	COG4696	MazG2	NTP pyrophosphatase, MazG superfamily	Uisw_106_01087
+CP159823.1	Aragorn:1.2	tRNA	766709	766793	.	-	.	Uisw_094_00855	Uisw_094	NA	NA	NA	NA	NA	NA	NA	Uisw_094_00860
+CP159823.1	Prodigal:2.6	CDS	766884	768119	.	-	0	Uisw_094_00856	Uisw_094	411	OG0002523	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	Uisw_094_00860
+CP159823.1	Prodigal:2.6	CDS	768097	769371	.	-	0	Uisw_094_00857	Uisw_094	424	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_094_00860
+CP159823.1	Prodigal:2.6	CDS	769476	769949	.	-	0	Uisw_094_00858	Uisw_094	157	OG0001003	NA	NA	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_094_00860
+CP159823.1	Prodigal:2.6	CDS	769953	770102	.	-	0	Uisw_094_00859	Uisw_094	49	OG0001235	NA	NA	NA	NA	NA	Uisw_094_00860
+CP159823.1	Prodigal:2.6	CDS	770107	770514	.	-	0	Uisw_094_00860	Uisw_094	135	OG0001218	NA	NA	NA	NA	NA	Uisw_094_00860
+CP159823.1	Prodigal:2.6	CDS	770557	770961	.	-	0	Uisw_094_00861	Uisw_094	134	OG0001011	K00682	gamma-glutamylcyclotransferase [EC:4.3.2.9]	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	Uisw_094_00860
+CP159823.1	Prodigal:2.6	CDS	770966	771715	.	-	0	Uisw_094_00862	Uisw_094	249	OG0000785	NA	NA	COG1058	CinA	ADP-ribose pyrophosphatase domain of DNA damage- and competence-inducible protein CinA	Uisw_094_00860
+CP159823.1	Prodigal:2.6	CDS	771737	772435	.	+	0	Uisw_094_00863	Uisw_094	232	OG0000796	K06206	sugar fermentation stimulation protein A	COG1489	SfsA	DNA-binding protein, stimulates sugar fermentation	Uisw_094_00860
+CP159823.1	Prodigal:2.6	CDS	772428	773198	.	+	0	Uisw_094_00864	Uisw_094	256	OG0000699	K01265	methionyl aminopeptidase [EC:3.4.11.18]	COG0024	Map	Methionine aminopeptidase	Uisw_094_00860
+CP159823.1	Prodigal:2.6	CDS	773202	774494	.	+	0	Uisw_094_00865	Uisw_094	430	OG0000779	K01756	adenylosuccinate lyase [EC:4.3.2.2]	COG0015	PurB	Adenylosuccinate lyase	Uisw_094_00860
+CP159812.1	Prodigal:2.6	CDS	464064	465146	.	+	0	Uisw_136_00492	Uisw_136	360	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	Uisw_136_00497
+CP159812.1	Prodigal:2.6	CDS	465148	466227	.	-	0	Uisw_136_00493	Uisw_136	359	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	Uisw_136_00497
+CP159812.1	Prodigal:2.6	CDS	466252	467418	.	-	0	Uisw_136_00494	Uisw_136	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	Uisw_136_00497
+CP159812.1	Prodigal:2.6	CDS	467424	467708	.	-	0	Uisw_136_00495	Uisw_136	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	Uisw_136_00497
+CP159812.1	Prodigal:2.6	CDS	467820	469601	.	+	0	Uisw_136_00496	Uisw_136	593	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	Uisw_136_00497
+CP159812.1	Prodigal:2.6	CDS	469603	469992	.	+	0	Uisw_136_00497	Uisw_136	129	OG0001218	NA	NA	NA	NA	NA	Uisw_136_00497
+CP159812.1	Prodigal:2.6	CDS	469995	470144	.	+	0	Uisw_136_00498	Uisw_136	49	OG0001235	NA	NA	NA	NA	NA	Uisw_136_00497
+CP159812.1	Prodigal:2.6	CDS	470145	471983	.	+	0	Uisw_136_00499	Uisw_136	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_136_00497
+CP159812.1	Prodigal:2.6	CDS	472007	473608	.	+	0	Uisw_136_00500	Uisw_136	533	OG0001593	K03379	cyclohexanone monooxygenase [EC:1.14.13.22]	COG2072	CzcO	Predicted flavoprotein CzcO associated with the cation diffusion facilitator CzcD	Uisw_136_00497
+CP159812.1	Prodigal:2.6	CDS	473673	475013	.	+	0	Uisw_136_00501	Uisw_136	446	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	Uisw_136_00497
+CP159812.1	Prodigal:2.6	CDS	475014	477551	.	-	0	Uisw_136_00502	Uisw_136	845	OG0001096	K01992	ABC-2 type transport system permease protein	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	Uisw_136_00497
+CP159818.1	Prodigal:2.6	CDS	488480	489646	.	-	0	Uisw_114_00572	Uisw_114	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	Uisw_114_00577
+CP159818.1	Prodigal:2.6	CDS	489652	489936	.	-	0	Uisw_114_00573	Uisw_114	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	Uisw_114_00577
+CP159818.1	Prodigal:2.6	CDS	490058	491833	.	+	0	Uisw_114_00574	Uisw_114	591	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	Uisw_114_00577
+CP159818.1	Prodigal:2.6	CDS	491915	492649	.	+	0	Uisw_114_00575	Uisw_114	244	OG0001394	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	Uisw_114_00577
+CP159818.1	Prodigal:2.6	CDS	492618	493034	.	+	0	Uisw_114_00576	Uisw_114	138	OG0001394	NA	NA	NA	NA	NA	Uisw_114_00577
+CP159818.1	Prodigal:2.6	CDS	493074	493457	.	+	0	Uisw_114_00577	Uisw_114	127	OG0001218	NA	NA	NA	NA	NA	Uisw_114_00577
+CP159818.1	Prodigal:2.6	CDS	493460	493609	.	+	0	Uisw_114_00578	Uisw_114	49	OG0001235	NA	NA	NA	NA	NA	Uisw_114_00577
+CP159818.1	Prodigal:2.6	CDS	493610	495448	.	+	0	Uisw_114_00579	Uisw_114	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_114_00577
+CP159818.1	Prodigal:2.6	CDS	495781	496533	.	+	0	Uisw_114_00580	Uisw_114	250	OG0002668	NA	NA	NA	NA	NA	Uisw_114_00577
+CP159818.1	Prodigal:2.6	CDS	496571	497875	.	+	0	Uisw_114_00581	Uisw_114	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	Uisw_114_00577
+CP159818.1	Prodigal:2.6	CDS	497876	500413	.	-	0	Uisw_114_00582	Uisw_114	845	OG0001096	K01992	ABC-2 type transport system permease protein	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	Uisw_114_00577
+CP159814.1	Prodigal:2.6	CDS	726078	727274	.	-	0	Uisw_130_00795	Uisw_130	398	OG0000561	K02358	elongation factor Tu	COG0050	TufA	Translation elongation factor EF-Tu, a GTPase	Uisw_130_00800
+CP159814.1	Aragorn:1.2	tRNA	727321	727394	.	-	.	Uisw_130_00796	Uisw_130	NA	NA	NA	NA	NA	NA	NA	Uisw_130_00800
+CP159814.1	Aragorn:1.2	tRNA	727440	727525	.	-	.	Uisw_130_00797	Uisw_130	NA	NA	NA	NA	NA	NA	NA	Uisw_130_00800
+CP159814.1	Prodigal:2.6	CDS	727657	728400	.	+	0	Uisw_130_00798	Uisw_130	247	OG0000759	NA	NA	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	Uisw_130_00800
+CP159814.1	Aragorn:1.2	tRNA	728434	728509	.	+	.	Uisw_130_00799	Uisw_130	NA	NA	NA	NA	NA	NA	NA	Uisw_130_00800
+CP159814.1	Prodigal:2.6	CDS	728934	729323	.	+	0	Uisw_130_00800	Uisw_130	129	OG0001218	NA	NA	NA	NA	NA	Uisw_130_00800
+CP159814.1	Prodigal:2.6	CDS	729327	729476	.	+	0	Uisw_130_00801	Uisw_130	49	OG0001235	NA	NA	NA	NA	NA	Uisw_130_00800
+CP159814.1	Prodigal:2.6	CDS	729476	731314	.	+	0	Uisw_130_00802	Uisw_130	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_130_00800
+CP159814.1	Prodigal:2.6	CDS	731465	732886	.	-	0	Uisw_130_00803	Uisw_130	473	OG0001371	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	Uisw_130_00800
+CP159814.1	Prodigal:2.6	CDS	733186	733965	.	-	0	Uisw_130_00804	Uisw_130	259	OG0000949	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	Uisw_130_00800
+CP159814.1	Aragorn:1.2	tRNA	733970	734054	.	-	.	Uisw_130_00805	Uisw_130	NA	NA	NA	NA	NA	NA	NA	Uisw_130_00800
+CP159824.1	Prodigal:2.6	CDS	439463	440446	.	+	0	Uisw_092_00485	Uisw_092	327	OG0000001	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	Uisw_092_00490
+CP159824.1	Prodigal:2.6	CDS	440461	441537	.	-	0	Uisw_092_00486	Uisw_092	358	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	Uisw_092_00490
+CP159824.1	Prodigal:2.6	CDS	441559	442725	.	-	0	Uisw_092_00487	Uisw_092	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	Uisw_092_00490
+CP159824.1	Prodigal:2.6	CDS	442731	443015	.	-	0	Uisw_092_00488	Uisw_092	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	Uisw_092_00490
+CP159824.1	Prodigal:2.6	CDS	443127	444908	.	+	0	Uisw_092_00489	Uisw_092	593	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	Uisw_092_00490
+CP159824.1	Prodigal:2.6	CDS	444913	445302	.	+	0	Uisw_092_00490	Uisw_092	129	OG0001218	NA	NA	NA	NA	NA	Uisw_092_00490
+CP159824.1	Prodigal:2.6	CDS	445305	445454	.	+	0	Uisw_092_00491	Uisw_092	49	OG0001235	NA	NA	NA	NA	NA	Uisw_092_00490
+CP159824.1	Prodigal:2.6	CDS	445454	447292	.	+	0	Uisw_092_00492	Uisw_092	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_092_00490
+CP159824.1	Prodigal:2.6	CDS	447303	448619	.	-	0	Uisw_092_00493	Uisw_092	438	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	Uisw_092_00490
+CP159824.1	Prodigal:2.6	CDS	448672	449937	.	+	0	Uisw_092_00494	Uisw_092	421	OG0001898	NA	NA	NA	NA	NA	Uisw_092_00490
+CP159824.1	Prodigal:2.6	CDS	450073	451233	.	+	0	Uisw_092_00495	Uisw_092	386	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	Uisw_092_00490
+CP159815.1	Prodigal:2.6	CDS	723863	724528	.	+	0	Uisw_127_00807	Uisw_127	221	OG0000003	K02003	putative ABC transport system ATP-binding protein	COG1136	LolD	ABC-type lipoprotein targeting system ATPase component LolD	Uisw_127_00812
+CP159815.1	Prodigal:2.6	CDS	724512	727049	.	+	0	Uisw_127_00808	Uisw_127	845	OG0001096	K01992	ABC-2 type transport system permease protein	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	Uisw_127_00812
+CP159815.1	Prodigal:2.6	CDS	727050	728354	.	-	0	Uisw_127_00809	Uisw_127	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	Uisw_127_00812
+CP159815.1	Prodigal:2.6	CDS	728364	730202	.	-	0	Uisw_127_00810	Uisw_127	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_127_00812
+CP159815.1	Prodigal:2.6	CDS	730203	730352	.	-	0	Uisw_127_00811	Uisw_127	49	OG0001235	NA	NA	NA	NA	NA	Uisw_127_00812
+CP159815.1	Prodigal:2.6	CDS	730355	730744	.	-	0	Uisw_127_00812	Uisw_127	129	OG0001218	NA	NA	NA	NA	NA	Uisw_127_00812
+CP159815.1	Prodigal:2.6	CDS	730746	732527	.	-	0	Uisw_127_00813	Uisw_127	593	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	Uisw_127_00812
+CP159815.1	Prodigal:2.6	CDS	732640	732924	.	+	0	Uisw_127_00814	Uisw_127	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	Uisw_127_00812
+CP159815.1	Prodigal:2.6	CDS	732930	734096	.	+	0	Uisw_127_00815	Uisw_127	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	Uisw_127_00812
+CP159815.1	Prodigal:2.6	CDS	734123	735202	.	+	0	Uisw_127_00816	Uisw_127	359	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	Uisw_127_00812
+CP159815.1	Prodigal:2.6	CDS	735255	736235	.	+	0	Uisw_127_00817	Uisw_127	326	OG0000001	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	Uisw_127_00812
+CP159822.1	Prodigal:2.6	CDS	383113	383976	.	-	0	Uisw_099_02_00414	Uisw_099_02	287	OG0002019	NA	NA	COG1215	BcsA	Glycosyltransferase, catalytic subunit of cellulose synthase and poly-beta-1,6-N-acetylglucosamine synthase	Uisw_099_02_00419
+CP159822.1	Prodigal:2.6	CDS	384124	386373	.	+	0	Uisw_099_02_00415	Uisw_099_02	749	OG0001077	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_099_02_00419
+CP159822.1	Prodigal:2.6	CDS	386395	387573	.	-	0	Uisw_099_02_00416	Uisw_099_02	392	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	Uisw_099_02_00419
+CP159822.1	Prodigal:2.6	CDS	387567	387851	.	-	0	Uisw_099_02_00417	Uisw_099_02	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	Uisw_099_02_00419
+CP159822.1	Prodigal:2.6	CDS	387972	389744	.	+	0	Uisw_099_02_00418	Uisw_099_02	590	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	Uisw_099_02_00419
+CP159822.1	Prodigal:2.6	CDS	389747	390136	.	+	0	Uisw_099_02_00419	Uisw_099_02	129	OG0001218	NA	NA	NA	NA	NA	Uisw_099_02_00419
+CP159822.1	Prodigal:2.6	CDS	390139	391038	.	+	0	Uisw_099_02_00420	Uisw_099_02	299	OG0001481	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	Uisw_099_02_00419
+CP159822.1	Prodigal:2.6	CDS	391114	391263	.	+	0	Uisw_099_02_00421	Uisw_099_02	49	OG0001235	NA	NA	NA	NA	NA	Uisw_099_02_00419
+CP159822.1	Prodigal:2.6	CDS	391265	393103	.	+	0	Uisw_099_02_00422	Uisw_099_02	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_099_02_00419
+CP159822.1	Prodigal:2.6	CDS	393314	394204	.	+	0	Uisw_099_02_00423	Uisw_099_02	296	OG0001394	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	Uisw_099_02_00419
+CP159822.1	Prodigal:2.6	CDS	394489	396522	.	+	0	Uisw_099_02_00424	Uisw_099_02	677	OG0001795	NA	NA	NA	NA	NA	Uisw_099_02_00419
+NZ_LANA01000001.1	Prodigal:2.6	CDS	701426	703120	.	-	0	HTCC9565_00749	HTCC9565	564	OG0000174	K01262	Xaa-Pro aminopeptidase [EC:3.4.11.9]	COG0006	PepP	Xaa-Pro aminopeptidase	HTCC9565_00754
+NZ_LANA01000001.1	Prodigal:2.6	CDS	703117	705153	.	-	0	HTCC9565_00750	HTCC9565	678	OG0000206	K03657	ATP-dependent DNA helicase UvrD/PcrA [EC:5.6.2.4]	COG0210	UvrD	Superfamily I DNA or RNA helicase	HTCC9565_00754
+NZ_LANA01000001.1	Prodigal:2.6	CDS	705187	706719	.	+	0	HTCC9565_00751	HTCC9565	510	OG0001033	NA	NA	NA	NA	NA	HTCC9565_00754
+NZ_LANA01000001.1	Prodigal:2.6	CDS	706707	708095	.	-	0	HTCC9565_00752	HTCC9565	462	OG0000412	K01679	fumarate hydratase, class II [EC:4.2.1.2]	COG0114	FumC	Fumarate hydratase class II	HTCC9565_00754
+NZ_LANA01000001.1	Prodigal:2.6	CDS	708162	708536	.	+	0	HTCC9565_00753	HTCC9565	124	OG0000725	NA	NA	COG4696	MazG2	NTP pyrophosphatase, MazG superfamily	HTCC9565_00754
+NZ_LANA01000001.1	Prodigal:2.6	CDS	708912	709307	.	+	0	HTCC9565_00754	HTCC9565	131	OG0001218	NA	NA	NA	NA	NA	HTCC9565_00754
+NZ_LANA01000001.1	Prodigal:2.6	CDS	709308	709457	.	+	0	HTCC9565_00755	HTCC9565	49	OG0001235	NA	NA	NA	NA	NA	HTCC9565_00754
+NZ_LANA01000001.1	Prodigal:2.6	CDS	709457	711292	.	+	0	HTCC9565_00756	HTCC9565	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HTCC9565_00754
+NZ_LANA01000001.1	Prodigal:2.6	CDS	711448	712860	.	-	0	HTCC9565_00757	HTCC9565	470	OG0001371	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HTCC9565_00754
+NZ_LANA01000001.1	Aragorn:1.2	tmRNA	712840	713149	.	-	.	HTCC9565_00758	HTCC9565	NA	NA	NA	NA	NA	NA	NA	HTCC9565_00754
+NZ_LANA01000001.1	Prodigal:2.6	CDS	713192	713890	.	+	0	HTCC9565_00759	HTCC9565	232	OG0001691	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HTCC9565_00754
+DS995298.1	Prodigal:2.6	CDS	24359	24751	.	-	0	HTCC7211_00027	HTCC7211	130	OG0001900	NA	NA	NA	NA	NA	HTCC7211_00032
+DS995298.1	Prodigal:2.6	CDS	24748	25545	.	-	0	HTCC7211_00028	HTCC7211	265	OG0001646	NA	NA	NA	NA	NA	HTCC7211_00032
+DS995298.1	Prodigal:2.6	CDS	25538	26473	.	-	0	HTCC7211_00029	HTCC7211	311	OG0000066	NA	NA	COG3958	TktA2	Transketolase, C-terminal subunit	HTCC7211_00032
+DS995298.1	Prodigal:2.6	CDS	26470	27243	.	-	0	HTCC7211_00030	HTCC7211	257	OG0000058	NA	NA	COG3959	TktA1	Transketolase, N-terminal subunit	HTCC7211_00032
+DS995298.1	Prodigal:2.6	CDS	27249	28238	.	-	0	HTCC7211_00031	HTCC7211	329	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC7211_00032
+DS995298.1	Prodigal:2.6	CDS	28418	28807	.	+	0	HTCC7211_00032	HTCC7211	129	OG0001218	NA	NA	NA	NA	NA	HTCC7211_00032
+DS995298.1	Prodigal:2.6	CDS	28810	28959	.	+	0	HTCC7211_00033	HTCC7211	49	OG0001235	NA	NA	NA	NA	NA	HTCC7211_00032
+DS995298.1	Prodigal:2.6	CDS	28959	30797	.	+	0	HTCC7211_00034	HTCC7211	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HTCC7211_00032
+DS995298.1	Prodigal:2.6	CDS	30820	31803	.	-	0	HTCC7211_00035	HTCC7211	327	OG0000001	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC7211_00032
+DS995298.1	Prodigal:2.6	CDS	31958	32194	.	+	0	HTCC7211_00036	HTCC7211	78	OG0001451	NA	NA	NA	NA	NA	HTCC7211_00032
+DS995298.1	Prodigal:2.6	CDS	32300	33736	.	+	0	HTCC7211_00037	HTCC7211	478	OG0000170	NA	NA	COG0318	MenE	O-succinylbenzoic acid-CoA ligase MenE or related acyl-CoA synthetase (AMP-forming)	HTCC7211_00032
+HIMB1564-00000000001	Prodigal:2.6	CDS	482003	482287	.	-	0	HIMB1564_00497	HIMB1564	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1564_00502
+HIMB1564-00000000001	Prodigal:2.6	CDS	482404	484188	.	+	0	HIMB1564_00498	HIMB1564	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB1564_00502
+HIMB1564-00000000001	Prodigal:2.6	CDS	484228	485532	.	+	0	HIMB1564_00499	HIMB1564	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1564_00502
+HIMB1564-00000000001	Prodigal:2.6	CDS	485553	486833	.	+	0	HIMB1564_00500	HIMB1564	426	OG0001826	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	HIMB1564_00502
+HIMB1564-00000000001	Prodigal:2.6	CDS	486835	488103	.	+	0	HIMB1564_00501	HIMB1564	422	OG0000052	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	HIMB1564_00502
+HIMB1564-00000000001	Prodigal:2.6	CDS	488296	488505	.	+	0	HIMB1564_00502	HIMB1564	69	OG0001218	NA	NA	NA	NA	NA	HIMB1564_00502
+HIMB1564-00000000001	Prodigal:2.6	CDS	488514	488654	.	+	0	HIMB1564_00503	HIMB1564	46	OG0001235	NA	NA	NA	NA	NA	HIMB1564_00502
+HIMB1564-00000000001	Prodigal:2.6	CDS	488656	490491	.	+	0	HIMB1564_00504	HIMB1564	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1564_00502
+HIMB1564-00000000001	Aragorn:1.2	tRNA	490537	490612	.	-	.	HIMB1564_00505	HIMB1564	NA	NA	NA	NA	NA	NA	NA	HIMB1564_00502
+HIMB1564-00000000001	Prodigal:2.6	CDS	490641	491387	.	-	0	HIMB1564_00506	HIMB1564	248	OG0000759	K03218	23S rRNA (guanosine2251-2'-O)-methyltransferase [EC:2.1.1.185]	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	HIMB1564_00502
+HIMB1564-00000000001	Aragorn:1.2	tRNA	491521	491606	.	+	.	HIMB1564_00507	HIMB1564	NA	NA	NA	NA	NA	NA	NA	HIMB1564_00502
+HIMB1505-00000000001	Prodigal:2.6	CDS	825596	826669	.	-	0	HIMB1505_00865	HIMB1505	357	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB1505_00870
+HIMB1505-00000000001	Prodigal:2.6	CDS	826689	827855	.	-	0	HIMB1505_00866	HIMB1505	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1505_00870
+HIMB1505-00000000001	Prodigal:2.6	CDS	827862	828146	.	-	0	HIMB1505_00867	HIMB1505	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1505_00870
+HIMB1505-00000000001	Prodigal:2.6	CDS	828270	830054	.	+	0	HIMB1505_00868	HIMB1505	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB1505_00870
+HIMB1505-00000000001	Prodigal:2.6	CDS	830094	831398	.	+	0	HIMB1505_00869	HIMB1505	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1505_00870
+HIMB1505-00000000001	Prodigal:2.6	CDS	831446	831829	.	+	0	HIMB1505_00870	HIMB1505	127	OG0001218	NA	NA	NA	NA	NA	HIMB1505_00870
+HIMB1505-00000000001	Prodigal:2.6	CDS	831981	833816	.	+	0	HIMB1505_00871	HIMB1505	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1505_00870
+HIMB1505-00000000001	Prodigal:2.6	CDS	833824	834846	.	+	0	HIMB1505_00872	HIMB1505	340	OG0001738	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1505_00870
+HIMB1505-00000000001	Prodigal:2.6	CDS	834897	837341	.	+	0	HIMB1505_00873	HIMB1505	814	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1505_00870
+HIMB1505-00000000001	Prodigal:2.6	CDS	837338	838189	.	-	0	HIMB1505_00874	HIMB1505	283	OG0000832	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1505_00870
+HIMB1505-00000000001	Prodigal:2.6	CDS	838294	838500	.	+	0	HIMB1505_00875	HIMB1505	68	OG0001202	NA	NA	NA	NA	NA	HIMB1505_00870
+HIMB1549-00000000001	Prodigal:2.6	CDS	397494	398567	.	-	0	HIMB1549_00417	HIMB1549	357	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB1549_00422
+HIMB1549-00000000001	Prodigal:2.6	CDS	398587	399753	.	-	0	HIMB1549_00418	HIMB1549	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1549_00422
+HIMB1549-00000000001	Prodigal:2.6	CDS	399760	400044	.	-	0	HIMB1549_00419	HIMB1549	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1549_00422
+HIMB1549-00000000001	Prodigal:2.6	CDS	400167	401951	.	+	0	HIMB1549_00420	HIMB1549	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB1549_00422
+HIMB1549-00000000001	Prodigal:2.6	CDS	401991	403295	.	+	0	HIMB1549_00421	HIMB1549	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1549_00422
+HIMB1549-00000000001	Prodigal:2.6	CDS	403343	403726	.	+	0	HIMB1549_00422	HIMB1549	127	OG0001218	NA	NA	NA	NA	NA	HIMB1549_00422
+HIMB1549-00000000001	Prodigal:2.6	CDS	403878	405713	.	+	0	HIMB1549_00423	HIMB1549	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1549_00422
+HIMB1549-00000000001	Prodigal:2.6	CDS	405721	406743	.	+	0	HIMB1549_00424	HIMB1549	340	OG0001738	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1549_00422
+HIMB1549-00000000001	Prodigal:2.6	CDS	406780	407556	.	-	0	HIMB1549_00425	HIMB1549	258	OG0001107	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	HIMB1549_00422
+HIMB1549-00000000001	Prodigal:2.6	CDS	407568	408368	.	-	0	HIMB1549_00426	HIMB1549	266	OG0000473	NA	NA	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	HIMB1549_00422
+HIMB1549-00000000001	Prodigal:2.6	CDS	408353	409111	.	-	0	HIMB1549_00427	HIMB1549	252	OG0000000	K03331	L-xylulose reductase [EC:1.1.1.10]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1549_00422
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	812362	812568	.	-	0	HIMB4_00893	HIMB4	68	OG0001202	NA	NA	NA	NA	NA	HIMB4_00898
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	812673	813524	.	+	0	HIMB4_00894	HIMB4	283	OG0000832	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB4_00898
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	813521	815965	.	-	0	HIMB4_00895	HIMB4	814	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB4_00898
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	816016	817038	.	-	0	HIMB4_00896	HIMB4	340	OG0001738	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB4_00898
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	817046	818881	.	-	0	HIMB4_00897	HIMB4	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB4_00898
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	819033	819416	.	-	0	HIMB4_00898	HIMB4	127	OG0001218	NA	NA	NA	NA	NA	HIMB4_00898
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	819464	820768	.	-	0	HIMB4_00899	HIMB4	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB4_00898
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	820808	822592	.	-	0	HIMB4_00900	HIMB4	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB4_00898
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	822716	823000	.	+	0	HIMB4_00901	HIMB4	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB4_00898
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	823007	824173	.	+	0	HIMB4_00902	HIMB4	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB4_00898
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	824193	825266	.	+	0	HIMB4_00903	HIMB4	357	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB4_00898
+KI421440.1	Prodigal:2.6	CDS	1024412	1025236	.	+	0	HTCC8051_01102	HTCC8051	274	OG0000339	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HTCC8051_01107
+KI421440.1	Prodigal:2.6	CDS	1025256	1027088	.	-	0	HTCC8051_01103	HTCC8051	610	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HTCC8051_01107
+KI421440.1	Prodigal:2.6	CDS	1027148	1028488	.	-	0	HTCC8051_01104	HTCC8051	446	OG0002436	K19294	alginate O-acetyltransferase complex protein AlgI	COG1696	DltB	D-alanyl-lipoteichoic acid acyltransferase DltB, MBOAT superfamily	HTCC8051_01107
+KI421440.1	Prodigal:2.6	CDS	1028488	1029447	.	-	0	HTCC8051_01105	HTCC8051	319	OG0002409	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HTCC8051_01107
+KI421440.1	Prodigal:2.6	CDS	1029482	1029631	.	-	0	HTCC8051_01106	HTCC8051	49	OG0001235	NA	NA	NA	NA	NA	HTCC8051_01107
+KI421440.1	Prodigal:2.6	CDS	1029633	1030016	.	-	0	HTCC8051_01107	HTCC8051	127	OG0001218	NA	NA	NA	NA	NA	HTCC8051_01107
+KI421440.1	Prodigal:2.6	CDS	1030136	1031185	.	+	0	HTCC8051_01108	HTCC8051	349	OG0001738	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HTCC8051_01107
+KI421440.1	Prodigal:2.6	CDS	1031182	1032129	.	-	0	HTCC8051_01109	HTCC8051	315	OG0000236	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HTCC8051_01107
+KI421440.1	Aragorn:1.2	tmRNA	1032157	1032464	.	+	NA	HTCC8051_01110	HTCC8051	NA	NA	NA	NA	NA	NA	NA	HTCC8051_01107
+KI421440.1	Prodigal:2.6	CDS	1032451	1035108	.	-	0	HTCC8051_01111	HTCC8051	885	OG0000773	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HTCC8051_01107
+KI421440.1	Prodigal:2.6	CDS	1035105	1037174	.	-	0	HTCC8051_01112	HTCC8051	689	OG0000851	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HTCC8051_01107
+HIMB1456-00000000017	Prodigal:2.6	CDS	130436	131515	.	+	0	HIMB1456_01393	HIMB1456	359	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB1456_01398
+HIMB1456-00000000017	Prodigal:2.6	CDS	131512	132579	.	-	0	HIMB1456_01394	HIMB1456	355	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB1456_01398
+HIMB1456-00000000017	Prodigal:2.6	CDS	132596	133762	.	-	0	HIMB1456_01395	HIMB1456	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1456_01398
+HIMB1456-00000000017	Prodigal:2.6	CDS	133767	134051	.	-	0	HIMB1456_01396	HIMB1456	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1456_01398
+HIMB1456-00000000017	Prodigal:2.6	CDS	134163	135947	.	+	0	HIMB1456_01397	HIMB1456	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB1456_01398
+HIMB1456-00000000017	Prodigal:2.6	CDS	135940	136323	.	+	0	HIMB1456_01398	HIMB1456	127	OG0001218	NA	NA	NA	NA	NA	HIMB1456_01398
+HIMB1456-00000000017	Prodigal:2.6	CDS	136325	136474	.	+	0	HIMB1456_01399	HIMB1456	49	OG0001235	NA	NA	NA	NA	NA	HIMB1456_01398
+HIMB1456-00000000017	Prodigal:2.6	CDS	136476	138311	.	+	0	HIMB1456_01400	HIMB1456	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1456_01398
+HIMB1456-00000000017	Prodigal:2.6	CDS	138322	139626	.	+	0	HIMB1456_01401	HIMB1456	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1456_01398
+HIMB1456-00000000017	Prodigal:2.6	CDS	139623	140423	.	-	0	HIMB1456_01402	HIMB1456	266	OG0000473	NA	NA	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	HIMB1456_01398
+HIMB1456-00000000017	Prodigal:2.6	CDS	140408	141166	.	-	0	HIMB1456_01403	HIMB1456	252	OG0000000	K03331	L-xylulose reductase [EC:1.1.1.10]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1456_01398
+HIMB2201-00000000001	Prodigal:2.6	CDS	235093	236172	.	+	0	HIMB2201_00256	HIMB2201	359	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB2201_00261
+HIMB2201-00000000001	Prodigal:2.6	CDS	236169	237236	.	-	0	HIMB2201_00257	HIMB2201	355	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB2201_00261
+HIMB2201-00000000001	Prodigal:2.6	CDS	237253	238419	.	-	0	HIMB2201_00258	HIMB2201	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB2201_00261
+HIMB2201-00000000001	Prodigal:2.6	CDS	238424	238708	.	-	0	HIMB2201_00259	HIMB2201	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB2201_00261
+HIMB2201-00000000001	Prodigal:2.6	CDS	238820	240604	.	+	0	HIMB2201_00260	HIMB2201	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB2201_00261
+HIMB2201-00000000001	Prodigal:2.6	CDS	240597	240983	.	+	0	HIMB2201_00261	HIMB2201	128	OG0001218	NA	NA	NA	NA	NA	HIMB2201_00261
+HIMB2201-00000000001	Prodigal:2.6	CDS	240986	241135	.	+	0	HIMB2201_00262	HIMB2201	49	OG0001235	NA	NA	NA	NA	NA	HIMB2201_00261
+HIMB2201-00000000001	Prodigal:2.6	CDS	241137	242972	.	+	0	HIMB2201_00263	HIMB2201	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB2201_00261
+HIMB2201-00000000001	Prodigal:2.6	CDS	243089	244081	.	+	0	HIMB2201_00264	HIMB2201	330	OG0002409	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB2201_00261
+HIMB2201-00000000001	Prodigal:2.6	CDS	244089	245393	.	+	0	HIMB2201_00265	HIMB2201	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB2201_00261
+HIMB2201-00000000001	Prodigal:2.6	CDS	245426	246601	.	-	0	HIMB2201_00266	HIMB2201	391	OG0001371	NA	NA	NA	NA	NA	HIMB2201_00261
+HIMB123-00000000005	Prodigal:2.6	CDS	14824	15903	.	+	0	HIMB123_00241	HIMB123	359	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB123_00246
+HIMB123-00000000005	Prodigal:2.6	CDS	15900	16967	.	-	0	HIMB123_00242	HIMB123	355	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB123_00246
+HIMB123-00000000005	Prodigal:2.6	CDS	16984	18150	.	-	0	HIMB123_00243	HIMB123	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB123_00246
+HIMB123-00000000005	Prodigal:2.6	CDS	18155	18439	.	-	0	HIMB123_00244	HIMB123	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB123_00246
+HIMB123-00000000005	Prodigal:2.6	CDS	18551	20335	.	+	0	HIMB123_00245	HIMB123	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB123_00246
+HIMB123-00000000005	Prodigal:2.6	CDS	20328	20711	.	+	0	HIMB123_00246	HIMB123	127	OG0001218	NA	NA	NA	NA	NA	HIMB123_00246
+HIMB123-00000000005	Prodigal:2.6	CDS	20713	20862	.	+	0	HIMB123_00247	HIMB123	49	OG0001235	NA	NA	NA	NA	NA	HIMB123_00246
+HIMB123-00000000005	Prodigal:2.6	CDS	20864	22699	.	+	0	HIMB123_00248	HIMB123	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB123_00246
+HIMB123-00000000005	Prodigal:2.6	CDS	22692	23684	.	+	0	HIMB123_00249	HIMB123	330	OG0002409	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB123_00246
+HIMB123-00000000005	Prodigal:2.6	CDS	23709	24809	.	+	0	HIMB123_00250	HIMB123	366	OG0004027	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB123_00246
+HIMB123-00000000005	Prodigal:2.6	CDS	24821	26125	.	+	0	HIMB123_00251	HIMB123	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB123_00246
+HIMB1413-00000000001	Prodigal:2.6	CDS	337	1167	.	-	0	HIMB1413_00001	HIMB1413	276	OG0001920	NA	NA	NA	NA	NA	HIMB1413_00002
+HIMB1413-00000000001	Prodigal:2.6	CDS	1278	1652	.	+	0	HIMB1413_00002	HIMB1413	124	OG0001218	NA	NA	NA	NA	NA	HIMB1413_00002
+HIMB1413-00000000001	Prodigal:2.6	CDS	1655	1807	.	+	0	HIMB1413_00003	HIMB1413	50	OG0001235	NA	NA	NA	NA	NA	HIMB1413_00002
+HIMB1413-00000000001	Prodigal:2.6	CDS	1808	2710	.	+	0	HIMB1413_00004	HIMB1413	300	OG0001481	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1413_00002
+HIMB1413-00000000001	Prodigal:2.6	CDS	2707	3621	.	+	0	HIMB1413_00005	HIMB1413	304	OG0002400	NA	NA	NA	NA	NA	HIMB1413_00002
+HIMB1413-00000000001	Prodigal:2.6	CDS	3618	5411	.	+	0	HIMB1413_00006	HIMB1413	597	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1413_00002
+HIMB1413-00000000001	Prodigal:2.6	CDS	5437	6540	.	-	0	HIMB1413_00007	HIMB1413	367	OG0002668	NA	NA	NA	NA	NA	HIMB1413_00002
+HIMB2250-00000000001	Prodigal:2.6	CDS	444150	445229	.	+	0	HIMB2250_00463	HIMB2250	359	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB2250_00468
+HIMB2250-00000000001	Prodigal:2.6	CDS	445226	446293	.	-	0	HIMB2250_00464	HIMB2250	355	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB2250_00468
+HIMB2250-00000000001	Prodigal:2.6	CDS	446310	447476	.	-	0	HIMB2250_00465	HIMB2250	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB2250_00468
+HIMB2250-00000000001	Prodigal:2.6	CDS	447481	447765	.	-	0	HIMB2250_00466	HIMB2250	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB2250_00468
+HIMB2250-00000000001	Prodigal:2.6	CDS	447877	449661	.	+	0	HIMB2250_00467	HIMB2250	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB2250_00468
+HIMB2250-00000000001	Prodigal:2.6	CDS	449654	450037	.	+	0	HIMB2250_00468	HIMB2250	127	OG0001218	NA	NA	NA	NA	NA	HIMB2250_00468
+HIMB2250-00000000001	Prodigal:2.6	CDS	450039	450188	.	+	0	HIMB2250_00469	HIMB2250	49	OG0001235	NA	NA	NA	NA	NA	HIMB2250_00468
+HIMB2250-00000000001	Prodigal:2.6	CDS	450190	452025	.	+	0	HIMB2250_00470	HIMB2250	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB2250_00468
+HIMB2250-00000000001	Prodigal:2.6	CDS	452059	453330	.	-	0	HIMB2250_00471	HIMB2250	423	OG0001371	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB2250_00468
+HIMB2250-00000000001	Prodigal:2.6	CDS	453439	454743	.	+	0	HIMB2250_00472	HIMB2250	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB2250_00468
+HIMB2250-00000000001	Prodigal:2.6	CDS	454757	455146	.	-	0	HIMB2250_00473	HIMB2250	129	OG0002480	NA	NA	NA	NA	NA	HIMB2250_00468
+AZAL01000001.1	Prodigal:2.6	CDS	257393	258544	.	+	0	HIMB083_00298	HIMB083	383	OG0000061	NA	NA	COG0006	PepP	Xaa-Pro aminopeptidase	HIMB083_00303
+AZAL01000001.1	Prodigal:2.6	CDS	258561	260270	.	+	0	HIMB083_00299	HIMB083	569	OG0001114	NA	NA	NA	NA	NA	HIMB083_00303
+AZAL01000001.1	Prodigal:2.6	CDS	260286	261590	.	-	0	HIMB083_00300	HIMB083	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB083_00303
+AZAL01000001.1	Prodigal:2.6	CDS	261602	263437	.	-	0	HIMB083_00301	HIMB083	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB083_00303
+AZAL01000001.1	Prodigal:2.6	CDS	263439	263588	.	-	0	HIMB083_00302	HIMB083	49	OG0001235	NA	NA	COG3966	DltD	Poly-D-alanine transfer protein DltD, involved in esterification of teichoic acids	HIMB083_00303
+AZAL01000001.1	Prodigal:2.6	CDS	263590	263982	.	-	0	HIMB083_00303	HIMB083	130	OG0001218	NA	NA	NA	NA	NA	HIMB083_00303
+AZAL01000001.1	Prodigal:2.6	CDS	264075	265211	.	-	0	HIMB083_00304	HIMB083	378	OG0003684	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB083_00303
+AZAL01000001.1	Prodigal:2.6	CDS	265212	266993	.	-	0	HIMB083_00305	HIMB083	593	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB083_00303
+AZAL01000001.1	Prodigal:2.6	CDS	267105	267389	.	+	0	HIMB083_00306	HIMB083	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB083_00303
+AZAL01000001.1	Prodigal:2.6	CDS	267394	268560	.	+	0	HIMB083_00307	HIMB083	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB083_00303
+AZAL01000001.1	Prodigal:2.6	CDS	268577	269644	.	+	0	HIMB083_00308	HIMB083	355	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB083_00303
+HIMB1685-00000000001	Prodigal:2.6	CDS	514320	514790	.	-	0	HIMB1685_00581	HIMB1685	156	OG0001695	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1685_00586
+HIMB1685-00000000001	Prodigal:2.6	CDS	514862	515359	.	-	0	HIMB1685_00582	HIMB1685	165	OG0001681	NA	NA	NA	NA	NA	HIMB1685_00586
+HIMB1685-00000000001	Prodigal:2.6	CDS	515356	515907	.	-	0	HIMB1685_00583	HIMB1685	183	OG0001508	NA	NA	NA	NA	NA	HIMB1685_00586
+HIMB1685-00000000001	Prodigal:2.6	CDS	516301	516813	.	+	0	HIMB1685_00584	HIMB1685	170	OG0001371	NA	NA	NA	NA	NA	HIMB1685_00586
+HIMB1685-00000000001	Prodigal:2.6	CDS	516783	517625	.	+	0	HIMB1685_00585	HIMB1685	280	OG0001371	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1685_00586
+HIMB1685-00000000001	Prodigal:2.6	CDS	517638	518027	.	+	0	HIMB1685_00586	HIMB1685	129	OG0001218	NA	NA	NA	NA	NA	HIMB1685_00586
+HIMB1685-00000000001	Prodigal:2.6	CDS	518180	520015	.	+	0	HIMB1685_00587	HIMB1685	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1685_00586
+HIMB1685-00000000001	Prodigal:2.6	CDS	520033	520260	.	+	0	HIMB1685_00588	HIMB1685	75	OG0001050	NA	NA	NA	NA	NA	HIMB1685_00586
+HIMB1685-00000000001	Prodigal:2.6	CDS	520306	521307	.	+	0	HIMB1685_00589	HIMB1685	333	OG0000746	K01754	threonine dehydratase [EC:4.3.1.19]	COG1171	IlvA	Threonine deaminase	HIMB1685_00586
+HIMB1685-00000000001	Prodigal:2.6	CDS	521297	522292	.	+	0	HIMB1685_00590	HIMB1685	331	OG0003169	NA	NA	COG2423	OCDMu	Ornithine cyclodeaminase/archaeal alanine dehydrogenase, mu-crystallin family	HIMB1685_00586
+HIMB1685-00000000001	Prodigal:2.6	CDS	522289	523659	.	-	0	HIMB1685_00591	HIMB1685	456	OG0000092	K15785	L-2,4-diaminobutyrate transaminase [EC:2.6.1.76]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	HIMB1685_00586
+HIMB1573-00000000001	Prodigal:2.6	CDS	1286819	1287700	.	+	0	HIMB1573_01388	HIMB1573	293	OG0001465	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1573_01393
+HIMB1573-00000000001	Prodigal:2.6	CDS	1287697	1289001	.	-	0	HIMB1573_01389	HIMB1573	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1573_01393
+HIMB1573-00000000001	Prodigal:2.6	CDS	1289053	1290087	.	+	0	HIMB1573_01390	HIMB1573	344	OG0001738	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1573_01393
+HIMB1573-00000000001	Prodigal:2.6	CDS	1290084	1291919	.	-	0	HIMB1573_01391	HIMB1573	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1573_01393
+HIMB1573-00000000001	Prodigal:2.6	CDS	1291921	1292070	.	-	0	HIMB1573_01392	HIMB1573	49	OG0001235	NA	NA	NA	NA	NA	HIMB1573_01393
+HIMB1573-00000000001	Prodigal:2.6	CDS	1292072	1292455	.	-	0	HIMB1573_01393	HIMB1573	127	OG0001218	NA	NA	NA	NA	NA	HIMB1573_01393
+HIMB1573-00000000001	Prodigal:2.6	CDS	1292448	1294232	.	-	0	HIMB1573_01394	HIMB1573	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB1573_01393
+HIMB1573-00000000001	Prodigal:2.6	CDS	1294349	1294633	.	+	0	HIMB1573_01395	HIMB1573	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1573_01393
+HIMB1573-00000000001	Prodigal:2.6	CDS	1294602	1295804	.	+	0	HIMB1573_01396	HIMB1573	400	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1573_01393
+HIMB1573-00000000001	Prodigal:2.6	CDS	1295821	1296894	.	+	0	HIMB1573_01397	HIMB1573	357	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB1573_01393
+HIMB1573-00000000001	Prodigal:2.6	CDS	1296891	1297970	.	-	0	HIMB1573_01398	HIMB1573	359	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB1573_01393
+HIMB1494-00000000001	Prodigal:2.6	CDS	639264	640169	.	+	0	HIMB1494_00664	HIMB1494	301	OG0000900	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1494_00669
+HIMB1494-00000000001	Prodigal:2.6	CDS	640176	641393	.	+	0	HIMB1494_00665	HIMB1494	405	OG0001232	K08688	creatinase [EC:3.5.3.3]	COG0006	PepP	Xaa-Pro aminopeptidase	HIMB1494_00669
+HIMB1494-00000000001	Prodigal:2.6	CDS	641399	642514	.	+	0	HIMB1494_00666	HIMB1494	371	OG0000914	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	HIMB1494_00669
+HIMB1494-00000000001	Prodigal:2.6	CDS	642517	643566	.	+	0	HIMB1494_00667	HIMB1494	349	OG0001223	K01620	threonine aldolase [EC:4.1.2.48]	COG2008	GLY1	Threonine aldolase	HIMB1494_00669
+HIMB1494-00000000001	Prodigal:2.6	CDS	643559	643786	.	-	0	HIMB1494_00668	HIMB1494	75	OG0001050	NA	NA	NA	NA	NA	HIMB1494_00669
+HIMB1494-00000000001	Prodigal:2.6	CDS	643875	644273	.	+	0	HIMB1494_00669	HIMB1494	132	OG0001218	NA	NA	NA	NA	NA	HIMB1494_00669
+HIMB1494-00000000001	Prodigal:2.6	CDS	644286	644435	.	+	0	HIMB1494_00670	HIMB1494	49	OG0001235	NA	NA	NA	NA	NA	HIMB1494_00669
+HIMB1494-00000000001	Prodigal:2.6	CDS	644446	646284	.	+	0	HIMB1494_00671	HIMB1494	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1494_00669
+HIMB1494-00000000001	Prodigal:2.6	CDS	646271	647362	.	+	0	HIMB1494_00672	HIMB1494	363	OG0004006	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1494_00669
+HIMB1494-00000000001	Prodigal:2.6	CDS	647406	647624	.	+	0	HIMB1494_00673	HIMB1494	72	OG0001576	NA	NA	NA	NA	NA	HIMB1494_00669
+HIMB1494-00000000001	Prodigal:2.6	CDS	647614	648735	.	+	0	HIMB1494_00674	HIMB1494	373	OG0001687	NA	NA	COG1887	TagB	CDP-glycerol glycerophosphotransferase, TagB/SpsB family	HIMB1494_00669
+HIMB1495-00000000001	Prodigal:2.6	CDS	615969	616874	.	+	0	HIMB1495_00642	HIMB1495	301	OG0000900	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1495_00647
+HIMB1495-00000000001	Prodigal:2.6	CDS	616881	618098	.	+	0	HIMB1495_00643	HIMB1495	405	OG0001232	K08688	creatinase [EC:3.5.3.3]	COG0006	PepP	Xaa-Pro aminopeptidase	HIMB1495_00647
+HIMB1495-00000000001	Prodigal:2.6	CDS	618104	619219	.	+	0	HIMB1495_00644	HIMB1495	371	OG0000914	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	HIMB1495_00647
+HIMB1495-00000000001	Prodigal:2.6	CDS	619222	620271	.	+	0	HIMB1495_00645	HIMB1495	349	OG0001223	K01620	threonine aldolase [EC:4.1.2.48]	COG2008	GLY1	Threonine aldolase	HIMB1495_00647
+HIMB1495-00000000001	Prodigal:2.6	CDS	620264	620491	.	-	0	HIMB1495_00646	HIMB1495	75	OG0001050	NA	NA	NA	NA	NA	HIMB1495_00647
+HIMB1495-00000000001	Prodigal:2.6	CDS	620580	620978	.	+	0	HIMB1495_00647	HIMB1495	132	OG0001218	NA	NA	NA	NA	NA	HIMB1495_00647
+HIMB1495-00000000001	Prodigal:2.6	CDS	620991	621140	.	+	0	HIMB1495_00648	HIMB1495	49	OG0001235	NA	NA	NA	NA	NA	HIMB1495_00647
+HIMB1495-00000000001	Prodigal:2.6	CDS	621151	622989	.	+	0	HIMB1495_00649	HIMB1495	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1495_00647
+HIMB1495-00000000001	Prodigal:2.6	CDS	622976	624067	.	+	0	HIMB1495_00650	HIMB1495	363	OG0004006	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1495_00647
+HIMB1495-00000000001	Prodigal:2.6	CDS	624111	624329	.	+	0	HIMB1495_00651	HIMB1495	72	OG0001576	NA	NA	NA	NA	NA	HIMB1495_00647
+HIMB1495-00000000001	Prodigal:2.6	CDS	624319	625440	.	+	0	HIMB1495_00652	HIMB1495	373	OG0001687	NA	NA	COG1887	TagB	CDP-glycerol glycerophosphotransferase, TagB/SpsB family	HIMB1495_00647
+HIMB1593-00000000001	Prodigal:2.6	CDS	816042	817121	.	+	0	HIMB1593_00853	HIMB1593	359	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB1593_00858
+HIMB1593-00000000001	Prodigal:2.6	CDS	817118	818191	.	-	0	HIMB1593_00854	HIMB1593	357	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB1593_00858
+HIMB1593-00000000001	Prodigal:2.6	CDS	818208	819410	.	-	0	HIMB1593_00855	HIMB1593	400	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1593_00858
+HIMB1593-00000000001	Prodigal:2.6	CDS	819379	819663	.	-	0	HIMB1593_00856	HIMB1593	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1593_00858
+HIMB1593-00000000001	Prodigal:2.6	CDS	819780	821564	.	+	0	HIMB1593_00857	HIMB1593	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB1593_00858
+HIMB1593-00000000001	Prodigal:2.6	CDS	821557	821940	.	+	0	HIMB1593_00858	HIMB1593	127	OG0001218	NA	NA	NA	NA	NA	HIMB1593_00858
+HIMB1593-00000000001	Prodigal:2.6	CDS	821942	822091	.	+	0	HIMB1593_00859	HIMB1593	49	OG0001235	NA	NA	NA	NA	NA	HIMB1593_00858
+HIMB1593-00000000001	Prodigal:2.6	CDS	822093	823928	.	+	0	HIMB1593_00860	HIMB1593	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1593_00858
+HIMB1593-00000000001	Prodigal:2.6	CDS	823938	825242	.	+	0	HIMB1593_00861	HIMB1593	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1593_00858
+HIMB1593-00000000001	Prodigal:2.6	CDS	825239	826120	.	-	0	HIMB1593_00862	HIMB1593	293	OG0001465	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1593_00858
+HIMB1593-00000000001	Prodigal:2.6	CDS	826179	826955	.	-	0	HIMB1593_00863	HIMB1593	258	OG0001107	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	HIMB1593_00858
+HIMB1507-00000000001	Prodigal:2.6	CDS	1305067	1305843	.	+	0	HIMB1507_01382	HIMB1507	258	OG0001107	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	HIMB1507_01387
+HIMB1507-00000000001	Prodigal:2.6	CDS	1305902	1306783	.	+	0	HIMB1507_01383	HIMB1507	293	OG0001465	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1507_01387
+HIMB1507-00000000001	Prodigal:2.6	CDS	1306780	1308084	.	-	0	HIMB1507_01384	HIMB1507	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1507_01387
+HIMB1507-00000000001	Prodigal:2.6	CDS	1308095	1309930	.	-	0	HIMB1507_01385	HIMB1507	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1507_01387
+HIMB1507-00000000001	Prodigal:2.6	CDS	1309932	1310081	.	-	0	HIMB1507_01386	HIMB1507	49	OG0001235	NA	NA	NA	NA	NA	HIMB1507_01387
+HIMB1507-00000000001	Prodigal:2.6	CDS	1310083	1310466	.	-	0	HIMB1507_01387	HIMB1507	127	OG0001218	NA	NA	NA	NA	NA	HIMB1507_01387
+HIMB1507-00000000001	Prodigal:2.6	CDS	1310459	1312243	.	-	0	HIMB1507_01388	HIMB1507	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB1507_01387
+HIMB1507-00000000001	Prodigal:2.6	CDS	1312360	1312644	.	+	0	HIMB1507_01389	HIMB1507	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1507_01387
+HIMB1507-00000000001	Prodigal:2.6	CDS	1312607	1313815	.	+	0	HIMB1507_01390	HIMB1507	402	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1507_01387
+HIMB1507-00000000001	Prodigal:2.6	CDS	1313832	1314905	.	+	0	HIMB1507_01391	HIMB1507	357	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB1507_01387
+HIMB1507-00000000001	Prodigal:2.6	CDS	1314902	1315981	.	-	0	HIMB1507_01392	HIMB1507	359	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB1507_01387
+HIMB1611-00000000001	Prodigal:2.6	CDS	12952	13062	.	+	0	HIMB1611_00015	HIMB1611	36	OG0001182	NA	NA	NA	NA	NA	HIMB1611_00020
+HIMB1611-00000000001	Prodigal:2.6	CDS	13070	14155	.	+	0	HIMB1611_00016	HIMB1611	361	OG0000337	K00324	H+-translocating NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2 7.1.1.1]	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	HIMB1611_00020
+HIMB1611-00000000001	Prodigal:2.6	CDS	14159	14467	.	+	0	HIMB1611_00017	HIMB1611	102	OG0000430	NA	NA	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	HIMB1611_00020
+HIMB1611-00000000001	Prodigal:2.6	CDS	14470	15867	.	+	0	HIMB1611_00018	HIMB1611	465	OG0000399	K00325	H+-translocating NAD(P) transhydrogenase subunit beta [EC:1.6.1.2 7.1.1.1]	COG1282	PntB	NAD/NADP transhydrogenase beta subunit	HIMB1611_00020
+HIMB1611-00000000001	Prodigal:2.6	CDS	15876	16574	.	+	0	HIMB1611_00019	HIMB1611	232	OG0000195	NA	NA	COG0176	TalA	Transaldolase/fructose-6-phosphate aldolase	HIMB1611_00020
+HIMB1611-00000000001	Prodigal:2.6	CDS	16586	16972	.	+	0	HIMB1611_00020	HIMB1611	128	OG0001218	NA	NA	NA	NA	NA	HIMB1611_00020
+HIMB1611-00000000001	Prodigal:2.6	CDS	16974	17123	.	+	0	HIMB1611_00021	HIMB1611	49	OG0001235	NA	NA	NA	NA	NA	HIMB1611_00020
+HIMB1611-00000000001	Prodigal:2.6	CDS	17125	18960	.	+	0	HIMB1611_00022	HIMB1611	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1611_00020
+HIMB1611-00000000001	Aragorn:1.2	tRNA	18971	19047	.	-	.	HIMB1611_00023	HIMB1611	NA	NA	NA	NA	NA	NA	NA	HIMB1611_00020
+HIMB1611-00000000001	Prodigal:2.6	CDS	19054	19260	.	-	0	HIMB1611_00024	HIMB1611	68	OG0001078	K02970	small subunit ribosomal protein S21	COG0828	RpsU	Ribosomal protein S21	HIMB1611_00020
+HIMB1611-00000000001	Prodigal:2.6	CDS	19312	19893	.	-	0	HIMB1611_00025	HIMB1611	193	OG0000431	K09987	uncharacterized protein	COG3820	TrcR	Cell cycle regulator TrcR, DUF1013 family	HIMB1611_00020
+HIMB1758-00000000001	Prodigal:2.6	CDS	671768	671878	.	+	0	HIMB1758_00688	HIMB1758	36	OG0001182	NA	NA	NA	NA	NA	HIMB1758_00693
+HIMB1758-00000000001	Prodigal:2.6	CDS	671886	672971	.	+	0	HIMB1758_00689	HIMB1758	361	OG0000337	K00324	H+-translocating NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2 7.1.1.1]	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	HIMB1758_00693
+HIMB1758-00000000001	Prodigal:2.6	CDS	672975	673283	.	+	0	HIMB1758_00690	HIMB1758	102	OG0000430	NA	NA	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	HIMB1758_00693
+HIMB1758-00000000001	Prodigal:2.6	CDS	673286	674683	.	+	0	HIMB1758_00691	HIMB1758	465	OG0000399	K00325	H+-translocating NAD(P) transhydrogenase subunit beta [EC:1.6.1.2 7.1.1.1]	COG1282	PntB	NAD/NADP transhydrogenase beta subunit	HIMB1758_00693
+HIMB1758-00000000001	Prodigal:2.6	CDS	674692	675390	.	+	0	HIMB1758_00692	HIMB1758	232	OG0000195	NA	NA	COG0176	TalA	Transaldolase/fructose-6-phosphate aldolase	HIMB1758_00693
+HIMB1758-00000000001	Prodigal:2.6	CDS	675402	675788	.	+	0	HIMB1758_00693	HIMB1758	128	OG0001218	NA	NA	NA	NA	NA	HIMB1758_00693
+HIMB1758-00000000001	Prodigal:2.6	CDS	675790	675939	.	+	0	HIMB1758_00694	HIMB1758	49	OG0001235	NA	NA	NA	NA	NA	HIMB1758_00693
+HIMB1758-00000000001	Prodigal:2.6	CDS	675941	677776	.	+	0	HIMB1758_00695	HIMB1758	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1758_00693
+HIMB1758-00000000001	Aragorn:1.2	tRNA	677787	677863	.	-	.	HIMB1758_00696	HIMB1758	NA	NA	NA	NA	NA	NA	NA	HIMB1758_00693
+HIMB1758-00000000001	Prodigal:2.6	CDS	677870	678076	.	-	0	HIMB1758_00697	HIMB1758	68	OG0001078	K02970	small subunit ribosomal protein S21	COG0828	RpsU	Ribosomal protein S21	HIMB1758_00693
+HIMB1758-00000000001	Prodigal:2.6	CDS	678128	678709	.	-	0	HIMB1758_00698	HIMB1758	193	OG0000431	K09987	uncharacterized protein	COG3820	TrcR	Cell cycle regulator TrcR, DUF1013 family	HIMB1758_00693
+HIMB1488-00000000001	Prodigal:2.6	CDS	1321109	1321870	.	+	0	HIMB1488_01428	HIMB1488	253	OG0000058	K00615	transketolase [EC:2.2.1.1]	COG3959	TktA1	Transketolase, N-terminal subunit	HIMB1488_01433
+HIMB1488-00000000001	Prodigal:2.6	CDS	1321860	1322843	.	+	0	HIMB1488_01429	HIMB1488	327	OG0000066	NA	NA	COG3958	TktA2	Transketolase, C-terminal subunit	HIMB1488_01433
+HIMB1488-00000000001	Prodigal:2.6	CDS	1322836	1323063	.	+	0	HIMB1488_01430	HIMB1488	75	OG0001451	NA	NA	COG0236	AcpP	Acyl carrier protein	HIMB1488_01433
+HIMB1488-00000000001	Prodigal:2.6	CDS	1323064	1323855	.	+	0	HIMB1488_01431	HIMB1488	263	OG0001955	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1488_01433
+HIMB1488-00000000001	Prodigal:2.6	CDS	1323870	1325705	.	-	0	HIMB1488_01432	HIMB1488	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1488_01433
+HIMB1488-00000000001	Prodigal:2.6	CDS	1325867	1326247	.	-	0	HIMB1488_01433	HIMB1488	126	OG0001218	NA	NA	NA	NA	NA	HIMB1488_01433
+HIMB1488-00000000001	Prodigal:2.6	CDS	1326273	1327676	.	-	0	HIMB1488_01434	HIMB1488	467	OG0001498	NA	NA	NA	NA	NA	HIMB1488_01433
+HIMB1488-00000000001	Prodigal:2.6	CDS	1327770	1329119	.	+	0	HIMB1488_01435	HIMB1488	449	OG0001371	NA	NA	NA	NA	NA	HIMB1488_01433
+HIMB1488-00000000001	barrnap:0.9	rRNA	1329151	1331899	0	-	.	HIMB1488_01436	HIMB1488	NA	NA	NA	NA	NA	NA	NA	HIMB1488_01433
+HIMB1488-00000000001	Aragorn:1.2	tRNA	1332033	1332108	.	-	.	HIMB1488_01437	HIMB1488	NA	NA	NA	NA	NA	NA	NA	HIMB1488_01433
+HIMB1488-00000000001	Aragorn:1.2	tRNA	1332121	1332197	.	-	.	HIMB1488_01438	HIMB1488	NA	NA	NA	NA	NA	NA	NA	HIMB1488_01433
+HIMB1506-00000000001	Prodigal:2.6	CDS	640117	641313	.	-	0	HIMB1506_00700	HIMB1506	398	OG0001408	NA	NA	NA	NA	NA	HIMB1506_00705
+HIMB1506-00000000001	Prodigal:2.6	CDS	641331	642638	.	-	0	HIMB1506_00701	HIMB1506	435	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1506_00705
+HIMB1506-00000000001	Prodigal:2.6	CDS	642635	643813	.	-	0	HIMB1506_00702	HIMB1506	392	OG0001371	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1506_00705
+HIMB1506-00000000001	Prodigal:2.6	CDS	643829	645664	.	-	0	HIMB1506_00703	HIMB1506	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1506_00705
+HIMB1506-00000000001	Prodigal:2.6	CDS	645666	645815	.	-	0	HIMB1506_00704	HIMB1506	49	OG0001235	NA	NA	NA	NA	NA	HIMB1506_00705
+HIMB1506-00000000001	Prodigal:2.6	CDS	645817	646200	.	-	0	HIMB1506_00705	HIMB1506	127	OG0001218	NA	NA	NA	NA	NA	HIMB1506_00705
+HIMB1506-00000000001	Prodigal:2.6	CDS	646193	647977	.	-	0	HIMB1506_00706	HIMB1506	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB1506_00705
+HIMB1506-00000000001	Prodigal:2.6	CDS	648094	648378	.	+	0	HIMB1506_00707	HIMB1506	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1506_00705
+HIMB1506-00000000001	Prodigal:2.6	CDS	648347	649549	.	+	0	HIMB1506_00708	HIMB1506	400	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1506_00705
+HIMB1506-00000000001	Prodigal:2.6	CDS	649566	650639	.	+	0	HIMB1506_00709	HIMB1506	357	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB1506_00705
+HIMB1506-00000000001	Prodigal:2.6	CDS	650636	651715	.	-	0	HIMB1506_00710	HIMB1506	359	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB1506_00705
+HIMB2211-00000000001	Prodigal:2.6	CDS	603334	604530	.	-	0	HIMB2211_00658	HIMB2211	398	OG0001408	NA	NA	NA	NA	NA	HIMB2211_00663
+HIMB2211-00000000001	Prodigal:2.6	CDS	604548	605855	.	-	0	HIMB2211_00659	HIMB2211	435	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB2211_00663
+HIMB2211-00000000001	Prodigal:2.6	CDS	605852	607030	.	-	0	HIMB2211_00660	HIMB2211	392	OG0001371	NA	NA	NA	NA	NA	HIMB2211_00663
+HIMB2211-00000000001	Prodigal:2.6	CDS	607445	608554	.	+	0	HIMB2211_00661	HIMB2211	369	OG0001394	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB2211_00663
+HIMB2211-00000000001	Prodigal:2.6	CDS	608569	610407	.	-	0	HIMB2211_00662	HIMB2211	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB2211_00663
+HIMB2211-00000000001	Prodigal:2.6	CDS	610560	610871	.	-	0	HIMB2211_00663	HIMB2211	103	OG0001218	NA	NA	NA	NA	NA	HIMB2211_00663
+HIMB2211-00000000001	Prodigal:2.6	CDS	610951	612732	.	-	0	HIMB2211_00664	HIMB2211	593	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB2211_00663
+HIMB2211-00000000001	Prodigal:2.6	CDS	612849	613133	.	+	0	HIMB2211_00665	HIMB2211	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB2211_00663
+HIMB2211-00000000001	Prodigal:2.6	CDS	613102	614304	.	+	0	HIMB2211_00666	HIMB2211	400	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB2211_00663
+HIMB2211-00000000001	Prodigal:2.6	CDS	614321	615394	.	+	0	HIMB2211_00667	HIMB2211	357	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB2211_00663
+HIMB2211-00000000001	Prodigal:2.6	CDS	615391	616470	.	-	0	HIMB2211_00668	HIMB2211	359	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB2211_00663
+HIMB1577-00000000001	Prodigal:2.6	CDS	482932	483912	.	+	0	HIMB1577_00521	HIMB1577	326	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1577_00526
+HIMB1577-00000000001	Prodigal:2.6	CDS	483909	485210	.	-	0	HIMB1577_00522	HIMB1577	433	OG0000200	NA	NA	COG0019	LysA	Diaminopimelate decarboxylase	HIMB1577_00526
+HIMB1577-00000000001	Prodigal:2.6	CDS	485210	486025	.	-	0	HIMB1577_00523	HIMB1577	271	OG0001829	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1577_00526
+HIMB1577-00000000001	Prodigal:2.6	CDS	486566	487672	.	-	0	HIMB1577_00524	HIMB1577	368	OG0003296	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1577_00526
+HIMB1577-00000000001	Prodigal:2.6	CDS	487714	487863	.	-	0	HIMB1577_00525	HIMB1577	49	OG0001235	NA	NA	NA	NA	NA	HIMB1577_00526
+HIMB1577-00000000001	Prodigal:2.6	CDS	487863	488234	.	-	0	HIMB1577_00526	HIMB1577	123	OG0001218	NA	NA	COG1030	NfeD	Membrane-bound serine protease NfeD, ClpP class	HIMB1577_00526
+HIMB1577-00000000001	Prodigal:2.6	CDS	488237	490072	.	-	0	HIMB1577_00527	HIMB1577	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1577_00526
+HIMB1577-00000000001	barrnap:0.9	rRNA	490279	493027	0	-	.	HIMB1577_00528	HIMB1577	NA	NA	NA	NA	NA	NA	NA	HIMB1577_00526
+HIMB1577-00000000001	Aragorn:1.2	tRNA	493160	493235	.	-	.	HIMB1577_00529	HIMB1577	NA	NA	NA	NA	NA	NA	NA	HIMB1577_00526
+HIMB1577-00000000001	Aragorn:1.2	tRNA	493248	493324	.	-	.	HIMB1577_00530	HIMB1577	NA	NA	NA	NA	NA	NA	NA	HIMB1577_00526
+HIMB1577-00000000001	barrnap:0.9	rRNA	493424	494893	0	-	.	HIMB1577_00531	HIMB1577	NA	NA	NA	NA	NA	NA	NA	HIMB1577_00526
+HIMB1631-00000000001	Prodigal:2.6	CDS	812694	813674	.	+	0	HIMB1631_00889	HIMB1631	326	OG0001125	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1631_00894
+HIMB1631-00000000001	Prodigal:2.6	CDS	813671	814972	.	-	0	HIMB1631_00890	HIMB1631	433	OG0000200	NA	NA	COG0019	LysA	Diaminopimelate decarboxylase	HIMB1631_00894
+HIMB1631-00000000001	Prodigal:2.6	CDS	814972	815787	.	-	0	HIMB1631_00891	HIMB1631	271	OG0001829	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1631_00894
+HIMB1631-00000000001	Prodigal:2.6	CDS	816328	817434	.	-	0	HIMB1631_00892	HIMB1631	368	OG0003296	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1631_00894
+HIMB1631-00000000001	Prodigal:2.6	CDS	817476	817625	.	-	0	HIMB1631_00893	HIMB1631	49	OG0001235	NA	NA	NA	NA	NA	HIMB1631_00894
+HIMB1631-00000000001	Prodigal:2.6	CDS	817625	817996	.	-	0	HIMB1631_00894	HIMB1631	123	OG0001218	NA	NA	COG1030	NfeD	Membrane-bound serine protease NfeD, ClpP class	HIMB1631_00894
+HIMB1631-00000000001	Prodigal:2.6	CDS	817999	819834	.	-	0	HIMB1631_00895	HIMB1631	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1631_00894
+HIMB1631-00000000001	barrnap:0.9	rRNA	820041	822789	0	-	.	HIMB1631_00896	HIMB1631	NA	NA	NA	NA	NA	NA	NA	HIMB1631_00894
+HIMB1631-00000000001	Aragorn:1.2	tRNA	822922	822997	.	-	.	HIMB1631_00897	HIMB1631	NA	NA	NA	NA	NA	NA	NA	HIMB1631_00894
+HIMB1631-00000000001	Aragorn:1.2	tRNA	823010	823086	.	-	.	HIMB1631_00898	HIMB1631	NA	NA	NA	NA	NA	NA	NA	HIMB1631_00894
+HIMB1631-00000000001	barrnap:0.9	rRNA	823186	824655	0	-	.	HIMB1631_00899	HIMB1631	NA	NA	NA	NA	NA	NA	NA	HIMB1631_00894
+HIMB1701-00000000001	Prodigal:2.6	CDS	308919	309695	.	+	0	HIMB1701_00358	HIMB1701	258	OG0001107	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	HIMB1701_00363
+HIMB1701-00000000001	Prodigal:2.6	CDS	309754	310635	.	+	0	HIMB1701_00359	HIMB1701	293	OG0001465	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1701_00363
+HIMB1701-00000000001	Prodigal:2.6	CDS	310632	311936	.	-	0	HIMB1701_00360	HIMB1701	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1701_00363
+HIMB1701-00000000001	Prodigal:2.6	CDS	311947	313782	.	-	0	HIMB1701_00361	HIMB1701	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1701_00363
+HIMB1701-00000000001	Prodigal:2.6	CDS	313784	313933	.	-	0	HIMB1701_00362	HIMB1701	49	OG0001235	NA	NA	NA	NA	NA	HIMB1701_00363
+HIMB1701-00000000001	Prodigal:2.6	CDS	313935	314318	.	-	0	HIMB1701_00363	HIMB1701	127	OG0001218	NA	NA	NA	NA	NA	HIMB1701_00363
+HIMB1701-00000000001	Prodigal:2.6	CDS	314311	316095	.	-	0	HIMB1701_00364	HIMB1701	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB1701_00363
+HIMB1701-00000000001	Prodigal:2.6	CDS	316212	316496	.	+	0	HIMB1701_00365	HIMB1701	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1701_00363
+HIMB1701-00000000001	Prodigal:2.6	CDS	316465	317667	.	+	0	HIMB1701_00366	HIMB1701	400	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1701_00363
+HIMB1701-00000000001	Prodigal:2.6	CDS	317684	318757	.	+	0	HIMB1701_00367	HIMB1701	357	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB1701_00363
+HIMB1701-00000000001	Prodigal:2.6	CDS	318754	319833	.	-	0	HIMB1701_00368	HIMB1701	359	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB1701_00363
+HIMB1782-00000000001	Prodigal:2.6	CDS	50552	51682	.	+	0	HIMB1782_00058	HIMB1782	376	OG0001394	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1782_00063
+HIMB1782-00000000001	Prodigal:2.6	CDS	51736	52617	.	+	0	HIMB1782_00059	HIMB1782	293	OG0001465	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1782_00063
+HIMB1782-00000000001	Prodigal:2.6	CDS	52614	53918	.	-	0	HIMB1782_00060	HIMB1782	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1782_00063
+HIMB1782-00000000001	Prodigal:2.6	CDS	53929	55764	.	-	0	HIMB1782_00061	HIMB1782	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1782_00063
+HIMB1782-00000000001	Prodigal:2.6	CDS	55766	55915	.	-	0	HIMB1782_00062	HIMB1782	49	OG0001235	NA	NA	NA	NA	NA	HIMB1782_00063
+HIMB1782-00000000001	Prodigal:2.6	CDS	55917	56300	.	-	0	HIMB1782_00063	HIMB1782	127	OG0001218	NA	NA	NA	NA	NA	HIMB1782_00063
+HIMB1782-00000000001	Prodigal:2.6	CDS	56293	58077	.	-	0	HIMB1782_00064	HIMB1782	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB1782_00063
+HIMB1782-00000000001	Prodigal:2.6	CDS	58194	58478	.	+	0	HIMB1782_00065	HIMB1782	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1782_00063
+HIMB1782-00000000001	Prodigal:2.6	CDS	58447	59649	.	+	0	HIMB1782_00066	HIMB1782	400	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1782_00063
+HIMB1782-00000000001	Prodigal:2.6	CDS	59666	60739	.	+	0	HIMB1782_00067	HIMB1782	357	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB1782_00063
+HIMB1782-00000000001	Prodigal:2.6	CDS	60736	61815	.	-	0	HIMB1782_00068	HIMB1782	359	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB1782_00063
+HIMB1623-00000000001	Prodigal:2.6	CDS	90	2342	.	+	0	HIMB1623_00001	HIMB1623	750	OG0002525	NA	NA	COG1368	MdoB	Phosphoglycerol transferase MdoB/OpgB, AlkP superfamily	HIMB1623_00005
+HIMB1623-00000000001	Prodigal:2.6	CDS	2391	3515	.	+	0	HIMB1623_00002	HIMB1623	374	OG0001394	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1623_00005
+HIMB1623-00000000001	Prodigal:2.6	CDS	3525	5360	.	-	0	HIMB1623_00003	HIMB1623	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1623_00005
+HIMB1623-00000000001	Prodigal:2.6	CDS	5361	5510	.	-	0	HIMB1623_00004	HIMB1623	49	OG0001235	NA	NA	NA	NA	NA	HIMB1623_00005
+HIMB1623-00000000001	Prodigal:2.6	CDS	5512	5895	.	-	0	HIMB1623_00005	HIMB1623	127	OG0001218	NA	NA	NA	NA	NA	HIMB1623_00005
+HIMB1623-00000000001	Prodigal:2.6	CDS	5940	7244	.	-	0	HIMB1623_00006	HIMB1623	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1623_00005
+HIMB1623-00000000001	Prodigal:2.6	CDS	7284	9068	.	-	0	HIMB1623_00007	HIMB1623	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB1623_00005
+HIMB1623-00000000001	Prodigal:2.6	CDS	9185	9469	.	+	0	HIMB1623_00008	HIMB1623	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1623_00005
+HIMB1623-00000000001	Prodigal:2.6	CDS	9447	10640	.	+	0	HIMB1623_00009	HIMB1623	397	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1623_00005
+HIMB1623-00000000001	Prodigal:2.6	CDS	10657	11730	.	+	0	HIMB1623_00010	HIMB1623	357	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB1623_00005
+HIMB1709-00000000001	Prodigal:2.6	CDS	312393	313169	.	+	0	HIMB1709_00356	HIMB1709	258	OG0001107	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	HIMB1709_00361
+HIMB1709-00000000001	Prodigal:2.6	CDS	313184	315772	.	+	0	HIMB1709_00357	HIMB1709	862	OG0002525	NA	NA	COG1368	MdoB	Phosphoglycerol transferase MdoB/OpgB, AlkP superfamily	HIMB1709_00361
+HIMB1709-00000000001	Prodigal:2.6	CDS	315821	316945	.	+	0	HIMB1709_00358	HIMB1709	374	OG0001394	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	HIMB1709_00361
+HIMB1709-00000000001	Prodigal:2.6	CDS	316955	318790	.	-	0	HIMB1709_00359	HIMB1709	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1709_00361
+HIMB1709-00000000001	Prodigal:2.6	CDS	318791	318940	.	-	0	HIMB1709_00360	HIMB1709	49	OG0001235	NA	NA	NA	NA	NA	HIMB1709_00361
+HIMB1709-00000000001	Prodigal:2.6	CDS	318942	319325	.	-	0	HIMB1709_00361	HIMB1709	127	OG0001218	NA	NA	NA	NA	NA	HIMB1709_00361
+HIMB1709-00000000001	Prodigal:2.6	CDS	319370	320674	.	-	0	HIMB1709_00362	HIMB1709	434	OG0001195	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1709_00361
+HIMB1709-00000000001	Prodigal:2.6	CDS	320714	322498	.	-	0	HIMB1709_00363	HIMB1709	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB1709_00361
+HIMB1709-00000000001	Prodigal:2.6	CDS	322615	322899	.	+	0	HIMB1709_00364	HIMB1709	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1709_00361
+HIMB1709-00000000001	Prodigal:2.6	CDS	322877	324070	.	+	0	HIMB1709_00365	HIMB1709	397	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB1709_00361
+HIMB1709-00000000001	Prodigal:2.6	CDS	324087	325160	.	+	0	HIMB1709_00366	HIMB1709	357	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB1709_00361
+CP020777.1	Prodigal:2.6	CDS	284603	285976	.	+	0	RS39_00314	RS39	457	OG0002807	NA	NA	NA	NA	NA	RS39_00319
+CP020777.1	Prodigal:2.6	CDS	285985	286908	.	+	0	RS39_00315	RS39	307	OG0001494	NA	NA	NA	NA	NA	RS39_00319
+CP020777.1	Prodigal:2.6	CDS	286901	288061	.	+	0	RS39_00316	RS39	386	OG0001371	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	RS39_00319
+CP020777.1	Prodigal:2.6	CDS	288064	289899	.	-	0	RS39_00317	RS39	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	RS39_00319
+CP020777.1	Prodigal:2.6	CDS	289901	290050	.	-	0	RS39_00318	RS39	49	OG0001235	NA	NA	NA	NA	NA	RS39_00319
+CP020777.1	Prodigal:2.6	CDS	290052	290441	.	-	0	RS39_00319	RS39	129	OG0001218	NA	NA	NA	NA	NA	RS39_00319
+CP020777.1	Prodigal:2.6	CDS	290611	291780	.	+	0	RS39_00320	RS39	389	OG0001687	NA	NA	COG1887	TagB	CDP-glycerol glycerophosphotransferase, TagB/SpsB family	RS39_00319
+CP020777.1	Prodigal:2.6	CDS	291777	292979	.	+	0	RS39_00321	RS39	400	OG0001405	NA	NA	NA	NA	NA	RS39_00319
+CP020777.1	Prodigal:2.6	CDS	292981	294102	.	-	0	RS39_00322	RS39	373	OG0000011	K13010	perosamine synthetase [EC:2.6.1.102]	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	RS39_00319
+CP020777.1	Prodigal:2.6	CDS	294092	294502	.	-	0	RS39_00323	RS39	136	OG0001638	NA	NA	COG0664	Crp	cAMP-binding domain of CRP or a regulatory subunit of cAMP-dependent protein kinases	RS39_00319
+CP020777.1	Prodigal:2.6	CDS	294511	295143	.	-	0	RS39_00324	RS39	210	OG0001338	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	RS39_00319
+HIMB2226-00000000001	Prodigal:2.6	CDS	165747	166616	.	-	0	HIMB2226_00175	HIMB2226	289	OG0000351	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB2226_00180
+HIMB2226-00000000001	Prodigal:2.6	CDS	166618	167733	.	-	0	HIMB2226_00176	HIMB2226	371	OG0000358	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB2226_00180
+HIMB2226-00000000001	Prodigal:2.6	CDS	167785	168612	.	+	0	HIMB2226_00177	HIMB2226	275	OG0000339	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB2226_00180
+HIMB2226-00000000001	Prodigal:2.6	CDS	168604	170439	.	-	0	HIMB2226_00178	HIMB2226	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB2226_00180
+HIMB2226-00000000001	Prodigal:2.6	CDS	170608	172080	.	-	0	HIMB2226_00179	HIMB2226	490	OG0001371	NA	NA	COG1368	MdoB	Phosphoglycerol transferase MdoB/OpgB, AlkP superfamily	HIMB2226_00180
+HIMB2226-00000000001	Prodigal:2.6	CDS	172086	172472	.	-	0	HIMB2226_00180	HIMB2226	128	OG0001218	NA	NA	NA	NA	NA	HIMB2226_00180
+HIMB2226-00000000001	Prodigal:2.6	CDS	172502	173572	.	-	0	HIMB2226_00181	HIMB2226	356	OG0000236	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB2226_00180
+HIMB2226-00000000001	Aragorn:1.2	tmRNA	173476	173786	.	+	.	HIMB2226_00182	HIMB2226	NA	NA	NA	NA	NA	NA	NA	HIMB2226_00180
+HIMB2226-00000000001	Prodigal:2.6	CDS	173834	174745	.	-	0	HIMB2226_00183	HIMB2226	303	OG0002309	NA	NA	NA	NA	NA	HIMB2226_00180
+HIMB2226-00000000001	Prodigal:2.6	CDS	174760	174960	.	-	0	HIMB2226_00184	HIMB2226	66	OG0002723	NA	NA	NA	NA	NA	HIMB2226_00180
+HIMB2226-00000000001	Prodigal:2.6	CDS	175132	175503	.	-	0	HIMB2226_00185	HIMB2226	123	OG0000725	NA	NA	COG4696	MazG2	NTP pyrophosphatase, MazG superfamily	HIMB2226_00180
+HIMB2187-00000000002	Prodigal:2.6	CDS	198924	200018	.	+	0	HIMB2187_01188	HIMB2187	364	OG0000227	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB2187_01193
+HIMB2187-00000000002	Prodigal:2.6	CDS	200011	201078	.	-	0	HIMB2187_01189	HIMB2187	355	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	HIMB2187_01193
+HIMB2187-00000000002	Prodigal:2.6	CDS	201093	202259	.	-	0	HIMB2187_01190	HIMB2187	388	OG0000893	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB2187_01193
+HIMB2187-00000000002	Prodigal:2.6	CDS	202264	202548	.	-	0	HIMB2187_01191	HIMB2187	94	OG0000928	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HIMB2187_01193
+HIMB2187-00000000002	Prodigal:2.6	CDS	202665	204449	.	+	0	HIMB2187_01192	HIMB2187	594	OG0000853	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB2187_01193
+HIMB2187-00000000002	Prodigal:2.6	CDS	204442	204825	.	+	0	HIMB2187_01193	HIMB2187	127	OG0001218	NA	NA	NA	NA	NA	HIMB2187_01193
+HIMB2187-00000000002	Prodigal:2.6	CDS	204827	204976	.	+	0	HIMB2187_01194	HIMB2187	49	OG0001235	NA	NA	NA	NA	NA	HIMB2187_01193
+HIMB2187-00000000002	Prodigal:2.6	CDS	204978	206813	.	+	0	HIMB2187_01195	HIMB2187	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB2187_01193
+HIMB2187-00000000002	Prodigal:2.6	CDS	206818	207846	.	+	0	HIMB2187_01196	HIMB2187	342	OG0001738	NA	NA	NA	NA	NA	HIMB2187_01193
+HIMB2187-00000000002	Prodigal:2.6	CDS	207987	208757	.	-	0	HIMB2187_01197	HIMB2187	256	OG0001107	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	HIMB2187_01193
+HIMB2187-00000000002	Prodigal:2.6	CDS	208799	208948	.	-	0	HIMB2187_01198	HIMB2187	49	OG0001467	NA	NA	NA	NA	NA	HIMB2187_01193
+CP020778.1	Prodigal:2.6	CDS	795954	796952	.	+	0	RS40_00856	RS40	332	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	RS40_00861
+CP020778.1	Prodigal:2.6	CDS	796959	797120	.	-	0	RS40_00857	RS40	53	NA	NA	NA	NA	NA	NA	RS40_00861
+CP020778.1	Prodigal:2.6	CDS	797146	797766	.	+	0	RS40_00858	RS40	206	OG0001130	NA	NA	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	RS40_00861
+CP020778.1	Prodigal:2.6	CDS	797997	799832	.	-	0	RS40_00859	RS40	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	RS40_00861
+CP020778.1	Prodigal:2.6	CDS	799833	799982	.	-	0	RS40_00860	RS40	49	OG0001235	NA	NA	COG3944	YveK	Capsular polysaccharide biosynthesis protein YveK	RS40_00861
+CP020778.1	Prodigal:2.6	CDS	799984	800367	.	-	0	RS40_00861	RS40	127	OG0001218	NA	NA	NA	NA	NA	RS40_00861
+CP020778.1	Prodigal:2.6	CDS	800520	801962	.	+	0	RS40_00862	RS40	480	OG0003257	NA	NA	NA	NA	NA	RS40_00861
+CP020778.1	Prodigal:2.6	CDS	801959	803698	.	+	0	RS40_00863	RS40	579	OG0000003	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG2274	SunT	ABC-type bacteriocin/lantibiotic exporters, contain an N-terminal double-glycine peptidase domain	RS40_00861
+CP020778.1	Prodigal:2.6	CDS	803700	804734	.	+	0	RS40_00864	RS40	344	OG0003435	NA	NA	COG0057	GapA	Glyceraldehyde-3-phosphate dehydrogenase/erythrose-4-phosphate dehydrogenase	RS40_00861
+CP020778.1	Prodigal:2.6	CDS	804721	805245	.	+	0	RS40_00865	RS40	174	OG0003692	NA	NA	COG2074	Pgk2	2-phosphoglycerate kinase/Mevalonate-3-phosphate 5-kinase	RS40_00861
+CP020778.1	Prodigal:2.6	CDS	805248	806192	.	+	0	RS40_00866	RS40	314	OG0003255	NA	NA	COG0059	IlvC	Ketol-acid reductoisomerase	RS40_00861
+ADAC02000001.1	Prodigal:2.6	CDS	779256	780320	.	-	0	HIMB114_00843	HIMB114	354	OG0001229	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB114_00848
+ADAC02000001.1	Prodigal:2.6	CDS	780317	780688	.	-	0	HIMB114_00844	HIMB114	123	OG0000725	NA	NA	COG4696	MazG2	NTP pyrophosphatase, MazG superfamily	HIMB114_00848
+ADAC02000001.1	Prodigal:2.6	CDS	780710	781399	.	+	0	HIMB114_00845	HIMB114	229	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB114_00848
+ADAC02000001.1	Prodigal:2.6	CDS	781396	783231	.	-	0	HIMB114_00846	HIMB114	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB114_00848
+ADAC02000001.1	Prodigal:2.6	CDS	783244	783396	.	-	0	HIMB114_00847	HIMB114	50	OG0001235	NA	NA	NA	NA	NA	HIMB114_00848
+ADAC02000001.1	Prodigal:2.6	CDS	783400	783783	.	-	0	HIMB114_00848	HIMB114	127	OG0001218	NA	NA	NA	NA	NA	HIMB114_00848
+ADAC02000001.1	Prodigal:2.6	CDS	783807	784064	.	+	0	HIMB114_00849	HIMB114	85	OG0000671	K03676	glutaredoxin 3	COG0695	GrxC	Glutaredoxin	HIMB114_00848
+ADAC02000001.1	Prodigal:2.6	CDS	784064	784777	.	+	0	HIMB114_00850	HIMB114	237	OG0000762	K06196	cytochrome c-type biogenesis protein	COG0785	CcdA	Cytochrome c biogenesis protein CcdA	HIMB114_00848
+ADAC02000001.1	Prodigal:2.6	CDS	784805	785689	.	-	0	HIMB114_00851	HIMB114	294	OG0000037	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB114_00848
+ADAC02000001.1	Prodigal:2.6	CDS	785708	785935	.	-	0	HIMB114_00852	HIMB114	75	OG0001666	NA	NA	NA	NA	NA	HIMB114_00848
+ADAC02000001.1	Prodigal:2.6	CDS	785964	786422	.	-	0	HIMB114_00853	HIMB114	152	OG0001555	NA	NA	COG1664	CcmA	Cytoskeletal protein CcmA, bactofilin family	HIMB114_00848
+HIMB1565-00000000003	Prodigal:2.6	CDS	8279	8506	.	+	0	HIMB1565_01206	HIMB1565	75	OG0001666	NA	NA	NA	NA	NA	HIMB1565_01211
+HIMB1565-00000000003	Prodigal:2.6	CDS	8525	9409	.	+	0	HIMB1565_01207	HIMB1565	294	OG0000037	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1565_01211
+HIMB1565-00000000003	Prodigal:2.6	CDS	9409	10704	.	+	0	HIMB1565_01208	HIMB1565	431	OG0001309	NA	NA	COG4091	NA	Predicted homoserine dehydrogenase, contains C-terminal SAF domain	HIMB1565_01211
+HIMB1565-00000000003	Prodigal:2.6	CDS	10701	11414	.	-	0	HIMB1565_01209	HIMB1565	237	OG0000762	K06196	cytochrome c-type biogenesis protein	COG0785	CcdA	Cytochrome c biogenesis protein CcdA	HIMB1565_01211
+HIMB1565-00000000003	Prodigal:2.6	CDS	11414	11671	.	-	0	HIMB1565_01210	HIMB1565	85	OG0000671	K03676	glutaredoxin 3	COG0695	GrxC	Glutaredoxin	HIMB1565_01211
+HIMB1565-00000000003	Prodigal:2.6	CDS	11695	12078	.	+	0	HIMB1565_01211	HIMB1565	127	OG0001218	NA	NA	NA	NA	NA	HIMB1565_01211
+HIMB1565-00000000003	Prodigal:2.6	CDS	12082	12234	.	+	0	HIMB1565_01212	HIMB1565	50	OG0001235	NA	NA	NA	NA	NA	HIMB1565_01211
+HIMB1565-00000000003	Prodigal:2.6	CDS	12247	14082	.	+	0	HIMB1565_01213	HIMB1565	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1565_01211
+HIMB1565-00000000003	Prodigal:2.6	CDS	14079	14768	.	-	0	HIMB1565_01214	HIMB1565	229	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1565_01211
+HIMB1565-00000000003	Prodigal:2.6	CDS	14790	15161	.	+	0	HIMB1565_01215	HIMB1565	123	OG0000725	NA	NA	COG4696	MazG2	NTP pyrophosphatase, MazG superfamily	HIMB1565_01211
+HIMB1565-00000000003	Prodigal:2.6	CDS	15158	16222	.	+	0	HIMB1565_01216	HIMB1565	354	OG0001229	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB1565_01211
+HIMB1517-00000000018	Prodigal:2.6	CDS	1475	2269	.	-	0	HIMB1517_01344	HIMB1517	264	OG0000008	NA	NA	NA	NA	NA	HIMB1517_01349
+HIMB1517-00000000018	Prodigal:2.6	CDS	2248	3726	.	-	0	HIMB1517_01345	HIMB1517	492	OG0002283	NA	NA	COG1232	HemY	Protoporphyrinogen oxidase HemY/PPOX	HIMB1517_01349
+HIMB1517-00000000018	Prodigal:2.6	CDS	3752	5440	.	+	0	HIMB1517_01346	HIMB1517	562	OG0002483	NA	NA	NA	NA	NA	HIMB1517_01349
+HIMB1517-00000000018	Prodigal:2.6	CDS	5469	7301	.	-	0	HIMB1517_01347	HIMB1517	610	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1517_01349
+HIMB1517-00000000018	Prodigal:2.6	CDS	7301	7453	.	-	0	HIMB1517_01348	HIMB1517	50	OG0001235	NA	NA	NA	NA	NA	HIMB1517_01349
+HIMB1517-00000000018	Prodigal:2.6	CDS	7455	7826	.	-	0	HIMB1517_01349	HIMB1517	123	OG0001218	NA	NA	NA	NA	NA	HIMB1517_01349
+HIMB1517-00000000018	Prodigal:2.6	CDS	7828	8529	.	-	0	HIMB1517_01350	HIMB1517	233	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1517_01349
+HIMB1517-00000000018	Prodigal:2.6	CDS	8530	9123	.	+	0	HIMB1517_01351	HIMB1517	197	OG0001114	NA	NA	NA	NA	NA	HIMB1517_01349
+CP002511.1	Prodigal:2.6	CDS	492002	492682	.	-	0	IMCC9063_00555	IMCC9063	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	IMCC9063_00560
+CP002511.1	Prodigal:2.6	CDS	492835	493497	.	+	0	IMCC9063_00556	IMCC9063	220	OG0000761	NA	NA	NA	NA	NA	IMCC9063_00560
+CP002511.1	Prodigal:2.6	CDS	493490	493684	.	-	0	IMCC9063_00557	IMCC9063	64	OG0001050	NA	NA	NA	NA	NA	IMCC9063_00560
+CP002511.1	Prodigal:2.6	CDS	493865	495703	.	-	0	IMCC9063_00558	IMCC9063	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	IMCC9063_00560
+CP002511.1	Prodigal:2.6	CDS	495704	495853	.	-	0	IMCC9063_00559	IMCC9063	49	OG0001235	NA	NA	NA	NA	NA	IMCC9063_00560
+CP002511.1	Prodigal:2.6	CDS	495856	496245	.	-	0	IMCC9063_00560	IMCC9063	129	OG0001218	NA	NA	NA	NA	NA	IMCC9063_00560
+CP002511.1	Prodigal:2.6	CDS	496346	496687	.	+	0	IMCC9063_00561	IMCC9063	113	OG0000641	NA	NA	COG3011	YuxK	Predicted thiol-disulfide oxidoreductase YuxK, DCC family	IMCC9063_00560
+CP002511.1	Prodigal:2.6	CDS	496743	497840	.	+	0	IMCC9063_00562	IMCC9063	365	OG0002370	NA	NA	NA	NA	NA	IMCC9063_00560
+CP002511.1	Prodigal:2.6	CDS	498057	498263	.	+	0	IMCC9063_00563	IMCC9063	68	OG0000038	K03704	cold shock protein	COG1278	CspC	Cold shock protein, CspA family	IMCC9063_00560
+CP002511.1	Prodigal:2.6	CDS	498588	500399	.	+	0	IMCC9063_00564	IMCC9063	603	OG0000968	K06207	GTP-binding protein	COG1217	TypA	Predicted membrane GTPase TypA/BipA involved in stress response	IMCC9063_00560
+CP002511.1	Prodigal:2.6	CDS	500521	501741	.	-	0	IMCC9063_00565	IMCC9063	406	OG0002247	K00643	5-aminolevulinate synthase [EC:2.3.1.37]	COG0156	BioF	7-keto-8-aminopelargonate synthetase or related enzyme	IMCC9063_00560
+Ga0182791_11	Prodigal:2.6	CDS	655557	657503	.	+	0	LSUCC0261_00699	LSUCC0261	648	OG0000086	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	LSUCC0261_00704
+Ga0182791_11	Aragorn:1.2	tRNA	657504	657589	.	-	.	LSUCC0261_00700	LSUCC0261	NA	NA	NA	NA	NA	NA	NA	LSUCC0261_00704
+Ga0182791_11	Prodigal:2.6	CDS	658458	658844	.	+	0	LSUCC0261_00701	LSUCC0261	128	NA	NA	NA	NA	NA	NA	LSUCC0261_00704
+Ga0182791_11	Prodigal:2.6	CDS	658879	659976	.	-	0	LSUCC0261_00702	LSUCC0261	365	OG0001371	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	LSUCC0261_00704
+Ga0182791_11	Prodigal:2.6	CDS	659990	661828	.	-	0	LSUCC0261_00703	LSUCC0261	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	LSUCC0261_00704
+Ga0182791_11	Prodigal:2.6	CDS	662003	662401	.	-	0	LSUCC0261_00704	LSUCC0261	132	OG0001218	NA	NA	NA	NA	NA	LSUCC0261_00704
+Ga0182791_11	Prodigal:2.6	CDS	662398	662583	.	-	0	LSUCC0261_00705	LSUCC0261	61	OG0003395	K03746	DNA-binding protein H-NS	NA	NA	NA	LSUCC0261_00704
+Ga0182791_11	Prodigal:2.6	CDS	663212	665626	.	-	0	LSUCC0261_00706	LSUCC0261	804	OG0003425	NA	NA	COG4625	NA	Uncharacterized conserved protein, contains a C-terminal beta-barrel porin domain	LSUCC0261_00704
+Ga0182791_11	Prodigal:2.6	CDS	665634	666485	.	-	0	LSUCC0261_00707	LSUCC0261	283	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	LSUCC0261_00704
+Ga0182791_11	Prodigal:2.6	CDS	666490	667224	.	-	0	LSUCC0261_00708	LSUCC0261	244	OG0000785	NA	NA	COG1058	CinA	ADP-ribose pyrophosphatase domain of DNA damage- and competence-inducible protein CinA	LSUCC0261_00704
+Ga0182791_11	Prodigal:2.6	CDS	667226	667921	.	+	0	LSUCC0261_00709	LSUCC0261	231	OG0000796	K06206	sugar fermentation stimulation protein A	COG1489	SfsA	DNA-binding protein, stimulates sugar fermentation	LSUCC0261_00704
+CP024034.1	Prodigal:2.6	CDS	699554	701041	.	-	0	LSUCC0530_00785	LSUCC0530	495	OG0001275	NA	NA	COG0513	SrmB	Superfamily II DNA and RNA helicase	LSUCC0530_00790
+CP024034.1	Prodigal:2.6	CDS	701257	701784	.	+	0	LSUCC0530_00786	LSUCC0530	175	OG0002501	NA	NA	COG2862	YqhA	Uncharacterized membrane protein YqhA related to peroxide resistance, UPF0114 family	LSUCC0530_00790
+CP024034.1	Prodigal:2.6	CDS	701803	702957	.	+	0	LSUCC0530_00787	LSUCC0530	384	OG0001394	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	LSUCC0530_00790
+CP024034.1	Prodigal:2.6	CDS	702958	704793	.	-	0	LSUCC0530_00788	LSUCC0530	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	LSUCC0530_00790
+CP024034.1	Prodigal:2.6	CDS	704801	704953	.	-	0	LSUCC0530_00789	LSUCC0530	50	OG0001235	NA	NA	NA	NA	NA	LSUCC0530_00790
+CP024034.1	Prodigal:2.6	CDS	704953	705342	.	-	0	LSUCC0530_00790	LSUCC0530	129	OG0001218	NA	NA	NA	NA	NA	LSUCC0530_00790
+CP024034.1	Prodigal:2.6	CDS	705458	705811	.	+	0	LSUCC0530_00791	LSUCC0530	117	OG0003028	NA	NA	NA	NA	NA	LSUCC0530_00790
+CP024034.1	Prodigal:2.6	CDS	705808	706266	.	+	0	LSUCC0530_00792	LSUCC0530	152	OG0000105	NA	NA	NA	NA	NA	LSUCC0530_00790
+CP024034.1	Prodigal:2.6	CDS	706372	706491	.	-	0	LSUCC0530_00793	LSUCC0530	39	NA	NA	NA	NA	NA	NA	LSUCC0530_00790
+CP024034.1	Prodigal:2.6	CDS	706488	707696	.	-	0	LSUCC0530_00794	LSUCC0530	402	OG0000472	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	LSUCC0530_00790
+CP024034.1	Prodigal:2.6	CDS	707743	708585	.	+	0	LSUCC0530_00795	LSUCC0530	280	OG0003029	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	LSUCC0530_00790

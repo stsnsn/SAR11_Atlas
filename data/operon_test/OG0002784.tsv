@@ -1,0 +1,23 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP159817.1	Prodigal:2.6	CDS	154297	154860	.	+	0	Uisw_116_00175	Uisw_116	187	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	Uisw_116_00180
+CP159817.1	Prodigal:2.6	CDS	155018	155857	.	+	0	Uisw_116_00176	Uisw_116	279	OG0000053	NA	NA	COG0107	HisF	Imidazole glycerol phosphate synthase subunit HisF	Uisw_116_00180
+CP159817.1	Prodigal:2.6	CDS	155854	156495	.	+	0	Uisw_116_00177	Uisw_116	213	OG0000057	NA	NA	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	Uisw_116_00180
+CP159817.1	Prodigal:2.6	CDS	156485	157711	.	+	0	Uisw_116_00178	Uisw_116	408	OG0001263	NA	NA	NA	NA	NA	Uisw_116_00180
+CP159817.1	Prodigal:2.6	CDS	157695	157847	.	+	0	Uisw_116_00179	Uisw_116	50	NA	NA	NA	NA	NA	NA	Uisw_116_00180
+CP159817.1	Prodigal:2.6	CDS	157873	158859	.	+	0	Uisw_116_00180	Uisw_116	328	OG0002784	NA	NA	NA	NA	NA	Uisw_116_00180
+CP159817.1	Prodigal:2.6	CDS	158860	159993	.	+	0	Uisw_116_00181	Uisw_116	377	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_116_00180
+CP159817.1	Prodigal:2.6	CDS	159996	160829	.	-	0	Uisw_116_00182	Uisw_116	277	OG0001205	NA	NA	NA	NA	NA	Uisw_116_00180
+CP159817.1	Prodigal:2.6	CDS	160829	161338	.	-	0	Uisw_116_00183	Uisw_116	169	OG0001496	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_116_00180
+CP159817.1	Prodigal:2.6	CDS	161458	161946	.	-	0	Uisw_116_00184	Uisw_116	162	OG0001496	NA	NA	NA	NA	NA	Uisw_116_00180
+CP159817.1	Prodigal:2.6	CDS	162125	163609	.	-	0	Uisw_116_00185	Uisw_116	494	OG0001919	NA	NA	COG3119	AslA	Arylsulfatase A or related enzyme, AlkP superfamily	Uisw_116_00180
+CP020777.1	Prodigal:2.6	CDS	1023026	1023751	.	-	0	RS39_01115	RS39	241	OG0000622	K01447	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]	COG3023	AmpD	N-acetyl-anhydromuramyl-L-alanine amidase AmpD	RS39_01120
+CP020777.1	Prodigal:2.6	CDS	1023817	1024605	.	+	0	RS39_01116	RS39	262	OG0000395	K04754	phospholipid-binding lipoprotein MlaA	COG2853	MlaA	Outer membrane channel MlaA of the intermembrane phospholipid transporter MlaABCDEF complex	RS39_01120
+CP020777.1	Prodigal:2.6	CDS	1024618	1025208	.	+	0	RS39_01117	RS39	196	OG0000396	K07323	phospholipid transport system substrate-binding protein	COG2854	MlaC	Periplasmic subunit MlaC of the ABC-type intermembrane phospholipid transporter Mla	RS39_01120
+CP020777.1	Aragorn:1.2	tRNA	1025228	1025304	.	-	.	RS39_01118	RS39	NA	NA	NA	NA	NA	NA	NA	RS39_01120
+CP020777.1	Prodigal:2.6	CDS	1025464	1026204	.	+	0	RS39_01119	RS39	246	OG0001205	NA	NA	NA	NA	NA	RS39_01120
+CP020777.1	Prodigal:2.6	CDS	1026213	1027205	.	+	0	RS39_01120	RS39	330	OG0002784	NA	NA	NA	NA	NA	RS39_01120
+CP020777.1	Aragorn:1.2	tRNA	1027217	1027291	.	-	.	RS39_01121	RS39	NA	NA	NA	NA	NA	NA	NA	RS39_01120
+CP020777.1	Prodigal:2.6	CDS	1027295	1029121	.	-	0	RS39_01122	RS39	608	OG0000804	K03086	RNA polymerase primary sigma factor	COG0568	RpoD	DNA-directed RNA polymerase, sigma subunit (sigma70/sigma32)	RS39_01120
+CP020777.1	Prodigal:2.6	CDS	1029189	1030964	.	-	0	RS39_01123	RS39	591	OG0000264	K02316	DNA primase [EC:2.7.7.101]	COG0358	DnaG	DNA primase (bacterial type)	RS39_01120
+CP020777.1	Prodigal:2.6	CDS	1030964	1031425	.	-	0	RS39_01124	RS39	153	OG0000352	K09117	uncharacterized protein	COG1610	YqeY	Uncharacterized conserved protein YqeY, may have tRNA amino acid amidase activity	RS39_01120
+CP020777.1	Prodigal:2.6	CDS	1031552	1032745	.	+	0	RS39_01125	RS39	397	OG0000163	K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]	COG0505	CarA	Carbamoylphosphate synthase small subunit	RS39_01120

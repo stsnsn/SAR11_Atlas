@@ -1,0 +1,995 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CH724130.1	Aragorn:1.2	tRNA	786049	786125	.	+	NA	HTCC1002_00848	HTCC1002	NA	NA	NA	NA	NA	NA	NA	HTCC1002_00853
+CH724130.1	Prodigal:2.6	CDS	786247	786672	.	+	0	HTCC1002_00849	HTCC1002	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HTCC1002_00853
+CH724130.1	Prodigal:2.6	CDS	786673	788994	.	-	0	HTCC1002_00850	HTCC1002	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HTCC1002_00853
+CH724130.1	Prodigal:2.6	CDS	789071	790075	.	-	0	HTCC1002_00851	HTCC1002	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HTCC1002_00853
+CH724130.1	Prodigal:2.6	CDS	790148	791374	.	-	0	HTCC1002_00852	HTCC1002	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HTCC1002_00853
+CH724130.1	Prodigal:2.6	CDS	791375	793336	.	-	0	HTCC1002_00853	HTCC1002	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HTCC1002_00853
+CH724130.1	Prodigal:2.6	CDS	793511	795991	.	+	0	HTCC1002_00854	HTCC1002	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HTCC1002_00853
+CH724130.1	Prodigal:2.6	CDS	795991	796416	.	+	0	HTCC1002_00855	HTCC1002	141	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HTCC1002_00853
+CH724130.1	Prodigal:2.6	CDS	796413	796739	.	+	0	HTCC1002_00856	HTCC1002	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HTCC1002_00853
+CH724130.1	Prodigal:2.6	CDS	796696	797595	.	+	0	HTCC1002_00857	HTCC1002	299	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HTCC1002_00853
+CH724130.1	Prodigal:2.6	CDS	797951	799657	.	-	0	HTCC1002_00858	HTCC1002	568	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HTCC1002_00853
+CP159811.1	Prodigal:2.6	CDS	9871	11577	.	+	0	Uisw_137_00014	Uisw_137	568	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	Uisw_137_00019
+CP159811.1	Prodigal:2.6	CDS	11933	12820	.	-	0	Uisw_137_00015	Uisw_137	295	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_137_00019
+CP159811.1	Prodigal:2.6	CDS	12777	13103	.	-	0	Uisw_137_00016	Uisw_137	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	Uisw_137_00019
+CP159811.1	Prodigal:2.6	CDS	13100	13525	.	-	0	Uisw_137_00017	Uisw_137	141	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_137_00019
+CP159811.1	Prodigal:2.6	CDS	13525	16005	.	-	0	Uisw_137_00018	Uisw_137	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_137_00019
+CP159811.1	Prodigal:2.6	CDS	16179	18140	.	+	0	Uisw_137_00019	Uisw_137	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_137_00019
+CP159811.1	Prodigal:2.6	CDS	18141	19367	.	+	0	Uisw_137_00020	Uisw_137	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_137_00019
+CP159811.1	Prodigal:2.6	CDS	19440	20444	.	+	0	Uisw_137_00021	Uisw_137	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_137_00019
+CP159811.1	Prodigal:2.6	CDS	20521	20799	.	+	0	Uisw_137_00022	Uisw_137	92	OG0001123	NA	NA	NA	NA	NA	Uisw_137_00019
+CP159811.1	Prodigal:2.6	CDS	20919	22841	.	+	0	Uisw_137_00023	Uisw_137	640	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_137_00019
+CP159811.1	Prodigal:2.6	CDS	22842	23267	.	-	0	Uisw_137_00024	Uisw_137	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	Uisw_137_00019
+CP159821.1	Prodigal:2.6	CDS	9871	11577	.	+	0	Uisw_101_00015	Uisw_101	568	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	Uisw_101_00020
+CP159821.1	Prodigal:2.6	CDS	11933	12829	.	-	0	Uisw_101_00016	Uisw_101	298	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_101_00020
+CP159821.1	Prodigal:2.6	CDS	12771	13097	.	-	0	Uisw_101_00017	Uisw_101	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	Uisw_101_00020
+CP159821.1	Prodigal:2.6	CDS	13094	13528	.	-	0	Uisw_101_00018	Uisw_101	144	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_101_00020
+CP159821.1	Prodigal:2.6	CDS	13528	16008	.	-	0	Uisw_101_00019	Uisw_101	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_101_00020
+CP159821.1	Prodigal:2.6	CDS	16183	18144	.	+	0	Uisw_101_00020	Uisw_101	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_101_00020
+CP159821.1	Prodigal:2.6	CDS	18145	19371	.	+	0	Uisw_101_00021	Uisw_101	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_101_00020
+CP159821.1	Prodigal:2.6	CDS	19444	20448	.	+	0	Uisw_101_00022	Uisw_101	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_101_00020
+CP159821.1	Prodigal:2.6	CDS	20524	22845	.	+	0	Uisw_101_00023	Uisw_101	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_101_00020
+CP159821.1	Prodigal:2.6	CDS	22846	23271	.	-	0	Uisw_101_00024	Uisw_101	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	Uisw_101_00020
+CP159821.1	Aragorn:1.2	tRNA	23393	23469	.	-	.	Uisw_101_00025	Uisw_101	NA	NA	NA	NA	NA	NA	NA	Uisw_101_00020
+CP159820.1	Prodigal:2.6	CDS	9870	11576	.	+	0	Uisw_104_00015	Uisw_104	568	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	Uisw_104_00020
+CP159820.1	Prodigal:2.6	CDS	11932	12813	.	-	0	Uisw_104_00016	Uisw_104	293	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_104_00020
+CP159820.1	Prodigal:2.6	CDS	12770	13096	.	-	0	Uisw_104_00017	Uisw_104	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	Uisw_104_00020
+CP159820.1	Prodigal:2.6	CDS	13093	13527	.	-	0	Uisw_104_00018	Uisw_104	144	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_104_00020
+CP159820.1	Prodigal:2.6	CDS	13527	16007	.	-	0	Uisw_104_00019	Uisw_104	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_104_00020
+CP159820.1	Prodigal:2.6	CDS	16182	18143	.	+	0	Uisw_104_00020	Uisw_104	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_104_00020
+CP159820.1	Prodigal:2.6	CDS	18144	19370	.	+	0	Uisw_104_00021	Uisw_104	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_104_00020
+CP159820.1	Prodigal:2.6	CDS	19443	20447	.	+	0	Uisw_104_00022	Uisw_104	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_104_00020
+CP159820.1	Prodigal:2.6	CDS	20523	22844	.	+	0	Uisw_104_00023	Uisw_104	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_104_00020
+CP159820.1	Prodigal:2.6	CDS	22845	23270	.	-	0	Uisw_104_00024	Uisw_104	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	Uisw_104_00020
+CP159820.1	Aragorn:1.2	tRNA	23392	23468	.	-	.	Uisw_104_00025	Uisw_104	NA	NA	NA	NA	NA	NA	NA	Uisw_104_00020
+CP159819.1	Prodigal:2.6	CDS	9872	11587	.	+	0	Uisw_106_00015	Uisw_106	571	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	Uisw_106_00020
+CP159819.1	Prodigal:2.6	CDS	11933	12814	.	-	0	Uisw_106_00016	Uisw_106	293	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_106_00020
+CP159819.1	Prodigal:2.6	CDS	12771	13097	.	-	0	Uisw_106_00017	Uisw_106	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	Uisw_106_00020
+CP159819.1	Prodigal:2.6	CDS	13094	13528	.	-	0	Uisw_106_00018	Uisw_106	144	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_106_00020
+CP159819.1	Prodigal:2.6	CDS	13528	16008	.	-	0	Uisw_106_00019	Uisw_106	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_106_00020
+CP159819.1	Prodigal:2.6	CDS	16183	18144	.	+	0	Uisw_106_00020	Uisw_106	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_106_00020
+CP159819.1	Prodigal:2.6	CDS	18145	19371	.	+	0	Uisw_106_00021	Uisw_106	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_106_00020
+CP159819.1	Prodigal:2.6	CDS	19444	20448	.	+	0	Uisw_106_00022	Uisw_106	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_106_00020
+CP159819.1	Prodigal:2.6	CDS	20525	22846	.	+	0	Uisw_106_00023	Uisw_106	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_106_00020
+CP159819.1	Prodigal:2.6	CDS	22847	23272	.	-	0	Uisw_106_00024	Uisw_106	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	Uisw_106_00020
+CP159819.1	Aragorn:1.2	tRNA	23394	23470	.	-	.	Uisw_106_00025	Uisw_106	NA	NA	NA	NA	NA	NA	NA	Uisw_106_00020
+CP159823.1	Prodigal:2.6	CDS	9869	11575	.	+	0	Uisw_094_00015	Uisw_094	568	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	Uisw_094_00020
+CP159823.1	Prodigal:2.6	CDS	11931	12275	.	-	0	Uisw_094_00016	Uisw_094	114	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_094_00020
+CP159823.1	Prodigal:2.6	CDS	12900	13103	.	-	0	Uisw_094_00017	Uisw_094	67	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	Uisw_094_00020
+CP159823.1	Prodigal:2.6	CDS	13100	13534	.	-	0	Uisw_094_00018	Uisw_094	144	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_094_00020
+CP159823.1	Prodigal:2.6	CDS	13534	16014	.	-	0	Uisw_094_00019	Uisw_094	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_094_00020
+CP159823.1	Prodigal:2.6	CDS	16189	18150	.	+	0	Uisw_094_00020	Uisw_094	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_094_00020
+CP159823.1	Prodigal:2.6	CDS	18151	19377	.	+	0	Uisw_094_00021	Uisw_094	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_094_00020
+CP159823.1	Prodigal:2.6	CDS	19450	20454	.	+	0	Uisw_094_00022	Uisw_094	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_094_00020
+CP159823.1	Prodigal:2.6	CDS	20531	22852	.	+	0	Uisw_094_00023	Uisw_094	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_094_00020
+CP159823.1	Prodigal:2.6	CDS	22853	23278	.	-	0	Uisw_094_00024	Uisw_094	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	Uisw_094_00020
+CP159823.1	Aragorn:1.2	tRNA	23400	23476	.	-	.	Uisw_094_00025	Uisw_094	NA	NA	NA	NA	NA	NA	NA	Uisw_094_00020
+CP159812.1	Prodigal:2.6	CDS	9873	11579	.	+	0	Uisw_136_00015	Uisw_136	568	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	Uisw_136_00020
+CP159812.1	Prodigal:2.6	CDS	11934	12830	.	-	0	Uisw_136_00016	Uisw_136	298	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_136_00020
+CP159812.1	Prodigal:2.6	CDS	12772	13098	.	-	0	Uisw_136_00017	Uisw_136	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	Uisw_136_00020
+CP159812.1	Prodigal:2.6	CDS	13095	13529	.	-	0	Uisw_136_00018	Uisw_136	144	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_136_00020
+CP159812.1	Prodigal:2.6	CDS	13529	16009	.	-	0	Uisw_136_00019	Uisw_136	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_136_00020
+CP159812.1	Prodigal:2.6	CDS	16184	18145	.	+	0	Uisw_136_00020	Uisw_136	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_136_00020
+CP159812.1	Prodigal:2.6	CDS	18146	19372	.	+	0	Uisw_136_00021	Uisw_136	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_136_00020
+CP159812.1	Prodigal:2.6	CDS	19445	20449	.	+	0	Uisw_136_00022	Uisw_136	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_136_00020
+CP159812.1	Prodigal:2.6	CDS	20525	22846	.	+	0	Uisw_136_00023	Uisw_136	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_136_00020
+CP159812.1	Prodigal:2.6	CDS	22847	23272	.	-	0	Uisw_136_00024	Uisw_136	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	Uisw_136_00020
+CP159812.1	Aragorn:1.2	tRNA	23394	23470	.	-	.	Uisw_136_00025	Uisw_136	NA	NA	NA	NA	NA	NA	NA	Uisw_136_00020
+CP159809.1	Prodigal:2.6	CDS	9872	11578	.	+	0	Uisw_113_00015	Uisw_113	568	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	Uisw_113_00020
+CP159809.1	Prodigal:2.6	CDS	11934	12845	.	-	0	Uisw_113_00016	Uisw_113	303	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_113_00020
+CP159809.1	Prodigal:2.6	CDS	12787	13113	.	-	0	Uisw_113_00017	Uisw_113	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	Uisw_113_00020
+CP159809.1	Prodigal:2.6	CDS	13110	13544	.	-	0	Uisw_113_00018	Uisw_113	144	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_113_00020
+CP159809.1	Prodigal:2.6	CDS	13544	16024	.	-	0	Uisw_113_00019	Uisw_113	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_113_00020
+CP159809.1	Prodigal:2.6	CDS	16199	18160	.	+	0	Uisw_113_00020	Uisw_113	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_113_00020
+CP159809.1	Prodigal:2.6	CDS	18161	19387	.	+	0	Uisw_113_00021	Uisw_113	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_113_00020
+CP159809.1	Prodigal:2.6	CDS	19460	20464	.	+	0	Uisw_113_00022	Uisw_113	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_113_00020
+CP159809.1	Prodigal:2.6	CDS	20541	22862	.	+	0	Uisw_113_00023	Uisw_113	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_113_00020
+CP159809.1	Prodigal:2.6	CDS	22863	23288	.	-	0	Uisw_113_00024	Uisw_113	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	Uisw_113_00020
+CP159809.1	Aragorn:1.2	tRNA	23409	23485	.	-	.	Uisw_113_00025	Uisw_113	NA	NA	NA	NA	NA	NA	NA	Uisw_113_00020
+CP159818.1	Prodigal:2.6	CDS	11931	12086	.	-	0	Uisw_114_00016	Uisw_114	51	OG0000434	NA	NA	NA	NA	NA	Uisw_114_00021
+CP159818.1	Prodigal:2.6	CDS	12049	12813	.	-	0	Uisw_114_00017	Uisw_114	254	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_114_00021
+CP159818.1	Prodigal:2.6	CDS	12770	13096	.	-	0	Uisw_114_00018	Uisw_114	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	Uisw_114_00021
+CP159818.1	Prodigal:2.6	CDS	13093	13527	.	-	0	Uisw_114_00019	Uisw_114	144	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_114_00021
+CP159818.1	Prodigal:2.6	CDS	13527	16007	.	-	0	Uisw_114_00020	Uisw_114	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_114_00021
+CP159818.1	Prodigal:2.6	CDS	16776	18143	.	+	0	Uisw_114_00021	Uisw_114	455	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_114_00021
+CP159818.1	Prodigal:2.6	CDS	18144	19370	.	+	0	Uisw_114_00022	Uisw_114	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_114_00021
+CP159818.1	Prodigal:2.6	CDS	19443	19799	.	+	0	Uisw_114_00023	Uisw_114	118	OG0001120	NA	NA	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_114_00021
+CP159818.1	Prodigal:2.6	CDS	19768	20280	.	+	0	Uisw_114_00024	Uisw_114	170	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_114_00021
+CP159818.1	Prodigal:2.6	CDS	20313	20450	.	+	0	Uisw_114_00025	Uisw_114	45	OG0001120	NA	NA	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_114_00021
+CP159818.1	Prodigal:2.6	CDS	20527	22848	.	+	0	Uisw_114_00026	Uisw_114	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_114_00021
+CP159814.1	Prodigal:2.6	CDS	9872	11575	.	+	0	Uisw_130_00015	Uisw_130	567	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	Uisw_130_00020
+CP159814.1	Prodigal:2.6	CDS	11931	12806	.	-	0	Uisw_130_00016	Uisw_130	291	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_130_00020
+CP159814.1	Prodigal:2.6	CDS	12763	13089	.	-	0	Uisw_130_00017	Uisw_130	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	Uisw_130_00020
+CP159814.1	Prodigal:2.6	CDS	13086	13520	.	-	0	Uisw_130_00018	Uisw_130	144	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_130_00020
+CP159814.1	Prodigal:2.6	CDS	13520	16000	.	-	0	Uisw_130_00019	Uisw_130	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_130_00020
+CP159814.1	Prodigal:2.6	CDS	16175	18136	.	+	0	Uisw_130_00020	Uisw_130	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_130_00020
+CP159814.1	Prodigal:2.6	CDS	18137	19363	.	+	0	Uisw_130_00021	Uisw_130	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_130_00020
+CP159814.1	Prodigal:2.6	CDS	19436	20440	.	+	0	Uisw_130_00022	Uisw_130	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_130_00020
+CP159814.1	Prodigal:2.6	CDS	20517	22838	.	+	0	Uisw_130_00023	Uisw_130	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_130_00020
+CP159814.1	Prodigal:2.6	CDS	22839	23264	.	-	0	Uisw_130_00024	Uisw_130	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	Uisw_130_00020
+CP159814.1	Aragorn:1.2	tRNA	23386	23462	.	-	.	Uisw_130_00025	Uisw_130	NA	NA	NA	NA	NA	NA	NA	Uisw_130_00020
+CP159824.1	Prodigal:2.6	CDS	9867	11570	.	+	0	Uisw_092_00015	Uisw_092	567	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	Uisw_092_00020
+CP159824.1	Prodigal:2.6	CDS	11928	12797	.	-	0	Uisw_092_00016	Uisw_092	289	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_092_00020
+CP159824.1	Prodigal:2.6	CDS	12754	13080	.	-	0	Uisw_092_00017	Uisw_092	108	OG0000490	K05524	ferredoxin	COG4231	IorA	TPP-dependent indolepyruvate ferredoxin oxidoreductase, alpha subunit	Uisw_092_00020
+CP159824.1	Prodigal:2.6	CDS	13077	13511	.	-	0	Uisw_092_00018	Uisw_092	144	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_092_00020
+CP159824.1	Prodigal:2.6	CDS	13511	15991	.	-	0	Uisw_092_00019	Uisw_092	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_092_00020
+CP159824.1	Prodigal:2.6	CDS	16164	18125	.	+	0	Uisw_092_00020	Uisw_092	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_092_00020
+CP159824.1	Prodigal:2.6	CDS	18126	19352	.	+	0	Uisw_092_00021	Uisw_092	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_092_00020
+CP159824.1	Prodigal:2.6	CDS	19425	20429	.	+	0	Uisw_092_00022	Uisw_092	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_092_00020
+CP159824.1	Prodigal:2.6	CDS	20506	22827	.	+	0	Uisw_092_00023	Uisw_092	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_092_00020
+CP159824.1	Prodigal:2.6	CDS	22828	23253	.	-	0	Uisw_092_00024	Uisw_092	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	Uisw_092_00020
+CP159824.1	Aragorn:1.2	tRNA	23375	23451	.	-	.	Uisw_092_00025	Uisw_092	NA	NA	NA	NA	NA	NA	NA	Uisw_092_00020
+CP159810.1	Prodigal:2.6	CDS	11932	12816	.	-	0	Uisw_090_00017	Uisw_090	294	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_090_00022
+CP159810.1	Prodigal:2.6	CDS	12773	13099	.	-	0	Uisw_090_00018	Uisw_090	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	Uisw_090_00022
+CP159810.1	Prodigal:2.6	CDS	13096	13524	.	-	0	Uisw_090_00019	Uisw_090	142	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_090_00022
+CP159810.1	Prodigal:2.6	CDS	13524	14087	.	-	0	Uisw_090_00020	Uisw_090	187	OG0000679	NA	NA	NA	NA	NA	Uisw_090_00022
+CP159810.1	Prodigal:2.6	CDS	14405	16003	.	-	0	Uisw_090_00021	Uisw_090	532	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_090_00022
+CP159810.1	Prodigal:2.6	CDS	16178	18139	.	+	0	Uisw_090_00022	Uisw_090	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_090_00022
+CP159810.1	Prodigal:2.6	CDS	18140	19366	.	+	0	Uisw_090_00023	Uisw_090	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_090_00022
+CP159810.1	Prodigal:2.6	CDS	19439	20443	.	+	0	Uisw_090_00024	Uisw_090	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_090_00022
+CP159810.1	Prodigal:2.6	CDS	20520	22841	.	+	0	Uisw_090_00025	Uisw_090	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_090_00022
+CP159810.1	Prodigal:2.6	CDS	23032	24039	.	+	0	Uisw_090_00026	Uisw_090	335	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_090_00022
+CP159810.1	Prodigal:2.6	CDS	24081	26102	.	+	0	Uisw_090_00027	Uisw_090	673	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_090_00022
+CP159815.1	Prodigal:2.6	CDS	9891	11594	.	+	0	Uisw_127_00015	Uisw_127	567	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	Uisw_127_00020
+CP159815.1	Prodigal:2.6	CDS	11954	12856	.	-	0	Uisw_127_00016	Uisw_127	300	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_127_00020
+CP159815.1	Prodigal:2.6	CDS	12813	13139	.	-	0	Uisw_127_00017	Uisw_127	108	OG0000490	K05524	ferredoxin	COG4231	IorA	TPP-dependent indolepyruvate ferredoxin oxidoreductase, alpha subunit	Uisw_127_00020
+CP159815.1	Prodigal:2.6	CDS	13136	13564	.	-	0	Uisw_127_00018	Uisw_127	142	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_127_00020
+CP159815.1	Prodigal:2.6	CDS	13564	16044	.	-	0	Uisw_127_00019	Uisw_127	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_127_00020
+CP159815.1	Prodigal:2.6	CDS	16218	18179	.	+	0	Uisw_127_00020	Uisw_127	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_127_00020
+CP159815.1	Prodigal:2.6	CDS	18180	19406	.	+	0	Uisw_127_00021	Uisw_127	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_127_00020
+CP159815.1	Prodigal:2.6	CDS	19480	20484	.	+	0	Uisw_127_00022	Uisw_127	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_127_00020
+CP159815.1	Prodigal:2.6	CDS	20561	22882	.	+	0	Uisw_127_00023	Uisw_127	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_127_00020
+CP159815.1	Prodigal:2.6	CDS	22883	23308	.	-	0	Uisw_127_00024	Uisw_127	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	Uisw_127_00020
+CP159815.1	Aragorn:1.2	tRNA	23430	23506	.	-	.	Uisw_127_00025	Uisw_127	NA	NA	NA	NA	NA	NA	NA	Uisw_127_00020
+CP159813.1	Prodigal:2.6	CDS	9871	11574	.	+	0	Uisw_134_02_00015	Uisw_134_02	567	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	Uisw_134_02_00020
+CP159813.1	Prodigal:2.6	CDS	11936	12823	.	-	0	Uisw_134_02_00016	Uisw_134_02	295	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	Uisw_134_02_00020
+CP159813.1	Prodigal:2.6	CDS	12780	13106	.	-	0	Uisw_134_02_00017	Uisw_134_02	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	Uisw_134_02_00020
+CP159813.1	Prodigal:2.6	CDS	13103	13531	.	-	0	Uisw_134_02_00018	Uisw_134_02	142	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	Uisw_134_02_00020
+CP159813.1	Prodigal:2.6	CDS	13531	16011	.	-	0	Uisw_134_02_00019	Uisw_134_02	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	Uisw_134_02_00020
+CP159813.1	Prodigal:2.6	CDS	16185	18146	.	+	0	Uisw_134_02_00020	Uisw_134_02	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	Uisw_134_02_00020
+CP159813.1	Prodigal:2.6	CDS	18147	19373	.	+	0	Uisw_134_02_00021	Uisw_134_02	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	Uisw_134_02_00020
+CP159813.1	Prodigal:2.6	CDS	19446	20450	.	+	0	Uisw_134_02_00022	Uisw_134_02	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	Uisw_134_02_00020
+CP159813.1	Prodigal:2.6	CDS	20585	22906	.	+	0	Uisw_134_02_00023	Uisw_134_02	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	Uisw_134_02_00020
+CP159813.1	Prodigal:2.6	CDS	22907	23332	.	-	0	Uisw_134_02_00024	Uisw_134_02	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	Uisw_134_02_00020
+CP159813.1	Aragorn:1.2	tRNA	23454	23530	.	-	.	Uisw_134_02_00025	Uisw_134_02	NA	NA	NA	NA	NA	NA	NA	Uisw_134_02_00020
+DS995298.1	Aragorn:1.2	tRNA	148389	148465	.	+	.	HTCC7211_00155	HTCC7211	NA	NA	NA	NA	NA	NA	NA	HTCC7211_00160
+DS995298.1	Prodigal:2.6	CDS	148567	148986	.	+	0	HTCC7211_00156	HTCC7211	139	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HTCC7211_00160
+DS995298.1	Prodigal:2.6	CDS	149007	151328	.	-	0	HTCC7211_00157	HTCC7211	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HTCC7211_00160
+DS995298.1	Prodigal:2.6	CDS	151402	152406	.	-	0	HTCC7211_00158	HTCC7211	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HTCC7211_00160
+DS995298.1	Prodigal:2.6	CDS	152481	153707	.	-	0	HTCC7211_00159	HTCC7211	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HTCC7211_00160
+DS995298.1	Prodigal:2.6	CDS	153708	155666	.	-	0	HTCC7211_00160	HTCC7211	652	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HTCC7211_00160
+DS995298.1	Prodigal:2.6	CDS	155836	158316	.	+	0	HTCC7211_00161	HTCC7211	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HTCC7211_00160
+DS995298.1	Prodigal:2.6	CDS	158322	158735	.	+	0	HTCC7211_00162	HTCC7211	137	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HTCC7211_00160
+DS995298.1	Prodigal:2.6	CDS	158736	159062	.	+	0	HTCC7211_00163	HTCC7211	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HTCC7211_00160
+DS995298.1	Prodigal:2.6	CDS	159004	159921	.	+	0	HTCC7211_00164	HTCC7211	305	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HTCC7211_00160
+DS995298.1	Prodigal:2.6	CDS	159982	160089	.	-	0	HTCC7211_00165	HTCC7211	35	NA	NA	NA	NA	NA	NA	HTCC7211_00160
+KL370779.1	Prodigal:2.6	CDS	482316	482423	.	+	0	HTCC7214_00505	HTCC7214	35	NA	NA	NA	NA	NA	NA	HTCC7214_00510
+KL370779.1	Prodigal:2.6	CDS	482484	483323	.	-	0	HTCC7214_00506	HTCC7214	279	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HTCC7214_00510
+KL370779.1	Prodigal:2.6	CDS	483343	483669	.	-	0	HTCC7214_00507	HTCC7214	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HTCC7214_00510
+KL370779.1	Prodigal:2.6	CDS	483670	484083	.	-	0	HTCC7214_00508	HTCC7214	137	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HTCC7214_00510
+KL370779.1	Prodigal:2.6	CDS	484089	486569	.	-	0	HTCC7214_00509	HTCC7214	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HTCC7214_00510
+KL370779.1	Prodigal:2.6	CDS	486743	488701	.	+	0	HTCC7214_00510	HTCC7214	652	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HTCC7214_00510
+KL370779.1	Prodigal:2.6	CDS	488702	489928	.	+	0	HTCC7214_00511	HTCC7214	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HTCC7214_00510
+KL370779.1	Prodigal:2.6	CDS	490002	491006	.	+	0	HTCC7214_00512	HTCC7214	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HTCC7214_00510
+KL370779.1	Prodigal:2.6	CDS	491080	493401	.	+	0	HTCC7214_00513	HTCC7214	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HTCC7214_00510
+KL370779.1	Prodigal:2.6	CDS	493423	493824	.	-	0	HTCC7214_00514	HTCC7214	133	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HTCC7214_00510
+KL370779.1	Aragorn:1.2	tRNA	493943	494019	.	-	NA	HTCC7214_00515	HTCC7214	NA	NA	NA	NA	NA	NA	NA	HTCC7214_00510
+JNIU01000001.1	Aragorn:1.2	tRNA	950920	950996	.	+	.	HTCC7217_01022	HTCC7217	NA	NA	NA	NA	NA	NA	NA	HTCC7217_01027
+JNIU01000001.1	Prodigal:2.6	CDS	951116	951517	.	+	0	HTCC7217_01023	HTCC7217	133	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HTCC7217_01027
+JNIU01000001.1	Prodigal:2.6	CDS	951538	953859	.	-	0	HTCC7217_01024	HTCC7217	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HTCC7217_01027
+JNIU01000001.1	Prodigal:2.6	CDS	953933	954937	.	-	0	HTCC7217_01025	HTCC7217	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HTCC7217_01027
+JNIU01000001.1	Prodigal:2.6	CDS	955012	956238	.	-	0	HTCC7217_01026	HTCC7217	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HTCC7217_01027
+JNIU01000001.1	Prodigal:2.6	CDS	956239	958197	.	-	0	HTCC7217_01027	HTCC7217	652	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HTCC7217_01027
+JNIU01000001.1	Prodigal:2.6	CDS	958371	960851	.	+	0	HTCC7217_01028	HTCC7217	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HTCC7217_01027
+JNIU01000001.1	Prodigal:2.6	CDS	960857	961270	.	+	0	HTCC7217_01029	HTCC7217	137	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HTCC7217_01027
+JNIU01000001.1	Prodigal:2.6	CDS	961271	961597	.	+	0	HTCC7217_01030	HTCC7217	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HTCC7217_01027
+JNIU01000001.1	Prodigal:2.6	CDS	961554	962456	.	+	0	HTCC7217_01031	HTCC7217	300	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HTCC7217_01027
+JNIU01000001.1	Prodigal:2.6	CDS	962516	962623	.	-	0	HTCC7217_01032	HTCC7217	35	NA	NA	NA	NA	NA	NA	HTCC7217_01027
+HIMB1505-00000000001	Prodigal:2.6	CDS	152082	153257	.	-	0	HIMB1505_00152	HIMB1505	391	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	HIMB1505_00157
+HIMB1505-00000000001	Aragorn:1.2	tRNA	153332	153408	.	+	.	HIMB1505_00153	HIMB1505	NA	NA	NA	NA	NA	NA	NA	HIMB1505_00157
+HIMB1505-00000000001	Prodigal:2.6	CDS	153522	153947	.	+	0	HIMB1505_00154	HIMB1505	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1505_00157
+HIMB1505-00000000001	Prodigal:2.6	CDS	153944	155953	.	-	0	HIMB1505_00155	HIMB1505	669	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1505_00157
+HIMB1505-00000000001	Prodigal:2.6	CDS	156002	157009	.	-	0	HIMB1505_00156	HIMB1505	335	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1505_00157
+HIMB1505-00000000001	Prodigal:2.6	CDS	157069	159030	.	-	0	HIMB1505_00157	HIMB1505	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1505_00157
+HIMB1505-00000000001	Prodigal:2.6	CDS	159205	161685	.	+	0	HIMB1505_00158	HIMB1505	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1505_00157
+HIMB1505-00000000001	Prodigal:2.6	CDS	161688	162101	.	+	0	HIMB1505_00159	HIMB1505	137	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1505_00157
+HIMB1505-00000000001	Prodigal:2.6	CDS	162101	162427	.	+	0	HIMB1505_00160	HIMB1505	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1505_00157
+HIMB1505-00000000001	Prodigal:2.6	CDS	162384	163280	.	+	0	HIMB1505_00161	HIMB1505	298	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1505_00157
+HIMB1505-00000000001	Prodigal:2.6	CDS	163643	164815	.	-	0	HIMB1505_00162	HIMB1505	390	OG0000170	NA	NA	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HIMB1505_00157
+HIMB1549-00000000001	Prodigal:2.6	CDS	1145736	1146314	.	+	0	HIMB1549_01231	HIMB1549	192	OG0000170	NA	NA	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HIMB1549_01236
+HIMB1549-00000000001	Prodigal:2.6	CDS	1146675	1147571	.	-	0	HIMB1549_01232	HIMB1549	298	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1549_01236
+HIMB1549-00000000001	Prodigal:2.6	CDS	1147528	1147854	.	-	0	HIMB1549_01233	HIMB1549	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1549_01236
+HIMB1549-00000000001	Prodigal:2.6	CDS	1147854	1148267	.	-	0	HIMB1549_01234	HIMB1549	137	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1549_01236
+HIMB1549-00000000001	Prodigal:2.6	CDS	1148270	1150750	.	-	0	HIMB1549_01235	HIMB1549	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1549_01236
+HIMB1549-00000000001	Prodigal:2.6	CDS	1150924	1152885	.	+	0	HIMB1549_01236	HIMB1549	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1549_01236
+HIMB1549-00000000001	Prodigal:2.6	CDS	1152945	1153952	.	+	0	HIMB1549_01237	HIMB1549	335	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1549_01236
+HIMB1549-00000000001	Prodigal:2.6	CDS	1154001	1156010	.	+	0	HIMB1549_01238	HIMB1549	669	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1549_01236
+HIMB1549-00000000001	Prodigal:2.6	CDS	1156007	1156432	.	-	0	HIMB1549_01239	HIMB1549	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1549_01236
+HIMB1549-00000000001	Aragorn:1.2	tRNA	1156546	1156622	.	-	.	HIMB1549_01240	HIMB1549	NA	NA	NA	NA	NA	NA	NA	HIMB1549_01236
+HIMB1549-00000000001	Prodigal:2.6	CDS	1156697	1157872	.	+	0	HIMB1549_01241	HIMB1549	391	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	HIMB1549_01236
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	446584	447759	.	-	0	HIMB4_00473	HIMB4	391	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	HIMB4_00478
+NZ_JBPPFS010000001.1	Aragorn:1.2	tRNA	447834	447910	.	+	.	HIMB4_00474	HIMB4	NA	NA	NA	NA	NA	NA	NA	HIMB4_00478
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	448024	448449	.	+	0	HIMB4_00475	HIMB4	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB4_00478
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	448446	450455	.	-	0	HIMB4_00476	HIMB4	669	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB4_00478
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	450504	451511	.	-	0	HIMB4_00477	HIMB4	335	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB4_00478
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	451571	453532	.	-	0	HIMB4_00478	HIMB4	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB4_00478
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	453707	456187	.	+	0	HIMB4_00479	HIMB4	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB4_00478
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	456190	456603	.	+	0	HIMB4_00480	HIMB4	137	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB4_00478
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	456603	456929	.	+	0	HIMB4_00481	HIMB4	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB4_00478
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	456886	457782	.	+	0	HIMB4_00482	HIMB4	298	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB4_00478
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	458216	459838	.	-	0	HIMB4_00483	HIMB4	540	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HIMB4_00478
+KI421440.1	Prodigal:2.6	CDS	1225324	1228362	.	-	0	HTCC8051_01315	HTCC8051	1012	OG0000240	K00163	pyruvate dehydrogenase E1 component [EC:1.2.4.1]	COG2609	AceE	Pyruvate dehydrogenase complex, dehydrogenase (E1) component	HTCC8051_01320
+KI421440.1	Aragorn:1.2	tRNA	1228523	1228599	.	+	NA	HTCC8051_01316	HTCC8051	NA	NA	NA	NA	NA	NA	NA	HTCC8051_01320
+KI421440.1	Prodigal:2.6	CDS	1228720	1229145	.	+	0	HTCC8051_01317	HTCC8051	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HTCC8051_01320
+KI421440.1	Prodigal:2.6	CDS	1229147	1231132	.	-	0	HTCC8051_01318	HTCC8051	661	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HTCC8051_01320
+KI421440.1	Prodigal:2.6	CDS	1231178	1232185	.	-	0	HTCC8051_01319	HTCC8051	335	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HTCC8051_01320
+KI421440.1	Prodigal:2.6	CDS	1232264	1234225	.	-	0	HTCC8051_01320	HTCC8051	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HTCC8051_01320
+KI421440.1	Prodigal:2.6	CDS	1234399	1236882	.	+	0	HTCC8051_01321	HTCC8051	827	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HTCC8051_01320
+KI421440.1	Prodigal:2.6	CDS	1236888	1237298	.	+	0	HTCC8051_01322	HTCC8051	136	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HTCC8051_01320
+KI421440.1	Prodigal:2.6	CDS	1237298	1237624	.	+	0	HTCC8051_01323	HTCC8051	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HTCC8051_01320
+KI421440.1	Prodigal:2.6	CDS	1237581	1238486	.	+	0	HTCC8051_01324	HTCC8051	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HTCC8051_01320
+KI421440.1	Prodigal:2.6	CDS	1238547	1238705	.	-	0	HTCC8051_01325	HTCC8051	52	OG0005055	NA	NA	NA	NA	NA	HTCC8051_01320
+KI421433.1	Prodigal:2.6	CDS	549068	549562	.	-	0	HTCC9022_01164	HTCC9022	164	OG0000738	K00954	pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]	COG0669	CoaD	Phosphopantetheine adenylyltransferase	HTCC9022_01169
+KI421433.1	Prodigal:2.6	CDS	549562	552141	.	-	0	HTCC9022_01165	HTCC9022	859	OG0000103	K02469	DNA gyrase subunit A [EC:5.6.2.2]	COG0188	GyrA	DNA gyrase/topoisomerase IV, subunit A	HTCC9022_01169
+KI421433.1	Prodigal:2.6	CDS	552147	552599	.	-	0	HTCC9022_01166	HTCC9022	150	OG0000439	K03111	single-strand DNA-binding protein	COG0629	Ssb	Single-stranded DNA-binding protein	HTCC9022_01169
+KI421433.1	Prodigal:2.6	CDS	552688	555540	.	+	0	HTCC9022_01167	HTCC9022	950	OG0000296	K03701	excinuclease ABC subunit A	COG0178	UvrA	Excinuclease UvrABC ATPase subunit	HTCC9022_01169
+KI421433.1	Prodigal:2.6	CDS	555596	556198	.	+	0	HTCC9022_01168	HTCC9022	200	OG0000776	NA	NA	COG3748	NA	Uncharacterized membrane protein	HTCC9022_01169
+KI421433.1	Prodigal:2.6	CDS	556195	558156	.	-	0	HTCC9022_01169	HTCC9022	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HTCC9022_01169
+KI421433.1	Prodigal:2.6	CDS	558185	559075	.	-	0	HTCC9022_01170	HTCC9022	296	OG0000349	K03074	preprotein translocase subunit SecF	COG0341	SecF	Preprotein translocase subunit SecF	HTCC9022_01169
+KI421433.1	Prodigal:2.6	CDS	559075	560628	.	-	0	HTCC9022_01171	HTCC9022	517	OG0000425	K03072	preprotein translocase subunit SecD	COG0342	SecD	Preprotein translocase subunit SecD	HTCC9022_01169
+KI421433.1	Prodigal:2.6	CDS	560643	560930	.	-	0	HTCC9022_01172	HTCC9022	95	OG0000668	K03210	preprotein translocase subunit YajC	COG1862	YajC	Protein translocase subunit YajC	HTCC9022_01169
+KI421433.1	Prodigal:2.6	CDS	560986	562245	.	-	0	HTCC9022_01173	HTCC9022	419	OG0000617	K01875	seryl-tRNA synthetase [EC:6.1.1.11]	COG0172	SerS	Seryl-tRNA synthetase	HTCC9022_01169
+KI421433.1	Prodigal:2.6	CDS	562238	563008	.	-	0	HTCC9022_01174	HTCC9022	256	OG0000771	K03118	sec-independent protein translocase protein TatC	COG0805	TatC	Twin-arginine protein secretion pathway component TatC	HTCC9022_01169
+HIMB1456-00000000002	Prodigal:2.6	CDS	274771	276501	.	+	0	HIMB1456_00602	HIMB1456	576	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HIMB1456_00607
+HIMB1456-00000000002	Prodigal:2.6	CDS	276857	277750	.	-	0	HIMB1456_00603	HIMB1456	297	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1456_00607
+HIMB1456-00000000002	Prodigal:2.6	CDS	277707	278033	.	-	0	HIMB1456_00604	HIMB1456	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1456_00607
+HIMB1456-00000000002	Prodigal:2.6	CDS	278030	278440	.	-	0	HIMB1456_00605	HIMB1456	136	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1456_00607
+HIMB1456-00000000002	Prodigal:2.6	CDS	278442	280922	.	-	0	HIMB1456_00606	HIMB1456	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1456_00607
+HIMB1456-00000000002	Prodigal:2.6	CDS	281096	283057	.	+	0	HIMB1456_00607	HIMB1456	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1456_00607
+HIMB1456-00000000002	Prodigal:2.6	CDS	283068	283493	.	-	0	HIMB1456_00608	HIMB1456	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1456_00607
+HIMB1456-00000000002	Aragorn:1.2	tRNA	283613	283689	.	-	.	HIMB1456_00609	HIMB1456	NA	NA	NA	NA	NA	NA	NA	HIMB1456_00607
+HIMB1456-00000000002	Prodigal:2.6	CDS	283763	284950	.	+	0	HIMB1456_00610	HIMB1456	395	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	HIMB1456_00607
+HIMB1456-00000000002	Prodigal:2.6	CDS	285079	288117	.	+	0	HIMB1456_00611	HIMB1456	1012	OG0000240	K00163	pyruvate dehydrogenase E1 component [EC:1.2.4.1]	COG2609	AceE	Pyruvate dehydrogenase complex, dehydrogenase (E1) component	HIMB1456_00607
+HIMB1456-00000000002	Prodigal:2.6	CDS	288117	289379	.	+	0	HIMB1456_00612	HIMB1456	420	OG0000793	NA	NA	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HIMB1456_00607
+HIMB2201-00000000001	Prodigal:2.6	CDS	976904	978091	.	-	0	HIMB2201_01064	HIMB2201	395	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	HIMB2201_01069
+HIMB2201-00000000001	Aragorn:1.2	tRNA	978165	978241	.	+	.	HIMB2201_01065	HIMB2201	NA	NA	NA	NA	NA	NA	NA	HIMB2201_01069
+HIMB2201-00000000001	Prodigal:2.6	CDS	978361	978786	.	+	0	HIMB2201_01066	HIMB2201	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB2201_01069
+HIMB2201-00000000001	Prodigal:2.6	CDS	978792	980777	.	-	0	HIMB2201_01067	HIMB2201	661	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB2201_01069
+HIMB2201-00000000001	Prodigal:2.6	CDS	980829	981836	.	-	0	HIMB2201_01068	HIMB2201	335	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB2201_01069
+HIMB2201-00000000001	Prodigal:2.6	CDS	981917	983878	.	-	0	HIMB2201_01069	HIMB2201	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB2201_01069
+HIMB2201-00000000001	Prodigal:2.6	CDS	984052	986532	.	+	0	HIMB2201_01070	HIMB2201	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB2201_01069
+HIMB2201-00000000001	Prodigal:2.6	CDS	986534	986944	.	+	0	HIMB2201_01071	HIMB2201	136	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB2201_01069
+HIMB2201-00000000001	Prodigal:2.6	CDS	986941	987267	.	+	0	HIMB2201_01072	HIMB2201	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB2201_01069
+HIMB2201-00000000001	Prodigal:2.6	CDS	987209	988138	.	+	0	HIMB2201_01073	HIMB2201	309	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB2201_01069
+HIMB2201-00000000001	Prodigal:2.6	CDS	988492	990222	.	-	0	HIMB2201_01074	HIMB2201	576	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HIMB2201_01069
+HIMB123-00000000001	Aragorn:1.2	tRNA	45666	45742	.	+	.	HIMB123_00044	HIMB123	NA	NA	NA	NA	NA	NA	NA	HIMB123_00049
+HIMB123-00000000001	Prodigal:2.6	CDS	45861	46286	.	+	0	HIMB123_00045	HIMB123	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB123_00049
+HIMB123-00000000001	Prodigal:2.6	CDS	46289	48610	.	-	0	HIMB123_00046	HIMB123	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB123_00049
+HIMB123-00000000001	Prodigal:2.6	CDS	48683	49687	.	-	0	HIMB123_00047	HIMB123	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB123_00049
+HIMB123-00000000001	Prodigal:2.6	CDS	49775	51001	.	-	0	HIMB123_00048	HIMB123	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB123_00049
+HIMB123-00000000001	Prodigal:2.6	CDS	51002	52528	.	-	0	HIMB123_00049	HIMB123	508	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB123_00049
+HIMB123-00000000029	Prodigal:2.6	CDS	249	1775	.	+	0	HIMB123_01273	HIMB123	508	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB123_01273
+HIMB123-00000000029	Prodigal:2.6	CDS	1776	3002	.	+	0	HIMB123_01274	HIMB123	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB123_01273
+HIMB123-00000000029	Prodigal:2.6	CDS	3090	4094	.	+	0	HIMB123_01275	HIMB123	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB123_01273
+HIMB123-00000000029	Prodigal:2.6	CDS	4748	5056	.	-	0	HIMB123_01276	HIMB123	102	OG0004963	NA	NA	NA	NA	NA	HIMB123_01273
+HIMB1444-00000000003	Prodigal:2.6	CDS	105236	106498	.	-	0	HIMB1444_01216	HIMB1444	420	OG0000793	NA	NA	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HIMB1444_01221
+HIMB1444-00000000003	Prodigal:2.6	CDS	106498	109536	.	-	0	HIMB1444_01217	HIMB1444	1012	OG0000240	K00163	pyruvate dehydrogenase E1 component [EC:1.2.4.1]	COG2609	AceE	Pyruvate dehydrogenase complex, dehydrogenase (E1) component	HIMB1444_01221
+HIMB1444-00000000003	Prodigal:2.6	CDS	109664	110851	.	-	0	HIMB1444_01218	HIMB1444	395	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	HIMB1444_01221
+HIMB1444-00000000003	Aragorn:1.2	tRNA	110925	111001	.	+	.	HIMB1444_01219	HIMB1444	NA	NA	NA	NA	NA	NA	NA	HIMB1444_01221
+HIMB1444-00000000003	Prodigal:2.6	CDS	111121	111546	.	+	0	HIMB1444_01220	HIMB1444	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1444_01221
+HIMB1444-00000000003	Prodigal:2.6	CDS	111557	113518	.	-	0	HIMB1444_01221	HIMB1444	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1444_01221
+HIMB1444-00000000003	Prodigal:2.6	CDS	113692	116172	.	+	0	HIMB1444_01222	HIMB1444	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1444_01221
+HIMB1444-00000000003	Prodigal:2.6	CDS	116174	116584	.	+	0	HIMB1444_01223	HIMB1444	136	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1444_01221
+HIMB1444-00000000003	Prodigal:2.6	CDS	116581	116907	.	+	0	HIMB1444_01224	HIMB1444	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1444_01221
+HIMB1444-00000000003	Prodigal:2.6	CDS	116864	117760	.	+	0	HIMB1444_01225	HIMB1444	298	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1444_01221
+HIMB1444-00000000003	Prodigal:2.6	CDS	118112	119842	.	-	0	HIMB1444_01226	HIMB1444	576	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HIMB1444_01221
+HIMB1409-00000000005	Prodigal:2.6	CDS	92881	94143	.	-	0	HIMB1409_01059	HIMB1409	420	OG0000793	NA	NA	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HIMB1409_01064
+HIMB1409-00000000005	Prodigal:2.6	CDS	94144	97182	.	-	0	HIMB1409_01060	HIMB1409	1012	OG0000240	K00163	pyruvate dehydrogenase E1 component [EC:1.2.4.1]	COG2609	AceE	Pyruvate dehydrogenase complex, dehydrogenase (E1) component	HIMB1409_01064
+HIMB1409-00000000005	Prodigal:2.6	CDS	97312	98499	.	-	0	HIMB1409_01061	HIMB1409	395	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	HIMB1409_01064
+HIMB1409-00000000005	Aragorn:1.2	tRNA	98573	98649	.	+	.	HIMB1409_01062	HIMB1409	NA	NA	NA	NA	NA	NA	NA	HIMB1409_01064
+HIMB1409-00000000005	Prodigal:2.6	CDS	98769	99194	.	+	0	HIMB1409_01063	HIMB1409	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1409_01064
+HIMB1409-00000000005	Prodigal:2.6	CDS	99205	101166	.	-	0	HIMB1409_01064	HIMB1409	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1409_01064
+HIMB1409-00000000005	Prodigal:2.6	CDS	101340	103820	.	+	0	HIMB1409_01065	HIMB1409	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1409_01064
+HIMB1409-00000000005	Prodigal:2.6	CDS	103822	104232	.	+	0	HIMB1409_01066	HIMB1409	136	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1409_01064
+HIMB1409-00000000005	Prodigal:2.6	CDS	104229	104555	.	+	0	HIMB1409_01067	HIMB1409	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1409_01064
+HIMB1409-00000000005	Prodigal:2.6	CDS	104497	105408	.	+	0	HIMB1409_01068	HIMB1409	303	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1409_01064
+HIMB1413-00000000001	Prodigal:2.6	CDS	1240122	1241852	.	+	0	HIMB1413_01347	HIMB1413	576	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HIMB1413_01352
+HIMB1413-00000000001	Prodigal:2.6	CDS	1242206	1243102	.	-	0	HIMB1413_01348	HIMB1413	298	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1413_01352
+HIMB1413-00000000001	Prodigal:2.6	CDS	1243059	1243385	.	-	0	HIMB1413_01349	HIMB1413	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1413_01352
+HIMB1413-00000000001	Prodigal:2.6	CDS	1243382	1243792	.	-	0	HIMB1413_01350	HIMB1413	136	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1413_01352
+HIMB1413-00000000001	Prodigal:2.6	CDS	1243794	1246274	.	-	0	HIMB1413_01351	HIMB1413	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1413_01352
+HIMB1413-00000000001	Prodigal:2.6	CDS	1246448	1248409	.	+	0	HIMB1413_01352	HIMB1413	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1413_01352
+HIMB1413-00000000001	Prodigal:2.6	CDS	1248509	1248934	.	-	0	HIMB1413_01353	HIMB1413	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1413_01352
+HIMB1413-00000000001	Aragorn:1.2	tRNA	1249054	1249130	.	-	NA	HIMB1413_01354	HIMB1413	NA	NA	NA	NA	NA	NA	NA	HIMB1413_01352
+HIMB1413-00000000001	Prodigal:2.6	CDS	1249204	1250391	.	+	0	HIMB1413_01355	HIMB1413	395	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	HIMB1413_01352
+HIMB1413-00000000001	Prodigal:2.6	CDS	1250520	1253558	.	+	0	HIMB1413_01356	HIMB1413	1012	OG0000240	K00163	pyruvate dehydrogenase E1 component [EC:1.2.4.1]	COG2609	AceE	Pyruvate dehydrogenase complex, dehydrogenase (E1) component	HIMB1413_01352
+HIMB1413-00000000001	Prodigal:2.6	CDS	1253559	1254821	.	+	0	HIMB1413_01357	HIMB1413	420	OG0000793	NA	NA	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HIMB1413_01352
+HIMB2250-00000000001	Prodigal:2.6	CDS	557864	558634	.	+	0	HIMB2250_00588	HIMB2250	256	OG0000771	K03118	sec-independent protein translocase protein TatC	COG0805	TatC	Twin-arginine protein secretion pathway component TatC	HIMB2250_00593
+HIMB2250-00000000001	Prodigal:2.6	CDS	558627	559886	.	+	0	HIMB2250_00589	HIMB2250	419	OG0000617	K01875	seryl-tRNA synthetase [EC:6.1.1.11]	COG0172	SerS	Seryl-tRNA synthetase	HIMB2250_00593
+HIMB2250-00000000001	Prodigal:2.6	CDS	559942	560235	.	+	0	HIMB2250_00590	HIMB2250	97	OG0000668	K03210	preprotein translocase subunit YajC	COG1862	YajC	Protein translocase subunit YajC	HIMB2250_00593
+HIMB2250-00000000001	Prodigal:2.6	CDS	560250	561803	.	+	0	HIMB2250_00591	HIMB2250	517	OG0000425	K03072	preprotein translocase subunit SecD	COG0342	SecD	Preprotein translocase subunit SecD	HIMB2250_00593
+HIMB2250-00000000001	Prodigal:2.6	CDS	561803	562702	.	+	0	HIMB2250_00592	HIMB2250	299	OG0000349	K03074	preprotein translocase subunit SecF	COG0341	SecF	Preprotein translocase subunit SecF	HIMB2250_00593
+HIMB2250-00000000001	Prodigal:2.6	CDS	562757	564718	.	+	0	HIMB2250_00593	HIMB2250	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB2250_00593
+HIMB2250-00000000001	Prodigal:2.6	CDS	564723	565325	.	-	0	HIMB2250_00594	HIMB2250	200	OG0000776	NA	NA	COG3748	NA	Uncharacterized membrane protein	HIMB2250_00593
+HIMB2250-00000000001	Prodigal:2.6	CDS	565376	568228	.	-	0	HIMB2250_00595	HIMB2250	950	OG0000296	K03701	excinuclease ABC subunit A	COG0178	UvrA	Excinuclease UvrABC ATPase subunit	HIMB2250_00593
+HIMB2250-00000000001	Prodigal:2.6	CDS	568317	568766	.	+	0	HIMB2250_00596	HIMB2250	149	OG0000439	K03111	single-strand DNA-binding protein	COG0629	Ssb	Single-stranded DNA-binding protein	HIMB2250_00593
+HIMB2250-00000000001	Prodigal:2.6	CDS	568772	571351	.	+	0	HIMB2250_00597	HIMB2250	859	OG0000103	K02469	DNA gyrase subunit A [EC:5.6.2.2]	COG0188	GyrA	DNA gyrase/topoisomerase IV, subunit A	HIMB2250_00593
+HIMB2250-00000000001	Prodigal:2.6	CDS	571351	571845	.	+	0	HIMB2250_00598	HIMB2250	164	OG0000738	K00954	pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]	COG0669	CoaD	Phosphopantetheine adenylyltransferase	HIMB2250_00593
+CP031125.1	Aragorn:1.2	tRNA	447877	447953	.	+	.	FZCC0015_00472	FZCC0015	NA	NA	NA	NA	NA	NA	NA	FZCC0015_00477
+CP031125.1	Prodigal:2.6	CDS	448072	448497	.	+	0	FZCC0015_00473	FZCC0015	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	FZCC0015_00477
+CP031125.1	Prodigal:2.6	CDS	448500	450821	.	-	0	FZCC0015_00474	FZCC0015	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	FZCC0015_00477
+CP031125.1	Prodigal:2.6	CDS	450893	451897	.	-	0	FZCC0015_00475	FZCC0015	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	FZCC0015_00477
+CP031125.1	Prodigal:2.6	CDS	451979	453205	.	-	0	FZCC0015_00476	FZCC0015	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	FZCC0015_00477
+CP031125.1	Prodigal:2.6	CDS	453206	455167	.	-	0	FZCC0015_00477	FZCC0015	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	FZCC0015_00477
+CP031125.1	Prodigal:2.6	CDS	455341	457821	.	+	0	FZCC0015_00478	FZCC0015	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	FZCC0015_00477
+CP031125.1	Prodigal:2.6	CDS	457823	458233	.	+	0	FZCC0015_00479	FZCC0015	136	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	FZCC0015_00477
+CP031125.1	Prodigal:2.6	CDS	458230	458556	.	+	0	FZCC0015_00480	FZCC0015	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	FZCC0015_00477
+CP031125.1	Prodigal:2.6	CDS	458513	459409	.	+	0	FZCC0015_00481	FZCC0015	298	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	FZCC0015_00477
+CP031125.1	Prodigal:2.6	CDS	459472	459564	.	-	0	FZCC0015_00482	FZCC0015	30	NA	NA	NA	NA	NA	NA	FZCC0015_00477
+AZAL01000001.1	Prodigal:2.6	CDS	736640	737902	.	-	0	HIMB083_00805	HIMB083	420	OG0000793	NA	NA	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HIMB083_00810
+AZAL01000001.1	Prodigal:2.6	CDS	737903	740941	.	-	0	HIMB083_00806	HIMB083	1012	OG0000240	K00163	pyruvate dehydrogenase E1 component [EC:1.2.4.1]	COG2609	AceE	Pyruvate dehydrogenase complex, dehydrogenase (E1) component	HIMB083_00810
+AZAL01000001.1	Prodigal:2.6	CDS	741070	742257	.	-	0	HIMB083_00807	HIMB083	395	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	HIMB083_00810
+AZAL01000001.1	Aragorn:1.2	tRNA	742331	742407	.	+	NA	HIMB083_00808	HIMB083	NA	NA	NA	NA	NA	NA	NA	HIMB083_00810
+AZAL01000001.1	Prodigal:2.6	CDS	742527	742952	.	+	0	HIMB083_00809	HIMB083	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB083_00810
+AZAL01000001.1	Prodigal:2.6	CDS	742964	744925	.	-	0	HIMB083_00810	HIMB083	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB083_00810
+AZAL01000001.1	Prodigal:2.6	CDS	745099	747579	.	+	0	HIMB083_00811	HIMB083	826	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB083_00810
+AZAL01000001.1	Prodigal:2.6	CDS	747581	747991	.	+	0	HIMB083_00812	HIMB083	136	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB083_00810
+AZAL01000001.1	Prodigal:2.6	CDS	747988	748314	.	+	0	HIMB083_00813	HIMB083	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB083_00810
+AZAL01000001.1	Prodigal:2.6	CDS	748271	749158	.	+	0	HIMB083_00814	HIMB083	295	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB083_00810
+AZAL01000001.1	Prodigal:2.6	CDS	749514	751244	.	-	0	HIMB083_00815	HIMB083	576	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HIMB083_00810
+HIMB1685-00000000001	Prodigal:2.6	CDS	1005828	1005926	.	+	0	HIMB1685_01101	HIMB1685	32	NA	NA	NA	NA	NA	NA	HIMB1685_01106
+HIMB1685-00000000001	Prodigal:2.6	CDS	1005987	1006829	.	-	0	HIMB1685_01102	HIMB1685	280	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1685_01106
+HIMB1685-00000000001	Prodigal:2.6	CDS	1006849	1007175	.	-	0	HIMB1685_01103	HIMB1685	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1685_01106
+HIMB1685-00000000001	Prodigal:2.6	CDS	1007172	1007588	.	-	0	HIMB1685_01104	HIMB1685	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1685_01106
+HIMB1685-00000000001	Prodigal:2.6	CDS	1007593	1010070	.	-	0	HIMB1685_01105	HIMB1685	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1685_01106
+HIMB1685-00000000001	Prodigal:2.6	CDS	1010245	1012206	.	+	0	HIMB1685_01106	HIMB1685	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1685_01106
+HIMB1685-00000000001	Prodigal:2.6	CDS	1012207	1013433	.	+	0	HIMB1685_01107	HIMB1685	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1685_01106
+HIMB1685-00000000001	Prodigal:2.6	CDS	1013518	1014522	.	+	0	HIMB1685_01108	HIMB1685	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1685_01106
+HIMB1685-00000000001	Prodigal:2.6	CDS	1014595	1016916	.	+	0	HIMB1685_01109	HIMB1685	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1685_01106
+HIMB1685-00000000001	Prodigal:2.6	CDS	1016918	1017343	.	-	0	HIMB1685_01110	HIMB1685	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1685_01106
+HIMB1685-00000000001	Prodigal:2.6	CDS	1017494	1018237	.	-	0	HIMB1685_01111	HIMB1685	247	OG0002352	NA	NA	COG3306	NA	Glycosyltransferase involved in LPS biosynthesis, GR25 family	HIMB1685_01106
+HIMB1559-00000000001	Prodigal:2.6	CDS	966823	967587	.	+	0	HIMB1559_01062	HIMB1559	254	OG0002352	NA	NA	COG3306	NA	Glycosyltransferase involved in LPS biosynthesis, GR25 family	HIMB1559_01067
+HIMB1559-00000000001	Prodigal:2.6	CDS	967741	968166	.	+	0	HIMB1559_01063	HIMB1559	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1559_01067
+HIMB1559-00000000001	Prodigal:2.6	CDS	968168	970489	.	-	0	HIMB1559_01064	HIMB1559	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1559_01067
+HIMB1559-00000000001	Prodigal:2.6	CDS	970562	971566	.	-	0	HIMB1559_01065	HIMB1559	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1559_01067
+HIMB1559-00000000001	Prodigal:2.6	CDS	971651	972877	.	-	0	HIMB1559_01066	HIMB1559	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1559_01067
+HIMB1559-00000000001	Prodigal:2.6	CDS	972878	974839	.	-	0	HIMB1559_01067	HIMB1559	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1559_01067
+HIMB1559-00000000001	Prodigal:2.6	CDS	975014	977491	.	+	0	HIMB1559_01068	HIMB1559	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1559_01067
+HIMB1559-00000000001	Prodigal:2.6	CDS	977496	977912	.	+	0	HIMB1559_01069	HIMB1559	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1559_01067
+HIMB1559-00000000001	Prodigal:2.6	CDS	977909	978235	.	+	0	HIMB1559_01070	HIMB1559	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1559_01067
+HIMB1559-00000000001	Prodigal:2.6	CDS	978192	979097	.	+	0	HIMB1559_01071	HIMB1559	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1559_01067
+HIMB1559-00000000001	Prodigal:2.6	CDS	979159	979257	.	-	0	HIMB1559_01072	HIMB1559	32	NA	NA	NA	NA	NA	NA	HIMB1559_01067
+HIMB1597-00000000001	Prodigal:2.6	CDS	832163	832261	.	+	0	HIMB1597_00880	HIMB1597	32	NA	NA	NA	NA	NA	NA	HIMB1597_00885
+HIMB1597-00000000001	Prodigal:2.6	CDS	832323	833228	.	-	0	HIMB1597_00881	HIMB1597	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1597_00885
+HIMB1597-00000000001	Prodigal:2.6	CDS	833185	833511	.	-	0	HIMB1597_00882	HIMB1597	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1597_00885
+HIMB1597-00000000001	Prodigal:2.6	CDS	833508	833924	.	-	0	HIMB1597_00883	HIMB1597	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1597_00885
+HIMB1597-00000000001	Prodigal:2.6	CDS	833929	836406	.	-	0	HIMB1597_00884	HIMB1597	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1597_00885
+HIMB1597-00000000001	Prodigal:2.6	CDS	836581	838542	.	+	0	HIMB1597_00885	HIMB1597	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1597_00885
+HIMB1597-00000000001	Prodigal:2.6	CDS	838543	839769	.	+	0	HIMB1597_00886	HIMB1597	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1597_00885
+HIMB1597-00000000001	Prodigal:2.6	CDS	839854	840858	.	+	0	HIMB1597_00887	HIMB1597	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1597_00885
+HIMB1597-00000000001	Prodigal:2.6	CDS	840931	843252	.	+	0	HIMB1597_00888	HIMB1597	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1597_00885
+HIMB1597-00000000001	Prodigal:2.6	CDS	843254	843679	.	-	0	HIMB1597_00889	HIMB1597	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1597_00885
+HIMB1597-00000000001	Prodigal:2.6	CDS	843833	844597	.	-	0	HIMB1597_00890	HIMB1597	254	OG0002352	NA	NA	COG3306	NA	Glycosyltransferase involved in LPS biosynthesis, GR25 family	HIMB1597_00885
+HIMB1587-00000000002	Prodigal:2.6	CDS	149823	150587	.	+	0	HIMB1587_01054	HIMB1587	254	OG0002352	NA	NA	COG3306	NA	Glycosyltransferase involved in LPS biosynthesis, GR25 family	HIMB1587_01059
+HIMB1587-00000000002	Prodigal:2.6	CDS	150741	151166	.	+	0	HIMB1587_01055	HIMB1587	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1587_01059
+HIMB1587-00000000002	Prodigal:2.6	CDS	151168	153489	.	-	0	HIMB1587_01056	HIMB1587	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1587_01059
+HIMB1587-00000000002	Prodigal:2.6	CDS	153562	154566	.	-	0	HIMB1587_01057	HIMB1587	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1587_01059
+HIMB1587-00000000002	Prodigal:2.6	CDS	154651	155877	.	-	0	HIMB1587_01058	HIMB1587	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1587_01059
+HIMB1587-00000000002	Prodigal:2.6	CDS	155878	157839	.	-	0	HIMB1587_01059	HIMB1587	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1587_01059
+HIMB1587-00000000002	Prodigal:2.6	CDS	158014	160491	.	+	0	HIMB1587_01060	HIMB1587	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1587_01059
+HIMB1587-00000000002	Prodigal:2.6	CDS	160496	160912	.	+	0	HIMB1587_01061	HIMB1587	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1587_01059
+HIMB1587-00000000002	Prodigal:2.6	CDS	160909	161235	.	+	0	HIMB1587_01062	HIMB1587	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1587_01059
+HIMB1587-00000000002	Prodigal:2.6	CDS	161192	162097	.	+	0	HIMB1587_01063	HIMB1587	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1587_01059
+HIMB1587-00000000002	Prodigal:2.6	CDS	162159	162257	.	-	0	HIMB1587_01064	HIMB1587	32	NA	NA	NA	NA	NA	NA	HIMB1587_01059
+HIMB1573-00000000001	Prodigal:2.6	CDS	484886	484984	.	+	0	HIMB1573_00517	HIMB1573	32	NA	NA	NA	NA	NA	NA	HIMB1573_00522
+HIMB1573-00000000001	Prodigal:2.6	CDS	485046	485951	.	-	0	HIMB1573_00518	HIMB1573	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1573_00522
+HIMB1573-00000000001	Prodigal:2.6	CDS	485908	486234	.	-	0	HIMB1573_00519	HIMB1573	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1573_00522
+HIMB1573-00000000001	Prodigal:2.6	CDS	486231	486647	.	-	0	HIMB1573_00520	HIMB1573	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1573_00522
+HIMB1573-00000000001	Prodigal:2.6	CDS	486652	489129	.	-	0	HIMB1573_00521	HIMB1573	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1573_00522
+HIMB1573-00000000001	Prodigal:2.6	CDS	489304	491265	.	+	0	HIMB1573_00522	HIMB1573	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1573_00522
+HIMB1573-00000000001	Prodigal:2.6	CDS	491266	492492	.	+	0	HIMB1573_00523	HIMB1573	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1573_00522
+HIMB1573-00000000001	Prodigal:2.6	CDS	492577	493581	.	+	0	HIMB1573_00524	HIMB1573	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1573_00522
+HIMB1573-00000000001	Prodigal:2.6	CDS	493653	495974	.	+	0	HIMB1573_00525	HIMB1573	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1573_00522
+HIMB1573-00000000001	Prodigal:2.6	CDS	495976	496401	.	-	0	HIMB1573_00526	HIMB1573	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1573_00522
+HIMB1573-00000000001	Prodigal:2.6	CDS	496407	496505	.	-	0	HIMB1573_00527	HIMB1573	32	NA	NA	NA	NA	NA	NA	HIMB1573_00522
+HIMB1490-00000000003	Aragorn:1.2	tRNA	22769	22845	.	+	NA	HIMB1490_00227	HIMB1490	NA	NA	NA	NA	NA	NA	NA	HIMB1490_00232
+HIMB1490-00000000003	Prodigal:2.6	CDS	22962	23387	.	+	0	HIMB1490_00228	HIMB1490	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1490_00232
+HIMB1490-00000000003	Prodigal:2.6	CDS	23389	25710	.	-	0	HIMB1490_00229	HIMB1490	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1490_00232
+HIMB1490-00000000003	Prodigal:2.6	CDS	25783	26787	.	-	0	HIMB1490_00230	HIMB1490	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1490_00232
+HIMB1490-00000000003	Prodigal:2.6	CDS	26872	28098	.	-	0	HIMB1490_00231	HIMB1490	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1490_00232
+HIMB1490-00000000003	Prodigal:2.6	CDS	28099	30060	.	-	0	HIMB1490_00232	HIMB1490	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1490_00232
+HIMB1490-00000000003	Prodigal:2.6	CDS	30235	32712	.	+	0	HIMB1490_00233	HIMB1490	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1490_00232
+HIMB1490-00000000003	Prodigal:2.6	CDS	32717	33133	.	+	0	HIMB1490_00234	HIMB1490	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1490_00232
+HIMB1490-00000000003	Prodigal:2.6	CDS	33130	33456	.	+	0	HIMB1490_00235	HIMB1490	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1490_00232
+HIMB1490-00000000003	Prodigal:2.6	CDS	33413	34318	.	+	0	HIMB1490_00236	HIMB1490	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1490_00232
+HIMB1490-00000000003	Prodigal:2.6	CDS	34380	34478	.	-	0	HIMB1490_00237	HIMB1490	32	NA	NA	NA	NA	NA	NA	HIMB1490_00232
+HIMB1491-00000000001	Prodigal:2.6	CDS	512129	512227	.	+	0	HIMB1491_00529	HIMB1491	32	NA	NA	NA	NA	NA	NA	HIMB1491_00534
+HIMB1491-00000000001	Prodigal:2.6	CDS	512289	513194	.	-	0	HIMB1491_00530	HIMB1491	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1491_00534
+HIMB1491-00000000001	Prodigal:2.6	CDS	513151	513477	.	-	0	HIMB1491_00531	HIMB1491	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1491_00534
+HIMB1491-00000000001	Prodigal:2.6	CDS	513474	513890	.	-	0	HIMB1491_00532	HIMB1491	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1491_00534
+HIMB1491-00000000001	Prodigal:2.6	CDS	513895	516372	.	-	0	HIMB1491_00533	HIMB1491	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1491_00534
+HIMB1491-00000000001	Prodigal:2.6	CDS	516547	518508	.	+	0	HIMB1491_00534	HIMB1491	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1491_00534
+HIMB1491-00000000001	Prodigal:2.6	CDS	518509	519735	.	+	0	HIMB1491_00535	HIMB1491	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1491_00534
+HIMB1491-00000000001	Prodigal:2.6	CDS	519820	520824	.	+	0	HIMB1491_00536	HIMB1491	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1491_00534
+HIMB1491-00000000001	Prodigal:2.6	CDS	520897	523218	.	+	0	HIMB1491_00537	HIMB1491	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1491_00534
+HIMB1491-00000000001	Prodigal:2.6	CDS	523220	523645	.	-	0	HIMB1491_00538	HIMB1491	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1491_00534
+HIMB1491-00000000001	Aragorn:1.2	tRNA	523762	523838	.	-	NA	HIMB1491_00539	HIMB1491	NA	NA	NA	NA	NA	NA	NA	HIMB1491_00534
+HIMB1765-00000000001	Aragorn:1.2	tRNA	888729	888805	.	+	.	HIMB1765_00967	HIMB1765	NA	NA	NA	NA	NA	NA	NA	HIMB1765_00972
+HIMB1765-00000000001	Prodigal:2.6	CDS	888923	889348	.	+	0	HIMB1765_00968	HIMB1765	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1765_00972
+HIMB1765-00000000001	Prodigal:2.6	CDS	889350	891671	.	-	0	HIMB1765_00969	HIMB1765	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1765_00972
+HIMB1765-00000000001	Prodigal:2.6	CDS	891744	892748	.	-	0	HIMB1765_00970	HIMB1765	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1765_00972
+HIMB1765-00000000001	Prodigal:2.6	CDS	892833	894059	.	-	0	HIMB1765_00971	HIMB1765	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1765_00972
+HIMB1765-00000000001	Prodigal:2.6	CDS	894060	896021	.	-	0	HIMB1765_00972	HIMB1765	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1765_00972
+HIMB1765-00000000001	Prodigal:2.6	CDS	896196	898673	.	+	0	HIMB1765_00973	HIMB1765	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1765_00972
+HIMB1765-00000000001	Prodigal:2.6	CDS	898678	899094	.	+	0	HIMB1765_00974	HIMB1765	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1765_00972
+HIMB1765-00000000001	Prodigal:2.6	CDS	899091	899417	.	+	0	HIMB1765_00975	HIMB1765	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1765_00972
+HIMB1765-00000000001	Prodigal:2.6	CDS	899374	900279	.	+	0	HIMB1765_00976	HIMB1765	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1765_00972
+HIMB1765-00000000001	Prodigal:2.6	CDS	900341	900439	.	-	0	HIMB1765_00977	HIMB1765	32	NA	NA	NA	NA	NA	NA	HIMB1765_00972
+HIMB1494-00000000001	Prodigal:2.6	CDS	151426	154470	.	-	0	HIMB1494_00157	HIMB1494	1014	OG0000240	K00163	pyruvate dehydrogenase E1 component [EC:1.2.4.1]	COG2609	AceE	Pyruvate dehydrogenase complex, dehydrogenase (E1) component	HIMB1494_00162
+HIMB1494-00000000001	Aragorn:1.2	tRNA	154618	154694	.	+	.	HIMB1494_00158	HIMB1494	NA	NA	NA	NA	NA	NA	NA	HIMB1494_00162
+HIMB1494-00000000001	Prodigal:2.6	CDS	154811	155236	.	+	0	HIMB1494_00159	HIMB1494	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1494_00162
+HIMB1494-00000000001	Prodigal:2.6	CDS	155233	157233	.	-	0	HIMB1494_00160	HIMB1494	666	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1494_00162
+HIMB1494-00000000001	Prodigal:2.6	CDS	157285	158292	.	-	0	HIMB1494_00161	HIMB1494	335	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1494_00162
+HIMB1494-00000000001	Prodigal:2.6	CDS	158375	160336	.	-	0	HIMB1494_00162	HIMB1494	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1494_00162
+HIMB1494-00000000001	Prodigal:2.6	CDS	160511	162988	.	+	0	HIMB1494_00163	HIMB1494	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1494_00162
+HIMB1494-00000000001	Prodigal:2.6	CDS	162993	163409	.	+	0	HIMB1494_00164	HIMB1494	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1494_00162
+HIMB1494-00000000001	Prodigal:2.6	CDS	163406	163732	.	+	0	HIMB1494_00165	HIMB1494	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1494_00162
+HIMB1494-00000000001	Prodigal:2.6	CDS	163689	164594	.	+	0	HIMB1494_00166	HIMB1494	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1494_00162
+HIMB1494-00000000001	Prodigal:2.6	CDS	164655	164753	.	-	0	HIMB1494_00167	HIMB1494	32	NA	NA	NA	NA	NA	NA	HIMB1494_00162
+HIMB1495-00000000001	Prodigal:2.6	CDS	128131	131175	.	-	0	HIMB1495_00135	HIMB1495	1014	OG0000240	K00163	pyruvate dehydrogenase E1 component [EC:1.2.4.1]	COG2609	AceE	Pyruvate dehydrogenase complex, dehydrogenase (E1) component	HIMB1495_00140
+HIMB1495-00000000001	Aragorn:1.2	tRNA	131323	131399	.	+	.	HIMB1495_00136	HIMB1495	NA	NA	NA	NA	NA	NA	NA	HIMB1495_00140
+HIMB1495-00000000001	Prodigal:2.6	CDS	131516	131941	.	+	0	HIMB1495_00137	HIMB1495	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1495_00140
+HIMB1495-00000000001	Prodigal:2.6	CDS	131938	133938	.	-	0	HIMB1495_00138	HIMB1495	666	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1495_00140
+HIMB1495-00000000001	Prodigal:2.6	CDS	133990	134997	.	-	0	HIMB1495_00139	HIMB1495	335	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1495_00140
+HIMB1495-00000000001	Prodigal:2.6	CDS	135080	137041	.	-	0	HIMB1495_00140	HIMB1495	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1495_00140
+HIMB1495-00000000001	Prodigal:2.6	CDS	137216	139693	.	+	0	HIMB1495_00141	HIMB1495	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1495_00140
+HIMB1495-00000000001	Prodigal:2.6	CDS	139698	140114	.	+	0	HIMB1495_00142	HIMB1495	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1495_00140
+HIMB1495-00000000001	Prodigal:2.6	CDS	140111	140437	.	+	0	HIMB1495_00143	HIMB1495	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1495_00140
+HIMB1495-00000000001	Prodigal:2.6	CDS	140394	141299	.	+	0	HIMB1495_00144	HIMB1495	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1495_00140
+HIMB1495-00000000001	Prodigal:2.6	CDS	141360	141458	.	-	0	HIMB1495_00145	HIMB1495	32	NA	NA	NA	NA	NA	NA	HIMB1495_00140
+HIMB1593-00000000001	Aragorn:1.2	tRNA	135982	136058	.	+	.	HIMB1593_00142	HIMB1593	NA	NA	NA	NA	NA	NA	NA	HIMB1593_00147
+HIMB1593-00000000001	Prodigal:2.6	CDS	136175	136600	.	+	0	HIMB1593_00143	HIMB1593	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1593_00147
+HIMB1593-00000000001	Prodigal:2.6	CDS	136602	138923	.	-	0	HIMB1593_00144	HIMB1593	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1593_00147
+HIMB1593-00000000001	Prodigal:2.6	CDS	138996	140000	.	-	0	HIMB1593_00145	HIMB1593	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1593_00147
+HIMB1593-00000000001	Prodigal:2.6	CDS	140085	141311	.	-	0	HIMB1593_00146	HIMB1593	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1593_00147
+HIMB1593-00000000001	Prodigal:2.6	CDS	141312	143273	.	-	0	HIMB1593_00147	HIMB1593	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1593_00147
+HIMB1593-00000000001	Prodigal:2.6	CDS	143448	145925	.	+	0	HIMB1593_00148	HIMB1593	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1593_00147
+HIMB1593-00000000001	Prodigal:2.6	CDS	145930	146346	.	+	0	HIMB1593_00149	HIMB1593	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1593_00147
+HIMB1593-00000000001	Prodigal:2.6	CDS	146343	146669	.	+	0	HIMB1593_00150	HIMB1593	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1593_00147
+HIMB1593-00000000001	Prodigal:2.6	CDS	146626	147531	.	+	0	HIMB1593_00151	HIMB1593	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1593_00147
+HIMB1593-00000000001	Prodigal:2.6	CDS	147593	147691	.	-	0	HIMB1593_00152	HIMB1593	32	NA	NA	NA	NA	NA	NA	HIMB1593_00147
+HIMB1509-00000000001	Aragorn:1.2	tRNA	125004	125080	.	+	NA	HIMB1509_00122	HIMB1509	NA	NA	NA	NA	NA	NA	NA	HIMB1509_00127
+HIMB1509-00000000001	Prodigal:2.6	CDS	125198	125623	.	+	0	HIMB1509_00123	HIMB1509	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1509_00127
+HIMB1509-00000000001	Prodigal:2.6	CDS	125625	127946	.	-	0	HIMB1509_00124	HIMB1509	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1509_00127
+HIMB1509-00000000001	Prodigal:2.6	CDS	128019	129023	.	-	0	HIMB1509_00125	HIMB1509	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1509_00127
+HIMB1509-00000000001	Prodigal:2.6	CDS	129108	130334	.	-	0	HIMB1509_00126	HIMB1509	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1509_00127
+HIMB1509-00000000001	Prodigal:2.6	CDS	130335	132296	.	-	0	HIMB1509_00127	HIMB1509	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1509_00127
+HIMB1509-00000000001	Prodigal:2.6	CDS	132471	134948	.	+	0	HIMB1509_00128	HIMB1509	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1509_00127
+HIMB1509-00000000001	Prodigal:2.6	CDS	134953	135369	.	+	0	HIMB1509_00129	HIMB1509	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1509_00127
+HIMB1509-00000000001	Prodigal:2.6	CDS	135366	135692	.	+	0	HIMB1509_00130	HIMB1509	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1509_00127
+HIMB1509-00000000001	Prodigal:2.6	CDS	135649	136554	.	+	0	HIMB1509_00131	HIMB1509	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1509_00127
+HIMB1509-00000000001	Prodigal:2.6	CDS	136616	136714	.	-	0	HIMB1509_00132	HIMB1509	32	NA	NA	NA	NA	NA	NA	HIMB1509_00127
+HIMB1485-00000000001	Prodigal:2.6	CDS	293856	293954	.	+	0	HIMB1485_00320	HIMB1485	32	NA	NA	NA	NA	NA	NA	HIMB1485_00325
+HIMB1485-00000000001	Prodigal:2.6	CDS	294015	294932	.	-	0	HIMB1485_00321	HIMB1485	305	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1485_00325
+HIMB1485-00000000001	Prodigal:2.6	CDS	294889	295215	.	-	0	HIMB1485_00322	HIMB1485	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1485_00325
+HIMB1485-00000000001	Prodigal:2.6	CDS	295212	295628	.	-	0	HIMB1485_00323	HIMB1485	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1485_00325
+HIMB1485-00000000001	Prodigal:2.6	CDS	295633	298110	.	-	0	HIMB1485_00324	HIMB1485	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1485_00325
+HIMB1485-00000000001	Prodigal:2.6	CDS	298285	300246	.	+	0	HIMB1485_00325	HIMB1485	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1485_00325
+HIMB1485-00000000001	Prodigal:2.6	CDS	300247	301473	.	+	0	HIMB1485_00326	HIMB1485	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1485_00325
+HIMB1485-00000000001	Prodigal:2.6	CDS	301558	302562	.	+	0	HIMB1485_00327	HIMB1485	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1485_00325
+HIMB1485-00000000001	Prodigal:2.6	CDS	302635	304956	.	+	0	HIMB1485_00328	HIMB1485	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1485_00325
+HIMB1485-00000000001	Prodigal:2.6	CDS	304958	305383	.	-	0	HIMB1485_00329	HIMB1485	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1485_00325
+HIMB1485-00000000001	Aragorn:1.2	tRNA	305500	305576	.	-	.	HIMB1485_00330	HIMB1485	NA	NA	NA	NA	NA	NA	NA	HIMB1485_00325
+HIMB1492-00000000018	Prodigal:2.6	CDS	1306	1452	.	+	0	HIMB1492_00380	HIMB1492	48	OG0003989	NA	NA	NA	NA	NA	HIMB1492_00383
+HIMB1492-00000000018	Prodigal:2.6	CDS	1854	2858	.	-	0	HIMB1492_00381	HIMB1492	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1492_00383
+HIMB1492-00000000018	Prodigal:2.6	CDS	2943	4169	.	-	0	HIMB1492_00382	HIMB1492	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1492_00383
+HIMB1492-00000000018	Prodigal:2.6	CDS	4170	6131	.	-	0	HIMB1492_00383	HIMB1492	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1492_00383
+HIMB1492-00000000018	Prodigal:2.6	CDS	6306	8783	.	+	0	HIMB1492_00384	HIMB1492	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1492_00383
+HIMB1492-00000000018	Prodigal:2.6	CDS	8788	9204	.	+	0	HIMB1492_00385	HIMB1492	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1492_00383
+HIMB1492-00000000018	Prodigal:2.6	CDS	9201	9527	.	+	0	HIMB1492_00386	HIMB1492	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1492_00383
+HIMB1492-00000000018	Prodigal:2.6	CDS	9484	10389	.	+	0	HIMB1492_00387	HIMB1492	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1492_00383
+HIMB1492-00000000018	Prodigal:2.6	CDS	10730	12427	.	-	0	HIMB1492_00388	HIMB1492	565	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HIMB1492_00383
+HIMB1493-00000000001	Prodigal:2.6	CDS	1294561	1294659	.	+	0	HIMB1493_01380	HIMB1493	32	NA	NA	NA	NA	NA	NA	HIMB1493_01385
+HIMB1493-00000000001	Prodigal:2.6	CDS	1294721	1295626	.	-	0	HIMB1493_01381	HIMB1493	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1493_01385
+HIMB1493-00000000001	Prodigal:2.6	CDS	1295583	1295909	.	-	0	HIMB1493_01382	HIMB1493	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1493_01385
+HIMB1493-00000000001	Prodigal:2.6	CDS	1295906	1296322	.	-	0	HIMB1493_01383	HIMB1493	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1493_01385
+HIMB1493-00000000001	Prodigal:2.6	CDS	1296327	1298804	.	-	0	HIMB1493_01384	HIMB1493	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1493_01385
+HIMB1493-00000000001	Prodigal:2.6	CDS	1298979	1300940	.	+	0	HIMB1493_01385	HIMB1493	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1493_01385
+HIMB1493-00000000001	Prodigal:2.6	CDS	1300941	1302167	.	+	0	HIMB1493_01386	HIMB1493	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1493_01385
+HIMB1493-00000000001	Prodigal:2.6	CDS	1302252	1303256	.	+	0	HIMB1493_01387	HIMB1493	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1493_01385
+HIMB1493-00000000001	Prodigal:2.6	CDS	1303329	1305650	.	+	0	HIMB1493_01388	HIMB1493	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1493_01385
+HIMB1493-00000000001	Prodigal:2.6	CDS	1305652	1306077	.	-	0	HIMB1493_01389	HIMB1493	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1493_01385
+HIMB1493-00000000001	Aragorn:1.2	tRNA	1306195	1306271	.	-	.	HIMB1493_01390	HIMB1493	NA	NA	NA	NA	NA	NA	NA	HIMB1493_01385
+HIMB1518-00000000001	Prodigal:2.6	CDS	1318	1416	.	+	0	HIMB1518_00002	HIMB1518	32	NA	NA	NA	NA	NA	NA	HIMB1518_00007
+HIMB1518-00000000001	Prodigal:2.6	CDS	1478	2383	.	-	0	HIMB1518_00003	HIMB1518	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1518_00007
+HIMB1518-00000000001	Prodigal:2.6	CDS	2340	2666	.	-	0	HIMB1518_00004	HIMB1518	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1518_00007
+HIMB1518-00000000001	Prodigal:2.6	CDS	2663	3079	.	-	0	HIMB1518_00005	HIMB1518	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1518_00007
+HIMB1518-00000000001	Prodigal:2.6	CDS	3084	5561	.	-	0	HIMB1518_00006	HIMB1518	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1518_00007
+HIMB1518-00000000001	Prodigal:2.6	CDS	5736	7697	.	+	0	HIMB1518_00007	HIMB1518	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1518_00007
+HIMB1518-00000000001	Prodigal:2.6	CDS	7698	8924	.	+	0	HIMB1518_00008	HIMB1518	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1518_00007
+HIMB1518-00000000001	Prodigal:2.6	CDS	9009	10013	.	+	0	HIMB1518_00009	HIMB1518	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1518_00007
+HIMB1518-00000000001	Prodigal:2.6	CDS	10086	12407	.	+	0	HIMB1518_00010	HIMB1518	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1518_00007
+HIMB1518-00000000001	Prodigal:2.6	CDS	12409	12834	.	-	0	HIMB1518_00011	HIMB1518	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1518_00007
+HIMB1518-00000000001	Aragorn:1.2	tRNA	12952	13028	.	-	.	HIMB1518_00012	HIMB1518	NA	NA	NA	NA	NA	NA	NA	HIMB1518_00007
+HIMB1770-00000000001	Prodigal:2.6	CDS	928289	928387	.	+	0	HIMB1770_01002	HIMB1770	32	NA	NA	NA	NA	NA	NA	HIMB1770_01007
+HIMB1770-00000000001	Prodigal:2.6	CDS	928449	929354	.	-	0	HIMB1770_01003	HIMB1770	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1770_01007
+HIMB1770-00000000001	Prodigal:2.6	CDS	929311	929637	.	-	0	HIMB1770_01004	HIMB1770	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1770_01007
+HIMB1770-00000000001	Prodigal:2.6	CDS	929634	930050	.	-	0	HIMB1770_01005	HIMB1770	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1770_01007
+HIMB1770-00000000001	Prodigal:2.6	CDS	930055	932532	.	-	0	HIMB1770_01006	HIMB1770	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1770_01007
+HIMB1770-00000000001	Prodigal:2.6	CDS	932707	934668	.	+	0	HIMB1770_01007	HIMB1770	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1770_01007
+HIMB1770-00000000001	Prodigal:2.6	CDS	934669	935895	.	+	0	HIMB1770_01008	HIMB1770	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1770_01007
+HIMB1770-00000000001	Prodigal:2.6	CDS	935980	936984	.	+	0	HIMB1770_01009	HIMB1770	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1770_01007
+HIMB1770-00000000001	Prodigal:2.6	CDS	937057	939378	.	+	0	HIMB1770_01010	HIMB1770	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1770_01007
+HIMB1770-00000000001	Prodigal:2.6	CDS	939380	939805	.	-	0	HIMB1770_01011	HIMB1770	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1770_01007
+HIMB1770-00000000001	Aragorn:1.2	tRNA	939923	939999	.	-	.	HIMB1770_01012	HIMB1770	NA	NA	NA	NA	NA	NA	NA	HIMB1770_01007
+HIMB1507-00000000001	Prodigal:2.6	CDS	545469	545567	.	+	0	HIMB1507_00561	HIMB1507	32	NA	NA	NA	NA	NA	NA	HIMB1507_00566
+HIMB1507-00000000001	Prodigal:2.6	CDS	545629	546534	.	-	0	HIMB1507_00562	HIMB1507	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1507_00566
+HIMB1507-00000000001	Prodigal:2.6	CDS	546491	546817	.	-	0	HIMB1507_00563	HIMB1507	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1507_00566
+HIMB1507-00000000001	Prodigal:2.6	CDS	546814	547230	.	-	0	HIMB1507_00564	HIMB1507	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1507_00566
+HIMB1507-00000000001	Prodigal:2.6	CDS	547235	549712	.	-	0	HIMB1507_00565	HIMB1507	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1507_00566
+HIMB1507-00000000001	Prodigal:2.6	CDS	549887	551848	.	+	0	HIMB1507_00566	HIMB1507	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1507_00566
+HIMB1507-00000000001	Prodigal:2.6	CDS	551849	553075	.	+	0	HIMB1507_00567	HIMB1507	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1507_00566
+HIMB1507-00000000001	Prodigal:2.6	CDS	553160	554164	.	+	0	HIMB1507_00568	HIMB1507	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1507_00566
+HIMB1507-00000000001	Prodigal:2.6	CDS	554237	556558	.	+	0	HIMB1507_00569	HIMB1507	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1507_00566
+HIMB1507-00000000001	Prodigal:2.6	CDS	556560	556985	.	-	0	HIMB1507_00570	HIMB1507	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1507_00566
+HIMB1507-00000000001	Aragorn:1.2	tRNA	557102	557178	.	-	.	HIMB1507_00571	HIMB1507	NA	NA	NA	NA	NA	NA	NA	HIMB1507_00566
+HIMB1526-00000000001	Prodigal:2.6	CDS	755	1759	.	-	0	HIMB1526_00001	HIMB1526	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1526_00003
+HIMB1526-00000000001	Prodigal:2.6	CDS	1844	3070	.	-	0	HIMB1526_00002	HIMB1526	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1526_00003
+HIMB1526-00000000001	Prodigal:2.6	CDS	3071	5032	.	-	0	HIMB1526_00003	HIMB1526	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1526_00003
+HIMB1526-00000000001	Prodigal:2.6	CDS	5207	7684	.	+	0	HIMB1526_00004	HIMB1526	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1526_00003
+HIMB1526-00000000001	Prodigal:2.6	CDS	7689	8105	.	+	0	HIMB1526_00005	HIMB1526	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1526_00003
+HIMB1526-00000000001	Prodigal:2.6	CDS	8102	8428	.	+	0	HIMB1526_00006	HIMB1526	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1526_00003
+HIMB1526-00000000001	Prodigal:2.6	CDS	8385	9290	.	+	0	HIMB1526_00007	HIMB1526	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1526_00003
+HIMB1526-00000000001	Prodigal:2.6	CDS	9352	9450	.	-	0	HIMB1526_00008	HIMB1526	32	NA	NA	NA	NA	NA	NA	HIMB1526_00003
+HIMB1552-00000000001	Aragorn:1.2	tRNA	977453	977529	.	+	.	HIMB1552_01049	HIMB1552	NA	NA	NA	NA	NA	NA	NA	HIMB1552_01054
+HIMB1552-00000000001	Prodigal:2.6	CDS	977646	978071	.	+	0	HIMB1552_01050	HIMB1552	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1552_01054
+HIMB1552-00000000001	Prodigal:2.6	CDS	978073	980394	.	-	0	HIMB1552_01051	HIMB1552	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1552_01054
+HIMB1552-00000000001	Prodigal:2.6	CDS	980467	981471	.	-	0	HIMB1552_01052	HIMB1552	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1552_01054
+HIMB1552-00000000001	Prodigal:2.6	CDS	981556	982782	.	-	0	HIMB1552_01053	HIMB1552	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1552_01054
+HIMB1552-00000000001	Prodigal:2.6	CDS	982783	984744	.	-	0	HIMB1552_01054	HIMB1552	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1552_01054
+HIMB1552-00000000001	Prodigal:2.6	CDS	984919	987396	.	+	0	HIMB1552_01055	HIMB1552	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1552_01054
+HIMB1552-00000000001	Prodigal:2.6	CDS	987401	987817	.	+	0	HIMB1552_01056	HIMB1552	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1552_01054
+HIMB1552-00000000001	Prodigal:2.6	CDS	987814	988140	.	+	0	HIMB1552_01057	HIMB1552	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1552_01054
+HIMB1552-00000000001	Prodigal:2.6	CDS	988160	989002	.	+	0	HIMB1552_01058	HIMB1552	280	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1552_01054
+HIMB1552-00000000001	Prodigal:2.6	CDS	989064	989162	.	-	0	HIMB1552_01059	HIMB1552	32	NA	NA	NA	NA	NA	NA	HIMB1552_01054
+HIMB1641-00000000001	Prodigal:2.6	CDS	439979	440077	.	+	0	HIMB1641_00455	HIMB1641	32	NA	NA	NA	NA	NA	NA	HIMB1641_00460
+HIMB1641-00000000001	Prodigal:2.6	CDS	440139	440981	.	-	0	HIMB1641_00456	HIMB1641	280	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1641_00460
+HIMB1641-00000000001	Prodigal:2.6	CDS	441001	441327	.	-	0	HIMB1641_00457	HIMB1641	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1641_00460
+HIMB1641-00000000001	Prodigal:2.6	CDS	441324	441740	.	-	0	HIMB1641_00458	HIMB1641	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1641_00460
+HIMB1641-00000000001	Prodigal:2.6	CDS	441745	444222	.	-	0	HIMB1641_00459	HIMB1641	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1641_00460
+HIMB1641-00000000001	Prodigal:2.6	CDS	444397	446358	.	+	0	HIMB1641_00460	HIMB1641	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1641_00460
+HIMB1641-00000000001	Prodigal:2.6	CDS	446359	447585	.	+	0	HIMB1641_00461	HIMB1641	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1641_00460
+HIMB1641-00000000001	Prodigal:2.6	CDS	447670	448674	.	+	0	HIMB1641_00462	HIMB1641	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1641_00460
+HIMB1641-00000000001	Prodigal:2.6	CDS	448747	451068	.	+	0	HIMB1641_00463	HIMB1641	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1641_00460
+HIMB1641-00000000001	Prodigal:2.6	CDS	451070	451495	.	-	0	HIMB1641_00464	HIMB1641	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1641_00460
+HIMB1641-00000000001	Aragorn:1.2	tRNA	451612	451688	.	-	NA	HIMB1641_00465	HIMB1641	NA	NA	NA	NA	NA	NA	NA	HIMB1641_00460
+HIMB1636-00000000001	Prodigal:2.6	CDS	1285262	1285360	.	+	0	HIMB1636_01351	HIMB1636	32	NA	NA	NA	NA	NA	NA	HIMB1636_01356
+HIMB1636-00000000001	Prodigal:2.6	CDS	1285422	1286264	.	-	0	HIMB1636_01352	HIMB1636	280	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1636_01356
+HIMB1636-00000000001	Prodigal:2.6	CDS	1286284	1286610	.	-	0	HIMB1636_01353	HIMB1636	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1636_01356
+HIMB1636-00000000001	Prodigal:2.6	CDS	1286607	1287023	.	-	0	HIMB1636_01354	HIMB1636	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1636_01356
+HIMB1636-00000000001	Prodigal:2.6	CDS	1287028	1289505	.	-	0	HIMB1636_01355	HIMB1636	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1636_01356
+HIMB1636-00000000001	Prodigal:2.6	CDS	1289680	1291641	.	+	0	HIMB1636_01356	HIMB1636	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1636_01356
+HIMB1636-00000000001	Prodigal:2.6	CDS	1291642	1292868	.	+	0	HIMB1636_01357	HIMB1636	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1636_01356
+HIMB1636-00000000001	Prodigal:2.6	CDS	1292953	1293957	.	+	0	HIMB1636_01358	HIMB1636	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1636_01356
+HIMB1636-00000000001	Prodigal:2.6	CDS	1294030	1296351	.	+	0	HIMB1636_01359	HIMB1636	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1636_01356
+HIMB1636-00000000001	Prodigal:2.6	CDS	1296353	1296778	.	-	0	HIMB1636_01360	HIMB1636	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1636_01356
+HIMB1636-00000000001	Aragorn:1.2	tRNA	1296895	1296971	.	-	NA	HIMB1636_01361	HIMB1636	NA	NA	NA	NA	NA	NA	NA	HIMB1636_01356
+HIMB1702-00000000001	Aragorn:1.2	tRNA	139205	139281	.	+	.	HIMB1702_00143	HIMB1702	NA	NA	NA	NA	NA	NA	NA	HIMB1702_00148
+HIMB1702-00000000001	Prodigal:2.6	CDS	139398	139823	.	+	0	HIMB1702_00144	HIMB1702	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1702_00148
+HIMB1702-00000000001	Prodigal:2.6	CDS	139825	142146	.	-	0	HIMB1702_00145	HIMB1702	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1702_00148
+HIMB1702-00000000001	Prodigal:2.6	CDS	142219	143223	.	-	0	HIMB1702_00146	HIMB1702	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1702_00148
+HIMB1702-00000000001	Prodigal:2.6	CDS	143308	144534	.	-	0	HIMB1702_00147	HIMB1702	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1702_00148
+HIMB1702-00000000001	Prodigal:2.6	CDS	144535	146496	.	-	0	HIMB1702_00148	HIMB1702	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1702_00148
+HIMB1702-00000000001	Prodigal:2.6	CDS	146671	149148	.	+	0	HIMB1702_00149	HIMB1702	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1702_00148
+HIMB1702-00000000001	Prodigal:2.6	CDS	149153	149569	.	+	0	HIMB1702_00150	HIMB1702	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1702_00148
+HIMB1702-00000000001	Prodigal:2.6	CDS	149566	149892	.	+	0	HIMB1702_00151	HIMB1702	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1702_00148
+HIMB1702-00000000001	Prodigal:2.6	CDS	149912	150754	.	+	0	HIMB1702_00152	HIMB1702	280	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1702_00148
+HIMB1702-00000000001	Prodigal:2.6	CDS	150816	150914	.	-	0	HIMB1702_00153	HIMB1702	32	NA	NA	NA	NA	NA	NA	HIMB1702_00148
+HIMB1710-00000000003	Aragorn:1.2	tRNA	115185	115261	.	+	.	HIMB1710_00140	HIMB1710	NA	NA	NA	NA	NA	NA	NA	HIMB1710_00145
+HIMB1710-00000000003	Prodigal:2.6	CDS	115378	115803	.	+	0	HIMB1710_00141	HIMB1710	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1710_00145
+HIMB1710-00000000003	Prodigal:2.6	CDS	115805	118126	.	-	0	HIMB1710_00142	HIMB1710	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1710_00145
+HIMB1710-00000000003	Prodigal:2.6	CDS	118199	119203	.	-	0	HIMB1710_00143	HIMB1710	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1710_00145
+HIMB1710-00000000003	Prodigal:2.6	CDS	119288	120514	.	-	0	HIMB1710_00144	HIMB1710	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1710_00145
+HIMB1710-00000000003	Prodigal:2.6	CDS	120515	122476	.	-	0	HIMB1710_00145	HIMB1710	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1710_00145
+HIMB1710-00000000003	Prodigal:2.6	CDS	122651	125128	.	+	0	HIMB1710_00146	HIMB1710	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1710_00145
+HIMB1710-00000000003	Prodigal:2.6	CDS	125133	125549	.	+	0	HIMB1710_00147	HIMB1710	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1710_00145
+HIMB1710-00000000003	Prodigal:2.6	CDS	125546	125872	.	+	0	HIMB1710_00148	HIMB1710	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1710_00145
+HIMB1710-00000000003	Prodigal:2.6	CDS	125892	126734	.	+	0	HIMB1710_00149	HIMB1710	280	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1710_00145
+HIMB1710-00000000003	Prodigal:2.6	CDS	126796	126894	.	-	0	HIMB1710_00150	HIMB1710	32	NA	NA	NA	NA	NA	NA	HIMB1710_00145
+HIMB1556-00000000001	Prodigal:2.6	CDS	439908	440006	.	+	0	HIMB1556_00454	HIMB1556	32	NA	NA	NA	NA	NA	NA	HIMB1556_00459
+HIMB1556-00000000001	Prodigal:2.6	CDS	440068	440910	.	-	0	HIMB1556_00455	HIMB1556	280	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1556_00459
+HIMB1556-00000000001	Prodigal:2.6	CDS	440930	441256	.	-	0	HIMB1556_00456	HIMB1556	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1556_00459
+HIMB1556-00000000001	Prodigal:2.6	CDS	441253	441669	.	-	0	HIMB1556_00457	HIMB1556	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1556_00459
+HIMB1556-00000000001	Prodigal:2.6	CDS	441674	444151	.	-	0	HIMB1556_00458	HIMB1556	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1556_00459
+HIMB1556-00000000001	Prodigal:2.6	CDS	444326	446287	.	+	0	HIMB1556_00459	HIMB1556	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1556_00459
+HIMB1556-00000000001	Prodigal:2.6	CDS	446288	447514	.	+	0	HIMB1556_00460	HIMB1556	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1556_00459
+HIMB1556-00000000001	Prodigal:2.6	CDS	447599	448603	.	+	0	HIMB1556_00461	HIMB1556	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1556_00459
+HIMB1556-00000000001	Prodigal:2.6	CDS	448676	450997	.	+	0	HIMB1556_00462	HIMB1556	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1556_00459
+HIMB1556-00000000001	Prodigal:2.6	CDS	450999	451424	.	-	0	HIMB1556_00463	HIMB1556	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1556_00459
+HIMB1556-00000000001	Aragorn:1.2	tRNA	451541	451617	.	-	NA	HIMB1556_00464	HIMB1556	NA	NA	NA	NA	NA	NA	NA	HIMB1556_00459
+HIMB1748-00000000001	Aragorn:1.2	tRNA	111986	112062	.	+	.	HIMB1748_00117	HIMB1748	NA	NA	NA	NA	NA	NA	NA	HIMB1748_00122
+HIMB1748-00000000001	Prodigal:2.6	CDS	112179	112604	.	+	0	HIMB1748_00118	HIMB1748	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1748_00122
+HIMB1748-00000000001	Prodigal:2.6	CDS	112606	114927	.	-	0	HIMB1748_00119	HIMB1748	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1748_00122
+HIMB1748-00000000001	Prodigal:2.6	CDS	115000	116004	.	-	0	HIMB1748_00120	HIMB1748	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1748_00122
+HIMB1748-00000000001	Prodigal:2.6	CDS	116089	117315	.	-	0	HIMB1748_00121	HIMB1748	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1748_00122
+HIMB1748-00000000001	Prodigal:2.6	CDS	117316	119277	.	-	0	HIMB1748_00122	HIMB1748	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1748_00122
+HIMB1748-00000000001	Prodigal:2.6	CDS	119452	121929	.	+	0	HIMB1748_00123	HIMB1748	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1748_00122
+HIMB1748-00000000001	Prodigal:2.6	CDS	121934	122350	.	+	0	HIMB1748_00124	HIMB1748	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1748_00122
+HIMB1748-00000000001	Prodigal:2.6	CDS	122347	122673	.	+	0	HIMB1748_00125	HIMB1748	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1748_00122
+HIMB1748-00000000001	Prodigal:2.6	CDS	122693	123535	.	+	0	HIMB1748_00126	HIMB1748	280	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1748_00122
+HIMB1748-00000000001	Prodigal:2.6	CDS	123597	123695	.	-	0	HIMB1748_00127	HIMB1748	32	NA	NA	NA	NA	NA	NA	HIMB1748_00122
+HIMB1662-00000000001	Prodigal:2.6	CDS	448753	448851	.	+	0	HIMB1662_00463	HIMB1662	32	NA	NA	NA	NA	NA	NA	HIMB1662_00468
+HIMB1662-00000000001	Prodigal:2.6	CDS	448913	449818	.	-	0	HIMB1662_00464	HIMB1662	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1662_00468
+HIMB1662-00000000001	Prodigal:2.6	CDS	449775	450101	.	-	0	HIMB1662_00465	HIMB1662	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1662_00468
+HIMB1662-00000000001	Prodigal:2.6	CDS	450098	450514	.	-	0	HIMB1662_00466	HIMB1662	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1662_00468
+HIMB1662-00000000001	Prodigal:2.6	CDS	450519	452996	.	-	0	HIMB1662_00467	HIMB1662	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1662_00468
+HIMB1662-00000000001	Prodigal:2.6	CDS	453171	455132	.	+	0	HIMB1662_00468	HIMB1662	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1662_00468
+HIMB1662-00000000001	Prodigal:2.6	CDS	455133	456359	.	+	0	HIMB1662_00469	HIMB1662	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1662_00468
+HIMB1662-00000000001	Prodigal:2.6	CDS	456444	457448	.	+	0	HIMB1662_00470	HIMB1662	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1662_00468
+HIMB1662-00000000001	Prodigal:2.6	CDS	457521	459842	.	+	0	HIMB1662_00471	HIMB1662	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1662_00468
+HIMB1662-00000000001	Prodigal:2.6	CDS	459844	460269	.	-	0	HIMB1662_00472	HIMB1662	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1662_00468
+HIMB1662-00000000001	Aragorn:1.2	tRNA	460386	460462	.	-	NA	HIMB1662_00473	HIMB1662	NA	NA	NA	NA	NA	NA	NA	HIMB1662_00468
+HIMB1723-00000000001	Prodigal:2.6	CDS	774292	774390	.	+	0	HIMB1723_00819	HIMB1723	32	NA	NA	NA	NA	NA	NA	HIMB1723_00824
+HIMB1723-00000000001	Prodigal:2.6	CDS	774452	775357	.	-	0	HIMB1723_00820	HIMB1723	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1723_00824
+HIMB1723-00000000001	Prodigal:2.6	CDS	775314	775640	.	-	0	HIMB1723_00821	HIMB1723	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1723_00824
+HIMB1723-00000000001	Prodigal:2.6	CDS	775637	776053	.	-	0	HIMB1723_00822	HIMB1723	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1723_00824
+HIMB1723-00000000001	Prodigal:2.6	CDS	776058	778535	.	-	0	HIMB1723_00823	HIMB1723	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1723_00824
+HIMB1723-00000000001	Prodigal:2.6	CDS	778710	780671	.	+	0	HIMB1723_00824	HIMB1723	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1723_00824
+HIMB1723-00000000001	Prodigal:2.6	CDS	780672	781898	.	+	0	HIMB1723_00825	HIMB1723	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1723_00824
+HIMB1723-00000000001	Prodigal:2.6	CDS	781983	782987	.	+	0	HIMB1723_00826	HIMB1723	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1723_00824
+HIMB1723-00000000001	Prodigal:2.6	CDS	783060	785381	.	+	0	HIMB1723_00827	HIMB1723	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1723_00824
+HIMB1723-00000000001	Prodigal:2.6	CDS	785383	785808	.	-	0	HIMB1723_00828	HIMB1723	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1723_00824
+HIMB1723-00000000001	Aragorn:1.2	tRNA	785925	786001	.	-	.	HIMB1723_00829	HIMB1723	NA	NA	NA	NA	NA	NA	NA	HIMB1723_00824
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	982353	982451	.	+	0	HIMB140_01070	HIMB140	32	NA	NA	NA	NA	NA	NA	HIMB140_01075
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	982513	983433	.	-	0	HIMB140_01071	HIMB140	306	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB140_01075
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	983375	983701	.	-	0	HIMB140_01072	HIMB140	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB140_01075
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	983698	984114	.	-	0	HIMB140_01073	HIMB140	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB140_01075
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	984119	986596	.	-	0	HIMB140_01074	HIMB140	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB140_01075
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	986771	988732	.	+	0	HIMB140_01075	HIMB140	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB140_01075
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	988733	989959	.	+	0	HIMB140_01076	HIMB140	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB140_01075
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	990044	991048	.	+	0	HIMB140_01077	HIMB140	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB140_01075
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	991121	993442	.	+	0	HIMB140_01078	HIMB140	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB140_01075
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	993444	993869	.	-	0	HIMB140_01079	HIMB140	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB140_01075
+NZ_LAMZ01000001.1	Aragorn:1.2	tRNA	993986	994062	.	-	.	HIMB140_01080	HIMB140	NA	NA	NA	NA	NA	NA	NA	HIMB140_01075
+HIMB1513-00000000001	Prodigal:2.6	CDS	510706	510804	.	+	0	HIMB1513_00525	HIMB1513	32	NA	NA	NA	NA	NA	NA	HIMB1513_00530
+HIMB1513-00000000001	Prodigal:2.6	CDS	510865	511770	.	-	0	HIMB1513_00526	HIMB1513	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1513_00530
+HIMB1513-00000000001	Prodigal:2.6	CDS	511727	512053	.	-	0	HIMB1513_00527	HIMB1513	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1513_00530
+HIMB1513-00000000001	Prodigal:2.6	CDS	512050	512466	.	-	0	HIMB1513_00528	HIMB1513	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1513_00530
+HIMB1513-00000000001	Prodigal:2.6	CDS	512471	514948	.	-	0	HIMB1513_00529	HIMB1513	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1513_00530
+HIMB1513-00000000001	Prodigal:2.6	CDS	515123	517084	.	+	0	HIMB1513_00530	HIMB1513	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1513_00530
+HIMB1513-00000000001	Prodigal:2.6	CDS	517085	518311	.	+	0	HIMB1513_00531	HIMB1513	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1513_00530
+HIMB1513-00000000001	Prodigal:2.6	CDS	518396	519400	.	+	0	HIMB1513_00532	HIMB1513	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1513_00530
+HIMB1513-00000000001	Prodigal:2.6	CDS	519475	521796	.	+	0	HIMB1513_00533	HIMB1513	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1513_00530
+HIMB1513-00000000001	Prodigal:2.6	CDS	521798	522223	.	-	0	HIMB1513_00534	HIMB1513	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1513_00530
+HIMB1513-00000000001	Aragorn:1.2	tRNA	522341	522417	.	-	NA	HIMB1513_00535	HIMB1513	NA	NA	NA	NA	NA	NA	NA	HIMB1513_00530
+HIMB1521-00000000008	Prodigal:2.6	CDS	60809	60907	.	+	0	HIMB1521_00876	HIMB1521	32	NA	NA	NA	NA	NA	NA	HIMB1521_00881
+HIMB1521-00000000008	Prodigal:2.6	CDS	60968	61873	.	-	0	HIMB1521_00877	HIMB1521	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1521_00881
+HIMB1521-00000000008	Prodigal:2.6	CDS	61830	62156	.	-	0	HIMB1521_00878	HIMB1521	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1521_00881
+HIMB1521-00000000008	Prodigal:2.6	CDS	62153	62569	.	-	0	HIMB1521_00879	HIMB1521	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1521_00881
+HIMB1521-00000000008	Prodigal:2.6	CDS	62574	65051	.	-	0	HIMB1521_00880	HIMB1521	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1521_00881
+HIMB1521-00000000008	Prodigal:2.6	CDS	65226	67187	.	+	0	HIMB1521_00881	HIMB1521	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1521_00881
+HIMB1521-00000000008	Prodigal:2.6	CDS	67188	68414	.	+	0	HIMB1521_00882	HIMB1521	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1521_00881
+HIMB1521-00000000008	Prodigal:2.6	CDS	68499	69503	.	+	0	HIMB1521_00883	HIMB1521	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1521_00881
+HIMB1521-00000000008	Prodigal:2.6	CDS	69578	71899	.	+	0	HIMB1521_00884	HIMB1521	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1521_00881
+HIMB1521-00000000008	Prodigal:2.6	CDS	71901	72326	.	-	0	HIMB1521_00885	HIMB1521	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1521_00881
+HIMB1521-00000000008	Aragorn:1.2	tRNA	72444	72520	.	-	.	HIMB1521_00886	HIMB1521	NA	NA	NA	NA	NA	NA	NA	HIMB1521_00881
+HIMB1430-00000000002	Aragorn:1.2	tRNA	9195	9271	.	+	NA	HIMB1430_00335	HIMB1430	NA	NA	NA	NA	NA	NA	NA	HIMB1430_00340
+HIMB1430-00000000002	Prodigal:2.6	CDS	9389	9814	.	+	0	HIMB1430_00336	HIMB1430	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1430_00340
+HIMB1430-00000000002	Prodigal:2.6	CDS	9816	12137	.	-	0	HIMB1430_00337	HIMB1430	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1430_00340
+HIMB1430-00000000002	Prodigal:2.6	CDS	12210	13214	.	-	0	HIMB1430_00338	HIMB1430	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1430_00340
+HIMB1430-00000000002	Prodigal:2.6	CDS	13299	14525	.	-	0	HIMB1430_00339	HIMB1430	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1430_00340
+HIMB1430-00000000002	Prodigal:2.6	CDS	14526	16487	.	-	0	HIMB1430_00340	HIMB1430	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1430_00340
+HIMB1430-00000000002	Prodigal:2.6	CDS	16662	19139	.	+	0	HIMB1430_00341	HIMB1430	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1430_00340
+HIMB1430-00000000002	Prodigal:2.6	CDS	19144	19560	.	+	0	HIMB1430_00342	HIMB1430	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1430_00340
+HIMB1430-00000000002	Prodigal:2.6	CDS	19557	19883	.	+	0	HIMB1430_00343	HIMB1430	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1430_00340
+HIMB1430-00000000002	Prodigal:2.6	CDS	19840	20745	.	+	0	HIMB1430_00344	HIMB1430	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1430_00340
+HIMB1430-00000000002	Prodigal:2.6	CDS	20807	20905	.	-	0	HIMB1430_00345	HIMB1430	32	NA	NA	NA	NA	NA	NA	HIMB1430_00340
+HIMB1611-00000000001	Prodigal:2.6	CDS	1309561	1309659	.	+	0	HIMB1611_01416	HIMB1611	32	NA	NA	NA	NA	NA	NA	HIMB1611_01421
+HIMB1611-00000000001	Prodigal:2.6	CDS	1309721	1310626	.	-	0	HIMB1611_01417	HIMB1611	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1611_01421
+HIMB1611-00000000001	Prodigal:2.6	CDS	1310583	1310909	.	-	0	HIMB1611_01418	HIMB1611	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1611_01421
+HIMB1611-00000000001	Prodigal:2.6	CDS	1310906	1311322	.	-	0	HIMB1611_01419	HIMB1611	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1611_01421
+HIMB1611-00000000001	Prodigal:2.6	CDS	1311327	1313804	.	-	0	HIMB1611_01420	HIMB1611	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1611_01421
+HIMB1611-00000000001	Prodigal:2.6	CDS	1313979	1315940	.	+	0	HIMB1611_01421	HIMB1611	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1611_01421
+HIMB1611-00000000001	Prodigal:2.6	CDS	1315941	1317167	.	+	0	HIMB1611_01422	HIMB1611	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1611_01421
+HIMB1611-00000000001	Prodigal:2.6	CDS	1317252	1318256	.	+	0	HIMB1611_01423	HIMB1611	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1611_01421
+HIMB1611-00000000001	Prodigal:2.6	CDS	1318329	1320650	.	+	0	HIMB1611_01424	HIMB1611	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1611_01421
+HIMB1611-00000000001	Prodigal:2.6	CDS	1320652	1321077	.	-	0	HIMB1611_01425	HIMB1611	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1611_01421
+HIMB1611-00000000001	Aragorn:1.2	tRNA	1321195	1321271	.	-	.	HIMB1611_01426	HIMB1611	NA	NA	NA	NA	NA	NA	NA	HIMB1611_01421
+HIMB1758-00000000001	Prodigal:2.6	CDS	514738	514836	.	+	0	HIMB1758_00528	HIMB1758	32	NA	NA	NA	NA	NA	NA	HIMB1758_00533
+HIMB1758-00000000001	Prodigal:2.6	CDS	514898	515803	.	-	0	HIMB1758_00529	HIMB1758	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1758_00533
+HIMB1758-00000000001	Prodigal:2.6	CDS	515760	516086	.	-	0	HIMB1758_00530	HIMB1758	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1758_00533
+HIMB1758-00000000001	Prodigal:2.6	CDS	516083	516499	.	-	0	HIMB1758_00531	HIMB1758	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1758_00533
+HIMB1758-00000000001	Prodigal:2.6	CDS	516504	518981	.	-	0	HIMB1758_00532	HIMB1758	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1758_00533
+HIMB1758-00000000001	Prodigal:2.6	CDS	519156	521117	.	+	0	HIMB1758_00533	HIMB1758	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1758_00533
+HIMB1758-00000000001	Prodigal:2.6	CDS	521118	522344	.	+	0	HIMB1758_00534	HIMB1758	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1758_00533
+HIMB1758-00000000001	Prodigal:2.6	CDS	522429	523433	.	+	0	HIMB1758_00535	HIMB1758	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1758_00533
+HIMB1758-00000000001	Prodigal:2.6	CDS	523506	525827	.	+	0	HIMB1758_00536	HIMB1758	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1758_00533
+HIMB1758-00000000001	Prodigal:2.6	CDS	525829	526254	.	-	0	HIMB1758_00537	HIMB1758	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1758_00533
+HIMB1758-00000000001	Aragorn:1.2	tRNA	526372	526448	.	-	.	HIMB1758_00538	HIMB1758	NA	NA	NA	NA	NA	NA	NA	HIMB1758_00533
+HIMB1488-00000000001	Aragorn:1.2	tRNA	1427513	1427589	.	+	.	HIMB1488_01537	HIMB1488	NA	NA	NA	NA	NA	NA	NA	HIMB1488_01542
+HIMB1488-00000000001	Prodigal:2.6	CDS	1427707	1428132	.	+	0	HIMB1488_01538	HIMB1488	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1488_01542
+HIMB1488-00000000001	Prodigal:2.6	CDS	1428134	1430455	.	-	0	HIMB1488_01539	HIMB1488	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1488_01542
+HIMB1488-00000000001	Prodigal:2.6	CDS	1430528	1431532	.	-	0	HIMB1488_01540	HIMB1488	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1488_01542
+HIMB1488-00000000001	Prodigal:2.6	CDS	1431618	1432844	.	-	0	HIMB1488_01541	HIMB1488	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1488_01542
+HIMB1488-00000000001	Prodigal:2.6	CDS	1432845	1434806	.	-	0	HIMB1488_01542	HIMB1488	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1488_01542
+HIMB1488-00000000001	Prodigal:2.6	CDS	1434981	1437458	.	+	0	HIMB1488_01543	HIMB1488	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1488_01542
+HIMB1488-00000000001	Prodigal:2.6	CDS	1437463	1437879	.	+	0	HIMB1488_01544	HIMB1488	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1488_01542
+HIMB1488-00000000001	Prodigal:2.6	CDS	1437876	1438202	.	+	0	HIMB1488_01545	HIMB1488	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1488_01542
+HIMB1488-00000000001	Prodigal:2.6	CDS	1438159	1439070	.	+	0	HIMB1488_01546	HIMB1488	303	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1488_01542
+HIMB1488-00000000001	Prodigal:2.6	CDS	1439132	1439230	.	-	0	HIMB1488_01547	HIMB1488	32	NA	NA	NA	NA	NA	NA	HIMB1488_01542
+HIMB1506-00000000001	Prodigal:2.6	CDS	1352841	1352939	.	+	0	HIMB1506_01455	HIMB1506	32	NA	NA	NA	NA	NA	NA	HIMB1506_01460
+HIMB1506-00000000001	Prodigal:2.6	CDS	1353000	1353905	.	-	0	HIMB1506_01456	HIMB1506	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1506_01460
+HIMB1506-00000000001	Prodigal:2.6	CDS	1353862	1354188	.	-	0	HIMB1506_01457	HIMB1506	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1506_01460
+HIMB1506-00000000001	Prodigal:2.6	CDS	1354185	1354601	.	-	0	HIMB1506_01458	HIMB1506	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1506_01460
+HIMB1506-00000000001	Prodigal:2.6	CDS	1354606	1357089	.	-	0	HIMB1506_01459	HIMB1506	827	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1506_01460
+HIMB1506-00000000001	Prodigal:2.6	CDS	1357264	1359225	.	+	0	HIMB1506_01460	HIMB1506	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1506_01460
+HIMB1506-00000000001	Prodigal:2.6	CDS	1359226	1360452	.	+	0	HIMB1506_01461	HIMB1506	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1506_01460
+HIMB1506-00000000001	Prodigal:2.6	CDS	1360536	1361540	.	+	0	HIMB1506_01462	HIMB1506	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1506_01460
+HIMB1506-00000000001	Prodigal:2.6	CDS	1361613	1363934	.	+	0	HIMB1506_01463	HIMB1506	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1506_01460
+HIMB1506-00000000001	Prodigal:2.6	CDS	1363936	1364361	.	-	0	HIMB1506_01464	HIMB1506	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1506_01460
+HIMB1506-00000000001	Aragorn:1.2	tRNA	1364479	1364555	.	-	.	HIMB1506_01465	HIMB1506	NA	NA	NA	NA	NA	NA	NA	HIMB1506_01460
+HIMB2211-00000000001	Prodigal:2.6	CDS	1316839	1317489	.	+	0	HIMB2211_01416	HIMB2211	216	OG0000170	NA	NA	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HIMB2211_01421
+HIMB2211-00000000001	Prodigal:2.6	CDS	1317849	1318754	.	-	0	HIMB2211_01417	HIMB2211	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB2211_01421
+HIMB2211-00000000001	Prodigal:2.6	CDS	1318711	1319037	.	-	0	HIMB2211_01418	HIMB2211	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB2211_01421
+HIMB2211-00000000001	Prodigal:2.6	CDS	1319034	1319450	.	-	0	HIMB2211_01419	HIMB2211	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB2211_01421
+HIMB2211-00000000001	Prodigal:2.6	CDS	1319455	1321932	.	-	0	HIMB2211_01420	HIMB2211	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB2211_01421
+HIMB2211-00000000001	Prodigal:2.6	CDS	1322107	1324068	.	+	0	HIMB2211_01421	HIMB2211	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB2211_01421
+HIMB2211-00000000001	Prodigal:2.6	CDS	1324069	1325295	.	+	0	HIMB2211_01422	HIMB2211	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB2211_01421
+HIMB2211-00000000001	Prodigal:2.6	CDS	1325379	1326383	.	+	0	HIMB2211_01423	HIMB2211	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB2211_01421
+HIMB2211-00000000001	Prodigal:2.6	CDS	1326456	1328777	.	+	0	HIMB2211_01424	HIMB2211	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB2211_01421
+HIMB2211-00000000001	Prodigal:2.6	CDS	1328779	1329204	.	-	0	HIMB2211_01425	HIMB2211	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB2211_01421
+HIMB2211-00000000001	Aragorn:1.2	tRNA	1329322	1329398	.	-	NA	HIMB2211_01426	HIMB2211	NA	NA	NA	NA	NA	NA	NA	HIMB2211_01421
+HIMB1746-00000000004	Prodigal:2.6	CDS	91875	91973	.	+	0	HIMB1746_01214	HIMB1746	32	NA	NA	NA	NA	NA	NA	HIMB1746_01219
+HIMB1746-00000000004	Prodigal:2.6	CDS	92035	92940	.	-	0	HIMB1746_01215	HIMB1746	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1746_01219
+HIMB1746-00000000004	Prodigal:2.6	CDS	92897	93223	.	-	0	HIMB1746_01216	HIMB1746	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1746_01219
+HIMB1746-00000000004	Prodigal:2.6	CDS	93220	93636	.	-	0	HIMB1746_01217	HIMB1746	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1746_01219
+HIMB1746-00000000004	Prodigal:2.6	CDS	93641	96118	.	-	0	HIMB1746_01218	HIMB1746	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1746_01219
+HIMB1746-00000000004	Prodigal:2.6	CDS	96293	98254	.	+	0	HIMB1746_01219	HIMB1746	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1746_01219
+HIMB1746-00000000004	Prodigal:2.6	CDS	98255	99481	.	+	0	HIMB1746_01220	HIMB1746	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1746_01219
+HIMB1746-00000000004	Prodigal:2.6	CDS	99566	100570	.	+	0	HIMB1746_01221	HIMB1746	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1746_01219
+HIMB1746-00000000004	Prodigal:2.6	CDS	100643	102964	.	+	0	HIMB1746_01222	HIMB1746	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1746_01219
+HIMB1746-00000000004	Prodigal:2.6	CDS	102966	103391	.	-	0	HIMB1746_01223	HIMB1746	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1746_01219
+HIMB1746-00000000004	Aragorn:1.2	tRNA	103508	103584	.	-	.	HIMB1746_01224	HIMB1746	NA	NA	NA	NA	NA	NA	NA	HIMB1746_01219
+HIMB1542-00000000002	Prodigal:2.6	CDS	518236	518334	.	+	0	HIMB1542_01411	HIMB1542	32	NA	NA	NA	NA	NA	NA	HIMB1542_01416
+HIMB1542-00000000002	Prodigal:2.6	CDS	518396	519301	.	-	0	HIMB1542_01412	HIMB1542	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1542_01416
+HIMB1542-00000000002	Prodigal:2.6	CDS	519258	519584	.	-	0	HIMB1542_01413	HIMB1542	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1542_01416
+HIMB1542-00000000002	Prodigal:2.6	CDS	519581	519997	.	-	0	HIMB1542_01414	HIMB1542	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1542_01416
+HIMB1542-00000000002	Prodigal:2.6	CDS	520002	522479	.	-	0	HIMB1542_01415	HIMB1542	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1542_01416
+HIMB1542-00000000002	Prodigal:2.6	CDS	522654	524615	.	+	0	HIMB1542_01416	HIMB1542	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1542_01416
+HIMB1542-00000000002	Prodigal:2.6	CDS	524616	525842	.	+	0	HIMB1542_01417	HIMB1542	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1542_01416
+HIMB1542-00000000002	Prodigal:2.6	CDS	525925	526929	.	+	0	HIMB1542_01418	HIMB1542	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1542_01416
+HIMB1542-00000000002	Prodigal:2.6	CDS	527002	529323	.	+	0	HIMB1542_01419	HIMB1542	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1542_01416
+HIMB1542-00000000002	Prodigal:2.6	CDS	529325	529750	.	-	0	HIMB1542_01420	HIMB1542	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1542_01416
+HIMB1542-00000000002	Aragorn:1.2	tRNA	529868	529944	.	-	.	HIMB1542_01421	HIMB1542	NA	NA	NA	NA	NA	NA	NA	HIMB1542_01416
+HIMB1695-00000000001	Prodigal:2.6	CDS	1070402	1070500	.	+	0	HIMB1695_01169	HIMB1695	32	NA	NA	NA	NA	NA	NA	HIMB1695_01174
+HIMB1695-00000000001	Prodigal:2.6	CDS	1070562	1071467	.	-	0	HIMB1695_01170	HIMB1695	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1695_01174
+HIMB1695-00000000001	Prodigal:2.6	CDS	1071424	1071750	.	-	0	HIMB1695_01171	HIMB1695	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1695_01174
+HIMB1695-00000000001	Prodigal:2.6	CDS	1071747	1072163	.	-	0	HIMB1695_01172	HIMB1695	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1695_01174
+HIMB1695-00000000001	Prodigal:2.6	CDS	1072168	1074645	.	-	0	HIMB1695_01173	HIMB1695	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1695_01174
+HIMB1695-00000000001	Prodigal:2.6	CDS	1074820	1076781	.	+	0	HIMB1695_01174	HIMB1695	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1695_01174
+HIMB1695-00000000001	Prodigal:2.6	CDS	1076782	1078008	.	+	0	HIMB1695_01175	HIMB1695	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1695_01174
+HIMB1695-00000000001	Prodigal:2.6	CDS	1078093	1079097	.	+	0	HIMB1695_01176	HIMB1695	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1695_01174
+HIMB1695-00000000001	Prodigal:2.6	CDS	1079169	1081490	.	+	0	HIMB1695_01177	HIMB1695	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1695_01174
+HIMB1695-00000000001	Prodigal:2.6	CDS	1081492	1081917	.	-	0	HIMB1695_01178	HIMB1695	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1695_01174
+HIMB1695-00000000001	Aragorn:1.2	tRNA	1082035	1082111	.	-	.	HIMB1695_01179	HIMB1695	NA	NA	NA	NA	NA	NA	NA	HIMB1695_01174
+HIMB1577-00000000001	Aragorn:1.2	tRNA	587187	587263	.	+	.	HIMB1577_00628	HIMB1577	NA	NA	NA	NA	NA	NA	NA	HIMB1577_00633
+HIMB1577-00000000001	Prodigal:2.6	CDS	587381	587806	.	+	0	HIMB1577_00629	HIMB1577	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1577_00633
+HIMB1577-00000000001	Prodigal:2.6	CDS	587808	590129	.	-	0	HIMB1577_00630	HIMB1577	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1577_00633
+HIMB1577-00000000001	Prodigal:2.6	CDS	590202	591206	.	-	0	HIMB1577_00631	HIMB1577	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1577_00633
+HIMB1577-00000000001	Prodigal:2.6	CDS	591291	592517	.	-	0	HIMB1577_00632	HIMB1577	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1577_00633
+HIMB1577-00000000001	Prodigal:2.6	CDS	592518	594479	.	-	0	HIMB1577_00633	HIMB1577	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1577_00633
+HIMB1577-00000000001	Prodigal:2.6	CDS	594654	597131	.	+	0	HIMB1577_00634	HIMB1577	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1577_00633
+HIMB1577-00000000001	Prodigal:2.6	CDS	597136	597552	.	+	0	HIMB1577_00635	HIMB1577	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1577_00633
+HIMB1577-00000000001	Prodigal:2.6	CDS	597549	597875	.	+	0	HIMB1577_00636	HIMB1577	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1577_00633
+HIMB1577-00000000001	Prodigal:2.6	CDS	597832	598737	.	+	0	HIMB1577_00637	HIMB1577	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1577_00633
+HIMB1577-00000000001	Prodigal:2.6	CDS	598799	598897	.	-	0	HIMB1577_00638	HIMB1577	32	NA	NA	NA	NA	NA	NA	HIMB1577_00633
+HIMB1631-00000000001	Aragorn:1.2	tRNA	916949	917025	.	+	.	HIMB1631_00996	HIMB1631	NA	NA	NA	NA	NA	NA	NA	HIMB1631_01001
+HIMB1631-00000000001	Prodigal:2.6	CDS	917143	917568	.	+	0	HIMB1631_00997	HIMB1631	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1631_01001
+HIMB1631-00000000001	Prodigal:2.6	CDS	917570	919891	.	-	0	HIMB1631_00998	HIMB1631	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1631_01001
+HIMB1631-00000000001	Prodigal:2.6	CDS	919964	920968	.	-	0	HIMB1631_00999	HIMB1631	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1631_01001
+HIMB1631-00000000001	Prodigal:2.6	CDS	921053	922279	.	-	0	HIMB1631_01000	HIMB1631	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1631_01001
+HIMB1631-00000000001	Prodigal:2.6	CDS	922280	924241	.	-	0	HIMB1631_01001	HIMB1631	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1631_01001
+HIMB1631-00000000001	Prodigal:2.6	CDS	924416	926893	.	+	0	HIMB1631_01002	HIMB1631	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1631_01001
+HIMB1631-00000000001	Prodigal:2.6	CDS	926898	927314	.	+	0	HIMB1631_01003	HIMB1631	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1631_01001
+HIMB1631-00000000001	Prodigal:2.6	CDS	927311	927637	.	+	0	HIMB1631_01004	HIMB1631	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1631_01001
+HIMB1631-00000000001	Prodigal:2.6	CDS	927594	928499	.	+	0	HIMB1631_01005	HIMB1631	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1631_01001
+HIMB1631-00000000001	Prodigal:2.6	CDS	928561	928659	.	-	0	HIMB1631_01006	HIMB1631	32	NA	NA	NA	NA	NA	NA	HIMB1631_01001
+HIMB1715-00000000002	Prodigal:2.6	CDS	58553	58651	.	+	0	HIMB1715_00109	HIMB1715	32	NA	NA	NA	NA	NA	NA	HIMB1715_00114
+HIMB1715-00000000002	Prodigal:2.6	CDS	58713	59618	.	-	0	HIMB1715_00110	HIMB1715	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1715_00114
+HIMB1715-00000000002	Prodigal:2.6	CDS	59575	59901	.	-	0	HIMB1715_00111	HIMB1715	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1715_00114
+HIMB1715-00000000002	Prodigal:2.6	CDS	59898	60314	.	-	0	HIMB1715_00112	HIMB1715	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1715_00114
+HIMB1715-00000000002	Prodigal:2.6	CDS	60319	62796	.	-	0	HIMB1715_00113	HIMB1715	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1715_00114
+HIMB1715-00000000002	Prodigal:2.6	CDS	62971	64929	.	+	0	HIMB1715_00114	HIMB1715	652	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1715_00114
+HIMB1715-00000000002	Prodigal:2.6	CDS	64933	66159	.	+	0	HIMB1715_00115	HIMB1715	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1715_00114
+HIMB1715-00000000002	Prodigal:2.6	CDS	66244	67248	.	+	0	HIMB1715_00116	HIMB1715	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1715_00114
+HIMB1715-00000000002	Prodigal:2.6	CDS	67321	69642	.	+	0	HIMB1715_00117	HIMB1715	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1715_00114
+HIMB1715-00000000002	Prodigal:2.6	CDS	69644	70069	.	-	0	HIMB1715_00118	HIMB1715	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1715_00114
+HIMB1715-00000000002	Aragorn:1.2	tRNA	70187	70263	.	-	.	HIMB1715_00119	HIMB1715	NA	NA	NA	NA	NA	NA	NA	HIMB1715_00114
+HIMB1701-00000000001	Prodigal:2.6	CDS	1021137	1021235	.	+	0	HIMB1701_01106	HIMB1701	32	NA	NA	NA	NA	NA	NA	HIMB1701_01111
+HIMB1701-00000000001	Prodigal:2.6	CDS	1021296	1022201	.	-	0	HIMB1701_01107	HIMB1701	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1701_01111
+HIMB1701-00000000001	Prodigal:2.6	CDS	1022158	1022484	.	-	0	HIMB1701_01108	HIMB1701	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1701_01111
+HIMB1701-00000000001	Prodigal:2.6	CDS	1022481	1022897	.	-	0	HIMB1701_01109	HIMB1701	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1701_01111
+HIMB1701-00000000001	Prodigal:2.6	CDS	1022902	1025379	.	-	0	HIMB1701_01110	HIMB1701	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1701_01111
+HIMB1701-00000000001	Prodigal:2.6	CDS	1025554	1027515	.	+	0	HIMB1701_01111	HIMB1701	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1701_01111
+HIMB1701-00000000001	Prodigal:2.6	CDS	1027516	1028742	.	+	0	HIMB1701_01112	HIMB1701	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1701_01111
+HIMB1701-00000000001	Prodigal:2.6	CDS	1028827	1029831	.	+	0	HIMB1701_01113	HIMB1701	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1701_01111
+HIMB1701-00000000001	Prodigal:2.6	CDS	1029904	1032225	.	+	0	HIMB1701_01114	HIMB1701	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1701_01111
+HIMB1701-00000000001	Prodigal:2.6	CDS	1032227	1032652	.	-	0	HIMB1701_01115	HIMB1701	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1701_01111
+HIMB1701-00000000001	Aragorn:1.2	tRNA	1032770	1032846	.	-	.	HIMB1701_01116	HIMB1701	NA	NA	NA	NA	NA	NA	NA	HIMB1701_01111
+HIMB1782-00000000001	Prodigal:2.6	CDS	722990	723088	.	+	0	HIMB1782_00766	HIMB1782	32	NA	NA	NA	NA	NA	NA	HIMB1782_00771
+HIMB1782-00000000001	Prodigal:2.6	CDS	723150	724055	.	-	0	HIMB1782_00767	HIMB1782	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1782_00771
+HIMB1782-00000000001	Prodigal:2.6	CDS	724012	724338	.	-	0	HIMB1782_00768	HIMB1782	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1782_00771
+HIMB1782-00000000001	Prodigal:2.6	CDS	724335	724751	.	-	0	HIMB1782_00769	HIMB1782	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1782_00771
+HIMB1782-00000000001	Prodigal:2.6	CDS	724756	727233	.	-	0	HIMB1782_00770	HIMB1782	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1782_00771
+HIMB1782-00000000001	Prodigal:2.6	CDS	727408	729369	.	+	0	HIMB1782_00771	HIMB1782	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1782_00771
+HIMB1782-00000000001	Prodigal:2.6	CDS	729370	730596	.	+	0	HIMB1782_00772	HIMB1782	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1782_00771
+HIMB1782-00000000001	Prodigal:2.6	CDS	730681	731685	.	+	0	HIMB1782_00773	HIMB1782	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1782_00771
+HIMB1782-00000000001	Prodigal:2.6	CDS	731758	734079	.	+	0	HIMB1782_00774	HIMB1782	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1782_00771
+HIMB1782-00000000001	Prodigal:2.6	CDS	734081	734506	.	-	0	HIMB1782_00775	HIMB1782	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1782_00771
+HIMB1782-00000000001	Aragorn:1.2	tRNA	734624	734700	.	-	.	HIMB1782_00776	HIMB1782	NA	NA	NA	NA	NA	NA	NA	HIMB1782_00771
+HIMB1602-00000000009	Aragorn:1.2	tRNA	5341	5417	.	+	.	HIMB1602_00169	HIMB1602	NA	NA	NA	NA	NA	NA	NA	HIMB1602_00174
+HIMB1602-00000000009	Prodigal:2.6	CDS	5535	5960	.	+	0	HIMB1602_00170	HIMB1602	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1602_00174
+HIMB1602-00000000009	Prodigal:2.6	CDS	5962	8283	.	-	0	HIMB1602_00171	HIMB1602	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1602_00174
+HIMB1602-00000000009	Prodigal:2.6	CDS	8356	9360	.	-	0	HIMB1602_00172	HIMB1602	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1602_00174
+HIMB1602-00000000009	Prodigal:2.6	CDS	9445	10671	.	-	0	HIMB1602_00173	HIMB1602	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1602_00174
+HIMB1602-00000000009	Prodigal:2.6	CDS	10672	12633	.	-	0	HIMB1602_00174	HIMB1602	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1602_00174
+HIMB1602-00000000009	Prodigal:2.6	CDS	12808	15285	.	+	0	HIMB1602_00175	HIMB1602	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1602_00174
+HIMB1602-00000000009	Prodigal:2.6	CDS	15290	15706	.	+	0	HIMB1602_00176	HIMB1602	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1602_00174
+HIMB1602-00000000009	Prodigal:2.6	CDS	15703	16029	.	+	0	HIMB1602_00177	HIMB1602	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1602_00174
+HIMB1602-00000000009	Prodigal:2.6	CDS	15971	16891	.	+	0	HIMB1602_00178	HIMB1602	306	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1602_00174
+HIMB1602-00000000009	Prodigal:2.6	CDS	16953	17051	.	-	0	HIMB1602_00179	HIMB1602	32	NA	NA	NA	NA	NA	NA	HIMB1602_00174
+HIMB1623-00000000013	Aragorn:1.2	tRNA	114378	114454	.	+	.	HIMB1623_01042	HIMB1623	NA	NA	NA	NA	NA	NA	NA	HIMB1623_01047
+HIMB1623-00000000013	Prodigal:2.6	CDS	114571	114996	.	+	0	HIMB1623_01043	HIMB1623	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1623_01047
+HIMB1623-00000000013	Prodigal:2.6	CDS	114998	117319	.	-	0	HIMB1623_01044	HIMB1623	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1623_01047
+HIMB1623-00000000013	Prodigal:2.6	CDS	117392	118396	.	-	0	HIMB1623_01045	HIMB1623	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1623_01047
+HIMB1623-00000000013	Prodigal:2.6	CDS	118481	119707	.	-	0	HIMB1623_01046	HIMB1623	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1623_01047
+HIMB1623-00000000013	Prodigal:2.6	CDS	119708	121669	.	-	0	HIMB1623_01047	HIMB1623	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1623_01047
+HIMB1623-00000000013	Prodigal:2.6	CDS	121844	124321	.	+	0	HIMB1623_01048	HIMB1623	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1623_01047
+HIMB1623-00000000013	Prodigal:2.6	CDS	124326	124742	.	+	0	HIMB1623_01049	HIMB1623	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1623_01047
+HIMB1623-00000000013	Prodigal:2.6	CDS	124739	125065	.	+	0	HIMB1623_01050	HIMB1623	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1623_01047
+HIMB1623-00000000013	Prodigal:2.6	CDS	125022	125927	.	+	0	HIMB1623_01051	HIMB1623	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1623_01047
+HIMB1623-00000000013	Prodigal:2.6	CDS	125989	126090	.	-	0	HIMB1623_01052	HIMB1623	33	NA	NA	NA	NA	NA	NA	HIMB1623_01047
+HIMB1709-00000000001	Prodigal:2.6	CDS	1024642	1024743	.	+	0	HIMB1709_01123	HIMB1709	33	NA	NA	NA	NA	NA	NA	HIMB1709_01128
+HIMB1709-00000000001	Prodigal:2.6	CDS	1024804	1025709	.	-	0	HIMB1709_01124	HIMB1709	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB1709_01128
+HIMB1709-00000000001	Prodigal:2.6	CDS	1025666	1025992	.	-	0	HIMB1709_01125	HIMB1709	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB1709_01128
+HIMB1709-00000000001	Prodigal:2.6	CDS	1025989	1026405	.	-	0	HIMB1709_01126	HIMB1709	138	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB1709_01128
+HIMB1709-00000000001	Prodigal:2.6	CDS	1026410	1028887	.	-	0	HIMB1709_01127	HIMB1709	825	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB1709_01128
+HIMB1709-00000000001	Prodigal:2.6	CDS	1029062	1031023	.	+	0	HIMB1709_01128	HIMB1709	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1709_01128
+HIMB1709-00000000001	Prodigal:2.6	CDS	1031024	1032250	.	+	0	HIMB1709_01129	HIMB1709	408	OG0001181	NA	NA	COG0436	AspB	Aspartate/methionine/tyrosine aminotransferase	HIMB1709_01128
+HIMB1709-00000000001	Prodigal:2.6	CDS	1032335	1033339	.	+	0	HIMB1709_01130	HIMB1709	334	OG0001120	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	HIMB1709_01128
+HIMB1709-00000000001	Prodigal:2.6	CDS	1033412	1035733	.	+	0	HIMB1709_01131	HIMB1709	773	OG0001123	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	HIMB1709_01128
+HIMB1709-00000000001	Prodigal:2.6	CDS	1035735	1036160	.	-	0	HIMB1709_01132	HIMB1709	141	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1709_01128
+HIMB1709-00000000001	Aragorn:1.2	tRNA	1036277	1036353	.	-	.	HIMB1709_01133	HIMB1709	NA	NA	NA	NA	NA	NA	NA	HIMB1709_01128
+CP020778.1	Prodigal:2.6	CDS	676559	678259	.	+	0	RS40_00738	RS40	566	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	RS40_00743
+CP020778.1	Prodigal:2.6	CDS	678587	679420	.	-	0	RS40_00739	RS40	277	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	RS40_00743
+CP020778.1	Prodigal:2.6	CDS	679380	679709	.	-	0	RS40_00740	RS40	109	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	RS40_00743
+CP020778.1	Prodigal:2.6	CDS	679709	680128	.	-	0	RS40_00741	RS40	139	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	RS40_00743
+CP020778.1	Prodigal:2.6	CDS	680121	682613	.	-	0	RS40_00742	RS40	830	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	RS40_00743
+CP020778.1	Prodigal:2.6	CDS	682777	684732	.	+	0	RS40_00743	RS40	651	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	RS40_00743
+CP020778.1	Prodigal:2.6	CDS	684742	685146	.	-	0	RS40_00744	RS40	134	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	RS40_00743
+CP020778.1	Aragorn:1.2	tRNA	685243	685319	.	-	.	RS40_00745	RS40	NA	NA	NA	NA	NA	NA	NA	RS40_00743
+CP020778.1	Prodigal:2.6	CDS	685440	688472	.	+	0	RS40_00746	RS40	1010	OG0000240	K00163	pyruvate dehydrogenase E1 component [EC:1.2.4.1]	COG2609	AceE	Pyruvate dehydrogenase complex, dehydrogenase (E1) component	RS40_00743
+CP020778.1	Prodigal:2.6	CDS	688472	689743	.	+	0	RS40_00747	RS40	423	OG0000793	NA	NA	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	RS40_00743
+CP020778.1	Prodigal:2.6	CDS	689755	690852	.	+	0	RS40_00748	RS40	365	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	RS40_00743
+HIMB2305-00000000010	Prodigal:2.6	CDS	71603	73303	.	+	0	HIMB2305_00808	HIMB2305	566	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HIMB2305_00813
+HIMB2305-00000000010	Prodigal:2.6	CDS	73630	74463	.	-	0	HIMB2305_00809	HIMB2305	277	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HIMB2305_00813
+HIMB2305-00000000010	Prodigal:2.6	CDS	74423	74752	.	-	0	HIMB2305_00810	HIMB2305	109	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HIMB2305_00813
+HIMB2305-00000000010	Prodigal:2.6	CDS	74752	75171	.	-	0	HIMB2305_00811	HIMB2305	139	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HIMB2305_00813
+HIMB2305-00000000010	Prodigal:2.6	CDS	75171	77657	.	-	0	HIMB2305_00812	HIMB2305	828	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HIMB2305_00813
+HIMB2305-00000000010	Prodigal:2.6	CDS	77821	79776	.	+	0	HIMB2305_00813	HIMB2305	651	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB2305_00813
+HIMB2305-00000000010	Prodigal:2.6	CDS	79786	80190	.	-	0	HIMB2305_00814	HIMB2305	134	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB2305_00813
+HIMB2305-00000000010	Aragorn:1.2	tRNA	80287	80363	.	-	.	HIMB2305_00815	HIMB2305	NA	NA	NA	NA	NA	NA	NA	HIMB2305_00813
+HIMB2305-00000000010	Prodigal:2.6	CDS	80484	83516	.	+	0	HIMB2305_00816	HIMB2305	1010	OG0000240	K00163	pyruvate dehydrogenase E1 component [EC:1.2.4.1]	COG2609	AceE	Pyruvate dehydrogenase complex, dehydrogenase (E1) component	HIMB2305_00813
+HIMB2305-00000000010	Prodigal:2.6	CDS	83516	84787	.	+	0	HIMB2305_00817	HIMB2305	423	OG0000793	NA	NA	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HIMB2305_00813
+HIMB2305-00000000010	Prodigal:2.6	CDS	84799	85896	.	+	0	HIMB2305_00818	HIMB2305	365	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	HIMB2305_00813
+ATTF01000005.1	Prodigal:2.6	CDS	9002	10327	.	+	0	HIMB058_00349	HIMB058	441	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB058_00354
+ATTF01000005.1	Prodigal:2.6	CDS	10322	10696	.	-	0	HIMB058_00350	HIMB058	124	OG0000244	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB058_00354
+ATTF01000005.1	Prodigal:2.6	CDS	10683	11585	.	-	0	HIMB058_00351	HIMB058	300	OG0000729	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB058_00354
+ATTF01000005.1	Prodigal:2.6	CDS	11588	12850	.	-	0	HIMB058_00352	HIMB058	420	OG0000793	NA	NA	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	HIMB058_00354
+ATTF01000005.1	Prodigal:2.6	CDS	12851	15994	.	-	0	HIMB058_00353	HIMB058	1047	OG0000240	K00163	pyruvate dehydrogenase E1 component [EC:1.2.4.1]	COG2609	AceE	Pyruvate dehydrogenase complex, dehydrogenase (E1) component	HIMB058_00354
+ATTF01000005.1	Prodigal:2.6	CDS	16129	18057	.	+	0	HIMB058_00354	HIMB058	642	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB058_00354
+ATTF01000005.1	Prodigal:2.6	CDS	18045	18941	.	-	0	HIMB058_00355	HIMB058	298	OG0001023	K11418	histone deacetylase 11 [EC:3.5.1.98]	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	HIMB058_00354
+ATTF01000005.1	Prodigal:2.6	CDS	18953	20125	.	-	0	HIMB058_00356	HIMB058	390	OG0000085	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	HIMB058_00354
+ATTF01000005.1	Prodigal:2.6	CDS	20144	21463	.	-	0	HIMB058_00357	HIMB058	439	OG0000877	NA	NA	COG3307	RfaL	O-antigen ligase	HIMB058_00354
+ATTF01000005.1	Aragorn:1.2	tRNA	21535	21611	.	+	.	HIMB058_00358	HIMB058	NA	NA	NA	NA	NA	NA	NA	HIMB058_00354
+ATTF01000005.1	Prodigal:2.6	CDS	21687	22478	.	+	0	HIMB058_00359	HIMB058	263	OG0001240	NA	NA	NA	NA	NA	HIMB058_00354
+HIMB109-00000000001	Prodigal:2.6	CDS	80665	81525	.	+	0	HIMB109_00116	HIMB109	286	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	HIMB109_00121
+HIMB109-00000000001	Prodigal:2.6	CDS	81522	82193	.	+	0	HIMB109_00117	HIMB109	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	HIMB109_00121
+HIMB109-00000000001	Prodigal:2.6	CDS	82193	83002	.	+	0	HIMB109_00118	HIMB109	269	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	HIMB109_00121
+HIMB109-00000000001	Prodigal:2.6	CDS	83006	84166	.	+	0	HIMB109_00119	HIMB109	386	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	HIMB109_00121
+HIMB109-00000000001	Prodigal:2.6	CDS	84163	85086	.	+	0	HIMB109_00120	HIMB109	307	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	HIMB109_00121
+HIMB109-00000000001	Prodigal:2.6	CDS	85083	87017	.	-	0	HIMB109_00121	HIMB109	644	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB109_00121
+HIMB109-00000000001	Prodigal:2.6	CDS	87019	87756	.	-	0	HIMB109_00122	HIMB109	245	OG0000136	K06173	tRNA pseudouridine38-40 synthase [EC:5.4.99.12]	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	HIMB109_00121
+HIMB109-00000000001	Prodigal:2.6	CDS	87756	88646	.	-	0	HIMB109_00123	HIMB109	296	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB109_00121
+HIMB109-00000000001	Prodigal:2.6	CDS	88660	89175	.	-	0	HIMB109_00124	HIMB109	171	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	HIMB109_00121
+HIMB109-00000000001	Prodigal:2.6	CDS	89176	89793	.	-	0	HIMB109_00125	HIMB109	205	OG0000135	K06187	recombination protein RecR	COG0353	RecR	Recombinational DNA repair protein RecR	HIMB109_00121
+HIMB109-00000000001	Prodigal:2.6	CDS	89796	90098	.	-	0	HIMB109_00126	HIMB109	100	OG0000143	K09747	nucleoid-associated protein EbfC	COG0718	YbaB	DNA-binding nucleoid-associated protein YbaB/EfbC	HIMB109_00121
+ADAC02000001.1	Prodigal:2.6	CDS	1174877	1175179	.	+	0	HIMB114_01274	HIMB114	100	OG0000143	K09747	nucleoid-associated protein EbfC	COG0718	YbaB	DNA-binding nucleoid-associated protein YbaB/EfbC	HIMB114_01279
+ADAC02000001.1	Prodigal:2.6	CDS	1175182	1175799	.	+	0	HIMB114_01275	HIMB114	205	OG0000135	K06187	recombination protein RecR	COG0353	RecR	Recombinational DNA repair protein RecR	HIMB114_01279
+ADAC02000001.1	Prodigal:2.6	CDS	1175800	1176315	.	+	0	HIMB114_01276	HIMB114	171	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	HIMB114_01279
+ADAC02000001.1	Prodigal:2.6	CDS	1176329	1177219	.	+	0	HIMB114_01277	HIMB114	296	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB114_01279
+ADAC02000001.1	Prodigal:2.6	CDS	1177219	1177956	.	+	0	HIMB114_01278	HIMB114	245	OG0000136	K06173	tRNA pseudouridine38-40 synthase [EC:5.4.99.12]	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	HIMB114_01279
+ADAC02000001.1	Prodigal:2.6	CDS	1177958	1179892	.	+	0	HIMB114_01279	HIMB114	644	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB114_01279
+ADAC02000001.1	Prodigal:2.6	CDS	1179889	1180812	.	-	0	HIMB114_01280	HIMB114	307	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	HIMB114_01279
+ADAC02000001.1	Prodigal:2.6	CDS	1180809	1181969	.	-	0	HIMB114_01281	HIMB114	386	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	HIMB114_01279
+ADAC02000001.1	Prodigal:2.6	CDS	1181973	1182782	.	-	0	HIMB114_01282	HIMB114	269	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	HIMB114_01279
+ADAC02000001.1	Prodigal:2.6	CDS	1182782	1183453	.	-	0	HIMB114_01283	HIMB114	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	HIMB114_01279
+ADAC02000001.1	Prodigal:2.6	CDS	1183450	1184310	.	-	0	HIMB114_01284	HIMB114	286	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	HIMB114_01279
+HIMB1565-00000000001	Prodigal:2.6	CDS	340241	340543	.	+	0	HIMB1565_00364	HIMB1565	100	OG0000143	K09747	nucleoid-associated protein EbfC	COG0718	YbaB	DNA-binding nucleoid-associated protein YbaB/EfbC	HIMB1565_00369
+HIMB1565-00000000001	Prodigal:2.6	CDS	340546	341163	.	+	0	HIMB1565_00365	HIMB1565	205	OG0000135	K06187	recombination protein RecR	COG0353	RecR	Recombinational DNA repair protein RecR	HIMB1565_00369
+HIMB1565-00000000001	Prodigal:2.6	CDS	341164	341673	.	+	0	HIMB1565_00366	HIMB1565	169	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	HIMB1565_00369
+HIMB1565-00000000001	Prodigal:2.6	CDS	341693	342583	.	+	0	HIMB1565_00367	HIMB1565	296	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1565_00369
+HIMB1565-00000000001	Prodigal:2.6	CDS	342583	343320	.	+	0	HIMB1565_00368	HIMB1565	245	OG0000136	K06173	tRNA pseudouridine38-40 synthase [EC:5.4.99.12]	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	HIMB1565_00369
+HIMB1565-00000000001	Prodigal:2.6	CDS	343322	345256	.	+	0	HIMB1565_00369	HIMB1565	644	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1565_00369
+HIMB1565-00000000001	Prodigal:2.6	CDS	345253	346176	.	-	0	HIMB1565_00370	HIMB1565	307	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	HIMB1565_00369
+HIMB1565-00000000001	Prodigal:2.6	CDS	346173	347333	.	-	0	HIMB1565_00371	HIMB1565	386	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	HIMB1565_00369
+HIMB1565-00000000001	Prodigal:2.6	CDS	347337	348146	.	-	0	HIMB1565_00372	HIMB1565	269	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	HIMB1565_00369
+HIMB1565-00000000001	Prodigal:2.6	CDS	348146	348817	.	-	0	HIMB1565_00373	HIMB1565	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	HIMB1565_00369
+HIMB1565-00000000001	Prodigal:2.6	CDS	348814	349674	.	-	0	HIMB1565_00374	HIMB1565	286	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	HIMB1565_00369
+HIMB1517-00000000001	Prodigal:2.6	CDS	144449	145309	.	+	0	HIMB1517_00178	HIMB1517	286	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	HIMB1517_00183
+HIMB1517-00000000001	Prodigal:2.6	CDS	145306	145977	.	+	0	HIMB1517_00179	HIMB1517	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	HIMB1517_00183
+HIMB1517-00000000001	Prodigal:2.6	CDS	145977	146786	.	+	0	HIMB1517_00180	HIMB1517	269	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	HIMB1517_00183
+HIMB1517-00000000001	Prodigal:2.6	CDS	146790	147950	.	+	0	HIMB1517_00181	HIMB1517	386	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	HIMB1517_00183
+HIMB1517-00000000001	Prodigal:2.6	CDS	147947	148870	.	+	0	HIMB1517_00182	HIMB1517	307	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	HIMB1517_00183
+HIMB1517-00000000001	Prodigal:2.6	CDS	148867	150801	.	-	0	HIMB1517_00183	HIMB1517	644	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HIMB1517_00183
+HIMB1517-00000000001	Prodigal:2.6	CDS	150803	151540	.	-	0	HIMB1517_00184	HIMB1517	245	OG0000136	K06173	tRNA pseudouridine38-40 synthase [EC:5.4.99.12]	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	HIMB1517_00183
+HIMB1517-00000000001	Prodigal:2.6	CDS	151540	152430	.	-	0	HIMB1517_00185	HIMB1517	296	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1517_00183
+HIMB1517-00000000001	Prodigal:2.6	CDS	152444	152959	.	-	0	HIMB1517_00186	HIMB1517	171	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	HIMB1517_00183
+HIMB1517-00000000001	Prodigal:2.6	CDS	152960	153577	.	-	0	HIMB1517_00187	HIMB1517	205	OG0000135	K06187	recombination protein RecR	COG0353	RecR	Recombinational DNA repair protein RecR	HIMB1517_00183
+HIMB1517-00000000001	Prodigal:2.6	CDS	153580	153897	.	-	0	HIMB1517_00188	HIMB1517	105	OG0000143	K09747	nucleoid-associated protein EbfC	COG0718	YbaB	DNA-binding nucleoid-associated protein YbaB/EfbC	HIMB1517_00183
+Ga0197930_11	Prodigal:2.6	CDS	1009010	1009870	.	+	0	LSUCC0723_01122	LSUCC0723	286	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	LSUCC0723_01127
+Ga0197930_11	Prodigal:2.6	CDS	1009867	1010538	.	+	0	LSUCC0723_01123	LSUCC0723	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	LSUCC0723_01127
+Ga0197930_11	Prodigal:2.6	CDS	1010538	1011347	.	+	0	LSUCC0723_01124	LSUCC0723	269	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	LSUCC0723_01127
+Ga0197930_11	Prodigal:2.6	CDS	1011351	1012511	.	+	0	LSUCC0723_01125	LSUCC0723	386	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	LSUCC0723_01127
+Ga0197930_11	Prodigal:2.6	CDS	1012508	1013431	.	+	0	LSUCC0723_01126	LSUCC0723	307	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	LSUCC0723_01127
+Ga0197930_11	Prodigal:2.6	CDS	1013428	1015362	.	-	0	LSUCC0723_01127	LSUCC0723	644	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	LSUCC0723_01127
+Ga0197930_11	Prodigal:2.6	CDS	1015364	1016101	.	-	0	LSUCC0723_01128	LSUCC0723	245	OG0000136	K06173	tRNA pseudouridine38-40 synthase [EC:5.4.99.12]	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	LSUCC0723_01127
+Ga0197930_11	Prodigal:2.6	CDS	1016101	1016991	.	-	0	LSUCC0723_01129	LSUCC0723	296	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	LSUCC0723_01127
+Ga0197930_11	Prodigal:2.6	CDS	1017002	1017520	.	-	0	LSUCC0723_01130	LSUCC0723	172	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	LSUCC0723_01127
+Ga0197930_11	Prodigal:2.6	CDS	1017521	1018138	.	-	0	LSUCC0723_01131	LSUCC0723	205	OG0000135	K06187	recombination protein RecR	COG0353	RecR	Recombinational DNA repair protein RecR	LSUCC0723_01127
+Ga0197930_11	Prodigal:2.6	CDS	1018141	1018458	.	-	0	LSUCC0723_01132	LSUCC0723	105	OG0000143	K09747	nucleoid-associated protein EbfC	COG0718	YbaB	DNA-binding nucleoid-associated protein YbaB/EfbC	LSUCC0723_01127
+Ga0255589_11	Prodigal:2.6	CDS	980826	981686	.	+	0	LSUCC0664_01076	LSUCC0664	286	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	LSUCC0664_01081
+Ga0255589_11	Prodigal:2.6	CDS	981683	982354	.	+	0	LSUCC0664_01077	LSUCC0664	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	LSUCC0664_01081
+Ga0255589_11	Prodigal:2.6	CDS	982354	983163	.	+	0	LSUCC0664_01078	LSUCC0664	269	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	LSUCC0664_01081
+Ga0255589_11	Prodigal:2.6	CDS	983167	984327	.	+	0	LSUCC0664_01079	LSUCC0664	386	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	LSUCC0664_01081
+Ga0255589_11	Prodigal:2.6	CDS	984324	985247	.	+	0	LSUCC0664_01080	LSUCC0664	307	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	LSUCC0664_01081
+Ga0255589_11	Prodigal:2.6	CDS	985233	987176	.	-	0	LSUCC0664_01081	LSUCC0664	647	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	LSUCC0664_01081
+Ga0255589_11	Prodigal:2.6	CDS	987169	987909	.	-	0	LSUCC0664_01082	LSUCC0664	246	OG0000136	K06173	tRNA pseudouridine38-40 synthase [EC:5.4.99.12]	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	LSUCC0664_01081
+Ga0255589_11	Prodigal:2.6	CDS	987909	988799	.	-	0	LSUCC0664_01083	LSUCC0664	296	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	LSUCC0664_01081
+Ga0255589_11	Prodigal:2.6	CDS	988810	989328	.	-	0	LSUCC0664_01084	LSUCC0664	172	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	LSUCC0664_01081
+Ga0255589_11	Prodigal:2.6	CDS	989325	989945	.	-	0	LSUCC0664_01085	LSUCC0664	206	OG0000135	K06187	recombination protein RecR	COG0353	RecR	Recombinational DNA repair protein RecR	LSUCC0664_01081
+Ga0255589_11	Prodigal:2.6	CDS	989947	990264	.	-	0	LSUCC0664_01086	LSUCC0664	105	OG0000143	K09747	nucleoid-associated protein EbfC	COG0718	YbaB	DNA-binding nucleoid-associated protein YbaB/EfbC	LSUCC0664_01081
+CP002511.1	Prodigal:2.6	CDS	973027	973746	.	+	0	IMCC9063_01102	IMCC9063	239	OG0000711	K06024	segregation and condensation protein B	COG1386	ScpB	Chromosome segregation and condensation protein ScpB	IMCC9063_01107
+CP002511.1	Prodigal:2.6	CDS	973785	973973	.	+	0	IMCC9063_01103	IMCC9063	62	OG0000747	K03116	sec-independent protein translocase protein TatA	COG1826	TatA	Twin-arginine protein secretion pathway components TatA, TatB, TatE	IMCC9063_01107
+CP002511.1	Prodigal:2.6	CDS	973979	974218	.	+	0	IMCC9063_01104	IMCC9063	79	OG0000775	K03117	sec-independent protein translocase protein TatB	COG1826	TatA	Twin-arginine protein secretion pathway components TatA, TatB, TatE	IMCC9063_01107
+CP002511.1	Prodigal:2.6	CDS	974229	974972	.	+	0	IMCC9063_01105	IMCC9063	247	OG0000771	K03118	sec-independent protein translocase protein TatC	COG0805	TatC	Twin-arginine protein secretion pathway component TatC	IMCC9063_01107
+CP002511.1	Prodigal:2.6	CDS	975067	976245	.	+	0	IMCC9063_01106	IMCC9063	392	OG0000617	K01875	seryl-tRNA synthetase [EC:6.1.1.11]	COG0172	SerS	Seryl-tRNA synthetase	IMCC9063_01107
+CP002511.1	Prodigal:2.6	CDS	976272	978218	.	+	0	IMCC9063_01107	IMCC9063	648	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	IMCC9063_01107
+CP002511.1	Prodigal:2.6	CDS	978346	979284	.	+	0	IMCC9063_01108	IMCC9063	312	OG0001233	NA	NA	NA	NA	NA	IMCC9063_01107
+CP002511.1	Prodigal:2.6	CDS	979287	980429	.	+	0	IMCC9063_01109	IMCC9063	380	OG0002355	NA	NA	NA	NA	NA	IMCC9063_01107
+CP002511.1	Aragorn:1.2	tRNA	980839	980930	.	+	.	IMCC9063_01110	IMCC9063	NA	NA	NA	NA	NA	NA	NA	IMCC9063_01107
+CP002511.1	Prodigal:2.6	CDS	981128	981673	.	+	0	IMCC9063_01111	IMCC9063	181	OG0002124	NA	NA	NA	NA	NA	IMCC9063_01107
+CP002511.1	Aragorn:1.2	tRNA	981725	981812	.	-	.	IMCC9063_01112	IMCC9063	NA	NA	NA	NA	NA	NA	NA	IMCC9063_01107
+Ga0182791_11	Prodigal:2.6	CDS	1032380	1033048	.	+	0	LSUCC0261_01106	LSUCC0261	222	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	LSUCC0261_01111
+Ga0182791_11	Prodigal:2.6	CDS	1033053	1033871	.	+	0	LSUCC0261_01107	LSUCC0261	272	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	LSUCC0261_01111
+Ga0182791_11	Prodigal:2.6	CDS	1033872	1035032	.	+	0	LSUCC0261_01108	LSUCC0261	386	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	LSUCC0261_01111
+Ga0182791_11	Prodigal:2.6	CDS	1035029	1035955	.	+	0	LSUCC0261_01109	LSUCC0261	308	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	LSUCC0261_01111
+Ga0182791_11	Prodigal:2.6	CDS	1035980	1036123	.	-	0	LSUCC0261_01110	LSUCC0261	47	OG0001937	NA	NA	NA	NA	NA	LSUCC0261_01111
+Ga0182791_11	Prodigal:2.6	CDS	1036126	1038063	.	-	0	LSUCC0261_01111	LSUCC0261	645	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	LSUCC0261_01111
+Ga0182791_11	Prodigal:2.6	CDS	1038111	1038848	.	-	0	LSUCC0261_01112	LSUCC0261	245	OG0000136	K06173	tRNA pseudouridine38-40 synthase [EC:5.4.99.12]	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	LSUCC0261_01111
+Ga0182791_11	Prodigal:2.6	CDS	1038848	1039762	.	-	0	LSUCC0261_01113	LSUCC0261	304	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	LSUCC0261_01111
+Ga0182791_11	Prodigal:2.6	CDS	1039766	1040275	.	-	0	LSUCC0261_01114	LSUCC0261	169	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	LSUCC0261_01111
+Ga0182791_11	Prodigal:2.6	CDS	1040321	1040941	.	-	0	LSUCC0261_01115	LSUCC0261	206	OG0000135	K06187	recombination protein RecR	COG0353	RecR	Recombinational DNA repair protein RecR	LSUCC0261_01111
+Ga0182791_11	Prodigal:2.6	CDS	1040945	1041262	.	-	0	LSUCC0261_01116	LSUCC0261	105	OG0000143	K09747	nucleoid-associated protein EbfC	COG0718	YbaB	DNA-binding nucleoid-associated protein YbaB/EfbC	LSUCC0261_01111
+CP024034.1	Prodigal:2.6	CDS	709923	710954	.	+	0	LSUCC0530_00797	LSUCC0530	343	OG0001295	K00549	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]	COG0620	MetE	Methionine synthase II (cobalamin-independent)	LSUCC0530_00802
+CP024034.1	Prodigal:2.6	CDS	710955	711728	.	-	0	LSUCC0530_00798	LSUCC0530	257	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	LSUCC0530_00802
+CP024034.1	Prodigal:2.6	CDS	711868	712989	.	+	0	LSUCC0530_00799	LSUCC0530	373	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	LSUCC0530_00802
+CP024034.1	Prodigal:2.6	CDS	713038	713946	.	+	0	LSUCC0530_00800	LSUCC0530	302	OG0001332	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	LSUCC0530_00802
+CP024034.1	Prodigal:2.6	CDS	713947	716592	.	+	0	LSUCC0530_00801	LSUCC0530	881	OG0001323	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	LSUCC0530_00802
+CP024034.1	Prodigal:2.6	CDS	716602	718536	.	+	0	LSUCC0530_00802	LSUCC0530	644	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	LSUCC0530_00802
+CP024034.1	Prodigal:2.6	CDS	718571	719806	.	+	0	LSUCC0530_00803	LSUCC0530	411	OG0001166	NA	NA	COG2271	UhpC	Sugar phosphate permease	LSUCC0530_00802
+CP024034.1	Prodigal:2.6	CDS	719879	720136	.	-	0	LSUCC0530_00804	LSUCC0530	85	OG0003031	NA	NA	NA	NA	NA	LSUCC0530_00802
+CP024034.1	Prodigal:2.6	CDS	720343	723009	.	-	0	LSUCC0530_00805	LSUCC0530	888	OG0000773	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	LSUCC0530_00802
+CP024034.1	Prodigal:2.6	CDS	723012	725078	.	-	0	LSUCC0530_00806	LSUCC0530	688	OG0000851	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	LSUCC0530_00802
+CP024034.1	Prodigal:2.6	CDS	725078	726007	.	-	0	LSUCC0530_00807	LSUCC0530	309	OG0000843	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	LSUCC0530_00802

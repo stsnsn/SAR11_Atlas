@@ -1,0 +1,99 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+HIMB1402-00000000004	Prodigal:2.6	CDS	100563	102002	.	-	0	HIMB1402_00961	HIMB1402	479	OG0000533	K03498	trk/ktr system potassium uptake protein	COG0168	TrkG	Trk-type K+ transport system, membrane component	HIMB1402_00966
+HIMB1402-00000000004	Prodigal:2.6	CDS	102090	103652	.	+	0	HIMB1402_00962	HIMB1402	520	OG0000246	K04566	lysyl-tRNA synthetase, class I [EC:6.1.1.6]	COG1384	LysS	Lysyl-tRNA synthetase, class I	HIMB1402_00966
+HIMB1402-00000000004	Prodigal:2.6	CDS	103652	104704	.	+	0	HIMB1402_00963	HIMB1402	350	OG0000261	K00254	dihydroorotate dehydrogenase [EC:1.3.5.2]	COG0167	PyrD	Dihydroorotate dehydrogenase	HIMB1402_00966
+HIMB1402-00000000004	Prodigal:2.6	CDS	104757	105071	.	+	0	HIMB1402_00964	HIMB1402	104	OG0000260	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	HIMB1402_00966
+HIMB1402-00000000004	Prodigal:2.6	CDS	105071	105619	.	+	0	HIMB1402_00965	HIMB1402	182	OG0000408	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	HIMB1402_00966
+HIMB1402-00000000004	Prodigal:2.6	CDS	105616	106659	.	-	0	HIMB1402_00966	HIMB1402	347	OG0001226	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	HIMB1402_00966
+HIMB1402-00000000004	Prodigal:2.6	CDS	106685	107566	.	-	0	HIMB1402_00967	HIMB1402	293	OG0001039	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	HIMB1402_00966
+HIMB1402-00000000004	Prodigal:2.6	CDS	107569	108612	.	-	0	HIMB1402_00968	HIMB1402	347	OG0000595	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	HIMB1402_00966
+HIMB1402-00000000004	Prodigal:2.6	CDS	108612	109796	.	-	0	HIMB1402_00969	HIMB1402	394	OG0000594	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	HIMB1402_00966
+HIMB1402-00000000004	Prodigal:2.6	CDS	109945	110508	.	+	0	HIMB1402_00970	HIMB1402	187	OG0000407	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	HIMB1402_00966
+HIMB1402-00000000004	Prodigal:2.6	CDS	110501	111052	.	-	0	HIMB1402_00971	HIMB1402	183	OG0000663	K03523	biotin transport system substrate-specific component	COG1268	BioY	Biotin transporter BioY	HIMB1402_00966
+CP024034.1	Prodigal:2.6	CDS	10	1404	.	+	0	LSUCC0530_00001	LSUCC0530	464	OG0000256	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	LSUCC0530_00006
+CP024034.1	Prodigal:2.6	CDS	1404	2519	.	+	0	LSUCC0530_00002	LSUCC0530	371	OG0000211	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	LSUCC0530_00006
+CP024034.1	Prodigal:2.6	CDS	2524	3603	.	+	0	LSUCC0530_00003	LSUCC0530	359	OG0001745	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	LSUCC0530_00006
+CP024034.1	Prodigal:2.6	CDS	3667	6219	.	+	0	LSUCC0530_00004	LSUCC0530	850	OG0000086	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	LSUCC0530_00006
+CP024034.1	Prodigal:2.6	CDS	6224	7516	.	+	0	LSUCC0530_00005	LSUCC0530	430	OG0000225	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	LSUCC0530_00006
+CP024034.1	Prodigal:2.6	CDS	7509	8579	.	-	0	LSUCC0530_00006	LSUCC0530	356	OG0001226	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	LSUCC0530_00006
+CP024034.1	Prodigal:2.6	CDS	8572	9453	.	-	0	LSUCC0530_00007	LSUCC0530	293	OG0001039	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	LSUCC0530_00006
+CP024034.1	Prodigal:2.6	CDS	9457	10503	.	-	0	LSUCC0530_00008	LSUCC0530	348	OG0000595	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	LSUCC0530_00006
+CP024034.1	Prodigal:2.6	CDS	10503	11693	.	-	0	LSUCC0530_00009	LSUCC0530	396	OG0000594	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	LSUCC0530_00006
+CP024034.1	Prodigal:2.6	CDS	11865	12431	.	+	0	LSUCC0530_00010	LSUCC0530	188	OG0000407	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	LSUCC0530_00006
+CP024034.1	Prodigal:2.6	CDS	12424	13002	.	-	0	LSUCC0530_00011	LSUCC0530	192	OG0000663	K03523	biotin transport system substrate-specific component	COG1268	BioY	Biotin transporter BioY	LSUCC0530_00006
+OZ247815.1	Prodigal:2.6	CDS	1	1395	.	+	0	ME-33_00001	ME-33	464	OG0000256	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	ME-33_00006
+OZ247815.1	Prodigal:2.6	CDS	1395	2510	.	+	0	ME-33_00002	ME-33	371	OG0000211	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	ME-33_00006
+OZ247815.1	Prodigal:2.6	CDS	2515	3594	.	+	0	ME-33_00003	ME-33	359	OG0001745	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	ME-33_00006
+OZ247815.1	Prodigal:2.6	CDS	3657	6209	.	+	0	ME-33_00004	ME-33	850	OG0000086	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	ME-33_00006
+OZ247815.1	Prodigal:2.6	CDS	6214	7506	.	+	0	ME-33_00005	ME-33	430	OG0000225	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	ME-33_00006
+OZ247815.1	Prodigal:2.6	CDS	7499	8569	.	-	0	ME-33_00006	ME-33	356	OG0001226	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	ME-33_00006
+OZ247815.1	Prodigal:2.6	CDS	8562	9443	.	-	0	ME-33_00007	ME-33	293	OG0001039	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	ME-33_00006
+OZ247815.1	Prodigal:2.6	CDS	9447	10493	.	-	0	ME-33_00008	ME-33	348	OG0000595	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	ME-33_00006
+OZ247815.1	Prodigal:2.6	CDS	10493	11683	.	-	0	ME-33_00009	ME-33	396	OG0000594	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	ME-33_00006
+OZ247815.1	Prodigal:2.6	CDS	11853	12419	.	+	0	ME-33_00010	ME-33	188	OG0000407	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	ME-33_00006
+OZ247815.1	Prodigal:2.6	CDS	12420	12845	.	-	0	ME-33_00011	ME-33	141	OG0002616	NA	NA	NA	NA	NA	ME-33_00006
+OZ247817.1	Prodigal:2.6	CDS	1	1395	.	+	0	ME-31_00001	ME-31	464	OG0000256	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	ME-31_00006
+OZ247817.1	Prodigal:2.6	CDS	1395	2510	.	+	0	ME-31_00002	ME-31	371	OG0000211	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	ME-31_00006
+OZ247817.1	Prodigal:2.6	CDS	2515	3594	.	+	0	ME-31_00003	ME-31	359	OG0001745	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	ME-31_00006
+OZ247817.1	Prodigal:2.6	CDS	3658	6210	.	+	0	ME-31_00004	ME-31	850	OG0000086	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	ME-31_00006
+OZ247817.1	Prodigal:2.6	CDS	6215	7507	.	+	0	ME-31_00005	ME-31	430	OG0000225	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	ME-31_00006
+OZ247817.1	Prodigal:2.6	CDS	7500	8570	.	-	0	ME-31_00006	ME-31	356	OG0001226	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	ME-31_00006
+OZ247817.1	Prodigal:2.6	CDS	8563	9444	.	-	0	ME-31_00007	ME-31	293	OG0001039	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	ME-31_00006
+OZ247817.1	Prodigal:2.6	CDS	9448	10494	.	-	0	ME-31_00008	ME-31	348	OG0000595	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	ME-31_00006
+OZ247817.1	Prodigal:2.6	CDS	10494	11684	.	-	0	ME-31_00009	ME-31	396	OG0000594	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	ME-31_00006
+OZ247817.1	Prodigal:2.6	CDS	11854	12420	.	+	0	ME-31_00010	ME-31	188	OG0000407	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	ME-31_00006
+OZ247817.1	Prodigal:2.6	CDS	12421	12846	.	-	0	ME-31_00011	ME-31	141	OG0002616	NA	NA	NA	NA	NA	ME-31_00006
+OZ249404.1	Prodigal:2.6	CDS	1	1395	.	+	0	ME-17_00001	ME-17	464	OG0000256	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	ME-17_00006
+OZ249404.1	Prodigal:2.6	CDS	1395	2510	.	+	0	ME-17_00002	ME-17	371	OG0000211	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	ME-17_00006
+OZ249404.1	Prodigal:2.6	CDS	2515	3594	.	+	0	ME-17_00003	ME-17	359	OG0001745	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	ME-17_00006
+OZ249404.1	Prodigal:2.6	CDS	3658	6210	.	+	0	ME-17_00004	ME-17	850	OG0000086	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	ME-17_00006
+OZ249404.1	Prodigal:2.6	CDS	6215	7507	.	+	0	ME-17_00005	ME-17	430	OG0000225	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	ME-17_00006
+OZ249404.1	Prodigal:2.6	CDS	7500	8570	.	-	0	ME-17_00006	ME-17	356	OG0001226	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	ME-17_00006
+OZ249404.1	Prodigal:2.6	CDS	8563	9444	.	-	0	ME-17_00007	ME-17	293	OG0001039	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	ME-17_00006
+OZ249404.1	Prodigal:2.6	CDS	9448	10494	.	-	0	ME-17_00008	ME-17	348	OG0000595	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	ME-17_00006
+OZ249404.1	Prodigal:2.6	CDS	10494	11684	.	-	0	ME-17_00009	ME-17	396	OG0000594	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	ME-17_00006
+OZ249404.1	Prodigal:2.6	CDS	11853	12419	.	+	0	ME-17_00010	ME-17	188	OG0000407	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	ME-17_00006
+OZ249404.1	Prodigal:2.6	CDS	12420	12845	.	-	0	ME-17_00011	ME-17	141	OG0002616	NA	NA	NA	NA	NA	ME-17_00006
+OZ247816.1	Prodigal:2.6	CDS	1	1395	.	+	0	ME-20_00001	ME-20	464	OG0000256	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	ME-20_00006
+OZ247816.1	Prodigal:2.6	CDS	1395	2510	.	+	0	ME-20_00002	ME-20	371	OG0000211	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	ME-20_00006
+OZ247816.1	Prodigal:2.6	CDS	2515	3594	.	+	0	ME-20_00003	ME-20	359	OG0001745	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	ME-20_00006
+OZ247816.1	Prodigal:2.6	CDS	3658	6210	.	+	0	ME-20_00004	ME-20	850	OG0000086	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	ME-20_00006
+OZ247816.1	Prodigal:2.6	CDS	6215	7507	.	+	0	ME-20_00005	ME-20	430	OG0000225	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	ME-20_00006
+OZ247816.1	Prodigal:2.6	CDS	7500	8570	.	-	0	ME-20_00006	ME-20	356	OG0001226	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	ME-20_00006
+OZ247816.1	Prodigal:2.6	CDS	8563	9444	.	-	0	ME-20_00007	ME-20	293	OG0001039	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	ME-20_00006
+OZ247816.1	Prodigal:2.6	CDS	9448	10494	.	-	0	ME-20_00008	ME-20	348	OG0000595	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	ME-20_00006
+OZ247816.1	Prodigal:2.6	CDS	10494	11684	.	-	0	ME-20_00009	ME-20	396	OG0000594	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	ME-20_00006
+OZ247816.1	Prodigal:2.6	CDS	11853	12419	.	+	0	ME-20_00010	ME-20	188	OG0000407	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	ME-20_00006
+OZ247816.1	Prodigal:2.6	CDS	12420	12845	.	-	0	ME-20_00011	ME-20	141	OG0002616	NA	NA	NA	NA	NA	ME-20_00006
+OZ247825.1	Prodigal:2.6	CDS	1	1395	.	+	0	ME-18_00001	ME-18	464	OG0000256	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	ME-18_00006
+OZ247825.1	Prodigal:2.6	CDS	1395	2510	.	+	0	ME-18_00002	ME-18	371	OG0000211	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	ME-18_00006
+OZ247825.1	Prodigal:2.6	CDS	2515	3594	.	+	0	ME-18_00003	ME-18	359	OG0001745	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	ME-18_00006
+OZ247825.1	Prodigal:2.6	CDS	3657	6209	.	+	0	ME-18_00004	ME-18	850	OG0000086	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	ME-18_00006
+OZ247825.1	Prodigal:2.6	CDS	6214	7506	.	+	0	ME-18_00005	ME-18	430	OG0000225	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	ME-18_00006
+OZ247825.1	Prodigal:2.6	CDS	7499	8569	.	-	0	ME-18_00006	ME-18	356	OG0001226	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	ME-18_00006
+OZ247825.1	Prodigal:2.6	CDS	8562	9443	.	-	0	ME-18_00007	ME-18	293	OG0001039	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	ME-18_00006
+OZ247825.1	Prodigal:2.6	CDS	9447	10493	.	-	0	ME-18_00008	ME-18	348	OG0000595	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	ME-18_00006
+OZ247825.1	Prodigal:2.6	CDS	10493	11683	.	-	0	ME-18_00009	ME-18	396	OG0000594	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	ME-18_00006
+OZ247825.1	Prodigal:2.6	CDS	11852	12418	.	+	0	ME-18_00010	ME-18	188	OG0000407	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	ME-18_00006
+OZ247825.1	Prodigal:2.6	CDS	12419	12844	.	-	0	ME-18_00011	ME-18	141	OG0002616	NA	NA	NA	NA	NA	ME-18_00006
+OZ249405.1	Prodigal:2.6	CDS	294	1115	.	+	0	MiE-29_00001	MiE-29	273	OG0000211	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	MiE-29_00005
+OZ249405.1	Prodigal:2.6	CDS	1120	2199	.	+	0	MiE-29_00002	MiE-29	359	OG0001745	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	MiE-29_00005
+OZ249405.1	Prodigal:2.6	CDS	2263	4815	.	+	0	MiE-29_00003	MiE-29	850	OG0000086	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	MiE-29_00005
+OZ249405.1	Prodigal:2.6	CDS	4820	6112	.	+	0	MiE-29_00004	MiE-29	430	OG0000225	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	MiE-29_00005
+OZ249405.1	Prodigal:2.6	CDS	6105	7175	.	-	0	MiE-29_00005	MiE-29	356	OG0001226	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	MiE-29_00005
+OZ249405.1	Prodigal:2.6	CDS	7168	8049	.	-	0	MiE-29_00006	MiE-29	293	OG0001039	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	MiE-29_00005
+OZ249405.1	Prodigal:2.6	CDS	8053	9099	.	-	0	MiE-29_00007	MiE-29	348	OG0000595	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	MiE-29_00005
+OZ249405.1	Prodigal:2.6	CDS	9099	10289	.	-	0	MiE-29_00008	MiE-29	396	OG0000594	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	MiE-29_00005
+OZ249405.1	Prodigal:2.6	CDS	10457	11023	.	+	0	MiE-29_00009	MiE-29	188	OG0000407	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	MiE-29_00005
+OZ249405.1	Prodigal:2.6	CDS	11024	11449	.	-	0	MiE-29_00010	MiE-29	141	OG0002616	NA	NA	NA	NA	NA	MiE-29_00005
+OZ247814.1	Prodigal:2.6	CDS	354758	355183	.	+	0	MKE-138_00415	MKE-138	141	OG0002616	NA	NA	NA	NA	NA	MKE-138_00420
+OZ247814.1	Prodigal:2.6	CDS	355184	355750	.	-	0	MKE-138_00416	MKE-138	188	OG0000407	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	MKE-138_00420
+OZ247814.1	Prodigal:2.6	CDS	355920	357110	.	+	0	MKE-138_00417	MKE-138	396	OG0000594	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	MKE-138_00420
+OZ247814.1	Prodigal:2.6	CDS	357110	358156	.	+	0	MKE-138_00418	MKE-138	348	OG0000595	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	MKE-138_00420
+OZ247814.1	Prodigal:2.6	CDS	358160	359041	.	+	0	MKE-138_00419	MKE-138	293	OG0001039	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	MKE-138_00420
+OZ247814.1	Prodigal:2.6	CDS	359034	360104	.	+	0	MKE-138_00420	MKE-138	356	OG0001226	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	MKE-138_00420
+OZ247814.1	Prodigal:2.6	CDS	360097	361389	.	-	0	MKE-138_00421	MKE-138	430	OG0000225	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	MKE-138_00420
+OZ247814.1	Prodigal:2.6	CDS	361394	363946	.	-	0	MKE-138_00422	MKE-138	850	OG0000086	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	MKE-138_00420
+OZ247814.1	Prodigal:2.6	CDS	364010	365089	.	-	0	MKE-138_00423	MKE-138	359	OG0001745	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	MKE-138_00420
+OZ247814.1	Prodigal:2.6	CDS	365094	366209	.	-	0	MKE-138_00424	MKE-138	371	OG0000211	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	MKE-138_00420
+OZ247814.1	Prodigal:2.6	CDS	366209	367603	.	-	0	MKE-138_00425	MKE-138	464	OG0000256	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	MKE-138_00420

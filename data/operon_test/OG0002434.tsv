@@ -1,0 +1,23 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP159817.1	Prodigal:2.6	CDS	267613	268161	.	+	0	Uisw_116_00300	Uisw_116	182	OG0000809	NA	NA	NA	NA	NA	Uisw_116_00305
+CP159817.1	Prodigal:2.6	CDS	268158	268919	.	-	0	Uisw_116_00301	Uisw_116	253	OG0000181	NA	NA	COG0300	YqjQ	Short-chain dehydrogenase	Uisw_116_00305
+CP159817.1	Prodigal:2.6	CDS	268941	269408	.	+	0	Uisw_116_00302	Uisw_116	155	OG0000964	K05770	translocator protein	COG3476	TspO	Tryptophan-rich sensory protein TspO/CrtK (mitochondrial benzodiazepine receptor homolog)	Uisw_116_00305
+CP159817.1	Prodigal:2.6	CDS	269417	270520	.	+	0	Uisw_116_00303	Uisw_116	367	OG0000950	K18166	FAD-dependent oxidoreductase domain-containing protein 1	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	Uisw_116_00305
+CP159817.1	Prodigal:2.6	CDS	270525	271976	.	-	0	Uisw_116_00304	Uisw_116	483	OG0001079	K08997	protein adenylyltransferase [EC:2.7.7.108]	COG0397	SelO	Protein adenylyltransferase (AMPylase) SelO/YdiU (selenoprotein O)	Uisw_116_00305
+CP159817.1	Prodigal:2.6	CDS	272020	272649	.	-	0	Uisw_116_00305	Uisw_116	209	OG0002434	NA	NA	COG0030	RsmA	rRNA adenine N6-methylase, includes 16S rRNA A1518 and A1519 N6-dimethyltransferase  RsmA/KsgA/DIM  and 23S rRNA A2058 N6-methylase ErmO/TlrD (may also have DNA glycosylase/AP lyase activity)	Uisw_116_00305
+CP159817.1	Prodigal:2.6	CDS	272673	275447	.	-	0	Uisw_116_00306	Uisw_116	924	OG0001241	K00123	formate dehydrogenase major subunit [EC:1.17.1.9]	COG3383	ForC	Mo-containing formate dehydrogenase ForCE, catalytic subunit	Uisw_116_00305
+CP159817.1	Prodigal:2.6	CDS	275447	277105	.	-	0	Uisw_116_00307	Uisw_116	552	OG0000049	NA	NA	COG1894	NuoF	NADH:ubiquinone oxidoreductase, NADH-binding 51 kD subunit (chain F)	Uisw_116_00305
+CP159817.1	Prodigal:2.6	CDS	277238	278071	.	-	0	Uisw_116_00308	Uisw_116	277	OG0001253	K02379	FdhD protein	COG1526	FdhD	Formate dehydrogenase assembly factor FdhD, a sulfurtransferase	Uisw_116_00305
+CP159817.1	Prodigal:2.6	CDS	278117	278602	.	-	0	Uisw_116_00309	Uisw_116	161	OG0000875	K07168	CBS domain-containing membrane protein	NA	NA	NA	Uisw_116_00305
+CP159817.1	Prodigal:2.6	CDS	278632	279042	.	-	0	Uisw_116_00310	Uisw_116	136	OG0000846	NA	NA	COG0822	IscU	Fe-S cluster assembly scaffold protein IscU, NifU family	Uisw_116_00305
+CP024034.1	Prodigal:2.6	CDS	893796	894845	.	-	0	LSUCC0530_00980	LSUCC0530	349	OG0001379	K12454	CDP-paratose 2-epimerase [EC:5.1.3.10]	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	LSUCC0530_00985
+CP024034.1	Prodigal:2.6	CDS	894868	895725	.	-	0	LSUCC0530_00981	LSUCC0530	285	OG0001279	NA	NA	NA	NA	NA	LSUCC0530_00985
+CP024034.1	Prodigal:2.6	CDS	895737	896570	.	-	0	LSUCC0530_00982	LSUCC0530	277	OG0001205	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	LSUCC0530_00985
+CP024034.1	Aragorn:1.2	tRNA	896595	896684	.	-	.	LSUCC0530_00983	LSUCC0530	NA	NA	NA	NA	NA	NA	NA	LSUCC0530_00985
+CP024034.1	Prodigal:2.6	CDS	896729	897535	.	-	0	LSUCC0530_00984	LSUCC0530	268	OG0000089	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	LSUCC0530_00985
+CP024034.1	Prodigal:2.6	CDS	897609	898247	.	+	0	LSUCC0530_00985	LSUCC0530	212	OG0002434	NA	NA	COG0030	RsmA	rRNA adenine N6-methylase, includes 16S rRNA A1518 and A1519 N6-dimethyltransferase  RsmA/KsgA/DIM  and 23S rRNA A2058 N6-methylase ErmO/TlrD (may also have DNA glycosylase/AP lyase activity)	LSUCC0530_00985
+CP024034.1	Prodigal:2.6	CDS	898255	898953	.	-	0	LSUCC0530_00986	LSUCC0530	232	OG0001205	NA	NA	NA	NA	NA	LSUCC0530_00985
+CP024034.1	Prodigal:2.6	CDS	899007	899795	.	-	0	LSUCC0530_00987	LSUCC0530	262	OG0001205	NA	NA	NA	NA	NA	LSUCC0530_00985
+CP024034.1	Prodigal:2.6	CDS	899801	901609	.	-	0	LSUCC0530_00988	LSUCC0530	602	OG0000287	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	LSUCC0530_00985
+CP024034.1	Prodigal:2.6	CDS	901610	904003	.	-	0	LSUCC0530_00989	LSUCC0530	797	OG0000215	K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	COG0072	PheT	Phenylalanyl-tRNA synthetase beta subunit	LSUCC0530_00985
+CP024034.1	Prodigal:2.6	CDS	904000	905067	.	-	0	LSUCC0530_00990	LSUCC0530	355	OG0000201	K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]	COG0016	PheS	Phenylalanyl-tRNA synthetase alpha subunit	LSUCC0530_00985

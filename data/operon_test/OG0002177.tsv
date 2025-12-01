@@ -1,0 +1,78 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP159819.1	Prodigal:2.6	CDS	255723	256292	.	+	0	Uisw_106_00281	Uisw_106	189	OG0001215	NA	NA	NA	NA	NA	Uisw_106_00286
+CP159819.1	Prodigal:2.6	CDS	256293	256655	.	+	0	Uisw_106_00282	Uisw_106	120	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	Uisw_106_00286
+CP159819.1	Prodigal:2.6	CDS	256662	257588	.	+	0	Uisw_106_00283	Uisw_106	308	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	Uisw_106_00286
+CP159819.1	Prodigal:2.6	CDS	257588	258886	.	+	0	Uisw_106_00284	Uisw_106	432	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	Uisw_106_00286
+CP159819.1	Prodigal:2.6	CDS	258917	260140	.	+	0	Uisw_106_00285	Uisw_106	407	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	Uisw_106_00286
+CP159819.1	Prodigal:2.6	CDS	260432	260854	.	-	0	Uisw_106_00286	Uisw_106	140	OG0002177	NA	NA	NA	NA	NA	Uisw_106_00286
+CP159819.1	Prodigal:2.6	CDS	261070	261453	.	-	0	Uisw_106_00287	Uisw_106	127	OG0004895	NA	NA	COG0393	YbjQ	Uncharacterized pentameric protein YbjQ, UPF0145 family	Uisw_106_00286
+CP159819.1	Prodigal:2.6	CDS	261709	264378	.	+	0	Uisw_106_00288	Uisw_106	889	OG0000591	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	COG0013	AlaS	Alanyl-tRNA synthetase	Uisw_106_00286
+CP159819.1	Prodigal:2.6	CDS	264371	265633	.	-	0	Uisw_106_00289	Uisw_106	420	OG0000592	K00031	isocitrate dehydrogenase [EC:1.1.1.42]	COG0538	Icd	Isocitrate dehydrogenase	Uisw_106_00286
+CP159819.1	Prodigal:2.6	CDS	265663	266310	.	+	0	Uisw_106_00290	Uisw_106	215	OG0000815	K01613	phosphatidylserine decarboxylase [EC:4.1.1.65]	COG0688	Psd	Phosphatidylserine decarboxylase	Uisw_106_00286
+CP159819.1	Prodigal:2.6	CDS	266314	267117	.	+	0	Uisw_106_00291	Uisw_106	267	OG0000844	K17103	CDP-diacylglycerol---serine O-phosphatidyltransferase [EC:2.7.8.8]	COG1183	PssA	Phosphatidylserine synthase	Uisw_106_00286
+CP159810.1	Prodigal:2.6	CDS	244622	245527	.	+	0	Uisw_090_00267	Uisw_090	301	OG0000900	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_090_00272
+CP159810.1	Prodigal:2.6	CDS	245533	246006	.	+	0	Uisw_090_00268	Uisw_090	157	OG0001232	NA	NA	COG0006	PepP	Xaa-Pro aminopeptidase	Uisw_090_00272
+CP159810.1	Prodigal:2.6	CDS	246008	246751	.	+	0	Uisw_090_00269	Uisw_090	247	OG0001232	NA	NA	COG0006	PepP	Xaa-Pro aminopeptidase	Uisw_090_00272
+CP159810.1	Prodigal:2.6	CDS	246755	247867	.	+	0	Uisw_090_00270	Uisw_090	370	OG0000914	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	Uisw_090_00272
+CP159810.1	Prodigal:2.6	CDS	247873	248943	.	+	0	Uisw_090_00271	Uisw_090	356	OG0001223	K01620	threonine aldolase [EC:4.1.2.48]	COG2008	GLY1	Threonine aldolase	Uisw_090_00272
+CP159810.1	Prodigal:2.6	CDS	249120	249635	.	+	0	Uisw_090_00272	Uisw_090	171	OG0002177	NA	NA	NA	NA	NA	Uisw_090_00272
+CP159810.1	Aragorn:1.2	tmRNA	249684	249993	.	-	.	Uisw_090_00273	Uisw_090	NA	NA	NA	NA	NA	NA	NA	Uisw_090_00272
+CP159810.1	Prodigal:2.6	CDS	249897	250967	.	+	0	Uisw_090_00274	Uisw_090	356	OG0000236	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	Uisw_090_00272
+CP159810.1	Prodigal:2.6	CDS	250948	251772	.	-	0	Uisw_090_00275	Uisw_090	274	OG0000339	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	Uisw_090_00272
+CP159810.1	Prodigal:2.6	CDS	251824	252924	.	+	0	Uisw_090_00276	Uisw_090	366	OG0000358	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	Uisw_090_00272
+CP159810.1	Prodigal:2.6	CDS	252924	253784	.	+	0	Uisw_090_00277	Uisw_090	286	OG0000351	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	Uisw_090_00272
+CP159810.1	Prodigal:2.6	CDS	433200	433913	.	+	0	Uisw_090_00478	Uisw_090	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_090_00483
+CP159810.1	Prodigal:2.6	CDS	433910	434437	.	-	0	Uisw_090_00479	Uisw_090	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_090_00483
+CP159810.1	Prodigal:2.6	CDS	434456	434899	.	+	0	Uisw_090_00480	Uisw_090	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_090_00483
+CP159810.1	Prodigal:2.6	CDS	434946	437390	.	+	0	Uisw_090_00481	Uisw_090	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_090_00483
+CP159810.1	Prodigal:2.6	CDS	437432	437659	.	+	0	Uisw_090_00482	Uisw_090	75	OG0001202	NA	NA	NA	NA	NA	Uisw_090_00483
+CP159810.1	Prodigal:2.6	CDS	437848	438456	.	+	0	Uisw_090_00483	Uisw_090	202	OG0002177	NA	NA	NA	NA	NA	Uisw_090_00483
+CP159810.1	Aragorn:1.2	tRNA	438542	438618	.	+	.	Uisw_090_00484	Uisw_090	NA	NA	NA	NA	NA	NA	NA	Uisw_090_00483
+CP159810.1	Prodigal:2.6	CDS	438633	439397	.	+	0	Uisw_090_00485	Uisw_090	254	OG0000008	NA	NA	NA	NA	NA	Uisw_090_00483
+CP159810.1	Prodigal:2.6	CDS	439400	440674	.	-	0	Uisw_090_00486	Uisw_090	424	OG0001648	NA	NA	COG2220	UlaG	L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily	Uisw_090_00483
+CP159810.1	Prodigal:2.6	CDS	440675	441202	.	-	0	Uisw_090_00487	Uisw_090	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	Uisw_090_00483
+CP159810.1	Prodigal:2.6	CDS	441240	441776	.	+	0	Uisw_090_00488	Uisw_090	178	OG0001751	K01243	adenosylhomocysteine nucleosidase [EC:3.2.2.9]	COG0775	MtnN	Nucleoside phosphorylase/nucleosidase, includes 5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase MtnN and futalosine hydrolase MqnB	Uisw_090_00483
+CP020778.1	Prodigal:2.6	CDS	589607	590767	.	-	0	RS40_00637	RS40	386	OG0000076	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	RS40_00641
+CP020778.1	Prodigal:2.6	CDS	590770	591705	.	-	0	RS40_00638	RS40	311	OG0001149	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	RS40_00641
+CP020778.1	Prodigal:2.6	CDS	590770	591705	.	-	0	RS40_00638	RS40	311	OG0001149	K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]	COG2301	CitE	Citrate lyase beta subunit	RS40_00641
+CP020778.1	Prodigal:2.6	CDS	591754	592176	.	-	0	RS40_00639	RS40	140	OG0001811	K09705	uncharacterized protein	COG3542	CFF1	Predicted sugar epimerase, cupin superfamily	RS40_00641
+CP020778.1	Prodigal:2.6	CDS	592200	592697	.	+	0	RS40_00640	RS40	165	OG0002602	K06077	outer membrane lipoprotein SlyB	COG3133	SlyB	Outer membrane lipoprotein SlyB	RS40_00641
+CP020778.1	Prodigal:2.6	CDS	592712	592996	.	-	0	RS40_00641	RS40	94	OG0002177	NA	NA	NA	NA	NA	RS40_00641
+CP020778.1	Prodigal:2.6	CDS	592963	593457	.	-	0	RS40_00642	RS40	164	OG0002745	NA	NA	NA	NA	NA	RS40_00641
+CP020778.1	Prodigal:2.6	CDS	593583	593906	.	-	0	RS40_00643	RS40	107	OG0000185	NA	NA	COG0140	HisI2	Phosphoribosyl-ATP pyrophosphohydrolase	RS40_00641
+CP020778.1	Prodigal:2.6	CDS	593857	594609	.	-	0	RS40_00644	RS40	250	OG0000053	K02500	imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]	COG0107	HisF	Imidazole glycerol phosphate synthase subunit HisF	RS40_00641
+CP020778.1	Prodigal:2.6	CDS	594602	595327	.	-	0	RS40_00645	RS40	241	OG0000210	K01814	phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]	COG0106	HisA	Phosphoribosylformimino-5-aminoimidazole carboxamide ribonucleotide (ProFAR) isomerase	RS40_00641
+CP020778.1	Prodigal:2.6	CDS	595324	596166	.	-	0	RS40_00646	RS40	280	OG0001948	NA	NA	NA	NA	NA	RS40_00641
+CP020778.1	Prodigal:2.6	CDS	1290231	1291580	.	+	0	RS40_01335	RS40	449	OG0000758	NA	NA	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	RS40_01340
+CP020778.1	Prodigal:2.6	CDS	1291554	1292102	.	-	0	RS40_01336	RS40	182	OG0000945	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	RS40_01340
+CP020778.1	Prodigal:2.6	CDS	1292095	1295097	.	-	0	RS40_01337	RS40	1000	OG0000035	K00302	sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	RS40_01340
+CP020778.1	Prodigal:2.6	CDS	1295104	1295379	.	-	0	RS40_01338	RS40	91	OG0000885	K00304	sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	COG4311	SoxD	Sarcosine oxidase delta subunit	RS40_01340
+CP020778.1	Prodigal:2.6	CDS	1295382	1296635	.	-	0	RS40_01339	RS40	417	OG0000036	K00303	sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	RS40_01340
+CP020778.1	Prodigal:2.6	CDS	1296723	1297538	.	+	0	RS40_01340	RS40	271	OG0002177	NA	NA	NA	NA	NA	RS40_01340
+CP020778.1	Aragorn:1.2	tRNA	1297613	1297707	.	+	.	RS40_01341	RS40	NA	NA	NA	NA	NA	NA	NA	RS40_01340
+CP020778.1	Prodigal:2.6	CDS	1297708	1299939	.	-	0	RS40_01342	RS40	743	OG0000474	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	RS40_01340
+CP020778.1	Prodigal:2.6	CDS	1299976	1300863	.	+	0	RS40_01343	RS40	295	OG0000350	K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	RS40_01340
+CP020778.1	Prodigal:2.6	CDS	1300856	1301326	.	+	0	RS40_01344	RS40	156	OG0000582	K03664	SsrA-binding protein	COG0691	SmpB	tmRNA-binding protein	RS40_01340
+CP020778.1	Prodigal:2.6	CDS	1301292	1301819	.	+	0	RS40_01345	RS40	175	OG0000684	NA	NA	COG0801	FolK	7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase (folate biosynthesis)	RS40_01340
+HIMB2305-00000000004	Prodigal:2.6	CDS	695	2050	.	+	0	HIMB2305_00378	HIMB2305	451	OG0000758	NA	NA	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB2305_00383
+HIMB2305-00000000004	Prodigal:2.6	CDS	2018	2566	.	-	0	HIMB2305_00379	HIMB2305	182	OG0000945	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	HIMB2305_00383
+HIMB2305-00000000004	Prodigal:2.6	CDS	2559	5561	.	-	0	HIMB2305_00380	HIMB2305	1000	OG0000035	K00302	sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB2305_00383
+HIMB2305-00000000004	Prodigal:2.6	CDS	5568	5843	.	-	0	HIMB2305_00381	HIMB2305	91	OG0000885	K00304	sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	COG4311	SoxD	Sarcosine oxidase delta subunit	HIMB2305_00383
+HIMB2305-00000000004	Prodigal:2.6	CDS	5846	7099	.	-	0	HIMB2305_00382	HIMB2305	417	OG0000036	K00303	sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB2305_00383
+HIMB2305-00000000004	Prodigal:2.6	CDS	7125	7985	.	+	0	HIMB2305_00383	HIMB2305	286	OG0002177	NA	NA	NA	NA	NA	HIMB2305_00383
+HIMB2305-00000000004	Aragorn:1.2	tRNA	8061	8155	.	+	.	HIMB2305_00384	HIMB2305	NA	NA	NA	NA	NA	NA	NA	HIMB2305_00383
+HIMB2305-00000000004	Prodigal:2.6	CDS	8156	10387	.	-	0	HIMB2305_00385	HIMB2305	743	OG0000474	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	HIMB2305_00383
+HIMB2305-00000000004	Prodigal:2.6	CDS	10424	11311	.	+	0	HIMB2305_00386	HIMB2305	295	OG0000350	K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	HIMB2305_00383
+HIMB2305-00000000004	Prodigal:2.6	CDS	11304	11774	.	+	0	HIMB2305_00387	HIMB2305	156	OG0000582	K03664	SsrA-binding protein	COG0691	SmpB	tmRNA-binding protein	HIMB2305_00383
+HIMB2305-00000000004	Prodigal:2.6	CDS	11740	12267	.	+	0	HIMB2305_00388	HIMB2305	175	OG0000684	NA	NA	COG0801	FolK	7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase (folate biosynthesis)	HIMB2305_00383
+HIMB2305-00000000014	Prodigal:2.6	CDS	30199	31389	.	-	0	HIMB2305_01272	HIMB2305	396	OG0000561	K02358	elongation factor Tu	COG0050	TufA	Translation elongation factor EF-Tu, a GTPase	HIMB2305_01277
+HIMB2305-00000000014	Aragorn:1.2	tRNA	31434	31507	.	-	.	HIMB2305_01273	HIMB2305	NA	NA	NA	NA	NA	NA	NA	HIMB2305_01277
+HIMB2305-00000000014	Aragorn:1.2	tRNA	31549	31634	.	-	.	HIMB2305_01274	HIMB2305	NA	NA	NA	NA	NA	NA	NA	HIMB2305_01277
+HIMB2305-00000000014	Prodigal:2.6	CDS	31770	32513	.	+	0	HIMB2305_01275	HIMB2305	247	OG0000759	NA	NA	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	HIMB2305_01277
+HIMB2305-00000000014	Aragorn:1.2	tRNA	32547	32622	.	+	.	HIMB2305_01276	HIMB2305	NA	NA	NA	NA	NA	NA	NA	HIMB2305_01277
+HIMB2305-00000000014	Prodigal:2.6	CDS	32710	33144	.	-	0	HIMB2305_01277	HIMB2305	144	OG0002177	NA	NA	NA	NA	NA	HIMB2305_01277
+HIMB2305-00000000014	Prodigal:2.6	CDS	33284	33745	.	-	0	HIMB2305_01278	HIMB2305	153	OG0001104	NA	NA	NA	NA	NA	HIMB2305_01277
+HIMB2305-00000000014	Prodigal:2.6	CDS	33746	34519	.	-	0	HIMB2305_01279	HIMB2305	257	OG0000949	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	HIMB2305_01277
+HIMB2305-00000000014	Aragorn:1.2	tRNA	34524	34609	.	-	.	HIMB2305_01280	HIMB2305	NA	NA	NA	NA	NA	NA	NA	HIMB2305_01277
+HIMB2305-00000000014	Prodigal:2.6	CDS	34737	35228	.	+	0	HIMB2305_01281	HIMB2305	163	NA	NA	NA	NA	NA	NA	HIMB2305_01277
+HIMB2305-00000000014	Prodigal:2.6	CDS	35305	35619	.	+	0	HIMB2305_01282	HIMB2305	104	OG0004813	NA	NA	NA	NA	NA	HIMB2305_01277

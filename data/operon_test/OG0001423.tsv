@@ -1,0 +1,798 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP000084.1	Prodigal:2.6	CDS	451748	452266	.	+	0	HTCC1062_00460	HTCC1062	172	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	HTCC1062_00465
+CP000084.1	Prodigal:2.6	CDS	452267	453199	.	+	0	HTCC1062_00461	HTCC1062	310	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	HTCC1062_00465
+CP000084.1	Prodigal:2.6	CDS	453192	453932	.	+	0	HTCC1062_00462	HTCC1062	246	OG0000136	NA	NA	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	HTCC1062_00465
+CP000084.1	Prodigal:2.6	CDS	453922	454401	.	-	0	HTCC1062_00463	HTCC1062	159	OG0000491	NA	NA	COG2940	SET	Histone-lysine N-methyltransferase, H3-specific, SET domain	HTCC1062_00465
+CP000084.1	Prodigal:2.6	CDS	454433	455362	.	-	0	HTCC1062_00464	HTCC1062	309	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	HTCC1062_00465
+CP000084.1	Prodigal:2.6	CDS	455363	455557	.	-	0	HTCC1062_00465	HTCC1062	64	OG0001423	NA	NA	NA	NA	NA	HTCC1062_00465
+CP000084.1	Prodigal:2.6	CDS	455557	456711	.	-	0	HTCC1062_00466	HTCC1062	384	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	HTCC1062_00465
+CP000084.1	Prodigal:2.6	CDS	456712	457539	.	-	0	HTCC1062_00467	HTCC1062	275	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	HTCC1062_00465
+CP000084.1	Prodigal:2.6	CDS	457569	458240	.	-	0	HTCC1062_00468	HTCC1062	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	HTCC1062_00465
+CP000084.1	Prodigal:2.6	CDS	458237	459103	.	-	0	HTCC1062_00469	HTCC1062	288	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	HTCC1062_00465
+CP000084.1	Prodigal:2.6	CDS	459104	460780	.	-	0	HTCC1062_00470	HTCC1062	558	OG0000188	K03217	YidC/Oxa1 family membrane protein insertase	COG0706	YidC	Membrane protein insertase Oxa1/YidC/SpoIIIJ	HTCC1062_00465
+CP038852.1	Prodigal:2.6	CDS	843612	844133	.	+	0	NP1_00942	NP1	173	OG0000197	NA	NA	COG2840	SmrA	Stalled ribosome-rescuing mRNA endonuclease or DNA-nicking endonuclease, Smr domain	NP1_00947
+CP038852.1	Prodigal:2.6	CDS	844123	845490	.	-	0	NP1_00943	NP1	455	OG0000400	K03667	ATP-dependent HslUV protease ATP-binding subunit HslU	COG1220	HslU	ATP-dependent protease HslVU (ClpYQ), ATPase subunit HslU	NP1_00947
+CP038852.1	Prodigal:2.6	CDS	845490	846005	.	-	0	NP1_00944	NP1	171	OG0000379	K01419	ATP-dependent HslUV protease, peptidase subunit HslV [EC:3.4.25.2]	COG5405	HslV	ATP-dependent protease HslVU (ClpYQ), peptidase subunit	NP1_00947
+CP038852.1	Prodigal:2.6	CDS	846097	846687	.	+	0	NP1_00945	NP1	196	OG0000237	K01693	imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]	COG0131	HisB2	Imidazoleglycerol phosphate dehydratase HisB	NP1_00947
+CP038852.1	Prodigal:2.6	CDS	846693	847319	.	+	0	NP1_00946	NP1	208	OG0000057	K02501	imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	NP1_00947
+CP038852.1	Prodigal:2.6	CDS	847321	847515	.	+	0	NP1_00947	NP1	64	OG0001423	NA	NA	NA	NA	NA	NP1_00947
+CP038852.1	Prodigal:2.6	CDS	847512	848231	.	+	0	NP1_00948	NP1	239	OG0000210	K01814	phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]	COG0106	HisA	Phosphoribosylformimino-5-aminoimidazole carboxamide ribonucleotide (ProFAR) isomerase	NP1_00947
+CP038852.1	Prodigal:2.6	CDS	848224	848979	.	+	0	NP1_00949	NP1	251	OG0000053	K02500	imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]	COG0107	HisF	Imidazole glycerol phosphate synthase subunit HisF	NP1_00947
+CP038852.1	Prodigal:2.6	CDS	848982	849287	.	+	0	NP1_00950	NP1	101	OG0000185	NA	NA	COG0140	HisI2	Phosphoribosyl-ATP pyrophosphohydrolase	NP1_00947
+CP038852.1	Prodigal:2.6	CDS	849287	849652	.	+	0	NP1_00951	NP1	121	OG0000196	K02503	histidine triad (HIT) family protein	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	NP1_00947
+CP038852.1	Prodigal:2.6	CDS	849649	850152	.	+	0	NP1_00952	NP1	167	OG0000784	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	NP1_00947
+CP159811.1	Prodigal:2.6	CDS	64833	65351	.	+	0	Uisw_137_00060	Uisw_137	172	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	Uisw_137_00065
+CP159811.1	Prodigal:2.6	CDS	65353	66285	.	+	0	Uisw_137_00061	Uisw_137	310	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	Uisw_137_00065
+CP159811.1	Prodigal:2.6	CDS	66278	67018	.	+	0	Uisw_137_00062	Uisw_137	246	OG0000136	NA	NA	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	Uisw_137_00065
+CP159811.1	Prodigal:2.6	CDS	67008	67487	.	-	0	Uisw_137_00063	Uisw_137	159	OG0000491	NA	NA	COG2940	SET	Histone-lysine N-methyltransferase, H3-specific, SET domain	Uisw_137_00065
+CP159811.1	Prodigal:2.6	CDS	67519	68448	.	-	0	Uisw_137_00064	Uisw_137	309	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	Uisw_137_00065
+CP159811.1	Prodigal:2.6	CDS	68449	68643	.	-	0	Uisw_137_00065	Uisw_137	64	OG0001423	NA	NA	NA	NA	NA	Uisw_137_00065
+CP159811.1	Prodigal:2.6	CDS	68643	69797	.	-	0	Uisw_137_00066	Uisw_137	384	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_137_00065
+CP159811.1	Prodigal:2.6	CDS	69798	70625	.	-	0	Uisw_137_00067	Uisw_137	275	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	Uisw_137_00065
+CP159811.1	Prodigal:2.6	CDS	70655	71326	.	-	0	Uisw_137_00068	Uisw_137	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	Uisw_137_00065
+CP159811.1	Prodigal:2.6	CDS	71323	72189	.	-	0	Uisw_137_00069	Uisw_137	288	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	Uisw_137_00065
+CP159811.1	Prodigal:2.6	CDS	72190	73866	.	-	0	Uisw_137_00070	Uisw_137	558	OG0000188	K03217	YidC/Oxa1 family membrane protein insertase	COG0706	YidC	Membrane protein insertase Oxa1/YidC/SpoIIIJ	Uisw_137_00065
+CP159819.1	Prodigal:2.6	CDS	63094	63612	.	+	0	Uisw_106_00059	Uisw_106	172	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	Uisw_106_00064
+CP159819.1	Prodigal:2.6	CDS	63613	64545	.	+	0	Uisw_106_00060	Uisw_106	310	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	Uisw_106_00064
+CP159819.1	Prodigal:2.6	CDS	64538	65278	.	+	0	Uisw_106_00061	Uisw_106	246	OG0000136	NA	NA	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	Uisw_106_00064
+CP159819.1	Prodigal:2.6	CDS	65268	65747	.	-	0	Uisw_106_00062	Uisw_106	159	OG0000491	NA	NA	COG2940	SET	Histone-lysine N-methyltransferase, H3-specific, SET domain	Uisw_106_00064
+CP159819.1	Prodigal:2.6	CDS	65779	66708	.	-	0	Uisw_106_00063	Uisw_106	309	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	Uisw_106_00064
+CP159819.1	Prodigal:2.6	CDS	66709	66903	.	-	0	Uisw_106_00064	Uisw_106	64	OG0001423	NA	NA	NA	NA	NA	Uisw_106_00064
+CP159819.1	Prodigal:2.6	CDS	66903	68057	.	-	0	Uisw_106_00065	Uisw_106	384	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_106_00064
+CP159819.1	Prodigal:2.6	CDS	68058	68885	.	-	0	Uisw_106_00066	Uisw_106	275	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	Uisw_106_00064
+CP159819.1	Prodigal:2.6	CDS	68915	69586	.	-	0	Uisw_106_00067	Uisw_106	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	Uisw_106_00064
+CP159819.1	Prodigal:2.6	CDS	69583	70449	.	-	0	Uisw_106_00068	Uisw_106	288	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	Uisw_106_00064
+CP159819.1	Prodigal:2.6	CDS	70450	72126	.	-	0	Uisw_106_00069	Uisw_106	558	OG0000188	K03217	YidC/Oxa1 family membrane protein insertase	COG0706	YidC	Membrane protein insertase Oxa1/YidC/SpoIIIJ	Uisw_106_00064
+CP159823.1	Prodigal:2.6	CDS	58904	59422	.	+	0	Uisw_094_00054	Uisw_094	172	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	Uisw_094_00059
+CP159823.1	Prodigal:2.6	CDS	59424	60356	.	+	0	Uisw_094_00055	Uisw_094	310	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	Uisw_094_00059
+CP159823.1	Prodigal:2.6	CDS	60349	61089	.	+	0	Uisw_094_00056	Uisw_094	246	OG0000136	NA	NA	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	Uisw_094_00059
+CP159823.1	Prodigal:2.6	CDS	61079	61558	.	-	0	Uisw_094_00057	Uisw_094	159	OG0000491	NA	NA	COG2940	SET	Histone-lysine N-methyltransferase, H3-specific, SET domain	Uisw_094_00059
+CP159823.1	Prodigal:2.6	CDS	61590	62519	.	-	0	Uisw_094_00058	Uisw_094	309	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	Uisw_094_00059
+CP159823.1	Prodigal:2.6	CDS	62520	62714	.	-	0	Uisw_094_00059	Uisw_094	64	OG0001423	NA	NA	NA	NA	NA	Uisw_094_00059
+CP159823.1	Prodigal:2.6	CDS	62714	63868	.	-	0	Uisw_094_00060	Uisw_094	384	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_094_00059
+CP159823.1	Prodigal:2.6	CDS	63869	64696	.	-	0	Uisw_094_00061	Uisw_094	275	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	Uisw_094_00059
+CP159823.1	Prodigal:2.6	CDS	64726	65397	.	-	0	Uisw_094_00062	Uisw_094	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	Uisw_094_00059
+CP159823.1	Prodigal:2.6	CDS	65394	66260	.	-	0	Uisw_094_00063	Uisw_094	288	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	Uisw_094_00059
+CP159823.1	Prodigal:2.6	CDS	66261	67937	.	-	0	Uisw_094_00064	Uisw_094	558	OG0000188	K03217	YidC/Oxa1 family membrane protein insertase	COG0706	YidC	Membrane protein insertase Oxa1/YidC/SpoIIIJ	Uisw_094_00059
+CP159809.1	Prodigal:2.6	CDS	64522	65040	.	+	0	Uisw_113_00058	Uisw_113	172	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	Uisw_113_00063
+CP159809.1	Prodigal:2.6	CDS	65042	65974	.	+	0	Uisw_113_00059	Uisw_113	310	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	Uisw_113_00063
+CP159809.1	Prodigal:2.6	CDS	65967	66707	.	+	0	Uisw_113_00060	Uisw_113	246	OG0000136	NA	NA	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	Uisw_113_00063
+CP159809.1	Prodigal:2.6	CDS	66697	67176	.	-	0	Uisw_113_00061	Uisw_113	159	OG0000491	NA	NA	COG2940	SET	Histone-lysine N-methyltransferase, H3-specific, SET domain	Uisw_113_00063
+CP159809.1	Prodigal:2.6	CDS	67208	68137	.	-	0	Uisw_113_00062	Uisw_113	309	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	Uisw_113_00063
+CP159809.1	Prodigal:2.6	CDS	68138	68332	.	-	0	Uisw_113_00063	Uisw_113	64	OG0001423	NA	NA	NA	NA	NA	Uisw_113_00063
+CP159809.1	Prodigal:2.6	CDS	68332	69486	.	-	0	Uisw_113_00064	Uisw_113	384	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_113_00063
+CP159809.1	Prodigal:2.6	CDS	69487	70314	.	-	0	Uisw_113_00065	Uisw_113	275	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	Uisw_113_00063
+CP159809.1	Prodigal:2.6	CDS	70344	71015	.	-	0	Uisw_113_00066	Uisw_113	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	Uisw_113_00063
+CP159809.1	Prodigal:2.6	CDS	71012	71878	.	-	0	Uisw_113_00067	Uisw_113	288	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	Uisw_113_00063
+CP159809.1	Prodigal:2.6	CDS	71879	73555	.	-	0	Uisw_113_00068	Uisw_113	558	OG0000188	K03217	YidC/Oxa1 family membrane protein insertase	COG0706	YidC	Membrane protein insertase Oxa1/YidC/SpoIIIJ	Uisw_113_00063
+CP159816.1	Prodigal:2.6	CDS	653515	654291	.	+	0	Uisw_121_00709	Uisw_121	258	OG0001194	K01713	cyclohexadienyl dehydratase [EC:4.2.1.51 4.2.1.91]	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_121_00713
+CP159816.1	Prodigal:2.6	CDS	653515	654291	.	+	0	Uisw_121_00709	Uisw_121	258	OG0001194	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_121_00713
+CP159816.1	Prodigal:2.6	CDS	654332	655072	.	+	0	Uisw_121_00710	Uisw_121	246	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_121_00713
+CP159816.1	Prodigal:2.6	CDS	655072	655332	.	+	0	Uisw_121_00711	Uisw_121	86	OG0001278	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	Uisw_121_00713
+CP159816.1	Prodigal:2.6	CDS	655383	656096	.	-	0	Uisw_121_00712	Uisw_121	237	OG0002482	NA	NA	NA	NA	NA	Uisw_121_00713
+CP159816.1	Prodigal:2.6	CDS	656093	656287	.	-	0	Uisw_121_00713	Uisw_121	64	OG0001423	NA	NA	NA	NA	NA	Uisw_121_00713
+CP159816.1	Prodigal:2.6	CDS	656483	656968	.	-	0	Uisw_121_00714	Uisw_121	161	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	Uisw_121_00713
+CP159816.1	Prodigal:2.6	CDS	656931	658301	.	-	0	Uisw_121_00715	Uisw_121	456	OG0000758	NA	NA	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_121_00713
+CP159816.1	Prodigal:2.6	CDS	658311	659216	.	-	0	Uisw_121_00716	Uisw_121	301	OG0000497	K07146	UPF0176 protein	COG1054	TrhO	tRNA U34 5'-hydroxylase TrhO, rhodanese family	Uisw_121_00713
+CP159816.1	Prodigal:2.6	CDS	659216	659866	.	-	0	Uisw_121_00717	Uisw_121	216	OG0000471	K00588	caffeoyl-CoA O-methyltransferase [EC:2.1.1.104]	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	Uisw_121_00713
+CP159816.1	Prodigal:2.6	CDS	659871	661346	.	-	0	Uisw_121_00718	Uisw_121	491	OG0000404	K02434	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit B [EC:6.3.5.6 6.3.5.7]	COG0064	GatB	Asp-tRNAAsn/Glu-tRNAGln amidotransferase B subunit	Uisw_121_00713
+CP159818.1	Prodigal:2.6	CDS	71587	72012	.	+	0	Uisw_114_00072	Uisw_114	141	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	Uisw_114_00077
+CP159818.1	Prodigal:2.6	CDS	72013	72945	.	+	0	Uisw_114_00073	Uisw_114	310	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	Uisw_114_00077
+CP159818.1	Prodigal:2.6	CDS	72938	73678	.	+	0	Uisw_114_00074	Uisw_114	246	OG0000136	NA	NA	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	Uisw_114_00077
+CP159818.1	Prodigal:2.6	CDS	73658	73951	.	-	0	Uisw_114_00075	Uisw_114	97	OG0000491	NA	NA	COG2940	SET	Histone-lysine N-methyltransferase, H3-specific, SET domain	Uisw_114_00077
+CP159818.1	Prodigal:2.6	CDS	74318	75109	.	-	0	Uisw_114_00076	Uisw_114	263	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	Uisw_114_00077
+CP159818.1	Prodigal:2.6	CDS	75110	75304	.	-	0	Uisw_114_00077	Uisw_114	64	OG0001423	NA	NA	NA	NA	NA	Uisw_114_00077
+CP159818.1	Prodigal:2.6	CDS	75304	76458	.	-	0	Uisw_114_00078	Uisw_114	384	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_114_00077
+CP159818.1	Prodigal:2.6	CDS	76459	77277	.	-	0	Uisw_114_00079	Uisw_114	272	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	Uisw_114_00077
+CP159818.1	Prodigal:2.6	CDS	77307	77978	.	-	0	Uisw_114_00080	Uisw_114	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	Uisw_114_00077
+CP159818.1	Prodigal:2.6	CDS	77975	78115	.	-	0	Uisw_114_00081	Uisw_114	46	OG0000152	NA	NA	COG0548	ArgB	N-acetylglutamate kinase	Uisw_114_00077
+CP159818.1	Prodigal:2.6	CDS	78178	78840	.	-	0	Uisw_114_00082	Uisw_114	220	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	Uisw_114_00077
+CP159814.1	Prodigal:2.6	CDS	62052	62570	.	+	0	Uisw_130_00058	Uisw_130	172	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	Uisw_130_00063
+CP159814.1	Prodigal:2.6	CDS	62571	63503	.	+	0	Uisw_130_00059	Uisw_130	310	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	Uisw_130_00063
+CP159814.1	Prodigal:2.6	CDS	63496	64236	.	+	0	Uisw_130_00060	Uisw_130	246	OG0000136	NA	NA	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	Uisw_130_00063
+CP159814.1	Prodigal:2.6	CDS	64226	64705	.	-	0	Uisw_130_00061	Uisw_130	159	OG0000491	NA	NA	COG2940	SET	Histone-lysine N-methyltransferase, H3-specific, SET domain	Uisw_130_00063
+CP159814.1	Prodigal:2.6	CDS	64736	65665	.	-	0	Uisw_130_00062	Uisw_130	309	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	Uisw_130_00063
+CP159814.1	Prodigal:2.6	CDS	65666	65860	.	-	0	Uisw_130_00063	Uisw_130	64	OG0001423	NA	NA	NA	NA	NA	Uisw_130_00063
+CP159814.1	Prodigal:2.6	CDS	65860	67014	.	-	0	Uisw_130_00064	Uisw_130	384	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_130_00063
+CP159814.1	Prodigal:2.6	CDS	67015	67842	.	-	0	Uisw_130_00065	Uisw_130	275	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	Uisw_130_00063
+CP159814.1	Prodigal:2.6	CDS	67871	68542	.	-	0	Uisw_130_00066	Uisw_130	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	Uisw_130_00063
+CP159814.1	Prodigal:2.6	CDS	68539	69405	.	-	0	Uisw_130_00067	Uisw_130	288	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	Uisw_130_00063
+CP159814.1	Prodigal:2.6	CDS	69406	71082	.	-	0	Uisw_130_00068	Uisw_130	558	OG0000188	K03217	YidC/Oxa1 family membrane protein insertase	COG0706	YidC	Membrane protein insertase Oxa1/YidC/SpoIIIJ	Uisw_130_00063
+CP159824.1	Prodigal:2.6	CDS	62139	62657	.	+	0	Uisw_092_00060	Uisw_092	172	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	Uisw_092_00065
+CP159824.1	Prodigal:2.6	CDS	62661	63593	.	+	0	Uisw_092_00061	Uisw_092	310	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	Uisw_092_00065
+CP159824.1	Prodigal:2.6	CDS	63586	64326	.	+	0	Uisw_092_00062	Uisw_092	246	OG0000136	NA	NA	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	Uisw_092_00065
+CP159824.1	Prodigal:2.6	CDS	64316	64795	.	-	0	Uisw_092_00063	Uisw_092	159	OG0000491	NA	NA	COG2940	SET	Histone-lysine N-methyltransferase, H3-specific, SET domain	Uisw_092_00065
+CP159824.1	Prodigal:2.6	CDS	64827	65756	.	-	0	Uisw_092_00064	Uisw_092	309	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	Uisw_092_00065
+CP159824.1	Prodigal:2.6	CDS	65757	65951	.	-	0	Uisw_092_00065	Uisw_092	64	OG0001423	NA	NA	NA	NA	NA	Uisw_092_00065
+CP159824.1	Prodigal:2.6	CDS	65951	67105	.	-	0	Uisw_092_00066	Uisw_092	384	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_092_00065
+CP159824.1	Prodigal:2.6	CDS	67106	67924	.	-	0	Uisw_092_00067	Uisw_092	272	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	Uisw_092_00065
+CP159824.1	Prodigal:2.6	CDS	67948	68625	.	-	0	Uisw_092_00068	Uisw_092	225	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	Uisw_092_00065
+CP159824.1	Prodigal:2.6	CDS	68622	69488	.	-	0	Uisw_092_00069	Uisw_092	288	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	Uisw_092_00065
+CP159824.1	Prodigal:2.6	CDS	69489	71165	.	-	0	Uisw_092_00070	Uisw_092	558	OG0000188	K03217	YidC/Oxa1 family membrane protein insertase	COG0706	YidC	Membrane protein insertase Oxa1/YidC/SpoIIIJ	Uisw_092_00065
+CP159810.1	Prodigal:2.6	CDS	62632	63150	.	+	0	Uisw_090_00059	Uisw_090	172	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	Uisw_090_00064
+CP159810.1	Prodigal:2.6	CDS	63153	64085	.	+	0	Uisw_090_00060	Uisw_090	310	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	Uisw_090_00064
+CP159810.1	Prodigal:2.6	CDS	64078	64818	.	+	0	Uisw_090_00061	Uisw_090	246	OG0000136	NA	NA	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	Uisw_090_00064
+CP159810.1	Prodigal:2.6	CDS	64808	65287	.	-	0	Uisw_090_00062	Uisw_090	159	OG0000491	NA	NA	COG2940	SET	Histone-lysine N-methyltransferase, H3-specific, SET domain	Uisw_090_00064
+CP159810.1	Prodigal:2.6	CDS	65319	66248	.	-	0	Uisw_090_00063	Uisw_090	309	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	Uisw_090_00064
+CP159810.1	Prodigal:2.6	CDS	66245	66430	.	-	0	Uisw_090_00064	Uisw_090	61	OG0001423	NA	NA	NA	NA	NA	Uisw_090_00064
+CP159810.1	Prodigal:2.6	CDS	66430	67584	.	-	0	Uisw_090_00065	Uisw_090	384	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_090_00064
+CP159810.1	Prodigal:2.6	CDS	67585	68403	.	-	0	Uisw_090_00066	Uisw_090	272	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	Uisw_090_00064
+CP159810.1	Prodigal:2.6	CDS	68433	69104	.	-	0	Uisw_090_00067	Uisw_090	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	Uisw_090_00064
+CP159810.1	Prodigal:2.6	CDS	69101	69967	.	-	0	Uisw_090_00068	Uisw_090	288	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	Uisw_090_00064
+CP159810.1	Prodigal:2.6	CDS	69968	71644	.	-	0	Uisw_090_00069	Uisw_090	558	OG0000188	K03217	YidC/Oxa1 family membrane protein insertase	COG0706	YidC	Membrane protein insertase Oxa1/YidC/SpoIIIJ	Uisw_090_00064
+CP159822.1	Aragorn:1.2	tRNA	664478	664551	.	-	.	Uisw_099_02_00740	Uisw_099_02	NA	NA	NA	NA	NA	NA	NA	Uisw_099_02_00745
+CP159822.1	Aragorn:1.2	tRNA	664599	664684	.	-	.	Uisw_099_02_00741	Uisw_099_02	NA	NA	NA	NA	NA	NA	NA	Uisw_099_02_00745
+CP159822.1	Prodigal:2.6	CDS	664816	665559	.	+	0	Uisw_099_02_00742	Uisw_099_02	247	OG0000759	NA	NA	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	Uisw_099_02_00745
+CP159822.1	Aragorn:1.2	tRNA	665593	665668	.	+	.	Uisw_099_02_00743	Uisw_099_02	NA	NA	NA	NA	NA	NA	NA	Uisw_099_02_00745
+CP159822.1	Prodigal:2.6	CDS	665784	666005	.	-	0	Uisw_099_02_00744	Uisw_099_02	73	OG0001152	NA	NA	NA	NA	NA	Uisw_099_02_00745
+CP159822.1	Prodigal:2.6	CDS	666081	666275	.	-	0	Uisw_099_02_00745	Uisw_099_02	64	OG0001423	NA	NA	NA	NA	NA	Uisw_099_02_00745
+CP159822.1	Prodigal:2.6	CDS	666324	666557	.	-	0	Uisw_099_02_00746	Uisw_099_02	77	NA	NA	NA	NA	NA	NA	Uisw_099_02_00745
+CP159822.1	Prodigal:2.6	CDS	666570	666983	.	-	0	Uisw_099_02_00747	Uisw_099_02	137	OG0004581	NA	NA	NA	NA	NA	Uisw_099_02_00745
+CP159822.1	Prodigal:2.6	CDS	667146	667925	.	-	0	Uisw_099_02_00748	Uisw_099_02	259	OG0000949	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	Uisw_099_02_00745
+CP159822.1	Aragorn:1.2	tRNA	667930	668015	.	-	.	Uisw_099_02_00749	Uisw_099_02	NA	NA	NA	NA	NA	NA	NA	Uisw_099_02_00745
+CP159822.1	Prodigal:2.6	CDS	668086	668490	.	-	0	Uisw_099_02_00750	Uisw_099_02	134	OG0001011	K00682	gamma-glutamylcyclotransferase [EC:4.3.2.9]	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	Uisw_099_02_00745
+CP159813.1	Prodigal:2.6	CDS	63187	63705	.	+	0	Uisw_134_02_00059	Uisw_134_02	172	OG0000132	K01462	peptide deformylase [EC:3.5.1.88]	COG0242	Def	Peptide deformylase	Uisw_134_02_00064
+CP159813.1	Prodigal:2.6	CDS	63709	64641	.	+	0	Uisw_134_02_00060	Uisw_134_02	310	OG0000082	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	COG0223	Fmt	Methionyl-tRNA formyltransferase	Uisw_134_02_00064
+CP159813.1	Prodigal:2.6	CDS	64634	65374	.	+	0	Uisw_134_02_00061	Uisw_134_02	246	OG0000136	NA	NA	COG0101	TruA	tRNA U38,U39,U40 pseudouridine synthase TruA	Uisw_134_02_00064
+CP159813.1	Prodigal:2.6	CDS	65376	65843	.	-	0	Uisw_134_02_00062	Uisw_134_02	155	OG0000491	NA	NA	COG2940	SET	Histone-lysine N-methyltransferase, H3-specific, SET domain	Uisw_134_02_00064
+CP159813.1	Prodigal:2.6	CDS	65875	66804	.	-	0	Uisw_134_02_00063	Uisw_134_02	309	OG0000137	NA	NA	COG0123	AcuC	Acetoin utilization deacetylase AcuC or a related deacetylase	Uisw_134_02_00064
+CP159813.1	Prodigal:2.6	CDS	66805	66999	.	-	0	Uisw_134_02_00064	Uisw_134_02	64	OG0001423	NA	NA	NA	NA	NA	Uisw_134_02_00064
+CP159813.1	Prodigal:2.6	CDS	66999	68153	.	-	0	Uisw_134_02_00065	Uisw_134_02	384	OG0000138	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_134_02_00064
+CP159813.1	Prodigal:2.6	CDS	68154	68981	.	-	0	Uisw_134_02_00066	Uisw_134_02	275	OG0000150	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	COG2171	DapD	Tetrahydrodipicolinate N-succinyltransferase	Uisw_134_02_00064
+CP159813.1	Prodigal:2.6	CDS	69011	69682	.	-	0	Uisw_134_02_00067	Uisw_134_02	223	OG0000530	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	Uisw_134_02_00064
+CP159813.1	Prodigal:2.6	CDS	69679	70545	.	-	0	Uisw_134_02_00068	Uisw_134_02	288	OG0000152	K00930	acetylglutamate kinase [EC:2.7.2.8]	COG0548	ArgB	N-acetylglutamate kinase	Uisw_134_02_00064
+CP159813.1	Prodigal:2.6	CDS	70546	72222	.	-	0	Uisw_134_02_00069	Uisw_134_02	558	OG0000188	K03217	YidC/Oxa1 family membrane protein insertase	COG0706	YidC	Membrane protein insertase Oxa1/YidC/SpoIIIJ	Uisw_134_02_00064
+HIMB1412-00000000001	Prodigal:2.6	CDS	514231	515616	.	+	0	HIMB1412_00545	HIMB1412	461	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1412_00550
+HIMB1412-00000000001	Prodigal:2.6	CDS	515617	516486	.	+	0	HIMB1412_00546	HIMB1412	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1412_00550
+HIMB1412-00000000001	Prodigal:2.6	CDS	516496	517323	.	+	0	HIMB1412_00547	HIMB1412	275	OG0001230	NA	NA	NA	NA	NA	HIMB1412_00550
+HIMB1412-00000000001	Prodigal:2.6	CDS	517329	518606	.	-	0	HIMB1412_00548	HIMB1412	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB1412_00550
+HIMB1412-00000000001	Prodigal:2.6	CDS	518584	518979	.	-	0	HIMB1412_00549	HIMB1412	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB1412_00550
+HIMB1412-00000000001	Prodigal:2.6	CDS	519153	519350	.	+	0	HIMB1412_00550	HIMB1412	65	OG0001423	NA	NA	NA	NA	NA	HIMB1412_00550
+HIMB1412-00000000001	Prodigal:2.6	CDS	519361	519726	.	+	0	HIMB1412_00551	HIMB1412	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1412_00550
+HIMB1412-00000000001	Prodigal:2.6	CDS	519730	520659	.	+	0	HIMB1412_00552	HIMB1412	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB1412_00550
+HIMB1412-00000000001	Prodigal:2.6	CDS	520656	521951	.	+	0	HIMB1412_00553	HIMB1412	431	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB1412_00550
+HIMB1412-00000000001	Prodigal:2.6	CDS	522060	523211	.	+	0	HIMB1412_00554	HIMB1412	383	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB1412_00550
+HIMB1412-00000000001	Prodigal:2.6	CDS	523313	525979	.	+	0	HIMB1412_00555	HIMB1412	888	OG0000591	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	COG0013	AlaS	Alanyl-tRNA synthetase	HIMB1412_00550
+HIMB1420-00000000002	Prodigal:2.6	CDS	539895	542561	.	-	0	HIMB1420_01325	HIMB1420	888	OG0000591	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	COG0013	AlaS	Alanyl-tRNA synthetase	HIMB1420_01330
+HIMB1420-00000000002	Prodigal:2.6	CDS	542663	543820	.	-	0	HIMB1420_01326	HIMB1420	385	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB1420_01330
+HIMB1420-00000000002	Prodigal:2.6	CDS	543928	545223	.	-	0	HIMB1420_01327	HIMB1420	431	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB1420_01330
+HIMB1420-00000000002	Prodigal:2.6	CDS	545220	546149	.	-	0	HIMB1420_01328	HIMB1420	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB1420_01330
+HIMB1420-00000000002	Prodigal:2.6	CDS	546153	546518	.	-	0	HIMB1420_01329	HIMB1420	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1420_01330
+HIMB1420-00000000002	Prodigal:2.6	CDS	546529	546726	.	-	0	HIMB1420_01330	HIMB1420	65	OG0001423	NA	NA	NA	NA	NA	HIMB1420_01330
+HIMB1420-00000000002	Prodigal:2.6	CDS	546899	547294	.	+	0	HIMB1420_01331	HIMB1420	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB1420_01330
+HIMB1420-00000000002	Prodigal:2.6	CDS	547272	548549	.	+	0	HIMB1420_01332	HIMB1420	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB1420_01330
+HIMB1420-00000000002	Prodigal:2.6	CDS	548555	549382	.	-	0	HIMB1420_01333	HIMB1420	275	OG0001230	NA	NA	NA	NA	NA	HIMB1420_01330
+HIMB1420-00000000002	Prodigal:2.6	CDS	549392	550261	.	-	0	HIMB1420_01334	HIMB1420	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1420_01330
+HIMB1420-00000000002	Prodigal:2.6	CDS	550262	551650	.	-	0	HIMB1420_01335	HIMB1420	462	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1420_01330
+HIMB1427-00000000006	Prodigal:2.6	CDS	19355	20743	.	+	0	HIMB1427_00771	HIMB1427	462	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1427_00776
+HIMB1427-00000000006	Prodigal:2.6	CDS	20744	21613	.	+	0	HIMB1427_00772	HIMB1427	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1427_00776
+HIMB1427-00000000006	Prodigal:2.6	CDS	21620	22447	.	+	0	HIMB1427_00773	HIMB1427	275	OG0001230	NA	NA	NA	NA	NA	HIMB1427_00776
+HIMB1427-00000000006	Prodigal:2.6	CDS	22452	23729	.	-	0	HIMB1427_00774	HIMB1427	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB1427_00776
+HIMB1427-00000000006	Prodigal:2.6	CDS	23707	24102	.	-	0	HIMB1427_00775	HIMB1427	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB1427_00776
+HIMB1427-00000000006	Prodigal:2.6	CDS	24275	24472	.	+	0	HIMB1427_00776	HIMB1427	65	OG0001423	NA	NA	NA	NA	NA	HIMB1427_00776
+HIMB1427-00000000006	Prodigal:2.6	CDS	24483	24848	.	+	0	HIMB1427_00777	HIMB1427	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1427_00776
+HIMB1427-00000000006	Prodigal:2.6	CDS	24852	25781	.	+	0	HIMB1427_00778	HIMB1427	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB1427_00776
+HIMB1427-00000000006	Prodigal:2.6	CDS	25778	27073	.	+	0	HIMB1427_00779	HIMB1427	431	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB1427_00776
+HIMB1427-00000000006	Prodigal:2.6	CDS	27181	28338	.	+	0	HIMB1427_00780	HIMB1427	385	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB1427_00776
+HIMB1427-00000000006	Prodigal:2.6	CDS	28440	31106	.	+	0	HIMB1427_00781	HIMB1427	888	OG0000591	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	COG0013	AlaS	Alanyl-tRNA synthetase	HIMB1427_00776
+HIMB1427-00000000020	Prodigal:2.6	CDS	19355	20743	.	+	0	HIMB1427_01405	HIMB1427	462	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1427_01410
+HIMB1427-00000000020	Prodigal:2.6	CDS	20744	21613	.	+	0	HIMB1427_01406	HIMB1427	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1427_01410
+HIMB1427-00000000020	Prodigal:2.6	CDS	21620	22447	.	+	0	HIMB1427_01407	HIMB1427	275	OG0001230	NA	NA	NA	NA	NA	HIMB1427_01410
+HIMB1427-00000000020	Prodigal:2.6	CDS	22452	23729	.	-	0	HIMB1427_01408	HIMB1427	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB1427_01410
+HIMB1427-00000000020	Prodigal:2.6	CDS	23707	24102	.	-	0	HIMB1427_01409	HIMB1427	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB1427_01410
+HIMB1427-00000000020	Prodigal:2.6	CDS	24275	24472	.	+	0	HIMB1427_01410	HIMB1427	65	OG0001423	NA	NA	NA	NA	NA	HIMB1427_01410
+HIMB1427-00000000020	Prodigal:2.6	CDS	24483	24848	.	+	0	HIMB1427_01411	HIMB1427	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1427_01410
+HIMB1427-00000000020	Prodigal:2.6	CDS	24852	25781	.	+	0	HIMB1427_01412	HIMB1427	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB1427_01410
+HIMB1427-00000000020	Prodigal:2.6	CDS	25778	26749	.	+	0	HIMB1427_01413	HIMB1427	323	OG0000532	NA	NA	COG1538	TolC	Outer membrane protein TolC	HIMB1427_01410
+HIMB1427-00000000020	Prodigal:2.6	CDS	26777	27073	.	+	0	HIMB1427_01414	HIMB1427	98	OG0000532	NA	NA	COG1538	TolC	Outer membrane protein TolC	HIMB1427_01410
+HIMB1427-00000000020	Prodigal:2.6	CDS	27181	28338	.	+	0	HIMB1427_01415	HIMB1427	385	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB1427_01410
+HIMB1463-00000000019	Prodigal:2.6	CDS	803	1672	.	+	0	HIMB1463_00924	HIMB1463	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1463_00929
+HIMB1463-00000000019	Prodigal:2.6	CDS	1682	3121	.	+	0	HIMB1463_00925	HIMB1463	479	OG0001308	NA	NA	COG5267	NA	Uncharacterized conserved protein, DUF1800 family	HIMB1463_00929
+HIMB1463-00000000019	Prodigal:2.6	CDS	3118	4269	.	+	0	HIMB1463_00926	HIMB1463	383	OG0001314	NA	NA	COG4102	NA	Uncharacterized conserved protein, DUF1501 family	HIMB1463_00929
+HIMB1463-00000000019	Prodigal:2.6	CDS	4266	5546	.	-	0	HIMB1463_00927	HIMB1463	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB1463_00929
+HIMB1463-00000000019	Prodigal:2.6	CDS	5524	5919	.	-	0	HIMB1463_00928	HIMB1463	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB1463_00929
+HIMB1463-00000000019	Prodigal:2.6	CDS	6092	6289	.	+	0	HIMB1463_00929	HIMB1463	65	OG0001423	NA	NA	NA	NA	NA	HIMB1463_00929
+HIMB1463-00000000019	Prodigal:2.6	CDS	6300	6665	.	+	0	HIMB1463_00930	HIMB1463	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1463_00929
+HIMB1463-00000000019	Prodigal:2.6	CDS	6669	7598	.	+	0	HIMB1463_00931	HIMB1463	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB1463_00929
+HIMB1463-00000000019	Prodigal:2.6	CDS	7595	8890	.	+	0	HIMB1463_00932	HIMB1463	431	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB1463_00929
+HIMB1463-00000000019	Prodigal:2.6	CDS	8998	10155	.	+	0	HIMB1463_00933	HIMB1463	385	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB1463_00929
+HIMB1463-00000000019	Prodigal:2.6	CDS	10258	12924	.	+	0	HIMB1463_00934	HIMB1463	888	OG0000591	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	COG0013	AlaS	Alanyl-tRNA synthetase	HIMB1463_00929
+HIMB1564-00000000001	Prodigal:2.6	CDS	940125	942791	.	-	0	HIMB1564_01011	HIMB1564	888	OG0000591	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	COG0013	AlaS	Alanyl-tRNA synthetase	HIMB1564_01016
+HIMB1564-00000000001	Prodigal:2.6	CDS	942893	944050	.	-	0	HIMB1564_01012	HIMB1564	385	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB1564_01016
+HIMB1564-00000000001	Prodigal:2.6	CDS	944158	945453	.	-	0	HIMB1564_01013	HIMB1564	431	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB1564_01016
+HIMB1564-00000000001	Prodigal:2.6	CDS	945450	946379	.	-	0	HIMB1564_01014	HIMB1564	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB1564_01016
+HIMB1564-00000000001	Prodigal:2.6	CDS	946383	946748	.	-	0	HIMB1564_01015	HIMB1564	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1564_01016
+HIMB1564-00000000001	Prodigal:2.6	CDS	946759	946956	.	-	0	HIMB1564_01016	HIMB1564	65	OG0001423	NA	NA	NA	NA	NA	HIMB1564_01016
+HIMB1564-00000000001	Prodigal:2.6	CDS	947129	947524	.	+	0	HIMB1564_01017	HIMB1564	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB1564_01016
+HIMB1564-00000000001	Prodigal:2.6	CDS	947502	948779	.	+	0	HIMB1564_01018	HIMB1564	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB1564_01016
+HIMB1564-00000000001	Prodigal:2.6	CDS	948820	949968	.	-	0	HIMB1564_01019	HIMB1564	382	OG0001356	NA	NA	NA	NA	NA	HIMB1564_01016
+HIMB1564-00000000001	Prodigal:2.6	CDS	949968	951119	.	-	0	HIMB1564_01020	HIMB1564	383	OG0001314	NA	NA	COG4102	NA	Uncharacterized conserved protein, DUF1501 family	HIMB1564_01016
+HIMB1564-00000000001	Prodigal:2.6	CDS	951116	952555	.	-	0	HIMB1564_01021	HIMB1564	479	OG0001308	NA	NA	COG5267	NA	Uncharacterized conserved protein, DUF1800 family	HIMB1564_01016
+HIMB1520-00000000001	Prodigal:2.6	CDS	527836	528525	.	+	0	HIMB1520_00603	HIMB1520	229	OG0002133	NA	NA	NA	NA	NA	HIMB1520_00608
+HIMB1520-00000000001	Prodigal:2.6	CDS	528538	528780	.	+	0	HIMB1520_00604	HIMB1520	80	OG0002552	NA	NA	NA	NA	NA	HIMB1520_00608
+HIMB1520-00000000001	Prodigal:2.6	CDS	528766	530061	.	-	0	HIMB1520_00605	HIMB1520	431	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB1520_00608
+HIMB1520-00000000001	Prodigal:2.6	CDS	530058	530987	.	-	0	HIMB1520_00606	HIMB1520	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB1520_00608
+HIMB1520-00000000001	Prodigal:2.6	CDS	530991	531356	.	-	0	HIMB1520_00607	HIMB1520	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1520_00608
+HIMB1520-00000000001	Prodigal:2.6	CDS	531367	531564	.	-	0	HIMB1520_00608	HIMB1520	65	OG0001423	NA	NA	NA	NA	NA	HIMB1520_00608
+HIMB1520-00000000001	Prodigal:2.6	CDS	531737	532132	.	+	0	HIMB1520_00609	HIMB1520	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB1520_00608
+HIMB1520-00000000001	Prodigal:2.6	CDS	532110	533390	.	+	0	HIMB1520_00610	HIMB1520	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB1520_00608
+HIMB1520-00000000001	Prodigal:2.6	CDS	533383	534252	.	-	0	HIMB1520_00611	HIMB1520	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1520_00608
+HIMB1520-00000000001	Prodigal:2.6	CDS	534253	535641	.	-	0	HIMB1520_00612	HIMB1520	462	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1520_00608
+HIMB1520-00000000001	Prodigal:2.6	CDS	535724	536275	.	+	0	HIMB1520_00613	HIMB1520	183	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HIMB1520_00608
+CP003809.1	Prodigal:2.6	CDS	214938	215807	.	+	0	HIMB5_00223	HIMB5	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB5_00228
+CP003809.1	Prodigal:2.6	CDS	215817	217256	.	+	0	HIMB5_00224	HIMB5	479	OG0001308	NA	NA	COG5267	NA	Uncharacterized conserved protein, DUF1800 family	HIMB5_00228
+CP003809.1	Prodigal:2.6	CDS	217253	218404	.	+	0	HIMB5_00225	HIMB5	383	OG0001314	NA	NA	COG4102	NA	Uncharacterized conserved protein, DUF1501 family	HIMB5_00228
+CP003809.1	Prodigal:2.6	CDS	218401	219681	.	-	0	HIMB5_00226	HIMB5	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB5_00228
+CP003809.1	Prodigal:2.6	CDS	219659	220054	.	-	0	HIMB5_00227	HIMB5	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB5_00228
+CP003809.1	Prodigal:2.6	CDS	220227	220424	.	+	0	HIMB5_00228	HIMB5	65	OG0001423	NA	NA	NA	NA	NA	HIMB5_00228
+CP003809.1	Prodigal:2.6	CDS	220435	220800	.	+	0	HIMB5_00229	HIMB5	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB5_00228
+CP003809.1	Prodigal:2.6	CDS	220804	221733	.	+	0	HIMB5_00230	HIMB5	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB5_00228
+CP003809.1	Prodigal:2.6	CDS	221730	223025	.	+	0	HIMB5_00231	HIMB5	431	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB5_00228
+CP003809.1	Prodigal:2.6	CDS	223133	224290	.	+	0	HIMB5_00232	HIMB5	385	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB5_00228
+CP003809.1	Prodigal:2.6	CDS	224392	227058	.	+	0	HIMB5_00233	HIMB5	888	OG0000591	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	COG0013	AlaS	Alanyl-tRNA synthetase	HIMB5_00228
+LT840186.1	Prodigal:2.6	CDS	131090	131623	.	-	0	HIMB1321_00139	HIMB1321	177	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HIMB1321_00144
+LT840186.1	Prodigal:2.6	CDS	131703	133091	.	+	0	HIMB1321_00140	HIMB1321	462	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1321_00144
+LT840186.1	Prodigal:2.6	CDS	133093	133962	.	+	0	HIMB1321_00141	HIMB1321	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1321_00144
+LT840186.1	Prodigal:2.6	CDS	133971	135248	.	-	0	HIMB1321_00142	HIMB1321	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB1321_00144
+LT840186.1	Prodigal:2.6	CDS	135226	135621	.	-	0	HIMB1321_00143	HIMB1321	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB1321_00144
+LT840186.1	Prodigal:2.6	CDS	135797	135991	.	+	0	HIMB1321_00144	HIMB1321	64	OG0001423	NA	NA	NA	NA	NA	HIMB1321_00144
+LT840186.1	Prodigal:2.6	CDS	136011	136376	.	+	0	HIMB1321_00145	HIMB1321	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1321_00144
+LT840186.1	Prodigal:2.6	CDS	136382	137311	.	+	0	HIMB1321_00146	HIMB1321	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB1321_00144
+LT840186.1	Prodigal:2.6	CDS	137308	138603	.	+	0	HIMB1321_00147	HIMB1321	431	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB1321_00144
+LT840186.1	Prodigal:2.6	CDS	138712	139863	.	+	0	HIMB1321_00148	HIMB1321	383	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB1321_00144
+LT840186.1	Prodigal:2.6	CDS	139968	142634	.	+	0	HIMB1321_00149	HIMB1321	888	OG0000591	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	COG0013	AlaS	Alanyl-tRNA synthetase	HIMB1321_00144
+HIMB1527-00000000001	Prodigal:2.6	CDS	83915	86581	.	-	0	HIMB1527_00080	HIMB1527	888	OG0000591	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	COG0013	AlaS	Alanyl-tRNA synthetase	HIMB1527_00085
+HIMB1527-00000000001	Prodigal:2.6	CDS	86686	87837	.	-	0	HIMB1527_00081	HIMB1527	383	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB1527_00085
+HIMB1527-00000000001	Prodigal:2.6	CDS	87946	89241	.	-	0	HIMB1527_00082	HIMB1527	431	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB1527_00085
+HIMB1527-00000000001	Prodigal:2.6	CDS	89238	90167	.	-	0	HIMB1527_00083	HIMB1527	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB1527_00085
+HIMB1527-00000000001	Prodigal:2.6	CDS	90173	90538	.	-	0	HIMB1527_00084	HIMB1527	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1527_00085
+HIMB1527-00000000001	Prodigal:2.6	CDS	90558	90752	.	-	0	HIMB1527_00085	HIMB1527	64	OG0001423	NA	NA	NA	NA	NA	HIMB1527_00085
+HIMB1527-00000000001	Prodigal:2.6	CDS	90928	91323	.	+	0	HIMB1527_00086	HIMB1527	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB1527_00085
+HIMB1527-00000000001	Prodigal:2.6	CDS	91301	92578	.	+	0	HIMB1527_00087	HIMB1527	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB1527_00085
+HIMB1527-00000000001	Prodigal:2.6	CDS	92588	93457	.	-	0	HIMB1527_00088	HIMB1527	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1527_00085
+HIMB1527-00000000001	Prodigal:2.6	CDS	93459	94847	.	-	0	HIMB1527_00089	HIMB1527	462	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1527_00085
+HIMB1527-00000000001	Prodigal:2.6	CDS	94927	95460	.	+	0	HIMB1527_00090	HIMB1527	177	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HIMB1527_00085
+HIMB1505-00000000001	Prodigal:2.6	CDS	560070	560603	.	-	0	HIMB1505_00588	HIMB1505	177	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HIMB1505_00593
+HIMB1505-00000000001	Prodigal:2.6	CDS	560683	562071	.	+	0	HIMB1505_00589	HIMB1505	462	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1505_00593
+HIMB1505-00000000001	Prodigal:2.6	CDS	562073	562942	.	+	0	HIMB1505_00590	HIMB1505	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1505_00593
+HIMB1505-00000000001	Prodigal:2.6	CDS	562951	564228	.	-	0	HIMB1505_00591	HIMB1505	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB1505_00593
+HIMB1505-00000000001	Prodigal:2.6	CDS	564206	564601	.	-	0	HIMB1505_00592	HIMB1505	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB1505_00593
+HIMB1505-00000000001	Prodigal:2.6	CDS	564777	564971	.	+	0	HIMB1505_00593	HIMB1505	64	OG0001423	NA	NA	NA	NA	NA	HIMB1505_00593
+HIMB1505-00000000001	Prodigal:2.6	CDS	564991	565356	.	+	0	HIMB1505_00594	HIMB1505	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1505_00593
+HIMB1505-00000000001	Prodigal:2.6	CDS	565362	566291	.	+	0	HIMB1505_00595	HIMB1505	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB1505_00593
+HIMB1505-00000000001	Prodigal:2.6	CDS	566288	567583	.	+	0	HIMB1505_00596	HIMB1505	431	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB1505_00593
+HIMB1505-00000000001	Prodigal:2.6	CDS	567691	568842	.	+	0	HIMB1505_00597	HIMB1505	383	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB1505_00593
+HIMB1505-00000000001	Prodigal:2.6	CDS	568947	571613	.	+	0	HIMB1505_00598	HIMB1505	888	OG0000591	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	COG0013	AlaS	Alanyl-tRNA synthetase	HIMB1505_00593
+HIMB1549-00000000001	Prodigal:2.6	CDS	131073	131606	.	-	0	HIMB1549_00139	HIMB1549	177	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HIMB1549_00144
+HIMB1549-00000000001	Prodigal:2.6	CDS	131686	133074	.	+	0	HIMB1549_00140	HIMB1549	462	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1549_00144
+HIMB1549-00000000001	Prodigal:2.6	CDS	133076	133945	.	+	0	HIMB1549_00141	HIMB1549	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1549_00144
+HIMB1549-00000000001	Prodigal:2.6	CDS	133954	135231	.	-	0	HIMB1549_00142	HIMB1549	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB1549_00144
+HIMB1549-00000000001	Prodigal:2.6	CDS	135209	135604	.	-	0	HIMB1549_00143	HIMB1549	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB1549_00144
+HIMB1549-00000000001	Prodigal:2.6	CDS	135780	135974	.	+	0	HIMB1549_00144	HIMB1549	64	OG0001423	NA	NA	NA	NA	NA	HIMB1549_00144
+HIMB1549-00000000001	Prodigal:2.6	CDS	135994	136359	.	+	0	HIMB1549_00145	HIMB1549	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1549_00144
+HIMB1549-00000000001	Prodigal:2.6	CDS	136365	137294	.	+	0	HIMB1549_00146	HIMB1549	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB1549_00144
+HIMB1549-00000000001	Prodigal:2.6	CDS	137291	138586	.	+	0	HIMB1549_00147	HIMB1549	431	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB1549_00144
+HIMB1549-00000000001	Prodigal:2.6	CDS	138694	139848	.	+	0	HIMB1549_00148	HIMB1549	384	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB1549_00144
+HIMB1549-00000000001	Prodigal:2.6	CDS	139953	142619	.	+	0	HIMB1549_00149	HIMB1549	888	OG0000591	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	COG0013	AlaS	Alanyl-tRNA synthetase	HIMB1549_00144
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1079249	1081915	.	-	0	HIMB4_01171	HIMB4	888	OG0000591	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	COG0013	AlaS	Alanyl-tRNA synthetase	HIMB4_01176
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1082020	1083171	.	-	0	HIMB4_01172	HIMB4	383	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB4_01176
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1083279	1084574	.	-	0	HIMB4_01173	HIMB4	431	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB4_01176
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1084571	1085500	.	-	0	HIMB4_01174	HIMB4	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB4_01176
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1085506	1085871	.	-	0	HIMB4_01175	HIMB4	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB4_01176
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1085891	1086085	.	-	0	HIMB4_01176	HIMB4	64	OG0001423	NA	NA	NA	NA	NA	HIMB4_01176
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1086261	1086656	.	+	0	HIMB4_01177	HIMB4	131	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB4_01176
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1086634	1087911	.	+	0	HIMB4_01178	HIMB4	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB4_01176
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1087920	1088789	.	-	0	HIMB4_01179	HIMB4	289	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB4_01176
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1088791	1090179	.	-	0	HIMB4_01180	HIMB4	462	OG0000720	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB4_01176
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	1090259	1090792	.	+	0	HIMB4_01181	HIMB4	177	OG0000311	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HIMB4_01176
+HIMB1409-00000000004	Prodigal:2.6	CDS	72863	74017	.	-	0	HIMB1409_00922	HIMB1409	384	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB1409_00927
+HIMB1409-00000000004	Prodigal:2.6	CDS	74126	75418	.	-	0	HIMB1409_00923	HIMB1409	430	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB1409_00927
+HIMB1409-00000000004	Prodigal:2.6	CDS	75415	76344	.	-	0	HIMB1409_00924	HIMB1409	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB1409_00927
+HIMB1409-00000000004	Prodigal:2.6	CDS	76352	76717	.	-	0	HIMB1409_00925	HIMB1409	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB1409_00927
+HIMB1409-00000000004	Prodigal:2.6	CDS	76730	77113	.	-	0	HIMB1409_00926	HIMB1409	127	OG0001145	NA	NA	COG0346	GloA	Glyoxalase, catechol 2,3-dioxygenase or related enzyme, vicinal oxygen chelate (VOC) family	HIMB1409_00927
+HIMB1409-00000000004	Prodigal:2.6	CDS	77117	77311	.	-	0	HIMB1409_00927	HIMB1409	64	OG0001423	NA	NA	NA	NA	NA	HIMB1409_00927
+HIMB1409-00000000004	Prodigal:2.6	CDS	77457	77882	.	+	0	HIMB1409_00928	HIMB1409	141	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB1409_00927
+HIMB1409-00000000004	Prodigal:2.6	CDS	77860	79137	.	+	0	HIMB1409_00929	HIMB1409	425	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB1409_00927
+HIMB1409-00000000004	Prodigal:2.6	CDS	79147	79758	.	-	0	HIMB1409_00930	HIMB1409	203	OG0001709	K03189	urease accessory protein	COG0378	HypB	Hydrogenase/urease maturation factor HypB, Ni2+-binding GTPase	HIMB1409_00927
+HIMB1409-00000000004	Prodigal:2.6	CDS	79755	80435	.	-	0	HIMB1409_00931	HIMB1409	226	OG0001710	K03188	urease accessory protein	COG0830	UreF	Urease accessory protein UreF	HIMB1409_00927
+HIMB1409-00000000004	Prodigal:2.6	CDS	80401	80844	.	-	0	HIMB1409_00932	HIMB1409	147	OG0001711	K03187	urease accessory protein	COG2371	UreE	Urease accessory protein UreE	HIMB1409_00927
+AZAL01000001.1	Prodigal:2.6	CDS	1199562	1200713	.	+	0	HIMB083_01284	HIMB083	383	OG0001314	NA	NA	COG4102	NA	Uncharacterized conserved protein, DUF1501 family	HIMB083_01289
+AZAL01000001.1	Prodigal:2.6	CDS	1200782	1201816	.	+	0	HIMB083_01285	HIMB083	344	OG0000048	K00364	GMP reductase [EC:1.7.1.7]	COG0516	GuaB	IMP dehydrogenase/GMP reductase	HIMB083_01289
+AZAL01000001.1	Prodigal:2.6	CDS	1201818	1202336	.	-	0	HIMB083_01286	HIMB083	172	OG0000119	K07101	uncharacterized protein	COG2236	Hpt1	Hypoxanthine phosphoribosyltransferase	HIMB083_01289
+AZAL01000001.1	Prodigal:2.6	CDS	1202469	1203749	.	-	0	HIMB083_01287	HIMB083	426	OG0000368	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	HIMB083_01289
+AZAL01000001.1	Prodigal:2.6	CDS	1203727	1204152	.	-	0	HIMB083_01288	HIMB083	141	OG0000588	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	HIMB083_01289
+AZAL01000001.1	Prodigal:2.6	CDS	1204298	1204492	.	+	0	HIMB083_01289	HIMB083	64	OG0001423	NA	NA	NA	NA	NA	HIMB083_01289
+AZAL01000001.1	Prodigal:2.6	CDS	1204502	1204885	.	+	0	HIMB083_01290	HIMB083	127	OG0001145	NA	NA	COG0346	GloA	Glyoxalase, catechol 2,3-dioxygenase or related enzyme, vicinal oxygen chelate (VOC) family	HIMB083_01289
+AZAL01000001.1	Prodigal:2.6	CDS	1204898	1205263	.	+	0	HIMB083_01291	HIMB083	121	OG0000327	NA	NA	COG3791	NA	Uncharacterized conserved protein	HIMB083_01289
+AZAL01000001.1	Prodigal:2.6	CDS	1205271	1206200	.	+	0	HIMB083_01292	HIMB083	309	OG0000905	K15918	D-glycerate 3-kinase [EC:2.7.1.31]	COG4240	Tda10	Pantothenate kinase-related protein Tda10 (topoisomerase I damage affected protein)	HIMB083_01289
+AZAL01000001.1	Prodigal:2.6	CDS	1206197	1207489	.	+	0	HIMB083_01293	HIMB083	430	OG0000532	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	HIMB083_01289
+AZAL01000001.1	Prodigal:2.6	CDS	1207597	1208751	.	+	0	HIMB083_01294	HIMB083	384	OG0000632	K03553	recombination protein RecA	COG0468	RecA	RecA/RadA recombinase	HIMB083_01289
+HIMB1685-00000000001	Prodigal:2.6	CDS	919971	920474	.	-	0	HIMB1685_01001	HIMB1685	167	OG0000784	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	HIMB1685_01006
+HIMB1685-00000000001	Prodigal:2.6	CDS	920471	920836	.	-	0	HIMB1685_01002	HIMB1685	121	OG0000196	K02503	histidine triad (HIT) family protein	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	HIMB1685_01006
+HIMB1685-00000000001	Prodigal:2.6	CDS	920833	921105	.	-	0	HIMB1685_01003	HIMB1685	90	OG0000185	NA	NA	COG0140	HisI2	Phosphoribosyl-ATP pyrophosphohydrolase	HIMB1685_01006
+HIMB1685-00000000001	Prodigal:2.6	CDS	921107	921862	.	-	0	HIMB1685_01004	HIMB1685	251	OG0000053	K02500	imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]	COG0107	HisF	Imidazole glycerol phosphate synthase subunit HisF	HIMB1685_01006
+HIMB1685-00000000001	Prodigal:2.6	CDS	921855	922580	.	-	0	HIMB1685_01005	HIMB1685	241	OG0000210	K01814	phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]	COG0106	HisA	Phosphoribosylformimino-5-aminoimidazole carboxamide ribonucleotide (ProFAR) isomerase	HIMB1685_01006
+HIMB1685-00000000001	Prodigal:2.6	CDS	922577	922771	.	-	0	HIMB1685_01006	HIMB1685	64	OG0001423	NA	NA	NA	NA	NA	HIMB1685_01006
+HIMB1685-00000000001	Prodigal:2.6	CDS	922773	923399	.	-	0	HIMB1685_01007	HIMB1685	208	OG0000057	K02501	imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	HIMB1685_01006
+HIMB1685-00000000001	Prodigal:2.6	CDS	923405	923995	.	-	0	HIMB1685_01008	HIMB1685	196	OG0000237	K01693	imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]	COG0131	HisB2	Imidazoleglycerol phosphate dehydratase HisB	HIMB1685_01006
+HIMB1685-00000000001	Prodigal:2.6	CDS	924085	924600	.	+	0	HIMB1685_01009	HIMB1685	171	OG0000379	K01419	ATP-dependent HslUV protease, peptidase subunit HslV [EC:3.4.25.2]	COG5405	HslV	ATP-dependent protease HslVU (ClpYQ), peptidase subunit	HIMB1685_01006
+HIMB1685-00000000001	Prodigal:2.6	CDS	924600	925973	.	+	0	HIMB1685_01010	HIMB1685	457	OG0000400	K03667	ATP-dependent HslUV protease ATP-binding subunit HslU	COG1220	HslU	ATP-dependent protease HslVU (ClpYQ), ATPase subunit HslU	HIMB1685_01006
+HIMB1685-00000000001	Prodigal:2.6	CDS	925981	926820	.	-	0	HIMB1685_01011	HIMB1685	279	OG0000072	NA	NA	NA	NA	NA	HIMB1685_01006
+HIMB1559-00000000001	Prodigal:2.6	CDS	1087026	1088117	.	-	0	HIMB1559_01200	HIMB1559	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1559_01205
+HIMB1559-00000000001	Prodigal:2.6	CDS	1088092	1088802	.	-	0	HIMB1559_01201	HIMB1559	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1559_01205
+HIMB1559-00000000001	Prodigal:2.6	CDS	1088830	1090320	.	+	0	HIMB1559_01202	HIMB1559	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1559_01205
+HIMB1559-00000000001	Prodigal:2.6	CDS	1090326	1090655	.	+	0	HIMB1559_01203	HIMB1559	109	OG0001538	NA	NA	NA	NA	NA	HIMB1559_01205
+HIMB1559-00000000001	Prodigal:2.6	CDS	1090791	1091510	.	+	0	HIMB1559_01204	HIMB1559	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1559_01205
+HIMB1559-00000000001	Prodigal:2.6	CDS	1091507	1091698	.	+	0	HIMB1559_01205	HIMB1559	63	OG0001423	NA	NA	NA	NA	NA	HIMB1559_01205
+HIMB1559-00000000001	Prodigal:2.6	CDS	1091691	1091912	.	+	0	HIMB1559_01206	HIMB1559	73	OG0001152	NA	NA	NA	NA	NA	HIMB1559_01205
+HIMB1559-00000000001	Prodigal:2.6	CDS	1091909	1093045	.	-	0	HIMB1559_01207	HIMB1559	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1559_01205
+HIMB1559-00000000001	Prodigal:2.6	CDS	1093055	1093435	.	-	0	HIMB1559_01208	HIMB1559	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1559_01205
+HIMB1559-00000000001	Prodigal:2.6	CDS	1093435	1093893	.	-	0	HIMB1559_01209	HIMB1559	152	OG0000977	NA	NA	NA	NA	NA	HIMB1559_01205
+HIMB1559-00000000001	Prodigal:2.6	CDS	1093947	1094564	.	-	0	HIMB1559_01210	HIMB1559	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1559_01205
+HIMB1597-00000000001	Prodigal:2.6	CDS	716858	717475	.	+	0	HIMB1597_00743	HIMB1597	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1597_00748
+HIMB1597-00000000001	Prodigal:2.6	CDS	717529	717987	.	+	0	HIMB1597_00744	HIMB1597	152	OG0000977	NA	NA	NA	NA	NA	HIMB1597_00748
+HIMB1597-00000000001	Prodigal:2.6	CDS	717987	718367	.	+	0	HIMB1597_00745	HIMB1597	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1597_00748
+HIMB1597-00000000001	Prodigal:2.6	CDS	718377	719513	.	+	0	HIMB1597_00746	HIMB1597	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1597_00748
+HIMB1597-00000000001	Prodigal:2.6	CDS	719510	719731	.	-	0	HIMB1597_00747	HIMB1597	73	OG0001152	NA	NA	NA	NA	NA	HIMB1597_00748
+HIMB1597-00000000001	Prodigal:2.6	CDS	719724	719915	.	-	0	HIMB1597_00748	HIMB1597	63	OG0001423	NA	NA	NA	NA	NA	HIMB1597_00748
+HIMB1597-00000000001	Prodigal:2.6	CDS	719912	720631	.	-	0	HIMB1597_00749	HIMB1597	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1597_00748
+HIMB1597-00000000001	Prodigal:2.6	CDS	720767	721096	.	-	0	HIMB1597_00750	HIMB1597	109	OG0001538	NA	NA	NA	NA	NA	HIMB1597_00748
+HIMB1597-00000000001	Prodigal:2.6	CDS	721102	722511	.	-	0	HIMB1597_00751	HIMB1597	469	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1597_00748
+HIMB1597-00000000001	Prodigal:2.6	CDS	722620	723330	.	+	0	HIMB1597_00752	HIMB1597	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1597_00748
+HIMB1597-00000000001	Prodigal:2.6	CDS	723332	724396	.	+	0	HIMB1597_00753	HIMB1597	354	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1597_00748
+HIMB1587-00000000002	Prodigal:2.6	CDS	270027	271091	.	-	0	HIMB1587_01193	HIMB1587	354	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1587_01198
+HIMB1587-00000000002	Prodigal:2.6	CDS	271093	271803	.	-	0	HIMB1587_01194	HIMB1587	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1587_01198
+HIMB1587-00000000002	Prodigal:2.6	CDS	271912	273321	.	+	0	HIMB1587_01195	HIMB1587	469	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1587_01198
+HIMB1587-00000000002	Prodigal:2.6	CDS	273327	273656	.	+	0	HIMB1587_01196	HIMB1587	109	OG0001538	NA	NA	NA	NA	NA	HIMB1587_01198
+HIMB1587-00000000002	Prodigal:2.6	CDS	273792	274511	.	+	0	HIMB1587_01197	HIMB1587	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1587_01198
+HIMB1587-00000000002	Prodigal:2.6	CDS	274508	274699	.	+	0	HIMB1587_01198	HIMB1587	63	OG0001423	NA	NA	NA	NA	NA	HIMB1587_01198
+HIMB1587-00000000002	Prodigal:2.6	CDS	274692	274913	.	+	0	HIMB1587_01199	HIMB1587	73	OG0001152	NA	NA	NA	NA	NA	HIMB1587_01198
+HIMB1587-00000000002	Prodigal:2.6	CDS	274910	276046	.	-	0	HIMB1587_01200	HIMB1587	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1587_01198
+HIMB1587-00000000002	Prodigal:2.6	CDS	276056	276436	.	-	0	HIMB1587_01201	HIMB1587	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1587_01198
+HIMB1587-00000000002	Prodigal:2.6	CDS	276436	276894	.	-	0	HIMB1587_01202	HIMB1587	152	OG0000977	NA	NA	NA	NA	NA	HIMB1587_01198
+HIMB1587-00000000002	Prodigal:2.6	CDS	276948	277565	.	-	0	HIMB1587_01203	HIMB1587	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1587_01198
+HIMB1573-00000000001	Prodigal:2.6	CDS	367905	369092	.	+	0	HIMB1573_00380	HIMB1573	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1573_00385
+HIMB1573-00000000001	Prodigal:2.6	CDS	369151	369609	.	+	0	HIMB1573_00381	HIMB1573	152	OG0000977	NA	NA	NA	NA	NA	HIMB1573_00385
+HIMB1573-00000000001	Prodigal:2.6	CDS	369609	369989	.	+	0	HIMB1573_00382	HIMB1573	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1573_00385
+HIMB1573-00000000001	Prodigal:2.6	CDS	369999	371135	.	+	0	HIMB1573_00383	HIMB1573	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1573_00385
+HIMB1573-00000000001	Prodigal:2.6	CDS	371132	371353	.	-	0	HIMB1573_00384	HIMB1573	73	OG0001152	NA	NA	NA	NA	NA	HIMB1573_00385
+HIMB1573-00000000001	Prodigal:2.6	CDS	371346	371537	.	-	0	HIMB1573_00385	HIMB1573	63	OG0001423	NA	NA	NA	NA	NA	HIMB1573_00385
+HIMB1573-00000000001	Prodigal:2.6	CDS	371534	372253	.	-	0	HIMB1573_00386	HIMB1573	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1573_00385
+HIMB1573-00000000001	Prodigal:2.6	CDS	372389	372718	.	-	0	HIMB1573_00387	HIMB1573	109	OG0001538	NA	NA	NA	NA	NA	HIMB1573_00385
+HIMB1573-00000000001	Prodigal:2.6	CDS	372724	374214	.	-	0	HIMB1573_00388	HIMB1573	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1573_00385
+HIMB1573-00000000001	Prodigal:2.6	CDS	374242	374952	.	+	0	HIMB1573_00389	HIMB1573	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1573_00385
+HIMB1573-00000000001	Prodigal:2.6	CDS	374927	376018	.	+	0	HIMB1573_00390	HIMB1573	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1573_00385
+HIMB1490-00000000001	Prodigal:2.6	CDS	96929	98116	.	+	0	HIMB1490_00098	HIMB1490	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1490_00103
+HIMB1490-00000000001	Prodigal:2.6	CDS	98174	98632	.	+	0	HIMB1490_00099	HIMB1490	152	OG0000977	NA	NA	NA	NA	NA	HIMB1490_00103
+HIMB1490-00000000001	Prodigal:2.6	CDS	98632	99012	.	+	0	HIMB1490_00100	HIMB1490	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1490_00103
+HIMB1490-00000000001	Prodigal:2.6	CDS	99019	100158	.	+	0	HIMB1490_00101	HIMB1490	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1490_00103
+HIMB1490-00000000001	Prodigal:2.6	CDS	100155	100376	.	-	0	HIMB1490_00102	HIMB1490	73	OG0001152	NA	NA	NA	NA	NA	HIMB1490_00103
+HIMB1490-00000000001	Prodigal:2.6	CDS	100369	100560	.	-	0	HIMB1490_00103	HIMB1490	63	OG0001423	NA	NA	NA	NA	NA	HIMB1490_00103
+HIMB1490-00000000001	Prodigal:2.6	CDS	100557	101276	.	-	0	HIMB1490_00104	HIMB1490	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1490_00103
+HIMB1490-00000000001	Prodigal:2.6	CDS	101412	101741	.	-	0	HIMB1490_00105	HIMB1490	109	OG0001538	NA	NA	NA	NA	NA	HIMB1490_00103
+HIMB1490-00000000001	Prodigal:2.6	CDS	101747	103237	.	-	0	HIMB1490_00106	HIMB1490	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1490_00103
+HIMB1490-00000000001	Prodigal:2.6	CDS	103265	103975	.	+	0	HIMB1490_00107	HIMB1490	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1490_00103
+HIMB1490-00000000001	Prodigal:2.6	CDS	103950	105041	.	+	0	HIMB1490_00108	HIMB1490	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1490_00103
+HIMB1491-00000000001	Prodigal:2.6	CDS	395919	397106	.	+	0	HIMB1491_00393	HIMB1491	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1491_00398
+HIMB1491-00000000001	Prodigal:2.6	CDS	397164	397622	.	+	0	HIMB1491_00394	HIMB1491	152	OG0000977	NA	NA	NA	NA	NA	HIMB1491_00398
+HIMB1491-00000000001	Prodigal:2.6	CDS	397622	398002	.	+	0	HIMB1491_00395	HIMB1491	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1491_00398
+HIMB1491-00000000001	Prodigal:2.6	CDS	398009	399148	.	+	0	HIMB1491_00396	HIMB1491	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1491_00398
+HIMB1491-00000000001	Prodigal:2.6	CDS	399145	399366	.	-	0	HIMB1491_00397	HIMB1491	73	OG0001152	NA	NA	NA	NA	NA	HIMB1491_00398
+HIMB1491-00000000001	Prodigal:2.6	CDS	399359	399550	.	-	0	HIMB1491_00398	HIMB1491	63	OG0001423	NA	NA	NA	NA	NA	HIMB1491_00398
+HIMB1491-00000000001	Prodigal:2.6	CDS	399547	400266	.	-	0	HIMB1491_00399	HIMB1491	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1491_00398
+HIMB1491-00000000001	Prodigal:2.6	CDS	400402	400731	.	-	0	HIMB1491_00400	HIMB1491	109	OG0001538	NA	NA	NA	NA	NA	HIMB1491_00398
+HIMB1491-00000000001	Prodigal:2.6	CDS	400737	402227	.	-	0	HIMB1491_00401	HIMB1491	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1491_00398
+HIMB1491-00000000001	Prodigal:2.6	CDS	402255	402965	.	+	0	HIMB1491_00402	HIMB1491	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1491_00398
+HIMB1491-00000000001	Prodigal:2.6	CDS	402940	404031	.	+	0	HIMB1491_00403	HIMB1491	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1491_00398
+HIMB1765-00000000001	Prodigal:2.6	CDS	1010080	1011171	.	-	0	HIMB1765_01107	HIMB1765	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1765_01112
+HIMB1765-00000000001	Prodigal:2.6	CDS	1011146	1011856	.	-	0	HIMB1765_01108	HIMB1765	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1765_01112
+HIMB1765-00000000001	Prodigal:2.6	CDS	1011884	1013374	.	+	0	HIMB1765_01109	HIMB1765	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1765_01112
+HIMB1765-00000000001	Prodigal:2.6	CDS	1013380	1013709	.	+	0	HIMB1765_01110	HIMB1765	109	OG0001538	NA	NA	NA	NA	NA	HIMB1765_01112
+HIMB1765-00000000001	Prodigal:2.6	CDS	1013845	1014564	.	+	0	HIMB1765_01111	HIMB1765	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1765_01112
+HIMB1765-00000000001	Prodigal:2.6	CDS	1014561	1014752	.	+	0	HIMB1765_01112	HIMB1765	63	OG0001423	NA	NA	NA	NA	NA	HIMB1765_01112
+HIMB1765-00000000001	Prodigal:2.6	CDS	1014745	1014966	.	+	0	HIMB1765_01113	HIMB1765	73	OG0001152	NA	NA	NA	NA	NA	HIMB1765_01112
+HIMB1765-00000000001	Prodigal:2.6	CDS	1014963	1016099	.	-	0	HIMB1765_01114	HIMB1765	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1765_01112
+HIMB1765-00000000001	Prodigal:2.6	CDS	1016109	1016489	.	-	0	HIMB1765_01115	HIMB1765	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1765_01112
+HIMB1765-00000000001	Prodigal:2.6	CDS	1016489	1016947	.	-	0	HIMB1765_01116	HIMB1765	152	OG0000977	NA	NA	NA	NA	NA	HIMB1765_01112
+HIMB1765-00000000001	Prodigal:2.6	CDS	1016995	1017618	.	-	0	HIMB1765_01117	HIMB1765	207	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1765_01112
+HIMB1494-00000000001	Prodigal:2.6	CDS	272895	273986	.	-	0	HIMB1494_00295	HIMB1494	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1494_00300
+HIMB1494-00000000001	Prodigal:2.6	CDS	273961	274671	.	-	0	HIMB1494_00296	HIMB1494	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1494_00300
+HIMB1494-00000000001	Prodigal:2.6	CDS	274699	276189	.	+	0	HIMB1494_00297	HIMB1494	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1494_00300
+HIMB1494-00000000001	Prodigal:2.6	CDS	276195	276524	.	+	0	HIMB1494_00298	HIMB1494	109	OG0001538	NA	NA	NA	NA	NA	HIMB1494_00300
+HIMB1494-00000000001	Prodigal:2.6	CDS	276660	277379	.	+	0	HIMB1494_00299	HIMB1494	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1494_00300
+HIMB1494-00000000001	Prodigal:2.6	CDS	277376	277567	.	+	0	HIMB1494_00300	HIMB1494	63	OG0001423	NA	NA	NA	NA	NA	HIMB1494_00300
+HIMB1494-00000000001	Prodigal:2.6	CDS	277560	277781	.	+	0	HIMB1494_00301	HIMB1494	73	OG0001152	NA	NA	NA	NA	NA	HIMB1494_00300
+HIMB1494-00000000001	Prodigal:2.6	CDS	277778	278914	.	-	0	HIMB1494_00302	HIMB1494	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1494_00300
+HIMB1494-00000000001	Prodigal:2.6	CDS	278924	279304	.	-	0	HIMB1494_00303	HIMB1494	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1494_00300
+HIMB1494-00000000001	Prodigal:2.6	CDS	279304	279762	.	-	0	HIMB1494_00304	HIMB1494	152	OG0000977	NA	NA	NA	NA	NA	HIMB1494_00300
+HIMB1494-00000000001	Prodigal:2.6	CDS	279820	281007	.	-	0	HIMB1494_00305	HIMB1494	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1494_00300
+HIMB1495-00000000001	Prodigal:2.6	CDS	249600	250691	.	-	0	HIMB1495_00273	HIMB1495	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1495_00278
+HIMB1495-00000000001	Prodigal:2.6	CDS	250666	251376	.	-	0	HIMB1495_00274	HIMB1495	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1495_00278
+HIMB1495-00000000001	Prodigal:2.6	CDS	251404	252894	.	+	0	HIMB1495_00275	HIMB1495	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1495_00278
+HIMB1495-00000000001	Prodigal:2.6	CDS	252900	253229	.	+	0	HIMB1495_00276	HIMB1495	109	OG0001538	NA	NA	NA	NA	NA	HIMB1495_00278
+HIMB1495-00000000001	Prodigal:2.6	CDS	253365	254084	.	+	0	HIMB1495_00277	HIMB1495	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1495_00278
+HIMB1495-00000000001	Prodigal:2.6	CDS	254081	254272	.	+	0	HIMB1495_00278	HIMB1495	63	OG0001423	NA	NA	NA	NA	NA	HIMB1495_00278
+HIMB1495-00000000001	Prodigal:2.6	CDS	254265	254486	.	+	0	HIMB1495_00279	HIMB1495	73	OG0001152	NA	NA	NA	NA	NA	HIMB1495_00278
+HIMB1495-00000000001	Prodigal:2.6	CDS	254483	255619	.	-	0	HIMB1495_00280	HIMB1495	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1495_00278
+HIMB1495-00000000001	Prodigal:2.6	CDS	255629	256009	.	-	0	HIMB1495_00281	HIMB1495	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1495_00278
+HIMB1495-00000000001	Prodigal:2.6	CDS	256009	256467	.	-	0	HIMB1495_00282	HIMB1495	152	OG0000977	NA	NA	NA	NA	NA	HIMB1495_00278
+HIMB1495-00000000001	Prodigal:2.6	CDS	256525	257712	.	-	0	HIMB1495_00283	HIMB1495	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1495_00278
+HIMB1593-00000000001	Prodigal:2.6	CDS	259198	260262	.	-	0	HIMB1593_00280	HIMB1593	354	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1593_00285
+HIMB1593-00000000001	Prodigal:2.6	CDS	260264	260974	.	-	0	HIMB1593_00281	HIMB1593	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1593_00285
+HIMB1593-00000000001	Prodigal:2.6	CDS	261083	262492	.	+	0	HIMB1593_00282	HIMB1593	469	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1593_00285
+HIMB1593-00000000001	Prodigal:2.6	CDS	262498	262827	.	+	0	HIMB1593_00283	HIMB1593	109	OG0001538	NA	NA	NA	NA	NA	HIMB1593_00285
+HIMB1593-00000000001	Prodigal:2.6	CDS	262963	263682	.	+	0	HIMB1593_00284	HIMB1593	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1593_00285
+HIMB1593-00000000001	Prodigal:2.6	CDS	263679	263870	.	+	0	HIMB1593_00285	HIMB1593	63	OG0001423	NA	NA	NA	NA	NA	HIMB1593_00285
+HIMB1593-00000000001	Prodigal:2.6	CDS	263863	264084	.	+	0	HIMB1593_00286	HIMB1593	73	OG0001152	NA	NA	NA	NA	NA	HIMB1593_00285
+HIMB1593-00000000001	Prodigal:2.6	CDS	264081	265217	.	-	0	HIMB1593_00287	HIMB1593	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1593_00285
+HIMB1593-00000000001	Prodigal:2.6	CDS	265227	265607	.	-	0	HIMB1593_00288	HIMB1593	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1593_00285
+HIMB1593-00000000001	Prodigal:2.6	CDS	265607	266065	.	-	0	HIMB1593_00289	HIMB1593	152	OG0000977	NA	NA	NA	NA	NA	HIMB1593_00285
+HIMB1593-00000000001	Prodigal:2.6	CDS	266123	267310	.	-	0	HIMB1593_00290	HIMB1593	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1593_00285
+HIMB1485-00000000001	Prodigal:2.6	CDS	172622	173809	.	+	0	HIMB1485_00181	HIMB1485	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1485_00186
+HIMB1485-00000000001	Prodigal:2.6	CDS	173867	174325	.	+	0	HIMB1485_00182	HIMB1485	152	OG0000977	NA	NA	NA	NA	NA	HIMB1485_00186
+HIMB1485-00000000001	Prodigal:2.6	CDS	174325	174705	.	+	0	HIMB1485_00183	HIMB1485	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1485_00186
+HIMB1485-00000000001	Prodigal:2.6	CDS	174712	175851	.	+	0	HIMB1485_00184	HIMB1485	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1485_00186
+HIMB1485-00000000001	Prodigal:2.6	CDS	175848	176069	.	-	0	HIMB1485_00185	HIMB1485	73	OG0001152	NA	NA	NA	NA	NA	HIMB1485_00186
+HIMB1485-00000000001	Prodigal:2.6	CDS	176062	176253	.	-	0	HIMB1485_00186	HIMB1485	63	OG0001423	NA	NA	NA	NA	NA	HIMB1485_00186
+HIMB1485-00000000001	Prodigal:2.6	CDS	176250	176969	.	-	0	HIMB1485_00187	HIMB1485	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1485_00186
+HIMB1485-00000000001	Prodigal:2.6	CDS	177105	177434	.	-	0	HIMB1485_00188	HIMB1485	109	OG0001538	NA	NA	NA	NA	NA	HIMB1485_00186
+HIMB1485-00000000001	Prodigal:2.6	CDS	177440	178849	.	-	0	HIMB1485_00189	HIMB1485	469	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1485_00186
+HIMB1485-00000000001	Prodigal:2.6	CDS	178958	179668	.	+	0	HIMB1485_00190	HIMB1485	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1485_00186
+HIMB1485-00000000001	Prodigal:2.6	CDS	179643	180737	.	+	0	HIMB1485_00191	HIMB1485	364	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1485_00186
+HIMB1493-00000000001	Prodigal:2.6	CDS	1166568	1167185	.	+	0	HIMB1493_01232	HIMB1493	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1493_01237
+HIMB1493-00000000001	Prodigal:2.6	CDS	1167239	1167697	.	+	0	HIMB1493_01233	HIMB1493	152	OG0000977	NA	NA	NA	NA	NA	HIMB1493_01237
+HIMB1493-00000000001	Prodigal:2.6	CDS	1167697	1168077	.	+	0	HIMB1493_01234	HIMB1493	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1493_01237
+HIMB1493-00000000001	Prodigal:2.6	CDS	1168084	1169223	.	+	0	HIMB1493_01235	HIMB1493	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1493_01237
+HIMB1493-00000000001	Prodigal:2.6	CDS	1169220	1169441	.	-	0	HIMB1493_01236	HIMB1493	73	OG0001152	NA	NA	NA	NA	NA	HIMB1493_01237
+HIMB1493-00000000001	Prodigal:2.6	CDS	1169434	1169625	.	-	0	HIMB1493_01237	HIMB1493	63	OG0001423	NA	NA	NA	NA	NA	HIMB1493_01237
+HIMB1493-00000000001	Prodigal:2.6	CDS	1169622	1170341	.	-	0	HIMB1493_01238	HIMB1493	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1493_01237
+HIMB1493-00000000001	Prodigal:2.6	CDS	1170477	1170806	.	-	0	HIMB1493_01239	HIMB1493	109	OG0001538	NA	NA	NA	NA	NA	HIMB1493_01237
+HIMB1493-00000000001	Prodigal:2.6	CDS	1170812	1172302	.	-	0	HIMB1493_01240	HIMB1493	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1493_01237
+HIMB1493-00000000001	Prodigal:2.6	CDS	1172330	1173040	.	+	0	HIMB1493_01241	HIMB1493	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1493_01237
+HIMB1493-00000000001	Prodigal:2.6	CDS	1173015	1174106	.	+	0	HIMB1493_01242	HIMB1493	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1493_01237
+HIMB1518-00000000001	Prodigal:2.6	CDS	1337305	1337922	.	+	0	HIMB1518_01407	HIMB1518	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1518_01412
+HIMB1518-00000000001	Prodigal:2.6	CDS	1337976	1338434	.	+	0	HIMB1518_01408	HIMB1518	152	OG0000977	NA	NA	NA	NA	NA	HIMB1518_01412
+HIMB1518-00000000001	Prodigal:2.6	CDS	1338434	1338814	.	+	0	HIMB1518_01409	HIMB1518	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1518_01412
+HIMB1518-00000000001	Prodigal:2.6	CDS	1338821	1339960	.	+	0	HIMB1518_01410	HIMB1518	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1518_01412
+HIMB1518-00000000001	Prodigal:2.6	CDS	1339957	1340178	.	-	0	HIMB1518_01411	HIMB1518	73	OG0001152	NA	NA	NA	NA	NA	HIMB1518_01412
+HIMB1518-00000000001	Prodigal:2.6	CDS	1340171	1340362	.	-	0	HIMB1518_01412	HIMB1518	63	OG0001423	NA	NA	NA	NA	NA	HIMB1518_01412
+HIMB1518-00000000001	Prodigal:2.6	CDS	1340359	1341078	.	-	0	HIMB1518_01413	HIMB1518	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1518_01412
+HIMB1518-00000000001	Prodigal:2.6	CDS	1341214	1341543	.	-	0	HIMB1518_01414	HIMB1518	109	OG0001538	NA	NA	NA	NA	NA	HIMB1518_01412
+HIMB1518-00000000001	Prodigal:2.6	CDS	1341549	1343039	.	-	0	HIMB1518_01415	HIMB1518	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1518_01412
+HIMB1518-00000000001	Prodigal:2.6	CDS	1343067	1343777	.	+	0	HIMB1518_01416	HIMB1518	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1518_01412
+HIMB1518-00000000001	Prodigal:2.6	CDS	1343752	1344843	.	+	0	HIMB1518_01417	HIMB1518	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1518_01412
+HIMB1770-00000000001	Prodigal:2.6	CDS	800296	800913	.	+	0	HIMB1770_00854	HIMB1770	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1770_00859
+HIMB1770-00000000001	Prodigal:2.6	CDS	800967	801425	.	+	0	HIMB1770_00855	HIMB1770	152	OG0000977	NA	NA	NA	NA	NA	HIMB1770_00859
+HIMB1770-00000000001	Prodigal:2.6	CDS	801425	801805	.	+	0	HIMB1770_00856	HIMB1770	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1770_00859
+HIMB1770-00000000001	Prodigal:2.6	CDS	801812	802951	.	+	0	HIMB1770_00857	HIMB1770	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1770_00859
+HIMB1770-00000000001	Prodigal:2.6	CDS	802948	803169	.	-	0	HIMB1770_00858	HIMB1770	73	OG0001152	NA	NA	NA	NA	NA	HIMB1770_00859
+HIMB1770-00000000001	Prodigal:2.6	CDS	803162	803353	.	-	0	HIMB1770_00859	HIMB1770	63	OG0001423	NA	NA	NA	NA	NA	HIMB1770_00859
+HIMB1770-00000000001	Prodigal:2.6	CDS	803350	804069	.	-	0	HIMB1770_00860	HIMB1770	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1770_00859
+HIMB1770-00000000001	Prodigal:2.6	CDS	804205	804534	.	-	0	HIMB1770_00861	HIMB1770	109	OG0001538	NA	NA	NA	NA	NA	HIMB1770_00859
+HIMB1770-00000000001	Prodigal:2.6	CDS	804540	806030	.	-	0	HIMB1770_00862	HIMB1770	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1770_00859
+HIMB1770-00000000001	Prodigal:2.6	CDS	806058	806768	.	+	0	HIMB1770_00863	HIMB1770	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1770_00859
+HIMB1770-00000000001	Prodigal:2.6	CDS	806743	807834	.	+	0	HIMB1770_00864	HIMB1770	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1770_00859
+HIMB1507-00000000001	Prodigal:2.6	CDS	426174	426791	.	+	0	HIMB1507_00425	HIMB1507	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1507_00430
+HIMB1507-00000000001	Prodigal:2.6	CDS	426845	427303	.	+	0	HIMB1507_00426	HIMB1507	152	OG0000977	NA	NA	NA	NA	NA	HIMB1507_00430
+HIMB1507-00000000001	Prodigal:2.6	CDS	427303	427683	.	+	0	HIMB1507_00427	HIMB1507	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1507_00430
+HIMB1507-00000000001	Prodigal:2.6	CDS	427690	428829	.	+	0	HIMB1507_00428	HIMB1507	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1507_00430
+HIMB1507-00000000001	Prodigal:2.6	CDS	428826	429047	.	-	0	HIMB1507_00429	HIMB1507	73	OG0001152	NA	NA	NA	NA	NA	HIMB1507_00430
+HIMB1507-00000000001	Prodigal:2.6	CDS	429040	429231	.	-	0	HIMB1507_00430	HIMB1507	63	OG0001423	NA	NA	NA	NA	NA	HIMB1507_00430
+HIMB1507-00000000001	Prodigal:2.6	CDS	429228	429947	.	-	0	HIMB1507_00431	HIMB1507	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1507_00430
+HIMB1507-00000000001	Prodigal:2.6	CDS	430083	430412	.	-	0	HIMB1507_00432	HIMB1507	109	OG0001538	NA	NA	NA	NA	NA	HIMB1507_00430
+HIMB1507-00000000001	Prodigal:2.6	CDS	430423	431826	.	-	0	HIMB1507_00433	HIMB1507	467	OG0000383	NA	NA	COG0277	GlcD	FAD/FMN-containing lactate dehydrogenase/glycolate oxidase	HIMB1507_00430
+HIMB1507-00000000001	Prodigal:2.6	CDS	431823	433316	.	-	0	HIMB1507_00434	HIMB1507	497	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1507_00430
+HIMB1507-00000000001	Prodigal:2.6	CDS	433344	434054	.	+	0	HIMB1507_00435	HIMB1507	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1507_00430
+HIMB1526-00000000001	Prodigal:2.6	CDS	119334	120425	.	-	0	HIMB1526_00137	HIMB1526	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1526_00142
+HIMB1526-00000000001	Prodigal:2.6	CDS	120400	121110	.	-	0	HIMB1526_00138	HIMB1526	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1526_00142
+HIMB1526-00000000001	Prodigal:2.6	CDS	121138	122628	.	+	0	HIMB1526_00139	HIMB1526	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1526_00142
+HIMB1526-00000000001	Prodigal:2.6	CDS	122634	122963	.	+	0	HIMB1526_00140	HIMB1526	109	OG0001538	NA	NA	NA	NA	NA	HIMB1526_00142
+HIMB1526-00000000001	Prodigal:2.6	CDS	123099	123818	.	+	0	HIMB1526_00141	HIMB1526	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1526_00142
+HIMB1526-00000000001	Prodigal:2.6	CDS	123815	124006	.	+	0	HIMB1526_00142	HIMB1526	63	OG0001423	NA	NA	NA	NA	NA	HIMB1526_00142
+HIMB1526-00000000001	Prodigal:2.6	CDS	123999	124220	.	+	0	HIMB1526_00143	HIMB1526	73	OG0001152	NA	NA	NA	NA	NA	HIMB1526_00142
+HIMB1526-00000000001	Prodigal:2.6	CDS	124217	125356	.	-	0	HIMB1526_00144	HIMB1526	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1526_00142
+HIMB1526-00000000001	Prodigal:2.6	CDS	125363	125743	.	-	0	HIMB1526_00145	HIMB1526	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1526_00142
+HIMB1526-00000000001	Prodigal:2.6	CDS	125743	126201	.	-	0	HIMB1526_00146	HIMB1526	152	OG0000977	NA	NA	NA	NA	NA	HIMB1526_00142
+HIMB1526-00000000001	Prodigal:2.6	CDS	126255	126872	.	-	0	HIMB1526_00147	HIMB1526	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1526_00142
+HIMB1552-00000000001	Prodigal:2.6	CDS	1099048	1100139	.	-	0	HIMB1552_01189	HIMB1552	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1552_01194
+HIMB1552-00000000001	Prodigal:2.6	CDS	1100114	1100824	.	-	0	HIMB1552_01190	HIMB1552	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1552_01194
+HIMB1552-00000000001	Prodigal:2.6	CDS	1100852	1102342	.	+	0	HIMB1552_01191	HIMB1552	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1552_01194
+HIMB1552-00000000001	Prodigal:2.6	CDS	1102348	1102677	.	+	0	HIMB1552_01192	HIMB1552	109	OG0001538	NA	NA	NA	NA	NA	HIMB1552_01194
+HIMB1552-00000000001	Prodigal:2.6	CDS	1102813	1103532	.	+	0	HIMB1552_01193	HIMB1552	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1552_01194
+HIMB1552-00000000001	Prodigal:2.6	CDS	1103529	1103720	.	+	0	HIMB1552_01194	HIMB1552	63	OG0001423	NA	NA	NA	NA	NA	HIMB1552_01194
+HIMB1552-00000000001	Prodigal:2.6	CDS	1103713	1103934	.	+	0	HIMB1552_01195	HIMB1552	73	OG0001152	NA	NA	NA	NA	NA	HIMB1552_01194
+HIMB1552-00000000001	Prodigal:2.6	CDS	1103931	1105067	.	-	0	HIMB1552_01196	HIMB1552	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1552_01194
+HIMB1552-00000000001	Prodigal:2.6	CDS	1105077	1105457	.	-	0	HIMB1552_01197	HIMB1552	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1552_01194
+HIMB1552-00000000001	Prodigal:2.6	CDS	1105457	1105915	.	-	0	HIMB1552_01198	HIMB1552	152	OG0000977	NA	NA	NA	NA	NA	HIMB1552_01194
+HIMB1552-00000000001	Prodigal:2.6	CDS	1105969	1106586	.	-	0	HIMB1552_01199	HIMB1552	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1552_01194
+HIMB1641-00000000001	Prodigal:2.6	CDS	322557	323174	.	+	0	HIMB1641_00316	HIMB1641	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1641_00321
+HIMB1641-00000000001	Prodigal:2.6	CDS	323228	323686	.	+	0	HIMB1641_00317	HIMB1641	152	OG0000977	NA	NA	NA	NA	NA	HIMB1641_00321
+HIMB1641-00000000001	Prodigal:2.6	CDS	323686	324066	.	+	0	HIMB1641_00318	HIMB1641	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1641_00321
+HIMB1641-00000000001	Prodigal:2.6	CDS	324076	325212	.	+	0	HIMB1641_00319	HIMB1641	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1641_00321
+HIMB1641-00000000001	Prodigal:2.6	CDS	325209	325430	.	-	0	HIMB1641_00320	HIMB1641	73	OG0001152	NA	NA	NA	NA	NA	HIMB1641_00321
+HIMB1641-00000000001	Prodigal:2.6	CDS	325423	325614	.	-	0	HIMB1641_00321	HIMB1641	63	OG0001423	NA	NA	NA	NA	NA	HIMB1641_00321
+HIMB1641-00000000001	Prodigal:2.6	CDS	325611	326330	.	-	0	HIMB1641_00322	HIMB1641	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1641_00321
+HIMB1641-00000000001	Prodigal:2.6	CDS	326466	326795	.	-	0	HIMB1641_00323	HIMB1641	109	OG0001538	NA	NA	NA	NA	NA	HIMB1641_00321
+HIMB1641-00000000001	Prodigal:2.6	CDS	326801	328291	.	-	0	HIMB1641_00324	HIMB1641	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1641_00321
+HIMB1641-00000000001	Prodigal:2.6	CDS	328319	329029	.	+	0	HIMB1641_00325	HIMB1641	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1641_00321
+HIMB1641-00000000001	Prodigal:2.6	CDS	329004	330095	.	+	0	HIMB1641_00326	HIMB1641	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1641_00321
+HIMB1636-00000000001	Prodigal:2.6	CDS	1167838	1168455	.	+	0	HIMB1636_01212	HIMB1636	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1636_01217
+HIMB1636-00000000001	Prodigal:2.6	CDS	1168509	1168967	.	+	0	HIMB1636_01213	HIMB1636	152	OG0000977	NA	NA	NA	NA	NA	HIMB1636_01217
+HIMB1636-00000000001	Prodigal:2.6	CDS	1168967	1169347	.	+	0	HIMB1636_01214	HIMB1636	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1636_01217
+HIMB1636-00000000001	Prodigal:2.6	CDS	1169357	1170493	.	+	0	HIMB1636_01215	HIMB1636	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1636_01217
+HIMB1636-00000000001	Prodigal:2.6	CDS	1170490	1170711	.	-	0	HIMB1636_01216	HIMB1636	73	OG0001152	NA	NA	NA	NA	NA	HIMB1636_01217
+HIMB1636-00000000001	Prodigal:2.6	CDS	1170704	1170895	.	-	0	HIMB1636_01217	HIMB1636	63	OG0001423	NA	NA	NA	NA	NA	HIMB1636_01217
+HIMB1636-00000000001	Prodigal:2.6	CDS	1170892	1171611	.	-	0	HIMB1636_01218	HIMB1636	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1636_01217
+HIMB1636-00000000001	Prodigal:2.6	CDS	1171747	1172076	.	-	0	HIMB1636_01219	HIMB1636	109	OG0001538	NA	NA	NA	NA	NA	HIMB1636_01217
+HIMB1636-00000000001	Prodigal:2.6	CDS	1172082	1173572	.	-	0	HIMB1636_01220	HIMB1636	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1636_01217
+HIMB1636-00000000001	Prodigal:2.6	CDS	1173600	1174310	.	+	0	HIMB1636_01221	HIMB1636	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1636_01217
+HIMB1636-00000000001	Prodigal:2.6	CDS	1174285	1175376	.	+	0	HIMB1636_01222	HIMB1636	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1636_01217
+HIMB1702-00000000001	Prodigal:2.6	CDS	260800	261891	.	-	0	HIMB1702_00283	HIMB1702	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1702_00288
+HIMB1702-00000000001	Prodigal:2.6	CDS	261866	262576	.	-	0	HIMB1702_00284	HIMB1702	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1702_00288
+HIMB1702-00000000001	Prodigal:2.6	CDS	262604	264094	.	+	0	HIMB1702_00285	HIMB1702	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1702_00288
+HIMB1702-00000000001	Prodigal:2.6	CDS	264100	264429	.	+	0	HIMB1702_00286	HIMB1702	109	OG0001538	NA	NA	NA	NA	NA	HIMB1702_00288
+HIMB1702-00000000001	Prodigal:2.6	CDS	264565	265284	.	+	0	HIMB1702_00287	HIMB1702	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1702_00288
+HIMB1702-00000000001	Prodigal:2.6	CDS	265281	265472	.	+	0	HIMB1702_00288	HIMB1702	63	OG0001423	NA	NA	NA	NA	NA	HIMB1702_00288
+HIMB1702-00000000001	Prodigal:2.6	CDS	265465	265686	.	+	0	HIMB1702_00289	HIMB1702	73	OG0001152	NA	NA	NA	NA	NA	HIMB1702_00288
+HIMB1702-00000000001	Prodigal:2.6	CDS	265683	266819	.	-	0	HIMB1702_00290	HIMB1702	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1702_00288
+HIMB1702-00000000001	Prodigal:2.6	CDS	266829	267209	.	-	0	HIMB1702_00291	HIMB1702	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1702_00288
+HIMB1702-00000000001	Prodigal:2.6	CDS	267209	267667	.	-	0	HIMB1702_00292	HIMB1702	152	OG0000977	NA	NA	NA	NA	NA	HIMB1702_00288
+HIMB1702-00000000001	Prodigal:2.6	CDS	267721	268338	.	-	0	HIMB1702_00293	HIMB1702	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1702_00288
+HIMB1710-00000000003	Prodigal:2.6	CDS	236779	237870	.	-	0	HIMB1710_00279	HIMB1710	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1710_00284
+HIMB1710-00000000003	Prodigal:2.6	CDS	237845	238555	.	-	0	HIMB1710_00280	HIMB1710	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1710_00284
+HIMB1710-00000000003	Prodigal:2.6	CDS	238583	240073	.	+	0	HIMB1710_00281	HIMB1710	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1710_00284
+HIMB1710-00000000003	Prodigal:2.6	CDS	240079	240408	.	+	0	HIMB1710_00282	HIMB1710	109	OG0001538	NA	NA	NA	NA	NA	HIMB1710_00284
+HIMB1710-00000000003	Prodigal:2.6	CDS	240544	241263	.	+	0	HIMB1710_00283	HIMB1710	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1710_00284
+HIMB1710-00000000003	Prodigal:2.6	CDS	241260	241451	.	+	0	HIMB1710_00284	HIMB1710	63	OG0001423	NA	NA	NA	NA	NA	HIMB1710_00284
+HIMB1710-00000000003	Prodigal:2.6	CDS	241444	241665	.	+	0	HIMB1710_00285	HIMB1710	73	OG0001152	NA	NA	NA	NA	NA	HIMB1710_00284
+HIMB1710-00000000003	Prodigal:2.6	CDS	241662	242798	.	-	0	HIMB1710_00286	HIMB1710	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1710_00284
+HIMB1710-00000000003	Prodigal:2.6	CDS	242808	243188	.	-	0	HIMB1710_00287	HIMB1710	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1710_00284
+HIMB1710-00000000003	Prodigal:2.6	CDS	243188	243646	.	-	0	HIMB1710_00288	HIMB1710	152	OG0000977	NA	NA	NA	NA	NA	HIMB1710_00284
+HIMB1710-00000000003	Prodigal:2.6	CDS	243700	244317	.	-	0	HIMB1710_00289	HIMB1710	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1710_00284
+HIMB1556-00000000001	Prodigal:2.6	CDS	322485	323102	.	+	0	HIMB1556_00316	HIMB1556	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1556_00321
+HIMB1556-00000000001	Prodigal:2.6	CDS	323156	323614	.	+	0	HIMB1556_00317	HIMB1556	152	OG0000977	NA	NA	NA	NA	NA	HIMB1556_00321
+HIMB1556-00000000001	Prodigal:2.6	CDS	323614	323994	.	+	0	HIMB1556_00318	HIMB1556	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1556_00321
+HIMB1556-00000000001	Prodigal:2.6	CDS	324004	325140	.	+	0	HIMB1556_00319	HIMB1556	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1556_00321
+HIMB1556-00000000001	Prodigal:2.6	CDS	325137	325358	.	-	0	HIMB1556_00320	HIMB1556	73	OG0001152	NA	NA	NA	NA	NA	HIMB1556_00321
+HIMB1556-00000000001	Prodigal:2.6	CDS	325351	325542	.	-	0	HIMB1556_00321	HIMB1556	63	OG0001423	NA	NA	NA	NA	NA	HIMB1556_00321
+HIMB1556-00000000001	Prodigal:2.6	CDS	325539	326258	.	-	0	HIMB1556_00322	HIMB1556	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1556_00321
+HIMB1556-00000000001	Prodigal:2.6	CDS	326394	326723	.	-	0	HIMB1556_00323	HIMB1556	109	OG0001538	NA	NA	NA	NA	NA	HIMB1556_00321
+HIMB1556-00000000001	Prodigal:2.6	CDS	326729	328219	.	-	0	HIMB1556_00324	HIMB1556	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1556_00321
+HIMB1556-00000000001	Prodigal:2.6	CDS	328247	328957	.	+	0	HIMB1556_00325	HIMB1556	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1556_00321
+HIMB1556-00000000001	Prodigal:2.6	CDS	328932	330023	.	+	0	HIMB1556_00326	HIMB1556	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1556_00321
+HIMB1748-00000000001	Prodigal:2.6	CDS	233580	234671	.	-	0	HIMB1748_00256	HIMB1748	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1748_00261
+HIMB1748-00000000001	Prodigal:2.6	CDS	234646	235356	.	-	0	HIMB1748_00257	HIMB1748	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1748_00261
+HIMB1748-00000000001	Prodigal:2.6	CDS	235384	236874	.	+	0	HIMB1748_00258	HIMB1748	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1748_00261
+HIMB1748-00000000001	Prodigal:2.6	CDS	236880	237209	.	+	0	HIMB1748_00259	HIMB1748	109	OG0001538	NA	NA	NA	NA	NA	HIMB1748_00261
+HIMB1748-00000000001	Prodigal:2.6	CDS	237345	238064	.	+	0	HIMB1748_00260	HIMB1748	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1748_00261
+HIMB1748-00000000001	Prodigal:2.6	CDS	238061	238252	.	+	0	HIMB1748_00261	HIMB1748	63	OG0001423	NA	NA	NA	NA	NA	HIMB1748_00261
+HIMB1748-00000000001	Prodigal:2.6	CDS	238245	238466	.	+	0	HIMB1748_00262	HIMB1748	73	OG0001152	NA	NA	NA	NA	NA	HIMB1748_00261
+HIMB1748-00000000001	Prodigal:2.6	CDS	238463	239599	.	-	0	HIMB1748_00263	HIMB1748	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1748_00261
+HIMB1748-00000000001	Prodigal:2.6	CDS	239609	239989	.	-	0	HIMB1748_00264	HIMB1748	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1748_00261
+HIMB1748-00000000001	Prodigal:2.6	CDS	239989	240447	.	-	0	HIMB1748_00265	HIMB1748	152	OG0000977	NA	NA	NA	NA	NA	HIMB1748_00261
+HIMB1748-00000000001	Prodigal:2.6	CDS	240501	241118	.	-	0	HIMB1748_00266	HIMB1748	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1748_00261
+HIMB1662-00000000001	Prodigal:2.6	CDS	331429	332046	.	+	0	HIMB1662_00325	HIMB1662	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1662_00330
+HIMB1662-00000000001	Prodigal:2.6	CDS	332100	332558	.	+	0	HIMB1662_00326	HIMB1662	152	OG0000977	NA	NA	NA	NA	NA	HIMB1662_00330
+HIMB1662-00000000001	Prodigal:2.6	CDS	332558	332938	.	+	0	HIMB1662_00327	HIMB1662	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1662_00330
+HIMB1662-00000000001	Prodigal:2.6	CDS	332948	334084	.	+	0	HIMB1662_00328	HIMB1662	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1662_00330
+HIMB1662-00000000001	Prodigal:2.6	CDS	334081	334302	.	-	0	HIMB1662_00329	HIMB1662	73	OG0001152	NA	NA	NA	NA	NA	HIMB1662_00330
+HIMB1662-00000000001	Prodigal:2.6	CDS	334295	334486	.	-	0	HIMB1662_00330	HIMB1662	63	OG0001423	NA	NA	NA	NA	NA	HIMB1662_00330
+HIMB1662-00000000001	Prodigal:2.6	CDS	334483	335202	.	-	0	HIMB1662_00331	HIMB1662	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1662_00330
+HIMB1662-00000000001	Prodigal:2.6	CDS	335338	335667	.	-	0	HIMB1662_00332	HIMB1662	109	OG0001538	NA	NA	NA	NA	NA	HIMB1662_00330
+HIMB1662-00000000001	Prodigal:2.6	CDS	335673	337082	.	-	0	HIMB1662_00333	HIMB1662	469	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1662_00330
+HIMB1662-00000000001	Prodigal:2.6	CDS	337191	337901	.	+	0	HIMB1662_00334	HIMB1662	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1662_00330
+HIMB1662-00000000001	Prodigal:2.6	CDS	337876	338967	.	+	0	HIMB1662_00335	HIMB1662	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1662_00330
+HIMB1723-00000000001	Prodigal:2.6	CDS	654666	655283	.	+	0	HIMB1723_00683	HIMB1723	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1723_00688
+HIMB1723-00000000001	Prodigal:2.6	CDS	655337	655795	.	+	0	HIMB1723_00684	HIMB1723	152	OG0000977	NA	NA	NA	NA	NA	HIMB1723_00688
+HIMB1723-00000000001	Prodigal:2.6	CDS	655795	656175	.	+	0	HIMB1723_00685	HIMB1723	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1723_00688
+HIMB1723-00000000001	Prodigal:2.6	CDS	656185	657321	.	+	0	HIMB1723_00686	HIMB1723	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1723_00688
+HIMB1723-00000000001	Prodigal:2.6	CDS	657318	657539	.	-	0	HIMB1723_00687	HIMB1723	73	OG0001152	NA	NA	NA	NA	NA	HIMB1723_00688
+HIMB1723-00000000001	Prodigal:2.6	CDS	657532	657723	.	-	0	HIMB1723_00688	HIMB1723	63	OG0001423	NA	NA	NA	NA	NA	HIMB1723_00688
+HIMB1723-00000000001	Prodigal:2.6	CDS	657720	658439	.	-	0	HIMB1723_00689	HIMB1723	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1723_00688
+HIMB1723-00000000001	Prodigal:2.6	CDS	658575	658904	.	-	0	HIMB1723_00690	HIMB1723	109	OG0001538	NA	NA	NA	NA	NA	HIMB1723_00688
+HIMB1723-00000000001	Prodigal:2.6	CDS	658910	660400	.	-	0	HIMB1723_00691	HIMB1723	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1723_00688
+HIMB1723-00000000001	Prodigal:2.6	CDS	660428	661138	.	+	0	HIMB1723_00692	HIMB1723	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1723_00688
+HIMB1723-00000000001	Prodigal:2.6	CDS	661113	662204	.	+	0	HIMB1723_00693	HIMB1723	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1723_00688
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	867653	868270	.	+	0	HIMB140_00937	HIMB140	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB140_00942
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	868324	868782	.	+	0	HIMB140_00938	HIMB140	152	OG0000977	NA	NA	NA	NA	NA	HIMB140_00942
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	868782	869162	.	+	0	HIMB140_00939	HIMB140	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB140_00942
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	869169	870308	.	+	0	HIMB140_00940	HIMB140	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB140_00942
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	870305	870526	.	-	0	HIMB140_00941	HIMB140	73	OG0001152	NA	NA	NA	NA	NA	HIMB140_00942
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	870519	870710	.	-	0	HIMB140_00942	HIMB140	63	OG0001423	NA	NA	NA	NA	NA	HIMB140_00942
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	870707	871426	.	-	0	HIMB140_00943	HIMB140	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB140_00942
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	871562	871891	.	-	0	HIMB140_00944	HIMB140	109	OG0001538	NA	NA	NA	NA	NA	HIMB140_00942
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	871902	873305	.	-	0	HIMB140_00945	HIMB140	467	OG0000383	NA	NA	COG0277	GlcD	FAD/FMN-containing lactate dehydrogenase/glycolate oxidase	HIMB140_00942
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	873302	874714	.	-	0	HIMB140_00946	HIMB140	470	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB140_00942
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	874823	875533	.	+	0	HIMB140_00947	HIMB140	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB140_00942
+HIMB1513-00000000001	Prodigal:2.6	CDS	396536	397153	.	+	0	HIMB1513_00393	HIMB1513	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1513_00398
+HIMB1513-00000000001	Prodigal:2.6	CDS	397207	397665	.	+	0	HIMB1513_00394	HIMB1513	152	OG0000977	NA	NA	NA	NA	NA	HIMB1513_00398
+HIMB1513-00000000001	Prodigal:2.6	CDS	397665	398045	.	+	0	HIMB1513_00395	HIMB1513	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1513_00398
+HIMB1513-00000000001	Prodigal:2.6	CDS	398055	399191	.	+	0	HIMB1513_00396	HIMB1513	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1513_00398
+HIMB1513-00000000001	Prodigal:2.6	CDS	399188	399409	.	-	0	HIMB1513_00397	HIMB1513	73	OG0001152	NA	NA	NA	NA	NA	HIMB1513_00398
+HIMB1513-00000000001	Prodigal:2.6	CDS	399402	399593	.	-	0	HIMB1513_00398	HIMB1513	63	OG0001423	NA	NA	NA	NA	NA	HIMB1513_00398
+HIMB1513-00000000001	Prodigal:2.6	CDS	399590	400309	.	-	0	HIMB1513_00399	HIMB1513	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1513_00398
+HIMB1513-00000000001	Prodigal:2.6	CDS	400445	400774	.	-	0	HIMB1513_00400	HIMB1513	109	OG0001538	NA	NA	NA	NA	NA	HIMB1513_00398
+HIMB1513-00000000001	Prodigal:2.6	CDS	400780	402270	.	-	0	HIMB1513_00401	HIMB1513	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1513_00398
+HIMB1513-00000000001	Prodigal:2.6	CDS	402298	403008	.	+	0	HIMB1513_00402	HIMB1513	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1513_00398
+HIMB1513-00000000001	Prodigal:2.6	CDS	402983	404074	.	+	0	HIMB1513_00403	HIMB1513	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1513_00398
+HIMB1521-00000000013	Prodigal:2.6	CDS	8352	8969	.	+	0	HIMB1521_01266	HIMB1521	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1521_01271
+HIMB1521-00000000013	Prodigal:2.6	CDS	9023	9481	.	+	0	HIMB1521_01267	HIMB1521	152	OG0000977	NA	NA	NA	NA	NA	HIMB1521_01271
+HIMB1521-00000000013	Prodigal:2.6	CDS	9481	9861	.	+	0	HIMB1521_01268	HIMB1521	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1521_01271
+HIMB1521-00000000013	Prodigal:2.6	CDS	9871	11007	.	+	0	HIMB1521_01269	HIMB1521	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1521_01271
+HIMB1521-00000000013	Prodigal:2.6	CDS	11004	11225	.	-	0	HIMB1521_01270	HIMB1521	73	OG0001152	NA	NA	NA	NA	NA	HIMB1521_01271
+HIMB1521-00000000013	Prodigal:2.6	CDS	11218	11409	.	-	0	HIMB1521_01271	HIMB1521	63	OG0001423	NA	NA	NA	NA	NA	HIMB1521_01271
+HIMB1521-00000000013	Prodigal:2.6	CDS	11406	12125	.	-	0	HIMB1521_01272	HIMB1521	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1521_01271
+HIMB1521-00000000013	Prodigal:2.6	CDS	12261	12590	.	-	0	HIMB1521_01273	HIMB1521	109	OG0001538	NA	NA	NA	NA	NA	HIMB1521_01271
+HIMB1521-00000000013	Prodigal:2.6	CDS	12596	14086	.	-	0	HIMB1521_01274	HIMB1521	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1521_01271
+HIMB1521-00000000013	Prodigal:2.6	CDS	14114	14824	.	+	0	HIMB1521_01275	HIMB1521	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1521_01271
+HIMB1521-00000000013	Prodigal:2.6	CDS	14799	15890	.	+	0	HIMB1521_01276	HIMB1521	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1521_01271
+HIMB1430-00000000006	Prodigal:2.6	CDS	52715	53806	.	-	0	HIMB1430_00620	HIMB1430	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1430_00625
+HIMB1430-00000000006	Prodigal:2.6	CDS	53781	54491	.	-	0	HIMB1430_00621	HIMB1430	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1430_00625
+HIMB1430-00000000006	Prodigal:2.6	CDS	54519	56009	.	+	0	HIMB1430_00622	HIMB1430	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1430_00625
+HIMB1430-00000000006	Prodigal:2.6	CDS	56015	56344	.	+	0	HIMB1430_00623	HIMB1430	109	OG0001538	NA	NA	NA	NA	NA	HIMB1430_00625
+HIMB1430-00000000006	Prodigal:2.6	CDS	56480	57199	.	+	0	HIMB1430_00624	HIMB1430	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1430_00625
+HIMB1430-00000000006	Prodigal:2.6	CDS	57196	57387	.	+	0	HIMB1430_00625	HIMB1430	63	OG0001423	NA	NA	NA	NA	NA	HIMB1430_00625
+HIMB1430-00000000006	Prodigal:2.6	CDS	57380	57601	.	+	0	HIMB1430_00626	HIMB1430	73	OG0001152	NA	NA	NA	NA	NA	HIMB1430_00625
+HIMB1430-00000000006	Prodigal:2.6	CDS	57642	58358	.	-	0	HIMB1430_00627	HIMB1430	238	OG0001584	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1430_00625
+HIMB1430-00000000006	Prodigal:2.6	CDS	58404	59543	.	-	0	HIMB1430_00628	HIMB1430	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1430_00625
+HIMB1430-00000000006	Prodigal:2.6	CDS	59553	59672	.	-	0	HIMB1430_00629	HIMB1430	39	OG0000502	NA	NA	NA	NA	NA	HIMB1430_00625
+HIMB1611-00000000001	Prodigal:2.6	CDS	1196242	1196700	.	+	0	HIMB1611_01283	HIMB1611	152	OG0000977	NA	NA	NA	NA	NA	HIMB1611_01288
+HIMB1611-00000000001	Prodigal:2.6	CDS	1196700	1197080	.	+	0	HIMB1611_01284	HIMB1611	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1611_01288
+HIMB1611-00000000001	Prodigal:2.6	CDS	1197090	1198229	.	+	0	HIMB1611_01285	HIMB1611	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1611_01288
+HIMB1611-00000000001	Prodigal:2.6	CDS	1198275	1198991	.	+	0	HIMB1611_01286	HIMB1611	238	OG0001584	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1611_01288
+HIMB1611-00000000001	Prodigal:2.6	CDS	1199032	1199253	.	-	0	HIMB1611_01287	HIMB1611	73	OG0001152	NA	NA	NA	NA	NA	HIMB1611_01288
+HIMB1611-00000000001	Prodigal:2.6	CDS	1199246	1199437	.	-	0	HIMB1611_01288	HIMB1611	63	OG0001423	NA	NA	NA	NA	NA	HIMB1611_01288
+HIMB1611-00000000001	Prodigal:2.6	CDS	1199434	1200153	.	-	0	HIMB1611_01289	HIMB1611	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1611_01288
+HIMB1611-00000000001	Prodigal:2.6	CDS	1200289	1200618	.	-	0	HIMB1611_01290	HIMB1611	109	OG0001538	NA	NA	NA	NA	NA	HIMB1611_01288
+HIMB1611-00000000001	Prodigal:2.6	CDS	1200624	1202114	.	-	0	HIMB1611_01291	HIMB1611	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1611_01288
+HIMB1611-00000000001	Prodigal:2.6	CDS	1202142	1202852	.	+	0	HIMB1611_01292	HIMB1611	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1611_01288
+HIMB1611-00000000001	Prodigal:2.6	CDS	1202827	1203918	.	+	0	HIMB1611_01293	HIMB1611	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1611_01288
+HIMB1758-00000000001	Prodigal:2.6	CDS	401419	401877	.	+	0	HIMB1758_00395	HIMB1758	152	OG0000977	NA	NA	NA	NA	NA	HIMB1758_00400
+HIMB1758-00000000001	Prodigal:2.6	CDS	401877	402257	.	+	0	HIMB1758_00396	HIMB1758	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1758_00400
+HIMB1758-00000000001	Prodigal:2.6	CDS	402267	403406	.	+	0	HIMB1758_00397	HIMB1758	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1758_00400
+HIMB1758-00000000001	Prodigal:2.6	CDS	403452	404168	.	+	0	HIMB1758_00398	HIMB1758	238	OG0001584	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1758_00400
+HIMB1758-00000000001	Prodigal:2.6	CDS	404209	404430	.	-	0	HIMB1758_00399	HIMB1758	73	OG0001152	NA	NA	NA	NA	NA	HIMB1758_00400
+HIMB1758-00000000001	Prodigal:2.6	CDS	404423	404614	.	-	0	HIMB1758_00400	HIMB1758	63	OG0001423	NA	NA	NA	NA	NA	HIMB1758_00400
+HIMB1758-00000000001	Prodigal:2.6	CDS	404611	405330	.	-	0	HIMB1758_00401	HIMB1758	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1758_00400
+HIMB1758-00000000001	Prodigal:2.6	CDS	405466	405795	.	-	0	HIMB1758_00402	HIMB1758	109	OG0001538	NA	NA	NA	NA	NA	HIMB1758_00400
+HIMB1758-00000000001	Prodigal:2.6	CDS	405801	407291	.	-	0	HIMB1758_00403	HIMB1758	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1758_00400
+HIMB1758-00000000001	Prodigal:2.6	CDS	407319	408029	.	+	0	HIMB1758_00404	HIMB1758	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1758_00400
+HIMB1758-00000000001	Prodigal:2.6	CDS	408004	409095	.	+	0	HIMB1758_00405	HIMB1758	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1758_00400
+HIMB1488-00000000001	Prodigal:2.6	CDS	29674	30765	.	-	0	HIMB1488_00044	HIMB1488	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1488_00049
+HIMB1488-00000000001	Prodigal:2.6	CDS	30740	31450	.	-	0	HIMB1488_00045	HIMB1488	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1488_00049
+HIMB1488-00000000001	Prodigal:2.6	CDS	31478	32968	.	+	0	HIMB1488_00046	HIMB1488	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1488_00049
+HIMB1488-00000000001	Prodigal:2.6	CDS	32974	33303	.	+	0	HIMB1488_00047	HIMB1488	109	OG0001538	NA	NA	NA	NA	NA	HIMB1488_00049
+HIMB1488-00000000001	Prodigal:2.6	CDS	33439	34158	.	+	0	HIMB1488_00048	HIMB1488	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1488_00049
+HIMB1488-00000000001	Prodigal:2.6	CDS	34155	34346	.	+	0	HIMB1488_00049	HIMB1488	63	OG0001423	NA	NA	NA	NA	NA	HIMB1488_00049
+HIMB1488-00000000001	Prodigal:2.6	CDS	34339	34560	.	+	0	HIMB1488_00050	HIMB1488	73	OG0001152	NA	NA	NA	NA	NA	HIMB1488_00049
+HIMB1488-00000000001	Prodigal:2.6	CDS	34557	35693	.	-	0	HIMB1488_00051	HIMB1488	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1488_00049
+HIMB1488-00000000001	Prodigal:2.6	CDS	35703	36083	.	-	0	HIMB1488_00052	HIMB1488	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1488_00049
+HIMB1488-00000000001	Prodigal:2.6	CDS	36083	36541	.	-	0	HIMB1488_00053	HIMB1488	152	OG0000977	NA	NA	NA	NA	NA	HIMB1488_00049
+HIMB1488-00000000001	Prodigal:2.6	CDS	36595	37212	.	-	0	HIMB1488_00054	HIMB1488	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1488_00049
+HIMB2211-00000000001	Prodigal:2.6	CDS	1195944	1196561	.	+	0	HIMB2211_01274	HIMB2211	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB2211_01279
+HIMB2211-00000000001	Prodigal:2.6	CDS	1196615	1197073	.	+	0	HIMB2211_01275	HIMB2211	152	OG0000977	NA	NA	NA	NA	NA	HIMB2211_01279
+HIMB2211-00000000001	Prodigal:2.6	CDS	1197073	1197453	.	+	0	HIMB2211_01276	HIMB2211	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB2211_01279
+HIMB2211-00000000001	Prodigal:2.6	CDS	1197463	1198599	.	+	0	HIMB2211_01277	HIMB2211	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB2211_01279
+HIMB2211-00000000001	Prodigal:2.6	CDS	1198596	1198817	.	-	0	HIMB2211_01278	HIMB2211	73	OG0001152	NA	NA	NA	NA	NA	HIMB2211_01279
+HIMB2211-00000000001	Prodigal:2.6	CDS	1198810	1199001	.	-	0	HIMB2211_01279	HIMB2211	63	OG0001423	NA	NA	NA	NA	NA	HIMB2211_01279
+HIMB2211-00000000001	Prodigal:2.6	CDS	1198998	1199717	.	-	0	HIMB2211_01280	HIMB2211	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB2211_01279
+HIMB2211-00000000001	Prodigal:2.6	CDS	1199853	1200182	.	-	0	HIMB2211_01281	HIMB2211	109	OG0001538	NA	NA	NA	NA	NA	HIMB2211_01279
+HIMB2211-00000000001	Prodigal:2.6	CDS	1200186	1201388	.	-	0	HIMB2211_01282	HIMB2211	400	OG0001408	NA	NA	NA	NA	NA	HIMB2211_01279
+HIMB2211-00000000001	Prodigal:2.6	CDS	1201363	1202325	.	-	0	HIMB2211_01283	HIMB2211	320	OG0000113	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB2211_01279
+HIMB2211-00000000001	Prodigal:2.6	CDS	1202344	1203051	.	+	0	HIMB2211_01284	HIMB2211	235	OG0000002	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB2211_01279
+HIMB1542-00000000002	Prodigal:2.6	CDS	388541	389158	.	+	0	HIMB1542_01260	HIMB1542	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1542_01265
+HIMB1542-00000000002	Prodigal:2.6	CDS	389212	389670	.	+	0	HIMB1542_01261	HIMB1542	152	OG0000977	NA	NA	NA	NA	NA	HIMB1542_01265
+HIMB1542-00000000002	Prodigal:2.6	CDS	389670	390050	.	+	0	HIMB1542_01262	HIMB1542	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1542_01265
+HIMB1542-00000000002	Prodigal:2.6	CDS	390060	391196	.	+	0	HIMB1542_01263	HIMB1542	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1542_01265
+HIMB1542-00000000002	Prodigal:2.6	CDS	391193	391414	.	-	0	HIMB1542_01264	HIMB1542	73	OG0001152	NA	NA	NA	NA	NA	HIMB1542_01265
+HIMB1542-00000000002	Prodigal:2.6	CDS	391407	391598	.	-	0	HIMB1542_01265	HIMB1542	63	OG0001423	NA	NA	NA	NA	NA	HIMB1542_01265
+HIMB1542-00000000002	Prodigal:2.6	CDS	391595	392314	.	-	0	HIMB1542_01266	HIMB1542	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1542_01265
+HIMB1542-00000000002	Prodigal:2.6	CDS	392450	392779	.	-	0	HIMB1542_01267	HIMB1542	109	OG0001538	NA	NA	NA	NA	NA	HIMB1542_01265
+HIMB1542-00000000002	Prodigal:2.6	CDS	392785	394275	.	-	0	HIMB1542_01268	HIMB1542	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1542_01265
+HIMB1542-00000000002	Prodigal:2.6	CDS	394303	395013	.	+	0	HIMB1542_01269	HIMB1542	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1542_01265
+HIMB1542-00000000002	Prodigal:2.6	CDS	394988	396079	.	+	0	HIMB1542_01270	HIMB1542	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1542_01265
+HIMB1695-00000000001	Prodigal:2.6	CDS	950853	951362	.	+	0	HIMB1695_01029	HIMB1695	169	OG0000139	NA	NA	COG5342	IalB	Invasion protein IalB, involved in pathogenesis	HIMB1695_01034
+HIMB1695-00000000001	Prodigal:2.6	CDS	951367	952554	.	+	0	HIMB1695_01030	HIMB1695	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1695_01034
+HIMB1695-00000000001	Prodigal:2.6	CDS	952559	953176	.	+	0	HIMB1695_01031	HIMB1695	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1695_01034
+HIMB1695-00000000001	Prodigal:2.6	CDS	953178	954317	.	+	0	HIMB1695_01032	HIMB1695	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1695_01034
+HIMB1695-00000000001	Prodigal:2.6	CDS	954314	954535	.	-	0	HIMB1695_01033	HIMB1695	73	OG0001152	NA	NA	NA	NA	NA	HIMB1695_01034
+HIMB1695-00000000001	Prodigal:2.6	CDS	954528	954719	.	-	0	HIMB1695_01034	HIMB1695	63	OG0001423	NA	NA	NA	NA	NA	HIMB1695_01034
+HIMB1695-00000000001	Prodigal:2.6	CDS	954716	955435	.	-	0	HIMB1695_01035	HIMB1695	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1695_01034
+HIMB1695-00000000001	Prodigal:2.6	CDS	955569	957059	.	-	0	HIMB1695_01036	HIMB1695	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1695_01034
+HIMB1695-00000000001	Prodigal:2.6	CDS	957087	957797	.	+	0	HIMB1695_01037	HIMB1695	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1695_01034
+HIMB1695-00000000001	Prodigal:2.6	CDS	957772	958863	.	+	0	HIMB1695_01038	HIMB1695	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1695_01034
+HIMB1695-00000000001	Prodigal:2.6	CDS	958868	959851	.	+	0	HIMB1695_01039	HIMB1695	327	OG0000375	K13985	N-acyl-phosphatidylethanolamine-hydrolysing phospholipase D [EC:3.1.4.54]	COG2220	UlaG	L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily	HIMB1695_01034
+HIMB1577-00000000001	Prodigal:2.6	CDS	706350	707441	.	-	0	HIMB1577_00764	HIMB1577	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1577_00769
+HIMB1577-00000000001	Prodigal:2.6	CDS	707416	708126	.	-	0	HIMB1577_00765	HIMB1577	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1577_00769
+HIMB1577-00000000001	Prodigal:2.6	CDS	708154	709644	.	+	0	HIMB1577_00766	HIMB1577	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1577_00769
+HIMB1577-00000000001	Prodigal:2.6	CDS	709650	709979	.	+	0	HIMB1577_00767	HIMB1577	109	OG0001538	NA	NA	NA	NA	NA	HIMB1577_00769
+HIMB1577-00000000001	Prodigal:2.6	CDS	710115	710834	.	+	0	HIMB1577_00768	HIMB1577	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1577_00769
+HIMB1577-00000000001	Prodigal:2.6	CDS	710831	711022	.	+	0	HIMB1577_00769	HIMB1577	63	OG0001423	NA	NA	NA	NA	NA	HIMB1577_00769
+HIMB1577-00000000001	Prodigal:2.6	CDS	711015	711236	.	+	0	HIMB1577_00770	HIMB1577	73	OG0001152	NA	NA	NA	NA	NA	HIMB1577_00769
+HIMB1577-00000000001	Prodigal:2.6	CDS	711233	712369	.	-	0	HIMB1577_00771	HIMB1577	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1577_00769
+HIMB1577-00000000001	Prodigal:2.6	CDS	712379	712759	.	-	0	HIMB1577_00772	HIMB1577	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1577_00769
+HIMB1577-00000000001	Prodigal:2.6	CDS	712759	713217	.	-	0	HIMB1577_00773	HIMB1577	152	OG0000977	NA	NA	NA	NA	NA	HIMB1577_00769
+HIMB1577-00000000001	Prodigal:2.6	CDS	713275	714462	.	-	0	HIMB1577_00774	HIMB1577	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1577_00769
+HIMB1631-00000000001	Prodigal:2.6	CDS	1036108	1037172	.	-	0	HIMB1631_01133	HIMB1631	354	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1631_01138
+HIMB1631-00000000001	Prodigal:2.6	CDS	1037174	1037884	.	-	0	HIMB1631_01134	HIMB1631	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1631_01138
+HIMB1631-00000000001	Prodigal:2.6	CDS	1037993	1039402	.	+	0	HIMB1631_01135	HIMB1631	469	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1631_01138
+HIMB1631-00000000001	Prodigal:2.6	CDS	1039408	1039737	.	+	0	HIMB1631_01136	HIMB1631	109	OG0001538	NA	NA	NA	NA	NA	HIMB1631_01138
+HIMB1631-00000000001	Prodigal:2.6	CDS	1039873	1040592	.	+	0	HIMB1631_01137	HIMB1631	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1631_01138
+HIMB1631-00000000001	Prodigal:2.6	CDS	1040589	1040780	.	+	0	HIMB1631_01138	HIMB1631	63	OG0001423	NA	NA	NA	NA	NA	HIMB1631_01138
+HIMB1631-00000000001	Prodigal:2.6	CDS	1040773	1040994	.	+	0	HIMB1631_01139	HIMB1631	73	OG0001152	NA	NA	NA	NA	NA	HIMB1631_01138
+HIMB1631-00000000001	Prodigal:2.6	CDS	1040991	1042127	.	-	0	HIMB1631_01140	HIMB1631	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1631_01138
+HIMB1631-00000000001	Prodigal:2.6	CDS	1042137	1042517	.	-	0	HIMB1631_01141	HIMB1631	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1631_01138
+HIMB1631-00000000001	Prodigal:2.6	CDS	1042517	1042975	.	-	0	HIMB1631_01142	HIMB1631	152	OG0000977	NA	NA	NA	NA	NA	HIMB1631_01138
+HIMB1631-00000000001	Prodigal:2.6	CDS	1043033	1044220	.	-	0	HIMB1631_01143	HIMB1631	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1631_01138
+HIMB1715-00000000015	Prodigal:2.6	CDS	21708	22772	.	-	0	HIMB1715_00867	HIMB1715	354	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1715_00872
+HIMB1715-00000000015	Prodigal:2.6	CDS	22774	23484	.	-	0	HIMB1715_00868	HIMB1715	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1715_00872
+HIMB1715-00000000015	Prodigal:2.6	CDS	23593	25002	.	+	0	HIMB1715_00869	HIMB1715	469	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1715_00872
+HIMB1715-00000000015	Prodigal:2.6	CDS	25008	25337	.	+	0	HIMB1715_00870	HIMB1715	109	OG0001538	NA	NA	NA	NA	NA	HIMB1715_00872
+HIMB1715-00000000015	Prodigal:2.6	CDS	25473	26192	.	+	0	HIMB1715_00871	HIMB1715	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1715_00872
+HIMB1715-00000000015	Prodigal:2.6	CDS	26189	26380	.	+	0	HIMB1715_00872	HIMB1715	63	OG0001423	NA	NA	NA	NA	NA	HIMB1715_00872
+HIMB1715-00000000015	Prodigal:2.6	CDS	26373	26594	.	+	0	HIMB1715_00873	HIMB1715	73	OG0001152	NA	NA	NA	NA	NA	HIMB1715_00872
+HIMB1715-00000000015	Prodigal:2.6	CDS	26591	27730	.	-	0	HIMB1715_00874	HIMB1715	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1715_00872
+HIMB1715-00000000015	Prodigal:2.6	CDS	27732	28349	.	-	0	HIMB1715_00875	HIMB1715	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1715_00872
+HIMB1715-00000000015	Prodigal:2.6	CDS	28354	29541	.	-	0	HIMB1715_00876	HIMB1715	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1715_00872
+HIMB1715-00000000015	Prodigal:2.6	CDS	29546	30055	.	-	0	HIMB1715_00877	HIMB1715	169	OG0000139	NA	NA	COG5342	IalB	Invasion protein IalB, involved in pathogenesis	HIMB1715_00872
+HIMB1701-00000000001	Prodigal:2.6	CDS	902169	902786	.	+	0	HIMB1701_00969	HIMB1701	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1701_00974
+HIMB1701-00000000001	Prodigal:2.6	CDS	902840	903298	.	+	0	HIMB1701_00970	HIMB1701	152	OG0000977	NA	NA	NA	NA	NA	HIMB1701_00974
+HIMB1701-00000000001	Prodigal:2.6	CDS	903298	903678	.	+	0	HIMB1701_00971	HIMB1701	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1701_00974
+HIMB1701-00000000001	Prodigal:2.6	CDS	903688	904824	.	+	0	HIMB1701_00972	HIMB1701	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1701_00974
+HIMB1701-00000000001	Prodigal:2.6	CDS	904821	905042	.	-	0	HIMB1701_00973	HIMB1701	73	OG0001152	NA	NA	NA	NA	NA	HIMB1701_00974
+HIMB1701-00000000001	Prodigal:2.6	CDS	905035	905226	.	-	0	HIMB1701_00974	HIMB1701	63	OG0001423	NA	NA	NA	NA	NA	HIMB1701_00974
+HIMB1701-00000000001	Prodigal:2.6	CDS	905223	905942	.	-	0	HIMB1701_00975	HIMB1701	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1701_00974
+HIMB1701-00000000001	Prodigal:2.6	CDS	906078	906407	.	-	0	HIMB1701_00976	HIMB1701	109	OG0001538	NA	NA	NA	NA	NA	HIMB1701_00974
+HIMB1701-00000000001	Prodigal:2.6	CDS	906413	907822	.	-	0	HIMB1701_00977	HIMB1701	469	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1701_00974
+HIMB1701-00000000001	Prodigal:2.6	CDS	907931	908638	.	+	0	HIMB1701_00978	HIMB1701	235	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1701_00974
+HIMB1701-00000000001	Prodigal:2.6	CDS	908616	909707	.	+	0	HIMB1701_00979	HIMB1701	363	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1701_00974
+HIMB1782-00000000001	Prodigal:2.6	CDS	607388	608575	.	+	0	HIMB1782_00631	HIMB1782	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1782_00636
+HIMB1782-00000000001	Prodigal:2.6	CDS	608633	609091	.	+	0	HIMB1782_00632	HIMB1782	152	OG0000977	NA	NA	NA	NA	NA	HIMB1782_00636
+HIMB1782-00000000001	Prodigal:2.6	CDS	609091	609471	.	+	0	HIMB1782_00633	HIMB1782	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1782_00636
+HIMB1782-00000000001	Prodigal:2.6	CDS	609481	610617	.	+	0	HIMB1782_00634	HIMB1782	378	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1782_00636
+HIMB1782-00000000001	Prodigal:2.6	CDS	610614	610835	.	-	0	HIMB1782_00635	HIMB1782	73	OG0001152	NA	NA	NA	NA	NA	HIMB1782_00636
+HIMB1782-00000000001	Prodigal:2.6	CDS	610828	611019	.	-	0	HIMB1782_00636	HIMB1782	63	OG0001423	NA	NA	NA	NA	NA	HIMB1782_00636
+HIMB1782-00000000001	Prodigal:2.6	CDS	611016	611735	.	-	0	HIMB1782_00637	HIMB1782	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1782_00636
+HIMB1782-00000000001	Prodigal:2.6	CDS	611870	612199	.	-	0	HIMB1782_00638	HIMB1782	109	OG0001538	NA	NA	NA	NA	NA	HIMB1782_00636
+HIMB1782-00000000001	Prodigal:2.6	CDS	612205	613614	.	-	0	HIMB1782_00639	HIMB1782	469	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1782_00636
+HIMB1782-00000000001	Prodigal:2.6	CDS	613723	614433	.	+	0	HIMB1782_00640	HIMB1782	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1782_00636
+HIMB1782-00000000001	Prodigal:2.6	CDS	614435	615499	.	+	0	HIMB1782_00641	HIMB1782	354	OG0000056	K21430	aldose sugar dehydrogenase [EC:1.1.5.-]	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1782_00636
+HIMB1602-00000000078	Prodigal:2.6	CDS	227	1366	.	+	0	HIMB1602_00790	HIMB1602	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1602_00792
+HIMB1602-00000000078	Prodigal:2.6	CDS	1363	1584	.	-	0	HIMB1602_00791	HIMB1602	73	OG0001152	NA	NA	NA	NA	NA	HIMB1602_00792
+HIMB1602-00000000078	Prodigal:2.6	CDS	1577	1768	.	-	0	HIMB1602_00792	HIMB1602	63	OG0001423	NA	NA	NA	NA	NA	HIMB1602_00792
+HIMB1602-00000000078	Prodigal:2.6	CDS	1765	2484	.	-	0	HIMB1602_00793	HIMB1602	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1602_00792
+HIMB1602-00000000078	Prodigal:2.6	CDS	2620	2949	.	-	0	HIMB1602_00794	HIMB1602	109	OG0001538	NA	NA	NA	NA	NA	HIMB1602_00792
+HIMB1602-00000000078	Prodigal:2.6	CDS	2955	4547	.	-	0	HIMB1602_00795	HIMB1602	530	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1602_00792
+HIMB1623-00000000013	Prodigal:2.6	CDS	245644	246354	.	-	0	HIMB1623_01191	HIMB1623	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1623_01196
+HIMB1623-00000000013	Prodigal:2.6	CDS	246382	247872	.	+	0	HIMB1623_01192	HIMB1623	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1623_01196
+HIMB1623-00000000013	Prodigal:2.6	CDS	247874	248254	.	+	0	HIMB1623_01193	HIMB1623	126	OG0001875	K06518	holin-like protein	COG1380	YohJ	Putative effector of murein hydrolase LrgA, UPF0299 family	HIMB1623_01196
+HIMB1623-00000000013	Prodigal:2.6	CDS	248238	248963	.	+	0	HIMB1623_01194	HIMB1623	241	OG0001856	NA	NA	COG1346	LrgB	Putative effector of murein hydrolase	HIMB1623_01196
+HIMB1623-00000000013	Prodigal:2.6	CDS	249100	249819	.	+	0	HIMB1623_01195	HIMB1623	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1623_01196
+HIMB1623-00000000013	Prodigal:2.6	CDS	249816	250007	.	+	0	HIMB1623_01196	HIMB1623	63	OG0001423	NA	NA	NA	NA	NA	HIMB1623_01196
+HIMB1623-00000000013	Prodigal:2.6	CDS	250000	250221	.	+	0	HIMB1623_01197	HIMB1623	73	OG0001152	NA	NA	NA	NA	NA	HIMB1623_01196
+HIMB1623-00000000013	Prodigal:2.6	CDS	250218	251357	.	-	0	HIMB1623_01198	HIMB1623	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1623_01196
+HIMB1623-00000000013	Prodigal:2.6	CDS	251364	251744	.	-	0	HIMB1623_01199	HIMB1623	126	OG0000502	K13256	protein PsiE	COG3223	PsiE	Phosphate starvation-inducible membrane PsiE (function unknown)	HIMB1623_01196
+HIMB1623-00000000013	Prodigal:2.6	CDS	251744	252181	.	-	0	HIMB1623_01200	HIMB1623	145	OG0000977	NA	NA	NA	NA	NA	HIMB1623_01196
+HIMB1623-00000000013	Prodigal:2.6	CDS	252250	252873	.	-	0	HIMB1623_01201	HIMB1623	207	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1623_01196
+HIMB1709-00000000001	Prodigal:2.6	CDS	907245	907754	.	+	0	HIMB1709_00986	HIMB1709	169	OG0000139	NA	NA	COG5342	IalB	Invasion protein IalB, involved in pathogenesis	HIMB1709_00991
+HIMB1709-00000000001	Prodigal:2.6	CDS	907759	908946	.	+	0	HIMB1709_00987	HIMB1709	395	OG0000202	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	HIMB1709_00991
+HIMB1709-00000000001	Prodigal:2.6	CDS	908951	909568	.	+	0	HIMB1709_00988	HIMB1709	205	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	HIMB1709_00991
+HIMB1709-00000000001	Prodigal:2.6	CDS	909570	910709	.	+	0	HIMB1709_00989	HIMB1709	379	OG0000808	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1709_00991
+HIMB1709-00000000001	Prodigal:2.6	CDS	910706	910927	.	-	0	HIMB1709_00990	HIMB1709	73	OG0001152	NA	NA	NA	NA	NA	HIMB1709_00991
+HIMB1709-00000000001	Prodigal:2.6	CDS	910920	911111	.	-	0	HIMB1709_00991	HIMB1709	63	OG0001423	NA	NA	NA	NA	NA	HIMB1709_00991
+HIMB1709-00000000001	Prodigal:2.6	CDS	911108	911827	.	-	0	HIMB1709_00992	HIMB1709	239	OG0001110	NA	NA	COG0518	GuaA1	GMP synthase, glutamine amidotransferase domain/subunit	HIMB1709_00991
+HIMB1709-00000000001	Prodigal:2.6	CDS	911964	912689	.	-	0	HIMB1709_00993	HIMB1709	241	OG0001856	NA	NA	COG1346	LrgB	Putative effector of murein hydrolase	HIMB1709_00991
+HIMB1709-00000000001	Prodigal:2.6	CDS	912673	913053	.	-	0	HIMB1709_00994	HIMB1709	126	OG0001875	K06518	holin-like protein	COG1380	YohJ	Putative effector of murein hydrolase LrgA, UPF0299 family	HIMB1709_00991
+HIMB1709-00000000001	Prodigal:2.6	CDS	913055	914545	.	-	0	HIMB1709_00995	HIMB1709	496	OG0000631	K06876	(6-4)DNA photolyase [EC:4.1.99.13]	COG3046	NA	Uncharacterized conserved protein related to deoxyribodipyrimidine photolyase	HIMB1709_00991
+HIMB1709-00000000001	Prodigal:2.6	CDS	914573	915283	.	+	0	HIMB1709_00996	HIMB1709	236	OG0000806	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1709_00991
+CP020777.1	Prodigal:2.6	CDS	55532	56035	.	-	0	RS39_00066	RS39	167	OG0000784	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	RS39_00071
+CP020777.1	Prodigal:2.6	CDS	56032	56397	.	-	0	RS39_00067	RS39	121	OG0000196	K02503	histidine triad (HIT) family protein	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	RS39_00071
+CP020777.1	Prodigal:2.6	CDS	56394	56666	.	-	0	RS39_00068	RS39	90	OG0000185	NA	NA	COG0140	HisI2	Phosphoribosyl-ATP pyrophosphohydrolase	RS39_00071
+CP020777.1	Prodigal:2.6	CDS	56668	57423	.	-	0	RS39_00069	RS39	251	OG0000053	K02500	imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]	COG0107	HisF	Imidazole glycerol phosphate synthase subunit HisF	RS39_00071
+CP020777.1	Prodigal:2.6	CDS	57416	58132	.	-	0	RS39_00070	RS39	238	OG0000210	K01814	phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]	COG0106	HisA	Phosphoribosylformimino-5-aminoimidazole carboxamide ribonucleotide (ProFAR) isomerase	RS39_00071
+CP020777.1	Prodigal:2.6	CDS	58129	58323	.	-	0	RS39_00071	RS39	64	OG0001423	NA	NA	NA	NA	NA	RS39_00071
+CP020777.1	Prodigal:2.6	CDS	58325	58951	.	-	0	RS39_00072	RS39	208	OG0000057	K02501	imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	RS39_00071
+CP020777.1	Prodigal:2.6	CDS	58957	59547	.	-	0	RS39_00073	RS39	196	OG0000237	K01693	imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]	COG0131	HisB2	Imidazoleglycerol phosphate dehydratase HisB	RS39_00071
+CP020777.1	Prodigal:2.6	CDS	59639	60154	.	+	0	RS39_00074	RS39	171	OG0000379	K01419	ATP-dependent HslUV protease, peptidase subunit HslV [EC:3.4.25.2]	COG5405	HslV	ATP-dependent protease HslVU (ClpYQ), peptidase subunit	RS39_00071
+CP020777.1	Prodigal:2.6	CDS	60154	61527	.	+	0	RS39_00075	RS39	457	OG0000400	K03667	ATP-dependent HslUV protease ATP-binding subunit HslU	COG1220	HslU	ATP-dependent protease HslVU (ClpYQ), ATPase subunit HslU	RS39_00071
+CP020777.1	Prodigal:2.6	CDS	61522	61935	.	-	0	RS39_00076	RS39	137	OG0000197	NA	NA	COG2840	SmrA	Stalled ribosome-rescuing mRNA endonuclease or DNA-nicking endonuclease, Smr domain	RS39_00071

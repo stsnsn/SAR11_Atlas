@@ -1,0 +1,12 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+KI421440.1	Prodigal:2.6	CDS	1232264	1234225	.	-	0	HTCC8051_01320	HTCC8051	653	OG0001092	K01907	acetoacetyl-CoA synthetase [EC:6.2.1.16]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	HTCC8051_01325
+KI421440.1	Prodigal:2.6	CDS	1234399	1236882	.	+	0	HTCC8051_01321	HTCC8051	827	OG0000679	K17675	ATP-dependent RNA helicase SUPV3L1/SUV3 [EC:3.6.4.13]	COG4581	Dob1	Superfamily II RNA helicase	HTCC8051_01325
+KI421440.1	Prodigal:2.6	CDS	1236888	1237298	.	+	0	HTCC8051_01322	HTCC8051	136	OG0000609	NA	NA	COG4103	TerB2	Tellurite/oxyanion resistance protein, TerB superfamily	HTCC8051_01325
+KI421440.1	Prodigal:2.6	CDS	1237298	1237624	.	+	0	HTCC8051_01323	HTCC8051	108	OG0000490	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	HTCC8051_01325
+KI421440.1	Prodigal:2.6	CDS	1237581	1238486	.	+	0	HTCC8051_01324	HTCC8051	301	OG0000434	K07736	CarD family transcriptional regulator, regulator of rRNA transcription	COG1329	CdnL	RNA polymerase-interacting regulator, CarD/CdnL/TRCF family	HTCC8051_01325
+KI421440.1	Prodigal:2.6	CDS	1238547	1238705	.	-	0	HTCC8051_01325	HTCC8051	52	OG0005055	NA	NA	NA	NA	NA	HTCC8051_01325
+KI421440.1	Prodigal:2.6	CDS	1238853	1240589	.	-	0	HTCC8051_01326	HTCC8051	578	OG0000170	K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]	COG1022	FAA1	Long-chain acyl-CoA synthetase (AMP-forming)	HTCC8051_01325
+KI421440.1	Aragorn:1.2	tRNA	1240597	1240681	.	-	NA	HTCC8051_01327	HTCC8051	NA	NA	NA	NA	NA	NA	NA	HTCC8051_01325
+KI421440.1	Prodigal:2.6	CDS	1240743	1241348	.	+	0	HTCC8051_01328	HTCC8051	201	OG0000144	NA	NA	COG1238	YgaA	Membrane protein YqaA involved in indium extrusion, DedA family, contains VTT domain	HTCC8051_01325
+KI421440.1	Prodigal:2.6	CDS	1241341	1241823	.	+	0	HTCC8051_01329	HTCC8051	160	OG0000213	K03611	protein dithiol:quinone oxidoreductase [EC:1.8.5.9]	COG1495	DsbB	Disulfide bond formation protein DsbB	HTCC8051_01325
+KI421440.1	Prodigal:2.6	CDS	1241786	1242343	.	+	0	HTCC8051_01330	HTCC8051	185	OG0000169	K06134	3-demethoxyubiquinol 3-hydroxylase [EC:1.14.99.60]	COG2941	Coq7	Demethoxyubiquinone hydroxylase, CLK1/Coq7/Cat5 family (ubiquinone biosynthesis)	HTCC8051_01325

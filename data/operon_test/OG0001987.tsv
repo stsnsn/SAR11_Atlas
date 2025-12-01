@@ -1,0 +1,23 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP020777.1	Prodigal:2.6	CDS	315354	315662	.	+	0	RS39_00346	RS39	102	OG0000430	NA	NA	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	RS39_00351
+CP020777.1	Prodigal:2.6	CDS	315662	317059	.	+	0	RS39_00347	RS39	465	OG0000399	K00325	H+-translocating NAD(P) transhydrogenase subunit beta [EC:1.6.1.2 7.1.1.1]	COG1282	PntB	NAD/NADP transhydrogenase beta subunit	RS39_00351
+CP020777.1	Prodigal:2.6	CDS	317070	317765	.	+	0	RS39_00348	RS39	231	OG0000195	NA	NA	COG0176	TalA	Transaldolase/fructose-6-phosphate aldolase	RS39_00351
+CP020777.1	Prodigal:2.6	CDS	317762	318436	.	-	0	RS39_00349	RS39	224	OG0001829	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	RS39_00351
+CP020777.1	Prodigal:2.6	CDS	318484	320577	.	+	0	RS39_00350	RS39	697	OG0002204	NA	NA	NA	NA	NA	RS39_00351
+CP020777.1	Prodigal:2.6	CDS	320581	321207	.	-	0	RS39_00351	RS39	208	OG0001987	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	RS39_00351
+CP020777.1	Prodigal:2.6	CDS	321207	321923	.	-	0	RS39_00352	RS39	238	OG0000002	K00729	dolichyl-phosphate beta-glucosyltransferase [EC:2.4.1.117]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	RS39_00351
+CP020777.1	Aragorn:1.2	tRNA	321970	322046	.	-	.	RS39_00353	RS39	NA	NA	NA	NA	NA	NA	NA	RS39_00351
+CP020777.1	Prodigal:2.6	CDS	322053	322259	.	-	0	RS39_00354	RS39	68	OG0001078	K02970	small subunit ribosomal protein S21	COG0828	RpsU	Ribosomal protein S21	RS39_00351
+CP020777.1	Prodigal:2.6	CDS	322317	322886	.	-	0	RS39_00355	RS39	189	OG0000431	K09987	uncharacterized protein	COG3820	TrcR	Cell cycle regulator TrcR, DUF1013 family	RS39_00351
+CP020777.1	Prodigal:2.6	CDS	322890	323114	.	-	0	RS39_00356	RS39	74	OG0000432	K02909	large subunit ribosomal protein L31	COG0254	RpmE	Ribosomal protein L31	RS39_00351
+OZ247817.1	Prodigal:2.6	CDS	209138	210238	.	-	0	ME-31_00236	ME-31	366	OG0001933	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	ME-31_00241
+OZ247817.1	Prodigal:2.6	CDS	210252	211553	.	-	0	ME-31_00237	ME-31	433	OG0002066	NA	NA	COG2244	RfbX	Membrane protein involved in the export of O-antigen and teichoic acid	ME-31_00241
+OZ247817.1	Prodigal:2.6	CDS	211673	212542	.	+	0	ME-31_00238	ME-31	289	OG0002532	NA	NA	NA	NA	NA	ME-31_00241
+OZ247817.1	Prodigal:2.6	CDS	212561	213574	.	+	0	ME-31_00239	ME-31	337	OG0000865	K10046	GDP-D-mannose 3', 5'-epimerase [EC:5.1.3.18 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	ME-31_00241
+OZ247817.1	Prodigal:2.6	CDS	213579	214853	.	+	0	ME-31_00240	ME-31	424	OG0000877	NA	NA	COG3307	RfaL	O-antigen ligase	ME-31_00241
+OZ247817.1	Prodigal:2.6	CDS	214909	215520	.	-	0	ME-31_00241	ME-31	203	OG0001987	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	ME-31_00241
+OZ247817.1	Prodigal:2.6	CDS	215592	217088	.	-	0	ME-31_00242	ME-31	498	OG0001516	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	ME-31_00241
+OZ247817.1	Prodigal:2.6	CDS	217075	218016	.	-	0	ME-31_00243	ME-31	313	OG0000002	K20534	polyisoprenyl-phosphate glycosyltransferase [EC:2.4.-.-]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	ME-31_00241
+OZ247817.1	Prodigal:2.6	CDS	218077	219339	.	+	0	ME-31_00244	ME-31	420	OG0001408	NA	NA	NA	NA	NA	ME-31_00241
+OZ247817.1	Aragorn:1.2	tRNA	219371	219447	.	-	.	ME-31_00245	ME-31	NA	NA	NA	NA	NA	NA	NA	ME-31_00241
+OZ247817.1	barrnap:0.9	rRNA	219570	219680	6.1e-14	+	.	ME-31_00246	ME-31	NA	NA	NA	NA	NA	NA	NA	ME-31_00241

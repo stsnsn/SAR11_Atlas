@@ -1,0 +1,452 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CH724130.1	Prodigal:2.6	CDS	1263145	1264566	.	-	0	HTCC1002_01345	HTCC1002	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HTCC1002_01349
+CH724130.1	Prodigal:2.6	CDS	1264573	1265715	.	-	0	HTCC1002_01346	HTCC1002	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HTCC1002_01349
+CH724130.1	Prodigal:2.6	CDS	1265719	1267044	.	-	0	HTCC1002_01347	HTCC1002	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HTCC1002_01349
+CH724130.1	Prodigal:2.6	CDS	1265719	1267044	.	-	0	HTCC1002_01347	HTCC1002	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HTCC1002_01349
+CH724130.1	Prodigal:2.6	CDS	1267088	1268404	.	-	0	HTCC1002_01348	HTCC1002	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC1002_01349
+CH724130.1	Prodigal:2.6	CDS	1268407	1269087	.	-	0	HTCC1002_01349	HTCC1002	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HTCC1002_01349
+CH724130.1	Prodigal:2.6	CDS	1269091	1269969	.	-	0	HTCC1002_01350	HTCC1002	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HTCC1002_01349
+CH724130.1	Prodigal:2.6	CDS	1270195	1270419	.	-	0	HTCC1002_01351	HTCC1002	74	OG0001063	NA	NA	NA	NA	NA	HTCC1002_01349
+CH724130.1	Prodigal:2.6	CDS	1270431	1271831	.	-	0	HTCC1002_01352	HTCC1002	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HTCC1002_01349
+CH724130.1	Prodigal:2.6	CDS	1271957	1272358	.	-	0	HTCC1002_01353	HTCC1002	133	OG0001062	NA	NA	NA	NA	NA	HTCC1002_01349
+CH724130.1	Prodigal:2.6	CDS	1272368	1273792	.	-	0	HTCC1002_01354	HTCC1002	474	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC1002_01349
+KI421438.1	Prodigal:2.6	CDS	325419	326843	.	+	0	HTCC1013_01152	HTCC1013	474	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC1013_01157
+KI421438.1	Prodigal:2.6	CDS	326853	327254	.	+	0	HTCC1013_01153	HTCC1013	133	OG0001062	NA	NA	NA	NA	NA	HTCC1013_01157
+KI421438.1	Prodigal:2.6	CDS	327380	328780	.	+	0	HTCC1013_01154	HTCC1013	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HTCC1013_01157
+KI421438.1	Prodigal:2.6	CDS	328792	329016	.	+	0	HTCC1013_01155	HTCC1013	74	OG0001063	NA	NA	NA	NA	NA	HTCC1013_01157
+KI421438.1	Prodigal:2.6	CDS	329242	330120	.	+	0	HTCC1013_01156	HTCC1013	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HTCC1013_01157
+KI421438.1	Prodigal:2.6	CDS	330124	330804	.	+	0	HTCC1013_01157	HTCC1013	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HTCC1013_01157
+KI421438.1	Prodigal:2.6	CDS	330807	332123	.	+	0	HTCC1013_01158	HTCC1013	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC1013_01157
+KI421438.1	Prodigal:2.6	CDS	332167	333492	.	+	0	HTCC1013_01159	HTCC1013	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HTCC1013_01157
+KI421438.1	Prodigal:2.6	CDS	332167	333492	.	+	0	HTCC1013_01159	HTCC1013	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HTCC1013_01157
+KI421438.1	Prodigal:2.6	CDS	333496	334638	.	+	0	HTCC1013_01160	HTCC1013	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HTCC1013_01157
+KI421438.1	Prodigal:2.6	CDS	334645	336066	.	+	0	HTCC1013_01161	HTCC1013	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HTCC1013_01157
+CP000084.1	Prodigal:2.6	CDS	1243896	1245320	.	+	0	HTCC1062_01320	HTCC1062	474	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC1062_01325
+CP000084.1	Prodigal:2.6	CDS	1245330	1245731	.	+	0	HTCC1062_01321	HTCC1062	133	OG0001062	NA	NA	NA	NA	NA	HTCC1062_01325
+CP000084.1	Prodigal:2.6	CDS	1245857	1247257	.	+	0	HTCC1062_01322	HTCC1062	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HTCC1062_01325
+CP000084.1	Prodigal:2.6	CDS	1247269	1247493	.	+	0	HTCC1062_01323	HTCC1062	74	OG0001063	NA	NA	NA	NA	NA	HTCC1062_01325
+CP000084.1	Prodigal:2.6	CDS	1247719	1248597	.	+	0	HTCC1062_01324	HTCC1062	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HTCC1062_01325
+CP000084.1	Prodigal:2.6	CDS	1248601	1249281	.	+	0	HTCC1062_01325	HTCC1062	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HTCC1062_01325
+CP000084.1	Prodigal:2.6	CDS	1249284	1250600	.	+	0	HTCC1062_01326	HTCC1062	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC1062_01325
+CP000084.1	Prodigal:2.6	CDS	1250644	1251969	.	+	0	HTCC1062_01327	HTCC1062	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HTCC1062_01325
+CP000084.1	Prodigal:2.6	CDS	1250644	1251969	.	+	0	HTCC1062_01327	HTCC1062	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HTCC1062_01325
+CP000084.1	Prodigal:2.6	CDS	1251973	1253115	.	+	0	HTCC1062_01328	HTCC1062	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HTCC1062_01325
+CP000084.1	Prodigal:2.6	CDS	1253122	1254543	.	+	0	HTCC1062_01329	HTCC1062	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HTCC1062_01325
+ARVY01000001.1	Prodigal:2.6	CDS	1064059	1064460	.	+	0	HTCC1040_01158	HTCC1040	133	OG0001062	NA	NA	NA	NA	NA	HTCC1040_01163
+ARVY01000001.1	Prodigal:2.6	CDS	1064588	1065988	.	+	0	HTCC1040_01159	HTCC1040	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HTCC1040_01163
+ARVY01000001.1	Prodigal:2.6	CDS	1066001	1066225	.	+	0	HTCC1040_01160	HTCC1040	74	OG0001063	NA	NA	NA	NA	NA	HTCC1040_01163
+ARVY01000001.1	Prodigal:2.6	CDS	1066286	1066438	.	+	0	HTCC1040_01161	HTCC1040	50	OG0001097	NA	NA	NA	NA	NA	HTCC1040_01163
+ARVY01000001.1	Prodigal:2.6	CDS	1066451	1067329	.	+	0	HTCC1040_01162	HTCC1040	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HTCC1040_01163
+ARVY01000001.1	Prodigal:2.6	CDS	1067333	1068013	.	+	0	HTCC1040_01163	HTCC1040	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HTCC1040_01163
+ARVY01000001.1	Prodigal:2.6	CDS	1068016	1069332	.	+	0	HTCC1040_01164	HTCC1040	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC1040_01163
+ARVY01000001.1	Prodigal:2.6	CDS	1069376	1070701	.	+	0	HTCC1040_01165	HTCC1040	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HTCC1040_01163
+ARVY01000001.1	Prodigal:2.6	CDS	1069376	1070701	.	+	0	HTCC1040_01165	HTCC1040	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HTCC1040_01163
+ARVY01000001.1	Prodigal:2.6	CDS	1070705	1071847	.	+	0	HTCC1040_01166	HTCC1040	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HTCC1040_01163
+ARVY01000001.1	Prodigal:2.6	CDS	1071854	1073275	.	+	0	HTCC1040_01167	HTCC1040	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HTCC1040_01163
+CP038852.1	Prodigal:2.6	CDS	1246996	1248417	.	-	0	NP1_01354	NP1	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	NP1_01358
+CP038852.1	Prodigal:2.6	CDS	1248423	1249565	.	-	0	NP1_01355	NP1	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	NP1_01358
+CP038852.1	Prodigal:2.6	CDS	1249569	1250894	.	-	0	NP1_01356	NP1	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	NP1_01358
+CP038852.1	Prodigal:2.6	CDS	1249569	1250894	.	-	0	NP1_01356	NP1	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	NP1_01358
+CP038852.1	Prodigal:2.6	CDS	1250938	1252266	.	-	0	NP1_01357	NP1	442	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	NP1_01358
+CP038852.1	Prodigal:2.6	CDS	1252269	1252952	.	-	0	NP1_01358	NP1	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	NP1_01358
+CP038852.1	Prodigal:2.6	CDS	1252952	1253836	.	-	0	NP1_01359	NP1	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	NP1_01358
+CP038852.1	Prodigal:2.6	CDS	1253851	1254003	.	-	0	NP1_01360	NP1	50	OG0001097	NA	NA	NA	NA	NA	NP1_01358
+CP038852.1	Prodigal:2.6	CDS	1254070	1254294	.	-	0	NP1_01361	NP1	74	OG0001063	NA	NA	NA	NA	NA	NP1_01358
+CP038852.1	Prodigal:2.6	CDS	1254307	1255770	.	-	0	NP1_01362	NP1	487	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	NP1_01358
+CP038852.1	Prodigal:2.6	CDS	1255832	1256233	.	-	0	NP1_01363	NP1	133	OG0001062	NA	NA	NA	NA	NA	NP1_01358
+CP159811.1	Prodigal:2.6	CDS	283657	285078	.	-	0	Uisw_137_00301	Uisw_137	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	Uisw_137_00305
+CP159811.1	Prodigal:2.6	CDS	285084	286226	.	-	0	Uisw_137_00302	Uisw_137	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	Uisw_137_00305
+CP159811.1	Prodigal:2.6	CDS	286230	287555	.	-	0	Uisw_137_00303	Uisw_137	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	Uisw_137_00305
+CP159811.1	Prodigal:2.6	CDS	286230	287555	.	-	0	Uisw_137_00303	Uisw_137	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	Uisw_137_00305
+CP159811.1	Prodigal:2.6	CDS	287599	288927	.	-	0	Uisw_137_00304	Uisw_137	442	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_137_00305
+CP159811.1	Prodigal:2.6	CDS	288930	289613	.	-	0	Uisw_137_00305	Uisw_137	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	Uisw_137_00305
+CP159811.1	Prodigal:2.6	CDS	289613	290497	.	-	0	Uisw_137_00306	Uisw_137	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	Uisw_137_00305
+CP159811.1	Prodigal:2.6	CDS	290512	290664	.	-	0	Uisw_137_00307	Uisw_137	50	OG0001097	NA	NA	NA	NA	NA	Uisw_137_00305
+CP159811.1	Prodigal:2.6	CDS	290731	290955	.	-	0	Uisw_137_00308	Uisw_137	74	OG0001063	NA	NA	NA	NA	NA	Uisw_137_00305
+CP159811.1	Prodigal:2.6	CDS	290968	292368	.	-	0	Uisw_137_00309	Uisw_137	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	Uisw_137_00305
+CP159811.1	Prodigal:2.6	CDS	292496	292897	.	-	0	Uisw_137_00310	Uisw_137	133	OG0001062	NA	NA	NA	NA	NA	Uisw_137_00305
+CP159812.1	Prodigal:2.6	CDS	928169	929593	.	+	0	Uisw_136_01023	Uisw_136	474	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_136_01028
+CP159812.1	Prodigal:2.6	CDS	929603	930004	.	+	0	Uisw_136_01024	Uisw_136	133	OG0001062	NA	NA	NA	NA	NA	Uisw_136_01028
+CP159812.1	Prodigal:2.6	CDS	930132	931532	.	+	0	Uisw_136_01025	Uisw_136	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	Uisw_136_01028
+CP159812.1	Prodigal:2.6	CDS	931545	931769	.	+	0	Uisw_136_01026	Uisw_136	74	OG0001063	NA	NA	NA	NA	NA	Uisw_136_01028
+CP159812.1	Prodigal:2.6	CDS	932003	932887	.	+	0	Uisw_136_01027	Uisw_136	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	Uisw_136_01028
+CP159812.1	Prodigal:2.6	CDS	932887	933570	.	+	0	Uisw_136_01028	Uisw_136	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	Uisw_136_01028
+CP159812.1	Prodigal:2.6	CDS	933573	934901	.	+	0	Uisw_136_01029	Uisw_136	442	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_136_01028
+CP159812.1	Prodigal:2.6	CDS	934945	936270	.	+	0	Uisw_136_01030	Uisw_136	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	Uisw_136_01028
+CP159812.1	Prodigal:2.6	CDS	934945	936270	.	+	0	Uisw_136_01030	Uisw_136	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	Uisw_136_01028
+CP159812.1	Prodigal:2.6	CDS	936276	937418	.	+	0	Uisw_136_01031	Uisw_136	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	Uisw_136_01028
+CP159812.1	Prodigal:2.6	CDS	937425	938846	.	+	0	Uisw_136_01032	Uisw_136	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	Uisw_136_01028
+CP159809.1	Prodigal:2.6	CDS	294790	296211	.	-	0	Uisw_113_00306	Uisw_113	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	Uisw_113_00310
+CP159809.1	Prodigal:2.6	CDS	296218	297360	.	-	0	Uisw_113_00307	Uisw_113	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	Uisw_113_00310
+CP159809.1	Prodigal:2.6	CDS	297364	298689	.	-	0	Uisw_113_00308	Uisw_113	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	Uisw_113_00310
+CP159809.1	Prodigal:2.6	CDS	297364	298689	.	-	0	Uisw_113_00308	Uisw_113	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	Uisw_113_00310
+CP159809.1	Prodigal:2.6	CDS	298732	300060	.	-	0	Uisw_113_00309	Uisw_113	442	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_113_00310
+CP159809.1	Prodigal:2.6	CDS	300063	300746	.	-	0	Uisw_113_00310	Uisw_113	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	Uisw_113_00310
+CP159809.1	Prodigal:2.6	CDS	300746	301630	.	-	0	Uisw_113_00311	Uisw_113	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	Uisw_113_00310
+CP159809.1	Prodigal:2.6	CDS	301864	302088	.	-	0	Uisw_113_00312	Uisw_113	74	OG0001063	NA	NA	NA	NA	NA	Uisw_113_00310
+CP159809.1	Prodigal:2.6	CDS	302101	303501	.	-	0	Uisw_113_00313	Uisw_113	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	Uisw_113_00310
+CP159809.1	Prodigal:2.6	CDS	303627	304028	.	-	0	Uisw_113_00314	Uisw_113	133	OG0001062	NA	NA	NA	NA	NA	Uisw_113_00310
+CP159809.1	Prodigal:2.6	CDS	304038	305462	.	-	0	Uisw_113_00315	Uisw_113	474	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_113_00310
+CP159817.1	Prodigal:2.6	CDS	820021	821445	.	+	0	Uisw_116_00947	Uisw_116	474	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_116_00952
+CP159817.1	Prodigal:2.6	CDS	821455	821856	.	+	0	Uisw_116_00948	Uisw_116	133	OG0001062	NA	NA	NA	NA	NA	Uisw_116_00952
+CP159817.1	Prodigal:2.6	CDS	821985	823385	.	+	0	Uisw_116_00949	Uisw_116	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	Uisw_116_00952
+CP159817.1	Prodigal:2.6	CDS	823398	823622	.	+	0	Uisw_116_00950	Uisw_116	74	OG0001063	NA	NA	NA	NA	NA	Uisw_116_00952
+CP159817.1	Prodigal:2.6	CDS	823856	824743	.	+	0	Uisw_116_00951	Uisw_116	295	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	Uisw_116_00952
+CP159817.1	Prodigal:2.6	CDS	824740	825423	.	+	0	Uisw_116_00952	Uisw_116	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	Uisw_116_00952
+CP159817.1	Prodigal:2.6	CDS	825426	826754	.	+	0	Uisw_116_00953	Uisw_116	442	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_116_00952
+CP159817.1	Prodigal:2.6	CDS	826797	828122	.	+	0	Uisw_116_00954	Uisw_116	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	Uisw_116_00952
+CP159817.1	Prodigal:2.6	CDS	826797	828122	.	+	0	Uisw_116_00954	Uisw_116	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	Uisw_116_00952
+CP159817.1	Prodigal:2.6	CDS	828128	829270	.	+	0	Uisw_116_00955	Uisw_116	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	Uisw_116_00952
+CP159817.1	Prodigal:2.6	CDS	829277	830698	.	+	0	Uisw_116_00956	Uisw_116	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	Uisw_116_00952
+CP159816.1	Prodigal:2.6	CDS	872110	873534	.	+	0	Uisw_121_00964	Uisw_121	474	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_121_00969
+CP159816.1	Prodigal:2.6	CDS	873544	873945	.	+	0	Uisw_121_00965	Uisw_121	133	OG0001062	NA	NA	NA	NA	NA	Uisw_121_00969
+CP159816.1	Prodigal:2.6	CDS	874071	875471	.	+	0	Uisw_121_00966	Uisw_121	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	Uisw_121_00969
+CP159816.1	Prodigal:2.6	CDS	875484	875708	.	+	0	Uisw_121_00967	Uisw_121	74	OG0001063	NA	NA	NA	NA	NA	Uisw_121_00969
+CP159816.1	Prodigal:2.6	CDS	875942	876826	.	+	0	Uisw_121_00968	Uisw_121	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	Uisw_121_00969
+CP159816.1	Prodigal:2.6	CDS	876826	877509	.	+	0	Uisw_121_00969	Uisw_121	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	Uisw_121_00969
+CP159816.1	Prodigal:2.6	CDS	877512	878840	.	+	0	Uisw_121_00970	Uisw_121	442	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_121_00969
+CP159816.1	Prodigal:2.6	CDS	878884	880209	.	+	0	Uisw_121_00971	Uisw_121	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	Uisw_121_00969
+CP159816.1	Prodigal:2.6	CDS	878884	880209	.	+	0	Uisw_121_00971	Uisw_121	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	Uisw_121_00969
+CP159816.1	Prodigal:2.6	CDS	880213	881355	.	+	0	Uisw_121_00972	Uisw_121	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	Uisw_121_00969
+CP159816.1	Prodigal:2.6	CDS	881362	882783	.	+	0	Uisw_121_00973	Uisw_121	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	Uisw_121_00969
+CP159824.1	Prodigal:2.6	CDS	887982	889406	.	+	0	Uisw_092_01020	Uisw_092	474	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_092_01025
+CP159824.1	Prodigal:2.6	CDS	889416	889817	.	+	0	Uisw_092_01021	Uisw_092	133	OG0001062	NA	NA	NA	NA	NA	Uisw_092_01025
+CP159824.1	Prodigal:2.6	CDS	889943	891343	.	+	0	Uisw_092_01022	Uisw_092	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	Uisw_092_01025
+CP159824.1	Prodigal:2.6	CDS	891356	891580	.	+	0	Uisw_092_01023	Uisw_092	74	OG0001063	NA	NA	NA	NA	NA	Uisw_092_01025
+CP159824.1	Prodigal:2.6	CDS	891814	892698	.	+	0	Uisw_092_01024	Uisw_092	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	Uisw_092_01025
+CP159824.1	Prodigal:2.6	CDS	892698	893381	.	+	0	Uisw_092_01025	Uisw_092	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	Uisw_092_01025
+CP159824.1	Prodigal:2.6	CDS	893384	894712	.	+	0	Uisw_092_01026	Uisw_092	442	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_092_01025
+CP159824.1	Prodigal:2.6	CDS	894756	896081	.	+	0	Uisw_092_01027	Uisw_092	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	Uisw_092_01025
+CP159824.1	Prodigal:2.6	CDS	894756	896081	.	+	0	Uisw_092_01027	Uisw_092	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	Uisw_092_01025
+CP159824.1	Prodigal:2.6	CDS	896087	897229	.	+	0	Uisw_092_01028	Uisw_092	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	Uisw_092_01025
+CP159824.1	Prodigal:2.6	CDS	897236	898657	.	+	0	Uisw_092_01029	Uisw_092	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	Uisw_092_01025
+CP159810.1	Prodigal:2.6	CDS	337207	338628	.	-	0	Uisw_090_00367	Uisw_090	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	Uisw_090_00371
+CP159810.1	Prodigal:2.6	CDS	338635	339777	.	-	0	Uisw_090_00368	Uisw_090	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	Uisw_090_00371
+CP159810.1	Prodigal:2.6	CDS	339781	341106	.	-	0	Uisw_090_00369	Uisw_090	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	Uisw_090_00371
+CP159810.1	Prodigal:2.6	CDS	339781	341106	.	-	0	Uisw_090_00369	Uisw_090	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	Uisw_090_00371
+CP159810.1	Prodigal:2.6	CDS	341150	342466	.	-	0	Uisw_090_00370	Uisw_090	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_090_00371
+CP159810.1	Prodigal:2.6	CDS	342469	343149	.	-	0	Uisw_090_00371	Uisw_090	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	Uisw_090_00371
+CP159810.1	Prodigal:2.6	CDS	343154	344032	.	-	0	Uisw_090_00372	Uisw_090	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	Uisw_090_00371
+CP159810.1	Prodigal:2.6	CDS	344264	344488	.	-	0	Uisw_090_00373	Uisw_090	74	OG0001063	NA	NA	NA	NA	NA	Uisw_090_00371
+CP159810.1	Prodigal:2.6	CDS	344501	345901	.	-	0	Uisw_090_00374	Uisw_090	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	Uisw_090_00371
+CP159810.1	Prodigal:2.6	CDS	346030	346431	.	-	0	Uisw_090_00375	Uisw_090	133	OG0001062	NA	NA	NA	NA	NA	Uisw_090_00371
+CP159810.1	Prodigal:2.6	CDS	346441	347865	.	-	0	Uisw_090_00376	Uisw_090	474	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_090_00371
+CP159822.1	Prodigal:2.6	CDS	274657	276078	.	-	0	Uisw_099_02_00290	Uisw_099_02	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	Uisw_099_02_00294
+CP159822.1	Prodigal:2.6	CDS	276085	277227	.	-	0	Uisw_099_02_00291	Uisw_099_02	380	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	Uisw_099_02_00294
+CP159822.1	Prodigal:2.6	CDS	277233	278558	.	-	0	Uisw_099_02_00292	Uisw_099_02	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	Uisw_099_02_00294
+CP159822.1	Prodigal:2.6	CDS	277233	278558	.	-	0	Uisw_099_02_00292	Uisw_099_02	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	Uisw_099_02_00294
+CP159822.1	Prodigal:2.6	CDS	278601	279929	.	-	0	Uisw_099_02_00293	Uisw_099_02	442	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_099_02_00294
+CP159822.1	Prodigal:2.6	CDS	279932	280615	.	-	0	Uisw_099_02_00294	Uisw_099_02	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	Uisw_099_02_00294
+CP159822.1	Prodigal:2.6	CDS	280615	281499	.	-	0	Uisw_099_02_00295	Uisw_099_02	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	Uisw_099_02_00294
+CP159822.1	Prodigal:2.6	CDS	281733	281957	.	-	0	Uisw_099_02_00296	Uisw_099_02	74	OG0001063	NA	NA	NA	NA	NA	Uisw_099_02_00294
+CP159822.1	Prodigal:2.6	CDS	281970	283370	.	-	0	Uisw_099_02_00297	Uisw_099_02	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	Uisw_099_02_00294
+CP159822.1	Prodigal:2.6	CDS	283498	283899	.	-	0	Uisw_099_02_00298	Uisw_099_02	133	OG0001062	NA	NA	NA	NA	NA	Uisw_099_02_00294
+CP159822.1	Prodigal:2.6	CDS	283909	285333	.	-	0	Uisw_099_02_00299	Uisw_099_02	474	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_099_02_00294
+NZ_LANA01000002.1	Prodigal:2.6	CDS	32874	33335	.	-	0	HTCC9565_00842	HTCC9565	153	OG0001532	NA	NA	NA	NA	NA	HTCC9565_00846
+NZ_LANA01000002.1	Prodigal:2.6	CDS	33349	34476	.	-	0	HTCC9565_00843	HTCC9565	375	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HTCC9565_00846
+NZ_LANA01000002.1	Prodigal:2.6	CDS	34481	35806	.	-	0	HTCC9565_00844	HTCC9565	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HTCC9565_00846
+NZ_LANA01000002.1	Prodigal:2.6	CDS	34481	35806	.	-	0	HTCC9565_00844	HTCC9565	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HTCC9565_00846
+NZ_LANA01000002.1	Prodigal:2.6	CDS	35849	37177	.	-	0	HTCC9565_00845	HTCC9565	442	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC9565_00846
+NZ_LANA01000002.1	Prodigal:2.6	CDS	37180	37863	.	-	0	HTCC9565_00846	HTCC9565	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HTCC9565_00846
+NZ_LANA01000002.1	Prodigal:2.6	CDS	37863	38747	.	-	0	HTCC9565_00847	HTCC9565	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HTCC9565_00846
+NZ_LANA01000002.1	Prodigal:2.6	CDS	38980	39204	.	-	0	HTCC9565_00848	HTCC9565	74	OG0001063	NA	NA	NA	NA	NA	HTCC9565_00846
+NZ_LANA01000002.1	Prodigal:2.6	CDS	39217	40617	.	-	0	HTCC9565_00849	HTCC9565	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HTCC9565_00846
+NZ_LANA01000002.1	Prodigal:2.6	CDS	40744	41151	.	-	0	HTCC9565_00850	HTCC9565	135	OG0001062	NA	NA	NA	NA	NA	HTCC9565_00846
+NZ_LANA01000002.1	Prodigal:2.6	CDS	41161	42585	.	-	0	HTCC9565_00851	HTCC9565	474	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC9565_00846
+CP159813.1	Prodigal:2.6	CDS	284143	284604	.	-	0	Uisw_134_02_00298	Uisw_134_02	153	OG0001532	NA	NA	NA	NA	NA	Uisw_134_02_00302
+CP159813.1	Prodigal:2.6	CDS	284614	285741	.	-	0	Uisw_134_02_00299	Uisw_134_02	375	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	Uisw_134_02_00302
+CP159813.1	Prodigal:2.6	CDS	285745	287070	.	-	0	Uisw_134_02_00300	Uisw_134_02	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	Uisw_134_02_00302
+CP159813.1	Prodigal:2.6	CDS	285745	287070	.	-	0	Uisw_134_02_00300	Uisw_134_02	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	Uisw_134_02_00302
+CP159813.1	Prodigal:2.6	CDS	287114	288442	.	-	0	Uisw_134_02_00301	Uisw_134_02	442	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	Uisw_134_02_00302
+CP159813.1	Prodigal:2.6	CDS	288445	289128	.	-	0	Uisw_134_02_00302	Uisw_134_02	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	Uisw_134_02_00302
+CP159813.1	Prodigal:2.6	CDS	289128	290012	.	-	0	Uisw_134_02_00303	Uisw_134_02	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	Uisw_134_02_00302
+CP159813.1	Prodigal:2.6	CDS	290027	290179	.	-	0	Uisw_134_02_00304	Uisw_134_02	50	OG0001097	NA	NA	NA	NA	NA	Uisw_134_02_00302
+CP159813.1	Prodigal:2.6	CDS	290245	290469	.	-	0	Uisw_134_02_00305	Uisw_134_02	74	OG0001063	NA	NA	NA	NA	NA	Uisw_134_02_00302
+CP159813.1	Prodigal:2.6	CDS	290482	291882	.	-	0	Uisw_134_02_00306	Uisw_134_02	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	Uisw_134_02_00302
+CP159813.1	Prodigal:2.6	CDS	292010	292411	.	-	0	Uisw_134_02_00307	Uisw_134_02	133	OG0001062	NA	NA	NA	NA	NA	Uisw_134_02_00302
+DS995298.1	Prodigal:2.6	CDS	1225822	1226238	.	+	0	HTCC7211_01339	HTCC7211	138	OG0001062	NA	NA	NA	NA	NA	HTCC7211_01344
+DS995298.1	Prodigal:2.6	CDS	1226366	1227766	.	+	0	HTCC7211_01340	HTCC7211	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HTCC7211_01344
+DS995298.1	Prodigal:2.6	CDS	1227778	1228008	.	+	0	HTCC7211_01341	HTCC7211	76	OG0001063	NA	NA	COG1608	NA	Isopentenyl phosphate kinase	HTCC7211_01344
+DS995298.1	Prodigal:2.6	CDS	1228029	1228163	.	-	0	HTCC7211_01342	HTCC7211	44	OG0005187	NA	NA	NA	NA	NA	HTCC7211_01344
+DS995298.1	Prodigal:2.6	CDS	1228231	1229115	.	+	0	HTCC7211_01343	HTCC7211	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HTCC7211_01344
+DS995298.1	Prodigal:2.6	CDS	1229115	1229798	.	+	0	HTCC7211_01344	HTCC7211	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HTCC7211_01344
+DS995298.1	Prodigal:2.6	CDS	1229801	1231120	.	+	0	HTCC7211_01345	HTCC7211	439	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC7211_01344
+DS995298.1	Prodigal:2.6	CDS	1231155	1232480	.	+	0	HTCC7211_01346	HTCC7211	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HTCC7211_01344
+DS995298.1	Prodigal:2.6	CDS	1231155	1232480	.	+	0	HTCC7211_01346	HTCC7211	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HTCC7211_01344
+DS995298.1	Prodigal:2.6	CDS	1232484	1233611	.	+	0	HTCC7211_01347	HTCC7211	375	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HTCC7211_01344
+DS995298.1	Prodigal:2.6	CDS	1233621	1234082	.	+	0	HTCC7211_01348	HTCC7211	153	OG0001532	NA	NA	NA	NA	NA	HTCC7211_01344
+KL370779.1	Prodigal:2.6	CDS	830986	832407	.	-	0	HTCC7214_00858	HTCC7214	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HTCC7214_00862
+KL370779.1	Prodigal:2.6	CDS	832412	833542	.	-	0	HTCC7214_00859	HTCC7214	376	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HTCC7214_00862
+KL370779.1	Prodigal:2.6	CDS	833546	834871	.	-	0	HTCC7214_00860	HTCC7214	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HTCC7214_00862
+KL370779.1	Prodigal:2.6	CDS	833546	834871	.	-	0	HTCC7214_00860	HTCC7214	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HTCC7214_00862
+KL370779.1	Prodigal:2.6	CDS	834906	836213	.	-	0	HTCC7214_00861	HTCC7214	435	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC7214_00862
+KL370779.1	Prodigal:2.6	CDS	836216	836896	.	-	0	HTCC7214_00862	HTCC7214	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HTCC7214_00862
+KL370779.1	Prodigal:2.6	CDS	836900	837778	.	-	0	HTCC7214_00863	HTCC7214	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HTCC7214_00862
+KL370779.1	Prodigal:2.6	CDS	837794	837943	.	-	0	HTCC7214_00864	HTCC7214	49	OG0001097	NA	NA	NA	NA	NA	HTCC7214_00862
+KL370779.1	Prodigal:2.6	CDS	838002	838226	.	-	0	HTCC7214_00865	HTCC7214	74	OG0001063	NA	NA	NA	NA	NA	HTCC7214_00862
+KL370779.1	Prodigal:2.6	CDS	838238	839638	.	-	0	HTCC7214_00866	HTCC7214	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HTCC7214_00862
+KL370779.1	Prodigal:2.6	CDS	839766	840182	.	-	0	HTCC7214_00867	HTCC7214	138	OG0001062	NA	NA	NA	NA	NA	HTCC7214_00862
+JNIU01000001.1	Prodigal:2.6	CDS	590292	590708	.	+	0	HTCC7217_00655	HTCC7217	138	OG0001062	NA	NA	NA	NA	NA	HTCC7217_00660
+JNIU01000001.1	Prodigal:2.6	CDS	590836	592236	.	+	0	HTCC7217_00656	HTCC7217	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HTCC7217_00660
+JNIU01000001.1	Prodigal:2.6	CDS	592248	592478	.	+	0	HTCC7217_00657	HTCC7217	76	OG0001063	NA	NA	COG1608	NA	Isopentenyl phosphate kinase	HTCC7217_00660
+JNIU01000001.1	Prodigal:2.6	CDS	592499	592630	.	-	0	HTCC7217_00658	HTCC7217	43	OG0005187	NA	NA	NA	NA	NA	HTCC7217_00660
+JNIU01000001.1	Prodigal:2.6	CDS	592701	593585	.	+	0	HTCC7217_00659	HTCC7217	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HTCC7217_00660
+JNIU01000001.1	Prodigal:2.6	CDS	593585	594268	.	+	0	HTCC7217_00660	HTCC7217	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HTCC7217_00660
+JNIU01000001.1	Prodigal:2.6	CDS	594271	595590	.	+	0	HTCC7217_00661	HTCC7217	439	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC7217_00660
+JNIU01000001.1	Prodigal:2.6	CDS	595625	596950	.	+	0	HTCC7217_00662	HTCC7217	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HTCC7217_00660
+JNIU01000001.1	Prodigal:2.6	CDS	595625	596950	.	+	0	HTCC7217_00662	HTCC7217	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HTCC7217_00660
+JNIU01000001.1	Prodigal:2.6	CDS	596954	598081	.	+	0	HTCC7217_00663	HTCC7217	375	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HTCC7217_00660
+JNIU01000001.1	Prodigal:2.6	CDS	598091	598552	.	+	0	HTCC7217_00664	HTCC7217	153	OG0001532	NA	NA	NA	NA	NA	HTCC7217_00660
+HIMB1412-00000000001	Prodigal:2.6	CDS	1173511	1173921	.	+	0	HIMB1412_01259	HIMB1412	136	OG0001062	NA	NA	NA	NA	NA	HIMB1412_01264
+HIMB1412-00000000001	Prodigal:2.6	CDS	1174036	1175436	.	+	0	HIMB1412_01260	HIMB1412	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1412_01264
+HIMB1412-00000000001	Prodigal:2.6	CDS	1175446	1175670	.	+	0	HIMB1412_01261	HIMB1412	74	OG0001063	NA	NA	NA	NA	NA	HIMB1412_01264
+HIMB1412-00000000001	Prodigal:2.6	CDS	1175727	1175876	.	+	0	HIMB1412_01262	HIMB1412	49	OG0001097	NA	NA	NA	NA	NA	HIMB1412_01264
+HIMB1412-00000000001	Prodigal:2.6	CDS	1175881	1176759	.	+	0	HIMB1412_01263	HIMB1412	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1412_01264
+HIMB1412-00000000001	Prodigal:2.6	CDS	1176763	1177443	.	+	0	HIMB1412_01264	HIMB1412	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1412_01264
+HIMB1412-00000000001	Prodigal:2.6	CDS	1177443	1178759	.	+	0	HIMB1412_01265	HIMB1412	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1412_01264
+HIMB1412-00000000001	Prodigal:2.6	CDS	1178792	1180117	.	+	0	HIMB1412_01266	HIMB1412	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1412_01264
+HIMB1412-00000000001	Prodigal:2.6	CDS	1178792	1180117	.	+	0	HIMB1412_01266	HIMB1412	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1412_01264
+HIMB1412-00000000001	Prodigal:2.6	CDS	1180121	1181272	.	+	0	HIMB1412_01267	HIMB1412	383	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1412_01264
+HIMB1412-00000000001	Prodigal:2.6	CDS	1181265	1182689	.	+	0	HIMB1412_01268	HIMB1412	474	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1412_01264
+HIMB1420-00000000002	Prodigal:2.6	CDS	494581	494991	.	+	0	HIMB1420_01278	HIMB1420	136	OG0001062	NA	NA	NA	NA	NA	HIMB1420_01283
+HIMB1420-00000000002	Prodigal:2.6	CDS	495108	496508	.	+	0	HIMB1420_01279	HIMB1420	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1420_01283
+HIMB1420-00000000002	Prodigal:2.6	CDS	496518	496742	.	+	0	HIMB1420_01280	HIMB1420	74	OG0001063	NA	NA	NA	NA	NA	HIMB1420_01283
+HIMB1420-00000000002	Prodigal:2.6	CDS	496801	496950	.	+	0	HIMB1420_01281	HIMB1420	49	OG0001097	NA	NA	NA	NA	NA	HIMB1420_01283
+HIMB1420-00000000002	Prodigal:2.6	CDS	496956	497834	.	+	0	HIMB1420_01282	HIMB1420	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1420_01283
+HIMB1420-00000000002	Prodigal:2.6	CDS	497838	498518	.	+	0	HIMB1420_01283	HIMB1420	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1420_01283
+HIMB1420-00000000002	Prodigal:2.6	CDS	498519	499835	.	+	0	HIMB1420_01284	HIMB1420	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1420_01283
+HIMB1420-00000000002	Prodigal:2.6	CDS	499868	501193	.	+	0	HIMB1420_01285	HIMB1420	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1420_01283
+HIMB1420-00000000002	Prodigal:2.6	CDS	499868	501193	.	+	0	HIMB1420_01285	HIMB1420	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1420_01283
+HIMB1420-00000000002	Prodigal:2.6	CDS	501197	502348	.	+	0	HIMB1420_01286	HIMB1420	383	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1420_01283
+HIMB1420-00000000002	Prodigal:2.6	CDS	502341	503765	.	+	0	HIMB1420_01287	HIMB1420	474	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1420_01283
+HIMB1427-00000000001	Prodigal:2.6	CDS	126094	126504	.	+	0	HIMB1427_00116	HIMB1427	136	OG0001062	NA	NA	NA	NA	NA	HIMB1427_00121
+HIMB1427-00000000001	Prodigal:2.6	CDS	126621	128021	.	+	0	HIMB1427_00117	HIMB1427	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1427_00121
+HIMB1427-00000000001	Prodigal:2.6	CDS	128031	128261	.	+	0	HIMB1427_00118	HIMB1427	76	OG0001063	NA	NA	NA	NA	NA	HIMB1427_00121
+HIMB1427-00000000001	Prodigal:2.6	CDS	128326	128475	.	+	0	HIMB1427_00119	HIMB1427	49	OG0001097	NA	NA	NA	NA	NA	HIMB1427_00121
+HIMB1427-00000000001	Prodigal:2.6	CDS	128479	129357	.	+	0	HIMB1427_00120	HIMB1427	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1427_00121
+HIMB1427-00000000001	Prodigal:2.6	CDS	129361	130041	.	+	0	HIMB1427_00121	HIMB1427	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1427_00121
+HIMB1427-00000000001	Prodigal:2.6	CDS	130041	131357	.	+	0	HIMB1427_00122	HIMB1427	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1427_00121
+HIMB1427-00000000001	Prodigal:2.6	CDS	131390	132715	.	+	0	HIMB1427_00123	HIMB1427	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1427_00121
+HIMB1427-00000000001	Prodigal:2.6	CDS	131390	132715	.	+	0	HIMB1427_00123	HIMB1427	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1427_00121
+HIMB1427-00000000001	Prodigal:2.6	CDS	132719	133870	.	+	0	HIMB1427_00124	HIMB1427	383	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1427_00121
+HIMB1427-00000000001	Prodigal:2.6	CDS	133863	135287	.	+	0	HIMB1427_00125	HIMB1427	474	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1427_00121
+HIMB1427-00000000009	Prodigal:2.6	CDS	23370	23780	.	+	0	HIMB1427_01025	HIMB1427	136	OG0001062	NA	NA	NA	NA	NA	HIMB1427_01030
+HIMB1427-00000000009	Prodigal:2.6	CDS	23897	25297	.	+	0	HIMB1427_01026	HIMB1427	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1427_01030
+HIMB1427-00000000009	Prodigal:2.6	CDS	25307	25537	.	+	0	HIMB1427_01027	HIMB1427	76	OG0001063	NA	NA	NA	NA	NA	HIMB1427_01030
+HIMB1427-00000000009	Prodigal:2.6	CDS	25602	25751	.	+	0	HIMB1427_01028	HIMB1427	49	OG0001097	NA	NA	NA	NA	NA	HIMB1427_01030
+HIMB1427-00000000009	Prodigal:2.6	CDS	25755	26633	.	+	0	HIMB1427_01029	HIMB1427	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1427_01030
+HIMB1427-00000000009	Prodigal:2.6	CDS	26637	27317	.	+	0	HIMB1427_01030	HIMB1427	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1427_01030
+HIMB1427-00000000009	Prodigal:2.6	CDS	27317	28633	.	+	0	HIMB1427_01031	HIMB1427	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1427_01030
+HIMB1427-00000000009	Prodigal:2.6	CDS	28666	29991	.	+	0	HIMB1427_01032	HIMB1427	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1427_01030
+HIMB1427-00000000009	Prodigal:2.6	CDS	28666	29991	.	+	0	HIMB1427_01032	HIMB1427	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1427_01030
+HIMB1427-00000000009	Prodigal:2.6	CDS	29995	31146	.	+	0	HIMB1427_01033	HIMB1427	383	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1427_01030
+HIMB1427-00000000009	Prodigal:2.6	CDS	31139	32563	.	+	0	HIMB1427_01034	HIMB1427	474	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1427_01030
+HIMB1463-00000000001	Prodigal:2.6	CDS	69794	70204	.	+	0	HIMB1463_00077	HIMB1463	136	OG0001062	NA	NA	NA	NA	NA	HIMB1463_00082
+HIMB1463-00000000001	Prodigal:2.6	CDS	70321	71721	.	+	0	HIMB1463_00078	HIMB1463	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1463_00082
+HIMB1463-00000000001	Prodigal:2.6	CDS	71731	71961	.	+	0	HIMB1463_00079	HIMB1463	76	OG0001063	NA	NA	NA	NA	NA	HIMB1463_00082
+HIMB1463-00000000001	Prodigal:2.6	CDS	72027	72176	.	+	0	HIMB1463_00080	HIMB1463	49	OG0001097	NA	NA	NA	NA	NA	HIMB1463_00082
+HIMB1463-00000000001	Prodigal:2.6	CDS	72180	73058	.	+	0	HIMB1463_00081	HIMB1463	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1463_00082
+HIMB1463-00000000001	Prodigal:2.6	CDS	73062	73742	.	+	0	HIMB1463_00082	HIMB1463	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1463_00082
+HIMB1463-00000000001	Prodigal:2.6	CDS	73742	75058	.	+	0	HIMB1463_00083	HIMB1463	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1463_00082
+HIMB1463-00000000001	Prodigal:2.6	CDS	75091	76416	.	+	0	HIMB1463_00084	HIMB1463	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1463_00082
+HIMB1463-00000000001	Prodigal:2.6	CDS	75091	76416	.	+	0	HIMB1463_00084	HIMB1463	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1463_00082
+HIMB1463-00000000001	Prodigal:2.6	CDS	76420	77571	.	+	0	HIMB1463_00085	HIMB1463	383	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1463_00082
+HIMB1463-00000000001	Prodigal:2.6	CDS	77564	78988	.	+	0	HIMB1463_00086	HIMB1463	474	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1463_00082
+HIMB1564-00000000001	Prodigal:2.6	CDS	293284	294717	.	-	0	HIMB1564_00304	HIMB1564	477	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1564_00308
+HIMB1564-00000000001	Prodigal:2.6	CDS	294710	295861	.	-	0	HIMB1564_00305	HIMB1564	383	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1564_00308
+HIMB1564-00000000001	Prodigal:2.6	CDS	295865	297190	.	-	0	HIMB1564_00306	HIMB1564	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1564_00308
+HIMB1564-00000000001	Prodigal:2.6	CDS	295865	297190	.	-	0	HIMB1564_00306	HIMB1564	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1564_00308
+HIMB1564-00000000001	Prodigal:2.6	CDS	297223	298539	.	-	0	HIMB1564_00307	HIMB1564	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1564_00308
+HIMB1564-00000000001	Prodigal:2.6	CDS	298539	299219	.	-	0	HIMB1564_00308	HIMB1564	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1564_00308
+HIMB1564-00000000001	Prodigal:2.6	CDS	299223	300101	.	-	0	HIMB1564_00309	HIMB1564	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1564_00308
+HIMB1564-00000000001	Prodigal:2.6	CDS	300105	300254	.	-	0	HIMB1564_00310	HIMB1564	49	OG0001097	NA	NA	NA	NA	NA	HIMB1564_00308
+HIMB1564-00000000001	Prodigal:2.6	CDS	300320	300550	.	-	0	HIMB1564_00311	HIMB1564	76	OG0001063	NA	NA	NA	NA	NA	HIMB1564_00308
+HIMB1564-00000000001	Prodigal:2.6	CDS	300560	301960	.	-	0	HIMB1564_00312	HIMB1564	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1564_00308
+HIMB1564-00000000001	Prodigal:2.6	CDS	302077	302487	.	-	0	HIMB1564_00313	HIMB1564	136	OG0001062	NA	NA	NA	NA	NA	HIMB1564_00308
+HIMB1520-00000000001	Prodigal:2.6	CDS	1204065	1205489	.	-	0	HIMB1520_01307	HIMB1520	474	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1520_01311
+HIMB1520-00000000001	Prodigal:2.6	CDS	1205482	1206633	.	-	0	HIMB1520_01308	HIMB1520	383	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1520_01311
+HIMB1520-00000000001	Prodigal:2.6	CDS	1206637	1207962	.	-	0	HIMB1520_01309	HIMB1520	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1520_01311
+HIMB1520-00000000001	Prodigal:2.6	CDS	1206637	1207962	.	-	0	HIMB1520_01309	HIMB1520	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1520_01311
+HIMB1520-00000000001	Prodigal:2.6	CDS	1207995	1209311	.	-	0	HIMB1520_01310	HIMB1520	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1520_01311
+HIMB1520-00000000001	Prodigal:2.6	CDS	1209311	1209991	.	-	0	HIMB1520_01311	HIMB1520	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1520_01311
+HIMB1520-00000000001	Prodigal:2.6	CDS	1209995	1210873	.	-	0	HIMB1520_01312	HIMB1520	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1520_01311
+HIMB1520-00000000001	Prodigal:2.6	CDS	1210877	1211026	.	-	0	HIMB1520_01313	HIMB1520	49	OG0001097	NA	NA	NA	NA	NA	HIMB1520_01311
+HIMB1520-00000000001	Prodigal:2.6	CDS	1211092	1211322	.	-	0	HIMB1520_01314	HIMB1520	76	OG0001063	NA	NA	NA	NA	NA	HIMB1520_01311
+HIMB1520-00000000001	Prodigal:2.6	CDS	1211332	1212732	.	-	0	HIMB1520_01315	HIMB1520	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1520_01311
+HIMB1520-00000000001	Prodigal:2.6	CDS	1212850	1213260	.	-	0	HIMB1520_01316	HIMB1520	136	OG0001062	NA	NA	NA	NA	NA	HIMB1520_01311
+CP003809.1	Prodigal:2.6	CDS	872143	872553	.	+	0	HIMB5_00949	HIMB5	136	OG0001062	NA	NA	NA	NA	NA	HIMB5_00954
+CP003809.1	Prodigal:2.6	CDS	872670	874070	.	+	0	HIMB5_00950	HIMB5	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB5_00954
+CP003809.1	Prodigal:2.6	CDS	874080	874310	.	+	0	HIMB5_00951	HIMB5	76	OG0001063	NA	NA	NA	NA	NA	HIMB5_00954
+CP003809.1	Prodigal:2.6	CDS	874376	874525	.	+	0	HIMB5_00952	HIMB5	49	OG0001097	NA	NA	NA	NA	NA	HIMB5_00954
+CP003809.1	Prodigal:2.6	CDS	874529	875407	.	+	0	HIMB5_00953	HIMB5	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB5_00954
+CP003809.1	Prodigal:2.6	CDS	875411	876091	.	+	0	HIMB5_00954	HIMB5	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB5_00954
+CP003809.1	Prodigal:2.6	CDS	876091	877407	.	+	0	HIMB5_00955	HIMB5	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB5_00954
+CP003809.1	Prodigal:2.6	CDS	877440	878765	.	+	0	HIMB5_00956	HIMB5	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB5_00954
+CP003809.1	Prodigal:2.6	CDS	877440	878765	.	+	0	HIMB5_00956	HIMB5	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB5_00954
+CP003809.1	Prodigal:2.6	CDS	878769	879920	.	+	0	HIMB5_00957	HIMB5	383	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB5_00954
+CP003809.1	Prodigal:2.6	CDS	879913	881337	.	+	0	HIMB5_00958	HIMB5	474	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB5_00954
+KI421440.1	Prodigal:2.6	CDS	875685	876098	.	+	0	HTCC8051_00953	HTCC8051	137	OG0001062	NA	NA	NA	NA	NA	HTCC8051_00958
+KI421440.1	Prodigal:2.6	CDS	876224	877624	.	+	0	HTCC8051_00954	HTCC8051	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HTCC8051_00958
+KI421440.1	Prodigal:2.6	CDS	877637	877861	.	+	0	HTCC8051_00955	HTCC8051	74	OG0001063	NA	NA	NA	NA	NA	HTCC8051_00958
+KI421440.1	Prodigal:2.6	CDS	877923	878075	.	+	0	HTCC8051_00956	HTCC8051	50	OG0001097	NA	NA	NA	NA	NA	HTCC8051_00958
+KI421440.1	Prodigal:2.6	CDS	878091	878975	.	+	0	HTCC8051_00957	HTCC8051	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HTCC8051_00958
+KI421440.1	Prodigal:2.6	CDS	878963	879658	.	+	0	HTCC8051_00958	HTCC8051	231	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HTCC8051_00958
+KI421440.1	Prodigal:2.6	CDS	879661	880977	.	+	0	HTCC8051_00959	HTCC8051	438	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC8051_00958
+KI421440.1	Prodigal:2.6	CDS	881012	882337	.	+	0	HTCC8051_00960	HTCC8051	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HTCC8051_00958
+KI421440.1	Prodigal:2.6	CDS	881012	882337	.	+	0	HTCC8051_00960	HTCC8051	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HTCC8051_00958
+KI421440.1	Prodigal:2.6	CDS	882339	883469	.	+	0	HTCC8051_00961	HTCC8051	376	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HTCC8051_00958
+KI421440.1	Prodigal:2.6	CDS	883474	884892	.	+	0	HTCC8051_00962	HTCC8051	472	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HTCC8051_00958
+KI421433.1	Prodigal:2.6	CDS	786791	788200	.	+	0	HTCC9022_01420	HTCC9022	469	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC9022_01425
+KI421433.1	Prodigal:2.6	CDS	788209	788631	.	+	0	HTCC9022_01421	HTCC9022	140	OG0001062	NA	NA	NA	NA	NA	HTCC9022_01425
+KI421433.1	Prodigal:2.6	CDS	788758	790158	.	+	0	HTCC9022_01422	HTCC9022	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HTCC9022_01425
+KI421433.1	Prodigal:2.6	CDS	790170	790394	.	+	0	HTCC9022_01423	HTCC9022	74	OG0001063	NA	NA	NA	NA	NA	HTCC9022_01425
+KI421433.1	Prodigal:2.6	CDS	790621	791499	.	+	0	HTCC9022_01424	HTCC9022	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HTCC9022_01425
+KI421433.1	Prodigal:2.6	CDS	791503	792183	.	+	0	HTCC9022_01425	HTCC9022	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HTCC9022_01425
+KI421433.1	Prodigal:2.6	CDS	792184	793491	.	+	0	HTCC9022_01426	HTCC9022	435	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HTCC9022_01425
+KI421433.1	Prodigal:2.6	CDS	793526	794851	.	+	0	HTCC9022_01427	HTCC9022	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HTCC9022_01425
+KI421433.1	Prodigal:2.6	CDS	793526	794851	.	+	0	HTCC9022_01427	HTCC9022	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HTCC9022_01425
+KI421433.1	Prodigal:2.6	CDS	794855	795985	.	+	0	HTCC9022_01428	HTCC9022	376	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HTCC9022_01425
+KI421433.1	Prodigal:2.6	CDS	795990	797411	.	+	0	HTCC9022_01429	HTCC9022	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HTCC9022_01425
+HIMB1456-00000000001	Prodigal:2.6	CDS	93432	94853	.	-	0	HIMB1456_00094	HIMB1456	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1456_00098
+HIMB1456-00000000001	Prodigal:2.6	CDS	94860	95993	.	-	0	HIMB1456_00095	HIMB1456	377	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1456_00098
+HIMB1456-00000000001	Prodigal:2.6	CDS	95995	97320	.	-	0	HIMB1456_00096	HIMB1456	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1456_00098
+HIMB1456-00000000001	Prodigal:2.6	CDS	95995	97320	.	-	0	HIMB1456_00096	HIMB1456	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1456_00098
+HIMB1456-00000000001	Prodigal:2.6	CDS	97355	98683	.	-	0	HIMB1456_00097	HIMB1456	442	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1456_00098
+HIMB1456-00000000001	Prodigal:2.6	CDS	98686	99369	.	-	0	HIMB1456_00098	HIMB1456	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1456_00098
+HIMB1456-00000000001	Prodigal:2.6	CDS	99369	100253	.	-	0	HIMB1456_00099	HIMB1456	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1456_00098
+HIMB1456-00000000001	Prodigal:2.6	CDS	100478	100708	.	-	0	HIMB1456_00100	HIMB1456	76	OG0001063	NA	NA	NA	NA	NA	HIMB1456_00098
+HIMB1456-00000000001	Prodigal:2.6	CDS	100721	102121	.	-	0	HIMB1456_00101	HIMB1456	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1456_00098
+HIMB1456-00000000001	Prodigal:2.6	CDS	102246	102662	.	-	0	HIMB1456_00102	HIMB1456	138	OG0001062	NA	NA	NA	NA	NA	HIMB1456_00098
+HIMB1456-00000000001	Prodigal:2.6	CDS	102674	104086	.	-	0	HIMB1456_00103	HIMB1456	470	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1456_00098
+HIMB1444-00000000002	Prodigal:2.6	CDS	528153	529565	.	+	0	HIMB1444_00998	HIMB1444	470	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1444_01003
+HIMB1444-00000000002	Prodigal:2.6	CDS	529577	529993	.	+	0	HIMB1444_00999	HIMB1444	138	OG0001062	NA	NA	NA	NA	NA	HIMB1444_01003
+HIMB1444-00000000002	Prodigal:2.6	CDS	530121	531521	.	+	0	HIMB1444_01000	HIMB1444	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1444_01003
+HIMB1444-00000000002	Prodigal:2.6	CDS	531533	531763	.	+	0	HIMB1444_01001	HIMB1444	76	OG0001063	NA	NA	NA	NA	NA	HIMB1444_01003
+HIMB1444-00000000002	Prodigal:2.6	CDS	531987	532871	.	+	0	HIMB1444_01002	HIMB1444	294	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1444_01003
+HIMB1444-00000000002	Prodigal:2.6	CDS	532871	533554	.	+	0	HIMB1444_01003	HIMB1444	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1444_01003
+HIMB1444-00000000002	Prodigal:2.6	CDS	533557	534885	.	+	0	HIMB1444_01004	HIMB1444	442	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1444_01003
+HIMB1444-00000000002	Prodigal:2.6	CDS	534920	536245	.	+	0	HIMB1444_01005	HIMB1444	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1444_01003
+HIMB1444-00000000002	Prodigal:2.6	CDS	534920	536245	.	+	0	HIMB1444_01005	HIMB1444	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1444_01003
+HIMB1444-00000000002	Prodigal:2.6	CDS	536247	537380	.	+	0	HIMB1444_01006	HIMB1444	377	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1444_01003
+HIMB1444-00000000002	Prodigal:2.6	CDS	537387	538805	.	+	0	HIMB1444_01007	HIMB1444	472	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1444_01003
+HIMB1509-00000000001	Prodigal:2.6	CDS	1268996	1269409	.	+	0	HIMB1509_01378	HIMB1509	137	OG0001062	NA	NA	NA	NA	NA	HIMB1509_01383
+HIMB1509-00000000001	Prodigal:2.6	CDS	1269538	1270938	.	+	0	HIMB1509_01379	HIMB1509	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1509_01383
+HIMB1509-00000000001	Prodigal:2.6	CDS	1270950	1271180	.	+	0	HIMB1509_01380	HIMB1509	76	OG0001063	NA	NA	NA	NA	NA	HIMB1509_01383
+HIMB1509-00000000001	Prodigal:2.6	CDS	1271211	1271390	.	+	0	HIMB1509_01381	HIMB1509	59	OG0001097	NA	NA	NA	NA	NA	HIMB1509_01383
+HIMB1509-00000000001	Prodigal:2.6	CDS	1271404	1272282	.	+	0	HIMB1509_01382	HIMB1509	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1509_01383
+HIMB1509-00000000001	Prodigal:2.6	CDS	1272286	1272966	.	+	0	HIMB1509_01383	HIMB1509	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1509_01383
+HIMB1509-00000000001	Prodigal:2.6	CDS	1272967	1274274	.	+	0	HIMB1509_01384	HIMB1509	435	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1509_01383
+HIMB1509-00000000001	Prodigal:2.6	CDS	1274309	1275634	.	+	0	HIMB1509_01385	HIMB1509	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1509_01383
+HIMB1509-00000000001	Prodigal:2.6	CDS	1274309	1275634	.	+	0	HIMB1509_01385	HIMB1509	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1509_01383
+HIMB1509-00000000001	Prodigal:2.6	CDS	1275639	1276769	.	+	0	HIMB1509_01386	HIMB1509	376	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1509_01383
+HIMB1509-00000000001	Prodigal:2.6	CDS	1276775	1278196	.	+	0	HIMB1509_01387	HIMB1509	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1509_01383
+HIMB1492-00000000145	Prodigal:2.6	CDS	103	513	.	+	0	HIMB1492_01139	HIMB1492	136	OG0001064	NA	NA	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1492_01143
+HIMB1492-00000000145	Prodigal:2.6	CDS	525	755	.	+	0	HIMB1492_01140	HIMB1492	76	OG0001063	NA	NA	NA	NA	NA	HIMB1492_01143
+HIMB1492-00000000145	Prodigal:2.6	CDS	786	965	.	+	0	HIMB1492_01141	HIMB1492	59	OG0001097	NA	NA	NA	NA	NA	HIMB1492_01143
+HIMB1492-00000000145	Prodigal:2.6	CDS	979	1857	.	+	0	HIMB1492_01142	HIMB1492	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1492_01143
+HIMB1492-00000000145	Prodigal:2.6	CDS	1861	2541	.	+	0	HIMB1492_01143	HIMB1492	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1492_01143
+HIMB1493-00000000001	Prodigal:2.6	CDS	129132	130553	.	-	0	HIMB1493_00138	HIMB1493	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1493_00142
+HIMB1493-00000000001	Prodigal:2.6	CDS	130559	131689	.	-	0	HIMB1493_00139	HIMB1493	376	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1493_00142
+HIMB1493-00000000001	Prodigal:2.6	CDS	131693	133018	.	-	0	HIMB1493_00140	HIMB1493	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1493_00142
+HIMB1493-00000000001	Prodigal:2.6	CDS	131693	133018	.	-	0	HIMB1493_00140	HIMB1493	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1493_00142
+HIMB1493-00000000001	Prodigal:2.6	CDS	133053	134360	.	-	0	HIMB1493_00141	HIMB1493	435	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1493_00142
+HIMB1493-00000000001	Prodigal:2.6	CDS	134361	135041	.	-	0	HIMB1493_00142	HIMB1493	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1493_00142
+HIMB1493-00000000001	Prodigal:2.6	CDS	135045	135923	.	-	0	HIMB1493_00143	HIMB1493	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1493_00142
+HIMB1493-00000000001	Prodigal:2.6	CDS	135937	136116	.	-	0	HIMB1493_00144	HIMB1493	59	OG0001097	NA	NA	NA	NA	NA	HIMB1493_00142
+HIMB1493-00000000001	Prodigal:2.6	CDS	136147	136377	.	-	0	HIMB1493_00145	HIMB1493	76	OG0001063	NA	NA	NA	NA	NA	HIMB1493_00142
+HIMB1493-00000000001	Prodigal:2.6	CDS	136389	137789	.	-	0	HIMB1493_00146	HIMB1493	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1493_00142
+HIMB1493-00000000001	Prodigal:2.6	CDS	137918	138331	.	-	0	HIMB1493_00147	HIMB1493	137	OG0001062	NA	NA	NA	NA	NA	HIMB1493_00142
+HIMB1518-00000000001	Prodigal:2.6	CDS	284583	286004	.	-	0	HIMB1518_00293	HIMB1518	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1518_00297
+HIMB1518-00000000001	Prodigal:2.6	CDS	286010	287140	.	-	0	HIMB1518_00294	HIMB1518	376	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1518_00297
+HIMB1518-00000000001	Prodigal:2.6	CDS	287144	288469	.	-	0	HIMB1518_00295	HIMB1518	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1518_00297
+HIMB1518-00000000001	Prodigal:2.6	CDS	287144	288469	.	-	0	HIMB1518_00295	HIMB1518	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1518_00297
+HIMB1518-00000000001	Prodigal:2.6	CDS	288504	289811	.	-	0	HIMB1518_00296	HIMB1518	435	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1518_00297
+HIMB1518-00000000001	Prodigal:2.6	CDS	289812	290492	.	-	0	HIMB1518_00297	HIMB1518	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1518_00297
+HIMB1518-00000000001	Prodigal:2.6	CDS	290496	291374	.	-	0	HIMB1518_00298	HIMB1518	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1518_00297
+HIMB1518-00000000001	Prodigal:2.6	CDS	291388	291567	.	-	0	HIMB1518_00299	HIMB1518	59	OG0001097	NA	NA	NA	NA	NA	HIMB1518_00297
+HIMB1518-00000000001	Prodigal:2.6	CDS	291598	291828	.	-	0	HIMB1518_00300	HIMB1518	76	OG0001063	NA	NA	NA	NA	NA	HIMB1518_00297
+HIMB1518-00000000001	Prodigal:2.6	CDS	291840	293240	.	-	0	HIMB1518_00301	HIMB1518	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1518_00297
+HIMB1518-00000000001	Prodigal:2.6	CDS	293369	293782	.	-	0	HIMB1518_00302	HIMB1518	137	OG0001062	NA	NA	NA	NA	NA	HIMB1518_00297
+HIMB1770-00000000001	Prodigal:2.6	CDS	1211554	1212975	.	-	0	HIMB1770_01294	HIMB1770	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1770_01298
+HIMB1770-00000000001	Prodigal:2.6	CDS	1212981	1214111	.	-	0	HIMB1770_01295	HIMB1770	376	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1770_01298
+HIMB1770-00000000001	Prodigal:2.6	CDS	1214115	1215440	.	-	0	HIMB1770_01296	HIMB1770	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1770_01298
+HIMB1770-00000000001	Prodigal:2.6	CDS	1214115	1215440	.	-	0	HIMB1770_01296	HIMB1770	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1770_01298
+HIMB1770-00000000001	Prodigal:2.6	CDS	1215475	1216782	.	-	0	HIMB1770_01297	HIMB1770	435	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1770_01298
+HIMB1770-00000000001	Prodigal:2.6	CDS	1216783	1217463	.	-	0	HIMB1770_01298	HIMB1770	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1770_01298
+HIMB1770-00000000001	Prodigal:2.6	CDS	1217467	1218345	.	-	0	HIMB1770_01299	HIMB1770	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1770_01298
+HIMB1770-00000000001	Prodigal:2.6	CDS	1218359	1218538	.	-	0	HIMB1770_01300	HIMB1770	59	OG0001097	NA	NA	NA	NA	NA	HIMB1770_01298
+HIMB1770-00000000001	Prodigal:2.6	CDS	1218569	1218799	.	-	0	HIMB1770_01301	HIMB1770	76	OG0001063	NA	NA	NA	NA	NA	HIMB1770_01298
+HIMB1770-00000000001	Prodigal:2.6	CDS	1218811	1220211	.	-	0	HIMB1770_01302	HIMB1770	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1770_01298
+HIMB1770-00000000001	Prodigal:2.6	CDS	1220340	1220753	.	-	0	HIMB1770_01303	HIMB1770	137	OG0001062	NA	NA	NA	NA	NA	HIMB1770_01298
+HIMB1506-00000000001	Prodigal:2.6	CDS	181296	182717	.	-	0	HIMB1506_00184	HIMB1506	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1506_00188
+HIMB1506-00000000001	Prodigal:2.6	CDS	182723	183853	.	-	0	HIMB1506_00185	HIMB1506	376	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1506_00188
+HIMB1506-00000000001	Prodigal:2.6	CDS	183857	185182	.	-	0	HIMB1506_00186	HIMB1506	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1506_00188
+HIMB1506-00000000001	Prodigal:2.6	CDS	183857	185182	.	-	0	HIMB1506_00186	HIMB1506	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1506_00188
+HIMB1506-00000000001	Prodigal:2.6	CDS	185217	186524	.	-	0	HIMB1506_00187	HIMB1506	435	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1506_00188
+HIMB1506-00000000001	Prodigal:2.6	CDS	186525	187205	.	-	0	HIMB1506_00188	HIMB1506	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1506_00188
+HIMB1506-00000000001	Prodigal:2.6	CDS	187209	188087	.	-	0	HIMB1506_00189	HIMB1506	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1506_00188
+HIMB1506-00000000001	Prodigal:2.6	CDS	188101	188280	.	-	0	HIMB1506_00190	HIMB1506	59	OG0001097	NA	NA	NA	NA	NA	HIMB1506_00188
+HIMB1506-00000000001	Prodigal:2.6	CDS	188311	188541	.	-	0	HIMB1506_00191	HIMB1506	76	OG0001063	NA	NA	NA	NA	NA	HIMB1506_00188
+HIMB1506-00000000001	Prodigal:2.6	CDS	188553	189953	.	-	0	HIMB1506_00192	HIMB1506	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1506_00188
+HIMB1506-00000000001	Prodigal:2.6	CDS	190082	190495	.	-	0	HIMB1506_00193	HIMB1506	137	OG0001062	NA	NA	NA	NA	NA	HIMB1506_00188
+HIMB1746-00000000001	Prodigal:2.6	CDS	177615	179036	.	-	0	HIMB1746_00203	HIMB1746	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1746_00207
+HIMB1746-00000000001	Prodigal:2.6	CDS	179042	180172	.	-	0	HIMB1746_00204	HIMB1746	376	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1746_00207
+HIMB1746-00000000001	Prodigal:2.6	CDS	180176	181501	.	-	0	HIMB1746_00205	HIMB1746	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1746_00207
+HIMB1746-00000000001	Prodigal:2.6	CDS	180176	181501	.	-	0	HIMB1746_00205	HIMB1746	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1746_00207
+HIMB1746-00000000001	Prodigal:2.6	CDS	181536	182843	.	-	0	HIMB1746_00206	HIMB1746	435	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1746_00207
+HIMB1746-00000000001	Prodigal:2.6	CDS	182844	183524	.	-	0	HIMB1746_00207	HIMB1746	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1746_00207
+HIMB1746-00000000001	Prodigal:2.6	CDS	183528	184406	.	-	0	HIMB1746_00208	HIMB1746	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1746_00207
+HIMB1746-00000000001	Prodigal:2.6	CDS	184420	184599	.	-	0	HIMB1746_00209	HIMB1746	59	OG0001097	NA	NA	NA	NA	NA	HIMB1746_00207
+HIMB1746-00000000001	Prodigal:2.6	CDS	184630	184860	.	-	0	HIMB1746_00210	HIMB1746	76	OG0001063	NA	NA	NA	NA	NA	HIMB1746_00207
+HIMB1746-00000000001	Prodigal:2.6	CDS	184872	186272	.	-	0	HIMB1746_00211	HIMB1746	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1746_00207
+HIMB1746-00000000001	Prodigal:2.6	CDS	186401	186814	.	-	0	HIMB1746_00212	HIMB1746	137	OG0001062	NA	NA	NA	NA	NA	HIMB1746_00207
+HIMB1602-00000000025	Prodigal:2.6	CDS	6117	6530	.	+	0	HIMB1602_00379	HIMB1602	137	OG0001062	NA	NA	NA	NA	NA	HIMB1602_00384
+HIMB1602-00000000025	Prodigal:2.6	CDS	6658	8058	.	+	0	HIMB1602_00380	HIMB1602	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1602_00384
+HIMB1602-00000000025	Prodigal:2.6	CDS	8070	8300	.	+	0	HIMB1602_00381	HIMB1602	76	OG0001063	NA	NA	NA	NA	NA	HIMB1602_00384
+HIMB1602-00000000025	Prodigal:2.6	CDS	8331	8510	.	+	0	HIMB1602_00382	HIMB1602	59	OG0001097	NA	NA	NA	NA	NA	HIMB1602_00384
+HIMB1602-00000000025	Prodigal:2.6	CDS	8524	9402	.	+	0	HIMB1602_00383	HIMB1602	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1602_00384
+HIMB1602-00000000025	Prodigal:2.6	CDS	9406	10098	.	+	0	HIMB1602_00384	HIMB1602	230	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1602_00384
+HIMB1623-00000000012	Prodigal:2.6	CDS	101486	101899	.	+	0	HIMB1623_00744	HIMB1623	137	OG0001062	NA	NA	NA	NA	NA	HIMB1623_00749
+HIMB1623-00000000012	Prodigal:2.6	CDS	102026	103426	.	+	0	HIMB1623_00745	HIMB1623	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1623_00749
+HIMB1623-00000000012	Prodigal:2.6	CDS	103438	103668	.	+	0	HIMB1623_00746	HIMB1623	76	OG0001063	NA	NA	NA	NA	NA	HIMB1623_00749
+HIMB1623-00000000012	Prodigal:2.6	CDS	103727	103879	.	+	0	HIMB1623_00747	HIMB1623	50	OG0001097	NA	NA	NA	NA	NA	HIMB1623_00749
+HIMB1623-00000000012	Prodigal:2.6	CDS	103892	104770	.	+	0	HIMB1623_00748	HIMB1623	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1623_00749
+HIMB1623-00000000012	Prodigal:2.6	CDS	104774	105454	.	+	0	HIMB1623_00749	HIMB1623	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1623_00749
+HIMB1623-00000000012	Prodigal:2.6	CDS	105455	106762	.	+	0	HIMB1623_00750	HIMB1623	435	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1623_00749
+HIMB1623-00000000012	Prodigal:2.6	CDS	106797	108122	.	+	0	HIMB1623_00751	HIMB1623	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1623_00749
+HIMB1623-00000000012	Prodigal:2.6	CDS	106797	108122	.	+	0	HIMB1623_00751	HIMB1623	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1623_00749
+HIMB1623-00000000012	Prodigal:2.6	CDS	108127	109257	.	+	0	HIMB1623_00752	HIMB1623	376	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1623_00749
+HIMB1623-00000000012	Prodigal:2.6	CDS	109263	110684	.	+	0	HIMB1623_00753	HIMB1623	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1623_00749
+HIMB1709-00000000002	Prodigal:2.6	CDS	96672	97088	.	+	0	HIMB1709_01363	HIMB1709	138	OG0001062	NA	NA	NA	NA	NA	HIMB1709_01368
+HIMB1709-00000000002	Prodigal:2.6	CDS	97217	98617	.	+	0	HIMB1709_01364	HIMB1709	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB1709_01368
+HIMB1709-00000000002	Prodigal:2.6	CDS	98629	98859	.	+	0	HIMB1709_01365	HIMB1709	76	OG0001063	NA	NA	NA	NA	NA	HIMB1709_01368
+HIMB1709-00000000002	Prodigal:2.6	CDS	98890	99069	.	+	0	HIMB1709_01366	HIMB1709	59	OG0001097	NA	NA	NA	NA	NA	HIMB1709_01368
+HIMB1709-00000000002	Prodigal:2.6	CDS	99082	99960	.	+	0	HIMB1709_01367	HIMB1709	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB1709_01368
+HIMB1709-00000000002	Prodigal:2.6	CDS	99964	100644	.	+	0	HIMB1709_01368	HIMB1709	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB1709_01368
+HIMB1709-00000000002	Prodigal:2.6	CDS	100645	101952	.	+	0	HIMB1709_01369	HIMB1709	435	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB1709_01368
+HIMB1709-00000000002	Prodigal:2.6	CDS	101987	103312	.	+	0	HIMB1709_01370	HIMB1709	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB1709_01368
+HIMB1709-00000000002	Prodigal:2.6	CDS	101987	103312	.	+	0	HIMB1709_01370	HIMB1709	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB1709_01368
+HIMB1709-00000000002	Prodigal:2.6	CDS	103317	104447	.	+	0	HIMB1709_01371	HIMB1709	376	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB1709_01368
+HIMB1709-00000000002	Prodigal:2.6	CDS	104453	105874	.	+	0	HIMB1709_01372	HIMB1709	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1709_01368
+CP020778.1	Prodigal:2.6	CDS	1026990	1028411	.	-	0	RS40_01067	RS40	473	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	RS40_01071
+CP020778.1	Prodigal:2.6	CDS	1028414	1029553	.	-	0	RS40_01068	RS40	379	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	RS40_01071
+CP020778.1	Prodigal:2.6	CDS	1029555	1030880	.	-	0	RS40_01069	RS40	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	RS40_01071
+CP020778.1	Prodigal:2.6	CDS	1029555	1030880	.	-	0	RS40_01069	RS40	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	RS40_01071
+CP020778.1	Prodigal:2.6	CDS	1030911	1032230	.	-	0	RS40_01070	RS40	439	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	RS40_01071
+CP020778.1	Prodigal:2.6	CDS	1032231	1032911	.	-	0	RS40_01071	RS40	226	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	RS40_01071
+CP020778.1	Prodigal:2.6	CDS	1032914	1033792	.	-	0	RS40_01072	RS40	292	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	RS40_01071
+CP020778.1	Prodigal:2.6	CDS	1033807	1033971	.	-	0	RS40_01073	RS40	54	OG0001097	NA	NA	NA	NA	NA	RS40_01071
+CP020778.1	Prodigal:2.6	CDS	1034018	1034239	.	-	0	RS40_01074	RS40	73	OG0001063	NA	NA	NA	NA	NA	RS40_01071
+CP020778.1	Prodigal:2.6	CDS	1034253	1035653	.	-	0	RS40_01075	RS40	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	RS40_01071
+CP020778.1	Prodigal:2.6	CDS	1035771	1036175	.	-	0	RS40_01076	RS40	134	OG0001062	NA	NA	NA	NA	NA	RS40_01071
+HIMB2305-00000000003	Prodigal:2.6	CDS	202501	203919	.	-	0	HIMB2305_00292	HIMB2305	472	OG0000367	K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB2305_00296
+HIMB2305-00000000003	Prodigal:2.6	CDS	203922	205061	.	-	0	HIMB2305_00293	HIMB2305	379	OG0000975	K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]	COG1171	IlvA	Threonine deaminase	HIMB2305_00296
+HIMB2305-00000000003	Prodigal:2.6	CDS	205063	206388	.	-	0	HIMB2305_00294	HIMB2305	441	OG0000923	K01949	glutamate---methylamine ligase [EC:6.3.4.12]	COG0174	GlnA	Glutamine synthetase	HIMB2305_00296
+HIMB2305-00000000003	Prodigal:2.6	CDS	205063	206388	.	-	0	HIMB2305_00294	HIMB2305	441	OG0000923	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	HIMB2305_00296
+HIMB2305-00000000003	Prodigal:2.6	CDS	206426	207748	.	-	0	HIMB2305_00295	HIMB2305	440	OG0000855	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	HIMB2305_00296
+HIMB2305-00000000003	Prodigal:2.6	CDS	207751	208434	.	-	0	HIMB2305_00296	HIMB2305	227	OG0001464	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	HIMB2305_00296
+HIMB2305-00000000003	Prodigal:2.6	CDS	208434	209315	.	-	0	HIMB2305_00297	HIMB2305	293	OG0000916	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0449	GlmS	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	HIMB2305_00296
+HIMB2305-00000000003	Prodigal:2.6	CDS	209325	209486	.	-	0	HIMB2305_00298	HIMB2305	53	OG0001097	NA	NA	NA	NA	NA	HIMB2305_00296
+HIMB2305-00000000003	Prodigal:2.6	CDS	209533	209754	.	-	0	HIMB2305_00299	HIMB2305	73	OG0001063	NA	NA	NA	NA	NA	HIMB2305_00296
+HIMB2305-00000000003	Prodigal:2.6	CDS	209768	211168	.	-	0	HIMB2305_00300	HIMB2305	466	OG0001064	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	HIMB2305_00296
+HIMB2305-00000000003	Prodigal:2.6	CDS	211286	211687	.	-	0	HIMB2305_00301	HIMB2305	133	OG0001062	NA	NA	NA	NA	NA	HIMB2305_00296

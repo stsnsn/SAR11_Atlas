@@ -1,0 +1,89 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP024034.1	Prodigal:2.6	CDS	599434	600018	.	-	0	LSUCC0530_00678	LSUCC0530	194	OG0000642	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	LSUCC0530_00683
+CP024034.1	Prodigal:2.6	CDS	600021	600539	.	-	0	LSUCC0530_00679	LSUCC0530	172	OG0000682	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	LSUCC0530_00683
+CP024034.1	Prodigal:2.6	CDS	600536	600904	.	-	0	LSUCC0530_00680	LSUCC0530	122	OG0000709	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	LSUCC0530_00683
+CP024034.1	Prodigal:2.6	CDS	601016	601468	.	-	0	LSUCC0530_00681	LSUCC0530	150	OG0000145	NA	NA	COG4783	BepA	Periplasmic chaperone/metalloprotease BepA/YfgC, contains M48 and TPR domains	LSUCC0530_00683
+CP024034.1	Prodigal:2.6	CDS	601502	602476	.	+	0	LSUCC0530_00682	LSUCC0530	324	OG0000060	K00344	NADPH:quinone reductase [EC:1.6.5.5]	COG0604	Qor	NADPH:quinone reductase or related Zn-dependent oxidoreductase	LSUCC0530_00683
+CP024034.1	Prodigal:2.6	CDS	602483	602854	.	+	0	LSUCC0530_00683	LSUCC0530	123	OG0002871	NA	NA	NA	NA	NA	LSUCC0530_00683
+CP024034.1	Aragorn:1.2	tRNA	602855	602930	.	-	.	LSUCC0530_00684	LSUCC0530	NA	NA	NA	NA	NA	NA	NA	LSUCC0530_00683
+CP024034.1	Prodigal:2.6	CDS	603049	604311	.	-	0	LSUCC0530_00685	LSUCC0530	420	OG0000068	NA	NA	COG0265	DegQ	Periplasmic serine protease DegP/DegQ, contain C-terminal PDZ domain	LSUCC0530_00683
+CP024034.1	Prodigal:2.6	CDS	604308	604754	.	-	0	LSUCC0530_00686	LSUCC0530	148	OG0004384	NA	NA	NA	NA	NA	LSUCC0530_00683
+CP024034.1	Prodigal:2.6	CDS	604893	605267	.	-	0	LSUCC0530_00687	LSUCC0530	124	OG0004081	NA	NA	NA	NA	NA	LSUCC0530_00683
+CP024034.1	Prodigal:2.6	CDS	605402	606136	.	+	0	LSUCC0530_00688	LSUCC0530	244	OG0002480	NA	NA	NA	NA	NA	LSUCC0530_00683
+OZ247815.1	Prodigal:2.6	CDS	565206	565790	.	-	0	ME-33_00648	ME-33	194	OG0000642	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	ME-33_00653
+OZ247815.1	Prodigal:2.6	CDS	565793	566311	.	-	0	ME-33_00649	ME-33	172	OG0000682	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	ME-33_00653
+OZ247815.1	Prodigal:2.6	CDS	566308	566676	.	-	0	ME-33_00650	ME-33	122	OG0000709	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	ME-33_00653
+OZ247815.1	Prodigal:2.6	CDS	566788	567240	.	-	0	ME-33_00651	ME-33	150	OG0000145	NA	NA	COG4783	BepA	Periplasmic chaperone/metalloprotease BepA/YfgC, contains M48 and TPR domains	ME-33_00653
+OZ247815.1	Prodigal:2.6	CDS	567274	568248	.	+	0	ME-33_00652	ME-33	324	OG0000060	K00344	NADPH:quinone reductase [EC:1.6.5.5]	COG0604	Qor	NADPH:quinone reductase or related Zn-dependent oxidoreductase	ME-33_00653
+OZ247815.1	Prodigal:2.6	CDS	568255	568623	.	+	0	ME-33_00653	ME-33	122	OG0002871	NA	NA	NA	NA	NA	ME-33_00653
+OZ247815.1	Aragorn:1.2	tRNA	568627	568702	.	-	.	ME-33_00654	ME-33	NA	NA	NA	NA	NA	NA	NA	ME-33_00653
+OZ247815.1	Prodigal:2.6	CDS	568759	569814	.	-	0	ME-33_00655	ME-33	351	OG0001009	NA	NA	COG1485	ZapE	Cell division protein ZapE (Z ring-associated ATPase), AFG1 superfamily	ME-33_00653
+OZ247815.1	Prodigal:2.6	CDS	569851	570624	.	+	0	ME-33_00656	ME-33	257	OG0000949	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	ME-33_00653
+OZ247815.1	Prodigal:2.6	CDS	570614	570949	.	-	0	ME-33_00657	ME-33	111	OG0000630	K13628	iron-sulfur cluster assembly protein	COG0316	IscA	Fe-S cluster assembly iron-binding protein IscA	ME-33_00653
+OZ247815.1	Prodigal:2.6	CDS	570946	571251	.	-	0	ME-33_00658	ME-33	101	OG0000290	NA	NA	COG2151	PaaD	Metal-sulfur cluster biosynthetic enzyme, includes PaaD subunit of phenylacetate degradation complex	ME-33_00653
+OZ247817.1	Prodigal:2.6	CDS	568331	568915	.	-	0	ME-31_00644	ME-31	194	OG0000642	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	ME-31_00649
+OZ247817.1	Prodigal:2.6	CDS	568918	569436	.	-	0	ME-31_00645	ME-31	172	OG0000682	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	ME-31_00649
+OZ247817.1	Prodigal:2.6	CDS	569433	569801	.	-	0	ME-31_00646	ME-31	122	OG0000709	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	ME-31_00649
+OZ247817.1	Prodigal:2.6	CDS	569913	570365	.	-	0	ME-31_00647	ME-31	150	OG0000145	NA	NA	COG4783	BepA	Periplasmic chaperone/metalloprotease BepA/YfgC, contains M48 and TPR domains	ME-31_00649
+OZ247817.1	Prodigal:2.6	CDS	570399	571373	.	+	0	ME-31_00648	ME-31	324	OG0000060	K00344	NADPH:quinone reductase [EC:1.6.5.5]	COG0604	Qor	NADPH:quinone reductase or related Zn-dependent oxidoreductase	ME-31_00649
+OZ247817.1	Prodigal:2.6	CDS	571380	571748	.	+	0	ME-31_00649	ME-31	122	OG0002871	NA	NA	NA	NA	NA	ME-31_00649
+OZ247817.1	Aragorn:1.2	tRNA	571752	571827	.	-	.	ME-31_00650	ME-31	NA	NA	NA	NA	NA	NA	NA	ME-31_00649
+OZ247817.1	Prodigal:2.6	CDS	571884	572939	.	-	0	ME-31_00651	ME-31	351	OG0001009	NA	NA	COG1485	ZapE	Cell division protein ZapE (Z ring-associated ATPase), AFG1 superfamily	ME-31_00649
+OZ247817.1	Prodigal:2.6	CDS	572976	573749	.	+	0	ME-31_00652	ME-31	257	OG0000949	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	ME-31_00649
+OZ247817.1	Prodigal:2.6	CDS	573739	574074	.	-	0	ME-31_00653	ME-31	111	OG0000630	K13628	iron-sulfur cluster assembly protein	COG0316	IscA	Fe-S cluster assembly iron-binding protein IscA	ME-31_00649
+OZ247817.1	Prodigal:2.6	CDS	574071	574376	.	-	0	ME-31_00654	ME-31	101	OG0000290	NA	NA	COG2151	PaaD	Metal-sulfur cluster biosynthetic enzyme, includes PaaD subunit of phenylacetate degradation complex	ME-31_00649
+OZ249404.1	Prodigal:2.6	CDS	532256	532840	.	-	0	ME-17_00623	ME-17	194	OG0000642	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	ME-17_00628
+OZ249404.1	Prodigal:2.6	CDS	532843	533361	.	-	0	ME-17_00624	ME-17	172	OG0000682	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	ME-17_00628
+OZ249404.1	Prodigal:2.6	CDS	533358	533726	.	-	0	ME-17_00625	ME-17	122	OG0000709	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	ME-17_00628
+OZ249404.1	Prodigal:2.6	CDS	533838	534290	.	-	0	ME-17_00626	ME-17	150	OG0000145	NA	NA	COG4235	NrfG	Cytochrome c-type biogenesis protein CcmH/NrfG	ME-17_00628
+OZ249404.1	Prodigal:2.6	CDS	534324	535298	.	+	0	ME-17_00627	ME-17	324	OG0000060	K00344	NADPH:quinone reductase [EC:1.6.5.5]	COG0604	Qor	NADPH:quinone reductase or related Zn-dependent oxidoreductase	ME-17_00628
+OZ249404.1	Prodigal:2.6	CDS	535305	535673	.	+	0	ME-17_00628	ME-17	122	OG0002871	NA	NA	NA	NA	NA	ME-17_00628
+OZ249404.1	Aragorn:1.2	tRNA	535677	535752	.	-	.	ME-17_00629	ME-17	NA	NA	NA	NA	NA	NA	NA	ME-17_00628
+OZ249404.1	Prodigal:2.6	CDS	535809	536864	.	-	0	ME-17_00630	ME-17	351	OG0001009	NA	NA	COG1485	ZapE	Cell division protein ZapE (Z ring-associated ATPase), AFG1 superfamily	ME-17_00628
+OZ249404.1	Prodigal:2.6	CDS	536901	537674	.	+	0	ME-17_00631	ME-17	257	OG0000949	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	ME-17_00628
+OZ249404.1	Prodigal:2.6	CDS	537664	537999	.	-	0	ME-17_00632	ME-17	111	OG0000630	K13628	iron-sulfur cluster assembly protein	COG0316	IscA	Fe-S cluster assembly iron-binding protein IscA	ME-17_00628
+OZ249404.1	Prodigal:2.6	CDS	537996	538301	.	-	0	ME-17_00633	ME-17	101	OG0000290	NA	NA	COG2151	PaaD	Metal-sulfur cluster biosynthetic enzyme, includes PaaD subunit of phenylacetate degradation complex	ME-17_00628
+OZ247816.1	Prodigal:2.6	CDS	540346	540930	.	-	0	ME-20_00613	ME-20	194	OG0000642	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	ME-20_00618
+OZ247816.1	Prodigal:2.6	CDS	540933	541451	.	-	0	ME-20_00614	ME-20	172	OG0000682	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	ME-20_00618
+OZ247816.1	Prodigal:2.6	CDS	541448	541816	.	-	0	ME-20_00615	ME-20	122	OG0000709	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	ME-20_00618
+OZ247816.1	Prodigal:2.6	CDS	541928	542380	.	-	0	ME-20_00616	ME-20	150	OG0000145	NA	NA	COG4235	NrfG	Cytochrome c-type biogenesis protein CcmH/NrfG	ME-20_00618
+OZ247816.1	Prodigal:2.6	CDS	542414	543388	.	+	0	ME-20_00617	ME-20	324	OG0000060	K00344	NADPH:quinone reductase [EC:1.6.5.5]	COG0604	Qor	NADPH:quinone reductase or related Zn-dependent oxidoreductase	ME-20_00618
+OZ247816.1	Prodigal:2.6	CDS	543395	543763	.	+	0	ME-20_00618	ME-20	122	OG0002871	NA	NA	NA	NA	NA	ME-20_00618
+OZ247816.1	Aragorn:1.2	tRNA	543767	543842	.	-	.	ME-20_00619	ME-20	NA	NA	NA	NA	NA	NA	NA	ME-20_00618
+OZ247816.1	Prodigal:2.6	CDS	543899	544954	.	-	0	ME-20_00620	ME-20	351	OG0001009	NA	NA	COG1485	ZapE	Cell division protein ZapE (Z ring-associated ATPase), AFG1 superfamily	ME-20_00618
+OZ247816.1	Prodigal:2.6	CDS	544991	545764	.	+	0	ME-20_00621	ME-20	257	OG0000949	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	ME-20_00618
+OZ247816.1	Prodigal:2.6	CDS	545754	546089	.	-	0	ME-20_00622	ME-20	111	OG0000630	K13628	iron-sulfur cluster assembly protein	COG0316	IscA	Fe-S cluster assembly iron-binding protein IscA	ME-20_00618
+OZ247816.1	Prodigal:2.6	CDS	546086	546391	.	-	0	ME-20_00623	ME-20	101	OG0000290	NA	NA	COG2151	PaaD	Metal-sulfur cluster biosynthetic enzyme, includes PaaD subunit of phenylacetate degradation complex	ME-20_00618
+OZ247825.1	Prodigal:2.6	CDS	552747	553331	.	-	0	ME-18_00634	ME-18	194	OG0000642	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	ME-18_00639
+OZ247825.1	Prodigal:2.6	CDS	553334	553852	.	-	0	ME-18_00635	ME-18	172	OG0000682	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	ME-18_00639
+OZ247825.1	Prodigal:2.6	CDS	553849	554217	.	-	0	ME-18_00636	ME-18	122	OG0000709	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	ME-18_00639
+OZ247825.1	Prodigal:2.6	CDS	554329	554781	.	-	0	ME-18_00637	ME-18	150	OG0000145	NA	NA	COG4783	BepA	Periplasmic chaperone/metalloprotease BepA/YfgC, contains M48 and TPR domains	ME-18_00639
+OZ247825.1	Prodigal:2.6	CDS	554815	555789	.	+	0	ME-18_00638	ME-18	324	OG0000060	K00344	NADPH:quinone reductase [EC:1.6.5.5]	COG0604	Qor	NADPH:quinone reductase or related Zn-dependent oxidoreductase	ME-18_00639
+OZ247825.1	Prodigal:2.6	CDS	555796	556164	.	+	0	ME-18_00639	ME-18	122	OG0002871	NA	NA	NA	NA	NA	ME-18_00639
+OZ247825.1	Aragorn:1.2	tRNA	556168	556243	.	-	NA	ME-18_00640	ME-18	NA	NA	NA	NA	NA	NA	NA	ME-18_00639
+OZ247825.1	Prodigal:2.6	CDS	556481	557062	.	+	0	ME-18_00641	ME-18	193	OG0001508	NA	NA	NA	NA	NA	ME-18_00639
+OZ247825.1	Prodigal:2.6	CDS	557052	557537	.	+	0	ME-18_00642	ME-18	161	OG0005202	NA	NA	NA	NA	NA	ME-18_00639
+OZ247825.1	Prodigal:2.6	CDS	557515	558579	.	-	0	ME-18_00643	ME-18	354	OG0001009	NA	NA	COG1485	ZapE	Cell division protein ZapE (Z ring-associated ATPase), AFG1 superfamily	ME-18_00639
+OZ247825.1	Prodigal:2.6	CDS	558616	559389	.	+	0	ME-18_00644	ME-18	257	OG0000949	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	ME-18_00639
+OZ249405.1	Prodigal:2.6	CDS	568598	569182	.	-	0	MiE-29_00655	MiE-29	194	OG0000642	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	MiE-29_00660
+OZ249405.1	Prodigal:2.6	CDS	569185	569703	.	-	0	MiE-29_00656	MiE-29	172	OG0000682	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	MiE-29_00660
+OZ249405.1	Prodigal:2.6	CDS	569700	570068	.	-	0	MiE-29_00657	MiE-29	122	OG0000709	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	MiE-29_00660
+OZ249405.1	Prodigal:2.6	CDS	570180	570632	.	-	0	MiE-29_00658	MiE-29	150	OG0000145	NA	NA	COG4783	BepA	Periplasmic chaperone/metalloprotease BepA/YfgC, contains M48 and TPR domains	MiE-29_00660
+OZ249405.1	Prodigal:2.6	CDS	570665	571639	.	+	0	MiE-29_00659	MiE-29	324	OG0000060	K00344	NADPH:quinone reductase [EC:1.6.5.5]	COG0604	Qor	NADPH:quinone reductase or related Zn-dependent oxidoreductase	MiE-29_00660
+OZ249405.1	Prodigal:2.6	CDS	571646	572014	.	+	0	MiE-29_00660	MiE-29	122	OG0002871	NA	NA	NA	NA	NA	MiE-29_00660
+OZ249405.1	Aragorn:1.2	tRNA	572018	572093	.	-	NA	MiE-29_00661	MiE-29	NA	NA	NA	NA	NA	NA	NA	MiE-29_00660
+OZ249405.1	Prodigal:2.6	CDS	572396	573292	.	-	0	MiE-29_00662	MiE-29	298	OG0001465	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	MiE-29_00660
+OZ249405.1	Prodigal:2.6	CDS	573320	574375	.	-	0	MiE-29_00663	MiE-29	351	OG0001009	NA	NA	COG1485	ZapE	Cell division protein ZapE (Z ring-associated ATPase), AFG1 superfamily	MiE-29_00660
+OZ249405.1	Prodigal:2.6	CDS	574412	575185	.	+	0	MiE-29_00664	MiE-29	257	OG0000949	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	MiE-29_00660
+OZ249405.1	Prodigal:2.6	CDS	575175	575510	.	-	0	MiE-29_00665	MiE-29	111	OG0000630	K13628	iron-sulfur cluster assembly protein	COG0316	IscA	Fe-S cluster assembly iron-binding protein IscA	MiE-29_00660
+OZ247814.1	Prodigal:2.6	CDS	877010	877315	.	+	0	MKE-138_00967	MKE-138	101	OG0000290	NA	NA	COG2151	PaaD	Metal-sulfur cluster biosynthetic enzyme, includes PaaD subunit of phenylacetate degradation complex	MKE-138_00972
+OZ247814.1	Prodigal:2.6	CDS	877312	877647	.	+	0	MKE-138_00968	MKE-138	111	OG0000630	K13628	iron-sulfur cluster assembly protein	COG0316	IscA	Fe-S cluster assembly iron-binding protein IscA	MKE-138_00972
+OZ247814.1	Prodigal:2.6	CDS	877637	878410	.	-	0	MKE-138_00969	MKE-138	257	OG0000949	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	MKE-138_00972
+OZ247814.1	Prodigal:2.6	CDS	878447	879502	.	+	0	MKE-138_00970	MKE-138	351	OG0001009	NA	NA	COG1485	ZapE	Cell division protein ZapE (Z ring-associated ATPase), AFG1 superfamily	MKE-138_00972
+OZ247814.1	Aragorn:1.2	tRNA	879559	879634	.	+	.	MKE-138_00971	MKE-138	NA	NA	NA	NA	NA	NA	NA	MKE-138_00972
+OZ247814.1	Prodigal:2.6	CDS	879638	880006	.	-	0	MKE-138_00972	MKE-138	122	OG0002871	NA	NA	NA	NA	NA	MKE-138_00972
+OZ247814.1	Prodigal:2.6	CDS	880013	880987	.	-	0	MKE-138_00973	MKE-138	324	OG0000060	K00344	NADPH:quinone reductase [EC:1.6.5.5]	COG0604	Qor	NADPH:quinone reductase or related Zn-dependent oxidoreductase	MKE-138_00972
+OZ247814.1	Prodigal:2.6	CDS	881020	881472	.	+	0	MKE-138_00974	MKE-138	150	OG0000145	NA	NA	COG4783	BepA	Periplasmic chaperone/metalloprotease BepA/YfgC, contains M48 and TPR domains	MKE-138_00972
+OZ247814.1	Prodigal:2.6	CDS	881584	881952	.	+	0	MKE-138_00975	MKE-138	122	OG0000709	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	MKE-138_00972
+OZ247814.1	Prodigal:2.6	CDS	881949	882467	.	+	0	MKE-138_00976	MKE-138	172	OG0000682	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	MKE-138_00972
+OZ247814.1	Prodigal:2.6	CDS	882470	883054	.	+	0	MKE-138_00977	MKE-138	194	OG0000642	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	MKE-138_00972

@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+
+    <!-- 検索窓のsuggest用 -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
 </head>
 
 <body>
@@ -41,9 +47,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./og_list.html">All OG List</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./SAR11_BLAST.html">OG Search</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="./SAR11_operon_vis.html">Neighboring Genes</a>
@@ -101,15 +104,57 @@
                     <li><strong>Top 20 OG Highlighting:</strong> Highlights the most frequent 20 OGs with distinct colors, while others are displayed in gray.</li>
                     <li><strong>Interactive Tooltips:</strong> Hover over genes to see detailed information such as sequence ID, group ID, and functional annotations.</li>
                 </ul>
-                <p>This tool is designed to help researchers and enthusiasts better understand the genomic context and relationships within the SAR11 clade.</p>
+                <p>**On this page, OG ID is sliced to show only the last 4 characters for easier visualization.</p>
+                <div style="display: flex; justify-content: flex-end; margin-bottom: 8px;">
+                    <div style="display: flex; align-items: center;">
+                        <label style="margin-right: 8px; font-size: 0.9rem;">Length:</label>
+                        <input type="checkbox" id="lengthModeToggle" checked title="ON: Reflect actual sequence length / OFF: Adjust to screen width per row">
+                        <span style="margin-left: 8px; font-size: 0.85rem; color: gray;">(ON = Actual)</span>
+                    </div>
+                </div>
                 <div class="input-group mb-3">
-                    <input type="text" id="ogInput" class="form-control" placeholder="Enter OG (e.g., OG860)" aria-label="OG Input">
+                    <input type="text" id="ogInput" class="form-control" placeholder="Enter OG (e.g., OG0000173)" aria-label="OG Input">
                     <div class="input-group-append">
                         <button class="btn btn-outline-secondary" type="button" id="loadData">Load Data</button>
                     </div>
                 </div>
                 <div id="operonVisualization"></div>
-                <script src="https://d3js.org/d3.v6.min.js"></script>
+
+                    <script>
+                        let og_data = [];
+                        d3.tsv("../data/og_suggest.tsv").then(data => {
+                            // TSV → Autocomplete 用データに変換
+                            og_data = data.map(d => ({
+                                label: `${d.og_id} | ${d.ko}: ${d.ko_name} | ${d.cog}: ${d.cog_name} | ${d.pfams}: ${d.pfam_names} `, // 表示内容
+                                value: d.og_id                                          // 入力値
+                            }));
+
+                            // Autocomplete 適用
+                            $("#ogInput").autocomplete({
+                                source: function(request, response) {
+                                    const term = request.term.toLowerCase();
+                                    const hits = og_data.filter(d =>
+                                        d.label.toLowerCase().includes(term))
+                                        .slice(0, 50);
+                                    response(hits);
+                                },
+                                minLength: 2,
+                                delay: 50,
+                                autoFocus: true,   // ← 下のscriptにあった設定をこちらに統合
+                                select: function(event, ui) {
+                                    $("#ogInput").val(ui.item.value);
+                                    return false;
+                                }
+                            });
+                            // Enterで loadData
+                            $("#ogInput").keydown(e => {
+                                if (e.key === "Enter") {
+                                    $("#loadData").click();
+                                }
+                            });
+                        });
+                        </script>
+
 
                 <div id="operonVisualization2"></div>
 
@@ -155,6 +200,9 @@
                             return;
                         }
 
+                        // length mode: true = actual lengths (proportional to max), false = per-row full-width
+                        const useActualLengths = document.getElementById('lengthModeToggle') ? document.getElementById('lengthModeToggle').checked : true;
+
                         const filePath = `../data/operon_test/${og}.tsv`;
                         d3.tsv(filePath).then(data => {
                             d3.select('#operonVisualization').html(''); // Clear
@@ -164,34 +212,68 @@
                             const margin = { top: 20, right: 150, bottom: 20, left: 150 };
                             const arrowHeight = 14;
 
-                            // 頻度計算
+                            // 頻度計算 (changed to new header name `Orthogroup`)
                             const frequencyMap = d3.rollup(
                                 data,
                                 v => v.length,
-                                d => d.group_id
+                                d => d.Orthogroup
                             );
 
                             // 上位20OGを取得
                             const top20OGs = Array.from(frequencyMap.entries())
                                 .sort((a, b) => b[1] - a[1]) // 頻度でソート
                                 .slice(0, 20) // 上位20個を取得
-                                .map(d => d[0]); // group_idのみ抽出
+                                .map(d => d[0]); // Orthogroupのみ抽出
 
                             // カラースケールを設定
                             const ogColor = d3.scaleOrdinal(d3.schemeCategory10)
                                 .domain(top20OGs);
 
                             grouped = d3.groups(data, d => d.center_query); // グローバル変数に代入
+
+                            // compute per-group region lengths and find the maximum length
+                            const groupRegions = grouped.map(([center, genes]) => {
+                                // clone genes so we can mutate coordinates per-group without affecting original data
+                                const genesCopy = genes.map(g => Object.assign({}, g));
+                                // find center gene in the copy
+                                const centerGeneCopy = genesCopy.find(d => d.seq_id === d.center_query);
+                                // If center gene is on negative strand, reverse order and invert coordinates
+                                if (centerGeneCopy && centerGeneCopy.strand === '-') {
+                                    genesCopy.reverse();
+                                    genesCopy.forEach(gene => {
+                                        const tempStart = gene.start;
+                                        gene.start = -gene.end;
+                                        gene.end = -tempStart;
+                                    });
+                                }
+
+                                const regionStart = d3.min(genesCopy, d => +d.start);
+                                const regionEnd = d3.max(genesCopy, d => +d.end);
+                                const length = (regionEnd === undefined || regionStart === undefined) ? 0 : (regionEnd - regionStart);
+                                return { center, genes: genesCopy, regionStart, regionEnd, length };
+                            });
+
+                            const maxRegionLength = d3.max(groupRegions, g => g.length) || 1;
+
+                            // use container width so the longest region occupies full drawable width
+                            const containerWidth = document.getElementById('operonVisualization').clientWidth || width;
+                            const svgWidth = containerWidth;
                             const height = grouped.length * rowHeight + margin.top + margin.bottom;
 
                             const svg = d3.select('#operonVisualization')
                                 .append('svg')
-                                .attr('width', width)
+                                .attr('width', svgWidth)
                                 .attr('height', height);
 
                             const g = svg.append('g').attr('transform', `translate(${margin.left}, ${margin.top})`);
 
-                            grouped.forEach(([center, genes], idx) => {
+                            // global scale: map length (bp) to drawable pixels; longest region -> full width
+                            const drawableWidth = svgWidth - margin.left - margin.right;
+                            const globalScale = d3.scaleLinear()
+                                .domain([0, maxRegionLength])
+                                .range([0, drawableWidth]);
+
+                            groupRegions.forEach(({center, genes, regionStart, regionEnd, length}, idx) => {
                                 const y = idx * rowHeight;
 
                                 // 中心遺伝子を取得
@@ -201,109 +283,124 @@
                                     return;
                                 }
 
-                                // strandがマイナスの場合、配列を逆順にし、座標を反転
-                                if (centerGene.strand === '-') {
-                                    genes.reverse();
-                                    genes.forEach(gene => {
-                                        const tempStart = gene.start;
-                                        gene.start = -gene.end;
-                                        gene.end = -tempStart;
-                                    });
-                                }
-
-                                // ゲノム名を描画（横幅を狭めるためにx座標を調整）
+                                // ゲノム名を描画
                                 g.append('text')
-                                    .attr('x', -50) // 左側にさらに配置
+                                    .attr('x', -50)
                                     .attr('y', y + arrowHeight / 2)
                                     .attr('text-anchor', 'end')
                                     .attr('alignment-baseline', 'middle')
                                     .attr('font-size', 12)
                                     .text(centerGene.genome);
 
-                                // contig名を描画（横幅を狭めるためにx座標を調整）
+                                // contig名を描画
                                 g.append('text')
-                                    .attr('x', -50) // 左側にさらに配置
-                                    .attr('y', y + arrowHeight / 2 + 12) // 少し下に配置
+                                    .attr('x', -50)
+                                    .attr('y', y + arrowHeight / 2 + 12)
                                     .attr('text-anchor', 'end')
                                     .attr('alignment-baseline', 'middle')
                                     .attr('font-size', 10)
-                                    .attr('fill', 'gray') // 灰色で表示
+                                    .attr('fill', 'gray')
                                     .text(centerGene.contig);
 
-                                // 中心遺伝子の中心座標を計算
+                                // row-specific region values
+                                const rowRegionStart = regionStart === undefined ? 0 : regionStart;
+                                const rowRegionEnd = regionEnd === undefined ? rowRegionStart + 1 : regionEnd;
+                                const rowLength = Math.max(1, rowRegionEnd - rowRegionStart);
+
+                                // center the row so that the center gene is at drawable center
                                 const centerMid = (+centerGene.start + +centerGene.end) / 2;
-
-                                // 遺伝子の範囲を計算
-                                let regionStart = d3.min(genes, d => +d.start);
-                                let regionEnd = d3.max(genes, d => +d.end);
-
-                                // 初期化されていない場合のデフォルト値
-                                if (regionStart === undefined || regionEnd === undefined) {
-                                    console.error('Error: Unable to determine regionStart or regionEnd. Setting default values.');
-                                    regionStart = 0;
-                                    regionEnd = 10000; // デフォルトの範囲
+                                let offsetX, baselineX1, baselineX2;
+                                if (useActualLengths) {
+                                    const centerRel = centerMid - rowRegionStart;
+                                    const centerX = globalScale(centerRel);
+                                    // desired offset to center the center gene
+                                    const desiredOffset = (drawableWidth / 2) - centerX;
+                                    // clamp offset so baseline stays within drawable area
+                                    const maxOffset = Math.max(0, drawableWidth - globalScale(rowLength));
+                                    const minOffset = 0;
+                                    offsetX = Math.max(minOffset, Math.min(desiredOffset, maxOffset));
+                                    // baseline: use offset so center gene is centered
+                                    baselineX1 = offsetX;
+                                    baselineX2 = offsetX + globalScale(rowLength);
+                                } else {
+                                    // per-row full-width scaling: map region to full drawableWidth
+                                    const xScale = d3.scaleLinear().domain([rowRegionStart, rowRegionEnd]).range([0, drawableWidth]);
+                                    const centerX = xScale(centerMid);
+                                    const desiredOffset = (drawableWidth / 2) - centerX;
+                                    // clamp so baseline stays within drawable area (here baseline width == drawableWidth)
+                                    const maxOffset = 0;
+                                    const minOffset = 0;
+                                    offsetX = Math.max(minOffset, Math.min(desiredOffset, maxOffset));
+                                    baselineX1 = offsetX;
+                                    baselineX2 = offsetX + drawableWidth;
                                 }
-
-                                // 全体のスケールを遺伝子の範囲に設定
-                                const xScale = d3.scaleLinear()
-                                    .domain([regionStart, regionEnd])
-                                    .range([0, width - margin.left - margin.right]);
-
-                                // 黒線（ベースライン）の描画
                                 g.append('line')
-                                    .attr('x1', xScale(regionStart))
-                                    .attr('x2', xScale(regionEnd))
+                                    .attr('x1', baselineX1)
+                                    .attr('x2', baselineX2)
                                     .attr('y1', y + arrowHeight / 2)
                                     .attr('y2', y + arrowHeight / 2)
                                     .attr('stroke', 'black')
                                     .attr('stroke-width', 1);
 
-                                // 両端の塩基番号を表示（絶対値を使用）
+                                // endpoints labels (positioned at baseline ends)
                                 g.append('text')
-                                    .attr('x', xScale(regionStart))
+                                    .attr('x', baselineX1)
                                     .attr('y', y + arrowHeight + 12)
                                     .attr('text-anchor', 'start')
                                     .attr('font-size', 10)
-                                    .text(Math.abs(regionStart));
+                                    .text(Math.abs(rowRegionStart));
 
                                 g.append('text')
-                                    .attr('x', xScale(regionEnd))
+                                    .attr('x', baselineX2)
                                     .attr('y', y + arrowHeight + 12)
                                     .attr('text-anchor', 'end')
                                     .attr('font-size', 10)
-                                    .text(Math.abs(regionEnd));
+                                    .text(Math.abs(rowRegionEnd));
 
                                 genes.forEach(d => {
                                     const geneStart = +d.start;
                                     const geneEnd = +d.end;
-                                    const length = Math.min(Math.abs(geneEnd - geneStart), 3000);
+                                    const geneRelStart = geneStart - rowRegionStart;
+                                    const geneRelEnd = geneEnd - rowRegionStart;
 
-                                    const x1 = xScale(Math.min(geneStart, geneEnd));
-                                    const x2 = xScale(Math.min(geneStart, geneEnd) + length);
-                                    const geneX = x1;
-                                    const geneWidth = Math.abs(x2 - x1);
+                                    let geneX, geneWidth;
+                                    if (useActualLengths) {
+                                        geneX = offsetX + globalScale(Math.min(geneRelStart, geneRelEnd));
+                                        geneWidth = Math.max(2, Math.abs(globalScale(geneRelEnd - geneRelStart)));
+                                    } else {
+                                        const xScale = d3.scaleLinear().domain([rowRegionStart, rowRegionEnd]).range([0, drawableWidth]);
+                                        geneX = offsetX + xScale(Math.min(geneStart, geneEnd));
+                                        geneWidth = Math.max(2, Math.abs(xScale(geneEnd) - xScale(geneStart)));
+                                    }
 
                                     const arrow = `M${geneX},${y} h${geneWidth - 6} l6,${arrowHeight / 2} l-6,${arrowHeight / 2} h-${geneWidth - 6} z`;
 
-                                    const fillColor = top20OGs.includes(d.group_id) ? ogColor(d.group_id) : '#cccccc';
+                                    const fillColor = top20OGs.includes(d.Orthogroup) ? ogColor(d.Orthogroup) : '#cccccc';
 
-                                    g.append('path')
+                                    const path = g.append('path')
                                         .attr('d', arrow)
                                         .attr('fill', fillColor)
                                         .attr('stroke', 'black')
                                         .attr('stroke-width', d.center_query === d.seq_id ? 2 : 0.5)
                                         .on('mouseover', function (event) {
                                             const tooltip = d3.select('#tooltip');
+                                            const svg = document.querySelector('#operonVisualization svg');
+                                            const svgRect = svg.getBoundingClientRect();
+                                            const top = event.clientY + window.scrollY;
+                                            const left = event.clientX - svgRect.left + window.scrollX;
                                             tooltip.style('visibility', 'visible')
-                                                .style('top', `${event.pageY + 5}px`)
-                                                .style('left', `${event.pageX + 5}px`)
-                                                .html(`seq_id: ${d.seq_id}<br>group_id: ${d.group_id}<br>COG_ID: ${d.COG_ID || 'NA'}<br>COG_GENE_NAME: ${d.COG_GENE_NAME || 'NA'}<br>KO: ${d.KO || 'NA'}`);
+                                                .style('top', top + 'px')
+                                                .style('left', left + 'px')
+                                                .html(`seq_id: ${d.seq_id}<br>Orthogroup: ${d.Orthogroup || 'NA'}<br>COG_ID: ${d.COG_ID || 'NA'}<br>GENE_NAME: ${d.GENE_NAME || 'NA'}<br>ko_id: ${d.ko_id || 'NA'}<br>ko_description: ${d.ko_description || 'NA'}`);
                                         })
                                         .on('mouseout', function () {
                                             d3.select('#tooltip').style('visibility', 'hidden');
                                         });
 
-                                    // 🏷 OG番号（group_id）を矢印の上に表示
+                                    // note: when center gene was on negative strand we already reversed and negated coordinates
+                                    // so no runtime rotation is necessary here.
+
+                                    // OG label
                                     g.append('text')
                                         .attr('x', geneX + geneWidth / 2)
                                         .attr('y', y + arrowHeight / 2)
@@ -311,13 +408,17 @@
                                         .attr('alignment-baseline', 'middle')
                                         .attr('font-size', 10)
                                         .attr('fill', getTextColor(fillColor))
-                                        .text(`OG${d.group_id}`)
+                                        .text(d.Orthogroup ? `${d.Orthogroup.slice(-4)}` : '')
                                         .on('mouseover', function (event) {
                                             const tooltip = d3.select('#tooltip');
+                                            const svg = document.querySelector('#operonVisualization svg');
+                                            const svgRect = svg.getBoundingClientRect();
+                                            const top = event.clientY + window.scrollY;
+                                            const left = event.clientX - svgRect.left + window.scrollX;
                                             tooltip.style('visibility', 'visible')
-                                                .style('top', `${event.pageY + 5}px`)
-                                                .style('left', `${event.pageX + 5}px`)
-                                                .html(`seq_id: ${d.seq_id}<br>group_id: ${d.group_id}<br>COG_ID: ${d.COG_ID || 'NA'}<br>COG_GENE_NAME: ${d.COG_GENE_NAME || 'NA'}<br>KO: ${d.KO || 'NA'}`);
+                                                .style('top', top + 'px')
+                                                .style('left', left + 'px')
+                                                .html(`seq_id: ${d.seq_id}<br>Orthogroup: ${d.Orthogroup || 'NA'}<br>COG_ID: ${d.COG_ID || 'NA'}<br>GENE_NAME: ${d.GENE_NAME || 'NA'}<br>ko_id: ${d.ko_id || 'NA'}<br>ko_description: ${d.ko_description || 'NA'}`);
                                         })
                                         .on('mouseout', function () {
                                             d3.select('#tooltip').style('visibility', 'hidden');
@@ -330,6 +431,15 @@
                         }).catch(error => {
                             alert('Error loading data: ' + error.message);
                         });
+
+                        // Also re-render on toggle change by retriggering the button if OG is present
+                        const toggle = document.getElementById('lengthModeToggle');
+                        if (toggle) {
+                            toggle.onchange = function () {
+                                const ogVal = document.getElementById('ogInput').value;
+                                if (ogVal) document.getElementById('loadData').click();
+                            };
+                        }
                     });
                 </script>
 

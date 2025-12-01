@@ -1,0 +1,34 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP159816.1	Prodigal:2.6	CDS	264183	265226	.	+	0	Uisw_121_00292	Uisw_121	347	OG0001223	K01620	threonine aldolase [EC:4.1.2.48]	COG2008	GLY1	Threonine aldolase	Uisw_121_00297
+CP159816.1	Prodigal:2.6	CDS	265226	265378	.	+	0	Uisw_121_00293	Uisw_121	50	OG0002345	NA	NA	NA	NA	NA	Uisw_121_00297
+CP159816.1	Prodigal:2.6	CDS	266461	267030	.	-	0	Uisw_121_00294	Uisw_121	189	OG0002243	NA	NA	COG0317	SpoT	(p)ppGpp synthase/hydrolase, HD superfamily	Uisw_121_00297
+CP159816.1	Prodigal:2.6	CDS	267049	267153	.	-	0	Uisw_121_00295	Uisw_121	34	NA	NA	NA	NA	NA	NA	Uisw_121_00297
+CP159816.1	Prodigal:2.6	CDS	267327	268316	.	+	0	Uisw_121_00296	Uisw_121	329	OG0003855	NA	NA	NA	NA	NA	Uisw_121_00297
+CP159816.1	Prodigal:2.6	CDS	268313	269389	.	+	0	Uisw_121_00297	Uisw_121	358	OG0003856	NA	NA	COG1403	McrA	HNH family endonuclease, includes 5-methylcytosine-specific restriction endonuclease McrA	Uisw_121_00297
+CP159816.1	Prodigal:2.6	CDS	269490	269717	.	-	0	Uisw_121_00298	Uisw_121	75	OG0001050	NA	NA	NA	NA	NA	Uisw_121_00297
+CP159816.1	Prodigal:2.6	CDS	269766	270509	.	-	0	Uisw_121_00299	Uisw_121	247	OG0001224	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	Uisw_121_00297
+CP159816.1	Prodigal:2.6	CDS	270532	271032	.	+	0	Uisw_121_00300	Uisw_121	166	OG0001200	K03638	molybdopterin adenylyltransferase [EC:2.7.7.75]	COG0521	MoaB	Molybdopterin adenylyltransferase MoaB/MogA	Uisw_121_00297
+CP159816.1	Prodigal:2.6	CDS	271033	271278	.	-	0	Uisw_121_00301	Uisw_121	81	OG0001206	K09948	uncharacterized protein	COG3492	NA	Uncharacterized conserved protein, DUF1244 family	Uisw_121_00297
+CP159816.1	Prodigal:2.6	CDS	271344	271790	.	-	0	Uisw_121_00302	Uisw_121	148	OG0001203	K03635	molybdopterin synthase catalytic subunit [EC:2.8.1.12]	COG0314	MoaE	Molybdopterin synthase catalytic subunit MoaE	Uisw_121_00297
+HIMB1437-00000000001	Prodigal:2.6	CDS	411104	411559	.	-	0	HIMB1437_00459	HIMB1437	151	OG0000298	K03925	transcriptional regulator MraZ	COG2001	MraZ	MraZ, DNA-binding transcriptional regulator and inhibitor of RsmH methyltransferase activity	HIMB1437_00464
+HIMB1437-00000000001	Prodigal:2.6	CDS	412123	412839	.	-	0	HIMB1437_00460	HIMB1437	238	OG0000622	K01447	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]	COG3023	AmpD	N-acetyl-anhydromuramyl-L-alanine amidase AmpD	HIMB1437_00464
+HIMB1437-00000000001	Prodigal:2.6	CDS	412922	413707	.	+	0	HIMB1437_00461	HIMB1437	261	OG0000395	K04754	phospholipid-binding lipoprotein MlaA	COG2853	MlaA	Outer membrane channel MlaA of the intermembrane phospholipid transporter MlaABCDEF complex	HIMB1437_00464
+HIMB1437-00000000001	Prodigal:2.6	CDS	413718	414308	.	+	0	HIMB1437_00462	HIMB1437	196	OG0000396	K07323	phospholipid transport system substrate-binding protein	COG2854	MlaC	Periplasmic subunit MlaC of the ABC-type intermembrane phospholipid transporter Mla	HIMB1437_00464
+HIMB1437-00000000001	Prodigal:2.6	CDS	414467	415585	.	+	0	HIMB1437_00463	HIMB1437	372	OG0003855	NA	NA	NA	NA	NA	HIMB1437_00464
+HIMB1437-00000000001	Prodigal:2.6	CDS	415582	416706	.	+	0	HIMB1437_00464	HIMB1437	374	OG0003856	NA	NA	COG1403	McrA	HNH family endonuclease, includes 5-methylcytosine-specific restriction endonuclease McrA	HIMB1437_00464
+HIMB1437-00000000001	Aragorn:1.2	tRNA	416817	416893	.	-	.	HIMB1437_00465	HIMB1437	NA	NA	NA	NA	NA	NA	NA	HIMB1437_00464
+HIMB1437-00000000001	Prodigal:2.6	CDS	417168	417263	.	-	0	HIMB1437_00466	HIMB1437	31	OG0001292	NA	NA	NA	NA	NA	HIMB1437_00464
+HIMB1437-00000000001	Prodigal:2.6	CDS	417319	418938	.	+	0	HIMB1437_00467	HIMB1437	539	OG0001462	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1437_00464
+HIMB1437-00000000001	Prodigal:2.6	CDS	418920	419714	.	+	0	HIMB1437_00468	HIMB1437	264	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1437_00464
+HIMB1437-00000000001	Aragorn:1.2	tRNA	419758	419832	.	-	.	HIMB1437_00469	HIMB1437	NA	NA	NA	NA	NA	NA	NA	HIMB1437_00464
+HIMB2226-00000000001	Prodigal:2.6	CDS	419743	421116	.	-	0	HIMB2226_00437	HIMB2226	457	OG0000400	K03667	ATP-dependent HslUV protease ATP-binding subunit HslU	COG1220	HslU	ATP-dependent protease HslVU (ClpYQ), ATPase subunit HslU	HIMB2226_00442
+HIMB2226-00000000001	Prodigal:2.6	CDS	421116	421631	.	-	0	HIMB2226_00438	HIMB2226	171	OG0000379	K01419	ATP-dependent HslUV protease, peptidase subunit HslV [EC:3.4.25.2]	COG5405	HslV	ATP-dependent protease HslVU (ClpYQ), peptidase subunit	HIMB2226_00442
+HIMB2226-00000000001	Prodigal:2.6	CDS	421723	422313	.	+	0	HIMB2226_00439	HIMB2226	196	OG0000237	K01693	imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]	COG0131	HisB2	Imidazoleglycerol phosphate dehydratase HisB	HIMB2226_00442
+HIMB2226-00000000001	Prodigal:2.6	CDS	422319	422945	.	+	0	HIMB2226_00440	HIMB2226	208	OG0000057	K02501	imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	HIMB2226_00442
+HIMB2226-00000000001	Prodigal:2.6	CDS	422972	424033	.	+	0	HIMB2226_00441	HIMB2226	353	OG0003855	NA	NA	NA	NA	NA	HIMB2226_00442
+HIMB2226-00000000001	Prodigal:2.6	CDS	424033	425151	.	+	0	HIMB2226_00442	HIMB2226	372	OG0003856	NA	NA	COG1403	McrA	HNH family endonuclease, includes 5-methylcytosine-specific restriction endonuclease McrA	HIMB2226_00442
+HIMB2226-00000000001	Prodigal:2.6	CDS	425157	425873	.	+	0	HIMB2226_00443	HIMB2226	238	OG0000210	K01814	phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]	COG0106	HisA	Phosphoribosylformimino-5-aminoimidazole carboxamide ribonucleotide (ProFAR) isomerase	HIMB2226_00442
+HIMB2226-00000000001	Prodigal:2.6	CDS	425866	426621	.	+	0	HIMB2226_00444	HIMB2226	251	OG0000053	K02500	imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]	COG0107	HisF	Imidazole glycerol phosphate synthase subunit HisF	HIMB2226_00442
+HIMB2226-00000000001	Prodigal:2.6	CDS	426623	426895	.	+	0	HIMB2226_00445	HIMB2226	90	OG0000185	NA	NA	COG0140	HisI2	Phosphoribosyl-ATP pyrophosphohydrolase	HIMB2226_00442
+HIMB2226-00000000001	Prodigal:2.6	CDS	426892	427257	.	+	0	HIMB2226_00446	HIMB2226	121	OG0000196	K02503	histidine triad (HIT) family protein	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	HIMB2226_00442
+HIMB2226-00000000001	Prodigal:2.6	CDS	427254	427757	.	+	0	HIMB2226_00447	HIMB2226	167	OG0000784	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	HIMB2226_00442

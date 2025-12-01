@@ -1,0 +1,34 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+ATTF01000004.1	Prodigal:2.6	CDS	47383	48027	.	-	0	HIMB058_00321	HIMB058	214	OG0000109	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	HIMB058_00326
+ATTF01000004.1	Prodigal:2.6	CDS	48098	48760	.	+	0	HIMB058_00322	HIMB058	220	OG0000161	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	HIMB058_00326
+ATTF01000004.1	Prodigal:2.6	CDS	48757	49356	.	+	0	HIMB058_00323	HIMB058	199	OG0000077	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	HIMB058_00326
+ATTF01000004.1	Prodigal:2.6	CDS	49397	50293	.	+	0	HIMB058_00324	HIMB058	298	OG0000083	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	HIMB058_00326
+ATTF01000004.1	Prodigal:2.6	CDS	50293	51417	.	+	0	HIMB058_00325	HIMB058	374	OG0000118	K01647	citrate synthase [EC:2.3.3.1]	COG0372	GltA	Citrate synthase	HIMB058_00326
+ATTF01000004.1	Prodigal:2.6	CDS	51417	51605	.	+	0	HIMB058_00326	HIMB058	62	OG0001809	NA	NA	NA	NA	NA	HIMB058_00326
+ATTF01000004.1	Prodigal:2.6	CDS	51592	52443	.	-	0	HIMB058_00327	HIMB058	283	OG0000023	K02001	glycine betaine/proline transport system permease protein	COG4176	ProW	ABC-type proline/glycine betaine transport system, permease component	HIMB058_00326
+ATTF01000004.1	Prodigal:2.6	CDS	52453	53394	.	-	0	HIMB058_00328	HIMB058	313	OG0000994	K02002	glycine betaine/proline transport system substrate-binding protein	COG2113	ProX	ABC-type proline/glycine betaine transport system, periplasmic component	HIMB058_00326
+ATTF01000004.1	Prodigal:2.6	CDS	53466	53915	.	+	0	HIMB058_00329	HIMB058	149	OG0000616	K09823	Fur family transcriptional regulator, zinc uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB058_00326
+ATTF01000004.1	Prodigal:2.6	CDS	53915	54379	.	+	0	HIMB058_00330	HIMB058	154	OG0001618	NA	NA	COG1971	MntP	Putative Mn2+ efflux pump MntP	HIMB058_00326
+ATTF01000004.1	Prodigal:2.6	CDS	54446	55453	.	-	0	HIMB058_00331	HIMB058	335	OG0000546	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	HIMB058_00326
+Ga0197930_11	Prodigal:2.6	CDS	708691	709479	.	-	0	LSUCC0723_00779	LSUCC0723	262	OG0001523	NA	NA	COG1319	CutB	Aldehyde, CO, or xanthine dehydrogenase, FAD-binding subunit	LSUCC0723_00784
+Ga0197930_11	Prodigal:2.6	CDS	709498	711873	.	-	0	LSUCC0723_00780	LSUCC0723	791	OG0001479	K03520	aerobic carbon-monoxide dehydrogenase large subunit [EC:1.2.5.3]	COG1529	CoxL	Aldehyde, CO or xanthine dehydrogenase, Mo-binding subunit	LSUCC0723_00784
+Ga0197930_11	Prodigal:2.6	CDS	711895	712356	.	-	0	LSUCC0723_00781	LSUCC0723	153	OG0001302	K03518	aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3]	COG2080	CutS	Aldehyde, CO, or xanthine dehydrogenase, Fe-S subunit, CoxS/CutS family	LSUCC0723_00784
+Ga0197930_11	Prodigal:2.6	CDS	712439	712996	.	-	0	LSUCC0723_00782	LSUCC0723	185	OG0001522	K09386	uncharacterized protein	COG3427	CoxG	Carbon monoxide dehydrogenase subunit CoxG	LSUCC0723_00784
+Ga0197930_11	Prodigal:2.6	CDS	713019	713264	.	+	0	LSUCC0723_00783	LSUCC0723	81	OG0001206	K09948	uncharacterized protein	COG3492	NA	Uncharacterized conserved protein, DUF1244 family	LSUCC0723_00784
+Ga0197930_11	Prodigal:2.6	CDS	713261	713452	.	+	0	LSUCC0723_00784	LSUCC0723	63	OG0001809	NA	NA	NA	NA	NA	LSUCC0723_00784
+Ga0197930_11	Prodigal:2.6	CDS	713452	714525	.	+	0	LSUCC0723_00785	LSUCC0723	357	OG0001534	K06941	23S rRNA (adenine2503-C2)-methyltransferase [EC:2.1.1.192]	COG0820	RlmN	Adenine C2-methylase RlmN of 23S rRNA A2503 and tRNA A37	LSUCC0723_00784
+Ga0197930_11	Prodigal:2.6	CDS	714508	715485	.	-	0	LSUCC0723_00786	LSUCC0723	325	OG0000938	K09815	zinc transport system substrate-binding protein	COG4531	ZnuA	ABC-type Zn2+ transport system, periplasmic component/surface adhesin ZnuA	LSUCC0723_00784
+Ga0197930_11	Prodigal:2.6	CDS	715553	716302	.	+	0	LSUCC0723_00787	LSUCC0723	249	OG0000948	K09817	zinc transport system ATP-binding protein [EC:7.2.2.20]	COG1121	ZnuC	ABC-type Mn2+/Zn2+ transport system, ATPase component	LSUCC0723_00784
+Ga0197930_11	Prodigal:2.6	CDS	716309	717115	.	+	0	LSUCC0723_00788	LSUCC0723	268	OG0000939	NA	NA	COG1108	ZnuB	ABC-type Mn2+/Zn2+ transport system, permease component	LSUCC0723_00784
+Ga0197930_11	Prodigal:2.6	CDS	717118	717516	.	+	0	LSUCC0723_00789	LSUCC0723	132	OG0000616	K09823	Fur family transcriptional regulator, zinc uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	LSUCC0723_00784
+CP002511.1	Prodigal:2.6	CDS	567373	567735	.	+	0	IMCC9063_00643	IMCC9063	120	OG0000355	NA	NA	NA	NA	NA	IMCC9063_00648
+CP002511.1	Prodigal:2.6	CDS	567765	568133	.	+	0	IMCC9063_00644	IMCC9063	122	OG0000355	NA	NA	COG3705	HisZ	ATP phosphoribosyltransferase regulatory subunit HisZ	IMCC9063_00648
+CP002511.1	Prodigal:2.6	CDS	568135	568803	.	+	0	IMCC9063_00645	IMCC9063	222	OG0000356	K00765	ATP phosphoribosyltransferase [EC:2.4.2.17]	COG0040	HisG	ATP phosphoribosyltransferase	IMCC9063_00648
+CP002511.1	Prodigal:2.6	CDS	568841	569227	.	+	0	IMCC9063_00646	IMCC9063	128	OG0002559	K07136	uncharacterized protein	COG3788	YecN	Uncharacterized membrane protein YecN, MAPEG domain	IMCC9063_00648
+CP002511.1	Prodigal:2.6	CDS	569229	569918	.	-	0	IMCC9063_00647	IMCC9063	229	OG0001983	NA	NA	NA	NA	NA	IMCC9063_00648
+CP002511.1	Prodigal:2.6	CDS	569927	570112	.	-	0	IMCC9063_00648	IMCC9063	61	OG0001809	NA	NA	NA	NA	NA	IMCC9063_00648
+CP002511.1	Prodigal:2.6	CDS	570213	571880	.	-	0	IMCC9063_00649	IMCC9063	555	OG0000155	K04077	chaperonin GroEL [EC:5.6.1.7]	COG0459	GroEL	Chaperonin GroEL (HSP60 family)	IMCC9063_00648
+CP002511.1	Prodigal:2.6	CDS	571908	572198	.	-	0	IMCC9063_00650	IMCC9063	96	OG0000208	K04078	chaperonin GroES	COG0234	GroES	Co-chaperonin GroES (HSP10)	IMCC9063_00648
+CP002511.1	Prodigal:2.6	CDS	572319	573194	.	+	0	IMCC9063_00651	IMCC9063	291	OG0000336	NA	NA	COG0647	NagD	Ribonucleotide monophosphatase NagD, HAD superfamily	IMCC9063_00648
+CP002511.1	Prodigal:2.6	CDS	573185	574087	.	+	0	IMCC9063_00652	IMCC9063	300	OG0000483	K11753	riboflavin kinase / FMN adenylyltransferase [EC:2.7.1.26 2.7.7.2]	COG0196	RibF	FAD synthase	IMCC9063_00648
+CP002511.1	Prodigal:2.6	CDS	574084	576837	.	+	0	IMCC9063_00653	IMCC9063	917	OG0000193	K01870	isoleucyl-tRNA synthetase [EC:6.1.1.5]	COG0060	IleS	Isoleucyl-tRNA synthetase	IMCC9063_00648

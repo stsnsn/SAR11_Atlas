@@ -1,0 +1,34 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+ATTF01000016.1	Prodigal:2.6	CDS	14080	14844	.	-	0	HIMB058_00817	HIMB058	254	OG0000000	K03331	L-xylulose reductase [EC:1.1.1.10]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB058_00822
+ATTF01000016.1	Prodigal:2.6	CDS	14844	15293	.	-	0	HIMB058_00818	HIMB058	149	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB058_00822
+ATTF01000016.1	Prodigal:2.6	CDS	15313	16215	.	+	0	HIMB058_00819	HIMB058	300	OG0000921	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB058_00822
+ATTF01000016.1	Prodigal:2.6	CDS	16205	17113	.	+	0	HIMB058_00820	HIMB058	302	OG0000946	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB058_00822
+ATTF01000016.1	Prodigal:2.6	CDS	17113	17820	.	+	0	HIMB058_00821	HIMB058	235	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB058_00822
+ATTF01000016.1	Prodigal:2.6	CDS	17821	18114	.	-	0	HIMB058_00822	HIMB058	97	OG0001591	NA	NA	COG1359	YgiN	Quinol monooxygenase YgiN	HIMB058_00822
+ATTF01000016.1	Prodigal:2.6	CDS	18117	19121	.	-	0	HIMB058_00823	HIMB058	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB058_00822
+ATTF01000016.1	Prodigal:2.6	CDS	19121	20407	.	-	0	HIMB058_00824	HIMB058	428	OG0000026	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB058_00822
+ATTF01000016.1	Prodigal:2.6	CDS	20397	21731	.	-	0	HIMB058_00825	HIMB058	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB058_00822
+ATTF01000016.1	Prodigal:2.6	CDS	21728	22336	.	-	0	HIMB058_00826	HIMB058	202	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB058_00822
+ATTF01000016.1	Prodigal:2.6	CDS	22407	23501	.	-	0	HIMB058_00827	HIMB058	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB058_00822
+Ga0197930_11	Prodigal:2.6	CDS	654272	655540	.	-	0	LSUCC0723_00708	LSUCC0723	422	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	LSUCC0723_00713
+Ga0197930_11	Prodigal:2.6	CDS	655577	656077	.	-	0	LSUCC0723_00709	LSUCC0723	166	OG0001426	NA	NA	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	LSUCC0723_00713
+Ga0197930_11	Prodigal:2.6	CDS	656124	657113	.	-	0	LSUCC0723_00710	LSUCC0723	329	OG0001135	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	LSUCC0723_00713
+Ga0197930_11	Prodigal:2.6	CDS	657184	658359	.	-	0	LSUCC0723_00711	LSUCC0723	391	OG0001415	K00830	alanine-glyoxylate transaminase / serine-glyoxylate transaminase / serine-pyruvate transaminase [EC:2.6.1.44 2.6.1.45 2.6.1.51]	COG0075	PucG	Archaeal aspartate aminotransferase or a related aminotransferase, includes purine catabolism protein PucG	LSUCC0723_00713
+Ga0197930_11	Prodigal:2.6	CDS	658396	661299	.	+	0	LSUCC0723_00712	LSUCC0723	967	OG0001420	NA	NA	COG0277	GlcD	FAD/FMN-containing lactate dehydrogenase/glycolate oxidase	LSUCC0723_00713
+Ga0197930_11	Prodigal:2.6	CDS	661311	661604	.	-	0	LSUCC0723_00713	LSUCC0723	97	OG0001591	NA	NA	COG2329	HmoA	Heme-degrading monooxygenase HmoA and related ABM domain proteins	LSUCC0723_00713
+Ga0197930_11	Prodigal:2.6	CDS	661604	661930	.	-	0	LSUCC0723_00714	LSUCC0723	108	OG0000456	NA	NA	COG4274	NA	Uncharacterized conserved protein, contains GYD domain	LSUCC0723_00713
+Ga0197930_11	Prodigal:2.6	CDS	662004	662927	.	+	0	LSUCC0723_00715	LSUCC0723	307	OG0002121	NA	NA	NA	NA	NA	LSUCC0723_00713
+Ga0197930_11	Prodigal:2.6	CDS	662934	663908	.	+	0	LSUCC0723_00716	LSUCC0723	324	OG0000060	K00344	NADPH:quinone reductase [EC:1.6.5.5]	COG0604	Qor	NADPH:quinone reductase or related Zn-dependent oxidoreductase	LSUCC0723_00713
+Ga0197930_11	Prodigal:2.6	CDS	663958	664791	.	-	0	LSUCC0723_00717	LSUCC0723	277	OG0000079	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	LSUCC0723_00713
+Ga0197930_11	Prodigal:2.6	CDS	664793	665758	.	-	0	LSUCC0723_00718	LSUCC0723	321	OG0000189	K05539	tRNA-dihydrouridine synthase A [EC:1.-.-.-]	COG0042	DusA	tRNA-dihydrouridine synthase	LSUCC0723_00713
+CP002511.1	Prodigal:2.6	CDS	1156340	1156924	.	-	0	IMCC9063_01315	IMCC9063	194	OG0003541	NA	NA	NA	NA	NA	IMCC9063_01320
+CP002511.1	Prodigal:2.6	CDS	1156890	1157459	.	-	0	IMCC9063_01316	IMCC9063	189	OG0001215	NA	NA	NA	NA	NA	IMCC9063_01320
+CP002511.1	Prodigal:2.6	CDS	1157512	1159125	.	-	0	IMCC9063_01317	IMCC9063	537	OG0001843	K03321	sulfate permease, SulP family	COG0659	SUL1	Sulfate permease or related transporter, MFS superfamily, contains STAS domain	IMCC9063_01320
+CP002511.1	Prodigal:2.6	CDS	1159236	1159418	.	-	0	IMCC9063_01318	IMCC9063	60	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	IMCC9063_01320
+CP002511.1	Prodigal:2.6	CDS	1159366	1159743	.	-	0	IMCC9063_01319	IMCC9063	125	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	IMCC9063_01320
+CP002511.1	Prodigal:2.6	CDS	1159749	1160042	.	-	0	IMCC9063_01320	IMCC9063	97	OG0001591	NA	NA	NA	NA	NA	IMCC9063_01320
+CP002511.1	Prodigal:2.6	CDS	1160136	1161104	.	+	0	IMCC9063_01321	IMCC9063	322	OG0002121	NA	NA	COG3366	NA	Uncharacterized membrane protein	IMCC9063_01320
+CP002511.1	Prodigal:2.6	CDS	1161134	1162108	.	+	0	IMCC9063_01322	IMCC9063	324	OG0000060	K00344	NADPH:quinone reductase [EC:1.6.5.5]	COG0604	Qor	NADPH:quinone reductase or related Zn-dependent oxidoreductase	IMCC9063_01320
+CP002511.1	Prodigal:2.6	CDS	1162139	1163458	.	-	0	IMCC9063_01323	IMCC9063	439	OG0000192	K01465	dihydroorotase [EC:3.5.2.3]	COG0044	AllB	Dihydroorotase or related cyclic amidohydrolase	IMCC9063_01320
+CP002511.1	Prodigal:2.6	CDS	1163494	1164390	.	+	0	IMCC9063_01324	IMCC9063	298	OG0000621	NA	NA	COG0354	YgfZ	Folate-binding protein YgfZ, synthesis and repair of Fe-S clusters, tRNA thiomethylation	IMCC9063_01320
+CP002511.1	Prodigal:2.6	CDS	1164401	1164778	.	-	0	IMCC9063_01325	IMCC9063	125	OG0002172	K01607	4-carboxymuconolactone decarboxylase [EC:4.1.1.44]	COG0599	YurZ	Uncharacterized conserved protein YurZ, alkylhydroperoxidase/carboxymuconolactone decarboxylase family	IMCC9063_01320

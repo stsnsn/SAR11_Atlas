@@ -7,7 +7,7 @@ document.getElementById('downloadData').addEventListener('click', () => {
 // OG入力欄の初期値を設定（空ならOG1をセット）
 const ogInputEl = document.getElementById('ogInput');
 if (ogInputEl && !ogInputEl.value.trim()) {
-    ogInputEl.value = 'OG1';
+    ogInputEl.value = 'OG0000000';
 }
 
 // Reset the user plot
@@ -66,7 +66,7 @@ const updateCircles = (csvFilePath) => {
             data.forEach(row => {
                 const lat = parseFloat(row.Latitude);
                 const lon = parseFloat(row.Longitude);
-                const tpm = parseFloat(row.TPM);
+                const tpm = parseFloat(row.sumTPM);
 
                 if (!isNaN(lat) && !isNaN(lon) && tpm > 0) {
                     // radiusはピクセル単位に変更
@@ -78,8 +78,8 @@ const updateCircles = (csvFilePath) => {
                         fillOpacity: 0.5,
                         radius: radius // TPMに基づいて円のサイズを設定
                     }).addTo(map).bindPopup(`
-                        <b>ENA_Run_ID:</b> ${row.sample || 'Unknown'}<br>
-                        <b>TPM:</b> ${tpm.toFixed(2)}<br>
+                        <b>sample_id:</b> ${row.sample || 'Unknown'}<br>
+                        <b>sumTPM:</b> ${tpm.toFixed(2)}<br>
                         <b>Depth:</b> ${row.Depth || 'Unknown'}<br>
                         <b>Temperature:</b> ${row.Temperature || 'Unknown'}<br>
                     `);
@@ -96,7 +96,7 @@ const updateCircles = (csvFilePath) => {
 };
 
 // 初期表示
-const initialCsvFile = '../data/env_corr/OG1.csv';
+const initialCsvFile = '../data/env_corr/OG0000000.csv';
 updateCircles(initialCsvFile);
 
 // 凡例の追加
@@ -106,7 +106,7 @@ const addLegend = () => {
     legend.onAdd = function () {
         const div = L.DomUtil.create('div', 'info legend');
         const grades = [10, 100, 1000, 10000, 100000]; // Define the TPM breakpoints
-        div.innerHTML += '<b>TPM</b><br>';
+        div.innerHTML += '<b>Expression Score</b><br>';
 
         // Loop through the grades to create the circles with appropriate sizes
         grades.forEach((grade, index) => {
@@ -173,7 +173,7 @@ const calculatePearsonCorrelation = (x, y) => {
 // Update plots
 const updatePlots = (data) => {
     const temperature = data.map(row => parseFloat(row.Temperature)).filter(val => !isNaN(val));
-    const tpm = data.map(row => parseFloat(row.TPM)).filter(val => !isNaN(val));
+    const tpm = data.map(row => parseFloat(row.sumTPM)).filter(val => !isNaN(val));
     const salinity = data.map(row => parseFloat(row.Salinity)).filter(val => !isNaN(val));
     const depth = data.map(row => parseFloat(row.Depth)).filter(val => !isNaN(val));
     const oxygen = data.map(row => parseFloat(row.Oxygen)).filter(val => !isNaN(val));
@@ -245,7 +245,7 @@ document.getElementById('updateUserPlot').addEventListener('click', () => {
 
                 // 指定されたパラメータとTPMデータを抽出
                 const paramData = data.map(row => parseFloat(row[userParam])).filter(val => !isNaN(val));
-                const tpm = data.map(row => parseFloat(row.TPM)).filter(val => !isNaN(val));
+                const tpm = data.map(row => parseFloat(row.sumTPM)).filter(val => !isNaN(val));
 
                 // ピアソン相関係数を計算
                 const correlation = calculatePearsonCorrelation(paramData, tpm);

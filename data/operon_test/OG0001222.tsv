@@ -1,0 +1,832 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP038852.1	Prodigal:2.6	CDS	278994	279554	.	-	0	NP1_00327	NP1	186	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	NP1_00332
+CP038852.1	Prodigal:2.6	CDS	279557	280237	.	+	0	NP1_00328	NP1	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	NP1_00332
+CP038852.1	Prodigal:2.6	CDS	280227	280649	.	-	0	NP1_00329	NP1	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	NP1_00332
+CP038852.1	Prodigal:2.6	CDS	280708	280845	.	+	0	NP1_00330	NP1	45	OG0001116	NA	NA	NA	NA	NA	NP1_00332
+CP038852.1	Prodigal:2.6	CDS	280848	281495	.	-	0	NP1_00331	NP1	215	OG0000954	NA	NA	NA	NA	NA	NP1_00332
+CP038852.1	Prodigal:2.6	CDS	281586	281705	.	+	0	NP1_00332	NP1	39	OG0001222	NA	NA	NA	NA	NA	NP1_00332
+CP038852.1	Prodigal:2.6	CDS	281695	282441	.	-	0	NP1_00333	NP1	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	NP1_00332
+CP038852.1	Prodigal:2.6	CDS	282446	283903	.	-	0	NP1_00334	NP1	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	NP1_00332
+CP038852.1	Prodigal:2.6	CDS	283975	284865	.	+	0	NP1_00335	NP1	296	OG0001729	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	NP1_00332
+CP038852.1	Prodigal:2.6	CDS	284874	286199	.	-	0	NP1_00336	NP1	441	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	NP1_00332
+CP038852.1	Prodigal:2.6	CDS	286199	286858	.	-	0	NP1_00337	NP1	219	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	NP1_00332
+CP159811.1	Prodigal:2.6	CDS	720263	720814	.	-	0	Uisw_137_00802	Uisw_137	183	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	Uisw_137_00807
+CP159811.1	Prodigal:2.6	CDS	720817	721491	.	+	0	Uisw_137_00803	Uisw_137	224	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	Uisw_137_00807
+CP159811.1	Prodigal:2.6	CDS	721484	721909	.	-	0	Uisw_137_00804	Uisw_137	141	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	Uisw_137_00807
+CP159811.1	Prodigal:2.6	CDS	721967	722104	.	+	0	Uisw_137_00805	Uisw_137	45	OG0001116	NA	NA	NA	NA	NA	Uisw_137_00807
+CP159811.1	Prodigal:2.6	CDS	722107	722748	.	-	0	Uisw_137_00806	Uisw_137	213	OG0000954	NA	NA	NA	NA	NA	Uisw_137_00807
+CP159811.1	Prodigal:2.6	CDS	722841	722960	.	+	0	Uisw_137_00807	Uisw_137	39	OG0001222	NA	NA	NA	NA	NA	Uisw_137_00807
+CP159811.1	Prodigal:2.6	CDS	722950	723696	.	-	0	Uisw_137_00808	Uisw_137	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_137_00807
+CP159811.1	Prodigal:2.6	CDS	723701	725158	.	-	0	Uisw_137_00809	Uisw_137	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_137_00807
+CP159811.1	Prodigal:2.6	CDS	725184	726518	.	-	0	Uisw_137_00810	Uisw_137	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_137_00807
+CP159811.1	Prodigal:2.6	CDS	726518	727165	.	-	0	Uisw_137_00811	Uisw_137	215	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_137_00807
+CP159811.1	Prodigal:2.6	CDS	727236	728330	.	-	0	Uisw_137_00812	Uisw_137	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	Uisw_137_00807
+CP159819.1	Prodigal:2.6	CDS	490159	490818	.	+	0	Uisw_106_00529	Uisw_106	219	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_106_00534
+CP159819.1	Prodigal:2.6	CDS	490809	492143	.	+	0	Uisw_106_00530	Uisw_106	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_106_00534
+CP159819.1	Prodigal:2.6	CDS	492147	493037	.	-	0	Uisw_106_00531	Uisw_106	296	OG0001729	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_106_00534
+CP159819.1	Prodigal:2.6	CDS	493109	494566	.	+	0	Uisw_106_00532	Uisw_106	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_106_00534
+CP159819.1	Prodigal:2.6	CDS	494571	495317	.	+	0	Uisw_106_00533	Uisw_106	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_106_00534
+CP159819.1	Prodigal:2.6	CDS	495307	495426	.	-	0	Uisw_106_00534	Uisw_106	39	OG0001222	NA	NA	NA	NA	NA	Uisw_106_00534
+CP159819.1	Prodigal:2.6	CDS	495519	496166	.	+	0	Uisw_106_00535	Uisw_106	215	OG0000954	NA	NA	NA	NA	NA	Uisw_106_00534
+CP159819.1	Prodigal:2.6	CDS	496169	496306	.	-	0	Uisw_106_00536	Uisw_106	45	OG0001116	NA	NA	NA	NA	NA	Uisw_106_00534
+CP159819.1	Prodigal:2.6	CDS	496365	496787	.	+	0	Uisw_106_00537	Uisw_106	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	Uisw_106_00534
+CP159819.1	Prodigal:2.6	CDS	496777	497457	.	-	0	Uisw_106_00538	Uisw_106	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	Uisw_106_00534
+CP159819.1	Prodigal:2.6	CDS	497460	498020	.	+	0	Uisw_106_00539	Uisw_106	186	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	Uisw_106_00534
+CP159823.1	Prodigal:2.6	CDS	540077	540736	.	+	0	Uisw_094_00582	Uisw_094	219	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_094_00587
+CP159823.1	Prodigal:2.6	CDS	540727	542061	.	+	0	Uisw_094_00583	Uisw_094	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_094_00587
+CP159823.1	Prodigal:2.6	CDS	542066	542956	.	-	0	Uisw_094_00584	Uisw_094	296	OG0001729	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_094_00587
+CP159823.1	Prodigal:2.6	CDS	543028	544485	.	+	0	Uisw_094_00585	Uisw_094	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_094_00587
+CP159823.1	Prodigal:2.6	CDS	544490	545236	.	+	0	Uisw_094_00586	Uisw_094	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_094_00587
+CP159823.1	Prodigal:2.6	CDS	545226	545345	.	-	0	Uisw_094_00587	Uisw_094	39	OG0001222	NA	NA	NA	NA	NA	Uisw_094_00587
+CP159823.1	Prodigal:2.6	CDS	545437	546084	.	+	0	Uisw_094_00588	Uisw_094	215	OG0000954	NA	NA	NA	NA	NA	Uisw_094_00587
+CP159823.1	Prodigal:2.6	CDS	546087	546224	.	-	0	Uisw_094_00589	Uisw_094	45	OG0001116	NA	NA	NA	NA	NA	Uisw_094_00587
+CP159823.1	Prodigal:2.6	CDS	546283	546705	.	+	0	Uisw_094_00590	Uisw_094	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	Uisw_094_00587
+CP159823.1	Prodigal:2.6	CDS	546940	547374	.	-	0	Uisw_094_00591	Uisw_094	144	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	Uisw_094_00587
+CP159823.1	Prodigal:2.6	CDS	547377	547937	.	+	0	Uisw_094_00592	Uisw_094	186	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	Uisw_094_00587
+CP159812.1	Prodigal:2.6	CDS	493436	494095	.	+	0	Uisw_136_00520	Uisw_136	219	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_136_00525
+CP159812.1	Prodigal:2.6	CDS	494095	495420	.	+	0	Uisw_136_00521	Uisw_136	441	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_136_00525
+CP159812.1	Prodigal:2.6	CDS	495425	496315	.	-	0	Uisw_136_00522	Uisw_136	296	OG0001729	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_136_00525
+CP159812.1	Prodigal:2.6	CDS	496387	497844	.	+	0	Uisw_136_00523	Uisw_136	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_136_00525
+CP159812.1	Prodigal:2.6	CDS	497849	498595	.	+	0	Uisw_136_00524	Uisw_136	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_136_00525
+CP159812.1	Prodigal:2.6	CDS	498585	498704	.	-	0	Uisw_136_00525	Uisw_136	39	OG0001222	NA	NA	NA	NA	NA	Uisw_136_00525
+CP159812.1	Prodigal:2.6	CDS	498795	499439	.	+	0	Uisw_136_00526	Uisw_136	214	OG0000954	NA	NA	NA	NA	NA	Uisw_136_00525
+CP159812.1	Prodigal:2.6	CDS	499442	499579	.	-	0	Uisw_136_00527	Uisw_136	45	OG0001116	NA	NA	NA	NA	NA	Uisw_136_00525
+CP159812.1	Prodigal:2.6	CDS	499638	500060	.	+	0	Uisw_136_00528	Uisw_136	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	Uisw_136_00525
+CP159812.1	Prodigal:2.6	CDS	500050	500748	.	-	0	Uisw_136_00529	Uisw_136	232	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	Uisw_136_00525
+CP159812.1	Prodigal:2.6	CDS	500749	501969	.	+	0	Uisw_136_00530	Uisw_136	406	OG0001408	NA	NA	NA	NA	NA	Uisw_136_00525
+CP159817.1	Prodigal:2.6	CDS	424785	425432	.	+	0	Uisw_116_00475	Uisw_116	215	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_116_00480
+CP159817.1	Prodigal:2.6	CDS	425432	426766	.	+	0	Uisw_116_00476	Uisw_116	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_116_00480
+CP159817.1	Prodigal:2.6	CDS	426792	428003	.	+	0	Uisw_116_00477	Uisw_116	403	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_116_00480
+CP159817.1	Prodigal:2.6	CDS	428000	428248	.	+	0	Uisw_116_00478	Uisw_116	82	OG0000891	NA	NA	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_116_00480
+CP159817.1	Prodigal:2.6	CDS	428253	428999	.	+	0	Uisw_116_00479	Uisw_116	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_116_00480
+CP159817.1	Prodigal:2.6	CDS	428989	429111	.	-	0	Uisw_116_00480	Uisw_116	40	OG0001222	NA	NA	NA	NA	NA	Uisw_116_00480
+CP159817.1	Prodigal:2.6	CDS	429200	429844	.	+	0	Uisw_116_00481	Uisw_116	214	OG0000954	NA	NA	NA	NA	NA	Uisw_116_00480
+CP159817.1	Prodigal:2.6	CDS	429847	429984	.	-	0	Uisw_116_00482	Uisw_116	45	OG0001116	NA	NA	NA	NA	NA	Uisw_116_00480
+CP159817.1	Prodigal:2.6	CDS	430043	430465	.	+	0	Uisw_116_00483	Uisw_116	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	Uisw_116_00480
+CP159817.1	Prodigal:2.6	CDS	430498	431055	.	+	0	Uisw_116_00484	Uisw_116	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	Uisw_116_00480
+CP159817.1	Prodigal:2.6	CDS	431060	431599	.	-	0	Uisw_116_00485	Uisw_116	179	OG0001757	NA	NA	COG3128	PiuC	Predicted 2-oxoglutarate- and Fe(II)-dependent dioxygenase YbiX	Uisw_116_00480
+CP159816.1	Prodigal:2.6	CDS	468928	470022	.	+	0	Uisw_121_00487	Uisw_121	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	Uisw_121_00492
+CP159816.1	Prodigal:2.6	CDS	470095	470742	.	+	0	Uisw_121_00488	Uisw_121	215	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_121_00492
+CP159816.1	Prodigal:2.6	CDS	470742	472076	.	+	0	Uisw_121_00489	Uisw_121	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_121_00492
+CP159816.1	Prodigal:2.6	CDS	472102	473559	.	+	0	Uisw_121_00490	Uisw_121	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_121_00492
+CP159816.1	Prodigal:2.6	CDS	473564	474310	.	+	0	Uisw_121_00491	Uisw_121	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_121_00492
+CP159816.1	Prodigal:2.6	CDS	474300	474419	.	-	0	Uisw_121_00492	Uisw_121	39	OG0001222	NA	NA	NA	NA	NA	Uisw_121_00492
+CP159816.1	Prodigal:2.6	CDS	474511	475155	.	+	0	Uisw_121_00493	Uisw_121	214	OG0000954	NA	NA	NA	NA	NA	Uisw_121_00492
+CP159816.1	Prodigal:2.6	CDS	475158	475295	.	-	0	Uisw_121_00494	Uisw_121	45	OG0001116	NA	NA	NA	NA	NA	Uisw_121_00492
+CP159816.1	Prodigal:2.6	CDS	475354	475776	.	+	0	Uisw_121_00495	Uisw_121	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	Uisw_121_00492
+CP159816.1	Prodigal:2.6	CDS	475809	476366	.	+	0	Uisw_121_00496	Uisw_121	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	Uisw_121_00492
+CP159816.1	Prodigal:2.6	CDS	476493	476909	.	-	0	Uisw_121_00497	Uisw_121	138	OG0001757	NA	NA	NA	NA	NA	Uisw_121_00492
+CP159818.1	Prodigal:2.6	CDS	513344	514003	.	+	0	Uisw_114_00597	Uisw_114	219	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_114_00602
+CP159818.1	Prodigal:2.6	CDS	513994	515328	.	+	0	Uisw_114_00598	Uisw_114	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_114_00602
+CP159818.1	Prodigal:2.6	CDS	515333	516223	.	-	0	Uisw_114_00599	Uisw_114	296	OG0001729	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_114_00602
+CP159818.1	Prodigal:2.6	CDS	516340	517752	.	+	0	Uisw_114_00600	Uisw_114	470	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_114_00602
+CP159818.1	Prodigal:2.6	CDS	517757	518503	.	+	0	Uisw_114_00601	Uisw_114	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_114_00602
+CP159818.1	Prodigal:2.6	CDS	518493	518612	.	-	0	Uisw_114_00602	Uisw_114	39	OG0001222	NA	NA	NA	NA	NA	Uisw_114_00602
+CP159818.1	Prodigal:2.6	CDS	518703	519347	.	+	0	Uisw_114_00603	Uisw_114	214	OG0000954	NA	NA	NA	NA	NA	Uisw_114_00602
+CP159818.1	Prodigal:2.6	CDS	519547	519969	.	+	0	Uisw_114_00604	Uisw_114	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	Uisw_114_00602
+CP159818.1	Prodigal:2.6	CDS	519959	520639	.	-	0	Uisw_114_00605	Uisw_114	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	Uisw_114_00602
+CP159818.1	Prodigal:2.6	CDS	520642	520872	.	+	0	Uisw_114_00606	Uisw_114	76	OG0000735	NA	NA	NA	NA	NA	Uisw_114_00602
+CP159818.1	Prodigal:2.6	CDS	521094	521183	.	-	0	Uisw_114_00607	Uisw_114	29	NA	NA	NA	NA	NA	NA	Uisw_114_00602
+CP159814.1	Prodigal:2.6	CDS	495913	496572	.	+	0	Uisw_130_00531	Uisw_130	219	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_130_00536
+CP159814.1	Prodigal:2.6	CDS	496563	497897	.	+	0	Uisw_130_00532	Uisw_130	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_130_00536
+CP159814.1	Prodigal:2.6	CDS	497902	498792	.	-	0	Uisw_130_00533	Uisw_130	296	OG0001729	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_130_00536
+CP159814.1	Prodigal:2.6	CDS	498864	500321	.	+	0	Uisw_130_00534	Uisw_130	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_130_00536
+CP159814.1	Prodigal:2.6	CDS	500326	501072	.	+	0	Uisw_130_00535	Uisw_130	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_130_00536
+CP159814.1	Prodigal:2.6	CDS	501062	501181	.	-	0	Uisw_130_00536	Uisw_130	39	OG0001222	NA	NA	NA	NA	NA	Uisw_130_00536
+CP159814.1	Prodigal:2.6	CDS	501272	501919	.	+	0	Uisw_130_00537	Uisw_130	215	OG0000954	NA	NA	NA	NA	NA	Uisw_130_00536
+CP159814.1	Prodigal:2.6	CDS	501925	502062	.	-	0	Uisw_130_00538	Uisw_130	45	OG0001116	NA	NA	NA	NA	NA	Uisw_130_00536
+CP159814.1	Prodigal:2.6	CDS	502118	502540	.	+	0	Uisw_130_00539	Uisw_130	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	Uisw_130_00536
+CP159814.1	Prodigal:2.6	CDS	502530	503210	.	-	0	Uisw_130_00540	Uisw_130	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	Uisw_130_00536
+CP159814.1	Prodigal:2.6	CDS	503213	503773	.	+	0	Uisw_130_00541	Uisw_130	186	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	Uisw_130_00536
+NZ_LANA01000002.1	Prodigal:2.6	CDS	438062	438496	.	+	0	HTCC9565_01296	HTCC9565	144	OG0001167	NA	NA	NA	NA	NA	HTCC9565_01301
+NZ_LANA01000002.1	Prodigal:2.6	CDS	438493	438639	.	-	0	HTCC9565_01297	HTCC9565	48	OG0001140	NA	NA	NA	NA	NA	HTCC9565_01301
+NZ_LANA01000002.1	Prodigal:2.6	CDS	438686	439360	.	+	0	HTCC9565_01298	HTCC9565	224	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HTCC9565_01301
+NZ_LANA01000002.1	Prodigal:2.6	CDS	439357	439782	.	-	0	HTCC9565_01299	HTCC9565	141	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HTCC9565_01301
+NZ_LANA01000002.1	Prodigal:2.6	CDS	439978	440622	.	-	0	HTCC9565_01300	HTCC9565	214	OG0000954	NA	NA	NA	NA	NA	HTCC9565_01301
+NZ_LANA01000002.1	Prodigal:2.6	CDS	440714	440833	.	+	0	HTCC9565_01301	HTCC9565	39	OG0001222	NA	NA	NA	NA	NA	HTCC9565_01301
+NZ_LANA01000002.1	Prodigal:2.6	CDS	440823	441569	.	-	0	HTCC9565_01302	HTCC9565	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HTCC9565_01301
+NZ_LANA01000002.1	Prodigal:2.6	CDS	441574	443031	.	-	0	HTCC9565_01303	HTCC9565	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HTCC9565_01301
+NZ_LANA01000002.1	Prodigal:2.6	CDS	443057	444391	.	-	0	HTCC9565_01304	HTCC9565	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HTCC9565_01301
+NZ_LANA01000002.1	Prodigal:2.6	CDS	444391	445038	.	-	0	HTCC9565_01305	HTCC9565	215	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HTCC9565_01301
+NZ_LANA01000002.1	Prodigal:2.6	CDS	445110	446207	.	-	0	HTCC9565_01306	HTCC9565	365	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HTCC9565_01301
+CP159813.1	Prodigal:2.6	CDS	683449	683883	.	+	0	Uisw_134_02_00767	Uisw_134_02	144	OG0001167	NA	NA	NA	NA	NA	Uisw_134_02_00772
+CP159813.1	Prodigal:2.6	CDS	683880	684026	.	-	0	Uisw_134_02_00768	Uisw_134_02	48	OG0001140	NA	NA	NA	NA	NA	Uisw_134_02_00772
+CP159813.1	Prodigal:2.6	CDS	684073	684747	.	+	0	Uisw_134_02_00769	Uisw_134_02	224	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	Uisw_134_02_00772
+CP159813.1	Prodigal:2.6	CDS	684744	685166	.	-	0	Uisw_134_02_00770	Uisw_134_02	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	Uisw_134_02_00772
+CP159813.1	Prodigal:2.6	CDS	685365	686009	.	-	0	Uisw_134_02_00771	Uisw_134_02	214	OG0000954	NA	NA	NA	NA	NA	Uisw_134_02_00772
+CP159813.1	Prodigal:2.6	CDS	686101	686220	.	+	0	Uisw_134_02_00772	Uisw_134_02	39	OG0001222	NA	NA	NA	NA	NA	Uisw_134_02_00772
+CP159813.1	Prodigal:2.6	CDS	686210	686956	.	-	0	Uisw_134_02_00773	Uisw_134_02	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_134_02_00772
+CP159813.1	Prodigal:2.6	CDS	686961	688418	.	-	0	Uisw_134_02_00774	Uisw_134_02	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_134_02_00772
+CP159813.1	Prodigal:2.6	CDS	688444	689778	.	-	0	Uisw_134_02_00775	Uisw_134_02	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	Uisw_134_02_00772
+CP159813.1	Prodigal:2.6	CDS	689778	690425	.	-	0	Uisw_134_02_00776	Uisw_134_02	215	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	Uisw_134_02_00772
+CP159813.1	Prodigal:2.6	CDS	690500	691594	.	-	0	Uisw_134_02_00777	Uisw_134_02	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	Uisw_134_02_00772
+DS995298.1	Prodigal:2.6	CDS	1090217	1090345	.	-	0	HTCC7211_01191	HTCC7211	42	OG0001140	NA	NA	NA	NA	NA	HTCC7211_01196
+DS995298.1	Prodigal:2.6	CDS	1090357	1090911	.	-	0	HTCC7211_01192	HTCC7211	184	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HTCC7211_01196
+DS995298.1	Prodigal:2.6	CDS	1090914	1091594	.	+	0	HTCC7211_01193	HTCC7211	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HTCC7211_01196
+DS995298.1	Prodigal:2.6	CDS	1091584	1092006	.	-	0	HTCC7211_01194	HTCC7211	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HTCC7211_01196
+DS995298.1	Prodigal:2.6	CDS	1092054	1092704	.	-	0	HTCC7211_01195	HTCC7211	216	OG0000954	NA	NA	NA	NA	NA	HTCC7211_01196
+DS995298.1	Prodigal:2.6	CDS	1092795	1092932	.	+	0	HTCC7211_01196	HTCC7211	45	OG0001222	NA	NA	NA	NA	NA	HTCC7211_01196
+DS995298.1	Prodigal:2.6	CDS	1092922	1093668	.	-	0	HTCC7211_01197	HTCC7211	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HTCC7211_01196
+DS995298.1	Prodigal:2.6	CDS	1093673	1095187	.	-	0	HTCC7211_01198	HTCC7211	504	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HTCC7211_01196
+DS995298.1	Prodigal:2.6	CDS	1095157	1096491	.	-	0	HTCC7211_01199	HTCC7211	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HTCC7211_01196
+DS995298.1	Prodigal:2.6	CDS	1096492	1097130	.	-	0	HTCC7211_01200	HTCC7211	212	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HTCC7211_01196
+DS995298.1	Prodigal:2.6	CDS	1097198	1098313	.	-	0	HTCC7211_01201	HTCC7211	371	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HTCC7211_01196
+HIMB2201-00000000001	Prodigal:2.6	CDS	250488	251582	.	+	0	HIMB2201_00271	HIMB2201	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB2201_00276
+HIMB2201-00000000001	Prodigal:2.6	CDS	251652	252266	.	+	0	HIMB2201_00272	HIMB2201	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB2201_00276
+HIMB2201-00000000001	Prodigal:2.6	CDS	252263	253597	.	+	0	HIMB2201_00273	HIMB2201	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB2201_00276
+HIMB2201-00000000001	Prodigal:2.6	CDS	253623	255080	.	+	0	HIMB2201_00274	HIMB2201	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB2201_00276
+HIMB2201-00000000001	Prodigal:2.6	CDS	255086	255832	.	+	0	HIMB2201_00275	HIMB2201	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2201_00276
+HIMB2201-00000000001	Prodigal:2.6	CDS	255835	255936	.	-	0	HIMB2201_00276	HIMB2201	33	OG0001222	NA	NA	NA	NA	NA	HIMB2201_00276
+HIMB2201-00000000001	Prodigal:2.6	CDS	256047	256697	.	+	0	HIMB2201_00277	HIMB2201	216	OG0000954	NA	NA	NA	NA	NA	HIMB2201_00276
+HIMB2201-00000000001	Prodigal:2.6	CDS	256701	256838	.	-	0	HIMB2201_00278	HIMB2201	45	OG0001116	NA	NA	NA	NA	NA	HIMB2201_00276
+HIMB2201-00000000001	Prodigal:2.6	CDS	256896	257309	.	+	0	HIMB2201_00279	HIMB2201	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB2201_00276
+HIMB2201-00000000001	Prodigal:2.6	CDS	257299	257979	.	-	0	HIMB2201_00280	HIMB2201	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB2201_00276
+HIMB2201-00000000001	Prodigal:2.6	CDS	257982	258539	.	+	0	HIMB2201_00281	HIMB2201	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB2201_00276
+HIMB123-00000000005	Prodigal:2.6	CDS	29994	31088	.	+	0	HIMB123_00256	HIMB123	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB123_00261
+HIMB123-00000000005	Prodigal:2.6	CDS	31154	31768	.	+	0	HIMB123_00257	HIMB123	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB123_00261
+HIMB123-00000000005	Prodigal:2.6	CDS	31765	32856	.	+	0	HIMB123_00258	HIMB123	363	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB123_00261
+HIMB123-00000000005	Prodigal:2.6	CDS	33126	34583	.	+	0	HIMB123_00259	HIMB123	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB123_00261
+HIMB123-00000000005	Prodigal:2.6	CDS	34585	35589	.	+	0	HIMB123_00260	HIMB123	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB123_00261
+HIMB123-00000000005	Prodigal:2.6	CDS	35573	35722	.	-	0	HIMB123_00261	HIMB123	49	OG0001222	NA	NA	NA	NA	NA	HIMB123_00261
+HIMB123-00000000005	Prodigal:2.6	CDS	35803	36453	.	+	0	HIMB123_00262	HIMB123	216	OG0000954	NA	NA	NA	NA	NA	HIMB123_00261
+HIMB123-00000000005	Prodigal:2.6	CDS	36454	36594	.	-	0	HIMB123_00263	HIMB123	46	OG0001116	NA	NA	NA	NA	NA	HIMB123_00261
+HIMB123-00000000005	Prodigal:2.6	CDS	36652	37065	.	+	0	HIMB123_00264	HIMB123	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB123_00261
+HIMB123-00000000005	Prodigal:2.6	CDS	37055	37735	.	-	0	HIMB123_00265	HIMB123	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB123_00261
+HIMB123-00000000005	Prodigal:2.6	CDS	37738	38295	.	+	0	HIMB123_00266	HIMB123	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB123_00261
+HIMB1413-00000000001	Prodigal:2.6	CDS	607921	608058	.	-	0	HIMB1413_00664	HIMB1413	45	OG0001140	NA	NA	NA	NA	NA	HIMB1413_00669
+HIMB1413-00000000001	Prodigal:2.6	CDS	608070	608627	.	-	0	HIMB1413_00665	HIMB1413	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1413_00669
+HIMB1413-00000000001	Prodigal:2.6	CDS	608630	609310	.	+	0	HIMB1413_00666	HIMB1413	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1413_00669
+HIMB1413-00000000001	Prodigal:2.6	CDS	609300	609713	.	-	0	HIMB1413_00667	HIMB1413	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1413_00669
+HIMB1413-00000000001	Prodigal:2.6	CDS	609912	610562	.	-	0	HIMB1413_00668	HIMB1413	216	OG0000954	NA	NA	NA	NA	NA	HIMB1413_00669
+HIMB1413-00000000001	Prodigal:2.6	CDS	610652	610774	.	+	0	HIMB1413_00669	HIMB1413	40	OG0001222	NA	NA	NA	NA	NA	HIMB1413_00669
+HIMB1413-00000000001	Prodigal:2.6	CDS	610777	611523	.	-	0	HIMB1413_00670	HIMB1413	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1413_00669
+HIMB1413-00000000001	Prodigal:2.6	CDS	611529	612986	.	-	0	HIMB1413_00671	HIMB1413	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1413_00669
+HIMB1413-00000000001	Prodigal:2.6	CDS	613012	614346	.	-	0	HIMB1413_00672	HIMB1413	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1413_00669
+HIMB1413-00000000001	Prodigal:2.6	CDS	614343	614957	.	-	0	HIMB1413_00673	HIMB1413	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1413_00669
+HIMB1413-00000000001	Prodigal:2.6	CDS	615026	616120	.	-	0	HIMB1413_00674	HIMB1413	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1413_00669
+HIMB2250-00000000001	Prodigal:2.6	CDS	459071	460165	.	+	0	HIMB2250_00478	HIMB2250	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB2250_00483
+HIMB2250-00000000001	Prodigal:2.6	CDS	460234	460848	.	+	0	HIMB2250_00479	HIMB2250	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB2250_00483
+HIMB2250-00000000001	Prodigal:2.6	CDS	460845	462179	.	+	0	HIMB2250_00480	HIMB2250	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB2250_00483
+HIMB2250-00000000001	Prodigal:2.6	CDS	462205	463662	.	+	0	HIMB2250_00481	HIMB2250	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB2250_00483
+HIMB2250-00000000001	Prodigal:2.6	CDS	463669	464415	.	+	0	HIMB2250_00482	HIMB2250	248	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2250_00483
+HIMB2250-00000000001	Prodigal:2.6	CDS	464418	464540	.	-	0	HIMB2250_00483	HIMB2250	40	OG0001222	NA	NA	NA	NA	NA	HIMB2250_00483
+HIMB2250-00000000001	Prodigal:2.6	CDS	464630	465280	.	+	0	HIMB2250_00484	HIMB2250	216	OG0000954	NA	NA	NA	NA	NA	HIMB2250_00483
+HIMB2250-00000000001	Prodigal:2.6	CDS	465277	465420	.	-	0	HIMB2250_00485	HIMB2250	47	OG0001116	NA	NA	NA	NA	NA	HIMB2250_00483
+HIMB2250-00000000001	Prodigal:2.6	CDS	465478	465891	.	+	0	HIMB2250_00486	HIMB2250	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB2250_00483
+HIMB2250-00000000001	Prodigal:2.6	CDS	465881	466561	.	-	0	HIMB2250_00487	HIMB2250	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB2250_00483
+HIMB2250-00000000001	Prodigal:2.6	CDS	466564	467121	.	+	0	HIMB2250_00488	HIMB2250	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB2250_00483
+CP031125.1	Prodigal:2.6	CDS	1066486	1067580	.	+	0	FZCC0015_01133	FZCC0015	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	FZCC0015_01138
+CP031125.1	Prodigal:2.6	CDS	1067646	1068260	.	+	0	FZCC0015_01134	FZCC0015	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	FZCC0015_01138
+CP031125.1	Prodigal:2.6	CDS	1068257	1069591	.	+	0	FZCC0015_01135	FZCC0015	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	FZCC0015_01138
+CP031125.1	Prodigal:2.6	CDS	1069617	1071074	.	+	0	FZCC0015_01136	FZCC0015	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	FZCC0015_01138
+CP031125.1	Prodigal:2.6	CDS	1071076	1072080	.	+	0	FZCC0015_01137	FZCC0015	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	FZCC0015_01138
+CP031125.1	Prodigal:2.6	CDS	1072064	1072204	.	-	0	FZCC0015_01138	FZCC0015	46	OG0001222	NA	NA	NA	NA	NA	FZCC0015_01138
+CP031125.1	Prodigal:2.6	CDS	1072294	1072944	.	+	0	FZCC0015_01139	FZCC0015	216	OG0000954	NA	NA	NA	NA	NA	FZCC0015_01138
+CP031125.1	Prodigal:2.6	CDS	1072945	1073085	.	-	0	FZCC0015_01140	FZCC0015	46	OG0001116	NA	NA	NA	NA	NA	FZCC0015_01138
+CP031125.1	Prodigal:2.6	CDS	1073143	1073553	.	+	0	FZCC0015_01141	FZCC0015	136	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	FZCC0015_01138
+CP031125.1	Prodigal:2.6	CDS	1073546	1074226	.	-	0	FZCC0015_01142	FZCC0015	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	FZCC0015_01138
+CP031125.1	Prodigal:2.6	CDS	1074229	1074786	.	+	0	FZCC0015_01143	FZCC0015	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	FZCC0015_01138
+AZAL01000001.1	Prodigal:2.6	CDS	245164	245721	.	-	0	HIMB083_00283	HIMB083	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB083_00288
+AZAL01000001.1	Prodigal:2.6	CDS	245724	246404	.	+	0	HIMB083_00284	HIMB083	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB083_00288
+AZAL01000001.1	Prodigal:2.6	CDS	246397	246807	.	-	0	HIMB083_00285	HIMB083	136	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB083_00288
+AZAL01000001.1	Prodigal:2.6	CDS	246865	247005	.	+	0	HIMB083_00286	HIMB083	46	OG0001116	NA	NA	NA	NA	NA	HIMB083_00288
+AZAL01000001.1	Prodigal:2.6	CDS	247006	247656	.	-	0	HIMB083_00287	HIMB083	216	OG0000954	NA	NA	NA	NA	NA	HIMB083_00288
+AZAL01000001.1	Prodigal:2.6	CDS	247737	247886	.	+	0	HIMB083_00288	HIMB083	49	OG0001222	NA	NA	NA	NA	NA	HIMB083_00288
+AZAL01000001.1	Prodigal:2.6	CDS	247870	248874	.	-	0	HIMB083_00289	HIMB083	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB083_00288
+AZAL01000001.1	Prodigal:2.6	CDS	248876	250333	.	-	0	HIMB083_00290	HIMB083	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB083_00288
+AZAL01000001.1	Prodigal:2.6	CDS	250359	251693	.	-	0	HIMB083_00291	HIMB083	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB083_00288
+AZAL01000001.1	Prodigal:2.6	CDS	251690	252304	.	-	0	HIMB083_00292	HIMB083	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB083_00288
+AZAL01000001.1	Prodigal:2.6	CDS	252370	253464	.	-	0	HIMB083_00293	HIMB083	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB083_00288
+HIMB1685-00000000001	Prodigal:2.6	CDS	307524	308081	.	-	0	HIMB1685_00351	HIMB1685	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1685_00356
+HIMB1685-00000000001	Prodigal:2.6	CDS	308084	308764	.	+	0	HIMB1685_00352	HIMB1685	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1685_00356
+HIMB1685-00000000001	Prodigal:2.6	CDS	308757	309173	.	-	0	HIMB1685_00353	HIMB1685	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1685_00356
+HIMB1685-00000000001	Prodigal:2.6	CDS	309232	309372	.	+	0	HIMB1685_00354	HIMB1685	46	OG0001116	NA	NA	NA	NA	NA	HIMB1685_00356
+HIMB1685-00000000001	Prodigal:2.6	CDS	309373	310023	.	-	0	HIMB1685_00355	HIMB1685	216	OG0000954	NA	NA	NA	NA	NA	HIMB1685_00356
+HIMB1685-00000000001	Prodigal:2.6	CDS	310099	310233	.	+	0	HIMB1685_00356	HIMB1685	44	OG0001222	NA	NA	NA	NA	NA	HIMB1685_00356
+HIMB1685-00000000001	Prodigal:2.6	CDS	310217	311221	.	-	0	HIMB1685_00357	HIMB1685	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1685_00356
+HIMB1685-00000000001	Prodigal:2.6	CDS	311223	312680	.	-	0	HIMB1685_00358	HIMB1685	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1685_00356
+HIMB1685-00000000001	Prodigal:2.6	CDS	312707	314041	.	-	0	HIMB1685_00359	HIMB1685	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1685_00356
+HIMB1685-00000000001	Prodigal:2.6	CDS	314041	314655	.	-	0	HIMB1685_00360	HIMB1685	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1685_00356
+HIMB1685-00000000001	Prodigal:2.6	CDS	314728	315822	.	-	0	HIMB1685_00361	HIMB1685	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1685_00356
+HIMB1559-00000000001	Prodigal:2.6	CDS	178249	179343	.	+	0	HIMB1559_00196	HIMB1559	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1559_00201
+HIMB1559-00000000001	Prodigal:2.6	CDS	179417	180031	.	+	0	HIMB1559_00197	HIMB1559	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1559_00201
+HIMB1559-00000000001	Prodigal:2.6	CDS	180031	181365	.	+	0	HIMB1559_00198	HIMB1559	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1559_00201
+HIMB1559-00000000001	Prodigal:2.6	CDS	181392	182849	.	+	0	HIMB1559_00199	HIMB1559	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1559_00201
+HIMB1559-00000000001	Prodigal:2.6	CDS	182851	183855	.	+	0	HIMB1559_00200	HIMB1559	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1559_00201
+HIMB1559-00000000001	Prodigal:2.6	CDS	183839	183973	.	-	0	HIMB1559_00201	HIMB1559	44	OG0001222	NA	NA	NA	NA	NA	HIMB1559_00201
+HIMB1559-00000000001	Prodigal:2.6	CDS	184049	184699	.	+	0	HIMB1559_00202	HIMB1559	216	OG0000954	NA	NA	NA	NA	NA	HIMB1559_00201
+HIMB1559-00000000001	Prodigal:2.6	CDS	184700	184840	.	-	0	HIMB1559_00203	HIMB1559	46	OG0001116	NA	NA	NA	NA	NA	HIMB1559_00201
+HIMB1559-00000000001	Prodigal:2.6	CDS	184899	185315	.	+	0	HIMB1559_00204	HIMB1559	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1559_00201
+HIMB1559-00000000001	Prodigal:2.6	CDS	185308	185988	.	-	0	HIMB1559_00205	HIMB1559	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1559_00201
+HIMB1559-00000000001	Prodigal:2.6	CDS	185991	186548	.	+	0	HIMB1559_00206	HIMB1559	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1559_00201
+HIMB1597-00000000001	Prodigal:2.6	CDS	135393	135950	.	-	0	HIMB1597_00149	HIMB1597	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1597_00154
+HIMB1597-00000000001	Prodigal:2.6	CDS	135953	136633	.	+	0	HIMB1597_00150	HIMB1597	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1597_00154
+HIMB1597-00000000001	Prodigal:2.6	CDS	136626	137042	.	-	0	HIMB1597_00151	HIMB1597	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1597_00154
+HIMB1597-00000000001	Prodigal:2.6	CDS	137101	137241	.	+	0	HIMB1597_00152	HIMB1597	46	OG0001116	NA	NA	NA	NA	NA	HIMB1597_00154
+HIMB1597-00000000001	Prodigal:2.6	CDS	137242	137892	.	-	0	HIMB1597_00153	HIMB1597	216	OG0000954	NA	NA	NA	NA	NA	HIMB1597_00154
+HIMB1597-00000000001	Prodigal:2.6	CDS	137968	138102	.	+	0	HIMB1597_00154	HIMB1597	44	OG0001222	NA	NA	NA	NA	NA	HIMB1597_00154
+HIMB1597-00000000001	Prodigal:2.6	CDS	138086	139090	.	-	0	HIMB1597_00155	HIMB1597	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1597_00154
+HIMB1597-00000000001	Prodigal:2.6	CDS	139092	140549	.	-	0	HIMB1597_00156	HIMB1597	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1597_00154
+HIMB1597-00000000001	Prodigal:2.6	CDS	140576	141910	.	-	0	HIMB1597_00157	HIMB1597	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1597_00154
+HIMB1597-00000000001	Prodigal:2.6	CDS	141910	142524	.	-	0	HIMB1597_00158	HIMB1597	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1597_00154
+HIMB1597-00000000001	Prodigal:2.6	CDS	142598	143692	.	-	0	HIMB1597_00159	HIMB1597	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1597_00154
+HIMB1587-00000000001	Prodigal:2.6	CDS	178449	179543	.	+	0	HIMB1587_00196	HIMB1587	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1587_00201
+HIMB1587-00000000001	Prodigal:2.6	CDS	179617	180231	.	+	0	HIMB1587_00197	HIMB1587	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1587_00201
+HIMB1587-00000000001	Prodigal:2.6	CDS	180231	181565	.	+	0	HIMB1587_00198	HIMB1587	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1587_00201
+HIMB1587-00000000001	Prodigal:2.6	CDS	181592	183049	.	+	0	HIMB1587_00199	HIMB1587	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1587_00201
+HIMB1587-00000000001	Prodigal:2.6	CDS	183051	184055	.	+	0	HIMB1587_00200	HIMB1587	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1587_00201
+HIMB1587-00000000001	Prodigal:2.6	CDS	184039	184173	.	-	0	HIMB1587_00201	HIMB1587	44	OG0001222	NA	NA	NA	NA	NA	HIMB1587_00201
+HIMB1587-00000000001	Prodigal:2.6	CDS	184249	184899	.	+	0	HIMB1587_00202	HIMB1587	216	OG0000954	NA	NA	NA	NA	NA	HIMB1587_00201
+HIMB1587-00000000001	Prodigal:2.6	CDS	184900	185040	.	-	0	HIMB1587_00203	HIMB1587	46	OG0001116	NA	NA	NA	NA	NA	HIMB1587_00201
+HIMB1587-00000000001	Prodigal:2.6	CDS	185099	185515	.	+	0	HIMB1587_00204	HIMB1587	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1587_00201
+HIMB1587-00000000001	Prodigal:2.6	CDS	185508	186188	.	-	0	HIMB1587_00205	HIMB1587	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1587_00201
+HIMB1587-00000000001	Prodigal:2.6	CDS	186191	186748	.	+	0	HIMB1587_00206	HIMB1587	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1587_00201
+HIMB1573-00000000001	Prodigal:2.6	CDS	1272289	1272846	.	-	0	HIMB1573_01370	HIMB1573	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1573_01375
+HIMB1573-00000000001	Prodigal:2.6	CDS	1272849	1273529	.	+	0	HIMB1573_01371	HIMB1573	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1573_01375
+HIMB1573-00000000001	Prodigal:2.6	CDS	1273522	1273938	.	-	0	HIMB1573_01372	HIMB1573	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1573_01375
+HIMB1573-00000000001	Prodigal:2.6	CDS	1273997	1274137	.	+	0	HIMB1573_01373	HIMB1573	46	OG0001116	NA	NA	NA	NA	NA	HIMB1573_01375
+HIMB1573-00000000001	Prodigal:2.6	CDS	1274138	1274830	.	-	0	HIMB1573_01374	HIMB1573	230	OG0000954	NA	NA	NA	NA	NA	HIMB1573_01375
+HIMB1573-00000000001	Prodigal:2.6	CDS	1274864	1274998	.	+	0	HIMB1573_01375	HIMB1573	44	OG0001222	NA	NA	NA	NA	NA	HIMB1573_01375
+HIMB1573-00000000001	Prodigal:2.6	CDS	1274982	1275986	.	-	0	HIMB1573_01376	HIMB1573	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1573_01375
+HIMB1573-00000000001	Prodigal:2.6	CDS	1275988	1277445	.	-	0	HIMB1573_01377	HIMB1573	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1573_01375
+HIMB1573-00000000001	Prodigal:2.6	CDS	1277472	1278806	.	-	0	HIMB1573_01378	HIMB1573	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1573_01375
+HIMB1573-00000000001	Prodigal:2.6	CDS	1278806	1279420	.	-	0	HIMB1573_01379	HIMB1573	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1573_01375
+HIMB1573-00000000001	Prodigal:2.6	CDS	1279492	1280586	.	-	0	HIMB1573_01380	HIMB1573	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1573_01375
+HIMB1490-00000000002	Prodigal:2.6	CDS	20375	21469	.	+	0	HIMB1490_00175	HIMB1490	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1490_00180
+HIMB1490-00000000002	Prodigal:2.6	CDS	21542	22156	.	+	0	HIMB1490_00176	HIMB1490	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1490_00180
+HIMB1490-00000000002	Prodigal:2.6	CDS	22156	23490	.	+	0	HIMB1490_00177	HIMB1490	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1490_00180
+HIMB1490-00000000002	Prodigal:2.6	CDS	23517	24974	.	+	0	HIMB1490_00178	HIMB1490	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1490_00180
+HIMB1490-00000000002	Prodigal:2.6	CDS	24976	25980	.	+	0	HIMB1490_00179	HIMB1490	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1490_00180
+HIMB1490-00000000002	Prodigal:2.6	CDS	25964	26098	.	-	0	HIMB1490_00180	HIMB1490	44	OG0001222	NA	NA	NA	NA	NA	HIMB1490_00180
+HIMB1490-00000000002	Prodigal:2.6	CDS	26174	26824	.	+	0	HIMB1490_00181	HIMB1490	216	OG0000954	NA	NA	NA	NA	NA	HIMB1490_00180
+HIMB1490-00000000002	Prodigal:2.6	CDS	26825	26965	.	-	0	HIMB1490_00182	HIMB1490	46	OG0001116	NA	NA	NA	NA	NA	HIMB1490_00180
+HIMB1490-00000000002	Prodigal:2.6	CDS	27024	27440	.	+	0	HIMB1490_00183	HIMB1490	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1490_00180
+HIMB1490-00000000002	Prodigal:2.6	CDS	27433	28113	.	-	0	HIMB1490_00184	HIMB1490	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1490_00180
+HIMB1490-00000000002	Prodigal:2.6	CDS	28116	28673	.	+	0	HIMB1490_00185	HIMB1490	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1490_00180
+HIMB1491-00000000001	Prodigal:2.6	CDS	1299492	1300049	.	-	0	HIMB1491_01359	HIMB1491	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1491_01364
+HIMB1491-00000000001	Prodigal:2.6	CDS	1300052	1300732	.	+	0	HIMB1491_01360	HIMB1491	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1491_01364
+HIMB1491-00000000001	Prodigal:2.6	CDS	1300725	1301141	.	-	0	HIMB1491_01361	HIMB1491	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1491_01364
+HIMB1491-00000000001	Prodigal:2.6	CDS	1301200	1301340	.	+	0	HIMB1491_01362	HIMB1491	46	OG0001116	NA	NA	NA	NA	NA	HIMB1491_01364
+HIMB1491-00000000001	Prodigal:2.6	CDS	1301341	1301991	.	-	0	HIMB1491_01363	HIMB1491	216	OG0000954	NA	NA	NA	NA	NA	HIMB1491_01364
+HIMB1491-00000000001	Prodigal:2.6	CDS	1302067	1302201	.	+	0	HIMB1491_01364	HIMB1491	44	OG0001222	NA	NA	NA	NA	NA	HIMB1491_01364
+HIMB1491-00000000001	Prodigal:2.6	CDS	1302185	1303189	.	-	0	HIMB1491_01365	HIMB1491	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1491_01364
+HIMB1491-00000000001	Prodigal:2.6	CDS	1303191	1304648	.	-	0	HIMB1491_01366	HIMB1491	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1491_01364
+HIMB1491-00000000001	Prodigal:2.6	CDS	1304675	1306009	.	-	0	HIMB1491_01367	HIMB1491	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1491_01364
+HIMB1491-00000000001	Prodigal:2.6	CDS	1306009	1306623	.	-	0	HIMB1491_01368	HIMB1491	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1491_01364
+HIMB1491-00000000001	Prodigal:2.6	CDS	1306696	1307790	.	-	0	HIMB1491_01369	HIMB1491	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1491_01364
+HIMB1765-00000000001	Prodigal:2.6	CDS	169585	170661	.	+	0	HIMB1765_00188	HIMB1765	358	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1765_00193
+HIMB1765-00000000001	Prodigal:2.6	CDS	170734	171348	.	+	0	HIMB1765_00189	HIMB1765	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1765_00193
+HIMB1765-00000000001	Prodigal:2.6	CDS	171348	172682	.	+	0	HIMB1765_00190	HIMB1765	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1765_00193
+HIMB1765-00000000001	Prodigal:2.6	CDS	172709	174166	.	+	0	HIMB1765_00191	HIMB1765	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1765_00193
+HIMB1765-00000000001	Prodigal:2.6	CDS	174168	175172	.	+	0	HIMB1765_00192	HIMB1765	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1765_00193
+HIMB1765-00000000001	Prodigal:2.6	CDS	175156	175290	.	-	0	HIMB1765_00193	HIMB1765	44	OG0001222	NA	NA	NA	NA	NA	HIMB1765_00193
+HIMB1765-00000000001	Prodigal:2.6	CDS	175366	176016	.	+	0	HIMB1765_00194	HIMB1765	216	OG0000954	NA	NA	NA	NA	NA	HIMB1765_00193
+HIMB1765-00000000001	Prodigal:2.6	CDS	176017	176157	.	-	0	HIMB1765_00195	HIMB1765	46	OG0001116	NA	NA	NA	NA	NA	HIMB1765_00193
+HIMB1765-00000000001	Prodigal:2.6	CDS	176216	176629	.	+	0	HIMB1765_00196	HIMB1765	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1765_00193
+HIMB1765-00000000001	Prodigal:2.6	CDS	176626	177306	.	-	0	HIMB1765_00197	HIMB1765	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1765_00193
+HIMB1765-00000000001	Prodigal:2.6	CDS	177309	177866	.	+	0	HIMB1765_00198	HIMB1765	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1765_00193
+HIMB1494-00000000001	Prodigal:2.6	CDS	856239	857333	.	+	0	HIMB1494_00908	HIMB1494	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1494_00913
+HIMB1494-00000000001	Prodigal:2.6	CDS	857405	858019	.	+	0	HIMB1494_00909	HIMB1494	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1494_00913
+HIMB1494-00000000001	Prodigal:2.6	CDS	858019	859353	.	+	0	HIMB1494_00910	HIMB1494	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1494_00913
+HIMB1494-00000000001	Prodigal:2.6	CDS	859380	860837	.	+	0	HIMB1494_00911	HIMB1494	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1494_00913
+HIMB1494-00000000001	Prodigal:2.6	CDS	860839	861843	.	+	0	HIMB1494_00912	HIMB1494	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1494_00913
+HIMB1494-00000000001	Prodigal:2.6	CDS	861827	861961	.	-	0	HIMB1494_00913	HIMB1494	44	OG0001222	NA	NA	NA	NA	NA	HIMB1494_00913
+HIMB1494-00000000001	Prodigal:2.6	CDS	862037	862687	.	+	0	HIMB1494_00914	HIMB1494	216	OG0000954	NA	NA	NA	NA	NA	HIMB1494_00913
+HIMB1494-00000000001	Prodigal:2.6	CDS	862688	862828	.	-	0	HIMB1494_00915	HIMB1494	46	OG0001116	NA	NA	NA	NA	NA	HIMB1494_00913
+HIMB1494-00000000001	Prodigal:2.6	CDS	862887	863303	.	+	0	HIMB1494_00916	HIMB1494	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1494_00913
+HIMB1494-00000000001	Prodigal:2.6	CDS	863296	863976	.	-	0	HIMB1494_00917	HIMB1494	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1494_00913
+HIMB1494-00000000001	Prodigal:2.6	CDS	863979	864536	.	+	0	HIMB1494_00918	HIMB1494	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1494_00913
+HIMB1495-00000000001	Prodigal:2.6	CDS	832944	834038	.	+	0	HIMB1495_00886	HIMB1495	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1495_00891
+HIMB1495-00000000001	Prodigal:2.6	CDS	834110	834724	.	+	0	HIMB1495_00887	HIMB1495	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1495_00891
+HIMB1495-00000000001	Prodigal:2.6	CDS	834724	836058	.	+	0	HIMB1495_00888	HIMB1495	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1495_00891
+HIMB1495-00000000001	Prodigal:2.6	CDS	836085	837542	.	+	0	HIMB1495_00889	HIMB1495	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1495_00891
+HIMB1495-00000000001	Prodigal:2.6	CDS	837544	838548	.	+	0	HIMB1495_00890	HIMB1495	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1495_00891
+HIMB1495-00000000001	Prodigal:2.6	CDS	838532	838666	.	-	0	HIMB1495_00891	HIMB1495	44	OG0001222	NA	NA	NA	NA	NA	HIMB1495_00891
+HIMB1495-00000000001	Prodigal:2.6	CDS	838742	839392	.	+	0	HIMB1495_00892	HIMB1495	216	OG0000954	NA	NA	NA	NA	NA	HIMB1495_00891
+HIMB1495-00000000001	Prodigal:2.6	CDS	839393	839533	.	-	0	HIMB1495_00893	HIMB1495	46	OG0001116	NA	NA	NA	NA	NA	HIMB1495_00891
+HIMB1495-00000000001	Prodigal:2.6	CDS	839592	840008	.	+	0	HIMB1495_00894	HIMB1495	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1495_00891
+HIMB1495-00000000001	Prodigal:2.6	CDS	840001	840681	.	-	0	HIMB1495_00895	HIMB1495	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1495_00891
+HIMB1495-00000000001	Prodigal:2.6	CDS	840684	841241	.	+	0	HIMB1495_00896	HIMB1495	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1495_00891
+HIMB1593-00000000001	Prodigal:2.6	CDS	833515	834609	.	+	0	HIMB1593_00871	HIMB1593	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1593_00876
+HIMB1593-00000000001	Prodigal:2.6	CDS	834681	835295	.	+	0	HIMB1593_00872	HIMB1593	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1593_00876
+HIMB1593-00000000001	Prodigal:2.6	CDS	835295	836629	.	+	0	HIMB1593_00873	HIMB1593	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1593_00876
+HIMB1593-00000000001	Prodigal:2.6	CDS	836656	838113	.	+	0	HIMB1593_00874	HIMB1593	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1593_00876
+HIMB1593-00000000001	Prodigal:2.6	CDS	838115	839119	.	+	0	HIMB1593_00875	HIMB1593	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1593_00876
+HIMB1593-00000000001	Prodigal:2.6	CDS	839103	839237	.	-	0	HIMB1593_00876	HIMB1593	44	OG0001222	NA	NA	NA	NA	NA	HIMB1593_00876
+HIMB1593-00000000001	Prodigal:2.6	CDS	839313	839963	.	+	0	HIMB1593_00877	HIMB1593	216	OG0000954	NA	NA	NA	NA	NA	HIMB1593_00876
+HIMB1593-00000000001	Prodigal:2.6	CDS	840031	840447	.	+	0	HIMB1593_00878	HIMB1593	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1593_00876
+HIMB1593-00000000001	Prodigal:2.6	CDS	840440	841120	.	-	0	HIMB1593_00879	HIMB1593	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1593_00876
+HIMB1593-00000000001	Prodigal:2.6	CDS	841123	841680	.	+	0	HIMB1593_00880	HIMB1593	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1593_00876
+HIMB1593-00000000001	Prodigal:2.6	CDS	841691	841828	.	+	0	HIMB1593_00881	HIMB1593	45	OG0001140	NA	NA	NA	NA	NA	HIMB1593_00876
+HIMB1509-00000000001	Prodigal:2.6	CDS	812348	813442	.	+	0	HIMB1509_00859	HIMB1509	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1509_00864
+HIMB1509-00000000001	Prodigal:2.6	CDS	813514	814128	.	+	0	HIMB1509_00860	HIMB1509	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1509_00864
+HIMB1509-00000000001	Prodigal:2.6	CDS	814128	815462	.	+	0	HIMB1509_00861	HIMB1509	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1509_00864
+HIMB1509-00000000001	Prodigal:2.6	CDS	815489	816946	.	+	0	HIMB1509_00862	HIMB1509	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1509_00864
+HIMB1509-00000000001	Prodigal:2.6	CDS	816948	817952	.	+	0	HIMB1509_00863	HIMB1509	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1509_00864
+HIMB1509-00000000001	Prodigal:2.6	CDS	817936	818070	.	-	0	HIMB1509_00864	HIMB1509	44	OG0001222	NA	NA	NA	NA	NA	HIMB1509_00864
+HIMB1509-00000000001	Prodigal:2.6	CDS	818146	818796	.	+	0	HIMB1509_00865	HIMB1509	216	OG0000954	NA	NA	NA	NA	NA	HIMB1509_00864
+HIMB1509-00000000001	Prodigal:2.6	CDS	818797	818937	.	-	0	HIMB1509_00866	HIMB1509	46	OG0001116	NA	NA	NA	NA	NA	HIMB1509_00864
+HIMB1509-00000000001	Prodigal:2.6	CDS	818996	819412	.	+	0	HIMB1509_00867	HIMB1509	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1509_00864
+HIMB1509-00000000001	Prodigal:2.6	CDS	819405	820085	.	-	0	HIMB1509_00868	HIMB1509	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1509_00864
+HIMB1509-00000000001	Prodigal:2.6	CDS	820088	820645	.	+	0	HIMB1509_00869	HIMB1509	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1509_00864
+HIMB1485-00000000002	Prodigal:2.6	CDS	812233	813327	.	+	0	HIMB1485_01343	HIMB1485	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1485_01348
+HIMB1485-00000000002	Prodigal:2.6	CDS	813400	814014	.	+	0	HIMB1485_01344	HIMB1485	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1485_01348
+HIMB1485-00000000002	Prodigal:2.6	CDS	814014	815348	.	+	0	HIMB1485_01345	HIMB1485	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1485_01348
+HIMB1485-00000000002	Prodigal:2.6	CDS	815375	816832	.	+	0	HIMB1485_01346	HIMB1485	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1485_01348
+HIMB1485-00000000002	Prodigal:2.6	CDS	816834	817838	.	+	0	HIMB1485_01347	HIMB1485	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1485_01348
+HIMB1485-00000000002	Prodigal:2.6	CDS	817822	817956	.	-	0	HIMB1485_01348	HIMB1485	44	OG0001222	NA	NA	NA	NA	NA	HIMB1485_01348
+HIMB1485-00000000002	Prodigal:2.6	CDS	818032	818682	.	+	0	HIMB1485_01349	HIMB1485	216	OG0000954	NA	NA	NA	NA	NA	HIMB1485_01348
+HIMB1485-00000000002	Prodigal:2.6	CDS	818683	818823	.	-	0	HIMB1485_01350	HIMB1485	46	OG0001116	NA	NA	NA	NA	NA	HIMB1485_01348
+HIMB1485-00000000002	Prodigal:2.6	CDS	818882	819298	.	+	0	HIMB1485_01351	HIMB1485	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1485_01348
+HIMB1485-00000000002	Prodigal:2.6	CDS	819291	819971	.	-	0	HIMB1485_01352	HIMB1485	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1485_01348
+HIMB1485-00000000002	Prodigal:2.6	CDS	819974	820531	.	+	0	HIMB1485_01353	HIMB1485	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1485_01348
+HIMB1492-00000000003	Prodigal:2.6	CDS	18782	19876	.	+	0	HIMB1492_00110	HIMB1492	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1492_00115
+HIMB1492-00000000003	Prodigal:2.6	CDS	19948	20562	.	+	0	HIMB1492_00111	HIMB1492	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1492_00115
+HIMB1492-00000000003	Prodigal:2.6	CDS	20562	21896	.	+	0	HIMB1492_00112	HIMB1492	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1492_00115
+HIMB1492-00000000003	Prodigal:2.6	CDS	21923	23380	.	+	0	HIMB1492_00113	HIMB1492	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1492_00115
+HIMB1492-00000000003	Prodigal:2.6	CDS	23382	24386	.	+	0	HIMB1492_00114	HIMB1492	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1492_00115
+HIMB1492-00000000003	Prodigal:2.6	CDS	24370	24540	.	-	0	HIMB1492_00115	HIMB1492	56	OG0001222	NA	NA	NA	NA	NA	HIMB1492_00115
+HIMB1492-00000000003	Prodigal:2.6	CDS	24581	25231	.	+	0	HIMB1492_00116	HIMB1492	216	OG0000954	NA	NA	NA	NA	NA	HIMB1492_00115
+HIMB1492-00000000003	Prodigal:2.6	CDS	25232	25372	.	-	0	HIMB1492_00117	HIMB1492	46	OG0001116	NA	NA	NA	NA	NA	HIMB1492_00115
+HIMB1492-00000000003	Prodigal:2.6	CDS	25431	25847	.	+	0	HIMB1492_00118	HIMB1492	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1492_00115
+HIMB1492-00000000003	Prodigal:2.6	CDS	25840	26520	.	-	0	HIMB1492_00119	HIMB1492	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1492_00115
+HIMB1492-00000000003	Prodigal:2.6	CDS	26523	27080	.	+	0	HIMB1492_00120	HIMB1492	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1492_00115
+HIMB1493-00000000001	Prodigal:2.6	CDS	586243	586800	.	-	0	HIMB1493_00627	HIMB1493	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1493_00632
+HIMB1493-00000000001	Prodigal:2.6	CDS	586803	587483	.	+	0	HIMB1493_00628	HIMB1493	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1493_00632
+HIMB1493-00000000001	Prodigal:2.6	CDS	587476	587892	.	-	0	HIMB1493_00629	HIMB1493	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1493_00632
+HIMB1493-00000000001	Prodigal:2.6	CDS	587951	588091	.	+	0	HIMB1493_00630	HIMB1493	46	OG0001116	NA	NA	NA	NA	NA	HIMB1493_00632
+HIMB1493-00000000001	Prodigal:2.6	CDS	588092	588742	.	-	0	HIMB1493_00631	HIMB1493	216	OG0000954	NA	NA	NA	NA	NA	HIMB1493_00632
+HIMB1493-00000000001	Prodigal:2.6	CDS	588783	588953	.	+	0	HIMB1493_00632	HIMB1493	56	OG0001222	NA	NA	NA	NA	NA	HIMB1493_00632
+HIMB1493-00000000001	Prodigal:2.6	CDS	588937	589941	.	-	0	HIMB1493_00633	HIMB1493	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1493_00632
+HIMB1493-00000000001	Prodigal:2.6	CDS	589943	591400	.	-	0	HIMB1493_00634	HIMB1493	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1493_00632
+HIMB1493-00000000001	Prodigal:2.6	CDS	591427	592761	.	-	0	HIMB1493_00635	HIMB1493	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1493_00632
+HIMB1493-00000000001	Prodigal:2.6	CDS	592761	593375	.	-	0	HIMB1493_00636	HIMB1493	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1493_00632
+HIMB1493-00000000001	Prodigal:2.6	CDS	593447	594541	.	-	0	HIMB1493_00637	HIMB1493	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1493_00632
+HIMB1518-00000000001	Prodigal:2.6	CDS	741694	742251	.	-	0	HIMB1518_00782	HIMB1518	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1518_00787
+HIMB1518-00000000001	Prodigal:2.6	CDS	742254	742934	.	+	0	HIMB1518_00783	HIMB1518	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1518_00787
+HIMB1518-00000000001	Prodigal:2.6	CDS	742927	743343	.	-	0	HIMB1518_00784	HIMB1518	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1518_00787
+HIMB1518-00000000001	Prodigal:2.6	CDS	743402	743542	.	+	0	HIMB1518_00785	HIMB1518	46	OG0001116	NA	NA	NA	NA	NA	HIMB1518_00787
+HIMB1518-00000000001	Prodigal:2.6	CDS	743543	744193	.	-	0	HIMB1518_00786	HIMB1518	216	OG0000954	NA	NA	NA	NA	NA	HIMB1518_00787
+HIMB1518-00000000001	Prodigal:2.6	CDS	744234	744404	.	+	0	HIMB1518_00787	HIMB1518	56	OG0001222	NA	NA	NA	NA	NA	HIMB1518_00787
+HIMB1518-00000000001	Prodigal:2.6	CDS	744388	745392	.	-	0	HIMB1518_00788	HIMB1518	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1518_00787
+HIMB1518-00000000001	Prodigal:2.6	CDS	745394	746851	.	-	0	HIMB1518_00789	HIMB1518	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1518_00787
+HIMB1518-00000000001	Prodigal:2.6	CDS	746878	748212	.	-	0	HIMB1518_00790	HIMB1518	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1518_00787
+HIMB1518-00000000001	Prodigal:2.6	CDS	748212	748826	.	-	0	HIMB1518_00791	HIMB1518	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1518_00787
+HIMB1518-00000000001	Prodigal:2.6	CDS	748898	749992	.	-	0	HIMB1518_00792	HIMB1518	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1518_00787
+HIMB1770-00000000001	Prodigal:2.6	CDS	219971	220528	.	-	0	HIMB1770_00249	HIMB1770	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1770_00254
+HIMB1770-00000000001	Prodigal:2.6	CDS	220531	221211	.	+	0	HIMB1770_00250	HIMB1770	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1770_00254
+HIMB1770-00000000001	Prodigal:2.6	CDS	221204	221620	.	-	0	HIMB1770_00251	HIMB1770	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1770_00254
+HIMB1770-00000000001	Prodigal:2.6	CDS	221679	221819	.	+	0	HIMB1770_00252	HIMB1770	46	OG0001116	NA	NA	NA	NA	NA	HIMB1770_00254
+HIMB1770-00000000001	Prodigal:2.6	CDS	221820	222470	.	-	0	HIMB1770_00253	HIMB1770	216	OG0000954	NA	NA	NA	NA	NA	HIMB1770_00254
+HIMB1770-00000000001	Prodigal:2.6	CDS	222511	222681	.	+	0	HIMB1770_00254	HIMB1770	56	OG0001222	NA	NA	NA	NA	NA	HIMB1770_00254
+HIMB1770-00000000001	Prodigal:2.6	CDS	222665	223669	.	-	0	HIMB1770_00255	HIMB1770	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1770_00254
+HIMB1770-00000000001	Prodigal:2.6	CDS	223671	225128	.	-	0	HIMB1770_00256	HIMB1770	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1770_00254
+HIMB1770-00000000001	Prodigal:2.6	CDS	225155	226489	.	-	0	HIMB1770_00257	HIMB1770	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1770_00254
+HIMB1770-00000000001	Prodigal:2.6	CDS	226489	227103	.	-	0	HIMB1770_00258	HIMB1770	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1770_00254
+HIMB1770-00000000001	Prodigal:2.6	CDS	227175	228269	.	-	0	HIMB1770_00259	HIMB1770	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1770_00254
+HIMB1507-00000000001	Prodigal:2.6	CDS	1291373	1291930	.	-	0	HIMB1507_01365	HIMB1507	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1507_01370
+HIMB1507-00000000001	Prodigal:2.6	CDS	1291933	1292613	.	+	0	HIMB1507_01366	HIMB1507	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1507_01370
+HIMB1507-00000000001	Prodigal:2.6	CDS	1292606	1293022	.	-	0	HIMB1507_01367	HIMB1507	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1507_01370
+HIMB1507-00000000001	Prodigal:2.6	CDS	1293081	1293221	.	+	0	HIMB1507_01368	HIMB1507	46	OG0001116	NA	NA	NA	NA	NA	HIMB1507_01370
+HIMB1507-00000000001	Prodigal:2.6	CDS	1293222	1293872	.	-	0	HIMB1507_01369	HIMB1507	216	OG0000954	NA	NA	NA	NA	NA	HIMB1507_01370
+HIMB1507-00000000001	Prodigal:2.6	CDS	1293948	1294082	.	+	0	HIMB1507_01370	HIMB1507	44	OG0001222	NA	NA	NA	NA	NA	HIMB1507_01370
+HIMB1507-00000000001	Prodigal:2.6	CDS	1294066	1295070	.	-	0	HIMB1507_01371	HIMB1507	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1507_01370
+HIMB1507-00000000001	Prodigal:2.6	CDS	1295072	1296529	.	-	0	HIMB1507_01372	HIMB1507	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1507_01370
+HIMB1507-00000000001	Prodigal:2.6	CDS	1296556	1297890	.	-	0	HIMB1507_01373	HIMB1507	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1507_01370
+HIMB1507-00000000001	Prodigal:2.6	CDS	1297890	1298504	.	-	0	HIMB1507_01374	HIMB1507	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1507_01370
+HIMB1507-00000000001	Prodigal:2.6	CDS	1298576	1299670	.	-	0	HIMB1507_01375	HIMB1507	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1507_01370
+HIMB1526-00000000001	Prodigal:2.6	CDS	690076	691170	.	+	0	HIMB1526_00722	HIMB1526	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1526_00727
+HIMB1526-00000000001	Prodigal:2.6	CDS	691243	691857	.	+	0	HIMB1526_00723	HIMB1526	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1526_00727
+HIMB1526-00000000001	Prodigal:2.6	CDS	691857	693191	.	+	0	HIMB1526_00724	HIMB1526	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1526_00727
+HIMB1526-00000000001	Prodigal:2.6	CDS	693218	694675	.	+	0	HIMB1526_00725	HIMB1526	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1526_00727
+HIMB1526-00000000001	Prodigal:2.6	CDS	694677	695681	.	+	0	HIMB1526_00726	HIMB1526	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1526_00727
+HIMB1526-00000000001	Prodigal:2.6	CDS	695665	695799	.	-	0	HIMB1526_00727	HIMB1526	44	OG0001222	NA	NA	NA	NA	NA	HIMB1526_00727
+HIMB1526-00000000001	Prodigal:2.6	CDS	695875	696525	.	+	0	HIMB1526_00728	HIMB1526	216	OG0000954	NA	NA	NA	NA	NA	HIMB1526_00727
+HIMB1526-00000000001	Prodigal:2.6	CDS	696526	696675	.	-	0	HIMB1526_00729	HIMB1526	49	OG0001116	NA	NA	NA	NA	NA	HIMB1526_00727
+HIMB1526-00000000001	Prodigal:2.6	CDS	696725	697138	.	+	0	HIMB1526_00730	HIMB1526	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1526_00727
+HIMB1526-00000000001	Prodigal:2.6	CDS	697135	697815	.	-	0	HIMB1526_00731	HIMB1526	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1526_00727
+HIMB1526-00000000001	Prodigal:2.6	CDS	697818	698375	.	+	0	HIMB1526_00732	HIMB1526	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1526_00727
+HIMB1552-00000000001	Prodigal:2.6	CDS	240438	241532	.	+	0	HIMB1552_00258	HIMB1552	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1552_00263
+HIMB1552-00000000001	Prodigal:2.6	CDS	241605	242219	.	+	0	HIMB1552_00259	HIMB1552	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1552_00263
+HIMB1552-00000000001	Prodigal:2.6	CDS	242219	243553	.	+	0	HIMB1552_00260	HIMB1552	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1552_00263
+HIMB1552-00000000001	Prodigal:2.6	CDS	243580	245037	.	+	0	HIMB1552_00261	HIMB1552	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1552_00263
+HIMB1552-00000000001	Prodigal:2.6	CDS	245039	246043	.	+	0	HIMB1552_00262	HIMB1552	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1552_00263
+HIMB1552-00000000001	Prodigal:2.6	CDS	246027	246161	.	-	0	HIMB1552_00263	HIMB1552	44	OG0001222	NA	NA	NA	NA	NA	HIMB1552_00263
+HIMB1552-00000000001	Prodigal:2.6	CDS	246237	246887	.	+	0	HIMB1552_00264	HIMB1552	216	OG0000954	NA	NA	NA	NA	NA	HIMB1552_00263
+HIMB1552-00000000001	Prodigal:2.6	CDS	246888	247028	.	-	0	HIMB1552_00265	HIMB1552	46	OG0001116	NA	NA	NA	NA	NA	HIMB1552_00263
+HIMB1552-00000000001	Prodigal:2.6	CDS	247087	247500	.	+	0	HIMB1552_00266	HIMB1552	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1552_00263
+HIMB1552-00000000001	Prodigal:2.6	CDS	247497	248177	.	-	0	HIMB1552_00267	HIMB1552	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1552_00263
+HIMB1552-00000000001	Prodigal:2.6	CDS	248180	248737	.	+	0	HIMB1552_00268	HIMB1552	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1552_00263
+HIMB1641-00000000001	Prodigal:2.6	CDS	1189663	1190220	.	-	0	HIMB1641_01243	HIMB1641	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1641_01248
+HIMB1641-00000000001	Prodigal:2.6	CDS	1190223	1190903	.	+	0	HIMB1641_01244	HIMB1641	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1641_01248
+HIMB1641-00000000001	Prodigal:2.6	CDS	1190900	1191313	.	-	0	HIMB1641_01245	HIMB1641	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1641_01248
+HIMB1641-00000000001	Prodigal:2.6	CDS	1191372	1191512	.	+	0	HIMB1641_01246	HIMB1641	46	OG0001116	NA	NA	NA	NA	NA	HIMB1641_01248
+HIMB1641-00000000001	Prodigal:2.6	CDS	1191513	1192163	.	-	0	HIMB1641_01247	HIMB1641	216	OG0000954	NA	NA	NA	NA	NA	HIMB1641_01248
+HIMB1641-00000000001	Prodigal:2.6	CDS	1192239	1192373	.	+	0	HIMB1641_01248	HIMB1641	44	OG0001222	NA	NA	NA	NA	NA	HIMB1641_01248
+HIMB1641-00000000001	Prodigal:2.6	CDS	1192357	1193361	.	-	0	HIMB1641_01249	HIMB1641	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1641_01248
+HIMB1641-00000000001	Prodigal:2.6	CDS	1193363	1194820	.	-	0	HIMB1641_01250	HIMB1641	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1641_01248
+HIMB1641-00000000001	Prodigal:2.6	CDS	1194847	1196181	.	-	0	HIMB1641_01251	HIMB1641	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1641_01248
+HIMB1641-00000000001	Prodigal:2.6	CDS	1196181	1196795	.	-	0	HIMB1641_01252	HIMB1641	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1641_01248
+HIMB1641-00000000001	Prodigal:2.6	CDS	1196868	1197962	.	-	0	HIMB1641_01253	HIMB1641	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1641_01248
+HIMB1636-00000000001	Prodigal:2.6	CDS	596540	597097	.	-	0	HIMB1636_00629	HIMB1636	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1636_00634
+HIMB1636-00000000001	Prodigal:2.6	CDS	597100	597780	.	+	0	HIMB1636_00630	HIMB1636	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1636_00634
+HIMB1636-00000000001	Prodigal:2.6	CDS	597777	598190	.	-	0	HIMB1636_00631	HIMB1636	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1636_00634
+HIMB1636-00000000001	Prodigal:2.6	CDS	598249	598389	.	+	0	HIMB1636_00632	HIMB1636	46	OG0001116	NA	NA	NA	NA	NA	HIMB1636_00634
+HIMB1636-00000000001	Prodigal:2.6	CDS	598390	599040	.	-	0	HIMB1636_00633	HIMB1636	216	OG0000954	NA	NA	NA	NA	NA	HIMB1636_00634
+HIMB1636-00000000001	Prodigal:2.6	CDS	599116	599250	.	+	0	HIMB1636_00634	HIMB1636	44	OG0001222	NA	NA	NA	NA	NA	HIMB1636_00634
+HIMB1636-00000000001	Prodigal:2.6	CDS	599234	600238	.	-	0	HIMB1636_00635	HIMB1636	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1636_00634
+HIMB1636-00000000001	Prodigal:2.6	CDS	600240	601697	.	-	0	HIMB1636_00636	HIMB1636	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1636_00634
+HIMB1636-00000000001	Prodigal:2.6	CDS	601724	603058	.	-	0	HIMB1636_00637	HIMB1636	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1636_00634
+HIMB1636-00000000001	Prodigal:2.6	CDS	603058	603672	.	-	0	HIMB1636_00638	HIMB1636	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1636_00634
+HIMB1636-00000000001	Prodigal:2.6	CDS	603745	604839	.	-	0	HIMB1636_00639	HIMB1636	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1636_00634
+HIMB1702-00000000001	Prodigal:2.6	CDS	828334	829428	.	+	0	HIMB1702_00866	HIMB1702	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1702_00871
+HIMB1702-00000000001	Prodigal:2.6	CDS	829501	830115	.	+	0	HIMB1702_00867	HIMB1702	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1702_00871
+HIMB1702-00000000001	Prodigal:2.6	CDS	830115	831449	.	+	0	HIMB1702_00868	HIMB1702	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1702_00871
+HIMB1702-00000000001	Prodigal:2.6	CDS	831476	832933	.	+	0	HIMB1702_00869	HIMB1702	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1702_00871
+HIMB1702-00000000001	Prodigal:2.6	CDS	832935	833939	.	+	0	HIMB1702_00870	HIMB1702	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1702_00871
+HIMB1702-00000000001	Prodigal:2.6	CDS	833923	834057	.	-	0	HIMB1702_00871	HIMB1702	44	OG0001222	NA	NA	NA	NA	NA	HIMB1702_00871
+HIMB1702-00000000001	Prodigal:2.6	CDS	834133	834783	.	+	0	HIMB1702_00872	HIMB1702	216	OG0000954	NA	NA	NA	NA	NA	HIMB1702_00871
+HIMB1702-00000000001	Prodigal:2.6	CDS	834784	834924	.	-	0	HIMB1702_00873	HIMB1702	46	OG0001116	NA	NA	NA	NA	NA	HIMB1702_00871
+HIMB1702-00000000001	Prodigal:2.6	CDS	834983	835396	.	+	0	HIMB1702_00874	HIMB1702	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1702_00871
+HIMB1702-00000000001	Prodigal:2.6	CDS	835393	836073	.	-	0	HIMB1702_00875	HIMB1702	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1702_00871
+HIMB1702-00000000001	Prodigal:2.6	CDS	836076	836633	.	+	0	HIMB1702_00876	HIMB1702	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1702_00871
+HIMB1710-00000000003	Prodigal:2.6	CDS	807419	808513	.	+	0	HIMB1710_00861	HIMB1710	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1710_00866
+HIMB1710-00000000003	Prodigal:2.6	CDS	808586	809200	.	+	0	HIMB1710_00862	HIMB1710	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1710_00866
+HIMB1710-00000000003	Prodigal:2.6	CDS	809200	810534	.	+	0	HIMB1710_00863	HIMB1710	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1710_00866
+HIMB1710-00000000003	Prodigal:2.6	CDS	810561	812018	.	+	0	HIMB1710_00864	HIMB1710	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1710_00866
+HIMB1710-00000000003	Prodigal:2.6	CDS	812020	813024	.	+	0	HIMB1710_00865	HIMB1710	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1710_00866
+HIMB1710-00000000003	Prodigal:2.6	CDS	813008	813142	.	-	0	HIMB1710_00866	HIMB1710	44	OG0001222	NA	NA	NA	NA	NA	HIMB1710_00866
+HIMB1710-00000000003	Prodigal:2.6	CDS	813218	813868	.	+	0	HIMB1710_00867	HIMB1710	216	OG0000954	NA	NA	NA	NA	NA	HIMB1710_00866
+HIMB1710-00000000003	Prodigal:2.6	CDS	813869	814009	.	-	0	HIMB1710_00868	HIMB1710	46	OG0001116	NA	NA	NA	NA	NA	HIMB1710_00866
+HIMB1710-00000000003	Prodigal:2.6	CDS	814068	814481	.	+	0	HIMB1710_00869	HIMB1710	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1710_00866
+HIMB1710-00000000003	Prodigal:2.6	CDS	814478	815158	.	-	0	HIMB1710_00870	HIMB1710	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1710_00866
+HIMB1710-00000000003	Prodigal:2.6	CDS	815161	815718	.	+	0	HIMB1710_00871	HIMB1710	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1710_00866
+HIMB1556-00000000001	Prodigal:2.6	CDS	1218442	1218999	.	-	0	HIMB1556_01279	HIMB1556	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1556_01284
+HIMB1556-00000000001	Prodigal:2.6	CDS	1219002	1219682	.	+	0	HIMB1556_01280	HIMB1556	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1556_01284
+HIMB1556-00000000001	Prodigal:2.6	CDS	1219679	1220092	.	-	0	HIMB1556_01281	HIMB1556	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1556_01284
+HIMB1556-00000000001	Prodigal:2.6	CDS	1220151	1220291	.	+	0	HIMB1556_01282	HIMB1556	46	OG0001116	NA	NA	NA	NA	NA	HIMB1556_01284
+HIMB1556-00000000001	Prodigal:2.6	CDS	1220292	1220942	.	-	0	HIMB1556_01283	HIMB1556	216	OG0000954	NA	NA	NA	NA	NA	HIMB1556_01284
+HIMB1556-00000000001	Prodigal:2.6	CDS	1221018	1221152	.	+	0	HIMB1556_01284	HIMB1556	44	OG0001222	NA	NA	NA	NA	NA	HIMB1556_01284
+HIMB1556-00000000001	Prodigal:2.6	CDS	1221136	1222140	.	-	0	HIMB1556_01285	HIMB1556	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1556_01284
+HIMB1556-00000000001	Prodigal:2.6	CDS	1222142	1223599	.	-	0	HIMB1556_01286	HIMB1556	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1556_01284
+HIMB1556-00000000001	Prodigal:2.6	CDS	1223626	1224960	.	-	0	HIMB1556_01287	HIMB1556	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1556_01284
+HIMB1556-00000000001	Prodigal:2.6	CDS	1224960	1225574	.	-	0	HIMB1556_01288	HIMB1556	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1556_01284
+HIMB1556-00000000001	Prodigal:2.6	CDS	1225647	1226741	.	-	0	HIMB1556_01289	HIMB1556	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1556_01284
+HIMB1748-00000000003	Prodigal:2.6	CDS	595087	595644	.	-	0	HIMB1748_01260	HIMB1748	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1748_01265
+HIMB1748-00000000003	Prodigal:2.6	CDS	595647	596327	.	+	0	HIMB1748_01261	HIMB1748	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1748_01265
+HIMB1748-00000000003	Prodigal:2.6	CDS	596324	596737	.	-	0	HIMB1748_01262	HIMB1748	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1748_01265
+HIMB1748-00000000003	Prodigal:2.6	CDS	596796	596936	.	+	0	HIMB1748_01263	HIMB1748	46	OG0001116	NA	NA	NA	NA	NA	HIMB1748_01265
+HIMB1748-00000000003	Prodigal:2.6	CDS	596937	597587	.	-	0	HIMB1748_01264	HIMB1748	216	OG0000954	NA	NA	NA	NA	NA	HIMB1748_01265
+HIMB1748-00000000003	Prodigal:2.6	CDS	597663	597797	.	+	0	HIMB1748_01265	HIMB1748	44	OG0001222	NA	NA	NA	NA	NA	HIMB1748_01265
+HIMB1748-00000000003	Prodigal:2.6	CDS	597781	598785	.	-	0	HIMB1748_01266	HIMB1748	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1748_01265
+HIMB1748-00000000003	Prodigal:2.6	CDS	598787	600244	.	-	0	HIMB1748_01267	HIMB1748	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1748_01265
+HIMB1748-00000000003	Prodigal:2.6	CDS	600271	601605	.	-	0	HIMB1748_01268	HIMB1748	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1748_01265
+HIMB1748-00000000003	Prodigal:2.6	CDS	601605	602219	.	-	0	HIMB1748_01269	HIMB1748	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1748_01265
+HIMB1748-00000000003	Prodigal:2.6	CDS	602292	603386	.	-	0	HIMB1748_01270	HIMB1748	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1748_01265
+HIMB1662-00000000001	Prodigal:2.6	CDS	1163492	1164049	.	-	0	HIMB1662_01233	HIMB1662	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1662_01238
+HIMB1662-00000000001	Prodigal:2.6	CDS	1164052	1164732	.	+	0	HIMB1662_01234	HIMB1662	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1662_01238
+HIMB1662-00000000001	Prodigal:2.6	CDS	1164725	1165141	.	-	0	HIMB1662_01235	HIMB1662	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1662_01238
+HIMB1662-00000000001	Prodigal:2.6	CDS	1165200	1165340	.	+	0	HIMB1662_01236	HIMB1662	46	OG0001116	NA	NA	NA	NA	NA	HIMB1662_01238
+HIMB1662-00000000001	Prodigal:2.6	CDS	1165341	1165991	.	-	0	HIMB1662_01237	HIMB1662	216	OG0000954	NA	NA	NA	NA	NA	HIMB1662_01238
+HIMB1662-00000000001	Prodigal:2.6	CDS	1166067	1166201	.	+	0	HIMB1662_01238	HIMB1662	44	OG0001222	NA	NA	NA	NA	NA	HIMB1662_01238
+HIMB1662-00000000001	Prodigal:2.6	CDS	1166185	1167189	.	-	0	HIMB1662_01239	HIMB1662	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1662_01238
+HIMB1662-00000000001	Prodigal:2.6	CDS	1167191	1168648	.	-	0	HIMB1662_01240	HIMB1662	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1662_01238
+HIMB1662-00000000001	Prodigal:2.6	CDS	1168675	1170009	.	-	0	HIMB1662_01241	HIMB1662	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1662_01238
+HIMB1662-00000000001	Prodigal:2.6	CDS	1170009	1170623	.	-	0	HIMB1662_01242	HIMB1662	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1662_01238
+HIMB1662-00000000001	Prodigal:2.6	CDS	1170696	1171208	.	-	0	HIMB1662_01243	HIMB1662	170	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1662_01238
+HIMB1723-00000000001	Prodigal:2.6	CDS	64835	65392	.	-	0	HIMB1723_00069	HIMB1723	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1723_00074
+HIMB1723-00000000001	Prodigal:2.6	CDS	65395	66075	.	+	0	HIMB1723_00070	HIMB1723	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1723_00074
+HIMB1723-00000000001	Prodigal:2.6	CDS	66072	66485	.	-	0	HIMB1723_00071	HIMB1723	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1723_00074
+HIMB1723-00000000001	Prodigal:2.6	CDS	66544	66684	.	+	0	HIMB1723_00072	HIMB1723	46	OG0001116	NA	NA	NA	NA	NA	HIMB1723_00074
+HIMB1723-00000000001	Prodigal:2.6	CDS	66685	67335	.	-	0	HIMB1723_00073	HIMB1723	216	OG0000954	NA	NA	NA	NA	NA	HIMB1723_00074
+HIMB1723-00000000001	Prodigal:2.6	CDS	67411	67545	.	+	0	HIMB1723_00074	HIMB1723	44	OG0001222	NA	NA	NA	NA	NA	HIMB1723_00074
+HIMB1723-00000000001	Prodigal:2.6	CDS	67529	68533	.	-	0	HIMB1723_00075	HIMB1723	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1723_00074
+HIMB1723-00000000001	Prodigal:2.6	CDS	68535	69992	.	-	0	HIMB1723_00076	HIMB1723	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1723_00074
+HIMB1723-00000000001	Prodigal:2.6	CDS	70019	71353	.	-	0	HIMB1723_00077	HIMB1723	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1723_00074
+HIMB1723-00000000001	Prodigal:2.6	CDS	71353	71967	.	-	0	HIMB1723_00078	HIMB1723	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1723_00074
+HIMB1723-00000000001	Prodigal:2.6	CDS	72038	73132	.	-	0	HIMB1723_00079	HIMB1723	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1723_00074
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	293225	293782	.	-	0	HIMB140_00343	HIMB140	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB140_00348
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	293785	294465	.	+	0	HIMB140_00344	HIMB140	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB140_00348
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	294458	294874	.	-	0	HIMB140_00345	HIMB140	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB140_00348
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	294933	295073	.	+	0	HIMB140_00346	HIMB140	46	OG0001116	NA	NA	NA	NA	NA	HIMB140_00348
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	295074	295724	.	-	0	HIMB140_00347	HIMB140	216	OG0000954	NA	NA	NA	NA	NA	HIMB140_00348
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	295800	295934	.	+	0	HIMB140_00348	HIMB140	44	OG0001222	NA	NA	NA	NA	NA	HIMB140_00348
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	295918	296922	.	-	0	HIMB140_00349	HIMB140	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB140_00348
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	296924	298381	.	-	0	HIMB140_00350	HIMB140	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB140_00348
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	298408	299742	.	-	0	HIMB140_00351	HIMB140	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB140_00348
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	299742	300356	.	-	0	HIMB140_00352	HIMB140	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB140_00348
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	300429	301523	.	-	0	HIMB140_00353	HIMB140	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB140_00348
+HIMB1513-00000000001	Prodigal:2.6	CDS	1267477	1268034	.	-	0	HIMB1513_01335	HIMB1513	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1513_01340
+HIMB1513-00000000001	Prodigal:2.6	CDS	1268037	1268717	.	+	0	HIMB1513_01336	HIMB1513	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1513_01340
+HIMB1513-00000000001	Prodigal:2.6	CDS	1268710	1269126	.	-	0	HIMB1513_01337	HIMB1513	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1513_01340
+HIMB1513-00000000001	Prodigal:2.6	CDS	1269185	1269325	.	+	0	HIMB1513_01338	HIMB1513	46	OG0001116	NA	NA	NA	NA	NA	HIMB1513_01340
+HIMB1513-00000000001	Prodigal:2.6	CDS	1269326	1269976	.	-	0	HIMB1513_01339	HIMB1513	216	OG0000954	NA	NA	NA	NA	NA	HIMB1513_01340
+HIMB1513-00000000001	Prodigal:2.6	CDS	1270052	1270186	.	+	0	HIMB1513_01340	HIMB1513	44	OG0001222	NA	NA	NA	NA	NA	HIMB1513_01340
+HIMB1513-00000000001	Prodigal:2.6	CDS	1270170	1271174	.	-	0	HIMB1513_01341	HIMB1513	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1513_01340
+HIMB1513-00000000001	Prodigal:2.6	CDS	1271176	1272633	.	-	0	HIMB1513_01342	HIMB1513	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1513_01340
+HIMB1513-00000000001	Prodigal:2.6	CDS	1272660	1273994	.	-	0	HIMB1513_01343	HIMB1513	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1513_01340
+HIMB1513-00000000001	Prodigal:2.6	CDS	1273994	1274608	.	-	0	HIMB1513_01344	HIMB1513	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1513_01340
+HIMB1513-00000000001	Prodigal:2.6	CDS	1274679	1275773	.	-	0	HIMB1513_01345	HIMB1513	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1513_01340
+HIMB1521-00000000012	Prodigal:2.6	CDS	42124	43218	.	+	0	HIMB1521_01219	HIMB1521	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1521_01224
+HIMB1521-00000000012	Prodigal:2.6	CDS	43289	43903	.	+	0	HIMB1521_01220	HIMB1521	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1521_01224
+HIMB1521-00000000012	Prodigal:2.6	CDS	43903	45237	.	+	0	HIMB1521_01221	HIMB1521	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1521_01224
+HIMB1521-00000000012	Prodigal:2.6	CDS	45264	46721	.	+	0	HIMB1521_01222	HIMB1521	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1521_01224
+HIMB1521-00000000012	Prodigal:2.6	CDS	46723	47727	.	+	0	HIMB1521_01223	HIMB1521	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1521_01224
+HIMB1521-00000000012	Prodigal:2.6	CDS	47711	47845	.	-	0	HIMB1521_01224	HIMB1521	44	OG0001222	NA	NA	NA	NA	NA	HIMB1521_01224
+HIMB1521-00000000012	Prodigal:2.6	CDS	47921	48571	.	+	0	HIMB1521_01225	HIMB1521	216	OG0000954	NA	NA	NA	NA	NA	HIMB1521_01224
+HIMB1521-00000000012	Prodigal:2.6	CDS	48572	48712	.	-	0	HIMB1521_01226	HIMB1521	46	OG0001116	NA	NA	NA	NA	NA	HIMB1521_01224
+HIMB1521-00000000012	Prodigal:2.6	CDS	48771	49187	.	+	0	HIMB1521_01227	HIMB1521	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1521_01224
+HIMB1521-00000000012	Prodigal:2.6	CDS	49180	49860	.	-	0	HIMB1521_01228	HIMB1521	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1521_01224
+HIMB1521-00000000012	Prodigal:2.6	CDS	49863	50420	.	+	0	HIMB1521_01229	HIMB1521	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1521_01224
+HIMB1430-00000000001	Prodigal:2.6	CDS	175589	176683	.	+	0	HIMB1430_00194	HIMB1430	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1430_00199
+HIMB1430-00000000001	Prodigal:2.6	CDS	176754	177368	.	+	0	HIMB1430_00195	HIMB1430	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1430_00199
+HIMB1430-00000000001	Prodigal:2.6	CDS	177368	178702	.	+	0	HIMB1430_00196	HIMB1430	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1430_00199
+HIMB1430-00000000001	Prodigal:2.6	CDS	178729	180186	.	+	0	HIMB1430_00197	HIMB1430	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1430_00199
+HIMB1430-00000000001	Prodigal:2.6	CDS	180188	181192	.	+	0	HIMB1430_00198	HIMB1430	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1430_00199
+HIMB1430-00000000001	Prodigal:2.6	CDS	181176	181310	.	-	0	HIMB1430_00199	HIMB1430	44	OG0001222	NA	NA	NA	NA	NA	HIMB1430_00199
+HIMB1430-00000000001	Prodigal:2.6	CDS	181386	182036	.	+	0	HIMB1430_00200	HIMB1430	216	OG0000954	NA	NA	NA	NA	NA	HIMB1430_00199
+HIMB1430-00000000001	Prodigal:2.6	CDS	182037	182177	.	-	0	HIMB1430_00201	HIMB1430	46	OG0001116	NA	NA	NA	NA	NA	HIMB1430_00199
+HIMB1430-00000000001	Prodigal:2.6	CDS	182236	182652	.	+	0	HIMB1430_00202	HIMB1430	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1430_00199
+HIMB1430-00000000001	Prodigal:2.6	CDS	182645	183325	.	-	0	HIMB1430_00203	HIMB1430	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1430_00199
+HIMB1430-00000000001	Prodigal:2.6	CDS	183328	183885	.	+	0	HIMB1430_00204	HIMB1430	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1430_00199
+HIMB1611-00000000001	Prodigal:2.6	CDS	610670	611227	.	-	0	HIMB1611_00686	HIMB1611	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1611_00691
+HIMB1611-00000000001	Prodigal:2.6	CDS	611230	611910	.	+	0	HIMB1611_00687	HIMB1611	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1611_00691
+HIMB1611-00000000001	Prodigal:2.6	CDS	611903	612319	.	-	0	HIMB1611_00688	HIMB1611	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1611_00691
+HIMB1611-00000000001	Prodigal:2.6	CDS	612378	612518	.	+	0	HIMB1611_00689	HIMB1611	46	OG0001116	NA	NA	NA	NA	NA	HIMB1611_00691
+HIMB1611-00000000001	Prodigal:2.6	CDS	612519	613169	.	-	0	HIMB1611_00690	HIMB1611	216	OG0000954	NA	NA	NA	NA	NA	HIMB1611_00691
+HIMB1611-00000000001	Prodigal:2.6	CDS	613245	613379	.	+	0	HIMB1611_00691	HIMB1611	44	OG0001222	NA	NA	NA	NA	NA	HIMB1611_00691
+HIMB1611-00000000001	Prodigal:2.6	CDS	613363	614367	.	-	0	HIMB1611_00692	HIMB1611	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1611_00691
+HIMB1611-00000000001	Prodigal:2.6	CDS	614369	615826	.	-	0	HIMB1611_00693	HIMB1611	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1611_00691
+HIMB1611-00000000001	Prodigal:2.6	CDS	615853	617187	.	-	0	HIMB1611_00694	HIMB1611	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1611_00691
+HIMB1611-00000000001	Prodigal:2.6	CDS	617187	617801	.	-	0	HIMB1611_00695	HIMB1611	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1611_00691
+HIMB1611-00000000001	Prodigal:2.6	CDS	617872	618948	.	-	0	HIMB1611_00696	HIMB1611	358	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1611_00691
+HIMB1758-00000000001	Prodigal:2.6	CDS	1274759	1275316	.	-	0	HIMB1758_01360	HIMB1758	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1758_01365
+HIMB1758-00000000001	Prodigal:2.6	CDS	1275319	1275999	.	+	0	HIMB1758_01361	HIMB1758	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1758_01365
+HIMB1758-00000000001	Prodigal:2.6	CDS	1275992	1276408	.	-	0	HIMB1758_01362	HIMB1758	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1758_01365
+HIMB1758-00000000001	Prodigal:2.6	CDS	1276467	1276607	.	+	0	HIMB1758_01363	HIMB1758	46	OG0001116	NA	NA	NA	NA	NA	HIMB1758_01365
+HIMB1758-00000000001	Prodigal:2.6	CDS	1276608	1277258	.	-	0	HIMB1758_01364	HIMB1758	216	OG0000954	NA	NA	NA	NA	NA	HIMB1758_01365
+HIMB1758-00000000001	Prodigal:2.6	CDS	1277334	1277468	.	+	0	HIMB1758_01365	HIMB1758	44	OG0001222	NA	NA	NA	NA	NA	HIMB1758_01365
+HIMB1758-00000000001	Prodigal:2.6	CDS	1277452	1278456	.	-	0	HIMB1758_01366	HIMB1758	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1758_01365
+HIMB1758-00000000001	Prodigal:2.6	CDS	1278458	1279915	.	-	0	HIMB1758_01367	HIMB1758	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1758_01365
+HIMB1758-00000000001	Prodigal:2.6	CDS	1279942	1281276	.	-	0	HIMB1758_01368	HIMB1758	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1758_01365
+HIMB1758-00000000001	Prodigal:2.6	CDS	1281276	1281890	.	-	0	HIMB1758_01369	HIMB1758	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1758_01365
+HIMB1758-00000000001	Prodigal:2.6	CDS	1281961	1283055	.	-	0	HIMB1758_01370	HIMB1758	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1758_01365
+HIMB1488-00000000001	Prodigal:2.6	CDS	647740	648834	.	+	0	HIMB1488_00699	HIMB1488	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1488_00704
+HIMB1488-00000000001	Prodigal:2.6	CDS	648907	649521	.	+	0	HIMB1488_00700	HIMB1488	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1488_00704
+HIMB1488-00000000001	Prodigal:2.6	CDS	649521	650855	.	+	0	HIMB1488_00701	HIMB1488	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1488_00704
+HIMB1488-00000000001	Prodigal:2.6	CDS	650882	652339	.	+	0	HIMB1488_00702	HIMB1488	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1488_00704
+HIMB1488-00000000001	Prodigal:2.6	CDS	652341	653345	.	+	0	HIMB1488_00703	HIMB1488	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1488_00704
+HIMB1488-00000000001	Prodigal:2.6	CDS	653329	653463	.	-	0	HIMB1488_00704	HIMB1488	44	OG0001222	NA	NA	NA	NA	NA	HIMB1488_00704
+HIMB1488-00000000001	Prodigal:2.6	CDS	653539	654189	.	+	0	HIMB1488_00705	HIMB1488	216	OG0000954	NA	NA	NA	NA	NA	HIMB1488_00704
+HIMB1488-00000000001	Prodigal:2.6	CDS	654190	654330	.	-	0	HIMB1488_00706	HIMB1488	46	OG0001116	NA	NA	NA	NA	NA	HIMB1488_00704
+HIMB1488-00000000001	Prodigal:2.6	CDS	654389	654802	.	+	0	HIMB1488_00707	HIMB1488	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1488_00704
+HIMB1488-00000000001	Prodigal:2.6	CDS	654799	655479	.	-	0	HIMB1488_00708	HIMB1488	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1488_00704
+HIMB1488-00000000001	Prodigal:2.6	CDS	655482	656039	.	+	0	HIMB1488_00709	HIMB1488	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1488_00704
+HIMB1506-00000000001	Prodigal:2.6	CDS	624701	625258	.	-	0	HIMB1506_00681	HIMB1506	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1506_00686
+HIMB1506-00000000001	Prodigal:2.6	CDS	625261	625941	.	+	0	HIMB1506_00682	HIMB1506	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1506_00686
+HIMB1506-00000000001	Prodigal:2.6	CDS	625938	626351	.	-	0	HIMB1506_00683	HIMB1506	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1506_00686
+HIMB1506-00000000001	Prodigal:2.6	CDS	626410	626550	.	+	0	HIMB1506_00684	HIMB1506	46	OG0001116	NA	NA	NA	NA	NA	HIMB1506_00686
+HIMB1506-00000000001	Prodigal:2.6	CDS	626551	627201	.	-	0	HIMB1506_00685	HIMB1506	216	OG0000954	NA	NA	NA	NA	NA	HIMB1506_00686
+HIMB1506-00000000001	Prodigal:2.6	CDS	627277	627411	.	+	0	HIMB1506_00686	HIMB1506	44	OG0001222	NA	NA	NA	NA	NA	HIMB1506_00686
+HIMB1506-00000000001	Prodigal:2.6	CDS	627395	628399	.	-	0	HIMB1506_00687	HIMB1506	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1506_00686
+HIMB1506-00000000001	Prodigal:2.6	CDS	628401	629858	.	-	0	HIMB1506_00688	HIMB1506	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1506_00686
+HIMB1506-00000000001	Prodigal:2.6	CDS	629885	631219	.	-	0	HIMB1506_00689	HIMB1506	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1506_00686
+HIMB1506-00000000001	Prodigal:2.6	CDS	631219	631833	.	-	0	HIMB1506_00690	HIMB1506	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1506_00686
+HIMB1506-00000000001	Prodigal:2.6	CDS	631905	632999	.	-	0	HIMB1506_00691	HIMB1506	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1506_00686
+HIMB2211-00000000001	Prodigal:2.6	CDS	587918	588475	.	-	0	HIMB2211_00639	HIMB2211	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB2211_00644
+HIMB2211-00000000001	Prodigal:2.6	CDS	588478	589158	.	+	0	HIMB2211_00640	HIMB2211	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB2211_00644
+HIMB2211-00000000001	Prodigal:2.6	CDS	589155	589568	.	-	0	HIMB2211_00641	HIMB2211	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB2211_00644
+HIMB2211-00000000001	Prodigal:2.6	CDS	589627	589767	.	+	0	HIMB2211_00642	HIMB2211	46	OG0001116	NA	NA	NA	NA	NA	HIMB2211_00644
+HIMB2211-00000000001	Prodigal:2.6	CDS	589768	590418	.	-	0	HIMB2211_00643	HIMB2211	216	OG0000954	NA	NA	NA	NA	NA	HIMB2211_00644
+HIMB2211-00000000001	Prodigal:2.6	CDS	590494	590628	.	+	0	HIMB2211_00644	HIMB2211	44	OG0001222	NA	NA	NA	NA	NA	HIMB2211_00644
+HIMB2211-00000000001	Prodigal:2.6	CDS	590612	591616	.	-	0	HIMB2211_00645	HIMB2211	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB2211_00644
+HIMB2211-00000000001	Prodigal:2.6	CDS	591618	593075	.	-	0	HIMB2211_00646	HIMB2211	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB2211_00644
+HIMB2211-00000000001	Prodigal:2.6	CDS	593102	594436	.	-	0	HIMB2211_00647	HIMB2211	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB2211_00644
+HIMB2211-00000000001	Prodigal:2.6	CDS	594436	595050	.	-	0	HIMB2211_00648	HIMB2211	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB2211_00644
+HIMB2211-00000000001	Prodigal:2.6	CDS	595122	596216	.	-	0	HIMB2211_00649	HIMB2211	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB2211_00644
+HIMB1746-00000000003	Prodigal:2.6	CDS	129041	129598	.	-	0	HIMB1746_00941	HIMB1746	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1746_00946
+HIMB1746-00000000003	Prodigal:2.6	CDS	129601	130281	.	+	0	HIMB1746_00942	HIMB1746	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1746_00946
+HIMB1746-00000000003	Prodigal:2.6	CDS	130278	130691	.	-	0	HIMB1746_00943	HIMB1746	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1746_00946
+HIMB1746-00000000003	Prodigal:2.6	CDS	130750	130890	.	+	0	HIMB1746_00944	HIMB1746	46	OG0001116	NA	NA	NA	NA	NA	HIMB1746_00946
+HIMB1746-00000000003	Prodigal:2.6	CDS	130891	131541	.	-	0	HIMB1746_00945	HIMB1746	216	OG0000954	NA	NA	NA	NA	NA	HIMB1746_00946
+HIMB1746-00000000003	Prodigal:2.6	CDS	131617	131751	.	+	0	HIMB1746_00946	HIMB1746	44	OG0001222	NA	NA	NA	NA	NA	HIMB1746_00946
+HIMB1746-00000000003	Prodigal:2.6	CDS	131735	132739	.	-	0	HIMB1746_00947	HIMB1746	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1746_00946
+HIMB1746-00000000003	Prodigal:2.6	CDS	132741	134198	.	-	0	HIMB1746_00948	HIMB1746	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1746_00946
+HIMB1746-00000000003	Prodigal:2.6	CDS	134225	135559	.	-	0	HIMB1746_00949	HIMB1746	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1746_00946
+HIMB1746-00000000003	Prodigal:2.6	CDS	135559	136173	.	-	0	HIMB1746_00950	HIMB1746	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1746_00946
+HIMB1746-00000000003	Prodigal:2.6	CDS	136245	137339	.	-	0	HIMB1746_00951	HIMB1746	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1746_00946
+HIMB1542-00000000001	Prodigal:2.6	CDS	600025	600582	.	-	0	HIMB1542_00656	HIMB1542	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1542_00661
+HIMB1542-00000000001	Prodigal:2.6	CDS	600585	601265	.	+	0	HIMB1542_00657	HIMB1542	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1542_00661
+HIMB1542-00000000001	Prodigal:2.6	CDS	601258	601674	.	-	0	HIMB1542_00658	HIMB1542	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1542_00661
+HIMB1542-00000000001	Prodigal:2.6	CDS	601733	601873	.	+	0	HIMB1542_00659	HIMB1542	46	OG0001116	NA	NA	NA	NA	NA	HIMB1542_00661
+HIMB1542-00000000001	Prodigal:2.6	CDS	601874	602524	.	-	0	HIMB1542_00660	HIMB1542	216	OG0000954	NA	NA	NA	NA	NA	HIMB1542_00661
+HIMB1542-00000000001	Prodigal:2.6	CDS	602600	602734	.	+	0	HIMB1542_00661	HIMB1542	44	OG0001222	NA	NA	NA	NA	NA	HIMB1542_00661
+HIMB1542-00000000001	Prodigal:2.6	CDS	602718	603722	.	-	0	HIMB1542_00662	HIMB1542	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1542_00661
+HIMB1542-00000000001	Prodigal:2.6	CDS	603724	605181	.	-	0	HIMB1542_00663	HIMB1542	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1542_00661
+HIMB1542-00000000001	Prodigal:2.6	CDS	605207	606541	.	-	0	HIMB1542_00664	HIMB1542	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1542_00661
+HIMB1542-00000000001	Prodigal:2.6	CDS	606541	607155	.	-	0	HIMB1542_00665	HIMB1542	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1542_00661
+HIMB1542-00000000001	Prodigal:2.6	CDS	607228	608322	.	-	0	HIMB1542_00666	HIMB1542	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1542_00661
+HIMB1577-00000000001	Prodigal:2.6	CDS	1303532	1304626	.	+	0	HIMB1577_01390	HIMB1577	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1577_01395
+HIMB1577-00000000001	Prodigal:2.6	CDS	1304698	1305312	.	+	0	HIMB1577_01391	HIMB1577	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1577_01395
+HIMB1577-00000000001	Prodigal:2.6	CDS	1305312	1306646	.	+	0	HIMB1577_01392	HIMB1577	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1577_01395
+HIMB1577-00000000001	Prodigal:2.6	CDS	1306673	1308130	.	+	0	HIMB1577_01393	HIMB1577	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1577_01395
+HIMB1577-00000000001	Prodigal:2.6	CDS	1308132	1309136	.	+	0	HIMB1577_01394	HIMB1577	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1577_01395
+HIMB1577-00000000001	Prodigal:2.6	CDS	1309120	1309254	.	-	0	HIMB1577_01395	HIMB1577	44	OG0001222	NA	NA	NA	NA	NA	HIMB1577_01395
+HIMB1577-00000000001	Prodigal:2.6	CDS	1309330	1309980	.	+	0	HIMB1577_01396	HIMB1577	216	OG0000954	NA	NA	NA	NA	NA	HIMB1577_01395
+HIMB1577-00000000001	Prodigal:2.6	CDS	1309981	1310121	.	-	0	HIMB1577_01397	HIMB1577	46	OG0001116	NA	NA	NA	NA	NA	HIMB1577_01395
+HIMB1577-00000000001	Prodigal:2.6	CDS	1310180	1310593	.	+	0	HIMB1577_01398	HIMB1577	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1577_01395
+HIMB1577-00000000001	Prodigal:2.6	CDS	1310590	1311270	.	-	0	HIMB1577_01399	HIMB1577	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1577_01395
+HIMB1577-00000000001	Prodigal:2.6	CDS	1311273	1311830	.	+	0	HIMB1577_01400	HIMB1577	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1577_01395
+HIMB1631-00000000001	Prodigal:2.6	CDS	188820	189914	.	+	0	HIMB1631_00211	HIMB1631	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1631_00216
+HIMB1631-00000000001	Prodigal:2.6	CDS	189986	190600	.	+	0	HIMB1631_00212	HIMB1631	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1631_00216
+HIMB1631-00000000001	Prodigal:2.6	CDS	190600	191934	.	+	0	HIMB1631_00213	HIMB1631	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1631_00216
+HIMB1631-00000000001	Prodigal:2.6	CDS	191961	193418	.	+	0	HIMB1631_00214	HIMB1631	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1631_00216
+HIMB1631-00000000001	Prodigal:2.6	CDS	193420	194424	.	+	0	HIMB1631_00215	HIMB1631	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1631_00216
+HIMB1631-00000000001	Prodigal:2.6	CDS	194408	194542	.	-	0	HIMB1631_00216	HIMB1631	44	OG0001222	NA	NA	NA	NA	NA	HIMB1631_00216
+HIMB1631-00000000001	Prodigal:2.6	CDS	194618	195268	.	+	0	HIMB1631_00217	HIMB1631	216	OG0000954	NA	NA	NA	NA	NA	HIMB1631_00216
+HIMB1631-00000000001	Prodigal:2.6	CDS	195269	195409	.	-	0	HIMB1631_00218	HIMB1631	46	OG0001116	NA	NA	NA	NA	NA	HIMB1631_00216
+HIMB1631-00000000001	Prodigal:2.6	CDS	195468	195881	.	+	0	HIMB1631_00219	HIMB1631	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1631_00216
+HIMB1631-00000000001	Prodigal:2.6	CDS	195878	196558	.	-	0	HIMB1631_00220	HIMB1631	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1631_00216
+HIMB1631-00000000001	Prodigal:2.6	CDS	196561	197118	.	+	0	HIMB1631_00221	HIMB1631	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1631_00216
+HIMB1715-00000000017	Prodigal:2.6	CDS	27853	28947	.	+	0	HIMB1715_01020	HIMB1715	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1715_01025
+HIMB1715-00000000017	Prodigal:2.6	CDS	29019	29633	.	+	0	HIMB1715_01021	HIMB1715	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1715_01025
+HIMB1715-00000000017	Prodigal:2.6	CDS	29633	30967	.	+	0	HIMB1715_01022	HIMB1715	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1715_01025
+HIMB1715-00000000017	Prodigal:2.6	CDS	30993	32450	.	+	0	HIMB1715_01023	HIMB1715	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1715_01025
+HIMB1715-00000000017	Prodigal:2.6	CDS	32452	33456	.	+	0	HIMB1715_01024	HIMB1715	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1715_01025
+HIMB1715-00000000017	Prodigal:2.6	CDS	33440	33574	.	-	0	HIMB1715_01025	HIMB1715	44	OG0001222	NA	NA	NA	NA	NA	HIMB1715_01025
+HIMB1715-00000000017	Prodigal:2.6	CDS	33650	34300	.	+	0	HIMB1715_01026	HIMB1715	216	OG0000954	NA	NA	NA	NA	NA	HIMB1715_01025
+HIMB1715-00000000017	Prodigal:2.6	CDS	34301	34441	.	-	0	HIMB1715_01027	HIMB1715	46	OG0001116	NA	NA	NA	NA	NA	HIMB1715_01025
+HIMB1715-00000000017	Prodigal:2.6	CDS	34500	34916	.	+	0	HIMB1715_01028	HIMB1715	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1715_01025
+HIMB1715-00000000017	Prodigal:2.6	CDS	34909	35589	.	-	0	HIMB1715_01029	HIMB1715	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1715_01025
+HIMB1715-00000000017	Prodigal:2.6	CDS	35592	36149	.	+	0	HIMB1715_01030	HIMB1715	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1715_01025
+HIMB1701-00000000001	Prodigal:2.6	CDS	294646	295320	.	+	0	HIMB1701_00341	HIMB1701	224	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1701_00346
+HIMB1701-00000000001	Prodigal:2.6	CDS	295315	296436	.	-	0	HIMB1701_00342	HIMB1701	373	OG0002205	NA	NA	NA	NA	NA	HIMB1701_00346
+HIMB1701-00000000001	Prodigal:2.6	CDS	296460	296873	.	-	0	HIMB1701_00343	HIMB1701	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1701_00346
+HIMB1701-00000000001	Prodigal:2.6	CDS	296932	297072	.	+	0	HIMB1701_00344	HIMB1701	46	OG0001116	NA	NA	NA	NA	NA	HIMB1701_00346
+HIMB1701-00000000001	Prodigal:2.6	CDS	297073	297723	.	-	0	HIMB1701_00345	HIMB1701	216	OG0000954	NA	NA	NA	NA	NA	HIMB1701_00346
+HIMB1701-00000000001	Prodigal:2.6	CDS	297799	297933	.	+	0	HIMB1701_00346	HIMB1701	44	OG0001222	NA	NA	NA	NA	NA	HIMB1701_00346
+HIMB1701-00000000001	Prodigal:2.6	CDS	297917	298921	.	-	0	HIMB1701_00347	HIMB1701	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1701_00346
+HIMB1701-00000000001	Prodigal:2.6	CDS	298923	300380	.	-	0	HIMB1701_00348	HIMB1701	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1701_00346
+HIMB1701-00000000001	Prodigal:2.6	CDS	300407	301741	.	-	0	HIMB1701_00349	HIMB1701	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1701_00346
+HIMB1701-00000000001	Prodigal:2.6	CDS	301741	302355	.	-	0	HIMB1701_00350	HIMB1701	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1701_00346
+HIMB1701-00000000001	Prodigal:2.6	CDS	302428	303522	.	-	0	HIMB1701_00351	HIMB1701	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1701_00346
+HIMB1782-00000000001	Prodigal:2.6	CDS	35489	36163	.	+	0	HIMB1782_00040	HIMB1782	224	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1782_00045
+HIMB1782-00000000001	Prodigal:2.6	CDS	36158	37279	.	-	0	HIMB1782_00041	HIMB1782	373	OG0002205	NA	NA	NA	NA	NA	HIMB1782_00045
+HIMB1782-00000000001	Prodigal:2.6	CDS	37303	37716	.	-	0	HIMB1782_00042	HIMB1782	137	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1782_00045
+HIMB1782-00000000001	Prodigal:2.6	CDS	37775	37915	.	+	0	HIMB1782_00043	HIMB1782	46	OG0001116	NA	NA	NA	NA	NA	HIMB1782_00045
+HIMB1782-00000000001	Prodigal:2.6	CDS	37916	38566	.	-	0	HIMB1782_00044	HIMB1782	216	OG0000954	NA	NA	NA	NA	NA	HIMB1782_00045
+HIMB1782-00000000001	Prodigal:2.6	CDS	38642	38776	.	+	0	HIMB1782_00045	HIMB1782	44	OG0001222	NA	NA	NA	NA	NA	HIMB1782_00045
+HIMB1782-00000000001	Prodigal:2.6	CDS	38760	39764	.	-	0	HIMB1782_00046	HIMB1782	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1782_00045
+HIMB1782-00000000001	Prodigal:2.6	CDS	39766	41223	.	-	0	HIMB1782_00047	HIMB1782	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1782_00045
+HIMB1782-00000000001	Prodigal:2.6	CDS	41250	42584	.	-	0	HIMB1782_00048	HIMB1782	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1782_00045
+HIMB1782-00000000001	Prodigal:2.6	CDS	42584	43198	.	-	0	HIMB1782_00049	HIMB1782	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1782_00045
+HIMB1782-00000000001	Prodigal:2.6	CDS	43271	44365	.	-	0	HIMB1782_00050	HIMB1782	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1782_00045
+HIMB1623-00000000004	Prodigal:2.6	CDS	5808	6902	.	+	0	HIMB1623_00448	HIMB1623	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1623_00453
+HIMB1623-00000000004	Prodigal:2.6	CDS	6974	7588	.	+	0	HIMB1623_00449	HIMB1623	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1623_00453
+HIMB1623-00000000004	Prodigal:2.6	CDS	7589	8923	.	+	0	HIMB1623_00450	HIMB1623	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1623_00453
+HIMB1623-00000000004	Prodigal:2.6	CDS	8950	10407	.	+	0	HIMB1623_00451	HIMB1623	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1623_00453
+HIMB1623-00000000004	Prodigal:2.6	CDS	10409	11413	.	+	0	HIMB1623_00452	HIMB1623	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1623_00453
+HIMB1623-00000000004	Prodigal:2.6	CDS	11397	11531	.	-	0	HIMB1623_00453	HIMB1623	44	OG0001222	NA	NA	NA	NA	NA	HIMB1623_00453
+HIMB1623-00000000004	Prodigal:2.6	CDS	11607	12257	.	+	0	HIMB1623_00454	HIMB1623	216	OG0000954	NA	NA	NA	NA	NA	HIMB1623_00453
+HIMB1623-00000000004	Prodigal:2.6	CDS	12258	12398	.	-	0	HIMB1623_00455	HIMB1623	46	OG0001116	NA	NA	NA	NA	NA	HIMB1623_00453
+HIMB1623-00000000004	Prodigal:2.6	CDS	12457	12873	.	+	0	HIMB1623_00456	HIMB1623	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1623_00453
+HIMB1623-00000000004	Prodigal:2.6	CDS	12866	13546	.	-	0	HIMB1623_00457	HIMB1623	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1623_00453
+HIMB1623-00000000004	Prodigal:2.6	CDS	13549	14106	.	+	0	HIMB1623_00458	HIMB1623	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1623_00453
+HIMB1709-00000000001	Prodigal:2.6	CDS	299334	299891	.	-	0	HIMB1709_00340	HIMB1709	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1709_00345
+HIMB1709-00000000001	Prodigal:2.6	CDS	299894	300574	.	+	0	HIMB1709_00341	HIMB1709	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1709_00345
+HIMB1709-00000000001	Prodigal:2.6	CDS	300567	300983	.	-	0	HIMB1709_00342	HIMB1709	138	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1709_00345
+HIMB1709-00000000001	Prodigal:2.6	CDS	301042	301182	.	+	0	HIMB1709_00343	HIMB1709	46	OG0001116	NA	NA	NA	NA	NA	HIMB1709_00345
+HIMB1709-00000000001	Prodigal:2.6	CDS	301183	301833	.	-	0	HIMB1709_00344	HIMB1709	216	OG0000954	NA	NA	NA	NA	NA	HIMB1709_00345
+HIMB1709-00000000001	Prodigal:2.6	CDS	301909	302043	.	+	0	HIMB1709_00345	HIMB1709	44	OG0001222	NA	NA	NA	NA	NA	HIMB1709_00345
+HIMB1709-00000000001	Prodigal:2.6	CDS	302027	303031	.	-	0	HIMB1709_00346	HIMB1709	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB1709_00345
+HIMB1709-00000000001	Prodigal:2.6	CDS	303033	304490	.	-	0	HIMB1709_00347	HIMB1709	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1709_00345
+HIMB1709-00000000001	Prodigal:2.6	CDS	304517	305851	.	-	0	HIMB1709_00348	HIMB1709	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1709_00345
+HIMB1709-00000000001	Prodigal:2.6	CDS	305852	306466	.	-	0	HIMB1709_00349	HIMB1709	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1709_00345
+HIMB1709-00000000001	Prodigal:2.6	CDS	306538	307632	.	-	0	HIMB1709_00350	HIMB1709	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1709_00345
+HIMB1863-00000000003	Prodigal:2.6	CDS	35968	36093	.	-	0	HIMB1863_00420	HIMB1863	41	OG0001140	NA	NA	NA	NA	NA	HIMB1863_00425
+HIMB1863-00000000003	Prodigal:2.6	CDS	36099	36656	.	-	0	HIMB1863_00421	HIMB1863	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1863_00425
+HIMB1863-00000000003	Prodigal:2.6	CDS	36659	37339	.	+	0	HIMB1863_00422	HIMB1863	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1863_00425
+HIMB1863-00000000003	Prodigal:2.6	CDS	37329	37751	.	-	0	HIMB1863_00423	HIMB1863	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1863_00425
+HIMB1863-00000000003	Prodigal:2.6	CDS	37776	38426	.	-	0	HIMB1863_00424	HIMB1863	216	OG0000954	NA	NA	NA	NA	NA	HIMB1863_00425
+HIMB1863-00000000003	Prodigal:2.6	CDS	38510	38647	.	+	0	HIMB1863_00425	HIMB1863	45	OG0001222	NA	NA	NA	NA	NA	HIMB1863_00425
+HIMB1863-00000000003	Prodigal:2.6	CDS	38644	39396	.	-	0	HIMB1863_00426	HIMB1863	250	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1863_00425
+HIMB1863-00000000003	Prodigal:2.6	CDS	39401	40858	.	-	0	HIMB1863_00427	HIMB1863	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1863_00425
+HIMB1863-00000000003	Prodigal:2.6	CDS	40884	42218	.	-	0	HIMB1863_00428	HIMB1863	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1863_00425
+HIMB1863-00000000003	Prodigal:2.6	CDS	42215	42829	.	-	0	HIMB1863_00429	HIMB1863	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1863_00425
+HIMB1863-00000000003	Prodigal:2.6	CDS	42899	43993	.	-	0	HIMB1863_00430	HIMB1863	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1863_00425
+HIMB2104-00000000006	Prodigal:2.6	CDS	35841	35966	.	-	0	HIMB2104_00911	HIMB2104	41	OG0001140	NA	NA	NA	NA	NA	HIMB2104_00916
+HIMB2104-00000000006	Prodigal:2.6	CDS	35972	36529	.	-	0	HIMB2104_00912	HIMB2104	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB2104_00916
+HIMB2104-00000000006	Prodigal:2.6	CDS	36532	37212	.	+	0	HIMB2104_00913	HIMB2104	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB2104_00916
+HIMB2104-00000000006	Prodigal:2.6	CDS	37202	37624	.	-	0	HIMB2104_00914	HIMB2104	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB2104_00916
+HIMB2104-00000000006	Prodigal:2.6	CDS	37649	38299	.	-	0	HIMB2104_00915	HIMB2104	216	OG0000954	NA	NA	NA	NA	NA	HIMB2104_00916
+HIMB2104-00000000006	Prodigal:2.6	CDS	38383	38520	.	+	0	HIMB2104_00916	HIMB2104	45	OG0001222	NA	NA	NA	NA	NA	HIMB2104_00916
+HIMB2104-00000000006	Prodigal:2.6	CDS	38517	39269	.	-	0	HIMB2104_00917	HIMB2104	250	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2104_00916
+HIMB2104-00000000006	Prodigal:2.6	CDS	39274	40731	.	-	0	HIMB2104_00918	HIMB2104	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB2104_00916
+HIMB2104-00000000006	Prodigal:2.6	CDS	40757	42091	.	-	0	HIMB2104_00919	HIMB2104	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB2104_00916
+HIMB2104-00000000006	Prodigal:2.6	CDS	42088	42702	.	-	0	HIMB2104_00920	HIMB2104	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB2104_00916
+HIMB2104-00000000006	Prodigal:2.6	CDS	42772	43866	.	-	0	HIMB2104_00921	HIMB2104	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB2104_00916
+HIMB2200-00000000004	Prodigal:2.6	CDS	48202	48327	.	-	0	HIMB2200_00502	HIMB2200	41	OG0001140	NA	NA	NA	NA	NA	HIMB2200_00507
+HIMB2200-00000000004	Prodigal:2.6	CDS	48333	48890	.	-	0	HIMB2200_00503	HIMB2200	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB2200_00507
+HIMB2200-00000000004	Prodigal:2.6	CDS	48893	49573	.	+	0	HIMB2200_00504	HIMB2200	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB2200_00507
+HIMB2200-00000000004	Prodigal:2.6	CDS	49563	49985	.	-	0	HIMB2200_00505	HIMB2200	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB2200_00507
+HIMB2200-00000000004	Prodigal:2.6	CDS	50010	50660	.	-	0	HIMB2200_00506	HIMB2200	216	OG0000954	NA	NA	NA	NA	NA	HIMB2200_00507
+HIMB2200-00000000004	Prodigal:2.6	CDS	50744	50881	.	+	0	HIMB2200_00507	HIMB2200	45	OG0001222	NA	NA	NA	NA	NA	HIMB2200_00507
+HIMB2200-00000000004	Prodigal:2.6	CDS	50878	51630	.	-	0	HIMB2200_00508	HIMB2200	250	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2200_00507
+HIMB2200-00000000004	Prodigal:2.6	CDS	51635	53092	.	-	0	HIMB2200_00509	HIMB2200	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB2200_00507
+HIMB2200-00000000004	Prodigal:2.6	CDS	53118	54452	.	-	0	HIMB2200_00510	HIMB2200	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB2200_00507
+HIMB2200-00000000004	Prodigal:2.6	CDS	54449	55063	.	-	0	HIMB2200_00511	HIMB2200	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB2200_00507
+HIMB2200-00000000004	Prodigal:2.6	CDS	55133	56227	.	-	0	HIMB2200_00512	HIMB2200	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB2200_00507
+HIMB2215-00000000005	Prodigal:2.6	CDS	88805	89899	.	+	0	HIMB2215_00933	HIMB2215	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB2215_00938
+HIMB2215-00000000005	Prodigal:2.6	CDS	89969	90583	.	+	0	HIMB2215_00934	HIMB2215	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB2215_00938
+HIMB2215-00000000005	Prodigal:2.6	CDS	90580	91914	.	+	0	HIMB2215_00935	HIMB2215	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB2215_00938
+HIMB2215-00000000005	Prodigal:2.6	CDS	91940	93397	.	+	0	HIMB2215_00936	HIMB2215	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB2215_00938
+HIMB2215-00000000005	Prodigal:2.6	CDS	93402	94154	.	+	0	HIMB2215_00937	HIMB2215	250	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2215_00938
+HIMB2215-00000000005	Prodigal:2.6	CDS	94151	94243	.	-	0	HIMB2215_00938	HIMB2215	30	OG0001222	NA	NA	NA	NA	NA	HIMB2215_00938
+HIMB2215-00000000005	Prodigal:2.6	CDS	94372	95022	.	+	0	HIMB2215_00939	HIMB2215	216	OG0000954	NA	NA	NA	NA	NA	HIMB2215_00938
+HIMB2215-00000000005	Prodigal:2.6	CDS	95047	95469	.	+	0	HIMB2215_00940	HIMB2215	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB2215_00938
+HIMB2215-00000000005	Prodigal:2.6	CDS	95459	96139	.	-	0	HIMB2215_00941	HIMB2215	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB2215_00938
+HIMB2215-00000000005	Prodigal:2.6	CDS	96142	96699	.	+	0	HIMB2215_00942	HIMB2215	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB2215_00938
+HIMB2215-00000000005	Prodigal:2.6	CDS	96706	97638	.	+	0	HIMB2215_00943	HIMB2215	310	OG0000075	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB2215_00938
+HIMB2204-00000000001	Prodigal:2.6	CDS	134201	134326	.	-	0	HIMB2204_00150	HIMB2204	41	OG0001140	NA	NA	NA	NA	NA	HIMB2204_00155
+HIMB2204-00000000001	Prodigal:2.6	CDS	134332	134889	.	-	0	HIMB2204_00151	HIMB2204	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB2204_00155
+HIMB2204-00000000001	Prodigal:2.6	CDS	134892	135572	.	+	0	HIMB2204_00152	HIMB2204	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB2204_00155
+HIMB2204-00000000001	Prodigal:2.6	CDS	135562	135984	.	-	0	HIMB2204_00153	HIMB2204	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB2204_00155
+HIMB2204-00000000001	Prodigal:2.6	CDS	136009	136659	.	-	0	HIMB2204_00154	HIMB2204	216	OG0000954	NA	NA	NA	NA	NA	HIMB2204_00155
+HIMB2204-00000000001	Prodigal:2.6	CDS	136788	136880	.	+	0	HIMB2204_00155	HIMB2204	30	OG0001222	NA	NA	NA	NA	NA	HIMB2204_00155
+HIMB2204-00000000001	Prodigal:2.6	CDS	136877	137629	.	-	0	HIMB2204_00156	HIMB2204	250	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2204_00155
+HIMB2204-00000000001	Prodigal:2.6	CDS	137634	139091	.	-	0	HIMB2204_00157	HIMB2204	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB2204_00155
+HIMB2204-00000000001	Prodigal:2.6	CDS	139117	140451	.	-	0	HIMB2204_00158	HIMB2204	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB2204_00155
+HIMB2204-00000000001	Prodigal:2.6	CDS	140448	141062	.	-	0	HIMB2204_00159	HIMB2204	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB2204_00155
+HIMB2204-00000000001	Prodigal:2.6	CDS	141132	142226	.	-	0	HIMB2204_00160	HIMB2204	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB2204_00155
+HIMB1402-00000000003	Prodigal:2.6	CDS	116709	117641	.	-	0	HIMB1402_00741	HIMB1402	310	OG0000075	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1402_00746
+HIMB1402-00000000003	Prodigal:2.6	CDS	117648	118205	.	-	0	HIMB1402_00742	HIMB1402	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1402_00746
+HIMB1402-00000000003	Prodigal:2.6	CDS	118208	118888	.	+	0	HIMB1402_00743	HIMB1402	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1402_00746
+HIMB1402-00000000003	Prodigal:2.6	CDS	118878	119300	.	-	0	HIMB1402_00744	HIMB1402	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1402_00746
+HIMB1402-00000000003	Prodigal:2.6	CDS	119325	119975	.	-	0	HIMB1402_00745	HIMB1402	216	OG0000954	NA	NA	NA	NA	NA	HIMB1402_00746
+HIMB1402-00000000003	Prodigal:2.6	CDS	120104	120196	.	+	0	HIMB1402_00746	HIMB1402	30	OG0001222	NA	NA	NA	NA	NA	HIMB1402_00746
+HIMB1402-00000000003	Prodigal:2.6	CDS	120193	120945	.	-	0	HIMB1402_00747	HIMB1402	250	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1402_00746
+HIMB1402-00000000003	Prodigal:2.6	CDS	120950	122407	.	-	0	HIMB1402_00748	HIMB1402	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1402_00746
+HIMB1402-00000000003	Prodigal:2.6	CDS	122433	123767	.	-	0	HIMB1402_00749	HIMB1402	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1402_00746
+HIMB1402-00000000003	Prodigal:2.6	CDS	123764	124378	.	-	0	HIMB1402_00750	HIMB1402	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1402_00746
+HIMB1402-00000000003	Prodigal:2.6	CDS	124447	125541	.	-	0	HIMB1402_00751	HIMB1402	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1402_00746
+HIMB1838-00000000032	Prodigal:2.6	CDS	35851	35976	.	-	0	HIMB1838_00963	HIMB1838	41	OG0001140	NA	NA	NA	NA	NA	HIMB1838_00968
+HIMB1838-00000000032	Prodigal:2.6	CDS	35982	36539	.	-	0	HIMB1838_00964	HIMB1838	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1838_00968
+HIMB1838-00000000032	Prodigal:2.6	CDS	36542	37222	.	+	0	HIMB1838_00965	HIMB1838	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1838_00968
+HIMB1838-00000000032	Prodigal:2.6	CDS	37212	37634	.	-	0	HIMB1838_00966	HIMB1838	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1838_00968
+HIMB1838-00000000032	Prodigal:2.6	CDS	37659	38309	.	-	0	HIMB1838_00967	HIMB1838	216	OG0000954	NA	NA	NA	NA	NA	HIMB1838_00968
+HIMB1838-00000000032	Prodigal:2.6	CDS	38393	38530	.	+	0	HIMB1838_00968	HIMB1838	45	OG0001222	NA	NA	NA	NA	NA	HIMB1838_00968
+HIMB1838-00000000032	Prodigal:2.6	CDS	38527	39279	.	-	0	HIMB1838_00969	HIMB1838	250	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1838_00968
+HIMB1838-00000000032	Prodigal:2.6	CDS	39284	40741	.	-	0	HIMB1838_00970	HIMB1838	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1838_00968
+HIMB1838-00000000032	Prodigal:2.6	CDS	40767	42101	.	-	0	HIMB1838_00971	HIMB1838	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1838_00968
+HIMB1838-00000000032	Prodigal:2.6	CDS	42098	42712	.	-	0	HIMB1838_00972	HIMB1838	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1838_00968
+HIMB1838-00000000032	Prodigal:2.6	CDS	42781	43875	.	-	0	HIMB1838_00973	HIMB1838	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1838_00968
+HIMB1835-00000000010	Prodigal:2.6	CDS	12852	13946	.	+	0	HIMB1835_00117	HIMB1835	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1835_00122
+HIMB1835-00000000010	Prodigal:2.6	CDS	14016	14630	.	+	0	HIMB1835_00118	HIMB1835	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1835_00122
+HIMB1835-00000000010	Prodigal:2.6	CDS	14627	15961	.	+	0	HIMB1835_00119	HIMB1835	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1835_00122
+HIMB1835-00000000010	Prodigal:2.6	CDS	15987	17444	.	+	0	HIMB1835_00120	HIMB1835	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1835_00122
+HIMB1835-00000000010	Prodigal:2.6	CDS	17449	18201	.	+	0	HIMB1835_00121	HIMB1835	250	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1835_00122
+HIMB1835-00000000010	Prodigal:2.6	CDS	18198	18290	.	-	0	HIMB1835_00122	HIMB1835	30	OG0001222	NA	NA	NA	NA	NA	HIMB1835_00122
+HIMB1483-00000000002	Prodigal:2.6	CDS	597486	598580	.	+	0	HIMB1483_00761	HIMB1483	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1483_00766
+HIMB1483-00000000002	Prodigal:2.6	CDS	598651	599265	.	+	0	HIMB1483_00762	HIMB1483	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1483_00766
+HIMB1483-00000000002	Prodigal:2.6	CDS	599262	600596	.	+	0	HIMB1483_00763	HIMB1483	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1483_00766
+HIMB1483-00000000002	Prodigal:2.6	CDS	600622	602079	.	+	0	HIMB1483_00764	HIMB1483	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1483_00766
+HIMB1483-00000000002	Prodigal:2.6	CDS	602084	602836	.	+	0	HIMB1483_00765	HIMB1483	250	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1483_00766
+HIMB1483-00000000002	Prodigal:2.6	CDS	602833	602970	.	-	0	HIMB1483_00766	HIMB1483	45	OG0001222	NA	NA	NA	NA	NA	HIMB1483_00766
+HIMB1483-00000000002	Prodigal:2.6	CDS	603057	603707	.	+	0	HIMB1483_00767	HIMB1483	216	OG0000954	NA	NA	NA	NA	NA	HIMB1483_00766
+HIMB1483-00000000002	Prodigal:2.6	CDS	603708	603848	.	-	0	HIMB1483_00768	HIMB1483	46	OG0001116	NA	NA	NA	NA	NA	HIMB1483_00766
+HIMB1483-00000000002	Prodigal:2.6	CDS	603906	604328	.	+	0	HIMB1483_00769	HIMB1483	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1483_00766
+HIMB1483-00000000002	Prodigal:2.6	CDS	604318	604998	.	-	0	HIMB1483_00770	HIMB1483	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1483_00766
+HIMB1483-00000000002	Prodigal:2.6	CDS	605001	605558	.	+	0	HIMB1483_00771	HIMB1483	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1483_00766
+CP020777.1	Prodigal:2.6	CDS	526579	527673	.	+	0	RS39_00575	RS39	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	RS39_00580
+CP020777.1	Prodigal:2.6	CDS	527743	528363	.	+	0	RS39_00576	RS39	206	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	RS39_00580
+CP020777.1	Prodigal:2.6	CDS	528360	529694	.	+	0	RS39_00577	RS39	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	RS39_00580
+CP020777.1	Prodigal:2.6	CDS	529720	531177	.	+	0	RS39_00578	RS39	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	RS39_00580
+CP020777.1	Prodigal:2.6	CDS	531181	531933	.	+	0	RS39_00579	RS39	250	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	RS39_00580
+CP020777.1	Prodigal:2.6	CDS	531930	532067	.	-	0	RS39_00580	RS39	45	OG0001222	NA	NA	NA	NA	NA	RS39_00580
+CP020777.1	Prodigal:2.6	CDS	532151	532801	.	+	0	RS39_00581	RS39	216	OG0000954	NA	NA	NA	NA	NA	RS39_00580
+CP020777.1	Prodigal:2.6	CDS	532825	533247	.	+	0	RS39_00582	RS39	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	RS39_00580
+CP020777.1	Prodigal:2.6	CDS	533237	533917	.	-	0	RS39_00583	RS39	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	RS39_00580
+CP020777.1	Prodigal:2.6	CDS	533920	534477	.	+	0	RS39_00584	RS39	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	RS39_00580
+CP020777.1	Prodigal:2.6	CDS	534482	534607	.	+	0	RS39_00585	RS39	41	OG0001140	NA	NA	NA	NA	NA	RS39_00580
+HIMB1436-00000000002	Prodigal:2.6	CDS	233651	234208	.	-	0	HIMB1436_01050	HIMB1436	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB1436_01055
+HIMB1436-00000000002	Prodigal:2.6	CDS	234211	234891	.	+	0	HIMB1436_01051	HIMB1436	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB1436_01055
+HIMB1436-00000000002	Prodigal:2.6	CDS	234881	235303	.	-	0	HIMB1436_01052	HIMB1436	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB1436_01055
+HIMB1436-00000000002	Prodigal:2.6	CDS	235361	235501	.	+	0	HIMB1436_01053	HIMB1436	46	OG0001116	NA	NA	NA	NA	NA	HIMB1436_01055
+HIMB1436-00000000002	Prodigal:2.6	CDS	235502	236152	.	-	0	HIMB1436_01054	HIMB1436	216	OG0000954	NA	NA	NA	NA	NA	HIMB1436_01055
+HIMB1436-00000000002	Prodigal:2.6	CDS	236235	236372	.	+	0	HIMB1436_01055	HIMB1436	45	OG0001222	NA	NA	NA	NA	NA	HIMB1436_01055
+HIMB1436-00000000002	Prodigal:2.6	CDS	236369	237121	.	-	0	HIMB1436_01056	HIMB1436	250	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1436_01055
+HIMB1436-00000000002	Prodigal:2.6	CDS	237125	238582	.	-	0	HIMB1436_01057	HIMB1436	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1436_01055
+HIMB1436-00000000002	Prodigal:2.6	CDS	238608	239942	.	-	0	HIMB1436_01058	HIMB1436	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB1436_01055
+HIMB1436-00000000002	Prodigal:2.6	CDS	239942	240559	.	-	0	HIMB1436_01059	HIMB1436	205	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB1436_01055
+HIMB1436-00000000002	Prodigal:2.6	CDS	240628	241722	.	-	0	HIMB1436_01060	HIMB1436	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB1436_01055
+HIMB2187-00000000002	Prodigal:2.6	CDS	212839	213933	.	+	0	HIMB2187_01203	HIMB2187	364	OG0000009	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	HIMB2187_01208
+HIMB2187-00000000002	Prodigal:2.6	CDS	214004	214618	.	+	0	HIMB2187_01204	HIMB2187	204	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB2187_01208
+HIMB2187-00000000002	Prodigal:2.6	CDS	214615	215949	.	+	0	HIMB2187_01205	HIMB2187	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB2187_01208
+HIMB2187-00000000002	Prodigal:2.6	CDS	215975	217432	.	+	0	HIMB2187_01206	HIMB2187	485	OG0000891	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB2187_01208
+HIMB2187-00000000002	Prodigal:2.6	CDS	217437	218189	.	+	0	HIMB2187_01207	HIMB2187	250	OG0000000	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2187_01208
+HIMB2187-00000000002	Prodigal:2.6	CDS	218186	218323	.	-	0	HIMB2187_01208	HIMB2187	45	OG0001222	NA	NA	NA	NA	NA	HIMB2187_01208
+HIMB2187-00000000002	Prodigal:2.6	CDS	218407	219057	.	+	0	HIMB2187_01209	HIMB2187	216	OG0000954	NA	NA	NA	NA	NA	HIMB2187_01208
+HIMB2187-00000000002	Prodigal:2.6	CDS	219058	219198	.	-	0	HIMB2187_01210	HIMB2187	46	OG0001116	NA	NA	NA	NA	NA	HIMB2187_01208
+HIMB2187-00000000002	Prodigal:2.6	CDS	219256	219678	.	+	0	HIMB2187_01211	HIMB2187	140	OG0000787	K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]	COG0824	FadM	Acyl-CoA thioesterase FadM	HIMB2187_01208
+HIMB2187-00000000002	Prodigal:2.6	CDS	219668	220348	.	-	0	HIMB2187_01212	HIMB2187	226	OG0000987	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	HIMB2187_01208
+HIMB2187-00000000002	Prodigal:2.6	CDS	220352	220909	.	+	0	HIMB2187_01213	HIMB2187	185	OG0000735	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	HIMB2187_01208

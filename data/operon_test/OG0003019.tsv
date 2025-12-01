@@ -1,0 +1,89 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP024034.1	Prodigal:2.6	CDS	52364	52759	.	+	0	LSUCC0530_00055	LSUCC0530	131	OG0002559	K07136	uncharacterized protein	COG3788	YecN	Uncharacterized membrane protein YecN, MAPEG domain	LSUCC0530_00060
+CP024034.1	Prodigal:2.6	CDS	52782	53999	.	-	0	LSUCC0530_00056	LSUCC0530	405	OG0001408	NA	NA	NA	NA	NA	LSUCC0530_00060
+CP024034.1	Prodigal:2.6	CDS	54000	54215	.	-	0	LSUCC0530_00057	LSUCC0530	71	OG0001666	NA	NA	NA	NA	NA	LSUCC0530_00060
+CP024034.1	Prodigal:2.6	CDS	54338	56926	.	+	0	LSUCC0530_00058	LSUCC0530	862	OG0001894	K03695	ATP-dependent Clp protease ATP-binding subunit ClpB	COG0542	ClpA	ATP-dependent Clp protease, ATP-binding subunit ClpA	LSUCC0530_00060
+CP024034.1	Prodigal:2.6	CDS	56923	58035	.	-	0	LSUCC0530_00059	LSUCC0530	370	OG0003018	K09953	lipid A 3-O-deacylase [EC:3.1.1.-]	COG3528	LpxR	Lipid A deacylase LpxR, DUF2219 family	LSUCC0530_00060
+CP024034.1	Prodigal:2.6	CDS	58141	58314	.	+	0	LSUCC0530_00060	LSUCC0530	57	OG0003019	NA	NA	NA	NA	NA	LSUCC0530_00060
+CP024034.1	Prodigal:2.6	CDS	58467	59933	.	+	0	LSUCC0530_00061	LSUCC0530	488	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	LSUCC0530_00060
+CP024034.1	Prodigal:2.6	CDS	59917	60612	.	+	0	LSUCC0530_00062	LSUCC0530	231	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	LSUCC0530_00060
+CP024034.1	Prodigal:2.6	CDS	60631	61251	.	-	0	LSUCC0530_00063	LSUCC0530	206	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	LSUCC0530_00060
+CP024034.1	Prodigal:2.6	CDS	61303	62739	.	+	0	LSUCC0530_00064	LSUCC0530	478	OG0001079	K08997	protein adenylyltransferase [EC:2.7.7.108]	COG0397	SelO	Protein adenylyltransferase (AMPylase) SelO/YdiU (selenoprotein O)	LSUCC0530_00060
+CP024034.1	Prodigal:2.6	CDS	62742	63257	.	-	0	LSUCC0530_00065	LSUCC0530	171	OG0001081	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	LSUCC0530_00060
+OZ247815.1	Prodigal:2.6	CDS	53206	53445	.	-	0	ME-33_00056	ME-33	79	OG0001169	NA	NA	COG3205	NA	Uncharacterized membrane protein, DUF2061 family	ME-33_00061
+OZ247815.1	Prodigal:2.6	CDS	53538	53933	.	+	0	ME-33_00057	ME-33	131	OG0002559	K07136	uncharacterized protein	COG3788	YecN	Uncharacterized membrane protein YecN, MAPEG domain	ME-33_00061
+OZ247815.1	Prodigal:2.6	CDS	53936	54151	.	-	0	ME-33_00058	ME-33	71	OG0001666	NA	NA	NA	NA	NA	ME-33_00061
+OZ247815.1	Prodigal:2.6	CDS	54274	56862	.	+	0	ME-33_00059	ME-33	862	OG0001894	K03695	ATP-dependent Clp protease ATP-binding subunit ClpB	COG0542	ClpA	ATP-dependent Clp protease, ATP-binding subunit ClpA	ME-33_00061
+OZ247815.1	Prodigal:2.6	CDS	56859	57971	.	-	0	ME-33_00060	ME-33	370	OG0003018	K09953	lipid A 3-O-deacylase [EC:3.1.1.-]	COG3528	LpxR	Lipid A deacylase LpxR, DUF2219 family	ME-33_00061
+OZ247815.1	Prodigal:2.6	CDS	58076	58255	.	+	0	ME-33_00061	ME-33	59	OG0003019	NA	NA	NA	NA	NA	ME-33_00061
+OZ247815.1	Prodigal:2.6	CDS	58392	59858	.	+	0	ME-33_00062	ME-33	488	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	ME-33_00061
+OZ247815.1	Prodigal:2.6	CDS	59842	60531	.	+	0	ME-33_00063	ME-33	229	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	ME-33_00061
+OZ247815.1	Prodigal:2.6	CDS	60528	61148	.	-	0	ME-33_00064	ME-33	206	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	ME-33_00061
+OZ247815.1	Prodigal:2.6	CDS	61199	62635	.	+	0	ME-33_00065	ME-33	478	OG0001079	K08997	protein adenylyltransferase [EC:2.7.7.108]	COG0397	SelO	Protein adenylyltransferase (AMPylase) SelO/YdiU (selenoprotein O)	ME-33_00061
+OZ247815.1	Prodigal:2.6	CDS	62637	63182	.	-	0	ME-33_00066	ME-33	181	OG0001081	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	ME-33_00061
+OZ247817.1	Prodigal:2.6	CDS	52627	52866	.	-	0	ME-31_00055	ME-31	79	OG0001169	NA	NA	COG3205	NA	Uncharacterized membrane protein, DUF2061 family	ME-31_00060
+OZ247817.1	Prodigal:2.6	CDS	52959	53354	.	+	0	ME-31_00056	ME-31	131	OG0002559	K07136	uncharacterized protein	COG3788	YecN	Uncharacterized membrane protein YecN, MAPEG domain	ME-31_00060
+OZ247817.1	Prodigal:2.6	CDS	53357	53572	.	-	0	ME-31_00057	ME-31	71	OG0001666	NA	NA	NA	NA	NA	ME-31_00060
+OZ247817.1	Prodigal:2.6	CDS	53695	56283	.	+	0	ME-31_00058	ME-31	862	OG0001894	K03695	ATP-dependent Clp protease ATP-binding subunit ClpB	COG0542	ClpA	ATP-dependent Clp protease, ATP-binding subunit ClpA	ME-31_00060
+OZ247817.1	Prodigal:2.6	CDS	56280	57392	.	-	0	ME-31_00059	ME-31	370	OG0003018	K09953	lipid A 3-O-deacylase [EC:3.1.1.-]	COG3528	LpxR	Lipid A deacylase LpxR, DUF2219 family	ME-31_00060
+OZ247817.1	Prodigal:2.6	CDS	57497	57676	.	+	0	ME-31_00060	ME-31	59	OG0003019	NA	NA	NA	NA	NA	ME-31_00060
+OZ247817.1	Prodigal:2.6	CDS	57813	59279	.	+	0	ME-31_00061	ME-31	488	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	ME-31_00060
+OZ247817.1	Prodigal:2.6	CDS	59263	59952	.	+	0	ME-31_00062	ME-31	229	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	ME-31_00060
+OZ247817.1	Prodigal:2.6	CDS	59949	60569	.	-	0	ME-31_00063	ME-31	206	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	ME-31_00060
+OZ247817.1	Prodigal:2.6	CDS	60620	62056	.	+	0	ME-31_00064	ME-31	478	OG0001079	K08997	protein adenylyltransferase [EC:2.7.7.108]	COG0397	SelO	Protein adenylyltransferase (AMPylase) SelO/YdiU (selenoprotein O)	ME-31_00060
+OZ247817.1	Prodigal:2.6	CDS	62058	62603	.	-	0	ME-31_00065	ME-31	181	OG0001081	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	ME-31_00060
+OZ249404.1	Prodigal:2.6	CDS	50942	51181	.	-	0	ME-17_00054	ME-17	79	OG0001169	NA	NA	COG3205	NA	Uncharacterized membrane protein, DUF2061 family	ME-17_00059
+OZ249404.1	Prodigal:2.6	CDS	51274	51669	.	+	0	ME-17_00055	ME-17	131	OG0002559	K07136	uncharacterized protein	COG3788	YecN	Uncharacterized membrane protein YecN, MAPEG domain	ME-17_00059
+OZ249404.1	Prodigal:2.6	CDS	51671	51886	.	-	0	ME-17_00056	ME-17	71	OG0001666	NA	NA	NA	NA	NA	ME-17_00059
+OZ249404.1	Prodigal:2.6	CDS	52009	54597	.	+	0	ME-17_00057	ME-17	862	OG0001894	K03695	ATP-dependent Clp protease ATP-binding subunit ClpB	COG0542	ClpA	ATP-dependent Clp protease, ATP-binding subunit ClpA	ME-17_00059
+OZ249404.1	Prodigal:2.6	CDS	54594	55706	.	-	0	ME-17_00058	ME-17	370	OG0003018	K09953	lipid A 3-O-deacylase [EC:3.1.1.-]	COG3528	LpxR	Lipid A deacylase LpxR, DUF2219 family	ME-17_00059
+OZ249404.1	Prodigal:2.6	CDS	55802	55990	.	+	0	ME-17_00059	ME-17	62	OG0003019	NA	NA	NA	NA	NA	ME-17_00059
+OZ249404.1	Prodigal:2.6	CDS	56127	57593	.	+	0	ME-17_00060	ME-17	488	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	ME-17_00059
+OZ249404.1	Prodigal:2.6	CDS	57544	58266	.	+	0	ME-17_00061	ME-17	240	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	ME-17_00059
+OZ249404.1	Prodigal:2.6	CDS	58263	58883	.	-	0	ME-17_00062	ME-17	206	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	ME-17_00059
+OZ249404.1	Prodigal:2.6	CDS	58934	60370	.	+	0	ME-17_00063	ME-17	478	OG0001079	K08997	protein adenylyltransferase [EC:2.7.7.108]	COG0397	SelO	Protein adenylyltransferase (AMPylase) SelO/YdiU (selenoprotein O)	ME-17_00059
+OZ249404.1	Prodigal:2.6	CDS	60372	60917	.	-	0	ME-17_00064	ME-17	181	OG0001081	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	ME-17_00059
+OZ247816.1	Prodigal:2.6	CDS	51471	51710	.	-	0	ME-20_00055	ME-20	79	OG0001169	NA	NA	COG3205	NA	Uncharacterized membrane protein, DUF2061 family	ME-20_00060
+OZ247816.1	Prodigal:2.6	CDS	51803	52198	.	+	0	ME-20_00056	ME-20	131	OG0002559	K07136	uncharacterized protein	COG3788	YecN	Uncharacterized membrane protein YecN, MAPEG domain	ME-20_00060
+OZ247816.1	Prodigal:2.6	CDS	52200	52415	.	-	0	ME-20_00057	ME-20	71	OG0001666	NA	NA	NA	NA	NA	ME-20_00060
+OZ247816.1	Prodigal:2.6	CDS	52538	55126	.	+	0	ME-20_00058	ME-20	862	OG0001894	K03695	ATP-dependent Clp protease ATP-binding subunit ClpB	COG0542	ClpA	ATP-dependent Clp protease, ATP-binding subunit ClpA	ME-20_00060
+OZ247816.1	Prodigal:2.6	CDS	55123	56235	.	-	0	ME-20_00059	ME-20	370	OG0003018	K09953	lipid A 3-O-deacylase [EC:3.1.1.-]	COG3528	LpxR	Lipid A deacylase LpxR, DUF2219 family	ME-20_00060
+OZ247816.1	Prodigal:2.6	CDS	56340	56519	.	+	0	ME-20_00060	ME-20	59	OG0003019	NA	NA	NA	NA	NA	ME-20_00060
+OZ247816.1	Prodigal:2.6	CDS	56656	58122	.	+	0	ME-20_00061	ME-20	488	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	ME-20_00060
+OZ247816.1	Prodigal:2.6	CDS	58073	58795	.	+	0	ME-20_00062	ME-20	240	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	ME-20_00060
+OZ247816.1	Prodigal:2.6	CDS	58792	59412	.	-	0	ME-20_00063	ME-20	206	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	ME-20_00060
+OZ247816.1	Prodigal:2.6	CDS	59463	60899	.	+	0	ME-20_00064	ME-20	478	OG0001079	K08997	protein adenylyltransferase [EC:2.7.7.108]	COG0397	SelO	Protein adenylyltransferase (AMPylase) SelO/YdiU (selenoprotein O)	ME-20_00060
+OZ247816.1	Prodigal:2.6	CDS	60901	61446	.	-	0	ME-20_00065	ME-20	181	OG0001081	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	ME-20_00060
+OZ247825.1	Prodigal:2.6	CDS	53414	53653	.	-	0	ME-18_00057	ME-18	79	OG0001169	NA	NA	COG3205	NA	Uncharacterized membrane protein, DUF2061 family	ME-18_00062
+OZ247825.1	Prodigal:2.6	CDS	53746	54141	.	+	0	ME-18_00058	ME-18	131	OG0002559	K07136	uncharacterized protein	COG3788	YecN	Uncharacterized membrane protein YecN, MAPEG domain	ME-18_00062
+OZ247825.1	Prodigal:2.6	CDS	54144	54359	.	-	0	ME-18_00059	ME-18	71	OG0001666	NA	NA	NA	NA	NA	ME-18_00062
+OZ247825.1	Prodigal:2.6	CDS	54482	57070	.	+	0	ME-18_00060	ME-18	862	OG0001894	K03695	ATP-dependent Clp protease ATP-binding subunit ClpB	COG0542	ClpA	ATP-dependent Clp protease, ATP-binding subunit ClpA	ME-18_00062
+OZ247825.1	Prodigal:2.6	CDS	57067	58179	.	-	0	ME-18_00061	ME-18	370	OG0003018	K09953	lipid A 3-O-deacylase [EC:3.1.1.-]	COG3528	LpxR	Lipid A deacylase LpxR, DUF2219 family	ME-18_00062
+OZ247825.1	Prodigal:2.6	CDS	58284	58463	.	+	0	ME-18_00062	ME-18	59	OG0003019	NA	NA	NA	NA	NA	ME-18_00062
+OZ247825.1	Prodigal:2.6	CDS	58600	60066	.	+	0	ME-18_00063	ME-18	488	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	ME-18_00062
+OZ247825.1	Prodigal:2.6	CDS	60017	60739	.	+	0	ME-18_00064	ME-18	240	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	ME-18_00062
+OZ247825.1	Prodigal:2.6	CDS	60736	61356	.	-	0	ME-18_00065	ME-18	206	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	ME-18_00062
+OZ247825.1	Prodigal:2.6	CDS	61407	62843	.	+	0	ME-18_00066	ME-18	478	OG0001079	K08997	protein adenylyltransferase [EC:2.7.7.108]	COG0397	SelO	Protein adenylyltransferase (AMPylase) SelO/YdiU (selenoprotein O)	ME-18_00062
+OZ247825.1	Prodigal:2.6	CDS	62845	63390	.	-	0	ME-18_00067	ME-18	181	OG0001081	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	ME-18_00062
+OZ249405.1	Prodigal:2.6	CDS	49287	49526	.	-	0	MiE-29_00052	MiE-29	79	OG0001169	NA	NA	COG3205	NA	Uncharacterized membrane protein, DUF2061 family	MiE-29_00057
+OZ249405.1	Prodigal:2.6	CDS	49619	50014	.	+	0	MiE-29_00053	MiE-29	131	OG0002559	K07136	uncharacterized protein	COG3788	YecN	Uncharacterized membrane protein YecN, MAPEG domain	MiE-29_00057
+OZ249405.1	Prodigal:2.6	CDS	50016	50231	.	-	0	MiE-29_00054	MiE-29	71	OG0001666	NA	NA	NA	NA	NA	MiE-29_00057
+OZ249405.1	Prodigal:2.6	CDS	50354	52942	.	+	0	MiE-29_00055	MiE-29	862	OG0001894	K03695	ATP-dependent Clp protease ATP-binding subunit ClpB	COG0542	ClpA	ATP-dependent Clp protease, ATP-binding subunit ClpA	MiE-29_00057
+OZ249405.1	Prodigal:2.6	CDS	52939	54051	.	-	0	MiE-29_00056	MiE-29	370	OG0003018	K09953	lipid A 3-O-deacylase [EC:3.1.1.-]	COG3528	LpxR	Lipid A deacylase LpxR, DUF2219 family	MiE-29_00057
+OZ249405.1	Prodigal:2.6	CDS	54156	54335	.	+	0	MiE-29_00057	MiE-29	59	OG0003019	NA	NA	NA	NA	NA	MiE-29_00057
+OZ249405.1	Prodigal:2.6	CDS	54472	55938	.	+	0	MiE-29_00058	MiE-29	488	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	MiE-29_00057
+OZ249405.1	Prodigal:2.6	CDS	55979	56611	.	+	0	MiE-29_00059	MiE-29	210	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	MiE-29_00057
+OZ249405.1	Prodigal:2.6	CDS	56608	57228	.	-	0	MiE-29_00060	MiE-29	206	OG0001413	NA	NA	COG2761	FrnE	Predicted dithiol-disulfide isomerase, DsbA/YjbH family (virulence, stress resistance)	MiE-29_00057
+OZ249405.1	Prodigal:2.6	CDS	57279	58715	.	+	0	MiE-29_00061	MiE-29	478	OG0001079	K08997	protein adenylyltransferase [EC:2.7.7.108]	COG0397	SelO	Protein adenylyltransferase (AMPylase) SelO/YdiU (selenoprotein O)	MiE-29_00057
+OZ249405.1	Prodigal:2.6	CDS	58717	59262	.	-	0	MiE-29_00062	MiE-29	181	OG0001081	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	MiE-29_00057
+OZ247814.1	Prodigal:2.6	CDS	309449	310114	.	-	0	MKE-138_00364	MKE-138	221	OG0000003	K02003	putative ABC transport system ATP-binding protein	COG1136	LolD	ABC-type lipoprotein targeting system ATPase component LolD	MKE-138_00369
+OZ247814.1	Prodigal:2.6	CDS	310182	310727	.	+	0	MKE-138_00365	MKE-138	181	OG0001081	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	MKE-138_00369
+OZ247814.1	Prodigal:2.6	CDS	310729	312165	.	-	0	MKE-138_00366	MKE-138	478	OG0001079	K08997	protein adenylyltransferase [EC:2.7.7.108]	COG0397	SelO	Protein adenylyltransferase (AMPylase) SelO/YdiU (selenoprotein O)	MKE-138_00369
+OZ247814.1	Prodigal:2.6	CDS	312165	312854	.	-	0	MKE-138_00367	MKE-138	229	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	MKE-138_00369
+OZ247814.1	Prodigal:2.6	CDS	312838	314304	.	-	0	MKE-138_00368	MKE-138	488	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	MKE-138_00369
+OZ247814.1	Prodigal:2.6	CDS	314441	314629	.	-	0	MKE-138_00369	MKE-138	62	OG0003019	NA	NA	NA	NA	NA	MKE-138_00369
+OZ247814.1	Prodigal:2.6	CDS	314725	315837	.	+	0	MKE-138_00370	MKE-138	370	OG0003018	K09953	lipid A 3-O-deacylase [EC:3.1.1.-]	COG3528	LpxR	Lipid A deacylase LpxR, DUF2219 family	MKE-138_00369
+OZ247814.1	Prodigal:2.6	CDS	315889	316104	.	+	0	MKE-138_00371	MKE-138	71	OG0001666	NA	NA	NA	NA	NA	MKE-138_00369
+OZ247814.1	Prodigal:2.6	CDS	316106	316501	.	-	0	MKE-138_00372	MKE-138	131	OG0002559	K07136	uncharacterized protein	COG3788	YecN	Uncharacterized membrane protein YecN, MAPEG domain	MKE-138_00369
+OZ247814.1	Prodigal:2.6	CDS	316594	316833	.	+	0	MKE-138_00373	MKE-138	79	OG0001169	NA	NA	COG3205	NA	Uncharacterized membrane protein, DUF2061 family	MKE-138_00369
+OZ247814.1	Prodigal:2.6	CDS	316837	317688	.	-	0	MKE-138_00374	MKE-138	283	OG0000074	K00824	D-alanine transaminase [EC:2.6.1.21]	COG0115	IlvE	Branched-chain amino acid aminotransferase/4-amino-4-deoxychorismate lyase	MKE-138_00369

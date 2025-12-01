@@ -1,0 +1,903 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CH724130.1	Prodigal:2.6	CDS	210519	210743	.	+	0	HTCC1002_00255	HTCC1002	74	OG0001242	NA	NA	NA	NA	NA	HTCC1002_00260
+CH724130.1	Prodigal:2.6	CDS	210744	212036	.	+	0	HTCC1002_00256	HTCC1002	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HTCC1002_00260
+CH724130.1	Prodigal:2.6	CDS	212036	212938	.	+	0	HTCC1002_00257	HTCC1002	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HTCC1002_00260
+CH724130.1	Prodigal:2.6	CDS	212956	213804	.	+	0	HTCC1002_00258	HTCC1002	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HTCC1002_00260
+CH724130.1	Prodigal:2.6	CDS	214403	214681	.	-	0	HTCC1002_00259	HTCC1002	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HTCC1002_00260
+CH724130.1	Prodigal:2.6	CDS	214706	215101	.	-	0	HTCC1002_00260	HTCC1002	131	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HTCC1002_00260
+CH724130.1	Prodigal:2.6	CDS	215143	215415	.	-	0	HTCC1002_00261	HTCC1002	90	OG0005174	NA	NA	NA	NA	NA	HTCC1002_00260
+CH724130.1	Prodigal:2.6	CDS	215493	216449	.	+	0	HTCC1002_00262	HTCC1002	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC1002_00260
+CH724130.1	Prodigal:2.6	CDS	216457	217257	.	-	0	HTCC1002_00263	HTCC1002	266	NA	K13665	pyruvyltransferase	COG2327	WcaK	Polysaccharide pyruvyl transferase family protein WcaK (colanic acid biosynthesis)	HTCC1002_00260
+CH724130.1	Prodigal:2.6	CDS	217276	219402	.	-	0	HTCC1002_00264	HTCC1002	708	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00260
+CH724130.1	Prodigal:2.6	CDS	219402	219653	.	-	0	HTCC1002_00265	HTCC1002	83	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC1002_00260
+KI421438.1	Prodigal:2.6	CDS	79633	80523	.	+	0	HTCC1013_00861	HTCC1013	296	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC1013_00866
+KI421438.1	Prodigal:2.6	CDS	80510	81352	.	-	0	HTCC1013_00862	HTCC1013	280	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC1013_00866
+KI421438.1	Prodigal:2.6	CDS	81438	82559	.	+	0	HTCC1013_00863	HTCC1013	373	OG0001797	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	HTCC1013_00866
+KI421438.1	Prodigal:2.6	CDS	82563	83519	.	-	0	HTCC1013_00864	HTCC1013	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC1013_00866
+KI421438.1	Prodigal:2.6	CDS	83792	84109	.	+	0	HTCC1013_00865	HTCC1013	105	OG0003233	NA	NA	NA	NA	NA	HTCC1013_00866
+KI421438.1	Prodigal:2.6	CDS	84142	84579	.	+	0	HTCC1013_00866	HTCC1013	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HTCC1013_00866
+KI421438.1	Prodigal:2.6	CDS	84560	84838	.	+	0	HTCC1013_00867	HTCC1013	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HTCC1013_00866
+KI421438.1	Prodigal:2.6	CDS	85437	86285	.	-	0	HTCC1013_00868	HTCC1013	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HTCC1013_00866
+KI421438.1	Prodigal:2.6	CDS	86303	87205	.	-	0	HTCC1013_00869	HTCC1013	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HTCC1013_00866
+KI421438.1	Prodigal:2.6	CDS	87205	88497	.	-	0	HTCC1013_00870	HTCC1013	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HTCC1013_00866
+KI421438.1	Prodigal:2.6	CDS	88498	88722	.	-	0	HTCC1013_00871	HTCC1013	74	OG0001242	NA	NA	NA	NA	NA	HTCC1013_00866
+CP000084.1	Prodigal:2.6	CDS	994615	995427	.	+	0	HTCC1062_01023	HTCC1062	270	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC1062_01028
+CP000084.1	Prodigal:2.6	CDS	995434	996108	.	+	0	HTCC1062_01024	HTCC1062	224	OG0002593	NA	NA	NA	NA	NA	HTCC1062_01028
+CP000084.1	Prodigal:2.6	CDS	996113	997066	.	+	0	HTCC1062_01025	HTCC1062	317	OG0001526	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HTCC1062_01028
+CP000084.1	Prodigal:2.6	CDS	997089	997862	.	-	0	HTCC1062_01026	HTCC1062	257	OG0000008	NA	NA	NA	NA	NA	HTCC1062_01028
+CP000084.1	Prodigal:2.6	CDS	997872	998828	.	-	0	HTCC1062_01027	HTCC1062	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC1062_01028
+CP000084.1	Prodigal:2.6	CDS	999133	999570	.	+	0	HTCC1062_01028	HTCC1062	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HTCC1062_01028
+CP000084.1	Prodigal:2.6	CDS	999551	999829	.	+	0	HTCC1062_01029	HTCC1062	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HTCC1062_01028
+CP000084.1	Prodigal:2.6	CDS	1000426	1001274	.	-	0	HTCC1062_01030	HTCC1062	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HTCC1062_01028
+CP000084.1	Prodigal:2.6	CDS	1001292	1002194	.	-	0	HTCC1062_01031	HTCC1062	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HTCC1062_01028
+CP000084.1	Prodigal:2.6	CDS	1002194	1003486	.	-	0	HTCC1062_01032	HTCC1062	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HTCC1062_01028
+CP000084.1	Prodigal:2.6	CDS	1003487	1003711	.	-	0	HTCC1062_01033	HTCC1062	74	OG0001242	NA	NA	NA	NA	NA	HTCC1062_01028
+ARVY01000001.1	Prodigal:2.6	CDS	814428	815285	.	+	0	HTCC1040_00863	HTCC1040	285	OG0001450	NA	NA	NA	NA	NA	HTCC1040_00868
+ARVY01000001.1	Prodigal:2.6	CDS	815302	816462	.	-	0	HTCC1040_00864	HTCC1040	386	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC1040_00868
+ARVY01000001.1	Prodigal:2.6	CDS	816459	817388	.	-	0	HTCC1040_00865	HTCC1040	309	OG0000865	K02377	GDP-L-fucose synthase [EC:1.1.1.271]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC1040_00868
+ARVY01000001.1	Prodigal:2.6	CDS	817403	818431	.	-	0	HTCC1040_00866	HTCC1040	342	OG0000113	K01711	GDPmannose 4,6-dehydratase [EC:4.2.1.47]	COG1089	Gmd	GDP-D-mannose dehydratase	HTCC1040_00868
+ARVY01000001.1	Prodigal:2.6	CDS	818467	819423	.	-	0	HTCC1040_00867	HTCC1040	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC1040_00868
+ARVY01000001.1	Prodigal:2.6	CDS	819735	820172	.	+	0	HTCC1040_00868	HTCC1040	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HTCC1040_00868
+ARVY01000001.1	Prodigal:2.6	CDS	820153	820431	.	+	0	HTCC1040_00869	HTCC1040	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HTCC1040_00868
+ARVY01000001.1	Prodigal:2.6	CDS	821029	821877	.	-	0	HTCC1040_00870	HTCC1040	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HTCC1040_00868
+ARVY01000001.1	Prodigal:2.6	CDS	821895	822797	.	-	0	HTCC1040_00871	HTCC1040	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HTCC1040_00868
+ARVY01000001.1	Prodigal:2.6	CDS	822797	824089	.	-	0	HTCC1040_00872	HTCC1040	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HTCC1040_00868
+ARVY01000001.1	Prodigal:2.6	CDS	824090	824314	.	-	0	HTCC1040_00873	HTCC1040	74	OG0001242	NA	NA	NA	NA	NA	HTCC1040_00868
+CP038852.1	Prodigal:2.6	CDS	148827	149051	.	+	0	NP1_00183	NP1	74	OG0001242	NA	NA	NA	NA	NA	NP1_00188
+CP038852.1	Prodigal:2.6	CDS	149052	150344	.	+	0	NP1_00184	NP1	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	NP1_00188
+CP038852.1	Prodigal:2.6	CDS	150344	151246	.	+	0	NP1_00185	NP1	300	OG0000777	K24180	malate permease and related proteins	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	NP1_00188
+CP038852.1	Prodigal:2.6	CDS	151264	152112	.	+	0	NP1_00186	NP1	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	NP1_00188
+CP038852.1	Prodigal:2.6	CDS	152639	152917	.	-	0	NP1_00187	NP1	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	NP1_00188
+CP038852.1	Prodigal:2.6	CDS	152898	153335	.	-	0	NP1_00188	NP1	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	NP1_00188
+CP038852.1	Prodigal:2.6	CDS	153381	153743	.	-	0	NP1_00189	NP1	120	OG0004415	NA	NA	NA	NA	NA	NP1_00188
+CP038852.1	Prodigal:2.6	CDS	153819	154736	.	+	0	NP1_00190	NP1	305	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	NP1_00188
+CP038852.1	Prodigal:2.6	CDS	154794	156914	.	-	0	NP1_00191	NP1	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	NP1_00188
+CP038852.1	Prodigal:2.6	CDS	156892	157152	.	-	0	NP1_00192	NP1	86	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	NP1_00188
+CP038852.1	Aragorn:1.2	tRNA	157167	157241	.	-	.	NP1_00193	NP1	NA	NA	NA	NA	NA	NA	NA	NP1_00188
+CP159811.1	Prodigal:2.6	CDS	581315	581539	.	+	0	Uisw_137_00647	Uisw_137	74	OG0001242	NA	NA	NA	NA	NA	Uisw_137_00652
+CP159811.1	Prodigal:2.6	CDS	581540	582832	.	+	0	Uisw_137_00648	Uisw_137	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_137_00652
+CP159811.1	Prodigal:2.6	CDS	582832	583734	.	+	0	Uisw_137_00649	Uisw_137	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_137_00652
+CP159811.1	Prodigal:2.6	CDS	583752	584600	.	+	0	Uisw_137_00650	Uisw_137	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_137_00652
+CP159811.1	Prodigal:2.6	CDS	585198	585476	.	-	0	Uisw_137_00651	Uisw_137	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_137_00652
+CP159811.1	Prodigal:2.6	CDS	585457	585894	.	-	0	Uisw_137_00652	Uisw_137	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_137_00652
+CP159811.1	Prodigal:2.6	CDS	585940	586146	.	-	0	Uisw_137_00653	Uisw_137	68	NA	NA	NA	NA	NA	NA	Uisw_137_00652
+CP159811.1	Prodigal:2.6	CDS	586299	587255	.	+	0	Uisw_137_00654	Uisw_137	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_137_00652
+CP159811.1	Prodigal:2.6	CDS	587255	588109	.	+	0	Uisw_137_00655	Uisw_137	284	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_137_00652
+CP159811.1	Prodigal:2.6	CDS	588134	588937	.	-	0	Uisw_137_00656	Uisw_137	267	OG0002300	NA	NA	NA	NA	NA	Uisw_137_00652
+CP159811.1	Prodigal:2.6	CDS	588943	589638	.	-	0	Uisw_137_00657	Uisw_137	231	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	Uisw_137_00652
+CP159821.1	Prodigal:2.6	CDS	694348	694608	.	+	0	Uisw_101_00717	Uisw_101	86	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_101_00722
+CP159821.1	Prodigal:2.6	CDS	694586	696706	.	+	0	Uisw_101_00718	Uisw_101	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	Uisw_101_00722
+CP159821.1	Prodigal:2.6	CDS	696973	697251	.	+	0	Uisw_101_00719	Uisw_101	92	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	Uisw_101_00722
+CP159821.1	Prodigal:2.6	CDS	697252	698208	.	-	0	Uisw_101_00720	Uisw_101	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_101_00722
+CP159821.1	Prodigal:2.6	CDS	698290	698484	.	+	0	Uisw_101_00721	Uisw_101	64	OG0004417	NA	NA	NA	NA	NA	Uisw_101_00722
+CP159821.1	Prodigal:2.6	CDS	698527	698964	.	+	0	Uisw_101_00722	Uisw_101	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_101_00722
+CP159821.1	Prodigal:2.6	CDS	698945	699232	.	+	0	Uisw_101_00723	Uisw_101	95	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_101_00722
+CP159821.1	Prodigal:2.6	CDS	699822	700670	.	-	0	Uisw_101_00724	Uisw_101	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_101_00722
+CP159821.1	Prodigal:2.6	CDS	700687	701586	.	-	0	Uisw_101_00725	Uisw_101	299	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_101_00722
+CP159821.1	Prodigal:2.6	CDS	701586	702878	.	-	0	Uisw_101_00726	Uisw_101	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_101_00722
+CP159821.1	Prodigal:2.6	CDS	702879	703103	.	-	0	Uisw_101_00727	Uisw_101	74	OG0001242	NA	NA	NA	NA	NA	Uisw_101_00722
+CP159820.1	Prodigal:2.6	CDS	693545	693805	.	+	0	Uisw_104_00728	Uisw_104	86	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_104_00733
+CP159820.1	Prodigal:2.6	CDS	693783	695903	.	+	0	Uisw_104_00729	Uisw_104	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	Uisw_104_00733
+CP159820.1	Prodigal:2.6	CDS	696170	696448	.	+	0	Uisw_104_00730	Uisw_104	92	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	Uisw_104_00733
+CP159820.1	Prodigal:2.6	CDS	696449	697405	.	-	0	Uisw_104_00731	Uisw_104	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_104_00733
+CP159820.1	Prodigal:2.6	CDS	697487	697681	.	+	0	Uisw_104_00732	Uisw_104	64	OG0004417	NA	NA	NA	NA	NA	Uisw_104_00733
+CP159820.1	Prodigal:2.6	CDS	697724	698161	.	+	0	Uisw_104_00733	Uisw_104	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_104_00733
+CP159820.1	Prodigal:2.6	CDS	698142	698420	.	+	0	Uisw_104_00734	Uisw_104	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_104_00733
+CP159820.1	Prodigal:2.6	CDS	699019	699867	.	-	0	Uisw_104_00735	Uisw_104	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_104_00733
+CP159820.1	Prodigal:2.6	CDS	699884	700783	.	-	0	Uisw_104_00736	Uisw_104	299	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_104_00733
+CP159820.1	Prodigal:2.6	CDS	700783	702075	.	-	0	Uisw_104_00737	Uisw_104	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_104_00733
+CP159820.1	Prodigal:2.6	CDS	702076	702300	.	-	0	Uisw_104_00738	Uisw_104	74	OG0001242	NA	NA	NA	NA	NA	Uisw_104_00733
+CP159819.1	Prodigal:2.6	CDS	623167	625527	.	+	0	Uisw_106_00682	Uisw_106	786	OG0000842	K06320	spore maturation protein CgeB	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_106_00686
+CP159819.1	Prodigal:2.6	CDS	623167	625527	.	+	0	Uisw_106_00682	Uisw_106	786	OG0000842	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_106_00686
+CP159819.1	Prodigal:2.6	CDS	625550	626431	.	+	0	Uisw_106_00683	Uisw_106	293	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_106_00686
+CP159819.1	Prodigal:2.6	CDS	626432	627349	.	-	0	Uisw_106_00684	Uisw_106	305	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_106_00686
+CP159819.1	Prodigal:2.6	CDS	627426	627791	.	+	0	Uisw_106_00685	Uisw_106	121	OG0004415	NA	NA	NA	NA	NA	Uisw_106_00686
+CP159819.1	Prodigal:2.6	CDS	627837	628274	.	+	0	Uisw_106_00686	Uisw_106	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_106_00686
+CP159819.1	Prodigal:2.6	CDS	628255	628533	.	+	0	Uisw_106_00687	Uisw_106	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_106_00686
+CP159819.1	Prodigal:2.6	CDS	629065	629913	.	-	0	Uisw_106_00688	Uisw_106	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_106_00686
+CP159819.1	Prodigal:2.6	CDS	629931	630833	.	-	0	Uisw_106_00689	Uisw_106	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_106_00686
+CP159819.1	Prodigal:2.6	CDS	630833	632125	.	-	0	Uisw_106_00690	Uisw_106	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_106_00686
+CP159819.1	Prodigal:2.6	CDS	632126	632350	.	-	0	Uisw_106_00691	Uisw_106	74	OG0001242	NA	NA	NA	NA	NA	Uisw_106_00686
+CP159823.1	Aragorn:1.2	tRNA	671586	671660	.	+	.	Uisw_094_00731	Uisw_094	NA	NA	NA	NA	NA	NA	NA	Uisw_094_00736
+CP159823.1	Prodigal:2.6	CDS	671687	671950	.	+	0	Uisw_094_00732	Uisw_094	87	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_094_00736
+CP159823.1	Prodigal:2.6	CDS	671922	672965	.	+	0	Uisw_094_00733	Uisw_094	347	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_094_00736
+CP159823.1	Prodigal:2.6	CDS	672975	673931	.	-	0	Uisw_094_00734	Uisw_094	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_094_00736
+CP159823.1	Prodigal:2.6	CDS	674012	674257	.	+	0	Uisw_094_00735	Uisw_094	81	NA	NA	NA	NA	NA	NA	Uisw_094_00736
+CP159823.1	Prodigal:2.6	CDS	674289	674726	.	+	0	Uisw_094_00736	Uisw_094	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_094_00736
+CP159823.1	Prodigal:2.6	CDS	674707	674985	.	+	0	Uisw_094_00737	Uisw_094	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_094_00736
+CP159823.1	Prodigal:2.6	CDS	675584	676432	.	-	0	Uisw_094_00738	Uisw_094	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_094_00736
+CP159823.1	Prodigal:2.6	CDS	676449	677348	.	-	0	Uisw_094_00739	Uisw_094	299	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_094_00736
+CP159823.1	Prodigal:2.6	CDS	677348	678640	.	-	0	Uisw_094_00740	Uisw_094	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_094_00736
+CP159823.1	Prodigal:2.6	CDS	678641	678865	.	-	0	Uisw_094_00741	Uisw_094	74	OG0001242	NA	NA	NA	NA	NA	Uisw_094_00736
+CP159812.1	Prodigal:2.6	CDS	645558	645845	.	+	0	Uisw_136_00690	Uisw_136	95	OG0003281	NA	NA	NA	NA	NA	Uisw_136_00695
+CP159812.1	Prodigal:2.6	CDS	645842	647398	.	+	0	Uisw_136_00691	Uisw_136	518	OG0002251	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_136_00695
+CP159812.1	Prodigal:2.6	CDS	647408	648118	.	+	0	Uisw_136_00692	Uisw_136	236	OG0000008	NA	NA	NA	NA	NA	Uisw_136_00695
+CP159812.1	Prodigal:2.6	CDS	648123	649040	.	-	0	Uisw_136_00693	Uisw_136	305	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_136_00695
+CP159812.1	Prodigal:2.6	CDS	649116	649385	.	+	0	Uisw_136_00694	Uisw_136	89	OG0004415	NA	NA	NA	NA	NA	Uisw_136_00695
+CP159812.1	Prodigal:2.6	CDS	649431	649868	.	+	0	Uisw_136_00695	Uisw_136	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_136_00695
+CP159812.1	Prodigal:2.6	CDS	649849	650127	.	+	0	Uisw_136_00696	Uisw_136	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_136_00695
+CP159812.1	Prodigal:2.6	CDS	650725	651573	.	-	0	Uisw_136_00697	Uisw_136	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_136_00695
+CP159812.1	Prodigal:2.6	CDS	651591	652493	.	-	0	Uisw_136_00698	Uisw_136	300	OG0000777	K24180	malate permease and related proteins	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_136_00695
+CP159812.1	Prodigal:2.6	CDS	652493	653785	.	-	0	Uisw_136_00699	Uisw_136	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_136_00695
+CP159812.1	Prodigal:2.6	CDS	653786	654010	.	-	0	Uisw_136_00700	Uisw_136	74	OG0001242	NA	NA	NA	NA	NA	Uisw_136_00695
+CP159809.1	Prodigal:2.6	CDS	576979	577203	.	+	0	Uisw_113_00639	Uisw_113	74	OG0001242	NA	NA	NA	NA	NA	Uisw_113_00644
+CP159809.1	Prodigal:2.6	CDS	577204	578496	.	+	0	Uisw_113_00640	Uisw_113	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_113_00644
+CP159809.1	Prodigal:2.6	CDS	578496	579398	.	+	0	Uisw_113_00641	Uisw_113	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_113_00644
+CP159809.1	Prodigal:2.6	CDS	579416	580264	.	+	0	Uisw_113_00642	Uisw_113	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_113_00644
+CP159809.1	Prodigal:2.6	CDS	580862	581140	.	-	0	Uisw_113_00643	Uisw_113	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_113_00644
+CP159809.1	Prodigal:2.6	CDS	581121	581558	.	-	0	Uisw_113_00644	Uisw_113	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_113_00644
+CP159809.1	Prodigal:2.6	CDS	581591	581827	.	-	0	Uisw_113_00645	Uisw_113	78	OG0004078	NA	NA	NA	NA	NA	Uisw_113_00644
+CP159809.1	Prodigal:2.6	CDS	581910	582866	.	+	0	Uisw_113_00646	Uisw_113	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_113_00644
+CP159809.1	Prodigal:2.6	CDS	582919	584133	.	-	0	Uisw_113_00647	Uisw_113	404	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_113_00644
+CP159809.1	Prodigal:2.6	CDS	584245	585093	.	-	0	Uisw_113_00648	Uisw_113	282	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_113_00644
+CP159809.1	Prodigal:2.6	CDS	585093	587210	.	-	0	Uisw_113_00649	Uisw_113	705	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	Uisw_113_00644
+CP159817.1	Prodigal:2.6	CDS	569417	570280	.	+	0	Uisw_116_00648	Uisw_116	287	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_116_00653
+CP159817.1	Prodigal:2.6	CDS	570277	570576	.	+	0	Uisw_116_00649	Uisw_116	99	OG0001450	NA	NA	NA	NA	NA	Uisw_116_00653
+CP159817.1	Prodigal:2.6	CDS	570720	571064	.	+	0	Uisw_116_00650	Uisw_116	114	OG0001450	NA	NA	NA	NA	NA	Uisw_116_00653
+CP159817.1	Prodigal:2.6	CDS	571328	572134	.	-	0	Uisw_116_00651	Uisw_116	268	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_116_00653
+CP159817.1	Prodigal:2.6	CDS	572210	572446	.	+	0	Uisw_116_00652	Uisw_116	78	OG0005338	NA	NA	NA	NA	NA	Uisw_116_00653
+CP159817.1	Prodigal:2.6	CDS	572492	572929	.	+	0	Uisw_116_00653	Uisw_116	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_116_00653
+CP159817.1	Prodigal:2.6	CDS	573721	574569	.	-	0	Uisw_116_00654	Uisw_116	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_116_00653
+CP159817.1	Prodigal:2.6	CDS	574587	575483	.	-	0	Uisw_116_00655	Uisw_116	298	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_116_00653
+CP159817.1	Prodigal:2.6	CDS	575483	576775	.	-	0	Uisw_116_00656	Uisw_116	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_116_00653
+CP159817.1	Prodigal:2.6	CDS	576779	576943	.	-	0	Uisw_116_00657	Uisw_116	54	OG0001242	NA	NA	NA	NA	NA	Uisw_116_00653
+CP159817.1	Prodigal:2.6	CDS	576958	577980	.	-	0	Uisw_116_00658	Uisw_116	340	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	Uisw_116_00653
+CP159816.1	Prodigal:2.6	CDS	609286	610173	.	+	0	Uisw_121_00651	Uisw_121	295	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_121_00656
+CP159816.1	Prodigal:2.6	CDS	610178	611389	.	+	0	Uisw_121_00652	Uisw_121	403	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_121_00656
+CP159816.1	Prodigal:2.6	CDS	611370	612227	.	-	0	Uisw_121_00653	Uisw_121	285	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_121_00656
+CP159816.1	Prodigal:2.6	CDS	612230	613162	.	-	0	Uisw_121_00654	Uisw_121	310	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_121_00656
+CP159816.1	Prodigal:2.6	CDS	613221	613730	.	+	0	Uisw_121_00655	Uisw_121	169	OG0003233	NA	NA	NA	NA	NA	Uisw_121_00656
+CP159816.1	Prodigal:2.6	CDS	613763	614200	.	+	0	Uisw_121_00656	Uisw_121	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_121_00656
+CP159816.1	Prodigal:2.6	CDS	614181	614459	.	+	0	Uisw_121_00657	Uisw_121	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_121_00656
+CP159816.1	Prodigal:2.6	CDS	614992	615840	.	-	0	Uisw_121_00658	Uisw_121	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_121_00656
+CP159816.1	Prodigal:2.6	CDS	615858	616754	.	-	0	Uisw_121_00659	Uisw_121	298	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_121_00656
+CP159816.1	Prodigal:2.6	CDS	616754	617986	.	-	0	Uisw_121_00660	Uisw_121	410	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_121_00656
+CP159816.1	Prodigal:2.6	CDS	617955	618047	.	-	0	Uisw_121_00661	Uisw_121	30	OG0000507	NA	NA	NA	NA	NA	Uisw_121_00656
+CP159818.1	Prodigal:2.6	CDS	653273	655315	.	+	0	Uisw_114_00771	Uisw_114	680	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_114_00776
+CP159818.1	Prodigal:2.6	CDS	655369	656586	.	+	0	Uisw_114_00772	Uisw_114	405	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_114_00776
+CP159818.1	Prodigal:2.6	CDS	657483	658364	.	+	0	Uisw_114_00773	Uisw_114	293	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_114_00776
+CP159818.1	Prodigal:2.6	CDS	658343	659281	.	+	0	Uisw_114_00774	Uisw_114	312	OG0001450	NA	NA	NA	NA	NA	Uisw_114_00776
+CP159818.1	Prodigal:2.6	CDS	659283	660200	.	-	0	Uisw_114_00775	Uisw_114	305	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_114_00776
+CP159818.1	Prodigal:2.6	CDS	660404	660841	.	+	0	Uisw_114_00776	Uisw_114	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_114_00776
+CP159818.1	Prodigal:2.6	CDS	660822	661100	.	+	0	Uisw_114_00777	Uisw_114	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_114_00776
+CP159818.1	Prodigal:2.6	CDS	661642	662481	.	-	0	Uisw_114_00778	Uisw_114	279	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_114_00776
+CP159818.1	Prodigal:2.6	CDS	662499	663401	.	-	0	Uisw_114_00779	Uisw_114	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_114_00776
+CP159818.1	Prodigal:2.6	CDS	663401	664693	.	-	0	Uisw_114_00780	Uisw_114	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_114_00776
+CP159818.1	Prodigal:2.6	CDS	664697	664918	.	-	0	Uisw_114_00781	Uisw_114	73	OG0001242	NA	NA	NA	NA	NA	Uisw_114_00776
+CP159814.1	Prodigal:2.6	CDS	629878	631995	.	+	0	Uisw_130_00681	Uisw_130	705	OG0000842	K06320	spore maturation protein CgeB	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_130_00686
+CP159814.1	Prodigal:2.6	CDS	632004	632861	.	+	0	Uisw_130_00682	Uisw_130	285	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_130_00686
+CP159814.1	Prodigal:2.6	CDS	632851	633753	.	+	0	Uisw_130_00683	Uisw_130	300	OG0001450	NA	NA	NA	NA	NA	Uisw_130_00686
+CP159814.1	Prodigal:2.6	CDS	633750	634754	.	-	0	Uisw_130_00684	Uisw_130	334	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_130_00686
+CP159814.1	Prodigal:2.6	CDS	634840	634950	.	+	0	Uisw_130_00685	Uisw_130	36	OG0003710	NA	NA	NA	NA	NA	Uisw_130_00686
+CP159814.1	Prodigal:2.6	CDS	635087	635524	.	+	0	Uisw_130_00686	Uisw_130	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_130_00686
+CP159814.1	Prodigal:2.6	CDS	636317	637165	.	-	0	Uisw_130_00687	Uisw_130	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_130_00686
+CP159814.1	Prodigal:2.6	CDS	637183	638085	.	-	0	Uisw_130_00688	Uisw_130	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_130_00686
+CP159814.1	Prodigal:2.6	CDS	638085	639377	.	-	0	Uisw_130_00689	Uisw_130	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_130_00686
+CP159814.1	Prodigal:2.6	CDS	639378	639590	.	-	0	Uisw_130_00690	Uisw_130	70	OG0001242	NA	NA	NA	NA	NA	Uisw_130_00686
+CP159814.1	Prodigal:2.6	CDS	639587	640609	.	-	0	Uisw_130_00691	Uisw_130	340	OG0000669	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	COG0002	ArgC	N-acetyl-gamma-glutamylphosphate reductase	Uisw_130_00686
+CP159824.1	Prodigal:2.6	CDS	593708	594508	.	+	0	Uisw_092_00652	Uisw_092	266	OG0002300	NA	NA	NA	NA	NA	Uisw_092_00657
+CP159824.1	Prodigal:2.6	CDS	594539	595393	.	-	0	Uisw_092_00653	Uisw_092	284	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_092_00657
+CP159824.1	Prodigal:2.6	CDS	595393	595677	.	-	0	Uisw_092_00654	Uisw_092	94	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_092_00657
+CP159824.1	Prodigal:2.6	CDS	595629	596348	.	-	0	Uisw_092_00655	Uisw_092	239	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_092_00657
+CP159824.1	Prodigal:2.6	CDS	596426	596704	.	+	0	Uisw_092_00656	Uisw_092	92	OG0005174	NA	NA	NA	NA	NA	Uisw_092_00657
+CP159824.1	Prodigal:2.6	CDS	596746	597183	.	+	0	Uisw_092_00657	Uisw_092	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_092_00657
+CP159824.1	Prodigal:2.6	CDS	597245	597442	.	+	0	Uisw_092_00658	Uisw_092	65	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_092_00657
+CP159824.1	Prodigal:2.6	CDS	597973	598821	.	-	0	Uisw_092_00659	Uisw_092	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_092_00657
+CP159824.1	Prodigal:2.6	CDS	598839	599741	.	-	0	Uisw_092_00660	Uisw_092	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_092_00657
+CP159824.1	Prodigal:2.6	CDS	599741	601033	.	-	0	Uisw_092_00661	Uisw_092	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_092_00657
+CP159824.1	Prodigal:2.6	CDS	601034	601258	.	-	0	Uisw_092_00662	Uisw_092	74	OG0001242	NA	NA	NA	NA	NA	Uisw_092_00657
+CP159810.1	Prodigal:2.6	CDS	615594	615818	.	+	0	Uisw_090_00695	Uisw_090	74	OG0001242	NA	NA	NA	NA	NA	Uisw_090_00700
+CP159810.1	Prodigal:2.6	CDS	615819	617111	.	+	0	Uisw_090_00696	Uisw_090	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_090_00700
+CP159810.1	Prodigal:2.6	CDS	617111	618013	.	+	0	Uisw_090_00697	Uisw_090	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_090_00700
+CP159810.1	Prodigal:2.6	CDS	618031	618879	.	+	0	Uisw_090_00698	Uisw_090	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_090_00700
+CP159810.1	Prodigal:2.6	CDS	619469	619747	.	-	0	Uisw_090_00699	Uisw_090	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_090_00700
+CP159810.1	Prodigal:2.6	CDS	619728	620165	.	-	0	Uisw_090_00700	Uisw_090	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_090_00700
+CP159810.1	Prodigal:2.6	CDS	620198	620638	.	-	0	Uisw_090_00701	Uisw_090	146	OG0003233	NA	NA	NA	NA	NA	Uisw_090_00700
+CP159810.1	Prodigal:2.6	CDS	620720	621676	.	+	0	Uisw_090_00702	Uisw_090	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_090_00700
+CP159810.1	Prodigal:2.6	CDS	621679	622977	.	-	0	Uisw_090_00703	Uisw_090	432	OG0001648	NA	NA	COG2220	UlaG	L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily	Uisw_090_00700
+CP159810.1	Prodigal:2.6	CDS	622970	623194	.	-	0	Uisw_090_00704	Uisw_090	74	OG0001205	NA	NA	NA	NA	NA	Uisw_090_00700
+CP159810.1	Prodigal:2.6	CDS	623191	624105	.	-	0	Uisw_090_00705	Uisw_090	304	OG0001450	NA	NA	NA	NA	NA	Uisw_090_00700
+CP159815.1	Prodigal:2.6	CDS	564042	564266	.	+	0	Uisw_127_00631	Uisw_127	74	OG0001242	NA	NA	NA	NA	NA	Uisw_127_00636
+CP159815.1	Prodigal:2.6	CDS	564267	565559	.	+	0	Uisw_127_00632	Uisw_127	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_127_00636
+CP159815.1	Prodigal:2.6	CDS	565559	566461	.	+	0	Uisw_127_00633	Uisw_127	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_127_00636
+CP159815.1	Prodigal:2.6	CDS	566479	567327	.	+	0	Uisw_127_00634	Uisw_127	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_127_00636
+CP159815.1	Prodigal:2.6	CDS	567925	568203	.	-	0	Uisw_127_00635	Uisw_127	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_127_00636
+CP159815.1	Prodigal:2.6	CDS	568184	568621	.	-	0	Uisw_127_00636	Uisw_127	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_127_00636
+CP159815.1	Prodigal:2.6	CDS	568667	568903	.	-	0	Uisw_127_00637	Uisw_127	78	OG0005338	NA	NA	NA	NA	NA	Uisw_127_00636
+CP159815.1	Prodigal:2.6	CDS	568980	569897	.	+	0	Uisw_127_00638	Uisw_127	305	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_127_00636
+CP159815.1	Prodigal:2.6	CDS	569894	570679	.	+	0	Uisw_127_00639	Uisw_127	261	OG0000008	NA	NA	NA	NA	NA	Uisw_127_00636
+CP159815.1	Prodigal:2.6	CDS	570697	571590	.	-	0	Uisw_127_00640	Uisw_127	297	OG0001526	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	Uisw_127_00636
+CP159815.1	Prodigal:2.6	CDS	571594	572586	.	-	0	Uisw_127_00641	Uisw_127	330	OG0000113	K01711	GDPmannose 4,6-dehydratase [EC:4.2.1.47]	COG1089	Gmd	GDP-D-mannose dehydratase	Uisw_127_00636
+CP159822.1	Prodigal:2.6	CDS	572037	573599	.	+	0	Uisw_099_02_00625	Uisw_099_02	520	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_099_02_00630
+CP159822.1	Prodigal:2.6	CDS	573553	574149	.	+	0	Uisw_099_02_00626	Uisw_099_02	198	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	Uisw_099_02_00630
+CP159822.1	Prodigal:2.6	CDS	574149	575000	.	+	0	Uisw_099_02_00627	Uisw_099_02	283	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_099_02_00630
+CP159822.1	Prodigal:2.6	CDS	574990	575946	.	-	0	Uisw_099_02_00628	Uisw_099_02	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_099_02_00630
+CP159822.1	Prodigal:2.6	CDS	576056	576241	.	+	0	Uisw_099_02_00629	Uisw_099_02	61	OG0003104	NA	NA	NA	NA	NA	Uisw_099_02_00630
+CP159822.1	Prodigal:2.6	CDS	576275	576712	.	+	0	Uisw_099_02_00630	Uisw_099_02	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_099_02_00630
+CP159822.1	Prodigal:2.6	CDS	576693	576971	.	+	0	Uisw_099_02_00631	Uisw_099_02	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_099_02_00630
+CP159822.1	Prodigal:2.6	CDS	577503	578351	.	-	0	Uisw_099_02_00632	Uisw_099_02	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_099_02_00630
+CP159822.1	Prodigal:2.6	CDS	578369	579271	.	-	0	Uisw_099_02_00633	Uisw_099_02	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_099_02_00630
+CP159822.1	Prodigal:2.6	CDS	579271	580563	.	-	0	Uisw_099_02_00634	Uisw_099_02	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_099_02_00630
+CP159822.1	Prodigal:2.6	CDS	580564	580788	.	-	0	Uisw_099_02_00635	Uisw_099_02	74	OG0001242	NA	NA	NA	NA	NA	Uisw_099_02_00630
+NZ_LANA01000002.1	Prodigal:2.6	CDS	301334	301507	.	+	0	HTCC9565_01147	HTCC9565	57	OG0001245	NA	NA	NA	NA	NA	HTCC9565_01152
+NZ_LANA01000002.1	Prodigal:2.6	CDS	301511	302803	.	+	0	HTCC9565_01148	HTCC9565	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HTCC9565_01152
+NZ_LANA01000002.1	Prodigal:2.6	CDS	302803	303699	.	+	0	HTCC9565_01149	HTCC9565	298	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HTCC9565_01152
+NZ_LANA01000002.1	Prodigal:2.6	CDS	303717	304565	.	+	0	HTCC9565_01150	HTCC9565	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HTCC9565_01152
+NZ_LANA01000002.1	Prodigal:2.6	CDS	305088	305366	.	-	0	HTCC9565_01151	HTCC9565	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HTCC9565_01152
+NZ_LANA01000002.1	Prodigal:2.6	CDS	305347	305784	.	-	0	HTCC9565_01152	HTCC9565	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HTCC9565_01152
+NZ_LANA01000002.1	Prodigal:2.6	CDS	306086	307045	.	+	0	HTCC9565_01153	HTCC9565	319	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC9565_01152
+NZ_LANA01000002.1	Prodigal:2.6	CDS	307045	307893	.	+	0	HTCC9565_01154	HTCC9565	282	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC9565_01152
+NZ_LANA01000002.1	Prodigal:2.6	CDS	307898	308656	.	-	0	HTCC9565_01155	HTCC9565	252	OG0003665	NA	NA	NA	NA	NA	HTCC9565_01152
+NZ_LANA01000002.1	Prodigal:2.6	CDS	308662	310050	.	-	0	HTCC9565_01156	HTCC9565	462	OG0001566	NA	NA	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	HTCC9565_01152
+NZ_LANA01000002.1	Prodigal:2.6	CDS	310052	310483	.	-	0	HTCC9565_01157	HTCC9565	143	OG0001831	NA	NA	NA	NA	NA	HTCC9565_01152
+CP159813.1	Prodigal:2.6	CDS	544137	544307	.	+	0	Uisw_134_02_00613	Uisw_134_02	56	OG0001245	NA	NA	NA	NA	NA	Uisw_134_02_00618
+CP159813.1	Prodigal:2.6	CDS	544311	545603	.	+	0	Uisw_134_02_00614	Uisw_134_02	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_134_02_00618
+CP159813.1	Prodigal:2.6	CDS	545603	546499	.	+	0	Uisw_134_02_00615	Uisw_134_02	298	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_134_02_00618
+CP159813.1	Prodigal:2.6	CDS	546517	547365	.	+	0	Uisw_134_02_00616	Uisw_134_02	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_134_02_00618
+CP159813.1	Prodigal:2.6	CDS	547897	548175	.	-	0	Uisw_134_02_00617	Uisw_134_02	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_134_02_00618
+CP159813.1	Prodigal:2.6	CDS	548156	548593	.	-	0	Uisw_134_02_00618	Uisw_134_02	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_134_02_00618
+CP159813.1	Prodigal:2.6	CDS	548633	549124	.	-	0	Uisw_134_02_00619	Uisw_134_02	163	OG0002746	NA	NA	COG1714	YckC	Uncharacterized membrane protein YckC, RDD family	Uisw_134_02_00618
+CP159813.1	Prodigal:2.6	CDS	549206	550162	.	+	0	Uisw_134_02_00620	Uisw_134_02	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_134_02_00618
+CP159813.1	Prodigal:2.6	CDS	550159	550686	.	-	0	Uisw_134_02_00621	Uisw_134_02	175	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	Uisw_134_02_00618
+CP159813.1	Prodigal:2.6	CDS	550848	551738	.	+	0	Uisw_134_02_00622	Uisw_134_02	296	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_134_02_00618
+CP159813.1	Prodigal:2.6	CDS	551738	552535	.	+	0	Uisw_134_02_00623	Uisw_134_02	265	OG0001828	NA	NA	NA	NA	NA	Uisw_134_02_00618
+DS995298.1	Prodigal:2.6	CDS	914638	914865	.	+	0	HTCC7211_01000	HTCC7211	75	OG0001242	NA	NA	NA	NA	NA	HTCC7211_01005
+DS995298.1	Prodigal:2.6	CDS	914862	916154	.	+	0	HTCC7211_01001	HTCC7211	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HTCC7211_01005
+DS995298.1	Prodigal:2.6	CDS	916157	917059	.	+	0	HTCC7211_01002	HTCC7211	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HTCC7211_01005
+DS995298.1	Prodigal:2.6	CDS	917077	917931	.	+	0	HTCC7211_01003	HTCC7211	284	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HTCC7211_01005
+DS995298.1	Prodigal:2.6	CDS	918473	918748	.	-	0	HTCC7211_01004	HTCC7211	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HTCC7211_01005
+DS995298.1	Prodigal:2.6	CDS	918729	919166	.	-	0	HTCC7211_01005	HTCC7211	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HTCC7211_01005
+DS995298.1	Prodigal:2.6	CDS	919210	919674	.	-	0	HTCC7211_01006	HTCC7211	154	OG0001644	NA	NA	NA	NA	NA	HTCC7211_01005
+DS995298.1	Prodigal:2.6	CDS	919694	919864	.	-	0	HTCC7211_01007	HTCC7211	56	OG0001201	NA	NA	NA	NA	NA	HTCC7211_01005
+DS995298.1	Prodigal:2.6	CDS	920000	920953	.	+	0	HTCC7211_01008	HTCC7211	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC7211_01005
+DS995298.1	Prodigal:2.6	CDS	920958	921860	.	-	0	HTCC7211_01009	HTCC7211	300	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC7211_01005
+DS995298.1	Prodigal:2.6	CDS	921869	922843	.	-	0	HTCC7211_01010	HTCC7211	324	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7211_01005
+KL370779.1	Prodigal:2.6	CDS	1117632	1117889	.	+	0	HTCC7214_01166	HTCC7214	85	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC7214_01171
+KL370779.1	Prodigal:2.6	CDS	1117886	1119961	.	+	0	HTCC7214_01167	HTCC7214	691	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7214_01171
+KL370779.1	Prodigal:2.6	CDS	1120072	1121073	.	+	0	HTCC7214_01168	HTCC7214	333	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7214_01171
+KL370779.1	Prodigal:2.6	CDS	1121070	1122044	.	-	0	HTCC7214_01169	HTCC7214	324	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC7214_01171
+KL370779.1	Prodigal:2.6	CDS	1122069	1122281	.	+	0	HTCC7214_01170	HTCC7214	70	OG0001201	NA	NA	NA	NA	NA	HTCC7214_01171
+KL370779.1	Prodigal:2.6	CDS	1122300	1122737	.	+	0	HTCC7214_01171	HTCC7214	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HTCC7214_01171
+KL370779.1	Prodigal:2.6	CDS	1122718	1122996	.	+	0	HTCC7214_01172	HTCC7214	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HTCC7214_01171
+KL370779.1	Prodigal:2.6	CDS	1123557	1124408	.	-	0	HTCC7214_01173	HTCC7214	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HTCC7214_01171
+KL370779.1	Prodigal:2.6	CDS	1124426	1125328	.	-	0	HTCC7214_01174	HTCC7214	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HTCC7214_01171
+KL370779.1	Prodigal:2.6	CDS	1125331	1126623	.	-	0	HTCC7214_01175	HTCC7214	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HTCC7214_01171
+KL370779.1	Prodigal:2.6	CDS	1126620	1126847	.	-	0	HTCC7214_01176	HTCC7214	75	OG0001242	NA	NA	NA	NA	NA	HTCC7214_01171
+JNIU01000001.1	Prodigal:2.6	CDS	276124	276351	.	+	0	HTCC7217_00315	HTCC7217	75	OG0001242	NA	NA	NA	NA	NA	HTCC7217_00320
+JNIU01000001.1	Prodigal:2.6	CDS	276348	277640	.	+	0	HTCC7217_00316	HTCC7217	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HTCC7217_00320
+JNIU01000001.1	Prodigal:2.6	CDS	277643	278545	.	+	0	HTCC7217_00317	HTCC7217	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HTCC7217_00320
+JNIU01000001.1	Prodigal:2.6	CDS	278563	279417	.	+	0	HTCC7217_00318	HTCC7217	284	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HTCC7217_00320
+JNIU01000001.1	Prodigal:2.6	CDS	279958	280233	.	-	0	HTCC7217_00319	HTCC7217	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HTCC7217_00320
+JNIU01000001.1	Prodigal:2.6	CDS	280214	280651	.	-	0	HTCC7217_00320	HTCC7217	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HTCC7217_00320
+JNIU01000001.1	Prodigal:2.6	CDS	280695	281171	.	-	0	HTCC7217_00321	HTCC7217	158	OG0001644	NA	NA	NA	NA	NA	HTCC7217_00320
+JNIU01000001.1	Prodigal:2.6	CDS	281179	281349	.	-	0	HTCC7217_00322	HTCC7217	56	OG0001201	NA	NA	NA	NA	NA	HTCC7217_00320
+JNIU01000001.1	Prodigal:2.6	CDS	281486	282442	.	+	0	HTCC7217_00323	HTCC7217	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC7217_00320
+JNIU01000001.1	Prodigal:2.6	CDS	282449	283489	.	-	0	HTCC7217_00324	HTCC7217	346	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7217_00320
+JNIU01000001.1	Prodigal:2.6	CDS	283461	283736	.	-	0	HTCC7217_00325	HTCC7217	91	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HTCC7217_00320
+HIMB1412-00000000001	Prodigal:2.6	CDS	902362	903222	.	+	0	HIMB1412_00948	HIMB1412	286	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1412_00953
+HIMB1412-00000000001	Prodigal:2.6	CDS	903247	904251	.	+	0	HIMB1412_00949	HIMB1412	334	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1412_00953
+HIMB1412-00000000001	Prodigal:2.6	CDS	904244	905083	.	-	0	HIMB1412_00950	HIMB1412	279	OG0002789	NA	NA	NA	NA	NA	HIMB1412_00953
+HIMB1412-00000000001	Prodigal:2.6	CDS	905085	906089	.	-	0	HIMB1412_00951	HIMB1412	334	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1412_00953
+HIMB1412-00000000001	Prodigal:2.6	CDS	906176	906376	.	+	0	HIMB1412_00952	HIMB1412	66	OG0001666	NA	NA	NA	NA	NA	HIMB1412_00953
+HIMB1412-00000000001	Prodigal:2.6	CDS	906417	906854	.	+	0	HIMB1412_00953	HIMB1412	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1412_00953
+HIMB1412-00000000001	Prodigal:2.6	CDS	906835	907110	.	+	0	HIMB1412_00954	HIMB1412	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1412_00953
+HIMB1412-00000000001	Prodigal:2.6	CDS	907588	908442	.	-	0	HIMB1412_00955	HIMB1412	284	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1412_00953
+HIMB1412-00000000001	Prodigal:2.6	CDS	908460	909362	.	-	0	HIMB1412_00956	HIMB1412	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1412_00953
+HIMB1412-00000000001	Prodigal:2.6	CDS	909362	910654	.	-	0	HIMB1412_00957	HIMB1412	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1412_00953
+HIMB1412-00000000001	Prodigal:2.6	CDS	910656	910832	.	-	0	HIMB1412_00958	HIMB1412	58	OG0001245	NA	NA	NA	NA	NA	HIMB1412_00953
+HIMB1420-00000000002	Prodigal:2.6	CDS	162277	162450	.	+	0	HIMB1420_00918	HIMB1420	57	OG0001245	NA	NA	NA	NA	NA	HIMB1420_00923
+HIMB1420-00000000002	Prodigal:2.6	CDS	162453	163745	.	+	0	HIMB1420_00919	HIMB1420	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1420_00923
+HIMB1420-00000000002	Prodigal:2.6	CDS	163745	164647	.	+	0	HIMB1420_00920	HIMB1420	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1420_00923
+HIMB1420-00000000002	Prodigal:2.6	CDS	164665	165519	.	+	0	HIMB1420_00921	HIMB1420	284	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1420_00923
+HIMB1420-00000000002	Prodigal:2.6	CDS	165998	166273	.	-	0	HIMB1420_00922	HIMB1420	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1420_00923
+HIMB1420-00000000002	Prodigal:2.6	CDS	166254	166691	.	-	0	HIMB1420_00923	HIMB1420	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1420_00923
+HIMB1420-00000000002	Prodigal:2.6	CDS	166732	166932	.	-	0	HIMB1420_00924	HIMB1420	66	OG0001666	NA	NA	NA	NA	NA	HIMB1420_00923
+HIMB1420-00000000002	Prodigal:2.6	CDS	167012	167968	.	+	0	HIMB1420_00925	HIMB1420	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1420_00923
+HIMB1420-00000000002	Prodigal:2.6	CDS	167965	168879	.	-	0	HIMB1420_00926	HIMB1420	304	OG0001450	NA	NA	NA	NA	NA	HIMB1420_00923
+HIMB1420-00000000002	Prodigal:2.6	CDS	168864	169739	.	-	0	HIMB1420_00927	HIMB1420	291	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1420_00923
+HIMB1420-00000000002	Prodigal:2.6	CDS	169787	170770	.	+	0	HIMB1420_00928	HIMB1420	327	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1420_00923
+HIMB1463-00000000061	Prodigal:2.6	CDS	354	629	.	-	0	HIMB1463_01347	HIMB1463	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1463_01348
+HIMB1463-00000000061	Prodigal:2.6	CDS	610	1047	.	-	0	HIMB1463_01348	HIMB1463	145	OG0001432	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	HIMB1463_01348
+HIMB1463-00000000061	Prodigal:2.6	CDS	1088	1288	.	-	0	HIMB1463_01349	HIMB1463	66	OG0001666	NA	NA	NA	NA	NA	HIMB1463_01348
+HIMB1463-00000000061	Prodigal:2.6	CDS	1368	2321	.	+	0	HIMB1463_01350	HIMB1463	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1463_01348
+HIMB1463-00000000061	Prodigal:2.6	CDS	2335	3027	.	+	0	HIMB1463_01351	HIMB1463	230	OG0000195	NA	NA	COG0176	TalA	Transaldolase/fructose-6-phosphate aldolase	HIMB1463_01348
+HIMB1463-00000000061	Prodigal:2.6	CDS	3289	3453	.	-	0	HIMB1463_01352	HIMB1463	54	NA	NA	NA	NA	NA	NA	HIMB1463_01348
+HIMB1564-00000000001	Prodigal:2.6	CDS	574063	574233	.	+	0	HIMB1564_00610	HIMB1564	56	OG0001245	NA	NA	NA	NA	NA	HIMB1564_00615
+HIMB1564-00000000001	Prodigal:2.6	CDS	574230	575531	.	+	0	HIMB1564_00611	HIMB1564	433	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1564_00615
+HIMB1564-00000000001	Prodigal:2.6	CDS	575531	576433	.	+	0	HIMB1564_00612	HIMB1564	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1564_00615
+HIMB1564-00000000001	Prodigal:2.6	CDS	576451	577305	.	+	0	HIMB1564_00613	HIMB1564	284	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1564_00615
+HIMB1564-00000000001	Prodigal:2.6	CDS	577784	578059	.	-	0	HIMB1564_00614	HIMB1564	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1564_00615
+HIMB1564-00000000001	Prodigal:2.6	CDS	578040	578477	.	-	0	HIMB1564_00615	HIMB1564	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1564_00615
+HIMB1564-00000000001	Prodigal:2.6	CDS	578518	578718	.	-	0	HIMB1564_00616	HIMB1564	66	OG0001666	NA	NA	NA	NA	NA	HIMB1564_00615
+HIMB1564-00000000001	Prodigal:2.6	CDS	578798	579754	.	+	0	HIMB1564_00617	HIMB1564	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1564_00615
+HIMB1564-00000000001	Prodigal:2.6	CDS	579768	580460	.	+	0	HIMB1564_00618	HIMB1564	230	OG0000195	NA	NA	COG0176	TalA	Transaldolase/fructose-6-phosphate aldolase	HIMB1564_00615
+HIMB1564-00000000001	Prodigal:2.6	CDS	580517	581416	.	+	0	HIMB1564_00619	HIMB1564	299	OG0000769	K16870	N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase [EC:2.4.1.289]	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1564_00615
+HIMB1564-00000000001	Prodigal:2.6	CDS	581421	582398	.	-	0	HIMB1564_00620	HIMB1564	325	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	HIMB1564_00615
+HIMB1520-00000000001	Prodigal:2.6	CDS	135915	136088	.	+	0	HIMB1520_00156	HIMB1520	57	OG0001245	NA	NA	NA	NA	NA	HIMB1520_00161
+HIMB1520-00000000001	Prodigal:2.6	CDS	136091	137383	.	+	0	HIMB1520_00157	HIMB1520	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1520_00161
+HIMB1520-00000000001	Prodigal:2.6	CDS	137383	138285	.	+	0	HIMB1520_00158	HIMB1520	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1520_00161
+HIMB1520-00000000001	Prodigal:2.6	CDS	138303	139160	.	+	0	HIMB1520_00159	HIMB1520	285	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1520_00161
+HIMB1520-00000000001	Prodigal:2.6	CDS	139633	139908	.	-	0	HIMB1520_00160	HIMB1520	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1520_00161
+HIMB1520-00000000001	Prodigal:2.6	CDS	139889	140326	.	-	0	HIMB1520_00161	HIMB1520	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1520_00161
+HIMB1520-00000000001	Prodigal:2.6	CDS	140367	140567	.	-	0	HIMB1520_00162	HIMB1520	66	OG0001666	NA	NA	NA	NA	NA	HIMB1520_00161
+HIMB1520-00000000001	Prodigal:2.6	CDS	140647	141603	.	+	0	HIMB1520_00163	HIMB1520	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1520_00161
+HIMB1520-00000000001	Prodigal:2.6	CDS	141606	142436	.	+	0	HIMB1520_00164	HIMB1520	276	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1520_00161
+HIMB1520-00000000001	Prodigal:2.6	CDS	142438	143316	.	-	0	HIMB1520_00165	HIMB1520	292	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1520_00161
+HIMB1520-00000000001	Prodigal:2.6	CDS	143313	144455	.	-	0	HIMB1520_00166	HIMB1520	380	OG0001797	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	HIMB1520_00161
+CP003809.1	Prodigal:2.6	CDS	614250	615119	.	+	0	HIMB5_00673	HIMB5	289	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB5_00678
+CP003809.1	Prodigal:2.6	CDS	615123	615803	.	+	0	HIMB5_00674	HIMB5	226	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB5_00678
+CP003809.1	Prodigal:2.6	CDS	615804	616637	.	-	0	HIMB5_00675	HIMB5	277	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB5_00678
+CP003809.1	Prodigal:2.6	CDS	616643	617599	.	-	0	HIMB5_00676	HIMB5	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB5_00678
+CP003809.1	Prodigal:2.6	CDS	617679	617879	.	+	0	HIMB5_00677	HIMB5	66	OG0001666	NA	NA	NA	NA	NA	HIMB5_00678
+CP003809.1	Prodigal:2.6	CDS	617920	618357	.	+	0	HIMB5_00678	HIMB5	145	OG0001432	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	HIMB5_00678
+CP003809.1	Prodigal:2.6	CDS	618338	618613	.	+	0	HIMB5_00679	HIMB5	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB5_00678
+CP003809.1	Prodigal:2.6	CDS	619100	619945	.	-	0	HIMB5_00680	HIMB5	281	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB5_00678
+CP003809.1	Prodigal:2.6	CDS	619963	620865	.	-	0	HIMB5_00681	HIMB5	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB5_00678
+CP003809.1	Prodigal:2.6	CDS	620865	622157	.	-	0	HIMB5_00682	HIMB5	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB5_00678
+CP003809.1	Prodigal:2.6	CDS	622160	622333	.	-	0	HIMB5_00683	HIMB5	57	OG0001245	NA	NA	NA	NA	NA	HIMB5_00678
+LT840186.1	Prodigal:2.6	CDS	520070	520321	.	+	0	HIMB1321_00567	HIMB1321	83	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1321_00572
+LT840186.1	Prodigal:2.6	CDS	520323	522431	.	+	0	HIMB1321_00568	HIMB1321	702	OG0000842	K06320	spore maturation protein CgeB	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1321_00572
+LT840186.1	Prodigal:2.6	CDS	522452	523306	.	+	0	HIMB1321_00569	HIMB1321	284	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1321_00572
+LT840186.1	Prodigal:2.6	CDS	523332	524336	.	-	0	HIMB1321_00570	HIMB1321	334	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1321_00572
+LT840186.1	Prodigal:2.6	CDS	524424	524624	.	+	0	HIMB1321_00571	HIMB1321	66	OG0001666	NA	NA	NA	NA	NA	HIMB1321_00572
+LT840186.1	Prodigal:2.6	CDS	524665	525102	.	+	0	HIMB1321_00572	HIMB1321	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1321_00572
+LT840186.1	Prodigal:2.6	CDS	525131	525361	.	+	0	HIMB1321_00573	HIMB1321	76	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1321_00572
+LT840186.1	Prodigal:2.6	CDS	525878	526732	.	-	0	HIMB1321_00574	HIMB1321	284	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1321_00572
+LT840186.1	Prodigal:2.6	CDS	526749	527648	.	-	0	HIMB1321_00575	HIMB1321	299	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1321_00572
+LT840186.1	Prodigal:2.6	CDS	527648	528940	.	-	0	HIMB1321_00576	HIMB1321	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1321_00572
+LT840186.1	Prodigal:2.6	CDS	528937	529167	.	-	0	HIMB1321_00577	HIMB1321	76	OG0001242	NA	NA	NA	NA	NA	HIMB1321_00572
+HIMB1527-00000000002	Prodigal:2.6	CDS	248348	248578	.	+	0	HIMB1527_00893	HIMB1527	76	OG0001242	NA	NA	NA	NA	NA	HIMB1527_00898
+HIMB1527-00000000002	Prodigal:2.6	CDS	248575	249867	.	+	0	HIMB1527_00894	HIMB1527	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1527_00898
+HIMB1527-00000000002	Prodigal:2.6	CDS	249867	250766	.	+	0	HIMB1527_00895	HIMB1527	299	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1527_00898
+HIMB1527-00000000002	Prodigal:2.6	CDS	250783	251637	.	+	0	HIMB1527_00896	HIMB1527	284	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1527_00898
+HIMB1527-00000000002	Prodigal:2.6	CDS	252154	252432	.	-	0	HIMB1527_00897	HIMB1527	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1527_00898
+HIMB1527-00000000002	Prodigal:2.6	CDS	252413	252850	.	-	0	HIMB1527_00898	HIMB1527	145	OG0001432	NA	NA	COG0454	PhnO	N-acetyltransferase, GNAT superfamily (includes histone acetyltransferase HPA2)	HIMB1527_00898
+HIMB1527-00000000002	Prodigal:2.6	CDS	252891	253091	.	-	0	HIMB1527_00899	HIMB1527	66	OG0001666	NA	NA	NA	NA	NA	HIMB1527_00898
+HIMB1527-00000000002	Prodigal:2.6	CDS	253178	254182	.	+	0	HIMB1527_00900	HIMB1527	334	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1527_00898
+HIMB1527-00000000002	Prodigal:2.6	CDS	254179	254886	.	-	0	HIMB1527_00901	HIMB1527	235	OG0000008	NA	NA	NA	NA	NA	HIMB1527_00898
+HIMB1527-00000000002	Prodigal:2.6	CDS	254870	255556	.	-	0	HIMB1527_00902	HIMB1527	228	OG0000008	NA	NA	NA	NA	NA	HIMB1527_00898
+HIMB1527-00000000002	Prodigal:2.6	CDS	255557	256420	.	-	0	HIMB1527_00903	HIMB1527	287	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1527_00898
+HIMB1505-00000000001	Prodigal:2.6	CDS	984489	984767	.	+	0	HIMB1505_01037	HIMB1505	92	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1505_01042
+HIMB1505-00000000001	Prodigal:2.6	CDS	984739	986847	.	+	0	HIMB1505_01038	HIMB1505	702	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1505_01042
+HIMB1505-00000000001	Prodigal:2.6	CDS	986849	987685	.	+	0	HIMB1505_01039	HIMB1505	278	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1505_01042
+HIMB1505-00000000001	Prodigal:2.6	CDS	987675	988679	.	-	0	HIMB1505_01040	HIMB1505	334	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1505_01042
+HIMB1505-00000000001	Prodigal:2.6	CDS	988767	988967	.	+	0	HIMB1505_01041	HIMB1505	66	OG0001666	NA	NA	NA	NA	NA	HIMB1505_01042
+HIMB1505-00000000001	Prodigal:2.6	CDS	989008	989445	.	+	0	HIMB1505_01042	HIMB1505	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1505_01042
+HIMB1505-00000000001	Prodigal:2.6	CDS	989474	989704	.	+	0	HIMB1505_01043	HIMB1505	76	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1505_01042
+HIMB1505-00000000001	Prodigal:2.6	CDS	990225	991079	.	-	0	HIMB1505_01044	HIMB1505	284	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1505_01042
+HIMB1505-00000000001	Prodigal:2.6	CDS	991096	991995	.	-	0	HIMB1505_01045	HIMB1505	299	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1505_01042
+HIMB1505-00000000001	Prodigal:2.6	CDS	991995	993287	.	-	0	HIMB1505_01046	HIMB1505	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1505_01042
+HIMB1505-00000000001	Prodigal:2.6	CDS	993287	993460	.	-	0	HIMB1505_01047	HIMB1505	57	OG0001245	NA	NA	NA	NA	NA	HIMB1505_01042
+HIMB1549-00000000001	Prodigal:2.6	CDS	543596	544477	.	+	0	HIMB1549_00572	HIMB1549	293	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1549_00577
+HIMB1549-00000000001	Prodigal:2.6	CDS	544491	545186	.	+	0	HIMB1549_00573	HIMB1549	231	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB1549_00577
+HIMB1549-00000000001	Prodigal:2.6	CDS	545191	546039	.	-	0	HIMB1549_00574	HIMB1549	282	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1549_00577
+HIMB1549-00000000001	Prodigal:2.6	CDS	546046	547050	.	-	0	HIMB1549_00575	HIMB1549	334	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1549_00577
+HIMB1549-00000000001	Prodigal:2.6	CDS	547138	547338	.	+	0	HIMB1549_00576	HIMB1549	66	OG0001666	NA	NA	NA	NA	NA	HIMB1549_00577
+HIMB1549-00000000001	Prodigal:2.6	CDS	547379	547816	.	+	0	HIMB1549_00577	HIMB1549	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1549_00577
+HIMB1549-00000000001	Prodigal:2.6	CDS	547797	548075	.	+	0	HIMB1549_00578	HIMB1549	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1549_00577
+HIMB1549-00000000001	Prodigal:2.6	CDS	548346	548465	.	-	0	HIMB1549_00579	HIMB1549	39	NA	NA	NA	NA	NA	NA	HIMB1549_00577
+HIMB1549-00000000001	Prodigal:2.6	CDS	548594	549448	.	-	0	HIMB1549_00580	HIMB1549	284	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1549_00577
+HIMB1549-00000000001	Prodigal:2.6	CDS	549465	550364	.	-	0	HIMB1549_00581	HIMB1549	299	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1549_00577
+HIMB1549-00000000001	Prodigal:2.6	CDS	550364	551656	.	-	0	HIMB1549_00582	HIMB1549	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1549_00577
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	657401	657574	.	+	0	HIMB4_00720	HIMB4	57	OG0001245	NA	NA	NA	NA	NA	HIMB4_00725
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	657574	658866	.	+	0	HIMB4_00721	HIMB4	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB4_00725
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	658866	659765	.	+	0	HIMB4_00722	HIMB4	299	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB4_00725
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	659782	660636	.	+	0	HIMB4_00723	HIMB4	284	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB4_00725
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	661157	661387	.	-	0	HIMB4_00724	HIMB4	76	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB4_00725
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	661416	661853	.	-	0	HIMB4_00725	HIMB4	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB4_00725
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	661894	662094	.	-	0	HIMB4_00726	HIMB4	66	OG0001666	NA	NA	NA	NA	NA	HIMB4_00725
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	662182	663186	.	+	0	HIMB4_00727	HIMB4	334	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB4_00725
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	663176	664012	.	-	0	HIMB4_00728	HIMB4	278	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB4_00725
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	664014	666122	.	-	0	HIMB4_00729	HIMB4	702	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB4_00725
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	666094	666372	.	-	0	HIMB4_00730	HIMB4	92	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB4_00725
+KI421433.1	Prodigal:2.6	CDS	515797	516024	.	+	0	HTCC9022_01125	HTCC9022	75	OG0001242	NA	NA	NA	NA	NA	HTCC9022_01130
+KI421433.1	Prodigal:2.6	CDS	516021	517313	.	+	0	HTCC9022_01126	HTCC9022	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HTCC9022_01130
+KI421433.1	Prodigal:2.6	CDS	517313	518212	.	+	0	HTCC9022_01127	HTCC9022	299	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HTCC9022_01130
+KI421433.1	Prodigal:2.6	CDS	518229	519080	.	+	0	HTCC9022_01128	HTCC9022	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HTCC9022_01130
+KI421433.1	Prodigal:2.6	CDS	519629	519907	.	-	0	HTCC9022_01129	HTCC9022	92	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HTCC9022_01130
+KI421433.1	Prodigal:2.6	CDS	519888	520325	.	-	0	HTCC9022_01130	HTCC9022	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HTCC9022_01130
+KI421433.1	Prodigal:2.6	CDS	520369	520902	.	-	0	HTCC9022_01131	HTCC9022	177	OG0002786	NA	NA	NA	NA	NA	HTCC9022_01130
+KI421433.1	Prodigal:2.6	CDS	520978	521895	.	+	0	HTCC9022_01132	HTCC9022	305	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HTCC9022_01130
+KI421433.1	Prodigal:2.6	CDS	521944	523710	.	+	0	HTCC9022_01133	HTCC9022	588	OG0001114	NA	NA	NA	NA	NA	HTCC9022_01130
+KI421433.1	Prodigal:2.6	CDS	523697	525130	.	+	0	HTCC9022_01134	HTCC9022	477	OG0002283	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG1232	HemY	Protoporphyrinogen oxidase HemY/PPOX	HTCC9022_01130
+KI421433.1	Prodigal:2.6	CDS	525133	526017	.	-	0	HTCC9022_01135	HTCC9022	294	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC9022_01130
+CP031125.1	Prodigal:2.6	CDS	973351	973812	.	+	0	FZCC0015_01029	FZCC0015	153	OG0001302	K03518	aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3]	COG2080	CutS	Aldehyde, CO, or xanthine dehydrogenase, Fe-S subunit, CoxS/CutS family	FZCC0015_01034
+CP031125.1	Prodigal:2.6	CDS	973834	976212	.	+	0	FZCC0015_01030	FZCC0015	792	OG0001479	K03520	aerobic carbon-monoxide dehydrogenase large subunit [EC:1.2.5.3]	COG1529	CoxL	Aldehyde, CO or xanthine dehydrogenase, Mo-binding subunit	FZCC0015_01034
+CP031125.1	Prodigal:2.6	CDS	976220	977005	.	+	0	FZCC0015_01031	FZCC0015	261	OG0001523	NA	NA	COG1319	CutB	Aldehyde, CO, or xanthine dehydrogenase, FAD-binding subunit	FZCC0015_01034
+CP031125.1	Prodigal:2.6	CDS	977027	977356	.	+	0	FZCC0015_01032	FZCC0015	109	OG0001385	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	FZCC0015_01034
+CP031125.1	Prodigal:2.6	CDS	977356	978036	.	+	0	FZCC0015_01033	FZCC0015	226	OG0001391	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	FZCC0015_01034
+CP031125.1	Prodigal:2.6	CDS	978033	978464	.	+	0	FZCC0015_01034	FZCC0015	143	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	FZCC0015_01034
+CP031125.1	Prodigal:2.6	CDS	978461	979036	.	+	0	FZCC0015_01035	FZCC0015	191	OG0001486	K07141	molybdenum cofactor cytidylyltransferase [EC:2.7.7.76]	COG2068	MocA	CTP:molybdopterin cytidylyltransferase MocA	FZCC0015_01034
+CP031125.1	Prodigal:2.6	CDS	979019	979600	.	-	0	FZCC0015_01036	FZCC0015	193	OG0001262	K17247	methionine sulfoxide reductase heme-binding subunit	COG2717	MsrQ	Heme-binding membrane subunit of periplasmic DMSO/TMAO and protein-methionine-sulfoxide reductases	FZCC0015_01034
+CP031125.1	Prodigal:2.6	CDS	979607	980512	.	-	0	FZCC0015_01037	FZCC0015	301	OG0001266	K07147	methionine sulfoxide reductase catalytic subunit [EC:1.8.-.-]	COG2041	MsrP	Molybdopterin-dependent catalytic subunit of periplasmic DMSO/TMAO and protein-methionine-sulfoxide reductases	FZCC0015_01034
+CP031125.1	Prodigal:2.6	CDS	980514	980960	.	-	0	FZCC0015_01038	FZCC0015	148	OG0001203	K03635	molybdopterin synthase catalytic subunit [EC:2.8.1.12]	COG0314	MoaE	Molybdopterin synthase catalytic subunit MoaE	FZCC0015_01034
+CP031125.1	Prodigal:2.6	CDS	980960	981229	.	-	0	FZCC0015_01039	FZCC0015	89	OG0001212	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	FZCC0015_01034
+AZAL01000001.1	Prodigal:2.6	CDS	1315829	1316290	.	+	0	HIMB083_01410	HIMB083	153	OG0001302	K03518	aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3]	COG2080	CutS	Aldehyde, CO, or xanthine dehydrogenase, Fe-S subunit, CoxS/CutS family	HIMB083_01415
+AZAL01000001.1	Prodigal:2.6	CDS	1316311	1318689	.	+	0	HIMB083_01411	HIMB083	792	OG0001479	K03520	aerobic carbon-monoxide dehydrogenase large subunit [EC:1.2.5.3]	COG1529	CoxL	Aldehyde, CO or xanthine dehydrogenase, Mo-binding subunit	HIMB083_01415
+AZAL01000001.1	Prodigal:2.6	CDS	1318697	1319482	.	+	0	HIMB083_01412	HIMB083	261	OG0001523	NA	NA	COG1319	CutB	Aldehyde, CO, or xanthine dehydrogenase, FAD-binding subunit	HIMB083_01415
+AZAL01000001.1	Prodigal:2.6	CDS	1319504	1319833	.	+	0	HIMB083_01413	HIMB083	109	OG0001385	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	HIMB083_01415
+AZAL01000001.1	Prodigal:2.6	CDS	1319833	1320513	.	+	0	HIMB083_01414	HIMB083	226	OG0001391	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	HIMB083_01415
+AZAL01000001.1	Prodigal:2.6	CDS	1320510	1320941	.	+	0	HIMB083_01415	HIMB083	143	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB083_01415
+AZAL01000001.1	Prodigal:2.6	CDS	1320938	1321513	.	+	0	HIMB083_01416	HIMB083	191	OG0001486	K07141	molybdenum cofactor cytidylyltransferase [EC:2.7.7.76]	COG2068	MocA	CTP:molybdopterin cytidylyltransferase MocA	HIMB083_01415
+AZAL01000001.1	Prodigal:2.6	CDS	1321496	1322077	.	-	0	HIMB083_01417	HIMB083	193	OG0001262	K17247	methionine sulfoxide reductase heme-binding subunit	COG2717	MsrQ	Heme-binding membrane subunit of periplasmic DMSO/TMAO and protein-methionine-sulfoxide reductases	HIMB083_01415
+AZAL01000001.1	Prodigal:2.6	CDS	1322084	1322989	.	-	0	HIMB083_01418	HIMB083	301	OG0001266	K07147	methionine sulfoxide reductase catalytic subunit [EC:1.8.-.-]	COG2041	MsrP	Molybdopterin-dependent catalytic subunit of periplasmic DMSO/TMAO and protein-methionine-sulfoxide reductases	HIMB083_01415
+AZAL01000001.1	Prodigal:2.6	CDS	1322991	1323437	.	-	0	HIMB083_01419	HIMB083	148	OG0001203	K03635	molybdopterin synthase catalytic subunit [EC:2.8.1.12]	COG0314	MoaE	Molybdopterin synthase catalytic subunit MoaE	HIMB083_01415
+AZAL01000001.1	Prodigal:2.6	CDS	1323437	1323706	.	-	0	HIMB083_01420	HIMB083	89	OG0001212	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB083_01415
+HIMB1685-00000000001	Prodigal:2.6	CDS	153774	153998	.	+	0	HIMB1685_00181	HIMB1685	74	OG0001242	NA	NA	NA	NA	NA	HIMB1685_00186
+HIMB1685-00000000001	Prodigal:2.6	CDS	153995	155287	.	+	0	HIMB1685_00182	HIMB1685	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1685_00186
+HIMB1685-00000000001	Prodigal:2.6	CDS	155287	156189	.	+	0	HIMB1685_00183	HIMB1685	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1685_00186
+HIMB1685-00000000001	Prodigal:2.6	CDS	156206	157057	.	+	0	HIMB1685_00184	HIMB1685	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1685_00186
+HIMB1685-00000000001	Prodigal:2.6	CDS	157601	157876	.	-	0	HIMB1685_00185	HIMB1685	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1685_00186
+HIMB1685-00000000001	Prodigal:2.6	CDS	157857	158294	.	-	0	HIMB1685_00186	HIMB1685	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1685_00186
+HIMB1685-00000000001	Prodigal:2.6	CDS	158327	158578	.	-	0	HIMB1685_00187	HIMB1685	83	OG0003009	NA	NA	NA	NA	NA	HIMB1685_00186
+HIMB1685-00000000001	Prodigal:2.6	CDS	158659	159612	.	+	0	HIMB1685_00188	HIMB1685	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1685_00186
+HIMB1685-00000000001	Prodigal:2.6	CDS	159638	160435	.	+	0	HIMB1685_00189	HIMB1685	265	OG0001592	NA	NA	COG3751	EGL9	Proline 4-hydroxylase (includes Rps23 Pro-64 3,4-dihydroxylase Tpa1), contains SM-20 domain	HIMB1685_00186
+HIMB1685-00000000001	Prodigal:2.6	CDS	160447	161304	.	+	0	HIMB1685_00190	HIMB1685	285	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1685_00186
+HIMB1685-00000000001	Prodigal:2.6	CDS	161331	162140	.	-	0	HIMB1685_00191	HIMB1685	269	OG0001279	NA	NA	NA	NA	NA	HIMB1685_00186
+HIMB1559-00000000001	Prodigal:2.6	CDS	321089	321934	.	-	0	HIMB1559_00354	HIMB1559	281	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1559_00359
+HIMB1559-00000000001	Prodigal:2.6	CDS	321981	322793	.	+	0	HIMB1559_00355	HIMB1559	270	OG0001279	NA	NA	NA	NA	NA	HIMB1559_00359
+HIMB1559-00000000001	Prodigal:2.6	CDS	322794	323909	.	+	0	HIMB1559_00356	HIMB1559	371	OG0001797	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	HIMB1559_00359
+HIMB1559-00000000001	Prodigal:2.6	CDS	323919	324872	.	-	0	HIMB1559_00357	HIMB1559	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1559_00359
+HIMB1559-00000000001	Prodigal:2.6	CDS	324953	325204	.	+	0	HIMB1559_00358	HIMB1559	83	OG0003009	NA	NA	NA	NA	NA	HIMB1559_00359
+HIMB1559-00000000001	Prodigal:2.6	CDS	325237	325674	.	+	0	HIMB1559_00359	HIMB1559	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1559_00359
+HIMB1559-00000000001	Prodigal:2.6	CDS	325655	325930	.	+	0	HIMB1559_00360	HIMB1559	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1559_00359
+HIMB1559-00000000001	Prodigal:2.6	CDS	326475	327326	.	-	0	HIMB1559_00361	HIMB1559	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1559_00359
+HIMB1559-00000000001	Prodigal:2.6	CDS	327343	328245	.	-	0	HIMB1559_00362	HIMB1559	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1559_00359
+HIMB1559-00000000001	Prodigal:2.6	CDS	328245	329537	.	-	0	HIMB1559_00363	HIMB1559	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1559_00359
+HIMB1559-00000000001	Prodigal:2.6	CDS	329534	329758	.	-	0	HIMB1559_00364	HIMB1559	74	OG0001242	NA	NA	NA	NA	NA	HIMB1559_00359
+HIMB1597-00000000001	Prodigal:2.6	CDS	1481229	1481453	.	+	0	HIMB1597_01581	HIMB1597	74	OG0001242	NA	NA	NA	NA	NA	HIMB1597_01586
+HIMB1597-00000000001	Prodigal:2.6	CDS	1481450	1482742	.	+	0	HIMB1597_01582	HIMB1597	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1597_01586
+HIMB1597-00000000001	Prodigal:2.6	CDS	1482742	1483644	.	+	0	HIMB1597_01583	HIMB1597	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1597_01586
+HIMB1597-00000000001	Prodigal:2.6	CDS	1483661	1484512	.	+	0	HIMB1597_01584	HIMB1597	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1597_01586
+HIMB1597-00000000001	Prodigal:2.6	CDS	1485057	1485332	.	-	0	HIMB1597_01585	HIMB1597	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1597_01586
+HIMB1597-00000000001	Prodigal:2.6	CDS	1485313	1485750	.	-	0	HIMB1597_01586	HIMB1597	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1597_01586
+HIMB1597-00000000001	Prodigal:2.6	CDS	1485783	1486034	.	-	0	HIMB1597_01587	HIMB1597	83	OG0003009	NA	NA	NA	NA	NA	HIMB1597_01586
+HIMB1597-00000000001	Prodigal:2.6	CDS	1486115	1487068	.	+	0	HIMB1597_01588	HIMB1597	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1597_01586
+HIMB1597-00000000001	Prodigal:2.6	CDS	1487078	1488193	.	-	0	HIMB1597_01589	HIMB1597	371	OG0001797	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	HIMB1597_01586
+HIMB1597-00000000001	Prodigal:2.6	CDS	1488194	1488799	.	-	0	HIMB1597_01590	HIMB1597	201	OG0001279	NA	NA	NA	NA	NA	HIMB1597_01586
+HIMB1587-00000000001	Prodigal:2.6	CDS	321289	322134	.	-	0	HIMB1587_00354	HIMB1587	281	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1587_00359
+HIMB1587-00000000001	Prodigal:2.6	CDS	322181	322993	.	+	0	HIMB1587_00355	HIMB1587	270	OG0001279	NA	NA	NA	NA	NA	HIMB1587_00359
+HIMB1587-00000000001	Prodigal:2.6	CDS	322994	324109	.	+	0	HIMB1587_00356	HIMB1587	371	OG0001797	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	HIMB1587_00359
+HIMB1587-00000000001	Prodigal:2.6	CDS	324119	325072	.	-	0	HIMB1587_00357	HIMB1587	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1587_00359
+HIMB1587-00000000001	Prodigal:2.6	CDS	325153	325404	.	+	0	HIMB1587_00358	HIMB1587	83	OG0003009	NA	NA	NA	NA	NA	HIMB1587_00359
+HIMB1587-00000000001	Prodigal:2.6	CDS	325437	325874	.	+	0	HIMB1587_00359	HIMB1587	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1587_00359
+HIMB1587-00000000001	Prodigal:2.6	CDS	325855	326130	.	+	0	HIMB1587_00360	HIMB1587	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1587_00359
+HIMB1587-00000000001	Prodigal:2.6	CDS	326675	327526	.	-	0	HIMB1587_00361	HIMB1587	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1587_00359
+HIMB1587-00000000001	Prodigal:2.6	CDS	327543	328445	.	-	0	HIMB1587_00362	HIMB1587	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1587_00359
+HIMB1587-00000000001	Prodigal:2.6	CDS	328445	329737	.	-	0	HIMB1587_00363	HIMB1587	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1587_00359
+HIMB1587-00000000001	Prodigal:2.6	CDS	329734	329958	.	-	0	HIMB1587_00364	HIMB1587	74	OG0001242	NA	NA	NA	NA	NA	HIMB1587_00359
+HIMB1573-00000000001	Prodigal:2.6	CDS	1117612	1117836	.	+	0	HIMB1573_01200	HIMB1573	74	OG0001242	NA	NA	NA	NA	NA	HIMB1573_01205
+HIMB1573-00000000001	Prodigal:2.6	CDS	1117833	1119125	.	+	0	HIMB1573_01201	HIMB1573	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1573_01205
+HIMB1573-00000000001	Prodigal:2.6	CDS	1119125	1120027	.	+	0	HIMB1573_01202	HIMB1573	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1573_01205
+HIMB1573-00000000001	Prodigal:2.6	CDS	1120044	1120895	.	+	0	HIMB1573_01203	HIMB1573	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1573_01205
+HIMB1573-00000000001	Prodigal:2.6	CDS	1121440	1121715	.	-	0	HIMB1573_01204	HIMB1573	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1573_01205
+HIMB1573-00000000001	Prodigal:2.6	CDS	1121696	1122133	.	-	0	HIMB1573_01205	HIMB1573	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1573_01205
+HIMB1573-00000000001	Prodigal:2.6	CDS	1122169	1122369	.	-	0	HIMB1573_01206	HIMB1573	66	OG0001666	NA	NA	NA	NA	NA	HIMB1573_01205
+HIMB1573-00000000001	Prodigal:2.6	CDS	1122449	1123402	.	+	0	HIMB1573_01207	HIMB1573	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1573_01205
+HIMB1573-00000000001	Prodigal:2.6	CDS	1123413	1124132	.	-	0	HIMB1573_01208	HIMB1573	239	OG0002249	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1573_01205
+HIMB1573-00000000001	Prodigal:2.6	CDS	1124155	1124952	.	+	0	HIMB1573_01209	HIMB1573	265	OG0001592	NA	NA	COG3751	EGL9	Proline 4-hydroxylase (includes Rps23 Pro-64 3,4-dihydroxylase Tpa1), contains SM-20 domain	HIMB1573_01205
+HIMB1573-00000000001	Prodigal:2.6	CDS	1124991	1125848	.	+	0	HIMB1573_01210	HIMB1573	285	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1573_01205
+HIMB1491-00000000001	Prodigal:2.6	CDS	1130693	1130917	.	+	0	HIMB1491_01173	HIMB1491	74	OG0001242	NA	NA	NA	NA	NA	HIMB1491_01178
+HIMB1491-00000000001	Prodigal:2.6	CDS	1130914	1132206	.	+	0	HIMB1491_01174	HIMB1491	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1491_01178
+HIMB1491-00000000001	Prodigal:2.6	CDS	1132206	1133108	.	+	0	HIMB1491_01175	HIMB1491	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1491_01178
+HIMB1491-00000000001	Prodigal:2.6	CDS	1133125	1133976	.	+	0	HIMB1491_01176	HIMB1491	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1491_01178
+HIMB1491-00000000001	Prodigal:2.6	CDS	1134522	1134797	.	-	0	HIMB1491_01177	HIMB1491	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1491_01178
+HIMB1491-00000000001	Prodigal:2.6	CDS	1134778	1135221	.	-	0	HIMB1491_01178	HIMB1491	147	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1491_01178
+HIMB1491-00000000001	Prodigal:2.6	CDS	1135251	1135451	.	-	0	HIMB1491_01179	HIMB1491	66	OG0001666	NA	NA	NA	NA	NA	HIMB1491_01178
+HIMB1491-00000000001	Prodigal:2.6	CDS	1135534	1136487	.	+	0	HIMB1491_01180	HIMB1491	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1491_01178
+HIMB1491-00000000001	Prodigal:2.6	CDS	1136484	1137746	.	-	0	HIMB1491_01181	HIMB1491	420	OG0002128	NA	NA	NA	NA	NA	HIMB1491_01178
+HIMB1491-00000000001	Prodigal:2.6	CDS	1137784	1138692	.	-	0	HIMB1491_01182	HIMB1491	302	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1491_01178
+HIMB1491-00000000001	Prodigal:2.6	CDS	1138692	1139576	.	-	0	HIMB1491_01183	HIMB1491	294	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1491_01178
+HIMB1765-00000000001	Prodigal:2.6	CDS	310682	311566	.	+	0	HIMB1765_00344	HIMB1765	294	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1765_00349
+HIMB1765-00000000001	Prodigal:2.6	CDS	311566	312453	.	+	0	HIMB1765_00345	HIMB1765	295	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1765_00349
+HIMB1765-00000000001	Prodigal:2.6	CDS	312460	313521	.	+	0	HIMB1765_00346	HIMB1765	353	OG0001526	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB1765_00349
+HIMB1765-00000000001	Prodigal:2.6	CDS	313511	314464	.	-	0	HIMB1765_00347	HIMB1765	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1765_00349
+HIMB1765-00000000001	Prodigal:2.6	CDS	314545	314796	.	+	0	HIMB1765_00348	HIMB1765	83	OG0003009	NA	NA	NA	NA	NA	HIMB1765_00349
+HIMB1765-00000000001	Prodigal:2.6	CDS	314829	315266	.	+	0	HIMB1765_00349	HIMB1765	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1765_00349
+HIMB1765-00000000001	Prodigal:2.6	CDS	315247	315522	.	+	0	HIMB1765_00350	HIMB1765	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1765_00349
+HIMB1765-00000000001	Prodigal:2.6	CDS	316067	316918	.	-	0	HIMB1765_00351	HIMB1765	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1765_00349
+HIMB1765-00000000001	Prodigal:2.6	CDS	316935	317837	.	-	0	HIMB1765_00352	HIMB1765	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1765_00349
+HIMB1765-00000000001	Prodigal:2.6	CDS	317837	319129	.	-	0	HIMB1765_00353	HIMB1765	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1765_00349
+HIMB1765-00000000001	Prodigal:2.6	CDS	319126	319350	.	-	0	HIMB1765_00354	HIMB1765	74	OG0001242	NA	NA	NA	NA	NA	HIMB1765_00349
+HIMB1494-00000000001	Prodigal:2.6	CDS	1013041	1013910	.	+	0	HIMB1494_01088	HIMB1494	289	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1494_01093
+HIMB1494-00000000001	Prodigal:2.6	CDS	1013913	1014593	.	+	0	HIMB1494_01089	HIMB1494	226	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB1494_01093
+HIMB1494-00000000001	Prodigal:2.6	CDS	1014602	1015435	.	-	0	HIMB1494_01090	HIMB1494	277	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1494_01093
+HIMB1494-00000000001	Prodigal:2.6	CDS	1015440	1016393	.	-	0	HIMB1494_01091	HIMB1494	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1494_01093
+HIMB1494-00000000001	Prodigal:2.6	CDS	1016476	1016676	.	+	0	HIMB1494_01092	HIMB1494	66	OG0001666	NA	NA	NA	NA	NA	HIMB1494_01093
+HIMB1494-00000000001	Prodigal:2.6	CDS	1016712	1017149	.	+	0	HIMB1494_01093	HIMB1494	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1494_01093
+HIMB1494-00000000001	Prodigal:2.6	CDS	1017130	1017405	.	+	0	HIMB1494_01094	HIMB1494	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1494_01093
+HIMB1495-00000000001	Prodigal:2.6	CDS	989698	990567	.	+	0	HIMB1495_01066	HIMB1495	289	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1495_01071
+HIMB1495-00000000001	Prodigal:2.6	CDS	990570	991250	.	+	0	HIMB1495_01067	HIMB1495	226	OG0001217	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB1495_01071
+HIMB1495-00000000001	Prodigal:2.6	CDS	991259	992092	.	-	0	HIMB1495_01068	HIMB1495	277	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1495_01071
+HIMB1495-00000000001	Prodigal:2.6	CDS	992097	993050	.	-	0	HIMB1495_01069	HIMB1495	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1495_01071
+HIMB1495-00000000001	Prodigal:2.6	CDS	993133	993333	.	+	0	HIMB1495_01070	HIMB1495	66	OG0001666	NA	NA	NA	NA	NA	HIMB1495_01071
+HIMB1495-00000000001	Prodigal:2.6	CDS	993369	993806	.	+	0	HIMB1495_01071	HIMB1495	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1495_01071
+HIMB1495-00000000001	Prodigal:2.6	CDS	993787	994062	.	+	0	HIMB1495_01072	HIMB1495	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1495_01071
+HIMB1495-00000000001	Prodigal:2.6	CDS	994604	995458	.	-	0	HIMB1495_01073	HIMB1495	284	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1495_01071
+HIMB1495-00000000001	Prodigal:2.6	CDS	995475	996377	.	-	0	HIMB1495_01074	HIMB1495	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1495_01071
+HIMB1495-00000000001	Prodigal:2.6	CDS	996377	997669	.	-	0	HIMB1495_01075	HIMB1495	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1495_01071
+HIMB1495-00000000001	Prodigal:2.6	CDS	997666	997890	.	-	0	HIMB1495_01076	HIMB1495	74	OG0001242	NA	NA	NA	NA	NA	HIMB1495_01071
+HIMB1593-00000000001	Prodigal:2.6	CDS	972589	973473	.	+	0	HIMB1593_01024	HIMB1593	294	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1593_01029
+HIMB1593-00000000001	Prodigal:2.6	CDS	973483	974328	.	-	0	HIMB1593_01025	HIMB1593	281	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1593_01029
+HIMB1593-00000000001	Prodigal:2.6	CDS	974462	975589	.	+	0	HIMB1593_01026	HIMB1593	375	OG0001797	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	HIMB1593_01029
+HIMB1593-00000000001	Prodigal:2.6	CDS	975586	976539	.	-	0	HIMB1593_01027	HIMB1593	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1593_01029
+HIMB1593-00000000001	Prodigal:2.6	CDS	976702	977097	.	+	0	HIMB1593_01028	HIMB1593	131	OG0001644	NA	NA	NA	NA	NA	HIMB1593_01029
+HIMB1593-00000000001	Prodigal:2.6	CDS	977142	977579	.	+	0	HIMB1593_01029	HIMB1593	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1593_01029
+HIMB1593-00000000001	Prodigal:2.6	CDS	977551	977835	.	+	0	HIMB1593_01030	HIMB1593	94	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1593_01029
+HIMB1593-00000000001	Prodigal:2.6	CDS	978380	979198	.	-	0	HIMB1593_01031	HIMB1593	272	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1593_01029
+HIMB1593-00000000001	Prodigal:2.6	CDS	979248	980150	.	-	0	HIMB1593_01032	HIMB1593	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1593_01029
+HIMB1593-00000000001	Prodigal:2.6	CDS	980150	981442	.	-	0	HIMB1593_01033	HIMB1593	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1593_01029
+HIMB1593-00000000001	Prodigal:2.6	CDS	981439	981663	.	-	0	HIMB1593_01034	HIMB1593	74	OG0001242	NA	NA	NA	NA	NA	HIMB1593_01029
+HIMB1509-00000000001	Prodigal:2.6	CDS	958340	958588	.	+	0	HIMB1509_01020	HIMB1509	82	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1509_01025
+HIMB1509-00000000001	Prodigal:2.6	CDS	958590	960698	.	+	0	HIMB1509_01021	HIMB1509	702	OG0000842	K06320	spore maturation protein CgeB	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1509_01025
+HIMB1509-00000000001	Prodigal:2.6	CDS	960728	961618	.	+	0	HIMB1509_01022	HIMB1509	296	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1509_01025
+HIMB1509-00000000001	Prodigal:2.6	CDS	961608	962561	.	-	0	HIMB1509_01023	HIMB1509	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1509_01025
+HIMB1509-00000000001	Prodigal:2.6	CDS	962644	962844	.	+	0	HIMB1509_01024	HIMB1509	66	OG0001666	NA	NA	NA	NA	NA	HIMB1509_01025
+HIMB1509-00000000001	Prodigal:2.6	CDS	962880	963317	.	+	0	HIMB1509_01025	HIMB1509	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1509_01025
+HIMB1509-00000000001	Prodigal:2.6	CDS	963298	963573	.	+	0	HIMB1509_01026	HIMB1509	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1509_01025
+HIMB1509-00000000001	Prodigal:2.6	CDS	964118	964969	.	-	0	HIMB1509_01027	HIMB1509	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1509_01025
+HIMB1509-00000000001	Prodigal:2.6	CDS	964986	965888	.	-	0	HIMB1509_01028	HIMB1509	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1509_01025
+HIMB1509-00000000001	Prodigal:2.6	CDS	965888	967180	.	-	0	HIMB1509_01029	HIMB1509	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1509_01025
+HIMB1509-00000000001	Prodigal:2.6	CDS	967177	967401	.	-	0	HIMB1509_01030	HIMB1509	74	OG0001242	NA	NA	NA	NA	NA	HIMB1509_01025
+HIMB1485-00000000002	Prodigal:2.6	CDS	956687	957154	.	+	0	HIMB1485_01503	HIMB1485	155	OG0002300	NA	NA	NA	NA	NA	HIMB1485_01508
+HIMB1485-00000000002	Prodigal:2.6	CDS	957147	957905	.	+	0	HIMB1485_01504	HIMB1485	252	NA	NA	NA	NA	NA	NA	HIMB1485_01508
+HIMB1485-00000000002	Prodigal:2.6	CDS	957906	959039	.	+	0	HIMB1485_01505	HIMB1485	377	OG0001797	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	HIMB1485_01508
+HIMB1485-00000000002	Prodigal:2.6	CDS	959063	959977	.	-	0	HIMB1485_01506	HIMB1485	304	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1485_01508
+HIMB1485-00000000002	Prodigal:2.6	CDS	960055	960591	.	+	0	HIMB1485_01507	HIMB1485	178	OG0002786	NA	NA	NA	NA	NA	HIMB1485_01508
+HIMB1485-00000000002	Prodigal:2.6	CDS	960632	961069	.	+	0	HIMB1485_01508	HIMB1485	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1485_01508
+HIMB1485-00000000002	Prodigal:2.6	CDS	961050	961325	.	+	0	HIMB1485_01509	HIMB1485	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1485_01508
+HIMB1492-00000000064	Prodigal:2.6	CDS	29	421	.	+	0	HIMB1492_00765	HIMB1492	130	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1492_00765
+HIMB1492-00000000064	Prodigal:2.6	CDS	402	677	.	+	0	HIMB1492_00766	HIMB1492	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1492_00765
+HIMB1492-00000000064	Prodigal:2.6	CDS	1226	2074	.	-	0	HIMB1492_00767	HIMB1492	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1492_00765
+HIMB1492-00000000064	Prodigal:2.6	CDS	2091	2993	.	-	0	HIMB1492_00768	HIMB1492	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1492_00765
+HIMB1492-00000000064	Prodigal:2.6	CDS	2993	4285	.	-	0	HIMB1492_00769	HIMB1492	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1492_00765
+HIMB1492-00000000064	Prodigal:2.6	CDS	4282	4506	.	-	0	HIMB1492_00770	HIMB1492	74	OG0001242	NA	NA	NA	NA	NA	HIMB1492_00765
+HIMB1493-00000000001	Prodigal:2.6	CDS	445068	445292	.	+	0	HIMB1493_00472	HIMB1493	74	OG0001242	NA	NA	NA	NA	NA	HIMB1493_00477
+HIMB1493-00000000001	Prodigal:2.6	CDS	445289	446581	.	+	0	HIMB1493_00473	HIMB1493	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1493_00477
+HIMB1493-00000000001	Prodigal:2.6	CDS	446581	447483	.	+	0	HIMB1493_00474	HIMB1493	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1493_00477
+HIMB1493-00000000001	Prodigal:2.6	CDS	447500	448348	.	+	0	HIMB1493_00475	HIMB1493	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1493_00477
+HIMB1493-00000000001	Prodigal:2.6	CDS	448897	449172	.	-	0	HIMB1493_00476	HIMB1493	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1493_00477
+HIMB1493-00000000001	Prodigal:2.6	CDS	449153	449590	.	-	0	HIMB1493_00477	HIMB1493	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1493_00477
+HIMB1493-00000000001	Prodigal:2.6	CDS	449635	450030	.	-	0	HIMB1493_00478	HIMB1493	131	OG0001644	NA	NA	NA	NA	NA	HIMB1493_00477
+HIMB1493-00000000001	Prodigal:2.6	CDS	450193	451146	.	+	0	HIMB1493_00479	HIMB1493	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1493_00477
+HIMB1493-00000000001	Prodigal:2.6	CDS	451166	452464	.	-	0	HIMB1493_00480	HIMB1493	432	OG0001648	NA	NA	COG2220	UlaG	L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily	HIMB1493_00477
+HIMB1493-00000000001	Prodigal:2.6	CDS	452519	453490	.	+	0	HIMB1493_00481	HIMB1493	323	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1493_00477
+HIMB1493-00000000001	Prodigal:2.6	CDS	453476	454558	.	-	0	HIMB1493_00482	HIMB1493	360	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1493_00477
+HIMB1518-00000000001	Prodigal:2.6	CDS	600519	600743	.	+	0	HIMB1518_00627	HIMB1518	74	OG0001242	NA	NA	NA	NA	NA	HIMB1518_00632
+HIMB1518-00000000001	Prodigal:2.6	CDS	600740	602032	.	+	0	HIMB1518_00628	HIMB1518	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1518_00632
+HIMB1518-00000000001	Prodigal:2.6	CDS	602032	602934	.	+	0	HIMB1518_00629	HIMB1518	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1518_00632
+HIMB1518-00000000001	Prodigal:2.6	CDS	602951	603799	.	+	0	HIMB1518_00630	HIMB1518	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1518_00632
+HIMB1518-00000000001	Prodigal:2.6	CDS	604348	604623	.	-	0	HIMB1518_00631	HIMB1518	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1518_00632
+HIMB1518-00000000001	Prodigal:2.6	CDS	604604	605041	.	-	0	HIMB1518_00632	HIMB1518	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1518_00632
+HIMB1518-00000000001	Prodigal:2.6	CDS	605086	605481	.	-	0	HIMB1518_00633	HIMB1518	131	OG0001644	NA	NA	NA	NA	NA	HIMB1518_00632
+HIMB1518-00000000001	Prodigal:2.6	CDS	605644	606597	.	+	0	HIMB1518_00634	HIMB1518	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1518_00632
+HIMB1518-00000000001	Prodigal:2.6	CDS	606617	607915	.	-	0	HIMB1518_00635	HIMB1518	432	OG0001648	NA	NA	COG2220	UlaG	L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily	HIMB1518_00632
+HIMB1518-00000000001	Prodigal:2.6	CDS	607970	608941	.	+	0	HIMB1518_00636	HIMB1518	323	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1518_00632
+HIMB1518-00000000001	Prodigal:2.6	CDS	608927	610009	.	-	0	HIMB1518_00637	HIMB1518	360	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1518_00632
+HIMB1770-00000000001	Prodigal:2.6	CDS	78796	79020	.	+	0	HIMB1770_00094	HIMB1770	74	OG0001242	NA	NA	NA	NA	NA	HIMB1770_00099
+HIMB1770-00000000001	Prodigal:2.6	CDS	79017	80309	.	+	0	HIMB1770_00095	HIMB1770	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1770_00099
+HIMB1770-00000000001	Prodigal:2.6	CDS	80309	81211	.	+	0	HIMB1770_00096	HIMB1770	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1770_00099
+HIMB1770-00000000001	Prodigal:2.6	CDS	81228	82076	.	+	0	HIMB1770_00097	HIMB1770	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1770_00099
+HIMB1770-00000000001	Prodigal:2.6	CDS	82625	82900	.	-	0	HIMB1770_00098	HIMB1770	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1770_00099
+HIMB1770-00000000001	Prodigal:2.6	CDS	82881	83318	.	-	0	HIMB1770_00099	HIMB1770	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1770_00099
+HIMB1770-00000000001	Prodigal:2.6	CDS	83363	83758	.	-	0	HIMB1770_00100	HIMB1770	131	OG0001644	NA	NA	NA	NA	NA	HIMB1770_00099
+HIMB1770-00000000001	Prodigal:2.6	CDS	83921	84874	.	+	0	HIMB1770_00101	HIMB1770	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1770_00099
+HIMB1770-00000000001	Prodigal:2.6	CDS	84894	86192	.	-	0	HIMB1770_00102	HIMB1770	432	OG0001648	NA	NA	COG2220	UlaG	L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily	HIMB1770_00099
+HIMB1770-00000000001	Prodigal:2.6	CDS	86247	87218	.	+	0	HIMB1770_00103	HIMB1770	323	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1770_00099
+HIMB1770-00000000001	Prodigal:2.6	CDS	87204	88286	.	-	0	HIMB1770_00104	HIMB1770	360	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1770_00099
+HIMB1507-00000000001	Prodigal:2.6	CDS	1153046	1153270	.	+	0	HIMB1507_01211	HIMB1507	74	OG0001242	NA	NA	NA	NA	NA	HIMB1507_01216
+HIMB1507-00000000001	Prodigal:2.6	CDS	1153267	1154559	.	+	0	HIMB1507_01212	HIMB1507	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1507_01216
+HIMB1507-00000000001	Prodigal:2.6	CDS	1154559	1155461	.	+	0	HIMB1507_01213	HIMB1507	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1507_01216
+HIMB1507-00000000001	Prodigal:2.6	CDS	1155478	1156329	.	+	0	HIMB1507_01214	HIMB1507	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1507_01216
+HIMB1507-00000000001	Prodigal:2.6	CDS	1156874	1157149	.	-	0	HIMB1507_01215	HIMB1507	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1507_01216
+HIMB1507-00000000001	Prodigal:2.6	CDS	1157130	1157567	.	-	0	HIMB1507_01216	HIMB1507	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1507_01216
+HIMB1507-00000000001	Prodigal:2.6	CDS	1157603	1157803	.	-	0	HIMB1507_01217	HIMB1507	66	OG0001666	NA	NA	NA	NA	NA	HIMB1507_01216
+HIMB1507-00000000001	Prodigal:2.6	CDS	1157886	1158839	.	+	0	HIMB1507_01218	HIMB1507	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1507_01216
+HIMB1507-00000000001	Prodigal:2.6	CDS	1158842	1159609	.	-	0	HIMB1507_01219	HIMB1507	255	OG0000008	NA	NA	NA	NA	NA	HIMB1507_01216
+HIMB1507-00000000001	Prodigal:2.6	CDS	1159627	1160535	.	-	0	HIMB1507_01220	HIMB1507	302	OG0001450	NA	NA	NA	NA	NA	HIMB1507_01216
+HIMB1507-00000000001	Prodigal:2.6	CDS	1160532	1162652	.	-	0	HIMB1507_01221	HIMB1507	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1507_01216
+HIMB1526-00000000001	Prodigal:2.6	CDS	829377	830357	.	+	0	HIMB1526_00876	HIMB1526	326	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1526_00881
+HIMB1526-00000000001	Prodigal:2.6	CDS	830350	831105	.	+	0	HIMB1526_00877	HIMB1526	251	OG0000008	NA	NA	COG4106	Tam	Trans-aconitate methyltransferase	HIMB1526_00881
+HIMB1526-00000000001	Prodigal:2.6	CDS	831095	832048	.	-	0	HIMB1526_00878	HIMB1526	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1526_00881
+HIMB1526-00000000001	Prodigal:2.6	CDS	832183	832353	.	+	0	HIMB1526_00879	HIMB1526	56	OG0001201	NA	NA	NA	NA	NA	HIMB1526_00881
+HIMB1526-00000000001	Prodigal:2.6	CDS	832361	832837	.	+	0	HIMB1526_00880	HIMB1526	158	OG0001644	NA	NA	NA	NA	NA	HIMB1526_00881
+HIMB1526-00000000001	Prodigal:2.6	CDS	832881	833318	.	+	0	HIMB1526_00881	HIMB1526	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1526_00881
+HIMB1526-00000000001	Prodigal:2.6	CDS	833299	833574	.	+	0	HIMB1526_00882	HIMB1526	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1526_00881
+HIMB1526-00000000001	Prodigal:2.6	CDS	834118	834969	.	-	0	HIMB1526_00883	HIMB1526	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1526_00881
+HIMB1526-00000000001	Prodigal:2.6	CDS	834986	835888	.	-	0	HIMB1526_00884	HIMB1526	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1526_00881
+HIMB1526-00000000001	Prodigal:2.6	CDS	835888	837180	.	-	0	HIMB1526_00885	HIMB1526	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1526_00881
+HIMB1526-00000000001	Prodigal:2.6	CDS	837177	837401	.	-	0	HIMB1526_00886	HIMB1526	74	OG0001242	NA	NA	NA	NA	NA	HIMB1526_00881
+HIMB1552-00000000001	Prodigal:2.6	CDS	379739	380719	.	+	0	HIMB1552_00412	HIMB1552	326	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1552_00417
+HIMB1552-00000000001	Prodigal:2.6	CDS	380712	381467	.	+	0	HIMB1552_00413	HIMB1552	251	OG0000008	NA	NA	COG4106	Tam	Trans-aconitate methyltransferase	HIMB1552_00417
+HIMB1552-00000000001	Prodigal:2.6	CDS	381457	382410	.	-	0	HIMB1552_00414	HIMB1552	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1552_00417
+HIMB1552-00000000001	Prodigal:2.6	CDS	382545	382715	.	+	0	HIMB1552_00415	HIMB1552	56	OG0001201	NA	NA	NA	NA	NA	HIMB1552_00417
+HIMB1552-00000000001	Prodigal:2.6	CDS	382723	383199	.	+	0	HIMB1552_00416	HIMB1552	158	OG0001644	NA	NA	NA	NA	NA	HIMB1552_00417
+HIMB1552-00000000001	Prodigal:2.6	CDS	383243	383680	.	+	0	HIMB1552_00417	HIMB1552	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1552_00417
+HIMB1552-00000000001	Prodigal:2.6	CDS	383661	383936	.	+	0	HIMB1552_00418	HIMB1552	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1552_00417
+HIMB1552-00000000001	Prodigal:2.6	CDS	384480	385331	.	-	0	HIMB1552_00419	HIMB1552	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1552_00417
+HIMB1552-00000000001	Prodigal:2.6	CDS	385348	386250	.	-	0	HIMB1552_00420	HIMB1552	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1552_00417
+HIMB1552-00000000001	Prodigal:2.6	CDS	386250	387542	.	-	0	HIMB1552_00421	HIMB1552	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1552_00417
+HIMB1552-00000000001	Prodigal:2.6	CDS	387539	387763	.	-	0	HIMB1552_00422	HIMB1552	74	OG0001242	NA	NA	NA	NA	NA	HIMB1552_00417
+HIMB1641-00000000001	Prodigal:2.6	CDS	1050637	1050861	.	+	0	HIMB1641_01089	HIMB1641	74	OG0001242	NA	NA	NA	NA	NA	HIMB1641_01094
+HIMB1641-00000000001	Prodigal:2.6	CDS	1050858	1052150	.	+	0	HIMB1641_01090	HIMB1641	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1641_01094
+HIMB1641-00000000001	Prodigal:2.6	CDS	1052150	1053052	.	+	0	HIMB1641_01091	HIMB1641	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1641_01094
+HIMB1641-00000000001	Prodigal:2.6	CDS	1053069	1053920	.	+	0	HIMB1641_01092	HIMB1641	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1641_01094
+HIMB1641-00000000001	Prodigal:2.6	CDS	1054464	1054739	.	-	0	HIMB1641_01093	HIMB1641	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1641_01094
+HIMB1641-00000000001	Prodigal:2.6	CDS	1054720	1055157	.	-	0	HIMB1641_01094	HIMB1641	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1641_01094
+HIMB1641-00000000001	Prodigal:2.6	CDS	1055201	1055677	.	-	0	HIMB1641_01095	HIMB1641	158	OG0001644	NA	NA	NA	NA	NA	HIMB1641_01094
+HIMB1641-00000000001	Prodigal:2.6	CDS	1055685	1055855	.	-	0	HIMB1641_01096	HIMB1641	56	OG0001201	NA	NA	NA	NA	NA	HIMB1641_01094
+HIMB1641-00000000001	Prodigal:2.6	CDS	1055990	1056943	.	+	0	HIMB1641_01097	HIMB1641	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1641_01094
+HIMB1641-00000000001	Prodigal:2.6	CDS	1056933	1057688	.	-	0	HIMB1641_01098	HIMB1641	251	OG0000008	NA	NA	COG4106	Tam	Trans-aconitate methyltransferase	HIMB1641_01094
+HIMB1641-00000000001	Prodigal:2.6	CDS	1057681	1058661	.	-	0	HIMB1641_01099	HIMB1641	326	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1641_01094
+HIMB1636-00000000001	Prodigal:2.6	CDS	457514	457738	.	+	0	HIMB1636_00475	HIMB1636	74	OG0001242	NA	NA	NA	NA	NA	HIMB1636_00480
+HIMB1636-00000000001	Prodigal:2.6	CDS	457735	459027	.	+	0	HIMB1636_00476	HIMB1636	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1636_00480
+HIMB1636-00000000001	Prodigal:2.6	CDS	459027	459929	.	+	0	HIMB1636_00477	HIMB1636	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1636_00480
+HIMB1636-00000000001	Prodigal:2.6	CDS	459946	460797	.	+	0	HIMB1636_00478	HIMB1636	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1636_00480
+HIMB1636-00000000001	Prodigal:2.6	CDS	461341	461616	.	-	0	HIMB1636_00479	HIMB1636	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1636_00480
+HIMB1636-00000000001	Prodigal:2.6	CDS	461597	462034	.	-	0	HIMB1636_00480	HIMB1636	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1636_00480
+HIMB1636-00000000001	Prodigal:2.6	CDS	462078	462554	.	-	0	HIMB1636_00481	HIMB1636	158	OG0001644	NA	NA	NA	NA	NA	HIMB1636_00480
+HIMB1636-00000000001	Prodigal:2.6	CDS	462562	462732	.	-	0	HIMB1636_00482	HIMB1636	56	OG0001201	NA	NA	NA	NA	NA	HIMB1636_00480
+HIMB1636-00000000001	Prodigal:2.6	CDS	462867	463820	.	+	0	HIMB1636_00483	HIMB1636	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1636_00480
+HIMB1636-00000000001	Prodigal:2.6	CDS	463810	464565	.	-	0	HIMB1636_00484	HIMB1636	251	OG0000008	NA	NA	COG4106	Tam	Trans-aconitate methyltransferase	HIMB1636_00480
+HIMB1636-00000000001	Prodigal:2.6	CDS	464558	465538	.	-	0	HIMB1636_00485	HIMB1636	326	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1636_00480
+HIMB1702-00000000001	Prodigal:2.6	CDS	967635	968615	.	+	0	HIMB1702_01020	HIMB1702	326	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1702_01025
+HIMB1702-00000000001	Prodigal:2.6	CDS	968608	969363	.	+	0	HIMB1702_01021	HIMB1702	251	OG0000008	NA	NA	COG4106	Tam	Trans-aconitate methyltransferase	HIMB1702_01025
+HIMB1702-00000000001	Prodigal:2.6	CDS	969353	970306	.	-	0	HIMB1702_01022	HIMB1702	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1702_01025
+HIMB1702-00000000001	Prodigal:2.6	CDS	970441	970611	.	+	0	HIMB1702_01023	HIMB1702	56	OG0001201	NA	NA	NA	NA	NA	HIMB1702_01025
+HIMB1702-00000000001	Prodigal:2.6	CDS	970619	971095	.	+	0	HIMB1702_01024	HIMB1702	158	OG0001644	NA	NA	NA	NA	NA	HIMB1702_01025
+HIMB1702-00000000001	Prodigal:2.6	CDS	971139	971576	.	+	0	HIMB1702_01025	HIMB1702	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1702_01025
+HIMB1702-00000000001	Prodigal:2.6	CDS	971557	971832	.	+	0	HIMB1702_01026	HIMB1702	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1702_01025
+HIMB1702-00000000001	Prodigal:2.6	CDS	972376	973227	.	-	0	HIMB1702_01027	HIMB1702	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1702_01025
+HIMB1702-00000000001	Prodigal:2.6	CDS	973244	974146	.	-	0	HIMB1702_01028	HIMB1702	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1702_01025
+HIMB1702-00000000001	Prodigal:2.6	CDS	974146	975438	.	-	0	HIMB1702_01029	HIMB1702	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1702_01025
+HIMB1702-00000000001	Prodigal:2.6	CDS	975435	975659	.	-	0	HIMB1702_01030	HIMB1702	74	OG0001242	NA	NA	NA	NA	NA	HIMB1702_01025
+HIMB1710-00000000003	Prodigal:2.6	CDS	946720	947700	.	+	0	HIMB1710_01015	HIMB1710	326	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1710_01020
+HIMB1710-00000000003	Prodigal:2.6	CDS	947693	948448	.	+	0	HIMB1710_01016	HIMB1710	251	OG0000008	NA	NA	COG4106	Tam	Trans-aconitate methyltransferase	HIMB1710_01020
+HIMB1710-00000000003	Prodigal:2.6	CDS	948438	949391	.	-	0	HIMB1710_01017	HIMB1710	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1710_01020
+HIMB1710-00000000003	Prodigal:2.6	CDS	949526	949696	.	+	0	HIMB1710_01018	HIMB1710	56	OG0001201	NA	NA	NA	NA	NA	HIMB1710_01020
+HIMB1710-00000000003	Prodigal:2.6	CDS	949704	950180	.	+	0	HIMB1710_01019	HIMB1710	158	OG0001644	NA	NA	NA	NA	NA	HIMB1710_01020
+HIMB1710-00000000003	Prodigal:2.6	CDS	950224	950661	.	+	0	HIMB1710_01020	HIMB1710	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1710_01020
+HIMB1710-00000000003	Prodigal:2.6	CDS	950642	950917	.	+	0	HIMB1710_01021	HIMB1710	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1710_01020
+HIMB1710-00000000003	Prodigal:2.6	CDS	951461	952312	.	-	0	HIMB1710_01022	HIMB1710	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1710_01020
+HIMB1710-00000000003	Prodigal:2.6	CDS	952329	953231	.	-	0	HIMB1710_01023	HIMB1710	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1710_01020
+HIMB1710-00000000003	Prodigal:2.6	CDS	953231	954523	.	-	0	HIMB1710_01024	HIMB1710	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1710_01020
+HIMB1710-00000000003	Prodigal:2.6	CDS	954520	954744	.	-	0	HIMB1710_01025	HIMB1710	74	OG0001242	NA	NA	NA	NA	NA	HIMB1710_01020
+HIMB1556-00000000001	Prodigal:2.6	CDS	1079416	1079640	.	+	0	HIMB1556_01125	HIMB1556	74	OG0001242	NA	NA	NA	NA	NA	HIMB1556_01130
+HIMB1556-00000000001	Prodigal:2.6	CDS	1079637	1080929	.	+	0	HIMB1556_01126	HIMB1556	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1556_01130
+HIMB1556-00000000001	Prodigal:2.6	CDS	1080929	1081831	.	+	0	HIMB1556_01127	HIMB1556	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1556_01130
+HIMB1556-00000000001	Prodigal:2.6	CDS	1081848	1082699	.	+	0	HIMB1556_01128	HIMB1556	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1556_01130
+HIMB1556-00000000001	Prodigal:2.6	CDS	1083243	1083518	.	-	0	HIMB1556_01129	HIMB1556	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1556_01130
+HIMB1556-00000000001	Prodigal:2.6	CDS	1083499	1083936	.	-	0	HIMB1556_01130	HIMB1556	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1556_01130
+HIMB1556-00000000001	Prodigal:2.6	CDS	1083980	1084456	.	-	0	HIMB1556_01131	HIMB1556	158	OG0001644	NA	NA	NA	NA	NA	HIMB1556_01130
+HIMB1556-00000000001	Prodigal:2.6	CDS	1084464	1084634	.	-	0	HIMB1556_01132	HIMB1556	56	OG0001201	NA	NA	NA	NA	NA	HIMB1556_01130
+HIMB1556-00000000001	Prodigal:2.6	CDS	1084769	1085722	.	+	0	HIMB1556_01133	HIMB1556	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1556_01130
+HIMB1556-00000000001	Prodigal:2.6	CDS	1085712	1086467	.	-	0	HIMB1556_01134	HIMB1556	251	OG0000008	NA	NA	COG4106	Tam	Trans-aconitate methyltransferase	HIMB1556_01130
+HIMB1556-00000000001	Prodigal:2.6	CDS	1086460	1087440	.	-	0	HIMB1556_01135	HIMB1556	326	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1556_01130
+HIMB1748-00000000003	Prodigal:2.6	CDS	456061	456285	.	+	0	HIMB1748_01106	HIMB1748	74	OG0001242	NA	NA	NA	NA	NA	HIMB1748_01111
+HIMB1748-00000000003	Prodigal:2.6	CDS	456282	457574	.	+	0	HIMB1748_01107	HIMB1748	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1748_01111
+HIMB1748-00000000003	Prodigal:2.6	CDS	457574	458476	.	+	0	HIMB1748_01108	HIMB1748	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1748_01111
+HIMB1748-00000000003	Prodigal:2.6	CDS	458493	459344	.	+	0	HIMB1748_01109	HIMB1748	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1748_01111
+HIMB1748-00000000003	Prodigal:2.6	CDS	459888	460163	.	-	0	HIMB1748_01110	HIMB1748	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1748_01111
+HIMB1748-00000000003	Prodigal:2.6	CDS	460144	460581	.	-	0	HIMB1748_01111	HIMB1748	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1748_01111
+HIMB1748-00000000003	Prodigal:2.6	CDS	460625	461101	.	-	0	HIMB1748_01112	HIMB1748	158	OG0001644	NA	NA	NA	NA	NA	HIMB1748_01111
+HIMB1748-00000000003	Prodigal:2.6	CDS	461109	461279	.	-	0	HIMB1748_01113	HIMB1748	56	OG0001201	NA	NA	NA	NA	NA	HIMB1748_01111
+HIMB1748-00000000003	Prodigal:2.6	CDS	461414	462367	.	+	0	HIMB1748_01114	HIMB1748	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1748_01111
+HIMB1748-00000000003	Prodigal:2.6	CDS	462357	463112	.	-	0	HIMB1748_01115	HIMB1748	251	OG0000008	NA	NA	COG4106	Tam	Trans-aconitate methyltransferase	HIMB1748_01111
+HIMB1748-00000000003	Prodigal:2.6	CDS	463105	464085	.	-	0	HIMB1748_01116	HIMB1748	326	OG0001463	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1748_01111
+HIMB1662-00000000001	Prodigal:2.6	CDS	1029109	1029333	.	+	0	HIMB1662_01084	HIMB1662	74	OG0001242	NA	NA	NA	NA	NA	HIMB1662_01089
+HIMB1662-00000000001	Prodigal:2.6	CDS	1029330	1030622	.	+	0	HIMB1662_01085	HIMB1662	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1662_01089
+HIMB1662-00000000001	Prodigal:2.6	CDS	1030622	1031524	.	+	0	HIMB1662_01086	HIMB1662	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1662_01089
+HIMB1662-00000000001	Prodigal:2.6	CDS	1031541	1032392	.	+	0	HIMB1662_01087	HIMB1662	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1662_01089
+HIMB1662-00000000001	Prodigal:2.6	CDS	1032936	1033211	.	-	0	HIMB1662_01088	HIMB1662	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1662_01089
+HIMB1662-00000000001	Prodigal:2.6	CDS	1033192	1033629	.	-	0	HIMB1662_01089	HIMB1662	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1662_01089
+HIMB1662-00000000001	Prodigal:2.6	CDS	1033665	1033865	.	-	0	HIMB1662_01090	HIMB1662	66	OG0001666	NA	NA	NA	NA	NA	HIMB1662_01089
+HIMB1662-00000000001	Prodigal:2.6	CDS	1033948	1034901	.	+	0	HIMB1662_01091	HIMB1662	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1662_01089
+HIMB1662-00000000001	Prodigal:2.6	CDS	1034904	1035674	.	-	0	HIMB1662_01092	HIMB1662	256	OG0000008	NA	NA	NA	NA	NA	HIMB1662_01089
+HIMB1662-00000000001	Prodigal:2.6	CDS	1035683	1037803	.	-	0	HIMB1662_01093	HIMB1662	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1662_01089
+HIMB1662-00000000001	Prodigal:2.6	CDS	1037778	1038041	.	-	0	HIMB1662_01094	HIMB1662	87	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1662_01089
+HIMB1723-00000000001	Prodigal:2.6	CDS	1392350	1392574	.	+	0	HIMB1723_01463	HIMB1723	74	OG0001242	NA	NA	NA	NA	NA	HIMB1723_01468
+HIMB1723-00000000001	Prodigal:2.6	CDS	1392571	1393863	.	+	0	HIMB1723_01464	HIMB1723	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1723_01468
+HIMB1723-00000000001	Prodigal:2.6	CDS	1393863	1394765	.	+	0	HIMB1723_01465	HIMB1723	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1723_01468
+HIMB1723-00000000001	Prodigal:2.6	CDS	1394782	1395633	.	+	0	HIMB1723_01466	HIMB1723	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1723_01468
+HIMB1723-00000000001	Prodigal:2.6	CDS	1396177	1396452	.	-	0	HIMB1723_01467	HIMB1723	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1723_01468
+HIMB1723-00000000001	Prodigal:2.6	CDS	1396433	1396870	.	-	0	HIMB1723_01468	HIMB1723	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1723_01468
+HIMB1723-00000000001	Prodigal:2.6	CDS	1396906	1397106	.	-	0	HIMB1723_01469	HIMB1723	66	OG0001666	NA	NA	NA	NA	NA	HIMB1723_01468
+HIMB1723-00000000001	Prodigal:2.6	CDS	1397187	1398140	.	+	0	HIMB1723_01470	HIMB1723	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1723_01468
+HIMB1723-00000000001	Prodigal:2.6	CDS	1398143	1398913	.	-	0	HIMB1723_01471	HIMB1723	256	OG0000008	NA	NA	NA	NA	NA	HIMB1723_01468
+HIMB1723-00000000001	Prodigal:2.6	CDS	1398922	1401042	.	-	0	HIMB1723_01472	HIMB1723	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1723_01468
+HIMB1723-00000000001	Prodigal:2.6	CDS	1401017	1401280	.	-	0	HIMB1723_01473	HIMB1723	87	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1723_01468
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	155328	155552	.	+	0	HIMB140_00190	HIMB140	74	OG0001242	NA	NA	NA	NA	NA	HIMB140_00195
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	155549	156841	.	+	0	HIMB140_00191	HIMB140	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB140_00195
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	156841	157743	.	+	0	HIMB140_00192	HIMB140	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB140_00195
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	157760	158611	.	+	0	HIMB140_00193	HIMB140	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB140_00195
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	159155	159430	.	-	0	HIMB140_00194	HIMB140	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB140_00195
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	159411	159848	.	-	0	HIMB140_00195	HIMB140	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB140_00195
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	159884	160084	.	-	0	HIMB140_00196	HIMB140	66	OG0001666	NA	NA	NA	NA	NA	HIMB140_00195
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	160168	161124	.	+	0	HIMB140_00197	HIMB140	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB140_00195
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	161126	161953	.	-	0	HIMB140_00198	HIMB140	275	OG0003079	NA	NA	NA	NA	NA	HIMB140_00195
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	161986	164109	.	-	0	HIMB140_00199	HIMB140	707	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB140_00195
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	164084	164347	.	-	0	HIMB140_00200	HIMB140	87	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB140_00195
+HIMB1513-00000000001	Prodigal:2.6	CDS	1129332	1129556	.	+	0	HIMB1513_01183	HIMB1513	74	OG0001242	NA	NA	NA	NA	NA	HIMB1513_01188
+HIMB1513-00000000001	Prodigal:2.6	CDS	1129553	1130845	.	+	0	HIMB1513_01184	HIMB1513	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1513_01188
+HIMB1513-00000000001	Prodigal:2.6	CDS	1130845	1131747	.	+	0	HIMB1513_01185	HIMB1513	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1513_01188
+HIMB1513-00000000001	Prodigal:2.6	CDS	1131764	1132615	.	+	0	HIMB1513_01186	HIMB1513	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1513_01188
+HIMB1513-00000000001	Prodigal:2.6	CDS	1133160	1133435	.	-	0	HIMB1513_01187	HIMB1513	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1513_01188
+HIMB1513-00000000001	Prodigal:2.6	CDS	1133416	1133853	.	-	0	HIMB1513_01188	HIMB1513	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1513_01188
+HIMB1513-00000000001	Prodigal:2.6	CDS	1133889	1134089	.	-	0	HIMB1513_01189	HIMB1513	66	OG0001666	NA	NA	NA	NA	NA	HIMB1513_01188
+HIMB1513-00000000001	Prodigal:2.6	CDS	1134173	1135126	.	+	0	HIMB1513_01190	HIMB1513	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1513_01188
+HIMB1513-00000000001	Prodigal:2.6	CDS	1135153	1136409	.	-	0	HIMB1513_01191	HIMB1513	418	OG0002128	NA	NA	NA	NA	NA	HIMB1513_01188
+HIMB1513-00000000001	Prodigal:2.6	CDS	1136441	1137424	.	+	0	HIMB1513_01192	HIMB1513	327	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1513_01188
+HIMB1513-00000000001	Prodigal:2.6	CDS	1137431	1139536	.	-	0	HIMB1513_01193	HIMB1513	701	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	HIMB1513_01188
+HIMB1521-00000000018	Prodigal:2.6	CDS	8137	10242	.	+	0	HIMB1521_01432	HIMB1521	701	OG0000842	NA	NA	COG4641	NA	Spore maturation protein CgeB	HIMB1521_01437
+HIMB1521-00000000018	Prodigal:2.6	CDS	10249	11232	.	-	0	HIMB1521_01433	HIMB1521	327	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1521_01437
+HIMB1521-00000000018	Prodigal:2.6	CDS	11264	12520	.	+	0	HIMB1521_01434	HIMB1521	418	OG0002128	NA	NA	NA	NA	NA	HIMB1521_01437
+HIMB1521-00000000018	Prodigal:2.6	CDS	12547	13500	.	-	0	HIMB1521_01435	HIMB1521	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1521_01437
+HIMB1521-00000000018	Prodigal:2.6	CDS	13584	13784	.	+	0	HIMB1521_01436	HIMB1521	66	OG0001666	NA	NA	NA	NA	NA	HIMB1521_01437
+HIMB1521-00000000018	Prodigal:2.6	CDS	13820	14257	.	+	0	HIMB1521_01437	HIMB1521	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1521_01437
+HIMB1521-00000000018	Prodigal:2.6	CDS	14238	14513	.	+	0	HIMB1521_01438	HIMB1521	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1521_01437
+HIMB1430-00000000009	Prodigal:2.6	CDS	8944	9207	.	+	0	HIMB1430_00665	HIMB1430	87	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1430_00670
+HIMB1430-00000000009	Prodigal:2.6	CDS	9182	11302	.	+	0	HIMB1430_00666	HIMB1430	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1430_00670
+HIMB1430-00000000009	Prodigal:2.6	CDS	11311	12081	.	+	0	HIMB1430_00667	HIMB1430	256	OG0000008	NA	NA	NA	NA	NA	HIMB1430_00670
+HIMB1430-00000000009	Prodigal:2.6	CDS	12084	13037	.	-	0	HIMB1430_00668	HIMB1430	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1430_00670
+HIMB1430-00000000009	Prodigal:2.6	CDS	13118	13369	.	+	0	HIMB1430_00669	HIMB1430	83	OG0003009	NA	NA	NA	NA	NA	HIMB1430_00670
+HIMB1430-00000000009	Prodigal:2.6	CDS	13402	13839	.	+	0	HIMB1430_00670	HIMB1430	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1430_00670
+HIMB1430-00000000009	Prodigal:2.6	CDS	13820	14095	.	+	0	HIMB1430_00671	HIMB1430	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1430_00670
+HIMB1611-00000000001	Prodigal:2.6	CDS	462014	462238	.	+	0	HIMB1611_00513	HIMB1611	74	OG0001242	NA	NA	NA	NA	NA	HIMB1611_00518
+HIMB1611-00000000001	Prodigal:2.6	CDS	462235	463527	.	+	0	HIMB1611_00514	HIMB1611	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1611_00518
+HIMB1611-00000000001	Prodigal:2.6	CDS	463527	464429	.	+	0	HIMB1611_00515	HIMB1611	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1611_00518
+HIMB1611-00000000001	Prodigal:2.6	CDS	464446	465297	.	+	0	HIMB1611_00516	HIMB1611	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1611_00518
+HIMB1611-00000000001	Prodigal:2.6	CDS	465842	466117	.	-	0	HIMB1611_00517	HIMB1611	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1611_00518
+HIMB1611-00000000001	Prodigal:2.6	CDS	466098	466535	.	-	0	HIMB1611_00518	HIMB1611	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1611_00518
+HIMB1611-00000000001	Prodigal:2.6	CDS	466568	466819	.	-	0	HIMB1611_00519	HIMB1611	83	OG0003009	NA	NA	NA	NA	NA	HIMB1611_00518
+HIMB1611-00000000001	Prodigal:2.6	CDS	466900	467853	.	+	0	HIMB1611_00520	HIMB1611	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1611_00518
+HIMB1611-00000000001	Prodigal:2.6	CDS	467856	468626	.	-	0	HIMB1611_00521	HIMB1611	256	OG0000008	NA	NA	NA	NA	NA	HIMB1611_00518
+HIMB1611-00000000001	Prodigal:2.6	CDS	468635	470755	.	-	0	HIMB1611_00522	HIMB1611	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1611_00518
+HIMB1611-00000000001	Prodigal:2.6	CDS	470730	470993	.	-	0	HIMB1611_00523	HIMB1611	87	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1611_00518
+HIMB1758-00000000001	Prodigal:2.6	CDS	1140373	1140597	.	+	0	HIMB1758_01211	HIMB1758	74	OG0001242	NA	NA	NA	NA	NA	HIMB1758_01216
+HIMB1758-00000000001	Prodigal:2.6	CDS	1140594	1141886	.	+	0	HIMB1758_01212	HIMB1758	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1758_01216
+HIMB1758-00000000001	Prodigal:2.6	CDS	1141886	1142788	.	+	0	HIMB1758_01213	HIMB1758	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1758_01216
+HIMB1758-00000000001	Prodigal:2.6	CDS	1142805	1143656	.	+	0	HIMB1758_01214	HIMB1758	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1758_01216
+HIMB1758-00000000001	Prodigal:2.6	CDS	1144201	1144476	.	-	0	HIMB1758_01215	HIMB1758	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1758_01216
+HIMB1758-00000000001	Prodigal:2.6	CDS	1144457	1144894	.	-	0	HIMB1758_01216	HIMB1758	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1758_01216
+HIMB1758-00000000001	Prodigal:2.6	CDS	1144927	1145178	.	-	0	HIMB1758_01217	HIMB1758	83	OG0003009	NA	NA	NA	NA	NA	HIMB1758_01216
+HIMB1758-00000000001	Prodigal:2.6	CDS	1145259	1146212	.	+	0	HIMB1758_01218	HIMB1758	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1758_01216
+HIMB1758-00000000001	Prodigal:2.6	CDS	1146215	1146985	.	-	0	HIMB1758_01219	HIMB1758	256	OG0000008	NA	NA	NA	NA	NA	HIMB1758_01216
+HIMB1758-00000000001	Prodigal:2.6	CDS	1146994	1149114	.	-	0	HIMB1758_01220	HIMB1758	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1758_01216
+HIMB1758-00000000001	Prodigal:2.6	CDS	1149089	1149352	.	-	0	HIMB1758_01221	HIMB1758	87	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1758_01216
+HIMB1488-00000000001	Prodigal:2.6	CDS	794239	795273	.	+	0	HIMB1488_00862	HIMB1488	344	OG0001526	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB1488_00867
+HIMB1488-00000000001	Prodigal:2.6	CDS	795254	797368	.	+	0	HIMB1488_00863	HIMB1488	704	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1488_00867
+HIMB1488-00000000001	Prodigal:2.6	CDS	797400	798173	.	-	0	HIMB1488_00864	HIMB1488	257	OG0000008	NA	NA	NA	NA	NA	HIMB1488_00867
+HIMB1488-00000000001	Prodigal:2.6	CDS	798174	799127	.	-	0	HIMB1488_00865	HIMB1488	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1488_00867
+HIMB1488-00000000001	Prodigal:2.6	CDS	799210	799410	.	+	0	HIMB1488_00866	HIMB1488	66	OG0001666	NA	NA	NA	NA	NA	HIMB1488_00867
+HIMB1488-00000000001	Prodigal:2.6	CDS	799446	799883	.	+	0	HIMB1488_00867	HIMB1488	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1488_00867
+HIMB1488-00000000001	Prodigal:2.6	CDS	799864	800139	.	+	0	HIMB1488_00868	HIMB1488	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1488_00867
+HIMB1488-00000000001	Prodigal:2.6	CDS	800684	801535	.	-	0	HIMB1488_00869	HIMB1488	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1488_00867
+HIMB1488-00000000001	Prodigal:2.6	CDS	801552	802454	.	-	0	HIMB1488_00870	HIMB1488	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1488_00867
+HIMB1488-00000000001	Prodigal:2.6	CDS	802454	803746	.	-	0	HIMB1488_00871	HIMB1488	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1488_00867
+HIMB1488-00000000001	Prodigal:2.6	CDS	803743	803967	.	-	0	HIMB1488_00872	HIMB1488	74	OG0001242	NA	NA	NA	NA	NA	HIMB1488_00867
+HIMB1506-00000000001	Prodigal:2.6	CDS	477943	478167	.	+	0	HIMB1506_00514	HIMB1506	74	OG0001242	NA	NA	NA	NA	NA	HIMB1506_00519
+HIMB1506-00000000001	Prodigal:2.6	CDS	478164	479456	.	+	0	HIMB1506_00515	HIMB1506	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1506_00519
+HIMB1506-00000000001	Prodigal:2.6	CDS	479456	480358	.	+	0	HIMB1506_00516	HIMB1506	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1506_00519
+HIMB1506-00000000001	Prodigal:2.6	CDS	480375	481223	.	+	0	HIMB1506_00517	HIMB1506	282	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1506_00519
+HIMB1506-00000000001	Prodigal:2.6	CDS	481772	482047	.	-	0	HIMB1506_00518	HIMB1506	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1506_00519
+HIMB1506-00000000001	Prodigal:2.6	CDS	482028	482465	.	-	0	HIMB1506_00519	HIMB1506	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1506_00519
+HIMB1506-00000000001	Prodigal:2.6	CDS	482510	482905	.	-	0	HIMB1506_00520	HIMB1506	131	OG0001644	NA	NA	NA	NA	NA	HIMB1506_00519
+HIMB1506-00000000001	Prodigal:2.6	CDS	483068	484021	.	+	0	HIMB1506_00521	HIMB1506	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1506_00519
+HIMB1506-00000000001	Prodigal:2.6	CDS	484042	484896	.	-	0	HIMB1506_00522	HIMB1506	284	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1506_00519
+HIMB1506-00000000001	Prodigal:2.6	CDS	484893	487016	.	-	0	HIMB1506_00523	HIMB1506	707	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1506_00519
+HIMB1506-00000000001	Prodigal:2.6	CDS	486991	487254	.	-	0	HIMB1506_00524	HIMB1506	87	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1506_00519
+HIMB2211-00000000001	Prodigal:2.6	CDS	450982	451206	.	+	0	HIMB2211_00489	HIMB2211	74	OG0001242	NA	NA	NA	NA	NA	HIMB2211_00494
+HIMB2211-00000000001	Prodigal:2.6	CDS	451203	452495	.	+	0	HIMB2211_00490	HIMB2211	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB2211_00494
+HIMB2211-00000000001	Prodigal:2.6	CDS	452495	453397	.	+	0	HIMB2211_00491	HIMB2211	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB2211_00494
+HIMB2211-00000000001	Prodigal:2.6	CDS	453414	454265	.	+	0	HIMB2211_00492	HIMB2211	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB2211_00494
+HIMB2211-00000000001	Prodigal:2.6	CDS	454800	455075	.	-	0	HIMB2211_00493	HIMB2211	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB2211_00494
+HIMB2211-00000000001	Prodigal:2.6	CDS	455056	455493	.	-	0	HIMB2211_00494	HIMB2211	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB2211_00494
+HIMB2211-00000000001	Prodigal:2.6	CDS	455537	456013	.	-	0	HIMB2211_00495	HIMB2211	158	OG0001644	NA	NA	NA	NA	NA	HIMB2211_00494
+HIMB2211-00000000001	Prodigal:2.6	CDS	456205	457161	.	+	0	HIMB2211_00496	HIMB2211	318	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB2211_00494
+HIMB2211-00000000001	Prodigal:2.6	CDS	457158	457868	.	-	0	HIMB2211_00497	HIMB2211	236	OG0000008	NA	NA	NA	NA	NA	HIMB2211_00494
+HIMB2211-00000000001	Prodigal:2.6	CDS	457888	458739	.	-	0	HIMB2211_00498	HIMB2211	283	OG0001238	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB2211_00494
+HIMB2211-00000000001	Prodigal:2.6	CDS	458744	460864	.	-	0	HIMB2211_00499	HIMB2211	706	OG0000842	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB2211_00494
+HIMB1746-00000000001	Prodigal:2.6	CDS	478612	478836	.	+	0	HIMB1746_00543	HIMB1746	74	OG0001242	NA	NA	NA	NA	NA	HIMB1746_00548
+HIMB1746-00000000001	Prodigal:2.6	CDS	478833	480125	.	+	0	HIMB1746_00544	HIMB1746	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1746_00548
+HIMB1746-00000000001	Prodigal:2.6	CDS	480125	481027	.	+	0	HIMB1746_00545	HIMB1746	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1746_00548
+HIMB1746-00000000001	Prodigal:2.6	CDS	481044	481895	.	+	0	HIMB1746_00546	HIMB1746	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1746_00548
+HIMB1746-00000000001	Prodigal:2.6	CDS	482440	482715	.	-	0	HIMB1746_00547	HIMB1746	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1746_00548
+HIMB1746-00000000001	Prodigal:2.6	CDS	482696	483133	.	-	0	HIMB1746_00548	HIMB1746	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1746_00548
+HIMB1746-00000000001	Prodigal:2.6	CDS	483169	483369	.	-	0	HIMB1746_00549	HIMB1746	66	OG0001666	NA	NA	NA	NA	NA	HIMB1746_00548
+HIMB1746-00000000001	Prodigal:2.6	CDS	483452	484405	.	+	0	HIMB1746_00550	HIMB1746	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1746_00548
+HIMB1746-00000000001	Prodigal:2.6	CDS	484425	485723	.	-	0	HIMB1746_00551	HIMB1746	432	OG0001648	NA	NA	COG2220	UlaG	L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily	HIMB1746_00548
+HIMB1746-00000000001	Prodigal:2.6	CDS	485778	486749	.	+	0	HIMB1746_00552	HIMB1746	323	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1746_00548
+HIMB1746-00000000001	Prodigal:2.6	CDS	486735	487817	.	-	0	HIMB1746_00553	HIMB1746	360	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1746_00548
+HIMB1542-00000000001	Prodigal:2.6	CDS	460033	460257	.	+	0	HIMB1542_00500	HIMB1542	74	OG0001242	NA	NA	NA	NA	NA	HIMB1542_00505
+HIMB1542-00000000001	Prodigal:2.6	CDS	460254	461546	.	+	0	HIMB1542_00501	HIMB1542	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1542_00505
+HIMB1542-00000000001	Prodigal:2.6	CDS	461546	462448	.	+	0	HIMB1542_00502	HIMB1542	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1542_00505
+HIMB1542-00000000001	Prodigal:2.6	CDS	462465	463316	.	+	0	HIMB1542_00503	HIMB1542	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1542_00505
+HIMB1542-00000000001	Prodigal:2.6	CDS	463863	464138	.	-	0	HIMB1542_00504	HIMB1542	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1542_00505
+HIMB1542-00000000001	Prodigal:2.6	CDS	464119	464556	.	-	0	HIMB1542_00505	HIMB1542	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1542_00505
+HIMB1542-00000000001	Prodigal:2.6	CDS	464600	465076	.	-	0	HIMB1542_00506	HIMB1542	158	OG0001644	NA	NA	NA	NA	NA	HIMB1542_00505
+HIMB1542-00000000001	Prodigal:2.6	CDS	465084	465254	.	-	0	HIMB1542_00507	HIMB1542	56	OG0001201	NA	NA	NA	NA	NA	HIMB1542_00505
+HIMB1542-00000000001	Prodigal:2.6	CDS	465389	466342	.	+	0	HIMB1542_00508	HIMB1542	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1542_00505
+HIMB1542-00000000001	Prodigal:2.6	CDS	466337	467386	.	-	0	HIMB1542_00509	HIMB1542	349	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1542_00505
+HIMB1542-00000000001	Prodigal:2.6	CDS	467358	467636	.	-	0	HIMB1542_00510	HIMB1542	92	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1542_00505
+HIMB1695-00000000001	Prodigal:2.6	CDS	243058	243282	.	+	0	HIMB1695_00273	HIMB1695	74	OG0001242	NA	NA	NA	NA	NA	HIMB1695_00278
+HIMB1695-00000000001	Prodigal:2.6	CDS	243279	244571	.	+	0	HIMB1695_00274	HIMB1695	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1695_00278
+HIMB1695-00000000001	Prodigal:2.6	CDS	244571	245473	.	+	0	HIMB1695_00275	HIMB1695	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1695_00278
+HIMB1695-00000000001	Prodigal:2.6	CDS	245490	246341	.	+	0	HIMB1695_00276	HIMB1695	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1695_00278
+HIMB1695-00000000001	Prodigal:2.6	CDS	246886	247161	.	-	0	HIMB1695_00277	HIMB1695	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1695_00278
+HIMB1695-00000000001	Prodigal:2.6	CDS	247142	247579	.	-	0	HIMB1695_00278	HIMB1695	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1695_00278
+HIMB1695-00000000001	Prodigal:2.6	CDS	247615	247815	.	-	0	HIMB1695_00279	HIMB1695	66	OG0001666	NA	NA	NA	NA	NA	HIMB1695_00278
+HIMB1695-00000000001	Prodigal:2.6	CDS	247893	248807	.	+	0	HIMB1695_00280	HIMB1695	304	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1695_00278
+HIMB1695-00000000001	Prodigal:2.6	CDS	248797	249843	.	-	0	HIMB1695_00281	HIMB1695	348	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1695_00278
+HIMB1695-00000000001	Prodigal:2.6	CDS	249840	250088	.	-	0	HIMB1695_00282	HIMB1695	82	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1695_00278
+HIMB1695-00000000001	Aragorn:1.2	tRNA	250092	250166	.	-	.	HIMB1695_00283	HIMB1695	NA	NA	NA	NA	NA	NA	NA	HIMB1695_00278
+HIMB1577-00000000001	Prodigal:2.6	CDS	1438739	1438993	.	+	0	HIMB1577_01541	HIMB1577	84	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1577_01546
+HIMB1577-00000000001	Prodigal:2.6	CDS	1438977	1441097	.	+	0	HIMB1577_01542	HIMB1577	706	OG0000842	K06320	spore maturation protein CgeB	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1577_01546
+HIMB1577-00000000001	Prodigal:2.6	CDS	1441114	1441968	.	+	0	HIMB1577_01543	HIMB1577	284	OG0003079	NA	NA	NA	NA	NA	HIMB1577_01546
+HIMB1577-00000000001	Prodigal:2.6	CDS	1441988	1442941	.	-	0	HIMB1577_01544	HIMB1577	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1577_01546
+HIMB1577-00000000001	Prodigal:2.6	CDS	1443024	1443215	.	+	0	HIMB1577_01545	HIMB1577	63	OG0001666	NA	NA	NA	NA	NA	HIMB1577_01546
+HIMB1577-00000000001	Prodigal:2.6	CDS	1443259	1443696	.	+	0	HIMB1577_01546	HIMB1577	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1577_01546
+HIMB1577-00000000001	Prodigal:2.6	CDS	1443677	1443952	.	+	0	HIMB1577_01547	HIMB1577	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1577_01546
+HIMB1631-00000000001	Prodigal:2.6	CDS	324027	324281	.	+	0	HIMB1631_00362	HIMB1631	84	OG0000863	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1631_00367
+HIMB1631-00000000001	Prodigal:2.6	CDS	324265	326385	.	+	0	HIMB1631_00363	HIMB1631	706	OG0000842	K06320	spore maturation protein CgeB	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1631_00367
+HIMB1631-00000000001	Prodigal:2.6	CDS	326402	327256	.	+	0	HIMB1631_00364	HIMB1631	284	OG0003079	NA	NA	NA	NA	NA	HIMB1631_00367
+HIMB1631-00000000001	Prodigal:2.6	CDS	327276	328229	.	-	0	HIMB1631_00365	HIMB1631	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1631_00367
+HIMB1631-00000000001	Prodigal:2.6	CDS	328312	328503	.	+	0	HIMB1631_00366	HIMB1631	63	OG0001666	NA	NA	NA	NA	NA	HIMB1631_00367
+HIMB1631-00000000001	Prodigal:2.6	CDS	328547	328984	.	+	0	HIMB1631_00367	HIMB1631	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1631_00367
+HIMB1631-00000000001	Prodigal:2.6	CDS	328965	329240	.	+	0	HIMB1631_00368	HIMB1631	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1631_00367
+HIMB1631-00000000001	Prodigal:2.6	CDS	329785	330636	.	-	0	HIMB1631_00369	HIMB1631	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1631_00367
+HIMB1631-00000000001	Prodigal:2.6	CDS	330653	331555	.	-	0	HIMB1631_00370	HIMB1631	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1631_00367
+HIMB1631-00000000001	Prodigal:2.6	CDS	331555	332847	.	-	0	HIMB1631_00371	HIMB1631	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1631_00367
+HIMB1631-00000000001	Prodigal:2.6	CDS	332844	333068	.	-	0	HIMB1631_00372	HIMB1631	74	OG0001242	NA	NA	NA	NA	NA	HIMB1631_00367
+HIMB1701-00000000001	Prodigal:2.6	CDS	147389	147613	.	+	0	HIMB1701_00177	HIMB1701	74	OG0001242	NA	NA	NA	NA	NA	HIMB1701_00182
+HIMB1701-00000000001	Prodigal:2.6	CDS	147610	148902	.	+	0	HIMB1701_00178	HIMB1701	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1701_00182
+HIMB1701-00000000001	Prodigal:2.6	CDS	148902	149804	.	+	0	HIMB1701_00179	HIMB1701	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1701_00182
+HIMB1701-00000000001	Prodigal:2.6	CDS	149821	150675	.	+	0	HIMB1701_00180	HIMB1701	284	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1701_00182
+HIMB1701-00000000001	Prodigal:2.6	CDS	151218	151493	.	-	0	HIMB1701_00181	HIMB1701	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1701_00182
+HIMB1701-00000000001	Prodigal:2.6	CDS	151474	151911	.	-	0	HIMB1701_00182	HIMB1701	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1701_00182
+HIMB1701-00000000001	Prodigal:2.6	CDS	151955	152431	.	-	0	HIMB1701_00183	HIMB1701	158	OG0001644	NA	NA	NA	NA	NA	HIMB1701_00182
+HIMB1701-00000000001	Prodigal:2.6	CDS	152439	152609	.	-	0	HIMB1701_00184	HIMB1701	56	OG0001201	NA	NA	NA	NA	NA	HIMB1701_00182
+HIMB1701-00000000001	Prodigal:2.6	CDS	152744	153697	.	+	0	HIMB1701_00185	HIMB1701	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1701_00182
+HIMB1701-00000000001	Prodigal:2.6	CDS	153706	154647	.	-	0	HIMB1701_00186	HIMB1701	313	OG0001526	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB1701_00182
+HIMB1701-00000000001	Prodigal:2.6	CDS	154625	155416	.	-	0	HIMB1701_00187	HIMB1701	263	OG0001448	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1701_00182
+HIMB1782-00000000002	Prodigal:2.6	CDS	474624	474848	.	+	0	HIMB1782_01436	HIMB1782	74	OG0001242	NA	NA	NA	NA	NA	HIMB1782_01441
+HIMB1782-00000000002	Prodigal:2.6	CDS	474845	476137	.	+	0	HIMB1782_01437	HIMB1782	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1782_01441
+HIMB1782-00000000002	Prodigal:2.6	CDS	476137	477039	.	+	0	HIMB1782_01438	HIMB1782	300	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1782_01441
+HIMB1782-00000000002	Prodigal:2.6	CDS	477056	477907	.	+	0	HIMB1782_01439	HIMB1782	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1782_01441
+HIMB1782-00000000002	Prodigal:2.6	CDS	478452	478727	.	-	0	HIMB1782_01440	HIMB1782	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1782_01441
+HIMB1782-00000000002	Prodigal:2.6	CDS	478708	479145	.	-	0	HIMB1782_01441	HIMB1782	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1782_01441
+HIMB1782-00000000002	Prodigal:2.6	CDS	479181	479381	.	-	0	HIMB1782_01442	HIMB1782	66	OG0001666	NA	NA	NA	NA	NA	HIMB1782_01441
+HIMB1782-00000000002	Prodigal:2.6	CDS	479463	480416	.	+	0	HIMB1782_01443	HIMB1782	317	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1782_01441
+HIMB1782-00000000002	Prodigal:2.6	CDS	480419	481384	.	-	0	HIMB1782_01444	HIMB1782	321	OG0001526	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB1782_01441
+HIMB1782-00000000002	Prodigal:2.6	CDS	481362	482150	.	-	0	HIMB1782_01445	HIMB1782	262	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1782_01441
+HIMB1782-00000000002	Prodigal:2.6	CDS	482153	483346	.	-	0	HIMB1782_01446	HIMB1782	397	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1782_01441
+HIMB1602-00000000243	Prodigal:2.6	CDS	26	463	.	+	0	HIMB1602_01232	HIMB1602	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1602_01232
+HIMB1602-00000000243	Prodigal:2.6	CDS	444	719	.	+	0	HIMB1602_01233	HIMB1602	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1602_01232
+HIMB1623-00000000005	Prodigal:2.6	CDS	459	734	.	-	0	HIMB1623_00539	HIMB1623	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1623_00540
+HIMB1623-00000000005	Prodigal:2.6	CDS	715	1152	.	-	0	HIMB1623_00540	HIMB1623	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1623_00540
+HIMB1623-00000000005	Prodigal:2.6	CDS	1188	1388	.	-	0	HIMB1623_00541	HIMB1623	66	OG0001666	NA	NA	NA	NA	NA	HIMB1623_00540
+HIMB1623-00000000005	Prodigal:2.6	CDS	1466	2380	.	+	0	HIMB1623_00542	HIMB1623	304	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1623_00540
+HIMB1623-00000000005	Prodigal:2.6	CDS	2377	3357	.	-	0	HIMB1623_00543	HIMB1623	326	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	HIMB1623_00540
+HIMB1623-00000000005	Prodigal:2.6	CDS	3354	3938	.	-	0	HIMB1623_00544	HIMB1623	194	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	HIMB1623_00540
+HIMB1623-00000000005	Prodigal:2.6	CDS	3935	5125	.	-	0	HIMB1623_00545	HIMB1623	396	OG0000015	NA	NA	COG0241	HisB1/GmhB	Histidinol phosphatase/D-glycero-mannoheptose bisphosphatephosphatase, HAD superfamily	HIMB1623_00540
+HIMB1709-00000000001	Prodigal:2.6	CDS	155835	156059	.	+	0	HIMB1709_00183	HIMB1709	74	OG0001242	NA	NA	NA	NA	NA	HIMB1709_00188
+HIMB1709-00000000001	Prodigal:2.6	CDS	156056	157348	.	+	0	HIMB1709_00184	HIMB1709	430	OG0000507	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1709_00188
+HIMB1709-00000000001	Prodigal:2.6	CDS	157348	158247	.	+	0	HIMB1709_00185	HIMB1709	299	OG0000777	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1709_00188
+HIMB1709-00000000001	Prodigal:2.6	CDS	158264	159115	.	+	0	HIMB1709_00186	HIMB1709	283	OG0000005	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1709_00188
+HIMB1709-00000000001	Prodigal:2.6	CDS	159650	159925	.	-	0	HIMB1709_00187	HIMB1709	91	OG0000692	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1709_00188
+HIMB1709-00000000001	Prodigal:2.6	CDS	159906	160343	.	-	0	HIMB1709_00188	HIMB1709	145	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1709_00188
+HIMB1709-00000000001	Prodigal:2.6	CDS	160379	160579	.	-	0	HIMB1709_00189	HIMB1709	66	OG0001666	NA	NA	NA	NA	NA	HIMB1709_00188
+HIMB1709-00000000001	Prodigal:2.6	CDS	160657	161571	.	+	0	HIMB1709_00190	HIMB1709	304	OG0000858	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1709_00188
+HIMB1709-00000000001	Prodigal:2.6	CDS	161568	162548	.	-	0	HIMB1709_00191	HIMB1709	326	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	HIMB1709_00188
+HIMB1709-00000000001	Prodigal:2.6	CDS	162548	163129	.	-	0	HIMB1709_00192	HIMB1709	193	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	HIMB1709_00188
+HIMB1709-00000000001	Prodigal:2.6	CDS	163126	164316	.	-	0	HIMB1709_00193	HIMB1709	396	OG0000015	NA	NA	COG0241	HisB1/GmhB	Histidinol phosphatase/D-glycero-mannoheptose bisphosphatephosphatase, HAD superfamily	HIMB1709_00188
+HIMB1483-00000000002	Prodigal:2.6	CDS	531989	532531	.	+	0	HIMB1483_00689	HIMB1483	180	OG0001556	NA	NA	COG5342	IalB	Invasion protein IalB, involved in pathogenesis	HIMB1483_00694
+HIMB1483-00000000002	Prodigal:2.6	CDS	532532	536965	.	-	0	HIMB1483_00690	HIMB1483	1477	OG0001585	NA	NA	COG3210	FhaB	Large exoprotein involved in heme utilization or adhesion	HIMB1483_00694
+HIMB1483-00000000002	Prodigal:2.6	CDS	537081	537359	.	+	0	HIMB1483_00691	HIMB1483	92	OG0003324	NA	NA	NA	NA	NA	HIMB1483_00694
+HIMB1483-00000000002	Prodigal:2.6	CDS	537349	539346	.	-	0	HIMB1483_00692	HIMB1483	665	OG0001075	K07315	phosphoserine phosphatase RsbU/P [EC:3.1.3.3]	COG4252	CHASE2	Extracytoplasmic sensor domain CHASE2 (specificity unknown)	HIMB1483_00694
+HIMB1483-00000000002	Prodigal:2.6	CDS	539357	540004	.	-	0	HIMB1483_00693	HIMB1483	215	OG0001598	NA	NA	COG4254	NA	Uncharacterized peptidoglycan binding protein, contains LysM and FecR  domains	HIMB1483_00694
+HIMB1483-00000000002	Prodigal:2.6	CDS	540351	540782	.	+	0	HIMB1483_00694	HIMB1483	143	OG0001432	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	HIMB1483_00694
+HIMB1483-00000000002	Prodigal:2.6	CDS	540779	541354	.	+	0	HIMB1483_00695	HIMB1483	191	OG0001486	K07141	molybdenum cofactor cytidylyltransferase [EC:2.7.7.76]	COG2068	MocA	CTP:molybdopterin cytidylyltransferase MocA	HIMB1483_00694
+HIMB1483-00000000002	Prodigal:2.6	CDS	541337	541918	.	-	0	HIMB1483_00696	HIMB1483	193	OG0001262	K17247	methionine sulfoxide reductase heme-binding subunit	COG2717	MsrQ	Heme-binding membrane subunit of periplasmic DMSO/TMAO and protein-methionine-sulfoxide reductases	HIMB1483_00694
+HIMB1483-00000000002	Prodigal:2.6	CDS	541925	542824	.	-	0	HIMB1483_00697	HIMB1483	299	OG0001266	K07147	methionine sulfoxide reductase catalytic subunit [EC:1.8.-.-]	COG2041	MsrP	Molybdopterin-dependent catalytic subunit of periplasmic DMSO/TMAO and protein-methionine-sulfoxide reductases	HIMB1483_00694
+HIMB1483-00000000002	Prodigal:2.6	CDS	542811	543263	.	-	0	HIMB1483_00698	HIMB1483	150	OG0001203	K03635	molybdopterin synthase catalytic subunit [EC:2.8.1.12]	COG0314	MoaE	Molybdopterin synthase catalytic subunit MoaE	HIMB1483_00694
+HIMB1483-00000000002	Prodigal:2.6	CDS	543263	543532	.	-	0	HIMB1483_00699	HIMB1483	89	OG0001212	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1483_00694

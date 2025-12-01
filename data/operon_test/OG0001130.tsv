@@ -1,0 +1,931 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+KI421437.1	Prodigal:2.6	CDS	367020	367595	.	-	0	HTCC1013_00383	HTCC1013	191	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	HTCC1013_00388
+KI421437.1	Prodigal:2.6	CDS	367748	368302	.	+	0	HTCC1013_00384	HTCC1013	184	OG0003310	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HTCC1013_00388
+KI421437.1	Prodigal:2.6	CDS	368349	368999	.	+	0	HTCC1013_00385	HTCC1013	216	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HTCC1013_00388
+KI421437.1	Prodigal:2.6	CDS	369005	369835	.	+	0	HTCC1013_00386	HTCC1013	276	OG0000051	K01654	N-acetylneuraminate synthase [EC:2.5.1.56]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HTCC1013_00388
+KI421437.1	Prodigal:2.6	CDS	369840	370496	.	+	0	HTCC1013_00387	HTCC1013	218	OG0001240	K05303	O-methyltransferase [EC:2.1.1.-]	NA	NA	NA	HTCC1013_00388
+KI421437.1	Prodigal:2.6	CDS	370508	371896	.	+	0	HTCC1013_00388	HTCC1013	462	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HTCC1013_00388
+KI421437.1	Prodigal:2.6	CDS	371896	372669	.	+	0	HTCC1013_00389	HTCC1013	257	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HTCC1013_00388
+KI421437.1	Prodigal:2.6	CDS	372670	373455	.	-	0	HTCC1013_00390	HTCC1013	261	OG0001807	NA	NA	COG1082	YcjR	Sugar phosphate isomerase/epimerase	HTCC1013_00388
+KI421437.1	barrnap:0.9	rRNA	373520	376269	0	-	.	HTCC1013_00391	HTCC1013	NA	NA	NA	NA	NA	NA	NA	HTCC1013_00388
+KI421437.1	Aragorn:1.2	tRNA	376421	376496	.	-	.	HTCC1013_00392	HTCC1013	NA	NA	NA	NA	NA	NA	NA	HTCC1013_00388
+KI421437.1	Aragorn:1.2	tRNA	376506	376582	.	-	.	HTCC1013_00393	HTCC1013	NA	NA	NA	NA	NA	NA	NA	HTCC1013_00388
+CP159821.1	Prodigal:2.6	CDS	140302	140442	.	+	0	Uisw_101_00145	Uisw_101	46	OG0001926	NA	NA	NA	NA	NA	Uisw_101_00150
+CP159821.1	Prodigal:2.6	CDS	140592	141320	.	+	0	Uisw_101_00146	Uisw_101	242	OG0001926	NA	NA	COG0332	FabH	3-oxoacyl-[acyl-carrier-protein] synthase III	Uisw_101_00150
+CP159821.1	Prodigal:2.6	CDS	141322	141573	.	+	0	Uisw_101_00147	Uisw_101	83	OG0003089	NA	NA	NA	NA	NA	Uisw_101_00150
+CP159821.1	Prodigal:2.6	CDS	141554	141793	.	+	0	Uisw_101_00148	Uisw_101	79	OG0003089	NA	NA	NA	NA	NA	Uisw_101_00150
+CP159821.1	Prodigal:2.6	CDS	141790	142917	.	+	0	Uisw_101_00149	Uisw_101	375	OG0001272	NA	NA	COG0381	WecB	UDP-N-acetylglucosamine 2-epimerase	Uisw_101_00150
+CP159821.1	Prodigal:2.6	CDS	142979	144205	.	-	0	Uisw_101_00150	Uisw_101	408	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	Uisw_101_00150
+CP159821.1	Prodigal:2.6	CDS	144206	145267	.	-	0	Uisw_101_00151	Uisw_101	353	OG0001587	NA	NA	COG1902	FadH	NADH:flavin reductase, Old Yellow Enzyme (OYE) family	Uisw_101_00150
+CP159821.1	Prodigal:2.6	CDS	145254	145742	.	-	0	Uisw_101_00152	Uisw_101	162	OG0002282	NA	NA	NA	NA	NA	Uisw_101_00150
+CP159821.1	Prodigal:2.6	CDS	145838	146704	.	+	0	Uisw_101_00153	Uisw_101	288	OG0001641	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	Uisw_101_00150
+CP159821.1	Prodigal:2.6	CDS	146719	147924	.	+	0	Uisw_101_00154	Uisw_101	401	OG0002646	NA	NA	NA	NA	NA	Uisw_101_00150
+CP159821.1	Prodigal:2.6	CDS	148002	148373	.	+	0	Uisw_101_00155	Uisw_101	123	OG0002646	NA	NA	NA	NA	NA	Uisw_101_00150
+CP159820.1	Prodigal:2.6	CDS	141714	143525	.	+	0	Uisw_104_00148	Uisw_104	603	OG0001899	NA	NA	COG3882	FkbH	Predicted enzyme involved in methoxymalonyl-ACP biosynthesis	Uisw_104_00153
+CP159820.1	Prodigal:2.6	CDS	143518	144255	.	+	0	Uisw_104_00149	Uisw_104	245	OG0003213	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_104_00153
+CP159820.1	Prodigal:2.6	CDS	144252	145271	.	+	0	Uisw_104_00150	Uisw_104	339	OG0001926	K00648	3-oxoacyl-[acyl-carrier-protein] synthase III [EC:2.3.1.180]	COG0332	FabH	3-oxoacyl-[acyl-carrier-protein] synthase III	Uisw_104_00153
+CP159820.1	Prodigal:2.6	CDS	145273	145743	.	+	0	Uisw_104_00151	Uisw_104	156	OG0003089	NA	NA	NA	NA	NA	Uisw_104_00153
+CP159820.1	Prodigal:2.6	CDS	145740	146867	.	+	0	Uisw_104_00152	Uisw_104	375	OG0001272	NA	NA	COG0381	WecB	UDP-N-acetylglucosamine 2-epimerase	Uisw_104_00153
+CP159820.1	Prodigal:2.6	CDS	146929	148155	.	-	0	Uisw_104_00153	Uisw_104	408	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	Uisw_104_00153
+CP159820.1	Prodigal:2.6	CDS	148156	149217	.	-	0	Uisw_104_00154	Uisw_104	353	OG0001587	NA	NA	COG1902	FadH	NADH:flavin reductase, Old Yellow Enzyme (OYE) family	Uisw_104_00153
+CP159820.1	Prodigal:2.6	CDS	149204	149347	.	-	0	Uisw_104_00155	Uisw_104	47	OG0002282	NA	NA	NA	NA	NA	Uisw_104_00153
+CP159820.1	Prodigal:2.6	CDS	149554	149691	.	-	0	Uisw_104_00156	Uisw_104	45	OG0002282	NA	NA	NA	NA	NA	Uisw_104_00153
+CP159820.1	Prodigal:2.6	CDS	149787	150653	.	+	0	Uisw_104_00157	Uisw_104	288	OG0001641	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	Uisw_104_00153
+CP159820.1	Prodigal:2.6	CDS	150668	152323	.	+	0	Uisw_104_00158	Uisw_104	551	OG0002646	NA	NA	NA	NA	NA	Uisw_104_00153
+CP159819.1	Prodigal:2.6	CDS	128407	129144	.	+	0	Uisw_106_00135	Uisw_106	245	OG0000053	NA	NA	COG0107	HisF	Imidazole glycerol phosphate synthase subunit HisF	Uisw_106_00140
+CP159819.1	Prodigal:2.6	CDS	129137	129772	.	+	0	Uisw_106_00136	Uisw_106	211	OG0000057	K02501	imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	Uisw_106_00140
+CP159819.1	Prodigal:2.6	CDS	129769	130566	.	+	0	Uisw_106_00137	Uisw_106	265	OG0001789	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	Uisw_106_00140
+CP159819.1	Prodigal:2.6	CDS	130578	131510	.	+	0	Uisw_106_00138	Uisw_106	310	OG0001429	NA	NA	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	Uisw_106_00140
+CP159819.1	Prodigal:2.6	CDS	131482	132699	.	+	0	Uisw_106_00139	Uisw_106	405	OG0001565	NA	NA	NA	NA	NA	Uisw_106_00140
+CP159819.1	Prodigal:2.6	CDS	132692	134041	.	+	0	Uisw_106_00140	Uisw_106	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	Uisw_106_00140
+CP159819.1	Prodigal:2.6	CDS	134031	134396	.	+	0	Uisw_106_00141	Uisw_106	121	OG0001670	NA	NA	NA	NA	NA	Uisw_106_00140
+CP159819.1	Prodigal:2.6	CDS	134393	135373	.	+	0	Uisw_106_00142	Uisw_106	326	OG0000001	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_106_00140
+CP159819.1	Prodigal:2.6	CDS	135444	136424	.	+	0	Uisw_106_00143	Uisw_106	326	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_106_00140
+CP159819.1	Prodigal:2.6	CDS	136429	137532	.	+	0	Uisw_106_00144	Uisw_106	367	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_106_00140
+CP159819.1	Prodigal:2.6	CDS	137529	138629	.	+	0	Uisw_106_00145	Uisw_106	366	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_106_00140
+CP159816.1	Prodigal:2.6	CDS	131501	132640	.	+	0	Uisw_121_00150	Uisw_121	379	OG0001272	NA	NA	COG0381	WecB	UDP-N-acetylglucosamine 2-epimerase	Uisw_121_00155
+CP159816.1	Prodigal:2.6	CDS	132793	133572	.	+	0	Uisw_121_00151	Uisw_121	259	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	Uisw_121_00155
+CP159816.1	Prodigal:2.6	CDS	133705	135408	.	+	0	Uisw_121_00152	Uisw_121	567	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_121_00155
+CP159816.1	Prodigal:2.6	CDS	135405	136454	.	+	0	Uisw_121_00153	Uisw_121	349	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	Uisw_121_00155
+CP159816.1	Prodigal:2.6	CDS	136447	137175	.	+	0	Uisw_121_00154	Uisw_121	242	OG0000172	K18431	CMP-N,N'-diacetyllegionaminic acid synthase [EC:2.7.7.82]	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	Uisw_121_00155
+CP159816.1	Prodigal:2.6	CDS	137172	138479	.	+	0	Uisw_121_00155	Uisw_121	435	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	Uisw_121_00155
+CP159816.1	Prodigal:2.6	CDS	138557	139273	.	+	0	Uisw_121_00156	Uisw_121	238	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_121_00155
+CP159816.1	Prodigal:2.6	CDS	139274	140974	.	+	0	Uisw_121_00157	Uisw_121	566	OG0000032	NA	NA	COG2274	SunT	ABC-type bacteriocin/lantibiotic exporters, contain an N-terminal double-glycine peptidase domain	Uisw_121_00155
+CP159816.1	Prodigal:2.6	CDS	140967	141407	.	+	0	Uisw_121_00158	Uisw_121	146	OG0001572	NA	NA	NA	NA	NA	Uisw_121_00155
+CP159816.1	Prodigal:2.6	CDS	141376	142548	.	+	0	Uisw_121_00159	Uisw_121	390	OG0001572	NA	NA	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	Uisw_121_00155
+CP159816.1	Prodigal:2.6	CDS	143210	144322	.	-	0	Uisw_121_00160	Uisw_121	370	OG0001496	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_121_00155
+CP159818.1	Prodigal:2.6	CDS	141833	142630	.	+	0	Uisw_114_00162	Uisw_114	265	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	Uisw_114_00167
+CP159818.1	Prodigal:2.6	CDS	142602	142817	.	+	0	Uisw_114_00163	Uisw_114	71	OG0001401	NA	NA	NA	NA	NA	Uisw_114_00167
+CP159818.1	Prodigal:2.6	CDS	142825	143679	.	+	0	Uisw_114_00164	Uisw_114	284	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	Uisw_114_00167
+CP159818.1	Prodigal:2.6	CDS	143942	144082	.	+	0	Uisw_114_00165	Uisw_114	46	OG0002905	NA	NA	NA	NA	NA	Uisw_114_00167
+CP159818.1	Prodigal:2.6	CDS	144270	144665	.	+	0	Uisw_114_00166	Uisw_114	131	OG0002905	NA	NA	NA	NA	NA	Uisw_114_00167
+CP159818.1	Prodigal:2.6	CDS	144832	145563	.	-	0	Uisw_114_00167	Uisw_114	243	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	Uisw_114_00167
+CP159818.1	Prodigal:2.6	CDS	145746	145955	.	+	0	Uisw_114_00168	Uisw_114	69	OG0002067	NA	NA	NA	NA	NA	Uisw_114_00167
+CP159818.1	Prodigal:2.6	CDS	146053	146463	.	+	0	Uisw_114_00169	Uisw_114	136	OG0002067	NA	NA	NA	NA	NA	Uisw_114_00167
+CP159818.1	Prodigal:2.6	CDS	146857	147507	.	+	0	Uisw_114_00170	Uisw_114	216	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_114_00167
+CP159818.1	Prodigal:2.6	CDS	147515	147718	.	+	0	Uisw_114_00171	Uisw_114	67	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_114_00167
+CP159818.1	Prodigal:2.6	CDS	147709	148344	.	+	0	Uisw_114_00172	Uisw_114	211	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_114_00167
+CP159810.1	Prodigal:2.6	CDS	826457	827470	.	-	0	Uisw_090_00925	Uisw_090	337	OG0003127	NA	NA	NA	NA	NA	Uisw_090_00930
+CP159810.1	Prodigal:2.6	CDS	827460	828320	.	-	0	Uisw_090_00926	Uisw_090	286	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	Uisw_090_00930
+CP159810.1	Prodigal:2.6	CDS	828379	830031	.	-	0	Uisw_090_00927	Uisw_090	550	NA	NA	NA	COG3391	YncE	DNA-binding beta-propeller fold protein YncE	Uisw_090_00930
+CP159810.1	Prodigal:2.6	CDS	830039	830938	.	-	0	Uisw_090_00928	Uisw_090	299	OG0002412	NA	NA	COG3919	NA	Predicted ATP-dependent carboligase, ATP-grasp superfamily	Uisw_090_00930
+CP159810.1	Prodigal:2.6	CDS	830935	832035	.	-	0	Uisw_090_00929	Uisw_090	366	OG0003527	NA	NA	COG0439	AccC	Biotin carboxylase	Uisw_090_00930
+CP159810.1	Prodigal:2.6	CDS	832049	833377	.	-	0	Uisw_090_00930	Uisw_090	442	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	Uisw_090_00930
+CP159810.1	Prodigal:2.6	CDS	833374	834129	.	-	0	Uisw_090_00931	Uisw_090	251	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	Uisw_090_00930
+CP159810.1	Prodigal:2.6	CDS	834126	834989	.	-	0	Uisw_090_00932	Uisw_090	287	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	Uisw_090_00930
+CP159810.1	Prodigal:2.6	CDS	834986	836152	.	-	0	Uisw_090_00933	Uisw_090	388	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_090_00930
+CP159810.1	Prodigal:2.6	CDS	836181	837194	.	-	0	Uisw_090_00934	Uisw_090	337	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_090_00930
+CP159810.1	Prodigal:2.6	CDS	837406	838299	.	-	0	Uisw_090_00935	Uisw_090	297	OG0001128	K00067	dTDP-4-dehydrorhamnose reductase [EC:1.1.1.133]	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	Uisw_090_00930
+CP159810.1	Prodigal:2.6	CDS	827460	828320	.	-	0	Uisw_090_00926	Uisw_090	286	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	Uisw_090_00931
+CP159810.1	Prodigal:2.6	CDS	828379	830031	.	-	0	Uisw_090_00927	Uisw_090	550	NA	NA	NA	COG3391	YncE	DNA-binding beta-propeller fold protein YncE	Uisw_090_00931
+CP159810.1	Prodigal:2.6	CDS	830039	830938	.	-	0	Uisw_090_00928	Uisw_090	299	OG0002412	NA	NA	COG3919	NA	Predicted ATP-dependent carboligase, ATP-grasp superfamily	Uisw_090_00931
+CP159810.1	Prodigal:2.6	CDS	830935	832035	.	-	0	Uisw_090_00929	Uisw_090	366	OG0003527	NA	NA	COG0439	AccC	Biotin carboxylase	Uisw_090_00931
+CP159810.1	Prodigal:2.6	CDS	832049	833377	.	-	0	Uisw_090_00930	Uisw_090	442	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	Uisw_090_00931
+CP159810.1	Prodigal:2.6	CDS	833374	834129	.	-	0	Uisw_090_00931	Uisw_090	251	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	Uisw_090_00931
+CP159810.1	Prodigal:2.6	CDS	834126	834989	.	-	0	Uisw_090_00932	Uisw_090	287	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	Uisw_090_00931
+CP159810.1	Prodigal:2.6	CDS	834986	836152	.	-	0	Uisw_090_00933	Uisw_090	388	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_090_00931
+CP159810.1	Prodigal:2.6	CDS	836181	837194	.	-	0	Uisw_090_00934	Uisw_090	337	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_090_00931
+CP159810.1	Prodigal:2.6	CDS	837406	838299	.	-	0	Uisw_090_00935	Uisw_090	297	OG0001128	K00067	dTDP-4-dehydrorhamnose reductase [EC:1.1.1.133]	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	Uisw_090_00931
+CP159810.1	Prodigal:2.6	CDS	838319	839347	.	-	0	Uisw_090_00936	Uisw_090	342	OG0001783	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_090_00931
+CP159815.1	Prodigal:2.6	CDS	124489	125097	.	+	0	Uisw_127_00130	Uisw_127	202	OG0002007	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_127_00135
+CP159815.1	Prodigal:2.6	CDS	125094	126149	.	-	0	Uisw_127_00131	Uisw_127	351	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	Uisw_127_00135
+CP159815.1	Prodigal:2.6	CDS	126124	126777	.	-	0	Uisw_127_00132	Uisw_127	217	OG0000082	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	Uisw_127_00135
+CP159815.1	Prodigal:2.6	CDS	126837	127025	.	+	0	Uisw_127_00133	Uisw_127	62	OG0001590	NA	NA	NA	NA	NA	Uisw_127_00135
+CP159815.1	Prodigal:2.6	CDS	127022	128188	.	+	0	Uisw_127_00134	Uisw_127	388	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_127_00135
+CP159815.1	Prodigal:2.6	CDS	128181	128936	.	-	0	Uisw_127_00135	Uisw_127	251	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	Uisw_127_00135
+CP159815.1	Prodigal:2.6	CDS	128923	129678	.	-	0	Uisw_127_00136	Uisw_127	251	OG0000053	NA	NA	COG0107	HisF	Imidazole glycerol phosphate synthase subunit HisF	Uisw_127_00135
+CP159815.1	Prodigal:2.6	CDS	129681	130283	.	-	0	Uisw_127_00137	Uisw_127	200	OG0000057	NA	NA	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	Uisw_127_00135
+CP159815.1	Prodigal:2.6	CDS	130283	131413	.	-	0	Uisw_127_00138	Uisw_127	376	OG0001263	NA	NA	COG1082	YcjR	Sugar phosphate isomerase/epimerase	Uisw_127_00135
+CP159815.1	Prodigal:2.6	CDS	131526	131768	.	+	0	Uisw_127_00139	Uisw_127	80	OG0003090	NA	NA	NA	NA	NA	Uisw_127_00135
+CP159815.1	Prodigal:2.6	CDS	131823	133535	.	+	0	Uisw_127_00140	Uisw_127	570	OG0000032	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	Uisw_127_00135
+CP159813.1	Prodigal:2.6	CDS	127437	128408	.	+	0	Uisw_134_02_00133	Uisw_134_02	323	OG0003574	NA	NA	COG2348	FmhB	Lipid II:glycine glycyltransferase (Peptidoglycan interpeptide bridge formation enzyme)	Uisw_134_02_00138
+CP159813.1	Prodigal:2.6	CDS	128429	129091	.	+	0	Uisw_134_02_00134	Uisw_134_02	220	OG0000043	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	Uisw_134_02_00138
+CP159813.1	Prodigal:2.6	CDS	129088	130467	.	+	0	Uisw_134_02_00135	Uisw_134_02	459	OG0003282	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	Uisw_134_02_00138
+CP159813.1	Prodigal:2.6	CDS	130475	131779	.	+	0	Uisw_134_02_00136	Uisw_134_02	434	OG0001424	NA	NA	COG4310	NA	Uncharacterized conserved protein, cotains an aminopeptidase-like domain	Uisw_134_02_00138
+CP159813.1	Prodigal:2.6	CDS	131876	132805	.	+	0	Uisw_134_02_00137	Uisw_134_02	309	OG0002571	NA	NA	NA	NA	NA	Uisw_134_02_00138
+CP159813.1	Prodigal:2.6	CDS	132867	133511	.	+	0	Uisw_134_02_00138	Uisw_134_02	214	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	Uisw_134_02_00138
+CP159813.1	Prodigal:2.6	CDS	133508	134491	.	+	0	Uisw_134_02_00139	Uisw_134_02	327	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	Uisw_134_02_00138
+CP159813.1	Prodigal:2.6	CDS	134496	135617	.	+	0	Uisw_134_02_00140	Uisw_134_02	373	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_134_02_00138
+CP159813.1	Prodigal:2.6	CDS	135607	136608	.	+	0	Uisw_134_02_00141	Uisw_134_02	333	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_134_02_00138
+CP159813.1	Prodigal:2.6	CDS	136625	137635	.	+	0	Uisw_134_02_00142	Uisw_134_02	336	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	Uisw_134_02_00138
+CP159813.1	Prodigal:2.6	CDS	137635	139476	.	+	0	Uisw_134_02_00143	Uisw_134_02	613	OG0001196	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	Uisw_134_02_00138
+JNIU01000001.1	Prodigal:2.6	CDS	786071	787045	.	-	0	HTCC7217_00857	HTCC7217	324	NA	NA	NA	COG2327	WcaK	Polysaccharide pyruvyl transferase family protein WcaK (colanic acid biosynthesis)	HTCC7217_00862
+JNIU01000001.1	Prodigal:2.6	CDS	787070	787960	.	-	0	HTCC7217_00858	HTCC7217	296	OG0002672	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC7217_00862
+JNIU01000001.1	Prodigal:2.6	CDS	787964	789304	.	-	0	HTCC7217_00859	HTCC7217	446	OG0002461	NA	NA	NA	NA	NA	HTCC7217_00862
+JNIU01000001.1	Prodigal:2.6	CDS	789304	789951	.	-	0	HTCC7217_00860	HTCC7217	215	OG0002008	NA	NA	NA	NA	NA	HTCC7217_00862
+JNIU01000001.1	Prodigal:2.6	CDS	789998	790831	.	+	0	HTCC7217_00861	HTCC7217	277	OG0001297	NA	NA	COG3751	EGL9	Proline 4-hydroxylase (includes Rps23 Pro-64 3,4-dihydroxylase Tpa1), contains SM-20 domain	HTCC7217_00862
+JNIU01000001.1	Prodigal:2.6	CDS	790846	792162	.	+	0	HTCC7217_00862	HTCC7217	438	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HTCC7217_00862
+JNIU01000001.1	Prodigal:2.6	CDS	792162	792848	.	+	0	HTCC7217_00863	HTCC7217	228	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HTCC7217_00862
+JNIU01000001.1	Prodigal:2.6	CDS	792845	794932	.	-	0	HTCC7217_00864	HTCC7217	695	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC7217_00862
+JNIU01000001.1	Prodigal:2.6	CDS	794929	795915	.	-	0	HTCC7217_00865	HTCC7217	328	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC7217_00862
+JNIU01000001.1	Prodigal:2.6	CDS	795919	797226	.	-	0	HTCC7217_00866	HTCC7217	435	OG0001462	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HTCC7217_00862
+JNIU01000001.1	Prodigal:2.6	CDS	797223	798827	.	-	0	HTCC7217_00867	HTCC7217	534	OG0002665	NA	NA	NA	NA	NA	HTCC7217_00862
+HIMB1463-00000000080	Prodigal:2.6	CDS	156	839	.	-	0	HIMB1463_01413	HIMB1463	227	OG0001468	NA	NA	COG2120	LmbE	N-acetylglucosaminyl deacetylase, LmbE family	HIMB1463_01414
+HIMB1463-00000000080	Prodigal:2.6	CDS	844	2160	.	-	0	HIMB1463_01414	HIMB1463	438	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1463_01414
+HIMB1564-00000000001	Prodigal:2.6	CDS	131665	132696	.	+	0	HIMB1564_00135	HIMB1564	343	OG0003069	NA	NA	NA	NA	NA	HIMB1564_00140
+HIMB1564-00000000001	Prodigal:2.6	CDS	132711	133469	.	-	0	HIMB1564_00136	HIMB1564	252	OG0002067	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	HIMB1564_00140
+HIMB1564-00000000001	Prodigal:2.6	CDS	133594	133893	.	+	0	HIMB1564_00137	HIMB1564	99	OG0001403	NA	NA	COG1846	MarR	DNA-binding transcriptional regulator, MarR family	HIMB1564_00140
+HIMB1564-00000000001	Prodigal:2.6	CDS	133900	135639	.	+	0	HIMB1564_00138	HIMB1564	579	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1564_00140
+HIMB1564-00000000001	Prodigal:2.6	CDS	135660	136670	.	+	0	HIMB1564_00139	HIMB1564	336	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1564_00140
+HIMB1564-00000000001	Prodigal:2.6	CDS	136667	137815	.	+	0	HIMB1564_00140	HIMB1564	382	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1564_00140
+HIMB1564-00000000001	Prodigal:2.6	CDS	137812	138498	.	+	0	HIMB1564_00141	HIMB1564	228	OG0001468	NA	NA	COG2120	LmbE	N-acetylglucosaminyl deacetylase, LmbE family	HIMB1564_00140
+HIMB1564-00000000001	Prodigal:2.6	CDS	138499	139488	.	+	0	HIMB1564_00142	HIMB1564	329	OG0001859	K15897	UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase [EC:3.6.1.57]	COG3980	SpsG	Spore coat polysaccharide biosynthesis protein SpsG, predicted glycosyltransferase	HIMB1564_00140
+HIMB1564-00000000001	Prodigal:2.6	CDS	139481	140233	.	+	0	HIMB1564_00143	HIMB1564	250	OG0001800	NA	NA	NA	NA	NA	HIMB1564_00140
+HIMB1564-00000000001	Prodigal:2.6	CDS	140220	141005	.	+	0	HIMB1564_00144	HIMB1564	261	NA	NA	NA	COG2159	LigW	5-carboxyvanillate decarboxylase LigW (lignin degradation), amidohydro domain	HIMB1564_00140
+HIMB1564-00000000001	Prodigal:2.6	CDS	140947	141981	.	+	0	HIMB1564_00145	HIMB1564	344	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1564_00140
+CP003809.1	Prodigal:2.6	CDS	1033747	1035156	.	+	0	HIMB5_01123	HIMB5	469	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1035153	1036352	.	-	0	HIMB5_01124	HIMB5	399	OG0001405	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1036354	1037466	.	-	0	HIMB5_01125	HIMB5	370	OG0000011	K13010	perosamine synthetase [EC:2.6.1.102]	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1037456	1038820	.	-	0	HIMB5_01126	HIMB5	454	OG0001647	NA	NA	NA	NA	NA	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1039062	1040210	.	-	0	HIMB5_01127	HIMB5	382	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1040216	1042264	.	-	0	HIMB5_01128	HIMB5	682	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1040216	1042264	.	-	0	HIMB5_01128	HIMB5	682	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1042249	1042929	.	-	0	HIMB5_01129	HIMB5	226	OG0001462	NA	NA	NA	NA	NA	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1043095	1044141	.	-	0	HIMB5_01130	HIMB5	348	OG0000051	K15898	pseudaminic acid synthase [EC:2.5.1.97]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1044134	1044949	.	-	0	HIMB5_01131	HIMB5	271	OG0002180	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1044952	1045833	.	-	0	HIMB5_01132	HIMB5	293	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1035153	1036352	.	-	0	HIMB5_01124	HIMB5	399	OG0001405	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1036354	1037466	.	-	0	HIMB5_01125	HIMB5	370	OG0000011	K13010	perosamine synthetase [EC:2.6.1.102]	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1037456	1038820	.	-	0	HIMB5_01126	HIMB5	454	OG0001647	NA	NA	NA	NA	NA	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1039062	1040210	.	-	0	HIMB5_01127	HIMB5	382	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1040216	1042264	.	-	0	HIMB5_01128	HIMB5	682	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1040216	1042264	.	-	0	HIMB5_01128	HIMB5	682	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1042249	1042929	.	-	0	HIMB5_01129	HIMB5	226	OG0001462	NA	NA	NA	NA	NA	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1043095	1044141	.	-	0	HIMB5_01130	HIMB5	348	OG0000051	K15898	pseudaminic acid synthase [EC:2.5.1.97]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1044134	1044949	.	-	0	HIMB5_01131	HIMB5	271	OG0002180	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1044952	1045833	.	-	0	HIMB5_01132	HIMB5	293	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1045830	1046516	.	-	0	HIMB5_01133	HIMB5	228	OG0001800	NA	NA	NA	NA	NA	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1033747	1035156	.	+	0	HIMB5_01123	HIMB5	469	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1035153	1036352	.	-	0	HIMB5_01124	HIMB5	399	OG0001405	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1036354	1037466	.	-	0	HIMB5_01125	HIMB5	370	OG0000011	K13010	perosamine synthetase [EC:2.6.1.102]	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1037456	1038820	.	-	0	HIMB5_01126	HIMB5	454	OG0001647	NA	NA	NA	NA	NA	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1039062	1040210	.	-	0	HIMB5_01127	HIMB5	382	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1040216	1042264	.	-	0	HIMB5_01128	HIMB5	682	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1040216	1042264	.	-	0	HIMB5_01128	HIMB5	682	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1042249	1042929	.	-	0	HIMB5_01129	HIMB5	226	OG0001462	NA	NA	NA	NA	NA	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1043095	1044141	.	-	0	HIMB5_01130	HIMB5	348	OG0000051	K15898	pseudaminic acid synthase [EC:2.5.1.97]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1044134	1044949	.	-	0	HIMB5_01131	HIMB5	271	OG0002180	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1044952	1045833	.	-	0	HIMB5_01132	HIMB5	293	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1035153	1036352	.	-	0	HIMB5_01124	HIMB5	399	OG0001405	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1036354	1037466	.	-	0	HIMB5_01125	HIMB5	370	OG0000011	K13010	perosamine synthetase [EC:2.6.1.102]	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1037456	1038820	.	-	0	HIMB5_01126	HIMB5	454	OG0001647	NA	NA	NA	NA	NA	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1039062	1040210	.	-	0	HIMB5_01127	HIMB5	382	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1040216	1042264	.	-	0	HIMB5_01128	HIMB5	682	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1040216	1042264	.	-	0	HIMB5_01128	HIMB5	682	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1042249	1042929	.	-	0	HIMB5_01129	HIMB5	226	OG0001462	NA	NA	NA	NA	NA	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1043095	1044141	.	-	0	HIMB5_01130	HIMB5	348	OG0000051	K15898	pseudaminic acid synthase [EC:2.5.1.97]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1044134	1044949	.	-	0	HIMB5_01131	HIMB5	271	OG0002180	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1044952	1045833	.	-	0	HIMB5_01132	HIMB5	293	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB5_01128
+CP003809.1	Prodigal:2.6	CDS	1045830	1046516	.	-	0	HIMB5_01133	HIMB5	228	OG0001800	NA	NA	NA	NA	NA	HIMB5_01128
+HIMB1527-00000000001	Prodigal:2.6	CDS	569386	569571	.	+	0	HIMB1527_00590	HIMB1527	61	OG0001590	NA	NA	NA	NA	NA	HIMB1527_00595
+HIMB1527-00000000001	Prodigal:2.6	CDS	569582	570727	.	+	0	HIMB1527_00591	HIMB1527	381	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1527_00595
+HIMB1527-00000000001	Prodigal:2.6	CDS	570744	571607	.	-	0	HIMB1527_00592	HIMB1527	287	OG0001310	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1527_00595
+HIMB1527-00000000001	Prodigal:2.6	CDS	571731	572465	.	+	0	HIMB1527_00593	HIMB1527	244	OG0000067	K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB1527_00595
+HIMB1527-00000000001	Prodigal:2.6	CDS	572465	573082	.	+	0	HIMB1527_00594	HIMB1527	205	OG0000161	NA	NA	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	HIMB1527_00595
+HIMB1527-00000000001	Prodigal:2.6	CDS	573112	573855	.	+	0	HIMB1527_00595	HIMB1527	247	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1527_00595
+HIMB1527-00000000001	Prodigal:2.6	CDS	573908	574903	.	+	0	HIMB1527_00596	HIMB1527	331	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1527_00595
+HIMB1527-00000000001	Prodigal:2.6	CDS	574921	576651	.	+	0	HIMB1527_00597	HIMB1527	576	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1527_00595
+HIMB1527-00000000001	Prodigal:2.6	CDS	576648	577868	.	+	0	HIMB1527_00598	HIMB1527	406	OG0001565	NA	NA	NA	NA	NA	HIMB1527_00595
+HIMB1527-00000000001	Prodigal:2.6	CDS	577886	579400	.	+	0	HIMB1527_00599	HIMB1527	504	OG0001647	NA	NA	NA	NA	NA	HIMB1527_00595
+HIMB1527-00000000001	Prodigal:2.6	CDS	579484	580425	.	+	0	HIMB1527_00600	HIMB1527	313	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1527_00595
+HIMB1456-00000000011	Prodigal:2.6	CDS	40	1032	.	+	0	HIMB1456_01068	HIMB1456	330	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1456_01070
+HIMB1456-00000000011	Prodigal:2.6	CDS	1090	1305	.	-	0	HIMB1456_01069	HIMB1456	71	OG0001590	NA	NA	NA	NA	NA	HIMB1456_01070
+HIMB1456-00000000011	Prodigal:2.6	CDS	1362	2150	.	-	0	HIMB1456_01070	HIMB1456	262	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1456_01070
+HIMB1456-00000000011	Prodigal:2.6	CDS	2128	3108	.	-	0	HIMB1456_01071	HIMB1456	326	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1456_01070
+HIMB1456-00000000011	Prodigal:2.6	CDS	3093	4478	.	-	0	HIMB1456_01072	HIMB1456	461	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1456_01070
+HIMB1456-00000000011	Prodigal:2.6	CDS	4517	5485	.	+	0	HIMB1456_01073	HIMB1456	322	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1456_01070
+HIMB1456-00000000011	Prodigal:2.6	CDS	5486	6280	.	+	0	HIMB1456_01074	HIMB1456	264	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1456_01070
+HIMB1444-00000000006	Prodigal:2.6	CDS	7164	7964	.	+	0	HIMB1444_01407	HIMB1444	266	OG0002990	NA	NA	NA	NA	NA	HIMB1444_01412
+HIMB1444-00000000006	Prodigal:2.6	CDS	7961	8533	.	+	0	HIMB1444_01408	HIMB1444	190	OG0003273	NA	NA	NA	NA	NA	HIMB1444_01412
+HIMB1444-00000000006	Prodigal:2.6	CDS	8536	9438	.	-	0	HIMB1444_01409	HIMB1444	300	OG0001502	NA	NA	NA	NA	NA	HIMB1444_01412
+HIMB1444-00000000006	Prodigal:2.6	CDS	9431	10849	.	-	0	HIMB1444_01410	HIMB1444	472	OG0002526	NA	NA	COG1887	TagB	CDP-glycerol glycerophosphotransferase, TagB/SpsB family	HIMB1444_01412
+HIMB1444-00000000006	Prodigal:2.6	CDS	10863	11855	.	-	0	HIMB1444_01411	HIMB1444	330	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1444_01412
+HIMB1444-00000000006	Prodigal:2.6	CDS	11852	13105	.	-	0	HIMB1444_01412	HIMB1444	417	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1444_01412
+HIMB1444-00000000006	Prodigal:2.6	CDS	13099	13932	.	-	0	HIMB1444_01413	HIMB1444	277	OG0001462	NA	NA	NA	NA	NA	HIMB1444_01412
+HIMB2250-00000000001	Prodigal:2.6	CDS	124354	125949	.	+	0	HIMB2250_00126	HIMB2250	531	OG0001647	NA	NA	NA	NA	NA	HIMB2250_00131
+HIMB2250-00000000001	Prodigal:2.6	CDS	125971	127680	.	+	0	HIMB2250_00127	HIMB2250	569	OG0000032	NA	NA	COG2274	SunT	ABC-type bacteriocin/lantibiotic exporters, contain an N-terminal double-glycine peptidase domain	HIMB2250_00131
+HIMB2250-00000000001	Prodigal:2.6	CDS	127681	128520	.	-	0	HIMB2250_00128	HIMB2250	279	OG0000089	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	HIMB2250_00131
+HIMB2250-00000000001	Prodigal:2.6	CDS	128523	129122	.	-	0	HIMB2250_00129	HIMB2250	199	OG0001974	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB2250_00131
+HIMB2250-00000000001	Prodigal:2.6	CDS	129103	129822	.	-	0	HIMB2250_00130	HIMB2250	239	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2250_00131
+HIMB2250-00000000001	Prodigal:2.6	CDS	129822	131171	.	-	0	HIMB2250_00131	HIMB2250	449	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB2250_00131
+HIMB2250-00000000001	Prodigal:2.6	CDS	131171	131863	.	-	0	HIMB2250_00132	HIMB2250	230	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB2250_00131
+HIMB2250-00000000001	Prodigal:2.6	CDS	131892	133235	.	+	0	HIMB2250_00133	HIMB2250	447	OG0000039	NA	NA	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	HIMB2250_00131
+HIMB2250-00000000001	Prodigal:2.6	CDS	133232	134188	.	+	0	HIMB2250_00134	HIMB2250	318	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2250_00131
+HIMB2250-00000000001	Prodigal:2.6	CDS	134172	135317	.	+	0	HIMB2250_00135	HIMB2250	381	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB2250_00131
+HIMB2250-00000000001	Prodigal:2.6	CDS	135310	136359	.	+	0	HIMB2250_00136	HIMB2250	349	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB2250_00131
+CP031125.1	Prodigal:2.6	CDS	309829	310770	.	-	0	FZCC0015_00332	FZCC0015	313	OG0003613	NA	NA	COG2301	CitE	Citrate lyase beta subunit	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	310965	311714	.	+	0	FZCC0015_00333	FZCC0015	249	OG0000067	K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]	COG1212	KdsB	CMP-2-keto-3-deoxyoctulosonic acid synthetase	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	311714	312340	.	+	0	FZCC0015_00334	FZCC0015	208	OG0000161	NA	NA	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	312384	314171	.	-	0	FZCC0015_00335	FZCC0015	595	OG0002531	NA	NA	NA	NA	NA	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	314173	315201	.	-	0	FZCC0015_00336	FZCC0015	342	OG0004255	K15897	UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase [EC:3.6.1.57]	COG3980	SpsG	Spore coat polysaccharide biosynthesis protein SpsG, predicted glycosyltransferase	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	315248	317275	.	-	0	FZCC0015_00337	FZCC0015	675	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	315248	317275	.	-	0	FZCC0015_00337	FZCC0015	675	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	317335	319023	.	-	0	FZCC0015_00338	FZCC0015	562	OG0001497	NA	NA	NA	NA	NA	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	319176	320228	.	-	0	FZCC0015_00339	FZCC0015	350	OG0000051	K15898	pseudaminic acid synthase [EC:2.5.1.97]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	320296	321354	.	-	0	FZCC0015_00340	FZCC0015	352	OG0003970	K15896	UDP-4-amino-4,6-dideoxy-N-acetyl-beta-L-altrosamine N-acetyltransferase [EC:2.3.1.202]	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	321486	322358	.	-	0	FZCC0015_00341	FZCC0015	290	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	310965	311714	.	+	0	FZCC0015_00333	FZCC0015	249	OG0000067	K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]	COG1212	KdsB	CMP-2-keto-3-deoxyoctulosonic acid synthetase	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	311714	312340	.	+	0	FZCC0015_00334	FZCC0015	208	OG0000161	NA	NA	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	312384	314171	.	-	0	FZCC0015_00335	FZCC0015	595	OG0002531	NA	NA	NA	NA	NA	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	314173	315201	.	-	0	FZCC0015_00336	FZCC0015	342	OG0004255	K15897	UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase [EC:3.6.1.57]	COG3980	SpsG	Spore coat polysaccharide biosynthesis protein SpsG, predicted glycosyltransferase	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	315248	317275	.	-	0	FZCC0015_00337	FZCC0015	675	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	315248	317275	.	-	0	FZCC0015_00337	FZCC0015	675	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	317335	319023	.	-	0	FZCC0015_00338	FZCC0015	562	OG0001497	NA	NA	NA	NA	NA	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	319176	320228	.	-	0	FZCC0015_00339	FZCC0015	350	OG0000051	K15898	pseudaminic acid synthase [EC:2.5.1.97]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	320296	321354	.	-	0	FZCC0015_00340	FZCC0015	352	OG0003970	K15896	UDP-4-amino-4,6-dideoxy-N-acetyl-beta-L-altrosamine N-acetyltransferase [EC:2.3.1.202]	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	321486	322358	.	-	0	FZCC0015_00341	FZCC0015	290	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	322351	323010	.	-	0	FZCC0015_00342	FZCC0015	219	OG0000102	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	309829	310770	.	-	0	FZCC0015_00332	FZCC0015	313	OG0003613	NA	NA	COG2301	CitE	Citrate lyase beta subunit	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	310965	311714	.	+	0	FZCC0015_00333	FZCC0015	249	OG0000067	K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]	COG1212	KdsB	CMP-2-keto-3-deoxyoctulosonic acid synthetase	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	311714	312340	.	+	0	FZCC0015_00334	FZCC0015	208	OG0000161	NA	NA	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	312384	314171	.	-	0	FZCC0015_00335	FZCC0015	595	OG0002531	NA	NA	NA	NA	NA	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	314173	315201	.	-	0	FZCC0015_00336	FZCC0015	342	OG0004255	K15897	UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase [EC:3.6.1.57]	COG3980	SpsG	Spore coat polysaccharide biosynthesis protein SpsG, predicted glycosyltransferase	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	315248	317275	.	-	0	FZCC0015_00337	FZCC0015	675	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	315248	317275	.	-	0	FZCC0015_00337	FZCC0015	675	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	317335	319023	.	-	0	FZCC0015_00338	FZCC0015	562	OG0001497	NA	NA	NA	NA	NA	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	319176	320228	.	-	0	FZCC0015_00339	FZCC0015	350	OG0000051	K15898	pseudaminic acid synthase [EC:2.5.1.97]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	320296	321354	.	-	0	FZCC0015_00340	FZCC0015	352	OG0003970	K15896	UDP-4-amino-4,6-dideoxy-N-acetyl-beta-L-altrosamine N-acetyltransferase [EC:2.3.1.202]	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	321486	322358	.	-	0	FZCC0015_00341	FZCC0015	290	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	310965	311714	.	+	0	FZCC0015_00333	FZCC0015	249	OG0000067	K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]	COG1212	KdsB	CMP-2-keto-3-deoxyoctulosonic acid synthetase	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	311714	312340	.	+	0	FZCC0015_00334	FZCC0015	208	OG0000161	NA	NA	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	312384	314171	.	-	0	FZCC0015_00335	FZCC0015	595	OG0002531	NA	NA	NA	NA	NA	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	314173	315201	.	-	0	FZCC0015_00336	FZCC0015	342	OG0004255	K15897	UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase [EC:3.6.1.57]	COG3980	SpsG	Spore coat polysaccharide biosynthesis protein SpsG, predicted glycosyltransferase	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	315248	317275	.	-	0	FZCC0015_00337	FZCC0015	675	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	315248	317275	.	-	0	FZCC0015_00337	FZCC0015	675	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	317335	319023	.	-	0	FZCC0015_00338	FZCC0015	562	OG0001497	NA	NA	NA	NA	NA	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	319176	320228	.	-	0	FZCC0015_00339	FZCC0015	350	OG0000051	K15898	pseudaminic acid synthase [EC:2.5.1.97]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	320296	321354	.	-	0	FZCC0015_00340	FZCC0015	352	OG0003970	K15896	UDP-4-amino-4,6-dideoxy-N-acetyl-beta-L-altrosamine N-acetyltransferase [EC:2.3.1.202]	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	321486	322358	.	-	0	FZCC0015_00341	FZCC0015	290	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	FZCC0015_00337
+CP031125.1	Prodigal:2.6	CDS	322351	323010	.	-	0	FZCC0015_00342	FZCC0015	219	OG0000102	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	FZCC0015_00337
+AZAL01000001.1	Prodigal:2.6	CDS	631758	633572	.	-	0	HIMB083_00698	HIMB083	604	OG0001196	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	HIMB083_00703
+AZAL01000001.1	Prodigal:2.6	CDS	633579	634583	.	-	0	HIMB083_00699	HIMB083	334	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB083_00703
+AZAL01000001.1	Prodigal:2.6	CDS	634619	634720	.	-	0	HIMB083_00700	HIMB083	33	OG0004429	NA	NA	NA	NA	NA	HIMB083_00703
+AZAL01000001.1	Prodigal:2.6	CDS	634710	635801	.	-	0	HIMB083_00701	HIMB083	363	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB083_00703
+AZAL01000001.1	Prodigal:2.6	CDS	635791	636786	.	-	0	HIMB083_00702	HIMB083	331	OG0001061	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB083_00703
+AZAL01000001.1	Prodigal:2.6	CDS	636767	637429	.	-	0	HIMB083_00703	HIMB083	220	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB083_00703
+AZAL01000001.1	Prodigal:2.6	CDS	637504	638361	.	+	0	HIMB083_00704	HIMB083	285	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB083_00703
+AZAL01000001.1	Prodigal:2.6	CDS	638367	640169	.	-	0	HIMB083_00705	HIMB083	600	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB083_00703
+AZAL01000001.1	barrnap:0.9	rRNA	640416	643164	0	-	NA	HIMB083_00706	HIMB083	NA	NA	NA	NA	NA	NA	NA	HIMB083_00703
+AZAL01000001.1	Aragorn:1.2	tRNA	643297	643372	.	-	NA	HIMB083_00707	HIMB083	NA	NA	NA	NA	NA	NA	NA	HIMB083_00703
+AZAL01000001.1	Aragorn:1.2	tRNA	643385	643461	.	-	NA	HIMB083_00708	HIMB083	NA	NA	NA	NA	NA	NA	NA	HIMB083_00703
+HIMB1685-00000000001	Prodigal:2.6	CDS	1153868	1154815	.	-	0	HIMB1685_01250	HIMB1685	315	OG0001061	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1685_01255
+HIMB1685-00000000001	Prodigal:2.6	CDS	1154831	1155991	.	-	0	HIMB1685_01251	HIMB1685	386	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1685_01255
+HIMB1685-00000000001	Prodigal:2.6	CDS	1155988	1157001	.	-	0	HIMB1685_01252	HIMB1685	337	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1685_01255
+HIMB1685-00000000001	Prodigal:2.6	CDS	1156967	1158193	.	-	0	HIMB1685_01253	HIMB1685	408	OG0000039	NA	NA	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	HIMB1685_01255
+HIMB1685-00000000001	Prodigal:2.6	CDS	1158306	1159079	.	+	0	HIMB1685_01254	HIMB1685	257	OG0002180	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1685_01255
+HIMB1685-00000000001	Prodigal:2.6	CDS	1159085	1161136	.	-	0	HIMB1685_01255	HIMB1685	683	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1685_01255
+HIMB1685-00000000001	Prodigal:2.6	CDS	1161301	1162392	.	+	0	HIMB1685_01256	HIMB1685	363	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1685_01255
+HIMB1685-00000000001	Prodigal:2.6	CDS	1162365	1163438	.	+	0	HIMB1685_01257	HIMB1685	357	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1685_01255
+HIMB1685-00000000001	Prodigal:2.6	CDS	1163426	1165321	.	+	0	HIMB1685_01258	HIMB1685	631	OG0001196	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	HIMB1685_01255
+HIMB1685-00000000001	Prodigal:2.6	CDS	1165272	1166927	.	+	0	HIMB1685_01259	HIMB1685	551	NA	NA	NA	NA	NA	NA	HIMB1685_01255
+HIMB1685-00000000001	Prodigal:2.6	CDS	1166920	1168035	.	+	0	HIMB1685_01260	HIMB1685	371	OG0001446	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1685_01255
+HIMB1573-00000000001	Prodigal:2.6	CDS	638533	639558	.	+	0	HIMB1573_00684	HIMB1573	341	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1573_00689
+HIMB1573-00000000001	Prodigal:2.6	CDS	639545	640510	.	+	0	HIMB1573_00685	HIMB1573	321	OG0002454	NA	NA	COG3980	SpsG	Spore coat polysaccharide biosynthesis protein SpsG, predicted glycosyltransferase	HIMB1573_00689
+HIMB1573-00000000001	Prodigal:2.6	CDS	640512	640940	.	+	0	HIMB1573_00686	HIMB1573	142	OG0001149	K18290	itaconyl-CoA hydratase [EC:4.2.1.56]	COG2030	MaoC	Acyl-CoA dehydratase PaaZ	HIMB1573_00689
+HIMB1573-00000000001	Prodigal:2.6	CDS	640948	641796	.	+	0	HIMB1573_00687	HIMB1573	282	OG0001149	NA	NA	COG2301	CitE	Citrate lyase beta subunit	HIMB1573_00689
+HIMB1573-00000000001	Prodigal:2.6	CDS	641793	642446	.	+	0	HIMB1573_00688	HIMB1573	217	OG0002524	NA	NA	COG1044	LpxD	UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase	HIMB1573_00689
+HIMB1573-00000000001	Prodigal:2.6	CDS	642446	644494	.	+	0	HIMB1573_00689	HIMB1573	682	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1573_00689
+HIMB1573-00000000001	Prodigal:2.6	CDS	644502	645842	.	+	0	HIMB1573_00690	HIMB1573	446	OG0001462	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB1573_00689
+HIMB1573-00000000001	Prodigal:2.6	CDS	645847	647100	.	-	0	HIMB1573_00691	HIMB1573	417	OG0001641	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1573_00689
+HIMB1573-00000000001	Prodigal:2.6	CDS	647207	647701	.	+	0	HIMB1573_00692	HIMB1573	164	OG0002282	NA	NA	NA	NA	NA	HIMB1573_00689
+HIMB1573-00000000001	Prodigal:2.6	CDS	647673	648728	.	+	0	HIMB1573_00693	HIMB1573	351	OG0001587	NA	NA	COG1902	FadH	NADH:flavin reductase, Old Yellow Enzyme (OYE) family	HIMB1573_00689
+HIMB1573-00000000001	Prodigal:2.6	CDS	648849	650318	.	+	0	HIMB1573_00694	HIMB1573	489	OG0002665	NA	NA	NA	NA	NA	HIMB1573_00689
+HIMB1765-00000000001	Prodigal:2.6	CDS	704731	705678	.	-	0	HIMB1765_00776	HIMB1765	315	OG0000236	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1765_00781
+HIMB1765-00000000001	Aragorn:1.2	tmRNA	705706	706014	.	+	.	HIMB1765_00777	HIMB1765	NA	NA	NA	NA	NA	NA	NA	HIMB1765_00781
+HIMB1765-00000000001	Prodigal:2.6	CDS	706348	708048	.	-	0	HIMB1765_00778	HIMB1765	566	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1765_00781
+HIMB1765-00000000001	Prodigal:2.6	CDS	708071	709618	.	-	0	HIMB1765_00779	HIMB1765	515	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1765_00781
+HIMB1765-00000000001	Prodigal:2.6	CDS	709655	710503	.	-	0	HIMB1765_00780	HIMB1765	282	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1765_00781
+HIMB1765-00000000001	Prodigal:2.6	CDS	710503	711186	.	-	0	HIMB1765_00781	HIMB1765	227	OG0001130	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB1765_00781
+HIMB1765-00000000001	Prodigal:2.6	CDS	711202	713859	.	-	0	HIMB1765_00782	HIMB1765	885	OG0000773	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1765_00781
+HIMB1765-00000000001	Prodigal:2.6	CDS	713859	715925	.	-	0	HIMB1765_00783	HIMB1765	688	OG0000851	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1765_00781
+HIMB1765-00000000001	Prodigal:2.6	CDS	715925	716821	.	-	0	HIMB1765_00784	HIMB1765	298	OG0000843	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1765_00781
+HIMB1765-00000000001	Prodigal:2.6	CDS	716787	717590	.	-	0	HIMB1765_00785	HIMB1765	267	OG0000604	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1765_00781
+HIMB1765-00000000001	Prodigal:2.6	CDS	717705	718718	.	+	0	HIMB1765_00786	HIMB1765	337	OG0000626	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1765_00781
+HIMB1494-00000000001	Prodigal:2.6	CDS	25883	26788	.	+	0	HIMB1494_00026	HIMB1494	301	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1494_00031
+HIMB1494-00000000001	Prodigal:2.6	CDS	26835	27707	.	-	0	HIMB1494_00027	HIMB1494	290	OG0003314	NA	NA	COG3765	WzzB	LPS O-antigen chain length determinant protein, WzzB/FepE family	HIMB1494_00031
+HIMB1494-00000000001	Prodigal:2.6	CDS	27757	29118	.	-	0	HIMB1494_00028	HIMB1494	453	OG0001498	NA	NA	NA	NA	NA	HIMB1494_00031
+HIMB1494-00000000001	Prodigal:2.6	CDS	29121	30443	.	-	0	HIMB1494_00029	HIMB1494	440	OG0005103	NA	NA	NA	NA	NA	HIMB1494_00031
+HIMB1494-00000000001	Prodigal:2.6	CDS	30480	31304	.	-	0	HIMB1494_00030	HIMB1494	274	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1494_00031
+HIMB1494-00000000001	Prodigal:2.6	CDS	31490	32878	.	-	0	HIMB1494_00031	HIMB1494	462	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1494_00031
+HIMB1494-00000000001	Prodigal:2.6	CDS	32886	33566	.	-	0	HIMB1494_00032	HIMB1494	226	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB1494_00031
+HIMB1494-00000000001	Prodigal:2.6	CDS	33559	34122	.	-	0	HIMB1494_00033	HIMB1494	187	OG0001974	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB1494_00031
+HIMB1494-00000000001	Prodigal:2.6	CDS	34119	34943	.	-	0	HIMB1494_00034	HIMB1494	274	OG0001807	NA	NA	COG1082	YcjR	Sugar phosphate isomerase/epimerase	HIMB1494_00031
+HIMB1494-00000000001	Prodigal:2.6	CDS	35043	35906	.	-	0	HIMB1494_00035	HIMB1494	287	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1494_00031
+HIMB1494-00000000001	Prodigal:2.6	CDS	35961	36797	.	-	0	HIMB1494_00036	HIMB1494	278	OG0000051	K01654	N-acetylneuraminate synthase [EC:2.5.1.56]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1494_00031
+HIMB1494-00000000001	Prodigal:2.6	CDS	44113	44847	.	-	0	HIMB1494_00045	HIMB1494	244	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1494_00050
+HIMB1494-00000000001	Prodigal:2.6	CDS	44844	45062	.	-	0	HIMB1494_00046	HIMB1494	72	OG0002811	NA	NA	NA	NA	NA	HIMB1494_00050
+HIMB1494-00000000001	Prodigal:2.6	CDS	45046	46563	.	-	0	HIMB1494_00047	HIMB1494	505	OG0001939	NA	NA	COG1020	EntF	EntF, seryl-AMP synthase component  of non-ribosomal peptide synthetase	HIMB1494_00050
+HIMB1494-00000000001	Prodigal:2.6	CDS	46569	47543	.	-	0	HIMB1494_00048	HIMB1494	324	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1494_00050
+HIMB1494-00000000001	Prodigal:2.6	CDS	47584	48573	.	-	0	HIMB1494_00049	HIMB1494	329	OG0002454	NA	NA	NA	NA	NA	HIMB1494_00050
+HIMB1494-00000000001	Prodigal:2.6	CDS	48543	49859	.	-	0	HIMB1494_00050	HIMB1494	438	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1494_00050
+HIMB1494-00000000001	Prodigal:2.6	CDS	49853	50707	.	-	0	HIMB1494_00051	HIMB1494	284	OG0001462	NA	NA	COG1453	NA	Predicted oxidoreductase of the aldo/keto reductase family	HIMB1494_00050
+HIMB1494-00000000001	Prodigal:2.6	CDS	50822	51823	.	-	0	HIMB1494_00052	HIMB1494	333	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1494_00050
+HIMB1494-00000000001	Prodigal:2.6	CDS	51827	53629	.	-	0	HIMB1494_00053	HIMB1494	600	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1494_00050
+HIMB1494-00000000001	Prodigal:2.6	CDS	53779	55092	.	+	0	HIMB1494_00054	HIMB1494	437	OG0002963	NA	NA	NA	NA	NA	HIMB1494_00050
+HIMB1494-00000000001	Prodigal:2.6	CDS	55079	56083	.	+	0	HIMB1494_00055	HIMB1494	334	OG0002203	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1494_00050
+HIMB1495-00000000001	Prodigal:2.6	CDS	2588	3493	.	+	0	HIMB1495_00004	HIMB1495	301	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1495_00009
+HIMB1495-00000000001	Prodigal:2.6	CDS	3540	4412	.	-	0	HIMB1495_00005	HIMB1495	290	OG0003314	NA	NA	COG3765	WzzB	LPS O-antigen chain length determinant protein, WzzB/FepE family	HIMB1495_00009
+HIMB1495-00000000001	Prodigal:2.6	CDS	4462	5823	.	-	0	HIMB1495_00006	HIMB1495	453	OG0001498	NA	NA	NA	NA	NA	HIMB1495_00009
+HIMB1495-00000000001	Prodigal:2.6	CDS	5826	7148	.	-	0	HIMB1495_00007	HIMB1495	440	OG0005103	NA	NA	NA	NA	NA	HIMB1495_00009
+HIMB1495-00000000001	Prodigal:2.6	CDS	7185	8009	.	-	0	HIMB1495_00008	HIMB1495	274	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1495_00009
+HIMB1495-00000000001	Prodigal:2.6	CDS	8195	9583	.	-	0	HIMB1495_00009	HIMB1495	462	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1495_00009
+HIMB1495-00000000001	Prodigal:2.6	CDS	9591	10271	.	-	0	HIMB1495_00010	HIMB1495	226	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB1495_00009
+HIMB1495-00000000001	Prodigal:2.6	CDS	10264	10827	.	-	0	HIMB1495_00011	HIMB1495	187	OG0001974	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB1495_00009
+HIMB1495-00000000001	Prodigal:2.6	CDS	10824	11648	.	-	0	HIMB1495_00012	HIMB1495	274	OG0001807	NA	NA	COG1082	YcjR	Sugar phosphate isomerase/epimerase	HIMB1495_00009
+HIMB1495-00000000001	Prodigal:2.6	CDS	11748	12611	.	-	0	HIMB1495_00013	HIMB1495	287	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1495_00009
+HIMB1495-00000000001	Prodigal:2.6	CDS	12666	13502	.	-	0	HIMB1495_00014	HIMB1495	278	OG0000051	K01654	N-acetylneuraminate synthase [EC:2.5.1.56]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1495_00009
+HIMB1495-00000000001	Prodigal:2.6	CDS	20818	21552	.	-	0	HIMB1495_00023	HIMB1495	244	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1495_00028
+HIMB1495-00000000001	Prodigal:2.6	CDS	21549	21767	.	-	0	HIMB1495_00024	HIMB1495	72	OG0002811	NA	NA	NA	NA	NA	HIMB1495_00028
+HIMB1495-00000000001	Prodigal:2.6	CDS	21751	23268	.	-	0	HIMB1495_00025	HIMB1495	505	OG0001939	NA	NA	COG1020	EntF	EntF, seryl-AMP synthase component  of non-ribosomal peptide synthetase	HIMB1495_00028
+HIMB1495-00000000001	Prodigal:2.6	CDS	23274	24248	.	-	0	HIMB1495_00026	HIMB1495	324	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1495_00028
+HIMB1495-00000000001	Prodigal:2.6	CDS	24289	25278	.	-	0	HIMB1495_00027	HIMB1495	329	OG0002454	NA	NA	NA	NA	NA	HIMB1495_00028
+HIMB1495-00000000001	Prodigal:2.6	CDS	25248	26564	.	-	0	HIMB1495_00028	HIMB1495	438	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1495_00028
+HIMB1495-00000000001	Prodigal:2.6	CDS	26558	27412	.	-	0	HIMB1495_00029	HIMB1495	284	OG0001462	NA	NA	COG1453	NA	Predicted oxidoreductase of the aldo/keto reductase family	HIMB1495_00028
+HIMB1495-00000000001	Prodigal:2.6	CDS	27527	28528	.	-	0	HIMB1495_00030	HIMB1495	333	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1495_00028
+HIMB1495-00000000001	Prodigal:2.6	CDS	28532	30334	.	-	0	HIMB1495_00031	HIMB1495	600	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1495_00028
+HIMB1495-00000000001	Prodigal:2.6	CDS	30484	31797	.	+	0	HIMB1495_00032	HIMB1495	437	OG0002963	NA	NA	NA	NA	NA	HIMB1495_00028
+HIMB1495-00000000001	Prodigal:2.6	CDS	31784	32788	.	+	0	HIMB1495_00033	HIMB1495	334	OG0002203	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1495_00028
+HIMB1593-00000000001	Prodigal:2.6	CDS	26394	26540	.	-	0	HIMB1593_00026	HIMB1593	48	OG0000051	NA	NA	NA	NA	NA	HIMB1593_00031
+HIMB1593-00000000001	Prodigal:2.6	CDS	26717	27499	.	+	0	HIMB1593_00027	HIMB1593	260	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1593_00031
+HIMB1593-00000000001	Prodigal:2.6	CDS	27496	28152	.	+	0	HIMB1593_00028	HIMB1593	218	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1593_00031
+HIMB1593-00000000001	Prodigal:2.6	CDS	28161	29003	.	-	0	HIMB1593_00029	HIMB1593	280	OG0000051	K01654	N-acetylneuraminate synthase [EC:2.5.1.56]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1593_00031
+HIMB1593-00000000001	Prodigal:2.6	CDS	29008	30228	.	-	0	HIMB1593_00030	HIMB1593	406	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1593_00031
+HIMB1593-00000000001	Prodigal:2.6	CDS	30252	30989	.	-	0	HIMB1593_00031	HIMB1593	245	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	NA	NA	NA	HIMB1593_00031
+HIMB1593-00000000001	Prodigal:2.6	CDS	31014	31769	.	+	0	HIMB1593_00032	HIMB1593	251	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1593_00031
+HIMB1593-00000000001	barrnap:0.9	rRNA	31845	34593	0	-	.	HIMB1593_00033	HIMB1593	NA	NA	NA	NA	NA	NA	NA	HIMB1593_00031
+HIMB1593-00000000001	Aragorn:1.2	tRNA	34728	34803	.	-	.	HIMB1593_00034	HIMB1593	NA	NA	NA	NA	NA	NA	NA	HIMB1593_00031
+HIMB1593-00000000001	Aragorn:1.2	tRNA	34816	34892	.	-	.	HIMB1593_00035	HIMB1593	NA	NA	NA	NA	NA	NA	NA	HIMB1593_00031
+HIMB1593-00000000001	barrnap:0.9	rRNA	34992	36461	0	-	.	HIMB1593_00036	HIMB1593	NA	NA	NA	NA	NA	NA	NA	HIMB1593_00031
+HIMB1485-00000000001	Prodigal:2.6	CDS	434905	435942	.	+	0	HIMB1485_00464	HIMB1485	345	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	HIMB1485_00469
+HIMB1485-00000000001	Prodigal:2.6	CDS	435929	437047	.	+	0	HIMB1485_00465	HIMB1485	372	OG0001815	NA	NA	NA	NA	NA	HIMB1485_00469
+HIMB1485-00000000001	Prodigal:2.6	CDS	437051	438340	.	+	0	HIMB1485_00466	HIMB1485	429	OG0001798	NA	NA	NA	NA	NA	HIMB1485_00469
+HIMB1485-00000000001	Prodigal:2.6	CDS	438397	438903	.	+	0	HIMB1485_00467	HIMB1485	168	OG0001836	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB1485_00469
+HIMB1485-00000000001	Prodigal:2.6	CDS	438919	439941	.	+	0	HIMB1485_00468	HIMB1485	340	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1485_00469
+HIMB1485-00000000001	Prodigal:2.6	CDS	439978	440694	.	+	0	HIMB1485_00469	HIMB1485	238	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1485_00469
+HIMB1485-00000000001	Prodigal:2.6	CDS	440696	441556	.	+	0	HIMB1485_00470	HIMB1485	286	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1485_00469
+HIMB1485-00000000001	Prodigal:2.6	CDS	441558	442850	.	+	0	HIMB1485_00471	HIMB1485	430	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1485_00469
+HIMB1485-00000000001	Prodigal:2.6	CDS	442853	443998	.	+	0	HIMB1485_00472	HIMB1485	381	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1485_00469
+HIMB1485-00000000001	Prodigal:2.6	CDS	444010	445821	.	+	0	HIMB1485_00473	HIMB1485	603	NA	NA	NA	NA	NA	NA	HIMB1485_00469
+HIMB1485-00000000001	Prodigal:2.6	CDS	445966	447249	.	+	0	HIMB1485_00474	HIMB1485	427	NA	K07282	gamma-polyglutamate biosynthesis protein CapA	COG2843	CapA	Poly-gamma-glutamate biosynthesis protein CapA/YwtB (capsule formation), metallophosphatase superfamily	HIMB1485_00469
+HIMB1485-00000000001	Prodigal:2.6	CDS	437051	438340	.	+	0	HIMB1485_00466	HIMB1485	429	OG0001798	NA	NA	NA	NA	NA	HIMB1485_00471
+HIMB1485-00000000001	Prodigal:2.6	CDS	438397	438903	.	+	0	HIMB1485_00467	HIMB1485	168	OG0001836	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB1485_00471
+HIMB1485-00000000001	Prodigal:2.6	CDS	438919	439941	.	+	0	HIMB1485_00468	HIMB1485	340	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1485_00471
+HIMB1485-00000000001	Prodigal:2.6	CDS	439978	440694	.	+	0	HIMB1485_00469	HIMB1485	238	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1485_00471
+HIMB1485-00000000001	Prodigal:2.6	CDS	440696	441556	.	+	0	HIMB1485_00470	HIMB1485	286	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1485_00471
+HIMB1485-00000000001	Prodigal:2.6	CDS	441558	442850	.	+	0	HIMB1485_00471	HIMB1485	430	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1485_00471
+HIMB1485-00000000001	Prodigal:2.6	CDS	442853	443998	.	+	0	HIMB1485_00472	HIMB1485	381	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1485_00471
+HIMB1485-00000000001	Prodigal:2.6	CDS	444010	445821	.	+	0	HIMB1485_00473	HIMB1485	603	NA	NA	NA	NA	NA	NA	HIMB1485_00471
+HIMB1485-00000000001	Prodigal:2.6	CDS	445966	447249	.	+	0	HIMB1485_00474	HIMB1485	427	NA	K07282	gamma-polyglutamate biosynthesis protein CapA	COG2843	CapA	Poly-gamma-glutamate biosynthesis protein CapA/YwtB (capsule formation), metallophosphatase superfamily	HIMB1485_00471
+HIMB1485-00000000001	Prodigal:2.6	CDS	447250	447822	.	+	0	HIMB1485_00475	HIMB1485	190	OG0002366	K22247	polysialic-acid O-acetyltransferase [EC:2.3.1.136]	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	HIMB1485_00471
+HIMB1485-00000000001	Prodigal:2.6	CDS	447819	449567	.	+	0	HIMB1485_00476	HIMB1485	582	OG0003280	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	HIMB1485_00471
+HIMB1526-00000000001	Prodigal:2.6	CDS	1315675	1316814	.	+	0	HIMB1526_01399	HIMB1526	379	OG0001077	NA	NA	NA	NA	NA	HIMB1526_01404
+HIMB1526-00000000001	Prodigal:2.6	CDS	1316825	1317439	.	-	0	HIMB1526_01400	HIMB1526	204	OG0001468	NA	NA	COG2120	LmbE	N-acetylglucosaminyl deacetylase, LmbE family	HIMB1526_01404
+HIMB1526-00000000001	Prodigal:2.6	CDS	1317436	1318320	.	-	0	HIMB1526_01401	HIMB1526	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1526_01404
+HIMB1526-00000000001	Prodigal:2.6	CDS	1318328	1319464	.	-	0	HIMB1526_01402	HIMB1526	378	OG0001272	NA	NA	NA	NA	NA	HIMB1526_01404
+HIMB1526-00000000001	Prodigal:2.6	CDS	1319555	1320586	.	+	0	HIMB1526_01403	HIMB1526	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1526_01404
+HIMB1526-00000000001	Prodigal:2.6	CDS	1320583	1321317	.	+	0	HIMB1526_01404	HIMB1526	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1526_01404
+HIMB1526-00000000001	Prodigal:2.6	CDS	1321322	1322314	.	+	0	HIMB1526_01405	HIMB1526	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1526_01404
+HIMB1526-00000000001	Prodigal:2.6	CDS	1322318	1323667	.	+	0	HIMB1526_01406	HIMB1526	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1526_01404
+HIMB1526-00000000001	Prodigal:2.6	CDS	1323667	1324755	.	+	0	HIMB1526_01407	HIMB1526	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1526_01404
+HIMB1526-00000000001	Prodigal:2.6	CDS	1324756	1325793	.	+	0	HIMB1526_01408	HIMB1526	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1526_01404
+HIMB1526-00000000001	Prodigal:2.6	CDS	1325785	1326573	.	-	0	HIMB1526_01409	HIMB1526	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1526_01404
+HIMB1526-00000000001	Prodigal:2.6	CDS	1317436	1318320	.	-	0	HIMB1526_01401	HIMB1526	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1526_01406
+HIMB1526-00000000001	Prodigal:2.6	CDS	1318328	1319464	.	-	0	HIMB1526_01402	HIMB1526	378	OG0001272	NA	NA	NA	NA	NA	HIMB1526_01406
+HIMB1526-00000000001	Prodigal:2.6	CDS	1319555	1320586	.	+	0	HIMB1526_01403	HIMB1526	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1526_01406
+HIMB1526-00000000001	Prodigal:2.6	CDS	1320583	1321317	.	+	0	HIMB1526_01404	HIMB1526	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1526_01406
+HIMB1526-00000000001	Prodigal:2.6	CDS	1321322	1322314	.	+	0	HIMB1526_01405	HIMB1526	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1526_01406
+HIMB1526-00000000001	Prodigal:2.6	CDS	1322318	1323667	.	+	0	HIMB1526_01406	HIMB1526	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1526_01406
+HIMB1526-00000000001	Prodigal:2.6	CDS	1323667	1324755	.	+	0	HIMB1526_01407	HIMB1526	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1526_01406
+HIMB1526-00000000001	Prodigal:2.6	CDS	1324756	1325793	.	+	0	HIMB1526_01408	HIMB1526	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1526_01406
+HIMB1526-00000000001	Prodigal:2.6	CDS	1325785	1326573	.	-	0	HIMB1526_01409	HIMB1526	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1526_01406
+HIMB1526-00000000001	Prodigal:2.6	CDS	1326588	1327634	.	-	0	HIMB1526_01410	HIMB1526	348	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1526_01406
+HIMB1526-00000000001	Prodigal:2.6	CDS	1327658	1328455	.	-	0	HIMB1526_01411	HIMB1526	265	OG0001039	NA	NA	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	HIMB1526_01406
+HIMB1552-00000000001	Prodigal:2.6	CDS	866065	867204	.	+	0	HIMB1552_00934	HIMB1552	379	OG0001077	NA	NA	NA	NA	NA	HIMB1552_00939
+HIMB1552-00000000001	Prodigal:2.6	CDS	867215	867829	.	-	0	HIMB1552_00935	HIMB1552	204	OG0001468	NA	NA	COG2120	LmbE	N-acetylglucosaminyl deacetylase, LmbE family	HIMB1552_00939
+HIMB1552-00000000001	Prodigal:2.6	CDS	867826	868710	.	-	0	HIMB1552_00936	HIMB1552	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1552_00939
+HIMB1552-00000000001	Prodigal:2.6	CDS	868718	869854	.	-	0	HIMB1552_00937	HIMB1552	378	OG0001272	NA	NA	NA	NA	NA	HIMB1552_00939
+HIMB1552-00000000001	Prodigal:2.6	CDS	869945	870976	.	+	0	HIMB1552_00938	HIMB1552	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1552_00939
+HIMB1552-00000000001	Prodigal:2.6	CDS	870973	871707	.	+	0	HIMB1552_00939	HIMB1552	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1552_00939
+HIMB1552-00000000001	Prodigal:2.6	CDS	871712	872704	.	+	0	HIMB1552_00940	HIMB1552	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1552_00939
+HIMB1552-00000000001	Prodigal:2.6	CDS	872708	874057	.	+	0	HIMB1552_00941	HIMB1552	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1552_00939
+HIMB1552-00000000001	Prodigal:2.6	CDS	874057	875145	.	+	0	HIMB1552_00942	HIMB1552	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1552_00939
+HIMB1552-00000000001	Prodigal:2.6	CDS	875146	876183	.	+	0	HIMB1552_00943	HIMB1552	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1552_00939
+HIMB1552-00000000001	Prodigal:2.6	CDS	876175	876963	.	-	0	HIMB1552_00944	HIMB1552	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1552_00939
+HIMB1552-00000000001	Prodigal:2.6	CDS	867826	868710	.	-	0	HIMB1552_00936	HIMB1552	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1552_00941
+HIMB1552-00000000001	Prodigal:2.6	CDS	868718	869854	.	-	0	HIMB1552_00937	HIMB1552	378	OG0001272	NA	NA	NA	NA	NA	HIMB1552_00941
+HIMB1552-00000000001	Prodigal:2.6	CDS	869945	870976	.	+	0	HIMB1552_00938	HIMB1552	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1552_00941
+HIMB1552-00000000001	Prodigal:2.6	CDS	870973	871707	.	+	0	HIMB1552_00939	HIMB1552	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1552_00941
+HIMB1552-00000000001	Prodigal:2.6	CDS	871712	872704	.	+	0	HIMB1552_00940	HIMB1552	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1552_00941
+HIMB1552-00000000001	Prodigal:2.6	CDS	872708	874057	.	+	0	HIMB1552_00941	HIMB1552	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1552_00941
+HIMB1552-00000000001	Prodigal:2.6	CDS	874057	875145	.	+	0	HIMB1552_00942	HIMB1552	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1552_00941
+HIMB1552-00000000001	Prodigal:2.6	CDS	875146	876183	.	+	0	HIMB1552_00943	HIMB1552	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1552_00941
+HIMB1552-00000000001	Prodigal:2.6	CDS	876175	876963	.	-	0	HIMB1552_00944	HIMB1552	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1552_00941
+HIMB1552-00000000001	Prodigal:2.6	CDS	876978	878024	.	-	0	HIMB1552_00945	HIMB1552	348	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1552_00941
+HIMB1552-00000000001	Prodigal:2.6	CDS	878048	878845	.	-	0	HIMB1552_00946	HIMB1552	265	OG0001039	NA	NA	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	HIMB1552_00941
+HIMB1641-00000000001	Prodigal:2.6	CDS	550296	551093	.	+	0	HIMB1641_00568	HIMB1641	265	OG0001039	NA	NA	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	HIMB1641_00573
+HIMB1641-00000000001	Prodigal:2.6	CDS	551117	552163	.	+	0	HIMB1641_00569	HIMB1641	348	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1641_00573
+HIMB1641-00000000001	Prodigal:2.6	CDS	552178	552966	.	+	0	HIMB1641_00570	HIMB1641	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1641_00573
+HIMB1641-00000000001	Prodigal:2.6	CDS	552958	553995	.	-	0	HIMB1641_00571	HIMB1641	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1641_00573
+HIMB1641-00000000001	Prodigal:2.6	CDS	553996	555084	.	-	0	HIMB1641_00572	HIMB1641	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1641_00573
+HIMB1641-00000000001	Prodigal:2.6	CDS	555084	556433	.	-	0	HIMB1641_00573	HIMB1641	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1641_00573
+HIMB1641-00000000001	Prodigal:2.6	CDS	556437	557429	.	-	0	HIMB1641_00574	HIMB1641	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1641_00573
+HIMB1641-00000000001	Prodigal:2.6	CDS	557434	558168	.	-	0	HIMB1641_00575	HIMB1641	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1641_00573
+HIMB1641-00000000001	Prodigal:2.6	CDS	558165	559196	.	-	0	HIMB1641_00576	HIMB1641	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1641_00573
+HIMB1641-00000000001	Prodigal:2.6	CDS	559287	560423	.	+	0	HIMB1641_00577	HIMB1641	378	OG0001272	NA	NA	NA	NA	NA	HIMB1641_00573
+HIMB1641-00000000001	Prodigal:2.6	CDS	560431	561315	.	+	0	HIMB1641_00578	HIMB1641	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1641_00573
+HIMB1641-00000000001	Prodigal:2.6	CDS	552178	552966	.	+	0	HIMB1641_00570	HIMB1641	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1641_00575
+HIMB1641-00000000001	Prodigal:2.6	CDS	552958	553995	.	-	0	HIMB1641_00571	HIMB1641	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1641_00575
+HIMB1641-00000000001	Prodigal:2.6	CDS	553996	555084	.	-	0	HIMB1641_00572	HIMB1641	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1641_00575
+HIMB1641-00000000001	Prodigal:2.6	CDS	555084	556433	.	-	0	HIMB1641_00573	HIMB1641	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1641_00575
+HIMB1641-00000000001	Prodigal:2.6	CDS	556437	557429	.	-	0	HIMB1641_00574	HIMB1641	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1641_00575
+HIMB1641-00000000001	Prodigal:2.6	CDS	557434	558168	.	-	0	HIMB1641_00575	HIMB1641	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1641_00575
+HIMB1641-00000000001	Prodigal:2.6	CDS	558165	559196	.	-	0	HIMB1641_00576	HIMB1641	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1641_00575
+HIMB1641-00000000001	Prodigal:2.6	CDS	559287	560423	.	+	0	HIMB1641_00577	HIMB1641	378	OG0001272	NA	NA	NA	NA	NA	HIMB1641_00575
+HIMB1641-00000000001	Prodigal:2.6	CDS	560431	561315	.	+	0	HIMB1641_00578	HIMB1641	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1641_00575
+HIMB1641-00000000001	Prodigal:2.6	CDS	561312	561926	.	+	0	HIMB1641_00579	HIMB1641	204	OG0001468	NA	NA	COG2120	LmbE	N-acetylglucosaminyl deacetylase, LmbE family	HIMB1641_00575
+HIMB1641-00000000001	Prodigal:2.6	CDS	561937	563076	.	-	0	HIMB1641_00580	HIMB1641	379	OG0001077	NA	NA	NA	NA	NA	HIMB1641_00575
+HIMB1636-00000000001	Prodigal:2.6	CDS	1395579	1396376	.	+	0	HIMB1636_01464	HIMB1636	265	OG0001039	NA	NA	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	HIMB1636_01469
+HIMB1636-00000000001	Prodigal:2.6	CDS	1396400	1397446	.	+	0	HIMB1636_01465	HIMB1636	348	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1636_01469
+HIMB1636-00000000001	Prodigal:2.6	CDS	1397461	1398249	.	+	0	HIMB1636_01466	HIMB1636	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1636_01469
+HIMB1636-00000000001	Prodigal:2.6	CDS	1398241	1399278	.	-	0	HIMB1636_01467	HIMB1636	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1636_01469
+HIMB1636-00000000001	Prodigal:2.6	CDS	1399279	1400367	.	-	0	HIMB1636_01468	HIMB1636	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1636_01469
+HIMB1636-00000000001	Prodigal:2.6	CDS	1400367	1401716	.	-	0	HIMB1636_01469	HIMB1636	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1636_01469
+HIMB1636-00000000001	Prodigal:2.6	CDS	1401720	1402712	.	-	0	HIMB1636_01470	HIMB1636	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1636_01469
+HIMB1636-00000000001	Prodigal:2.6	CDS	1402717	1403451	.	-	0	HIMB1636_01471	HIMB1636	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1636_01469
+HIMB1636-00000000001	Prodigal:2.6	CDS	1403448	1404479	.	-	0	HIMB1636_01472	HIMB1636	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1636_01469
+HIMB1636-00000000001	Prodigal:2.6	CDS	1404570	1405706	.	+	0	HIMB1636_01473	HIMB1636	378	OG0001272	NA	NA	NA	NA	NA	HIMB1636_01469
+HIMB1636-00000000001	Prodigal:2.6	CDS	1405714	1406598	.	+	0	HIMB1636_01474	HIMB1636	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1636_01469
+HIMB1636-00000000001	Prodigal:2.6	CDS	1397461	1398249	.	+	0	HIMB1636_01466	HIMB1636	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1636_01471
+HIMB1636-00000000001	Prodigal:2.6	CDS	1398241	1399278	.	-	0	HIMB1636_01467	HIMB1636	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1636_01471
+HIMB1636-00000000001	Prodigal:2.6	CDS	1399279	1400367	.	-	0	HIMB1636_01468	HIMB1636	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1636_01471
+HIMB1636-00000000001	Prodigal:2.6	CDS	1400367	1401716	.	-	0	HIMB1636_01469	HIMB1636	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1636_01471
+HIMB1636-00000000001	Prodigal:2.6	CDS	1401720	1402712	.	-	0	HIMB1636_01470	HIMB1636	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1636_01471
+HIMB1636-00000000001	Prodigal:2.6	CDS	1402717	1403451	.	-	0	HIMB1636_01471	HIMB1636	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1636_01471
+HIMB1636-00000000001	Prodigal:2.6	CDS	1403448	1404479	.	-	0	HIMB1636_01472	HIMB1636	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1636_01471
+HIMB1636-00000000001	Prodigal:2.6	CDS	1404570	1405706	.	+	0	HIMB1636_01473	HIMB1636	378	OG0001272	NA	NA	NA	NA	NA	HIMB1636_01471
+HIMB1636-00000000001	Prodigal:2.6	CDS	1405714	1406598	.	+	0	HIMB1636_01474	HIMB1636	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1636_01471
+HIMB1636-00000000001	Prodigal:2.6	CDS	1406595	1407209	.	+	0	HIMB1636_01475	HIMB1636	204	OG0001468	NA	NA	COG2120	LmbE	N-acetylglucosaminyl deacetylase, LmbE family	HIMB1636_01471
+HIMB1636-00000000001	Prodigal:2.6	CDS	1407220	1408359	.	-	0	HIMB1636_01476	HIMB1636	379	OG0001077	NA	NA	NA	NA	NA	HIMB1636_01471
+HIMB1702-00000000001	Prodigal:2.6	CDS	27816	28955	.	+	0	HIMB1702_00028	HIMB1702	379	OG0001077	NA	NA	NA	NA	NA	HIMB1702_00033
+HIMB1702-00000000001	Prodigal:2.6	CDS	28966	29580	.	-	0	HIMB1702_00029	HIMB1702	204	OG0001468	NA	NA	COG2120	LmbE	N-acetylglucosaminyl deacetylase, LmbE family	HIMB1702_00033
+HIMB1702-00000000001	Prodigal:2.6	CDS	29577	30461	.	-	0	HIMB1702_00030	HIMB1702	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1702_00033
+HIMB1702-00000000001	Prodigal:2.6	CDS	30469	31605	.	-	0	HIMB1702_00031	HIMB1702	378	OG0001272	NA	NA	NA	NA	NA	HIMB1702_00033
+HIMB1702-00000000001	Prodigal:2.6	CDS	31696	32727	.	+	0	HIMB1702_00032	HIMB1702	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1702_00033
+HIMB1702-00000000001	Prodigal:2.6	CDS	32724	33458	.	+	0	HIMB1702_00033	HIMB1702	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1702_00033
+HIMB1702-00000000001	Prodigal:2.6	CDS	33463	34455	.	+	0	HIMB1702_00034	HIMB1702	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1702_00033
+HIMB1702-00000000001	Prodigal:2.6	CDS	34459	35808	.	+	0	HIMB1702_00035	HIMB1702	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1702_00033
+HIMB1702-00000000001	Prodigal:2.6	CDS	35808	36896	.	+	0	HIMB1702_00036	HIMB1702	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1702_00033
+HIMB1702-00000000001	Prodigal:2.6	CDS	36897	37934	.	+	0	HIMB1702_00037	HIMB1702	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1702_00033
+HIMB1702-00000000001	Prodigal:2.6	CDS	37926	38714	.	-	0	HIMB1702_00038	HIMB1702	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1702_00033
+HIMB1702-00000000001	Prodigal:2.6	CDS	29577	30461	.	-	0	HIMB1702_00030	HIMB1702	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1702_00035
+HIMB1702-00000000001	Prodigal:2.6	CDS	30469	31605	.	-	0	HIMB1702_00031	HIMB1702	378	OG0001272	NA	NA	NA	NA	NA	HIMB1702_00035
+HIMB1702-00000000001	Prodigal:2.6	CDS	31696	32727	.	+	0	HIMB1702_00032	HIMB1702	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1702_00035
+HIMB1702-00000000001	Prodigal:2.6	CDS	32724	33458	.	+	0	HIMB1702_00033	HIMB1702	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1702_00035
+HIMB1702-00000000001	Prodigal:2.6	CDS	33463	34455	.	+	0	HIMB1702_00034	HIMB1702	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1702_00035
+HIMB1702-00000000001	Prodigal:2.6	CDS	34459	35808	.	+	0	HIMB1702_00035	HIMB1702	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1702_00035
+HIMB1702-00000000001	Prodigal:2.6	CDS	35808	36896	.	+	0	HIMB1702_00036	HIMB1702	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1702_00035
+HIMB1702-00000000001	Prodigal:2.6	CDS	36897	37934	.	+	0	HIMB1702_00037	HIMB1702	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1702_00035
+HIMB1702-00000000001	Prodigal:2.6	CDS	37926	38714	.	-	0	HIMB1702_00038	HIMB1702	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1702_00035
+HIMB1702-00000000001	Prodigal:2.6	CDS	38729	39775	.	-	0	HIMB1702_00039	HIMB1702	348	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1702_00035
+HIMB1702-00000000001	Prodigal:2.6	CDS	39799	40596	.	-	0	HIMB1702_00040	HIMB1702	265	OG0001039	NA	NA	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	HIMB1702_00035
+HIMB1710-00000000003	Prodigal:2.6	CDS	3797	4936	.	+	0	HIMB1710_00025	HIMB1710	379	OG0001077	NA	NA	NA	NA	NA	HIMB1710_00030
+HIMB1710-00000000003	Prodigal:2.6	CDS	4947	5561	.	-	0	HIMB1710_00026	HIMB1710	204	OG0001468	NA	NA	COG2120	LmbE	N-acetylglucosaminyl deacetylase, LmbE family	HIMB1710_00030
+HIMB1710-00000000003	Prodigal:2.6	CDS	5558	6442	.	-	0	HIMB1710_00027	HIMB1710	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1710_00030
+HIMB1710-00000000003	Prodigal:2.6	CDS	6450	7586	.	-	0	HIMB1710_00028	HIMB1710	378	OG0001272	NA	NA	NA	NA	NA	HIMB1710_00030
+HIMB1710-00000000003	Prodigal:2.6	CDS	7677	8708	.	+	0	HIMB1710_00029	HIMB1710	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1710_00030
+HIMB1710-00000000003	Prodigal:2.6	CDS	8705	9439	.	+	0	HIMB1710_00030	HIMB1710	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1710_00030
+HIMB1710-00000000003	Prodigal:2.6	CDS	9444	10436	.	+	0	HIMB1710_00031	HIMB1710	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1710_00030
+HIMB1710-00000000003	Prodigal:2.6	CDS	10440	11789	.	+	0	HIMB1710_00032	HIMB1710	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1710_00030
+HIMB1710-00000000003	Prodigal:2.6	CDS	11789	12877	.	+	0	HIMB1710_00033	HIMB1710	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1710_00030
+HIMB1710-00000000003	Prodigal:2.6	CDS	12878	13915	.	+	0	HIMB1710_00034	HIMB1710	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1710_00030
+HIMB1710-00000000003	Prodigal:2.6	CDS	13907	14695	.	-	0	HIMB1710_00035	HIMB1710	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1710_00030
+HIMB1710-00000000003	Prodigal:2.6	CDS	5558	6442	.	-	0	HIMB1710_00027	HIMB1710	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1710_00032
+HIMB1710-00000000003	Prodigal:2.6	CDS	6450	7586	.	-	0	HIMB1710_00028	HIMB1710	378	OG0001272	NA	NA	NA	NA	NA	HIMB1710_00032
+HIMB1710-00000000003	Prodigal:2.6	CDS	7677	8708	.	+	0	HIMB1710_00029	HIMB1710	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1710_00032
+HIMB1710-00000000003	Prodigal:2.6	CDS	8705	9439	.	+	0	HIMB1710_00030	HIMB1710	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1710_00032
+HIMB1710-00000000003	Prodigal:2.6	CDS	9444	10436	.	+	0	HIMB1710_00031	HIMB1710	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1710_00032
+HIMB1710-00000000003	Prodigal:2.6	CDS	10440	11789	.	+	0	HIMB1710_00032	HIMB1710	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1710_00032
+HIMB1710-00000000003	Prodigal:2.6	CDS	11789	12877	.	+	0	HIMB1710_00033	HIMB1710	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1710_00032
+HIMB1710-00000000003	Prodigal:2.6	CDS	12878	13915	.	+	0	HIMB1710_00034	HIMB1710	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1710_00032
+HIMB1710-00000000003	Prodigal:2.6	CDS	13907	14695	.	-	0	HIMB1710_00035	HIMB1710	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1710_00032
+HIMB1710-00000000003	Prodigal:2.6	CDS	14710	15756	.	-	0	HIMB1710_00036	HIMB1710	348	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1710_00032
+HIMB1710-00000000003	Prodigal:2.6	CDS	15780	16577	.	-	0	HIMB1710_00037	HIMB1710	265	OG0001039	NA	NA	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	HIMB1710_00032
+HIMB1556-00000000001	Prodigal:2.6	CDS	550225	551022	.	+	0	HIMB1556_00567	HIMB1556	265	OG0001039	NA	NA	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	HIMB1556_00572
+HIMB1556-00000000001	Prodigal:2.6	CDS	551046	552092	.	+	0	HIMB1556_00568	HIMB1556	348	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1556_00572
+HIMB1556-00000000001	Prodigal:2.6	CDS	552107	552895	.	+	0	HIMB1556_00569	HIMB1556	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1556_00572
+HIMB1556-00000000001	Prodigal:2.6	CDS	552887	553924	.	-	0	HIMB1556_00570	HIMB1556	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1556_00572
+HIMB1556-00000000001	Prodigal:2.6	CDS	553925	555013	.	-	0	HIMB1556_00571	HIMB1556	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1556_00572
+HIMB1556-00000000001	Prodigal:2.6	CDS	555013	556362	.	-	0	HIMB1556_00572	HIMB1556	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1556_00572
+HIMB1556-00000000001	Prodigal:2.6	CDS	556366	557358	.	-	0	HIMB1556_00573	HIMB1556	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1556_00572
+HIMB1556-00000000001	Prodigal:2.6	CDS	557363	558097	.	-	0	HIMB1556_00574	HIMB1556	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1556_00572
+HIMB1556-00000000001	Prodigal:2.6	CDS	558094	559125	.	-	0	HIMB1556_00575	HIMB1556	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1556_00572
+HIMB1556-00000000001	Prodigal:2.6	CDS	559216	560352	.	+	0	HIMB1556_00576	HIMB1556	378	OG0001272	NA	NA	NA	NA	NA	HIMB1556_00572
+HIMB1556-00000000001	Prodigal:2.6	CDS	560360	561244	.	+	0	HIMB1556_00577	HIMB1556	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1556_00572
+HIMB1556-00000000001	Prodigal:2.6	CDS	552107	552895	.	+	0	HIMB1556_00569	HIMB1556	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1556_00574
+HIMB1556-00000000001	Prodigal:2.6	CDS	552887	553924	.	-	0	HIMB1556_00570	HIMB1556	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1556_00574
+HIMB1556-00000000001	Prodigal:2.6	CDS	553925	555013	.	-	0	HIMB1556_00571	HIMB1556	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1556_00574
+HIMB1556-00000000001	Prodigal:2.6	CDS	555013	556362	.	-	0	HIMB1556_00572	HIMB1556	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1556_00574
+HIMB1556-00000000001	Prodigal:2.6	CDS	556366	557358	.	-	0	HIMB1556_00573	HIMB1556	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1556_00574
+HIMB1556-00000000001	Prodigal:2.6	CDS	557363	558097	.	-	0	HIMB1556_00574	HIMB1556	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1556_00574
+HIMB1556-00000000001	Prodigal:2.6	CDS	558094	559125	.	-	0	HIMB1556_00575	HIMB1556	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1556_00574
+HIMB1556-00000000001	Prodigal:2.6	CDS	559216	560352	.	+	0	HIMB1556_00576	HIMB1556	378	OG0001272	NA	NA	NA	NA	NA	HIMB1556_00574
+HIMB1556-00000000001	Prodigal:2.6	CDS	560360	561244	.	+	0	HIMB1556_00577	HIMB1556	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1556_00574
+HIMB1556-00000000001	Prodigal:2.6	CDS	561241	561855	.	+	0	HIMB1556_00578	HIMB1556	204	OG0001468	NA	NA	COG2120	LmbE	N-acetylglucosaminyl deacetylase, LmbE family	HIMB1556_00574
+HIMB1556-00000000001	Prodigal:2.6	CDS	561866	563005	.	-	0	HIMB1556_00579	HIMB1556	379	OG0001077	NA	NA	NA	NA	NA	HIMB1556_00574
+HIMB1748-00000000001	Prodigal:2.6	CDS	598	1737	.	+	0	HIMB1748_00002	HIMB1748	379	OG0001077	NA	NA	NA	NA	NA	HIMB1748_00007
+HIMB1748-00000000001	Prodigal:2.6	CDS	1748	2362	.	-	0	HIMB1748_00003	HIMB1748	204	OG0001468	NA	NA	COG2120	LmbE	N-acetylglucosaminyl deacetylase, LmbE family	HIMB1748_00007
+HIMB1748-00000000001	Prodigal:2.6	CDS	2359	3243	.	-	0	HIMB1748_00004	HIMB1748	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1748_00007
+HIMB1748-00000000001	Prodigal:2.6	CDS	3251	4387	.	-	0	HIMB1748_00005	HIMB1748	378	OG0001272	NA	NA	NA	NA	NA	HIMB1748_00007
+HIMB1748-00000000001	Prodigal:2.6	CDS	4478	5509	.	+	0	HIMB1748_00006	HIMB1748	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1748_00007
+HIMB1748-00000000001	Prodigal:2.6	CDS	5506	6240	.	+	0	HIMB1748_00007	HIMB1748	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1748_00007
+HIMB1748-00000000001	Prodigal:2.6	CDS	6245	7237	.	+	0	HIMB1748_00008	HIMB1748	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1748_00007
+HIMB1748-00000000001	Prodigal:2.6	CDS	7241	8590	.	+	0	HIMB1748_00009	HIMB1748	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1748_00007
+HIMB1748-00000000001	Prodigal:2.6	CDS	8590	9678	.	+	0	HIMB1748_00010	HIMB1748	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1748_00007
+HIMB1748-00000000001	Prodigal:2.6	CDS	9679	10716	.	+	0	HIMB1748_00011	HIMB1748	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1748_00007
+HIMB1748-00000000001	Prodigal:2.6	CDS	10708	11496	.	-	0	HIMB1748_00012	HIMB1748	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1748_00007
+HIMB1748-00000000001	Prodigal:2.6	CDS	2359	3243	.	-	0	HIMB1748_00004	HIMB1748	294	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1748_00009
+HIMB1748-00000000001	Prodigal:2.6	CDS	3251	4387	.	-	0	HIMB1748_00005	HIMB1748	378	OG0001272	NA	NA	NA	NA	NA	HIMB1748_00009
+HIMB1748-00000000001	Prodigal:2.6	CDS	4478	5509	.	+	0	HIMB1748_00006	HIMB1748	343	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1748_00009
+HIMB1748-00000000001	Prodigal:2.6	CDS	5506	6240	.	+	0	HIMB1748_00007	HIMB1748	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1748_00009
+HIMB1748-00000000001	Prodigal:2.6	CDS	6245	7237	.	+	0	HIMB1748_00008	HIMB1748	330	OG0002869	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1748_00009
+HIMB1748-00000000001	Prodigal:2.6	CDS	7241	8590	.	+	0	HIMB1748_00009	HIMB1748	449	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1748_00009
+HIMB1748-00000000001	Prodigal:2.6	CDS	8590	9678	.	+	0	HIMB1748_00010	HIMB1748	362	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1748_00009
+HIMB1748-00000000001	Prodigal:2.6	CDS	9679	10716	.	+	0	HIMB1748_00011	HIMB1748	345	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1748_00009
+HIMB1748-00000000001	Prodigal:2.6	CDS	10708	11496	.	-	0	HIMB1748_00012	HIMB1748	262	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1748_00009
+HIMB1748-00000000001	Prodigal:2.6	CDS	11511	12557	.	-	0	HIMB1748_00013	HIMB1748	348	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1748_00009
+HIMB1748-00000000001	Prodigal:2.6	CDS	12581	13378	.	-	0	HIMB1748_00014	HIMB1748	265	OG0001039	NA	NA	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	HIMB1748_00009
+HIMB1723-00000000001	barrnap:0.9	rRNA	880125	882873	0	+	.	HIMB1723_00929	HIMB1723	NA	NA	NA	NA	NA	NA	NA	HIMB1723_00934
+HIMB1723-00000000001	Prodigal:2.6	CDS	882915	883940	.	+	0	HIMB1723_00930	HIMB1723	341	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1723_00934
+HIMB1723-00000000001	Prodigal:2.6	CDS	883937	885079	.	+	0	HIMB1723_00931	HIMB1723	380	OG0001272	NA	NA	COG0381	WecB	UDP-N-acetylglucosamine 2-epimerase	HIMB1723_00934
+HIMB1723-00000000001	Prodigal:2.6	CDS	885079	885414	.	+	0	HIMB1723_00932	HIMB1723	111	OG0002125	NA	NA	COG0517	CBS	CBS domain	HIMB1723_00934
+HIMB1723-00000000001	Prodigal:2.6	CDS	885419	886147	.	+	0	HIMB1723_00933	HIMB1723	242	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB1723_00934
+HIMB1723-00000000001	Prodigal:2.6	CDS	886147	887466	.	+	0	HIMB1723_00934	HIMB1723	439	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1723_00934
+HIMB1723-00000000001	Prodigal:2.6	CDS	887469	888434	.	-	0	HIMB1723_00935	HIMB1723	321	OG0000063	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1723_00934
+HIMB1723-00000000001	Prodigal:2.6	CDS	888412	889212	.	-	0	HIMB1723_00936	HIMB1723	266	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1723_00934
+HIMB1723-00000000001	Prodigal:2.6	CDS	889214	890656	.	-	0	HIMB1723_00937	HIMB1723	480	OG0002461	NA	NA	NA	NA	NA	HIMB1723_00934
+HIMB1723-00000000001	Prodigal:2.6	CDS	890746	891621	.	+	0	HIMB1723_00938	HIMB1723	291	OG0001429	NA	NA	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HIMB1723_00934
+HIMB1723-00000000001	Prodigal:2.6	CDS	891633	892412	.	+	0	HIMB1723_00939	HIMB1723	259	OG0001789	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1723_00934
+HIMB1513-00000000001	Prodigal:2.6	CDS	641604	642896	.	-	0	HIMB1513_00663	HIMB1513	430	OG0000827	K21472	peptidoglycan LD-endopeptidase LytH [EC:3.4.-.-]	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	HIMB1513_00668
+HIMB1513-00000000001	barrnap:0.9	rRNA	643238	644707	0	+	NA	HIMB1513_00664	HIMB1513	NA	NA	NA	NA	NA	NA	NA	HIMB1513_00668
+HIMB1513-00000000001	Aragorn:1.2	tRNA	644807	644883	.	+	NA	HIMB1513_00665	HIMB1513	NA	NA	NA	NA	NA	NA	NA	HIMB1513_00668
+HIMB1513-00000000001	Aragorn:1.2	tRNA	644896	644971	.	+	NA	HIMB1513_00666	HIMB1513	NA	NA	NA	NA	NA	NA	NA	HIMB1513_00668
+HIMB1513-00000000001	barrnap:0.9	rRNA	645105	647853	0	+	NA	HIMB1513_00667	HIMB1513	NA	NA	NA	NA	NA	NA	NA	HIMB1513_00668
+HIMB1513-00000000001	Prodigal:2.6	CDS	647956	648417	.	-	0	HIMB1513_00668	HIMB1513	153	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1513_00668
+HIMB1513-00000000001	Prodigal:2.6	CDS	648570	650378	.	+	0	HIMB1513_00669	HIMB1513	602	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1513_00668
+HIMB1513-00000000001	Prodigal:2.6	CDS	650410	651180	.	+	0	HIMB1513_00670	HIMB1513	256	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1513_00668
+HIMB1513-00000000001	Prodigal:2.6	CDS	651170	652501	.	+	0	HIMB1513_00671	HIMB1513	443	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1513_00668
+HIMB1513-00000000001	Prodigal:2.6	CDS	652498	653172	.	+	0	HIMB1513_00672	HIMB1513	224	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1513_00668
+HIMB1513-00000000001	Prodigal:2.6	CDS	653162	654109	.	+	0	HIMB1513_00673	HIMB1513	315	OG0000113	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB1513_00668
+HIMB1513-00000000001	Aragorn:1.2	tRNA	644807	644883	.	+	NA	HIMB1513_00665	HIMB1513	NA	NA	NA	NA	NA	NA	NA	HIMB1513_00670
+HIMB1513-00000000001	Aragorn:1.2	tRNA	644896	644971	.	+	NA	HIMB1513_00666	HIMB1513	NA	NA	NA	NA	NA	NA	NA	HIMB1513_00670
+HIMB1513-00000000001	barrnap:0.9	rRNA	645105	647853	0	+	NA	HIMB1513_00667	HIMB1513	NA	NA	NA	NA	NA	NA	NA	HIMB1513_00670
+HIMB1513-00000000001	Prodigal:2.6	CDS	647956	648417	.	-	0	HIMB1513_00668	HIMB1513	153	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1513_00670
+HIMB1513-00000000001	Prodigal:2.6	CDS	648570	650378	.	+	0	HIMB1513_00669	HIMB1513	602	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1513_00670
+HIMB1513-00000000001	Prodigal:2.6	CDS	650410	651180	.	+	0	HIMB1513_00670	HIMB1513	256	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1513_00670
+HIMB1513-00000000001	Prodigal:2.6	CDS	651170	652501	.	+	0	HIMB1513_00671	HIMB1513	443	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1513_00670
+HIMB1513-00000000001	Prodigal:2.6	CDS	652498	653172	.	+	0	HIMB1513_00672	HIMB1513	224	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1513_00670
+HIMB1513-00000000001	Prodigal:2.6	CDS	653162	654109	.	+	0	HIMB1513_00673	HIMB1513	315	OG0000113	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB1513_00670
+HIMB1513-00000000001	Prodigal:2.6	CDS	654126	654866	.	-	0	HIMB1513_00674	HIMB1513	246	OG0005118	NA	NA	NA	NA	NA	HIMB1513_00670
+HIMB1513-00000000001	Prodigal:2.6	CDS	654866	656284	.	-	0	HIMB1513_00675	HIMB1513	472	OG0004222	NA	NA	NA	NA	NA	HIMB1513_00670
+HIMB1513-00000000001	Aragorn:1.2	tRNA	644896	644971	.	+	NA	HIMB1513_00666	HIMB1513	NA	NA	NA	NA	NA	NA	NA	HIMB1513_00671
+HIMB1513-00000000001	barrnap:0.9	rRNA	645105	647853	0	+	NA	HIMB1513_00667	HIMB1513	NA	NA	NA	NA	NA	NA	NA	HIMB1513_00671
+HIMB1513-00000000001	Prodigal:2.6	CDS	647956	648417	.	-	0	HIMB1513_00668	HIMB1513	153	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1513_00671
+HIMB1513-00000000001	Prodigal:2.6	CDS	648570	650378	.	+	0	HIMB1513_00669	HIMB1513	602	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1513_00671
+HIMB1513-00000000001	Prodigal:2.6	CDS	650410	651180	.	+	0	HIMB1513_00670	HIMB1513	256	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1513_00671
+HIMB1513-00000000001	Prodigal:2.6	CDS	651170	652501	.	+	0	HIMB1513_00671	HIMB1513	443	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1513_00671
+HIMB1513-00000000001	Prodigal:2.6	CDS	652498	653172	.	+	0	HIMB1513_00672	HIMB1513	224	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1513_00671
+HIMB1513-00000000001	Prodigal:2.6	CDS	653162	654109	.	+	0	HIMB1513_00673	HIMB1513	315	OG0000113	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB1513_00671
+HIMB1513-00000000001	Prodigal:2.6	CDS	654126	654866	.	-	0	HIMB1513_00674	HIMB1513	246	OG0005118	NA	NA	NA	NA	NA	HIMB1513_00671
+HIMB1513-00000000001	Prodigal:2.6	CDS	654866	656284	.	-	0	HIMB1513_00675	HIMB1513	472	OG0004222	NA	NA	NA	NA	NA	HIMB1513_00671
+HIMB1513-00000000001	Prodigal:2.6	CDS	656475	658196	.	+	0	HIMB1513_00676	HIMB1513	573	OG0000032	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1513_00671
+HIMB1521-00000000002	Prodigal:2.6	CDS	73	774	.	+	0	HIMB1521_00148	HIMB1521	233	OG0004222	NA	NA	NA	NA	NA	HIMB1521_00152
+HIMB1521-00000000002	Prodigal:2.6	CDS	774	1514	.	+	0	HIMB1521_00149	HIMB1521	246	OG0005118	NA	NA	NA	NA	NA	HIMB1521_00152
+HIMB1521-00000000002	Prodigal:2.6	CDS	1531	2478	.	-	0	HIMB1521_00150	HIMB1521	315	OG0000113	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB1521_00152
+HIMB1521-00000000002	Prodigal:2.6	CDS	2468	3142	.	-	0	HIMB1521_00151	HIMB1521	224	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1521_00152
+HIMB1521-00000000002	Prodigal:2.6	CDS	3139	4470	.	-	0	HIMB1521_00152	HIMB1521	443	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1521_00152
+HIMB1521-00000000002	Prodigal:2.6	CDS	4460	5230	.	-	0	HIMB1521_00153	HIMB1521	256	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1521_00152
+HIMB1521-00000000002	Prodigal:2.6	CDS	5262	7070	.	-	0	HIMB1521_00154	HIMB1521	602	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1521_00152
+HIMB1521-00000000002	Prodigal:2.6	CDS	7223	7684	.	+	0	HIMB1521_00155	HIMB1521	153	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1521_00152
+HIMB1521-00000000002	barrnap:0.9	rRNA	7787	10535	0	-	.	HIMB1521_00156	HIMB1521	NA	NA	NA	NA	NA	NA	NA	HIMB1521_00152
+HIMB1521-00000000002	Aragorn:1.2	tRNA	10669	10744	.	-	.	HIMB1521_00157	HIMB1521	NA	NA	NA	NA	NA	NA	NA	HIMB1521_00152
+HIMB1521-00000000002	Prodigal:2.6	CDS	73	774	.	+	0	HIMB1521_00148	HIMB1521	233	OG0004222	NA	NA	NA	NA	NA	HIMB1521_00153
+HIMB1521-00000000002	Prodigal:2.6	CDS	774	1514	.	+	0	HIMB1521_00149	HIMB1521	246	OG0005118	NA	NA	NA	NA	NA	HIMB1521_00153
+HIMB1521-00000000002	Prodigal:2.6	CDS	1531	2478	.	-	0	HIMB1521_00150	HIMB1521	315	OG0000113	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB1521_00153
+HIMB1521-00000000002	Prodigal:2.6	CDS	2468	3142	.	-	0	HIMB1521_00151	HIMB1521	224	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1521_00153
+HIMB1521-00000000002	Prodigal:2.6	CDS	3139	4470	.	-	0	HIMB1521_00152	HIMB1521	443	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1521_00153
+HIMB1521-00000000002	Prodigal:2.6	CDS	4460	5230	.	-	0	HIMB1521_00153	HIMB1521	256	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1521_00153
+HIMB1521-00000000002	Prodigal:2.6	CDS	5262	7070	.	-	0	HIMB1521_00154	HIMB1521	602	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1521_00153
+HIMB1521-00000000002	Prodigal:2.6	CDS	7223	7684	.	+	0	HIMB1521_00155	HIMB1521	153	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1521_00153
+HIMB1521-00000000002	barrnap:0.9	rRNA	7787	10535	0	-	.	HIMB1521_00156	HIMB1521	NA	NA	NA	NA	NA	NA	NA	HIMB1521_00153
+HIMB1521-00000000002	Aragorn:1.2	tRNA	10669	10744	.	-	.	HIMB1521_00157	HIMB1521	NA	NA	NA	NA	NA	NA	NA	HIMB1521_00153
+HIMB1521-00000000002	Aragorn:1.2	tRNA	10757	10833	.	-	.	HIMB1521_00158	HIMB1521	NA	NA	NA	NA	NA	NA	NA	HIMB1521_00153
+HIMB1521-00000000002	Prodigal:2.6	CDS	1531	2478	.	-	0	HIMB1521_00150	HIMB1521	315	OG0000113	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB1521_00155
+HIMB1521-00000000002	Prodigal:2.6	CDS	2468	3142	.	-	0	HIMB1521_00151	HIMB1521	224	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1521_00155
+HIMB1521-00000000002	Prodigal:2.6	CDS	3139	4470	.	-	0	HIMB1521_00152	HIMB1521	443	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1521_00155
+HIMB1521-00000000002	Prodigal:2.6	CDS	4460	5230	.	-	0	HIMB1521_00153	HIMB1521	256	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1521_00155
+HIMB1521-00000000002	Prodigal:2.6	CDS	5262	7070	.	-	0	HIMB1521_00154	HIMB1521	602	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1521_00155
+HIMB1521-00000000002	Prodigal:2.6	CDS	7223	7684	.	+	0	HIMB1521_00155	HIMB1521	153	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1521_00155
+HIMB1521-00000000002	barrnap:0.9	rRNA	7787	10535	0	-	.	HIMB1521_00156	HIMB1521	NA	NA	NA	NA	NA	NA	NA	HIMB1521_00155
+HIMB1521-00000000002	Aragorn:1.2	tRNA	10669	10744	.	-	.	HIMB1521_00157	HIMB1521	NA	NA	NA	NA	NA	NA	NA	HIMB1521_00155
+HIMB1521-00000000002	Aragorn:1.2	tRNA	10757	10833	.	-	.	HIMB1521_00158	HIMB1521	NA	NA	NA	NA	NA	NA	NA	HIMB1521_00155
+HIMB1521-00000000002	barrnap:0.9	rRNA	10933	12402	0	-	.	HIMB1521_00159	HIMB1521	NA	NA	NA	NA	NA	NA	NA	HIMB1521_00155
+HIMB1521-00000000002	Prodigal:2.6	CDS	12744	14036	.	+	0	HIMB1521_00160	HIMB1521	430	OG0000827	K19304	murein DD-endopeptidase [EC:3.4.24.-]	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	HIMB1521_00155
+HIMB1506-00000000001	Prodigal:2.6	CDS	1506177	1506410	.	-	0	HIMB1506_01609	HIMB1506	77	OG0001451	NA	NA	COG0236	AcpP	Acyl carrier protein	HIMB1506_01614
+HIMB1506-00000000001	Prodigal:2.6	CDS	1506413	1507105	.	-	0	HIMB1506_01610	HIMB1506	230	OG0001800	NA	NA	NA	NA	NA	HIMB1506_01614
+HIMB1506-00000000001	Prodigal:2.6	CDS	1507102	1508127	.	-	0	HIMB1506_01611	HIMB1506	341	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1506_01614
+HIMB1506-00000000001	Prodigal:2.6	CDS	1508187	1508378	.	+	0	HIMB1506_01612	HIMB1506	63	OG0001590	NA	NA	NA	NA	NA	HIMB1506_01614
+HIMB1506-00000000001	Prodigal:2.6	CDS	1508388	1509236	.	+	0	HIMB1506_01613	HIMB1506	282	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1506_01614
+HIMB1506-00000000001	Prodigal:2.6	CDS	1509238	1510521	.	+	0	HIMB1506_01614	HIMB1506	427	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1506_01614
+HIMB1506-00000000001	Prodigal:2.6	CDS	1510521	1511222	.	+	0	HIMB1506_01615	HIMB1506	233	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB1506_01614
+HIMB1506-00000000001	Prodigal:2.6	CDS	1511219	1512406	.	+	0	HIMB1506_01616	HIMB1506	395	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1506_01614
+HIMB1506-00000000001	Prodigal:2.6	CDS	1512390	1513391	.	+	0	HIMB1506_01617	HIMB1506	333	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1506_01614
+HIMB1506-00000000001	Prodigal:2.6	CDS	1513424	1514689	.	+	0	HIMB1506_01618	HIMB1506	421	OG0002963	NA	NA	NA	NA	NA	HIMB1506_01614
+HIMB1506-00000000001	Prodigal:2.6	CDS	1514686	1515687	.	+	0	HIMB1506_01619	HIMB1506	333	OG0002203	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1506_01614
+HIMB2211-00000000001	Prodigal:2.6	CDS	1440419	1441354	.	+	0	HIMB2211_01540	HIMB2211	311	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB2211_01545
+HIMB2211-00000000001	Prodigal:2.6	CDS	1441359	1443182	.	-	0	HIMB2211_01541	HIMB2211	607	OG0001196	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	HIMB2211_01545
+HIMB2211-00000000001	Prodigal:2.6	CDS	1443194	1444372	.	-	0	HIMB2211_01542	HIMB2211	392	OG0001272	NA	NA	COG0381	WecB	UDP-N-acetylglucosamine 2-epimerase	HIMB2211_01545
+HIMB2211-00000000001	Prodigal:2.6	CDS	1444429	1445475	.	+	0	HIMB2211_01543	HIMB2211	348	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB2211_01545
+HIMB2211-00000000001	Prodigal:2.6	CDS	1445459	1446166	.	+	0	HIMB2211_01544	HIMB2211	235	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB2211_01545
+HIMB2211-00000000001	Prodigal:2.6	CDS	1446163	1447488	.	+	0	HIMB2211_01545	HIMB2211	441	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB2211_01545
+HIMB2211-00000000001	Prodigal:2.6	CDS	1447491	1448213	.	+	0	HIMB2211_01546	HIMB2211	240	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2211_01545
+HIMB2211-00000000001	Prodigal:2.6	CDS	1448197	1448724	.	+	0	HIMB2211_01547	HIMB2211	175	OG0001953	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB2211_01545
+HIMB2211-00000000001	Prodigal:2.6	CDS	1448749	1449510	.	-	0	HIMB2211_01548	HIMB2211	253	OG0000053	NA	NA	COG0107	HisF	Imidazole glycerol phosphate synthase subunit HisF	HIMB2211_01545
+HIMB2211-00000000001	Prodigal:2.6	CDS	1449517	1450119	.	-	0	HIMB2211_01549	HIMB2211	200	OG0000057	NA	NA	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	HIMB2211_01545
+HIMB2211-00000000001	Prodigal:2.6	CDS	1450122	1451270	.	-	0	HIMB2211_01550	HIMB2211	382	OG0001263	NA	NA	COG1365	NA	Predicted ATPase, PP-loop superfamily	HIMB2211_01545
+HIMB1746-00000000004	Prodigal:2.6	CDS	203975	204985	.	-	0	HIMB1746_01329	HIMB1746	336	OG0002191	NA	NA	NA	NA	NA	HIMB1746_01334
+HIMB1746-00000000004	Prodigal:2.6	CDS	205032	205964	.	-	0	HIMB1746_01330	HIMB1746	310	OG0000865	K02377	GDP-L-fucose synthase [EC:1.1.1.271]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1746_01334
+HIMB1746-00000000004	Prodigal:2.6	CDS	205983	206867	.	-	0	HIMB1746_01331	HIMB1746	294	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1746_01334
+HIMB1746-00000000004	Prodigal:2.6	CDS	206898	207791	.	+	0	HIMB1746_01332	HIMB1746	297	OG0001494	NA	NA	NA	NA	NA	HIMB1746_01334
+HIMB1746-00000000004	Prodigal:2.6	CDS	207802	209514	.	+	0	HIMB1746_01333	HIMB1746	570	OG0000003	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1746_01334
+HIMB1746-00000000004	Prodigal:2.6	CDS	209511	210263	.	+	0	HIMB1746_01334	HIMB1746	250	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1746_01334
+HIMB1746-00000000004	Prodigal:2.6	CDS	210217	211509	.	+	0	HIMB1746_01335	HIMB1746	430	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1746_01334
+HIMB1746-00000000004	Prodigal:2.6	CDS	211509	212330	.	+	0	HIMB1746_01336	HIMB1746	273	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1746_01334
+HIMB1746-00000000004	Prodigal:2.6	CDS	212308	213369	.	+	0	HIMB1746_01337	HIMB1746	353	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1746_01334
+HIMB1746-00000000004	Prodigal:2.6	CDS	213348	214022	.	+	0	HIMB1746_01338	HIMB1746	224	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1746_01334
+HIMB1746-00000000004	Prodigal:2.6	CDS	213999	214862	.	-	0	HIMB1746_01339	HIMB1746	287	OG0001462	NA	NA	COG1453	NA	Predicted oxidoreductase of the aldo/keto reductase family	HIMB1746_01334
+HIMB1746-00000000004	Prodigal:2.6	CDS	205032	205964	.	-	0	HIMB1746_01330	HIMB1746	310	OG0000865	K02377	GDP-L-fucose synthase [EC:1.1.1.271]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1746_01335
+HIMB1746-00000000004	Prodigal:2.6	CDS	205983	206867	.	-	0	HIMB1746_01331	HIMB1746	294	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1746_01335
+HIMB1746-00000000004	Prodigal:2.6	CDS	206898	207791	.	+	0	HIMB1746_01332	HIMB1746	297	OG0001494	NA	NA	NA	NA	NA	HIMB1746_01335
+HIMB1746-00000000004	Prodigal:2.6	CDS	207802	209514	.	+	0	HIMB1746_01333	HIMB1746	570	OG0000003	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1746_01335
+HIMB1746-00000000004	Prodigal:2.6	CDS	209511	210263	.	+	0	HIMB1746_01334	HIMB1746	250	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1746_01335
+HIMB1746-00000000004	Prodigal:2.6	CDS	210217	211509	.	+	0	HIMB1746_01335	HIMB1746	430	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1746_01335
+HIMB1746-00000000004	Prodigal:2.6	CDS	211509	212330	.	+	0	HIMB1746_01336	HIMB1746	273	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1746_01335
+HIMB1746-00000000004	Prodigal:2.6	CDS	212308	213369	.	+	0	HIMB1746_01337	HIMB1746	353	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1746_01335
+HIMB1746-00000000004	Prodigal:2.6	CDS	213348	214022	.	+	0	HIMB1746_01338	HIMB1746	224	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1746_01335
+HIMB1746-00000000004	Prodigal:2.6	CDS	213999	214862	.	-	0	HIMB1746_01339	HIMB1746	287	OG0001462	NA	NA	COG1453	NA	Predicted oxidoreductase of the aldo/keto reductase family	HIMB1746_01335
+HIMB1746-00000000004	Prodigal:2.6	CDS	214859	215854	.	-	0	HIMB1746_01340	HIMB1746	331	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1746_01335
+HIMB1695-00000000001	Aragorn:1.2	tRNA	1176033	1176109	.	+	.	HIMB1695_01276	HIMB1695	NA	NA	NA	NA	NA	NA	NA	HIMB1695_01281
+HIMB1695-00000000001	Aragorn:1.2	tRNA	1176122	1176197	.	+	.	HIMB1695_01277	HIMB1695	NA	NA	NA	NA	NA	NA	NA	HIMB1695_01281
+HIMB1695-00000000001	barrnap:0.9	rRNA	1176331	1179079	0	+	.	HIMB1695_01278	HIMB1695	NA	NA	NA	NA	NA	NA	NA	HIMB1695_01281
+HIMB1695-00000000001	Prodigal:2.6	CDS	1179136	1179921	.	+	0	HIMB1695_01279	HIMB1695	261	OG0001807	NA	NA	COG1082	YcjR	Sugar phosphate isomerase/epimerase	HIMB1695_01281
+HIMB1695-00000000001	Prodigal:2.6	CDS	1179922	1180698	.	-	0	HIMB1695_01280	HIMB1695	258	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1695_01281
+HIMB1695-00000000001	Prodigal:2.6	CDS	1180698	1182086	.	-	0	HIMB1695_01281	HIMB1695	462	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1695_01281
+HIMB1695-00000000001	Prodigal:2.6	CDS	1182099	1182800	.	-	0	HIMB1695_01282	HIMB1695	233	OG0001240	K05303	O-methyltransferase [EC:2.1.1.-]	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB1695_01281
+HIMB1695-00000000001	Prodigal:2.6	CDS	1182760	1183590	.	-	0	HIMB1695_01283	HIMB1695	276	OG0000051	K01654	N-acetylneuraminate synthase [EC:2.5.1.56]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1695_01281
+HIMB1695-00000000001	Prodigal:2.6	CDS	1183568	1184245	.	-	0	HIMB1695_01284	HIMB1695	225	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB1695_01281
+HIMB1695-00000000001	Prodigal:2.6	CDS	1184308	1184859	.	-	0	HIMB1695_01285	HIMB1695	183	OG0003310	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB1695_01281
+HIMB1695-00000000001	Prodigal:2.6	CDS	1185025	1185606	.	+	0	HIMB1695_01286	HIMB1695	193	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	HIMB1695_01281
+HIMB1695-00000000002	Prodigal:2.6	CDS	207021	208022	.	+	0	HIMB1695_01498	HIMB1695	333	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1695_01503
+HIMB1695-00000000002	Prodigal:2.6	CDS	208045	209013	.	-	0	HIMB1695_01499	HIMB1695	322	OG0002302	NA	NA	NA	NA	NA	HIMB1695_01503
+HIMB1695-00000000002	Prodigal:2.6	CDS	209166	210020	.	+	0	HIMB1695_01500	HIMB1695	284	OG0001455	NA	NA	NA	NA	NA	HIMB1695_01503
+HIMB1695-00000000002	Prodigal:2.6	CDS	210104	211102	.	+	0	HIMB1695_01501	HIMB1695	332	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1695_01503
+HIMB1695-00000000002	Prodigal:2.6	CDS	211099	211965	.	+	0	HIMB1695_01502	HIMB1695	288	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1695_01503
+HIMB1695-00000000002	Prodigal:2.6	CDS	211962	212735	.	+	0	HIMB1695_01503	HIMB1695	257	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1695_01503
+HIMB1695-00000000002	Prodigal:2.6	CDS	212719	213921	.	+	0	HIMB1695_01504	HIMB1695	400	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1695_01503
+HIMB1695-00000000002	Prodigal:2.6	CDS	213922	214797	.	+	0	HIMB1695_01505	HIMB1695	291	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1695_01503
+HIMB1695-00000000002	Prodigal:2.6	CDS	214778	215875	.	+	0	HIMB1695_01506	HIMB1695	365	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1695_01503
+HIMB1695-00000000002	Prodigal:2.6	CDS	215865	216548	.	+	0	HIMB1695_01507	HIMB1695	227	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1695_01503
+HIMB1695-00000000002	Prodigal:2.6	CDS	216535	217527	.	+	0	HIMB1695_01508	HIMB1695	330	OG0000921	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1695_01503
+HIMB2104-00000000003	Prodigal:2.6	CDS	1144	2133	.	-	0	HIMB2104_00122	HIMB2104	329	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	2133	2927	.	-	0	HIMB2104_00123	HIMB2104	264	OG0000067	K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]	COG1212	KdsB	CMP-2-keto-3-deoxyoctulosonic acid synthetase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	2899	3981	.	-	0	HIMB2104_00124	HIMB2104	360	OG0000840	K13020	UDP-N-acetyl-2-amino-2-deoxyglucuronate dehydrogenase [EC:1.1.1.335]	COG0673	MviM	Predicted dehydrogenase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	3978	5057	.	-	0	HIMB2104_00125	HIMB2104	359	OG0000107	NA	NA	COG0079	HisC	Histidinol-phosphate/aromatic aminotransferase or cobyric acid decarboxylase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	5062	6330	.	-	0	HIMB2104_00126	HIMB2104	422	OG0000039	K13015	UDP-N-acetyl-D-glucosamine dehydrogenase [EC:1.1.1.136]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	6330	8384	.	-	0	HIMB2104_00127	HIMB2104	684	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	6330	8384	.	-	0	HIMB2104_00127	HIMB2104	684	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	8351	9730	.	-	0	HIMB2104_00128	HIMB2104	459	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	9727	10644	.	-	0	HIMB2104_00129	HIMB2104	305	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	10668	11225	.	+	0	HIMB2104_00130	HIMB2104	185	OG0001836	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	11226	12899	.	-	0	HIMB2104_00131	HIMB2104	557	OG0001497	NA	NA	NA	NA	NA	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	2133	2927	.	-	0	HIMB2104_00123	HIMB2104	264	OG0000067	K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]	COG1212	KdsB	CMP-2-keto-3-deoxyoctulosonic acid synthetase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	2899	3981	.	-	0	HIMB2104_00124	HIMB2104	360	OG0000840	K13020	UDP-N-acetyl-2-amino-2-deoxyglucuronate dehydrogenase [EC:1.1.1.335]	COG0673	MviM	Predicted dehydrogenase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	3978	5057	.	-	0	HIMB2104_00125	HIMB2104	359	OG0000107	NA	NA	COG0079	HisC	Histidinol-phosphate/aromatic aminotransferase or cobyric acid decarboxylase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	5062	6330	.	-	0	HIMB2104_00126	HIMB2104	422	OG0000039	K13015	UDP-N-acetyl-D-glucosamine dehydrogenase [EC:1.1.1.136]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	6330	8384	.	-	0	HIMB2104_00127	HIMB2104	684	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	6330	8384	.	-	0	HIMB2104_00127	HIMB2104	684	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	8351	9730	.	-	0	HIMB2104_00128	HIMB2104	459	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	9727	10644	.	-	0	HIMB2104_00129	HIMB2104	305	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	10668	11225	.	+	0	HIMB2104_00130	HIMB2104	185	OG0001836	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	11226	12899	.	-	0	HIMB2104_00131	HIMB2104	557	OG0001497	NA	NA	NA	NA	NA	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	12914	14080	.	-	0	HIMB2104_00132	HIMB2104	388	OG0001495	NA	NA	NA	NA	NA	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	1144	2133	.	-	0	HIMB2104_00122	HIMB2104	329	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	2133	2927	.	-	0	HIMB2104_00123	HIMB2104	264	OG0000067	K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]	COG1212	KdsB	CMP-2-keto-3-deoxyoctulosonic acid synthetase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	2899	3981	.	-	0	HIMB2104_00124	HIMB2104	360	OG0000840	K13020	UDP-N-acetyl-2-amino-2-deoxyglucuronate dehydrogenase [EC:1.1.1.335]	COG0673	MviM	Predicted dehydrogenase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	3978	5057	.	-	0	HIMB2104_00125	HIMB2104	359	OG0000107	NA	NA	COG0079	HisC	Histidinol-phosphate/aromatic aminotransferase or cobyric acid decarboxylase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	5062	6330	.	-	0	HIMB2104_00126	HIMB2104	422	OG0000039	K13015	UDP-N-acetyl-D-glucosamine dehydrogenase [EC:1.1.1.136]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	6330	8384	.	-	0	HIMB2104_00127	HIMB2104	684	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	6330	8384	.	-	0	HIMB2104_00127	HIMB2104	684	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	8351	9730	.	-	0	HIMB2104_00128	HIMB2104	459	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	9727	10644	.	-	0	HIMB2104_00129	HIMB2104	305	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	10668	11225	.	+	0	HIMB2104_00130	HIMB2104	185	OG0001836	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	11226	12899	.	-	0	HIMB2104_00131	HIMB2104	557	OG0001497	NA	NA	NA	NA	NA	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	2133	2927	.	-	0	HIMB2104_00123	HIMB2104	264	OG0000067	K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]	COG1212	KdsB	CMP-2-keto-3-deoxyoctulosonic acid synthetase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	2899	3981	.	-	0	HIMB2104_00124	HIMB2104	360	OG0000840	K13020	UDP-N-acetyl-2-amino-2-deoxyglucuronate dehydrogenase [EC:1.1.1.335]	COG0673	MviM	Predicted dehydrogenase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	3978	5057	.	-	0	HIMB2104_00125	HIMB2104	359	OG0000107	NA	NA	COG0079	HisC	Histidinol-phosphate/aromatic aminotransferase or cobyric acid decarboxylase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	5062	6330	.	-	0	HIMB2104_00126	HIMB2104	422	OG0000039	K13015	UDP-N-acetyl-D-glucosamine dehydrogenase [EC:1.1.1.136]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	6330	8384	.	-	0	HIMB2104_00127	HIMB2104	684	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	6330	8384	.	-	0	HIMB2104_00127	HIMB2104	684	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	8351	9730	.	-	0	HIMB2104_00128	HIMB2104	459	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	9727	10644	.	-	0	HIMB2104_00129	HIMB2104	305	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	10668	11225	.	+	0	HIMB2104_00130	HIMB2104	185	OG0001836	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	11226	12899	.	-	0	HIMB2104_00131	HIMB2104	557	OG0001497	NA	NA	NA	NA	NA	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	12914	14080	.	-	0	HIMB2104_00132	HIMB2104	388	OG0001495	NA	NA	NA	NA	NA	HIMB2104_00127
+HIMB2104-00000000003	Prodigal:2.6	CDS	11226	12899	.	-	0	HIMB2104_00131	HIMB2104	557	OG0001497	NA	NA	NA	NA	NA	HIMB2104_00136
+HIMB2104-00000000003	Prodigal:2.6	CDS	12914	14080	.	-	0	HIMB2104_00132	HIMB2104	388	OG0001495	NA	NA	NA	NA	NA	HIMB2104_00136
+HIMB2104-00000000003	Prodigal:2.6	CDS	14134	15147	.	+	0	HIMB2104_00133	HIMB2104	337	OG0002368	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB2104_00136
+HIMB2104-00000000003	Prodigal:2.6	CDS	15149	15790	.	+	0	HIMB2104_00134	HIMB2104	213	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB2104_00136
+HIMB2104-00000000003	Prodigal:2.6	CDS	15787	16836	.	+	0	HIMB2104_00135	HIMB2104	349	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB2104_00136
+HIMB2104-00000000003	Prodigal:2.6	CDS	16840	17538	.	-	0	HIMB2104_00136	HIMB2104	232	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2104_00136
+HIMB2104-00000000003	Prodigal:2.6	CDS	17532	18326	.	-	0	HIMB2104_00137	HIMB2104	264	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB2104_00136
+HIMB2104-00000000003	Prodigal:2.6	CDS	18396	20288	.	+	0	HIMB2104_00138	HIMB2104	630	OG0001836	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2104_00136
+HIMB2104-00000000003	Prodigal:2.6	CDS	20285	20944	.	+	0	HIMB2104_00139	HIMB2104	219	OG0002605	NA	NA	COG1011	YigB	FMN and 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB, HAD superfamily (riboflavin biosynthesis)	HIMB2104_00136
+HIMB2104-00000000003	barrnap:0.9	rRNA	21008	23756	0	-	.	HIMB2104_00140	HIMB2104	NA	NA	NA	NA	NA	NA	NA	HIMB2104_00136
+HIMB2104-00000000003	Aragorn:1.2	tRNA	23888	23963	.	-	.	HIMB2104_00141	HIMB2104	NA	NA	NA	NA	NA	NA	NA	HIMB2104_00136
+HIMB2200-00000000014	Prodigal:2.6	CDS	86	1234	.	+	0	HIMB2200_01206	HIMB2200	382	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB2200_01208
+HIMB2200-00000000014	Prodigal:2.6	CDS	1231	1851	.	+	0	HIMB2200_01207	HIMB2200	206	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB2200_01208
+HIMB2200-00000000014	Prodigal:2.6	CDS	1939	2634	.	+	0	HIMB2200_01208	HIMB2200	231	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2200_01208
+HIMB2200-00000000014	Prodigal:2.6	CDS	2658	3944	.	-	0	HIMB2200_01209	HIMB2200	428	OG0001424	NA	NA	COG4310	NA	Uncharacterized conserved protein, cotains an aminopeptidase-like domain	HIMB2200_01208
+HIMB2200-00000000014	Prodigal:2.6	CDS	3989	5002	.	-	0	HIMB2200_01210	HIMB2200	337	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB2200_01208
+HIMB2200-00000000014	Prodigal:2.6	CDS	5076	6038	.	+	0	HIMB2200_01211	HIMB2200	320	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2200_01208
+HIMB2200-00000000014	Prodigal:2.6	CDS	6292	6600	.	+	0	HIMB2200_01212	HIMB2200	102	OG0001403	NA	NA	COG1846	MarR	DNA-binding transcriptional regulator, MarR family	HIMB2200_01208
+HIMB2200-00000000014	Prodigal:2.6	CDS	6656	7627	.	+	0	HIMB2200_01213	HIMB2200	323	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2200_01208
+HIMB2215-00000000006	Prodigal:2.6	CDS	164	370	.	-	0	HIMB2215_01013	HIMB2215	68	OG0001590	NA	NA	NA	NA	NA	HIMB2215_01017
+HIMB2215-00000000006	Prodigal:2.6	CDS	358	1047	.	-	0	HIMB2215_01014	HIMB2215	229	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB2215_01017
+HIMB2215-00000000006	Prodigal:2.6	CDS	1049	1864	.	-	0	HIMB2215_01015	HIMB2215	271	OG0002180	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB2215_01017
+HIMB2215-00000000006	Prodigal:2.6	CDS	1953	2834	.	+	0	HIMB2215_01016	HIMB2215	293	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB2215_01017
+HIMB2215-00000000006	Prodigal:2.6	CDS	2819	4855	.	+	0	HIMB2215_01017	HIMB2215	678	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2215_01017
+HIMB2215-00000000006	Prodigal:2.6	CDS	4859	5866	.	+	0	HIMB2215_01018	HIMB2215	335	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2215_01017
+HIMB2215-00000000006	Prodigal:2.6	CDS	5868	7022	.	+	0	HIMB2215_01019	HIMB2215	384	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB2215_01017
+HIMB2215-00000000006	Prodigal:2.6	CDS	7100	8443	.	+	0	HIMB2215_01020	HIMB2215	447	OG0002308	NA	NA	NA	NA	NA	HIMB2215_01017
+HIMB2215-00000000006	Prodigal:2.6	CDS	8431	8649	.	+	0	HIMB2215_01021	HIMB2215	72	OG0002399	NA	NA	NA	NA	NA	HIMB2215_01017
+HIMB2215-00000000006	Prodigal:2.6	CDS	8642	9010	.	+	0	HIMB2215_01022	HIMB2215	122	OG0002694	NA	NA	NA	NA	NA	HIMB2215_01017
+HIMB1483-00000000001	Prodigal:2.6	CDS	78447	80177	.	+	0	HIMB1483_00089	HIMB1483	576	OG0001497	NA	NA	NA	NA	NA	HIMB1483_00094
+HIMB1483-00000000001	Prodigal:2.6	CDS	80163	80681	.	-	0	HIMB1483_00090	HIMB1483	172	OG0001953	NA	NA	NA	NA	NA	HIMB1483_00094
+HIMB1483-00000000001	Prodigal:2.6	CDS	80716	81996	.	+	0	HIMB1483_00091	HIMB1483	426	OG0001424	NA	NA	COG4310	NA	Uncharacterized conserved protein, cotains an aminopeptidase-like domain	HIMB1483_00094
+HIMB1483-00000000001	Prodigal:2.6	CDS	81983	82975	.	+	0	HIMB1483_00092	HIMB1483	330	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1483_00094
+HIMB1483-00000000001	Prodigal:2.6	CDS	82975	83841	.	+	0	HIMB1483_00093	HIMB1483	288	OG0001462	NA	NA	NA	NA	NA	HIMB1483_00094
+HIMB1483-00000000001	Prodigal:2.6	CDS	83838	84533	.	+	0	HIMB1483_00094	HIMB1483	231	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1483_00094
+HIMB1483-00000000001	Prodigal:2.6	CDS	84527	85852	.	+	0	HIMB1483_00095	HIMB1483	441	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1483_00094
+HIMB1483-00000000001	Prodigal:2.6	CDS	85855	86040	.	+	0	HIMB1483_00096	HIMB1483	61	OG0001590	NA	NA	NA	NA	NA	HIMB1483_00094
+HIMB1483-00000000001	Prodigal:2.6	CDS	86044	87096	.	+	0	HIMB1483_00097	HIMB1483	350	OG0000051	K15898	pseudaminic acid synthase [EC:2.5.1.97]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1483_00094
+HIMB1483-00000000001	Prodigal:2.6	CDS	87097	88059	.	+	0	HIMB1483_00098	HIMB1483	320	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1483_00094
+HIMB1483-00000000001	Prodigal:2.6	CDS	88056	89060	.	+	0	HIMB1483_00099	HIMB1483	334	OG0000114	NA	NA	COG0169	AroE	Shikimate 5-dehydrogenase	HIMB1483_00094
+HIMB1483-00000000001	Prodigal:2.6	CDS	80163	80681	.	-	0	HIMB1483_00090	HIMB1483	172	OG0001953	NA	NA	NA	NA	NA	HIMB1483_00095
+HIMB1483-00000000001	Prodigal:2.6	CDS	80716	81996	.	+	0	HIMB1483_00091	HIMB1483	426	OG0001424	NA	NA	COG4310	NA	Uncharacterized conserved protein, cotains an aminopeptidase-like domain	HIMB1483_00095
+HIMB1483-00000000001	Prodigal:2.6	CDS	81983	82975	.	+	0	HIMB1483_00092	HIMB1483	330	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1483_00095
+HIMB1483-00000000001	Prodigal:2.6	CDS	82975	83841	.	+	0	HIMB1483_00093	HIMB1483	288	OG0001462	NA	NA	NA	NA	NA	HIMB1483_00095
+HIMB1483-00000000001	Prodigal:2.6	CDS	83838	84533	.	+	0	HIMB1483_00094	HIMB1483	231	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1483_00095
+HIMB1483-00000000001	Prodigal:2.6	CDS	84527	85852	.	+	0	HIMB1483_00095	HIMB1483	441	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1483_00095
+HIMB1483-00000000001	Prodigal:2.6	CDS	85855	86040	.	+	0	HIMB1483_00096	HIMB1483	61	OG0001590	NA	NA	NA	NA	NA	HIMB1483_00095
+HIMB1483-00000000001	Prodigal:2.6	CDS	86044	87096	.	+	0	HIMB1483_00097	HIMB1483	350	OG0000051	K15898	pseudaminic acid synthase [EC:2.5.1.97]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1483_00095
+HIMB1483-00000000001	Prodigal:2.6	CDS	87097	88059	.	+	0	HIMB1483_00098	HIMB1483	320	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1483_00095
+HIMB1483-00000000001	Prodigal:2.6	CDS	88056	89060	.	+	0	HIMB1483_00099	HIMB1483	334	OG0000114	NA	NA	COG0169	AroE	Shikimate 5-dehydrogenase	HIMB1483_00095
+HIMB1483-00000000001	Prodigal:2.6	CDS	89053	89931	.	+	0	HIMB1483_00100	HIMB1483	292	OG0000127	NA	NA	COG2876	AroGA	3-deoxy-D-arabino-heptulosonate 7-phosphate (DAHP) synthase	HIMB1483_00095
+CP020777.1	Prodigal:2.6	CDS	255061	256281	.	+	0	RS39_00284	RS39	406	OG0002020	NA	NA	COG2030	MaoC	Acyl-CoA dehydratase PaaZ	RS39_00289
+CP020777.1	Prodigal:2.6	CDS	256281	256565	.	+	0	RS39_00285	RS39	94	NA	NA	NA	NA	NA	NA	RS39_00289
+CP020777.1	Prodigal:2.6	CDS	256534	258225	.	+	0	RS39_00286	RS39	563	OG0001899	NA	NA	COG3882	FkbH	Predicted enzyme involved in methoxymalonyl-ACP biosynthesis	RS39_00289
+CP020777.1	Prodigal:2.6	CDS	258225	259235	.	+	0	RS39_00287	RS39	336	OG0002203	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	RS39_00289
+CP020777.1	Prodigal:2.6	CDS	259225	260448	.	-	0	RS39_00288	RS39	407	OG0001565	NA	NA	NA	NA	NA	RS39_00289
+CP020777.1	Prodigal:2.6	CDS	260540	261346	.	+	0	RS39_00289	RS39	268	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	RS39_00289
+CP020777.1	Prodigal:2.6	CDS	261339	262670	.	+	0	RS39_00290	RS39	443	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	RS39_00289
+CP020777.1	Prodigal:2.6	CDS	262674	263447	.	+	0	RS39_00291	RS39	257	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	RS39_00289
+CP020777.1	Prodigal:2.6	CDS	263444	264607	.	+	0	RS39_00292	RS39	387	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	RS39_00289
+CP020777.1	Prodigal:2.6	CDS	264583	265521	.	+	0	RS39_00293	RS39	312	OG0001061	NA	NA	COG0673	MviM	Predicted dehydrogenase	RS39_00289
+CP020777.1	Prodigal:2.6	CDS	265548	266729	.	+	0	RS39_00294	RS39	393	OG0001263	NA	NA	NA	NA	NA	RS39_00289
+CP020777.1	Prodigal:2.6	CDS	256281	256565	.	+	0	RS39_00285	RS39	94	NA	NA	NA	NA	NA	NA	RS39_00290
+CP020777.1	Prodigal:2.6	CDS	256534	258225	.	+	0	RS39_00286	RS39	563	OG0001899	NA	NA	COG3882	FkbH	Predicted enzyme involved in methoxymalonyl-ACP biosynthesis	RS39_00290
+CP020777.1	Prodigal:2.6	CDS	258225	259235	.	+	0	RS39_00287	RS39	336	OG0002203	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	RS39_00290
+CP020777.1	Prodigal:2.6	CDS	259225	260448	.	-	0	RS39_00288	RS39	407	OG0001565	NA	NA	NA	NA	NA	RS39_00290
+CP020777.1	Prodigal:2.6	CDS	260540	261346	.	+	0	RS39_00289	RS39	268	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	RS39_00290
+CP020777.1	Prodigal:2.6	CDS	261339	262670	.	+	0	RS39_00290	RS39	443	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	RS39_00290
+CP020777.1	Prodigal:2.6	CDS	262674	263447	.	+	0	RS39_00291	RS39	257	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	RS39_00290
+CP020777.1	Prodigal:2.6	CDS	263444	264607	.	+	0	RS39_00292	RS39	387	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	RS39_00290
+CP020777.1	Prodigal:2.6	CDS	264583	265521	.	+	0	RS39_00293	RS39	312	OG0001061	NA	NA	COG0673	MviM	Predicted dehydrogenase	RS39_00290
+CP020777.1	Prodigal:2.6	CDS	265548	266729	.	+	0	RS39_00294	RS39	393	OG0001263	NA	NA	NA	NA	NA	RS39_00290
+CP020777.1	Prodigal:2.6	CDS	266726	267340	.	+	0	RS39_00295	RS39	204	OG0000057	NA	NA	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	RS39_00290
+CP020777.1	Prodigal:2.6	CDS	268973	270142	.	-	0	RS39_00298	RS39	389	OG0001565	NA	NA	NA	NA	NA	RS39_00303
+CP020777.1	Prodigal:2.6	CDS	270235	272019	.	+	0	RS39_00299	RS39	594	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	RS39_00303
+CP020777.1	Prodigal:2.6	CDS	272006	272677	.	+	0	RS39_00300	RS39	223	OG0002414	NA	NA	COG1043	LpxA	Acyl-[acyl carrier protein]--UDP-N-acetylglucosamine O-acyltransferase	RS39_00303
+CP020777.1	Prodigal:2.6	CDS	272681	273844	.	+	0	RS39_00301	RS39	387	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	RS39_00303
+CP020777.1	Prodigal:2.6	CDS	273844	274827	.	+	0	RS39_00302	RS39	327	OG0002454	NA	NA	COG3980	SpsG	Spore coat polysaccharide biosynthesis protein SpsG, predicted glycosyltransferase	RS39_00303
+CP020777.1	Prodigal:2.6	CDS	274839	276131	.	+	0	RS39_00303	RS39	430	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	RS39_00303
+CP020777.1	Prodigal:2.6	CDS	276133	277128	.	+	0	RS39_00304	RS39	331	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	RS39_00303
+CP020777.1	Prodigal:2.6	CDS	277125	278045	.	+	0	RS39_00305	RS39	306	OG0002493	NA	NA	COG2152	NA	Predicted glycosyl hydrolase, GH43/DUF377 family	RS39_00303
+CP020777.1	Prodigal:2.6	CDS	278051	278758	.	+	0	RS39_00306	RS39	235	OG0001800	NA	NA	NA	NA	NA	RS39_00303
+CP020777.1	Prodigal:2.6	CDS	278755	279447	.	+	0	RS39_00307	RS39	230	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	RS39_00303
+CP020777.1	Prodigal:2.6	CDS	279425	280294	.	+	0	RS39_00308	RS39	289	OG0001462	NA	NA	COG1453	NA	Predicted oxidoreductase of the aldo/keto reductase family	RS39_00303
+HIMB1436-00000000001	Prodigal:2.6	CDS	75	1205	.	+	0	HIMB1436_00001	HIMB1436	376	OG0001540	NA	NA	NA	NA	NA	HIMB1436_00005
+HIMB1436-00000000001	Prodigal:2.6	CDS	1330	2025	.	+	0	HIMB1436_00002	HIMB1436	231	OG0001548	NA	NA	COG5036	NA	SPX domain-containing protein involved in vacuolar polyphosphate accumulation	HIMB1436_00005
+HIMB1436-00000000001	Prodigal:2.6	CDS	2015	3409	.	+	0	HIMB1436_00003	HIMB1436	464	OG0001371	NA	NA	COG1221	PspF	Transcriptional regulators containing sigma54-interacting ATPase domain	HIMB1436_00005
+HIMB1436-00000000001	Prodigal:2.6	CDS	3406	4209	.	-	0	HIMB1436_00004	HIMB1436	267	OG0002413	K21195	2-aminoethylphosphonate dioxygenase [EC:1.14.11.46]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1436_00005
+HIMB1436-00000000001	Prodigal:2.6	CDS	4209	5504	.	-	0	HIMB1436_00005	HIMB1436	431	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1436_00005
+HIMB1436-00000000001	Prodigal:2.6	CDS	5501	6250	.	-	0	HIMB1436_00006	HIMB1436	249	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1436_00005
+HIMB1436-00000000001	Prodigal:2.6	CDS	6309	6827	.	+	0	HIMB1436_00007	HIMB1436	172	OG0001442	NA	NA	COG0529	CysC	Adenylylsulfate kinase or related kinase	HIMB1436_00005
+HIMB1436-00000000001	Prodigal:2.6	CDS	6835	7704	.	+	0	HIMB1436_00008	HIMB1436	289	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1436_00005
+HIMB1436-00000000001	Prodigal:2.6	CDS	7701	9539	.	+	0	HIMB1436_00009	HIMB1436	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1436_00005
+HIMB1436-00000000001	Prodigal:2.6	CDS	9536	10603	.	+	0	HIMB1436_00010	HIMB1436	355	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1436_00005
+HIMB1436-00000000001	Prodigal:2.6	CDS	75	1205	.	+	0	HIMB1436_00001	HIMB1436	376	OG0001540	NA	NA	NA	NA	NA	HIMB1436_00006
+HIMB1436-00000000001	Prodigal:2.6	CDS	1330	2025	.	+	0	HIMB1436_00002	HIMB1436	231	OG0001548	NA	NA	COG5036	NA	SPX domain-containing protein involved in vacuolar polyphosphate accumulation	HIMB1436_00006
+HIMB1436-00000000001	Prodigal:2.6	CDS	2015	3409	.	+	0	HIMB1436_00003	HIMB1436	464	OG0001371	NA	NA	COG1221	PspF	Transcriptional regulators containing sigma54-interacting ATPase domain	HIMB1436_00006
+HIMB1436-00000000001	Prodigal:2.6	CDS	3406	4209	.	-	0	HIMB1436_00004	HIMB1436	267	OG0002413	K21195	2-aminoethylphosphonate dioxygenase [EC:1.14.11.46]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1436_00006
+HIMB1436-00000000001	Prodigal:2.6	CDS	4209	5504	.	-	0	HIMB1436_00005	HIMB1436	431	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB1436_00006
+HIMB1436-00000000001	Prodigal:2.6	CDS	5501	6250	.	-	0	HIMB1436_00006	HIMB1436	249	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB1436_00006
+HIMB1436-00000000001	Prodigal:2.6	CDS	6309	6827	.	+	0	HIMB1436_00007	HIMB1436	172	OG0001442	NA	NA	COG0529	CysC	Adenylylsulfate kinase or related kinase	HIMB1436_00006
+HIMB1436-00000000001	Prodigal:2.6	CDS	6835	7704	.	+	0	HIMB1436_00008	HIMB1436	289	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1436_00006
+HIMB1436-00000000001	Prodigal:2.6	CDS	7701	9539	.	+	0	HIMB1436_00009	HIMB1436	612	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1436_00006
+HIMB1436-00000000001	Prodigal:2.6	CDS	9536	10603	.	+	0	HIMB1436_00010	HIMB1436	355	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1436_00006
+HIMB1436-00000000001	Prodigal:2.6	CDS	10585	11232	.	+	0	HIMB1436_00011	HIMB1436	215	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1436_00006
+HIMB2226-00000000001	Aragorn:1.2	tRNA	627255	627331	.	+	.	HIMB2226_00666	HIMB2226	NA	NA	NA	NA	NA	NA	NA	HIMB2226_00671
+HIMB2226-00000000001	Aragorn:1.2	tRNA	627344	627419	.	+	.	HIMB2226_00667	HIMB2226	NA	NA	NA	NA	NA	NA	NA	HIMB2226_00671
+HIMB2226-00000000001	barrnap:0.9	rRNA	627554	630302	0	+	.	HIMB2226_00668	HIMB2226	NA	NA	NA	NA	NA	NA	NA	HIMB2226_00671
+HIMB2226-00000000001	Prodigal:2.6	CDS	630337	631416	.	-	0	HIMB2226_00669	HIMB2226	359	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB2226_00671
+HIMB2226-00000000001	Prodigal:2.6	CDS	631447	632190	.	+	0	HIMB2226_00670	HIMB2226	247	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB2226_00671
+HIMB2226-00000000001	Prodigal:2.6	CDS	632199	633521	.	-	0	HIMB2226_00671	HIMB2226	440	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB2226_00671
+HIMB2226-00000000001	Prodigal:2.6	CDS	633599	634438	.	-	0	HIMB2226_00672	HIMB2226	279	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB2226_00671
+HIMB2226-00000000001	Prodigal:2.6	CDS	634442	635344	.	-	0	HIMB2226_00673	HIMB2226	300	OG0002179	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB2226_00671
+HIMB2226-00000000001	Prodigal:2.6	CDS	635383	636288	.	+	0	HIMB2226_00674	HIMB2226	301	OG0001772	NA	NA	NA	NA	NA	HIMB2226_00671
+HIMB2226-00000000001	Prodigal:2.6	CDS	636289	637518	.	+	0	HIMB2226_00675	HIMB2226	409	OG0003083	NA	NA	NA	NA	NA	HIMB2226_00671
+HIMB2226-00000000001	Prodigal:2.6	CDS	637515	638486	.	-	0	HIMB2226_00676	HIMB2226	323	OG0001238	NA	NA	COG1215	BcsA	Glycosyltransferase, catalytic subunit of cellulose synthase and poly-beta-1,6-N-acetylglucosamine synthase	HIMB2226_00671
+HIMB2187-00000000001	Prodigal:2.6	CDS	868207	870012	.	-	0	HIMB2187_00944	HIMB2187	601	OG0001196	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	HIMB2187_00949
+HIMB2187-00000000001	Prodigal:2.6	CDS	870050	871054	.	-	0	HIMB2187_00945	HIMB2187	334	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB2187_00949
+HIMB2187-00000000001	Prodigal:2.6	CDS	871035	872030	.	-	0	HIMB2187_00946	HIMB2187	331	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2187_00949
+HIMB2187-00000000001	Prodigal:2.6	CDS	872036	873178	.	-	0	HIMB2187_00947	HIMB2187	380	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB2187_00949
+HIMB2187-00000000001	Prodigal:2.6	CDS	873175	874176	.	-	0	HIMB2187_00948	HIMB2187	333	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB2187_00949
+HIMB2187-00000000001	Prodigal:2.6	CDS	874169	874783	.	-	0	HIMB2187_00949	HIMB2187	204	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2187_00949
+HIMB2187-00000000001	Prodigal:2.6	CDS	874877	876028	.	+	0	HIMB2187_00950	HIMB2187	383	OG0001797	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	HIMB2187_00949
+HIMB2187-00000000001	Prodigal:2.6	CDS	876025	876903	.	+	0	HIMB2187_00951	HIMB2187	292	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2187_00949
+HIMB2187-00000000001	Prodigal:2.6	CDS	876905	877681	.	-	0	HIMB2187_00952	HIMB2187	258	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB2187_00949
+HIMB2187-00000000001	Prodigal:2.6	CDS	877777	879129	.	+	0	HIMB2187_00953	HIMB2187	450	OG0001498	NA	NA	NA	NA	NA	HIMB2187_00949
+HIMB2187-00000000001	Prodigal:2.6	CDS	879156	880166	.	+	0	HIMB2187_00954	HIMB2187	336	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2187_00949
+CP020778.1	Prodigal:2.6	CDS	792641	793657	.	+	0	RS40_00853	RS40	338	OG0000051	K18430	N,N'-diacetyllegionaminate synthase [EC:2.5.1.101]	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	RS40_00858
+CP020778.1	Prodigal:2.6	CDS	793657	794823	.	+	0	RS40_00854	RS40	388	OG0001272	K18429	GDP/UDP-N,N'-diacetylbacillosamine 2-epimerase (hydrolysing) [EC:3.2.1.184]	COG0381	WecB	UDP-N-acetylglucosamine 2-epimerase	RS40_00858
+CP020778.1	Prodigal:2.6	CDS	794879	795931	.	+	0	RS40_00855	RS40	350	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	RS40_00858
+CP020778.1	Prodigal:2.6	CDS	795954	796952	.	+	0	RS40_00856	RS40	332	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	RS40_00858
+CP020778.1	Prodigal:2.6	CDS	796959	797120	.	-	0	RS40_00857	RS40	53	NA	NA	NA	NA	NA	NA	RS40_00858
+CP020778.1	Prodigal:2.6	CDS	797146	797766	.	+	0	RS40_00858	RS40	206	OG0001130	NA	NA	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	RS40_00858
+CP020778.1	Prodigal:2.6	CDS	797997	799832	.	-	0	RS40_00859	RS40	611	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	RS40_00858
+CP020778.1	Prodigal:2.6	CDS	799833	799982	.	-	0	RS40_00860	RS40	49	OG0001235	NA	NA	COG3944	YveK	Capsular polysaccharide biosynthesis protein YveK	RS40_00858
+CP020778.1	Prodigal:2.6	CDS	799984	800367	.	-	0	RS40_00861	RS40	127	OG0001218	NA	NA	NA	NA	NA	RS40_00858
+CP020778.1	Prodigal:2.6	CDS	800520	801962	.	+	0	RS40_00862	RS40	480	OG0003257	NA	NA	NA	NA	NA	RS40_00858
+CP020778.1	Prodigal:2.6	CDS	801959	803698	.	+	0	RS40_00863	RS40	579	OG0000003	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG2274	SunT	ABC-type bacteriocin/lantibiotic exporters, contain an N-terminal double-glycine peptidase domain	RS40_00858
+ATTF01000036.1	Prodigal:2.6	CDS	1050	1826	.	+	0	HIMB058_01135	HIMB058	258	OG0001789	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB058_01140
+ATTF01000036.1	Prodigal:2.6	CDS	1835	2464	.	+	0	HIMB058_01136	HIMB058	209	OG0000057	NA	NA	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	HIMB058_01140
+ATTF01000036.1	Prodigal:2.6	CDS	2461	3387	.	+	0	HIMB058_01137	HIMB058	308	OG0000012	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB058_01140
+ATTF01000036.1	Prodigal:2.6	CDS	3392	4537	.	+	0	HIMB058_01138	HIMB058	381	OG0001077	NA	NA	NA	NA	NA	HIMB058_01140
+ATTF01000036.1	Prodigal:2.6	CDS	4599	5501	.	+	0	HIMB058_01139	HIMB058	300	OG0001641	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB058_01140
+ATTF01000036.1	Prodigal:2.6	CDS	5509	6129	.	+	0	HIMB058_01140	HIMB058	206	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	HIMB058_01140
+ATTF01000036.1	Prodigal:2.6	CDS	6190	6366	.	-	0	HIMB058_01141	HIMB058	58	NA	NA	NA	NA	NA	NA	HIMB058_01140
+Ga0182791_11	Prodigal:2.6	CDS	142549	143421	.	+	0	LSUCC0261_00140	LSUCC0261	290	OG0001772	NA	NA	COG0673	MviM	Predicted dehydrogenase	LSUCC0261_00145
+Ga0182791_11	Prodigal:2.6	CDS	143418	144401	.	+	0	LSUCC0261_00141	LSUCC0261	327	OG0002454	NA	NA	COG3980	SpsG	Spore coat polysaccharide biosynthesis protein SpsG, predicted glycosyltransferase	LSUCC0261_00145
+Ga0182791_11	Prodigal:2.6	CDS	144379	145377	.	+	0	LSUCC0261_00142	LSUCC0261	332	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	LSUCC0261_00145
+Ga0182791_11	Prodigal:2.6	CDS	145383	146072	.	+	0	LSUCC0261_00143	LSUCC0261	229	OG0002414	NA	NA	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	LSUCC0261_00145
+Ga0182791_11	Prodigal:2.6	CDS	146074	146964	.	+	0	LSUCC0261_00144	LSUCC0261	296	OG0002493	NA	NA	COG3507	XynB2	Beta-xylosidase	LSUCC0261_00145
+Ga0182791_11	Prodigal:2.6	CDS	146957	147691	.	+	0	LSUCC0261_00145	LSUCC0261	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	LSUCC0261_00145
+Ga0182791_11	Prodigal:2.6	CDS	147688	148551	.	+	0	LSUCC0261_00146	LSUCC0261	287	OG0001462	NA	NA	COG1453	NA	Predicted oxidoreductase of the aldo/keto reductase family	LSUCC0261_00145
+Ga0182791_11	Prodigal:2.6	CDS	148533	149426	.	+	0	LSUCC0261_00147	LSUCC0261	297	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	LSUCC0261_00145
+Ga0182791_11	Prodigal:2.6	CDS	149404	150738	.	+	0	LSUCC0261_00148	LSUCC0261	444	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	LSUCC0261_00145
+Ga0182791_11	Prodigal:2.6	CDS	150738	151418	.	+	0	LSUCC0261_00149	LSUCC0261	226	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	LSUCC0261_00145
+Ga0182791_11	Prodigal:2.6	CDS	151415	152116	.	+	0	LSUCC0261_00150	LSUCC0261	233	OG0001800	NA	NA	NA	NA	NA	LSUCC0261_00145
+Ga0182791_11	Prodigal:2.6	CDS	145383	146072	.	+	0	LSUCC0261_00143	LSUCC0261	229	OG0002414	NA	NA	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	LSUCC0261_00148
+Ga0182791_11	Prodigal:2.6	CDS	146074	146964	.	+	0	LSUCC0261_00144	LSUCC0261	296	OG0002493	NA	NA	COG3507	XynB2	Beta-xylosidase	LSUCC0261_00148
+Ga0182791_11	Prodigal:2.6	CDS	146957	147691	.	+	0	LSUCC0261_00145	LSUCC0261	244	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	LSUCC0261_00148
+Ga0182791_11	Prodigal:2.6	CDS	147688	148551	.	+	0	LSUCC0261_00146	LSUCC0261	287	OG0001462	NA	NA	COG1453	NA	Predicted oxidoreductase of the aldo/keto reductase family	LSUCC0261_00148
+Ga0182791_11	Prodigal:2.6	CDS	148533	149426	.	+	0	LSUCC0261_00147	LSUCC0261	297	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	LSUCC0261_00148
+Ga0182791_11	Prodigal:2.6	CDS	149404	150738	.	+	0	LSUCC0261_00148	LSUCC0261	444	OG0001130	K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	LSUCC0261_00148
+Ga0182791_11	Prodigal:2.6	CDS	150738	151418	.	+	0	LSUCC0261_00149	LSUCC0261	226	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	LSUCC0261_00148
+Ga0182791_11	Prodigal:2.6	CDS	151415	152116	.	+	0	LSUCC0261_00150	LSUCC0261	233	OG0001800	NA	NA	NA	NA	NA	LSUCC0261_00148
+Ga0182791_11	Prodigal:2.6	CDS	152103	153320	.	+	0	LSUCC0261_00151	LSUCC0261	405	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	LSUCC0261_00148
+Ga0182791_11	Prodigal:2.6	CDS	153323	154207	.	+	0	LSUCC0261_00152	LSUCC0261	294	OG0002457	NA	NA	NA	NA	NA	LSUCC0261_00148
+Ga0182791_11	Prodigal:2.6	CDS	154255	155961	.	+	0	LSUCC0261_00153	LSUCC0261	568	OG0000032	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	LSUCC0261_00148
+OZ247815.1	Aragorn:1.2	tRNA	164902	164977	.	+	.	ME-33_00196	ME-33	NA	NA	NA	NA	NA	NA	NA	ME-33_00201
+OZ247815.1	barrnap:0.9	rRNA	165101	167852	0	+	.	ME-33_00197	ME-33	NA	NA	NA	NA	NA	NA	NA	ME-33_00201
+OZ247815.1	Prodigal:2.6	CDS	168739	169539	.	+	0	ME-33_00198	ME-33	266	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	ME-33_00201
+OZ247815.1	Prodigal:2.6	CDS	169546	170196	.	-	0	ME-33_00199	ME-33	216	OG0000082	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	ME-33_00201
+OZ247815.1	Prodigal:2.6	CDS	170444	170593	.	-	0	ME-33_00200	ME-33	49	OG0001953	NA	NA	NA	NA	NA	ME-33_00201
+OZ247815.1	Prodigal:2.6	CDS	170590	171354	.	-	0	ME-33_00201	ME-33	254	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	ME-33_00201
+OZ247815.1	Prodigal:2.6	CDS	171354	172655	.	-	0	ME-33_00202	ME-33	433	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	ME-33_00201
+OZ247815.1	Prodigal:2.6	CDS	172648	173484	.	-	0	ME-33_00203	ME-33	278	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	ME-33_00201
+OZ247815.1	Prodigal:2.6	CDS	173475	174233	.	-	0	ME-33_00204	ME-33	252	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-33_00201
+OZ247815.1	Prodigal:2.6	CDS	174226	175236	.	-	0	ME-33_00205	ME-33	336	OG0001859	NA	NA	NA	NA	NA	ME-33_00201
+OZ247815.1	Prodigal:2.6	CDS	175229	176401	.	-	0	ME-33_00206	ME-33	390	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	ME-33_00201
+OZ247815.1	barrnap:0.9	rRNA	165101	167852	0	+	.	ME-33_00197	ME-33	NA	NA	NA	NA	NA	NA	NA	ME-33_00202
+OZ247815.1	Prodigal:2.6	CDS	168739	169539	.	+	0	ME-33_00198	ME-33	266	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	ME-33_00202
+OZ247815.1	Prodigal:2.6	CDS	169546	170196	.	-	0	ME-33_00199	ME-33	216	OG0000082	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	ME-33_00202
+OZ247815.1	Prodigal:2.6	CDS	170444	170593	.	-	0	ME-33_00200	ME-33	49	OG0001953	NA	NA	NA	NA	NA	ME-33_00202
+OZ247815.1	Prodigal:2.6	CDS	170590	171354	.	-	0	ME-33_00201	ME-33	254	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	ME-33_00202
+OZ247815.1	Prodigal:2.6	CDS	171354	172655	.	-	0	ME-33_00202	ME-33	433	OG0001130	NA	NA	COG0001	HemL	Glutamate-1-semialdehyde aminotransferase	ME-33_00202
+OZ247815.1	Prodigal:2.6	CDS	172648	173484	.	-	0	ME-33_00203	ME-33	278	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	ME-33_00202
+OZ247815.1	Prodigal:2.6	CDS	173475	174233	.	-	0	ME-33_00204	ME-33	252	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	ME-33_00202
+OZ247815.1	Prodigal:2.6	CDS	174226	175236	.	-	0	ME-33_00205	ME-33	336	OG0001859	NA	NA	NA	NA	NA	ME-33_00202
+OZ247815.1	Prodigal:2.6	CDS	175229	176401	.	-	0	ME-33_00206	ME-33	390	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	ME-33_00202
+OZ247815.1	Prodigal:2.6	CDS	176516	177901	.	+	0	ME-33_00207	ME-33	461	OG0001498	NA	NA	NA	NA	NA	ME-33_00202

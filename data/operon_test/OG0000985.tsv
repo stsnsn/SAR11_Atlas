@@ -1,0 +1,807 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CH724130.1	Prodigal:2.6	CDS	646567	647334	.	+	0	HTCC1002_00706	HTCC1002	255	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1002_00711
+CH724130.1	Prodigal:2.6	CDS	647506	648246	.	-	0	HTCC1002_00707	HTCC1002	246	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HTCC1002_00711
+CH724130.1	Prodigal:2.6	CDS	648247	648951	.	-	0	HTCC1002_00708	HTCC1002	234	OG0004288	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HTCC1002_00711
+CH724130.1	Prodigal:2.6	CDS	648963	650033	.	+	0	HTCC1002_00709	HTCC1002	356	OG0000110	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00711
+CH724130.1	Prodigal:2.6	CDS	650030	650731	.	-	0	HTCC1002_00710	HTCC1002	233	OG0000024	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HTCC1002_00711
+CH724130.1	Prodigal:2.6	CDS	650715	651863	.	-	0	HTCC1002_00711	HTCC1002	382	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00711
+CH724130.1	Prodigal:2.6	CDS	651889	653022	.	+	0	HTCC1002_00712	HTCC1002	377	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00711
+CH724130.1	Prodigal:2.6	CDS	653023	653634	.	-	0	HTCC1002_00713	HTCC1002	203	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC1002_00711
+CH724130.1	Prodigal:2.6	CDS	653615	655348	.	-	0	HTCC1002_00714	HTCC1002	577	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HTCC1002_00711
+CH724130.1	Prodigal:2.6	CDS	655352	656494	.	-	0	HTCC1002_00715	HTCC1002	380	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC1002_00711
+CH724130.1	Prodigal:2.6	CDS	656466	657299	.	-	0	HTCC1002_00716	HTCC1002	277	OG0002491	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1002_00711
+CH724130.1	Prodigal:2.6	CDS	647506	648246	.	-	0	HTCC1002_00707	HTCC1002	246	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HTCC1002_00712
+CH724130.1	Prodigal:2.6	CDS	648247	648951	.	-	0	HTCC1002_00708	HTCC1002	234	OG0004288	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HTCC1002_00712
+CH724130.1	Prodigal:2.6	CDS	648963	650033	.	+	0	HTCC1002_00709	HTCC1002	356	OG0000110	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00712
+CH724130.1	Prodigal:2.6	CDS	650030	650731	.	-	0	HTCC1002_00710	HTCC1002	233	OG0000024	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HTCC1002_00712
+CH724130.1	Prodigal:2.6	CDS	650715	651863	.	-	0	HTCC1002_00711	HTCC1002	382	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00712
+CH724130.1	Prodigal:2.6	CDS	651889	653022	.	+	0	HTCC1002_00712	HTCC1002	377	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00712
+CH724130.1	Prodigal:2.6	CDS	653023	653634	.	-	0	HTCC1002_00713	HTCC1002	203	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC1002_00712
+CH724130.1	Prodigal:2.6	CDS	653615	655348	.	-	0	HTCC1002_00714	HTCC1002	577	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HTCC1002_00712
+CH724130.1	Prodigal:2.6	CDS	655352	656494	.	-	0	HTCC1002_00715	HTCC1002	380	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC1002_00712
+CH724130.1	Prodigal:2.6	CDS	656466	657299	.	-	0	HTCC1002_00716	HTCC1002	277	OG0002491	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1002_00712
+CH724130.1	Prodigal:2.6	CDS	657318	658391	.	+	0	HTCC1002_00717	HTCC1002	357	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HTCC1002_00712
+CH724130.1	Prodigal:2.6	CDS	653023	653634	.	-	0	HTCC1002_00713	HTCC1002	203	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC1002_00718
+CH724130.1	Prodigal:2.6	CDS	653615	655348	.	-	0	HTCC1002_00714	HTCC1002	577	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HTCC1002_00718
+CH724130.1	Prodigal:2.6	CDS	655352	656494	.	-	0	HTCC1002_00715	HTCC1002	380	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC1002_00718
+CH724130.1	Prodigal:2.6	CDS	656466	657299	.	-	0	HTCC1002_00716	HTCC1002	277	OG0002491	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1002_00718
+CH724130.1	Prodigal:2.6	CDS	657318	658391	.	+	0	HTCC1002_00717	HTCC1002	357	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HTCC1002_00718
+CH724130.1	Prodigal:2.6	CDS	658388	659545	.	+	0	HTCC1002_00718	HTCC1002	385	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00718
+CH724130.1	Prodigal:2.6	CDS	659542	660915	.	+	0	HTCC1002_00719	HTCC1002	457	OG0004315	NA	NA	COG2244	RfbX	Membrane protein involved in the export of O-antigen and teichoic acid	HTCC1002_00718
+CH724130.1	Prodigal:2.6	CDS	660902	662251	.	+	0	HTCC1002_00720	HTCC1002	449	OG0002384	NA	NA	NA	NA	NA	HTCC1002_00718
+CH724130.1	Prodigal:2.6	CDS	662241	663308	.	+	0	HTCC1002_00721	HTCC1002	355	OG0001881	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HTCC1002_00718
+CH724130.1	Prodigal:2.6	CDS	663342	663833	.	+	0	HTCC1002_00722	HTCC1002	163	OG0000015	K03273	D-glycero-D-manno-heptose 1,7-bisphosphate phosphatase [EC:3.1.3.82 3.1.3.83]	COG0241	HisB1/GmhB	Histidinol phosphatase/D-glycero-mannoheptose bisphosphatephosphatase, HAD superfamily	HTCC1002_00718
+CH724130.1	Prodigal:2.6	CDS	663826	664392	.	-	0	HTCC1002_00723	HTCC1002	188	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	HTCC1002_00718
+CP000084.1	Prodigal:2.6	CDS	538166	538732	.	+	0	HTCC1062_00557	HTCC1062	188	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	HTCC1062_00562
+CP000084.1	Prodigal:2.6	CDS	538725	539216	.	-	0	HTCC1062_00558	HTCC1062	163	OG0000015	K03273	D-glycero-D-manno-heptose 1,7-bisphosphate phosphatase [EC:3.1.3.82 3.1.3.83]	COG0241	HisB1/GmhB	Histidinol phosphatase/D-glycero-mannoheptose bisphosphatephosphatase, HAD superfamily	HTCC1062_00562
+CP000084.1	Prodigal:2.6	CDS	539250	540317	.	-	0	HTCC1062_00559	HTCC1062	355	OG0001881	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HTCC1062_00562
+CP000084.1	Prodigal:2.6	CDS	540307	541656	.	-	0	HTCC1062_00560	HTCC1062	449	OG0002384	NA	NA	NA	NA	NA	HTCC1062_00562
+CP000084.1	Prodigal:2.6	CDS	541643	543016	.	-	0	HTCC1062_00561	HTCC1062	457	OG0004315	NA	NA	COG2244	RfbX	Membrane protein involved in the export of O-antigen and teichoic acid	HTCC1062_00562
+CP000084.1	Prodigal:2.6	CDS	543013	544170	.	-	0	HTCC1062_00562	HTCC1062	385	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1062_00562
+CP000084.1	Prodigal:2.6	CDS	544167	545240	.	-	0	HTCC1062_00563	HTCC1062	357	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HTCC1062_00562
+CP000084.1	Prodigal:2.6	CDS	545259	546092	.	+	0	HTCC1062_00564	HTCC1062	277	OG0002491	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1062_00562
+CP000084.1	Prodigal:2.6	CDS	546064	547206	.	+	0	HTCC1062_00565	HTCC1062	380	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC1062_00562
+CP000084.1	Prodigal:2.6	CDS	547210	548943	.	+	0	HTCC1062_00566	HTCC1062	577	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HTCC1062_00562
+CP000084.1	Prodigal:2.6	CDS	548924	549535	.	+	0	HTCC1062_00567	HTCC1062	203	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC1062_00562
+CP000084.1	Prodigal:2.6	CDS	544167	545240	.	-	0	HTCC1062_00563	HTCC1062	357	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HTCC1062_00568
+CP000084.1	Prodigal:2.6	CDS	545259	546092	.	+	0	HTCC1062_00564	HTCC1062	277	OG0002491	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1062_00568
+CP000084.1	Prodigal:2.6	CDS	546064	547206	.	+	0	HTCC1062_00565	HTCC1062	380	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC1062_00568
+CP000084.1	Prodigal:2.6	CDS	547210	548943	.	+	0	HTCC1062_00566	HTCC1062	577	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HTCC1062_00568
+CP000084.1	Prodigal:2.6	CDS	548924	549535	.	+	0	HTCC1062_00567	HTCC1062	203	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC1062_00568
+CP000084.1	Prodigal:2.6	CDS	549536	550669	.	-	0	HTCC1062_00568	HTCC1062	377	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1062_00568
+CP000084.1	Prodigal:2.6	CDS	550695	551843	.	+	0	HTCC1062_00569	HTCC1062	382	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1062_00568
+CP000084.1	Prodigal:2.6	CDS	551827	552528	.	+	0	HTCC1062_00570	HTCC1062	233	OG0000024	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HTCC1062_00568
+CP000084.1	Prodigal:2.6	CDS	552525	553595	.	-	0	HTCC1062_00571	HTCC1062	356	OG0000110	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1062_00568
+CP000084.1	Prodigal:2.6	CDS	553607	554311	.	+	0	HTCC1062_00572	HTCC1062	234	OG0004288	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HTCC1062_00568
+CP000084.1	Prodigal:2.6	CDS	554312	555052	.	+	0	HTCC1062_00573	HTCC1062	246	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HTCC1062_00568
+CP000084.1	Prodigal:2.6	CDS	545259	546092	.	+	0	HTCC1062_00564	HTCC1062	277	OG0002491	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1062_00569
+CP000084.1	Prodigal:2.6	CDS	546064	547206	.	+	0	HTCC1062_00565	HTCC1062	380	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC1062_00569
+CP000084.1	Prodigal:2.6	CDS	547210	548943	.	+	0	HTCC1062_00566	HTCC1062	577	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HTCC1062_00569
+CP000084.1	Prodigal:2.6	CDS	548924	549535	.	+	0	HTCC1062_00567	HTCC1062	203	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC1062_00569
+CP000084.1	Prodigal:2.6	CDS	549536	550669	.	-	0	HTCC1062_00568	HTCC1062	377	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1062_00569
+CP000084.1	Prodigal:2.6	CDS	550695	551843	.	+	0	HTCC1062_00569	HTCC1062	382	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1062_00569
+CP000084.1	Prodigal:2.6	CDS	551827	552528	.	+	0	HTCC1062_00570	HTCC1062	233	OG0000024	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HTCC1062_00569
+CP000084.1	Prodigal:2.6	CDS	552525	553595	.	-	0	HTCC1062_00571	HTCC1062	356	OG0000110	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1062_00569
+CP000084.1	Prodigal:2.6	CDS	553607	554311	.	+	0	HTCC1062_00572	HTCC1062	234	OG0004288	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HTCC1062_00569
+CP000084.1	Prodigal:2.6	CDS	554312	555052	.	+	0	HTCC1062_00573	HTCC1062	246	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HTCC1062_00569
+CP000084.1	Prodigal:2.6	CDS	555224	555991	.	-	0	HTCC1062_00574	HTCC1062	255	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1062_00569
+CP038852.1	Prodigal:2.6	CDS	586878	587054	.	-	0	NP1_00666	NP1	58	OG0000877	NA	NA	NA	NA	NA	NP1_00671
+CP038852.1	Prodigal:2.6	CDS	587035	587808	.	-	0	NP1_00667	NP1	257	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	NP1_00671
+CP038852.1	Prodigal:2.6	CDS	587816	589003	.	-	0	NP1_00668	NP1	395	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	NP1_00671
+CP038852.1	Prodigal:2.6	CDS	589207	589551	.	-	0	NP1_00669	NP1	114	OG0001003	NA	NA	COG2192	NA	Predicted carbamoyl transferase, NodU family	NP1_00671
+CP038852.1	Prodigal:2.6	CDS	589551	590651	.	-	0	NP1_00670	NP1	366	OG0000110	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	NP1_00671
+CP038852.1	Prodigal:2.6	CDS	590648	591682	.	-	0	NP1_00671	NP1	344	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	NP1_00671
+CP038852.1	Prodigal:2.6	CDS	591682	593208	.	-	0	NP1_00672	NP1	508	OG0002384	NA	NA	NA	NA	NA	NP1_00671
+CP038852.1	Prodigal:2.6	CDS	593183	594190	.	-	0	NP1_00673	NP1	335	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	NP1_00671
+CP038852.1	Prodigal:2.6	CDS	594187	595326	.	-	0	NP1_00674	NP1	379	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	NP1_00671
+CP038852.1	Prodigal:2.6	CDS	595352	596494	.	-	0	NP1_00675	NP1	380	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	NP1_00671
+CP038852.1	Prodigal:2.6	CDS	596491	597189	.	-	0	NP1_00676	NP1	232	OG0001051	NA	NA	COG0235	AraD	5-methylthioribulose/5-deoxyribulose/Fuculose 1-phosphate aldolase (methionine salvage, sugar degradation)	NP1_00671
+CP038852.1	Prodigal:2.6	CDS	589207	589551	.	-	0	NP1_00669	NP1	114	OG0001003	NA	NA	COG2192	NA	Predicted carbamoyl transferase, NodU family	NP1_00674
+CP038852.1	Prodigal:2.6	CDS	589551	590651	.	-	0	NP1_00670	NP1	366	OG0000110	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	NP1_00674
+CP038852.1	Prodigal:2.6	CDS	590648	591682	.	-	0	NP1_00671	NP1	344	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	NP1_00674
+CP038852.1	Prodigal:2.6	CDS	591682	593208	.	-	0	NP1_00672	NP1	508	OG0002384	NA	NA	NA	NA	NA	NP1_00674
+CP038852.1	Prodigal:2.6	CDS	593183	594190	.	-	0	NP1_00673	NP1	335	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	NP1_00674
+CP038852.1	Prodigal:2.6	CDS	594187	595326	.	-	0	NP1_00674	NP1	379	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	NP1_00674
+CP038852.1	Prodigal:2.6	CDS	595352	596494	.	-	0	NP1_00675	NP1	380	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	NP1_00674
+CP038852.1	Prodigal:2.6	CDS	596491	597189	.	-	0	NP1_00676	NP1	232	OG0001051	NA	NA	COG0235	AraD	5-methylthioribulose/5-deoxyribulose/Fuculose 1-phosphate aldolase (methionine salvage, sugar degradation)	NP1_00674
+CP038852.1	Prodigal:2.6	CDS	597190	597888	.	-	0	NP1_00677	NP1	232	OG0003492	NA	NA	NA	NA	NA	NP1_00674
+CP038852.1	Prodigal:2.6	CDS	597888	598187	.	-	0	NP1_00678	NP1	99	OG0001377	NA	NA	COG1105	FruK	1-phosphofructokinase or 6-phosphofructokinase II	NP1_00674
+CP038852.1	Prodigal:2.6	CDS	598429	598707	.	-	0	NP1_00679	NP1	92	NA	NA	NA	NA	NA	NA	NP1_00674
+CP038852.1	Prodigal:2.6	CDS	589551	590651	.	-	0	NP1_00670	NP1	366	OG0000110	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	NP1_00675
+CP038852.1	Prodigal:2.6	CDS	590648	591682	.	-	0	NP1_00671	NP1	344	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	NP1_00675
+CP038852.1	Prodigal:2.6	CDS	591682	593208	.	-	0	NP1_00672	NP1	508	OG0002384	NA	NA	NA	NA	NA	NP1_00675
+CP038852.1	Prodigal:2.6	CDS	593183	594190	.	-	0	NP1_00673	NP1	335	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	NP1_00675
+CP038852.1	Prodigal:2.6	CDS	594187	595326	.	-	0	NP1_00674	NP1	379	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	NP1_00675
+CP038852.1	Prodigal:2.6	CDS	595352	596494	.	-	0	NP1_00675	NP1	380	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	NP1_00675
+CP038852.1	Prodigal:2.6	CDS	596491	597189	.	-	0	NP1_00676	NP1	232	OG0001051	NA	NA	COG0235	AraD	5-methylthioribulose/5-deoxyribulose/Fuculose 1-phosphate aldolase (methionine salvage, sugar degradation)	NP1_00675
+CP038852.1	Prodigal:2.6	CDS	597190	597888	.	-	0	NP1_00677	NP1	232	OG0003492	NA	NA	NA	NA	NA	NP1_00675
+CP038852.1	Prodigal:2.6	CDS	597888	598187	.	-	0	NP1_00678	NP1	99	OG0001377	NA	NA	COG1105	FruK	1-phosphofructokinase or 6-phosphofructokinase II	NP1_00675
+CP038852.1	Prodigal:2.6	CDS	598429	598707	.	-	0	NP1_00679	NP1	92	NA	NA	NA	NA	NA	NA	NP1_00675
+CP038852.1	Prodigal:2.6	CDS	598709	599554	.	-	0	NP1_00680	NP1	281	OG0000440	NA	NA	COG0698	RpiB	Ribose 5-phosphate isomerase RpiB	NP1_00675
+CP159811.1	Prodigal:2.6	CDS	150701	150829	.	+	0	Uisw_137_00160	Uisw_137	42	NA	NA	NA	NA	NA	NA	Uisw_137_00165
+CP159811.1	Prodigal:2.6	CDS	150854	151573	.	+	0	Uisw_137_00161	Uisw_137	239	OG0001647	NA	NA	NA	NA	NA	Uisw_137_00165
+CP159811.1	Prodigal:2.6	CDS	151521	152417	.	+	0	Uisw_137_00162	Uisw_137	298	OG0001647	NA	NA	NA	NA	NA	Uisw_137_00165
+CP159811.1	Prodigal:2.6	CDS	152652	154382	.	+	0	Uisw_137_00163	Uisw_137	576	OG0000032	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	Uisw_137_00165
+CP159811.1	Prodigal:2.6	CDS	154519	155595	.	-	0	Uisw_137_00164	Uisw_137	358	OG0001920	NA	NA	NA	NA	NA	Uisw_137_00165
+CP159811.1	Prodigal:2.6	CDS	155595	156818	.	-	0	Uisw_137_00165	Uisw_137	407	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_137_00165
+CP159811.1	Prodigal:2.6	CDS	157005	158309	.	+	0	Uisw_137_00166	Uisw_137	434	OG0002283	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG1232	HemY	Protoporphyrinogen oxidase HemY/PPOX	Uisw_137_00165
+CP159811.1	Prodigal:2.6	CDS	158313	158582	.	+	0	Uisw_137_00167	Uisw_137	89	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_137_00165
+CP159811.1	Prodigal:2.6	CDS	158572	159282	.	-	0	Uisw_137_00168	Uisw_137	236	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_137_00165
+CP159811.1	Prodigal:2.6	CDS	159288	160859	.	-	0	Uisw_137_00169	Uisw_137	523	OG0001382	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_137_00165
+CP159811.1	Prodigal:2.6	CDS	161069	161887	.	+	0	Uisw_137_00170	Uisw_137	272	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_137_00165
+CP159811.1	Prodigal:2.6	CDS	488221	489582	.	+	0	Uisw_137_00528	Uisw_137	453	OG0001520	NA	NA	COG1032	YgiQ	Radical SAM superfamily enzyme YgiQ, UPF0313 family	Uisw_137_00533
+CP159811.1	Prodigal:2.6	CDS	490181	491386	.	+	0	Uisw_137_00529	Uisw_137	401	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	Uisw_137_00533
+CP159811.1	Prodigal:2.6	CDS	491386	491790	.	+	0	Uisw_137_00530	Uisw_137	134	OG0001782	NA	NA	COG1917	QdoI	Cupin domain protein related to quercetin dioxygenase	Uisw_137_00533
+CP159811.1	Prodigal:2.6	CDS	491787	492341	.	+	0	Uisw_137_00531	Uisw_137	184	OG0000000	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	Uisw_137_00533
+CP159811.1	Prodigal:2.6	CDS	492338	493327	.	+	0	Uisw_137_00532	Uisw_137	329	OG0000113	K01711	GDPmannose 4,6-dehydratase [EC:4.2.1.47]	COG1089	Gmd	GDP-D-mannose dehydratase	Uisw_137_00533
+CP159811.1	Prodigal:2.6	CDS	493364	494590	.	+	0	Uisw_137_00533	Uisw_137	408	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_137_00533
+CP159811.1	Prodigal:2.6	CDS	494625	495146	.	+	0	Uisw_137_00534	Uisw_137	173	OG0001918	NA	NA	COG2153	ElaA	Predicted N-acyltransferase, GNAT family	Uisw_137_00533
+CP159811.1	Prodigal:2.6	CDS	495148	496275	.	+	0	Uisw_137_00535	Uisw_137	375	OG0000011	K02805	dTDP-4-amino-4,6-dideoxygalactose transaminase [EC:2.6.1.59]	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_137_00533
+CP159811.1	Prodigal:2.6	CDS	496474	497310	.	+	0	Uisw_137_00536	Uisw_137	278	OG0002707	NA	NA	NA	NA	NA	Uisw_137_00533
+CP159811.1	Prodigal:2.6	CDS	497350	498096	.	-	0	Uisw_137_00537	Uisw_137	248	OG0000759	NA	NA	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	Uisw_137_00533
+CP159811.1	Aragorn:1.2	tRNA	498229	498314	.	+	.	Uisw_137_00538	Uisw_137	NA	NA	NA	NA	NA	NA	NA	Uisw_137_00533
+CP159811.1	Prodigal:2.6	CDS	769680	770786	.	-	0	Uisw_137_00848	Uisw_137	368	OG0001967	K01991	polysaccharide biosynthesis/export protein	COG1596	Wza	Periplasmic protein Wza involved in polysaccharide export, contains SLBB domain of the beta-grasp fold	Uisw_137_00853
+CP159811.1	Prodigal:2.6	CDS	771128	772168	.	+	0	Uisw_137_00849	Uisw_137	346	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_137_00853
+CP159811.1	Prodigal:2.6	CDS	772229	773980	.	+	0	Uisw_137_00850	Uisw_137	583	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	Uisw_137_00853
+CP159811.1	Prodigal:2.6	CDS	773989	775179	.	+	0	Uisw_137_00851	Uisw_137	396	NA	NA	NA	COG3307	RfaL	O-antigen ligase	Uisw_137_00853
+CP159811.1	Prodigal:2.6	CDS	775191	776018	.	+	0	Uisw_137_00852	Uisw_137	275	OG0000769	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_137_00853
+CP159811.1	Prodigal:2.6	CDS	776023	777045	.	+	0	Uisw_137_00853	Uisw_137	340	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_137_00853
+CP159811.1	Prodigal:2.6	CDS	777045	778274	.	+	0	Uisw_137_00854	Uisw_137	409	OG0003153	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_137_00853
+CP159811.1	Prodigal:2.6	CDS	778264	779118	.	+	0	Uisw_137_00855	Uisw_137	284	OG0001502	NA	NA	NA	NA	NA	Uisw_137_00853
+CP159811.1	Prodigal:2.6	CDS	779204	780379	.	+	0	Uisw_137_00856	Uisw_137	391	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_137_00853
+CP159811.1	Prodigal:2.6	CDS	780431	781417	.	+	0	Uisw_137_00857	Uisw_137	328	OG0000001	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	Uisw_137_00853
+CP159811.1	Prodigal:2.6	CDS	781422	782189	.	+	0	Uisw_137_00858	Uisw_137	255	OG0001663	K05946	N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-mannosaminyltransferase [EC:2.4.1.187]	COG1922	WecG	UDP-N-acetyl-D-mannosaminuronic acid transferase, WecB/TagA/CpsF family	Uisw_137_00853
+CP159821.1	Prodigal:2.6	CDS	468117	469067	.	-	0	Uisw_101_00494	Uisw_101	316	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_101_00499
+CP159821.1	Prodigal:2.6	CDS	469222	470307	.	+	0	Uisw_101_00495	Uisw_101	361	OG0000001	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_101_00499
+CP159821.1	Prodigal:2.6	CDS	470310	470999	.	+	0	Uisw_101_00496	Uisw_101	229	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	Uisw_101_00499
+CP159821.1	Prodigal:2.6	CDS	471596	472054	.	+	0	Uisw_101_00497	Uisw_101	152	NA	NA	NA	NA	NA	NA	Uisw_101_00499
+CP159821.1	Prodigal:2.6	CDS	472058	473335	.	+	0	Uisw_101_00498	Uisw_101	425	OG0004367	NA	NA	COG2244	RfbX	Membrane protein involved in the export of O-antigen and teichoic acid	Uisw_101_00499
+CP159821.1	Prodigal:2.6	CDS	473332	474519	.	+	0	Uisw_101_00499	Uisw_101	395	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_101_00499
+CP159821.1	Prodigal:2.6	CDS	474497	475447	.	-	0	Uisw_101_00500	Uisw_101	316	OG0005332	NA	NA	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	Uisw_101_00499
+CP159821.1	Prodigal:2.6	CDS	475512	476780	.	+	0	Uisw_101_00501	Uisw_101	422	OG0005333	NA	NA	COG3307	RfaL	O-antigen ligase	Uisw_101_00499
+CP159821.1	Prodigal:2.6	CDS	476758	477882	.	+	0	Uisw_101_00502	Uisw_101	374	OG0001446	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_101_00499
+CP159821.1	Prodigal:2.6	CDS	477857	478627	.	+	0	Uisw_101_00503	Uisw_101	256	OG0001663	NA	NA	COG1922	WecG	UDP-N-acetyl-D-mannosaminuronic acid transferase, WecB/TagA/CpsF family	Uisw_101_00499
+CP159821.1	Prodigal:2.6	CDS	479168	480169	.	-	0	Uisw_101_00504	Uisw_101	333	OG0000001	NA	NA	COG1087	GalE	UDP-glucose 4-epimerase	Uisw_101_00499
+CP159820.1	Prodigal:2.6	CDS	472855	473547	.	+	0	Uisw_104_00502	Uisw_104	230	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	Uisw_104_00507
+CP159820.1	Prodigal:2.6	CDS	473540	474460	.	+	0	Uisw_104_00503	Uisw_104	306	OG0001592	NA	NA	COG3751	EGL9	Proline 4-hydroxylase (includes Rps23 Pro-64 3,4-dihydroxylase Tpa1), contains SM-20 domain	Uisw_104_00507
+CP159820.1	Prodigal:2.6	CDS	474453	475508	.	-	0	Uisw_104_00504	Uisw_104	351	NA	NA	NA	NA	NA	NA	Uisw_104_00507
+CP159820.1	Prodigal:2.6	CDS	475530	476498	.	-	0	Uisw_104_00505	Uisw_104	322	OG0000008	NA	NA	NA	NA	NA	Uisw_104_00507
+CP159820.1	Prodigal:2.6	CDS	476623	477891	.	+	0	Uisw_104_00506	Uisw_104	422	OG0004367	NA	NA	COG2244	RfbX	Membrane protein involved in the export of O-antigen and teichoic acid	Uisw_104_00507
+CP159820.1	Prodigal:2.6	CDS	477894	479081	.	+	0	Uisw_104_00507	Uisw_104	395	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_104_00507
+CP159820.1	Prodigal:2.6	CDS	479059	480009	.	-	0	Uisw_104_00508	Uisw_104	316	OG0005332	NA	NA	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	Uisw_104_00507
+CP159820.1	Prodigal:2.6	CDS	480074	481342	.	+	0	Uisw_104_00509	Uisw_104	422	OG0005333	NA	NA	NA	NA	NA	Uisw_104_00507
+CP159820.1	Prodigal:2.6	CDS	481320	482444	.	+	0	Uisw_104_00510	Uisw_104	374	OG0001446	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_104_00507
+CP159820.1	Prodigal:2.6	CDS	482419	483189	.	+	0	Uisw_104_00511	Uisw_104	256	OG0001663	NA	NA	COG1922	WecG	UDP-N-acetyl-D-mannosaminuronic acid transferase, WecB/TagA/CpsF family	Uisw_104_00507
+CP159820.1	Prodigal:2.6	CDS	483600	484292	.	-	0	Uisw_104_00512	Uisw_104	230	OG0000001	NA	NA	COG1087	GalE	UDP-glucose 4-epimerase	Uisw_104_00507
+CP159812.1	Prodigal:2.6	CDS	1147853	1148215	.	+	0	Uisw_136_01246	Uisw_136	120	OG0000070	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	Uisw_136_01251
+CP159812.1	Prodigal:2.6	CDS	1148219	1148566	.	+	0	Uisw_136_01247	Uisw_136	115	OG0000641	NA	NA	NA	NA	NA	Uisw_136_01251
+CP159812.1	Prodigal:2.6	CDS	1148612	1149154	.	+	0	Uisw_136_01248	Uisw_136	180	OG0000982	NA	NA	COG4785	NlpI	Lipoprotein NlpI, contains TPR repeats	Uisw_136_01251
+CP159812.1	Prodigal:2.6	CDS	1149156	1150331	.	-	0	Uisw_136_01249	Uisw_136	391	OG0000664	NA	NA	COG1196	Smc	Chromosome segregation ATPase Smc	Uisw_136_01251
+CP159812.1	Prodigal:2.6	CDS	1150419	1151303	.	-	0	Uisw_136_01250	Uisw_136	294	OG0000688	NA	NA	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	Uisw_136_01251
+CP159812.1	Prodigal:2.6	CDS	1151343	1152323	.	-	0	Uisw_136_01251	Uisw_136	326	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_136_01251
+CP159812.1	Prodigal:2.6	CDS	1152333	1152836	.	-	0	Uisw_136_01252	Uisw_136	167	OG0000730	NA	NA	NA	NA	NA	Uisw_136_01251
+CP159812.1	Prodigal:2.6	CDS	1152854	1154929	.	+	0	Uisw_136_01253	Uisw_136	691	OG0000362	K01354	oligopeptidase B [EC:3.4.21.83]	COG1770	PtrB	Protease II	Uisw_136_01251
+CP159812.1	Prodigal:2.6	CDS	1154940	1155275	.	-	0	Uisw_136_01254	Uisw_136	111	OG0000593	NA	NA	COG5510	EcnA	Entericidin EcnA/EcnB	Uisw_136_01251
+CP159812.1	Prodigal:2.6	CDS	1155377	1156687	.	+	0	Uisw_136_01255	Uisw_136	436	OG0001032	K06901	adenine/guanine/hypoxanthine permease	COG2252	NCS2	Xanthine/guanine/uracil/vitamin C permease GhxP/GhxQ, nucleobase:cation symporter 2 ( NCS2) family	Uisw_136_01251
+CP159812.1	Prodigal:2.6	CDS	1156721	1157251	.	-	0	Uisw_136_01256	Uisw_136	176	OG0000119	NA	NA	COG2236	Hpt1	Hypoxanthine phosphoribosyltransferase	Uisw_136_01251
+CP159818.1	Prodigal:2.6	CDS	455438	455605	.	-	0	Uisw_114_00539	Uisw_114	55	OG0003331	NA	NA	NA	NA	NA	Uisw_114_00544
+CP159818.1	Prodigal:2.6	CDS	455925	459404	.	+	0	Uisw_114_00540	Uisw_114	1159	OG0004424	NA	NA	COG3210	FhaB	Large exoprotein involved in heme utilization or adhesion	Uisw_114_00544
+CP159818.1	Prodigal:2.6	CDS	459432	459731	.	+	0	Uisw_114_00541	Uisw_114	99	OG0002630	NA	NA	NA	NA	NA	Uisw_114_00544
+CP159818.1	Prodigal:2.6	CDS	459872	460456	.	+	0	Uisw_114_00542	Uisw_114	194	OG0003300	NA	NA	NA	NA	NA	Uisw_114_00544
+CP159818.1	Prodigal:2.6	CDS	460453	461187	.	+	0	Uisw_114_00543	Uisw_114	244	OG0000008	NA	NA	NA	NA	NA	Uisw_114_00544
+CP159818.1	Prodigal:2.6	CDS	461184	462197	.	+	0	Uisw_114_00544	Uisw_114	337	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_114_00544
+CP159818.1	Prodigal:2.6	CDS	462190	463500	.	+	0	Uisw_114_00545	Uisw_114	436	OG0002850	NA	NA	COG2244	RfbX	Membrane protein involved in the export of O-antigen and teichoic acid	Uisw_114_00544
+CP159818.1	Prodigal:2.6	CDS	463503	463697	.	+	0	Uisw_114_00546	Uisw_114	64	OG0001696	NA	NA	NA	NA	NA	Uisw_114_00544
+CP159818.1	Prodigal:2.6	CDS	463871	464665	.	+	0	Uisw_114_00547	Uisw_114	264	OG0001446	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_114_00544
+CP159818.1	Prodigal:2.6	CDS	464675	466057	.	+	0	Uisw_114_00548	Uisw_114	460	OG0003726	NA	NA	NA	NA	NA	Uisw_114_00544
+CP159818.1	Prodigal:2.6	CDS	466067	466804	.	+	0	Uisw_114_00549	Uisw_114	245	OG0001663	NA	NA	COG1922	WecG	UDP-N-acetyl-D-mannosaminuronic acid transferase, WecB/TagA/CpsF family	Uisw_114_00544
+CP159818.1	Prodigal:2.6	CDS	477855	478598	.	-	0	Uisw_114_00558	Uisw_114	247	OG0000008	NA	NA	NA	NA	NA	Uisw_114_00563
+CP159818.1	Prodigal:2.6	CDS	478856	480034	.	+	0	Uisw_114_00559	Uisw_114	392	OG0001916	NA	NA	COG3883	CwlO1	Uncharacterized N-terminal coiled-coil domain of peptidoglycan hydrolase CwlO	Uisw_114_00563
+CP159818.1	Prodigal:2.6	CDS	480015	480137	.	+	0	Uisw_114_00560	Uisw_114	40	NA	NA	NA	NA	NA	NA	Uisw_114_00563
+CP159818.1	Prodigal:2.6	CDS	480167	480433	.	+	0	Uisw_114_00561	Uisw_114	88	OG0000102	NA	NA	NA	NA	NA	Uisw_114_00563
+CP159818.1	Prodigal:2.6	CDS	480423	480881	.	+	0	Uisw_114_00562	Uisw_114	152	OG0000043	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	Uisw_114_00563
+CP159818.1	Prodigal:2.6	CDS	480899	482008	.	+	0	Uisw_114_00563	Uisw_114	369	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_114_00563
+CP159818.1	Prodigal:2.6	CDS	482005	482721	.	+	0	Uisw_114_00564	Uisw_114	238	OG0000041	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	Uisw_114_00563
+CP159818.1	Prodigal:2.6	CDS	482731	483315	.	+	0	Uisw_114_00565	Uisw_114	194	OG0001172	NA	NA	COG0279	GmhA	Phosphoheptose isomerase	Uisw_114_00563
+CP159818.1	Prodigal:2.6	CDS	483309	483845	.	+	0	Uisw_114_00566	Uisw_114	178	OG0000015	NA	NA	COG0241	HisB1/GmhB	Histidinol phosphatase/D-glycero-mannoheptose bisphosphatephosphatase, HAD superfamily	Uisw_114_00563
+CP159818.1	Prodigal:2.6	CDS	483832	484305	.	+	0	Uisw_114_00567	Uisw_114	157	OG0000195	NA	NA	COG0176	TalA	Transaldolase/fructose-6-phosphate aldolase	Uisw_114_00563
+CP159818.1	Prodigal:2.6	CDS	484544	485536	.	+	0	Uisw_114_00568	Uisw_114	330	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	Uisw_114_00563
+CP159824.1	Prodigal:2.6	CDS	153456	154160	.	+	0	Uisw_092_00168	Uisw_092	234	OG0000584	NA	NA	COG2890	HemK	Methylase of polypeptide chain release factors	Uisw_092_00173
+CP159824.1	Prodigal:2.6	CDS	154157	154366	.	+	0	Uisw_092_00169	Uisw_092	69	OG0002417	NA	NA	NA	NA	NA	Uisw_092_00173
+CP159824.1	Prodigal:2.6	CDS	154408	154890	.	+	0	Uisw_092_00170	Uisw_092	160	OG0002417	NA	NA	NA	NA	NA	Uisw_092_00173
+CP159824.1	Prodigal:2.6	CDS	154887	156608	.	+	0	Uisw_092_00171	Uisw_092	573	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_092_00173
+CP159824.1	Prodigal:2.6	CDS	156822	156914	.	+	0	Uisw_092_00172	Uisw_092	30	NA	NA	NA	NA	NA	NA	Uisw_092_00173
+CP159824.1	Prodigal:2.6	CDS	157096	157746	.	-	0	Uisw_092_00173	Uisw_092	216	OG0000985	NA	NA	NA	NA	NA	Uisw_092_00173
+CP159824.1	Prodigal:2.6	CDS	157743	158507	.	-	0	Uisw_092_00174	Uisw_092	254	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_092_00173
+CP159824.1	Prodigal:2.6	CDS	158482	159612	.	-	0	Uisw_092_00175	Uisw_092	376	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_092_00173
+CP159824.1	Prodigal:2.6	CDS	159680	160831	.	+	0	Uisw_092_00176	Uisw_092	383	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_092_00173
+CP159824.1	Prodigal:2.6	CDS	160828	161601	.	+	0	Uisw_092_00177	Uisw_092	257	OG0000002	K16698	teichuronic acid biosynthesis glycosyltransferase TuaG [EC:2.4.-.-]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_092_00173
+CP159824.1	Prodigal:2.6	CDS	161608	162429	.	+	0	Uisw_092_00178	Uisw_092	273	OG0000008	NA	NA	NA	NA	NA	Uisw_092_00173
+CP159810.1	Prodigal:2.6	CDS	813964	816225	.	-	0	Uisw_090_00913	Uisw_090	753	OG0001696	K15914	N,N'-diacetylbacillosaminyl-diphospho-undecaprenol alpha-1,3-N-acetylgalactosaminyltransferase [EC:2.4.1.290]	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_090_00918
+CP159810.1	Prodigal:2.6	CDS	816229	817062	.	-	0	Uisw_090_00914	Uisw_090	277	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_090_00918
+CP159810.1	Prodigal:2.6	CDS	817198	817944	.	-	0	Uisw_090_00915	Uisw_090	248	OG0003142	NA	NA	NA	NA	NA	Uisw_090_00918
+CP159810.1	Prodigal:2.6	CDS	818167	818403	.	-	0	Uisw_090_00916	Uisw_090	78	OG0003142	NA	NA	NA	NA	NA	Uisw_090_00918
+CP159810.1	Prodigal:2.6	CDS	818588	819760	.	-	0	Uisw_090_00917	Uisw_090	390	OG0003142	NA	NA	NA	NA	NA	Uisw_090_00918
+CP159810.1	Prodigal:2.6	CDS	819889	820755	.	-	0	Uisw_090_00918	Uisw_090	288	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_090_00918
+CP159810.1	Prodigal:2.6	CDS	820712	820996	.	-	0	Uisw_090_00919	Uisw_090	94	OG0001829	NA	NA	NA	NA	NA	Uisw_090_00918
+CP159810.1	Prodigal:2.6	CDS	820993	821931	.	-	0	Uisw_090_00920	Uisw_090	312	NA	NA	NA	NA	NA	NA	Uisw_090_00918
+CP159810.1	Prodigal:2.6	CDS	822131	823429	.	-	0	Uisw_090_00921	Uisw_090	432	OG0000039	K02474	UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	Uisw_090_00918
+CP159810.1	Prodigal:2.6	CDS	823463	824530	.	-	0	Uisw_090_00922	Uisw_090	355	OG0003301	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_090_00918
+CP159810.1	Prodigal:2.6	CDS	824571	825512	.	-	0	Uisw_090_00923	Uisw_090	313	NA	NA	NA	NA	NA	NA	Uisw_090_00918
+CP159810.1	Prodigal:2.6	CDS	1125857	1126219	.	+	0	Uisw_090_01261	Uisw_090	120	OG0000070	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	Uisw_090_01266
+CP159810.1	Prodigal:2.6	CDS	1126223	1126570	.	+	0	Uisw_090_01262	Uisw_090	115	OG0000641	NA	NA	COG3011	YuxK	Predicted thiol-disulfide oxidoreductase YuxK, DCC family	Uisw_090_01266
+CP159810.1	Prodigal:2.6	CDS	1126618	1127172	.	+	0	Uisw_090_01263	Uisw_090	184	OG0000982	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	Uisw_090_01266
+CP159810.1	Prodigal:2.6	CDS	1127174	1128373	.	-	0	Uisw_090_01264	Uisw_090	399	OG0000664	NA	NA	COG1196	Smc	Chromosome segregation ATPase Smc	Uisw_090_01266
+CP159810.1	Prodigal:2.6	CDS	1128471	1129355	.	-	0	Uisw_090_01265	Uisw_090	294	OG0000688	NA	NA	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	Uisw_090_01266
+CP159810.1	Prodigal:2.6	CDS	1129402	1130379	.	-	0	Uisw_090_01266	Uisw_090	325	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_090_01266
+CP159810.1	Prodigal:2.6	CDS	1130389	1130892	.	-	0	Uisw_090_01267	Uisw_090	167	OG0000730	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	Uisw_090_01266
+CP159810.1	Prodigal:2.6	CDS	1130910	1132985	.	+	0	Uisw_090_01268	Uisw_090	691	OG0000362	K01354	oligopeptidase B [EC:3.4.21.83]	COG1770	PtrB	Protease II	Uisw_090_01266
+CP159810.1	Prodigal:2.6	CDS	1132996	1133331	.	-	0	Uisw_090_01269	Uisw_090	111	OG0000593	NA	NA	COG2913	BamE	Outer membrane protein assembly factor BamE	Uisw_090_01266
+CP159810.1	Prodigal:2.6	CDS	1133433	1134536	.	+	0	Uisw_090_01270	Uisw_090	367	OG0001032	K06901	adenine/guanine/hypoxanthine permease	COG2252	NCS2	Xanthine/guanine/uracil/vitamin C permease GhxP/GhxQ, nucleobase:cation symporter 2 ( NCS2) family	Uisw_090_01266
+CP159810.1	Prodigal:2.6	CDS	1134584	1134742	.	+	0	Uisw_090_01271	Uisw_090	52	OG0001032	NA	NA	COG2252	NCS2	Xanthine/guanine/uracil/vitamin C permease GhxP/GhxQ, nucleobase:cation symporter 2 ( NCS2) family	Uisw_090_01266
+CP159813.1	Prodigal:2.6	CDS	147369	148994	.	+	0	Uisw_134_02_00154	Uisw_134_02	541	OG0001382	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_134_02_00159
+CP159813.1	Prodigal:2.6	CDS	149000	149731	.	+	0	Uisw_134_02_00155	Uisw_134_02	243	OG0000140	NA	NA	COG0398	TVP38	Uncharacterized membrane protein YdjX, related to fungal oxalate transporter, TVP38/TMEM64 family	Uisw_134_02_00159
+CP159813.1	Prodigal:2.6	CDS	149731	150438	.	+	0	Uisw_134_02_00156	Uisw_134_02	235	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_134_02_00159
+CP159813.1	Prodigal:2.6	CDS	150453	151508	.	+	0	Uisw_134_02_00157	Uisw_134_02	351	OG0001881	NA	NA	COG2907	Ppro0129	Predicted flavin-containing amine oxidase	Uisw_134_02_00159
+CP159813.1	Prodigal:2.6	CDS	151498	152226	.	+	0	Uisw_134_02_00158	Uisw_134_02	242	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	Uisw_134_02_00159
+CP159813.1	Prodigal:2.6	CDS	152223	153269	.	-	0	Uisw_134_02_00159	Uisw_134_02	348	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_134_02_00159
+CP159813.1	Prodigal:2.6	CDS	153236	153445	.	-	0	Uisw_134_02_00160	Uisw_134_02	69	OG0000985	NA	NA	NA	NA	NA	Uisw_134_02_00159
+CP159813.1	Prodigal:2.6	CDS	153521	155155	.	+	0	Uisw_134_02_00161	Uisw_134_02	544	OG0001882	NA	NA	NA	NA	NA	Uisw_134_02_00159
+CP159813.1	Prodigal:2.6	CDS	155157	155729	.	+	0	Uisw_134_02_00162	Uisw_134_02	190	OG0000661	NA	NA	NA	NA	NA	Uisw_134_02_00159
+CP159813.1	Prodigal:2.6	CDS	155735	156241	.	+	0	Uisw_134_02_00163	Uisw_134_02	168	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_134_02_00159
+CP159813.1	Prodigal:2.6	CDS	156563	157234	.	+	0	Uisw_134_02_00164	Uisw_134_02	223	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_134_02_00159
+CP159813.1	Prodigal:2.6	CDS	149000	149731	.	+	0	Uisw_134_02_00155	Uisw_134_02	243	OG0000140	NA	NA	COG0398	TVP38	Uncharacterized membrane protein YdjX, related to fungal oxalate transporter, TVP38/TMEM64 family	Uisw_134_02_00160
+CP159813.1	Prodigal:2.6	CDS	149731	150438	.	+	0	Uisw_134_02_00156	Uisw_134_02	235	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_134_02_00160
+CP159813.1	Prodigal:2.6	CDS	150453	151508	.	+	0	Uisw_134_02_00157	Uisw_134_02	351	OG0001881	NA	NA	COG2907	Ppro0129	Predicted flavin-containing amine oxidase	Uisw_134_02_00160
+CP159813.1	Prodigal:2.6	CDS	151498	152226	.	+	0	Uisw_134_02_00158	Uisw_134_02	242	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	Uisw_134_02_00160
+CP159813.1	Prodigal:2.6	CDS	152223	153269	.	-	0	Uisw_134_02_00159	Uisw_134_02	348	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_134_02_00160
+CP159813.1	Prodigal:2.6	CDS	153236	153445	.	-	0	Uisw_134_02_00160	Uisw_134_02	69	OG0000985	NA	NA	NA	NA	NA	Uisw_134_02_00160
+CP159813.1	Prodigal:2.6	CDS	153521	155155	.	+	0	Uisw_134_02_00161	Uisw_134_02	544	OG0001882	NA	NA	NA	NA	NA	Uisw_134_02_00160
+CP159813.1	Prodigal:2.6	CDS	155157	155729	.	+	0	Uisw_134_02_00162	Uisw_134_02	190	OG0000661	NA	NA	NA	NA	NA	Uisw_134_02_00160
+CP159813.1	Prodigal:2.6	CDS	155735	156241	.	+	0	Uisw_134_02_00163	Uisw_134_02	168	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_134_02_00160
+CP159813.1	Prodigal:2.6	CDS	156563	157234	.	+	0	Uisw_134_02_00164	Uisw_134_02	223	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_134_02_00160
+CP159813.1	Prodigal:2.6	CDS	157371	158093	.	+	0	Uisw_134_02_00165	Uisw_134_02	240	OG0001533	NA	NA	NA	NA	NA	Uisw_134_02_00160
+CP159813.1	Prodigal:2.6	CDS	428568	429260	.	+	0	Uisw_134_02_00465	Uisw_134_02	230	OG0002446	NA	NA	NA	NA	NA	Uisw_134_02_00470
+CP159813.1	Prodigal:2.6	CDS	429262	430143	.	+	0	Uisw_134_02_00466	Uisw_134_02	293	OG0001641	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	Uisw_134_02_00470
+CP159813.1	Prodigal:2.6	CDS	430143	430841	.	+	0	Uisw_134_02_00467	Uisw_134_02	232	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_134_02_00470
+CP159813.1	Prodigal:2.6	CDS	430852	431547	.	-	0	Uisw_134_02_00468	Uisw_134_02	231	OG0000796	K06206	sugar fermentation stimulation protein A	COG1489	SfsA	DNA-binding protein, stimulates sugar fermentation	Uisw_134_02_00470
+CP159813.1	Prodigal:2.6	CDS	431569	432318	.	+	0	Uisw_134_02_00469	Uisw_134_02	249	OG0000785	NA	NA	COG1058	CinA	ADP-ribose pyrophosphatase domain of DNA damage- and competence-inducible protein CinA	Uisw_134_02_00470
+CP159813.1	Prodigal:2.6	CDS	432389	433603	.	+	0	Uisw_134_02_00470	Uisw_134_02	404	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_134_02_00470
+CP159813.1	Prodigal:2.6	CDS	433614	435308	.	+	0	Uisw_134_02_00471	Uisw_134_02	564	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	Uisw_134_02_00470
+CP159813.1	Prodigal:2.6	CDS	435301	436137	.	+	0	Uisw_134_02_00472	Uisw_134_02	278	OG0001448	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_134_02_00470
+CP159813.1	Prodigal:2.6	CDS	436145	436540	.	+	0	Uisw_134_02_00473	Uisw_134_02	131	OG0001011	K00682	gamma-glutamylcyclotransferase [EC:4.3.2.9]	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	Uisw_134_02_00470
+CP159813.1	Aragorn:1.2	tRNA	436595	436680	.	+	.	Uisw_134_02_00474	Uisw_134_02	NA	NA	NA	NA	NA	NA	NA	Uisw_134_02_00470
+CP159813.1	Prodigal:2.6	CDS	436685	438649	.	+	0	Uisw_134_02_00475	Uisw_134_02	654	OG0001292	K16568	exopolysaccharide production protein ExoZ	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	Uisw_134_02_00470
+DS995298.1	Prodigal:2.6	CDS	996343	997377	.	-	0	HTCC7211_01097	HTCC7211	344	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	HTCC7211_01102
+DS995298.1	Prodigal:2.6	CDS	997484	998101	.	-	0	HTCC7211_01098	HTCC7211	205	OG0001159	NA	NA	NA	NA	NA	HTCC7211_01102
+DS995298.1	Prodigal:2.6	CDS	998196	999344	.	-	0	HTCC7211_01099	HTCC7211	382	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	HTCC7211_01102
+DS995298.1	Prodigal:2.6	CDS	999416	1000243	.	+	0	HTCC7211_01100	HTCC7211	275	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HTCC7211_01102
+DS995298.1	Prodigal:2.6	CDS	1000243	1000980	.	+	0	HTCC7211_01101	HTCC7211	245	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HTCC7211_01102
+DS995298.1	Prodigal:2.6	CDS	1000973	1001977	.	-	0	HTCC7211_01102	HTCC7211	334	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7211_01102
+DS995298.1	Prodigal:2.6	CDS	1001980	1002813	.	-	0	HTCC7211_01103	HTCC7211	277	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	HTCC7211_01102
+DS995298.1	Prodigal:2.6	CDS	1002898	1003788	.	+	0	HTCC7211_01104	HTCC7211	296	OG0001180	NA	NA	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	HTCC7211_01102
+DS995298.1	Prodigal:2.6	CDS	1003858	1004067	.	+	0	HTCC7211_01105	HTCC7211	69	OG0001248	NA	NA	NA	NA	NA	HTCC7211_01102
+DS995298.1	Prodigal:2.6	CDS	1004241	1005446	.	-	0	HTCC7211_01106	HTCC7211	401	OG0000799	K00971	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0836	CpsB	Mannose-1-phosphate guanylyltransferase	HTCC7211_01102
+DS995298.1	Prodigal:2.6	CDS	1005446	1007164	.	-	0	HTCC7211_01107	HTCC7211	572	OG0000062	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HTCC7211_01102
+JNIU01000001.1	Prodigal:2.6	CDS	82232	84034	.	-	0	HTCC7217_00094	HTCC7217	600	OG0001196	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	HTCC7217_00099
+JNIU01000001.1	Prodigal:2.6	CDS	84022	85218	.	-	0	HTCC7217_00095	HTCC7217	398	OG0000081	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7217_00099
+JNIU01000001.1	Prodigal:2.6	CDS	85245	86516	.	-	0	HTCC7217_00096	HTCC7217	423	OG0002855	NA	NA	NA	NA	NA	HTCC7217_00099
+JNIU01000001.1	Prodigal:2.6	CDS	86506	87684	.	-	0	HTCC7217_00097	HTCC7217	392	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7217_00099
+JNIU01000001.1	Prodigal:2.6	CDS	87726	88754	.	-	0	HTCC7217_00098	HTCC7217	342	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HTCC7217_00099
+JNIU01000001.1	Prodigal:2.6	CDS	88760	89845	.	-	0	HTCC7217_00099	HTCC7217	361	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7217_00099
+JNIU01000001.1	Prodigal:2.6	CDS	89835	91379	.	-	0	HTCC7217_00100	HTCC7217	514	OG0004848	NA	NA	NA	NA	NA	HTCC7217_00099
+JNIU01000001.1	Prodigal:2.6	CDS	91399	92574	.	-	0	HTCC7217_00101	HTCC7217	391	OG0001696	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7217_00099
+JNIU01000001.1	Prodigal:2.6	CDS	92567	93286	.	-	0	HTCC7217_00102	HTCC7217	239	OG0000008	NA	NA	NA	NA	NA	HTCC7217_00099
+JNIU01000001.1	Prodigal:2.6	CDS	93380	94117	.	-	0	HTCC7217_00103	HTCC7217	245	OG0001663	NA	NA	COG1922	WecG	UDP-N-acetyl-D-mannosaminuronic acid transferase, WecB/TagA/CpsF family	HTCC7217_00099
+JNIU01000001.1	Prodigal:2.6	CDS	94124	94930	.	-	0	HTCC7217_00104	HTCC7217	268	OG0000008	NA	NA	NA	NA	NA	HTCC7217_00099
+JNIU01000001.1	Prodigal:2.6	CDS	354776	355810	.	-	0	HTCC7217_00409	HTCC7217	344	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	HTCC7217_00414
+JNIU01000001.1	Prodigal:2.6	CDS	355917	356534	.	-	0	HTCC7217_00410	HTCC7217	205	OG0001159	NA	NA	NA	NA	NA	HTCC7217_00414
+JNIU01000001.1	Prodigal:2.6	CDS	356629	357777	.	-	0	HTCC7217_00411	HTCC7217	382	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	HTCC7217_00414
+JNIU01000001.1	Prodigal:2.6	CDS	357849	358676	.	+	0	HTCC7217_00412	HTCC7217	275	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HTCC7217_00414
+JNIU01000001.1	Prodigal:2.6	CDS	358676	359413	.	+	0	HTCC7217_00413	HTCC7217	245	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HTCC7217_00414
+JNIU01000001.1	Prodigal:2.6	CDS	359406	360410	.	-	0	HTCC7217_00414	HTCC7217	334	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7217_00414
+JNIU01000001.1	Prodigal:2.6	CDS	360413	361246	.	-	0	HTCC7217_00415	HTCC7217	277	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	HTCC7217_00414
+JNIU01000001.1	Prodigal:2.6	CDS	361331	362221	.	+	0	HTCC7217_00416	HTCC7217	296	OG0001180	NA	NA	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	HTCC7217_00414
+JNIU01000001.1	Prodigal:2.6	CDS	362291	362500	.	+	0	HTCC7217_00417	HTCC7217	69	OG0001248	NA	NA	NA	NA	NA	HTCC7217_00414
+JNIU01000001.1	Prodigal:2.6	CDS	362702	363799	.	-	0	HTCC7217_00418	HTCC7217	365	OG0000071	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	HTCC7217_00414
+JNIU01000001.1	Prodigal:2.6	CDS	363796	364893	.	-	0	HTCC7217_00419	HTCC7217	365	OG0001655	K09459	phosphonopyruvate decarboxylase [EC:4.1.1.82]	COG4032	NA	Sulfopyruvate decarboxylase, TPP-binding subunit (coenzyme M biosynthesis)	HTCC7217_00414
+JNIU01000001.1	Prodigal:2.6	CDS	813443	814963	.	+	0	HTCC7217_00883	HTCC7217	506	OG0005138	NA	NA	COG1032	YgiQ	Radical SAM superfamily enzyme YgiQ, UPF0313 family	HTCC7217_00888
+JNIU01000001.1	Prodigal:2.6	CDS	814972	815886	.	+	0	HTCC7217_00884	HTCC7217	304	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC7217_00888
+JNIU01000001.1	Prodigal:2.6	CDS	815896	816759	.	-	0	HTCC7217_00885	HTCC7217	287	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HTCC7217_00888
+JNIU01000001.1	Prodigal:2.6	CDS	816756	817817	.	-	0	HTCC7217_00886	HTCC7217	353	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HTCC7217_00888
+JNIU01000001.1	Prodigal:2.6	CDS	817756	818757	.	-	0	HTCC7217_00887	HTCC7217	333	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC7217_00888
+JNIU01000001.1	Prodigal:2.6	CDS	818761	819819	.	-	0	HTCC7217_00888	HTCC7217	352	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7217_00888
+JNIU01000001.1	Prodigal:2.6	CDS	819791	821332	.	-	0	HTCC7217_00889	HTCC7217	513	NA	NA	NA	COG3463	NA	Uncharacterized membrane protein	HTCC7217_00888
+JNIU01000001.1	Prodigal:2.6	CDS	821325	822467	.	-	0	HTCC7217_00890	HTCC7217	380	OG0005190	NA	NA	NA	NA	NA	HTCC7217_00888
+JNIU01000001.1	Prodigal:2.6	CDS	822469	824655	.	-	0	HTCC7217_00891	HTCC7217	728	OG0005191	NA	NA	NA	NA	NA	HTCC7217_00888
+JNIU01000001.1	Prodigal:2.6	CDS	824639	826480	.	-	0	HTCC7217_00892	HTCC7217	613	OG0005190	NA	NA	NA	NA	NA	HTCC7217_00888
+JNIU01000001.1	Prodigal:2.6	CDS	826473	828674	.	-	0	HTCC7217_00893	HTCC7217	733	OG0005191	NA	NA	NA	NA	NA	HTCC7217_00888
+JNIU01000001.1	Prodigal:2.6	CDS	828708	829976	.	-	0	HTCC7217_00894	HTCC7217	422	OG0005189	NA	NA	COG2244	RfbX	Membrane protein involved in the export of O-antigen and teichoic acid	HTCC7217_00899
+JNIU01000001.1	Prodigal:2.6	CDS	829983	830486	.	-	0	HTCC7217_00895	HTCC7217	167	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HTCC7217_00899
+JNIU01000001.1	Prodigal:2.6	CDS	830473	831537	.	-	0	HTCC7217_00896	HTCC7217	354	OG0000001	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC7217_00899
+JNIU01000001.1	Prodigal:2.6	CDS	831534	832655	.	-	0	HTCC7217_00897	HTCC7217	373	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC7217_00899
+JNIU01000001.1	Prodigal:2.6	CDS	832649	833443	.	-	0	HTCC7217_00898	HTCC7217	264	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HTCC7217_00899
+JNIU01000001.1	Prodigal:2.6	CDS	833449	834657	.	-	0	HTCC7217_00899	HTCC7217	402	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC7217_00899
+JNIU01000001.1	Prodigal:2.6	CDS	834647	835483	.	-	0	HTCC7217_00900	HTCC7217	278	OG0000002	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HTCC7217_00899
+JNIU01000001.1	Prodigal:2.6	CDS	835488	836474	.	-	0	HTCC7217_00901	HTCC7217	328	OG0002821	NA	NA	COG1215	BcsA	Glycosyltransferase, catalytic subunit of cellulose synthase and poly-beta-1,6-N-acetylglucosamine synthase	HTCC7217_00899
+JNIU01000001.1	Prodigal:2.6	CDS	836483	837442	.	-	0	HTCC7217_00902	HTCC7217	319	OG0001783	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC7217_00899
+JNIU01000001.1	Prodigal:2.6	CDS	837439	838212	.	-	0	HTCC7217_00903	HTCC7217	257	OG0002641	NA	NA	COG0558	PgsA	Phosphatidylglycerophosphate synthase	HTCC7217_00899
+JNIU01000001.1	Prodigal:2.6	CDS	838384	838827	.	-	0	HTCC7217_00904	HTCC7217	147	NA	NA	NA	NA	NA	NA	HTCC7217_00899
+HIMB1420-00000000001	Prodigal:2.6	CDS	695223	696524	.	+	0	HIMB1420_00710	HIMB1420	433	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1420_00715
+HIMB1420-00000000001	Prodigal:2.6	CDS	696530	698302	.	+	0	HIMB1420_00711	HIMB1420	590	OG0001497	NA	NA	NA	NA	NA	HIMB1420_00715
+HIMB1420-00000000001	Prodigal:2.6	CDS	698302	700062	.	+	0	HIMB1420_00712	HIMB1420	586	OG0000032	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1420_00715
+HIMB1420-00000000001	Prodigal:2.6	CDS	700117	701313	.	+	0	HIMB1420_00713	HIMB1420	398	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1420_00715
+HIMB1420-00000000001	Prodigal:2.6	CDS	701297	702142	.	+	0	HIMB1420_00714	HIMB1420	281	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1420_00715
+HIMB1420-00000000001	Prodigal:2.6	CDS	702149	703303	.	-	0	HIMB1420_00715	HIMB1420	384	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1420_00715
+HIMB1420-00000000001	Prodigal:2.6	CDS	703303	704052	.	-	0	HIMB1420_00716	HIMB1420	249	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1420_00715
+HIMB1420-00000000001	Prodigal:2.6	CDS	704033	705136	.	-	0	HIMB1420_00717	HIMB1420	367	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1420_00715
+HIMB1420-00000000001	Prodigal:2.6	CDS	705235	706089	.	+	0	HIMB1420_00718	HIMB1420	284	OG0000008	NA	NA	NA	NA	NA	HIMB1420_00715
+HIMB1420-00000000001	Prodigal:2.6	CDS	706093	706884	.	-	0	HIMB1420_00719	HIMB1420	263	OG0002258	NA	NA	NA	NA	NA	HIMB1420_00715
+HIMB1420-00000000001	Prodigal:2.6	CDS	706881	707552	.	-	0	HIMB1420_00720	HIMB1420	223	OG0002894	NA	NA	NA	NA	NA	HIMB1420_00715
+HIMB1427-00000000016	Prodigal:2.6	CDS	1048	2061	.	-	0	HIMB1427_01330	HIMB1427	337	OG0001045	NA	NA	COG0472	Rfe	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase/archaeal AglH	HIMB1427_01335
+HIMB1427-00000000016	Prodigal:2.6	CDS	2054	3316	.	-	0	HIMB1427_01331	HIMB1427	420	OG0000877	NA	NA	COG3307	RfaL	O-antigen ligase	HIMB1427_01335
+HIMB1427-00000000016	Prodigal:2.6	CDS	3316	4059	.	-	0	HIMB1427_01332	HIMB1427	247	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1427_01335
+HIMB1427-00000000016	Prodigal:2.6	CDS	4059	5801	.	-	0	HIMB1427_01333	HIMB1427	580	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1427_01335
+HIMB1427-00000000016	Prodigal:2.6	CDS	5804	6895	.	-	0	HIMB1427_01334	HIMB1427	363	OG0001446	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1427_01335
+HIMB1427-00000000016	Prodigal:2.6	CDS	6873	7931	.	-	0	HIMB1427_01335	HIMB1427	352	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1427_01335
+HIMB1427-00000000016	Prodigal:2.6	CDS	7928	8890	.	-	0	HIMB1427_01336	HIMB1427	320	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1427_01335
+HIMB1427-00000000016	Prodigal:2.6	CDS	8890	10038	.	-	0	HIMB1427_01337	HIMB1427	382	OG0001696	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1427_01335
+HIMB1427-00000000016	Prodigal:2.6	CDS	10086	11087	.	+	0	HIMB1427_01338	HIMB1427	333	OG0000001	NA	NA	COG1087	GalE	UDP-glucose 4-epimerase	HIMB1427_01335
+HIMB1427-00000000016	Prodigal:2.6	CDS	11087	11527	.	+	0	HIMB1427_01339	HIMB1427	146	OG0001377	NA	NA	COG2870	RfaE	ADP-heptose synthase, bifunctional sugar kinase/adenylyltransferase	HIMB1427_01335
+HIMB1427-00000000016	Prodigal:2.6	CDS	11595	12350	.	+	0	HIMB1427_01340	HIMB1427	251	OG0001377	NA	NA	COG0615	TagD	Glycerol-3-phosphate cytidylyltransferase, cytidylyltransferase family	HIMB1427_01335
+HIMB1520-00000000001	Prodigal:2.6	CDS	1050977	1051690	.	+	0	HIMB1520_01147	HIMB1520	237	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB1520_01152
+HIMB1520-00000000001	Prodigal:2.6	CDS	1051693	1053045	.	+	0	HIMB1520_01148	HIMB1520	450	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1520_01152
+HIMB1520-00000000001	Prodigal:2.6	CDS	1053172	1054872	.	+	0	HIMB1520_01149	HIMB1520	566	OG0000032	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1520_01152
+HIMB1520-00000000001	Prodigal:2.6	CDS	1054879	1055856	.	+	0	HIMB1520_01150	HIMB1520	325	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1520_01152
+HIMB1520-00000000001	Prodigal:2.6	CDS	1055867	1057006	.	+	0	HIMB1520_01151	HIMB1520	379	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1520_01152
+HIMB1520-00000000001	Prodigal:2.6	CDS	1057010	1058080	.	+	0	HIMB1520_01152	HIMB1520	356	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1520_01152
+HIMB1520-00000000001	Prodigal:2.6	CDS	1058129	1058860	.	-	0	HIMB1520_01153	HIMB1520	243	OG0002067	K07090	uncharacterized protein	NA	NA	NA	HIMB1520_01152
+HIMB1520-00000000001	Prodigal:2.6	CDS	1059038	1059970	.	+	0	HIMB1520_01154	HIMB1520	310	OG0000113	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB1520_01152
+HIMB1520-00000000001	Prodigal:2.6	CDS	1059970	1060797	.	+	0	HIMB1520_01155	HIMB1520	275	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1520_01152
+HIMB1520-00000000001	Prodigal:2.6	CDS	1060794	1061750	.	+	0	HIMB1520_01156	HIMB1520	318	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1520_01152
+HIMB1520-00000000001	Prodigal:2.6	CDS	1061750	1062580	.	+	0	HIMB1520_01157	HIMB1520	276	OG0003211	NA	NA	NA	NA	NA	HIMB1520_01152
+CP003809.1	Prodigal:2.6	CDS	377692	378084	.	-	0	HIMB5_00402	HIMB5	130	OG0001701	NA	NA	NA	NA	NA	HIMB5_00407
+CP003809.1	Prodigal:2.6	CDS	378266	378736	.	-	0	HIMB5_00403	HIMB5	156	OG0001575	NA	NA	NA	NA	NA	HIMB5_00407
+CP003809.1	Prodigal:2.6	CDS	378790	379044	.	+	0	HIMB5_00404	HIMB5	84	OG0001694	NA	NA	NA	NA	NA	HIMB5_00407
+CP003809.1	Aragorn:1.2	tRNA	379096	379172	.	+	.	HIMB5_00405	HIMB5	NA	NA	NA	NA	NA	NA	NA	HIMB5_00407
+CP003809.1	Prodigal:2.6	CDS	379297	380082	.	+	0	HIMB5_00406	HIMB5	261	OG0001205	NA	NA	NA	NA	NA	HIMB5_00407
+CP003809.1	Prodigal:2.6	CDS	380320	381174	.	+	0	HIMB5_00407	HIMB5	284	OG0000985	NA	NA	NA	NA	NA	HIMB5_00407
+CP003809.1	Prodigal:2.6	CDS	381234	381527	.	+	0	HIMB5_00408	HIMB5	97	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB5_00407
+CP003809.1	Prodigal:2.6	CDS	381535	382329	.	-	0	HIMB5_00409	HIMB5	264	OG0002525	NA	NA	COG0584	UgpQ	Glycerophosphoryl diester phosphodiesterase	HIMB5_00407
+CP003809.1	Prodigal:2.6	CDS	382316	383830	.	-	0	HIMB5_00410	HIMB5	504	OG0002234	K01002	phosphoglycerol transferase [EC:2.7.8.20]	COG1368	MdoB	Phosphoglycerol transferase MdoB/OpgB, AlkP superfamily	HIMB5_00407
+CP003809.1	Prodigal:2.6	CDS	383838	384707	.	-	0	HIMB5_00411	HIMB5	289	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB5_00407
+CP003809.1	Prodigal:2.6	CDS	384704	385717	.	-	0	HIMB5_00412	HIMB5	337	OG0000001	K01710	dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB5_00407
+CP003809.1	Prodigal:2.6	CDS	378266	378736	.	-	0	HIMB5_00403	HIMB5	156	OG0001575	NA	NA	NA	NA	NA	HIMB5_00408
+CP003809.1	Prodigal:2.6	CDS	378790	379044	.	+	0	HIMB5_00404	HIMB5	84	OG0001694	NA	NA	NA	NA	NA	HIMB5_00408
+CP003809.1	Aragorn:1.2	tRNA	379096	379172	.	+	.	HIMB5_00405	HIMB5	NA	NA	NA	NA	NA	NA	NA	HIMB5_00408
+CP003809.1	Prodigal:2.6	CDS	379297	380082	.	+	0	HIMB5_00406	HIMB5	261	OG0001205	NA	NA	NA	NA	NA	HIMB5_00408
+CP003809.1	Prodigal:2.6	CDS	380320	381174	.	+	0	HIMB5_00407	HIMB5	284	OG0000985	NA	NA	NA	NA	NA	HIMB5_00408
+CP003809.1	Prodigal:2.6	CDS	381234	381527	.	+	0	HIMB5_00408	HIMB5	97	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB5_00408
+CP003809.1	Prodigal:2.6	CDS	381535	382329	.	-	0	HIMB5_00409	HIMB5	264	OG0002525	NA	NA	COG0584	UgpQ	Glycerophosphoryl diester phosphodiesterase	HIMB5_00408
+CP003809.1	Prodigal:2.6	CDS	382316	383830	.	-	0	HIMB5_00410	HIMB5	504	OG0002234	K01002	phosphoglycerol transferase [EC:2.7.8.20]	COG1368	MdoB	Phosphoglycerol transferase MdoB/OpgB, AlkP superfamily	HIMB5_00408
+CP003809.1	Prodigal:2.6	CDS	383838	384707	.	-	0	HIMB5_00411	HIMB5	289	OG0000041	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	HIMB5_00408
+CP003809.1	Prodigal:2.6	CDS	384704	385717	.	-	0	HIMB5_00412	HIMB5	337	OG0000001	K01710	dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB5_00408
+CP003809.1	Prodigal:2.6	CDS	385718	386245	.	-	0	HIMB5_00413	HIMB5	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	HIMB5_00408
+HIMB1527-00000000002	Prodigal:2.6	CDS	311236	312231	.	-	0	HIMB1527_00967	HIMB1527	331	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	HIMB1527_00972
+HIMB1527-00000000002	Prodigal:2.6	CDS	312332	312940	.	-	0	HIMB1527_00968	HIMB1527	202	OG0001159	NA	NA	COG0851	MinE	Septum formation topological specificity factor MinE	HIMB1527_00972
+HIMB1527-00000000002	Prodigal:2.6	CDS	313036	314184	.	-	0	HIMB1527_00969	HIMB1527	382	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	HIMB1527_00972
+HIMB1527-00000000002	Prodigal:2.6	CDS	314255	315079	.	+	0	HIMB1527_00970	HIMB1527	274	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	NA	NA	NA	HIMB1527_00972
+HIMB1527-00000000002	Prodigal:2.6	CDS	315083	315823	.	+	0	HIMB1527_00971	HIMB1527	246	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HIMB1527_00972
+HIMB1527-00000000002	Prodigal:2.6	CDS	315841	316848	.	-	0	HIMB1527_00972	HIMB1527	335	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1527_00972
+HIMB1527-00000000002	Prodigal:2.6	CDS	316852	317667	.	-	0	HIMB1527_00973	HIMB1527	271	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	HIMB1527_00972
+HIMB1527-00000000002	Prodigal:2.6	CDS	317746	318636	.	+	0	HIMB1527_00974	HIMB1527	296	OG0001180	NA	NA	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	HIMB1527_00972
+HIMB1527-00000000002	Prodigal:2.6	CDS	318705	319235	.	+	0	HIMB1527_00975	HIMB1527	176	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1527_00972
+HIMB1527-00000000002	Prodigal:2.6	CDS	319302	319511	.	+	0	HIMB1527_00976	HIMB1527	69	NA	NA	NA	NA	NA	NA	HIMB1527_00972
+HIMB1527-00000000002	Prodigal:2.6	CDS	319686	320891	.	-	0	HIMB1527_00977	HIMB1527	401	OG0000799	K00971	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0836	CpsB	Mannose-1-phosphate guanylyltransferase	HIMB1527_00972
+HIMB2201-00000000001	Prodigal:2.6	CDS	845019	845969	.	+	0	HIMB2201_00929	HIMB2201	316	OG0001502	NA	NA	NA	NA	NA	HIMB2201_00934
+HIMB2201-00000000001	Prodigal:2.6	CDS	845973	846941	.	-	0	HIMB2201_00930	HIMB2201	322	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2201_00934
+HIMB2201-00000000001	Prodigal:2.6	CDS	846943	847896	.	-	0	HIMB2201_00931	HIMB2201	317	OG0000113	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB2201_00934
+HIMB2201-00000000001	Prodigal:2.6	CDS	847900	848745	.	-	0	HIMB2201_00932	HIMB2201	281	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB2201_00934
+HIMB2201-00000000001	Prodigal:2.6	CDS	848735	849877	.	-	0	HIMB2201_00933	HIMB2201	380	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB2201_00934
+HIMB2201-00000000001	Prodigal:2.6	CDS	849938	851026	.	-	0	HIMB2201_00934	HIMB2201	362	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB2201_00934
+HIMB2201-00000000001	Prodigal:2.6	CDS	851037	852719	.	-	0	HIMB2201_00935	HIMB2201	560	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG2274	SunT	ABC-type bacteriocin/lantibiotic exporters, contain an N-terminal double-glycine peptidase domain	HIMB2201_00934
+HIMB2201-00000000001	Prodigal:2.6	CDS	852719	853897	.	-	0	HIMB2201_00936	HIMB2201	392	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB2201_00934
+HIMB2201-00000000001	Prodigal:2.6	CDS	853875	854882	.	-	0	HIMB2201_00937	HIMB2201	335	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2201_00934
+HIMB2201-00000000001	Prodigal:2.6	CDS	854898	855737	.	-	0	HIMB2201_00938	HIMB2201	279	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB2201_00934
+HIMB2201-00000000001	Prodigal:2.6	CDS	855734	856465	.	-	0	HIMB2201_00939	HIMB2201	243	OG0000067	K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]	COG1212	KdsB	CMP-2-keto-3-deoxyoctulosonic acid synthetase	HIMB2201_00934
+HIMB2250-00000000001	Prodigal:2.6	CDS	141109	142323	.	+	0	HIMB2250_00141	HIMB2250	404	OG0000814	NA	NA	NA	NA	NA	HIMB2250_00146
+HIMB2250-00000000001	Prodigal:2.6	CDS	142323	143108	.	+	0	HIMB2250_00142	HIMB2250	261	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB2250_00146
+HIMB2250-00000000001	Prodigal:2.6	CDS	143092	144066	.	+	0	HIMB2250_00143	HIMB2250	324	OG0000865	K02377	GDP-L-fucose synthase [EC:1.1.1.271]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2250_00146
+HIMB2250-00000000001	Prodigal:2.6	CDS	144102	144887	.	+	0	HIMB2250_00144	HIMB2250	261	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB2250_00146
+HIMB2250-00000000001	Prodigal:2.6	CDS	144884	145870	.	+	0	HIMB2250_00145	HIMB2250	328	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB2250_00146
+HIMB2250-00000000001	Prodigal:2.6	CDS	145867	147075	.	+	0	HIMB2250_00146	HIMB2250	402	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB2250_00146
+HIMB2250-00000000001	Prodigal:2.6	CDS	147050	148342	.	+	0	HIMB2250_00147	HIMB2250	430	OG0000877	NA	NA	COG3307	RfaL	O-antigen ligase	HIMB2250_00146
+HIMB2250-00000000001	Prodigal:2.6	CDS	148326	149780	.	+	0	HIMB2250_00148	HIMB2250	484	NA	NA	NA	NA	NA	NA	HIMB2250_00146
+HIMB2250-00000000001	Prodigal:2.6	CDS	149844	150878	.	+	0	HIMB2250_00149	HIMB2250	344	OG0000113	K01711	GDPmannose 4,6-dehydratase [EC:4.2.1.47]	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB2250_00146
+HIMB2250-00000000001	Prodigal:2.6	CDS	150881	151894	.	+	0	HIMB2250_00150	HIMB2250	337	OG0001863	NA	NA	NA	NA	NA	HIMB2250_00146
+HIMB2250-00000000001	Prodigal:2.6	CDS	151981	152706	.	+	0	HIMB2250_00151	HIMB2250	241	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB2250_00146
+CP031125.1	Prodigal:2.6	CDS	1147817	1149535	.	+	0	FZCC0015_01221	FZCC0015	572	OG0000062	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	FZCC0015_01226
+CP031125.1	Prodigal:2.6	CDS	1149535	1150740	.	+	0	FZCC0015_01222	FZCC0015	401	OG0000799	K00971	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0836	CpsB	Mannose-1-phosphate guanylyltransferase	FZCC0015_01226
+CP031125.1	Prodigal:2.6	CDS	1150915	1151154	.	-	0	FZCC0015_01223	FZCC0015	79	OG0001248	NA	NA	NA	NA	NA	FZCC0015_01226
+CP031125.1	Prodigal:2.6	CDS	1151214	1152098	.	-	0	FZCC0015_01224	FZCC0015	294	OG0001180	NA	NA	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	FZCC0015_01226
+CP031125.1	Prodigal:2.6	CDS	1152198	1153004	.	+	0	FZCC0015_01225	FZCC0015	268	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	FZCC0015_01226
+CP031125.1	Prodigal:2.6	CDS	1153008	1154015	.	+	0	FZCC0015_01226	FZCC0015	335	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	FZCC0015_01226
+CP031125.1	Prodigal:2.6	CDS	1154057	1155205	.	+	0	FZCC0015_01227	FZCC0015	382	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	FZCC0015_01226
+CP031125.1	Prodigal:2.6	CDS	1155300	1155908	.	+	0	FZCC0015_01228	FZCC0015	202	OG0001159	NA	NA	NA	NA	NA	FZCC0015_01226
+CP031125.1	Prodigal:2.6	CDS	1155996	1157045	.	+	0	FZCC0015_01229	FZCC0015	349	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	FZCC0015_01226
+CP031125.1	Prodigal:2.6	CDS	1157132	1158517	.	+	0	FZCC0015_01230	FZCC0015	461	OG0001010	K02037	phosphate transport system permease protein	COG0573	PstC	ABC-type phosphate transport system, permease component	FZCC0015_01226
+CP031125.1	Prodigal:2.6	CDS	1158510	1159778	.	+	0	FZCC0015_01231	FZCC0015	422	OG0001002	K02038	phosphate transport system permease protein	COG0581	PstA	ABC-type phosphate transport system, permease component	FZCC0015_01226
+HIMB1685-00000000001	Prodigal:2.6	CDS	221763	223031	.	-	0	HIMB1685_00262	HIMB1685	422	OG0001002	K02038	phosphate transport system permease protein	COG0581	PstA	ABC-type phosphate transport system, permease component	HIMB1685_00267
+HIMB1685-00000000001	Prodigal:2.6	CDS	223024	224409	.	-	0	HIMB1685_00263	HIMB1685	461	OG0001010	K02037	phosphate transport system permease protein	COG0573	PstC	ABC-type phosphate transport system, permease component	HIMB1685_00267
+HIMB1685-00000000001	Prodigal:2.6	CDS	224497	225546	.	-	0	HIMB1685_00264	HIMB1685	349	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	HIMB1685_00267
+HIMB1685-00000000001	Prodigal:2.6	CDS	225633	226241	.	-	0	HIMB1685_00265	HIMB1685	202	OG0001159	NA	NA	NA	NA	NA	HIMB1685_00267
+HIMB1685-00000000001	Prodigal:2.6	CDS	226337	227491	.	-	0	HIMB1685_00266	HIMB1685	384	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	HIMB1685_00267
+HIMB1685-00000000001	Prodigal:2.6	CDS	227520	228527	.	-	0	HIMB1685_00267	HIMB1685	335	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1685_00267
+HIMB1685-00000000001	Prodigal:2.6	CDS	228531	229328	.	-	0	HIMB1685_00268	HIMB1685	265	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	HIMB1685_00267
+HIMB1685-00000000001	Prodigal:2.6	CDS	229437	230321	.	+	0	HIMB1685_00269	HIMB1685	294	OG0001180	NA	NA	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	HIMB1685_00267
+HIMB1685-00000000001	Prodigal:2.6	CDS	230411	230620	.	+	0	HIMB1685_00270	HIMB1685	69	OG0001248	NA	NA	NA	NA	NA	HIMB1685_00267
+HIMB1685-00000000001	Prodigal:2.6	CDS	230856	231698	.	-	0	HIMB1685_00271	HIMB1685	280	OG0001402	NA	NA	COG2510	RibN	Riboflavin transporter RibN, EamA domain	HIMB1685_00267
+HIMB1685-00000000001	Prodigal:2.6	CDS	231706	232911	.	-	0	HIMB1685_00272	HIMB1685	401	OG0000799	K00971	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0836	CpsB	Mannose-1-phosphate guanylyltransferase	HIMB1685_00267
+HIMB1559-00000000001	Prodigal:2.6	CDS	765200	765325	.	-	0	HIMB1559_00853	HIMB1559	41	OG0001122	K02919	large subunit ribosomal protein L36	COG0257	RpmJ	Ribosomal protein L36	HIMB1559_00858
+HIMB1559-00000000001	barrnap:0.9	rRNA	765343	765451	1.5e-11	-	NA	HIMB1559_00854	HIMB1559	NA	NA	NA	NA	NA	NA	NA	HIMB1559_00858
+HIMB1559-00000000001	Prodigal:2.6	CDS	765521	766786	.	-	0	HIMB1559_00855	HIMB1559	421	OG0000877	NA	NA	COG3307	RfaL	O-antigen ligase	HIMB1559_00858
+HIMB1559-00000000001	Prodigal:2.6	CDS	766941	767966	.	+	0	HIMB1559_00856	HIMB1559	341	OG0001045	NA	NA	COG0472	Rfe	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase/archaeal AglH	HIMB1559_00858
+HIMB1559-00000000001	Prodigal:2.6	CDS	767980	769473	.	-	0	HIMB1559_00857	HIMB1559	497	OG0001077	NA	NA	COG1086	EpsC	NDP-sugar epimerase, includes UDP-N-acetylglucosamine 4,6-dehydratase EpsC	HIMB1559_00858
+HIMB1559-00000000001	Prodigal:2.6	CDS	769476	770600	.	-	0	HIMB1559_00858	HIMB1559	374	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1559_00858
+HIMB1559-00000000001	Prodigal:2.6	CDS	770593	771546	.	-	0	HIMB1559_00859	HIMB1559	317	OG0002645	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1559_00858
+HIMB1559-00000000001	Prodigal:2.6	CDS	771558	772838	.	-	0	HIMB1559_00860	HIMB1559	426	OG0000039	K02474	UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	HIMB1559_00858
+HIMB1559-00000000001	Prodigal:2.6	CDS	772828	773844	.	-	0	HIMB1559_00861	HIMB1559	338	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1559_00858
+HIMB1559-00000000001	Prodigal:2.6	CDS	773858	774991	.	-	0	HIMB1559_00862	HIMB1559	377	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1559_00858
+HIMB1559-00000000001	Prodigal:2.6	CDS	775032	776291	.	-	0	HIMB1559_00863	HIMB1559	419	OG0002455	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1559_00858
+HIMB1597-00000000001	Prodigal:2.6	CDS	1035129	1036388	.	+	0	HIMB1597_01089	HIMB1597	419	OG0002455	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1597_01094
+HIMB1597-00000000001	Prodigal:2.6	CDS	1036429	1037562	.	+	0	HIMB1597_01090	HIMB1597	377	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1597_01094
+HIMB1597-00000000001	Prodigal:2.6	CDS	1037576	1038592	.	+	0	HIMB1597_01091	HIMB1597	338	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1597_01094
+HIMB1597-00000000001	Prodigal:2.6	CDS	1038582	1039862	.	+	0	HIMB1597_01092	HIMB1597	426	OG0000039	K02474	UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	HIMB1597_01094
+HIMB1597-00000000001	Prodigal:2.6	CDS	1039874	1040827	.	+	0	HIMB1597_01093	HIMB1597	317	OG0002645	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1597_01094
+HIMB1597-00000000001	Prodigal:2.6	CDS	1040820	1041944	.	+	0	HIMB1597_01094	HIMB1597	374	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1597_01094
+HIMB1597-00000000001	Prodigal:2.6	CDS	1041947	1043440	.	+	0	HIMB1597_01095	HIMB1597	497	OG0001077	NA	NA	COG1086	EpsC	NDP-sugar epimerase, includes UDP-N-acetylglucosamine 4,6-dehydratase EpsC	HIMB1597_01094
+HIMB1597-00000000001	Prodigal:2.6	CDS	1043454	1044479	.	-	0	HIMB1597_01096	HIMB1597	341	OG0001045	NA	NA	COG0472	Rfe	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase/archaeal AglH	HIMB1597_01094
+HIMB1597-00000000001	Prodigal:2.6	CDS	1044634	1045899	.	+	0	HIMB1597_01097	HIMB1597	421	OG0000877	NA	NA	COG3307	RfaL	O-antigen ligase	HIMB1597_01094
+HIMB1597-00000000001	barrnap:0.9	rRNA	1045969	1046077	1.5e-11	+	NA	HIMB1597_01098	HIMB1597	NA	NA	NA	NA	NA	NA	NA	HIMB1597_01094
+HIMB1597-00000000001	Prodigal:2.6	CDS	1046095	1046220	.	+	0	HIMB1597_01099	HIMB1597	41	OG0001122	K02919	large subunit ribosomal protein L36	COG0257	RpmJ	Ribosomal protein L36	HIMB1597_01094
+HIMB1587-00000000001	Prodigal:2.6	CDS	765416	765541	.	-	0	HIMB1587_00847	HIMB1587	41	OG0001122	K02919	large subunit ribosomal protein L36	COG0257	RpmJ	Ribosomal protein L36	HIMB1587_00852
+HIMB1587-00000000001	barrnap:0.9	rRNA	765559	765667	1.5e-11	-	.	HIMB1587_00848	HIMB1587	NA	NA	NA	NA	NA	NA	NA	HIMB1587_00852
+HIMB1587-00000000001	Prodigal:2.6	CDS	765737	767002	.	-	0	HIMB1587_00849	HIMB1587	421	OG0000877	NA	NA	COG3307	RfaL	O-antigen ligase	HIMB1587_00852
+HIMB1587-00000000001	Prodigal:2.6	CDS	767157	768182	.	+	0	HIMB1587_00850	HIMB1587	341	OG0001045	NA	NA	COG0472	Rfe	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase/archaeal AglH	HIMB1587_00852
+HIMB1587-00000000001	Prodigal:2.6	CDS	768196	769689	.	-	0	HIMB1587_00851	HIMB1587	497	OG0001077	NA	NA	COG1086	EpsC	NDP-sugar epimerase, includes UDP-N-acetylglucosamine 4,6-dehydratase EpsC	HIMB1587_00852
+HIMB1587-00000000001	Prodigal:2.6	CDS	769692	770816	.	-	0	HIMB1587_00852	HIMB1587	374	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1587_00852
+HIMB1587-00000000001	Prodigal:2.6	CDS	770809	771762	.	-	0	HIMB1587_00853	HIMB1587	317	OG0002645	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1587_00852
+HIMB1587-00000000001	Prodigal:2.6	CDS	771774	773054	.	-	0	HIMB1587_00854	HIMB1587	426	OG0000039	K02474	UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	HIMB1587_00852
+HIMB1587-00000000001	Prodigal:2.6	CDS	773044	774060	.	-	0	HIMB1587_00855	HIMB1587	338	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1587_00852
+HIMB1587-00000000001	Prodigal:2.6	CDS	774074	775207	.	-	0	HIMB1587_00856	HIMB1587	377	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1587_00852
+HIMB1587-00000000001	Prodigal:2.6	CDS	775248	776507	.	-	0	HIMB1587_00857	HIMB1587	419	OG0002455	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1587_00852
+HIMB1573-00000000001	Prodigal:2.6	CDS	665065	666201	.	+	0	HIMB1573_00708	HIMB1573	378	OG0004741	NA	NA	NA	NA	NA	HIMB1573_00713
+HIMB1573-00000000001	Prodigal:2.6	CDS	666206	667327	.	+	0	HIMB1573_00709	HIMB1573	373	OG0000081	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1573_00713
+HIMB1573-00000000001	Prodigal:2.6	CDS	667349	668353	.	+	0	HIMB1573_00710	HIMB1573	334	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1573_00713
+HIMB1573-00000000001	Prodigal:2.6	CDS	668373	669401	.	-	0	HIMB1573_00711	HIMB1573	342	OG0001045	NA	NA	COG0472	Rfe	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase/archaeal AglH	HIMB1573_00713
+HIMB1573-00000000001	Prodigal:2.6	CDS	669515	670639	.	+	0	HIMB1573_00712	HIMB1573	374	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1573_00713
+HIMB1573-00000000001	Prodigal:2.6	CDS	670636	671748	.	+	0	HIMB1573_00713	HIMB1573	370	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1573_00713
+HIMB1573-00000000001	barrnap:0.9	rRNA	671860	671969	8.4e-12	+	.	HIMB1573_00714	HIMB1573	NA	NA	NA	NA	NA	NA	NA	HIMB1573_00713
+HIMB1573-00000000001	Prodigal:2.6	CDS	672113	672223	.	+	0	HIMB1573_00715	HIMB1573	36	OG0001182	NA	NA	NA	NA	NA	HIMB1573_00713
+HIMB1573-00000000001	Prodigal:2.6	CDS	672233	673321	.	+	0	HIMB1573_00716	HIMB1573	362	OG0000337	K00324	H+-translocating NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2 7.1.1.1]	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	HIMB1573_00713
+HIMB1573-00000000001	Prodigal:2.6	CDS	673324	673635	.	+	0	HIMB1573_00717	HIMB1573	103	OG0000430	NA	NA	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	HIMB1573_00713
+HIMB1573-00000000001	Prodigal:2.6	CDS	673635	675035	.	+	0	HIMB1573_00718	HIMB1573	466	OG0000399	K00325	H+-translocating NAD(P) transhydrogenase subunit beta [EC:1.6.1.2 7.1.1.1]	COG1282	PntB	NAD/NADP transhydrogenase beta subunit	HIMB1573_00713
+HIMB1573-00000000001	Prodigal:2.6	CDS	1184059	1185090	.	-	0	HIMB1573_01277	HIMB1573	343	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	HIMB1573_01282
+HIMB1573-00000000001	Prodigal:2.6	CDS	1185197	1185811	.	-	0	HIMB1573_01278	HIMB1573	204	OG0001159	NA	NA	NA	NA	NA	HIMB1573_01282
+HIMB1573-00000000001	Prodigal:2.6	CDS	1185891	1187048	.	-	0	HIMB1573_01279	HIMB1573	385	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	HIMB1573_01282
+HIMB1573-00000000001	Prodigal:2.6	CDS	1187111	1187935	.	+	0	HIMB1573_01280	HIMB1573	274	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HIMB1573_01282
+HIMB1573-00000000001	Prodigal:2.6	CDS	1187940	1188671	.	+	0	HIMB1573_01281	HIMB1573	243	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HIMB1573_01282
+HIMB1573-00000000001	Prodigal:2.6	CDS	1188664	1189668	.	-	0	HIMB1573_01282	HIMB1573	334	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1573_01282
+HIMB1573-00000000001	Prodigal:2.6	CDS	1189668	1190492	.	-	0	HIMB1573_01283	HIMB1573	274	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	HIMB1573_01282
+HIMB1573-00000000001	Prodigal:2.6	CDS	1190601	1191491	.	+	0	HIMB1573_01284	HIMB1573	296	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	HIMB1573_01282
+HIMB1573-00000000001	Prodigal:2.6	CDS	1191560	1191769	.	+	0	HIMB1573_01285	HIMB1573	69	OG0001248	NA	NA	NA	NA	NA	HIMB1573_01282
+HIMB1573-00000000001	Prodigal:2.6	CDS	1191936	1193147	.	-	0	HIMB1573_01286	HIMB1573	403	OG0000799	K00971	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0836	CpsB	Mannose-1-phosphate guanylyltransferase	HIMB1573_01282
+HIMB1573-00000000001	Prodigal:2.6	CDS	1193147	1194865	.	-	0	HIMB1573_01287	HIMB1573	572	OG0000062	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1573_01282
+HIMB1593-00000000001	Prodigal:2.6	CDS	1410997	1411941	.	-	0	HIMB1593_01503	HIMB1593	314	OG0000001	K24310	UDP-N-acetyl-alpha-D-quinovosamine dehydrogenase [EC:1.1.1.426]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1593_01508
+HIMB1593-00000000001	Prodigal:2.6	CDS	1411942	1412709	.	-	0	HIMB1593_01504	HIMB1593	255	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1593_01508
+HIMB1593-00000000001	Prodigal:2.6	CDS	1412750	1413586	.	-	0	HIMB1593_01505	HIMB1593	278	OG0002491	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1593_01508
+HIMB1593-00000000001	Prodigal:2.6	CDS	1413583	1414230	.	-	0	HIMB1593_01506	HIMB1593	215	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1593_01508
+HIMB1593-00000000001	Prodigal:2.6	CDS	1414220	1414801	.	-	0	HIMB1593_01507	HIMB1593	193	OG0002366	K03818	putative colanic acid biosynthesis acetyltransferase WcaF [EC:2.3.1.-]	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	HIMB1593_01508
+HIMB1593-00000000001	Prodigal:2.6	CDS	1414802	1416019	.	-	0	HIMB1593_01508	HIMB1593	405	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1593_01508
+HIMB1593-00000000001	Prodigal:2.6	CDS	1415979	1417094	.	-	0	HIMB1593_01509	HIMB1593	371	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1593_01508
+HIMB1593-00000000001	Prodigal:2.6	CDS	1417106	1418380	.	-	0	HIMB1593_01510	HIMB1593	424	OG0004001	NA	NA	NA	NA	NA	HIMB1593_01508
+HIMB1593-00000000001	Prodigal:2.6	CDS	1418388	1419647	.	-	0	HIMB1593_01511	HIMB1593	419	OG0004000	NA	NA	NA	NA	NA	HIMB1593_01508
+HIMB1593-00000000001	Prodigal:2.6	CDS	1419706	1420593	.	-	0	HIMB1593_01512	HIMB1593	295	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1593_01508
+HIMB1593-00000000001	Prodigal:2.6	CDS	1420607	1421446	.	-	0	HIMB1593_01513	HIMB1593	279	OG0000008	NA	NA	COG2520	Trm5	tRNA G37 N1-methylase Trm5	HIMB1593_01508
+HIMB1509-00000000001	Prodigal:2.6	CDS	893582	895300	.	+	0	HIMB1509_00947	HIMB1509	572	OG0000062	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1509_00952
+HIMB1509-00000000001	Prodigal:2.6	CDS	895300	896505	.	+	0	HIMB1509_00948	HIMB1509	401	OG0000799	K00971	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0836	CpsB	Mannose-1-phosphate guanylyltransferase	HIMB1509_00952
+HIMB1509-00000000001	Prodigal:2.6	CDS	896680	896889	.	-	0	HIMB1509_00949	HIMB1509	69	OG0001248	NA	NA	NA	NA	NA	HIMB1509_00952
+HIMB1509-00000000001	Prodigal:2.6	CDS	896958	897848	.	-	0	HIMB1509_00950	HIMB1509	296	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	HIMB1509_00952
+HIMB1509-00000000001	Prodigal:2.6	CDS	897957	898781	.	+	0	HIMB1509_00951	HIMB1509	274	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	HIMB1509_00952
+HIMB1509-00000000001	Prodigal:2.6	CDS	898781	899785	.	+	0	HIMB1509_00952	HIMB1509	334	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1509_00952
+HIMB1509-00000000001	Prodigal:2.6	CDS	899778	900509	.	-	0	HIMB1509_00953	HIMB1509	243	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HIMB1509_00952
+HIMB1509-00000000001	Prodigal:2.6	CDS	900514	901338	.	-	0	HIMB1509_00954	HIMB1509	274	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HIMB1509_00952
+HIMB1509-00000000001	Prodigal:2.6	CDS	901401	902558	.	+	0	HIMB1509_00955	HIMB1509	385	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	HIMB1509_00952
+HIMB1509-00000000001	Prodigal:2.6	CDS	902680	903252	.	+	0	HIMB1509_00956	HIMB1509	190	OG0001159	NA	NA	NA	NA	NA	HIMB1509_00952
+HIMB1509-00000000001	Prodigal:2.6	CDS	903359	904390	.	+	0	HIMB1509_00957	HIMB1509	343	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	HIMB1509_00952
+HIMB1485-00000000001	Prodigal:2.6	CDS	444010	445821	.	+	0	HIMB1485_00473	HIMB1485	603	NA	NA	NA	NA	NA	NA	HIMB1485_00478
+HIMB1485-00000000001	Prodigal:2.6	CDS	445966	447249	.	+	0	HIMB1485_00474	HIMB1485	427	NA	K07282	gamma-polyglutamate biosynthesis protein CapA	COG2843	CapA	Poly-gamma-glutamate biosynthesis protein CapA/YwtB (capsule formation), metallophosphatase superfamily	HIMB1485_00478
+HIMB1485-00000000001	Prodigal:2.6	CDS	447250	447822	.	+	0	HIMB1485_00475	HIMB1485	190	OG0002366	K22247	polysialic-acid O-acetyltransferase [EC:2.3.1.136]	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	HIMB1485_00478
+HIMB1485-00000000001	Prodigal:2.6	CDS	447819	449567	.	+	0	HIMB1485_00476	HIMB1485	582	OG0003280	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	HIMB1485_00478
+HIMB1485-00000000001	Prodigal:2.6	CDS	449580	450344	.	+	0	HIMB1485_00477	HIMB1485	254	OG0002673	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB1485_00478
+HIMB1485-00000000001	Prodigal:2.6	CDS	450422	451597	.	+	0	HIMB1485_00478	HIMB1485	391	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1485_00478
+HIMB1485-00000000001	Prodigal:2.6	CDS	451685	453010	.	+	0	HIMB1485_00479	HIMB1485	441	OG0002455	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1485_00478
+HIMB1485-00000000001	Prodigal:2.6	CDS	453021	454148	.	+	0	HIMB1485_00480	HIMB1485	375	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1485_00478
+HIMB1485-00000000001	Prodigal:2.6	CDS	454221	455243	.	+	0	HIMB1485_00481	HIMB1485	340	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1485_00478
+HIMB1485-00000000001	Prodigal:2.6	CDS	455230	456516	.	+	0	HIMB1485_00482	HIMB1485	428	OG0000039	K02474	UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	HIMB1485_00478
+HIMB1485-00000000001	Prodigal:2.6	CDS	456609	457763	.	+	0	HIMB1485_00483	HIMB1485	384	OG0001446	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1485_00478
+HIMB1662-00000000001	Prodigal:2.6	CDS	575006	576193	.	+	0	HIMB1662_00589	HIMB1662	395	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1662_00594
+HIMB1662-00000000001	Prodigal:2.6	CDS	576186	577157	.	+	0	HIMB1662_00590	HIMB1662	323	OG0000113	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB1662_00594
+HIMB1662-00000000001	Prodigal:2.6	CDS	577154	578095	.	+	0	HIMB1662_00591	HIMB1662	313	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1662_00594
+HIMB1662-00000000001	Prodigal:2.6	CDS	578092	579288	.	-	0	HIMB1662_00592	HIMB1662	398	OG0000015	NA	NA	COG0241	HisB1/GmhB	Histidinol phosphatase/D-glycero-mannoheptose bisphosphatephosphatase, HAD superfamily	HIMB1662_00594
+HIMB1662-00000000001	Prodigal:2.6	CDS	579384	580436	.	+	0	HIMB1662_00593	HIMB1662	350	OG0001471	NA	NA	COG4421	NA	Predicted N-acetylglucosamine transferase involved in capsular polysaccharide biosynthesis, GT61 family	HIMB1662_00594
+HIMB1662-00000000001	Prodigal:2.6	CDS	580433	581452	.	+	0	HIMB1662_00594	HIMB1662	339	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1662_00594
+HIMB1662-00000000001	Prodigal:2.6	CDS	581445	582755	.	-	0	HIMB1662_00595	HIMB1662	436	OG0002314	NA	NA	NA	NA	NA	HIMB1662_00594
+HIMB1662-00000000001	Prodigal:2.6	CDS	582769	583515	.	-	0	HIMB1662_00596	HIMB1662	248	OG0000000	NA	NA	COG4221	YdfG	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	HIMB1662_00594
+HIMB1662-00000000001	Prodigal:2.6	CDS	583499	584350	.	-	0	HIMB1662_00597	HIMB1662	283	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1662_00594
+HIMB1662-00000000001	Prodigal:2.6	CDS	584350	585228	.	-	0	HIMB1662_00598	HIMB1662	292	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1662_00594
+HIMB1662-00000000001	Prodigal:2.6	CDS	585297	586283	.	+	0	HIMB1662_00599	HIMB1662	328	OG0001359	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	HIMB1662_00594
+HIMB1662-00000000001	Prodigal:2.6	CDS	593745	594182	.	+	0	HIMB1662_00606	HIMB1662	145	OG0001831	NA	NA	NA	NA	NA	HIMB1662_00611
+HIMB1662-00000000001	Prodigal:2.6	CDS	594179	595150	.	-	0	HIMB1662_00607	HIMB1662	323	OG0002313	NA	NA	NA	NA	NA	HIMB1662_00611
+HIMB1662-00000000001	Prodigal:2.6	CDS	595301	596683	.	+	0	HIMB1662_00608	HIMB1662	460	OG0001566	NA	NA	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	HIMB1662_00611
+HIMB1662-00000000001	Prodigal:2.6	CDS	596706	597491	.	+	0	HIMB1662_00609	HIMB1662	261	OG0000008	NA	NA	NA	NA	NA	HIMB1662_00611
+HIMB1662-00000000001	Prodigal:2.6	CDS	597533	598522	.	+	0	HIMB1662_00610	HIMB1662	329	OG0004929	NA	NA	NA	NA	NA	HIMB1662_00611
+HIMB1662-00000000001	Prodigal:2.6	CDS	598527	599750	.	+	0	HIMB1662_00611	HIMB1662	407	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1662_00611
+HIMB1662-00000000001	Prodigal:2.6	CDS	599752	601107	.	+	0	HIMB1662_00612	HIMB1662	451	OG0004928	NA	NA	NA	NA	NA	HIMB1662_00611
+HIMB1662-00000000001	Prodigal:2.6	CDS	601121	602236	.	+	0	HIMB1662_00613	HIMB1662	371	OG0001446	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1662_00611
+HIMB1662-00000000001	Prodigal:2.6	CDS	602245	603966	.	+	0	HIMB1662_00614	HIMB1662	573	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1662_00611
+HIMB1662-00000000001	Prodigal:2.6	CDS	603979	604728	.	+	0	HIMB1662_00615	HIMB1662	249	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1662_00611
+HIMB1662-00000000001	Prodigal:2.6	CDS	604728	606512	.	+	0	HIMB1662_00616	HIMB1662	594	OG0001196	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	HIMB1662_00611
+HIMB1723-00000000001	Prodigal:2.6	CDS	914891	915886	.	+	0	HIMB1723_00964	HIMB1723	331	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1723_00969
+HIMB1723-00000000001	Prodigal:2.6	CDS	915876	917366	.	+	0	HIMB1723_00965	HIMB1723	496	OG0002384	NA	NA	NA	NA	NA	HIMB1723_00969
+HIMB1723-00000000001	Prodigal:2.6	CDS	917388	918398	.	+	0	HIMB1723_00966	HIMB1723	336	OG0003495	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1723_00969
+HIMB1723-00000000001	Prodigal:2.6	CDS	918410	919573	.	+	0	HIMB1723_00967	HIMB1723	387	OG0001696	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1723_00969
+HIMB1723-00000000001	Prodigal:2.6	CDS	919581	920705	.	-	0	HIMB1723_00968	HIMB1723	374	OG0000842	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1723_00969
+HIMB1723-00000000001	Prodigal:2.6	CDS	920773	921789	.	+	0	HIMB1723_00969	HIMB1723	338	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1723_00969
+HIMB1723-00000000001	Prodigal:2.6	CDS	921791	922873	.	+	0	HIMB1723_00970	HIMB1723	360	OG0001446	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1723_00969
+HIMB1723-00000000001	Prodigal:2.6	CDS	922870	924597	.	+	0	HIMB1723_00971	HIMB1723	575	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1723_00969
+HIMB1723-00000000001	Prodigal:2.6	CDS	924600	925346	.	+	0	HIMB1723_00972	HIMB1723	248	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1723_00969
+HIMB1723-00000000001	Prodigal:2.6	CDS	925349	926614	.	+	0	HIMB1723_00973	HIMB1723	421	OG0000877	K02847	O-antigen ligase [EC:2.4.1.-]	COG3307	RfaL	O-antigen ligase	HIMB1723_00969
+HIMB1723-00000000001	Prodigal:2.6	CDS	926607	927617	.	+	0	HIMB1723_00974	HIMB1723	336	OG0001045	NA	NA	COG0472	Rfe	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase/archaeal AglH	HIMB1723_00969
+HIMB1430-00000000014	Prodigal:2.6	CDS	38224	39159	.	-	0	HIMB1430_01254	HIMB1430	311	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1430_01259
+HIMB1430-00000000014	Prodigal:2.6	CDS	39156	40001	.	-	0	HIMB1430_01255	HIMB1430	281	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1430_01259
+HIMB1430-00000000014	Prodigal:2.6	CDS	40009	40494	.	-	0	HIMB1430_01256	HIMB1430	161	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1430_01259
+HIMB1430-00000000014	Prodigal:2.6	CDS	40485	41213	.	-	0	HIMB1430_01257	HIMB1430	242	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1430_01259
+HIMB1430-00000000014	Prodigal:2.6	CDS	41361	42701	.	+	0	HIMB1430_01258	HIMB1430	446	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1430_01259
+HIMB1430-00000000014	Prodigal:2.6	CDS	42713	43936	.	+	0	HIMB1430_01259	HIMB1430	407	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1430_01259
+HIMB1430-00000000014	Prodigal:2.6	CDS	43933	44610	.	+	0	HIMB1430_01260	HIMB1430	225	OG0004344	NA	NA	NA	NA	NA	HIMB1430_01259
+HIMB1430-00000000014	Prodigal:2.6	CDS	44607	45752	.	+	0	HIMB1430_01261	HIMB1430	381	OG0004345	NA	NA	NA	NA	NA	HIMB1430_01259
+HIMB1430-00000000014	Prodigal:2.6	CDS	45778	46740	.	+	0	HIMB1430_01262	HIMB1430	320	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1430_01259
+HIMB1430-00000000014	Prodigal:2.6	CDS	46737	48455	.	+	0	HIMB1430_01263	HIMB1430	572	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1430_01259
+HIMB1430-00000000014	Prodigal:2.6	CDS	48452	49501	.	+	0	HIMB1430_01264	HIMB1430	349	OG0003880	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1430_01259
+HIMB1611-00000000001	Prodigal:2.6	CDS	1427220	1428155	.	-	0	HIMB1611_01536	HIMB1611	311	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1611_01541
+HIMB1611-00000000001	Prodigal:2.6	CDS	1428152	1428997	.	-	0	HIMB1611_01537	HIMB1611	281	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1611_01541
+HIMB1611-00000000001	Prodigal:2.6	CDS	1429005	1429490	.	-	0	HIMB1611_01538	HIMB1611	161	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1611_01541
+HIMB1611-00000000001	Prodigal:2.6	CDS	1429481	1430209	.	-	0	HIMB1611_01539	HIMB1611	242	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1611_01541
+HIMB1611-00000000001	Prodigal:2.6	CDS	1430357	1431697	.	+	0	HIMB1611_01540	HIMB1611	446	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1611_01541
+HIMB1611-00000000001	Prodigal:2.6	CDS	1431709	1432932	.	+	0	HIMB1611_01541	HIMB1611	407	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1611_01541
+HIMB1611-00000000001	Prodigal:2.6	CDS	1432929	1433606	.	+	0	HIMB1611_01542	HIMB1611	225	OG0004344	NA	NA	NA	NA	NA	HIMB1611_01541
+HIMB1611-00000000001	Prodigal:2.6	CDS	1433603	1434748	.	+	0	HIMB1611_01543	HIMB1611	381	OG0004345	NA	NA	NA	NA	NA	HIMB1611_01541
+HIMB1611-00000000001	Prodigal:2.6	CDS	1434774	1435736	.	+	0	HIMB1611_01544	HIMB1611	320	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1611_01541
+HIMB1611-00000000001	Prodigal:2.6	CDS	1435733	1437451	.	+	0	HIMB1611_01545	HIMB1611	572	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1611_01541
+HIMB1611-00000000001	Prodigal:2.6	CDS	1437448	1438497	.	+	0	HIMB1611_01546	HIMB1611	349	OG0003880	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1611_01541
+HIMB1758-00000000001	Prodigal:2.6	CDS	632397	633332	.	-	0	HIMB1758_00648	HIMB1758	311	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1758_00653
+HIMB1758-00000000001	Prodigal:2.6	CDS	633329	634174	.	-	0	HIMB1758_00649	HIMB1758	281	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1758_00653
+HIMB1758-00000000001	Prodigal:2.6	CDS	634182	634667	.	-	0	HIMB1758_00650	HIMB1758	161	OG0001106	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HIMB1758_00653
+HIMB1758-00000000001	Prodigal:2.6	CDS	634658	635386	.	-	0	HIMB1758_00651	HIMB1758	242	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1758_00653
+HIMB1758-00000000001	Prodigal:2.6	CDS	635534	636874	.	+	0	HIMB1758_00652	HIMB1758	446	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	HIMB1758_00653
+HIMB1758-00000000001	Prodigal:2.6	CDS	636886	638109	.	+	0	HIMB1758_00653	HIMB1758	407	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1758_00653
+HIMB1758-00000000001	Prodigal:2.6	CDS	638106	638783	.	+	0	HIMB1758_00654	HIMB1758	225	OG0004344	NA	NA	NA	NA	NA	HIMB1758_00653
+HIMB1758-00000000001	Prodigal:2.6	CDS	638780	639925	.	+	0	HIMB1758_00655	HIMB1758	381	OG0004345	NA	NA	NA	NA	NA	HIMB1758_00653
+HIMB1758-00000000001	Prodigal:2.6	CDS	639951	640913	.	+	0	HIMB1758_00656	HIMB1758	320	OG0000001	K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1758_00653
+HIMB1758-00000000001	Prodigal:2.6	CDS	640910	642628	.	+	0	HIMB1758_00657	HIMB1758	572	OG0000032	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1758_00653
+HIMB1758-00000000001	Prodigal:2.6	CDS	642625	643674	.	+	0	HIMB1758_00658	HIMB1758	349	OG0003880	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1758_00653
+HIMB1488-00000000001	Prodigal:2.6	CDS	728962	730680	.	+	0	HIMB1488_00787	HIMB1488	572	OG0000062	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1488_00792
+HIMB1488-00000000001	Prodigal:2.6	CDS	730680	731891	.	+	0	HIMB1488_00788	HIMB1488	403	OG0000799	K00971	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0836	CpsB	Mannose-1-phosphate guanylyltransferase	HIMB1488_00792
+HIMB1488-00000000001	Prodigal:2.6	CDS	732058	732267	.	-	0	HIMB1488_00789	HIMB1488	69	OG0001248	NA	NA	NA	NA	NA	HIMB1488_00792
+HIMB1488-00000000001	Prodigal:2.6	CDS	732336	733226	.	-	0	HIMB1488_00790	HIMB1488	296	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	HIMB1488_00792
+HIMB1488-00000000001	Prodigal:2.6	CDS	733335	734159	.	+	0	HIMB1488_00791	HIMB1488	274	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	HIMB1488_00792
+HIMB1488-00000000001	Prodigal:2.6	CDS	734159	735163	.	+	0	HIMB1488_00792	HIMB1488	334	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1488_00792
+HIMB1488-00000000001	Prodigal:2.6	CDS	735156	735887	.	-	0	HIMB1488_00793	HIMB1488	243	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HIMB1488_00792
+HIMB1488-00000000001	Prodigal:2.6	CDS	735892	736716	.	-	0	HIMB1488_00794	HIMB1488	274	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HIMB1488_00792
+HIMB1488-00000000001	Prodigal:2.6	CDS	736779	737936	.	+	0	HIMB1488_00795	HIMB1488	385	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	HIMB1488_00792
+HIMB1488-00000000001	Prodigal:2.6	CDS	738016	738630	.	+	0	HIMB1488_00796	HIMB1488	204	OG0001159	NA	NA	NA	NA	NA	HIMB1488_00792
+HIMB1488-00000000001	Prodigal:2.6	CDS	738737	739771	.	+	0	HIMB1488_00797	HIMB1488	344	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	HIMB1488_00792
+HIMB1715-00000000006	Prodigal:2.6	CDS	34422	36140	.	+	0	HIMB1715_00616	HIMB1715	572	OG0000062	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB1715_00621
+HIMB1715-00000000006	Prodigal:2.6	CDS	36140	37351	.	+	0	HIMB1715_00617	HIMB1715	403	OG0000799	K00971	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0836	CpsB	Mannose-1-phosphate guanylyltransferase	HIMB1715_00621
+HIMB1715-00000000006	Prodigal:2.6	CDS	37518	37727	.	-	0	HIMB1715_00618	HIMB1715	69	OG0001248	NA	NA	NA	NA	NA	HIMB1715_00621
+HIMB1715-00000000006	Prodigal:2.6	CDS	37796	38686	.	-	0	HIMB1715_00619	HIMB1715	296	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	HIMB1715_00621
+HIMB1715-00000000006	Prodigal:2.6	CDS	38795	39619	.	+	0	HIMB1715_00620	HIMB1715	274	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	HIMB1715_00621
+HIMB1715-00000000006	Prodigal:2.6	CDS	39619	40623	.	+	0	HIMB1715_00621	HIMB1715	334	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1715_00621
+HIMB1715-00000000006	Prodigal:2.6	CDS	40616	41347	.	-	0	HIMB1715_00622	HIMB1715	243	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HIMB1715_00621
+HIMB1715-00000000006	Prodigal:2.6	CDS	41352	42176	.	-	0	HIMB1715_00623	HIMB1715	274	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HIMB1715_00621
+HIMB1623-00000000012	Prodigal:2.6	CDS	16808	17152	.	+	0	HIMB1623_00664	HIMB1623	114	OG0003339	NA	NA	NA	NA	NA	HIMB1623_00669
+HIMB1623-00000000012	Prodigal:2.6	CDS	18593	18697	.	+	0	HIMB1623_00665	HIMB1623	34	NA	NA	NA	NA	NA	NA	HIMB1623_00669
+HIMB1623-00000000012	Prodigal:2.6	CDS	19442	19660	.	+	0	HIMB1623_00666	HIMB1623	72	NA	NA	NA	NA	NA	NA	HIMB1623_00669
+HIMB1623-00000000012	Prodigal:2.6	CDS	19994	20164	.	+	0	HIMB1623_00667	HIMB1623	56	NA	NA	NA	NA	NA	NA	HIMB1623_00669
+HIMB1623-00000000012	Prodigal:2.6	CDS	22612	24336	.	-	0	HIMB1623_00668	HIMB1623	574	OG0002365	NA	NA	COG2831	FhaC	Two-partner (type Vb) secretion system  protein, HlyB/FhaC/ShlB/HecB family	HIMB1623_00669
+HIMB1623-00000000012	Prodigal:2.6	CDS	24514	25593	.	+	0	HIMB1623_00669	HIMB1623	359	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1623_00669
+HIMB1623-00000000012	Prodigal:2.6	CDS	25586	26737	.	-	0	HIMB1623_00670	HIMB1623	383	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1623_00669
+HIMB1623-00000000012	Prodigal:2.6	CDS	26727	28052	.	-	0	HIMB1623_00671	HIMB1623	441	OG0002850	NA	NA	NA	NA	NA	HIMB1623_00669
+HIMB1623-00000000012	Prodigal:2.6	CDS	28311	28649	.	+	0	HIMB1623_00672	HIMB1623	112	OG0002366	K03818	putative colanic acid biosynthesis acetyltransferase WcaF [EC:2.3.1.-]	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	HIMB1623_00669
+HIMB1623-00000000012	Prodigal:2.6	CDS	28689	29813	.	+	0	HIMB1623_00673	HIMB1623	374	OG0001967	K01991	polysaccharide biosynthesis/export protein	COG1596	Wza	Periplasmic protein Wza involved in polysaccharide export, contains SLBB domain of the beta-grasp fold	HIMB1623_00669
+HIMB1623-00000000012	Prodigal:2.6	CDS	29819	31216	.	-	0	HIMB1623_00674	HIMB1623	465	OG0001984	NA	NA	COG3307	RfaL	O-antigen ligase	HIMB1623_00669
+HIMB1623-00000000012	Prodigal:2.6	CDS	18593	18697	.	+	0	HIMB1623_00665	HIMB1623	34	NA	NA	NA	NA	NA	NA	HIMB1623_00670
+HIMB1623-00000000012	Prodigal:2.6	CDS	19442	19660	.	+	0	HIMB1623_00666	HIMB1623	72	NA	NA	NA	NA	NA	NA	HIMB1623_00670
+HIMB1623-00000000012	Prodigal:2.6	CDS	19994	20164	.	+	0	HIMB1623_00667	HIMB1623	56	NA	NA	NA	NA	NA	NA	HIMB1623_00670
+HIMB1623-00000000012	Prodigal:2.6	CDS	22612	24336	.	-	0	HIMB1623_00668	HIMB1623	574	OG0002365	NA	NA	COG2831	FhaC	Two-partner (type Vb) secretion system  protein, HlyB/FhaC/ShlB/HecB family	HIMB1623_00670
+HIMB1623-00000000012	Prodigal:2.6	CDS	24514	25593	.	+	0	HIMB1623_00669	HIMB1623	359	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1623_00670
+HIMB1623-00000000012	Prodigal:2.6	CDS	25586	26737	.	-	0	HIMB1623_00670	HIMB1623	383	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1623_00670
+HIMB1623-00000000012	Prodigal:2.6	CDS	26727	28052	.	-	0	HIMB1623_00671	HIMB1623	441	OG0002850	NA	NA	NA	NA	NA	HIMB1623_00670
+HIMB1623-00000000012	Prodigal:2.6	CDS	28311	28649	.	+	0	HIMB1623_00672	HIMB1623	112	OG0002366	K03818	putative colanic acid biosynthesis acetyltransferase WcaF [EC:2.3.1.-]	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	HIMB1623_00670
+HIMB1623-00000000012	Prodigal:2.6	CDS	28689	29813	.	+	0	HIMB1623_00673	HIMB1623	374	OG0001967	K01991	polysaccharide biosynthesis/export protein	COG1596	Wza	Periplasmic protein Wza involved in polysaccharide export, contains SLBB domain of the beta-grasp fold	HIMB1623_00670
+HIMB1623-00000000012	Prodigal:2.6	CDS	29819	31216	.	-	0	HIMB1623_00674	HIMB1623	465	OG0001984	NA	NA	COG3307	RfaL	O-antigen ligase	HIMB1623_00670
+HIMB1623-00000000012	Prodigal:2.6	CDS	31200	32483	.	-	0	HIMB1623_00675	HIMB1623	427	OG0005154	NA	NA	NA	NA	NA	HIMB1623_00670
+HIMB1709-00000000002	Prodigal:2.6	CDS	11040	11243	.	+	0	HIMB1709_01283	HIMB1709	67	OG0003881	NA	NA	NA	NA	NA	HIMB1709_01288
+HIMB1709-00000000002	Prodigal:2.6	CDS	11703	11882	.	+	0	HIMB1709_01284	HIMB1709	59	OG0003011	NA	NA	NA	NA	NA	HIMB1709_01288
+HIMB1709-00000000002	Prodigal:2.6	CDS	11967	12191	.	+	0	HIMB1709_01285	HIMB1709	74	OG0003011	NA	NA	NA	NA	NA	HIMB1709_01288
+HIMB1709-00000000002	Prodigal:2.6	CDS	14991	15128	.	+	0	HIMB1709_01286	HIMB1709	45	NA	NA	NA	NA	NA	NA	HIMB1709_01288
+HIMB1709-00000000002	Prodigal:2.6	CDS	17801	19525	.	-	0	HIMB1709_01287	HIMB1709	574	OG0002365	NA	NA	COG2831	FhaC	Two-partner (type Vb) secretion system  protein, HlyB/FhaC/ShlB/HecB family	HIMB1709_01288
+HIMB1709-00000000002	Prodigal:2.6	CDS	19703	20782	.	+	0	HIMB1709_01288	HIMB1709	359	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1709_01288
+HIMB1709-00000000002	Prodigal:2.6	CDS	20775	21926	.	-	0	HIMB1709_01289	HIMB1709	383	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1709_01288
+HIMB1709-00000000002	Prodigal:2.6	CDS	21916	23244	.	-	0	HIMB1709_01290	HIMB1709	442	OG0002850	NA	NA	NA	NA	NA	HIMB1709_01288
+HIMB1709-00000000002	Prodigal:2.6	CDS	23344	23841	.	+	0	HIMB1709_01291	HIMB1709	165	OG0002366	K03818	putative colanic acid biosynthesis acetyltransferase WcaF [EC:2.3.1.-]	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	HIMB1709_01288
+HIMB1709-00000000002	Prodigal:2.6	CDS	23881	25005	.	+	0	HIMB1709_01292	HIMB1709	374	OG0001967	K01991	polysaccharide biosynthesis/export protein	COG1596	Wza	Periplasmic protein Wza involved in polysaccharide export, contains SLBB domain of the beta-grasp fold	HIMB1709_01288
+HIMB1709-00000000002	Prodigal:2.6	CDS	25011	25850	.	-	0	HIMB1709_01293	HIMB1709	279	OG0001984	NA	NA	COG3307	RfaL	O-antigen ligase	HIMB1709_01288
+HIMB1709-00000000002	Prodigal:2.6	CDS	11703	11882	.	+	0	HIMB1709_01284	HIMB1709	59	OG0003011	NA	NA	NA	NA	NA	HIMB1709_01289
+HIMB1709-00000000002	Prodigal:2.6	CDS	11967	12191	.	+	0	HIMB1709_01285	HIMB1709	74	OG0003011	NA	NA	NA	NA	NA	HIMB1709_01289
+HIMB1709-00000000002	Prodigal:2.6	CDS	14991	15128	.	+	0	HIMB1709_01286	HIMB1709	45	NA	NA	NA	NA	NA	NA	HIMB1709_01289
+HIMB1709-00000000002	Prodigal:2.6	CDS	17801	19525	.	-	0	HIMB1709_01287	HIMB1709	574	OG0002365	NA	NA	COG2831	FhaC	Two-partner (type Vb) secretion system  protein, HlyB/FhaC/ShlB/HecB family	HIMB1709_01289
+HIMB1709-00000000002	Prodigal:2.6	CDS	19703	20782	.	+	0	HIMB1709_01288	HIMB1709	359	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1709_01289
+HIMB1709-00000000002	Prodigal:2.6	CDS	20775	21926	.	-	0	HIMB1709_01289	HIMB1709	383	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1709_01289
+HIMB1709-00000000002	Prodigal:2.6	CDS	21916	23244	.	-	0	HIMB1709_01290	HIMB1709	442	OG0002850	NA	NA	NA	NA	NA	HIMB1709_01289
+HIMB1709-00000000002	Prodigal:2.6	CDS	23344	23841	.	+	0	HIMB1709_01291	HIMB1709	165	OG0002366	K03818	putative colanic acid biosynthesis acetyltransferase WcaF [EC:2.3.1.-]	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	HIMB1709_01289
+HIMB1709-00000000002	Prodigal:2.6	CDS	23881	25005	.	+	0	HIMB1709_01292	HIMB1709	374	OG0001967	K01991	polysaccharide biosynthesis/export protein	COG1596	Wza	Periplasmic protein Wza involved in polysaccharide export, contains SLBB domain of the beta-grasp fold	HIMB1709_01289
+HIMB1709-00000000002	Prodigal:2.6	CDS	25011	25850	.	-	0	HIMB1709_01293	HIMB1709	279	OG0001984	NA	NA	COG3307	RfaL	O-antigen ligase	HIMB1709_01289
+HIMB1709-00000000002	Prodigal:2.6	CDS	26391	27674	.	-	0	HIMB1709_01294	HIMB1709	427	OG0005154	NA	NA	NA	NA	NA	HIMB1709_01289
+CP020778.1	Prodigal:2.6	CDS	1121106	1121951	.	+	0	RS40_01157	RS40	281	OG0002491	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	RS40_01162
+CP020778.1	Prodigal:2.6	CDS	1122028	1122708	.	+	0	RS40_01158	RS40	226	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	RS40_01162
+CP020778.1	Prodigal:2.6	CDS	1122692	1123546	.	+	0	RS40_01159	RS40	284	OG0002661	NA	NA	NA	NA	NA	RS40_01162
+CP020778.1	Prodigal:2.6	CDS	1123553	1125361	.	+	0	RS40_01160	RS40	602	OG0001196	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	RS40_01162
+CP020778.1	Prodigal:2.6	CDS	1125348	1126505	.	+	0	RS40_01161	RS40	385	OG0000081	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	RS40_01162
+CP020778.1	Prodigal:2.6	CDS	1126515	1127591	.	+	0	RS40_01162	RS40	358	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	RS40_01162
+CP020778.1	Prodigal:2.6	CDS	1127583	1128596	.	-	0	RS40_01163	RS40	337	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	RS40_01162
+CP020778.1	Prodigal:2.6	CDS	1128650	1130194	.	+	0	RS40_01164	RS40	514	OG0003468	NA	NA	NA	NA	NA	RS40_01162
+CP020778.1	Prodigal:2.6	CDS	1130194	1131003	.	+	0	RS40_01165	RS40	269	OG0001483	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	RS40_01162
+CP020778.1	Prodigal:2.6	CDS	1130996	1132543	.	+	0	RS40_01166	RS40	515	OG0001500	NA	NA	COG2303	BetA	Choline dehydrogenase or related flavoprotein	RS40_01162
+CP020778.1	Prodigal:2.6	CDS	1132530	1133234	.	-	0	RS40_01167	RS40	234	OG0000102	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	RS40_01162
+HIMB2305-00000000029	Prodigal:2.6	CDS	68	1021	.	+	0	HIMB2305_01446	HIMB2305	317	OG0001469	NA	NA	COG2148	WcaJ	Sugar transferase involved in LPS biosynthesis (colanic, teichoic acid)	HIMB2305_01449
+HIMB2305-00000000029	Prodigal:2.6	CDS	1053	2858	.	+	0	HIMB2305_01447	HIMB2305	601	OG0001196	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	HIMB2305_01449
+HIMB2305-00000000029	Prodigal:2.6	CDS	2842	4029	.	+	0	HIMB2305_01448	HIMB2305	395	OG0001446	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB2305_01449
+HIMB2305-00000000029	Prodigal:2.6	CDS	4026	5078	.	-	0	HIMB2305_01449	HIMB2305	350	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB2305_01449
+HIMB2305-00000000029	Prodigal:2.6	CDS	5080	6129	.	-	0	HIMB2305_01450	HIMB2305	349	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB2305_01449
+HIMB2305-00000000029	Prodigal:2.6	CDS	6136	7281	.	-	0	HIMB2305_01451	HIMB2305	381	OG0001446	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB2305_01449
+HIMB2305-00000000029	Prodigal:2.6	CDS	7265	8545	.	-	0	HIMB2305_01452	HIMB2305	426	OG0003468	NA	NA	NA	NA	NA	HIMB2305_01449
+HIMB1517-00000000004	Prodigal:2.6	CDS	150	431	.	-	0	HIMB1517_00473	HIMB1517	93	OG0002393	NA	NA	NA	NA	NA	HIMB1517_00477
+HIMB1517-00000000004	Prodigal:2.6	CDS	418	1443	.	-	0	HIMB1517_00474	HIMB1517	341	OG0000001	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	HIMB1517_00477
+HIMB1517-00000000004	Prodigal:2.6	CDS	1447	3171	.	-	0	HIMB1517_00475	HIMB1517	574	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HIMB1517_00477
+HIMB1517-00000000004	Prodigal:2.6	CDS	3168	4292	.	-	0	HIMB1517_00476	HIMB1517	374	OG0001405	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1517_00477
+HIMB1517-00000000004	Prodigal:2.6	CDS	4289	5302	.	-	0	HIMB1517_00477	HIMB1517	337	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1517_00477
+HIMB1517-00000000004	Prodigal:2.6	CDS	5299	6993	.	-	0	HIMB1517_00478	HIMB1517	564	OG0000032	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1517_00477
+HIMB1517-00000000004	Prodigal:2.6	CDS	6983	8428	.	-	0	HIMB1517_00479	HIMB1517	481	OG0002526	NA	NA	NA	NA	NA	HIMB1517_00477
+HIMB1517-00000000004	Prodigal:2.6	CDS	8500	9582	.	-	0	HIMB1517_00480	HIMB1517	360	OG0000043	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1517_00477
+HIMB1517-00000000004	Prodigal:2.6	CDS	9602	10297	.	+	0	HIMB1517_00481	HIMB1517	231	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB1517_00477
+HIMB1517-00000000004	Prodigal:2.6	CDS	10285	10713	.	+	0	HIMB1517_00482	HIMB1517	142	OG0002332	NA	NA	COG0346	GloA	Glyoxalase, catechol 2,3-dioxygenase or related enzyme, vicinal oxygen chelate (VOC) family	HIMB1517_00477
+HIMB1517-00000000004	Prodigal:2.6	CDS	71476	72498	.	-	0	HIMB1517_00545	HIMB1517	340	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	HIMB1517_00550
+HIMB1517-00000000004	Prodigal:2.6	CDS	72591	73232	.	-	0	HIMB1517_00546	HIMB1517	213	OG0001159	NA	NA	NA	NA	NA	HIMB1517_00550
+HIMB1517-00000000004	Prodigal:2.6	CDS	73216	74445	.	-	0	HIMB1517_00547	HIMB1517	409	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	HIMB1517_00550
+HIMB1517-00000000004	Prodigal:2.6	CDS	74539	75357	.	+	0	HIMB1517_00548	HIMB1517	272	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HIMB1517_00550
+HIMB1517-00000000004	Prodigal:2.6	CDS	75366	76118	.	+	0	HIMB1517_00549	HIMB1517	250	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	HIMB1517_00550
+HIMB1517-00000000004	Prodigal:2.6	CDS	76108	77118	.	-	0	HIMB1517_00550	HIMB1517	336	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1517_00550
+HIMB1517-00000000004	Prodigal:2.6	CDS	77124	77978	.	-	0	HIMB1517_00551	HIMB1517	284	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	HIMB1517_00550
+HIMB1517-00000000004	Prodigal:2.6	CDS	78054	78914	.	+	0	HIMB1517_00552	HIMB1517	286	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	HIMB1517_00550
+HIMB1517-00000000004	Prodigal:2.6	CDS	78911	79003	.	-	0	HIMB1517_00553	HIMB1517	30	OG0002867	NA	NA	NA	NA	NA	HIMB1517_00550
+HIMB1517-00000000004	Prodigal:2.6	CDS	79003	79464	.	-	0	HIMB1517_00554	HIMB1517	153	OG0002194	K15977	putative oxidoreductase	COG2259	DoxX	Uncharacterized membrane protein YphA, DoxX/SURF4 family	HIMB1517_00550
+HIMB1517-00000000004	Prodigal:2.6	CDS	79490	79906	.	+	0	HIMB1517_00555	HIMB1517	138	OG0002617	NA	NA	NA	NA	NA	HIMB1517_00550
+Ga0197930_11	Prodigal:2.6	CDS	79868	80098	.	-	0	LSUCC0723_00085	LSUCC0723	76	OG0002617	NA	NA	NA	NA	NA	LSUCC0723_00090
+Ga0197930_11	Prodigal:2.6	CDS	80256	80771	.	+	0	LSUCC0723_00086	LSUCC0723	171	OG0002194	K15977	putative oxidoreductase	COG2259	DoxX	Uncharacterized membrane protein YphA, DoxX/SURF4 family	LSUCC0723_00090
+Ga0197930_11	Prodigal:2.6	CDS	80867	81487	.	-	0	LSUCC0723_00087	LSUCC0723	206	OG0003174	K07052	CAAX protease family protein	COG1266	YdiL	Membrane protease YdiL, CAAX protease family	LSUCC0723_00090
+Ga0197930_11	Prodigal:2.6	CDS	81532	82389	.	-	0	LSUCC0723_00088	LSUCC0723	285	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	LSUCC0723_00090
+Ga0197930_11	Prodigal:2.6	CDS	82466	83320	.	+	0	LSUCC0723_00089	LSUCC0723	284	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	LSUCC0723_00090
+Ga0197930_11	Prodigal:2.6	CDS	83326	84336	.	+	0	LSUCC0723_00090	LSUCC0723	336	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	LSUCC0723_00090
+Ga0197930_11	Prodigal:2.6	CDS	84326	85078	.	-	0	LSUCC0723_00091	LSUCC0723	250	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	LSUCC0723_00090
+Ga0197930_11	Prodigal:2.6	CDS	85088	85906	.	-	0	LSUCC0723_00092	LSUCC0723	272	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	LSUCC0723_00090
+Ga0197930_11	Prodigal:2.6	CDS	86000	87220	.	+	0	LSUCC0723_00093	LSUCC0723	406	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	LSUCC0723_00090
+Ga0197930_11	Prodigal:2.6	CDS	87207	87842	.	+	0	LSUCC0723_00094	LSUCC0723	211	OG0001159	NA	NA	NA	NA	NA	LSUCC0723_00090
+Ga0197930_11	Prodigal:2.6	CDS	87937	88959	.	+	0	LSUCC0723_00095	LSUCC0723	340	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	LSUCC0723_00090
+Ga0197930_11	Prodigal:2.6	CDS	156742	157161	.	+	0	LSUCC0723_00163	LSUCC0723	139	OG0002332	NA	NA	COG0346	GloA	Glyoxalase, catechol 2,3-dioxygenase or related enzyme, vicinal oxygen chelate (VOC) family	LSUCC0723_00168
+Ga0197930_11	Prodigal:2.6	CDS	157158	157844	.	+	0	LSUCC0723_00164	LSUCC0723	228	OG0000043	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	LSUCC0723_00168
+Ga0197930_11	Prodigal:2.6	CDS	157900	158745	.	+	0	LSUCC0723_00165	LSUCC0723	281	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	LSUCC0723_00168
+Ga0197930_11	Prodigal:2.6	CDS	158770	159333	.	+	0	LSUCC0723_00166	LSUCC0723	187	OG0001172	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	LSUCC0723_00168
+Ga0197930_11	Prodigal:2.6	CDS	159330	160808	.	+	0	LSUCC0723_00167	LSUCC0723	492	OG0002526	NA	NA	NA	NA	NA	LSUCC0723_00168
+Ga0197930_11	Prodigal:2.6	CDS	160805	161830	.	+	0	LSUCC0723_00168	LSUCC0723	341	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	LSUCC0723_00168
+Ga0197930_11	Prodigal:2.6	CDS	161827	162942	.	+	0	LSUCC0723_00169	LSUCC0723	371	OG0001405	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	LSUCC0723_00168
+Ga0197930_11	Prodigal:2.6	CDS	162937	164640	.	-	0	LSUCC0723_00170	LSUCC0723	567	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	LSUCC0723_00168
+Ga0197930_11	Prodigal:2.6	CDS	164630	165520	.	-	0	LSUCC0723_00171	LSUCC0723	296	OG0001756	NA	NA	NA	NA	NA	LSUCC0723_00168
+Ga0197930_11	Prodigal:2.6	CDS	165616	166995	.	+	0	LSUCC0723_00172	LSUCC0723	459	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	LSUCC0723_00168
+Ga0197930_11	Prodigal:2.6	CDS	166992	168707	.	+	0	LSUCC0723_00173	LSUCC0723	571	OG0000003	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	LSUCC0723_00168
+Ga0255589_11	Prodigal:2.6	CDS	915688	916710	.	-	0	LSUCC0664_00991	LSUCC0664	340	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	LSUCC0664_00996
+Ga0255589_11	Prodigal:2.6	CDS	916805	917446	.	-	0	LSUCC0664_00992	LSUCC0664	213	OG0001159	NA	NA	NA	NA	NA	LSUCC0664_00996
+Ga0255589_11	Prodigal:2.6	CDS	917430	918662	.	-	0	LSUCC0664_00993	LSUCC0664	410	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	LSUCC0664_00996
+Ga0255589_11	Prodigal:2.6	CDS	918755	919573	.	+	0	LSUCC0664_00994	LSUCC0664	272	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	LSUCC0664_00996
+Ga0255589_11	Prodigal:2.6	CDS	919584	920336	.	+	0	LSUCC0664_00995	LSUCC0664	250	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	LSUCC0664_00996
+Ga0255589_11	Prodigal:2.6	CDS	920326	921336	.	-	0	LSUCC0664_00996	LSUCC0664	336	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	LSUCC0664_00996
+Ga0255589_11	Prodigal:2.6	CDS	921342	922196	.	-	0	LSUCC0664_00997	LSUCC0664	284	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	LSUCC0664_00996
+Ga0255589_11	Prodigal:2.6	CDS	922273	923130	.	+	0	LSUCC0664_00998	LSUCC0664	285	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	LSUCC0664_00996
+Ga0255589_11	Prodigal:2.6	CDS	923340	923795	.	-	0	LSUCC0664_00999	LSUCC0664	151	OG0002194	K15977	putative oxidoreductase	COG2259	DoxX	Uncharacterized membrane protein YphA, DoxX/SURF4 family	LSUCC0664_00996
+Ga0255589_11	Prodigal:2.6	CDS	923821	924237	.	+	0	LSUCC0664_01000	LSUCC0664	138	OG0002617	NA	NA	NA	NA	NA	LSUCC0664_00996
+Ga0255589_11	Prodigal:2.6	CDS	924234	924707	.	-	0	LSUCC0664_01001	LSUCC0664	157	OG0000044	K07305	peptide-methionine (R)-S-oxide reductase [EC:1.8.4.12]	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	LSUCC0664_00996
+CP002511.1	Prodigal:2.6	CDS	47135	47710	.	+	0	IMCC9063_00060	IMCC9063	191	OG0000205	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	IMCC9063_00065
+CP002511.1	Prodigal:2.6	CDS	47704	47856	.	+	0	IMCC9063_00061	IMCC9063	50	OG0000002	NA	NA	NA	NA	NA	IMCC9063_00065
+CP002511.1	Prodigal:2.6	CDS	47903	48967	.	+	0	IMCC9063_00062	IMCC9063	354	OG0003111	NA	NA	NA	NA	NA	IMCC9063_00065
+CP002511.1	Prodigal:2.6	CDS	49005	49976	.	+	0	IMCC9063_00063	IMCC9063	323	OG0000865	K10046	GDP-D-mannose 3', 5'-epimerase [EC:5.1.3.18 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	IMCC9063_00065
+CP002511.1	Prodigal:2.6	CDS	49979	51688	.	+	0	IMCC9063_00064	IMCC9063	569	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	IMCC9063_00065
+CP002511.1	Prodigal:2.6	CDS	51677	51997	.	-	0	IMCC9063_00065	IMCC9063	106	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	IMCC9063_00065
+CP002511.1	Prodigal:2.6	CDS	52000	52425	.	-	0	IMCC9063_00066	IMCC9063	141	OG0001958	NA	NA	NA	NA	NA	IMCC9063_00065
+CP002511.1	Prodigal:2.6	CDS	52436	52657	.	-	0	IMCC9063_00067	IMCC9063	73	OG0000985	NA	NA	NA	NA	NA	IMCC9063_00065
+CP002511.1	Prodigal:2.6	CDS	52802	53212	.	+	0	IMCC9063_00068	IMCC9063	136	OG0002181	NA	NA	NA	NA	NA	IMCC9063_00065
+CP002511.1	Prodigal:2.6	CDS	53311	54015	.	+	0	IMCC9063_00069	IMCC9063	234	OG0002181	NA	NA	NA	NA	NA	IMCC9063_00065
+CP002511.1	Prodigal:2.6	CDS	54095	55921	.	-	0	IMCC9063_00070	IMCC9063	608	OG0001697	NA	NA	NA	NA	NA	IMCC9063_00065
+CP002511.1	Prodigal:2.6	CDS	47903	48967	.	+	0	IMCC9063_00062	IMCC9063	354	OG0003111	NA	NA	NA	NA	NA	IMCC9063_00067
+CP002511.1	Prodigal:2.6	CDS	49005	49976	.	+	0	IMCC9063_00063	IMCC9063	323	OG0000865	K10046	GDP-D-mannose 3', 5'-epimerase [EC:5.1.3.18 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	IMCC9063_00067
+CP002511.1	Prodigal:2.6	CDS	49979	51688	.	+	0	IMCC9063_00064	IMCC9063	569	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	IMCC9063_00067
+CP002511.1	Prodigal:2.6	CDS	51677	51997	.	-	0	IMCC9063_00065	IMCC9063	106	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	IMCC9063_00067
+CP002511.1	Prodigal:2.6	CDS	52000	52425	.	-	0	IMCC9063_00066	IMCC9063	141	OG0001958	NA	NA	NA	NA	NA	IMCC9063_00067
+CP002511.1	Prodigal:2.6	CDS	52436	52657	.	-	0	IMCC9063_00067	IMCC9063	73	OG0000985	NA	NA	NA	NA	NA	IMCC9063_00067
+CP002511.1	Prodigal:2.6	CDS	52802	53212	.	+	0	IMCC9063_00068	IMCC9063	136	OG0002181	NA	NA	NA	NA	NA	IMCC9063_00067
+CP002511.1	Prodigal:2.6	CDS	53311	54015	.	+	0	IMCC9063_00069	IMCC9063	234	OG0002181	NA	NA	NA	NA	NA	IMCC9063_00067
+CP002511.1	Prodigal:2.6	CDS	54095	55921	.	-	0	IMCC9063_00070	IMCC9063	608	OG0001697	NA	NA	NA	NA	NA	IMCC9063_00067
+CP002511.1	Prodigal:2.6	CDS	55905	56822	.	-	0	IMCC9063_00071	IMCC9063	305	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	IMCC9063_00067
+CP002511.1	Prodigal:2.6	CDS	56828	57535	.	-	0	IMCC9063_00072	IMCC9063	235	OG0001077	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	IMCC9063_00067
+Ga0182791_11	Prodigal:2.6	CDS	153323	154207	.	+	0	LSUCC0261_00152	LSUCC0261	294	OG0002457	NA	NA	NA	NA	NA	LSUCC0261_00157
+Ga0182791_11	Prodigal:2.6	CDS	154255	155961	.	+	0	LSUCC0261_00153	LSUCC0261	568	OG0000032	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	LSUCC0261_00157
+Ga0182791_11	Prodigal:2.6	CDS	155964	156905	.	+	0	LSUCC0261_00154	LSUCC0261	313	OG0003290	NA	NA	COG2348	FmhB	Lipid II:glycine glycyltransferase (Peptidoglycan interpeptide bridge formation enzyme)	LSUCC0261_00157
+Ga0182791_11	Prodigal:2.6	CDS	156936	158519	.	+	0	LSUCC0261_00155	LSUCC0261	527	OG0001647	NA	NA	NA	NA	NA	LSUCC0261_00157
+Ga0182791_11	Prodigal:2.6	CDS	158516	159427	.	+	0	LSUCC0261_00156	LSUCC0261	303	OG0001502	NA	NA	NA	NA	NA	LSUCC0261_00157
+Ga0182791_11	Prodigal:2.6	CDS	159424	160485	.	+	0	LSUCC0261_00157	LSUCC0261	353	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	LSUCC0261_00157
+Ga0182791_11	Prodigal:2.6	CDS	160482	161705	.	+	0	LSUCC0261_00158	LSUCC0261	407	NA	NA	NA	NA	NA	NA	LSUCC0261_00157
+Ga0182791_11	Prodigal:2.6	CDS	161689	162408	.	+	0	LSUCC0261_00159	LSUCC0261	239	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	LSUCC0261_00157
+Ga0182791_11	Prodigal:2.6	CDS	162405	162920	.	+	0	LSUCC0261_00160	LSUCC0261	171	OG0000109	NA	NA	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	LSUCC0261_00157
+Ga0182791_11	Prodigal:2.6	CDS	162917	163981	.	+	0	LSUCC0261_00161	LSUCC0261	354	OG0003315	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	LSUCC0261_00157
+Ga0182791_11	Prodigal:2.6	CDS	163978	164850	.	+	0	LSUCC0261_00162	LSUCC0261	290	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	LSUCC0261_00157
+OZ247815.1	Prodigal:2.6	CDS	913197	913700	.	-	0	ME-33_01009	ME-33	167	OG0001893	NA	NA	NA	NA	NA	ME-33_01014
+OZ247815.1	Prodigal:2.6	CDS	913697	914275	.	-	0	ME-33_01010	ME-33	192	OG0001508	NA	NA	NA	NA	NA	ME-33_01014
+OZ247815.1	Prodigal:2.6	CDS	914537	915748	.	-	0	ME-33_01011	ME-33	403	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	ME-33_01014
+OZ247815.1	Prodigal:2.6	CDS	915858	916691	.	+	0	ME-33_01012	ME-33	277	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	ME-33_01014
+OZ247815.1	Prodigal:2.6	CDS	916706	917467	.	+	0	ME-33_01013	ME-33	253	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	ME-33_01014
+OZ247815.1	Prodigal:2.6	CDS	917445	918458	.	-	0	ME-33_01014	ME-33	337	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	ME-33_01014
+OZ247815.1	Prodigal:2.6	CDS	918458	919318	.	-	0	ME-33_01015	ME-33	286	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	ME-33_01014
+OZ247815.1	Prodigal:2.6	CDS	919419	920054	.	+	0	ME-33_01016	ME-33	211	OG0003174	NA	NA	COG1266	YdiL	Membrane protease YdiL, CAAX protease family	ME-33_01014
+OZ247815.1	Prodigal:2.6	CDS	920085	920264	.	-	0	ME-33_01017	ME-33	59	OG0003342	NA	NA	NA	NA	NA	ME-33_01014
+OZ247815.1	Prodigal:2.6	CDS	920525	921418	.	+	0	ME-33_01018	ME-33	297	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	ME-33_01014
+OZ247815.1	Prodigal:2.6	CDS	921497	921949	.	-	0	ME-33_01019	ME-33	150	OG0002194	K15977	putative oxidoreductase	COG2259	DoxX	Uncharacterized membrane protein YphA, DoxX/SURF4 family	ME-33_01014
+OZ247817.1	Prodigal:2.6	CDS	904895	906280	.	-	0	ME-31_00990	ME-31	461	OG0001010	K02037	phosphate transport system permease protein	COG0573	PstC	ABC-type phosphate transport system, permease component	ME-31_00995
+OZ247817.1	Prodigal:2.6	CDS	906372	907379	.	-	0	ME-31_00991	ME-31	335	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	ME-31_00995
+OZ247817.1	Prodigal:2.6	CDS	907521	908732	.	-	0	ME-31_00992	ME-31	403	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	ME-31_00995
+OZ247817.1	Prodigal:2.6	CDS	908843	909676	.	+	0	ME-31_00993	ME-31	277	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	ME-31_00995
+OZ247817.1	Prodigal:2.6	CDS	909691	910452	.	+	0	ME-31_00994	ME-31	253	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	ME-31_00995
+OZ247817.1	Prodigal:2.6	CDS	910430	911443	.	-	0	ME-31_00995	ME-31	337	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	ME-31_00995
+OZ247817.1	Prodigal:2.6	CDS	911443	912270	.	-	0	ME-31_00996	ME-31	275	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	ME-31_00995
+OZ247817.1	Prodigal:2.6	CDS	912404	913039	.	+	0	ME-31_00997	ME-31	211	OG0003174	NA	NA	COG1266	YdiL	Membrane protease YdiL, CAAX protease family	ME-31_00995
+OZ247817.1	Prodigal:2.6	CDS	913070	913249	.	-	0	ME-31_00998	ME-31	59	OG0003342	NA	NA	NA	NA	NA	ME-31_00995
+OZ247817.1	Prodigal:2.6	CDS	913510	914400	.	+	0	ME-31_00999	ME-31	296	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	ME-31_00995
+OZ247817.1	Prodigal:2.6	CDS	914482	914934	.	-	0	ME-31_01000	ME-31	150	OG0002194	K15977	putative oxidoreductase	COG2259	DoxX	Uncharacterized membrane protein YphA, DoxX/SURF4 family	ME-31_00995
+OZ249404.1	Prodigal:2.6	CDS	858135	859520	.	-	0	ME-17_00962	ME-17	461	OG0001010	K02037	phosphate transport system permease protein	COG0573	PstC	ABC-type phosphate transport system, permease component	ME-17_00967
+OZ249404.1	Prodigal:2.6	CDS	859612	860619	.	-	0	ME-17_00963	ME-17	335	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	ME-17_00967
+OZ249404.1	Prodigal:2.6	CDS	860761	861972	.	-	0	ME-17_00964	ME-17	403	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	ME-17_00967
+OZ249404.1	Prodigal:2.6	CDS	862083	862916	.	+	0	ME-17_00965	ME-17	277	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	ME-17_00967
+OZ249404.1	Prodigal:2.6	CDS	862931	863692	.	+	0	ME-17_00966	ME-17	253	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	ME-17_00967
+OZ249404.1	Prodigal:2.6	CDS	863670	864683	.	-	0	ME-17_00967	ME-17	337	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	ME-17_00967
+OZ249404.1	Prodigal:2.6	CDS	864683	865510	.	-	0	ME-17_00968	ME-17	275	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	ME-17_00967
+OZ249404.1	Prodigal:2.6	CDS	865644	866279	.	+	0	ME-17_00969	ME-17	211	OG0003174	NA	NA	COG1266	YdiL	Membrane protease YdiL, CAAX protease family	ME-17_00967
+OZ249404.1	Prodigal:2.6	CDS	866310	866489	.	-	0	ME-17_00970	ME-17	59	OG0003342	NA	NA	NA	NA	NA	ME-17_00967
+OZ249404.1	Prodigal:2.6	CDS	866750	867643	.	+	0	ME-17_00971	ME-17	297	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	ME-17_00967
+OZ249404.1	Prodigal:2.6	CDS	867722	868174	.	-	0	ME-17_00972	ME-17	150	OG0002194	K15977	putative oxidoreductase	COG2259	DoxX	Uncharacterized membrane protein YphA, DoxX/SURF4 family	ME-17_00967
+OZ247816.1	Prodigal:2.6	CDS	879605	880990	.	-	0	ME-20_00964	ME-20	461	OG0001010	K02037	phosphate transport system permease protein	COG0573	PstC	ABC-type phosphate transport system, permease component	ME-20_00969
+OZ247816.1	Prodigal:2.6	CDS	881082	882089	.	-	0	ME-20_00965	ME-20	335	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	ME-20_00969
+OZ247816.1	Prodigal:2.6	CDS	882231	883442	.	-	0	ME-20_00966	ME-20	403	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	ME-20_00969
+OZ247816.1	Prodigal:2.6	CDS	883553	884386	.	+	0	ME-20_00967	ME-20	277	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	ME-20_00969
+OZ247816.1	Prodigal:2.6	CDS	884401	885162	.	+	0	ME-20_00968	ME-20	253	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	ME-20_00969
+OZ247816.1	Prodigal:2.6	CDS	885140	886153	.	-	0	ME-20_00969	ME-20	337	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	ME-20_00969
+OZ247816.1	Prodigal:2.6	CDS	886153	886980	.	-	0	ME-20_00970	ME-20	275	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	ME-20_00969
+OZ247816.1	Prodigal:2.6	CDS	887114	887749	.	+	0	ME-20_00971	ME-20	211	OG0003174	NA	NA	COG1266	YdiL	Membrane protease YdiL, CAAX protease family	ME-20_00969
+OZ247816.1	Prodigal:2.6	CDS	887780	887959	.	-	0	ME-20_00972	ME-20	59	OG0003342	NA	NA	NA	NA	NA	ME-20_00969
+OZ247816.1	Prodigal:2.6	CDS	888220	889110	.	+	0	ME-20_00973	ME-20	296	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	ME-20_00969
+OZ247816.1	Prodigal:2.6	CDS	889192	889644	.	-	0	ME-20_00974	ME-20	150	OG0002194	K15977	putative oxidoreductase	COG2259	DoxX	Uncharacterized membrane protein YphA, DoxX/SURF4 family	ME-20_00969
+OZ247825.1	Prodigal:2.6	CDS	888448	889833	.	-	0	ME-18_00981	ME-18	461	OG0001010	K02037	phosphate transport system permease protein	COG0573	PstC	ABC-type phosphate transport system, permease component	ME-18_00986
+OZ247825.1	Prodigal:2.6	CDS	889925	890932	.	-	0	ME-18_00982	ME-18	335	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	ME-18_00986
+OZ247825.1	Prodigal:2.6	CDS	891074	892285	.	-	0	ME-18_00983	ME-18	403	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	ME-18_00986
+OZ247825.1	Prodigal:2.6	CDS	892396	893229	.	+	0	ME-18_00984	ME-18	277	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	ME-18_00986
+OZ247825.1	Prodigal:2.6	CDS	893244	894005	.	+	0	ME-18_00985	ME-18	253	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	ME-18_00986
+OZ247825.1	Prodigal:2.6	CDS	893983	894996	.	-	0	ME-18_00986	ME-18	337	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	ME-18_00986
+OZ247825.1	Prodigal:2.6	CDS	894996	895823	.	-	0	ME-18_00987	ME-18	275	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	ME-18_00986
+OZ247825.1	Prodigal:2.6	CDS	895957	896592	.	+	0	ME-18_00988	ME-18	211	OG0003174	NA	NA	COG1266	YdiL	Membrane protease YdiL, CAAX protease family	ME-18_00986
+OZ247825.1	Prodigal:2.6	CDS	896623	896802	.	-	0	ME-18_00989	ME-18	59	OG0003342	NA	NA	NA	NA	NA	ME-18_00986
+OZ247825.1	Prodigal:2.6	CDS	897063	897953	.	+	0	ME-18_00990	ME-18	296	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	ME-18_00986
+OZ247825.1	Prodigal:2.6	CDS	898035	898487	.	-	0	ME-18_00991	ME-18	150	OG0002194	K15977	putative oxidoreductase	COG2259	DoxX	Uncharacterized membrane protein YphA, DoxX/SURF4 family	ME-18_00986
+OZ249405.1	Prodigal:2.6	CDS	905244	906629	.	-	0	MiE-29_01000	MiE-29	461	OG0001010	K02037	phosphate transport system permease protein	COG0573	PstC	ABC-type phosphate transport system, permease component	MiE-29_01005
+OZ249405.1	Prodigal:2.6	CDS	906722	907726	.	-	0	MiE-29_01001	MiE-29	334	OG0001005	K02040	phosphate transport system substrate-binding protein	COG0226	PstS	ABC-type phosphate transport system, periplasmic component	MiE-29_01005
+OZ249405.1	Prodigal:2.6	CDS	907874	909085	.	-	0	MiE-29_01002	MiE-29	403	OG0001015	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	MiE-29_01005
+OZ249405.1	Prodigal:2.6	CDS	909196	910029	.	+	0	MiE-29_01003	MiE-29	277	OG0001554	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	MiE-29_01005
+OZ249405.1	Prodigal:2.6	CDS	910044	910805	.	+	0	MiE-29_01004	MiE-29	253	OG0001460	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	MiE-29_01005
+OZ249405.1	Prodigal:2.6	CDS	910783	911796	.	-	0	MiE-29_01005	MiE-29	337	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	MiE-29_01005
+OZ249405.1	Prodigal:2.6	CDS	911796	912623	.	-	0	MiE-29_01006	MiE-29	275	OG0001139	K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]	COG2908	LpxH	UDP-2,3-diacylglucosamine pyrophosphatase LpxH	MiE-29_01005
+OZ249405.1	Prodigal:2.6	CDS	912757	913392	.	+	0	MiE-29_01007	MiE-29	211	OG0003174	NA	NA	COG1266	YdiL	Membrane protease YdiL, CAAX protease family	MiE-29_01005
+OZ249405.1	Prodigal:2.6	CDS	913423	913602	.	-	0	MiE-29_01008	MiE-29	59	OG0003342	NA	NA	NA	NA	NA	MiE-29_01005
+OZ249405.1	Prodigal:2.6	CDS	913864	914754	.	+	0	MiE-29_01009	MiE-29	296	OG0001180	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	COG1597	LCB5	Phosphatidylglycerol kinase, diacylglycerol kinase family	MiE-29_01005
+OZ249405.1	Prodigal:2.6	CDS	914836	915288	.	-	0	MiE-29_01010	MiE-29	150	OG0002194	K15977	putative oxidoreductase	COG2259	DoxX	Uncharacterized membrane protein YphA, DoxX/SURF4 family	MiE-29_01005

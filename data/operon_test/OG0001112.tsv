@@ -1,0 +1,910 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CH724130.1	Prodigal:2.6	CDS	15948	16373	.	+	0	HTCC1002_00017	HTCC1002	141	OG0002386	NA	NA	NA	NA	NA	HTCC1002_00021
+CH724130.1	Prodigal:2.6	CDS	16383	17396	.	-	0	HTCC1002_00018	HTCC1002	337	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC1002_00021
+CH724130.1	Prodigal:2.6	CDS	16383	17396	.	-	0	HTCC1002_00018	HTCC1002	337	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC1002_00021
+CH724130.1	Prodigal:2.6	CDS	17436	18752	.	-	0	HTCC1002_00019	HTCC1002	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HTCC1002_00021
+CH724130.1	Prodigal:2.6	CDS	18753	19706	.	-	0	HTCC1002_00020	HTCC1002	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HTCC1002_00021
+CH724130.1	Prodigal:2.6	CDS	19758	20471	.	+	0	HTCC1002_00021	HTCC1002	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC1002_00021
+CH724130.1	Prodigal:2.6	CDS	20447	21151	.	+	0	HTCC1002_00022	HTCC1002	234	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HTCC1002_00021
+CH724130.1	Prodigal:2.6	CDS	21155	21697	.	-	0	HTCC1002_00023	HTCC1002	180	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC1002_00021
+CH724130.1	Prodigal:2.6	CDS	21701	22144	.	+	0	HTCC1002_00024	HTCC1002	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC1002_00021
+CH724130.1	Prodigal:2.6	CDS	22191	24635	.	+	0	HTCC1002_00025	HTCC1002	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC1002_00021
+CH724130.1	Prodigal:2.6	CDS	24677	24904	.	+	0	HTCC1002_00026	HTCC1002	75	OG0001202	NA	NA	NA	NA	NA	HTCC1002_00021
+CH724130.1	Prodigal:2.6	CDS	648247	648951	.	-	0	HTCC1002_00708	HTCC1002	234	OG0004288	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HTCC1002_00713
+CH724130.1	Prodigal:2.6	CDS	648963	650033	.	+	0	HTCC1002_00709	HTCC1002	356	OG0000110	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00713
+CH724130.1	Prodigal:2.6	CDS	650030	650731	.	-	0	HTCC1002_00710	HTCC1002	233	OG0000024	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HTCC1002_00713
+CH724130.1	Prodigal:2.6	CDS	650715	651863	.	-	0	HTCC1002_00711	HTCC1002	382	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00713
+CH724130.1	Prodigal:2.6	CDS	651889	653022	.	+	0	HTCC1002_00712	HTCC1002	377	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00713
+CH724130.1	Prodigal:2.6	CDS	653023	653634	.	-	0	HTCC1002_00713	HTCC1002	203	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC1002_00713
+CH724130.1	Prodigal:2.6	CDS	653615	655348	.	-	0	HTCC1002_00714	HTCC1002	577	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HTCC1002_00713
+CH724130.1	Prodigal:2.6	CDS	655352	656494	.	-	0	HTCC1002_00715	HTCC1002	380	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC1002_00713
+CH724130.1	Prodigal:2.6	CDS	656466	657299	.	-	0	HTCC1002_00716	HTCC1002	277	OG0002491	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1002_00713
+CH724130.1	Prodigal:2.6	CDS	657318	658391	.	+	0	HTCC1002_00717	HTCC1002	357	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HTCC1002_00713
+CH724130.1	Prodigal:2.6	CDS	658388	659545	.	+	0	HTCC1002_00718	HTCC1002	385	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1002_00713
+CH724130.1	Prodigal:2.6	CDS	675749	676522	.	+	0	HTCC1002_00735	HTCC1002	257	OG0000008	NA	NA	NA	NA	NA	HTCC1002_00740
+CH724130.1	Prodigal:2.6	CDS	676582	677946	.	+	0	HTCC1002_00736	HTCC1002	454	OG0001819	NA	NA	COG0277	GlcD	FAD/FMN-containing lactate dehydrogenase/glycolate oxidase	HTCC1002_00740
+CH724130.1	Prodigal:2.6	CDS	677949	678728	.	-	0	HTCC1002_00737	HTCC1002	259	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HTCC1002_00740
+CH724130.1	Prodigal:2.6	CDS	678728	679909	.	-	0	HTCC1002_00738	HTCC1002	393	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HTCC1002_00740
+CH724130.1	Prodigal:2.6	CDS	679932	680972	.	-	0	HTCC1002_00739	HTCC1002	346	OG0001190	NA	NA	COG1064	AdhP	D-arabinose 1-dehydrogenase, Zn-dependent alcohol dehydrogenase family	HTCC1002_00740
+CH724130.1	Prodigal:2.6	CDS	680978	681637	.	-	0	HTCC1002_00740	HTCC1002	219	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC1002_00740
+CH724130.1	Prodigal:2.6	CDS	681690	683426	.	+	0	HTCC1002_00741	HTCC1002	578	OG0000047	NA	NA	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HTCC1002_00740
+CH724130.1	Prodigal:2.6	CDS	683426	684289	.	+	0	HTCC1002_00742	HTCC1002	287	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HTCC1002_00740
+CH724130.1	Prodigal:2.6	CDS	684286	685140	.	-	0	HTCC1002_00743	HTCC1002	284	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC1002_00740
+CH724130.1	Prodigal:2.6	CDS	685157	685603	.	-	0	HTCC1002_00744	HTCC1002	148	OG0001934	NA	NA	NA	NA	NA	HTCC1002_00740
+CH724130.1	Prodigal:2.6	CDS	685584	686117	.	-	0	HTCC1002_00745	HTCC1002	177	OG0001934	NA	NA	COG1917	QdoI	Cupin domain protein related to quercetin dioxygenase	HTCC1002_00740
+KI421438.1	Prodigal:2.6	CDS	248228	248455	.	-	0	HTCC1013_01066	HTCC1013	75	OG0001202	NA	NA	NA	NA	NA	HTCC1013_01071
+KI421438.1	Prodigal:2.6	CDS	248497	250941	.	-	0	HTCC1013_01067	HTCC1013	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC1013_01071
+KI421438.1	Prodigal:2.6	CDS	250988	251431	.	-	0	HTCC1013_01068	HTCC1013	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC1013_01071
+KI421438.1	Prodigal:2.6	CDS	251435	251977	.	+	0	HTCC1013_01069	HTCC1013	180	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC1013_01071
+KI421438.1	Prodigal:2.6	CDS	251981	252685	.	-	0	HTCC1013_01070	HTCC1013	234	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HTCC1013_01071
+KI421438.1	Prodigal:2.6	CDS	252661	253374	.	-	0	HTCC1013_01071	HTCC1013	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC1013_01071
+KI421438.1	Prodigal:2.6	CDS	253426	254379	.	+	0	HTCC1013_01072	HTCC1013	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HTCC1013_01071
+KI421438.1	Prodigal:2.6	CDS	254380	255699	.	+	0	HTCC1013_01073	HTCC1013	439	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HTCC1013_01071
+KI421438.1	Prodigal:2.6	CDS	255736	256749	.	+	0	HTCC1013_01074	HTCC1013	337	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC1013_01071
+KI421438.1	Prodigal:2.6	CDS	255736	256749	.	+	0	HTCC1013_01074	HTCC1013	337	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC1013_01071
+KI421438.1	Prodigal:2.6	CDS	256759	257184	.	-	0	HTCC1013_01075	HTCC1013	141	OG0002386	NA	NA	NA	NA	NA	HTCC1013_01071
+CP000084.1	Prodigal:2.6	CDS	516442	516975	.	+	0	HTCC1062_00535	HTCC1062	177	OG0001934	NA	NA	COG1917	QdoI	Cupin domain protein related to quercetin dioxygenase	HTCC1062_00540
+CP000084.1	Prodigal:2.6	CDS	516956	517402	.	+	0	HTCC1062_00536	HTCC1062	148	OG0001934	NA	NA	NA	NA	NA	HTCC1062_00540
+CP000084.1	Prodigal:2.6	CDS	517419	518273	.	+	0	HTCC1062_00537	HTCC1062	284	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC1062_00540
+CP000084.1	Prodigal:2.6	CDS	518270	519133	.	-	0	HTCC1062_00538	HTCC1062	287	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HTCC1062_00540
+CP000084.1	Prodigal:2.6	CDS	519133	520869	.	-	0	HTCC1062_00539	HTCC1062	578	OG0000047	NA	NA	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HTCC1062_00540
+CP000084.1	Prodigal:2.6	CDS	520922	521581	.	+	0	HTCC1062_00540	HTCC1062	219	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC1062_00540
+CP000084.1	Prodigal:2.6	CDS	521587	522627	.	+	0	HTCC1062_00541	HTCC1062	346	OG0001190	NA	NA	COG1064	AdhP	D-arabinose 1-dehydrogenase, Zn-dependent alcohol dehydrogenase family	HTCC1062_00540
+CP000084.1	Prodigal:2.6	CDS	522650	523831	.	+	0	HTCC1062_00542	HTCC1062	393	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HTCC1062_00540
+CP000084.1	Prodigal:2.6	CDS	523831	524610	.	+	0	HTCC1062_00543	HTCC1062	259	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HTCC1062_00540
+CP000084.1	Prodigal:2.6	CDS	524613	525977	.	-	0	HTCC1062_00544	HTCC1062	454	OG0001819	NA	NA	COG0277	GlcD	FAD/FMN-containing lactate dehydrogenase/glycolate oxidase	HTCC1062_00540
+CP000084.1	Prodigal:2.6	CDS	526036	526809	.	-	0	HTCC1062_00545	HTCC1062	257	OG0000008	NA	NA	NA	NA	NA	HTCC1062_00540
+CP000084.1	Prodigal:2.6	CDS	543013	544170	.	-	0	HTCC1062_00562	HTCC1062	385	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1062_00567
+CP000084.1	Prodigal:2.6	CDS	544167	545240	.	-	0	HTCC1062_00563	HTCC1062	357	OG0001873	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HTCC1062_00567
+CP000084.1	Prodigal:2.6	CDS	545259	546092	.	+	0	HTCC1062_00564	HTCC1062	277	OG0002491	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC1062_00567
+CP000084.1	Prodigal:2.6	CDS	546064	547206	.	+	0	HTCC1062_00565	HTCC1062	380	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HTCC1062_00567
+CP000084.1	Prodigal:2.6	CDS	547210	548943	.	+	0	HTCC1062_00566	HTCC1062	577	OG0001003	K00612	carbamoyltransferase [EC:2.1.3.-]	COG2192	NA	Predicted carbamoyl transferase, NodU family	HTCC1062_00567
+CP000084.1	Prodigal:2.6	CDS	548924	549535	.	+	0	HTCC1062_00567	HTCC1062	203	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC1062_00567
+CP000084.1	Prodigal:2.6	CDS	549536	550669	.	-	0	HTCC1062_00568	HTCC1062	377	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1062_00567
+CP000084.1	Prodigal:2.6	CDS	550695	551843	.	+	0	HTCC1062_00569	HTCC1062	382	OG0000985	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1062_00567
+CP000084.1	Prodigal:2.6	CDS	551827	552528	.	+	0	HTCC1062_00570	HTCC1062	233	OG0000024	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HTCC1062_00567
+CP000084.1	Prodigal:2.6	CDS	552525	553595	.	-	0	HTCC1062_00571	HTCC1062	356	OG0000110	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HTCC1062_00567
+CP000084.1	Prodigal:2.6	CDS	553607	554311	.	+	0	HTCC1062_00572	HTCC1062	234	OG0004288	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HTCC1062_00567
+CP000084.1	Prodigal:2.6	CDS	1166737	1166964	.	-	0	HTCC1062_01234	HTCC1062	75	OG0001202	NA	NA	NA	NA	NA	HTCC1062_01239
+CP000084.1	Prodigal:2.6	CDS	1167006	1169450	.	-	0	HTCC1062_01235	HTCC1062	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC1062_01239
+CP000084.1	Prodigal:2.6	CDS	1169497	1169940	.	-	0	HTCC1062_01236	HTCC1062	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC1062_01239
+CP000084.1	Prodigal:2.6	CDS	1169944	1170486	.	+	0	HTCC1062_01237	HTCC1062	180	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC1062_01239
+CP000084.1	Prodigal:2.6	CDS	1170490	1171194	.	-	0	HTCC1062_01238	HTCC1062	234	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HTCC1062_01239
+CP000084.1	Prodigal:2.6	CDS	1171170	1171883	.	-	0	HTCC1062_01239	HTCC1062	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC1062_01239
+CP000084.1	Prodigal:2.6	CDS	1171935	1172888	.	+	0	HTCC1062_01240	HTCC1062	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HTCC1062_01239
+CP000084.1	Prodigal:2.6	CDS	1172889	1174208	.	+	0	HTCC1062_01241	HTCC1062	439	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HTCC1062_01239
+CP000084.1	Prodigal:2.6	CDS	1174245	1175258	.	+	0	HTCC1062_01242	HTCC1062	337	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC1062_01239
+CP000084.1	Prodigal:2.6	CDS	1174245	1175258	.	+	0	HTCC1062_01242	HTCC1062	337	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC1062_01239
+CP000084.1	Prodigal:2.6	CDS	1175268	1175693	.	-	0	HTCC1062_01243	HTCC1062	141	OG0002386	NA	NA	NA	NA	NA	HTCC1062_01239
+ARVY01000001.1	Prodigal:2.6	CDS	984570	984797	.	-	0	HTCC1040_01070	HTCC1040	75	OG0001202	NA	NA	NA	NA	NA	HTCC1040_01075
+ARVY01000001.1	Prodigal:2.6	CDS	984839	987283	.	-	0	HTCC1040_01071	HTCC1040	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HTCC1040_01075
+ARVY01000001.1	Prodigal:2.6	CDS	987330	987773	.	-	0	HTCC1040_01072	HTCC1040	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC1040_01075
+ARVY01000001.1	Prodigal:2.6	CDS	987792	988319	.	+	0	HTCC1040_01073	HTCC1040	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC1040_01075
+ARVY01000001.1	Prodigal:2.6	CDS	988323	989027	.	-	0	HTCC1040_01074	HTCC1040	234	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HTCC1040_01075
+ARVY01000001.1	Prodigal:2.6	CDS	989003	989716	.	-	0	HTCC1040_01075	HTCC1040	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC1040_01075
+ARVY01000001.1	Prodigal:2.6	CDS	989768	990721	.	+	0	HTCC1040_01076	HTCC1040	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HTCC1040_01075
+ARVY01000001.1	Prodigal:2.6	CDS	990722	992041	.	+	0	HTCC1040_01077	HTCC1040	439	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HTCC1040_01075
+ARVY01000001.1	Prodigal:2.6	CDS	992078	993091	.	+	0	HTCC1040_01078	HTCC1040	337	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC1040_01075
+ARVY01000001.1	Prodigal:2.6	CDS	992078	993091	.	+	0	HTCC1040_01078	HTCC1040	337	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC1040_01075
+ARVY01000001.1	Prodigal:2.6	CDS	993101	993526	.	-	0	HTCC1040_01079	HTCC1040	141	OG0002386	NA	NA	NA	NA	NA	HTCC1040_01075
+CP038852.1	Prodigal:2.6	CDS	618167	619111	.	-	0	NP1_00701	NP1	314	OG0001625	NA	NA	NA	NA	NA	NP1_00706
+CP038852.1	Prodigal:2.6	CDS	619095	619499	.	-	0	NP1_00702	NP1	134	OG0001448	NA	NA	NA	NA	NA	NP1_00706
+CP038852.1	Prodigal:2.6	CDS	619693	619968	.	-	0	NP1_00703	NP1	91	OG0001448	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	NP1_00706
+CP038852.1	Prodigal:2.6	CDS	619969	621033	.	-	0	NP1_00704	NP1	354	OG0001472	NA	NA	COG0022	AcoB	Pyruvate/2-oxoglutarate/acetoin dehydrogenase complex, dehydrogenase (E1) component, beta subunit	NP1_00706
+CP038852.1	Prodigal:2.6	CDS	621057	622019	.	-	0	NP1_00705	NP1	320	OG0001444	NA	NA	COG1071	AcoA	TPP-dependent pyruvate or acetoin dehydrogenase subunit alpha	NP1_00706
+CP038852.1	Prodigal:2.6	CDS	622016	622666	.	-	0	NP1_00706	NP1	216	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	NP1_00706
+CP038852.1	Prodigal:2.6	CDS	622667	623770	.	-	0	NP1_00707	NP1	367	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	NP1_00706
+CP038852.1	Prodigal:2.6	CDS	623754	623954	.	-	0	NP1_00708	NP1	66	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	NP1_00706
+CP038852.1	Prodigal:2.6	CDS	624038	624871	.	-	0	NP1_00709	NP1	277	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	NP1_00706
+CP038852.1	Prodigal:2.6	CDS	624868	625704	.	-	0	NP1_00710	NP1	278	OG0000865	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	NP1_00706
+CP038852.1	Prodigal:2.6	CDS	625706	626938	.	-	0	NP1_00711	NP1	410	OG0000039	NA	NA	COG1004	Ugd	UDP-glucose 6-dehydrogenase	NP1_00706
+CP038852.1	Prodigal:2.6	CDS	1319092	1319460	.	+	0	NP1_01433	NP1	122	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	NP1_01437
+CP038852.1	Prodigal:2.6	CDS	1319499	1319684	.	-	0	NP1_01434	NP1	61	OG0002197	NA	NA	NA	NA	NA	NP1_01437
+CP038852.1	Prodigal:2.6	CDS	1319693	1320376	.	-	0	NP1_01435	NP1	227	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	NP1_01437
+CP038852.1	Prodigal:2.6	CDS	1319693	1320376	.	-	0	NP1_01435	NP1	227	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	NP1_01437
+CP038852.1	Prodigal:2.6	CDS	1320440	1321393	.	-	0	NP1_01436	NP1	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	NP1_01437
+CP038852.1	Prodigal:2.6	CDS	1321445	1322158	.	+	0	NP1_01437	NP1	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	NP1_01437
+CP038852.1	Prodigal:2.6	CDS	1322155	1322682	.	-	0	NP1_01438	NP1	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	NP1_01437
+CP038852.1	Prodigal:2.6	CDS	1322701	1323144	.	+	0	NP1_01439	NP1	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	NP1_01437
+CP038852.1	Prodigal:2.6	CDS	1323191	1325635	.	+	0	NP1_01440	NP1	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	NP1_01437
+CP038852.1	Prodigal:2.6	CDS	1325677	1325904	.	+	0	NP1_01441	NP1	75	OG0001202	NA	NA	NA	NA	NA	NP1_01437
+CP038852.1	Prodigal:2.6	CDS	1326229	1327482	.	+	0	NP1_01442	NP1	417	OG0002962	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	NP1_01437
+CP159811.1	Prodigal:2.6	CDS	805744	806679	.	-	0	Uisw_137_00891	Uisw_137	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	Uisw_137_00896
+CP159811.1	Prodigal:2.6	CDS	806728	808176	.	-	0	Uisw_137_00892	Uisw_137	482	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_137_00896
+CP159811.1	Prodigal:2.6	CDS	808286	808801	.	-	0	Uisw_137_00893	Uisw_137	171	OG0001307	NA	NA	NA	NA	NA	Uisw_137_00896
+CP159811.1	Prodigal:2.6	CDS	808817	809260	.	-	0	Uisw_137_00894	Uisw_137	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_137_00896
+CP159811.1	Prodigal:2.6	CDS	809279	809806	.	+	0	Uisw_137_00895	Uisw_137	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_137_00896
+CP159811.1	Prodigal:2.6	CDS	809803	810516	.	-	0	Uisw_137_00896	Uisw_137	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_137_00896
+CP159811.1	Prodigal:2.6	CDS	810568	811521	.	+	0	Uisw_137_00897	Uisw_137	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_137_00896
+CP159811.1	Prodigal:2.6	CDS	811522	812841	.	+	0	Uisw_137_00898	Uisw_137	439	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_137_00896
+CP159811.1	Prodigal:2.6	CDS	812878	813897	.	+	0	Uisw_137_00899	Uisw_137	339	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_137_00896
+CP159811.1	Prodigal:2.6	CDS	812878	813897	.	+	0	Uisw_137_00899	Uisw_137	339	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_137_00896
+CP159811.1	Prodigal:2.6	CDS	813906	814091	.	+	0	Uisw_137_00900	Uisw_137	61	OG0002197	NA	NA	NA	NA	NA	Uisw_137_00896
+CP159821.1	Aragorn:1.2	tRNA	884848	884924	.	-	.	Uisw_101_00953	Uisw_101	NA	NA	NA	NA	NA	NA	NA	Uisw_101_00958
+CP159821.1	Prodigal:2.6	CDS	884989	885216	.	-	0	Uisw_101_00954	Uisw_101	75	OG0001202	NA	NA	NA	NA	NA	Uisw_101_00958
+CP159821.1	Prodigal:2.6	CDS	885259	887703	.	-	0	Uisw_101_00955	Uisw_101	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_101_00958
+CP159821.1	Prodigal:2.6	CDS	887750	888193	.	-	0	Uisw_101_00956	Uisw_101	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_101_00958
+CP159821.1	Prodigal:2.6	CDS	888212	888739	.	+	0	Uisw_101_00957	Uisw_101	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_101_00958
+CP159821.1	Prodigal:2.6	CDS	888736	889449	.	-	0	Uisw_101_00958	Uisw_101	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_101_00958
+CP159821.1	Prodigal:2.6	CDS	889501	890454	.	+	0	Uisw_101_00959	Uisw_101	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_101_00958
+CP159821.1	Prodigal:2.6	CDS	890455	891774	.	+	0	Uisw_101_00960	Uisw_101	439	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_101_00958
+CP159821.1	Prodigal:2.6	CDS	891811	892830	.	+	0	Uisw_101_00961	Uisw_101	339	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_101_00958
+CP159821.1	Prodigal:2.6	CDS	891811	892830	.	+	0	Uisw_101_00961	Uisw_101	339	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_101_00958
+CP159821.1	Prodigal:2.6	CDS	893051	893416	.	-	0	Uisw_101_00962	Uisw_101	121	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	Uisw_101_00958
+CP159820.1	Aragorn:1.2	tRNA	891700	891772	.	-	.	Uisw_104_00984	Uisw_104	NA	NA	NA	NA	NA	NA	NA	Uisw_104_00989
+CP159820.1	Prodigal:2.6	CDS	891838	892065	.	-	0	Uisw_104_00985	Uisw_104	75	OG0001202	NA	NA	NA	NA	NA	Uisw_104_00989
+CP159820.1	Prodigal:2.6	CDS	892108	894552	.	-	0	Uisw_104_00986	Uisw_104	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_104_00989
+CP159820.1	Prodigal:2.6	CDS	894599	895042	.	-	0	Uisw_104_00987	Uisw_104	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_104_00989
+CP159820.1	Prodigal:2.6	CDS	895061	895588	.	+	0	Uisw_104_00988	Uisw_104	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_104_00989
+CP159820.1	Prodigal:2.6	CDS	895585	896298	.	-	0	Uisw_104_00989	Uisw_104	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_104_00989
+CP159820.1	Prodigal:2.6	CDS	896350	897303	.	+	0	Uisw_104_00990	Uisw_104	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_104_00989
+CP159820.1	Prodigal:2.6	CDS	897304	898623	.	+	0	Uisw_104_00991	Uisw_104	439	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_104_00989
+CP159820.1	Prodigal:2.6	CDS	898660	899679	.	+	0	Uisw_104_00992	Uisw_104	339	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_104_00989
+CP159820.1	Prodigal:2.6	CDS	898660	899679	.	+	0	Uisw_104_00992	Uisw_104	339	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_104_00989
+CP159820.1	Prodigal:2.6	CDS	899688	899873	.	+	0	Uisw_104_00993	Uisw_104	61	OG0002197	NA	NA	NA	NA	NA	Uisw_104_00989
+CP159819.1	Prodigal:2.6	CDS	142918	144036	.	+	0	Uisw_106_00152	Uisw_106	372	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_106_00157
+CP159819.1	Prodigal:2.6	CDS	144020	144334	.	+	0	Uisw_106_00153	Uisw_106	104	OG0000814	NA	NA	NA	NA	NA	Uisw_106_00157
+CP159819.1	Prodigal:2.6	CDS	144358	145257	.	+	0	Uisw_106_00154	Uisw_106	299	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	Uisw_106_00157
+CP159819.1	Prodigal:2.6	CDS	145254	146351	.	+	0	Uisw_106_00155	Uisw_106	365	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_106_00157
+CP159819.1	Prodigal:2.6	CDS	146348	147715	.	+	0	Uisw_106_00156	Uisw_106	455	OG0000056	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	Uisw_106_00157
+CP159819.1	Prodigal:2.6	CDS	147717	148376	.	+	0	Uisw_106_00157	Uisw_106	219	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	Uisw_106_00157
+CP159819.1	Prodigal:2.6	CDS	148376	148906	.	+	0	Uisw_106_00158	Uisw_106	176	OG0001934	NA	NA	NA	NA	NA	Uisw_106_00157
+CP159819.1	Prodigal:2.6	CDS	148903	150339	.	+	0	Uisw_106_00159	Uisw_106	478	OG0001377	NA	NA	COG2870	RfaE	ADP-heptose synthase, bifunctional sugar kinase/adenylyltransferase	Uisw_106_00157
+CP159819.1	Prodigal:2.6	CDS	150340	151026	.	+	0	Uisw_106_00160	Uisw_106	228	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	Uisw_106_00157
+CP159819.1	Prodigal:2.6	CDS	151031	151234	.	+	0	Uisw_106_00161	Uisw_106	67	OG0001625	NA	NA	NA	NA	NA	Uisw_106_00157
+CP159819.1	Prodigal:2.6	CDS	151270	152214	.	+	0	Uisw_106_00162	Uisw_106	314	OG0001625	NA	NA	NA	NA	NA	Uisw_106_00157
+CP159819.1	Aragorn:1.2	tRNA	811165	811241	.	-	.	Uisw_106_00919	Uisw_106	NA	NA	NA	NA	NA	NA	NA	Uisw_106_00924
+CP159819.1	Prodigal:2.6	CDS	811307	811534	.	-	0	Uisw_106_00920	Uisw_106	75	OG0001202	NA	NA	NA	NA	NA	Uisw_106_00924
+CP159819.1	Prodigal:2.6	CDS	811576	814020	.	-	0	Uisw_106_00921	Uisw_106	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_106_00924
+CP159819.1	Prodigal:2.6	CDS	814067	814510	.	-	0	Uisw_106_00922	Uisw_106	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_106_00924
+CP159819.1	Prodigal:2.6	CDS	814529	815056	.	+	0	Uisw_106_00923	Uisw_106	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_106_00924
+CP159819.1	Prodigal:2.6	CDS	815053	815766	.	-	0	Uisw_106_00924	Uisw_106	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_106_00924
+CP159819.1	Prodigal:2.6	CDS	815818	816771	.	+	0	Uisw_106_00925	Uisw_106	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_106_00924
+CP159819.1	Prodigal:2.6	CDS	816772	818091	.	+	0	Uisw_106_00926	Uisw_106	439	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_106_00924
+CP159819.1	Prodigal:2.6	CDS	818128	819147	.	+	0	Uisw_106_00927	Uisw_106	339	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_106_00924
+CP159819.1	Prodigal:2.6	CDS	818128	819147	.	+	0	Uisw_106_00927	Uisw_106	339	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_106_00924
+CP159819.1	Prodigal:2.6	CDS	819156	819341	.	+	0	Uisw_106_00928	Uisw_106	61	OG0002197	NA	NA	NA	NA	NA	Uisw_106_00924
+CP159823.1	Prodigal:2.6	CDS	855968	856639	.	+	0	Uisw_094_00965	Uisw_094	223	OG0005331	NA	NA	NA	NA	NA	Uisw_094_00970
+CP159823.1	Prodigal:2.6	CDS	857089	857313	.	-	0	Uisw_094_00966	Uisw_094	74	OG0001202	NA	NA	NA	NA	NA	Uisw_094_00970
+CP159823.1	Prodigal:2.6	CDS	857354	859798	.	-	0	Uisw_094_00967	Uisw_094	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_094_00970
+CP159823.1	Prodigal:2.6	CDS	859845	860288	.	-	0	Uisw_094_00968	Uisw_094	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_094_00970
+CP159823.1	Prodigal:2.6	CDS	860307	860834	.	+	0	Uisw_094_00969	Uisw_094	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_094_00970
+CP159823.1	Prodigal:2.6	CDS	860831	861544	.	-	0	Uisw_094_00970	Uisw_094	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_094_00970
+CP159823.1	Prodigal:2.6	CDS	861596	862549	.	+	0	Uisw_094_00971	Uisw_094	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_094_00970
+CP159823.1	Prodigal:2.6	CDS	862550	863869	.	+	0	Uisw_094_00972	Uisw_094	439	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_094_00970
+CP159823.1	Prodigal:2.6	CDS	863906	864925	.	+	0	Uisw_094_00973	Uisw_094	339	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_094_00970
+CP159823.1	Prodigal:2.6	CDS	863906	864925	.	+	0	Uisw_094_00973	Uisw_094	339	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_094_00970
+CP159823.1	Prodigal:2.6	CDS	864934	865119	.	+	0	Uisw_094_00974	Uisw_094	61	OG0002197	NA	NA	NA	NA	NA	Uisw_094_00970
+CP159812.1	Aragorn:1.2	tRNA	849701	849777	.	-	.	Uisw_136_00934	Uisw_136	NA	NA	NA	NA	NA	NA	NA	Uisw_136_00939
+CP159812.1	Prodigal:2.6	CDS	849843	850070	.	-	0	Uisw_136_00935	Uisw_136	75	OG0001202	NA	NA	NA	NA	NA	Uisw_136_00939
+CP159812.1	Prodigal:2.6	CDS	850112	852556	.	-	0	Uisw_136_00936	Uisw_136	814	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_136_00939
+CP159812.1	Prodigal:2.6	CDS	852603	853046	.	-	0	Uisw_136_00937	Uisw_136	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_136_00939
+CP159812.1	Prodigal:2.6	CDS	853065	853592	.	+	0	Uisw_136_00938	Uisw_136	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_136_00939
+CP159812.1	Prodigal:2.6	CDS	853589	854302	.	-	0	Uisw_136_00939	Uisw_136	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_136_00939
+CP159812.1	Prodigal:2.6	CDS	854354	855307	.	+	0	Uisw_136_00940	Uisw_136	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_136_00939
+CP159812.1	Prodigal:2.6	CDS	855308	856627	.	+	0	Uisw_136_00941	Uisw_136	439	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_136_00939
+CP159812.1	Prodigal:2.6	CDS	856664	857683	.	+	0	Uisw_136_00942	Uisw_136	339	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_136_00939
+CP159812.1	Prodigal:2.6	CDS	856664	857683	.	+	0	Uisw_136_00942	Uisw_136	339	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_136_00939
+CP159812.1	Prodigal:2.6	CDS	857904	858269	.	-	0	Uisw_136_00943	Uisw_136	121	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	Uisw_136_00939
+CP159809.1	Prodigal:2.6	CDS	391694	392059	.	+	0	Uisw_113_00411	Uisw_113	121	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	Uisw_113_00415
+CP159809.1	Prodigal:2.6	CDS	392280	393299	.	-	0	Uisw_113_00412	Uisw_113	339	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_113_00415
+CP159809.1	Prodigal:2.6	CDS	392280	393299	.	-	0	Uisw_113_00412	Uisw_113	339	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_113_00415
+CP159809.1	Prodigal:2.6	CDS	393336	394655	.	-	0	Uisw_113_00413	Uisw_113	439	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_113_00415
+CP159809.1	Prodigal:2.6	CDS	394656	395609	.	-	0	Uisw_113_00414	Uisw_113	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_113_00415
+CP159809.1	Prodigal:2.6	CDS	395661	396374	.	+	0	Uisw_113_00415	Uisw_113	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_113_00415
+CP159809.1	Prodigal:2.6	CDS	396371	396913	.	-	0	Uisw_113_00416	Uisw_113	180	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_113_00415
+CP159809.1	Prodigal:2.6	CDS	396917	397360	.	+	0	Uisw_113_00417	Uisw_113	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_113_00415
+CP159809.1	Aragorn:1.2	tRNA	397469	397543	.	+	.	Uisw_113_00418	Uisw_113	NA	NA	NA	NA	NA	NA	NA	Uisw_113_00415
+CP159809.1	Prodigal:2.6	CDS	398432	399295	.	+	0	Uisw_113_00419	Uisw_113	287	OG0001279	NA	NA	NA	NA	NA	Uisw_113_00415
+CP159809.1	Prodigal:2.6	CDS	399312	400475	.	-	0	Uisw_113_00420	Uisw_113	387	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_113_00415
+CP159817.1	Prodigal:2.6	CDS	126975	127472	.	+	0	Uisw_116_00143	Uisw_116	165	OG0001753	NA	NA	NA	NA	NA	Uisw_116_00148
+CP159817.1	Prodigal:2.6	CDS	127616	127978	.	+	0	Uisw_116_00144	Uisw_116	120	OG0001670	NA	NA	NA	NA	NA	Uisw_116_00148
+CP159817.1	Prodigal:2.6	CDS	128028	129548	.	+	0	Uisw_116_00145	Uisw_116	506	OG0001377	NA	NA	COG2870	RfaE	ADP-heptose synthase, bifunctional sugar kinase/adenylyltransferase	Uisw_116_00148
+CP159817.1	Prodigal:2.6	CDS	129549	130544	.	+	0	Uisw_116_00146	Uisw_116	331	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	Uisw_116_00148
+CP159817.1	Prodigal:2.6	CDS	130549	131499	.	+	0	Uisw_116_00147	Uisw_116	316	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_116_00148
+CP159817.1	Prodigal:2.6	CDS	131492	132151	.	+	0	Uisw_116_00148	Uisw_116	219	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	Uisw_116_00148
+CP159817.1	Prodigal:2.6	CDS	132126	133112	.	+	0	Uisw_116_00149	Uisw_116	328	OG0001444	NA	NA	COG1071	AcoA	TPP-dependent pyruvate or acetoin dehydrogenase subunit alpha	Uisw_116_00148
+CP159817.1	Prodigal:2.6	CDS	133105	134163	.	+	0	Uisw_116_00150	Uisw_116	352	OG0001472	NA	NA	COG0022	AcoB	Pyruvate/2-oxoglutarate/acetoin dehydrogenase complex, dehydrogenase (E1) component, beta subunit	Uisw_116_00148
+CP159817.1	Prodigal:2.6	CDS	134102	134902	.	+	0	Uisw_116_00151	Uisw_116	266	OG0001646	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_116_00148
+CP159817.1	Prodigal:2.6	CDS	134905	135357	.	+	0	Uisw_116_00152	Uisw_116	150	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_116_00148
+CP159817.1	Prodigal:2.6	CDS	135522	135662	.	+	0	Uisw_116_00153	Uisw_116	46	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	Uisw_116_00148
+CP159817.1	Aragorn:1.2	tRNA	745176	745252	.	-	.	Uisw_116_00862	Uisw_116	NA	NA	NA	NA	NA	NA	NA	Uisw_116_00867
+CP159817.1	Prodigal:2.6	CDS	745317	745559	.	-	0	Uisw_116_00863	Uisw_116	80	OG0001202	NA	NA	NA	NA	NA	Uisw_116_00867
+CP159817.1	Prodigal:2.6	CDS	745585	748029	.	-	0	Uisw_116_00864	Uisw_116	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_116_00867
+CP159817.1	Prodigal:2.6	CDS	748076	748519	.	-	0	Uisw_116_00865	Uisw_116	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_116_00867
+CP159817.1	Prodigal:2.6	CDS	748538	749065	.	+	0	Uisw_116_00866	Uisw_116	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_116_00867
+CP159817.1	Prodigal:2.6	CDS	749062	749775	.	-	0	Uisw_116_00867	Uisw_116	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_116_00867
+CP159817.1	Prodigal:2.6	CDS	749827	750780	.	+	0	Uisw_116_00868	Uisw_116	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_116_00867
+CP159817.1	Prodigal:2.6	CDS	750844	751320	.	+	0	Uisw_116_00869	Uisw_116	158	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_116_00867
+CP159817.1	Prodigal:2.6	CDS	751596	752021	.	+	0	Uisw_116_00870	Uisw_116	141	OG0001280	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	Uisw_116_00867
+CP159817.1	Prodigal:2.6	CDS	752090	752464	.	+	0	Uisw_116_00871	Uisw_116	124	OG0000854	NA	NA	NA	NA	NA	Uisw_116_00867
+CP159817.1	Prodigal:2.6	CDS	752691	753059	.	-	0	Uisw_116_00872	Uisw_116	122	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	Uisw_116_00867
+CP159816.1	Prodigal:2.6	CDS	801224	801466	.	-	0	Uisw_121_00876	Uisw_121	80	OG0001202	NA	NA	NA	NA	NA	Uisw_121_00881
+CP159816.1	Prodigal:2.6	CDS	801492	803501	.	-	0	Uisw_121_00877	Uisw_121	669	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_121_00881
+CP159816.1	Prodigal:2.6	CDS	803635	803937	.	-	0	Uisw_121_00878	Uisw_121	100	OG0000013	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	Uisw_121_00881
+CP159816.1	Prodigal:2.6	CDS	803984	804427	.	-	0	Uisw_121_00879	Uisw_121	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_121_00881
+CP159816.1	Prodigal:2.6	CDS	804446	804973	.	+	0	Uisw_121_00880	Uisw_121	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_121_00881
+CP159816.1	Prodigal:2.6	CDS	804970	805683	.	-	0	Uisw_121_00881	Uisw_121	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_121_00881
+CP159816.1	Prodigal:2.6	CDS	805735	806688	.	+	0	Uisw_121_00882	Uisw_121	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_121_00881
+CP159816.1	Prodigal:2.6	CDS	806689	808002	.	+	0	Uisw_121_00883	Uisw_121	437	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_121_00881
+CP159816.1	Prodigal:2.6	CDS	808076	808333	.	+	0	Uisw_121_00884	Uisw_121	85	OG0001012	NA	NA	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_121_00881
+CP159816.1	Prodigal:2.6	CDS	808314	808760	.	+	0	Uisw_121_00885	Uisw_121	148	OG0001012	NA	NA	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_121_00881
+CP159816.1	Prodigal:2.6	CDS	808830	809255	.	+	0	Uisw_121_00886	Uisw_121	141	OG0001280	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	Uisw_121_00881
+CP159818.1	Prodigal:2.6	CDS	831597	832376	.	+	0	Uisw_114_01002	Uisw_114	259	OG0002289	NA	NA	NA	NA	NA	Uisw_114_01007
+CP159818.1	Prodigal:2.6	CDS	832731	832958	.	-	0	Uisw_114_01003	Uisw_114	75	OG0001202	NA	NA	NA	NA	NA	Uisw_114_01007
+CP159818.1	Prodigal:2.6	CDS	833000	835444	.	-	0	Uisw_114_01004	Uisw_114	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_114_01007
+CP159818.1	Prodigal:2.6	CDS	835491	835934	.	-	0	Uisw_114_01005	Uisw_114	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_114_01007
+CP159818.1	Prodigal:2.6	CDS	835938	836480	.	+	0	Uisw_114_01006	Uisw_114	180	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_114_01007
+CP159818.1	Prodigal:2.6	CDS	836477	837190	.	-	0	Uisw_114_01007	Uisw_114	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_114_01007
+CP159818.1	Prodigal:2.6	CDS	837242	838195	.	+	0	Uisw_114_01008	Uisw_114	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_114_01007
+CP159818.1	Prodigal:2.6	CDS	838196	838525	.	+	0	Uisw_114_01009	Uisw_114	109	OG0001313	NA	NA	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_114_01007
+CP159818.1	Prodigal:2.6	CDS	838479	838889	.	+	0	Uisw_114_01010	Uisw_114	136	OG0001313	NA	NA	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_114_01007
+CP159818.1	Prodigal:2.6	CDS	838951	839487	.	+	0	Uisw_114_01011	Uisw_114	178	OG0001313	NA	NA	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_114_01007
+CP159818.1	Prodigal:2.6	CDS	839586	840062	.	+	0	Uisw_114_01012	Uisw_114	158	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_114_01007
+CP159814.1	Prodigal:2.6	CDS	375394	375579	.	-	0	Uisw_130_00405	Uisw_130	61	OG0002197	NA	NA	NA	NA	NA	Uisw_130_00409
+CP159814.1	Prodigal:2.6	CDS	375588	376271	.	-	0	Uisw_130_00406	Uisw_130	227	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_130_00409
+CP159814.1	Prodigal:2.6	CDS	375588	376271	.	-	0	Uisw_130_00406	Uisw_130	227	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_130_00409
+CP159814.1	Prodigal:2.6	CDS	376345	377658	.	-	0	Uisw_130_00407	Uisw_130	437	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_130_00409
+CP159814.1	Prodigal:2.6	CDS	377659	378612	.	-	0	Uisw_130_00408	Uisw_130	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_130_00409
+CP159814.1	Prodigal:2.6	CDS	378664	379377	.	+	0	Uisw_130_00409	Uisw_130	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_130_00409
+CP159814.1	Prodigal:2.6	CDS	379374	379901	.	-	0	Uisw_130_00410	Uisw_130	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_130_00409
+CP159814.1	Prodigal:2.6	CDS	379920	380363	.	+	0	Uisw_130_00411	Uisw_130	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_130_00409
+CP159814.1	Prodigal:2.6	CDS	380379	380888	.	+	0	Uisw_130_00412	Uisw_130	169	OG0001307	NA	NA	NA	NA	NA	Uisw_130_00409
+CP159814.1	Prodigal:2.6	CDS	380893	381555	.	-	0	Uisw_130_00413	Uisw_130	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_130_00409
+CP159814.1	Prodigal:2.6	CDS	381555	383048	.	-	0	Uisw_130_00414	Uisw_130	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_130_00409
+CP159824.1	Prodigal:2.6	CDS	634018	634581	.	+	0	Uisw_092_00703	Uisw_092	187	OG0000945	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	Uisw_092_00707
+CP159824.1	Prodigal:2.6	CDS	634609	635385	.	+	0	Uisw_092_00704	Uisw_092	258	OG0001194	K01713	cyclohexadienyl dehydratase [EC:4.2.1.51 4.2.1.91]	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_092_00707
+CP159824.1	Prodigal:2.6	CDS	634609	635385	.	+	0	Uisw_092_00704	Uisw_092	258	OG0001194	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_092_00707
+CP159824.1	Prodigal:2.6	CDS	635426	636166	.	+	0	Uisw_092_00705	Uisw_092	246	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_092_00707
+CP159824.1	Prodigal:2.6	CDS	636166	636438	.	+	0	Uisw_092_00706	Uisw_092	90	OG0001278	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	Uisw_092_00707
+CP159824.1	Prodigal:2.6	CDS	636470	637183	.	-	0	Uisw_092_00707	Uisw_092	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_092_00707
+CP159824.1	Prodigal:2.6	CDS	637237	637818	.	-	0	Uisw_092_00708	Uisw_092	193	OG0001305	NA	NA	NA	NA	NA	Uisw_092_00707
+CP159824.1	Prodigal:2.6	CDS	637943	638524	.	-	0	Uisw_092_00709	Uisw_092	193	OG0001305	NA	NA	NA	NA	NA	Uisw_092_00707
+CP159824.1	Prodigal:2.6	CDS	638636	639217	.	-	0	Uisw_092_00710	Uisw_092	193	OG0001305	NA	NA	NA	NA	NA	Uisw_092_00707
+CP159824.1	Prodigal:2.6	CDS	639218	639799	.	-	0	Uisw_092_00711	Uisw_092	193	OG0003678	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	Uisw_092_00707
+CP159824.1	Prodigal:2.6	CDS	639787	640557	.	-	0	Uisw_092_00712	Uisw_092	256	OG0002373	NA	NA	NA	NA	NA	Uisw_092_00707
+CP159810.1	Prodigal:2.6	CDS	429625	429810	.	-	0	Uisw_090_00474	Uisw_090	61	OG0002197	NA	NA	NA	NA	NA	Uisw_090_00478
+CP159810.1	Prodigal:2.6	CDS	429819	430838	.	-	0	Uisw_090_00475	Uisw_090	339	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_090_00478
+CP159810.1	Prodigal:2.6	CDS	429819	430838	.	-	0	Uisw_090_00475	Uisw_090	339	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_090_00478
+CP159810.1	Prodigal:2.6	CDS	430875	432194	.	-	0	Uisw_090_00476	Uisw_090	439	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_090_00478
+CP159810.1	Prodigal:2.6	CDS	432195	433148	.	-	0	Uisw_090_00477	Uisw_090	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_090_00478
+CP159810.1	Prodigal:2.6	CDS	433200	433913	.	+	0	Uisw_090_00478	Uisw_090	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_090_00478
+CP159810.1	Prodigal:2.6	CDS	433910	434437	.	-	0	Uisw_090_00479	Uisw_090	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_090_00478
+CP159810.1	Prodigal:2.6	CDS	434456	434899	.	+	0	Uisw_090_00480	Uisw_090	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_090_00478
+CP159810.1	Prodigal:2.6	CDS	434946	437390	.	+	0	Uisw_090_00481	Uisw_090	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_090_00478
+CP159810.1	Prodigal:2.6	CDS	437432	437659	.	+	0	Uisw_090_00482	Uisw_090	75	OG0001202	NA	NA	NA	NA	NA	Uisw_090_00478
+CP159810.1	Prodigal:2.6	CDS	437848	438456	.	+	0	Uisw_090_00483	Uisw_090	202	OG0002177	NA	NA	NA	NA	NA	Uisw_090_00478
+CP159810.1	Prodigal:2.6	CDS	820712	820996	.	-	0	Uisw_090_00919	Uisw_090	94	OG0001829	NA	NA	NA	NA	NA	Uisw_090_00924
+CP159810.1	Prodigal:2.6	CDS	820993	821931	.	-	0	Uisw_090_00920	Uisw_090	312	NA	NA	NA	NA	NA	NA	Uisw_090_00924
+CP159810.1	Prodigal:2.6	CDS	822131	823429	.	-	0	Uisw_090_00921	Uisw_090	432	OG0000039	K02474	UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	Uisw_090_00924
+CP159810.1	Prodigal:2.6	CDS	823463	824530	.	-	0	Uisw_090_00922	Uisw_090	355	OG0003301	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_090_00924
+CP159810.1	Prodigal:2.6	CDS	824571	825512	.	-	0	Uisw_090_00923	Uisw_090	313	NA	NA	NA	NA	NA	NA	Uisw_090_00924
+CP159810.1	Prodigal:2.6	CDS	825682	826380	.	+	0	Uisw_090_00924	Uisw_090	232	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_090_00924
+CP159810.1	Prodigal:2.6	CDS	826457	827470	.	-	0	Uisw_090_00925	Uisw_090	337	OG0003127	NA	NA	NA	NA	NA	Uisw_090_00924
+CP159810.1	Prodigal:2.6	CDS	827460	828320	.	-	0	Uisw_090_00926	Uisw_090	286	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	Uisw_090_00924
+CP159810.1	Prodigal:2.6	CDS	828379	830031	.	-	0	Uisw_090_00927	Uisw_090	550	NA	NA	NA	COG3391	YncE	DNA-binding beta-propeller fold protein YncE	Uisw_090_00924
+CP159810.1	Prodigal:2.6	CDS	830039	830938	.	-	0	Uisw_090_00928	Uisw_090	299	OG0002412	NA	NA	COG3919	NA	Predicted ATP-dependent carboligase, ATP-grasp superfamily	Uisw_090_00924
+CP159810.1	Prodigal:2.6	CDS	830935	832035	.	-	0	Uisw_090_00929	Uisw_090	366	OG0003527	NA	NA	COG0439	AccC	Biotin carboxylase	Uisw_090_00924
+CP159815.1	Prodigal:2.6	CDS	197339	198151	.	+	0	Uisw_127_00212	Uisw_127	270	OG0000555	K00941	hydroxymethylpyrimidine/phosphomethylpyrimidine kinase [EC:2.7.1.49 2.7.4.7]	COG0351	ThiD	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase	Uisw_127_00217
+CP159815.1	Prodigal:2.6	CDS	198151	199443	.	+	0	Uisw_127_00213	Uisw_127	430	OG0000179	K01939	adenylosuccinate synthase [EC:6.3.4.4]	COG0104	PurA	Adenylosuccinate synthase	Uisw_127_00217
+CP159815.1	Prodigal:2.6	CDS	199440	200333	.	-	0	Uisw_127_00214	Uisw_127	297	OG0000106	K03089	RNA polymerase sigma-32 factor	COG0568	RpoD	DNA-directed RNA polymerase, sigma subunit (sigma70/sigma32)	Uisw_127_00217
+CP159815.1	Prodigal:2.6	CDS	200372	201352	.	-	0	Uisw_127_00215	Uisw_127	326	OG0000235	K06180	23S rRNA pseudouridine1911/1915/1917 synthase [EC:5.4.99.23]	COG0564	RluA	Pseudouridine synthase RluA, 23S rRNA- or tRNA-specific	Uisw_127_00217
+CP159815.1	Aragorn:1.2	tRNA	201376	201452	.	+	.	Uisw_127_00216	Uisw_127	NA	NA	NA	NA	NA	NA	NA	Uisw_127_00217
+CP159815.1	Prodigal:2.6	CDS	201521	202135	.	-	0	Uisw_127_00217	Uisw_127	204	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_127_00217
+CP159815.1	Prodigal:2.6	CDS	202493	203425	.	-	0	Uisw_127_00218	Uisw_127	310	OG0000002	K20534	polyisoprenyl-phosphate glycosyltransferase [EC:2.4.-.-]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Uisw_127_00217
+CP159815.1	Prodigal:2.6	CDS	203582	205072	.	+	0	Uisw_127_00219	Uisw_127	496	OG0001516	NA	NA	NA	NA	NA	Uisw_127_00217
+CP159815.1	Prodigal:2.6	CDS	205123	206055	.	-	0	Uisw_127_00220	Uisw_127	310	OG0000447	K07566	L-threonylcarbamoyladenylate synthase [EC:2.7.7.87]	COG0009	TsaC	tRNA A37 threonylcarbamoyladenosine synthetase subunit TsaC/SUA5/YrdC	Uisw_127_00217
+CP159815.1	Prodigal:2.6	CDS	206076	206321	.	+	0	Uisw_127_00221	Uisw_127	81	OG0000904	NA	NA	NA	NA	NA	Uisw_127_00217
+CP159815.1	Prodigal:2.6	CDS	206311	207183	.	+	0	Uisw_127_00222	Uisw_127	290	OG0000299	NA	NA	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	Uisw_127_00217
+CP159815.1	Prodigal:2.6	CDS	356477	357877	.	+	0	Uisw_127_00379	Uisw_127	466	OG0001911	NA	NA	COG0334	GdhA	Glutamate dehydrogenase/leucine dehydrogenase	Uisw_127_00383
+CP159815.1	Prodigal:2.6	CDS	357928	358947	.	-	0	Uisw_127_00380	Uisw_127	339	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_127_00383
+CP159815.1	Prodigal:2.6	CDS	357928	358947	.	-	0	Uisw_127_00380	Uisw_127	339	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	Uisw_127_00383
+CP159815.1	Prodigal:2.6	CDS	359021	360334	.	-	0	Uisw_127_00381	Uisw_127	437	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_127_00383
+CP159815.1	Prodigal:2.6	CDS	360335	361288	.	-	0	Uisw_127_00382	Uisw_127	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	Uisw_127_00383
+CP159815.1	Prodigal:2.6	CDS	361340	362059	.	+	0	Uisw_127_00383	Uisw_127	239	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_127_00383
+CP159815.1	Prodigal:2.6	CDS	362361	364805	.	+	0	Uisw_127_00384	Uisw_127	814	OG0000013	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	Uisw_127_00383
+CP159815.1	Prodigal:2.6	CDS	364847	365074	.	+	0	Uisw_127_00385	Uisw_127	75	OG0001202	NA	NA	NA	NA	NA	Uisw_127_00383
+CP159815.1	Aragorn:1.2	tRNA	365140	365216	.	+	.	Uisw_127_00386	Uisw_127	NA	NA	NA	NA	NA	NA	NA	Uisw_127_00383
+CP159815.1	Prodigal:2.6	CDS	365218	365745	.	-	0	Uisw_127_00387	Uisw_127	175	OG0000405	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	Uisw_127_00383
+CP159815.1	Prodigal:2.6	CDS	365783	366307	.	+	0	Uisw_127_00388	Uisw_127	174	OG0001751	NA	NA	COG0775	MtnN	Nucleoside phosphorylase/nucleosidase, includes 5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase MtnN and futalosine hydrolase MqnB	Uisw_127_00383
+CP159822.1	Prodigal:2.6	CDS	613560	614123	.	+	0	Uisw_099_02_00676	Uisw_099_02	187	OG0000945	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	Uisw_099_02_00680
+CP159822.1	Prodigal:2.6	CDS	614160	614927	.	+	0	Uisw_099_02_00677	Uisw_099_02	255	OG0001194	K01713	cyclohexadienyl dehydratase [EC:4.2.1.51 4.2.1.91]	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_099_02_00680
+CP159822.1	Prodigal:2.6	CDS	614160	614927	.	+	0	Uisw_099_02_00677	Uisw_099_02	255	OG0001194	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_099_02_00680
+CP159822.1	Prodigal:2.6	CDS	614968	615708	.	+	0	Uisw_099_02_00678	Uisw_099_02	246	OG0000007	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_099_02_00680
+CP159822.1	Prodigal:2.6	CDS	615708	615965	.	+	0	Uisw_099_02_00679	Uisw_099_02	85	OG0001278	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	Uisw_099_02_00680
+CP159822.1	Prodigal:2.6	CDS	615962	616684	.	-	0	Uisw_099_02_00680	Uisw_099_02	240	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_099_02_00680
+CP159822.1	Prodigal:2.6	CDS	616692	617171	.	-	0	Uisw_099_02_00681	Uisw_099_02	159	OG0000529	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	Uisw_099_02_00680
+CP159822.1	Prodigal:2.6	CDS	617134	618504	.	-	0	Uisw_099_02_00682	Uisw_099_02	456	OG0000758	NA	NA	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	Uisw_099_02_00680
+CP159822.1	Prodigal:2.6	CDS	618514	619419	.	-	0	Uisw_099_02_00683	Uisw_099_02	301	OG0000497	K07146	UPF0176 protein	COG1054	TrhO	tRNA U34 5'-hydroxylase TrhO, rhodanese family	Uisw_099_02_00680
+CP159822.1	Prodigal:2.6	CDS	619419	620069	.	-	0	Uisw_099_02_00684	Uisw_099_02	216	OG0000471	K00588	caffeoyl-CoA O-methyltransferase [EC:2.1.1.104]	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	Uisw_099_02_00680
+CP159822.1	Prodigal:2.6	CDS	620109	621584	.	-	0	Uisw_099_02_00685	Uisw_099_02	491	OG0000404	K02434	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit B [EC:6.3.5.6 6.3.5.7]	COG0064	GatB	Asp-tRNAAsn/Glu-tRNAGln amidotransferase B subunit	Uisw_099_02_00680
+NZ_LANA01000002.1	Prodigal:2.6	CDS	496486	497619	.	-	0	HTCC9565_01367	HTCC9565	377	OG0000750	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	HTCC9565_01372
+NZ_LANA01000002.1	Prodigal:2.6	CDS	497657	498424	.	-	0	HTCC9565_01368	HTCC9565	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	HTCC9565_01372
+NZ_LANA01000002.1	Prodigal:2.6	CDS	498414	499349	.	-	0	HTCC9565_01369	HTCC9565	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HTCC9565_01372
+NZ_LANA01000002.1	Prodigal:2.6	CDS	499399	500847	.	-	0	HTCC9565_01370	HTCC9565	482	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	HTCC9565_01372
+NZ_LANA01000002.1	Prodigal:2.6	CDS	500956	501471	.	-	0	HTCC9565_01371	HTCC9565	171	OG0001307	NA	NA	NA	NA	NA	HTCC9565_01372
+NZ_LANA01000002.1	Prodigal:2.6	CDS	501461	502177	.	-	0	HTCC9565_01372	HTCC9565	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HTCC9565_01372
+NZ_LANA01000002.1	Prodigal:2.6	CDS	502194	502640	.	-	0	HTCC9565_01373	HTCC9565	148	OG0000854	NA	NA	NA	NA	NA	HTCC9565_01372
+NZ_LANA01000002.1	Prodigal:2.6	CDS	502645	503148	.	-	0	HTCC9565_01374	HTCC9565	167	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HTCC9565_01372
+NZ_LANA01000002.1	Prodigal:2.6	CDS	503218	503904	.	+	0	HTCC9565_01375	HTCC9565	228	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC9565_01372
+NZ_LANA01000002.1	Prodigal:2.6	CDS	503218	503904	.	+	0	HTCC9565_01375	HTCC9565	228	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC9565_01372
+NZ_LANA01000002.1	Prodigal:2.6	CDS	503901	504269	.	-	0	HTCC9565_01376	HTCC9565	122	OG0001030	NA	NA	COG3118	CnoX	Chaperedoxin CnoX, contains thioredoxin-like and TPR-like domains, YbbN/TrxSC family	HTCC9565_01372
+CP159813.1	Prodigal:2.6	CDS	368055	368351	.	-	0	Uisw_134_02_00394	Uisw_134_02	98	OG0001100	NA	NA	NA	NA	NA	Uisw_134_02_00399
+CP159813.1	Prodigal:2.6	CDS	368373	368768	.	-	0	Uisw_134_02_00395	Uisw_134_02	131	OG0001068	NA	NA	NA	NA	NA	Uisw_134_02_00399
+CP159813.1	Prodigal:2.6	CDS	368758	369048	.	-	0	Uisw_134_02_00396	Uisw_134_02	96	OG0001220	NA	NA	NA	NA	NA	Uisw_134_02_00399
+CP159813.1	Prodigal:2.6	CDS	369071	369385	.	-	0	Uisw_134_02_00397	Uisw_134_02	104	OG0001397	NA	NA	NA	NA	NA	Uisw_134_02_00399
+CP159813.1	Prodigal:2.6	CDS	369597	370010	.	+	0	Uisw_134_02_00398	Uisw_134_02	137	OG0000961	NA	NA	NA	NA	NA	Uisw_134_02_00399
+CP159813.1	Prodigal:2.6	CDS	370276	370989	.	+	0	Uisw_134_02_00399	Uisw_134_02	237	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	Uisw_134_02_00399
+CP159813.1	Prodigal:2.6	CDS	370986	371507	.	-	0	Uisw_134_02_00400	Uisw_134_02	173	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	Uisw_134_02_00399
+CP159813.1	Prodigal:2.6	CDS	371532	371975	.	+	0	Uisw_134_02_00401	Uisw_134_02	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	Uisw_134_02_00399
+CP159813.1	Prodigal:2.6	CDS	371995	372504	.	+	0	Uisw_134_02_00402	Uisw_134_02	169	OG0001307	NA	NA	NA	NA	NA	Uisw_134_02_00399
+CP159813.1	Prodigal:2.6	CDS	372509	373171	.	-	0	Uisw_134_02_00403	Uisw_134_02	220	OG0002192	NA	NA	COG0819	TenA	Aminopyrimidine aminohydrolase TenA (thiamine salvage pathway)	Uisw_134_02_00399
+CP159813.1	Prodigal:2.6	CDS	373171	374664	.	-	0	Uisw_134_02_00404	Uisw_134_02	497	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	Uisw_134_02_00399
+DS995298.1	Prodigal:2.6	CDS	18697	19413	.	-	0	HTCC7211_00021	HTCC7211	238	OG0001640	NA	NA	COG0300	YqjQ	Short-chain dehydrogenase	HTCC7211_00026
+DS995298.1	Prodigal:2.6	CDS	19481	20353	.	+	0	HTCC7211_00022	HTCC7211	290	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC7211_00026
+DS995298.1	Prodigal:2.6	CDS	20334	21518	.	+	0	HTCC7211_00023	HTCC7211	394	OG0000814	NA	NA	NA	NA	NA	HTCC7211_00026
+DS995298.1	Prodigal:2.6	CDS	21527	22771	.	+	0	HTCC7211_00024	HTCC7211	414	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HTCC7211_00026
+DS995298.1	Prodigal:2.6	CDS	22776	23711	.	-	0	HTCC7211_00025	HTCC7211	311	OG0001934	NA	NA	COG1051	YjhB	ADP-ribose pyrophosphatase YjhB, NUDIX family	HTCC7211_00026
+DS995298.1	Prodigal:2.6	CDS	23689	24354	.	-	0	HTCC7211_00026	HTCC7211	221	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC7211_00026
+DS995298.1	Prodigal:2.6	CDS	24359	24751	.	-	0	HTCC7211_00027	HTCC7211	130	OG0001900	NA	NA	NA	NA	NA	HTCC7211_00026
+DS995298.1	Prodigal:2.6	CDS	24748	25545	.	-	0	HTCC7211_00028	HTCC7211	265	OG0001646	NA	NA	NA	NA	NA	HTCC7211_00026
+DS995298.1	Prodigal:2.6	CDS	25538	26473	.	-	0	HTCC7211_00029	HTCC7211	311	OG0000066	NA	NA	COG3958	TktA2	Transketolase, C-terminal subunit	HTCC7211_00026
+DS995298.1	Prodigal:2.6	CDS	26470	27243	.	-	0	HTCC7211_00030	HTCC7211	257	OG0000058	NA	NA	COG3959	TktA1	Transketolase, N-terminal subunit	HTCC7211_00026
+DS995298.1	Prodigal:2.6	CDS	27249	28238	.	-	0	HTCC7211_00031	HTCC7211	329	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC7211_00026
+DS995298.1	Prodigal:2.6	CDS	1142519	1143286	.	-	0	HTCC7211_01252	HTCC7211	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	HTCC7211_01257
+DS995298.1	Prodigal:2.6	CDS	1143276	1144211	.	-	0	HTCC7211_01253	HTCC7211	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HTCC7211_01257
+DS995298.1	Prodigal:2.6	CDS	1144294	1144818	.	-	0	HTCC7211_01254	HTCC7211	174	OG0001307	NA	NA	NA	NA	NA	HTCC7211_01257
+DS995298.1	Prodigal:2.6	CDS	1144830	1145249	.	-	0	HTCC7211_01255	HTCC7211	139	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC7211_01257
+DS995298.1	Prodigal:2.6	CDS	1145292	1145819	.	+	0	HTCC7211_01256	HTCC7211	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC7211_01257
+DS995298.1	Prodigal:2.6	CDS	1145820	1146530	.	-	0	HTCC7211_01257	HTCC7211	236	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC7211_01257
+DS995298.1	Prodigal:2.6	CDS	1146586	1147893	.	+	0	HTCC7211_01258	HTCC7211	435	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HTCC7211_01257
+DS995298.1	Prodigal:2.6	CDS	1147897	1148334	.	-	0	HTCC7211_01259	HTCC7211	145	OG0000854	NA	NA	NA	NA	NA	HTCC7211_01257
+DS995298.1	Prodigal:2.6	CDS	1148337	1148780	.	-	0	HTCC7211_01260	HTCC7211	147	OG0001280	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HTCC7211_01257
+DS995298.1	Prodigal:2.6	CDS	1148835	1149518	.	+	0	HTCC7211_01261	HTCC7211	227	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC7211_01257
+DS995298.1	Prodigal:2.6	CDS	1148835	1149518	.	+	0	HTCC7211_01261	HTCC7211	227	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC7211_01257
+KL370779.1	Prodigal:2.6	CDS	600812	601816	.	-	0	HTCC7214_00624	HTCC7214	334	OG0000001	K01710	dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HTCC7214_00629
+KL370779.1	Prodigal:2.6	CDS	601849	602400	.	-	0	HTCC7214_00625	HTCC7214	183	OG0001106	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	HTCC7214_00629
+KL370779.1	Prodigal:2.6	CDS	602623	603531	.	+	0	HTCC7214_00626	HTCC7214	302	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HTCC7214_00629
+KL370779.1	Prodigal:2.6	CDS	603531	604517	.	+	0	HTCC7214_00627	HTCC7214	328	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HTCC7214_00629
+KL370779.1	Prodigal:2.6	CDS	604598	605542	.	+	0	HTCC7214_00628	HTCC7214	314	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HTCC7214_00629
+KL370779.1	Prodigal:2.6	CDS	605535	606194	.	+	0	HTCC7214_00629	HTCC7214	219	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC7214_00629
+KL370779.1	Prodigal:2.6	CDS	606179	607153	.	+	0	HTCC7214_00630	HTCC7214	324	OG0001444	NA	NA	COG1071	AcoA	TPP-dependent pyruvate or acetoin dehydrogenase subunit alpha	HTCC7214_00629
+KL370779.1	Prodigal:2.6	CDS	607150	608193	.	+	0	HTCC7214_00631	HTCC7214	347	OG0001472	NA	NA	COG0022	AcoB	Pyruvate/2-oxoglutarate/acetoin dehydrogenase complex, dehydrogenase (E1) component, beta subunit	HTCC7214_00629
+KL370779.1	Prodigal:2.6	CDS	608308	609180	.	-	0	HTCC7214_00632	HTCC7214	290	OG0000008	NA	NA	NA	NA	NA	HTCC7214_00629
+KL370779.1	Prodigal:2.6	CDS	609170	609964	.	-	0	HTCC7214_00633	HTCC7214	264	OG0004926	NA	NA	NA	NA	NA	HTCC7214_00629
+KL370779.1	Prodigal:2.6	CDS	610194	611972	.	+	0	HTCC7214_00634	HTCC7214	592	OG0000047	NA	NA	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HTCC7214_00629
+KL370779.1	Prodigal:2.6	CDS	914985	915671	.	+	0	HTCC7214_00943	HTCC7214	228	OG0001021	NA	NA	COG1296	AzlC	Predicted branched-chain amino acid permease (azaleucine resistance)	HTCC7214_00948
+KL370779.1	Prodigal:2.6	CDS	915668	915985	.	+	0	HTCC7214_00944	HTCC7214	105	OG0001020	NA	NA	COG4392	AzlD2	Branched-chain amino acid transport protein	HTCC7214_00948
+KL370779.1	Prodigal:2.6	CDS	916183	916626	.	+	0	HTCC7214_00945	HTCC7214	147	OG0001280	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HTCC7214_00948
+KL370779.1	Prodigal:2.6	CDS	916629	917066	.	+	0	HTCC7214_00946	HTCC7214	145	OG0000854	NA	NA	NA	NA	NA	HTCC7214_00948
+KL370779.1	Prodigal:2.6	CDS	917070	918377	.	-	0	HTCC7214_00947	HTCC7214	435	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HTCC7214_00948
+KL370779.1	Prodigal:2.6	CDS	918433	919143	.	+	0	HTCC7214_00948	HTCC7214	236	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC7214_00948
+KL370779.1	Prodigal:2.6	CDS	919144	919671	.	-	0	HTCC7214_00949	HTCC7214	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC7214_00948
+KL370779.1	Prodigal:2.6	CDS	919735	920133	.	+	0	HTCC7214_00950	HTCC7214	132	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC7214_00948
+KL370779.1	Prodigal:2.6	CDS	920150	920674	.	+	0	HTCC7214_00951	HTCC7214	174	OG0001307	NA	NA	NA	NA	NA	HTCC7214_00948
+KL370779.1	Prodigal:2.6	CDS	920757	921692	.	+	0	HTCC7214_00952	HTCC7214	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HTCC7214_00948
+KL370779.1	Prodigal:2.6	CDS	921682	922449	.	+	0	HTCC7214_00953	HTCC7214	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	HTCC7214_00948
+JNIU01000001.1	Prodigal:2.6	CDS	506992	507759	.	-	0	HTCC7217_00567	HTCC7217	255	OG0000093	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	HTCC7217_00572
+JNIU01000001.1	Prodigal:2.6	CDS	507749	508684	.	-	0	HTCC7217_00568	HTCC7217	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HTCC7217_00572
+JNIU01000001.1	Prodigal:2.6	CDS	508767	509291	.	-	0	HTCC7217_00569	HTCC7217	174	OG0001307	NA	NA	NA	NA	NA	HTCC7217_00572
+JNIU01000001.1	Prodigal:2.6	CDS	509303	509722	.	-	0	HTCC7217_00570	HTCC7217	139	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC7217_00572
+JNIU01000001.1	Prodigal:2.6	CDS	509765	510292	.	+	0	HTCC7217_00571	HTCC7217	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC7217_00572
+JNIU01000001.1	Prodigal:2.6	CDS	510293	511003	.	-	0	HTCC7217_00572	HTCC7217	236	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC7217_00572
+JNIU01000001.1	Prodigal:2.6	CDS	511059	512366	.	+	0	HTCC7217_00573	HTCC7217	435	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HTCC7217_00572
+JNIU01000001.1	Prodigal:2.6	CDS	512370	512807	.	-	0	HTCC7217_00574	HTCC7217	145	OG0000854	NA	NA	NA	NA	NA	HTCC7217_00572
+JNIU01000001.1	Prodigal:2.6	CDS	512810	513253	.	-	0	HTCC7217_00575	HTCC7217	147	OG0001280	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HTCC7217_00572
+JNIU01000001.1	Prodigal:2.6	CDS	513308	513991	.	+	0	HTCC7217_00576	HTCC7217	227	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC7217_00572
+JNIU01000001.1	Prodigal:2.6	CDS	513308	513991	.	+	0	HTCC7217_00576	HTCC7217	227	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC7217_00572
+HIMB1412-00000000001	Prodigal:2.6	CDS	720375	721064	.	+	0	HIMB1412_00745	HIMB1412	229	OG0001514	K08714	voltage-gated sodium channel	NA	NA	NA	HIMB1412_00750
+HIMB1412-00000000001	Prodigal:2.6	CDS	721110	722168	.	-	0	HIMB1412_00746	HIMB1412	352	OG0001163	K00544	betaine-homocysteine S-methyltransferase [EC:2.1.1.5]	COG0646	MetH1	Methionine synthase I (cobalamin-dependent), methyltransferase domain	HIMB1412_00750
+HIMB1412-00000000001	Prodigal:2.6	CDS	722333	722797	.	+	0	HIMB1412_00747	HIMB1412	154	OG0001104	NA	NA	NA	NA	NA	HIMB1412_00750
+HIMB1412-00000000001	Prodigal:2.6	CDS	722804	723424	.	+	0	HIMB1412_00748	HIMB1412	206	OG0001091	NA	NA	COG2135	SRAP	ssDNA abasic site-binding protein YedK/HMCES, SRAP family	HIMB1412_00750
+HIMB1412-00000000001	Prodigal:2.6	CDS	723429	724880	.	-	0	HIMB1412_00749	HIMB1412	483	NA	NA	NA	NA	NA	NA	HIMB1412_00750
+HIMB1412-00000000001	Prodigal:2.6	CDS	724897	725583	.	-	0	HIMB1412_00750	HIMB1412	228	OG0001112	NA	NA	COG4106	Tam	Trans-aconitate methyltransferase	HIMB1412_00750
+HIMB1412-00000000001	Prodigal:2.6	CDS	725672	726694	.	-	0	HIMB1412_00751	HIMB1412	340	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1412_00750
+HIMB1412-00000000001	Prodigal:2.6	CDS	726806	728092	.	-	0	HIMB1412_00752	HIMB1412	428	OG0001275	NA	NA	COG0513	SrmB	Superfamily II DNA and RNA helicase	HIMB1412_00750
+HIMB1412-00000000001	Prodigal:2.6	CDS	728189	728638	.	+	0	HIMB1412_00753	HIMB1412	149	OG0001411	NA	NA	NA	NA	NA	HIMB1412_00750
+HIMB1412-00000000001	Prodigal:2.6	CDS	728648	728818	.	-	0	HIMB1412_00754	HIMB1412	56	OG0001876	NA	NA	NA	NA	NA	HIMB1412_00750
+HIMB1412-00000000001	Prodigal:2.6	CDS	728859	729263	.	-	0	HIMB1412_00755	HIMB1412	134	OG0002935	NA	NA	NA	NA	NA	HIMB1412_00750
+HIMB1412-00000000001	Prodigal:2.6	CDS	1101210	1101401	.	-	0	HIMB1412_01182	HIMB1412	63	OG0001364	NA	NA	NA	NA	NA	HIMB1412_01187
+HIMB1412-00000000001	Prodigal:2.6	CDS	1101758	1102291	.	-	0	HIMB1412_01183	HIMB1412	177	OG0001307	NA	NA	NA	NA	NA	HIMB1412_01187
+HIMB1412-00000000001	Prodigal:2.6	CDS	1102295	1104724	.	-	0	HIMB1412_01184	HIMB1412	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1412_01187
+HIMB1412-00000000001	Prodigal:2.6	CDS	1104829	1105290	.	-	0	HIMB1412_01185	HIMB1412	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1412_01187
+HIMB1412-00000000001	Prodigal:2.6	CDS	1105291	1105818	.	+	0	HIMB1412_01186	HIMB1412	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1412_01187
+HIMB1412-00000000001	Prodigal:2.6	CDS	1105811	1106527	.	-	0	HIMB1412_01187	HIMB1412	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1412_01187
+HIMB1412-00000000001	Prodigal:2.6	CDS	1106579	1107532	.	+	0	HIMB1412_01188	HIMB1412	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1412_01187
+HIMB1412-00000000001	Prodigal:2.6	CDS	1107532	1108842	.	+	0	HIMB1412_01189	HIMB1412	436	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1412_01187
+HIMB1412-00000000001	Prodigal:2.6	CDS	1108839	1109276	.	-	0	HIMB1412_01190	HIMB1412	145	OG0000854	NA	NA	NA	NA	NA	HIMB1412_01187
+HIMB1412-00000000001	Prodigal:2.6	CDS	1109328	1110341	.	+	0	HIMB1412_01191	HIMB1412	337	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1412_01187
+HIMB1412-00000000001	Prodigal:2.6	CDS	1109328	1110341	.	+	0	HIMB1412_01191	HIMB1412	337	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1412_01187
+HIMB1420-00000000002	Prodigal:2.6	CDS	414574	414756	.	-	0	HIMB1420_01193	HIMB1420	60	OG0001364	NA	NA	NA	NA	NA	HIMB1420_01198
+HIMB1420-00000000002	Prodigal:2.6	CDS	415104	415637	.	-	0	HIMB1420_01194	HIMB1420	177	OG0001307	NA	NA	NA	NA	NA	HIMB1420_01198
+HIMB1420-00000000002	Prodigal:2.6	CDS	415650	418079	.	-	0	HIMB1420_01195	HIMB1420	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1420_01198
+HIMB1420-00000000002	Prodigal:2.6	CDS	418245	418706	.	-	0	HIMB1420_01196	HIMB1420	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1420_01198
+HIMB1420-00000000002	Prodigal:2.6	CDS	418707	419234	.	+	0	HIMB1420_01197	HIMB1420	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1420_01198
+HIMB1420-00000000002	Prodigal:2.6	CDS	419227	419943	.	-	0	HIMB1420_01198	HIMB1420	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1420_01198
+HIMB1420-00000000002	Prodigal:2.6	CDS	419995	420948	.	+	0	HIMB1420_01199	HIMB1420	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1420_01198
+HIMB1420-00000000002	Prodigal:2.6	CDS	420948	422258	.	+	0	HIMB1420_01200	HIMB1420	436	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1420_01198
+HIMB1420-00000000002	Prodigal:2.6	CDS	422255	422692	.	-	0	HIMB1420_01201	HIMB1420	145	OG0000854	NA	NA	NA	NA	NA	HIMB1420_01198
+HIMB1420-00000000002	Prodigal:2.6	CDS	422744	423757	.	+	0	HIMB1420_01202	HIMB1420	337	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1420_01198
+HIMB1420-00000000002	Prodigal:2.6	CDS	422744	423757	.	+	0	HIMB1420_01202	HIMB1420	337	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1420_01198
+HIMB1427-00000000001	Prodigal:2.6	CDS	55052	55234	.	-	0	HIMB1427_00039	HIMB1427	60	OG0001364	NA	NA	NA	NA	NA	HIMB1427_00044
+HIMB1427-00000000001	Prodigal:2.6	CDS	55581	56114	.	-	0	HIMB1427_00040	HIMB1427	177	OG0001307	NA	NA	NA	NA	NA	HIMB1427_00044
+HIMB1427-00000000001	Prodigal:2.6	CDS	56127	58556	.	-	0	HIMB1427_00041	HIMB1427	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1427_00044
+HIMB1427-00000000001	Prodigal:2.6	CDS	58722	59183	.	-	0	HIMB1427_00042	HIMB1427	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1427_00044
+HIMB1427-00000000001	Prodigal:2.6	CDS	59184	59711	.	+	0	HIMB1427_00043	HIMB1427	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1427_00044
+HIMB1427-00000000001	Prodigal:2.6	CDS	59704	60420	.	-	0	HIMB1427_00044	HIMB1427	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1427_00044
+HIMB1427-00000000001	Prodigal:2.6	CDS	60472	61425	.	+	0	HIMB1427_00045	HIMB1427	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1427_00044
+HIMB1427-00000000001	Prodigal:2.6	CDS	61425	62735	.	+	0	HIMB1427_00046	HIMB1427	436	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1427_00044
+HIMB1427-00000000001	Prodigal:2.6	CDS	62732	63169	.	-	0	HIMB1427_00047	HIMB1427	145	OG0000854	NA	NA	NA	NA	NA	HIMB1427_00044
+HIMB1427-00000000001	Prodigal:2.6	CDS	63236	64234	.	+	0	HIMB1427_00048	HIMB1427	332	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1427_00044
+HIMB1427-00000000001	Prodigal:2.6	CDS	63236	64234	.	+	0	HIMB1427_00048	HIMB1427	332	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1427_00044
+HIMB1463-00000000015	Prodigal:2.6	CDS	637	1590	.	-	0	HIMB1463_00822	HIMB1463	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1463_00823
+HIMB1463-00000000015	Prodigal:2.6	CDS	1642	2352	.	+	0	HIMB1463_00823	HIMB1463	236	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1463_00823
+HIMB1463-00000000015	Prodigal:2.6	CDS	2349	3041	.	+	0	HIMB1463_00824	HIMB1463	230	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1463_00823
+HIMB1463-00000000015	Prodigal:2.6	CDS	3048	4514	.	+	0	HIMB1463_00825	HIMB1463	488	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	HIMB1463_00823
+HIMB1463-00000000015	Prodigal:2.6	CDS	4498	5190	.	+	0	HIMB1463_00826	HIMB1463	230	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	HIMB1463_00823
+HIMB1463-00000000015	Prodigal:2.6	CDS	5191	5718	.	-	0	HIMB1463_00827	HIMB1463	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1463_00823
+HIMB1463-00000000015	Prodigal:2.6	CDS	5719	6180	.	+	0	HIMB1463_00828	HIMB1463	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1463_00823
+HIMB1564-00000000001	barrnap:0.9	rRNA	108942	110411	0	+	.	HIMB1564_00113	HIMB1564	NA	NA	NA	NA	NA	NA	NA	HIMB1564_00118
+HIMB1564-00000000001	Aragorn:1.2	tRNA	110513	110589	.	+	.	HIMB1564_00114	HIMB1564	NA	NA	NA	NA	NA	NA	NA	HIMB1564_00118
+HIMB1564-00000000001	Aragorn:1.2	tRNA	110600	110675	.	+	.	HIMB1564_00115	HIMB1564	NA	NA	NA	NA	NA	NA	NA	HIMB1564_00118
+HIMB1564-00000000001	barrnap:0.9	rRNA	110809	113557	0	+	.	HIMB1564_00116	HIMB1564	NA	NA	NA	NA	NA	NA	NA	HIMB1564_00118
+HIMB1564-00000000001	Prodigal:2.6	CDS	113586	114338	.	-	0	HIMB1564_00117	HIMB1564	250	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1564_00118
+HIMB1564-00000000001	Prodigal:2.6	CDS	114450	115136	.	+	0	HIMB1564_00118	HIMB1564	228	OG0001112	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1564_00118
+HIMB1564-00000000001	Prodigal:2.6	CDS	115143	115940	.	+	0	HIMB1564_00119	HIMB1564	265	OG0001807	NA	NA	COG1082	YcjR	Sugar phosphate isomerase/epimerase	HIMB1564_00118
+HIMB1564-00000000001	Prodigal:2.6	CDS	115942	116952	.	+	0	HIMB1564_00120	HIMB1564	336	OG0001061	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1564_00118
+HIMB1564-00000000001	Prodigal:2.6	CDS	116955	117710	.	-	0	HIMB1564_00121	HIMB1564	251	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1564_00118
+HIMB1564-00000000001	Prodigal:2.6	CDS	117762	118454	.	+	0	HIMB1564_00122	HIMB1564	230	OG0000172	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	HIMB1564_00118
+HIMB1564-00000000001	Prodigal:2.6	CDS	118470	119315	.	+	0	HIMB1564_00123	HIMB1564	281	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	HIMB1564_00118
+HIMB1564-00000000001	Prodigal:2.6	CDS	370282	371010	.	-	0	HIMB1564_00387	HIMB1564	242	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1564_00391
+HIMB1564-00000000001	Prodigal:2.6	CDS	370282	371010	.	-	0	HIMB1564_00387	HIMB1564	242	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1564_00391
+HIMB1564-00000000001	Prodigal:2.6	CDS	371014	371448	.	+	0	HIMB1564_00388	HIMB1564	144	OG0000854	NA	NA	NA	NA	NA	HIMB1564_00391
+HIMB1564-00000000001	Prodigal:2.6	CDS	371445	372755	.	-	0	HIMB1564_00389	HIMB1564	436	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1564_00391
+HIMB1564-00000000001	Prodigal:2.6	CDS	372755	373708	.	-	0	HIMB1564_00390	HIMB1564	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1564_00391
+HIMB1564-00000000001	Prodigal:2.6	CDS	373760	374476	.	+	0	HIMB1564_00391	HIMB1564	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1564_00391
+HIMB1564-00000000001	Prodigal:2.6	CDS	374469	374996	.	-	0	HIMB1564_00392	HIMB1564	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1564_00391
+HIMB1564-00000000001	Prodigal:2.6	CDS	374997	375458	.	+	0	HIMB1564_00393	HIMB1564	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1564_00391
+HIMB1564-00000000001	Prodigal:2.6	CDS	375625	378054	.	+	0	HIMB1564_00394	HIMB1564	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1564_00391
+HIMB1564-00000000001	Prodigal:2.6	CDS	378059	378580	.	+	0	HIMB1564_00395	HIMB1564	173	OG0001307	NA	NA	NA	NA	NA	HIMB1564_00391
+HIMB1564-00000000001	Prodigal:2.6	CDS	378940	379122	.	+	0	HIMB1564_00396	HIMB1564	60	OG0001364	NA	NA	NA	NA	NA	HIMB1564_00391
+HIMB1520-00000000001	Prodigal:2.6	CDS	1276794	1277792	.	-	0	HIMB1520_01385	HIMB1520	332	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1520_01389
+HIMB1520-00000000001	Prodigal:2.6	CDS	1276794	1277792	.	-	0	HIMB1520_01385	HIMB1520	332	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1520_01389
+HIMB1520-00000000001	Prodigal:2.6	CDS	1277859	1278296	.	+	0	HIMB1520_01386	HIMB1520	145	OG0000854	NA	NA	NA	NA	NA	HIMB1520_01389
+HIMB1520-00000000001	Prodigal:2.6	CDS	1278293	1279603	.	-	0	HIMB1520_01387	HIMB1520	436	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1520_01389
+HIMB1520-00000000001	Prodigal:2.6	CDS	1279603	1280556	.	-	0	HIMB1520_01388	HIMB1520	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1520_01389
+HIMB1520-00000000001	Prodigal:2.6	CDS	1280608	1281318	.	+	0	HIMB1520_01389	HIMB1520	236	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1520_01389
+HIMB1520-00000000001	Prodigal:2.6	CDS	1281315	1282007	.	+	0	HIMB1520_01390	HIMB1520	230	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1520_01389
+HIMB1520-00000000001	Prodigal:2.6	CDS	1282004	1282531	.	-	0	HIMB1520_01391	HIMB1520	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1520_01389
+HIMB1520-00000000001	Prodigal:2.6	CDS	1282532	1282993	.	+	0	HIMB1520_01392	HIMB1520	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1520_01389
+HIMB1520-00000000001	Prodigal:2.6	CDS	1283159	1285588	.	+	0	HIMB1520_01393	HIMB1520	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1520_01389
+HIMB1520-00000000001	Prodigal:2.6	CDS	1285593	1286126	.	+	0	HIMB1520_01394	HIMB1520	177	OG0001307	NA	NA	NA	NA	NA	HIMB1520_01389
+CP003809.1	Prodigal:2.6	CDS	794623	794805	.	-	0	HIMB5_00865	HIMB5	60	OG0001364	NA	NA	NA	NA	NA	HIMB5_00870
+CP003809.1	Prodigal:2.6	CDS	795153	795686	.	-	0	HIMB5_00866	HIMB5	177	OG0001307	NA	NA	NA	NA	NA	HIMB5_00870
+CP003809.1	Prodigal:2.6	CDS	795691	798120	.	-	0	HIMB5_00867	HIMB5	809	OG0000013	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB5_00870
+CP003809.1	Prodigal:2.6	CDS	798287	798748	.	-	0	HIMB5_00868	HIMB5	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB5_00870
+CP003809.1	Prodigal:2.6	CDS	798749	799276	.	+	0	HIMB5_00869	HIMB5	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB5_00870
+CP003809.1	Prodigal:2.6	CDS	799269	799985	.	-	0	HIMB5_00870	HIMB5	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB5_00870
+CP003809.1	Prodigal:2.6	CDS	800037	800156	.	+	0	HIMB5_00871	HIMB5	39	OG0001283	NA	NA	NA	NA	NA	HIMB5_00870
+CP003809.1	Prodigal:2.6	CDS	800237	800989	.	+	0	HIMB5_00872	HIMB5	250	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB5_00870
+CP003809.1	Prodigal:2.6	CDS	800989	802299	.	+	0	HIMB5_00873	HIMB5	436	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB5_00870
+CP003809.1	Prodigal:2.6	CDS	802296	802730	.	-	0	HIMB5_00874	HIMB5	144	OG0000854	NA	NA	NA	NA	NA	HIMB5_00870
+CP003809.1	Prodigal:2.6	CDS	802782	803462	.	+	0	HIMB5_00875	HIMB5	226	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB5_00870
+LT840186.1	Prodigal:2.6	CDS	776754	777221	.	-	0	HIMB1321_00857	HIMB1321	155	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1321_00862
+LT840186.1	Prodigal:2.6	CDS	777306	777743	.	+	0	HIMB1321_00858	HIMB1321	145	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1321_00862
+LT840186.1	Prodigal:2.6	CDS	777744	778436	.	-	0	HIMB1321_00859	HIMB1321	230	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	HIMB1321_00862
+LT840186.1	Prodigal:2.6	CDS	778420	779883	.	-	0	HIMB1321_00860	HIMB1321	487	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	HIMB1321_00862
+LT840186.1	Prodigal:2.6	CDS	779896	780597	.	-	0	HIMB1321_00861	HIMB1321	233	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1321_00862
+LT840186.1	Prodigal:2.6	CDS	780576	781283	.	-	0	HIMB1321_00862	HIMB1321	235	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1321_00862
+LT840186.1	Prodigal:2.6	CDS	781334	782287	.	+	0	HIMB1321_00863	HIMB1321	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1321_00862
+LT840186.1	Prodigal:2.6	CDS	782277	783206	.	-	0	HIMB1321_00864	HIMB1321	309	OG0001754	NA	NA	NA	NA	NA	HIMB1321_00862
+LT840186.1	Prodigal:2.6	CDS	783247	784200	.	+	0	HIMB1321_00865	HIMB1321	317	OG0001077	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1321_00862
+LT840186.1	Prodigal:2.6	CDS	784190	784864	.	+	0	HIMB1321_00866	HIMB1321	224	OG0000015	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1321_00862
+LT840186.1	Prodigal:2.6	CDS	784923	785561	.	-	0	HIMB1321_00867	HIMB1321	212	OG0001342	NA	NA	NA	NA	NA	HIMB1321_00862
+HIMB1527-00000000002	Prodigal:2.6	CDS	522759	523202	.	-	0	HIMB1527_01183	HIMB1527	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1527_01188
+HIMB1527-00000000002	Prodigal:2.6	CDS	523221	523748	.	+	0	HIMB1527_01184	HIMB1527	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1527_01188
+HIMB1527-00000000002	Prodigal:2.6	CDS	523749	524441	.	-	0	HIMB1527_01185	HIMB1527	230	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	HIMB1527_01188
+HIMB1527-00000000002	Prodigal:2.6	CDS	524425	525843	.	-	0	HIMB1527_01186	HIMB1527	472	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	HIMB1527_01188
+HIMB1527-00000000002	Prodigal:2.6	CDS	525901	526602	.	-	0	HIMB1527_01187	HIMB1527	233	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1527_01188
+HIMB1527-00000000002	Prodigal:2.6	CDS	526581	527288	.	-	0	HIMB1527_01188	HIMB1527	235	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1527_01188
+HIMB1527-00000000002	Prodigal:2.6	CDS	527330	528283	.	+	0	HIMB1527_01189	HIMB1527	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1527_01188
+HIMB1527-00000000002	Prodigal:2.6	CDS	528284	529600	.	+	0	HIMB1527_01190	HIMB1527	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1527_01188
+HIMB1527-00000000002	Prodigal:2.6	CDS	529580	530770	.	-	0	HIMB1527_01191	HIMB1527	396	OG0001147	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1527_01188
+HIMB1527-00000000002	Prodigal:2.6	CDS	530771	533806	.	-	0	HIMB1527_01192	HIMB1527	1011	OG0002427	K13821	RHH-type transcriptional regulator, proline utilization regulon repressor / proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88]	COG4230	PutA2	Delta 1-pyrroline-5-carboxylate dehydrogenase	HIMB1527_01188
+HIMB1527-00000000002	Prodigal:2.6	CDS	533844	534728	.	-	0	HIMB1527_01193	HIMB1527	294	OG0005126	K04761	LysR family transcriptional regulator, hydrogen peroxide-inducible genes activator	COG0583	LysR	DNA-binding transcriptional regulator, LysR family	HIMB1527_01188
+HIMB1505-00000000001	Prodigal:2.6	CDS	665583	666020	.	+	0	HIMB1505_00700	HIMB1505	145	OG0000854	NA	NA	NA	NA	NA	HIMB1505_00705
+HIMB1505-00000000001	Prodigal:2.6	CDS	666024	669059	.	+	0	HIMB1505_00701	HIMB1505	1011	OG0002427	K13821	RHH-type transcriptional regulator, proline utilization regulon repressor / proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88]	COG4230	PutA2	Delta 1-pyrroline-5-carboxylate dehydrogenase	HIMB1505_00705
+HIMB1505-00000000001	Prodigal:2.6	CDS	669060	670250	.	+	0	HIMB1505_00702	HIMB1505	396	OG0001147	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1505_00705
+HIMB1505-00000000001	Prodigal:2.6	CDS	670230	671546	.	-	0	HIMB1505_00703	HIMB1505	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1505_00705
+HIMB1505-00000000001	Prodigal:2.6	CDS	671547	672500	.	-	0	HIMB1505_00704	HIMB1505	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1505_00705
+HIMB1505-00000000001	Prodigal:2.6	CDS	672542	673249	.	+	0	HIMB1505_00705	HIMB1505	235	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1505_00705
+HIMB1505-00000000001	Prodigal:2.6	CDS	673228	673929	.	+	0	HIMB1505_00706	HIMB1505	233	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1505_00705
+HIMB1505-00000000001	Prodigal:2.6	CDS	673942	675405	.	+	0	HIMB1505_00707	HIMB1505	487	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	HIMB1505_00705
+HIMB1505-00000000001	Prodigal:2.6	CDS	675389	676081	.	+	0	HIMB1505_00708	HIMB1505	230	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	HIMB1505_00705
+HIMB1505-00000000001	Prodigal:2.6	CDS	676082	676609	.	-	0	HIMB1505_00709	HIMB1505	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1505_00705
+HIMB1505-00000000001	Prodigal:2.6	CDS	676628	677071	.	+	0	HIMB1505_00710	HIMB1505	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1505_00705
+HIMB1549-00000000001	Prodigal:2.6	CDS	236216	236653	.	+	0	HIMB1549_00251	HIMB1549	145	OG0000854	NA	NA	NA	NA	NA	HIMB1549_00256
+HIMB1549-00000000001	Prodigal:2.6	CDS	236657	239692	.	+	0	HIMB1549_00252	HIMB1549	1011	OG0002427	K13821	RHH-type transcriptional regulator, proline utilization regulon repressor / proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88]	COG4230	PutA2	Delta 1-pyrroline-5-carboxylate dehydrogenase	HIMB1549_00256
+HIMB1549-00000000001	Prodigal:2.6	CDS	239693	240883	.	+	0	HIMB1549_00253	HIMB1549	396	OG0001147	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1549_00256
+HIMB1549-00000000001	Prodigal:2.6	CDS	240863	242179	.	-	0	HIMB1549_00254	HIMB1549	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1549_00256
+HIMB1549-00000000001	Prodigal:2.6	CDS	242180	243133	.	-	0	HIMB1549_00255	HIMB1549	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1549_00256
+HIMB1549-00000000001	Prodigal:2.6	CDS	243175	243882	.	+	0	HIMB1549_00256	HIMB1549	235	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1549_00256
+HIMB1549-00000000001	Prodigal:2.6	CDS	243861	244562	.	+	0	HIMB1549_00257	HIMB1549	233	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1549_00256
+HIMB1549-00000000001	Prodigal:2.6	CDS	244620	246038	.	+	0	HIMB1549_00258	HIMB1549	472	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	HIMB1549_00256
+HIMB1549-00000000001	Prodigal:2.6	CDS	246022	246714	.	+	0	HIMB1549_00259	HIMB1549	230	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	HIMB1549_00256
+HIMB1549-00000000001	Prodigal:2.6	CDS	246715	247242	.	-	0	HIMB1549_00260	HIMB1549	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1549_00256
+HIMB1549-00000000001	Prodigal:2.6	CDS	247261	247704	.	+	0	HIMB1549_00261	HIMB1549	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1549_00256
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	973791	974234	.	-	0	HIMB4_01059	HIMB4	147	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB4_01064
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	974253	974780	.	+	0	HIMB4_01060	HIMB4	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB4_01064
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	974781	975473	.	-	0	HIMB4_01061	HIMB4	230	OG0000131	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG2176	PolC	DNA polymerase III, alpha subunit (gram-positive type)	HIMB4_01064
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	975457	976920	.	-	0	HIMB4_01062	HIMB4	487	OG0002125	K07182	CBS domain-containing protein	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	HIMB4_01064
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	976933	977634	.	-	0	HIMB4_01063	HIMB4	233	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB4_01064
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	977613	978320	.	-	0	HIMB4_01064	HIMB4	235	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB4_01064
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	978362	979315	.	+	0	HIMB4_01065	HIMB4	317	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB4_01064
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	979316	980632	.	+	0	HIMB4_01066	HIMB4	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB4_01064
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	980612	981802	.	-	0	HIMB4_01067	HIMB4	396	OG0001147	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB4_01064
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	981803	984838	.	-	0	HIMB4_01068	HIMB4	1011	OG0002427	K13821	RHH-type transcriptional regulator, proline utilization regulon repressor / proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88]	COG4230	PutA2	Delta 1-pyrroline-5-carboxylate dehydrogenase	HIMB4_01064
+NZ_JBPPFS010000001.1	Prodigal:2.6	CDS	984842	985279	.	-	0	HIMB4_01069	HIMB4	145	OG0000854	NA	NA	NA	NA	NA	HIMB4_01064
+KI421440.1	Prodigal:2.6	CDS	804108	804773	.	+	0	HTCC8051_00877	HTCC8051	221	OG0000003	K02003	putative ABC transport system ATP-binding protein	COG1136	LolD	ABC-type lipoprotein targeting system ATPase component LolD	HTCC8051_00882
+KI421440.1	Prodigal:2.6	CDS	804757	807294	.	+	0	HTCC8051_00878	HTCC8051	845	OG0001096	K01992	ABC-2 type transport system permease protein	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	HTCC8051_00882
+KI421440.1	Prodigal:2.6	CDS	807281	807805	.	-	0	HTCC8051_00879	HTCC8051	174	OG0001307	NA	NA	NA	NA	NA	HTCC8051_00882
+KI421440.1	Prodigal:2.6	CDS	807835	808239	.	-	0	HTCC8051_00880	HTCC8051	134	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC8051_00882
+KI421440.1	Prodigal:2.6	CDS	808297	808824	.	+	0	HTCC8051_00881	HTCC8051	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC8051_00882
+KI421440.1	Prodigal:2.6	CDS	808825	809535	.	-	0	HTCC8051_00882	HTCC8051	236	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC8051_00882
+KI421440.1	Prodigal:2.6	CDS	809549	810751	.	-	0	HTCC8051_00883	HTCC8051	400	OG0001147	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HTCC8051_00882
+KI421440.1	Prodigal:2.6	CDS	810780	811217	.	-	0	HTCC8051_00884	HTCC8051	145	OG0000854	NA	NA	NA	NA	NA	HTCC8051_00882
+KI421440.1	Prodigal:2.6	CDS	811240	811923	.	+	0	HTCC8051_00885	HTCC8051	227	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC8051_00882
+KI421440.1	Prodigal:2.6	CDS	811240	811923	.	+	0	HTCC8051_00885	HTCC8051	227	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC8051_00882
+KI421440.1	Prodigal:2.6	CDS	811916	812233	.	-	0	HTCC8051_00886	HTCC8051	105	OG0001020	NA	NA	COG4392	AzlD2	Branched-chain amino acid transport protein	HTCC8051_00882
+KI421433.1	Prodigal:2.6	CDS	709097	709762	.	+	0	HTCC9022_01339	HTCC9022	221	OG0000003	K02003	putative ABC transport system ATP-binding protein	COG1136	LolD	ABC-type lipoprotein targeting system ATPase component LolD	HTCC9022_01344
+KI421433.1	Prodigal:2.6	CDS	709746	712283	.	+	0	HTCC9022_01340	HTCC9022	845	OG0001096	NA	NA	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	HTCC9022_01344
+KI421433.1	Prodigal:2.6	CDS	712270	712794	.	-	0	HTCC9022_01341	HTCC9022	174	OG0001307	NA	NA	NA	NA	NA	HTCC9022_01344
+KI421433.1	Prodigal:2.6	CDS	712823	713290	.	-	0	HTCC9022_01342	HTCC9022	155	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HTCC9022_01344
+KI421433.1	Prodigal:2.6	CDS	713363	713812	.	+	0	HTCC9022_01343	HTCC9022	149	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HTCC9022_01344
+KI421433.1	Prodigal:2.6	CDS	713813	714523	.	-	0	HTCC9022_01344	HTCC9022	236	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HTCC9022_01344
+KI421433.1	Prodigal:2.6	CDS	714580	715896	.	+	0	HTCC9022_01345	HTCC9022	438	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HTCC9022_01344
+KI421433.1	Prodigal:2.6	CDS	715876	717066	.	-	0	HTCC9022_01346	HTCC9022	396	OG0001147	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HTCC9022_01344
+KI421433.1	Prodigal:2.6	CDS	717091	717528	.	-	0	HTCC9022_01347	HTCC9022	145	OG0000854	NA	NA	NA	NA	NA	HTCC9022_01344
+KI421433.1	Prodigal:2.6	CDS	717531	717977	.	-	0	HTCC9022_01348	HTCC9022	148	OG0001280	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HTCC9022_01344
+KI421433.1	Prodigal:2.6	CDS	718033	718716	.	+	0	HTCC9022_01349	HTCC9022	227	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HTCC9022_01344
+CP031125.1	Prodigal:2.6	CDS	335212	335946	.	-	0	FZCC0015_00356	FZCC0015	244	OG0001646	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	FZCC0015_00361
+CP031125.1	Prodigal:2.6	CDS	336010	336129	.	+	0	FZCC0015_00357	FZCC0015	39	NA	NA	NA	NA	NA	NA	FZCC0015_00361
+CP031125.1	Prodigal:2.6	CDS	336119	337117	.	+	0	FZCC0015_00358	FZCC0015	332	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	FZCC0015_00361
+CP031125.1	Prodigal:2.6	CDS	337125	338180	.	-	0	FZCC0015_00359	FZCC0015	351	OG0001472	NA	NA	COG0022	AcoB	Pyruvate/2-oxoglutarate/acetoin dehydrogenase complex, dehydrogenase (E1) component, beta subunit	FZCC0015_00361
+CP031125.1	Prodigal:2.6	CDS	338173	339141	.	-	0	FZCC0015_00360	FZCC0015	322	OG0001444	NA	NA	COG1071	AcoA	TPP-dependent pyruvate or acetoin dehydrogenase subunit alpha	FZCC0015_00361
+CP031125.1	Prodigal:2.6	CDS	339144	339800	.	-	0	FZCC0015_00361	FZCC0015	218	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	FZCC0015_00361
+CP031125.1	Prodigal:2.6	CDS	339806	340759	.	-	0	FZCC0015_00362	FZCC0015	317	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	FZCC0015_00361
+CP031125.1	Prodigal:2.6	CDS	341017	341736	.	+	0	FZCC0015_00363	FZCC0015	239	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	FZCC0015_00361
+CP031125.1	Prodigal:2.6	CDS	341891	343114	.	+	0	FZCC0015_00364	FZCC0015	407	OG0001625	NA	NA	NA	NA	NA	FZCC0015_00361
+CP031125.1	Prodigal:2.6	CDS	343227	344372	.	-	0	FZCC0015_00365	FZCC0015	381	OG0001272	K08068	UDP-N-acetylglucosamine 2-epimerase (hydrolysing) [EC:3.2.1.183]	COG0381	WecB	UDP-N-acetylglucosamine 2-epimerase	FZCC0015_00361
+CP031125.1	Prodigal:2.6	CDS	344369	345403	.	-	0	FZCC0015_00366	FZCC0015	344	OG0000051	NA	NA	COG2089	SpsE	Sialic acid synthase SpsE, contains C-terminal SAF domain	FZCC0015_00361
+HIMB1765-00000000001	Prodigal:2.6	CDS	766713	767540	.	-	0	HIMB1765_00842	HIMB1765	275	OG0002645	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1765_00847
+HIMB1765-00000000001	Prodigal:2.6	CDS	767542	768747	.	-	0	HIMB1765_00843	HIMB1765	401	OG0003142	NA	NA	NA	NA	NA	HIMB1765_00847
+HIMB1765-00000000001	Prodigal:2.6	CDS	768732	769853	.	-	0	HIMB1765_00844	HIMB1765	373	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1765_00847
+HIMB1765-00000000001	Prodigal:2.6	CDS	769834	770931	.	-	0	HIMB1765_00845	HIMB1765	365	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1765_00847
+HIMB1765-00000000001	Prodigal:2.6	CDS	770933	772009	.	-	0	HIMB1765_00846	HIMB1765	358	OG0001446	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1765_00847
+HIMB1765-00000000001	Prodigal:2.6	CDS	772009	772896	.	-	0	HIMB1765_00847	HIMB1765	295	OG0001112	NA	NA	NA	NA	NA	HIMB1765_00847
+HIMB1765-00000000001	Prodigal:2.6	CDS	772893	773816	.	-	0	HIMB1765_00848	HIMB1765	307	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1765_00847
+HIMB1765-00000000001	Prodigal:2.6	CDS	773894	774595	.	-	0	HIMB1765_00849	HIMB1765	233	OG0002644	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1765_00847
+HIMB1765-00000000001	Prodigal:2.6	CDS	774638	775621	.	-	0	HIMB1765_00850	HIMB1765	327	OG0000113	K01711	GDPmannose 4,6-dehydratase [EC:4.2.1.47]	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB1765_00847
+HIMB1765-00000000001	Prodigal:2.6	CDS	775624	776034	.	-	0	HIMB1765_00851	HIMB1765	136	OG0001638	NA	NA	COG0662	ManC	Mannose-6-phosphate isomerase, cupin superfamily	HIMB1765_00847
+HIMB1765-00000000001	Prodigal:2.6	CDS	776142	777254	.	-	0	HIMB1765_00852	HIMB1765	370	OG0003454	NA	NA	COG4641	NA	Spore maturation protein CgeB	HIMB1765_00847
+HIMB1507-00000000001	Prodigal:2.6	CDS	671041	672375	.	+	0	HIMB1507_00688	HIMB1507	444	OG0002431	NA	NA	NA	NA	NA	HIMB1507_00693
+HIMB1507-00000000001	Prodigal:2.6	CDS	672380	673597	.	+	0	HIMB1507_00689	HIMB1507	405	NA	NA	NA	NA	NA	NA	HIMB1507_00693
+HIMB1507-00000000001	Prodigal:2.6	CDS	673602	674042	.	-	0	HIMB1507_00690	HIMB1507	146	NA	NA	NA	NA	NA	NA	HIMB1507_00693
+HIMB1507-00000000001	Prodigal:2.6	CDS	674089	675672	.	+	0	HIMB1507_00691	HIMB1507	527	OG0003785	NA	NA	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	HIMB1507_00693
+HIMB1507-00000000001	Prodigal:2.6	CDS	675635	676873	.	+	0	HIMB1507_00692	HIMB1507	412	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1507_00693
+HIMB1507-00000000001	Prodigal:2.6	CDS	676870	677649	.	+	0	HIMB1507_00693	HIMB1507	259	OG0001112	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1507_00693
+HIMB1507-00000000001	Prodigal:2.6	CDS	677642	678349	.	+	0	HIMB1507_00694	HIMB1507	235	OG0002417	NA	NA	NA	NA	NA	HIMB1507_00693
+HIMB1507-00000000001	Prodigal:2.6	CDS	678366	679436	.	+	0	HIMB1507_00695	HIMB1507	356	OG0000661	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1507_00693
+HIMB1507-00000000001	Prodigal:2.6	CDS	679495	680532	.	-	0	HIMB1507_00696	HIMB1507	345	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1507_00693
+HIMB1507-00000000001	Prodigal:2.6	CDS	680535	680990	.	-	0	HIMB1507_00697	HIMB1507	151	OG0000109	NA	NA	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	HIMB1507_00693
+HIMB1507-00000000001	Prodigal:2.6	CDS	680987	682675	.	-	0	HIMB1507_00698	HIMB1507	562	OG0001648	K08080	CMP-N-acetylneuraminate monooxygenase [EC:1.14.18.2]	COG2220	UlaG	L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily	HIMB1507_00693
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1104049	1104978	.	+	0	HIMB140_01194	HIMB140	309	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB140_01199
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1104971	1106233	.	+	0	HIMB140_01195	HIMB140	420	OG0000039	NA	NA	COG1004	Ugd	UDP-glucose 6-dehydrogenase	HIMB140_01199
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1106230	1107069	.	+	0	HIMB140_01196	HIMB140	279	OG0000865	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB140_01199
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1107069	1108868	.	+	0	HIMB140_01197	HIMB140	599	OG0000047	NA	NA	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB140_01199
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1108855	1109391	.	+	0	HIMB140_01198	HIMB140	178	OG0002232	NA	NA	COG0693	YajL	Protein/nucleotide deglycase, PfpI/YajL/DJ-1 family (repair of methylglyoxal-glycated proteins and nucleic acids)	HIMB140_01199
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1109394	1110074	.	+	0	HIMB140_01199	HIMB140	226	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB140_01199
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1110067	1110906	.	+	0	HIMB140_01200	HIMB140	279	OG0002114	NA	NA	NA	NA	NA	HIMB140_01199
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1110907	1111746	.	+	0	HIMB140_01201	HIMB140	279	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB140_01199
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1111739	1112824	.	+	0	HIMB140_01202	HIMB140	361	OG0001625	NA	NA	NA	NA	NA	HIMB140_01199
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1112811	1113764	.	+	0	HIMB140_01203	HIMB140	317	OG0003817	NA	NA	NA	NA	NA	HIMB140_01199
+NZ_LAMZ01000001.1	Prodigal:2.6	CDS	1113765	1114880	.	+	0	HIMB140_01204	HIMB140	371	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB140_01199
+HIMB1488-00000000001	Prodigal:2.6	CDS	1305159	1305971	.	-	0	HIMB1488_01410	HIMB1488	270	OG0000058	K00615	transketolase [EC:2.2.1.1]	COG3959	TktA1	Transketolase, N-terminal subunit	HIMB1488_01415
+HIMB1488-00000000001	Prodigal:2.6	CDS	1305979	1306746	.	-	0	HIMB1488_01411	HIMB1488	255	OG0004294	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1488_01415
+HIMB1488-00000000001	Prodigal:2.6	CDS	1306739	1307275	.	-	0	HIMB1488_01412	HIMB1488	178	OG0001934	NA	NA	COG0662	ManC	Mannose-6-phosphate isomerase, cupin superfamily	HIMB1488_01415
+HIMB1488-00000000001	Prodigal:2.6	CDS	1307253	1308152	.	-	0	HIMB1488_01413	HIMB1488	299	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1488_01415
+HIMB1488-00000000001	Prodigal:2.6	CDS	1308122	1309180	.	-	0	HIMB1488_01414	HIMB1488	352	OG0001190	NA	NA	COG1062	FrmA	Zn-dependent alcohol/formaldehyde dehydrogenase	HIMB1488_01415
+HIMB1488-00000000001	Prodigal:2.6	CDS	1309185	1309844	.	-	0	HIMB1488_01415	HIMB1488	219	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1488_01415
+HIMB1488-00000000001	Prodigal:2.6	CDS	1309846	1310790	.	-	0	HIMB1488_01416	HIMB1488	314	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1488_01415
+HIMB1488-00000000001	Prodigal:2.6	CDS	1310794	1311786	.	-	0	HIMB1488_01417	HIMB1488	330	OG0000001	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	HIMB1488_01415
+HIMB1488-00000000001	Prodigal:2.6	CDS	1311840	1312148	.	-	0	HIMB1488_01418	HIMB1488	102	OG0001403	NA	NA	COG1777	NA	Predicted transcriptional regulator, ArsR family	HIMB1488_01415
+HIMB1488-00000000001	Prodigal:2.6	CDS	1312200	1313591	.	+	0	HIMB1488_01419	HIMB1488	463	OG0000170	NA	NA	COG0318	MenE	O-succinylbenzoic acid-CoA ligase MenE or related acyl-CoA synthetase (AMP-forming)	HIMB1488_01415
+HIMB1488-00000000001	Prodigal:2.6	CDS	1313578	1314648	.	+	0	HIMB1488_01420	HIMB1488	356	OG0001815	NA	NA	NA	NA	NA	HIMB1488_01415
+HIMB1746-00000000001	Prodigal:2.6	CDS	169	462	.	+	0	HIMB1746_00001	HIMB1746	97	OG0003667	NA	NA	NA	NA	NA	HIMB1746_00003
+HIMB1746-00000000001	Prodigal:2.6	CDS	459	1541	.	+	0	HIMB1746_00002	HIMB1746	360	OG0003153	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1746_00003
+HIMB1746-00000000001	Prodigal:2.6	CDS	1510	2352	.	+	0	HIMB1746_00003	HIMB1746	280	OG0001112	NA	NA	COG4976	NA	Predicted methyltransferase, contains TPR repeat	HIMB1746_00003
+HIMB1746-00000000001	Prodigal:2.6	CDS	2352	3467	.	+	0	HIMB1746_00004	HIMB1746	371	OG0001401	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	HIMB1746_00003
+HIMB1746-00000000001	Prodigal:2.6	CDS	3476	4441	.	+	0	HIMB1746_00005	HIMB1746	321	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1746_00003
+HIMB1746-00000000001	Prodigal:2.6	CDS	4438	5145	.	-	0	HIMB1746_00006	HIMB1746	235	OG0000195	NA	NA	COG0176	TalA	Transaldolase/fructose-6-phosphate aldolase	HIMB1746_00003
+HIMB1746-00000000001	Prodigal:2.6	CDS	5147	5671	.	-	0	HIMB1746_00007	HIMB1746	174	OG0000015	NA	NA	COG0241	HisB1/GmhB	Histidinol phosphatase/D-glycero-mannoheptose bisphosphatephosphatase, HAD superfamily	HIMB1746_00003
+HIMB1746-00000000001	Prodigal:2.6	CDS	5661	6959	.	-	0	HIMB1746_00008	HIMB1746	432	OG0002283	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG1232	HemY	Protoporphyrinogen oxidase HemY/PPOX	HIMB1746_00003
+HIMB1437-00000000001	Prodigal:2.6	CDS	1111445	1111813	.	+	0	HIMB1437_01181	HIMB1437	122	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	HIMB1437_01185
+HIMB1437-00000000001	Prodigal:2.6	CDS	1111815	1112531	.	-	0	HIMB1437_01182	HIMB1437	238	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1437_01185
+HIMB1437-00000000001	Prodigal:2.6	CDS	1111815	1112531	.	-	0	HIMB1437_01182	HIMB1437	238	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1437_01185
+HIMB1437-00000000001	Prodigal:2.6	CDS	1112565	1113068	.	+	0	HIMB1437_01183	HIMB1437	167	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HIMB1437_01185
+HIMB1437-00000000001	Prodigal:2.6	CDS	1113073	1113519	.	+	0	HIMB1437_01184	HIMB1437	148	OG0000854	NA	NA	NA	NA	NA	HIMB1437_01185
+HIMB1437-00000000001	Prodigal:2.6	CDS	1113510	1114217	.	+	0	HIMB1437_01185	HIMB1437	235	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1437_01185
+HIMB1437-00000000001	Prodigal:2.6	CDS	1114569	1114748	.	+	0	HIMB1437_01186	HIMB1437	59	OG0001364	NA	NA	NA	NA	NA	HIMB1437_01185
+HIMB1437-00000000001	Prodigal:2.6	CDS	1114750	1115850	.	-	0	HIMB1437_01187	HIMB1437	366	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	HIMB1437_01185
+HIMB1437-00000000001	Prodigal:2.6	CDS	1115917	1116723	.	+	0	HIMB1437_01188	HIMB1437	268	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB1437_01185
+HIMB1437-00000000001	Prodigal:2.6	CDS	1116716	1117051	.	-	0	HIMB1437_01189	HIMB1437	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB1437_01185
+HIMB1437-00000000001	Prodigal:2.6	CDS	1117056	1117391	.	-	0	HIMB1437_01190	HIMB1437	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB1437_01185
+HIMB1863-00000000002	Prodigal:2.6	CDS	82194	82415	.	+	0	HIMB1863_00286	HIMB1863	73	OG0001115	NA	NA	NA	NA	NA	HIMB1863_00291
+HIMB1863-00000000002	Prodigal:2.6	CDS	82430	82765	.	+	0	HIMB1863_00287	HIMB1863	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB1863_00291
+HIMB1863-00000000002	Prodigal:2.6	CDS	82758	83564	.	-	0	HIMB1863_00288	HIMB1863	268	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB1863_00291
+HIMB1863-00000000002	Prodigal:2.6	CDS	83631	84731	.	+	0	HIMB1863_00289	HIMB1863	366	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	HIMB1863_00291
+HIMB1863-00000000002	Prodigal:2.6	CDS	84733	84912	.	-	0	HIMB1863_00290	HIMB1863	59	OG0001364	NA	NA	NA	NA	NA	HIMB1863_00291
+HIMB1863-00000000002	Prodigal:2.6	CDS	85264	85971	.	-	0	HIMB1863_00291	HIMB1863	235	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1863_00291
+HIMB1863-00000000002	Prodigal:2.6	CDS	85962	86408	.	-	0	HIMB1863_00292	HIMB1863	148	OG0000854	NA	NA	NA	NA	NA	HIMB1863_00291
+HIMB1863-00000000002	Prodigal:2.6	CDS	86413	86916	.	-	0	HIMB1863_00293	HIMB1863	167	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HIMB1863_00291
+HIMB1863-00000000002	Prodigal:2.6	CDS	86950	87666	.	+	0	HIMB1863_00294	HIMB1863	238	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1863_00291
+HIMB1863-00000000002	Prodigal:2.6	CDS	86950	87666	.	+	0	HIMB1863_00294	HIMB1863	238	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1863_00291
+HIMB1863-00000000002	Prodigal:2.6	CDS	87668	88036	.	-	0	HIMB1863_00295	HIMB1863	122	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	HIMB1863_00291
+HIMB2104-00000000004	Prodigal:2.6	CDS	107	790	.	-	0	HIMB2104_00223	HIMB2104	227	OG0001468	NA	NA	COG2120	LmbE	N-acetylglucosaminyl deacetylase, LmbE family	HIMB2104_00224
+HIMB2104-00000000004	Prodigal:2.6	CDS	838	1578	.	+	0	HIMB2104_00224	HIMB2104	246	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB2104_00224
+HIMB2104-00000000004	Prodigal:2.6	CDS	1575	2591	.	+	0	HIMB2104_00225	HIMB2104	338	OG0001045	NA	NA	COG0472	Rfe	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase/archaeal AglH	HIMB2104_00224
+HIMB2104-00000000004	Prodigal:2.6	CDS	2658	3797	.	+	0	HIMB2104_00226	HIMB2104	379	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB2104_00224
+HIMB2104-00000000004	Prodigal:2.6	CDS	3794	4783	.	+	0	HIMB2104_00227	HIMB2104	329	OG0000001	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	HIMB2104_00224
+HIMB2104-00000000004	Prodigal:2.6	CDS	4780	6501	.	+	0	HIMB2104_00228	HIMB2104	573	OG0000032	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB2104_00224
+HIMB2104-00000000004	Prodigal:2.6	CDS	6526	7533	.	+	0	HIMB2104_00229	HIMB2104	335	OG0000001	K10046	GDP-D-mannose 3', 5'-epimerase [EC:5.1.3.18 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2104_00224
+HIMB2104-00000000004	Prodigal:2.6	CDS	215918	216286	.	+	0	HIMB2104_00440	HIMB2104	122	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	HIMB2104_00444
+HIMB2104-00000000004	Prodigal:2.6	CDS	216288	217004	.	-	0	HIMB2104_00441	HIMB2104	238	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB2104_00444
+HIMB2104-00000000004	Prodigal:2.6	CDS	216288	217004	.	-	0	HIMB2104_00441	HIMB2104	238	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB2104_00444
+HIMB2104-00000000004	Prodigal:2.6	CDS	217039	217542	.	+	0	HIMB2104_00442	HIMB2104	167	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HIMB2104_00444
+HIMB2104-00000000004	Prodigal:2.6	CDS	217547	217993	.	+	0	HIMB2104_00443	HIMB2104	148	OG0000854	NA	NA	NA	NA	NA	HIMB2104_00444
+HIMB2104-00000000004	Prodigal:2.6	CDS	217984	218691	.	+	0	HIMB2104_00444	HIMB2104	235	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB2104_00444
+HIMB2104-00000000004	Prodigal:2.6	CDS	219044	219223	.	+	0	HIMB2104_00445	HIMB2104	59	OG0001364	NA	NA	NA	NA	NA	HIMB2104_00444
+HIMB2104-00000000004	Prodigal:2.6	CDS	219225	220325	.	-	0	HIMB2104_00446	HIMB2104	366	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	HIMB2104_00444
+HIMB2104-00000000004	Prodigal:2.6	CDS	220392	221198	.	+	0	HIMB2104_00447	HIMB2104	268	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB2104_00444
+HIMB2104-00000000004	Prodigal:2.6	CDS	221191	221526	.	-	0	HIMB2104_00448	HIMB2104	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB2104_00444
+HIMB2104-00000000004	Prodigal:2.6	CDS	221541	221762	.	-	0	HIMB2104_00449	HIMB2104	73	OG0001115	NA	NA	NA	NA	NA	HIMB2104_00444
+HIMB2200-00000000003	Prodigal:2.6	CDS	5776	5997	.	+	0	HIMB2200_00282	HIMB2200	73	OG0001115	NA	NA	NA	NA	NA	HIMB2200_00287
+HIMB2200-00000000003	Prodigal:2.6	CDS	6012	6347	.	+	0	HIMB2200_00283	HIMB2200	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB2200_00287
+HIMB2200-00000000003	Prodigal:2.6	CDS	6340	7146	.	-	0	HIMB2200_00284	HIMB2200	268	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB2200_00287
+HIMB2200-00000000003	Prodigal:2.6	CDS	7213	8313	.	+	0	HIMB2200_00285	HIMB2200	366	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	HIMB2200_00287
+HIMB2200-00000000003	Prodigal:2.6	CDS	8315	8494	.	-	0	HIMB2200_00286	HIMB2200	59	OG0001364	NA	NA	NA	NA	NA	HIMB2200_00287
+HIMB2200-00000000003	Prodigal:2.6	CDS	8846	9553	.	-	0	HIMB2200_00287	HIMB2200	235	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB2200_00287
+HIMB2200-00000000003	Prodigal:2.6	CDS	9544	9990	.	-	0	HIMB2200_00288	HIMB2200	148	OG0000854	NA	NA	NA	NA	NA	HIMB2200_00287
+HIMB2200-00000000003	Prodigal:2.6	CDS	9995	10498	.	-	0	HIMB2200_00289	HIMB2200	167	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HIMB2200_00287
+HIMB2200-00000000003	Prodigal:2.6	CDS	10534	11250	.	+	0	HIMB2200_00290	HIMB2200	238	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB2200_00287
+HIMB2200-00000000003	Prodigal:2.6	CDS	10534	11250	.	+	0	HIMB2200_00290	HIMB2200	238	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB2200_00287
+HIMB2200-00000000003	Prodigal:2.6	CDS	11252	11620	.	-	0	HIMB2200_00291	HIMB2200	122	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	HIMB2200_00287
+HIMB2215-00000000001	Prodigal:2.6	CDS	223039	223407	.	+	0	HIMB2215_00226	HIMB2215	122	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	HIMB2215_00230
+HIMB2215-00000000001	Prodigal:2.6	CDS	223409	224089	.	-	0	HIMB2215_00227	HIMB2215	226	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB2215_00230
+HIMB2215-00000000001	Prodigal:2.6	CDS	223409	224089	.	-	0	HIMB2215_00227	HIMB2215	226	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB2215_00230
+HIMB2215-00000000001	Prodigal:2.6	CDS	224163	224666	.	+	0	HIMB2215_00228	HIMB2215	167	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HIMB2215_00230
+HIMB2215-00000000001	Prodigal:2.6	CDS	224671	225117	.	+	0	HIMB2215_00229	HIMB2215	148	OG0000854	NA	NA	NA	NA	NA	HIMB2215_00230
+HIMB2215-00000000001	Prodigal:2.6	CDS	225108	225815	.	+	0	HIMB2215_00230	HIMB2215	235	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB2215_00230
+HIMB2215-00000000001	Prodigal:2.6	CDS	226167	226346	.	+	0	HIMB2215_00231	HIMB2215	59	OG0001364	NA	NA	NA	NA	NA	HIMB2215_00230
+HIMB2215-00000000001	Prodigal:2.6	CDS	226348	227448	.	-	0	HIMB2215_00232	HIMB2215	366	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	HIMB2215_00230
+HIMB2215-00000000001	Prodigal:2.6	CDS	227515	228321	.	+	0	HIMB2215_00233	HIMB2215	268	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB2215_00230
+HIMB2215-00000000001	Prodigal:2.6	CDS	228314	228649	.	-	0	HIMB2215_00234	HIMB2215	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB2215_00230
+HIMB2215-00000000001	Prodigal:2.6	CDS	228654	228989	.	-	0	HIMB2215_00235	HIMB2215	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB2215_00230
+HIMB2215-00000000006	Prodigal:2.6	CDS	164	370	.	-	0	HIMB2215_01013	HIMB2215	68	OG0001590	NA	NA	NA	NA	NA	HIMB2215_01014
+HIMB2215-00000000006	Prodigal:2.6	CDS	358	1047	.	-	0	HIMB2215_01014	HIMB2215	229	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB2215_01014
+HIMB2215-00000000006	Prodigal:2.6	CDS	1049	1864	.	-	0	HIMB2215_01015	HIMB2215	271	OG0002180	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB2215_01014
+HIMB2215-00000000006	Prodigal:2.6	CDS	1953	2834	.	+	0	HIMB2215_01016	HIMB2215	293	OG0001462	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB2215_01014
+HIMB2215-00000000006	Prodigal:2.6	CDS	2819	4855	.	+	0	HIMB2215_01017	HIMB2215	678	OG0001130	K07257	spore coat polysaccharide biosynthesis protein SpsF	COG1861	SpsF	Spore coat polysaccharide biosynthesis protein SpsF, cytidylyltransferase family	HIMB2215_01014
+HIMB2215-00000000006	Prodigal:2.6	CDS	4859	5866	.	+	0	HIMB2215_01018	HIMB2215	335	OG0001077	K15894	UDP-N-acetylglucosamine 4,6-dehydratase/5-epimerase [EC:4.2.1.115 5.1.3.-]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB2215_01014
+HIMB2215-00000000006	Prodigal:2.6	CDS	5868	7022	.	+	0	HIMB2215_01019	HIMB2215	384	OG0000011	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB2215_01014
+HIMB2204-00000000002	Prodigal:2.6	CDS	205465	205686	.	+	0	HIMB2204_01074	HIMB2204	73	OG0001115	NA	NA	NA	NA	NA	HIMB2204_01079
+HIMB2204-00000000002	Prodigal:2.6	CDS	205701	206036	.	+	0	HIMB2204_01075	HIMB2204	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB2204_01079
+HIMB2204-00000000002	Prodigal:2.6	CDS	206029	206835	.	-	0	HIMB2204_01076	HIMB2204	268	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB2204_01079
+HIMB2204-00000000002	Prodigal:2.6	CDS	206902	208002	.	+	0	HIMB2204_01077	HIMB2204	366	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	HIMB2204_01079
+HIMB2204-00000000002	Prodigal:2.6	CDS	208004	208183	.	-	0	HIMB2204_01078	HIMB2204	59	OG0001364	NA	NA	NA	NA	NA	HIMB2204_01079
+HIMB2204-00000000002	Prodigal:2.6	CDS	208535	209242	.	-	0	HIMB2204_01079	HIMB2204	235	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB2204_01079
+HIMB2204-00000000002	Prodigal:2.6	CDS	209233	209679	.	-	0	HIMB2204_01080	HIMB2204	148	OG0000854	NA	NA	NA	NA	NA	HIMB2204_01079
+HIMB2204-00000000002	Prodigal:2.6	CDS	209684	210187	.	-	0	HIMB2204_01081	HIMB2204	167	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HIMB2204_01079
+HIMB2204-00000000002	Prodigal:2.6	CDS	210222	210938	.	+	0	HIMB2204_01082	HIMB2204	238	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB2204_01079
+HIMB2204-00000000002	Prodigal:2.6	CDS	210222	210938	.	+	0	HIMB2204_01082	HIMB2204	238	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB2204_01079
+HIMB2204-00000000002	Prodigal:2.6	CDS	210940	211308	.	-	0	HIMB2204_01083	HIMB2204	122	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	HIMB2204_01079
+HIMB1402-00000000002	Prodigal:2.6	CDS	215000	215368	.	+	0	HIMB1402_00405	HIMB1402	122	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	HIMB1402_00409
+HIMB1402-00000000002	Prodigal:2.6	CDS	215370	216086	.	-	0	HIMB1402_00406	HIMB1402	238	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1402_00409
+HIMB1402-00000000002	Prodigal:2.6	CDS	215370	216086	.	-	0	HIMB1402_00406	HIMB1402	238	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1402_00409
+HIMB1402-00000000002	Prodigal:2.6	CDS	216120	216623	.	+	0	HIMB1402_00407	HIMB1402	167	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HIMB1402_00409
+HIMB1402-00000000002	Prodigal:2.6	CDS	216628	217074	.	+	0	HIMB1402_00408	HIMB1402	148	OG0000854	NA	NA	NA	NA	NA	HIMB1402_00409
+HIMB1402-00000000002	Prodigal:2.6	CDS	217065	217772	.	+	0	HIMB1402_00409	HIMB1402	235	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1402_00409
+HIMB1402-00000000002	Prodigal:2.6	CDS	218088	218267	.	+	0	HIMB1402_00410	HIMB1402	59	OG0001364	NA	NA	NA	NA	NA	HIMB1402_00409
+HIMB1402-00000000002	Prodigal:2.6	CDS	218269	219369	.	-	0	HIMB1402_00411	HIMB1402	366	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	HIMB1402_00409
+HIMB1402-00000000002	Prodigal:2.6	CDS	219436	220242	.	+	0	HIMB1402_00412	HIMB1402	268	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB1402_00409
+HIMB1402-00000000002	Prodigal:2.6	CDS	220235	220570	.	-	0	HIMB1402_00413	HIMB1402	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB1402_00409
+HIMB1402-00000000002	Prodigal:2.6	CDS	220575	220910	.	-	0	HIMB1402_00414	HIMB1402	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB1402_00409
+HIMB1838-00000000004	Prodigal:2.6	CDS	120530	120898	.	+	0	HIMB1838_00153	HIMB1838	122	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	HIMB1838_00157
+HIMB1838-00000000004	Prodigal:2.6	CDS	120900	121616	.	-	0	HIMB1838_00154	HIMB1838	238	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1838_00157
+HIMB1838-00000000004	Prodigal:2.6	CDS	120900	121616	.	-	0	HIMB1838_00154	HIMB1838	238	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1838_00157
+HIMB1838-00000000004	Prodigal:2.6	CDS	121651	122154	.	+	0	HIMB1838_00155	HIMB1838	167	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HIMB1838_00157
+HIMB1838-00000000004	Prodigal:2.6	CDS	122159	122605	.	+	0	HIMB1838_00156	HIMB1838	148	OG0000854	NA	NA	NA	NA	NA	HIMB1838_00157
+HIMB1838-00000000004	Prodigal:2.6	CDS	122596	123303	.	+	0	HIMB1838_00157	HIMB1838	235	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1838_00157
+HIMB1838-00000000004	Prodigal:2.6	CDS	123655	123834	.	+	0	HIMB1838_00158	HIMB1838	59	OG0001364	NA	NA	NA	NA	NA	HIMB1838_00157
+HIMB1838-00000000004	Prodigal:2.6	CDS	123836	124936	.	-	0	HIMB1838_00159	HIMB1838	366	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	HIMB1838_00157
+HIMB1838-00000000004	Prodigal:2.6	CDS	125003	125809	.	+	0	HIMB1838_00160	HIMB1838	268	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB1838_00157
+HIMB1838-00000000004	Prodigal:2.6	CDS	125802	126137	.	-	0	HIMB1838_00161	HIMB1838	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB1838_00157
+HIMB1838-00000000004	Prodigal:2.6	CDS	126142	126477	.	-	0	HIMB1838_00162	HIMB1838	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB1838_00157
+HIMB1483-00000000001	Prodigal:2.6	CDS	111189	112124	.	+	0	HIMB1483_00121	HIMB1483	311	OG0000933	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1483_00126
+HIMB1483-00000000001	Prodigal:2.6	CDS	112121	113200	.	+	0	HIMB1483_00122	HIMB1483	359	OG0000001	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1483_00126
+HIMB1483-00000000001	Prodigal:2.6	CDS	113197	113889	.	+	0	HIMB1483_00123	HIMB1483	230	OG0000015	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	HIMB1483_00126
+HIMB1483-00000000001	Prodigal:2.6	CDS	113891	114802	.	+	0	HIMB1483_00124	HIMB1483	303	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1483_00126
+HIMB1483-00000000001	Prodigal:2.6	CDS	114812	115495	.	-	0	HIMB1483_00125	HIMB1483	227	OG0001468	NA	NA	COG2120	LmbE	N-acetylglucosaminyl deacetylase, LmbE family	HIMB1483_00126
+HIMB1483-00000000001	Prodigal:2.6	CDS	115504	116286	.	+	0	HIMB1483_00126	HIMB1483	260	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1483_00126
+HIMB1483-00000000001	Prodigal:2.6	CDS	116286	117308	.	+	0	HIMB1483_00127	HIMB1483	340	OG0001045	NA	NA	COG0472	Rfe	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase/archaeal AglH	HIMB1483_00126
+HIMB1483-00000000001	Prodigal:2.6	CDS	117329	118321	.	+	0	HIMB1483_00128	HIMB1483	330	OG0000001	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	HIMB1483_00126
+HIMB1483-00000000001	Prodigal:2.6	CDS	118325	120061	.	+	0	HIMB1483_00129	HIMB1483	578	OG0000032	NA	NA	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	HIMB1483_00126
+HIMB1483-00000000001	Prodigal:2.6	CDS	120109	121116	.	+	0	HIMB1483_00130	HIMB1483	335	OG0001446	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1483_00126
+HIMB1483-00000000001	Prodigal:2.6	CDS	121100	122407	.	+	0	HIMB1483_00131	HIMB1483	435	OG0000877	NA	NA	COG3307	RfaL	O-antigen ligase	HIMB1483_00126
+HIMB1483-00000000002	Prodigal:2.6	CDS	900867	901202	.	+	0	HIMB1483_01108	HIMB1483	111	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB1483_01113
+HIMB1483-00000000002	Prodigal:2.6	CDS	901206	901544	.	+	0	HIMB1483_01109	HIMB1483	112	OG0000045	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB1483_01113
+HIMB1483-00000000002	Prodigal:2.6	CDS	901534	902340	.	-	0	HIMB1483_01110	HIMB1483	268	OG0000786	NA	NA	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	HIMB1483_01113
+HIMB1483-00000000002	Prodigal:2.6	CDS	902407	903507	.	+	0	HIMB1483_01111	HIMB1483	366	OG0000042	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	HIMB1483_01113
+HIMB1483-00000000002	Prodigal:2.6	CDS	903510	903689	.	-	0	HIMB1483_01112	HIMB1483	59	OG0001364	NA	NA	NA	NA	NA	HIMB1483_01113
+HIMB1483-00000000002	Prodigal:2.6	CDS	904040	904756	.	-	0	HIMB1483_01113	HIMB1483	238	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1483_01113
+HIMB1483-00000000002	Prodigal:2.6	CDS	904763	906088	.	-	0	HIMB1483_01114	HIMB1483	441	OG0001313	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	HIMB1483_01113
+HIMB1483-00000000002	Prodigal:2.6	CDS	906118	906564	.	-	0	HIMB1483_01115	HIMB1483	148	OG0000854	NA	NA	NA	NA	NA	HIMB1483_01113
+HIMB1483-00000000002	Prodigal:2.6	CDS	906569	907072	.	-	0	HIMB1483_01116	HIMB1483	167	OG0001243	NA	NA	COG4454	NA	Uncharacterized copper-binding protein, cupredoxin-like subfamily	HIMB1483_01113
+HIMB1483-00000000002	Prodigal:2.6	CDS	907146	907826	.	+	0	HIMB1483_01117	HIMB1483	226	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1483_01113
+HIMB1483-00000000002	Prodigal:2.6	CDS	907146	907826	.	+	0	HIMB1483_01117	HIMB1483	226	OG0001012	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1483_01113
+CP020777.1	Prodigal:2.6	CDS	478228	478923	.	+	0	RS39_00515	RS39	231	OG0001021	NA	NA	COG1296	AzlC	Predicted branched-chain amino acid permease (azaleucine resistance)	RS39_00520
+CP020777.1	Prodigal:2.6	CDS	478916	479230	.	+	0	RS39_00516	RS39	104	OG0001020	NA	NA	COG4392	AzlD2	Branched-chain amino acid transport protein	RS39_00520
+CP020777.1	Prodigal:2.6	CDS	479237	479626	.	+	0	RS39_00517	RS39	129	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	RS39_00520
+CP020777.1	Prodigal:2.6	CDS	479628	480308	.	-	0	RS39_00518	RS39	226	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	RS39_00520
+CP020777.1	Prodigal:2.6	CDS	480331	480768	.	+	0	RS39_00519	RS39	145	OG0000854	NA	NA	COG0474	MgtA	Magnesium-transporting ATPase (P-type)	RS39_00520
+CP020777.1	Prodigal:2.6	CDS	480749	481459	.	+	0	RS39_00520	RS39	236	OG0001112	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	RS39_00520
+CP020777.1	Prodigal:2.6	CDS	481454	481981	.	-	0	RS39_00521	RS39	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	RS39_00520
+CP020777.1	Prodigal:2.6	CDS	481982	482443	.	+	0	RS39_00522	RS39	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	RS39_00520
+CP020777.1	Prodigal:2.6	CDS	482791	482970	.	+	0	RS39_00523	RS39	59	OG0001364	NA	NA	NA	NA	NA	RS39_00520
+CP020777.1	Prodigal:2.6	CDS	482982	483269	.	+	0	RS39_00524	RS39	95	OG0001219	NA	NA	NA	NA	NA	RS39_00520
+CP020777.1	Prodigal:2.6	CDS	483350	484801	.	+	0	RS39_00525	RS39	483	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	RS39_00520
+HIMB1436-00000000001	Prodigal:2.6	CDS	548885	549646	.	-	0	HIMB1436_00578	HIMB1436	253	OG0000181	NA	NA	COG0300	YqjQ	Short-chain dehydrogenase	HIMB1436_00583
+HIMB1436-00000000001	Prodigal:2.6	CDS	549671	550138	.	+	0	HIMB1436_00579	HIMB1436	155	OG0000964	K05770	translocator protein	COG3476	TspO	Tryptophan-rich sensory protein TspO/CrtK (mitochondrial benzodiazepine receptor homolog)	HIMB1436_00583
+HIMB1436-00000000001	Prodigal:2.6	CDS	550139	551242	.	+	0	HIMB1436_00580	HIMB1436	367	OG0000950	K18166	FAD-dependent oxidoreductase domain-containing protein 1	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HIMB1436_00583
+HIMB1436-00000000001	Prodigal:2.6	CDS	551253	551954	.	+	0	HIMB1436_00581	HIMB1436	233	OG0000052	NA	NA	NA	NA	NA	HIMB1436_00583
+HIMB1436-00000000001	Prodigal:2.6	CDS	552026	553195	.	+	0	HIMB1436_00582	HIMB1436	389	OG0001408	NA	NA	NA	NA	NA	HIMB1436_00583
+HIMB1436-00000000001	Prodigal:2.6	CDS	553196	553879	.	-	0	HIMB1436_00583	HIMB1436	227	OG0001112	NA	NA	COG4106	Tam	Trans-aconitate methyltransferase	HIMB1436_00583
+HIMB1436-00000000001	Prodigal:2.6	CDS	553923	554843	.	+	0	HIMB1436_00584	HIMB1436	306	OG0000840	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1436_00583
+HIMB1436-00000000001	Prodigal:2.6	CDS	554846	555793	.	+	0	HIMB1436_00585	HIMB1436	315	OG0000002	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1436_00583
+HIMB1436-00000000001	Prodigal:2.6	CDS	555783	556466	.	+	0	HIMB1436_00586	HIMB1436	227	OG0001832	NA	NA	NA	NA	NA	HIMB1436_00583
+HIMB1436-00000000001	Prodigal:2.6	CDS	556463	557917	.	-	0	HIMB1436_00587	HIMB1436	484	OG0001079	K08997	protein adenylyltransferase [EC:2.7.7.108]	COG0397	SelO	Protein adenylyltransferase (AMPylase) SelO/YdiU (selenoprotein O)	HIMB1436_00583
+HIMB1436-00000000001	Prodigal:2.6	CDS	557924	558499	.	-	0	HIMB1436_00588	HIMB1436	191	OG0000031	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	HIMB1436_00583
+HIMB1436-00000000002	Prodigal:2.6	CDS	278229	279164	.	-	0	HIMB1436_01103	HIMB1436	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HIMB1436_01108
+HIMB1436-00000000002	Prodigal:2.6	CDS	279202	280653	.	-	0	HIMB1436_01104	HIMB1436	483	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	HIMB1436_01108
+HIMB1436-00000000002	Prodigal:2.6	CDS	280781	280960	.	-	0	HIMB1436_01105	HIMB1436	59	OG0001364	NA	NA	NA	NA	NA	HIMB1436_01108
+HIMB1436-00000000002	Prodigal:2.6	CDS	281316	281714	.	-	0	HIMB1436_01106	HIMB1436	132	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB1436_01108
+HIMB1436-00000000002	Prodigal:2.6	CDS	281778	282305	.	+	0	HIMB1436_01107	HIMB1436	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB1436_01108
+HIMB1436-00000000002	Prodigal:2.6	CDS	282300	283010	.	-	0	HIMB1436_01108	HIMB1436	236	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1436_01108
+HIMB1436-00000000002	Prodigal:2.6	CDS	282991	283428	.	-	0	HIMB1436_01109	HIMB1436	145	OG0000854	NA	NA	COG0474	MgtA	Magnesium-transporting ATPase (P-type)	HIMB1436_01108
+HIMB1436-00000000002	Prodigal:2.6	CDS	283451	284131	.	+	0	HIMB1436_01110	HIMB1436	226	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB1436_01108
+HIMB1436-00000000002	Prodigal:2.6	CDS	284133	284522	.	-	0	HIMB1436_01111	HIMB1436	129	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	HIMB1436_01108
+HIMB1436-00000000002	Prodigal:2.6	CDS	284529	284843	.	-	0	HIMB1436_01112	HIMB1436	104	OG0001020	NA	NA	COG4392	AzlD2	Branched-chain amino acid transport protein	HIMB1436_01108
+HIMB1436-00000000002	Prodigal:2.6	CDS	284836	285531	.	-	0	HIMB1436_01113	HIMB1436	231	OG0001021	NA	NA	COG1296	AzlC	Predicted branched-chain amino acid permease (azaleucine resistance)	HIMB1436_01108
+HIMB2226-00000000002	Prodigal:2.6	CDS	350665	351600	.	-	0	HIMB2226_01095	HIMB2226	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HIMB2226_01100
+HIMB2226-00000000002	Prodigal:2.6	CDS	351638	353089	.	-	0	HIMB2226_01096	HIMB2226	483	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	HIMB2226_01100
+HIMB2226-00000000002	Prodigal:2.6	CDS	353217	353396	.	-	0	HIMB2226_01097	HIMB2226	59	OG0001364	NA	NA	NA	NA	NA	HIMB2226_01100
+HIMB2226-00000000002	Prodigal:2.6	CDS	353751	354212	.	-	0	HIMB2226_01098	HIMB2226	153	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB2226_01100
+HIMB2226-00000000002	Prodigal:2.6	CDS	354213	354740	.	+	0	HIMB2226_01099	HIMB2226	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB2226_01100
+HIMB2226-00000000002	Prodigal:2.6	CDS	354735	355445	.	-	0	HIMB2226_01100	HIMB2226	236	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB2226_01100
+HIMB2226-00000000002	Prodigal:2.6	CDS	355426	355863	.	-	0	HIMB2226_01101	HIMB2226	145	OG0000854	NA	NA	NA	NA	NA	HIMB2226_01100
+HIMB2226-00000000002	Prodigal:2.6	CDS	355886	356566	.	+	0	HIMB2226_01102	HIMB2226	226	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB2226_01100
+HIMB2226-00000000002	Prodigal:2.6	CDS	356569	356958	.	-	0	HIMB2226_01103	HIMB2226	129	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	HIMB2226_01100
+HIMB2226-00000000002	Prodigal:2.6	CDS	356965	357279	.	-	0	HIMB2226_01104	HIMB2226	104	OG0001020	NA	NA	COG4392	AzlD2	Branched-chain amino acid transport protein	HIMB2226_01100
+HIMB2226-00000000002	Prodigal:2.6	CDS	357272	357964	.	-	0	HIMB2226_01105	HIMB2226	230	OG0001021	NA	NA	COG1296	AzlC	Predicted branched-chain amino acid permease (azaleucine resistance)	HIMB2226_01100
+HIMB2187-00000000002	Prodigal:2.6	CDS	165260	165955	.	+	0	HIMB2187_01145	HIMB2187	231	OG0001021	NA	NA	COG1296	AzlC	Predicted branched-chain amino acid permease (azaleucine resistance)	HIMB2187_01150
+HIMB2187-00000000002	Prodigal:2.6	CDS	165948	166262	.	+	0	HIMB2187_01146	HIMB2187	104	OG0001020	NA	NA	COG4392	AzlD2	Branched-chain amino acid transport protein	HIMB2187_01150
+HIMB2187-00000000002	Prodigal:2.6	CDS	166269	166658	.	+	0	HIMB2187_01147	HIMB2187	129	OG0001030	NA	NA	COG0526	TrxA	Thiol-disulfide isomerase or thioredoxin	HIMB2187_01150
+HIMB2187-00000000002	Prodigal:2.6	CDS	166660	167340	.	-	0	HIMB2187_01148	HIMB2187	226	OG0001012	K17725	sulfur dioxygenase [EC:1.13.11.18]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	HIMB2187_01150
+HIMB2187-00000000002	Prodigal:2.6	CDS	167363	167800	.	+	0	HIMB2187_01149	HIMB2187	145	OG0000854	NA	NA	COG0474	MgtA	Magnesium-transporting ATPase (P-type)	HIMB2187_01150
+HIMB2187-00000000002	Prodigal:2.6	CDS	167781	168491	.	+	0	HIMB2187_01150	HIMB2187	236	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB2187_01150
+HIMB2187-00000000002	Prodigal:2.6	CDS	168486	169013	.	-	0	HIMB2187_01151	HIMB2187	175	OG0001093	K12262	superoxide oxidase [EC:1.10.3.17]	COG3038	CybB	Cytochrome b561	HIMB2187_01150
+HIMB2187-00000000002	Prodigal:2.6	CDS	169077	169475	.	+	0	HIMB2187_01152	HIMB2187	132	OG0001094	NA	NA	COG3909	CytC556	Cytochrome c556	HIMB2187_01150
+HIMB2187-00000000002	Prodigal:2.6	CDS	169830	170009	.	+	0	HIMB2187_01153	HIMB2187	59	OG0001364	NA	NA	NA	NA	NA	HIMB2187_01150
+HIMB2187-00000000002	Prodigal:2.6	CDS	170137	171588	.	+	0	HIMB2187_01154	HIMB2187	483	OG0000869	NA	NA	COG0591	PutP	Na+/proline symporter	HIMB2187_01150
+HIMB2187-00000000002	Prodigal:2.6	CDS	171626	172561	.	+	0	HIMB2187_01155	HIMB2187	311	OG0000097	K01990	ABC-2 type transport system ATP-binding protein	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	HIMB2187_01150
+ATTF01000016.1	Prodigal:2.6	CDS	13289	14083	.	-	0	HIMB058_00816	HIMB058	264	OG0000473	NA	NA	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	HIMB058_00821
+ATTF01000016.1	Prodigal:2.6	CDS	14080	14844	.	-	0	HIMB058_00817	HIMB058	254	OG0000000	K03331	L-xylulose reductase [EC:1.1.1.10]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB058_00821
+ATTF01000016.1	Prodigal:2.6	CDS	14844	15293	.	-	0	HIMB058_00818	HIMB058	149	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB058_00821
+ATTF01000016.1	Prodigal:2.6	CDS	15313	16215	.	+	0	HIMB058_00819	HIMB058	300	OG0000921	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB058_00821
+ATTF01000016.1	Prodigal:2.6	CDS	16205	17113	.	+	0	HIMB058_00820	HIMB058	302	OG0000946	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB058_00821
+ATTF01000016.1	Prodigal:2.6	CDS	17113	17820	.	+	0	HIMB058_00821	HIMB058	235	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB058_00821
+ATTF01000016.1	Prodigal:2.6	CDS	17821	18114	.	-	0	HIMB058_00822	HIMB058	97	OG0001591	NA	NA	COG1359	YgiN	Quinol monooxygenase YgiN	HIMB058_00821
+ATTF01000016.1	Prodigal:2.6	CDS	18117	19121	.	-	0	HIMB058_00823	HIMB058	334	OG0001273	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	HIMB058_00821
+ATTF01000016.1	Prodigal:2.6	CDS	19121	20407	.	-	0	HIMB058_00824	HIMB058	428	OG0000026	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB058_00821
+ATTF01000016.1	Prodigal:2.6	CDS	20397	21731	.	-	0	HIMB058_00825	HIMB058	444	OG0000004	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	HIMB058_00821
+ATTF01000016.1	Prodigal:2.6	CDS	21728	22336	.	-	0	HIMB058_00826	HIMB058	202	OG0000034	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	HIMB058_00821
+ADAC02000001.1	Prodigal:2.6	CDS	696234	697247	.	+	0	HIMB114_00754	HIMB114	337	OG0000626	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB114_00759
+ADAC02000001.1	Prodigal:2.6	CDS	697240	697719	.	-	0	HIMB114_00755	HIMB114	159	OG0000964	K05770	translocator protein	COG3476	TspO	Tryptophan-rich sensory protein TspO/CrtK (mitochondrial benzodiazepine receptor homolog)	HIMB114_00759
+ADAC02000001.1	Prodigal:2.6	CDS	697880	700741	.	-	0	HIMB114_00756	HIMB114	953	OG0000941	K00281	glycine dehydrogenase [EC:1.4.4.2]	COG1003	GcvP2	Glycine cleavage system protein P (pyridoxal-binding), C-terminal domain	HIMB114_00759
+ADAC02000001.1	Prodigal:2.6	CDS	700741	701118	.	-	0	HIMB114_00757	HIMB114	125	OG0000906	K02437	glycine cleavage system H protein	COG0509	GcvH	Glycine cleavage system protein H (lipoate-binding)	HIMB114_00759
+ADAC02000001.1	Prodigal:2.6	CDS	701130	702239	.	-	0	HIMB114_00758	HIMB114	369	OG0000913	K00605	aminomethyltransferase [EC:2.1.2.10]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB114_00759
+ADAC02000001.1	Prodigal:2.6	CDS	702682	703398	.	-	0	HIMB114_00759	HIMB114	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB114_00759
+ADAC02000001.1	Prodigal:2.6	CDS	703450	704421	.	+	0	HIMB114_00760	HIMB114	323	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB114_00759
+ADAC02000001.1	Prodigal:2.6	CDS	704471	705439	.	-	0	HIMB114_00761	HIMB114	322	OG0001017	K18208	renalase [EC:1.6.3.5]	COG3380	NA	Predicted NAD/FAD-dependent oxidoreductase	HIMB114_00759
+ADAC02000001.1	Prodigal:2.6	CDS	705442	706290	.	-	0	HIMB114_00762	HIMB114	282	OG0000639	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB114_00759
+ADAC02000001.1	Prodigal:2.6	CDS	706316	707092	.	+	0	HIMB114_00763	HIMB114	258	OG0000655	NA	NA	COG0345	ProC	Pyrroline-5-carboxylate reductase	HIMB114_00759
+ADAC02000001.1	Prodigal:2.6	CDS	707101	707604	.	+	0	HIMB114_00764	HIMB114	167	OG0001118	K01759	lactoylglutathione lyase [EC:4.4.1.5]	COG0346	GloA	Glyoxalase, catechol 2,3-dioxygenase or related enzyme, vicinal oxygen chelate (VOC) family	HIMB114_00759
+ADAC02000001.1	Prodigal:2.6	CDS	841095	841862	.	-	0	HIMB114_00912	HIMB114	255	OG0001646	NA	NA	NA	NA	NA	HIMB114_00917
+ADAC02000001.1	Prodigal:2.6	CDS	841920	844268	.	-	0	HIMB114_00913	HIMB114	782	OG0001675	NA	NA	COG4993	Gcd	Glucose dehydrogenase, PQQ-dependent	HIMB114_00917
+ADAC02000001.1	Prodigal:2.6	CDS	844318	845352	.	-	0	HIMB114_00914	HIMB114	344	OG0001377	NA	NA	COG0524	RbsK	Sugar or nucleoside kinase, ribokinase family	HIMB114_00917
+ADAC02000001.1	Prodigal:2.6	CDS	845417	846586	.	+	0	HIMB114_00915	HIMB114	389	OG0001797	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	HIMB114_00917
+ADAC02000001.1	Prodigal:2.6	CDS	846552	846800	.	+	0	HIMB114_00916	HIMB114	82	OG0004290	NA	NA	NA	NA	NA	HIMB114_00917
+ADAC02000001.1	Prodigal:2.6	CDS	846790	847449	.	+	0	HIMB114_00917	HIMB114	219	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB114_00917
+ADAC02000001.1	Prodigal:2.6	CDS	847464	848084	.	+	0	HIMB114_00918	HIMB114	206	OG0002524	NA	NA	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	HIMB114_00917
+ADAC02000001.1	Prodigal:2.6	CDS	848317	850188	.	+	0	HIMB114_00919	HIMB114	623	OG0001599	NA	NA	COG4771	FepA	Outer membrane receptor for ferrienterochelin and colicins	HIMB114_00917
+ADAC02000001.1	Prodigal:2.6	CDS	850226	850717	.	+	0	HIMB114_00920	HIMB114	163	OG0001501	NA	NA	NA	NA	NA	HIMB114_00917
+ADAC02000001.1	barrnap:0.9	rRNA	850746	853492	0	-	.	HIMB114_00921	HIMB114	NA	NA	NA	NA	NA	NA	NA	HIMB114_00917
+ADAC02000001.1	Aragorn:1.2	tRNA	853628	853703	.	-	.	HIMB114_00922	HIMB114	NA	NA	NA	NA	NA	NA	NA	HIMB114_00917
+HIMB1517-00000000005	Prodigal:2.6	CDS	89274	89777	.	-	0	HIMB1517_00724	HIMB1517	167	OG0001118	K01759	lactoylglutathione lyase [EC:4.4.1.5]	COG0346	GloA	Glyoxalase, catechol 2,3-dioxygenase or related enzyme, vicinal oxygen chelate (VOC) family	HIMB1517_00729
+HIMB1517-00000000005	Prodigal:2.6	CDS	89786	90562	.	-	0	HIMB1517_00725	HIMB1517	258	OG0000655	NA	NA	COG0345	ProC	Pyrroline-5-carboxylate reductase	HIMB1517_00729
+HIMB1517-00000000005	Prodigal:2.6	CDS	90588	91436	.	+	0	HIMB1517_00726	HIMB1517	282	OG0000639	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1517_00729
+HIMB1517-00000000005	Prodigal:2.6	CDS	91439	92407	.	+	0	HIMB1517_00727	HIMB1517	322	OG0001017	K18208	renalase [EC:1.6.3.5]	COG3380	NA	Predicted NAD/FAD-dependent oxidoreductase	HIMB1517_00729
+HIMB1517-00000000005	Prodigal:2.6	CDS	92457	93428	.	-	0	HIMB1517_00728	HIMB1517	323	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	HIMB1517_00729
+HIMB1517-00000000005	Prodigal:2.6	CDS	93480	94196	.	+	0	HIMB1517_00729	HIMB1517	238	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	HIMB1517_00729
+HIMB1517-00000000005	Prodigal:2.6	CDS	94639	95748	.	+	0	HIMB1517_00730	HIMB1517	369	OG0000913	K00605	aminomethyltransferase [EC:2.1.2.10]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1517_00729
+HIMB1517-00000000005	Prodigal:2.6	CDS	95760	96137	.	+	0	HIMB1517_00731	HIMB1517	125	OG0000906	K02437	glycine cleavage system H protein	COG0509	GcvH	Glycine cleavage system protein H (lipoate-binding)	HIMB1517_00729
+HIMB1517-00000000005	Prodigal:2.6	CDS	96137	98998	.	+	0	HIMB1517_00732	HIMB1517	953	OG0000941	K00281	glycine dehydrogenase [EC:1.4.4.2]	COG1003	GcvP2	Glycine cleavage system protein P (pyridoxal-binding), C-terminal domain	HIMB1517_00729
+HIMB1517-00000000005	Prodigal:2.6	CDS	98998	99159	.	+	0	HIMB1517_00733	HIMB1517	53	OG0002985	NA	NA	NA	NA	NA	HIMB1517_00729
+HIMB1517-00000000005	Prodigal:2.6	CDS	99159	99638	.	+	0	HIMB1517_00734	HIMB1517	159	OG0000964	K05770	translocator protein	COG3476	TspO	Tryptophan-rich sensory protein TspO/CrtK (mitochondrial benzodiazepine receptor homolog)	HIMB1517_00729
+CP002511.1	Prodigal:2.6	CDS	1179388	1181661	.	-	0	IMCC9063_01342	IMCC9063	757	OG0000289	NA	NA	NA	NA	NA	IMCC9063_01347
+CP002511.1	Prodigal:2.6	CDS	1181665	1182603	.	-	0	IMCC9063_01343	IMCC9063	312	OG0000418	K02836	peptide chain release factor 2	COG0216	PrfA	Protein chain release factor RF1	IMCC9063_01347
+CP002511.1	Prodigal:2.6	CDS	1182760	1185108	.	-	0	IMCC9063_01344	IMCC9063	782	OG0000454	K05366	penicillin-binding protein 1A [EC:2.4.1.129 3.4.16.4]	COG5009	MrcA	Membrane carboxypeptidase/penicillin-binding protein	IMCC9063_01347
+CP002511.1	Prodigal:2.6	CDS	1185280	1187205	.	+	0	IMCC9063_01345	IMCC9063	641	OG0000263	K08300	ribonuclease E [EC:3.1.26.12]	COG1530	CafA	Ribonuclease G or E	IMCC9063_01347
+CP002511.1	Prodigal:2.6	CDS	1187210	1188409	.	-	0	IMCC9063_01346	IMCC9063	399	OG0001838	NA	NA	COG2081	YhiN	Predicted flavoprotein YhiN	IMCC9063_01347
+CP002511.1	Prodigal:2.6	CDS	1188391	1189098	.	-	0	IMCC9063_01347	IMCC9063	235	OG0001112	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	IMCC9063_01347
+CP002511.1	Prodigal:2.6	CDS	1189179	1190123	.	+	0	IMCC9063_01348	IMCC9063	314	OG0001283	NA	NA	COG1397	DraG	ADP-ribosylglycohydrolase	IMCC9063_01347
+CP002511.1	Prodigal:2.6	CDS	1190129	1191151	.	+	0	IMCC9063_01349	IMCC9063	340	OG0001142	NA	NA	COG2855	YeiH	Uncharacterized membrane protein YeiH, induced by redox stress, UPF0324 family	IMCC9063_01347
+CP002511.1	Prodigal:2.6	CDS	1191228	1191578	.	+	0	IMCC9063_01350	IMCC9063	116	OG0000977	NA	NA	NA	NA	NA	IMCC9063_01347
+CP002511.1	Prodigal:2.6	CDS	1191721	1192650	.	+	0	IMCC9063_01351	IMCC9063	309	OG0001867	K07301	cation:H+ antiporter	COG0530	ECM27	Ca2+/Na+ antiporter	IMCC9063_01347
+CP002511.1	Prodigal:2.6	CDS	1192693	1193613	.	-	0	IMCC9063_01352	IMCC9063	306	OG0002872	NA	NA	COG1073	FrsA	Fermentation-respiration switch esterase FrsA, DUF1100 family	IMCC9063_01347
+Ga0182791_11	Prodigal:2.6	CDS	188434	189147	.	-	0	LSUCC0261_00188	LSUCC0261	237	OG0000762	K06196	cytochrome c-type biogenesis protein	COG0785	CcdA	Cytochrome c biogenesis protein CcdA	LSUCC0261_00193
+Ga0182791_11	Prodigal:2.6	CDS	189148	189405	.	-	0	LSUCC0261_00189	LSUCC0261	85	OG0000671	K03676	glutaredoxin 3	COG0695	GrxC	Glutaredoxin	LSUCC0261_00193
+Ga0182791_11	Prodigal:2.6	CDS	189412	190101	.	-	0	LSUCC0261_00190	LSUCC0261	229	OG0001574	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	LSUCC0261_00193
+Ga0182791_11	Prodigal:2.6	CDS	190116	190487	.	+	0	LSUCC0261_00191	LSUCC0261	123	OG0000725	NA	NA	COG4696	MazG2	NTP pyrophosphatase, MazG superfamily	LSUCC0261_00193
+Ga0182791_11	Prodigal:2.6	CDS	190517	191581	.	+	0	LSUCC0261_00192	LSUCC0261	354	OG0001229	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	LSUCC0261_00193
+Ga0182791_11	Prodigal:2.6	CDS	191623	192282	.	+	0	LSUCC0261_00193	LSUCC0261	219	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	LSUCC0261_00193
+Ga0182791_11	Prodigal:2.6	CDS	192400	193281	.	-	0	LSUCC0261_00194	LSUCC0261	293	OG0000075	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	LSUCC0261_00193
+Ga0182791_11	Prodigal:2.6	CDS	193289	193525	.	-	0	LSUCC0261_00195	LSUCC0261	78	NA	NA	NA	NA	NA	NA	LSUCC0261_00193
+Ga0182791_11	Prodigal:2.6	CDS	193718	194248	.	-	0	LSUCC0261_00196	LSUCC0261	176	OG0001953	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	LSUCC0261_00193
+Ga0182791_11	Prodigal:2.6	CDS	194326	194820	.	-	0	LSUCC0261_00197	LSUCC0261	164	OG0002123	NA	NA	NA	NA	NA	LSUCC0261_00193
+Ga0182791_11	Prodigal:2.6	CDS	195014	195673	.	+	0	LSUCC0261_00198	LSUCC0261	219	OG0002372	NA	NA	NA	NA	NA	LSUCC0261_00193
+OZ247815.1	Prodigal:2.6	CDS	225581	226354	.	+	0	ME-33_00259	ME-33	257	OG0001690	NA	NA	COG1434	ElyC	Lipid carrier protein ElyC involved in cell wall biogenesis, DUF218 family	ME-33_00264
+OZ247815.1	Prodigal:2.6	CDS	226360	227256	.	+	0	ME-33_00260	ME-33	298	OG0000037	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	ME-33_00264
+OZ247815.1	Prodigal:2.6	CDS	227253	228209	.	+	0	ME-33_00261	ME-33	318	OG0000933	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	ME-33_00264
+OZ247815.1	Prodigal:2.6	CDS	228211	228927	.	-	0	ME-33_00262	ME-33	238	OG0000762	K06196	cytochrome c-type biogenesis protein	COG0785	CcdA	Cytochrome c biogenesis protein CcdA	ME-33_00264
+OZ247815.1	Prodigal:2.6	CDS	228936	229196	.	-	0	ME-33_00263	ME-33	86	OG0000671	K03676	glutaredoxin 3	COG0695	GrxC	Glutaredoxin	ME-33_00264
+OZ247815.1	Prodigal:2.6	CDS	229371	230135	.	-	0	ME-33_00264	ME-33	254	OG0001112	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	ME-33_00264
+OZ247815.1	Aragorn:1.2	tmRNA	230130	230440	.	-	.	ME-33_00265	ME-33	NA	NA	NA	NA	NA	NA	NA	ME-33_00264
+OZ247815.1	Prodigal:2.6	CDS	230492	231442	.	+	0	ME-33_00266	ME-33	316	OG0000236	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	ME-33_00264
+OZ247815.1	Prodigal:2.6	CDS	231435	232265	.	-	0	ME-33_00267	ME-33	276	OG0000339	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	ME-33_00264
+OZ247815.1	Prodigal:2.6	CDS	232337	233476	.	+	0	ME-33_00268	ME-33	379	OG0000358	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	ME-33_00264
+OZ247815.1	Prodigal:2.6	CDS	233476	234363	.	+	0	ME-33_00269	ME-33	295	OG0000351	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	ME-33_00264
+OZ247816.1	Prodigal:2.6	CDS	177870	178847	.	+	0	ME-20_00205	ME-20	325	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	ME-20_00210
+OZ247816.1	Prodigal:2.6	CDS	178996	180870	.	+	0	ME-20_00206	ME-20	624	OG0001196	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	ME-20_00210
+OZ247816.1	Prodigal:2.6	CDS	181118	181963	.	+	0	ME-20_00207	ME-20	281	OG0001656	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	ME-20_00210
+OZ247816.1	Prodigal:2.6	CDS	181963	183162	.	+	0	ME-20_00208	ME-20	399	OG0003315	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	ME-20_00210
+OZ247816.1	Prodigal:2.6	CDS	183229	184704	.	+	0	ME-20_00209	ME-20	491	OG0002479	NA	NA	COG2244	RfbX	Membrane protein involved in the export of O-antigen and teichoic acid	ME-20_00210
+OZ247816.1	Prodigal:2.6	CDS	184744	185631	.	+	0	ME-20_00210	ME-20	295	OG0001112	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	ME-20_00210
+OZ247816.1	Prodigal:2.6	CDS	185628	186503	.	+	0	ME-20_00211	ME-20	291	OG0000001	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	ME-20_00210
+OZ247816.1	Prodigal:2.6	CDS	186503	187648	.	+	0	ME-20_00212	ME-20	381	OG0003315	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	ME-20_00210
+OZ247816.1	Prodigal:2.6	CDS	187641	188462	.	+	0	ME-20_00213	ME-20	273	OG0002056	NA	NA	COG1682	TagG	ABC-type polysaccharide/teichoic acid/polyol phosphate export permease	ME-20_00210
+OZ247816.1	Prodigal:2.6	CDS	188482	189831	.	+	0	ME-20_00214	ME-20	449	OG0002055	K09691	lipopolysaccharide transport system ATP-binding protein	COG1134	TagH	ABC-type polysaccharide/polyol phosphate transport system, ATPase component	ME-20_00210
+OZ247816.1	Prodigal:2.6	CDS	189882	191372	.	+	0	ME-20_00215	ME-20	496	OG0002764	NA	NA	COG4976	NA	Predicted methyltransferase, contains TPR repeat	ME-20_00210
+OZ249405.1	barrnap:0.9	rRNA	159207	160687	0	+	NA	MiE-29_00186	MiE-29	NA	NA	NA	NA	NA	NA	NA	MiE-29_00191
+OZ249405.1	Aragorn:1.2	tRNA	160802	160878	.	+	NA	MiE-29_00187	MiE-29	NA	NA	NA	NA	NA	NA	NA	MiE-29_00191
+OZ249405.1	Aragorn:1.2	tRNA	160888	160963	.	+	NA	MiE-29_00188	MiE-29	NA	NA	NA	NA	NA	NA	NA	MiE-29_00191
+OZ249405.1	barrnap:0.9	rRNA	161087	163838	0	+	NA	MiE-29_00189	MiE-29	NA	NA	NA	NA	NA	NA	NA	MiE-29_00191
+OZ249405.1	Prodigal:2.6	CDS	163914	165650	.	-	0	MiE-29_00190	MiE-29	578	OG0000047	NA	NA	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	MiE-29_00191
+OZ249405.1	Prodigal:2.6	CDS	165724	166383	.	+	0	MiE-29_00191	MiE-29	219	OG0001112	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	MiE-29_00191
+OZ249405.1	Prodigal:2.6	CDS	166387	167430	.	+	0	MiE-29_00192	MiE-29	347	OG0001190	NA	NA	COG1062	FrmA	Zn-dependent alcohol/formaldehyde dehydrogenase	MiE-29_00191
+OZ249405.1	Prodigal:2.6	CDS	167430	168317	.	+	0	MiE-29_00193	MiE-29	295	OG0001128	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	MiE-29_00191
+OZ249405.1	Prodigal:2.6	CDS	168314	168820	.	+	0	MiE-29_00194	MiE-29	168	OG0001934	NA	NA	NA	NA	NA	MiE-29_00191
+OZ249405.1	Prodigal:2.6	CDS	168810	170000	.	+	0	MiE-29_00195	MiE-29	396	OG0000814	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	MiE-29_00191
+OZ249405.1	Prodigal:2.6	CDS	170005	170787	.	+	0	MiE-29_00196	MiE-29	260	OG0000000	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	MiE-29_00191

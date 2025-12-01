@@ -1,0 +1,89 @@
+contig	source	feature	start	end	score	strand	frame	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query
+CP024034.1	Prodigal:2.6	CDS	822282	822809	.	-	0	LSUCC0530_00899	LSUCC0530	175	OG0000117	K00411	ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8]	COG0723	QcrA/PetC	Rieske Fe-S protein	LSUCC0530_00904
+CP024034.1	Prodigal:2.6	CDS	822886	823341	.	+	0	LSUCC0530_00900	LSUCC0530	151	OG0000460	K03216	tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]	COG0219	TrmL	tRNA(Leu) C34 or U34 (ribose-2'-O)-methylase TrmL, contains SPOUT domain	LSUCC0530_00904
+CP024034.1	Prodigal:2.6	CDS	823341	824186	.	+	0	LSUCC0530_00901	LSUCC0530	281	OG0000413	K00228	coproporphyrinogen III oxidase [EC:1.3.3.3]	COG0408	HemF	Coproporphyrinogen-III oxidase HemH, oxygen-dependent	LSUCC0530_00904
+CP024034.1	Prodigal:2.6	CDS	824195	824671	.	+	0	LSUCC0530_00902	LSUCC0530	158	OG0000397	K03624	transcription elongation factor GreA	COG0782	GreA	Transcription elongation factor, GreA/GreB family	LSUCC0530_00904
+CP024034.1	Prodigal:2.6	CDS	824679	825869	.	-	0	LSUCC0530_00903	LSUCC0530	396	OG0000726	NA	NA	COG0617	PcnB	tRNA nucleotidyltransferase (CCA-adding enzyme)/poly(A) polymerase	LSUCC0530_00904
+CP024034.1	Prodigal:2.6	CDS	825878	826348	.	-	0	LSUCC0530_00904	LSUCC0530	156	OG0002363	NA	NA	COG3153	YhbS	Predicted N-acetyltransferase YhbS	LSUCC0530_00904
+CP024034.1	Aragorn:1.2	tRNA	826366	826439	.	-	.	LSUCC0530_00905	LSUCC0530	NA	NA	NA	NA	NA	NA	NA	LSUCC0530_00904
+CP024034.1	Prodigal:2.6	CDS	826461	827336	.	-	0	LSUCC0530_00906	LSUCC0530	291	OG0000317	K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]	COG1947	IspE	4-diphosphocytidyl-2C-methyl-D-erythritol kinase	LSUCC0530_00904
+CP024034.1	Prodigal:2.6	CDS	827314	829035	.	-	0	LSUCC0530_00907	LSUCC0530	573	OG0000525	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	LSUCC0530_00904
+CP024034.1	Prodigal:2.6	CDS	829039	829701	.	+	0	LSUCC0530_00908	LSUCC0530	220	OG0000266	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	LSUCC0530_00904
+CP024034.1	Prodigal:2.6	CDS	829701	830291	.	+	0	LSUCC0530_00909	LSUCC0530	196	OG0000371	K03470	ribonuclease HII [EC:3.1.26.4]	COG0164	RnhB	Ribonuclease HII	LSUCC0530_00904
+OZ247815.1	Prodigal:2.6	CDS	763045	763569	.	-	0	ME-33_00845	ME-33	174	OG0000117	K00411	ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8]	COG0723	QcrA/PetC	Rieske Fe-S protein	ME-33_00850
+OZ247815.1	Prodigal:2.6	CDS	763646	764101	.	+	0	ME-33_00846	ME-33	151	OG0000460	K03216	tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]	COG0219	TrmL	tRNA(Leu) C34 or U34 (ribose-2'-O)-methylase TrmL, contains SPOUT domain	ME-33_00850
+OZ247815.1	Prodigal:2.6	CDS	764104	764946	.	+	0	ME-33_00847	ME-33	280	OG0000413	K00228	coproporphyrinogen III oxidase [EC:1.3.3.3]	COG0408	HemF	Coproporphyrinogen-III oxidase HemH, oxygen-dependent	ME-33_00850
+OZ247815.1	Prodigal:2.6	CDS	764955	765431	.	+	0	ME-33_00848	ME-33	158	OG0000397	K03624	transcription elongation factor GreA	COG0782	GreA	Transcription elongation factor, GreA/GreB family	ME-33_00850
+OZ247815.1	Prodigal:2.6	CDS	765440	766630	.	-	0	ME-33_00849	ME-33	396	OG0000726	NA	NA	COG0617	PcnB	tRNA nucleotidyltransferase (CCA-adding enzyme)/poly(A) polymerase	ME-33_00850
+OZ247815.1	Prodigal:2.6	CDS	766639	767109	.	-	0	ME-33_00850	ME-33	156	OG0002363	K03824	putative acetyltransferase [EC:2.3.1.-]	COG3153	YhbS	Predicted N-acetyltransferase YhbS	ME-33_00850
+OZ247815.1	Aragorn:1.2	tRNA	767127	767200	.	-	.	ME-33_00851	ME-33	NA	NA	NA	NA	NA	NA	NA	ME-33_00850
+OZ247815.1	Prodigal:2.6	CDS	767222	768094	.	-	0	ME-33_00852	ME-33	290	OG0000317	K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]	COG1947	IspE	4-diphosphocytidyl-2C-methyl-D-erythritol kinase	ME-33_00850
+OZ247815.1	Prodigal:2.6	CDS	768072	769793	.	-	0	ME-33_00853	ME-33	573	OG0000525	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	ME-33_00850
+OZ247815.1	Prodigal:2.6	CDS	769798	770460	.	+	0	ME-33_00854	ME-33	220	OG0000266	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	ME-33_00850
+OZ247815.1	Prodigal:2.6	CDS	770460	771050	.	+	0	ME-33_00855	ME-33	196	OG0000371	K03470	ribonuclease HII [EC:3.1.26.4]	COG0164	RnhB	Ribonuclease HII	ME-33_00850
+OZ247817.1	Prodigal:2.6	CDS	768015	768539	.	-	0	ME-31_00842	ME-31	174	OG0000117	K00411	ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8]	COG0723	QcrA/PetC	Rieske Fe-S protein	ME-31_00847
+OZ247817.1	Prodigal:2.6	CDS	768616	769071	.	+	0	ME-31_00843	ME-31	151	OG0000460	K03216	tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]	COG0219	TrmL	tRNA(Leu) C34 or U34 (ribose-2'-O)-methylase TrmL, contains SPOUT domain	ME-31_00847
+OZ247817.1	Prodigal:2.6	CDS	769074	769916	.	+	0	ME-31_00844	ME-31	280	OG0000413	K00228	coproporphyrinogen III oxidase [EC:1.3.3.3]	COG0408	HemF	Coproporphyrinogen-III oxidase HemH, oxygen-dependent	ME-31_00847
+OZ247817.1	Prodigal:2.6	CDS	769925	770401	.	+	0	ME-31_00845	ME-31	158	OG0000397	K03624	transcription elongation factor GreA	COG0782	GreA	Transcription elongation factor, GreA/GreB family	ME-31_00847
+OZ247817.1	Prodigal:2.6	CDS	770410	771600	.	-	0	ME-31_00846	ME-31	396	OG0000726	NA	NA	COG0617	PcnB	tRNA nucleotidyltransferase (CCA-adding enzyme)/poly(A) polymerase	ME-31_00847
+OZ247817.1	Prodigal:2.6	CDS	771609	772079	.	-	0	ME-31_00847	ME-31	156	OG0002363	K03824	putative acetyltransferase [EC:2.3.1.-]	COG3153	YhbS	Predicted N-acetyltransferase YhbS	ME-31_00847
+OZ247817.1	Aragorn:1.2	tRNA	772097	772170	.	-	.	ME-31_00848	ME-31	NA	NA	NA	NA	NA	NA	NA	ME-31_00847
+OZ247817.1	Prodigal:2.6	CDS	772192	773067	.	-	0	ME-31_00849	ME-31	291	OG0000317	K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]	COG1947	IspE	4-diphosphocytidyl-2C-methyl-D-erythritol kinase	ME-31_00847
+OZ247817.1	Prodigal:2.6	CDS	773042	774763	.	-	0	ME-31_00850	ME-31	573	OG0000525	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	ME-31_00847
+OZ247817.1	Prodigal:2.6	CDS	774768	775430	.	+	0	ME-31_00851	ME-31	220	OG0000266	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	ME-31_00847
+OZ247817.1	Prodigal:2.6	CDS	775430	776020	.	+	0	ME-31_00852	ME-31	196	OG0000371	K03470	ribonuclease HII [EC:3.1.26.4]	COG0164	RnhB	Ribonuclease HII	ME-31_00847
+OZ249404.1	Prodigal:2.6	CDS	723325	723849	.	-	0	ME-17_00812	ME-17	174	OG0000117	K00411	ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8]	COG0723	QcrA/PetC	Rieske Fe-S protein	ME-17_00817
+OZ249404.1	Prodigal:2.6	CDS	723926	724381	.	+	0	ME-17_00813	ME-17	151	OG0000460	K03216	tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]	COG0219	TrmL	tRNA(Leu) C34 or U34 (ribose-2'-O)-methylase TrmL, contains SPOUT domain	ME-17_00817
+OZ249404.1	Prodigal:2.6	CDS	724384	725226	.	+	0	ME-17_00814	ME-17	280	OG0000413	K00228	coproporphyrinogen III oxidase [EC:1.3.3.3]	COG0408	HemF	Coproporphyrinogen-III oxidase HemH, oxygen-dependent	ME-17_00817
+OZ249404.1	Prodigal:2.6	CDS	725235	725711	.	+	0	ME-17_00815	ME-17	158	OG0000397	K03624	transcription elongation factor GreA	COG0782	GreA	Transcription elongation factor, GreA/GreB family	ME-17_00817
+OZ249404.1	Prodigal:2.6	CDS	725720	726910	.	-	0	ME-17_00816	ME-17	396	OG0000726	NA	NA	COG0617	PcnB	tRNA nucleotidyltransferase (CCA-adding enzyme)/poly(A) polymerase	ME-17_00817
+OZ249404.1	Prodigal:2.6	CDS	726919	727389	.	-	0	ME-17_00817	ME-17	156	OG0002363	K03824	putative acetyltransferase [EC:2.3.1.-]	COG3153	YhbS	Predicted N-acetyltransferase YhbS	ME-17_00817
+OZ249404.1	Aragorn:1.2	tRNA	727407	727480	.	-	.	ME-17_00818	ME-17	NA	NA	NA	NA	NA	NA	NA	ME-17_00817
+OZ249404.1	Prodigal:2.6	CDS	727502	728377	.	-	0	ME-17_00819	ME-17	291	OG0000317	K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]	COG1947	IspE	4-diphosphocytidyl-2C-methyl-D-erythritol kinase	ME-17_00817
+OZ249404.1	Prodigal:2.6	CDS	728352	730073	.	-	0	ME-17_00820	ME-17	573	OG0000525	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	ME-17_00817
+OZ249404.1	Prodigal:2.6	CDS	730078	730740	.	+	0	ME-17_00821	ME-17	220	OG0000266	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	ME-17_00817
+OZ249404.1	Prodigal:2.6	CDS	730740	731330	.	+	0	ME-17_00822	ME-17	196	OG0000371	K03470	ribonuclease HII [EC:3.1.26.4]	COG0164	RnhB	Ribonuclease HII	ME-17_00817
+OZ247816.1	Prodigal:2.6	CDS	740175	740699	.	-	0	ME-20_00813	ME-20	174	OG0000117	K00411	ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8]	COG0723	QcrA/PetC	Rieske Fe-S protein	ME-20_00818
+OZ247816.1	Prodigal:2.6	CDS	740776	741231	.	+	0	ME-20_00814	ME-20	151	OG0000460	K03216	tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]	COG0219	TrmL	tRNA(Leu) C34 or U34 (ribose-2'-O)-methylase TrmL, contains SPOUT domain	ME-20_00818
+OZ247816.1	Prodigal:2.6	CDS	741234	742076	.	+	0	ME-20_00815	ME-20	280	OG0000413	K00228	coproporphyrinogen III oxidase [EC:1.3.3.3]	COG0408	HemF	Coproporphyrinogen-III oxidase HemH, oxygen-dependent	ME-20_00818
+OZ247816.1	Prodigal:2.6	CDS	742085	742561	.	+	0	ME-20_00816	ME-20	158	OG0000397	K03624	transcription elongation factor GreA	COG0782	GreA	Transcription elongation factor, GreA/GreB family	ME-20_00818
+OZ247816.1	Prodigal:2.6	CDS	742570	743760	.	-	0	ME-20_00817	ME-20	396	OG0000726	NA	NA	COG0617	PcnB	tRNA nucleotidyltransferase (CCA-adding enzyme)/poly(A) polymerase	ME-20_00818
+OZ247816.1	Prodigal:2.6	CDS	743769	744239	.	-	0	ME-20_00818	ME-20	156	OG0002363	K03824	putative acetyltransferase [EC:2.3.1.-]	COG3153	YhbS	Predicted N-acetyltransferase YhbS	ME-20_00818
+OZ247816.1	Aragorn:1.2	tRNA	744257	744330	.	-	.	ME-20_00819	ME-20	NA	NA	NA	NA	NA	NA	NA	ME-20_00818
+OZ247816.1	Prodigal:2.6	CDS	744352	745227	.	-	0	ME-20_00820	ME-20	291	OG0000317	K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]	COG1947	IspE	4-diphosphocytidyl-2C-methyl-D-erythritol kinase	ME-20_00818
+OZ247816.1	Prodigal:2.6	CDS	745202	746923	.	-	0	ME-20_00821	ME-20	573	OG0000525	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	ME-20_00818
+OZ247816.1	Prodigal:2.6	CDS	746928	747590	.	+	0	ME-20_00822	ME-20	220	OG0000266	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	ME-20_00818
+OZ247816.1	Prodigal:2.6	CDS	747590	748180	.	+	0	ME-20_00823	ME-20	196	OG0000371	K03470	ribonuclease HII [EC:3.1.26.4]	COG0164	RnhB	Ribonuclease HII	ME-20_00818
+OZ247825.1	Prodigal:2.6	CDS	753614	754138	.	-	0	ME-18_00835	ME-18	174	OG0000117	K00411	ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8]	COG0723	QcrA/PetC	Rieske Fe-S protein	ME-18_00840
+OZ247825.1	Prodigal:2.6	CDS	754215	754670	.	+	0	ME-18_00836	ME-18	151	OG0000460	K03216	tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]	COG0219	TrmL	tRNA(Leu) C34 or U34 (ribose-2'-O)-methylase TrmL, contains SPOUT domain	ME-18_00840
+OZ247825.1	Prodigal:2.6	CDS	754673	755515	.	+	0	ME-18_00837	ME-18	280	OG0000413	K00228	coproporphyrinogen III oxidase [EC:1.3.3.3]	COG0408	HemF	Coproporphyrinogen-III oxidase HemH, oxygen-dependent	ME-18_00840
+OZ247825.1	Prodigal:2.6	CDS	755524	756000	.	+	0	ME-18_00838	ME-18	158	OG0000397	K03624	transcription elongation factor GreA	COG0782	GreA	Transcription elongation factor, GreA/GreB family	ME-18_00840
+OZ247825.1	Prodigal:2.6	CDS	756009	757199	.	-	0	ME-18_00839	ME-18	396	OG0000726	NA	NA	COG0617	PcnB	tRNA nucleotidyltransferase (CCA-adding enzyme)/poly(A) polymerase	ME-18_00840
+OZ247825.1	Prodigal:2.6	CDS	757208	757678	.	-	0	ME-18_00840	ME-18	156	OG0002363	K03824	putative acetyltransferase [EC:2.3.1.-]	COG3153	YhbS	Predicted N-acetyltransferase YhbS	ME-18_00840
+OZ247825.1	Aragorn:1.2	tRNA	757696	757769	.	-	NA	ME-18_00841	ME-18	NA	NA	NA	NA	NA	NA	NA	ME-18_00840
+OZ247825.1	Prodigal:2.6	CDS	757791	758666	.	-	0	ME-18_00842	ME-18	291	OG0000317	K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]	COG1947	IspE	4-diphosphocytidyl-2C-methyl-D-erythritol kinase	ME-18_00840
+OZ247825.1	Prodigal:2.6	CDS	758641	760362	.	-	0	ME-18_00843	ME-18	573	OG0000525	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	ME-18_00840
+OZ247825.1	Prodigal:2.6	CDS	760367	761029	.	+	0	ME-18_00844	ME-18	220	OG0000266	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	ME-18_00840
+OZ247825.1	Prodigal:2.6	CDS	761029	761619	.	+	0	ME-18_00845	ME-18	196	OG0000371	K03470	ribonuclease HII [EC:3.1.26.4]	COG0164	RnhB	Ribonuclease HII	ME-18_00840
+OZ249405.1	Prodigal:2.6	CDS	759090	759614	.	-	0	MiE-29_00843	MiE-29	174	OG0000117	K00411	ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8]	COG0723	QcrA/PetC	Rieske Fe-S protein	MiE-29_00848
+OZ249405.1	Prodigal:2.6	CDS	759691	760146	.	+	0	MiE-29_00844	MiE-29	151	OG0000460	K03216	tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]	COG0219	TrmL	tRNA(Leu) C34 or U34 (ribose-2'-O)-methylase TrmL, contains SPOUT domain	MiE-29_00848
+OZ249405.1	Prodigal:2.6	CDS	760149	760991	.	+	0	MiE-29_00845	MiE-29	280	OG0000413	K00228	coproporphyrinogen III oxidase [EC:1.3.3.3]	COG0408	HemF	Coproporphyrinogen-III oxidase HemH, oxygen-dependent	MiE-29_00848
+OZ249405.1	Prodigal:2.6	CDS	761000	761476	.	+	0	MiE-29_00846	MiE-29	158	OG0000397	K03624	transcription elongation factor GreA	COG0782	GreA	Transcription elongation factor, GreA/GreB family	MiE-29_00848
+OZ249405.1	Prodigal:2.6	CDS	761485	762675	.	-	0	MiE-29_00847	MiE-29	396	OG0000726	NA	NA	COG0617	PcnB	tRNA nucleotidyltransferase (CCA-adding enzyme)/poly(A) polymerase	MiE-29_00848
+OZ249405.1	Prodigal:2.6	CDS	762684	763154	.	-	0	MiE-29_00848	MiE-29	156	OG0002363	NA	NA	COG3153	YhbS	Predicted N-acetyltransferase YhbS	MiE-29_00848
+OZ249405.1	Aragorn:1.2	tRNA	763172	763245	.	-	NA	MiE-29_00849	MiE-29	NA	NA	NA	NA	NA	NA	NA	MiE-29_00848
+OZ249405.1	Prodigal:2.6	CDS	763267	764145	.	-	0	MiE-29_00850	MiE-29	292	OG0000317	K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]	COG1947	IspE	4-diphosphocytidyl-2C-methyl-D-erythritol kinase	MiE-29_00848
+OZ249405.1	Prodigal:2.6	CDS	764120	765841	.	-	0	MiE-29_00851	MiE-29	573	OG0000525	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	MiE-29_00848
+OZ249405.1	Prodigal:2.6	CDS	765846	766508	.	+	0	MiE-29_00852	MiE-29	220	OG0000266	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	MiE-29_00848
+OZ249405.1	Prodigal:2.6	CDS	766508	767098	.	+	0	MiE-29_00853	MiE-29	196	OG0000371	K03470	ribonuclease HII [EC:3.1.26.4]	COG0164	RnhB	Ribonuclease HII	MiE-29_00848
+OZ247814.1	Prodigal:2.6	CDS	688024	688614	.	-	0	MKE-138_00782	MKE-138	196	OG0000371	K03470	ribonuclease HII [EC:3.1.26.4]	COG0164	RnhB	Ribonuclease HII	MKE-138_00787
+OZ247814.1	Prodigal:2.6	CDS	688614	689276	.	-	0	MKE-138_00783	MKE-138	220	OG0000266	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	COG1573	Udg4	Uracil-DNA glycosylase	MKE-138_00787
+OZ247814.1	Prodigal:2.6	CDS	689281	691002	.	+	0	MKE-138_00784	MKE-138	573	OG0000525	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	MKE-138_00787
+OZ247814.1	Prodigal:2.6	CDS	690977	691855	.	+	0	MKE-138_00785	MKE-138	292	OG0000317	K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]	COG1947	IspE	4-diphosphocytidyl-2C-methyl-D-erythritol kinase	MKE-138_00787
+OZ247814.1	Aragorn:1.2	tRNA	691877	691950	.	+	.	MKE-138_00786	MKE-138	NA	NA	NA	NA	NA	NA	NA	MKE-138_00787
+OZ247814.1	Prodigal:2.6	CDS	691968	692438	.	+	0	MKE-138_00787	MKE-138	156	OG0002363	K03824	putative acetyltransferase [EC:2.3.1.-]	COG3153	YhbS	Predicted N-acetyltransferase YhbS	MKE-138_00787
+OZ247814.1	Prodigal:2.6	CDS	692447	693637	.	+	0	MKE-138_00788	MKE-138	396	OG0000726	NA	NA	COG0617	PcnB	tRNA nucleotidyltransferase (CCA-adding enzyme)/poly(A) polymerase	MKE-138_00787
+OZ247814.1	Prodigal:2.6	CDS	693646	694122	.	-	0	MKE-138_00789	MKE-138	158	OG0000397	K03624	transcription elongation factor GreA	COG0782	GreA	Transcription elongation factor, GreA/GreB family	MKE-138_00787
+OZ247814.1	Prodigal:2.6	CDS	694131	694973	.	-	0	MKE-138_00790	MKE-138	280	OG0000413	K00228	coproporphyrinogen III oxidase [EC:1.3.3.3]	COG0408	HemF	Coproporphyrinogen-III oxidase HemH, oxygen-dependent	MKE-138_00787
+OZ247814.1	Prodigal:2.6	CDS	694976	695431	.	-	0	MKE-138_00791	MKE-138	151	OG0000460	K03216	tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]	COG0219	TrmL	tRNA(Leu) C34 or U34 (ribose-2'-O)-methylase TrmL, contains SPOUT domain	MKE-138_00787
+OZ247814.1	Prodigal:2.6	CDS	695508	696032	.	+	0	MKE-138_00792	MKE-138	174	OG0000117	K00411	ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8]	COG0723	QcrA/PetC	Rieske Fe-S protein	MKE-138_00787
