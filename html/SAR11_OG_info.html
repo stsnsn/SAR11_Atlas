@@ -40,6 +40,21 @@
     <link rel="stylesheet" href="../css/leaflet.css">
     <script src="../js/leaflet.js"></script>
     <script src="../js/papaparse.min.js"></script>
+    <style>
+        /* Legend styling similar to metaT_style.css */
+        .info.legend {
+            background: rgba(255,255,255,0.9);
+            padding: 8px 10px;
+            line-height: 1.4em;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+            font-size: 0.9em;
+        }
+        .info.legend i {
+            display: inline-block;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+    </style>
 </head>
 
 <body>
@@ -166,8 +181,8 @@
                     <div id="leftPlots" style="width:40%; display:flex; flex-direction:column; gap:20px;">
                             <!-- metaT map placed above COG pie, centered and sized similar to metaT.html -->
                             <div id="metaT_map_container" style="width:100%; display:flex; flex-direction:column; align-items:center; margin-bottom:12px;">
-                                <div id="metaTHeader" style="width:550px; text-align:center; font-size:0.95em; color:#333; margin-bottom:6px;">Expression profile will be shown here — for more detail: <a href="./metaT.html" target="_blank">Metatranscriptome Viewer</a></div>
-                                <div id="metaT_map" style="width:550px; height:400px; border:1px solid #666;"></div>
+                                <div id="metaTHeader" style="width:100%; text-align:center; font-size:0.95em; color:#333; margin-bottom:6px;">Expression profile will be shown here, more detail: <a href="./metaT.html" target="_blank">Metatranscriptome Viewer</a></div>
+                                    <div id="metaT_map" style="width:100%; height:400px; border:1px solid #666;"></div>
                             </div>
                             <div id="cogDesc" style="font-size:0.95em; color:#333;"></div>
                             <div id="cogPie" style="width:100%; height:300px;"></div>
@@ -193,7 +208,7 @@
                 </div>
 
                 <script>
-                    // 汎用: CSV からラベル/値を推定して Pie 用配列を作る
+                    // 汎用: CSV から Pie 用配列を作る
                     function csvToPieData(rows) {
                         if (!rows || rows.length === 0) return {labels: [], values: []};
 
@@ -206,7 +221,7 @@
                             if (cnt > numericCountMax) { numericCountMax = cnt; numericCol = col; }
                         });
 
-                        // ラベル列を自動検出（文字列列、数値列以外）
+                        // ラベル列を自動検出（文字列、数値列以外）
                         let labelCol = cols.find(c => c !== numericCol) || cols[0];
 
                         // 1: numericCol と labelCol が異なる -> 直接利用
@@ -243,8 +258,6 @@
                         };
                         Plotly.newPlot(divId, data, layout, {displayModeBar: false});
                     }
-
-                    // (removed unused helper) big caption is set inline where needed to avoid an unused/function indirection
 
                     async function updateOGData() {
                         const og = document.getElementById('ogInput').value.trim();
@@ -380,7 +393,7 @@
                             document.getElementById('cogPie').innerHTML = '<p style="color:gray;">COG data not found</p>';
                         }
 
-                        // ローカル wrapper を使って Taxonium を埋め込む: wrapper の URL を更新することで確実に再読み込みされる
+                        // ローカル wrapper を使って Taxonium を埋め込む: wrapper の URL を更新することで強制再読み込み
                         try {
                             // キャプションを OG 情報に基づいて更新
                             try {
@@ -480,7 +493,7 @@
                                         title: 'Pfam specific counts',
                                         margin: { t: 40, l: 60, r: 10, b: 140 },
                                         xaxis: { tickangle: -45, automargin: true },
-                                        yaxis: { title: 'Specific Pfam Count' }
+                                        yaxis: { title: 'Specific Pfam domain Count' }
                                     };
                                     Plotly.newPlot('pfamBar', data, layout, { displayModeBar: false, responsive: true });
                                     // update big caption with Pfam list (limit to first 30)
@@ -546,9 +559,9 @@
                                     if (molIframe) molIframe.src = 'about:blank';
                                     if (molLink) molLink.href = '#';
                                 } else {
-                                    // Show only a Foldseek button and automatically display the best hit (highest pident)
+                                    // Show only a Foldseek button and automatically display a protein structure
                                     controlsEl.innerHTML = '';
-                                    // sort by pident desc (best first)
+                                    // sort by pident desc (best first for consistent display)
                                     matches.sort((a,b) => (parseFloat(b.pident||0) - parseFloat(a.pident||0)));
                                     const first = matches[0];
                                     const acc0 = first.Accession_number || first.Accession || first.accession || '';
@@ -591,7 +604,7 @@
 
                 <!-- Mol* viewer section: show structures for Accessions matched to OG -->
                 <div id="molstarSection" style="width:100%; margin-top:20px;">
-                    <div id="molstarInfo" style="font-size:0.95em; color:#333; margin-bottom:6px;">Protein structure(s) will appear here.</div>
+                    <div id="molstarInfo" style="font-size:0.95em; color:#333; margin-bottom:6px;">Protein structure will appear here.</div>
                     <div id="molstarControls" style="margin-bottom:8px;"></div>
                     <a id="molstar-link" href="#" target="_blank">Mol* viewer Full screen view</a>
                     <iframe id="molstar-iframe" src="about:blank" width="100%" height="600" style="border: 1px solid #464646; margin-top:8px;" allowfullscreen allow="autoplay"></iframe>
@@ -606,6 +619,23 @@
                     try {
                         metaMap = L.map('metaT_map', { minZoom: 1, maxZoom: 18 }).setView([20, 0], 1);
                         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap contributors' }).addTo(metaMap);
+
+                        // Add legend similar to metaT page
+                        const legend = L.control({ position: 'bottomright' });
+                        legend.onAdd = function () {
+                            const div = L.DomUtil.create('div', 'info legend');
+                            const grades = [10, 100, 1000, 10000, 100000];
+                            div.innerHTML += '<b>Expression score</b><br>';
+                            grades.forEach((grade, index) => {
+                                const circleSize = Math.pow(grade, 0.3) * 1; // same sizing formula as markers
+                                div.innerHTML += `
+                                    <i style="background: #3388ff; border-radius: 50%; width: ${circleSize}px; height: ${circleSize}px; display: inline-block;"></i>
+                                    ${grade}<br>`;
+                            });
+                            div.style.backgroundColor = 'rgba(255,255,255,0.8)';
+                            return div;
+                        };
+                        legend.addTo(metaMap);
                     } catch (e) { console.warn('Leaflet init failed', e); }
                 }
 
@@ -620,7 +650,7 @@
                     // update header with OG and link to metaT page
                     try {
                         const hdr = document.getElementById('metaTHeader');
-                        if (hdr) hdr.innerHTML = `Expression profile of ${og} — for more detail: <a href="./metaT.html?og=${encodeURIComponent(og)}" target="_blank">Metatranscriptome Viewer</a>`;
+                        if (hdr) hdr.innerHTML = `Expression profile of ${og}, more detail: <a href="./metaT.html?og=${encodeURIComponent(og)}" target="_blank">Metatranscriptome Viewer</a>`;
                     } catch(e) { console.warn('Failed to update metaT header', e); }
                     const csvFile = `../data/env_corr/${og}.csv`;
                     Papa.parse(csvFile, {
@@ -651,8 +681,18 @@
                     });
                 }
 
+                                        try { if (metaMap) metaMap.invalidateSize(); } catch(e) {}
                 // initialize map on load so it's ready when updateOGData calls it
                 document.addEventListener('DOMContentLoaded', () => { initMetaTMap(); });
+                // Ensure Leaflet resizes correctly when the window or container size changes
+                window.addEventListener('resize', () => {
+                    try {
+                        if (metaMap) {
+                            // small delay to allow layout to settle
+                            setTimeout(() => { try { metaMap.invalidateSize(); } catch(e){} }, 150);
+                        }
+                    } catch(e) { /* ignore */ }
+                });
                 </script>
 
 
@@ -661,7 +701,7 @@
                 <div class="border-top p-4 mb-4">
                     <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
                     <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>ongoing.</em></p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade."</b> <em>in prep.</em></p>
+                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>in prep.</em></p>
                 </div>
             </main>
         </div>

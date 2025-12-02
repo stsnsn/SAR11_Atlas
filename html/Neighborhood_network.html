@@ -105,11 +105,21 @@
                 <!-- Dark-mode toggle END -->
 
                 <!-- EDITABLE ZONE START -->
+                <script>
+                    // Centralize the cosmograph URL so it can be updated in one place
+                    const cosmograph_url = "https://cosmograph.app/run/?data=https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/neigh_net.tsv&meta=https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/anno_for_network.tsv&gravity=0.5&repulsion=1.01&repulsionTheta=1.15&linkSpring=2&linkDistance=10&friction=0.3&renderLabels=true&renderHoveredLabel=true&renderLinks=true&nodeSizeScale=1&linkWidthScale=1&linkArrowsSizeScale=1&nodeSize=size-default&nodeColor=color-COG_LETTER&nodeLabel=id&linkWidth=width-avg-neibor_ratio&linkColor=color-default&";
+                    // On DOM ready, assign to link and iframe
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const a = document.getElementById('cosmograph_fullscreen');
+                        const iframe = document.getElementById('cosmograph');
+                        if (a) a.href = cosmograph_url;
+                        if (iframe) iframe.src = cosmograph_url;
+                    });
+                </script>
                 <p>node: OGs</p>
                 <p>A network visualizing neighboring information between OGs. Each node represents an OG, and an edge is drawn between them if they are within 5 genes above or below each other with a probability of 75% or higher.</p>
-                <a href="https://cosmograph.app/run/?data=https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/neigh_net.tsv&meta=https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/anno_for_network.tsv&gravity=0.5&repulsion=1.01&repulsionTheta=1.15&linkSpring=2&linkDistance=10&friction=0.3&renderLabels=true&renderHoveredLabel=true&renderLinks=true&nodeSizeScale=1&linkWidthScale=1&linkArrowsSizeScale=1&nodeSize=size-default&nodeColor=color-COG_LETTER&nodeLabel=id&linkWidth=width-avg-neibor_ratio&linkColor=color-default&">Full screen view</a> / Download <a href="../data/neigh_net.tsv" download="neigh_net.tsv">network data</a> and <a href="../data/anno_for_network.tsv" download="anno_for_network.tsv">annotation file</a>
-                <iframe src="https://cosmograph.app/run/?data=https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/neigh_net.tsv&meta=https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/anno_for_network.tsv&gravity=0.5&repulsion=1.01&repulsionTheta=1.15&linkSpring=2&linkDistance=10&friction=0.3&renderLabels=true&renderHoveredLabel=true&renderLinks=true&nodeSizeScale=1&linkWidthScale=1&linkArrowsSizeScale=1&nodeSize=size-default&nodeColor=color-COG_LETTER&nodeLabel=id&linkWidth=width-avg-neibor_ratio&linkColor=color-default&" id="cosmograph" width="100%" height="200%" data-external="1" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay">
-                </iframe>
+                <a id="cosmograph_fullscreen" href="#" target="_blank">Full screen view</a> / Download <a href="../data/neigh_net.tsv" download="neigh_net.tsv">network data</a> and <a href="../data/anno_for_network.tsv" download="anno_for_network.tsv">annotation file</a>
+                <iframe id="cosmograph" src="#" width="100%" height="100%" data-external="1" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h3>Reference</h3>
@@ -124,7 +134,7 @@
                 <div class="border-top p-4 mb-4">
                     <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
                     <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>ongoing.</em></p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade."</b> <em>in prep.</em></p>
+                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches using bioinformatics approaches."</b> <em>in prep.</em></p>
                 </div>
 
             </main>
