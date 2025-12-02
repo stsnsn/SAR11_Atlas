@@ -21,15 +21,30 @@
 
     <!-- 検索窓のsuggest用 -->
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <style>
+        /* Autocomplete dropdown should appear above Leaflet map and iframes */
+        .ui-autocomplete,
+        .ui-menu {
+            z-index: 20000 !important;
+            position: absolute;
+        }
+        /* If using a container-specific append, ensure the container also allows overflow/visible */
+        .ui-front {
+            z-index: 20000 !important;
+        }
+    </style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="../js/plotly-2.35.2.min.js"></script>
+    <link rel="stylesheet" href="../css/leaflet.css">
+    <script src="../js/leaflet.js"></script>
+    <script src="../js/papaparse.min.js"></script>
 </head>
 
 <body>
     <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="../index.html">SAR11 Genome Atlas (Developing)</a>
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="../index.html">SAR11 Genome Atlas</a>
     </nav>
 
     <div class="container-fluid">
@@ -133,7 +148,7 @@
                 <div id="pageDescription" style="font-size:0.98em; color:#222; margin-bottom:8px; line-height:1.4;">
                     This page provides annotation summaries by Orthogroup (OG). Search is available via OG ID, KEGG Orthology (KO), COG, Pfam, or gene name. Auto-complete suggestions are enabled. <br>
                     If you want to explore syntheny information, please visit the <a href="./SAR11_operon_vis.html">Neighboring Genes Viewer</a>.<br>
-                    If you want to explore the protein 3D structures related to genes in these OGs, please visit the <a href="./genes_linked_to_3d_structures.html">Protein Structures Viewer</a>.
+                    If you want to explore the expression profile with environmental parameters, please visit the <a href="./metaT.html">Metatranscriptome Viewer</a>.
                 </div>
 
                 <label for="ogInput">Enter OG name:</label>
@@ -149,26 +164,31 @@
                 <div id="ogPlots" style="display:flex; gap:20px; align-items:flex-start;">
                     <!-- 左カラム: 円グラフ（幅の40%） -->
                     <div id="leftPlots" style="width:40%; display:flex; flex-direction:column; gap:20px;">
-                        <div id="cogDesc" style="font-size:0.95em; color:#333;">Pie chart of COG2024 annotation results</div>
-                        <div id="cogPie" style="width:100%; height:360px;"></div>
-                        <div id="koDesc" style="font-size:0.95em; color:#333;">Pie chart of KEGG Orthology annotation results</div>
-                        <div id="koPie" style="width:100%; height:360px;"></div>
+                            <!-- metaT map placed above COG pie, centered and sized similar to metaT.html -->
+                            <div id="metaT_map_container" style="width:100%; display:flex; flex-direction:column; align-items:center; margin-bottom:12px;">
+                                <div id="metaTHeader" style="width:550px; text-align:center; font-size:0.95em; color:#333; margin-bottom:6px;">Expression profile will be shown here — for more detail: <a href="./metaT.html" target="_blank">Metatranscriptome Viewer</a></div>
+                                <div id="metaT_map" style="width:550px; height:400px; border:1px solid #666;"></div>
+                            </div>
+                            <div id="cogDesc" style="font-size:0.95em; color:#333;"></div>
+                            <div id="cogPie" style="width:100%; height:300px;"></div>
+                        <div id="koDesc" style="font-size:0.95em; color:#333;"></div>
+                        <div id="koPie" style="width:100%; height:300px;"></div>
                         <!-- Pfam 棒グラフ: OG に応じた Pfam_ID vs Specific_Pfam_Count -->
-                        <div id="pfamBar" style="width:100%; height:420px;">Bar plot of Pfam domain count.</div>
+                        <div id="pfamBar" style="width:100%; height:300px;"></div>
                     </div>
 
                     <!-- 右カラム: Taxonium 埋め込み（縦長） -->
-                    <div id="taxoniumContainer" style="width:60%;">
+                    <div id="taxoniumContainer" style="width:60%">
                         <!-- 系統樹上の小さな説明（Presence/Absence 表示） -->
                         <div id="taxoniumCaption" style="font-size:0.95em; color:#333; margin-bottom:8px;">Presence(yellow)/Absence(blue) of <strong>OG0000000</strong></div>
-                        <!-- ローカル wrapper を使って taxonium を埋め込みます。wrapper を再読み込みすることで外部表示を確実に更新できます -->
-                        <iframe id="taxoniumFrame"
-                        src="./taxonium_wrapper.html?og=OG0000000&ts=0"
-                        width="100%"
-                        height="1200"
-                        style="border: 1px solid #666;"
-                        allowfullscreen
-                        ></iframe>
+                        <!-- ローカル wrapper を使って taxonium を埋め込みます。wrapper を再読み込みすることで外部表示を確実に更新 -->
+                            <iframe id="taxoniumFrame"
+                            src="./taxonium_wrapper.html?og=OG0000000&ts=0"
+                            width="100%"
+                            height="1410"
+                            style="border: 1px solid #666;"
+                            allowfullscreen
+                            ></iframe>
                     </div>
                 </div>
 
@@ -425,6 +445,8 @@
                                 const f = document.getElementById('taxoniumFrame');
                                 if (f) f.src = wrapperUrl;
                             }
+                            // update metaT map for this OG (if function defined)
+                            try { if (typeof updateMetaTMap === 'function') updateMetaTMap(og); } catch(e) { console.warn('updateMetaTMap failed', e); }
                         
                             // --- Pfam barplot (Pfam_ID x Specific_Pfam_Count) ---
                             try {
@@ -504,6 +526,57 @@
                                 console.error('Pfam CSV load error', e);
                                 document.getElementById('pfamBar').innerHTML = '<p style="color:gray;">Pfam data not found</p>';
                             }
+
+                            // --- Mol* viewer: load accessions from tophitog_uniprot.tsv ---
+                            try {
+                                const structRows = await d3.tsv('../data/structure/tophitog_uniprot.tsv');
+                                const matches = (structRows || []).filter(r => {
+                                    const key = (r.Orthogroup || r.orthogroup || r.OG || '').trim();
+                                    return key === og;
+                                });
+
+                                const infoEl = document.getElementById('molstarInfo');
+                                const controlsEl = document.getElementById('molstarControls');
+                                const molIframe = document.getElementById('molstar-iframe');
+                                const molLink = document.getElementById('molstar-link');
+
+                                if (!matches || matches.length === 0) {
+                                    if (infoEl) infoEl.innerText = 'No structural hits (Uniprot accessions) found for this OG.';
+                                    if (controlsEl) controlsEl.innerHTML = '';
+                                    if (molIframe) molIframe.src = 'about:blank';
+                                    if (molLink) molLink.href = '#';
+                                } else {
+                                    // Show only a Foldseek button and automatically display the best hit (highest pident)
+                                    controlsEl.innerHTML = '';
+                                    // sort by pident desc (best first)
+                                    matches.sort((a,b) => (parseFloat(b.pident||0) - parseFloat(a.pident||0)));
+                                    const first = matches[0];
+                                    const acc0 = first.Accession_number || first.Accession || first.accession || '';
+                                    const gid0 = first.gene_id || '';
+                                    const pid0 = first.pident || '';
+                                    const url0 = 'https://molstar.org/viewer/?afdb=' + encodeURIComponent(acc0);
+                                    if (molIframe) molIframe.src = url0;
+                                    if (molLink) molLink.href = url0;
+                                    if (infoEl) infoEl.innerHTML = `Showing ${matches.length} hit(s). Accession: ${acc0} — linked gene id: ${gid0} — amino acid identity(%): ${pid0}%; <br> If structure does not load, predicted structure of ${acc0} may not be available in AlphaFold DB. For exploring other hits, please access <a href="./genes_linked_to_3d_structures.html">Protein Structures page</a>.`;
+
+                                    // Create a Foldseek button (single) that opens search for the displayed accession
+                                    const foldBtn = document.createElement('button');
+                                    foldBtn.type = 'button';
+                                    foldBtn.id = 'molstar-foldseek';
+                                    foldBtn.textContent = 'Open Foldseek';
+                                    foldBtn.style.marginRight = '8px';
+                                    foldBtn.addEventListener('click', function() {
+                                        const acc = acc0;
+                                        const foldseekUrl = 'https://search.foldseek.com/search?accession=' + encodeURIComponent(acc) + '&source=AlphaFoldDB';
+                                        window.open(foldseekUrl, '_blank');
+                                    });
+                                    controlsEl.appendChild(foldBtn);
+                                }
+                            } catch (err) {
+                                console.error('Failed to load structure TSV', err);
+                                const infoEl = document.getElementById('molstarInfo');
+                                if (infoEl) infoEl.innerText = 'Error loading structural mapping.';
+                            }
                         } catch (e) {
                             console.error('Failed to set taxonium wrapper', e);
                             const f = document.getElementById('taxoniumFrame');
@@ -515,6 +588,73 @@
                     document.getElementById('updateOGButton').addEventListener('click', updateOGData);
                 </script>
                 <br><br>
+
+                <!-- Mol* viewer section: show structures for Accessions matched to OG -->
+                <div id="molstarSection" style="width:100%; margin-top:20px;">
+                    <div id="molstarInfo" style="font-size:0.95em; color:#333; margin-bottom:6px;">Protein structure(s) will appear here.</div>
+                    <div id="molstarControls" style="margin-bottom:8px;"></div>
+                    <a id="molstar-link" href="#" target="_blank">Mol* viewer Full screen view</a>
+                    <iframe id="molstar-iframe" src="about:blank" width="100%" height="600" style="border: 1px solid #464646; margin-top:8px;" allowfullscreen allow="autoplay"></iframe>
+                </div>
+
+                <script>
+                // Minimal metaT map implementation (scoped for this page)
+                let metaMap;
+                let metaMarkers = [];
+                function initMetaTMap() {
+                    if (metaMap) return;
+                    try {
+                        metaMap = L.map('metaT_map', { minZoom: 1, maxZoom: 18 }).setView([20, 0], 1);
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap contributors' }).addTo(metaMap);
+                    } catch (e) { console.warn('Leaflet init failed', e); }
+                }
+
+                function clearMetaMarkers() {
+                    metaMarkers.forEach(m => { try { metaMap.removeLayer(m); } catch(e){} });
+                    metaMarkers = [];
+                }
+
+                function updateMetaTMap(og) {
+                    initMetaTMap();
+                    clearMetaMarkers();
+                    // update header with OG and link to metaT page
+                    try {
+                        const hdr = document.getElementById('metaTHeader');
+                        if (hdr) hdr.innerHTML = `Expression profile of ${og} — for more detail: <a href="./metaT.html?og=${encodeURIComponent(og)}" target="_blank">Metatranscriptome Viewer</a>`;
+                    } catch(e) { console.warn('Failed to update metaT header', e); }
+                    const csvFile = `../data/env_corr/${og}.csv`;
+                    Papa.parse(csvFile, {
+                        download: true,
+                        header: true,
+                        complete: function(results) {
+                            const data = results.data || [];
+                            data.forEach(row => {
+                                const lat = parseFloat(row.Latitude);
+                                const lon = parseFloat(row.Longitude);
+                                const tpm = parseFloat(row.sumTPM);
+                                if (!isNaN(lat) && !isNaN(lon) && tpm > 0) {
+                                    const radius = Math.pow(tpm, 0.3) * 1; // adjust for visual
+                                    try {
+                                        const cm = L.circleMarker([lat, lon], { color: 'blue', fillColor: '#3388ff', fillOpacity: 0.5, radius: radius }).addTo(metaMap)
+                                            .bindPopup(`<b>sample:</b> ${row.sample||'NA'}<br><b>sumTPM:</b> ${tpm.toFixed(2)}`);
+                                        metaMarkers.push(cm);
+                                    } catch(e) { console.warn(e); }
+                                }
+                            });
+                            // fit to markers if any
+                            if (metaMarkers.length > 0) {
+                                const group = L.featureGroup(metaMarkers);
+                                try { metaMap.fitBounds(group.getBounds().pad(0.2)); } catch(e) { /* ignore */ }
+                            }
+                        },
+                        error: function() { console.warn('metaT CSV load error'); }
+                    });
+                }
+
+                // initialize map on load so it's ready when updateOGData calls it
+                document.addEventListener('DOMContentLoaded', () => { initMetaTMap(); });
+                </script>
+
 
 
 

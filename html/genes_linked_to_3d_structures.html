@@ -32,7 +32,7 @@
     </script>-->
     <!-- 後で消す -->
         <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="../index.html">SAR11 Genome Atlas (Developing)</a>
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="../index.html">SAR11 Genome Atlas</a>
         </nav>
 
 
@@ -79,7 +79,7 @@
 
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <br><br><br><br><br>
-                    <h1 class="h2">SAR11 Protein Structure Viewer (Developing)</h1>
+                    <h1 class="h2">SAR11 Protein Structure Viewer</h1>
                     <br>
                 </div>
 
@@ -99,7 +99,7 @@
                 <!-- HTML部分 -->
                 <div>
                     <p>Structure viewer is below the table.</p>
-                    <p>Genes of the 24 pure-cultured strains were linked to Uniprot(2024-03) using DIAMOND.</p>
+                    <p>Genes of the 130 pure-cultured strains were linked to Uniprot(2024-03) using MMseqs2 version 13.45111 (--min-seq-id 0.85, --max-seqs 1). Note that when the percent identity (pident) is &lt;100, the sequences do not match completely. Some Accession do not have predicted structures in AlphaFoldDB.</p>
 
                     <a href="./pure_uniprot.html">Full screen view</a>
                     <iframe src="./pure_uniprot.html" id="OGs" width="100%" height="500px" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
@@ -111,7 +111,7 @@
                     <button onclick="updateIframeSrc()">Update Protein Structure</button>
                     <button onclick="openFoldseek()">Open Foldseek</button>
                     <br><br>
-                    <a href="#" id="molstar-link" target="_blank">Molstar viewer Full screen view</a> / Download <a href="../data/aligned.molx" download>MolX file</a>
+                    <a href="#" id="molstar-link" target="_blank">Molstar viewer Full screen view</a>
                     <iframe src="https://molstar.org/viewer/?afdb=Q4FPQ5" id="molstar-iframe" width="100%" height="500px" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
                 </div>
 
