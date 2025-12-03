@@ -570,7 +570,7 @@
                                     const url0 = 'https://molstar.org/viewer/?afdb=' + encodeURIComponent(acc0);
                                     if (molIframe) molIframe.src = url0;
                                     if (molLink) molLink.href = url0;
-                                    if (infoEl) infoEl.innerHTML = `Showing ${matches.length} hit(s). Accession: ${acc0} — linked gene id: ${gid0} — amino acid identity(%): ${pid0}%; <br> If structure does not load, predicted structure of ${acc0} may not be available in AlphaFold DB. For exploring other hits, please access <a href="./genes_linked_to_3d_structures.html">Protein Structures page</a>.`;
+                                    if (infoEl) infoEl.innerHTML = `Showing ${matches.length} hit(s). Accession: ${acc0} — linked gene id: ${gid0} — amino acid identity(%): ${pid0}%; <br> If structure does not load, predicted structure of ${acc0} may not be available in AlphaFold DB. For exploring other hits, please access <a href="./genes_linked_to_3d_structures.html">Protein Structures page</a>.<br><em>Note:</em> Accessions linked to strain HTCC1062 are preferred; if none are available, the structure from the cultured strain with the highest percent identity (pident) will be used.`;
 
                                     // Create a Foldseek button (single) that opens search for the displayed accession
                                     const foldBtn = document.createElement('button');
