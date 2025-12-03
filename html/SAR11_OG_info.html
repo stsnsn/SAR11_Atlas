@@ -54,6 +54,17 @@
             margin-right: 6px;
             vertical-align: middle;
         }
+        /* Make disabled buttons visually distinct */
+        button[disabled], button:disabled {
+            background-color: #e0e0e0 !important; /* light gray */
+            color: #6b6b6b !important; /* darker gray text */
+            border-color: #cfcfcf !important;
+            cursor: not-allowed !important;
+            box-shadow: none !important;
+            opacity: 1 !important;
+        }
+        /* Small accessibility improvement: show tooltip explaining reason when disabled */
+        button[disabled][title] { opacity: 0.95; }
     </style>
 </head>
 
@@ -169,6 +180,9 @@
                 <label for="ogInput">Enter OG name:</label>
                 <input type="text" id="ogInput" placeholder="OG0000001">
                 <button id="updateOGButton">Update OG Data</button>
+                    <button id="browseSynButton" disabled style="margin-left:8px;">Browse Synteny</button>
+                    <button id="openExpressionButton" disabled style="margin-left:8px;">Expression Profile</button>
+                    <br><br>
                 <br><br>
 
                 <!-- 大きな説明をここに表示（Enter OG name の下、見やすく） -->
@@ -259,9 +273,25 @@
                         Plotly.newPlot(divId, data, layout, {displayModeBar: false});
                     }
 
+                    let lastUpdatedOG = null;
+
                     async function updateOGData() {
                         const og = document.getElementById('ogInput').value.trim();
                         if (!og) { alert('Enter OG name'); return; }
+
+                        // Check existence of a representative data file for this OG (KO annotations)
+                        try {
+                            const koCheckPath = `../data/og_annot_count/ko/${og}.csv`;
+                            const resp = await fetch(koCheckPath, { method: 'GET' });
+                            if (!resp.ok) {
+                                alert(`OG ID '${og}' Not Found. Please check the OG ID and try again.`);
+                                return;
+                            }
+                        } catch (e) {
+                            console.warn('Error checking OG data existence', e);
+                            alert(`An error occurred while checking data for OG ID '${og}'. Please check your network connection and the existence of the file.`);
+                            return;
+                        }
 
                         // KO pie
                         const koPath = `../data/og_annot_count/ko/${og}.csv`;
@@ -595,10 +625,99 @@
                             const f = document.getElementById('taxoniumFrame');
                             if (f) f.src = 'about:blank';
                         }
+
+                        // record that update has completed for this OG and enable the action buttons
+                        try {
+                            lastUpdatedOG = og;
+                            const browseBtn2 = document.getElementById('browseSynButton');
+                            const exprBtn2 = document.getElementById('openExpressionButton');
+                            if (browseBtn2) browseBtn2.disabled = false;
+                            if (exprBtn2) exprBtn2.disabled = false;
+                        } catch (e) { console.warn('Failed to enable buttons after update', e); }
                     }
 
                     // ボタンにイベントを割り当て
                     document.getElementById('updateOGButton').addEventListener('click', updateOGData);
+                    // Show Browse Synteny button after Update OG Data is clicked and wire it to open operon viz
+                    try {
+                        const browseBtn = document.getElementById('browseSynButton');
+                        const exprBtn = document.getElementById('openExpressionButton');
+                        if (browseBtn) {
+                            // when Update OG Data is clicked, enable the Browse & Expression buttons (updateOGData will also enable them after successful update)
+                            document.getElementById('updateOGButton').addEventListener('click', function() {
+                                try { browseBtn.disabled = false; } catch(e) {}
+                                try { if (exprBtn) exprBtn.disabled = false; } catch(e) {}
+                            });
+
+                            // on click, open operon viz for current OG in a new tab
+                            browseBtn.addEventListener('click', function() {
+                                const og = (document.getElementById('ogInput') || {}).value || '';
+                                if (!og || og.trim() === '') { alert('Enter OG name'); return; }
+                                const url = `./SAR11_operon_vis.html?ogInput=${encodeURIComponent(og.trim())}`;
+                                window.open(url, '_blank');
+                            });
+                        }
+                        if (exprBtn) {
+                            // when clicked, open metaT viewer for the OG in a new tab
+                            exprBtn.addEventListener('click', function() {
+                                const og = (document.getElementById('ogInput') || {}).value || '';
+                                if (!og || og.trim() === '') { alert('Enter OG name'); return; }
+                                const url = `./metaT.html?ogInput=${encodeURIComponent(og.trim())}`;
+                                window.open(url, '_blank');
+                            });
+                        }
+                    } catch(e) { console.warn('browseSynButton wiring failed', e); }
+                    // If an OG is provided in the URL (query or hash), pre-fill and auto-load it.
+                    (function() {
+                        try {
+                            const params = new URLSearchParams(window.location.search);
+                            let ogFromUrl = params.get('ogInput') || params.get('og') || null;
+                            if (!ogFromUrl) {
+                                // support hash params like #og=OG0000000 or #ogInput=OG0000000
+                                const hash = window.location.hash.replace(/^#/, '');
+                                if (hash) {
+                                    const h = new URLSearchParams(hash);
+                                    ogFromUrl = h.get('ogInput') || h.get('og') || null;
+                                }
+                            }
+                            if (ogFromUrl) {
+                                const input = document.getElementById('ogInput');
+                                if (input) {
+                                    input.value = ogFromUrl;
+                                    // call updateOGData after a short delay to ensure all functions are ready
+                                    setTimeout(() => {
+                                        try { updateOGData(); } catch (e) { console.warn('updateOGData not ready', e); }
+                                        // If buttons exist, enable them (URL-loaded OG counts as an update)
+                                        try {
+                                            const browseBtn = document.getElementById('browseSynButton');
+                                            if (browseBtn) browseBtn.disabled = false;
+                                            const exprBtn = document.getElementById('openExpressionButton');
+                                            if (exprBtn) exprBtn.disabled = false;
+                                        } catch (e2) { console.warn('Failed to enable buttons after URL load', e2); }
+                                    }, 50);
+                                }
+                            }
+                        } catch (e) { console.warn('Failed to parse OG from URL', e); }
+                    })();
+
+                    // When the user edits the OG input, disable the action buttons until an update is performed
+                    try {
+                        const inputEl = document.getElementById('ogInput');
+                        if (inputEl) {
+                            inputEl.addEventListener('input', function() {
+                                const cur = (this.value || '').trim();
+                                const browseBtn = document.getElementById('browseSynButton');
+                                const exprBtn = document.getElementById('openExpressionButton');
+                                if (lastUpdatedOG && cur === lastUpdatedOG) {
+                                    if (browseBtn) browseBtn.disabled = false;
+                                    if (exprBtn) exprBtn.disabled = false;
+                                } else {
+                                    if (browseBtn) browseBtn.disabled = true;
+                                    if (exprBtn) exprBtn.disabled = true;
+                                }
+                            });
+                        }
+                    } catch (e) { console.warn('Failed to attach input listener', e); }
                 </script>
                 <br><br>
 

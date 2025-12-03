@@ -167,9 +167,20 @@
                                     // skip completely empty rows
                                     if (!row || Object.keys(row).every(k => row[k] === null || row[k] === undefined || String(row[k]).trim() === '')) return;
                                     bodyHtml += "<tr>";
-                                    headers.forEach(header => {
+                                    headers.forEach((header, colIndex) => {
                                         const cell = row && Object.prototype.hasOwnProperty.call(row, header) ? row[header] : '';
-                                        bodyHtml += `<td>${cell === undefined || cell === null ? '' : cell}</td>`;
+                                        let cellHtml = '';
+                                        if (cell === undefined || cell === null) {
+                                            cellHtml = '';
+                                        } else if (colIndex === 0) {
+                                            // first column assumed to be OG id -> make it a link to OG info page
+                                            const og = String(cell).trim();
+                                            const href = `./SAR11_OG_info.html?ogInput=${encodeURIComponent(og)}`;
+                                            cellHtml = `<a href="${href}" target="_blank">${og}</a>`;
+                                        } else {
+                                            cellHtml = String(cell);
+                                        }
+                                        bodyHtml += `<td>${cellHtml}</td>`;
                                     });
                                     bodyHtml += "</tr>";
                                 });

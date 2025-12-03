@@ -98,6 +98,19 @@ const updateCircles = (csvFilePath) => {
 // 初期表示
 const initialCsvFile = '../data/env_corr/OG0000000.csv';
 updateCircles(initialCsvFile);
+// 初期ヘッダー表示: デフォルトOGを表示
+try {
+    const hdr = document.getElementById('expressionProfileHeader');
+    const ogDefault = (ogInputEl && ogInputEl.value && ogInputEl.value.trim()) ? ogInputEl.value.trim() : 'OG0000000';
+    if (hdr) {
+        const ogEsc = ogDefault.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        const hrefDef = `./SAR11_OG_info.html?ogInput=${encodeURIComponent(ogDefault)}`;
+        hdr.innerHTML = `Expression profile of: <a href="${hrefDef}" target="_blank" rel="noopener" title="Open OG info for ${ogEsc}">${ogEsc}</a>`;
+        hdr.style.display = 'block';
+    }
+} catch (e) {
+    console.error('Failed to set initial expression profile header', e);
+}
 
 // 凡例の追加
 const addLegend = () => {
@@ -136,6 +149,18 @@ document.getElementById('updateMap').addEventListener('click', () => {
         const newCsvFile = `../data/env_corr/${ogNumber}.csv`;
         updateCircles(newCsvFile);
         resetUserPlot();
+        // Show expression profile header between map and plots
+        try {
+            const hdr = document.getElementById('expressionProfileHeader');
+            if (hdr) {
+                const ogEsc = ogNumber.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                const href = `./SAR11_OG_info.html?ogInput=${encodeURIComponent(ogNumber)}`;
+                hdr.innerHTML = `Expression profile of: <a href="${href}" target="_blank" rel="noopener" title="Open OG info for ${ogEsc}">${ogEsc}</a>`;
+                hdr.style.display = 'block';
+            }
+        } catch (e) {
+            console.error('Failed to update expression profile header', e);
+        }
     } else {
         alert('Enter OG ID');
     }

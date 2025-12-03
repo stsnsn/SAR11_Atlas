@@ -103,6 +103,7 @@
                 <ul>
                     <li><strong>Top 20 OG Highlighting:</strong> Highlights the most frequent 20 OGs with distinct colors, while others are displayed in gray.</li>
                     <li><strong>Interactive Tooltips:</strong> Hover over genes to see detailed information such as sequence ID, group ID, and functional annotations.</li>
+                    <li><strong>Link to OG Information:</strong> Click on OG labels to open detailed OG information in a new tab.</li>
                 </ul>
                 <p>**On this page, OG ID is sliced to show only the last 4 characters for easier visualization.</p>
                 <div style="display: flex; justify-content: flex-end; margin-bottom: 8px;">
@@ -401,15 +402,21 @@
                                     // so no runtime rotation is necessary here.
 
                                     // OG label
-                                    g.append('text')
+                                    const ogLabel = g.append('text')
                                         .attr('x', geneX + geneWidth / 2)
                                         .attr('y', y + arrowHeight / 2)
                                         .attr('text-anchor', 'middle')
                                         .attr('alignment-baseline', 'middle')
                                         .attr('font-size', 10)
                                         .attr('fill', getTextColor(fillColor))
-                                        .text(d.Orthogroup ? `${d.Orthogroup.slice(-4)}` : '')
-                                        .on('mouseover', function (event) {
+                                        .style('cursor', d.Orthogroup ? 'pointer' : 'default')
+                                        .text(d.Orthogroup ? `${d.Orthogroup.slice(-4)}` : '');
+
+                                    // add accessible title showing full OG
+                                    if (d.Orthogroup) ogLabel.append('title').text(d.Orthogroup);
+
+                                    // hover tooltip (existing behavior)
+                                    ogLabel.on('mouseover', function (event) {
                                             const tooltip = d3.select('#tooltip');
                                             const svg = document.querySelector('#operonVisualization svg');
                                             const svgRect = svg.getBoundingClientRect();
@@ -422,6 +429,16 @@
                                         })
                                         .on('mouseout', function () {
                                             d3.select('#tooltip').style('visibility', 'hidden');
+                                        })
+                                        .on('click', function (event) {
+                                            // open OG info page for the full OG id
+                                            try {
+                                                if (d.Orthogroup) {
+                                                    const url = `./SAR11_OG_info.html?ogInput=${encodeURIComponent(d.Orthogroup)}`;
+                                                    // open in a new tab
+                                                    window.open(url, '_blank');
+                                                }
+                                            } catch (e) { console.warn('Failed to open OG info', e); }
                                         });
                                 });
                             });
@@ -441,6 +458,32 @@
                             };
                         }
                     });
+                </script>
+
+                <script>
+                    // Auto-load OG from URL query or hash (e.g., ?ogInput=OG0000173 or #og=OG0000173)
+                    (function() {
+                        try {
+                            const params = new URLSearchParams(window.location.search);
+                            let ogFromUrl = params.get('ogInput') || params.get('og') || null;
+                            if (!ogFromUrl) {
+                                const hash = window.location.hash.replace(/^#/, '');
+                                if (hash) {
+                                    const h = new URLSearchParams(hash);
+                                    ogFromUrl = h.get('ogInput') || h.get('og') || null;
+                                }
+                            }
+                            if (ogFromUrl) {
+                                const input = document.getElementById('ogInput');
+                                if (input) {
+                                    input.value = ogFromUrl;
+                                    setTimeout(() => {
+                                        try { const btn = document.getElementById('loadData'); if (btn) btn.click(); } catch (e) { console.warn('trigger loadData failed', e); }
+                                    }, 50);
+                                }
+                            }
+                        } catch (e) { console.warn('Failed to parse OG from URL', e); }
+                    })();
                 </script>
 
                 <!-- ツールチップ -->
