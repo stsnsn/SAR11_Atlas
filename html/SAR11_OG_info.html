@@ -368,11 +368,13 @@
                                     customdata: custom,
                                     hovertemplate: '%{label}<br>Rate: %{value}<br>%{customdata}<extra></extra>',
                                     insidetextorientation: 'radial',
-                                    marker: { colors: colors }
+                                    marker: { colors: colors },
+                                    domain: { x: [0, 1], y: [0, 1] }
                                 }];
                                 const layout = {
                                     title: 'KO Annotation Results',
                                     margin: { t: 40, l: 10, r: 10, b: 10 },
+                                    height: 300,
                                     showlegend: true,
                                     legend: {
                                         orientation: 'v',
@@ -432,12 +434,14 @@
                                     customdata: custom,
                                     hovertemplate: '%{label}<br>Rate: %{value}<br>%{customdata}<extra></extra>',
                                     insidetextorientation: 'radial',
-                                    marker: { colors: colors }
+                                    marker: { colors: colors },
+                                    domain: { x: [0, 1], y: [0, 1] }
                                 }];
 
                                 const layout = {
                                     title: 'COG Annotation Results',
                                     margin: { t: 40, l: 10, r: 10, b: 10 },
+                                    height: 300,
                                     showlegend: true,
                                     legend: {
                                         orientation: 'v',
