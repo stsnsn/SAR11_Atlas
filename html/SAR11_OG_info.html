@@ -389,7 +389,7 @@
                             document.getElementById('koPie').innerHTML = '<p style="color:gray;">KO data not found</p>';
                         }
 
-                        // COG pie
+                        // COG pie (render with the same rules as KO pie)
                         const cogPath = `../data/og_annot_count/cog/${og}.csv`;
                         try {
                             const cogRows = await d3.csv(cogPath);
@@ -401,43 +401,43 @@
                                 });
                                 const custom = cogRows.map(r => `Name: ${r.COG_NAME || 'NA'}<br>Count: ${r.Specific_COG_Count || '0'}`);
 
-                                // Hide labels and percent for very small slices: show "label (xx%)" only when >= minShareC
-                                const totalC = values.reduce((a, b) => a + b, 0);
-                                const minShareC = 0.03; // 3% threshold
-                                const textC = labels.map((lab, i) => {
-                                    if (totalC === 0) return '';
-                                    const share = values[i] / totalC;
-                                    if (share >= minShareC) {
+                                // Use the same label/percent hiding rule as KO: show label (x.x%) only when share >= minShare
+                                const total = values.reduce((a, b) => a + b, 0);
+                                const minShare = 0.03; // 3% threshold
+                                const text = labels.map((lab, i) => {
+                                    if (total === 0) return '';
+                                    const share = values[i] / total;
+                                    if (share >= minShare) {
                                         const pct = (share * 100).toFixed(1) + '%';
                                         return `${lab} (${pct})`;
                                     }
                                     return '';
                                 });
 
-                                // カラー割り当て: COG_ID が 'NA' のものは灰色、それ以外はパレットを順に使用
-                                const paletteC = d3.schemeCategory10 || ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'];
-                                const colorsC = labels.map((lab, i) => {
+                                // Color assignment: NA -> gray, otherwise use d3.schemeCategory10 in order
+                                const palette = d3.schemeCategory10 || ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'];
+                                const colors = labels.map((lab, i) => {
                                     if (!lab || lab === 'NA') return '#cccccc';
-                                    return paletteC[i % paletteC.length];
+                                    return palette[i % palette.length];
                                 });
 
                                 const data = [{
                                     values: values,
                                     labels: labels,
-                                    text: textC,
+                                    text: text,
                                     type: 'pie',
-                                    // show only prepared text (label + percent when above threshold)
+                                    // show only the prepared text (label + percent when above threshold)
                                     textinfo: 'text',
                                     hoverinfo: 'label+value+text',
                                     customdata: custom,
                                     hovertemplate: '%{label}<br>Rate: %{value}<br>%{customdata}<extra></extra>',
                                     insidetextorientation: 'radial',
-                                    marker: { colors: colorsC }
+                                    marker: { colors: colors }
                                 }];
 
                                 const layout = {
                                     title: 'COG Annotation Results',
-                                    margin: { t: 40, l: 10, r: 10, b: 60 },
+                                    margin: { t: 40, l: 10, r: 10, b: 10 },
                                     showlegend: true,
                                     legend: {
                                         orientation: 'v',
