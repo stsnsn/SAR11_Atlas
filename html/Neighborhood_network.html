@@ -23,7 +23,7 @@
     <script src="../js/cytoscape.3.24.0.min.js"></script>
     <style>
         /* simple styles for the ego-network panel */
-        #egoPanel { border: 1px solid #ddd; padding: 12px; margin-top: 18px; background: #fafafa; }
+        #egoPanel { border: 1px solid #dddddd00; padding: 12px; margin-top: 18px; background: #fafafa00; }
         #cy { width: 100%; height: 560px; border: 1px solid #666; background: #fff; }
         .control-row { display:flex; gap:8px; align-items:center; margin-bottom:8px; flex-wrap:wrap }
         .control-row label { margin-right:6px; }
@@ -102,7 +102,7 @@
 
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <br><br><br><br><br>
-                    <h1 class="h2">Neighborhood gene network</h1>
+                    <h1 class="h2">Neighboring Gene Network</h1>
                     <br>
                 </div>
 
@@ -146,7 +146,7 @@
                         <button id="exportJsonBtn" disabled>Export JSON</button>
                         <span style="margin-left:auto; font-size:0.9em; color:#666">Max nodes: <input id="maxNodes" type="number" value="500" style="width:80px;"> </span>
                     </div>
-                    <div id="cyInfo" style="font-size:0.9em; color:#444; margin-bottom:6px">Total node = 0; Selected node = 0; Visualized node = 0</div>
+                    <div id="cyInfo" style="font-size:0.9em; color:#666; margin-bottom:6px">Total node = 0; Selected node = 0; Visualized node = 0</div>
                     <div id="cy" style="position:relative"></div>
                     <div style="margin-top:8px; color:#666; font-size:0.9em">Note: This is a client-side prototype. Use small depths (1-3).</div>
                 </div>
@@ -155,25 +155,17 @@
                 <a id="cosmograph_fullscreen" href="#" target="_blank">Full screen view</a> / Download <a href="../data/network/251203_net.tsv" download="network.tsv">network data</a> and <a href="../data/network/251202_nei_annot.tsv" download="network_annotation.tsv">annotation file</a>
                 <iframe id="cosmograph" src="#" width="100%" height="100%" data-external="1" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
-
-
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h3>Reference</h3>
-                </div>
-
                 <script src="../js/Neighborhood_ego.js"></script>
-
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    Rokotyan, N., Stukova, O., Kolmakova D. &amp; Ovsyannikov, D. (2022). Cosmograph: GPU-accelerated Force Graph Layout and Rendering [Computer software]. https://cosmograph.app/
-                </div>
 
                 <br><br><br>
                 <!-- EDITABLE ZONE END -->
+
                 <div class="border-top p-4 mb-4">
                     <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
                     <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>ongoing.</em></p>
                     <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches using bioinformatics approaches."</b> <em>in prep.</em></p>
                 </div>
+                <br>
 
             </main>
         </div>
