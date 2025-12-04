@@ -141,7 +141,7 @@
             style: [
                 { selector: 'node', style: { 'label': 'data(label)', 'width': 16, 'height': 16, 'background-color': 'data(color)', 'font-size': 9, 'border-width': 0 } },
                 { selector: 'node[depth = 0]', style: { 'border-width': 2, 'border-color': '#ff7f0e', 'border-opacity': 1, 'border-style': 'solid' } },
-                { selector: 'edge', style: { 'width': 1, 'line-color': '#999', 'curve-style': 'bezier' } }
+                { selector: 'edge', style: { 'width': 0.5, 'line-color': '#999', 'curve-style': 'bezier', 'target-arrow-shape': 'triangle', 'target-arrow-color': '#999', 'arrow-scale': 0.3 } }
             ],
             layout: { name: 'cose', animate: true, randomize: false }
         });
