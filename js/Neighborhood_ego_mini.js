@@ -18,6 +18,8 @@
 
     let adjacency = new Map();
     let annotMap = new Map();
+    // record original directed pairs from TSV (a -> b as present in file)
+    let originalDirected = new Set();
     let cy = null;
 
     async function loadTSV() {
@@ -32,6 +34,8 @@
                 if (parts.length < 2) return;
                 const a = ogToNumId(parts[0].trim());
                 const b = ogToNumId(parts[1].trim());
+                // record original direction a->b for rendering decisions
+                try { originalDirected.add(`${a}___${b}`); } catch (e) {}
                 if (!adjacency.has(a)) adjacency.set(a, []);
                 if (!adjacency.has(b)) adjacency.set(b, []);
                 adjacency.get(a).push({ to: b });
@@ -117,15 +121,58 @@
             const koDesc = ann.ko_name || ann.KO_NAME || (raw && (raw.ko_name || raw.KO_NAME || raw.ko_description || raw.KO_DESCRIPTION)) || null;
             return { data: { id: id, label: short, og: numIdToOg(id), depth: visited.get(id), cogLetter: cogLetter, cogId: ann.COG_ID || null, cogName: cogName || null, ko_id: ann.ko_id || ann.ko || null, koDesc: koDesc || null, color: color } };
         });
+        // Use originalDirected to determine true directions (recorded when TSV loaded)
+        const directed = new Set();
+        for (const p of originalDirected) {
+            const parts = p.split('___');
+            if (parts.length !== 2) continue;
+            const u = parts[0];
+            const v = parts[1];
+            if (idSet.has(u) && idSet.has(v)) directed.add(p);
+        }
+
+        // helper to create a canonical undirected key (min_max) for dedup
+        function pairKey(a,b){
+            const na = parseInt(String(a),10);
+            const nb = parseInt(String(b),10);
+            if (!Number.isNaN(na) && !Number.isNaN(nb)) {
+                return na <= nb ? `${a}___${b}` : `${b}___${a}`;
+            }
+            return a <= b ? `${a}___${b}` : `${b}___${a}`;
+        }
+
         const edges = [];
+        const added = new Set();
         ids.forEach(u => {
-            (adjacency.get(u)||[]).forEach(e => {
+            (adjacency.get(u) || []).forEach(e => {
                 const v = e.to;
-                if (idSet.has(v)) {
-                    const eid = `${u}___${v}`;
-                    const eidRev = `${v}___${u}`;
-                    if (!edges.find(x => x.data && (x.data.id===eid || x.data.id===eidRev))) {
-                        edges.push({ data: { id: eid, source: u, target: v } });
+                if (!idSet.has(v)) return;
+                const k = pairKey(u, v);
+                if (added.has(k)) return;
+                added.add(k);
+
+                // pairKey ensures p1 <= p2; determine actual direction using `directed`
+                const parts = k.split('___');
+                const p1 = String(parts[0]);
+                const p2 = String(parts[1]);
+
+                const hasP1toP2 = directed.has(`${p1}___${p2}`);
+                const hasP2toP1 = directed.has(`${p2}___${p1}`);
+
+                if (hasP1toP2 && hasP2toP1) {
+                    // bidirectional: use stable p1->p2 and mark
+                    const data = { id: k, source: p1, target: p2 };
+                    data.bidirectional = 'true';
+                    edges.push({ data });
+                } else {
+                    // single direction: prefer the actual directed pair if present
+                    if (hasP1toP2) {
+                        edges.push({ data: { id: `${p1}___${p2}`, source: p1, target: p2 } });
+                    } else if (hasP2toP1) {
+                        edges.push({ data: { id: `${p2}___${p1}`, source: p2, target: p1 } });
+                    } else {
+                        // Fallback: no recorded directed info (shouldn't happen) — use canonical order
+                        edges.push({ data: { id: k, source: p1, target: p2 } });
                     }
                 }
             });
@@ -137,13 +184,24 @@
         try { if (cy) { cy.destroy(); cy = null; } } catch(e){}
         cy = cytoscape({
             container: document.getElementById(containerId),
+            // ensure crisp rendering on high-DPI displays
+            pixelRatio: 'auto',
             elements: [].concat(elements.nodes, elements.edges),
             style: [
-                { selector: 'node', style: { 'label': 'data(label)', 'width': 16, 'height': 16, 'background-color': 'data(color)', 'font-size': 9, 'border-width': 0 } },
+                // center labels on nodes to avoid baseline/offset issues
+                { selector: 'node', style: { 'label': 'data(label)', 'width': 16, 'height': 16, 'background-color': 'data(color)', 'font-size': 10, 'border-width': 0, 'text-valign': 'center', 'text-halign': 'center', 'color': '#000', 'text-wrap': 'none' } },
                 { selector: 'node[depth = 0]', style: { 'border-width': 2, 'border-color': '#ff7f0e', 'border-opacity': 1, 'border-style': 'solid' } },
-                { selector: 'edge', style: { 'width': 0.5, 'line-color': '#999', 'curve-style': 'bezier', 'target-arrow-shape': 'triangle', 'target-arrow-color': '#999', 'arrow-scale': 0.3 } }
+                    { selector: 'edge', style: { 'width': 0.5, 'line-color': '#999', 'curve-style': 'bezier', 'source-arrow-shape': 'none', 'target-arrow-shape': 'triangle', 'target-arrow-color': '#999', 'arrow-scale': 0.3 } },
+                    // bidirectional edges: arrows on both ends
+                    { selector: 'edge[bidirectional = "true"]', style: { 'source-arrow-shape': 'triangle', 'source-arrow-color': '#999', 'target-arrow-shape': 'triangle', 'target-arrow-color': '#999', 'arrow-scale': 0.3 } }
             ],
-            layout: { name: 'cose', animate: true, randomize: false }
+            layout: { 
+                name: 'cose', 
+                animate: false,        // アニメーションなしで即座に結果を表示
+                randomize: true,       // 初期位置をバラけさせる（計算収束が早くなる）
+                nodeRepulsion: 40000, // ノード間の反発力を強める（重なり防止）
+                idealEdgeLength: 30   // エッジの理想的な長さ
+            }
         });
         // ensure tooltip element exists (same behavior as full ego view)
         let tip = document.getElementById('cyTooltip');
@@ -221,9 +279,9 @@
             if (el) el.innerHTML = '<p style="color:gray; padding:8px;">No neighborhood data for this OG</p>';
             return;
         }
-        const maxDepth = 1; const maxNodes = 500;
-        const visited = extractEgo(center, maxDepth, maxNodes);
-        const elements = buildElements(visited);
+    const maxDepth = 1; const maxNodes = 500;
+    const visited = extractEgo(center, maxDepth, maxNodes);
+    const elements = buildElements(visited);
         // ensure egoMini height matches metaT_map
         try {
             const map = document.getElementById('metaT_map');

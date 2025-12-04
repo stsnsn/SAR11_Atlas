@@ -4,6 +4,8 @@
     let nodesSet = new Set();
     // annotation map: numeric id -> annotation object { og, COG_LETTER, COG_ID, ko_id }
     let annotMap = new Map();
+    // record original directed pairs from TSV (a -> b as present in file) for rendering direction
+    let originalDirected = new Set();
     // Track last extracted center (raw OG string) and maxNodes so we can disable exports when inputs change
     let lastExtractCenter = null;
     let lastExtractMaxNodes = null;
@@ -51,6 +53,8 @@
                 const a = ogToNumId(a0);
                 const b = ogToNumId(b0);
                 nodesSet.add(a); nodesSet.add(b);
+                // record original directed pair a->b for rendering decisions
+                try { originalDirected.add(`${a}___${b}`); } catch (e) {}
                 if (!adjacency.has(a)) adjacency.set(a, []);
                 if (!adjacency.has(b)) adjacency.set(b, []);
                 adjacency.get(a).push({ to: b });
@@ -105,7 +109,8 @@
         console.warn('No annotation TSV found among candidates');
     }
 
-    function extractEgo(start, maxDepth, maxNodes) {
+    // If onlyBidirectional is true, only traverse edges that exist in both directions
+    function extractEgo(start, maxDepth, maxNodes, onlyBidirectional = false) {
         const visited = new Map();
         const q = [{ node: start, depth: 0 }];
         visited.set(start, 0);
@@ -115,6 +120,16 @@
             const neighs = adjacency.get(node) || [];
             for (const nb of neighs) {
                 const n = nb.to;
+                // If onlyBidirectional mode is enabled, require that the original TSV
+                // contains both directions for this pair (node -> n and n -> node).
+                if (onlyBidirectional) {
+                    const forward = `${node}___${n}`;
+                    const backward = `${n}___${node}`;
+                    if (!originalDirected.has(forward) || !originalDirected.has(backward)) {
+                        continue;
+                    }
+                }
+
                 if (!visited.has(n)) {
                     visited.set(n, depth + 1);
                     q.push({ node: n, depth: depth + 1 });
@@ -145,7 +160,7 @@
         return visited;
     }
 
-    function buildElements(visited) {
+    function buildElements(visited, onlyBidirectional = false, center = null) {
         const ids = Array.from(visited.keys());
         const idSet = new Set(ids);
         // Show shortened labels (last 4 digits) to keep the display compact.
@@ -182,20 +197,92 @@
             const koDesc = ann.ko_name || ann.KO_NAME || pickField(raw, ['ko_name', 'KO_NAME', 'ko_description', 'KO_DESCRIPTION', 'ko_desc', 'KO_DESC']);
             return { data: { id: id, label: short, og: numIdToOg(id), depth: visited.get(id), cogLetter: cogLetter, cogId: ann.COG_ID || null, cogName: cogName || null, ko_id: ann.ko_id || ann.ko || null, koDesc: koDesc || null, color: color } };
         });
+        // Use originalDirected to determine true directions (recorded when TSV loaded)
+        const directed = new Set();
+        for (const p of originalDirected) {
+            const parts = p.split('___');
+            if (parts.length !== 2) continue;
+            const u = parts[0];
+            const v = parts[1];
+            if (idSet.has(u) && idSet.has(v)) directed.add(p);
+        }
+
+        function pairKey(a,b){
+            const na = parseInt(String(a),10);
+            const nb = parseInt(String(b),10);
+            if (!Number.isNaN(na) && !Number.isNaN(nb)) {
+                return na <= nb ? `${a}___${b}` : `${b}___${a}`;
+            }
+            return a <= b ? `${a}___${b}` : `${b}___${a}`;
+        }
+
         const edges = [];
+        const added = new Set();
         ids.forEach(u => {
             (adjacency.get(u) || []).forEach(e => {
                 const v = e.to;
-                if (idSet.has(v)) {
-                    // ensure single edge id
-                    const eid = `${u}___${v}`;
-                    const eidRev = `${v}___${u}`;
-                    if (!edges.find(x => x.data && (x.data.id === eid || x.data.id === eidRev))) {
-                        edges.push({ data: { id: eid, source: u, target: v } });
+                if (!idSet.has(v)) return;
+                const k = pairKey(u, v);
+                if (added.has(k)) return;
+                added.add(k);
+
+                // pairKey ensures p1 <= p2 (lexicographic/numeric), but actual data direction
+                // may be p2 -> p1. Use the `directed` set to pick source/target correctly.
+                const parts = k.split('___');
+                const p1 = String(parts[0]);
+                const p2 = String(parts[1]);
+
+                const hasP1toP2 = directed.has(`${p1}___${p2}`);
+                const hasP2toP1 = directed.has(`${p2}___${p1}`);
+
+                // If both directions exist, mark bidirectional and choose stable order p1->p2
+                if (hasP1toP2 && hasP2toP1) {
+                    const data = { id: k, source: p1, target: p2 };
+                    data.bidirectional = 'true';
+                    edges.push({ data });
+                } else if (!onlyBidirectional) {
+                    // Not filtering to bidirectional-only: include the single directed edge
+                    if (hasP1toP2) {
+                        edges.push({ data: { id: `${p1}___${p2}`, source: p1, target: p2 } });
+                    } else if (hasP2toP1) {
+                        edges.push({ data: { id: `${p2}___${p1}`, source: p2, target: p1 } });
                     }
+                    // If neither is present in directed (shouldn't happen), skip
                 }
             });
         });
+        // If onlyBidirectional is true and a center is provided, filter nodes to those connected
+        // to the center via the retained edges (treat edges as undirected for connectivity)
+        if (onlyBidirectional && center) {
+            const reach = new Set();
+            const adj = new Map();
+            edges.forEach(en => {
+                const s = String(en.data.source);
+                const t = String(en.data.target);
+                if (!adj.has(s)) adj.set(s, new Set());
+                if (!adj.has(t)) adj.set(t, new Set());
+                adj.get(s).add(t);
+                adj.get(t).add(s);
+            });
+            // BFS from center
+            const q = [String(center)];
+            reach.add(String(center));
+            while (q.length) {
+                const n = q.shift();
+                const neigh = adj.get(n) || new Set();
+                for (const m of neigh) {
+                    if (!reach.has(m)) {
+                        reach.add(m);
+                        q.push(m);
+                    }
+                }
+            }
+            // filter edges and nodes to reachable set
+            const fedges = edges.filter(en => reach.has(String(en.data.source)) && reach.has(String(en.data.target)));
+            const fnodes = nodes.filter(nd => reach.has(String(nd.data.id)));
+            return { nodes: fnodes, edges: fedges };
+        }
+
         return { nodes, edges };
     }
 
@@ -221,15 +308,25 @@
 
         cy = cytoscape({
             container: document.getElementById('cy'),
+            // ensure crisp rendering on high-DPI displays
+            pixelRatio: 'auto',
             elements: [].concat(elements.nodes, elements.edges),
             style: [
                 // default node style: use data(color) for fill but no border by default
-                { selector: 'node', style: { 'label': 'data(label)', 'width': 18, 'height': 18, 'background-color': 'data(color)', 'color': '#000', 'text-valign': 'center', 'text-halign': 'center', 'font-size': 10, 'border-width': 0 } },
+                { selector: 'node', style: { 'label': 'data(label)', 'width': 18, 'height': 18, 'background-color': 'data(color)', 'color': '#000', 'text-valign': 'center', 'text-halign': 'center', 'font-size': 12, 'border-width': 0 } },
                 // center node (depth=0): highlight by adding an outline only (no background override)
                 { selector: 'node[depth = 0]', style: { 'border-width': 2, 'border-color': '#ff7f0e', 'border-opacity': 1, 'border-style': 'solid' } },
-                { selector: 'edge', style: { 'width': 0.5, 'line-color': '#999', 'curve-style': 'bezier', 'target-arrow-shape': 'triangle', 'target-arrow-color': '#999', 'arrow-scale': 0.4 } }
+                { selector: 'edge', style: { 'width': 0.5, 'line-color': '#999', 'curve-style': 'bezier', 'source-arrow-shape': 'none', 'target-arrow-shape': 'triangle', 'target-arrow-color': '#999', 'arrow-scale': 0.4 } },
+                // bidirectional edges: show arrows on both ends
+                { selector: 'edge[bidirectional = "true"]', style: { 'source-arrow-shape': 'triangle', 'source-arrow-color': '#999', 'target-arrow-shape': 'triangle', 'target-arrow-color': '#999', 'arrow-scale': 0.4 } }
             ],
-            layout: { name: 'cose', animate: true, randomize: false }
+            layout: {
+                name: 'cose',
+                animate: true,        // アニメーションあり
+                randomize: true,       // 初期位置をバラけさせる（計算収束が早くなる）
+                nodeRepulsion: 400000, // ノード間の反発力を強める（重なり防止）
+                idealEdgeLength: 50   // エッジの理想的な長さ
+            }
         });
 
         cy.on('tap', 'node', evt => {
@@ -359,9 +456,10 @@
                 return;
             }
             // compute selected nodes (ignoring maxNodes) and visualized nodes (applying maxNodes)
+            const onlyBidirectional = !!document.getElementById('onlyBidirectional') && document.getElementById('onlyBidirectional').checked;
             const selectedVisited = extractEgoNoLimit(center, maxDepth);
-            const visited = extractEgo(center, maxDepth, maxNodes);
-            const elements = buildElements(visited);
+            const visited = extractEgo(center, maxDepth, maxNodes, onlyBidirectional);
+            const elements = buildElements(visited, onlyBidirectional, center);
             renderCy(elements);
             // mark this center and maxNodes as the last extracted and enable exports
             lastExtractCenter = centerRaw;
@@ -379,6 +477,16 @@
             // auto-update network when the slider changes
             runExtract();
         });
+
+        // If user toggles the "Only show bidirectional edges" checkbox, re-run the extract automatically
+        try {
+            const onlyBidirectionalCheckbox = document.getElementById('onlyBidirectional');
+            if (onlyBidirectionalCheckbox) {
+                onlyBidirectionalCheckbox.addEventListener('change', () => {
+                    try { runExtract(); } catch (e) { console.warn('runExtract on onlyBidirectional change failed', e); }
+                });
+            }
+        } catch (e) { /* ignore */ }
 
         // disable export buttons when the center input changes from the last extracted
         if (egoInput) {

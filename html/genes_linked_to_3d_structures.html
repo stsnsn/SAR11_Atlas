@@ -17,6 +17,18 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+    <style>
+        /* Open Foldseek ボタンが disabled のときに分かりやすくグレー表示にする */
+        #openFoldseek[disabled], #openFoldseek:disabled {
+            background-color: #e9ecef !important;
+            color: #6c757d !important;
+            border-color: #ced4da !important;
+            cursor: not-allowed !important;
+            box-shadow: none !important;
+            opacity: 1 !important;
+        }
+        #openFoldseek[disabled]:hover { background-color: #e9ecef !important; }
+    </style>
 </head>
 
 
@@ -108,8 +120,9 @@
 
                     <label for="afdb-input">Enter Accession number:</label>
                     <input type="text" id="afdb-input" placeholder="Q4FPQ5">
-                    <button onclick="updateIframeSrc()">Update Protein Structure</button>
-                    <button onclick="openFoldseek()">Open Foldseek</button>
+                    <button id="updateProteinBtn" onclick="updateIframeSrc()">Update Protein Structure</button>
+                    <!-- 初期は無効化 -->
+                    <button id="openFoldseek" onclick="openFoldseek()" disabled>Open Foldseek</button>
                     <br><br>
                     <a href="#" id="molstar-link" target="_blank">Molstar viewer Full screen view</a>
                     <iframe src="https://molstar.org/viewer/?afdb=Q4FPQ5" id="molstar-iframe" width="100%" height="500px" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
@@ -117,16 +130,50 @@
 
                 <!-- JavaScript部分 -->
                 <script>
-                function updateIframeSrc() {
+                async function updateIframeSrc() {
                     var afdbCode = document.getElementById('afdb-input').value;
                     var molstarLink = document.getElementById('molstar-link');
                     var molstarIframe = document.getElementById('molstar-iframe');
+                    var foldBtn = document.getElementById('openFoldseek');
 
-                    // Update Molstar viewer link
-                    molstarLink.href = 'https://molstar.org/viewer/?afdb=' + afdbCode;
+                    // Update Molstar viewer link and iframe regardless
+                    try {
+                        molstarLink.href = 'https://molstar.org/viewer/?afdb=' + afdbCode;
+                        molstarIframe.src = 'https://molstar.org/viewer/?afdb=' + afdbCode;
+                    } catch (e) { /* ignore */ }
 
-                    // Update Molstar iframe src
-                    molstarIframe.src = 'https://molstar.org/viewer/?afdb=' + afdbCode;
+                    // 初期: 無効化してから API チェックを行う
+                    try { if (foldBtn) foldBtn.disabled = true; } catch (e) { }
+
+                    // 入力が空ならチェックしない（無効のまま）
+                    if (!afdbCode || !afdbCode.trim()) return;
+
+                    // AlphaFold API を問い合わせて構造が存在するかを確認する
+                    // 参考: https://alphafold.ebi.ac.uk/api/prediction/{UniProtID}
+                    const apiUrl = 'https://alphafold.ebi.ac.uk/api/prediction/' + encodeURIComponent(afdbCode.trim());
+                    try {
+                        const resp = await fetch(apiUrl, { method: 'GET' });
+                        // レスポンスがエラーJSONを返す場合（例: Invalid identifier format）や 404 は構造なし扱い
+                        if (!resp.ok) {
+                            // 404 等
+                            return;
+                        }
+                        const json = await resp.json();
+                        // API が {"error":"..."} を返す場合は無効のまま
+                        if (json && typeof json === 'object' && json.error) {
+                            // 明確に要求されたエラーメッセージであれば何もしない（disabled のまま）
+                            // ただし、別のメッセージでも安全のため無効のままとする
+                            return;
+                        }
+                        // それ以外（配列や予測データが返れば有効化）
+                        if (Array.isArray(json) ? json.length > 0 : Object.keys(json).length > 0) {
+                            try { if (foldBtn) foldBtn.disabled = false; } catch (e) { }
+                        }
+                    } catch (err) {
+                        // ネットワークや CORS エラー -> 無効のままにする
+                        console.warn('AlphaFold API check failed', err);
+                        return;
+                    }
                 }
 
                 function openFoldseek() {
@@ -134,9 +181,27 @@
                     var foldseekUrl = 'https://search.foldseek.com/search?accession=' + afdbCode + '&source=AlphaFoldDB';
                     window.open(foldseekUrl, '_blank');
                 }
+                // 入力編集中は常に無効化する
+                (function() {
+                    var afdbInput = document.getElementById('afdb-input');
+                    var foldBtn = document.getElementById('openFoldseek');
+                    if (!afdbInput || !foldBtn) return;
+                    afdbInput.addEventListener('input', function() {
+                        try { foldBtn.disabled = true; } catch (e) { }
+                    });
+                    // ページロード時に既に値がある場合は自動でチェックを実行して有効化判定する
+                    window.addEventListener('load', function() {
+                        try {
+                            if (afdbInput.value && afdbInput.value.trim().length > 0) {
+                                // 非同期関数を呼び出して API チェックを行う
+                                try { updateIframeSrc(); } catch (e) { /* ignore */ }
+                            }
+                        } catch (e) { }
+                    });
+                })();
                 </script>
 
-                <p>If the structure does not load, it may not be available in the AlphaFold DB.</p>
+                <p>Note: UniProtKB/TrEMBL has been applying Proteome Redundancy Reduction, and some protein sequences that Note: UniProtKB/TrEMBL has been applying Proteome Redundancy Reduction, and some previously registered protein sequences may have been removed. If a structure is not displayed, please also check UniParc (the UniProt archive) for historical sequence records.</p>
                 <br><br><br>
 
                 <!-- EDITABLE ZONE END -->

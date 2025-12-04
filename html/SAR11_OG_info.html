@@ -789,6 +789,7 @@
                     <div id="molstarControls" style="margin-bottom:8px;"></div>
                     <a id="molstar-link" href="#" target="_blank">Mol* viewer Full screen view</a>
                     <iframe id="molstar-iframe" src="about:blank" width="100%" height="600" style="border: 1px solid #464646; margin-top:8px;" allowfullscreen allow="autoplay"></iframe>
+                    <p>Note: UniProtKB/TrEMBL has been applying Proteome Redundancy Reduction, and some previously registered protein sequences may have been removed. If a structure is not displayed, please also check UniParc (the UniProt archive) for historical sequence records.</p>
                 </div>
 
                 <script>
@@ -833,7 +834,7 @@
                         const hdr = document.getElementById('metaTHeader');
                         if (hdr) {
                             const enc = encodeURIComponent(og);
-                            hdr.innerHTML = `Expression profile of <a href="./metaT.html?ogInput=${enc}" target="_blank">${og}</a> (Metatranscriptome Viewer)`;
+                            hdr.innerHTML = `Expression profile of <a href="./metaT.html?ogInput=${enc}" target="_blank">${og}</a>`;
                         }
                     } catch(e) { console.warn('Failed to update metaT header', e); }
                     const csvFile = `../data/env_corr/${og}.csv`;

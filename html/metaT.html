@@ -33,6 +33,23 @@
     <script src="../js/jquery-ui.1.13.2.min.js"></script>
     <script src="../js/d3.v6.min.js"></script>
 
+    <style>
+        /* Download ボタンが disabled のときに分かりやすくグレー表示にする */
+        #downloadData[disabled], #downloadData:disabled {
+            background-color: #e9ecef !important; /* 淡いグレー */
+            color: #6c757d !important;             /* グレーの文字色 */
+            border-color: #ced4da !important;
+            cursor: not-allowed !important;
+            box-shadow: none !important;
+            opacity: 1 !important; /* Bootstrap の opacity を上書き */
+        }
+
+        /* 任意: ホバーしても見た目を変えない */
+        #downloadData[disabled]:hover {
+            background-color: #e9ecef !important;
+        }
+    </style>
+
 
 
 </head>
@@ -193,15 +210,15 @@
                 <!-- MAP -->
                 <div style="display: flex; justify-content: space-between;">
                     <div style="width: 100%; height: 600px;">
-                        <a href="./download.html" download="./download.html">Download</a>
-                        <p>Input an OG ID you want to see (e.g., OG0000173) and click the "Update Map and Correlation plots" button. You can also download the data as a CSV file by clicking the "Download CSV" button.</p>
+                        <p>Input an OG ID (e.g., OG0000173) and click the "Update Map and Correlation plots" button. You can also download the data as a CSV file by clicking the "Download CSV" button.</p>
                         <div id="map" style="width: 550px; height: 400px;"></div>
                         <!-- Expression profile header (hidden until Update pressed) -->
                         <div id="expressionProfileHeader" style="text-align: center; font-weight: bold; margin: 12px 0; display: none;"></div>
                         <div id="controls">
                             <input type="text" id="ogInput" placeholder="Enter ID: (e.g., OG0000173)">
                             <button id="updateMap">Update Map and Correlation plots</button>
-                            <button id="downloadData">Download CSV</button>
+                            <!-- 初期は無効化: OGが読み込まれたら有効にする -->
+                            <button id="downloadData" disabled>Download CSV</button>
                         </div>
                         <p> The plots show the correlation between the expression level of the selected OG and environmental factors.</p>
                     </div>
@@ -241,6 +258,65 @@
                 <br>
 
                 <script src="../js/metaTplot.js"></script>
+                <script>
+                    (function() {
+                        // ボタン要素参照
+                        const downloadBtn = document.getElementById('downloadData');
+                        const ogInput = document.getElementById('ogInput');
+                        const updateBtn = document.getElementById('updateMap');
+                        const header = document.getElementById('expressionProfileHeader');
+
+                        if (!downloadBtn || !ogInput || !updateBtn || !header) return; // 要素がなければ何もしない
+
+                        // 入力が編集されたら無効化
+                        ogInput.addEventListener('input', () => {
+                            try { downloadBtn.disabled = true; } catch (e) { /* noop */ }
+                        });
+
+                        // Update ボタンが押されたら、OG読み込み完了を監視して有効化する
+                        updateBtn.addEventListener('click', () => {
+                            // 既に表示されていれば即有効
+                            try {
+                                if (window.getComputedStyle(header).display !== 'none') {
+                                    downloadBtn.disabled = false;
+                                    return;
+                                }
+                            } catch (e) {
+                                // ignore
+                            }
+
+                            // MutationObserver で style の変化を監視（display が変わったら有効化）
+                            const obs = new MutationObserver((mutations, observer) => {
+                                try {
+                                    if (window.getComputedStyle(header).display !== 'none') {
+                                        downloadBtn.disabled = false;
+                                        observer.disconnect();
+                                    }
+                                } catch (e) { /* ignore */ }
+                            });
+                            obs.observe(header, { attributes: true, attributeFilter: ['style'] });
+
+                            // フォールバック: 5秒後にヘッダが表示されていれば有効化
+                            setTimeout(() => {
+                                try {
+                                    if (window.getComputedStyle(header).display !== 'none') {
+                                        downloadBtn.disabled = false;
+                                    }
+                                } catch (e) { /* ignore */ }
+                            }, 5000);
+                        });
+
+                        // ページ読み込み時に URL パラメータ等で自動更新が走る場合があるので
+                        // 少し遅延して header の表示状態を確認して有効化する
+                        window.addEventListener('load', () => {
+                            try {
+                                if (window.getComputedStyle(header).display !== 'none') {
+                                    downloadBtn.disabled = false;
+                                }
+                            } catch (e) { /* ignore */ }
+                        });
+                    })();
+                </script>
                 <br>
 
                 <br><br><br>
