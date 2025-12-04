@@ -25,14 +25,13 @@
     <link rel="stylesheet" href="../css/data_table_style.css">
     <script src="../js/pca_plot.js"></script>
     <!-- Leaflet easyprint plugin-->
-    <script src="https://cdn.jsdelivr.net/npm/leaflet-easyprint@2.1.9/dist/bundle.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/leaflet-easyprint@2.1.9/libs/leaflet.min.css" rel="stylesheet">
-
+    <script src="../js/leaflet-easyprint.2.1.9.bundle.min.js"></script>
+    <link href="../css/leaflet-easyprint.2.1.9.min.css" rel="stylesheet">
     <!-- autocomplete -->
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
-    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="../css/jquery-ui.1.13.2.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery-ui.1.13.2.min.js"></script>
+    <script src="../js/d3.v6.min.js"></script>
 
 
 
@@ -147,9 +146,13 @@
                                 delay: 50,
                                 autoFocus: true,
                                 select: function(event, ui) {
-                                    $("#ogInput").val(ui.item.value);
-                                    return false;
-                                }
+                                        $("#ogInput").val(ui.item.value);
+                                        const $el = $(this);
+                                        try { $el.autocomplete('close'); } catch (e) { /* ignore */ }
+                                        // trigger update after a short delay so the menu can close cleanly
+                                        setTimeout(() => { try { const btn = document.getElementById('updateMap'); if (btn) btn.click(); } catch (e) { console.warn('updateMap click failed', e); } }, 10);
+                                        return false;
+                                    }
                             });
                             // Enterで loadData
                             $("#ogInput").keydown(e => {

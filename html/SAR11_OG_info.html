@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
 
     <!-- 検索窓のsuggest用 -->
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../css/jquery-ui.1.13.2.css">
     <style>
         /* Autocomplete dropdown should appear above Leaflet map and iframes */
         .ui-autocomplete,
@@ -33,13 +33,15 @@
             z-index: 20000 !important;
         }
     </style>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
-    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery-ui.1.13.2.min.js"></script>
+    <script src="../js/d3.v6.min.js"></script>
     <script src="../js/plotly-2.35.2.min.js"></script>
     <link rel="stylesheet" href="../css/leaflet.css">
     <script src="../js/leaflet.js"></script>
     <script src="../js/papaparse.min.js"></script>
+    <script src="../js/cytoscape.3.24.0.min.js"></script>
+    <script src="../js/Neighborhood_ego_mini.js"></script>
     <style>
         /* Legend styling similar to metaT_style.css */
         .info.legend {
@@ -135,6 +137,26 @@
                 <script>
                     let og_data = [];
                     d3.tsv("../data/og_suggest.tsv").then(data => {
+                            // helper: try to call renderEgoForOG when available, with short retries
+                            function callRenderEgo(og) {
+                                if (!og) return;
+                                const maxAttempts = 20; // try up to ~1s (20 * 50ms)
+                                let attempts = 0;
+                                const iv = setInterval(() => {
+                                    attempts++;
+                                    try {
+                                        if (window.renderEgoForOG && typeof window.renderEgoForOG === 'function') {
+                                            window.renderEgoForOG(og);
+                                            clearInterval(iv);
+                                            return;
+                                        }
+                                    } catch (e) { /* ignore */ }
+                                    if (attempts >= maxAttempts) {
+                                        clearInterval(iv);
+                                        console.warn('renderEgoForOG not available after waiting');
+                                    }
+                                }, 50);
+                            }
                         // TSV → Autocomplete 用データに変換
                         og_data = data.map(d => ({
                             label: `${d.og_id} | ${d.ko}: ${d.ko_name} | ${d.cog}: ${d.cog_name} | ${d.pfams}: ${d.pfam_names} `, // 表示内容
@@ -154,7 +176,13 @@
                             delay: 50,
                             autoFocus: true,   // ← 下のscriptにあった設定をこちらに統合
                             select: function(event, ui) {
-                                $("#ogInput").val(ui.item.value);
+                                const $el = $(this);
+                                $el.val(ui.item.value);
+                                try { $el.autocomplete('close'); } catch (e) { /* ignore */ }
+                                // run update after a short delay so the menu has time to close
+                                setTimeout(() => {
+                                    try { if (typeof updateOGData === 'function') updateOGData(); else document.getElementById('updateOGButton').click(); } catch (e) { console.warn('updateOGData not ready', e); }
+                                }, 10);
                                 return false;
                             }
                         });
@@ -173,14 +201,15 @@
                 <!-- ページ説明: Enter OG name の上に表示 -->
                 <div id="pageDescription" style="font-size:0.98em; color:#222; margin-bottom:8px; line-height:1.4;">
                     This page provides annotation summaries by Orthogroup (OG). Search is available via OG ID, KEGG Orthology (KO), COG, Pfam, or gene name. Auto-complete suggestions are enabled. <br>
-                    If you want to explore syntheny information, please visit the <a href="./SAR11_operon_vis.html">Neighboring Genes Viewer</a>.<br>
-                    If you want to explore the expression profile with environmental parameters, please visit the <a href="./metaT.html">Metatranscriptome Viewer</a>.
+                    If you want to explore syntheny information, please visit the <a href="./SAR11_operon_vis.html">Neighboring Genes</a> and <a href="./Neighborhood_network.html">Neighboring Network</a> page.<br>
+                    If you want to explore the expression profile with environmental parameters, please visit the <a href="./metaT.html">Metatranscriptome Viewer</a> page.
                 </div>
 
                 <label for="ogInput">Enter OG name:</label>
                 <input type="text" id="ogInput" placeholder="OG0000001">
                 <button id="updateOGButton">Update OG Data</button>
                     <button id="browseSynButton" disabled style="margin-left:8px;">Browse Synteny</button>
+                    <button id="openSyntenyNetworkButton" disabled style="margin-left:8px;">Synteny Network</button>
                     <button id="openExpressionButton" disabled style="margin-left:8px;">Expression Profile</button>
                     <br><br>
                 <br><br>
@@ -206,15 +235,18 @@
                         <div id="pfamBar" style="width:100%; height:300px;"></div>
                     </div>
 
-                    <!-- 右カラム: Taxonium 埋め込み（縦長） -->
+                    <!-- 右カラム: EgoNet + Taxonium -->
                     <div id="taxoniumContainer" style="width:60%">
+                        <!-- Mini Ego network (minimal controls) -->
+                        <div id="egoMiniHeader" style="font-size:0.95em; color:#333; margin-bottom:6px;">Synteny Network</div>
+                        <div id="egoMini" style="height:400px; border:1px solid #666; margin-bottom:10px;"></div>
                         <!-- 系統樹上の小さな説明（Presence/Absence 表示） -->
                         <div id="taxoniumCaption" style="font-size:0.95em; color:#333; margin-bottom:8px;">Presence(yellow)/Absence(blue) of <strong>OG0000000</strong></div>
                         <!-- ローカル wrapper を使って taxonium を埋め込みます。wrapper を再読み込みすることで外部表示を確実に更新 -->
                             <iframe id="taxoniumFrame"
                             src="./taxonium_wrapper.html?og=OG0000000&ts=0"
                             width="100%"
-                            height="1410"
+                            height="980"
                             style="border: 1px solid #666;"
                             allowfullscreen
                             ></iframe>
@@ -473,6 +505,14 @@
                                 if (smallEl) {
                                     smallEl.innerHTML = `Presence/Absence of <strong>${og}</strong>`;
                                 }
+                                // Update mini-ego header to link to Neighboring Network for this OG
+                                try {
+                                    const egoHdr = document.getElementById('egoMiniHeader');
+                                    if (egoHdr) {
+                                        const enc = encodeURIComponent(og);
+                                        egoHdr.innerHTML = `Synteny Network of <a href="./Neighborhood_network.html?ogInput=${enc}" target="_blank">${og}</a>`;
+                                    }
+                                } catch(e) { console.warn('Failed to update egoMiniHeader', e); }
                             } catch (capErr) {
                                 console.warn('Failed to update captions', capErr);
                             }
@@ -490,7 +530,7 @@
                             }
                             // update metaT map for this OG (if function defined)
                             try { if (typeof updateMetaTMap === 'function') updateMetaTMap(og); } catch(e) { console.warn('updateMetaTMap failed', e); }
-                        
+
                             // --- Pfam barplot (Pfam_ID x Specific_Pfam_Count) ---
                             try {
                                 const pfamPath = `../data/og_annot_count/pfam/pfam_count_barplot.csv`;
@@ -630,9 +670,15 @@
                         try {
                             lastUpdatedOG = og;
                             const browseBtn2 = document.getElementById('browseSynButton');
+                            const syNetBtn2 = document.getElementById('openSyntenyNetworkButton');
                             const exprBtn2 = document.getElementById('openExpressionButton');
                             if (browseBtn2) browseBtn2.disabled = false;
+                            if (syNetBtn2) syNetBtn2.disabled = false;
                             if (exprBtn2) exprBtn2.disabled = false;
+                            // render mini ego network for this OG if the mini ego script is available
+                            try {
+                                if (typeof renderEgoForOG === 'function') renderEgoForOG(og);
+                            } catch (e) { console.warn('renderEgoForOG failed', e); }
                         } catch (e) { console.warn('Failed to enable buttons after update', e); }
                     }
 
@@ -641,11 +687,13 @@
                     // Show Browse Synteny button after Update OG Data is clicked and wire it to open operon viz
                     try {
                         const browseBtn = document.getElementById('browseSynButton');
+                        const syNetBtn = document.getElementById('openSyntenyNetworkButton');
                         const exprBtn = document.getElementById('openExpressionButton');
                         if (browseBtn) {
                             // when Update OG Data is clicked, enable the Browse & Expression buttons (updateOGData will also enable them after successful update)
                             document.getElementById('updateOGButton').addEventListener('click', function() {
                                 try { browseBtn.disabled = false; } catch(e) {}
+                                try { if (syNetBtn) syNetBtn.disabled = false; } catch(e) {}
                                 try { if (exprBtn) exprBtn.disabled = false; } catch(e) {}
                             });
 
@@ -656,6 +704,15 @@
                                 const url = `./SAR11_operon_vis.html?ogInput=${encodeURIComponent(og.trim())}`;
                                 window.open(url, '_blank');
                             });
+                            // on click, open Neighboring Network (Synteny Network) for current OG in a new tab
+                            if (syNetBtn) {
+                                syNetBtn.addEventListener('click', function() {
+                                    const og = (document.getElementById('ogInput') || {}).value || '';
+                                    if (!og || og.trim() === '') { alert('Enter OG name'); return; }
+                                    const url = `./Neighborhood_network.html?ogInput=${encodeURIComponent(og.trim())}`;
+                                    window.open(url, '_blank');
+                                });
+                            }
                         }
                         if (exprBtn) {
                             // when clicked, open metaT viewer for the OG in a new tab
@@ -690,7 +747,9 @@
                                         // If buttons exist, enable them (URL-loaded OG counts as an update)
                                         try {
                                             const browseBtn = document.getElementById('browseSynButton');
+                                            const syNetBtn = document.getElementById('openSyntenyNetworkButton');
                                             if (browseBtn) browseBtn.disabled = false;
+                                            if (syNetBtn) syNetBtn.disabled = false;
                                             const exprBtn = document.getElementById('openExpressionButton');
                                             if (exprBtn) exprBtn.disabled = false;
                                         } catch (e2) { console.warn('Failed to enable buttons after URL load', e2); }
@@ -707,12 +766,15 @@
                             inputEl.addEventListener('input', function() {
                                 const cur = (this.value || '').trim();
                                 const browseBtn = document.getElementById('browseSynButton');
+                                const syNetBtn = document.getElementById('openSyntenyNetworkButton');
                                 const exprBtn = document.getElementById('openExpressionButton');
                                 if (lastUpdatedOG && cur === lastUpdatedOG) {
                                     if (browseBtn) browseBtn.disabled = false;
+                                    if (syNetBtn) syNetBtn.disabled = false;
                                     if (exprBtn) exprBtn.disabled = false;
                                 } else {
                                     if (browseBtn) browseBtn.disabled = true;
+                                    if (syNetBtn) syNetBtn.disabled = true;
                                     if (exprBtn) exprBtn.disabled = true;
                                 }
                             });
@@ -769,7 +831,10 @@
                     // update header with OG and link to metaT page
                     try {
                         const hdr = document.getElementById('metaTHeader');
-                        if (hdr) hdr.innerHTML = `Expression profile of ${og}, more detail: <a href="./metaT.html?og=${encodeURIComponent(og)}" target="_blank">Metatranscriptome Viewer</a>`;
+                        if (hdr) {
+                            const enc = encodeURIComponent(og);
+                            hdr.innerHTML = `Expression profile of <a href="./metaT.html?ogInput=${enc}" target="_blank">${og}</a> (Metatranscriptome Viewer)`;
+                        }
                     } catch(e) { console.warn('Failed to update metaT header', e); }
                     const csvFile = `../data/env_corr/${og}.csv`;
                     Papa.parse(csvFile, {
