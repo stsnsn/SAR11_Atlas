@@ -195,49 +195,52 @@ const calculatePearsonCorrelation = (x, y) => {
     return denominator !== 0 ? numerator / denominator : null;
 };
 
+// Helper: build paired arrays (x,y) from rows by keys, excluding rows where either value is NaN
+function buildPairedArrays(rows, xKey, yKey) {
+    const xs = [];
+    const ys = [];
+    for (let i = 0; i < rows.length; i++) {
+        const row = rows[i];
+        const xv = parseFloat(typeof xKey === 'function' ? xKey(row) : row[xKey]);
+        const yv = parseFloat(typeof yKey === 'function' ? yKey(row) : row[yKey]);
+        if (!isNaN(xv) && !isNaN(yv)) {
+            xs.push(xv);
+            ys.push(yv);
+        }
+    }
+    return { x: xs, y: ys };
+}
+
 // Update plots
 const updatePlots = (data) => {
-    const temperature = data.map(row => parseFloat(row.Temperature)).filter(val => !isNaN(val));
-    const tpm = data.map(row => parseFloat(row.sumTPM)).filter(val => !isNaN(val));
-    const salinity = data.map(row => parseFloat(row.Salinity)).filter(val => !isNaN(val));
-    const depth = data.map(row => parseFloat(row.Depth)).filter(val => !isNaN(val));
-    const oxygen = data.map(row => parseFloat(row.Oxygen)).filter(val => !isNaN(val));
+    // Build paired arrays so NA are removed row-wise and x/y remain aligned
+    const tempPair = buildPairedArrays(data, 'Temperature', 'sumTPM');
+    const temperature = tempPair.x;
+    const tpm_temp = tempPair.y;
 
-    // 相関計算
-    const tempCorr = calculatePearsonCorrelation(temperature, tpm);
-    const salinityCorr = calculatePearsonCorrelation(salinity, tpm);
-    const depthCorr = calculatePearsonCorrelation(depth, tpm);
-    const oxygenCorr = calculatePearsonCorrelation(oxygen, tpm);
+    const salPair = buildPairedArrays(data, 'Salinity', 'sumTPM');
+    const salinity = salPair.x;
+    const tpm_sal = salPair.y;
 
-    // プロット更新
-    const temperatureData = {
-        x: temperature,
-        y: tpm,
-        mode: 'markers',
-        type: 'scatter',
-        marker: { color: 'blue', size: 10, opacity: 0.2 }
-    };
-    const salinityData = {
-        x: salinity,
-        y: tpm,
-        mode: 'markers',
-        type: 'scatter',
-        marker: { color: 'green', size: 10, opacity: 0.2 }
-    };
-    const depthData = {
-        x: depth,
-        y: tpm,
-        mode: 'markers',
-        type: 'scatter',
-        marker: { color: 'red', size: 10, opacity: 0.2 }
-    };
-    const oxygenData = {
-        x: oxygen,
-        y: tpm,
-        mode: 'markers',
-        type: 'scatter',
-        marker: { color: 'purple', size: 10, opacity: 0.2 }
-    };
+    const depthPair = buildPairedArrays(data, 'Depth', 'sumTPM');
+    const depth = depthPair.x;
+    const tpm_depth = depthPair.y;
+
+    const oxyPair = buildPairedArrays(data, 'Oxygen', 'sumTPM');
+    const oxygen = oxyPair.x;
+    const tpm_oxy = oxyPair.y;
+
+    // 相関計算（各ペアで対応する tpm を使う）
+    const tempCorr = calculatePearsonCorrelation(temperature, tpm_temp);
+    const salinityCorr = calculatePearsonCorrelation(salinity, tpm_sal);
+    const depthCorr = calculatePearsonCorrelation(depth, tpm_depth);
+    const oxygenCorr = calculatePearsonCorrelation(oxygen, tpm_oxy);
+
+    // プロット更新（x/y は常にペアで揃っている）
+    const temperatureData = { x: temperature, y: tpm_temp, mode: 'markers', type: 'scatter', marker: { color: 'blue', size: 10, opacity: 0.2 } };
+    const salinityData = { x: salinity, y: tpm_sal, mode: 'markers', type: 'scatter', marker: { color: 'green', size: 10, opacity: 0.2 } };
+    const depthData = { x: depth, y: tpm_depth, mode: 'markers', type: 'scatter', marker: { color: 'red', size: 10, opacity: 0.2 } };
+    const oxygenData = { x: oxygen, y: tpm_oxy, mode: 'markers', type: 'scatter', marker: { color: 'purple', size: 10, opacity: 0.2 } };
 
     const temperatureLayout = { title: `Temperature vs TPM (r = ${tempCorr !== null ? tempCorr.toFixed(2) : 'N/A'})`, xaxis: { title: 'Temperature' },yaxis: { title: 'TPM'}};
     const salinityLayout = { title: `Salinity vs TPM (r = ${salinityCorr !== null ? salinityCorr.toFixed(2) : 'N/A'})` , xaxis: { title: 'Salinity' },yaxis: { title: 'TPM'}};
@@ -268,17 +271,18 @@ document.getElementById('updateUserPlot').addEventListener('click', () => {
             complete: function(results) {
                 const data = results.data;
 
-                // 指定されたパラメータとTPMデータを抽出
-                const paramData = data.map(row => parseFloat(row[userParam])).filter(val => !isNaN(val));
-                const tpm = data.map(row => parseFloat(row.sumTPM)).filter(val => !isNaN(val));
+                // 指定されたパラメータとTPMデータを行単位でペアにして抽出（NA を含む行を除外）
+                const pair = buildPairedArrays(data, userParam, 'sumTPM');
+                const paramData = pair.x;
+                const tpm_p = pair.y;
 
                 // ピアソン相関係数を計算
-                const correlation = calculatePearsonCorrelation(paramData, tpm);
+                const correlation = calculatePearsonCorrelation(paramData, tpm_p);
 
-                // プロットデータの作成
+                // プロットデータの作成（x/y は対応）
                 const userPlotData = {
                     x: paramData,
-                    y: tpm,
+                    y: tpm_p,
                     mode: 'markers',
                     type: 'scatter',
                     marker: { color: 'brown', size: 10, opacity: 0.2 }
