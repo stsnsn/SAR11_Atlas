@@ -58,7 +58,19 @@ const updateCircles = (csvFilePath) => {
     markers.forEach(marker => map.removeLayer(marker));
     markers = [];
 
-    Papa.parse(csvFilePath, {
+    // purge existing plots to avoid showing stale data while new CSV loads
+    try {
+        Plotly.purge('temperaturePlot');
+        Plotly.purge('salinityPlot');
+        Plotly.purge('depthPlot');
+        Plotly.purge('oxygenPlot');
+        Plotly.purge('userPlot');
+    } catch (e) { /* ignore if plots not initialized */ }
+
+    // add cache-busting timestamp if caller didn't already include one
+    const fetchPath = csvFilePath.includes('ts=') ? csvFilePath : csvFilePath + (csvFilePath.includes('?') ? '&' : '?') + 'ts=' + Date.now();
+
+    Papa.parse(fetchPath, {
         download: true,
         header: true,
         complete: function(results) {
@@ -95,8 +107,13 @@ const updateCircles = (csvFilePath) => {
     });
 };
 
-// 初期表示
-const initialCsvFile = '../data/env_corr/OG0000000.csv';
+// 初期表示: URL パラメータに ogInput があればそれを使い、CSV 読み込み時はキャッシュバスターを付与
+const urlParams = new URLSearchParams(window.location.search || window.location.hash.replace(/^#/, ''));
+const ogFromUrl = urlParams.get('ogInput') || urlParams.get('og') || null;
+const initialOg = (ogFromUrl && ogFromUrl.trim()) ? ogFromUrl.trim() : (ogInputEl && ogInputEl.value ? ogInputEl.value.trim() : 'OG0000000');
+const initialCsvFile = `../data/env_corr/${initialOg}.csv?ts=${Date.now()}`;
+// Clear plots and render initial circles
+try { resetUserPlot(); } catch (e) {}
 updateCircles(initialCsvFile);
 // 初期ヘッダー表示: デフォルトOGを表示
 try {
@@ -261,8 +278,8 @@ document.getElementById('updateUserPlot').addEventListener('click', () => {
 
     // パラメータが有効かどうかをチェック
     if (validParams.includes(userParam)) {
-        const ogId = document.getElementById('ogInput').value.trim();
-        const csvFilePath = `../data/env_corr/${ogId}.csv`;
+    const ogId = document.getElementById('ogInput').value.trim();
+    const csvFilePath = `../data/env_corr/${ogId}.csv?ts=${Date.now()}`;
 
         // CSVファイルをパース
         Papa.parse(csvFilePath, {
