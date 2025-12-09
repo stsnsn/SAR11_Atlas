@@ -190,6 +190,8 @@
                                 $("#table").DataTable({
                                     dom: "Bfrtipl",
                                     pageLength: 10,
+                                    scrollX: true, // enable horizontal scrolling so header and body scroll together
+                                    fixedHeader: true, // ヘッダーを固定表示
                                     buttons: ["copy", "csv",
                                         {
                                             text: "JSON",

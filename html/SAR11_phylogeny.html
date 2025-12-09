@@ -131,9 +131,9 @@
 
                 <!-- 説明 -->
                 <p style="text-align: left;">
-                    This map and table includes 541 SAR11 genomes with available isolation site information.<br>
+                    This map and table includes available isolation site information of SAR11 genomes.<br>
                     You can filter the genomes by selecting "MAG", "SAG", or "Cultured strain" from the "Data filter" pull-down menu.<br>
-                    Click on the markers in the map to see more information about each genome.
+                    Overlapping markers are automatically clustered and labeled with the number of genomes they contain. Click on a marker to view detailed information about each genome.<br>
                     The tree file and metadata can be downloaded from the <a href="./download.html">Download page</a>.
                 </p>
 
@@ -242,6 +242,8 @@
                                 $("#table").DataTable({
                                     dom: "Bfrtipl",
                                     pageLength: 10,
+                                    scrollX: true, // enable horizontal scrolling so header and body scroll together
+                                    fixedHeader: true, // ヘッダーを固定表示
                                     buttons: ["copy", "csv",
                                         {
                                             text: "JSON", // JSONボタン

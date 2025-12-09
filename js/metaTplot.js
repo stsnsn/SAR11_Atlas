@@ -4,7 +4,7 @@ document.getElementById('downloadData').addEventListener('click', () => {
     downloadCSV(csvFilePath);
 });
 
-// OG入力欄の初期値を設定（空ならOG1をセット）
+// OG入力欄の初期値を設定（空ならOG0000000をセット）
 const ogInputEl = document.getElementById('ogInput');
 if (ogInputEl && !ogInputEl.value.trim()) {
     ogInputEl.value = 'OG0000000';
@@ -19,18 +19,47 @@ const resetUserPlot = () => {
 
 // CSVダウンロード
 const downloadCSV = (csvFilePath) => {
-    Papa.parse(csvFilePath, {
-        download: true,
-        header: true,
-        complete: function(results) {
-            const data = results.data;
-            const csv = Papa.unparse(data);
-            const blob = new Blob([csv], { type: 'text/csv' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            alert('CSV file loading error');
-        }
-    });
+    // add cache-busting timestamp if not present
+    const fetchPath = csvFilePath.includes('ts=') ? csvFilePath : csvFilePath + (csvFilePath.includes('?') ? '&' : '?') + 'ts=' + Date.now();
+
+    const doParse = (path, tryPlainFallback = true) => {
+        Papa.parse(path, {
+            download: true,
+            header: true,
+            complete: function(results) {
+                const data = results.data || [];
+                try {
+                    const csv = Papa.unparse(data);
+                    const blob = new Blob([csv], { type: 'text/csv' });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    // filename from path or default
+                    const og = (document.getElementById('ogInput') || {}).value || 'OG';
+                    a.download = `${og}.csv`;
+                    document.body.appendChild(a);
+                    a.click();
+                    a.remove();
+                    setTimeout(() => URL.revokeObjectURL(url), 1000);
+                } catch (e) {
+                    console.error('Failed to generate CSV download', e);
+                    alert('Failed to generate CSV for download');
+                }
+            },
+            error: function(err) {
+                console.warn('CSV load error for', path, err);
+                if (tryPlainFallback && path !== csvFilePath) {
+                    // retry without ts param
+                    const plain = csvFilePath.replace(/\?.*$/, '');
+                    doParse(plain, false);
+                    return;
+                }
+                alert('CSV file loading error');
+            }
+        });
+    };
+
+    doParse(fetchPath);
 };
 
 const map = L.map('map', {
