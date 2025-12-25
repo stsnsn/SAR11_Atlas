@@ -43,27 +43,43 @@
             if (!resp.ok) throw new Error('Failed to fetch network TSV');
             const text = await resp.text();
             const lines = text.split(/\r?\n/).filter(Boolean);
-            lines.forEach(line => {
+
+            lines.forEach((line, index) => {
+                // ヘッダー行をスキップ
+                if (index === 0) return;
                 const parts = line.split(/\t/);
-                if (parts.length < 3) return; // OG1, OG2, direction が必要
+                // 必要な列（5列目のqvalueまで）があるかチェック
+                if (parts.length < 5) return;
                 const a0 = parts[0].trim(); // OG1
                 const b0 = parts[1].trim(); // OG2
-                const weight = parseFloat(parts[2].trim()); // direction
-                if (!a0 || !b0 || isNaN(weight)) return;
-
+                // IDの変換を最初に行い、変数 a, b を定義
                 const a = ogToNumId(a0);
                 const b = ogToNumId(b0);
+
+                const dirValue = parseFloat(parts[2].trim());
+                const qValue = parseFloat(parts[4].trim());
+
+                // 重み計算: -log10(qvalue)
+                const weight = -Math.log10(qValue || 1);
+
+                if (!a || !b || isNaN(weight)) return;
+
                 nodesSet.add(a);
                 nodesSet.add(b);
 
-                // 重み付きエッジを追加
+                // 隣接リストの初期化
                 if (!adjacency.has(a)) adjacency.set(a, []);
                 if (!adjacency.has(b)) adjacency.set(b, []);
-                adjacency.get(a).push({ to: b, weight });
-                adjacency.get(b).push({ to: a, weight }); // 無向グラフの場合
+
+                // 色
+                const color = dirValue > 0 ? '#d62728' : '#1f77b4'; 
+                adjacency.get(a).push({ to: b, weight, color });
+                adjacency.get(b).push({ to: a, weight, color });
             });
+
         } catch (e) {
-            console.warn('Failed to load network TSV', e);
+            // エラー
+            console.error('Failed to load network TSV:', e);
         }
     }
 
@@ -112,7 +128,7 @@
     }
 
     // If onlyBidirectional is true, only traverse edges that exist in both directions
-    function extractEgo(start, maxDepth, maxNodes, onlyBidirectional = false) {
+    function extractEgo(start, maxDepth, maxNodes, onlyBidirectional = false, qValueThreshold = 0.05) {
         const visited = new Map();
         const q = [{ node: start, depth: 0 }];
         visited.set(start, 0);
@@ -131,6 +147,9 @@
                         continue;
                     }
                 }
+
+                // Filter by qValue threshold: skip if the edge weight (derived from qValue) is below the threshold
+                if (nb.weight < qValueThreshold) continue;
 
                 if (!visited.has(n)) {
                     visited.set(n, depth + 1);
@@ -170,16 +189,21 @@
             const n = parseInt(String(id), 10);
             const short = Number.isNaN(n) ? String(id).slice(-4) : String(n % 10000).padStart(4, '0');
             const ann = annotMap.get(String(id)) || {};
-            const raw = ann.raw || {};
             const cogLetter = ann.COG_LETTER || ann.COG || null;
             const color = colorForCog(cogLetter);
+
             return {
                 data: {
                     id: id,
                     label: short,
                     og: numIdToOg(id),
                     depth: visited.get(id),
-                    color: color
+                    color: color,
+                    // --- 注釈情報を追加 ---
+                    cogId: ann.COG_ID,
+                    koId: ann.ko_id,
+                    cogName: ann.raw ? (ann.raw.COG_NAME || ann.raw.cog_name) : null,
+                    koDesc: ann.raw ? (ann.raw.ko_description || ann.raw.KO_NAME) : null
                 }
             };
         });
@@ -189,7 +213,7 @@
         ids.forEach(u => {
             (adjacency.get(u) || []).forEach(e => {
                 const v = e.to;
-                const weight = e.weight || 1; // デフォルト重みは 1
+                const weight = e.weight || 1;
                 if (!idSet.has(v)) return;
                 const k = pairKey(u, v);
                 if (added.has(k)) return;
@@ -200,7 +224,8 @@
                         id: k,
                         source: u,
                         target: v,
-                        weight: weight // 重みを追加
+                        weight: weight,
+                        color: e.color // 隣接リストから色を取得してデータに追加
                     }
                 });
             });
@@ -240,12 +265,12 @@
                 // center node (depth=0): highlight by adding an outline only (no background override)
                 { selector: 'node[depth = 0]', style: { 'border-width': 2, 'border-color': '#ff7f0e', 'border-opacity': 1, 'border-style': 'solid' } },
                 { selector: 'edge', style: {
-                    'width': 'mapData(weight, 1, 100, 0.5, 10)', // 重みをエッジの太さにマッピング
-                    'line-color': '#999',
+                    'width': 'mapData(weight, 2, 25, 1, 8)', // 重みをエッジの太さにマッピング
+                    'line-color': 'data(color)', // エッジの色を設定
                     'curve-style': 'bezier',
-                    'target-arrow-shape': 'triangle',
-                    'target-arrow-color': '#999',
-                    'arrow-scale': 0.4
+                    'target-arrow-shape': 'none',
+                    'source-arrow-shape': 'none',
+                    'opacity': 0.8 // 少し透明にして重なりを見やすく
                 }},
                 // bidirectional edges: show arrows on both ends
                 { selector: 'edge[bidirectional = "true"]', style: { 'source-arrow-shape': 'triangle', 'source-arrow-color': '#999', 'target-arrow-shape': 'triangle', 'target-arrow-color': '#999', 'arrow-scale': 0.4 } }
@@ -270,10 +295,11 @@
         cy.on('mouseover', 'node', evt => {
             const node = evt.target;
             const d = node.data();
-            const cogId = d.cogId || d.COG_ID || null;
-            const cogName = d.cogName || d.COG_NAME || null;
-            const koId = d.ko_id || d.ko || null;
-            const koDesc = d.koDesc || d.ko_description || null;
+            const cogId = d.cogId;
+            const cogName = d.cogName;
+            const koId = d.koId;
+            const koDesc = d.koDesc;
+
             let parts = [];
             if (cogId) {
                 const namePart = cogName ? `: ${cogName}` : '';
@@ -283,6 +309,7 @@
                 const descPart = koDesc ? `: ${koDesc}` : '';
                 parts.push(`${koId}${descPart}`);
             }
+
             const txt = parts.length ? parts.join('<br>') : '(no annotation)';
             tip.innerHTML = txt;
             tip.style.display = 'block';
@@ -392,6 +419,13 @@
         const depthVal = document.getElementById('depthVal');
         const egoInput = document.getElementById('egoNode');
         const maxNodesInput = document.getElementById('maxNodes');
+        const qRange = document.getElementById('qValueRange');
+        const qValDisp = document.getElementById('qValueVal');
+
+        qRange.addEventListener('input', () => {
+            qValDisp.textContent = qRange.value;
+            runExtract(); // スライダーを動かすたびに再描画
+        });
 
         function runExtract() {
             const centerRaw = (document.getElementById('egoNode').value || '').trim();
@@ -402,16 +436,18 @@
             }
             const maxDepth = parseInt(depthRange.value || '1', 10);
             const maxNodes = parseInt(document.getElementById('maxNodes').value || '500', 10) || 500;
+            const qValueThreshold = parseFloat(qRange.value || '0.05');
             const onlyBidirectional = !!document.getElementById('onlyBidirectional') && document.getElementById('onlyBidirectional').checked;
+
             const selectedVisited = extractEgoNoLimit(center, maxDepth);
-            const visited = extractEgo(center, maxDepth, maxNodes, onlyBidirectional);
+            const visited = extractEgo(center, maxDepth, maxNodes, onlyBidirectional, qValueThreshold);
             const elements = buildElements(visited, onlyBidirectional, center);
             renderCy(elements);
-            // mark this center and maxNodes as the last extracted and enable exports
+
             lastExtractCenter = centerRaw;
             lastExtractMaxNodes = maxNodes;
             setExportButtonsEnabled(true);
-            // update cyInfo with selected and visualized node counts
+
             try {
                 const cyInfo = document.getElementById('cyInfo');
                 if (cyInfo) cyInfo.textContent = `Selected node = ${selectedVisited.size}; Visualized node = ${elements.nodes.length}`;

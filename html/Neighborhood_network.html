@@ -29,6 +29,11 @@
         .control-row label { margin-right:6px; }
         /* disabled action buttons look gray */
         button:disabled { background: #e9ecef; color: #6c757d; cursor: not-allowed; }
+
+        input[type="range"]:disabled {
+            opacity: 0.5; /* 半透明にする */
+            cursor: not-allowed; /* カーソルを変更 */
+        }
     </style>
 
 </head>
@@ -71,6 +76,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="./Neighborhood_network.html">Neighboring Network</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Corgias_network.html">CORGIAS Network</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./metaT.html">Metatranscriptome Viewer</a>
@@ -187,5 +195,16 @@
             </main>
         </div>
     </div>
+    <script>
+        const depthRange = document.getElementById('depthRange');
+        const egoNodeInput = document.getElementById('egoNode');
+
+        // 初期状態でスライダーを無効化
+        depthRange.disabled = true;
+
+        egoNodeInput.addEventListener('input', () => {
+            depthRange.disabled = !egoNodeInput.value.trim();
+        });
+    </script>
 </body>
 </html>

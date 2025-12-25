@@ -29,6 +29,10 @@
         .control-row label { margin-right:6px; }
         /* disabled action buttons look gray */
         button:disabled { background: #e9ecef; color: #6c757d; cursor: not-allowed; }
+        input[type="range"]:disabled {
+            opacity: 0.5; /* 半透明にする */
+            cursor: not-allowed; /* カーソルを変更 */
+        }
     </style>
 
 </head>
@@ -121,18 +125,28 @@
                 <!-- Dark-mode toggle END -->
 
                 <!-- EDITABLE ZONE START -->
-                <p>This is a co- or anti-occurrence network of orthogroups (OGs). Nodes are OGs colored by COG functional categories.<br>
-                    <strong>How to use:</strong> enter an OG ID (e.g. <code>OG0000123</code>) and click the <i>Extract and show</i> button.<br>
-
+                <p>
+                    This is an <strong>undirected network</strong> showing co-occurrence or anti-occurrence between orthogroups (OGs).<br>
+                    <strong>Nodes:</strong> Represent OGs, colored by their COG functional categories.<br>
+                    <strong>Edges:</strong> Weighted by the statistical significance, calculated as $-\log_{10}(q\text{-value})$. 
+                    Thicker edges represent more significant associations.<br>
+                    <strong>Colors:</strong>
+                    <span style="color: #d62728; font-weight: bold;">Red</span> indicates positive correlation (co-occurrence), while 
+                    <span style="color: #1f77b4; font-weight: bold;">Blue</span> indicates negative correlation (anti-occurrence).<br><br>
+                    <strong>How to use:</strong> Enter an OG ID (e.g., <code>OG0000123</code>) and click the <i>Extract and show</i> button.
+                </p>
                 <!-- Ego-network prototype using Cytoscape -->
                 <div id="egoPanel">
                     <h3>Correlation Network</h3>
                     <div class="control-row">
                         <label for="egoNode">Center node (OG ID):</label>
-                        <input type="text" id="egoNode" placeholder="OG0000173">
+                        <input type="text" id="egoNode" placeholder="OG0001059">
                         <label for="depthRange">Depth</label>
-                        <input type="range" id="depthRange" min="1" max="3" value="1">
-                        <span id="depthVal">1</span>
+                            <input type="range" id="depthRange" min="1" max="5" value="2">
+                            <span id="depthVal">2</span>
+                        <label for="qValueRange">Significance (-log10 q):</label>
+                            <input type="range" id="qValueRange" min="0" max="20" step="1" value="2">
+                            <span id="qValueVal">2</span>
                         <button id="extractBtn">Extract and show</button>
                         <button id="exportPngBtn" disabled>Export PNG</button>
                         <button id="exportJsonBtn" disabled>Export JSON</button>
@@ -143,29 +157,6 @@
                     <div id="cy" style="position:relative"></div>
                     <div style="margin-top:8px; color:#666; font-size:0.9em">Note: If the webpage is slow, please use small depths.</div>
                 </div>
-
-                <script>
-                    // Centralize the cosmograph URL so it can be updated in one place
-                    const cosmograph_url = "https://cosmograph.app/run/?data=https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/251203_net.tsv&meta=https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/251202_nei_annot.tsv&source=query_num&target=target_num&gravity=1&repulsion=1&repulsionTheta=1.15&linkSpring=1&linkDistance=10&friction=0.85&renderLabels=true&renderHoveredLabel=true&renderLinks=true&linkArrows=true&nodeSizeScale=1&linkWidthScale=1&linkArrowsSizeScale=1&nodeSize=size-default&nodeColor=color-COG_LETTER&nodeLabel=Orthogroup&linkWidth=width-default&linkColor=color-default&";
-                    // On DOM ready, assign to link and iframe
-                    document.addEventListener('DOMContentLoaded', function() {
-                        const a = document.getElementById('cosmograph_fullscreen');
-                        const here = document.getElementById('cosmograph_here');
-                        const iframe = document.getElementById('cosmograph');
-                        if (a) a.href = cosmograph_url;
-                        if (here) here.href = cosmograph_url;
-                        if (iframe) {
-                            // Prevent iframe from stealing focus and delay its loading to reduce auto-scroll
-                            try {
-                                iframe.setAttribute('loading', 'lazy');
-                                iframe.setAttribute('tabindex', '-1');
-                                iframe.loading = 'lazy';
-                                iframe.tabIndex = -1;
-                            } catch (e) { /* ignore if attributes not supported */ }
-                            iframe.src = cosmograph_url;
-                        }
-                    });
-                </script>
 
                 <!-- <br><br>
                 <h4 style="margin-top:18px; margin-bottom:6px;">Full Network by Cosmograph</h4>
@@ -188,5 +179,19 @@
             </main>
         </div>
     </div>
+    <script>
+        const qValueRange = document.getElementById('qValueRange');
+        const egoNodeInput = document.getElementById('egoNode');
+
+        // 初期状態でスライダーを無効化
+        qValueRange.disabled = true;
+        depthRange.disabled = true;
+
+        // OG ID入力時にスライダーを有効化
+        egoNodeInput.addEventListener('input', () => {
+            qValueRange.disabled = !egoNodeInput.value.trim();
+            depthRange.disabled = !egoNodeInput.value.trim();
+        });
+    </script>
 </body>
 </html>
