@@ -189,9 +189,30 @@
                     var afdbInput = document.getElementById('afdb-input');
                     var foldBtn = document.getElementById('openFoldseek');
                     if (!afdbInput || !foldBtn) return;
+
+                    // URL のクエリパラメータからアクセッションを取得して初期表示する
+                    // サポートするキー: afdb, id, accession, q
+                    try {
+                        var params = new URLSearchParams(window.location.search);
+                        var keys = ['afdb', 'id', 'accession', 'q'];
+                        for (var i = 0; i < keys.length; i++) {
+                            var k = keys[i];
+                            if (params.has(k)) {
+                                var v = params.get(k);
+                                if (v && v.trim().length > 0) {
+                                    afdbInput.value = v.trim();
+                                }
+                                break;
+                            }
+                        }
+                    } catch (e) {
+                        // URLSearchParams が無い環境などでも安全にフォールバック
+                    }
+
                     afdbInput.addEventListener('input', function() {
                         try { foldBtn.disabled = true; } catch (e) { }
                     });
+
                     // ページロード時に既に値がある場合は自動でチェックを実行して有効化判定する
                     window.addEventListener('load', function() {
                         try {

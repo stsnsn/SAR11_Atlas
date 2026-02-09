@@ -24,7 +24,8 @@
     <style>
         /* simple styles for the ego-network panel */
         #egoPanel { border: 1px solid #dddddd00; padding: 12px; margin-top: 18px; background: #fafafa00; }
-        #cy { width: 100%; height: 560px; border: 1px solid #666; background: #fff; }
+        /* Use viewport-relative height so the network scales with window height */
+        #cy { width: 100%; height: 60vh; min-height: 300px; border: 1px solid #666; background: #fff; }
         .control-row { display:flex; gap:8px; align-items:center; margin-bottom:8px; flex-wrap:wrap }
         .control-row label { margin-right:6px; }
         /* disabled action buttons look gray */
@@ -205,6 +206,17 @@
         egoNodeInput.addEventListener('input', () => {
             depthRange.disabled = !egoNodeInput.value.trim();
         });
+
+        // Ensure Cytoscape redraws on window resize (uses window.cy exposed from Neighborhood_ego.js)
+        function handleWindowResizeForCy() {
+            try {
+                if (window.cy && typeof window.cy.resize === 'function') {
+                    window.cy.resize();
+                }
+            } catch (e) { /* ignore */ }
+        }
+        window.addEventListener('resize', handleWindowResizeForCy);
+        window.addEventListener('load', handleWindowResizeForCy);
     </script>
 </body>
 </html>

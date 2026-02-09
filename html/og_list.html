@@ -175,13 +175,53 @@
                                         let cellHtml = '';
                                         if (cell === undefined || cell === null) {
                                             cellHtml = '';
-                                        } else if (colIndex === 0) {
-                                            // first column assumed to be OG id -> make it a link to OG info page
-                                            const og = String(cell).trim();
-                                            const href = `./SAR11_OG_info.html?ogInput=${encodeURIComponent(og)}`;
-                                            cellHtml = `<a href="${href}" target="_blank">${og}</a>`;
                                         } else {
-                                            cellHtml = String(cell);
+                                            const h = String(header || '').toLowerCase().trim();
+                                            // OG ID (first column) -> link to internal OG page
+                                            if (colIndex === 0) {
+                                                const og = String(cell).trim();
+                                                const href = `./SAR11_OG_info.html?ogInput=${encodeURIComponent(og)}`;
+                                                cellHtml = `<a href="${href}" target="_blank">${og}</a>`;
+                                            }
+                                            // KO -> link to KEGG when available
+                                            else if (h === 'ko' || h === 'ko_id') {
+                                                const ko = String(cell).trim();
+                                                if (ko && ko !== 'NA') {
+                                                    const href = `https://www.kegg.jp/entry/${encodeURIComponent(ko)}`;
+                                                    cellHtml = `<a href="${href}" target="_blank">${ko}</a>`;
+                                                } else {
+                                                    cellHtml = String(cell);
+                                                }
+                                            }
+                                            // COG -> link to NCBI COG when available
+                                            else if (h === 'cog' || h === 'cog_id') {
+                                                const cog = String(cell).trim();
+                                                if (cog && cog !== 'NA') {
+                                                    const href = `https://www.ncbi.nlm.nih.gov/research/cog/cog/${encodeURIComponent(cog)}`;
+                                                    cellHtml = `<a href="${href}" target="_blank">${cog}</a>`;
+                                                } else {
+                                                    cellHtml = String(cell);
+                                                }
+                                            }
+                                            // Pfams -> possibly multiple comma-separated IDs; link each (strip .NN for URL)
+                                            else if (h === 'pfams' || h === 'pfam' || h === 'pfam_id') {
+                                                const pf = String(cell).trim();
+                                                if (pf && pf !== 'NA') {
+                                                    const parts = pf.split(',').map(p => p.trim()).filter(Boolean);
+                                                    const linked = parts.map(p => {
+                                                        const pfamId = p.split('.')[0];
+                                                        const href = `https://www.ebi.ac.uk/interpro/entry/pfam/${encodeURIComponent(pfamId)}`;
+                                                        return `<a href="${href}" target="_blank">${p}</a>`;
+                                                    }).join(', ');
+                                                    cellHtml = linked;
+                                                } else {
+                                                    cellHtml = String(cell);
+                                                }
+                                            }
+                                            // default: raw text
+                                            else {
+                                                cellHtml = String(cell);
+                                            }
                                         }
                                         bodyHtml += `<td>${cellHtml}</td>`;
                                     });
@@ -191,8 +231,10 @@
 
                                 // initialize DataTable
                                 $("#table").DataTable({
-                                    dom: "Bfrtipl",
+                                    // removed 'l' from dom to hide the "show N entries" length menu
+                                    dom: "Bfrtip",
                                     pageLength: 10,
+                                    lengthChange: false, // hide length (show N entries) control
                                     scrollX: true, // enable horizontal scrolling so header and body scroll together
                                     fixedHeader: true, // ヘッダーを固定表示
                                     buttons: ["copy", "csv",
@@ -210,11 +252,19 @@
                                                 document.body.removeChild(link);
                                             }
                                     }, "excel", "print"],
+                                    // enable deferred rendering for large datasets (helps Scroller)
+                                    deferRender: false,
+                                    // responsive can interfere with Scroller; keep but Scroller configured below
                                     responsive: true,
                                     searching: true,
                                     ordering: true,
                                     scrollY: 600,
-                                    scroller: true,
+                                    // configure Scroller as an object for more stable behaviour
+                                    scroller: {
+                                        loadingIndicator: false,
+                                        // set a reasonable fixed row height (px) to avoid virtual scroll miscalculation
+                                        rowHeight: 28
+                                    },
                                     language: {
                                         infoEmpty: "No data available",
                                         info: "Showing _START_ to _END_ of _TOTAL_ entries",

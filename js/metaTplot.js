@@ -72,12 +72,35 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 
+// Determine the current rendered map size (use Leaflet map size if available,
+// otherwise fall back to the DOM element size). Use that size to create a
+// fixed size mode for easyPrint so the export uses the same pixel dimensions
+// as the on-screen map (prevents scaling differences between HTML and PDF).
+const _mapSize = (function() {
+    try {
+        const s = map.getSize();
+        if (s && s.x && s.y) return { width: s.x, height: s.y };
+    } catch (e) { /* ignore */ }
+    try {
+        const el = document.getElementById('map');
+        return { width: el.clientWidth || parseInt(getComputedStyle(el).width, 10) || 800,
+                 height: el.clientHeight || parseInt(getComputedStyle(el).height, 10) || 600 };
+    } catch (e) {
+        return { width: 800, height: 600 };
+    }
+})();
+
 const MapPrintPlugin = L.easyPrint({
     title: 'Save Map as Image',
     position: 'topright',
-    exportOnly: true, // プレビューなしで直接ダウンロード
-    sizeModes: ['A4Portrait'], // 選択肢
+    exportOnly: true, // 印刷プレビューなしで直接ダウンロード
+    // Use a single custom fixed-size mode matching the current map pixels
+    sizeModes: [{ height: _mapSize.height, width: _mapSize.width, name: 'Map Size', className: 'MapSize page' }],
     filename: 'SAR11_metaT_Map',
+    // レジェンドは leaflet のコントロールとして追加しているため
+    // デフォルトでコントロールを非表示にする設定を無効化して
+    // 印刷／エクスポートに含める
+    hideControlContainer: false,
 }).addTo(map);
 
 
@@ -104,14 +127,34 @@ const updateCircles = (csvFilePath) => {
         header: true,
         complete: function(results) {
             const data = results.data;
+            // compute max TPM for linear scaling if needed
+            const tpmValues = data.map(r => parseFloat(r.sumTPM)).filter(v => !isNaN(v) && v > 0);
+            const dataMax = tpmValues.length ? Math.max(...tpmValues) : 0;
+            const minRadius = 2;
+            const maxRadius = 20;
+            const useTransformed = (function(){
+                try { const el = document.getElementById('sizeLogToggle'); return el ? !!el.checked : true; } catch(e) { return true; }
+            })();
+
+            function computeRadius(tpm) {
+                if (isNaN(tpm) || tpm <= 0) return 0;
+                if (useTransformed) {
+                    // original power transform (kept for compatibility)
+                    return Math.pow(tpm, 0.3);
+                } else {
+                    // linear scaling mapped to [minRadius, maxRadius] using dataMax
+                    if (dataMax <= 0) return minRadius;
+                    const frac = Math.min(1, tpm / dataMax);
+                    return minRadius + frac * (maxRadius - minRadius);
+                }
+            }
             data.forEach(row => {
                 const lat = parseFloat(row.Latitude);
                 const lon = parseFloat(row.Longitude);
                 const tpm = parseFloat(row.sumTPM);
 
                 if (!isNaN(lat) && !isNaN(lon) && tpm > 0) {
-                    // radiusはピクセル単位に変更
-                    const radius = Math.pow(tpm, 0.3) * 1/1 ; // ピクセル単位に調整
+                    const radius = computeRadius(tpm);
 
                     const circleMarker = L.circleMarker([lat, lon], {
                         color: 'blue',
@@ -128,7 +171,9 @@ const updateCircles = (csvFilePath) => {
                     markers.push(circleMarker);
                 }
             });
-            updatePlots(data);
+                    updatePlots(data);
+                    // refresh legend to reflect current size scaling mode
+                    try { addLegend(); } catch (e) { /* ignore */ }
         },
         error: function() {
             alert('CSV file loading error');
@@ -144,6 +189,20 @@ const initialCsvFile = `../data/env_corr/${initialOg}.csv?ts=${Date.now()}`;
 // Clear plots and render initial circles
 try { resetUserPlot(); } catch (e) {}
 updateCircles(initialCsvFile);
+// Ensure easyPrint filename includes OG id
+try {
+    const setPrintFilename = () => {
+        const ogVal = (document.getElementById('ogInput') || {}).value.trim() || initialOg || 'OG0000000';
+        if (typeof MapPrintPlugin !== 'undefined' && MapPrintPlugin && MapPrintPlugin.options) {
+            MapPrintPlugin.options.filename = `SAR11_metaT_Map_${ogVal}`;
+        }
+    };
+    setPrintFilename();
+    // Update filename right before any print starts
+    try { map.on('easyPrint-start', setPrintFilename); } catch(e) { /* ignore */ }
+    // Also update when user requests an update (OG changed)
+    try { document.getElementById('updateMap').addEventListener('click', setPrintFilename); } catch(e) { /* ignore */ }
+} catch (e) { console.warn('Failed to initialize print filename updater', e); }
 // 初期ヘッダー表示: デフォルトOGを表示
 try {
     const hdr = document.getElementById('expressionProfileHeader');
@@ -160,6 +219,11 @@ try {
 
 // 凡例の追加
 const addLegend = () => {
+    // remove existing legend DOM if present to allow re-creation when scale toggles
+    try {
+        const existing = document.querySelector('.info.legend');
+        if (existing && existing.parentNode) existing.parentNode.removeChild(existing);
+    } catch (e) { /* ignore */ }
     const legend = L.control({ position: 'bottomright' });
 
     legend.onAdd = function () {
@@ -170,7 +234,9 @@ const addLegend = () => {
         // Loop through the grades to create the circles with appropriate sizes
         grades.forEach((grade, index) => {
             const nextGrade = grades[index + 1];
-            const circleSize = Math.pow(grade, 0.3) * 1/1; // size
+            // Respect current toggle state when showing legend sizes
+            const useTransformed = (function(){ try { const el = document.getElementById('sizeLogToggle'); return el ? !!el.checked : true; } catch(e) { return true; } })();
+            const circleSize = useTransformed ? Math.pow(grade, 0.3) : (function(){ const minRadius = 2; const maxRadius = 20; const dataMax = grades[grades.length-1] || grade; const frac = Math.min(1, grade / dataMax); return minRadius + frac * (maxRadius - minRadius); })();
             div.innerHTML += `
                 <i style="background: #3388ff; border-radius: 50%; width: ${circleSize}px; height: ${circleSize}px; display: inline-block;"></i>
                 ${grade}<br>
@@ -283,20 +349,47 @@ const updatePlots = (data) => {
     const oxygenCorr = calculatePearsonCorrelation(oxygen, tpm_oxy);
 
     // プロット更新（x/y は常にペアで揃っている）
-    const temperatureData = { x: temperature, y: tpm_temp, mode: 'markers', type: 'scatter', marker: { color: 'blue', size: 10, opacity: 0.2 } };
-    const salinityData = { x: salinity, y: tpm_sal, mode: 'markers', type: 'scatter', marker: { color: 'green', size: 10, opacity: 0.2 } };
-    const depthData = { x: depth, y: tpm_depth, mode: 'markers', type: 'scatter', marker: { color: 'red', size: 10, opacity: 0.2 } };
-    const oxygenData = { x: oxygen, y: tpm_oxy, mode: 'markers', type: 'scatter', marker: { color: 'purple', size: 10, opacity: 0.2 } };
+    // Determine whether to use log scale for TPM based on toggle
+    const useLogAxis = (function(){ try { const el = document.getElementById('sizeLogToggle'); return el ? !!el.checked : true; } catch(e) { return true; } })();
 
-    const temperatureLayout = { title: `Temperature vs TPM (r = ${tempCorr !== null ? tempCorr.toFixed(2) : 'N/A'})`, xaxis: { title: 'Temperature' },yaxis: { title: 'TPM'}};
-    const salinityLayout = { title: `Salinity vs TPM (r = ${salinityCorr !== null ? salinityCorr.toFixed(2) : 'N/A'})` , xaxis: { title: 'Salinity' },yaxis: { title: 'TPM'}};
-    const depthLayout = { title: `Depth vs TPM (r = ${depthCorr !== null ? depthCorr.toFixed(2) : 'N/A'})` , xaxis: { title: 'Depth' },yaxis: { title: 'TPM'}};
-    const oxygenLayout = { title: `Oxygen vs TPM (r = ${oxygenCorr !== null ? oxygenCorr.toFixed(2) : 'N/A'})` , xaxis: { title: 'Oxygen' },yaxis: { title: 'TPM'}};
+    function preparePlot(xArr, yArr, color, label) {
+        // filter pairs: if log axis requested, remove non-positive y values
+        let xs = xArr.slice();
+        let ys = yArr.slice();
+        if (useLogAxis) {
+            const xf = [], yf = [];
+            for (let i=0;i<ys.length;i++) {
+                const yv = ys[i];
+                if (!isNaN(yv) && yv > 0 && !isNaN(xs[i])) { xf.push(xs[i]); yf.push(ys[i]); }
+            }
+            xs = xf; ys = yf;
+        }
 
-    Plotly.newPlot('temperaturePlot', [temperatureData], temperatureLayout);
-    Plotly.newPlot('salinityPlot', [salinityData], salinityLayout);
-    Plotly.newPlot('depthPlot', [depthData], depthLayout);
-    Plotly.newPlot('oxygenPlot', [oxygenData], oxygenLayout);
+        // correlation: if log axis, compute correlation on log10(y), otherwise raw y
+        let corr = null;
+        try {
+            if (useLogAxis) {
+                const yl = ys.map(v => Math.log10(v));
+                corr = calculatePearsonCorrelation(xs, yl);
+            } else {
+                corr = calculatePearsonCorrelation(xs, ys);
+            }
+        } catch (e) { corr = null; }
+
+        const trace = { x: xs, y: ys, mode: 'markers', type: 'scatter', marker: { color: color, size: 10, opacity: 0.2 } };
+        const layout = { title: `${label} vs TPM (r = ${corr !== null ? corr.toFixed(2) : 'N/A'})`, xaxis: { title: label }, yaxis: { title: useLogAxis ? 'TPM (log10)' : 'TPM', type: useLogAxis ? 'log' : 'linear' } };
+        return { trace, layout };
+    }
+
+    const tPlot = preparePlot(temperature, tpm_temp, 'blue', 'Temperature');
+    const sPlot = preparePlot(salinity, tpm_sal, 'green', 'Salinity');
+    const dPlot = preparePlot(depth, tpm_depth, 'red', 'Depth');
+    const oPlot = preparePlot(oxygen, tpm_oxy, 'purple', 'Oxygen');
+
+    Plotly.newPlot('temperaturePlot', [tPlot.trace], tPlot.layout);
+    Plotly.newPlot('salinityPlot', [sPlot.trace], sPlot.layout);
+    Plotly.newPlot('depthPlot', [dPlot.trace], dPlot.layout);
+    Plotly.newPlot('oxygenPlot', [oPlot.trace], oPlot.layout);
 };
 
 // ユーザー指定パラメータを基に相関プロット作成

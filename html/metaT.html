@@ -222,6 +222,11 @@
                             <button id="updateMap">Update Map and Correlation plots</button>
                             <!-- 初期は無効化: OGが読み込まれたら有効にする -->
                             <button id="downloadData" disabled>Download CSV</button>
+                            <!-- Size transform toggle -->
+                            <label style="margin-left:8px; display:inline-flex; align-items:center; gap:6px;">
+                                <input type="checkbox" id="sizeLogToggle">
+                                <span style="font-size:0.9em;">Log-scale</span>
+                            </label>
                         </div>
                         <p> The plots show the correlation between the expression level of the selected OG and environmental factors.</p>
                     </div>
@@ -318,6 +323,20 @@
                                 }
                             } catch (e) { /* ignore */ }
                         });
+
+                        // sizeLogToggle change: re-render circles with current OG when user toggles scale
+                        try {
+                            const toggle = document.getElementById('sizeLogToggle');
+                            if (toggle) {
+                                toggle.addEventListener('change', () => {
+                                    try {
+                                        const ogNumber = (document.getElementById('ogInput') || {}).value.trim() || 'OG0000000';
+                                        const newCsvFile = `../data/env_corr/${ogNumber}.csv`;
+                                        updateCircles(newCsvFile);
+                                    } catch (e) { console.warn('Failed to re-render circles on scale toggle', e); }
+                                });
+                            }
+                        } catch (e) { /* ignore */ }
                     })();
                 </script>
                 <br>

@@ -43,7 +43,43 @@
 					$table.append($thead);
 
 					// Prepare DataTables columns
-					var columns = fields.map(function(f) { return { data: f, title: f }; });
+					var columns = fields.map(function(f) {
+						var col = { data: f, title: f };
+						try {
+							var lname = (f || '').toString().toLowerCase();
+
+							// Accession-like column -> open genes_linked_to_3d_structures with afdb param
+							var isAccession = (lname === 'accession_number' || lname === 'accession' || lname.indexOf('accession') !== -1 || lname.indexOf('acc') === 0);
+
+							// Orthogroup-like column -> open SAR11_OG_info with ogInput param
+							var isOG = (lname === 'orthogroup' || lname.indexOf('orthogroup') !== -1 || lname === 'og' || lname === 'og_id' || lname === 'orthogroup_id');
+
+							if (isAccession) {
+								col.render = function(data, type, row, meta) {
+									if (!data) return '';
+									try {
+										var esc = encodeURIComponent(data);
+										var href = './genes_linked_to_3d_structures.html?afdb=' + esc;
+										return '<a target="_blank" rel="noopener noreferrer" href="' + href + '">' + data + '</a>';
+									} catch (e) {
+										return data;
+									}
+								};
+							} else if (isOG) {
+								col.render = function(data, type, row, meta) {
+									if (!data) return '';
+									try {
+										var esc = encodeURIComponent(data);
+										var href = './SAR11_OG_info.html?ogInput=' + esc;
+										return '<a target="_blank" rel="noopener noreferrer" href="' + href + '">' + data + '</a>';
+									} catch (e) {
+										return data;
+									}
+								};
+							}
+						} catch (e) { /* ignore */ }
+						return col;
+					});
 
 					// Initialize DataTable with buttons
 					$table.DataTable({

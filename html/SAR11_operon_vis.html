@@ -93,6 +93,124 @@
                 <!-- Dark-mode toggle -->
                 <button id="toggleTheme" class="mb-3">Toggle Dark/Light Mode</button>
                 <script>
+                    // pending download action when a re-render is required ('svg' or 'pdf')
+                    let pendingDownload = null;
+
+                    // Helper: show download buttons
+                    function showDownloadControls() {
+                        const el = document.getElementById('downloadControls');
+                        if (el) el.style.display = 'flex';
+                        // if a download was requested while waiting for re-render, perform it now
+                        try { performPendingDownload(); } catch (e) { console.warn('performPendingDownload failed', e); }
+                    }
+
+                    // Helper: serialize SVG element to a downloadable SVG file
+                    function downloadSvgFile(filename = 'operon_visualization.svg') {
+                        // determine a safe filename using OG input when available
+                        try {
+                            const ogValRaw = (document.getElementById('ogInput') && document.getElementById('ogInput').value) || '';
+                            const ogVal = ogValRaw.trim();
+                            const safeOg = ogVal ? ogVal.replace(/[^a-zA-Z0-9._-]/g, '_') : '';
+                            if (!filename || filename === 'operon_visualization.svg') {
+                                if (safeOg) filename = `SAR11GenomeAtlas_${safeOg}_operon.svg`;
+                                else filename = 'operon_visualization.svg';
+                            }
+                        } catch (e) {
+                            console.warn('Failed to compute filename from OG input', e);
+                        }
+
+                        const svg = document.querySelector('#operonVisualization svg');
+                        const desiredMode = document.getElementById('lengthModeToggle') && document.getElementById('lengthModeToggle').checked ? 'actual' : 'scaled';
+                        if (!svg) {
+                            // If no SVG present, attempt to trigger render first
+                            pendingDownload = { type: 'svg', filename };
+                            document.getElementById('loadData').click();
+                            return;
+                        }
+                        const svgMode = svg.getAttribute('data-length-mode') || 'actual';
+                        if (svgMode !== desiredMode) {
+                            // request re-render with the desired mode, then download after render completes
+                            pendingDownload = { type: 'svg', filename };
+                            // trigger a re-render by clicking the load button (it will pick up the checkbox state)
+                            document.getElementById('loadData').click();
+                            return;
+                        }
+                        const serializer = new XMLSerializer();
+                        let source = serializer.serializeToString(svg);
+                        // add name space if missing
+                        if(!source.match(/^<svg[^>]+xmlns="http:\/\/www\.w3\.org\/2000\/svg"/)) {
+                            source = source.replace(/^<svg/, '<svg xmlns="http://www.w3.org/2000/svg"');
+                        }
+                        // add xml declaration
+                        const svgBlob = new Blob(["<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + source], {type: 'image/svg+xml;charset=utf-8'});
+                        const url = URL.createObjectURL(svgBlob);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = filename;
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                        setTimeout(() => URL.revokeObjectURL(url), 1000);
+                    }
+
+                    // Helper: open SVG in a new window and call print (user can save as PDF)
+                    function openSvgInPrintWindow() {
+                        // include OG in the print title when available
+                        const ogValRaw = (document.getElementById('ogInput') && document.getElementById('ogInput').value) || '';
+                        const ogVal = ogValRaw.trim();
+                        const safeOg = ogVal ? ogVal.replace(/[^a-zA-Z0-9._-]/g, '_') : '';
+
+                        const svg = document.querySelector('#operonVisualization svg');
+                        const desiredMode = document.getElementById('lengthModeToggle') && document.getElementById('lengthModeToggle').checked ? 'actual' : 'scaled';
+                        if (!svg) {
+                            pendingDownload = { type: 'pdf' };
+                            document.getElementById('loadData').click();
+                            return;
+                        }
+                        const svgMode = svg.getAttribute('data-length-mode') || 'actual';
+                        if (svgMode !== desiredMode) {
+                            pendingDownload = { type: 'pdf' };
+                            document.getElementById('loadData').click();
+                            return;
+                        }
+                        const serializer = new XMLSerializer();
+                        let source = serializer.serializeToString(svg);
+                        if(!source.match(/^<svg[^>]+xmlns="http:\/\/www\.w3\.org\/2000\/svg"/)) {
+                            source = source.replace(/^<svg/, '<svg xmlns="http://www.w3.org/2000/svg"');
+                        }
+                        const title = safeOg ? `${safeOg}_operon` : 'Print SVG';
+                        const html = `<!doctype html><html><head><meta charset="utf-8"><title>${title}</title>
+                            <style>body,html{margin:0;padding:0;} svg{width:100%;height:auto;}</style>
+                            </head><body>
+                            ${source}
+                            <script>window.onload=function(){setTimeout(function(){window.print();},300);};<\/script>
+                            </body></html>`;
+                        const w = window.open('', '_blank');
+                        if (!w) { alert('Popup blocked; allow popups to use PDF print.'); return; }
+                        w.document.open();
+                        w.document.write(html);
+                        w.document.close();
+                    }
+
+                    // Attach handlers to download buttons (if present)
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const svgBtn = document.getElementById('downloadSvgBtn');
+                        const pdfBtn = document.getElementById('downloadPdfBtn');
+                        if (svgBtn) svgBtn.addEventListener('click', function() { downloadSvgFile(); });
+                        if (pdfBtn) pdfBtn.addEventListener('click', function() { openSvgInPrintWindow(); });
+                    });
+                    
+                    // Called after render completes to perform a pending download if any
+                    function performPendingDownload() {
+                        if (!pendingDownload) return;
+                        const action = pendingDownload;
+                        pendingDownload = null; // clear first to avoid loops
+                        if (action.type === 'svg') {
+                            downloadSvgFile(action.filename || 'operon_visualization.svg');
+                        } else if (action.type === 'pdf') {
+                            openSvgInPrintWindow();
+                        }
+                    }
                     document.getElementById('toggleTheme').addEventListener('click', function () {
                         document.body.classList.toggle('dark-mode'); // bodyにダークモードのクラスを切り替え
                         document.getElementById('table').classList.toggle('dark-mode'); // tableにダークモードのクラスを切り替え
@@ -116,8 +234,13 @@
                         <span style="margin-left: 8px; font-size: 0.85rem; color: gray;">(ON = Actual)</span>
                     </div>
                 </div>
+                <!-- Download controls (hidden until data is loaded) -->
+                <div id="downloadControls" style="display:none; margin-bottom:8px; gap:8px;">
+                    <button id="downloadSvgBtn" class="btn btn-sm btn-primary">Download SVG</button>
+                    <button id="downloadPdfBtn" class="btn btn-sm btn-secondary">Download PDF (print)</button>
+                </div>
                 <div class="input-group mb-3">
-                    <input type="text" id="ogInput" class="form-control" placeholder="Enter OG (e.g., OG0000173)" aria-label="OG Input">
+                    <input type="text" id="ogInput" class="form-control" placeholder="Enter OG (e.g., OG0000173; rhodopsin; COG5524)" aria-label="OG Input">
                     <div class="input-group-append">
                         <button class="btn btn-outline-secondary" type="button" id="loadData">Load Data</button>
                     </div>
@@ -146,8 +269,10 @@
                                 delay: 50,
                                 autoFocus: true,   // ← 下のscriptにあった設定をこちらに統合
                                 select: function(event, ui) {
-                                    $("#ogInput").val(ui.item.value);
-                                    return false;
+                                        $("#ogInput").val(ui.item.value);
+                                        // Immediately trigger load without delay
+                                        $("#loadData").click();
+                                        return false;
                                 }
                             });
                             // Enterで loadData
@@ -267,7 +392,8 @@
                             const svg = d3.select('#operonVisualization')
                                 .append('svg')
                                 .attr('width', svgWidth)
-                                .attr('height', height);
+                                .attr('height', height)
+                                .attr('data-length-mode', useActualLengths ? 'actual' : 'scaled');
 
                             const g = svg.append('g').attr('transform', `translate(${margin.left}, ${margin.top})`);
 
@@ -445,9 +571,11 @@
                                         });
                                 });
                             });
-
                             // 凡例を描画
                             addLegend(svg, ogColor, margin);
+
+                            // show download controls now that rendering is complete
+                            try { showDownloadControls(); } catch (e) { console.warn('showDownloadControls failed', e); }
                         }).catch(error => {
                             alert('Error loading data: ' + error.message);
                         });

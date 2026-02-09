@@ -214,8 +214,7 @@
                     <button id="browseSynButton" disabled style="margin-left:8px;">Browse Synteny</button>
                     <button id="openSyntenyNetworkButton" disabled style="margin-left:8px;">Synteny Network</button>
                     <button id="openExpressionButton" disabled style="margin-left:8px;">Expression Profile</button>
-                    <br><br>
-                <br><br>
+                <br>
 
                 <!-- 大きな説明をここに表示（Enter OG name の下、見やすく） -->
                 <div id="bigOgCaption" style="font-size:1.05em; color:#1a1a1a; margin-bottom:12px; font-weight:600;">Select an OG and click "Update OG Data" to see details here.</div>
@@ -385,7 +384,17 @@
                                         y: 0.5
                                     }
                                 };
-                                Plotly.newPlot('koPie', data, layout, { displayModeBar: false, responsive: true });
+                                Plotly.newPlot('koPie', data, layout, { displayModeBar: false, responsive: true })
+                                    .then(gd => {
+                                        try {
+                                            gd.on('plotly_click', function(evt) {
+                                                const label = evt.points && evt.points[0] && evt.points[0].label;
+                                                if (label && typeof label === 'string' && label.startsWith('K')) {
+                                                    window.open(`https://www.kegg.jp/entry/${label}`, '_blank');
+                                                }
+                                            });
+                                        } catch (e) { console.warn('koPie click binding failed', e); }
+                                    });
                             } else {
                                 document.getElementById('koPie').innerHTML = '<p style="color:gray;">KO data not found</p>';
                             }
@@ -453,7 +462,17 @@
                                     }
                                 };
 
-                                Plotly.newPlot('cogPie', data, layout, { displayModeBar: false, responsive: true });
+                                Plotly.newPlot('cogPie', data, layout, { displayModeBar: false, responsive: true })
+                                    .then(gd => {
+                                        try {
+                                            gd.on('plotly_click', function(evt) {
+                                                const label = evt.points && evt.points[0] && evt.points[0].label;
+                                                if (label && typeof label === 'string' && label.startsWith('COG')) {
+                                                    window.open(`https://www.ncbi.nlm.nih.gov/research/cog/cog/${label}`, '_blank');
+                                                }
+                                            });
+                                        } catch (e) { console.warn('cogPie click binding failed', e); }
+                                    });
                             } else {
                                 document.getElementById('cogPie').innerHTML = '<p style="color:gray;">COG data not found</p>';
                             }
@@ -490,9 +509,12 @@
                                         const pfamNamesFromSuggest = pfamNamesParts.join(':') || '';
                                         // Show only the requested lines: KO, COG, Pfams (IDs: names)
                                         bigEl.innerHTML = `
-                                            <div><strong>KO ${koId || 'NA'}:</strong> ${koName || ''}</div>
-                                            <div style="margin-top:6px;"><strong>COG ${cogId || 'NA'}:</strong> ${cogName || ''}</div>
-                                            <div style="margin-top:6px;"><strong>Pfams:</strong> ${pfamIdsFromSuggest}${pfamNamesFromSuggest ? ': ' + pfamNamesFromSuggest : ''}</div>
+                                            <div><strong>KO:</strong> ${koId && koId.toUpperCase() !== 'NA' ? `<a href="https://www.kegg.jp/entry/${koId}" target="_blank" rel="noopener noreferrer">${koId}</a>` : 'NA'} ${koName ? ' ' + koName : ''}</div>
+                                            <div style="margin-top:6px;"><strong>COG:</strong> ${cogId && cogId.toUpperCase() !== 'NA' ? `<a href="https://www.ncbi.nlm.nih.gov/research/cog/cog/${cogId}" target="_blank" rel="noopener noreferrer">${cogId}</a>` : 'NA'} ${cogName || ''}</div>
+                                            <div style="margin-top:6px;"><strong>Pfams:</strong> ${pfamIdsFromSuggest.split(',').map(pfam => {
+                                            const pfamId = pfam.split('.')[0].trim(); // .以降を除去
+                                            return `<a href="https://www.ebi.ac.uk/interpro/entry/pfam/${pfamId}" target="_blank" rel="noopener noreferrer">${pfamId}</a>`;
+                                        }).join(', ')}${pfamNamesFromSuggest ? ': ' + pfamNamesFromSuggest : ''}</div>
                                         `;
                                         // store parsed pieces for later update (pfam list)
                                         bigEl.dataset.ogId = ogId || '';
@@ -572,7 +594,18 @@
                                         xaxis: { tickangle: -45, automargin: true },
                                         yaxis: { title: 'Specific Pfam domain Count' }
                                     };
-                                    Plotly.newPlot('pfamBar', data, layout, { displayModeBar: false, responsive: true });
+                                    Plotly.newPlot('pfamBar', data, layout, { displayModeBar: false, responsive: true })
+                                        .then(gd => {
+                                            try {
+                                                gd.on('plotly_click', function(evt) {
+                                                    const id = evt.points && evt.points[0] && evt.points[0].x;
+                                                    if (id && typeof id === 'string' && id.startsWith('PF')) {
+                                                        const pfamId = id.split('.')[0];
+                                                        window.open(`https://www.ebi.ac.uk/interpro/entry/pfam/${pfamId}`, '_blank');
+                                                    }
+                                                });
+                                            } catch (e) { console.warn('pfamBar click binding failed', e); }
+                                        });
                                     // update big caption with Pfam list (limit to first 30)
                                     try {
                                         const bigEl = document.getElementById('bigOgCaption');
@@ -587,10 +620,21 @@
                                             // prefer pfam names from CSV when available, otherwise use suggestion data
                                             const pfamNamesFromCSV = filtered.map(r => r.Pfam_NAME || '').filter(Boolean).join(', ');
                                             const pfamNamesStr = pfamNamesFromCSV || (bigEl.dataset.pfamNames || '');
+                                            // Build PFAM links but skip NA or empty entries
+                                            const pfamHtml = (function(){
+                                                if (!pfamList) return 'NA';
+                                                const arr = pfamList.split(',').map(s => s.trim()).filter(s => s && s.toUpperCase() !== 'NA');
+                                                if (arr.length === 0) return 'NA';
+                                                return arr.map(pfam => {
+                                                    const pfamId = (pfam.split('.')[0]||'').trim();
+                                                    if (!pfamId || pfamId.toUpperCase() === 'NA') return '';
+                                                    return `<a href="https://www.ebi.ac.uk/interpro/entry/pfam/${pfamId}" target="_blank" rel="noopener noreferrer">${pfam}</a>`;
+                                                }).filter(Boolean).join(', ');
+                                            })();
                                             bigEl.innerHTML = `
-                                                <div><strong>KO ${koId || 'NA'}:</strong> ${koName || ''}</div>
-                                                <div style="margin-top:6px;"><strong>COG ${cogId || 'NA'}:</strong> ${cogName || ''}</div>
-                                                <div style="margin-top:6px;"><strong>Pfams:</strong> ${pfamList}${more}${pfamNamesStr ? ': ' + pfamNamesStr : ''}</div>
+                                                <div><strong>KO:</strong> ${koId && koId.toUpperCase() !== 'NA' ? `<a href="https://www.kegg.jp/entry/${koId}" target="_blank" rel="noopener noreferrer">${koId}</a>` : 'NA'} ${koName ? ' ' + koName : ''}</div>
+                                                <div style="margin-top:6px;"><strong>COG:</strong> ${cogId && cogId.toUpperCase() !== 'NA' ? `<a href="https://www.ncbi.nlm.nih.gov/research/cog/cog/${cogId}" target="_blank" rel="noopener noreferrer">${cogId}</a>` : 'NA'} ${cogName || ''}</div>
+                                                <div style="margin-top:6px;"><strong>Pfams:</strong> ${pfamHtml} ${more}${pfamNamesStr ? ': ' + pfamNamesStr : ''}</div>
                                             `;
                                         }
                                     } catch (e) { console.warn('Failed to update big caption with pfams', e); }
@@ -605,8 +649,8 @@
                                             const cogId = bigEl.dataset.cogId || '';
                                             const cogName = bigEl.dataset.cogName || '';
                                             bigEl.innerHTML = `
-                                                <div><strong>KO ${koId || 'NA'}:</strong> ${koName || ''}</div>
-                                                <div style="margin-top:6px;"><strong>COG ${cogId || 'NA'}:</strong> ${cogName || ''}</div>
+                                                <div><strong>KO:</strong> ${koId && koId.toUpperCase() !== 'NA' ? `<a href="https://www.kegg.jp/entry/${koId}" target="_blank" rel="noopener noreferrer">${koId}</a>` : 'NA'} ${koName ? ' ' + koName : ''}</div>
+                                                <div style="margin-top:6px;"><strong>COG:</strong> ${cogId && cogId.toUpperCase() !== 'NA' ? `<a href="https://www.ncbi.nlm.nih.gov/research/cog/cog/${cogId}" target="_blank" rel="noopener noreferrer">${cogId}</a>` : 'NA'} ${cogName || ''}</div>
                                                 <div style="margin-top:6px;"><strong>Pfams:</strong> (none)</div>
                                             `;
                                         }
@@ -841,7 +885,7 @@
                         const hdr = document.getElementById('metaTHeader');
                         if (hdr) {
                             const enc = encodeURIComponent(og);
-                            hdr.innerHTML = `Expression profile of <a href="./metaT.html?ogInput=${enc}" target="_blank">${og}</a>`;
+                            hdr.innerHTML = `Expression profile of <a href="./metaT.html?ogInput=${enc}" target="_blank">${og}</a> (Log-scaled TPM)`;
                         }
                     } catch(e) { console.warn('Failed to update metaT header', e); }
                     const csvFile = `../data/env_corr/${og}.csv`;

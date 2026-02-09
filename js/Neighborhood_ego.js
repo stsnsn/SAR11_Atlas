@@ -329,6 +329,9 @@
             }
         });
 
+        // expose cytoscape instance for external control (resize from outer scripts)
+        try { window.cy = cy; } catch(e) { /* ignore if not allowed */ }
+
         cy.on('tap', 'node', evt => {
             const id = evt.target.id();
             // id is numeric internally; convert back to zero-padded OG when opening OG info
