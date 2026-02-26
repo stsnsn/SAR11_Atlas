@@ -1,7 +1,7 @@
 genome	Clade1	Clade2	Subclade	Subgroup	Order	Family	Genus	Species	reference	type_strain_Freel_2024	type	depth	latitude	longitude
 HTCC1002	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	NA	JGI/IMG	NA	isolate	NA	NA	NA
 HTCC1013	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	NA	"Rappe et al., (2002)"	NA	isolate	10	44.651667	-124.41167
-HTCC1062	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	ubiquis	"Rappe et al., (2002)"	TRUE	isolate	10	44.651667	-124.41167
+HTCC1062	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	ubiqueversans	"Rappe et al., (2002)"	TRUE	isolate	10	44.651667	-124.41167
 HTCC1040	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	NA	"Rappe et al., (2002)"	NA	isolate	10	44.651667	-124.41167
 NP1	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	giovannonii	"Morris et al., (2020)"	TRUE	isolate	40	47.83065	-129.74983
 Uisw_137	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	NA	"Sadler et al., (2025)"	NA	isolate	25	81.04	10.62
@@ -20,13 +20,13 @@ Uisw_092	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	NA	"Sa
 Uisw_090	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	NA	"Sadler et al., (2025)"	NA	isolate	25	81.04	10.62
 Uisw_127	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	NA	"Sadler et al., (2025)"	NA	isolate	25	81.04	10.62
 Uisw_099_02	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	NA	"Sadler et al., (2025)"	NA	isolate	25	81.04	10.62
-HTCC9565	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	yakuwasiiensis	"Grote et al., (2012)"	TRUE	isolate	NA	44.4	-128.5
+HTCC9565	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	yakuwasiensis	"Grote et al., (2012)"	TRUE	isolate	NA	44.4	-128.5
 Uisw_134_02	I	Ia	Ia.1	Ia.1.I	Pelagibacterales	Pelagibacteraceae	Pelagibacter	NA	"Sadler et al., (2025)"	NA	isolate	25	81.04	10.62
 AG-447-M05	I	Ia	Ia.3.I	Ia.3.I	Pelagibacterales	Pelagibacteraceae	Atlantikopelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	21.2	-34.98	16.02
-HTCC7211	I	Ia	Ia.3.I	Ia.3.I	Pelagibacterales	Pelagibacteraceae	Atlantikopelagibacter	sargasii	"Stingl et al., (2007)"	TRUE	isolate	10	31.833333	-64.166667
+HTCC7211	I	Ia	Ia.3.I	Ia.3.I	Pelagibacterales	Pelagibacteraceae	Atlantikopelagibacter	sargassoseensis	"Stingl et al., (2007)"	TRUE	isolate	10	31.833333	-64.166667
 HTCC7214	I	Ia	Ia.3.I	Ia.3.I	Pelagibacterales	Pelagibacteraceae	Atlantikopelagibacter	NA	"Stingl et al., (2007)"	NA	isolate	10	31.833333	-64.166667
 HTCC7217	I	Ia	Ia.3.I	Ia.3.I	Pelagibacterales	Pelagibacteraceae	Atlantikopelagibacter	NA	"Stingl et al., (2007)"	NA	isolate	10	31.833333	-64.166667
-HIMB1412	I	Ia	Ia.3.II	Ia.3.II	Pelagibacterales	Pelagibacteraceae	Coralipelagibacter	pilinaensis	Freel et al. (2024)	TRUE	isolate	2	21.4829	-157.7663
+HIMB1412	I	Ia	Ia.3.II	Ia.3.II	Pelagibacterales	Pelagibacteraceae	Coralipelagibacter	kukahii	Freel et al. (2024)	TRUE	isolate	2	21.4829	-157.7663
 HIMB1420	I	Ia	Ia.3.II	Ia.3.II	Pelagibacterales	Pelagibacteraceae	Coralipelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.4829	-157.7663
 HIMB1427	I	Ia	Ia.3.II	Ia.3.II	Pelagibacterales	Pelagibacteraceae	Coralipelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.4829	-157.7663
 HIMB1463	I	Ia	Ia.3.II	Ia.3.II	Pelagibacterales	Pelagibacteraceae	Coralipelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.4829	-157.7663
@@ -42,7 +42,7 @@ AG-390-G11	I	Ia	Ia.3.IV	Ia.3.IV	Pelagibacterales	Pelagibacteraceae	Proprepelagib
 AG-390-L03	I	Ia	Ia.3.IV	Ia.3.IV	Pelagibacterales	Pelagibacteraceae	Proprepelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	8	36.2	-53.31
 SAG-MED06	I	Ia	Ia.3.IV	Ia.3.IV	Pelagibacterales	Pelagibacteraceae	Proprepelagibacter	NA	"Martinez-Hernandez et al., (2019); Haro-Moreno et al., (2020)"	NA	SAG	0	41.670417	2.800167
 SAG-MED50	I	Ia	Ia.3.IV	Ia.3.IV	Pelagibacterales	Pelagibacteraceae	Proprepelagibacter	NA	"Martinez-Hernandez et al., (2019); Haro-Moreno et al., (2020)"	NA	SAG	0	41.670417	2.800167
-HTCC8051	I	Ia	Ia.3.IV	Ia.3.IV	Pelagibacterales	Pelagibacteraceae	Proprepelagibacter	yaquinaensis	"Stingl et al., (2007)"	TRUE	isolate	10	44.651667	-124.17667
+HTCC8051	I	Ia	Ia.3.IV	Ia.3.IV	Pelagibacterales	Pelagibacteraceae	Proprepelagibacter	yaqonii	"Stingl et al., (2007)"	TRUE	isolate	10	44.651667	-124.17667
 HTCC9022	I	Ia	Ia.3.IV	Ia.3.IV	Pelagibacterales	Pelagibacteraceae	Proprepelagibacter	NA	JGI/IMG	NA	isolate	NA	NA	NA
 SAG-MED49	I	Ia	Ia.3.IV	Ia.3.IV	Pelagibacterales	Pelagibacteraceae	Proprepelagibacter	NA	"Martinez-Hernandez et al., (2019); Haro-Moreno et al., (2020)"	NA	SAG	0	41.670417	2.800167
 AAA795-A20	I	Ia	Ia.3.V	Ia.3.V	Pelagibacterales	Pelagibacteraceae	Xanthipelagibacter	NA	"Luo et al., (2015)"	NA	SAG	1	19.75	40.05
@@ -97,7 +97,7 @@ AG-892-F02	I	Ia	Ia.3.V	Ia.3.V	Pelagibacterales	Pelagibacteraceae	Xanthipelagibac
 AG-390-M14	I	Ia	Ia.3.V	Ia.3.V	Pelagibacterales	Pelagibacteraceae	Xanthipelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	8	36.2	-53.31
 FZCC0015	I	Ia	Ia.3.V	Ia.3.V	Pelagibacterales	Pelagibacteraceae	Xanthipelagibacter	NA	"Zhao et al., (2018)"	NA	isolate	NA	25.433333	119.783333
 AG-892-L17	I	Ia	Ia.3.V	Ia.3.V	Pelagibacterales	Pelagibacteraceae	Xanthipelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
-HIMB083	I	Ia	Ia.3.V	Ia.3.V	Pelagibacterales	Pelagibacteraceae	Xanthipelagibacter	NA	Brandon M.S. thesis (2006)	NA	isolate	2	21.43545	-157.77755
+HIMB083	I	Ia	Ia.3.V	Ia.3.V	Pelagibacterales	Pelagibacteraceae	Xanthipelagibacter	aumoanae	Brandon M.S. thesis (2006)	TRUE	isolate	2	21.43545	-157.77755
 AG-390-C17	I	Ia	Ia.3.VI	Ia.3.VI	Pelagibacterales	Pelagibacteraceae	Ampluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	8	36.2	-53.31
 AG-447-K11	I	Ia	Ia.3.VI	Ia.3.VI	Pelagibacterales	Pelagibacteraceae	Ampluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	21	-34.98	16.02
 HIMB1685	I	Ia	Ia.3.VI	Ia.3.VI	Pelagibacterales	Pelagibacteraceae	Ampluspelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.43635	-157.77737
@@ -125,7 +125,7 @@ HIMB1641	I	Ia	Ia.3.VI	Ia.3.VI	Pelagibacterales	Pelagibacteraceae	Ampluspelagibac
 HIMB1636	I	Ia	Ia.3.VI	Ia.3.VI	Pelagibacterales	Pelagibacteraceae	Ampluspelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.43635	-157.77737
 HIMB1702	I	Ia	Ia.3.VI	Ia.3.VI	Pelagibacterales	Pelagibacteraceae	Ampluspelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.43635	-157.77737
 HIMB1710	I	Ia	Ia.3.VI	Ia.3.VI	Pelagibacterales	Pelagibacteraceae	Ampluspelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.43635	-157.77737
-HIMB1556	I	Ia	Ia.3.VI	Ia.3.VI	Pelagibacterales	Pelagibacteraceae	Ampluspelagibacter	kiloensis	Freel et al. (2024)	TRUE	isolate	2	21.43635	-157.77737
+HIMB1556	I	Ia	Ia.3.VI	Ia.3.VI	Pelagibacterales	Pelagibacteraceae	Ampluspelagibacter	huakaii	Freel et al. (2024)	TRUE	isolate	2	21.43635	-157.77737
 HIMB1748	I	Ia	Ia.3.VI	Ia.3.VI	Pelagibacterales	Pelagibacteraceae	Ampluspelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.43635	-157.77737
 HIMB1662	I	Ia	Ia.3.VI	Ia.3.VI	Pelagibacterales	Pelagibacteraceae	Ampluspelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.43635	-157.77737
 HIMB1723	I	Ia	Ia.3.VI	Ia.3.VI	Pelagibacterales	Pelagibacteraceae	Ampluspelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.43635	-157.77737
@@ -208,7 +208,7 @@ HIMB1838	I	Ia	Ia.4	Ia.4.II	Pelagibacterales	Pelagibacteraceae	Lacunapelagibacter
 HIMB1835	I	Ia	Ia.4	Ia.4.II	Pelagibacterales	Pelagibacteraceae	Lacunapelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.4829	-157.7663
 AG-917-O20	I	Ia	Ia.4	Ia.4.II	Pelagibacterales	Pelagibacteraceae	Lacunapelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
 AG-905-G04	I	Ia	Ia.4	Ia.4.II	Pelagibacterales	Pelagibacteraceae	Lacunapelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
-HIMB1483	I	Ia	Ia.4	Ia.4.N4	Pelagibacterales	Pelagibacteraceae	Semelpelagibacter	kaneoheensis	Freel et al. (2024)	TRUE	isolate	2	21.43635	-157.77737
+HIMB1483	I	Ia	Ia.4	Ia.4.N4	Pelagibacterales	Pelagibacteraceae	Semelpelagibacter	loemeaikii	Freel et al. (2024)	TRUE	isolate	2	21.43635	-157.77737
 AG-359-D09	I	Ia	Ia.4	Ia.4.N4	Pelagibacterales	Pelagibacteraceae	Punctumpelagibacter	variabilis	"Pachiadaki et al., (2019)"	TRUE	SAG	10	31.07	-64.17
 AH-321-L23	I	Ia	Ia.4	Ia.4.N4	Pelagibacterales	Pelagibacteraceae	Punctumpelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	15	5.08	-161.97
 AH-321-P04	I	Ia	Ia.4	Ia.4.N4	Pelagibacterales	Pelagibacteraceae	Punctumpelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	15	5.08	-161.97
@@ -218,7 +218,7 @@ AH-287-E08	I	Ia	Ia.4	Ia.4.N4	Pelagibacterales	Pelagibacteraceae	Punctumpelagibac
 AG-422-C13	I	Ia	Ia.4	Ia.4.N4	Pelagibacterales	Pelagibacteraceae	Punctumpelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	57.7	24	-22
 AG-337-D17	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	14	-26.25	-103.96
 AG-897-G15	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
-RS39	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	rubimaris	"Jimenez-Infante et. al., (2017)"	TRUE	isolate	19	22.304498	38.753591
+RS39	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Jimenez-Infante et. al., (2017)"	NA	isolate	19	22.304498	38.753591
 AG-447-F10	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	21.2	-34.98	16.02
 AG-907-C04	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
 AG-896-L20	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
@@ -226,7 +226,7 @@ AG-916-A16	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagib
 AG-909-J05	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
 AG-893-I20	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
 AG-899-J23	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
-HIMB1436	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.4829	-157.7663
+HIMB1436	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	marisrubii	"Freel et al., (2024)"	TRUE	isolate	2	21.4829	-157.7663
 AG-909-G08	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
 AG-359-G22	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
 AG-447-P22	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	21.2	-34.98	16.02
@@ -240,7 +240,7 @@ AG-919-O02	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagib
 AH-287-J18	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	15	-3.04	-166.01
 HIMB2187	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Freel et al., (2024)"	NA	isolate	2	21.4829	-157.7663
 AG-919-A21	I	Ia	Ia.4	Ia.4.N5	Pelagibacterales	Pelagibacteraceae	Tantilluspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
-AG-895-K10	I	Ia	Ia.4	Ia.4.N6	Pelagibacterales	Pelagibacteraceae	Colligopelagibacter	wilhelmi	"Pachiadaki et al., (2019)"	TRUE	SAG	10	31.07	-64.17
+AG-895-K10	I	Ia	Ia.4	Ia.4.N6	Pelagibacterales	Pelagibacteraceae	Colligopelagibacter	wilhelmii	"Pachiadaki et al., (2019)"	TRUE	SAG	10	31.07	-64.17
 AG-899-M07	I	Ia	Ia.4	Ia.4.N6	Pelagibacterales	Pelagibacteraceae	Colligopelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
 AG-905-A07	I	Ia	Ia.4	Ia.4.N6	Pelagibacterales	Pelagibacteraceae	Colligopelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
 AG-919-F03	I	Ia	Ia.4	Ia.4.N6	Pelagibacterales	Pelagibacteraceae	Colligopelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
@@ -344,7 +344,7 @@ AG-390-D15	I	Ia	Ia.4	Ib.4.N2	Pelagibacterales	Pelagibacteraceae	Pantolocipelagib
 AG-390-M02	I	Ia	Ia.4	Ib.4.N2	Pelagibacterales	Pelagibacteraceae	Pantolocipelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	8	36.2	-53.31
 AG-390-J13	I	Ia	Ia.4	Ib.4.N2	Pelagibacterales	Pelagibacteraceae	Pantolocipelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	8	36.2	-53.31
 SAG-MED11	I	Ia	Ia.4	Ib.4.N2	Pelagibacterales	Pelagibacteraceae	Pantolocipelagibacter	NA	"Martinez-Hernandez et al., (2019); Haro-Moreno et al., (2020)"	NA	SAG	0	41.670417	2.800167
-AG-916-G19	I	Ia	Ia.4	Ib.4.N2	Pelagibacterales	Pelagibacteraceae	Pantolocipelagibacter	undulans	"Pachiadaki et al., (2019)"	TRUE	SAG	10	31.07	-64.17
+AG-916-G19	I	Ia	Ia.4	Ib.4.N2	Pelagibacterales	Pelagibacteraceae	Pantolocipelagibacter	undulae	"Pachiadaki et al., (2019)"	TRUE	SAG	10	31.07	-64.17
 AG-893-F11	I	Ia	Ia.4	Ib.4.N3	Pelagibacterales	Pelagibacteraceae	Proventuspelagibacter	oceanicus	"Pachiadaki et al., (2019)"	TRUE	SAG	10	31.07	-64.17
 AG-892-K05	I	Ia	Ia.4	Ib.4.N8	Pelagibacterales	Pelagibacteraceae	Mediuspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
 AG-912-C08	I	Ia	Ia.4	Ib.4.N8	Pelagibacterales	Pelagibacteraceae	Mediuspelagibacter	NA	"Pachiadaki et al., (2019)"	NA	SAG	10	31.07	-64.17
