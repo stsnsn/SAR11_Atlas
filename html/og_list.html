@@ -253,7 +253,7 @@
                                             }
                                     }, "excel", "print"],
                                     // enable deferred rendering for large datasets (helps Scroller)
-                                    deferRender: false,
+                                    deferRender: true,
                                     // responsive can interfere with Scroller; keep but Scroller configured below
                                     responsive: true,
                                     searching: true,
@@ -261,13 +261,13 @@
                                     scrollY: 600,
                                     // configure Scroller as an object for more stable behaviour
                                     scroller: {
-                                        loadingIndicator: false,
+                                        loadingIndicator: true,
                                         // set a reasonable fixed row height (px) to avoid virtual scroll miscalculation
                                         rowHeight: 28
                                     },
                                     language: {
                                         infoEmpty: "No data available",
-                                        info: "Showing _START_ to _END_ of _TOTAL_ entries",
+                                        info: "Showing _TOTAL_ entries",
                                         search: "Search:",
                                         paginate: {
                                             first: "First",
