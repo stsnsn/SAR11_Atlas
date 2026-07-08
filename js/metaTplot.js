@@ -97,10 +97,9 @@ const MapPrintPlugin = L.easyPrint({
     // Use a single custom fixed-size mode matching the current map pixels
     sizeModes: [{ height: _mapSize.height, width: _mapSize.width, name: 'Map Size', className: 'MapSize page' }],
     filename: 'SAR11_metaT_Map',
-    // レジェンドは leaflet のコントロールとして追加しているため
-    // デフォルトでコントロールを非表示にする設定を無効化して
-    // 印刷／エクスポートに含める
-    hideControlContainer: false,
+    // エクスポート時は Leaflet の操作UIを画像から除外する
+    // これでズームボタンや easyPrint ボタンが出力に混ざらない
+    hideControlContainer: true,
 }).addTo(map);
 
 

@@ -5,9 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAR11 Genome Atlas</title>
+    <meta name="theme-color" content="#0B3D57">
+    <link rel="icon" type="image/svg+xml" href="./data/image/favicon/favicon_30right.svg">
+    <link rel="apple-touch-icon" href="./data/image/favicon/favicon_30right.svg">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/video_style.css">
         <style>
+        .brand-mark {
+            width: min(360px, 84vw);
+            margin-bottom: 1rem;
+            filter: drop-shadow(0 10px 20px rgba(3, 24, 36, 0.24));
+        }
+
         a#diveBtn.btn-secondary {
             background-color: #013a74;
             border-color: #013a74;
@@ -40,6 +49,7 @@
         </header>
 
         <main role="main" class="inner cover">
+            <img class="brand-mark" src="./data/image/favicon/sga_logo_full_horizontal.svg" alt="SAR11 Genome Atlas logo">
             <p class="lead">A genome and gene catalog of the SAR11 clade, the most abundant bacteria lineage in the ocean.</p>
             <p class="lead">
                 <a id="diveBtn" href="./html/Overview.html" class="btn btn-lg btn-secondary">Dive!</a>
@@ -48,10 +58,8 @@
 
         <footer class="mastfoot mt-auto">
             <div class="inner">
-                <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-                <p>
-                    BGV was filmed at Waikiki beach, Hawaii, by S.N.
-                </p>
+                <p>BGV was filmed at Waikiki beach, Hawaii, by S.N.</p>
+                <p>Designed for the SAR11 Genome Atlas submission release.</p>
             </div>
         </footer>
     </div>
