@@ -11,10 +11,20 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/video_style.css">
         <style>
+        .brand-mark-wrap {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(250, 226, 42, 0.5);
+            padding: 0.85rem 1.15rem;
+            border-radius: 18px;
+            box-shadow: 0 10px 24px rgba(3, 24, 36, 0.18);
+        }
+
         .brand-mark {
             width: min(360px, 84vw);
-            margin-bottom: 1rem;
-            filter: drop-shadow(0 10px 20px rgba(3, 24, 36, 0.24));
+            margin-bottom: 0;
+            filter: none;
         }
 
         a#diveBtn.btn-secondary {
@@ -39,7 +49,7 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column align-items-center justify-content-center" id="content">
         <header class="masthead mb-auto">
             <div class="inner">
-                <h1 class="masthead-brand">SAR11 Genome Atlas</h1>
+                <!-- <h1 class="masthead-brand">SAR11 Genome Atlas</h1> -->
                 <nav class="nav nav-masthead justify-content-center">
                     <a class="nav-link active" href="./index.html">Home</a>
                     <a class="nav-link" href="https://scholar.google.com/citations?user=AlQJM-IAAAAJ&hl=en">Publication</a>
@@ -49,7 +59,9 @@
         </header>
 
         <main role="main" class="inner cover">
-            <img class="brand-mark" src="./data/image/favicon/sga_logo_full_horizontal.svg" alt="SAR11 Genome Atlas logo">
+            <div class="brand-mark-wrap">
+                <img class="brand-mark" src="./data/image/favicon/SGA_logo.svg" alt="SAR11 Genome Atlas logo">
+            </div>
             <p class="lead">A genome and gene catalog of the SAR11 clade, the most abundant bacteria lineage in the ocean.</p>
             <p class="lead">
                 <a id="diveBtn" href="./html/Overview.html" class="btn btn-lg btn-secondary">Dive!</a>
@@ -59,7 +71,7 @@
         <footer class="mastfoot mt-auto">
             <div class="inner">
                 <p>BGV was filmed at Waikiki beach, Hawaii, by S.N.</p>
-                <p>Designed for the SAR11 Genome Atlas submission release.</p>
+                <p>Designed for the SAR11 Genome Atlas submission release on [Aug. 2026].</p>
             </div>
         </footer>
     </div>
