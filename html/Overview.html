@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+    <link rel="stylesheet" href="../css/overview.css">
 </head>
 
 <body>
@@ -81,39 +82,115 @@
                 </nav>
 
             <div role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4"><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <br><br><br><br><br>
-                    <h1 class="h2">Overview of the SAR11 Genome Atlas</h1>
-                    <br>
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-3 border-bottom overview-header">
+                    <img class="overview-logo" src="../data/image/favicon/sga_logo_full_horizontal.svg" alt="SAR11 Genome Atlas logo">
                 </div>
                 <!-- Dark-mode toggle -->
                 <button id="toggleTheme" class="mb-3">Toggle Dark/Light Mode</button>
                 <script>
                     document.getElementById('toggleTheme').addEventListener('click', function() {
                         document.body.classList.toggle('dark-mode'); // bodyにダークモードのクラスを切り替え
-                        document.getElementById('table').classList.toggle('dark-mode'); // tableにダークモードのクラスを切り替え
+                        const table = document.getElementById('table');
+                        if (table) {
+                            table.classList.toggle('dark-mode'); // tableにダークモードのクラスを切り替え
+                        }
                         this.classList.toggle('dark-mode'); // ボタンのスタイルも切り替え
                     });
                 </script>
                 <!-- Dark-mode toggle END -->
                 <!-- EDITABLE ZONE START -->
-                <p class="lead">The SAR11 Genome Atlas is interactive genome and gene annotation viewer of SAR11 clade, the most abundant bacterial lineage in the ocean.</p>
-                <h3 class="h3"><s>To see details, please check our <a href = "PATH_TO_PAPER">publication</a></s> (Updating for add genomes!).</h3>
-                <img src="../data/image/image.png" alt="Method Overview" width="90%">
+                <section class="overview-section">
+                    <p class="overview-kicker">Overview</p>
+                    <h3 class="overview-title">Explore SAR11 genome, gene function, and expression in one place</h3>
+                    <p class="overview-lead">
+                        The SAR11 Genome Atlas is an interactive genome and gene catalog for the SAR11 clade,
+                        the most abundant bacterial lineage in the ocean. Use the panels below to move between genome context,
+                        orthogroups, networks, literature links, and metatranscriptomic evidence.
+                    </p>
 
-                <br><br><br><br><br>
+                    <div class="overview-grid" id="overviewGrid">
+                        <a class="overview-card" href="./SAR11_genome_table.html" tabindex="0" aria-label="Genome Contect Viewer">
+                            <img src="../data/image/overview_cards/Genome_Contect_Viewer.png" alt="Genome Content Viewer preview">
+                            <div class="overview-card__content">
+                                <p class="overview-card__title">Genome Content Viewer</p>
+                                <p class="overview-card__desc">Browse the genome-level catalog to inspect strain composition, gene content, and comparative context across SAR11 genomes.</p>
+                            </div>
+                        </a>
 
-                <div class="border-top p-4 mb-4">
-                    <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>ongoing.</em></p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>in prep.</em></p>
-                </div>
+                        <a class="overview-card" href="./SAR11_OG_info.html" tabindex="0" aria-label="OG Information Viewer">
+                            <img src="../data/image/overview_cards/OG_Information_Viewer.png" alt="OG Information Viewer preview">
+                            <div class="overview-card__content">
+                                <p class="overview-card__title">OG Information Viewer</p>
+                                <p class="overview-card__desc">Open orthogroup-level annotations, members, and functional notes to trace how SAR11 genes are organized and annotated.</p>
+                            </div>
+                        </a>
+
+                        <a class="overview-card" href="./Corgias_network.html" tabindex="0" aria-label="CORGIAS Network">
+                            <img src="../data/image/overview_cards/CORGIAS_Network.png" alt="CORGIAS Network preview">
+                            <div class="overview-card__content">
+                                <p class="overview-card__title">CORGIAS Network</p>
+                                <p class="overview-card__desc">Inspect correlation-based network structure to identify gene modules and relationships that stand out across the atlas.</p>
+                            </div>
+                        </a>
+
+                        <a class="overview-card" href="./SAR11_History.html" tabindex="0" aria-label="SAR11 Paper Network">
+                            <img src="../data/image/overview_cards/SAR11_Paper_Network.png" alt="SAR11 Paper Network preview">
+                            <div class="overview-card__content">
+                                <p class="overview-card__title">SAR11 Paper Network</p>
+                                <p class="overview-card__desc">Connect atlas entries to the literature and curated publications so functional and evolutionary evidence stays one click away.</p>
+                            </div>
+                        </a>
+
+                        <a class="overview-card" href="./SAR11_operon_vis.html" tabindex="0" aria-label="Synteny Network">
+                            <img src="../data/image/overview_cards/Syntheny_Network.png" alt="Synteny Network preview">
+                            <div class="overview-card__content">
+                                <p class="overview-card__title">Synteny Network</p>
+                                <p class="overview-card__desc">Track conserved neighborhood patterns across genomes and explore how local gene order changes within the clade.</p>
+                            </div>
+                        </a>
+
+                        <a class="overview-card" href="./metaT.html" tabindex="0" aria-label="Metatranscriptome Viewer">
+                            <img src="../data/image/overview_cards/Metatranscriptome_VIewer.png" alt="Metatranscriptome Viewer preview">
+                            <div class="overview-card__content">
+                                <p class="overview-card__title">Metatranscriptome Viewer</p>
+                                <p class="overview-card__desc">Visualize expression profiles to compare SAR11 transcriptional signals across Tara Oceans metatranscriptomic datasets.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <p class="overview-note">
+                        Hover or focus each panel to reveal a short description.
+                    </p>
+
+                    <div class="border-top p-4 mb-4">
+                        <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
+                        <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>ongoing.</em></p>
+                        <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>bioRxiv 2025.</em></p>
+                    </div>
+                </section>
 
                 <!-- EDITABLE ZONE END -->
             </div><br><br><br><br><br>
         </div>
     </div>
 
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const grid = document.getElementById('overviewGrid');
+            if (!grid) return;
+
+            const cards = Array.from(grid.children);
+            if (cards.length < 2) return;
+
+            for (let i = cards.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [cards[i], cards[j]] = [cards[j], cards[i]];
+            }
+
+            cards.forEach(card => grid.appendChild(card));
+        });
+    </script>
 
 </body>
 

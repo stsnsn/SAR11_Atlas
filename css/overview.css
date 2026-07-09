@@ -1,0 +1,195 @@
+.overview-section {
+    background: linear-gradient(180deg, rgba(245, 251, 252, 0.96) 0%, rgba(255, 255, 255, 0.98) 100%);
+    border: 1px solid rgba(11, 61, 87, 0.08);
+    border-radius: 22px;
+    box-shadow: 0 18px 40px rgba(3, 24, 36, 0.08);
+    padding: 2rem 1.75rem 2.25rem;
+}
+
+.overview-kicker {
+    color: #0c6681;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.overview-title {
+    color: #0b3d57;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+}
+
+.overview-lead {
+    max-width: 860px;
+    margin: 0 auto 1.5rem;
+    color: #35515d;
+    line-height: 1.7;
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.overview-card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 18px;
+    box-shadow: 0 12px 24px rgba(3, 24, 36, 0.12);
+    background: #0b3d57;
+    min-height: 220px;
+    text-decoration: none;
+    transform: translateY(0);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.overview-card:hover,
+.overview-card:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 34px rgba(3, 24, 36, 0.18);
+    text-decoration: none;
+}
+
+.overview-card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+    filter: saturate(0.98) contrast(1.02);
+}
+
+.overview-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(7, 34, 49, 0.05) 0%, rgba(7, 34, 49, 0.72) 100%);
+    opacity: 0.9;
+    transition: opacity 180ms ease;
+    pointer-events: none;
+}
+
+.overview-card:hover::after,
+.overview-card:focus::after {
+    opacity: 1;
+}
+
+.overview-card__content {
+    position: absolute;
+    inset: auto 0 0 0;
+    z-index: 1;
+    padding: 1rem 1rem 1.05rem;
+    color: #fff;
+}
+
+.overview-card__title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+}
+
+.overview-card__desc {
+    margin: 0.45rem 0 0;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transform: translateY(8px);
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 180ms ease, transform 180ms ease, max-height 180ms ease;
+}
+
+.overview-card:hover .overview-card__desc,
+.overview-card:focus .overview-card__desc {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 7rem;
+}
+
+.overview-note {
+    color: #5f7480;
+    font-size: 0.95rem;
+    margin-top: 1rem;
+}
+
+.overview-header {
+    justify-content: center !important;
+    align-items: flex-end !important;
+    min-height: 120px;
+    padding-top: 2.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.overview-logo {
+    display: block;
+    width: min(520px, 92vw);
+    max-height: 82px;
+    height: auto;
+    object-fit: contain;
+}
+
+body.dark-mode .overview-section {
+    background: linear-gradient(180deg, rgba(18, 31, 41, 0.98) 0%, rgba(11, 24, 34, 0.98) 100%);
+    border-color: rgba(123, 184, 206, 0.18);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+}
+
+body.dark-mode .overview-kicker {
+    color: #73c9e0;
+}
+
+body.dark-mode .overview-title {
+    color: #f1fbff;
+}
+
+body.dark-mode .overview-lead {
+    color: rgba(231, 244, 249, 0.82);
+}
+
+body.dark-mode .overview-card {
+    background: #071822;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+body.dark-mode .overview-card::after {
+    background: linear-gradient(180deg, rgba(2, 10, 16, 0.08) 0%, rgba(2, 10, 16, 0.8) 100%);
+}
+
+body.dark-mode .overview-card__title {
+    color: #f4fcff;
+}
+
+body.dark-mode .overview-card__desc {
+    color: rgba(232, 247, 251, 0.88);
+}
+
+body.dark-mode .overview-note {
+    color: rgba(198, 220, 228, 0.78);
+}
+
+@media (max-width: 991.98px) {
+    .overview-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 767.98px) {
+    .overview-section {
+        padding: 1.25rem 1rem 1.5rem;
+    }
+
+    .overview-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .overview-card__desc {
+        opacity: 1;
+        max-height: none;
+        transform: none;
+    }
+}
