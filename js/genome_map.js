@@ -17,8 +17,82 @@ const MapPrintPlugin = L.easyPrint({
     filename: 'SAR11_Genome_Map',
 }).addTo(map);
 
+const CLUSTER_TYPE_COLORS = {
+    MAG: '#d84b4b',
+    SAG: '#3b82f6',
+    isolate: '#f2c94c',
+    other: '#9ca3af'
+};
+
+function getClusterSize(childCount) {
+    return Math.max(40, Math.min(76, 32 + Math.sqrt(childCount) * 4));
+}
+
+function getClusterComposition(cluster) {
+    const counts = { MAG: 0, SAG: 0, isolate: 0, other: 0 };
+
+    cluster.getAllChildMarkers().forEach((marker) => {
+        const type = marker.options.genomeType;
+        if (Object.prototype.hasOwnProperty.call(counts, type)) {
+            counts[type] += 1;
+        } else {
+            counts.other += 1;
+        }
+    });
+
+    return counts;
+}
+
+function buildClusterGradient(counts, total) {
+    if (!total) {
+        return CLUSTER_TYPE_COLORS.other;
+    }
+
+    const segments = [];
+    let startPercent = 0;
+
+    Object.entries(counts).forEach(([type, count]) => {
+        if (!count) {
+            return;
+        }
+
+        const endPercent = startPercent + (count / total) * 100;
+        segments.push(
+            `${CLUSTER_TYPE_COLORS[type]} ${startPercent}% ${endPercent}%`
+        );
+        startPercent = endPercent;
+    });
+
+    return `conic-gradient(${segments.join(', ')})`;
+}
+
+function createClusterIcon(cluster) {
+    const childCount = cluster.getChildCount();
+    const clusterSize = Math.round(getClusterSize(childCount));
+    const innerSize = Math.round(clusterSize * 0.62);
+    const counts = getClusterComposition(cluster);
+    const gradient = buildClusterGradient(counts, childCount);
+
+    return L.divIcon({
+        html: `
+            <div
+                class="marker-cluster-pie__chart"
+                style="--cluster-size:${clusterSize}px; --cluster-inner-size:${innerSize}px; --cluster-background:${gradient};"
+            >
+                <div class="marker-cluster-pie__count">
+                    <span>${childCount}</span>
+                </div>
+            </div>
+        `,
+        className: 'marker-cluster marker-cluster-pie',
+        iconSize: L.point(clusterSize, clusterSize)
+    });
+}
+
 // MarkerClusterGroupの作成
-const markers = L.markerClusterGroup();
+const markers = L.markerClusterGroup({
+    iconCreateFunction: createClusterIcon
+});
 
 // typeに基づくアイコン色
 function getIconByType(type) {
@@ -69,7 +143,8 @@ function updateMarkers(filterType) {
             (filterType === 'all' || row.type === filterType)
         ) {
             const marker = L.marker([latitude, longitude], {
-                icon: getIconByType(row.type) // typeに基づいてアイコンを設定
+                icon: getIconByType(row.type), // typeに基づいてアイコンを設定
+                genomeType: row.type
             });
 
             // ポップアップに表示する内容を動的に生成

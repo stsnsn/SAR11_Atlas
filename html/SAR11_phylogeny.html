@@ -71,7 +71,7 @@
                                 <a class="nav-link" href="./Overview.html">Overview</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./SAR11_phylogeny.html">Genome Map</a>
+                                <a class="nav-link active" href="./SAR11_phylogeny.html">Genome Information</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./SAR11_OG_info.html">OG Information Viewer</a>
@@ -128,17 +128,13 @@
 
                 <!-- map -->
                 <br>
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h4>SAR11 Genome Map</h4>
-                </div>
-
                 <!-- 説明 -->
-                <h3>Now we are updating to add genomes and to reflect the latest taxonomy informations!</h3>
+                <h3>SAR11 Genome Sampling Location Map</h3>
                 <p style="text-align: left;">
-                    This map and table includes available isolation site information of SAR11 genomes.<br>
-                    You can filter the genomes by selecting "MAG", "SAG", or "Cultured strain" from the "Data filter" pull-down menu.<br>
-                    Overlapping markers are automatically clustered and labeled with the number of genomes they contain. Click on a marker to view detailed information about each genome.<br>
-                    The tree file and metadata can be downloaded from the <a href="./download.html">Download page</a>.
+                    This map shows the reported sampling locations of SAR11 genomes included in the atlas.<br>
+                    Use the "Data filter" menu to display all genomes or focus on MAGs, SAGs, or cultured strains.<br>
+                    Nearby markers are grouped into clusters. Each cluster shows the number of genomes in the center, and the surrounding pie chart shows the relative proportion of MAGs, SAGs, and cultured strains within that cluster.<br>
+                    Click an individual marker to view the genome metadata associated with that sampling location.
                 </p>
 
                 <div id="controls"><!-- プルダウンメニュー -->
@@ -155,7 +151,8 @@
                 <p style="text-align: left;">
                     <img src="../css/images/marker-icon.png" alt="isolate" class="icon acmarker_yellow" /> Cultured strain (yellow),
                     <img src="../css/images/marker-icon.png" alt="SAG" class="icon acmarker_blue" /> SAG (blue),
-                    <img src="../css/images/marker-icon.png" alt="MAG" class="icon acmarker_red" /> MAG (red)
+                    <img src="../css/images/marker-icon.png" alt="MAG" class="icon acmarker_red" /> MAG (red).
+                    Cluster pie charts use the same colors to summarize the composition of grouped markers.
                 </p>
 
                 <div style="display: flex; justify-content: space-between;">
@@ -177,9 +174,11 @@
                 </iframe>
                 <br><br><br>
                 -->
-                <h5>The 541 SAR11 Genomes Tree</h5>
+                <h5>The 544 SAR11 Genomes Tree</h5>
                     <p style="text-align: left;">
-                        Please select color coding from the "Color by:" pull-down menu. Expand the phylogenetic tree to see the names of each genome. For more information, click or hover your mouse cursor over tree tips.
+                        This interactive phylogenetic tree summarizes the relationships among the 544 SAR11 genomes currently included in the atlas.<br>
+                        Use the Taxonium controls to zoom, pan, search genome names, and change metadata-based color coding from the "Color by:" menu.<br>
+                        Expand the tree to inspect individual genome labels, and click or hover over tree tips to view detailed metadata.
                     </p>
                 <iframe
                 src="https://taxonium.org/?treeUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fstsnsn%2Fpublic_data%2Fmain%2F20240709%2FSAR11_extracted_iqtree2.treefile&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fstsnsn%2Fpublic_data%2Fc0ead74192a15099fa29f46a8b48b98b2ce3e887%2F20240709%2Fsubclade_cat.tsv&metaType=meta_tsv&xType=x_dist"
@@ -198,11 +197,12 @@
                     <h4>SAR11 Genome Information Table</h4>
                 </div>
                 <p style="text-align: left;">
-                        This table containing information on the 541 SAR11 genomes and 20 coltured alpha-proteobacteria as outgroups.
+                        This searchable table lists metadata for 564 genomes, including 544 SAR11 genomes and 20 cultured alpha-proteobacteria used as outgroups.<br>
+                        Use the search box to find genomes, sort columns to compare metadata fields, and export the displayed table using the copy, CSV, JSON, Excel, or print buttons.
                     </p>
                 <a href="./SAR11_genome_table.html">Full screen view</a>
                 <table id="table" class="display" style="width:100%">
-                    <caption>The 541 genomes' information table</caption>
+                    <caption>The 564 genomes' information table</caption>
                     <thead>
                         <tr></tr>
                     </thead>
@@ -283,7 +283,7 @@
                 <br><br><br>
                 <div class="border-top p-4 mb-4">
                     <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>ongoing.</em></p>
+                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>in prep.</em></p>
                     <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>bioRxiv 2025.</em></p>
                 </div>
 
