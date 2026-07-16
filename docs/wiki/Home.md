@@ -1,4 +1,4 @@
-# SAR11 Genome Atlas Wiki-test
+# SAR11 Genome Atlas Wiki
 
 The SAR11 Genome Atlas provides interactive tools for exploring SAR11 genomes, orthogroups, functional annotations, genome neighborhoods, expression profiles, protein structures, and the SAR11 literature.
 
