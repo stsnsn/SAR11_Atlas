@@ -25,9 +25,11 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Clone Wiki repository
+        env:
+          WIKI_TOKEN: ${{ secrets.WIKI_TOKEN }}
         run: |
           git clone \
-            "https://github.com/${GITHUB_REPOSITORY}.wiki.git" \
+            "https://${GITHUB_ACTOR}:${WIKI_TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git" \
             wiki
 
       - name: Synchronize Wiki files
