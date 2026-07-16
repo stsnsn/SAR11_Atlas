@@ -107,6 +107,26 @@
                     </div>
 
                     <div id="overviewDashboard" class="atlas-dashboard" hidden>
+                        <div class="atlas-filterbar" aria-label="Overview filters">
+                            <div class="atlas-filterbar__intro">
+                                <span class="atlas-filterbar__eyebrow">Explore the collection</span>
+                                <strong>Filter every panel</strong>
+                            </div>
+                            <label class="atlas-filter">
+                                <span>Genome type</span>
+                                <select id="filterGenomeType">
+                                    <option value="All">All genome types</option>
+                                </select>
+                            </label>
+                            <label class="atlas-filter">
+                                <span>Subclade</span>
+                                <select id="filterSubclade">
+                                    <option value="All">All subclades</option>
+                                </select>
+                            </label>
+                            <button id="resetOverviewFilters" class="atlas-filterbar__reset" type="button">Reset</button>
+                        </div>
+
                         <div class="atlas-stats" aria-label="Atlas summary statistics">
                             <a class="atlas-stat" href="./SAR11_phylogeny.html" aria-label="View genome information">
                                 <span class="atlas-stat__value" id="statGenomes">–</span>
@@ -129,6 +149,58 @@
                                 <span class="atlas-stat__label">orthogroups</span>
                                 <span class="atlas-stat__detail">refreshing after genome QC</span>
                             </a>
+                        </div>
+
+                        <div class="atlas-chart-grid">
+                            <article class="atlas-panel atlas-panel--compact">
+                                <div class="atlas-panel__header">
+                                    <div>
+                                        <p class="atlas-panel__kicker">Collection</p>
+                                        <h4>Genome sources</h4>
+                                    </div>
+                                    <span class="atlas-panel__meta" id="genomeTypeMeta"></span>
+                                </div>
+                                <div id="genomeTypeChart" class="atlas-chart atlas-chart--donut" aria-label="Donut chart of genome types"></div>
+                            </article>
+
+                            <article class="atlas-panel atlas-panel--wide">
+                                <div class="atlas-panel__header">
+                                    <div>
+                                        <p class="atlas-panel__kicker">Functional coverage</p>
+                                        <h4>Annotation overlap</h4>
+                                    </div>
+                                    <span class="atlas-panel__meta">COG · KO · Pfam</span>
+                                </div>
+                                <div id="annotationUpSet" class="atlas-upset" aria-label="UpSet plot of annotation overlap"></div>
+                            </article>
+
+                            <article class="atlas-panel atlas-panel--wide">
+                                <div class="atlas-panel__header">
+                                    <div>
+                                        <p class="atlas-panel__kicker">Genome landscape</p>
+                                        <h4>Genome size and GC content</h4>
+                                    </div>
+                                    <span class="atlas-panel__meta">Hover to inspect a genome</span>
+                                </div>
+                                <div id="genomeScatter" class="atlas-chart atlas-chart--scatter" aria-label="Scatter plot of genome size and GC content"></div>
+                            </article>
+
+                            <article class="atlas-panel atlas-panel--wide">
+                                <div class="atlas-panel__header">
+                                    <div>
+                                        <p class="atlas-panel__kicker">Proteome landscape</p>
+                                        <h4>Protein length distribution</h4>
+                                    </div>
+                                    <label class="atlas-filter atlas-filter--inline">
+                                        <span>Annotation group</span>
+                                        <select id="filterAnnotation">
+                                            <option value="All">All proteins</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div id="proteinLengthChart" class="atlas-chart atlas-chart--length" aria-label="Histogram of protein lengths"></div>
+                                <p class="atlas-panel__note">Proteins ≥2,000 aa are grouped in the final bin.</p>
+                            </article>
                         </div>
 
                         <div class="overview-tools-heading">
@@ -187,78 +259,6 @@
                         </div>
 
                         <p class="overview-note">Hover or focus each panel to reveal a short description.</p>
-
-                        <div class="atlas-filterbar" aria-label="Overview filters">
-                            <div class="atlas-filterbar__intro">
-                                <span class="atlas-filterbar__eyebrow">Explore the collection</span>
-                                <strong>Filter every panel</strong>
-                            </div>
-                            <label class="atlas-filter">
-                                <span>Genome type</span>
-                                <select id="filterGenomeType">
-                                    <option value="All">All genome types</option>
-                                </select>
-                            </label>
-                            <label class="atlas-filter">
-                                <span>Subclade</span>
-                                <select id="filterSubclade">
-                                    <option value="All">All subclades</option>
-                                </select>
-                            </label>
-                            <button id="resetOverviewFilters" class="atlas-filterbar__reset" type="button">Reset</button>
-                        </div>
-
-                        <div class="atlas-chart-grid">
-                            <article class="atlas-panel atlas-panel--compact">
-                                <div class="atlas-panel__header">
-                                    <div>
-                                        <p class="atlas-panel__kicker">Collection</p>
-                                        <h4>Genome sources</h4>
-                                    </div>
-                                    <span class="atlas-panel__meta" id="genomeTypeMeta"></span>
-                                </div>
-                                <div id="genomeTypeChart" class="atlas-chart atlas-chart--donut" aria-label="Donut chart of genome types"></div>
-                            </article>
-
-                            <article class="atlas-panel atlas-panel--wide">
-                                <div class="atlas-panel__header">
-                                    <div>
-                                        <p class="atlas-panel__kicker">Functional coverage</p>
-                                        <h4>Annotation overlap</h4>
-                                    </div>
-                                    <span class="atlas-panel__meta">COG · KO · Pfam</span>
-                                </div>
-                                <div id="annotationUpSet" class="atlas-upset" aria-label="UpSet plot of annotation overlap"></div>
-                            </article>
-
-                            <article class="atlas-panel atlas-panel--wide">
-                                <div class="atlas-panel__header">
-                                    <div>
-                                        <p class="atlas-panel__kicker">Genome landscape</p>
-                                        <h4>Genome size and GC content</h4>
-                                    </div>
-                                    <span class="atlas-panel__meta">Hover to inspect a genome</span>
-                                </div>
-                                <div id="genomeScatter" class="atlas-chart atlas-chart--scatter" aria-label="Scatter plot of genome size and GC content"></div>
-                            </article>
-
-                            <article class="atlas-panel atlas-panel--wide">
-                                <div class="atlas-panel__header">
-                                    <div>
-                                        <p class="atlas-panel__kicker">Proteome landscape</p>
-                                        <h4>Protein length distribution</h4>
-                                    </div>
-                                    <label class="atlas-filter atlas-filter--inline">
-                                        <span>Annotation group</span>
-                                        <select id="filterAnnotation">
-                                            <option value="All">All proteins</option>
-                                        </select>
-                                    </label>
-                                </div>
-                                <div id="proteinLengthChart" class="atlas-chart atlas-chart--length" aria-label="Histogram of protein lengths"></div>
-                                <p class="atlas-panel__note">Proteins ≥2,000 aa are grouped in the final bin.</p>
-                            </article>
-                        </div>
                     </div>
 
                     <div id="overviewError" class="overview-status overview-status--error" role="alert" hidden>

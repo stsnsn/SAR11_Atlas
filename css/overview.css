@@ -172,7 +172,7 @@
     grid-template-columns: minmax(180px, 1fr) minmax(160px, 0.55fr) minmax(160px, 0.55fr) auto;
     gap: 0.85rem;
     align-items: end;
-    margin: 3rem 0 1rem;
+    margin: 0 0 1rem;
     padding: 1rem 1.1rem;
     border: 1px solid rgba(11, 61, 87, 0.1);
     border-radius: 16px;
@@ -234,6 +234,7 @@
     display: grid;
     grid-template-columns: minmax(260px, 0.75fr) minmax(0, 1.75fr);
     gap: 1rem;
+    margin-top: 1.5rem;
 }
 
 .atlas-panel {
