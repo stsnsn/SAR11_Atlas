@@ -124,7 +124,7 @@ function getIconByType(type) {
 }
 
 // TSVファイルのパス
-const tsvFilePath = '../data/subclade.txt'; // ここにTSVファイルのパスを指定
+const tsvFilePath = '../data/phylogeny/subclade.txt'; // ここにTSVファイルのパスを指定
 let originalData = []; // 全データを保持する配列
 
 

@@ -25,14 +25,8 @@
     <link rel="stylesheet" href="../css/data_table_style.css">
 
     <!-- Dark-mode toggle -->
-    <button id="toggleTheme" class="mb-3">Toggle Dark/Light Mode</button>
-    <script>
-        document.getElementById('toggleTheme').addEventListener('click', function() {
-            document.body.classList.toggle('dark-mode'); // bodyにダークモードのクラスを切り替え
-            document.getElementById('table').classList.toggle('dark-mode'); // tableにダークモードのクラスを切り替え
-            this.classList.toggle('dark-mode'); // ボタンのスタイルも切り替え
-        });
-    </script>
+    <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
+    <script src="../js/theme.js"></script>
     <!-- Dark-mode toggle END -->
 
     <table id="table" class="display" style="width:100%">
@@ -47,7 +41,7 @@
     <script>
         $(document).ready(function () {
             // GitHub上のCSV/TSVファイルのURL
-            const fileUrl = "../data/subclade.txt";
+            const fileUrl = "../data/phylogeny/subclade.txt";
 
             // Papa Parseを使ってデータを取得
             Papa.parse(fileUrl, {

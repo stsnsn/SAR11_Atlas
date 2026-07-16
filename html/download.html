@@ -85,18 +85,12 @@
                     <br>
                 </div>
                 <!-- Dark-mode toggle -->
-                <button id="toggleTheme" class="mb-3">Toggle Dark/Light Mode</button>
-                <script>
-                    document.getElementById('toggleTheme').addEventListener('click', function() {
-                        document.body.classList.toggle('dark-mode'); // bodyにダークモードのクラスを切り替え
-                        document.getElementById('table').classList.toggle('dark-mode'); // tableにダークモードのクラスを切り替え
-                        this.classList.toggle('dark-mode'); // ボタンのスタイルも切り替え
-                    });
-                </script>
+                <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
+                <script src="../js/theme.js"></script>
                 <!-- Dark-mode toggle END -->
 
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <a href="" download="../data/subclade.txt">Genome Information Table</a> <br>
+                    <a href="../data/phylogeny/subclade.txt" download="subclade.txt">Genome Information Table</a> <br>
                 </div>
 
                 <p>All SAR11 genomes used in this study can be downloaded from the following link:</p>

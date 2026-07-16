@@ -12,6 +12,7 @@
     </script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SAR11 Genome Atlas</title>
     <link rel="canonical" href="https://stsnsn.github.io/SAR11_Gene_Catalog/">
     <meta name="theme-color" content="#0B3D57">
@@ -82,21 +83,13 @@
                 </nav>
 
             <div role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4"><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-3 border-bottom overview-header">
-                    <img class="overview-logo" src="../data/image/favicon/sga_logo_full_horizontal.svg" alt="SAR11 Genome Atlas logo">
+                <div class="site-logo-header" data-site-logo>
+                    <span class="site-logo-wrap">
+                        <img class="site-logo" src="../data/image/favicon/sga_logo_full_horizontal.svg" alt="SAR11 Genome Atlas logo">
+                    </span>
                 </div>
                 <!-- Dark-mode toggle -->
-                <button id="toggleTheme" class="mb-3">Toggle Dark/Light Mode</button>
-                <script>
-                    document.getElementById('toggleTheme').addEventListener('click', function() {
-                        document.body.classList.toggle('dark-mode'); // bodyにダークモードのクラスを切り替え
-                        const table = document.getElementById('table');
-                        if (table) {
-                            table.classList.toggle('dark-mode'); // tableにダークモードのクラスを切り替え
-                        }
-                        this.classList.toggle('dark-mode'); // ボタンのスタイルも切り替え
-                    });
-                </script>
+                <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
                 <!-- Dark-mode toggle END -->
                 <!-- EDITABLE ZONE START -->
                 <section class="overview-section">
@@ -104,63 +97,173 @@
                     <h3 class="overview-title">Explore SAR11 genome, gene function, and expression in one place</h3>
                     <p class="overview-lead">
                         The SAR11 Genome Atlas is an interactive genome and gene catalog for the SAR11 clade,
-                        the most abundant bacterial lineage in the ocean. Use the panels below to move between genome context,
-                        orthogroups, networks, literature links, and metatranscriptomic expression profiles.
+                        the most abundant bacterial lineage in the ocean. Explore the composition, quality, and functional
+                        annotation of the current collection, then move into genome-, orthogroup-, and expression-level views.
                     </p>
 
-                    <div class="overview-grid" id="overviewGrid">
-                        <a class="overview-card" href="./SAR11_phylogeny.html" tabindex="0" aria-label="Genome Information">
-                            <img src="../data/image/overview_cards/Genome_Contect_Viewer.png" alt="Genome Information preview">
-                            <div class="overview-card__content">
-                                <p class="overview-card__title">Genome Information</p>
-                                <p class="overview-card__desc">Explore SAR11 sampling locations, phylogenetic placement, and genome metadata in the atlas.</p>
-                            </div>
-                        </a>
-
-                        <a class="overview-card" href="./SAR11_OG_info.html" tabindex="0" aria-label="OG Information Viewer">
-                            <img src="../data/image/overview_cards/OG_Information_Viewer.png" alt="OG Information Viewer preview">
-                            <div class="overview-card__content">
-                                <p class="overview-card__title">OG Information Viewer</p>
-                                <p class="overview-card__desc">Open orthogroup-level annotations, members, and functional notes to trace how SAR11 genes are organized and annotated.</p>
-                            </div>
-                        </a>
-
-                        <a class="overview-card" href="./Corgias_network.html" tabindex="0" aria-label="CORGIAS Network">
-                            <img src="../data/image/overview_cards/CORGIAS_Network.png" alt="CORGIAS Network preview">
-                            <div class="overview-card__content">
-                                <p class="overview-card__title">CORGIAS Network</p>
-                                <p class="overview-card__desc">Inspect correlation-based network structure to identify gene modules and relationships that stand out across the atlas.</p>
-                            </div>
-                        </a>
-
-                        <a class="overview-card" href="./SAR11_History.html" tabindex="0" aria-label="SAR11 Paper Network">
-                            <img src="../data/image/overview_cards/SAR11_Paper_Network.png" alt="SAR11 Paper Network preview">
-                            <div class="overview-card__content">
-                                <p class="overview-card__title">SAR11 Paper Network</p>
-                                <p class="overview-card__desc">Connect atlas entries to the literature and curated publications so functional and evolutionary evidence stays one click away.</p>
-                            </div>
-                        </a>
-
-                        <a class="overview-card" href="./SAR11_operon_vis.html" tabindex="0" aria-label="Synteny Network">
-                            <img src="../data/image/overview_cards/Syntheny_Network.png" alt="Synteny Network preview">
-                            <div class="overview-card__content">
-                                <p class="overview-card__title">Synteny Network</p>
-                                <p class="overview-card__desc">Track conserved neighborhood patterns across genomes and explore how local gene order changes within the clade.</p>
-                            </div>
-                        </a>
-
-                        <a class="overview-card" href="./metaT.html" tabindex="0" aria-label="Metatranscriptome Viewer">
-                            <img src="../data/image/overview_cards/Metatranscriptome_VIewer.png" alt="Metatranscriptome Viewer preview">
-                            <div class="overview-card__content">
-                                <p class="overview-card__title">Metatranscriptome Viewer</p>
-                                <p class="overview-card__desc">Visualize expression profiles to compare SAR11 transcriptional signals across Tara Oceans metatranscriptomic datasets.</p>
-                            </div>
-                        </a>
+                    <div id="overviewLoading" class="overview-status" role="status">
+                        <span class="overview-status__dot" aria-hidden="true"></span>
+                        Loading atlas summary
                     </div>
 
-                    <p class="overview-note">
-                        Hover or focus each panel to reveal a short description.
-                    </p>
+                    <div id="overviewDashboard" class="atlas-dashboard" hidden>
+                        <div class="atlas-stats" aria-label="Atlas summary statistics">
+                            <a class="atlas-stat" href="./SAR11_phylogeny.html" aria-label="View genome information">
+                                <span class="atlas-stat__value" id="statGenomes">–</span>
+                                <span class="atlas-stat__label">genomes</span>
+                            </a>
+                            <a class="atlas-stat" href="./SAR11_phylogeny.html" aria-label="View subclade information">
+                                <span class="atlas-stat__value" id="statSubclades">–</span>
+                                <span class="atlas-stat__label">subclades</span>
+                            </a>
+                            <a class="atlas-stat" href="./og_list.html" aria-label="View proteins in the orthogroup list">
+                                <span class="atlas-stat__value" id="statProteins">–</span>
+                                <span class="atlas-stat__label">proteins</span>
+                            </a>
+                            <a class="atlas-stat atlas-stat--accent" href="./og_list.html" aria-label="View annotations in the orthogroup list">
+                                <span class="atlas-stat__value" id="statAnnotated">–</span>
+                                <span class="atlas-stat__label">with ≥1 annotation</span>
+                            </a>
+                            <a class="atlas-stat" href="./og_list.html" aria-label="View all orthogroups">
+                                <span class="atlas-stat__value atlas-stat__value--pending" id="statOrthogroups">Pending</span>
+                                <span class="atlas-stat__label">orthogroups</span>
+                                <span class="atlas-stat__detail">refreshing after genome QC</span>
+                            </a>
+                        </div>
+
+                        <div class="overview-tools-heading">
+                            <p class="overview-kicker">Explore</p>
+                            <h3 class="overview-title">Move from the collection to individual genes</h3>
+                        </div>
+
+                        <div class="overview-grid" id="overviewGrid">
+                            <a class="overview-card" href="./SAR11_phylogeny.html" tabindex="0" aria-label="Genome Information">
+                                <img src="../data/image/overview_cards/Genome_Contect_Viewer.png" alt="Genome Information preview">
+                                <div class="overview-card__content">
+                                    <p class="overview-card__title">Genome Information</p>
+                                    <p class="overview-card__desc">Explore SAR11 sampling locations, phylogenetic placement, and genome metadata in the atlas.</p>
+                                </div>
+                            </a>
+
+                            <a class="overview-card" href="./SAR11_OG_info.html" tabindex="0" aria-label="OG Information Viewer">
+                                <img src="../data/image/overview_cards/OG_Information_Viewer.png" alt="OG Information Viewer preview">
+                                <div class="overview-card__content">
+                                    <p class="overview-card__title">OG Information Viewer</p>
+                                    <p class="overview-card__desc">Open orthogroup-level annotations, members, and functional notes to trace how SAR11 genes are organized and annotated.</p>
+                                </div>
+                            </a>
+
+                            <a class="overview-card" href="./Corgias_network.html" tabindex="0" aria-label="CORGIAS Network">
+                                <img src="../data/image/overview_cards/CORGIAS_Network.png" alt="CORGIAS Network preview">
+                                <div class="overview-card__content">
+                                    <p class="overview-card__title">CORGIAS Network</p>
+                                    <p class="overview-card__desc">Inspect correlation-based network structure to identify gene modules and relationships that stand out across the atlas.</p>
+                                </div>
+                            </a>
+
+                            <a class="overview-card" href="./SAR11_History.html" tabindex="0" aria-label="SAR11 Paper Network">
+                                <img src="../data/image/overview_cards/SAR11_Paper_Network.png" alt="SAR11 Paper Network preview">
+                                <div class="overview-card__content">
+                                    <p class="overview-card__title">SAR11 Paper Network</p>
+                                    <p class="overview-card__desc">Connect atlas entries to the literature and curated publications so functional and evolutionary evidence stays one click away.</p>
+                                </div>
+                            </a>
+
+                            <a class="overview-card" href="./SAR11_operon_vis.html" tabindex="0" aria-label="Synteny Network">
+                                <img src="../data/image/overview_cards/Syntheny_Network.png" alt="Synteny Network preview">
+                                <div class="overview-card__content">
+                                    <p class="overview-card__title">Synteny Network</p>
+                                    <p class="overview-card__desc">Track conserved neighborhood patterns across genomes and explore how local gene order changes within the clade.</p>
+                                </div>
+                            </a>
+
+                            <a class="overview-card" href="./metaT.html" tabindex="0" aria-label="Metatranscriptome Viewer">
+                                <img src="../data/image/overview_cards/Metatranscriptome_VIewer.png" alt="Metatranscriptome Viewer preview">
+                                <div class="overview-card__content">
+                                    <p class="overview-card__title">Metatranscriptome Viewer</p>
+                                    <p class="overview-card__desc">Visualize expression profiles to compare SAR11 transcriptional signals across Tara Oceans metatranscriptomic datasets.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <p class="overview-note">Hover or focus each panel to reveal a short description.</p>
+
+                        <div class="atlas-filterbar" aria-label="Overview filters">
+                            <div class="atlas-filterbar__intro">
+                                <span class="atlas-filterbar__eyebrow">Explore the collection</span>
+                                <strong>Filter every panel</strong>
+                            </div>
+                            <label class="atlas-filter">
+                                <span>Genome type</span>
+                                <select id="filterGenomeType">
+                                    <option value="All">All genome types</option>
+                                </select>
+                            </label>
+                            <label class="atlas-filter">
+                                <span>Subclade</span>
+                                <select id="filterSubclade">
+                                    <option value="All">All subclades</option>
+                                </select>
+                            </label>
+                            <button id="resetOverviewFilters" class="atlas-filterbar__reset" type="button">Reset</button>
+                        </div>
+
+                        <div class="atlas-chart-grid">
+                            <article class="atlas-panel atlas-panel--compact">
+                                <div class="atlas-panel__header">
+                                    <div>
+                                        <p class="atlas-panel__kicker">Collection</p>
+                                        <h4>Genome sources</h4>
+                                    </div>
+                                    <span class="atlas-panel__meta" id="genomeTypeMeta"></span>
+                                </div>
+                                <div id="genomeTypeChart" class="atlas-chart atlas-chart--donut" aria-label="Donut chart of genome types"></div>
+                            </article>
+
+                            <article class="atlas-panel atlas-panel--wide">
+                                <div class="atlas-panel__header">
+                                    <div>
+                                        <p class="atlas-panel__kicker">Functional coverage</p>
+                                        <h4>Annotation overlap</h4>
+                                    </div>
+                                    <span class="atlas-panel__meta">COG · KO · Pfam</span>
+                                </div>
+                                <div id="annotationUpSet" class="atlas-upset" aria-label="UpSet plot of annotation overlap"></div>
+                            </article>
+
+                            <article class="atlas-panel atlas-panel--wide">
+                                <div class="atlas-panel__header">
+                                    <div>
+                                        <p class="atlas-panel__kicker">Genome landscape</p>
+                                        <h4>Genome size and GC content</h4>
+                                    </div>
+                                    <span class="atlas-panel__meta">Hover to inspect a genome</span>
+                                </div>
+                                <div id="genomeScatter" class="atlas-chart atlas-chart--scatter" aria-label="Scatter plot of genome size and GC content"></div>
+                            </article>
+
+                            <article class="atlas-panel atlas-panel--wide">
+                                <div class="atlas-panel__header">
+                                    <div>
+                                        <p class="atlas-panel__kicker">Proteome landscape</p>
+                                        <h4>Protein length distribution</h4>
+                                    </div>
+                                    <label class="atlas-filter atlas-filter--inline">
+                                        <span>Annotation group</span>
+                                        <select id="filterAnnotation">
+                                            <option value="All">All proteins</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div id="proteinLengthChart" class="atlas-chart atlas-chart--length" aria-label="Histogram of protein lengths"></div>
+                                <p class="atlas-panel__note">Proteins ≥2,000 aa are grouped in the final bin.</p>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div id="overviewError" class="overview-status overview-status--error" role="alert" hidden>
+                        Atlas summary data could not be loaded. Please refresh the page.
+                    </div>
 
                     <div class="border-top p-4 mb-4">
                         <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
@@ -191,6 +294,10 @@
             cards.forEach(card => grid.appendChild(card));
         });
     </script>
+    <script src="../js/papaparse.min.js"></script>
+    <script src="../js/plotly-2.35.2.min.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/overview.js"></script>
 
 </body>
 

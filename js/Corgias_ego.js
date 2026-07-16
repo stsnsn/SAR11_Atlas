@@ -384,7 +384,7 @@
         } catch (e) { /* ignore */ }
         // setup autocomplete for ego node using og_suggest.tsv
         try {
-            const ogTxt = await (await fetch('../data/og_suggest.tsv')).text();
+            const ogTxt = await (await fetch('../data/orthogroups/og_suggest.tsv')).text();
             const ogLines = ogTxt.split(/\r?\n/).filter(Boolean);
             const ogHeader = ogLines.shift().split('\t');
             const ogData = ogLines.map(line => {

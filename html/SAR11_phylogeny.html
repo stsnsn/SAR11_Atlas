@@ -113,14 +113,8 @@
                 </div>
 
                 <!-- Dark-mode toggle -->
-                <button id="toggleTheme" class="mb-3">Toggle Dark/Light Mode</button>
-                <script>
-                    document.getElementById('toggleTheme').addEventListener('click', function() {
-                        document.body.classList.toggle('dark-mode'); // bodyにダークモードのクラスを切り替え
-                        document.getElementById('table').classList.toggle('dark-mode'); // tableにダークモードのクラスを切り替え
-                        this.classList.toggle('dark-mode'); // ボタンのスタイルも切り替え
-                    });
-                </script>
+                <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
+                <script src="../js/theme.js"></script>
                 <hr style="margin-top: 20px; margin-bottom: 20px; border: 1px solid gray;">
                 <!-- Dark-mode toggle END -->
 
@@ -169,7 +163,7 @@
                     <h5>Tree for Functional Unknomics (321 Genomes and an outgroup)</h5>
                 <p>Expand the phylogenetic tree to see the names of each genome. Hover the mouse pointer over it for more information.</p>
                 <p>Color by: pull-down menu allows you to change the color coding</p>
-                <a href="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist">Full screen view</a> / Download <a href="../data/SAR11.tree" download="SAR11.tree">newick file</a> and <a href="../data/subclade.txt" download="subclade.txt">table</a>
+                <a href="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist">Full screen view</a> / Download <a href="../data/phylogeny/SAR11.tree" download="SAR11.tree">newick file</a> and <a href="../data/phylogeny/subclade.txt" download="subclade.txt">table</a>
                 <iframe src="https://taxonium.org/?treeUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D11KRxvUro_wFUKQ4WDu5CcZNtQXPGsBHv&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%253A%252F%252Fdrive.google.com%252Fuc%253Fexport%253Ddownload%2526id%253D19s3QufNQvSPftA6knsk8cswa44Pz9GLH&metaType=meta_tsv&xType=x_dist" id="taxonium" width="100%" height="25%" data-external="1" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay">
                 </iframe>
                 <br><br><br>
@@ -217,7 +211,7 @@
                 <script>
                     $(document).ready(function () {
                         // GitHub上のCSV/TSVファイルのURL
-                        const fileUrl = "../data/subclade.txt";
+                        const fileUrl = "../data/phylogeny/subclade.txt";
                         // Papa Parseを使ってデータを取得
                         Papa.parse(fileUrl, {
                             download: true,

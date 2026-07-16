@@ -1,0 +1,113 @@
+:root {
+    color-scheme: light;
+}
+
+body {
+    transition: background-color 180ms ease, color 180ms ease;
+}
+
+body.dark-mode {
+    color-scheme: dark;
+    background-color: #333333;
+    color: #f2f2f2;
+}
+
+.site-logo-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 120px;
+    margin-bottom: 1rem;
+    padding: 2.5rem 0 0.5rem;
+    border-bottom: 1px solid rgba(11, 61, 87, 0.1);
+}
+
+.site-logo-wrap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0.85rem 1.15rem;
+    border-radius: 18px;
+    box-sizing: border-box;
+    background: transparent;
+    box-shadow: 0 10px 24px rgba(3, 24, 36, 0);
+    transition: background-color 180ms ease, box-shadow 180ms ease;
+}
+
+.site-logo {
+    display: block;
+    width: min(520px, calc(92vw - 2.3rem));
+    max-width: 100%;
+    max-height: 82px;
+    height: auto;
+    object-fit: contain;
+}
+
+.site-title-after-logo {
+    padding-top: 0.75rem !important;
+}
+
+.site-title-after-logo > br {
+    display: none;
+}
+
+body.dark-mode .site-logo-header {
+    border-bottom-color: rgba(150, 198, 213, 0.18);
+}
+
+body.dark-mode .site-logo-wrap {
+    background: #ffffff;
+    box-shadow: 0 10px 24px rgba(3, 24, 36, 0.18);
+}
+
+.theme-toggle {
+    display: block;
+    margin-left: auto;
+    padding: 0.55rem 0.85rem;
+    border: 1px solid rgba(11, 61, 87, 0.16);
+    border-radius: 999px;
+    background: #ffffff;
+    color: #0b3d57;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    box-shadow: 0 7px 20px rgba(3, 24, 36, 0.08);
+    cursor: pointer;
+    transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus {
+    border-color: rgba(8, 125, 130, 0.34);
+    background: #eaf7f7;
+    color: #075970;
+    text-decoration: none;
+}
+
+.theme-toggle:focus-visible {
+    outline: 3px solid rgba(8, 125, 130, 0.3);
+    outline-offset: 2px;
+}
+
+.theme-toggle--floating {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 2000;
+}
+
+body.dark-mode .theme-toggle {
+    border-color: rgba(147, 201, 217, 0.22);
+    background: #132936;
+    color: #eaf9fd;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.22);
+}
+
+body.dark-mode .theme-toggle:hover,
+body.dark-mode .theme-toggle:focus {
+    border-color: rgba(100, 203, 200, 0.4);
+    background: #1a3947;
+    color: #ffffff;
+}

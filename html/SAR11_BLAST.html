@@ -64,14 +64,8 @@
                 </div>
 
                 <!-- Dark-mode toggle -->
-                <button id="toggleTheme" class="mb-3">Toggle Dark/Light Mode</button>
-                <script>
-                    document.getElementById('toggleTheme').addEventListener('click', function() {
-                        document.body.classList.toggle('dark-mode'); // bodyにダークモードのクラスを切り替え
-                        document.getElementById('table').classList.toggle('dark-mode'); // tableにダークモードのクラスを切り替え
-                        this.classList.toggle('dark-mode'); // ボタンのスタイルも切り替え
-                    });
-                </script>
+                <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
+                <script src="../js/theme.js"></script>
                 <!-- Dark-mode toggle END -->
 
                 <p class="lead">On this page, you can identify which ortholog group your amino acid sequence most closely matches using a simple Smith–Waterman alignment. For more comprehensive analyses, you can also access the full BLAST database on the Download page.</p>

@@ -7,8 +7,10 @@
 	<link rel="stylesheet" href="../css/jquery.dataTables.min.css">
 	<link rel="stylesheet" href="../css/buttons.dataTables.min.css">
 	<link rel="stylesheet" href="../css/scroller.dataTables.min.css">
+	<link rel="stylesheet" href="../css/data_table_style.css">
 </head>
-<body>
+<body data-theme-embedded>
+	<script src="../js/theme.js"></script>
 	<table id="table">
 		<caption>loading...</caption>
 	</table>
@@ -306,6 +308,24 @@
 
 		.dt-button-info h2 {
 			display: none;
+		}
+
+		body.dark-mode #table_wrapper .dataTables_length label,
+		body.dark-mode #table_wrapper .dataTables_filter label,
+		body.dark-mode #table_wrapper .dataTables_paginate a,
+		body.dark-mode #table_wrapper .dataTables_info {
+			color: #d5e9ef !important;
+		}
+
+		body.dark-mode #table_wrapper input,
+		body.dark-mode #table_wrapper select {
+			border: 1px solid #527382;
+			background: #132936;
+			color: #f2f8fa;
+		}
+
+		body.dark-mode #table_wrapper table tbody tr:hover td {
+			color: #ffffff;
 		}
 	</style>
 </body>
