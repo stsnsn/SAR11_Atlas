@@ -339,6 +339,29 @@
     line-height: 1.6;
 }
 
+.og-viewer .atlas-citation {
+    margin-top: 1.5rem;
+    padding: 1.1rem 1.2rem;
+    border-top: 3px solid #0aa6a6;
+    border-radius: 0 0 14px 14px;
+    background: var(--og-tint);
+}
+
+.og-viewer .atlas-citation h2 {
+    margin: 0 0 0.65rem;
+    color: var(--og-accent);
+    font-size: 0.82rem;
+    font-weight: 850;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.og-viewer .atlas-citation p {
+    margin: 0.3rem 0;
+    color: var(--og-ink);
+    line-height: 1.55;
+}
+
 body.dark-mode .og-viewer {
     --og-ink: #eaf7fa;
     --og-muted: #aac2cc;
@@ -355,6 +378,10 @@ body.dark-mode .og-page-heading {
 }
 
 body.dark-mode .og-intro {
+    background: rgba(21, 53, 64, 0.82);
+}
+
+body.dark-mode .og-viewer .atlas-citation {
     background: rgba(21, 53, 64, 0.82);
 }
 
