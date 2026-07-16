@@ -14,34 +14,83 @@ body.dark-mode {
 
 .site-logo-header {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    min-height: 120px;
-    margin-bottom: 1rem;
-    padding: 2.5rem 0 0.5rem;
-    border-bottom: 1px solid rgba(11, 61, 87, 0.1);
-}
-
-.site-logo-wrap {
-    display: inline-flex;
     align-items: center;
     justify-content: center;
-    max-width: 100%;
-    padding: 0.85rem 1.15rem;
-    border-radius: 18px;
-    box-sizing: border-box;
-    background: transparent;
-    box-shadow: 0 10px 24px rgba(3, 24, 36, 0);
-    transition: background-color 180ms ease, box-shadow 180ms ease;
+    min-height: 0;
+    margin: 4rem 0 1rem;
+    padding: 1rem 1.2rem;
+    border: 0;
+    border-radius: 20px;
+    background:
+        radial-gradient(circle at 86% 12%, rgba(54, 190, 194, 0.2), transparent 34%),
+        linear-gradient(135deg, #062c40 0%, #084b5c 100%);
+    box-shadow: 0 14px 34px rgba(3, 24, 36, 0.14);
 }
 
-.site-logo {
+.site-brand {
+    display: flex;
+    align-items: center;
+    width: min(600px, 100%);
+    gap: clamp(0.8rem, 1.8vw, 1.15rem);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.site-brand:hover,
+.site-brand:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.site-brand:focus-visible {
+    outline: 3px solid rgba(116, 224, 218, 0.8);
+    outline-offset: 6px;
+    border-radius: 8px;
+}
+
+.site-brand__emblem {
     display: block;
-    width: min(520px, calc(92vw - 2.3rem));
-    max-width: 100%;
-    max-height: 82px;
-    height: auto;
-    object-fit: contain;
+    flex: 0 0 auto;
+    width: clamp(3.75rem, 6.5vw, 4.75rem);
+    height: clamp(3.75rem, 6.5vw, 4.75rem);
+    filter: drop-shadow(0 10px 18px rgba(0, 13, 21, 0.3));
+}
+
+.site-brand__wordmark {
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    text-shadow: 0 3px 16px rgba(0, 12, 20, 0.5);
+}
+
+.site-brand__title {
+    color: #ffffff;
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.site-brand__subtitle {
+    margin: 0.45rem 0 0 0.08em;
+    color: #b8ebe7;
+    font-size: clamp(0.56rem, 1vw, 0.7rem);
+    font-weight: 750;
+    letter-spacing: 0.16em;
+    line-height: 1.25;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.site-brand__rule {
+    width: min(100%, 24rem);
+    height: 2px;
+    margin-top: 0.55rem;
+    background: linear-gradient(90deg, #ff765f, #ff9a72 18%, #43c4cc 62%, transparent 100%);
+    box-shadow: 0 0 16px rgba(67, 196, 204, 0.3);
 }
 
 .site-title-after-logo {
@@ -53,12 +102,39 @@ body.dark-mode {
 }
 
 body.dark-mode .site-logo-header {
-    border-bottom-color: rgba(150, 198, 213, 0.18);
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.3);
 }
 
-body.dark-mode .site-logo-wrap {
-    background: #ffffff;
-    box-shadow: 0 10px 24px rgba(3, 24, 36, 0.18);
+@media (max-width: 767.98px) {
+    .site-logo-header {
+        padding: 1rem;
+        border-radius: 14px;
+    }
+
+    .site-brand {
+        gap: 0.75rem;
+    }
+
+    .site-brand__emblem {
+        width: clamp(3.6rem, 17vw, 4.5rem);
+        height: clamp(3.6rem, 17vw, 4.5rem);
+    }
+
+    .site-brand__title {
+        font-size: clamp(1.05rem, 5.3vw, 1.8rem);
+    }
+
+    .site-brand__subtitle {
+        margin-top: 0.4rem;
+        font-size: clamp(0.48rem, 2vw, 0.65rem);
+        letter-spacing: 0.07em;
+        white-space: normal;
+    }
+
+    .site-brand__rule {
+        height: 2px;
+        margin-top: 0.5rem;
+    }
 }
 
 .theme-toggle {

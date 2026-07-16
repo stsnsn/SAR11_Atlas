@@ -26,21 +26,39 @@
         header.className = "site-logo-header";
         header.setAttribute("data-site-logo", "");
 
-        const wrapper = document.createElement("span");
-        wrapper.className = "site-logo-wrap";
+        const brand = document.createElement("a");
+        brand.className = "site-brand";
+        brand.href = "../index.html";
+        brand.setAttribute("aria-label", "SAR11 Genome Atlas home");
 
-        const logo = document.createElement("img");
-        logo.className = "site-logo";
-        logo.src = "../data/image/favicon/sga_logo_full_horizontal.svg";
-        logo.alt = "SAR11 Genome Atlas logo";
+        const emblem = document.createElement("img");
+        emblem.className = "site-brand__emblem";
+        emblem.src = "../data/image/favicon/favicon_30right.svg";
+        emblem.alt = "";
 
-        wrapper.appendChild(logo);
-        header.appendChild(wrapper);
+        const wordmark = document.createElement("span");
+        wordmark.className = "site-brand__wordmark";
+
+        const title = document.createElement("span");
+        title.className = "site-brand__title";
+        title.textContent = "SAR11 Genome Atlas";
+
+        const subtitle = document.createElement("span");
+        subtitle.className = "site-brand__subtitle";
+        subtitle.textContent = "Connecting genomes, orthogroups, and function";
+
+        const rule = document.createElement("span");
+        rule.className = "site-brand__rule";
+        rule.setAttribute("aria-hidden", "true");
+
+        wordmark.append(title, subtitle, rule);
+        brand.append(emblem, wordmark);
+        header.appendChild(brand);
 
         const main = document.querySelector("main[role='main'], [role='main']");
         if (main) {
-            const title = main.querySelector("h1");
-            const titleContainer = title && title.parentElement !== main ? title.parentElement : null;
+            const pageTitle = main.querySelector("h1");
+            const titleContainer = pageTitle && pageTitle.parentElement !== main ? pageTitle.parentElement : null;
             if (titleContainer) {
                 titleContainer.classList.add("site-title-after-logo");
                 main.insertBefore(header, titleContainer);
