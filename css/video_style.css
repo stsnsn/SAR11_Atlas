@@ -1,27 +1,412 @@
-/* video_styles.css */
+:root {
+    --landing-ink: #05263a;
+    --landing-sea: #087d82;
+    --landing-cyan: #43c4cc;
+    --landing-white: #f7fbfa;
+    --landing-muted: rgba(247, 251, 250, 0.76);
+    --landing-display: "Avenir Next", "Gill Sans", "Century Gothic", sans-serif;
+    --landing-body: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    min-height: 100svh;
+    overflow-x: hidden;
+    color: var(--landing-white);
+    background: var(--landing-ink) url('../data/image/background_image.jpg') center / cover fixed;
+    font-family: var(--landing-body);
+    font-feature-settings: "kern" 1, "liga" 1;
+}
+
+a {
+    color: inherit;
+}
+
 #video-background {
     position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: 110%;
-    height: auto;
-    z-index: -100;
-    background-size: cover;
+    inset: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
-#content {
+.ocean-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background:
+        radial-gradient(circle at 72% 32%, rgba(67, 196, 204, 0.2), transparent 33%),
+        linear-gradient(115deg, rgba(2, 24, 37, 0.92) 4%, rgba(3, 48, 65, 0.72) 48%, rgba(1, 20, 31, 0.88) 100%);
+}
+
+.landing-shell {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    min-height: 100svh;
+    padding: clamp(1rem, 2.5vw, 2rem) clamp(1rem, 4vw, 4.5rem);
+}
+
+.landing-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    width: min(1180px, 100%);
+    margin: 0 auto;
+}
+
+.landing-home {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    font-family: var(--landing-display);
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.13em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.landing-home img {
+    width: 2.1rem;
+    height: 2.1rem;
+}
+
+.landing-nav {
+    display: flex;
+    align-items: center;
+    gap: clamp(1rem, 2.6vw, 2.2rem);
+}
+
+.landing-nav a,
+.landing-secondary {
     position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    padding: 20px;
+    color: var(--landing-muted);
+    font-family: var(--landing-display);
+    font-size: 0.86rem;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    text-decoration: none;
 }
 
-@media (max-width: 767px) {
+.landing-nav a::after {
+    position: absolute;
+    right: 0;
+    bottom: -0.4rem;
+    left: 0;
+    height: 2px;
+    background: var(--landing-cyan);
+    content: "";
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 180ms ease;
+}
+
+.landing-nav a:hover,
+.landing-nav a:focus-visible,
+.landing-secondary:hover,
+.landing-secondary:focus-visible {
+    color: #fff;
+}
+
+.landing-nav a:hover::after,
+.landing-nav a:focus-visible::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.landing-main {
+    display: flex;
+    align-items: center;
+    width: min(1180px, 100%);
+    margin: 0 auto;
+    padding: clamp(4rem, 10vh, 8rem) 0;
+}
+
+.landing-hero {
+    width: min(720px, 100%);
+    animation: landing-rise 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.landing-eyebrow {
+    margin: 0 0 1rem;
+    color: #9be6e3;
+    font-family: var(--landing-display);
+    font-size: clamp(0.68rem, 1.3vw, 0.8rem);
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
+
+.brand-lockup {
+    display: flex;
+    align-items: center;
+    gap: clamp(1rem, 2.8vw, 2rem);
+    width: min(720px, 100%);
+    padding: 0.35rem 0;
+}
+
+.brand-emblem {
+    display: block;
+    flex: 0 0 auto;
+    width: clamp(5.2rem, 12vw, 8.6rem);
+    height: clamp(5.2rem, 12vw, 8.6rem);
+    filter: drop-shadow(0 16px 26px rgba(0, 13, 21, 0.38));
+}
+
+.brand-wordmark {
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    text-shadow: 0 4px 22px rgba(0, 12, 20, 0.72);
+}
+
+.brand-title {
+    margin: 0;
+    color: #fff;
+    font-family: var(--landing-display);
+    font-size: clamp(2.25rem, 5.7vw, 4.2rem);
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 0.98;
+    white-space: nowrap;
+}
+
+.brand-subtitle {
+    margin: clamp(0.55rem, 1.2vw, 0.8rem) 0 0 0.12em;
+    color: #b8ebe7;
+    font-family: var(--landing-display);
+    font-size: clamp(0.7rem, 1.35vw, 0.9rem);
+    font-weight: 750;
+    letter-spacing: 0.2em;
+    line-height: 1;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.brand-rule {
+    width: min(100%, 31rem);
+    height: 3px;
+    margin-top: clamp(0.75rem, 1.5vw, 1rem);
+    background: linear-gradient(90deg, #ff765f, #ff9a72 18%, var(--landing-cyan) 62%, transparent 100%);
+    box-shadow: 0 0 18px rgba(67, 196, 204, 0.35);
+}
+
+.landing-summary {
+    max-width: 690px;
+    margin: 1.45rem 0 0;
+    padding: 0.75rem 1rem 0.8rem 1.15rem;
+    border-left: 2px solid rgba(116, 224, 218, 0.86);
+    color: #fff;
+    background: linear-gradient(90deg, rgba(2, 25, 38, 0.68), rgba(2, 25, 38, 0.24) 72%, transparent);
+    font-family: var(--landing-display);
+    font-size: clamp(1.08rem, 2vw, 1.42rem);
+    font-weight: 650;
+    letter-spacing: 0.005em;
+    line-height: 1.55;
+    text-shadow: 0 2px 14px rgba(0, 13, 21, 0.78);
+    text-wrap: balance;
+}
+
+.landing-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem 1.4rem;
+    margin-top: 2rem;
+}
+
+.landing-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    min-height: 3.2rem;
+    padding: 0.85rem 1.35rem;
+    border: 1px solid #73d9d5;
+    border-radius: 999px;
+    color: #032a38;
+    background: linear-gradient(135deg, #a4ece5, #43c4cc);
+    box-shadow: 0 12px 32px rgba(19, 174, 184, 0.25);
+    font-family: var(--landing-display);
+    font-size: 0.92rem;
+    font-weight: 800;
+    text-decoration: none;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.landing-cta span {
+    font-size: 1.2em;
+    transition: transform 180ms ease;
+}
+
+.landing-cta:hover,
+.landing-cta:focus-visible {
+    box-shadow: 0 16px 38px rgba(19, 174, 184, 0.38);
+    transform: translateY(-2px);
+}
+
+.landing-cta:hover span,
+.landing-cta:focus-visible span {
+    transform: translateX(3px);
+}
+
+.landing-secondary {
+    padding: 0.7rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.34);
+}
+
+.landing-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem 2rem;
+    width: min(1180px, 100%);
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 0.72rem;
+    letter-spacing: 0.03em;
+}
+
+.landing-footer p {
+    margin: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+:focus-visible {
+    outline: 3px solid #f6df45;
+    outline-offset: 4px;
+}
+
+@keyframes landing-rise {
+    from {
+        opacity: 0;
+        transform: translateY(22px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 680px) {
+    .landing-shell {
+        padding: 1rem;
+    }
+
+    .landing-header {
+        align-items: flex-start;
+    }
+
+    .landing-home span {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+    }
+
+    .landing-nav {
+        gap: 0.9rem;
+    }
+
+    .landing-nav a {
+        font-size: 0.76rem;
+    }
+
+    .landing-main {
+        padding: 3.5rem 0;
+    }
+
+    .brand-lockup {
+        align-items: center;
+        gap: 0.85rem;
+    }
+
+    .brand-emblem {
+        width: clamp(4.4rem, 20vw, 5.5rem);
+        height: clamp(4.4rem, 20vw, 5.5rem);
+    }
+
+    .brand-title {
+        font-size: clamp(1.1rem, 5.6vw, 2.4rem);
+        letter-spacing: -0.045em;
+    }
+
+    .brand-subtitle {
+        margin-top: 0.45rem;
+        font-size: clamp(0.52rem, 2.45vw, 0.78rem);
+        letter-spacing: 0.08em;
+        line-height: 1.35;
+        white-space: normal;
+    }
+
+    .brand-rule {
+        height: 2px;
+        margin-top: 0.6rem;
+    }
+
+    .landing-summary {
+        padding-left: 0.85rem;
+        font-size: 1.05rem;
+    }
+
+    .landing-footer {
+        flex-direction: column;
+        padding-bottom: 0.3rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .landing-header {
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+
+    .landing-nav {
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
     #video-background {
-        width: 100%;  /* 横幅を100%に設定 */
-        height: auto; /* 高さは自動調整 */
+        display: none;
+    }
+
+    .landing-hero {
+        animation: none;
+    }
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
     }
 }

@@ -1,169 +1,73 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore SAR11 genome diversity, orthogroups, gene neighborhoods, protein structures, and metatranscriptomic patterns.">
     <title>SAR11 Genome Atlas</title>
-    <meta name="theme-color" content="#0B3D57">
+    <meta name="theme-color" content="#05263a">
     <link rel="icon" type="image/svg+xml" href="./data/image/favicon/favicon_30right.svg">
     <link rel="apple-touch-icon" href="./data/image/favicon/favicon_30right.svg">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/video_style.css">
-        <style>
-        .brand-mark-wrap {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(250, 226, 42, 0.5);
-            padding: 0.85rem 1.15rem;
-            border-radius: 18px;
-            box-shadow: 0 10px 24px rgba(3, 24, 36, 0.18);
-        }
-
-        .brand-mark {
-            width: min(360px, 84vw);
-            margin-bottom: 0;
-            filter: none;
-        }
-
-        a#diveBtn.btn-secondary {
-            background-color: #013a74;
-            border-color: #013a74;
-            color: #fff;
-        }
-        </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/3.2.0/sha256.min.js"></script>
-    <script src="./js/jquery-3.6.0.min.js"></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>
 </head>
 
-
-<body class="text-center">
-
-    <video autoplay muted loop id="video-background">
+<body>
+    <video
+        id="video-background"
+        autoplay
+        muted
+        loop
+        playsinline
+        poster="./data/image/background_image.jpg"
+        aria-hidden="true"
+    >
         <source src="./data/movie/opening_movie.mp4" type="video/mp4">
     </video>
+    <div class="ocean-overlay" aria-hidden="true"></div>
 
-    <!-- 中央揃え -->
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column align-items-center justify-content-center" id="content">
-        <header class="masthead mb-auto">
-            <div class="inner">
-                <!-- <h1 class="masthead-brand">SAR11 Genome Atlas</h1> -->
-                <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link active" href="./index.html">Home</a>
-                    <a class="nav-link" href="https://scholar.google.com/citations?user=AlQJM-IAAAAJ&hl=en">Publication</a>
-                    <a class="nav-link" href="https://sites.google.com/view/snishino/english">Contact</a>
-                </nav>
-            </div>
+    <div class="landing-shell">
+        <header class="landing-header">
+            <a class="landing-home" href="./index.html" aria-label="SAR11 Genome Atlas home">
+                <img src="./data/image/favicon/favicon_30right.svg" alt="">
+                <span>SAR11 Genome Atlas</span>
+            </a>
+            <nav class="landing-nav" aria-label="Primary navigation">
+                <a href="./html/Overview.html">Overview</a>
+                <a href="https://scholar.google.com/citations?user=AlQJM-IAAAAJ&amp;hl=en" target="_blank" rel="noopener">Publications</a>
+                <a href="https://sites.google.com/view/snishino/english" target="_blank" rel="noopener">Contact</a>
+            </nav>
         </header>
 
-        <main role="main" class="inner cover">
-            <div class="brand-mark-wrap">
-                <img class="brand-mark" src="./data/image/favicon/SGA_logo.svg" alt="SAR11 Genome Atlas logo">
-            </div>
-            <p class="lead">A genome and gene catalog of the SAR11 clade, the most abundant bacteria lineage in the ocean.</p>
-            <p class="lead">
-                <a id="diveBtn" href="./html/Overview.html" class="btn btn-lg btn-secondary">Dive!</a>
-            </p>
+        <main class="landing-main">
+            <section class="landing-hero" aria-labelledby="landing-title">
+                <p class="landing-eyebrow">Explore the SAR11 genomic landscape</p>
+                <div class="brand-lockup" aria-label="SAR11 Genome Atlas">
+                    <img class="brand-emblem" src="./data/image/favicon/favicon_30right.svg" alt="">
+                    <div class="brand-wordmark" aria-hidden="true">
+                        <span class="brand-title">SAR11 Genome Atlas</span>
+                        <span class="brand-subtitle">Connecting genomes, orthogroups, and function</span>
+                        <span class="brand-rule"></span>
+                    </div>
+                </div>
+                <h1 id="landing-title" class="visually-hidden">SAR11 Genome Atlas</h1>
+                <p class="landing-summary">
+                    An interactive genome and gene catalog for the SAR11 clade,
+                    the most abundant bacterial lineage in the ocean.
+                </p>
+                <div class="landing-actions">
+                    <a class="landing-cta" href="./html/Overview.html">
+                        Enter the Atlas
+                        <span aria-hidden="true">&rarr;</span>
+                    </a>
+                    <a class="landing-secondary" href="./html/SAR11_phylogeny.html">View genome information</a>
+                </div>
+            </section>
         </main>
 
-        <footer class="mastfoot mt-auto">
-            <div class="inner">
-                <p>BGV was filmed at Waikiki beach, Hawaii, by S.N.</p>
-                <p>Designed for the SAR11 Genome Atlas submission release on [Aug. 2026].</p>
-            </div>
+        <footer class="landing-footer">
+            <p>Background video filmed at Waikiki Beach, Hawaii, by S.N.</p>
+            <p>SAR11 Genome Atlas &middot; In preparation</p>
         </footer>
     </div>
-
-    <!-- Login Modal
-    <div class="modal" tabindex="-1" role="dialog" id="loginModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Login</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form id="loginForm">
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Login</button>
-                    </form>
-                    <div id="loginError" class="text-danger mt-2" style="display: none;">Invalid credentials. Please try again.</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Check if the user is logged in
-            if (!localStorage.getItem('loggedIn')) {
-                $('#loginModal').modal('show');
-            }
-
-            document.getElementById('loginForm').addEventListener('submit', function(event) {
-                event.preventDefault();
-                const password = document.getElementById('password').value;
-
-                console.log('Password:', password); // デバッグ用
-                const hash = sha256(password);
-                console.log('Hash:', hash); // デバッグ用
-
-                const filePath = `${hash}/check.html`;
-                console.log('Checking path:', filePath); // デバッグ用
-
-                // Check if the file exists on the server
-                const xhr = new XMLHttpRequest();
-                xhr.open('HEAD', filePath, true);
-                xhr.onload = function() {
-                    if (xhr.status === 200) {
-                        console.log('Login successful'); // デバッグ用
-                        localStorage.setItem('loggedIn', 'true');
-                        window.location.href = 'Overview.html';
-                    } else {
-                        console.log('Invalid credentials'); // デバッグ用
-                        document.getElementById('loginError').style.display = 'block';
-                    }
-                };
-                xhr.onerror = function() {
-                    console.error('Request error'); // デバッグ用
-                    document.getElementById('loginError').style.display = 'block';
-                };
-                xhr.send();
-            });
-        });
-
-        function sha256(message) {
-            const shaObj = new jsSHA('SHA-256', 'TEXT');
-            shaObj.update(message);
-            return shaObj.getHash('HEX');
-        }
-    </script>-->
-    <script>
-        window.onload = function() {
-            // safari用に最初に背景画像を読み込んで表示
-            const backgroundImage = new Image(); // 画像のインスタンス作成
-            backgroundImage.src = './data/image/background_image.jpg'; // 背景画像のパス
-            backgroundImage.onload = function() {
-                // 画像の読み込みが完了したら背景として設定
-                document.body.style.backgroundImage = `url('${backgroundImage.src}')`;
-                document.body.style.backgroundSize = 'cover'; // 画像を画面全体にフィット
-
-                // 次にビデオの表示を開始
-                const video = document.getElementById('video-background');
-                video.style.display = 'block'; // ビデオを表示
-                video.load(); // ビデオを読み込み
-                video.play(); // ビデオの再生を開始
-            };
-        };
-    </script>
-
-
-
 </body>
 </html>
