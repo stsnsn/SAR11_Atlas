@@ -129,13 +129,19 @@
                                     dom: "Bfrtil", // p=ページネーションコントロールボタンを消す
                                     pageLength: 10,
                                     buttons: ["copy", "csv", "excel", "pdf", "print"],
-                                    responsive: true,
+                                    scrollX: true,
+                                    scrollY: "600px",
+                                    scrollCollapse: true,
+                                    responsive: false,
+                                    autoWidth: true,
                                     lengthChange: false, // エントリー数選択ドロップダウンを非表示に
                                     // lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
                                     searching: true,
                                     ordering: true,
-                                    scrollY: 600, // スクロール領域の高さを600pxに拡大
                                     scroller: true, // Scrollerを有効化、このとき、paginationは有効でないといけない
+                                    initComplete: function () {
+                                        this.api().columns.adjust();
+                                    },
                                     language: {
                                         infoEmpty: "No data available",
                                         lengthMenu: "Show _MENU_ entries",
@@ -192,7 +198,7 @@
                         </div>
                     </div>
                     <a class="atlas-section__link" href="../data/literature/250729_SAR11_paper_list.tsv" download="250729_SAR11_paper_list.tsv">Download the literature table as TSV</a>
-                    <div class="atlas-table-wrap">
+                    <div class="atlas-table-wrap atlas-table-wrap--datatable-scroll">
                     <table id="table" class="display" style="width:100%">
                         <thead><tr></tr></thead>
                         <tbody></tbody>

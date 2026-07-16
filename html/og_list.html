@@ -98,7 +98,7 @@
                         </div>
                     </div>
 
-                    <div class="atlas-table-wrap">
+                    <div class="atlas-table-wrap atlas-table-wrap--datatable-scroll">
                         <table id="table" class="display" style="width:100%">
                             <thead>
                                 <tr></tr>
@@ -217,8 +217,9 @@
                                     dom: "Bfrtip",
                                     pageLength: 10,
                                     lengthChange: false, // hide length (show N entries) control
-                                    scrollX: true, // enable horizontal scrolling so header and body scroll together
-                                    fixedHeader: true, // ヘッダーを固定表示
+                                    scrollX: true,
+                                    scrollY: "600px",
+                                    scrollCollapse: true,
                                     buttons: ["copy", "csv",
                                         {
                                             text: "JSON",
@@ -236,16 +237,18 @@
                                     }, "excel", "print"],
                                     // enable deferred rendering for large datasets (helps Scroller)
                                     deferRender: true,
-                                    // responsive can interfere with Scroller; keep but Scroller configured below
-                                    responsive: true,
+                                    responsive: false,
+                                    autoWidth: true,
                                     searching: true,
                                     ordering: true,
-                                    scrollY: 600,
                                     // configure Scroller as an object for more stable behaviour
                                     scroller: {
                                         loadingIndicator: true,
                                         // set a reasonable fixed row height (px) to avoid virtual scroll miscalculation
                                         rowHeight: 28
+                                    },
+                                    initComplete: function () {
+                                        this.api().columns.adjust();
                                     },
                                     language: {
                                         infoEmpty: "No data available",

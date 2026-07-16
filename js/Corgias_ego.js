@@ -4,6 +4,7 @@
     let nodesSet = new Set();
     // annotation map: numeric id -> annotation object { og, COG_LETTER, COG_ID, ko_id }
     let annotMap = new Map();
+    let networkRows = [];
     // record original directed pairs from TSV (a -> b as present in file) for rendering direction
     let originalDirected = new Set();
     // Track last extracted center (raw OG string) and maxNodes so we can disable exports when inputs change
@@ -39,7 +40,7 @@
     // Load TSV into adjacency list (expects first two columns: source \t target)
     async function loadTSV() {
         try {
-            const resp = await fetch('../data/network/251225_corgias_hit_net.tsv');
+            const resp = await fetch('../data/network/corgias_network.tsv');
             if (!resp.ok) throw new Error('Failed to fetch network TSV');
             const text = await resp.text();
             const lines = text.split(/\r?\n/).filter(Boolean);
@@ -59,8 +60,9 @@
                 const dirValue = parseFloat(parts[2].trim());
                 const qValue = parseFloat(parts[4].trim());
 
-                // 重み計算: -log10(qvalue)
-                const weight = -Math.log10(qValue || 1);
+                // Store significance as -log10(q-value). Treat an exact zero as
+                // stronger than the slider maximum rather than as no support.
+                const weight = qValue > 0 ? -Math.log10(qValue) : 300;
 
                 if (!a || !b || isNaN(weight)) return;
 
@@ -75,6 +77,15 @@
                 const color = dirValue > 0 ? '#d62728' : '#1f77b4'; 
                 adjacency.get(a).push({ to: b, weight, color });
                 adjacency.get(b).push({ to: a, weight, color });
+
+                networkRows.push({
+                    og1: a0,
+                    og2: b0,
+                    direction: dirValue,
+                    pvalue: parseFloat(parts[3].trim()),
+                    qvalue: qValue,
+                    significance: weight
+                });
             });
 
         } catch (e) {
@@ -124,6 +135,97 @@
         console.warn('No annotation TSV found among candidates');
     }
 
+    function escapeHTML(value) {
+        return String(value ?? '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
+
+    function annotationLabel(og) {
+        const ann = annotMap.get(ogToNumId(og));
+        if (!ann) return 'No representative annotation';
+        if (ann.COG_ID) {
+            return `${ann.COG_ID}${ann.COG_NAME ? `: ${ann.COG_NAME}` : ''}`;
+        }
+        if (ann.ko_id) {
+            return `${ann.ko_id}${ann.ko_name ? `: ${ann.ko_name}` : ''}`;
+        }
+        return 'No representative annotation';
+    }
+
+    function formatScientific(value) {
+        const number = Number(value);
+        return Number.isFinite(number) ? number.toExponential(3) : 'NA';
+    }
+
+    function renderResultsTable() {
+        const status = document.getElementById('corgiasResultsStatus');
+        if (!window.jQuery || !jQuery.fn.DataTable) {
+            if (status) status.textContent = 'The result table could not be initialized.';
+            return;
+        }
+
+        const tableData = networkRows.map(row => ({
+            ...row,
+            og1Annotation: annotationLabel(row.og1),
+            og2Annotation: annotationLabel(row.og2),
+            association: row.direction > 0 ? 'Positive' : 'Negative'
+        }));
+
+        jQuery('#corgiasResultsTable').DataTable({
+            data: tableData,
+            deferRender: true,
+            pageLength: 25,
+            lengthMenu: [10, 25, 50, 100],
+            order: [[7, 'asc']],
+            scrollX: true,
+            scrollY: '600px',
+            scrollCollapse: true,
+            responsive: false,
+            autoWidth: true,
+            columns: [
+                {
+                    data: 'og1',
+                    render: (value, type) => type === 'display'
+                        ? `<a href="./SAR11_OG_info.html?ogInput=${encodeURIComponent(value)}">${escapeHTML(value)}</a>`
+                        : value
+                },
+                { data: 'og1Annotation', render: (value, type) => type === 'display' ? escapeHTML(value) : value },
+                {
+                    data: 'og2',
+                    render: (value, type) => type === 'display'
+                        ? `<a href="./SAR11_OG_info.html?ogInput=${encodeURIComponent(value)}">${escapeHTML(value)}</a>`
+                        : value
+                },
+                { data: 'og2Annotation', render: (value, type) => type === 'display' ? escapeHTML(value) : value },
+                {
+                    data: 'association',
+                    render: (value, type) => type === 'display'
+                        ? `<span class="atlas-association atlas-association--${value.toLowerCase()}">${value}</span>`
+                        : value
+                },
+                { data: 'direction' },
+                { data: 'pvalue', render: (value, type) => type === 'display' ? formatScientific(value) : value },
+                { data: 'qvalue', render: (value, type) => type === 'display' ? formatScientific(value) : value },
+                { data: 'significance', render: (value, type) => type === 'display' ? Number(value).toFixed(2) : value }
+            ],
+            initComplete: function () {
+                this.api().columns.adjust();
+            },
+            language: {
+                search: 'Search associations:',
+                emptyTable: 'No significant CORGIAS associations were found.'
+            }
+        });
+
+        if (status) {
+            status.textContent = `${networkRows.length.toLocaleString()} significant associations loaded; sorted by q-value.`;
+        }
+    }
+
     // If onlyBidirectional is true, only traverse edges that exist in both directions
     function extractEgo(start, maxDepth, maxNodes, onlyBidirectional = false, qValueThreshold = 0.05) {
         const visited = new Map();
@@ -159,7 +261,7 @@
     }
 
     // Extract without applying maxNodes limit (used to compute 'Selected node')
-    function extractEgoNoLimit(start, maxDepth) {
+    function extractEgoNoLimit(start, maxDepth, minWeight) {
         const visited = new Map();
         const q = [{ node: start, depth: 0 }];
         visited.set(start, 0);
@@ -168,6 +270,7 @@
             if (depth >= maxDepth) continue;
             const neighs = adjacency.get(node) || [];
             for (const nb of neighs) {
+                if (nb.weight < minWeight) continue;
                 const n = nb.to;
                 if (!visited.has(n)) {
                     visited.set(n, depth + 1);
@@ -178,7 +281,7 @@
         return visited;
     }
 
-    function buildElements(visited, onlyBidirectional = false, center = null) {
+    function buildElements(visited, onlyBidirectional = false, center = null, minWeight = 0) {
         const ids = Array.from(visited.keys());
         const idSet = new Set(ids);
 
@@ -212,6 +315,7 @@
                 const v = e.to;
                 const weight = e.weight || 1;
                 if (!idSet.has(v)) return;
+                if (weight < minWeight) return;
                 const k = pairKey(u, v);
                 if (added.has(k)) return;
                 added.add(k);
@@ -373,11 +477,12 @@
     // wire UI
     document.addEventListener('DOMContentLoaded', async () => {
         await Promise.all([loadTSV(), loadAnnotations()]);
+        renderResultsTable();
         // update total node count display
         try {
             console.log('loadTSV/Annotations complete: nodesSet=', nodesSet.size, 'annotMap=', annotMap.size);
             const cyInfo = document.getElementById('cyInfo');
-            if (cyInfo) cyInfo.textContent = `Selected nodes = 0; Visualized nodes = 0`;
+            if (cyInfo) cyInfo.textContent = `Total nodes = ${nodesSet.size}; Selected nodes = 0; Visualized nodes = 0`;
         } catch (e) { /* ignore */ }
         // setup autocomplete for ego node using og_suggest.tsv
         try {
@@ -439,9 +544,9 @@
             const qValueThreshold = parseFloat(qRange.value || '0.05');
             const onlyBidirectional = !!document.getElementById('onlyBidirectional') && document.getElementById('onlyBidirectional').checked;
 
-            const selectedVisited = extractEgoNoLimit(center, maxDepth);
+            const selectedVisited = extractEgoNoLimit(center, maxDepth, qValueThreshold);
             const visited = extractEgo(center, maxDepth, maxNodes, onlyBidirectional, qValueThreshold);
-            const elements = buildElements(visited, onlyBidirectional, center);
+            const elements = buildElements(visited, onlyBidirectional, center, qValueThreshold);
             renderCy(elements);
 
             lastExtractCenter = centerRaw;
@@ -450,7 +555,7 @@
 
             try {
                 const cyInfo = document.getElementById('cyInfo');
-                if (cyInfo) cyInfo.textContent = `Selected nodes = ${selectedVisited.size}; Visualized nodes = ${elements.nodes.length}`;
+                if (cyInfo) cyInfo.textContent = `Total nodes = ${nodesSet.size}; Selected nodes = ${selectedVisited.size}; Visualized nodes = ${elements.nodes.length}`;
             } catch (e) { /* ignore */ }
         }
 

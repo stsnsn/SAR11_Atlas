@@ -17,10 +17,12 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+    <link rel="stylesheet" href="../css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="../css/atlas_page.css">
     <link rel="stylesheet" href="../css/jquery-ui.1.13.2.css">
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/jquery-ui.1.13.2.min.js"></script>
+    <script src="../js/jquery.dataTables.min.js"></script>
     <script src="../js/cytoscape.3.24.0.min.js"></script>
 </head>
 
@@ -81,7 +83,7 @@
 
                 <div class="atlas-intro">
                     <p>Nodes represent OGs and are colored by COG functional category. Red edges indicate co-occurrence, blue edges indicate anti-occurrence, and edge width reflects association significance as -log<sub>10</sub>(q-value).</p>
-                    <p>Enter an OG ID, set the exploration depth and minimum significance, then extract its local association network.</p>
+                    <p>The current 542-genome network contains 18,606 significant associations among 2,987 OGs. Enter an OG ID, set the exploration depth and minimum significance, then extract its local association network.</p>
                 </div>
 
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
@@ -114,12 +116,43 @@
                     <div id="cy" class="atlas-network-canvas"></div>
                 </section>
 
+                <section class="atlas-section" id="corgiasResultsPanel">
+                    <div class="atlas-section__header">
+                        <div>
+                            <p class="atlas-section__kicker">Significant associations</p>
+                            <h2>CORGIAS result table</h2>
+                            <p>Search OG IDs or representative annotations and sort associations by q-value, direction, or significance. The default order shows the most significant results first.</p>
+                        </div>
+                    </div>
+                    <a class="atlas-section__link" href="../data/network/corgias_network.tsv" download="corgias_network.tsv">Download complete TSV</a>
+                    <p id="corgiasResultsStatus" class="atlas-network-status">Loading CORGIAS results...</p>
+                    <div class="atlas-table-wrap atlas-table-wrap--datatable-scroll">
+                        <table id="corgiasResultsTable" class="display" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>OG1</th>
+                                    <th>OG1 annotation</th>
+                                    <th>OG2</th>
+                                    <th>OG2 annotation</th>
+                                    <th>Association</th>
+                                    <th>Direction</th>
+                                    <th>p-value</th>
+                                    <th>q-value</th>
+                                    <th>-log10(q)</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </section>
+
                 <script src="../js/Corgias_ego.js"></script>
                 <!-- EDITABLE ZONE END -->
 
                 <div class="atlas-citation">
                     <h2>Citation information</h2>
                     <p>Nishino et al. <strong>"SAR11 Genome Atlas."</strong> <em>in prep.</em></p>
+                    <p>Nishimura et al. <strong>"CORGIAS: identifying correlated gene pairs by considering evolutionary history in a large-scale prokaryotic genome dataset."</strong> <em>NAR Genomics and Bioinformatics</em> 7(4), lqaf182 (2025). <a href="https://doi.org/10.1093/nargab/lqaf182" target="_blank" rel="noopener">DOI</a></p>
                     <p>Nishino et al. <strong>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</strong> <em>bioRxiv 2025.</em></p>
                 </div>
 

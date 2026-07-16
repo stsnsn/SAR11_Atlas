@@ -701,6 +701,23 @@
     border-radius: 12px;
 }
 
+.atlas-table-wrap--datatable-scroll {
+    overflow: hidden;
+}
+
+.atlas-table-wrap--datatable-scroll .dataTables_scroll {
+    width: 100%;
+}
+
+.atlas-table-wrap--datatable-scroll .dataTables_scrollHead {
+    position: relative;
+    z-index: 2;
+}
+
+.atlas-table-wrap--datatable-scroll .dataTables_scrollBody {
+    overflow: auto !important;
+}
+
 .atlas-table-wrap .dataTables_wrapper {
     padding: 0.85rem;
     color: var(--atlas-ink);
@@ -751,6 +768,36 @@
     border-radius: 8px;
     background: #ffffff;
     color: var(--atlas-ink);
+}
+
+#corgiasResultsTable {
+    min-width: 1180px;
+}
+
+#corgiasResultsTable td:nth-child(2),
+#corgiasResultsTable td:nth-child(4) {
+    min-width: 220px;
+    white-space: normal;
+}
+
+.atlas-association {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.5rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+
+.atlas-association--positive {
+    background: rgba(190, 57, 52, 0.12);
+    color: #a62f2c;
+}
+
+.atlas-association--negative {
+    background: rgba(42, 111, 160, 0.14);
+    color: #245f8b;
 }
 
 .atlas-citation {
@@ -890,6 +937,16 @@ body.dark-mode .atlas-table-wrap .dataTables_filter input {
     border-color: rgba(123, 184, 206, 0.28);
     background: #0c202a;
     color: #f0fbfd;
+}
+
+body.dark-mode .atlas-association--positive {
+    background: rgba(242, 123, 116, 0.18);
+    color: #ffaaa3;
+}
+
+body.dark-mode .atlas-association--negative {
+    background: rgba(99, 179, 237, 0.18);
+    color: #9dd3f5;
 }
 
 @media (max-width: 767.98px) {
