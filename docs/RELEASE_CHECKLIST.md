@@ -1,5 +1,15 @@
 # Release Checklist
 
+## Pending Analysis Updates
+
+- [ ] Download and verify the archived UniProtKB release `2026_01` locally.
+- [ ] Extract the Swiss-Prot and TrEMBL FASTA files and transfer them to the analysis server with a resumable transfer.
+- [ ] Search all proteins from the 542 SAR11 genomes against UniProtKB `2026_01` and record the MMseqs2 version, command, thresholds, database checksums, and download date.
+- [ ] Prepare the complete protein-to-UniProt hit table and supporting metadata for deposition in Zenodo.
+- [ ] Prepare a compact Web table containing one representative UniProt hit per OG, with AlphaFold DB availability where possible.
+- [ ] Replace `data/structure/allhitog_uniprot.tsv` and `data/structure/tophitog_uniprot.tsv`, then update the Protein Structures page, OG Information Viewer, and related Wiki pages.
+- [ ] Update the metatranscriptome datasets and OG mappings after the ongoing computation is complete. This task is currently on hold.
+
 ## External Data URLs
 
 Before the final public release, replace the temporary `stsnsn/public_data` raw URLs used by Taxonium and Cosmograph with URLs from the public `stsnsn/SAR11_Atlas` repository.
