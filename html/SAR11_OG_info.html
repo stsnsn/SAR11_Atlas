@@ -376,7 +376,6 @@
                         pfam: '../data/orthogroups/og_pfam_counts.tsv'
                     };
                     const annotationTablePromises = {};
-                    let legacyPfamPromise = null;
 
                     function loadAnnotationTable(kind) {
                         if (!annotationTablePromises[kind]) {
@@ -475,18 +474,9 @@
                             }
                             return normalizeCombinedRows(kind, rows);
                         } catch (error) {
-                            console.warn(`Combined ${kind.toUpperCase()} table unavailable; using legacy data.`, error);
+                            console.error(`Failed to load ${kind.toUpperCase()} annotation data.`, error);
+                            return [];
                         }
-
-                        if (kind === 'pfam') {
-                            if (!legacyPfamPromise) {
-                                legacyPfamPromise = d3.csv('../data/og_annot_count/pfam/pfam_count_barplot.csv');
-                            }
-                            const rows = await legacyPfamPromise;
-                            return rows.filter(row => annotationOgId(row) === og);
-                        }
-
-                        return d3.csv(`../data/og_annot_count/${kind}/${og}.csv`);
                     }
 
                     let lastUpdatedOG = null;
