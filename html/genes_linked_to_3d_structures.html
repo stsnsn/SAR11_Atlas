@@ -82,7 +82,7 @@
                                 <a class="nav-link active" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./SAR11_History.html">Literatures</a>
+                                <a class="nav-link" href="./SAR11_History.html">Literature</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./download.html">Download</a>
@@ -95,11 +95,11 @@
                 <header class="atlas-page-heading">
                     <p class="atlas-eyebrow">Structural annotation</p>
                     <h1>Protein Structures</h1>
-                    <p>Connect SAR11 proteins to UniProt accessions and inspect available AlphaFold predictions in an interactive 3D viewer.</p>
+                    <p>Find UniProt matches for SAR11 proteins and inspect available AlphaFoldDB predictions in an interactive 3D viewer.</p>
                 </header>
 
                 <div class="atlas-intro">
-                    <p>Genes from 130 cultured strains were linked to UniProt (March 2024) with MMseqs2 v13.45111 using a minimum sequence identity of 0.85 and one best match per query. Matches below 100% identity are similar but not identical sequences, and not every accession has an AlphaFoldDB prediction.</p>
+                    <p>Protein sequences from 130 cultured strains were matched to UniProt (March 2024) with MMseqs2 v13.45111 using a minimum sequence identity of 0.85 and up to one match per query. A match below 100% identity is not sequence-identical to the SAR11 protein, and not every accession has an AlphaFoldDB prediction.</p>
                 </div>
 
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
@@ -109,7 +109,7 @@
                     <div class="atlas-section__header">
                         <div>
                             <p class="atlas-section__kicker">Accession lookup</p>
-                            <h2>SAR11 protein to UniProt matches</h2>
+                            <h2>SAR11 protein matches in UniProt</h2>
                             <p>Search and filter the embedded table, then use an accession in the structure viewer below.</p>
                         </div>
                     </div>
@@ -121,8 +121,8 @@
                     <div class="atlas-section__header">
                         <div>
                             <p class="atlas-section__kicker">3D inspection</p>
-                            <h2>AlphaFold structure viewer</h2>
-                            <p>Enter a UniProt accession to update Mol* and check whether the structure can be opened in Foldseek.</p>
+                            <h2>AlphaFoldDB structure viewer</h2>
+                            <p>Enter a UniProt accession to view its available AlphaFoldDB prediction in Mol* and open the model in Foldseek.</p>
                         </div>
                     </div>
                     <div class="atlas-control-panel">

@@ -104,7 +104,7 @@
                                 <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./SAR11_History.html">Literatures</a>
+                                <a class="nav-link" href="./SAR11_History.html">Literature</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./download.html">Download</a>
@@ -117,11 +117,11 @@
                 <header class="atlas-page-heading">
                     <p class="atlas-eyebrow">Ocean expression patterns</p>
                     <h1>Metatranscriptome Viewer</h1>
-                    <p>Explore the geographic expression profile of a SAR11 orthogroup and its relationships with environmental conditions.</p>
+                    <p>Map SAR11 orthogroup Expression Scores across ocean samples and examine their environmental associations.</p>
                 </header>
 
                 <div class="atlas-intro">
-                    <p>Search for an OG to map its metatranscriptomic expression across ocean samples. Marker size represents expression level, while the accompanying plots summarize correlations with temperature, salinity, depth, oxygen, and a selectable environmental parameter.</p>
+                    <p>Search by OG ID or functional annotation. Within each sample, Expression Score is the sum of TPM values assigned to an OG and should be interpreted as an aggregate signal rather than a conventional TPM measurement.</p>
                 </div>
 
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
@@ -200,21 +200,21 @@
                     <div class="atlas-section__header">
                         <div>
                             <p class="atlas-section__kicker">Global distribution</p>
-                            <h2>OG expression map</h2>
-                            <p>Enter an OG ID or annotation term, update the view, and download the displayed sample data as CSV.</p>
+                            <h2>OG Expression Score map</h2>
+                            <p>Update the map and plots for a selected OG, or download its sample records as CSV.</p>
                         </div>
                     </div>
                     <div id="controls" class="atlas-control-panel">
                         <div class="atlas-search-row">
                             <div class="atlas-search-field">
                                 <label for="ogInput">OG ID or annotation</label>
-                                <input type="text" id="ogInput" placeholder="Enter ID: (e.g., OG0000173)">
+                                <input type="text" id="ogInput" placeholder="e.g. OG0000173, rhodopsin, or COG5524">
                             </div>
                             <button id="updateMap" class="atlas-action-button" type="button">Update map and plots</button>
                             <button id="downloadData" class="atlas-secondary-button" type="button" disabled>Download CSV</button>
                             <label class="atlas-switch" for="sizeLogToggle">
                                 <input type="checkbox" id="sizeLogToggle" checked>
-                                <span><strong>Log scale</strong><small>Compress the marker-size range.</small></span>
+                                <span><strong>Log scale</strong><small>Compress marker radii and use a logarithmic plot axis.</small></span>
                             </label>
                         </div>
                     </div>
@@ -227,7 +227,7 @@
                         <div>
                             <p class="atlas-section__kicker">Environmental context</p>
                             <h2>Expression correlations</h2>
-                            <p>Compare the selected OG expression score with environmental measurements across sampled locations.</p>
+                            <p>Each panel reports Pearson r on the displayed scale, Spearman ρ, and the number of paired samples (n).</p>
                         </div>
                     </div>
                     <div class="atlas-plot-grid">
@@ -241,13 +241,9 @@
                         <div class="atlas-custom-plot__controls">
                             <label for="userParameterSelect">Additional parameter</label>
                             <select id="userParameterSelect">
-                                <option value="Oxygen">Oxygen</option>
-                                <option value="Temperature">Temperature</option>
-                                <option value="Salinity">Salinity</option>
                                 <option value="Nitrate">Nitrate</option>
                                 <option value="Chl_a">Chl_a</option>
                                 <option value="fCDOM">fCDOM</option>
-                                <option value="Depth">Depth</option>
                                 <option value="Latitude">Latitude</option>
                                 <option value="Longitude">Longitude</option>
                                 <option value="Sigma-theta">Sigma-theta</option>
@@ -332,13 +328,6 @@
                         } catch (e) { /* ignore */ }
                     })();
                 </script>
-                <!-- PCA プロット
-                <div style="display: flex; justify-content: space-between;">
-                    <div id="plotly-3d-scatter" style="width: 100%; height: 500px;"></div>
-                </div>
-                <p>Please note that the cumulative proportion is only 20.0%.</p>
-                <br>
-                -->
                 <!-- EDITABLE ZONE END -->
                 <div class="atlas-citation">
                     <h2>Citation information</h2>

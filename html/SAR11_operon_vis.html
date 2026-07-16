@@ -65,7 +65,7 @@
                             <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./SAR11_History.html">Literatures</a>
+                            <a class="nav-link" href="./SAR11_History.html">Literature</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./download.html">Download</a>
@@ -83,7 +83,7 @@
 
                 <div class="atlas-intro">
                     <p>Search by OG ID or functional annotation to visualize the genomic neighborhoods in which the selected orthogroup occurs. The 20 most frequent neighboring OGs receive distinct colors, while less frequent OGs are shown in gray.</p>
-                    <p>The query OG is aligned at the center of every row, and translucent ribbons connect shared OGs between adjacent genomes. Scroll horizontally to inspect the full neighborhood. Hover over a gene for annotation details, or select an OG label to open its information page. For readability, labels show only the final four digits of each OG ID.</p>
+                    <p>The query OG is aligned at the center of every row, and translucent ribbons connect shared OGs between adjacent genomes. Scroll horizontally to inspect the full neighborhood. Hover over a gene for annotation details, or click an OG label to open its information page. For readability, labels show only the final four digits of each OG ID.</p>
                 </div>
 
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
@@ -171,7 +171,7 @@
                         <div>
                             <p class="atlas-section__kicker">Genome context</p>
                             <h2>Neighborhood comparison</h2>
-                            <p>Choose an orthogroup to compare its local gene organization across available genomes.</p>
+                            <p>Adjust scaling, ribbons, row order, labels, and the color legend before exporting the visualization as SVG.</p>
                         </div>
                     </div>
 
@@ -195,7 +195,7 @@
                                 </label>
                                 <label class="atlas-switch" for="syntenySortToggle">
                                     <input type="checkbox" id="syntenySortToggle">
-                                    <span><strong>Sort by conserved order</strong><small>Place similar OG arrangements next to each other.</small></span>
+                                    <span><strong>Sort by neighborhood similarity</strong><small>Place similar OG arrangements next to each other.</small></span>
                                 </label>
                                 <label class="atlas-switch" for="colorLegendToggle">
                                     <input type="checkbox" id="colorLegendToggle">

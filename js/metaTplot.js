@@ -213,7 +213,7 @@ try {
     if (hdr) {
         const ogEsc = ogDefault.replace(/</g, '&lt;').replace(/>/g, '&gt;');
         const hrefDef = `./SAR11_OG_info.html?ogInput=${encodeURIComponent(ogDefault)}`;
-        hdr.innerHTML = `Expression profile of: <a href="${hrefDef}" target="_blank" rel="noopener" title="Open OG info for ${ogEsc}">${ogEsc}</a>`;
+        hdr.innerHTML = `Selected OG: <a href="${hrefDef}" target="_blank" rel="noopener" title="Open OG info for ${ogEsc}">${ogEsc}</a>`;
         hdr.style.display = 'block';
     }
 } catch (e) {
@@ -270,7 +270,7 @@ document.getElementById('updateMap').addEventListener('click', () => {
             if (hdr) {
                 const ogEsc = ogNumber.replace(/</g, '&lt;').replace(/>/g, '&gt;');
                 const href = `./SAR11_OG_info.html?ogInput=${encodeURIComponent(ogNumber)}`;
-                hdr.innerHTML = `Expression profile of: <a href="${href}" target="_blank" rel="noopener" title="Open OG info for ${ogEsc}">${ogEsc}</a>`;
+                hdr.innerHTML = `Selected OG: <a href="${href}" target="_blank" rel="noopener" title="Open OG info for ${ogEsc}">${ogEsc}</a>`;
                 hdr.style.display = 'block';
             }
         } catch (e) {

@@ -380,7 +380,7 @@
         try {
             console.log('loadTSV/Annotations complete: nodesSet=', nodesSet.size, 'annotMap=', annotMap.size);
             const cyInfo = document.getElementById('cyInfo');
-            if (cyInfo) cyInfo.textContent = `Selected node = 0; Visualized node = 0`;
+            if (cyInfo) cyInfo.textContent = `Selected nodes = 0; Visualized nodes = 0`;
         } catch (e) { /* ignore */ }
         // setup autocomplete for ego node using og_suggest.tsv
         try {
@@ -453,7 +453,7 @@
 
             try {
                 const cyInfo = document.getElementById('cyInfo');
-                if (cyInfo) cyInfo.textContent = `Selected node = ${selectedVisited.size}; Visualized node = ${elements.nodes.length}`;
+                if (cyInfo) cyInfo.textContent = `Selected nodes = ${selectedVisited.size}; Visualized nodes = ${elements.nodes.length}`;
             } catch (e) { /* ignore */ }
         }
 

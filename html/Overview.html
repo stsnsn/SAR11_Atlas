@@ -74,7 +74,7 @@
                                 <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./SAR11_History.html">Literatures</a>
+                                <a class="nav-link" href="./SAR11_History.html">Literature</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./download.html">Download</a>
@@ -93,14 +93,14 @@
                 <div class="atlas-page-heading">
                     <p class="atlas-eyebrow">Atlas dashboard</p>
                     <h1 class="h2">Overview</h1>
-                    <p>Explore SAR11 genome diversity, functional annotation, and environmental expression from a single starting point.</p>
+                    <p>Explore SAR11 genome diversity, functional annotations, and metatranscriptomic patterns from a single starting point.</p>
                 </div>
 
                 <div class="atlas-intro">
                     <p>
                         The SAR11 Genome Atlas is an interactive genome and gene catalog for the SAR11 clade,
-                        the most abundant bacterial lineage in the ocean. Review the composition, quality, and functional
-                        annotation of the current collection, then continue into genome-, orthogroup-, and expression-level views.
+                        the most abundant bacterial lineage in the ocean. Review the composition and functional annotation
+                        of the current collection, then continue to genome-, orthogroup-, network-, and metatranscriptome-level views.
                     </p>
                 </div>
 
@@ -214,7 +214,7 @@
 
                         <div class="overview-tools-heading">
                             <p class="overview-kicker">Explore</p>
-                            <h3 class="overview-title">Move from the collection to individual genes</h3>
+                            <h3 class="overview-title">Continue to specialized atlas views</h3>
                         </div>
 
                         <div class="overview-grid" id="overviewGrid">
@@ -230,7 +230,7 @@
                                 <img src="../data/image/overview_cards/OG_Information_Viewer.png" alt="OG Information Viewer preview">
                                 <div class="overview-card__content">
                                     <p class="overview-card__title">OG Information Viewer</p>
-                                    <p class="overview-card__desc">Open orthogroup-level annotations, members, and functional notes to trace how SAR11 genes are organized and annotated.</p>
+                                    <p class="overview-card__desc">Combine functional annotations with genome distribution, neighboring relationships, Expression Scores, and protein structures.</p>
                                 </div>
                             </a>
 
@@ -238,23 +238,23 @@
                                 <img src="../data/image/overview_cards/CORGIAS_Network.png" alt="CORGIAS Network preview">
                                 <div class="overview-card__content">
                                     <p class="overview-card__title">CORGIAS Network</p>
-                                    <p class="overview-card__desc">Inspect correlation-based network structure to identify gene modules and relationships that stand out across the atlas.</p>
+                                    <p class="overview-card__desc">Explore statistically supported co-occurrence and anti-occurrence relationships among SAR11 orthogroups.</p>
                                 </div>
                             </a>
 
-                            <a class="overview-card" href="./SAR11_History.html" tabindex="0" aria-label="SAR11 Paper Network">
-                                <img src="../data/image/overview_cards/SAR11_Paper_Network.png" alt="SAR11 Paper Network preview">
+                            <a class="overview-card" href="./SAR11_History.html" tabindex="0" aria-label="Literature">
+                                <img src="../data/image/overview_cards/SAR11_Paper_Network.png" alt="Literature page preview">
                                 <div class="overview-card__content">
-                                    <p class="overview-card__title">SAR11 Paper Network</p>
-                                    <p class="overview-card__desc">Connect atlas entries to the literature and curated publications so functional and evolutionary evidence stays one click away.</p>
+                                    <p class="overview-card__title">Literature</p>
+                                    <p class="overview-card__desc">Explore citation, keyword, and co-authorship maps alongside searchable SAR11 publication records.</p>
                                 </div>
                             </a>
 
-                            <a class="overview-card" href="./SAR11_operon_vis.html" tabindex="0" aria-label="Synteny Network">
-                                <img src="../data/image/overview_cards/Syntheny_Network.png" alt="Synteny Network preview">
+                            <a class="overview-card" href="./SAR11_operon_vis.html" tabindex="0" aria-label="Neighboring Genes">
+                                <img src="../data/image/overview_cards/Syntheny_Network.png" alt="Neighboring Genes preview">
                                 <div class="overview-card__content">
-                                    <p class="overview-card__title">Synteny Network</p>
-                                    <p class="overview-card__desc">Track conserved neighborhood patterns across genomes and explore how local gene order changes within the clade.</p>
+                                    <p class="overview-card__title">Neighboring Genes</p>
+                                    <p class="overview-card__desc">Compare local gene arrangements around a selected orthogroup across SAR11 genomes.</p>
                                 </div>
                             </a>
 
@@ -262,12 +262,11 @@
                                 <img src="../data/image/overview_cards/Metatranscriptome_VIewer.png" alt="Metatranscriptome Viewer preview">
                                 <div class="overview-card__content">
                                     <p class="overview-card__title">Metatranscriptome Viewer</p>
-                                    <p class="overview-card__desc">Visualize expression profiles to compare SAR11 transcriptional signals across Tara Oceans metatranscriptomic datasets.</p>
+                                    <p class="overview-card__desc">Map orthogroup Expression Scores across ocean samples and examine their environmental associations.</p>
                                 </div>
                             </a>
                         </div>
 
-                        <p class="overview-note">Hover or focus each panel to reveal a short description.</p>
                     </div>
 
                     <div id="overviewError" class="overview-status overview-status--error" role="alert" hidden>

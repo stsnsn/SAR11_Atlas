@@ -73,7 +73,7 @@
                                 <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./SAR11_History.html">Literatures</a>
+                                <a class="nav-link" href="./SAR11_History.html">Literature</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./download.html">Download</a>
@@ -86,12 +86,12 @@
                 <header class="atlas-page-heading">
                     <p class="atlas-eyebrow">Genome neighborhoods</p>
                     <h1>Neighboring Network</h1>
-                    <p>Explore recurrent genomic associations among SAR11 orthogroups as an interactive local network.</p>
+                    <p>Explore orthogroups that frequently occur near one another in SAR11 genomes.</p>
                 </header>
 
                 <div class="atlas-intro">
                     <p>Nodes represent orthogroups and are colored by COG functional category. Edges connect OG pairs found near each other in at least 75% of the relevant SAR11 genome neighborhoods.</p>
-                    <p>Enter an OG ID, choose the network depth, and extract its local neighborhood. The complete Cosmograph network is available <a id="cosmograph_here" href="#" target="_blank" rel="noopener">in a separate view</a>, and source tables are available from the <a href="./download.html">Download page</a>.</p>
+                    <p>Enter an OG ID and choose the network depth to extract its local neighborhood. The complete network is available <a id="cosmograph_here" href="#" target="_blank" rel="noopener">in a separate Cosmograph view</a>.</p>
                 </div>
 
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
@@ -102,7 +102,7 @@
                     <div class="atlas-section__header">
                         <div>
                             <p class="atlas-section__kicker">Local exploration</p>
-                            <h2>Synteny network</h2>
+                            <h2>Local neighboring network</h2>
                             <p>Increase depth to include progressively more distant neighbors. Smaller depths are faster for highly connected OGs.</p>
                         </div>
                     </div>
@@ -112,13 +112,13 @@
                         <label for="depthRange">Depth</label>
                         <input type="range" id="depthRange" min="1" max="3" value="1">
                         <span id="depthVal">1</span>
-                        <button id="extractBtn">Extract and show</button>
+                        <button id="extractBtn">Show network</button>
                         <button id="exportPngBtn" disabled>Export PNG</button>
                         <button id="exportJsonBtn" disabled>Export JSON</button>
                         <label class="atlas-inline-check"><input type="checkbox" id="onlyBidirectional"> Only show bidirectional edges</label>
                         <label class="atlas-max-nodes" for="maxNodes">Max nodes: <input id="maxNodes" type="number" value="500"></label>
                     </div>
-                    <div id="cyInfo" class="atlas-network-status">Total node = 0; Selected node = 0; Visualized node = 0</div>
+                    <div id="cyInfo" class="atlas-network-status">Total nodes = 0; Selected nodes = 0; Visualized nodes = 0</div>
                     <div id="cy" class="atlas-network-canvas"></div>
                 </section>
 

@@ -94,7 +94,7 @@
                             <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./SAR11_History.html">Literatures</a>
+                            <a class="nav-link" href="./SAR11_History.html">Literature</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./download.html">Download</a>
@@ -109,7 +109,7 @@
                 <div class="og-page-heading">
                     <p class="og-eyebrow">Orthogroup workspace</p>
                     <h1 class="h2">OG Information Viewer</h1>
-                    <p>Connect functional annotations with environmental expression, genome distribution, gene neighborhoods, and protein structures.</p>
+                    <p>Connect functional annotations with metatranscriptomic patterns, genome distribution, gene neighborhoods, and protein structures.</p>
                 </div>
                 <script>
                     let og_data = [];
@@ -176,15 +176,9 @@
 
                 <div id="pageDescription" class="og-intro">
                     <p>
-                        Explore a SAR11 orthogroup across functional annotations, environmental expression,
+                        Explore a SAR11 orthogroup across functional annotations, sample-level Expression Scores,
                         phylogenetic distribution, neighboring genes, and predicted protein structures.
-                        Search by OG ID or by terms found in KO, COG, Pfam, and gene-name annotations.
-                    </p>
-                    <p class="og-intro__links">
-                        Continue with dedicated views for
-                        <a href="./SAR11_operon_vis.html">Neighboring Genes</a>,
-                        <a href="./Neighborhood_network.html">Neighboring Network</a>, or the
-                        <a href="./metaT.html">Metatranscriptome Viewer</a>.
+                        Search by OG ID or by terms found in KO, COG, and Pfam annotations.
                     </p>
                 </div>
 
@@ -210,9 +204,9 @@
                             </div>
                         </div>
                         <div class="og-actions" aria-label="Open related views">
-                            <button id="browseSynButton" disabled>Browse Synteny</button>
-                            <button id="openSyntenyNetworkButton" disabled>Synteny Network</button>
-                            <button id="openExpressionButton" disabled>Expression Profile</button>
+                            <button id="browseSynButton" disabled>Neighboring Genes</button>
+                            <button id="openSyntenyNetworkButton" disabled>Neighboring Network</button>
+                            <button id="openExpressionButton" disabled>Metatranscriptome</button>
                         </div>
                     </div>
                 </section>
@@ -227,7 +221,7 @@
                     <div id="leftPlots">
                             <!-- metaT map placed above COG pie, centered and sized similar to metaT.html -->
                             <div id="metaT_map_container" class="og-panel">
-                                <div id="metaTHeader" class="og-panel-heading">Expression profile will be shown here. Open the <a href="./metaT.html" target="_blank">Metatranscriptome Viewer</a> for more detail.</div>
+                                <div id="metaTHeader" class="og-panel-heading">The Expression Score map will appear here. Open the <a href="./metaT.html" target="_blank">Metatranscriptome Viewer</a> for more detail.</div>
                                 <div class="og-map-shell">
                                     <div id="metaT_map" class="og-visual-frame og-map-frame"></div>
                                     <div id="metaTLegend" class="og-map-legend" aria-label="Expression Score marker size legend"></div>
@@ -244,7 +238,7 @@
                     <!-- 右カラム: EgoNet + Taxonium -->
                     <div id="taxoniumContainer">
                         <!-- Mini Ego network (minimal controls) -->
-                        <div id="egoMiniHeader" class="og-panel-heading">Synteny Network</div>
+                        <div id="egoMiniHeader" class="og-panel-heading">Neighboring Network</div>
                         <div id="egoMini" class="og-visual-frame" style="height:400px;"></div>
                         <!-- 系統樹上の小さな説明（Presence/Absence 表示） -->
                         <div id="taxoniumCaption" class="og-panel-heading">Presence (yellow) / absence (blue) of <strong>OG0000000</strong></div>
@@ -432,7 +426,7 @@
                                     textinfo: 'text',
                                     hoverinfo: 'label+value+text',
                                     customdata: custom,
-                                    hovertemplate: '%{label}<br>Rate: %{value}<br>%{customdata}<extra></extra>',
+                                    hovertemplate: '%{label}<br>Share: %{percent}<br>%{customdata}<extra></extra>',
                                     insidetextorientation: 'radial',
                                     textfont: { color: '#ffffff', size: 11 },
                                     sort: false,
@@ -442,7 +436,7 @@
                                     },
                                     domain: { x: [0, 0.68], y: [0, 1] }
                                 }];
-                                const layout = Object.assign(ogChartBaseLayout('KO Annotation Results'), {
+                                const layout = Object.assign(ogChartBaseLayout('KO assignments'), {
                                     margin: { t: 44, l: 8, r: 8, b: 10 },
                                     height: 300,
                                     showlegend: true,
@@ -511,7 +505,7 @@
                                     textinfo: 'text',
                                     hoverinfo: 'label+value+text',
                                     customdata: custom,
-                                    hovertemplate: '%{label}<br>Rate: %{value}<br>%{customdata}<extra></extra>',
+                                    hovertemplate: '%{label}<br>Share: %{percent}<br>%{customdata}<extra></extra>',
                                     insidetextorientation: 'radial',
                                     textfont: { color: '#ffffff', size: 11 },
                                     sort: false,
@@ -522,7 +516,7 @@
                                     domain: { x: [0, 0.68], y: [0, 1] }
                                 }];
 
-                                const layout = Object.assign(ogChartBaseLayout('COG Annotation Results'), {
+                                const layout = Object.assign(ogChartBaseLayout('COG assignments'), {
                                     margin: { t: 44, l: 8, r: 8, b: 10 },
                                     height: 300,
                                     showlegend: true,
@@ -606,14 +600,14 @@
                                 // taxonium 上には簡潔な Presence/Absence 表示だけを出す
                                 const smallEl = document.getElementById('taxoniumCaption');
                                 if (smallEl) {
-                                    smallEl.innerHTML = `Presence/Absence of <strong>${og}</strong>`;
+                                    smallEl.innerHTML = `Presence/absence of <strong>${og}</strong>`;
                                 }
                                 // Update mini-ego header to link to Neighboring Network for this OG
                                 try {
                                     const egoHdr = document.getElementById('egoMiniHeader');
                                     if (egoHdr) {
                                         const enc = encodeURIComponent(og);
-                                        egoHdr.innerHTML = `Synteny Network of <a href="./Neighborhood_network.html?ogInput=${enc}" target="_blank">${og}</a>`;
+                                        egoHdr.innerHTML = `Neighboring Network of <a href="./Neighborhood_network.html?ogInput=${enc}" target="_blank">${og}</a>`;
                                     }
                                 } catch(e) { console.warn('Failed to update egoMiniHeader', e); }
                             } catch (capErr) {
@@ -768,7 +762,7 @@
                                 const molLink = document.getElementById('molstar-link');
 
                                 if (!matches || matches.length === 0) {
-                                    if (infoEl) infoEl.innerText = 'No structural hits (Uniprot accessions) found for this OG.';
+                                    if (infoEl) infoEl.innerText = 'No UniProt matches with structural accessions were found for this OG.';
                                     if (controlsEl) controlsEl.innerHTML = '';
                                     if (molIframe) molIframe.src = 'about:blank';
                                     if (molLink) molLink.href = '#';
@@ -784,7 +778,7 @@
                                     const url0 = 'https://molstar.org/viewer/?afdb=' + encodeURIComponent(acc0);
                                     if (molIframe) molIframe.src = url0;
                                     if (molLink) molLink.href = url0;
-                                    if (infoEl) infoEl.innerHTML = `Showing ${matches.length} hit(s). Accession: ${acc0} — linked gene id: ${gid0} — amino acid identity(%): ${pid0}%; <br> If structure does not load, predicted structure of ${acc0} may not be available in AlphaFold DB. For exploring other hits, please access <a href="./genes_linked_to_3d_structures.html">Protein Structures page</a>.<br><em>Note:</em> Accessions linked to strain HTCC1062 are preferred; if none are available, the structure from the cultured strain with the highest percent identity (pident) will be used.`;
+                                    if (infoEl) infoEl.innerHTML = `Showing ${matches.length} UniProt match(es). Accession: ${acc0}; linked gene ID: ${gid0}; amino acid identity: ${pid0}%.<br>If the model does not load, an AlphaFoldDB prediction may not be available for ${acc0}. Open the <a href="./genes_linked_to_3d_structures.html">Protein Structures page</a> to inspect other matches.<br><em>Selection rule:</em> A match from strain HTCC1062 is preferred; otherwise, the cultured-strain match with the highest percent identity is shown.`;
 
                                     // Create a Foldseek button (single) that opens search for the displayed accession
                                     const foldBtn = document.createElement('button');
@@ -848,7 +842,7 @@
                                 const url = `./SAR11_operon_vis.html?ogInput=${encodeURIComponent(og.trim())}`;
                                 window.open(url, '_blank');
                             });
-                            // on click, open Neighboring Network (Synteny Network) for current OG in a new tab
+                            // on click, open Neighboring Network for current OG in a new tab
                             if (syNetBtn) {
                                 syNetBtn.addEventListener('click', function() {
                                     const og = (document.getElementById('ogInput') || {}).value || '';
@@ -931,7 +925,7 @@
                 <div id="molstarSection" class="og-panel og-structure-panel">
                     <div id="molstarInfo" class="og-panel-heading">Protein structure will appear here.</div>
                     <div id="molstarControls" style="margin-bottom:8px;"></div>
-                    <a id="molstar-link" href="#" target="_blank">Mol* viewer Full screen view</a>
+                    <a id="molstar-link" href="#" target="_blank">Open Mol* in full screen</a>
                     <iframe id="molstar-iframe" class="og-embed-frame" src="about:blank" width="100%" height="600" allowfullscreen allow="autoplay"></iframe>
                     <p class="og-note">Note: UniProtKB/TrEMBL applies Proteome Redundancy Reduction, so some previously registered sequences may no longer be available. If a structure is not displayed, check UniParc for historical sequence records.</p>
                 </div>
@@ -1071,10 +1065,10 @@
 
                 <br><br><br>
 
-                <div class="border-top p-4 mb-4">
-                    <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>in prep.</em></p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>bioRxiv 2025.</em></p>
+                <div class="atlas-citation">
+                    <h2>Citation information</h2>
+                    <p>Nishino et al. <strong>"SAR11 Genome Atlas."</strong> <em>in prep.</em></p>
+                    <p>Nishino et al. <strong>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</strong> <em>bioRxiv 2025.</em></p>
                 </div>
                 <br><br><br>
             </main>

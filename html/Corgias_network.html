@@ -73,7 +73,7 @@
                                 <a class="nav-link" href="./genes_linked_to_3d_structures.html">Protein Structures</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./SAR11_History.html">Literatures</a>
+                                <a class="nav-link" href="./SAR11_History.html">Literature</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./download.html">Download</a>
@@ -91,7 +91,7 @@
 
                 <div class="atlas-intro">
                     <p>Nodes represent OGs and are colored by COG functional category. Red edges indicate co-occurrence, blue edges indicate anti-occurrence, and edge width reflects association significance as -log<sub>10</sub>(q-value).</p>
-                    <p>Enter an OG ID, set the exploration depth and minimum significance, then extract its local correlation network.</p>
+                    <p>Enter an OG ID, set the exploration depth and minimum significance, then extract its local association network.</p>
                 </div>
 
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
@@ -102,7 +102,7 @@
                     <div class="atlas-section__header">
                         <div>
                             <p class="atlas-section__kicker">Local exploration</p>
-                            <h2>Correlation network</h2>
+                            <h2>Association network</h2>
                             <p>Use a higher significance threshold to focus on stronger associations and a smaller depth for faster rendering.</p>
                         </div>
                     </div>
@@ -115,13 +115,12 @@
                         <label for="qValueRange">Significance (-log10 q):</label>
                             <input type="range" id="qValueRange" min="0" max="20" step="1" value="2">
                             <span id="qValueVal">2</span>
-                        <button id="extractBtn">Extract and show</button>
+                        <button id="extractBtn">Show network</button>
                         <button id="exportPngBtn" disabled>Export PNG</button>
                         <button id="exportJsonBtn" disabled>Export JSON</button>
-                        <!--  <label style="display:flex; align-items:center; gap:6px;"><input type="checkbox" id="onlyBidirectional"> Only show bidirectional edges</label>  -->
                         <label class="atlas-max-nodes" for="maxNodes">Max nodes: <input id="maxNodes" type="number" value="500"></label>
                     </div>
-                    <div id="cyInfo" class="atlas-network-status">Total node = 0; Selected node = 0; Visualized node = 0</div>
+                    <div id="cyInfo" class="atlas-network-status">Total nodes = 0; Selected nodes = 0; Visualized nodes = 0</div>
                     <div id="cy" class="atlas-network-canvas"></div>
                 </section>
 
