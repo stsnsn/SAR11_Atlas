@@ -17,8 +17,8 @@
         const og = params.get('og') || 'OG0000000';
         const ts = params.get('ts') || Date.now();
 
-        const treeUrl = 'https://raw.githubusercontent.com/stsnsn/SAR11_Atlas/main/data/phylogeny/tree/SAR11_542_bac120_iqtree.tree';
-        const metaUrl = 'https://raw.githubusercontent.com/stsnsn/SAR11_Atlas/main/data/phylogeny/tree/tree_annottable_ogpage_542.tsv';
+        const treeUrl = 'https://raw.githubusercontent.com/stsnsn/public_data/main/SAR11_542_bac120_iqtree.tree';
+        const metaUrl = 'https://raw.githubusercontent.com/stsnsn/public_data/main/tree_annottable_ogpage_542.tsv';
         const colorParam = encodeURIComponent(JSON.stringify({ field: `meta_${og}` }));
 
         const taxoniumUrl = `https://taxonium.org/?treeUrl=${encodeURIComponent(treeUrl)}&ladderizeTree=true&treeType=nwk&metaUrl=${encodeURIComponent(metaUrl)}&metaType=meta_tsv&xType=x_dist&color=${colorParam}&ts=${ts}`;
