@@ -127,29 +127,17 @@
                         </div>
 
                         <div class="atlas-stats" aria-label="Atlas summary statistics">
-                            <div class="atlas-stat-group atlas-stat-group--genomes" aria-label="Genome collection statistics">
-                                <span class="atlas-stat-group__label">Genome collection</span>
-                                <a class="atlas-stat" href="./SAR11_phylogeny.html" aria-label="View genome information">
-                                    <span class="atlas-stat__value" id="statGenomes">–</span>
-                                    <span class="atlas-stat__label">genomes</span>
-                                </a>
-                                <a class="atlas-stat" href="./SAR11_phylogeny.html" aria-label="View subclade information">
-                                    <span class="atlas-stat__value" id="statSubclades">–</span>
-                                    <span class="atlas-stat__label">subclades</span>
-                                </a>
-                            </div>
-                            <div class="atlas-stat-group atlas-stat-group--proteins" aria-label="Protein catalog statistics">
-                                <span class="atlas-stat-group__label">Protein catalog</span>
-                                <a class="atlas-stat" href="./og_list.html" aria-label="View proteins in the orthogroup list">
-                                    <span class="atlas-stat__value" id="statProteins">–</span>
-                                    <span class="atlas-stat__label">proteins</span>
-                                </a>
-                                <a class="atlas-stat" href="./og_list.html" aria-label="View annotations in the orthogroup list">
-                                    <span class="atlas-stat__value" id="statAnnotated">–</span>
-                                    <span class="atlas-stat__label">with ≥1 annotation</span>
-                                </a>
-                            </div>
-                            <a class="atlas-stat" href="./og_list.html" aria-label="View all orthogroups">
+                            <a class="atlas-stat atlas-stat--genomes" href="./SAR11_phylogeny.html" aria-label="View genome and subclade information">
+                                <span class="atlas-stat__value" id="statGenomes">–</span>
+                                <span class="atlas-stat__label">genomes</span>
+                                <span class="atlas-stat__detail"><span id="statSubclades">–</span> <span id="statSubcladeUnit">subclades</span> represented</span>
+                            </a>
+                            <a class="atlas-stat atlas-stat--proteins" href="./og_list.html" aria-label="View protein annotation information">
+                                <span class="atlas-stat__value" id="statProteins">–</span>
+                                <span class="atlas-stat__label">proteins</span>
+                                <span class="atlas-stat__detail"><span id="statAnnotated">–</span> with ≥1 annotation</span>
+                            </a>
+                            <a class="atlas-stat atlas-stat--orthogroups" href="./og_list.html" aria-label="View all orthogroups">
                                 <span class="atlas-stat__value" id="statOrthogroups">–</span>
                                 <span class="atlas-stat__label">orthogroups</span>
                                 <span class="atlas-stat__detail" id="statOrthogroupCoverage">99.3% of genes assigned</span>

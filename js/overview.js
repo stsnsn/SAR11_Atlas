@@ -191,6 +191,7 @@
         updateStatValue("statGenomes", genomes.length);
         updateStatValue("statProteins", proteinCount);
         updateStatValue("statSubclades", subclades.size);
+        $("statSubcladeUnit").textContent = subclades.size === 1 ? "subclade" : "subclades";
         updateStatValue("statAnnotated", proteinCount ? annotatedCount / proteinCount * 100 : NaN, {
             decimals: 1,
             suffix: "%"
