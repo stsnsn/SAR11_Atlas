@@ -8,7 +8,7 @@ The current atlas contains 542 SAR11 genomes, 675,669 predicted proteins, and 4,
 
 The rooted bac120 IQ-TREE phylogeny and CORGIAS association network now use the same 542-genome collection. Protein-structure links still reflect the preceding analysis release and will be updated separately.
 
-Open the [SAR11 Genome Atlas](https://stsnsn.github.io/SAR11_Gene_Catalog/), or use the guides below to learn about each page.
+Open the [SAR11 Genome Atlas](https://stsnsn.github.io/SAR11_Atlas/), or use the guides below to learn about each page.
 
 ## Start Here
 

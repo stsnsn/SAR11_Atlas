@@ -76,4 +76,4 @@ Use the **Annotation group** menu to display all proteins or a selected combinat
 
 ## Display Theme
 
-Use the **Dark mode** or **Light mode** button near the top of the page to change the display theme. The selected theme is retained while moving between atlas pages.
+Use the **Deep mode** or **Shallow mode** button near the top of the page to change the display theme. The selected theme is retained while moving between atlas pages.
