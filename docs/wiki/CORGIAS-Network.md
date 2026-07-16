@@ -2,6 +2,8 @@
 
 The CORGIAS Network displays correlation-based associations among SAR11 orthogroups.
 
+Node labels and functional annotations are read from the current `og_suggest.tsv` summary. The correlation edge network itself has not yet been recomputed for the complete 542-genome release, so it should be treated as belonging to the preceding association analysis until the update is complete.
+
 Nodes represent orthogroups and are colored by COG functional category. Edges summarize statistically supported relationships:
 
 - **Red** indicates a positive correlation or co-occurrence.

@@ -27,6 +27,8 @@ Click an individual marker to open a popup containing the metadata for that geno
 
 The phylogenetic tree summarizes relationships among the SAR11 genomes included in the atlas. It is displayed with Taxonium, which supports interactive zooming, panning, searching, and metadata-based coloring.
 
+The 542-genome marker-gene tree is currently being re-estimated. Until it is replaced, treat the embedded tree as belonging to the preceding phylogeny release; the metadata map and table already use the current 542-genome dataset.
+
 Use the tree controls to:
 
 - Zoom in and out of the phylogeny.
@@ -39,13 +41,15 @@ The tree file and associated metadata are available from the [Download](Download
 
 ## SAR11 Genome Information Table
 
-The genome information table lists 542 SAR11 genomes and 20 cultured alphaproteobacterial genomes used as phylogenetic outgroups. Available fields include taxonomy, genome source type, sampling depth and coordinates, Longhurst province, habitat, waterbody, and source references where available.
+The genome information table lists 542 SAR11 genomes and 20 cultured alphaproteobacterial genomes used as phylogenetic outgroups. Available fields include taxonomy, genome source type, numeric sampling depth and coordinates, marine Longhurst province, habitat, waterbody, and source references where available.
+
+The generic **description** field contains the available sampling-region description. Longhurst codes are retained only for marine records. Freshwater and other nonmarine records keep Longhurst fields as `NA` and are described with **habitat_type** and **waterbody_name** instead.
 
 Use the table controls to:
 
 - Search for genomes or metadata terms.
 - Sort columns to compare metadata fields.
-- Scroll horizontally to inspect all columns.
+- Scroll horizontally to inspect all columns; the header remains aligned with the table during scrolling.
 - Export the displayed table as copy, CSV, JSON, Excel, or print output.
 
 Use **Full screen view** to open the table in a dedicated page when a wider view is needed.

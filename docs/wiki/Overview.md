@@ -6,11 +6,13 @@ The Overview page provides a visual summary of the SAR11 Genome Atlas and serves
 
 The summary cards at the top of the page report the current size and annotation coverage of the atlas:
 
-- **Genomes**: number of SAR11 genomes included in the collection.
-- **Subclades**: number of represented SAR11 subclades.
-- **Proteins**: total number of predicted protein sequences.
-- **With at least one annotation**: percentage of proteins assigned at least one COG, KO, or Pfam annotation.
-- **Orthogroups**: number of orthologous groups defined across the collection.
+- **Genomes**: 542 SAR11 genomes in the unfiltered collection.
+- **Subclades**: 25 represented SAR11 subclades in the unfiltered collection.
+- **Proteins**: 675,669 predicted protein sequences.
+- **With at least one annotation**: 91.8% of proteins have at least one COG, KO, or Pfam assignment.
+- **Orthogroups**: 4,577 groups inferred across the collection; 670,693 proteins, or 99.3%, were assigned to an orthogroup.
+
+The 99.3% orthogroup-assignment value is shown only for the complete collection because it is an overall OrthoFinder statistic. Other card values and the orthogroup count update dynamically after filtering.
 
 Select a summary card to open the corresponding Genome Information or All OG List page.
 
@@ -22,7 +24,7 @@ The Explore cards provide direct access to the major tools in the atlas:
 - **OG Information Viewer**: inspect orthogroup members, functional annotations, expression patterns, and related information.
 - **CORGIAS Network**: explore correlation-based relationships among SAR11 orthogroups.
 - **SAR11 Paper Network**: browse curated SAR11 publications and literature relationships.
-- **Synteny Network**: compare conserved neighboring-gene patterns and genome context across SAR11 genomes.
+- **Neighboring Network**: compare conserved neighboring-orthogroup relationships across SAR11 genomes.
 - **Metatranscriptome Viewer**: examine orthogroup expression across Tara Oceans metatranscriptomic samples.
 
 Hover over or focus a card to display its description. Select a card to open that tool in the current browser tab.

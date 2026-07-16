@@ -1,12 +1,12 @@
 # All OG List
 
-The All OG List is a searchable table of orthogroups and their representative functional annotations.
+The All OG List is a searchable table of all 4,577 orthogroups and their representative functional annotations in the 542-genome release.
 
 ## Browse The Table
 
 Use the search box to find an orthogroup by OG ID or annotation term. Select a column heading to sort the table, and scroll horizontally to inspect all annotation fields.
 
-The table includes orthogroup identifiers and representative COG, KO, and Pfam information where available. `NA` or **No Annotation** indicates that no supported assignment was available for that field.
+The table is generated from the current `og_suggest.tsv` summary. It includes orthogroup size and prevalence together with representative COG, KO, and Pfam information where available. Representative annotations are selected from protein-level assignments within each orthogroup and should not be interpreted as assignments shared by every member. `NA` or **No Annotation** indicates that no supported assignment was available for that field.
 
 ## Follow Database Links
 

@@ -2,6 +2,8 @@
 
 The SAR11 Protein Structure Viewer links proteins from cultured SAR11 strains to UniProt accessions and displays available AlphaFold DB predictions.
 
+The structure-link table has not yet been regenerated for the complete 542-genome and 4,577-orthogroup release. Until that update is complete, results reflect the preceding structure-mapping analysis and may not cover newly added or renumbered orthogroups.
+
 ## Find A Protein Match
 
 Use the searchable table to locate a SAR11 protein, gene, orthogroup, or UniProt accession. The table reports the sequence match and amino-acid percent identity (`pident`). A value below 100% means that the SAR11 protein and UniProt sequence are not identical.

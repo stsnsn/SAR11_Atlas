@@ -1,12 +1,22 @@
 # Neighboring Genes
 
-The Genome Context Viewer compares local gene arrangements around proteins belonging to a selected orthogroup.
+The Neighboring Genes page compares local gene arrangements around proteins belonging to a selected orthogroup across the current 542-genome collection. For every focal protein, the dataset retains the focal gene and up to five genes on either side within the same contig.
 
 ## Load A Genome Context
 
-Enter an OG ID, gene name, COG ID, KO ID, or Pfam term and select an autocomplete suggestion. Press **Load Data** to display the genomic neighborhoods available for the selected orthogroup.
+Enter an OG ID, gene name, COG ID, KO ID, or Pfam term and select an autocomplete suggestion. Press **Visualize neighborhood** to display the genomic neighborhoods available for the selected orthogroup.
 
 Each row represents one occurrence of the focal orthogroup. The genome and contig are shown at the left, and arrows indicate neighboring genes and their orientation. The focal gene has a heavier outline.
+
+## Filter Genomes
+
+Use the filters above the visualization to limit the displayed rows:
+
+- **Genome type** selects cultured strains, SAGs, MAGs, or all genome types. The default is **Cultured strain**.
+- **Clade** restricts rows by the broad SAR11 clade classification.
+- **Subclade** provides a more specific filter based on the selected genome type and clade.
+
+The status text reports the number of focal-gene neighborhoods and genomes matching the current filters. Filtering affects the visualization but does not remove records from the underlying OG-specific TSV.
 
 ## Read The Visualization
 
@@ -16,10 +26,15 @@ Each row represents one occurrence of the focal orthogroup. The genome and conti
 - Hover over a gene to view its full sequence ID, OG ID, COG assignment, gene name, KO ID, and KO description.
 - Select an OG label to open its [OG Information Viewer](OG-Information-Viewer).
 
-Use the **Length** switch to choose between proportional genomic lengths and a row-fitted display. Strand orientation is normalized around the focal gene to make neighborhoods easier to compare.
+Use **Actual gene lengths** to switch between a shared base-pair scale and a row-fitted display. Strand orientation is normalized so that the focal gene points in the same direction in every row.
 
-## Export The Figure
+- **Shared-OG ribbons** connects matching OGs between adjacent rows.
+- **Sort by neighborhood similarity** places similar local OG arrangements next to one another.
+- **Show color legend** displays the top-20 neighboring-OG key.
+- **Pin labels to left** keeps genome and contig labels in a fixed left column and is enabled by default.
 
-After the visualization has loaded, use **Download SVG** for a scalable figure or **Download PDF (print)** to open the browser print dialog and save a PDF.
+## Export Data And Figures
+
+After the visualization has loaded, use **Download SVG** for a scalable figure. **Download TSV** downloads the complete OG-specific neighborhood table, including all genome types; it is not reduced by the current display filters.
 
 For a network-level summary of conserved neighbors, use the [Neighboring Network](Neighboring-Network).
