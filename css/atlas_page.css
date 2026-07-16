@@ -936,6 +936,15 @@ body.dark-mode .atlas-network-controls button:not(:disabled):not(#extractBtn) {
     color: #bcecea;
 }
 
+body.dark-mode .atlas-network-canvas {
+    border-color: rgba(123, 184, 206, 0.28);
+    background: #0c202a !important;
+}
+
+body.dark-mode .atlas-network-canvas canvas {
+    background: transparent !important;
+}
+
 body.dark-mode .atlas-note,
 body.dark-mode .atlas-media-card,
 body.dark-mode .atlas-download-card {

@@ -375,6 +375,15 @@
     cursor: inherit !important;
 }
 
+body.dark-mode #egoMini {
+    border-color: rgba(123, 184, 206, 0.28);
+    background: #0c202a !important;
+}
+
+body.dark-mode #egoMini canvas {
+    background: transparent !important;
+}
+
 #taxoniumCaption {
     margin-top: 0.15rem;
 }

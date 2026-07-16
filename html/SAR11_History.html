@@ -17,10 +17,10 @@
     <link rel="canonical" href="https://stsnsn.github.io/SAR11_Gene_Catalog/">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
     <link rel="stylesheet" href="../css/atlas_page.css">
     <link rel="stylesheet" href="../css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="../css/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
     <script src="../js/papaparse.min.js"></script>
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/jquery.dataTables.min.js"></script>
@@ -172,19 +172,19 @@
                     <div class="atlas-media-grid">
                     <div class="atlas-media-card">
                         <h3>Paper citation map</h3>
-                        <iframe class="atlas-content-frame atlas-content-frame--map" title="Paper citation map" src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1gZqaAwVi7D5RNZ1JpwjVQhNhyelnJcq_&item_color=1&item_size=2&item_size_variation=0.7&link_size_variation=0&min_link_strength=1&scale=0.5&simple_ui=true"></iframe>
+                        <iframe class="atlas-content-frame atlas-content-frame--map" data-vosviewer-theme title="Paper citation map" src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1gZqaAwVi7D5RNZ1JpwjVQhNhyelnJcq_&item_color=1&item_size=2&item_size_variation=0.7&link_size_variation=0&min_link_strength=1&scale=0.5&simple_ui=true"></iframe>
                     </div>
                     <div class="atlas-media-card">
                         <h3>Author citation map</h3>
-                        <iframe class="atlas-content-frame atlas-content-frame--map" title="Author citation map" src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1lHjDoH7ogNf2pUOoi9T7kU3H7ogMRs2L&item_size_variation=1.0&link_size_variation=0&scale=0.5&simple_ui=true"></iframe>
+                        <iframe class="atlas-content-frame atlas-content-frame--map" data-vosviewer-theme title="Author citation map" src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1lHjDoH7ogNf2pUOoi9T7kU3H7ogMRs2L&item_size_variation=1.0&link_size_variation=0&scale=0.5&simple_ui=true"></iframe>
                     </div>
                     <div class="atlas-media-card">
                         <h3>Keyword co-occurrence in titles and abstracts</h3>
-                        <iframe class="atlas-content-frame atlas-content-frame--map" title="Keyword co-occurrence map" src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1GhCXexqaI_M5l0r32iCWR_s_7DtendJS&simple_ui=true&item_color=1&item_size=3&item_size_variation=0.8&scale=0.5"></iframe>
+                        <iframe class="atlas-content-frame atlas-content-frame--map" data-vosviewer-theme title="Keyword co-occurrence map" src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1GhCXexqaI_M5l0r32iCWR_s_7DtendJS&simple_ui=true&item_color=1&item_size=3&item_size_variation=0.8&scale=0.5"></iframe>
                     </div>
                     <div class="atlas-media-card">
                         <h3>Co-authorship map</h3>
-                        <iframe class="atlas-content-frame atlas-content-frame--map" title="Co-authorship map" src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1YmYpph-jhgYqPXiSK3C4T5y0T9F-UGE_&item_color=1&item_size=3&item_size_variation=1&scale=0.8"></iframe>
+                        <iframe class="atlas-content-frame atlas-content-frame--map" data-vosviewer-theme title="Co-authorship map" src="https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1YmYpph-jhgYqPXiSK3C4T5y0T9F-UGE_&item_color=1&item_size=3&item_size_variation=1&scale=0.8"></iframe>
                     </div>
                     </div>
                 </section>
@@ -216,5 +216,23 @@
             </main>
         </div>
     </div>
+    <script>
+        function syncVosviewerTheme(event) {
+            const dark = event && event.detail
+                ? Boolean(event.detail.dark)
+                : document.body.classList.contains('dark-mode');
+            const darkValue = String(dark);
+
+            document.querySelectorAll('iframe[data-vosviewer-theme]').forEach(frame => {
+                const url = new URL(frame.src);
+                if (url.searchParams.get('dark_ui') === darkValue) return;
+                url.searchParams.set('dark_ui', darkValue);
+                frame.src = url.toString();
+            });
+        }
+
+        window.addEventListener('sar11:themechange', syncVosviewerTheme);
+        document.addEventListener('DOMContentLoaded', syncVosviewerTheme);
+    </script>
 </body>
 </html>

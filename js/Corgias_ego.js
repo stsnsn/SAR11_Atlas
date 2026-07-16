@@ -337,6 +337,29 @@
 
     // Render cytoscape with basic style and layout
     let cy = null;
+    function networkThemeColors() {
+        const dark = document.body.classList.contains('dark-mode');
+        return dark
+            ? { text: '#e8f6fa', arrow: '#8aa6b2', tooltipBg: 'rgba(12,32,42,0.97)', tooltipBorder: '#557582', tooltipText: '#eefbfe' }
+            : { text: '#000000', arrow: '#999999', tooltipBg: 'rgba(255,255,255,0.95)', tooltipBorder: '#999999', tooltipText: '#142b36' };
+    }
+
+    function applyNetworkTheme() {
+        const colors = networkThemeColors();
+        if (cy) {
+            cy.style()
+                .selector('node').style('color', colors.text)
+                .selector('edge[bidirectional = "true"]').style({ 'source-arrow-color': colors.arrow, 'target-arrow-color': colors.arrow })
+                .update();
+        }
+        const tip = document.getElementById('cyTooltip');
+        if (tip) {
+            tip.style.background = colors.tooltipBg;
+            tip.style.borderColor = colors.tooltipBorder;
+            tip.style.color = colors.tooltipText;
+        }
+    }
+
     function renderCy(elements) {
         if (cy) { cy.destroy(); cy = null; }
         const container = document.getElementById('cy');
@@ -348,7 +371,7 @@
             tip.id = 'cyTooltip';
             tip.style.position = 'absolute';
             tip.style.pointerEvents = 'none';
-            tip.style.background = 'rgba(255,255,255,0.95)';
+            tip.style.background = networkThemeColors().tooltipBg;
             tip.style.border = '1px solid #999';
             tip.style.padding = '6px 8px';
             tip.style.fontSize = '12px';
@@ -364,7 +387,7 @@
             elements: [].concat(elements.nodes, elements.edges),
             style: [
                 // default node style: use data(color) for fill but no border by default
-                { selector: 'node', style: { 'label': 'data(label)', 'width': 18, 'height': 18, 'background-color': 'data(color)', 'color': '#000', 'text-valign': 'center', 'text-halign': 'center', 'font-size': 12, 'border-width': 0 } },
+                { selector: 'node', style: { 'label': 'data(label)', 'width': 18, 'height': 18, 'background-color': 'data(color)', 'color': networkThemeColors().text, 'text-valign': 'center', 'text-halign': 'center', 'font-size': 12, 'border-width': 0 } },
                 // center node (depth=0): highlight by adding an outline only (no background override)
                 { selector: 'node[depth = 0]', style: { 'border-width': 2, 'border-color': '#ff7f0e', 'border-opacity': 1, 'border-style': 'solid' } },
                 { selector: 'edge', style: {
@@ -389,6 +412,7 @@
 
         // expose cytoscape instance for external control (resize from outer scripts)
         try { window.cy = cy; } catch(e) { /* ignore if not allowed */ }
+        applyNetworkTheme();
 
         cy.on('tap', 'node', evt => {
             const id = evt.target.id();
@@ -435,6 +459,8 @@
             if (tip) tip.style.display = 'none';
         });
     }
+
+    window.addEventListener('sar11:themechange', applyNetworkTheme);
 
     // Export PNG
     function exportPNG() {

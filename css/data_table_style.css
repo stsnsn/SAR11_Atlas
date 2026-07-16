@@ -97,24 +97,71 @@ body.dark-mode {
     color: #f2f2f2; /* 白色 */
 }
 
-#table.dark-mode thead th {
+body.dark-mode table.dataTable thead th,
+body.dark-mode table.dataTable thead td {
     background-color: #000000; /* 黒色 */
     color: white;
     text-align: center;
     padding: 10px;
+    border-color: #506878;
 }
 
 /* ダークモード時のテーブルの奇数行 */
-#table.dark-mode tbody tr:nth-child(odd) {
+body.dark-mode table.dataTable tbody tr:nth-child(odd),
+body.dark-mode table.dataTable tbody tr.odd {
     background-color: #003366; /* ダークブルー */
 }
 
+body.dark-mode table.dataTable tbody tr:nth-child(even),
+body.dark-mode table.dataTable tbody tr.even {
+    background-color: #102733;
+}
+
+body.dark-mode table.dataTable tbody td,
+body.dark-mode table.dataTable tbody th {
+    background: transparent;
+    color: #f2f7fa;
+    border-color: #425d6b;
+    box-shadow: none !important;
+}
+
 /* ダークモード時にカーソルが当たった行の色 */
-#table.dark-mode tbody tr:hover {
+body.dark-mode table.dataTable tbody tr:hover,
+body.dark-mode table.dataTable tbody tr:hover > * {
     background-color: #65a1fc;  /* 淡いブルー */
+    color: #071925;
+    box-shadow: none;
 }
 
 /* ダークモード時のテーブルのボーダー */
-#table.dark-mode {
+body.dark-mode table.dataTable {
     border: 1px solid #666; /* グレーのボーダー */
+}
+
+body.dark-mode .dataTables_wrapper,
+body.dark-mode .dataTables_wrapper .dataTables_length,
+body.dark-mode .dataTables_wrapper .dataTables_filter,
+body.dark-mode .dataTables_wrapper .dataTables_info,
+body.dark-mode .dataTables_wrapper .dataTables_paginate {
+    color: #e7f2f6;
+}
+
+body.dark-mode .dataTables_wrapper input,
+body.dark-mode .dataTables_wrapper select {
+    border-color: #506878;
+    background: #102733;
+    color: #f2f7fa;
+}
+
+body.dark-mode .dataTables_wrapper .dataTables_paginate .paginate_button:not(.disabled) {
+    border-color: #315a70;
+    background: #003366;
+    color: #ffffff !important;
+}
+
+body.dark-mode .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+body.dark-mode .dataTables_wrapper .dataTables_paginate .paginate_button:hover:not(.disabled) {
+    border-color: #79b7db;
+    background: #65a1fc;
+    color: #071925 !important;
 }

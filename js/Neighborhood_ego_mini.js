@@ -22,6 +22,30 @@
     let originalDirected = new Set();
     let cy = null;
 
+    function networkThemeColors() {
+        const dark = document.body.classList.contains('dark-mode');
+        return dark
+            ? { text: '#e8f6fa', edge: '#668492', tooltipBg: 'rgba(12,32,42,0.97)', tooltipBorder: '#557582', tooltipText: '#eefbfe' }
+            : { text: '#000000', edge: '#999999', tooltipBg: 'rgba(255,255,255,0.95)', tooltipBorder: '#999999', tooltipText: '#142b36' };
+    }
+
+    function applyNetworkTheme() {
+        const colors = networkThemeColors();
+        if (cy) {
+            cy.style()
+                .selector('node').style('color', colors.text)
+                .selector('edge').style({ 'line-color': colors.edge, 'target-arrow-color': colors.edge })
+                .selector('edge[bidirectional = "true"]').style({ 'source-arrow-color': colors.edge, 'target-arrow-color': colors.edge })
+                .update();
+        }
+        const tip = document.getElementById('cyTooltip');
+        if (tip) {
+            tip.style.background = colors.tooltipBg;
+            tip.style.borderColor = colors.tooltipBorder;
+            tip.style.color = colors.tooltipText;
+        }
+    }
+
     async function loadTSV() {
         if (adjacency.size > 0) return;
         try {
@@ -197,7 +221,7 @@
             elements: [].concat(elements.nodes, elements.edges),
             style: [
                 // center labels on nodes to avoid baseline/offset issues
-                { selector: 'node', style: { 'label': 'data(label)', 'width': 16, 'height': 16, 'background-color': 'data(color)', 'font-size': 10, 'border-width': 0, 'text-valign': 'center', 'text-halign': 'center', 'color': '#000', 'text-wrap': 'none' } },
+                { selector: 'node', style: { 'label': 'data(label)', 'width': 16, 'height': 16, 'background-color': 'data(color)', 'font-size': 10, 'border-width': 0, 'text-valign': 'center', 'text-halign': 'center', 'color': networkThemeColors().text, 'text-wrap': 'none' } },
                 { selector: 'node[depth = 0]', style: { 'border-width': 2, 'border-color': '#ff7f0e', 'border-opacity': 1, 'border-style': 'solid' } },
                 { selector: 'node.is-hovered', style: { 'border-width': 3, 'border-color': '#087d82', 'border-opacity': 1, 'overlay-color': '#087d82', 'overlay-opacity': 0.14, 'overlay-padding': 5 } },
                     { selector: 'edge', style: { 'width': 0.5, 'line-color': '#999', 'curve-style': 'bezier', 'source-arrow-shape': 'none', 'target-arrow-shape': 'triangle', 'target-arrow-color': '#999', 'arrow-scale': 0.3 } },
@@ -226,7 +250,7 @@
             tip.id = 'cyTooltip';
             tip.style.position = 'absolute';
             tip.style.pointerEvents = 'none';
-            tip.style.background = 'rgba(255,255,255,0.95)';
+            tip.style.background = networkThemeColors().tooltipBg;
             tip.style.border = '1px solid #999';
             tip.style.padding = '6px 8px';
             tip.style.fontSize = '12px';
@@ -235,6 +259,7 @@
             tip.style.whiteSpace = 'pre-wrap';
             document.body.appendChild(tip);
         }
+        applyNetworkTheme();
 
         // tooltip on hover: show COG_ID and ko_id (same as full ego)
         const showTipForNode = (node) => {
@@ -329,6 +354,7 @@
 
     // expose globally so page can call it
     window.renderEgoForOG = renderEgoForOG;
+    window.addEventListener('sar11:themechange', applyNetworkTheme);
 
     // adjust size on window resize
     window.addEventListener('resize', () => {
