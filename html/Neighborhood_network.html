@@ -17,26 +17,11 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+    <link rel="stylesheet" href="../css/atlas_page.css">
     <link rel="stylesheet" href="../css/jquery-ui.1.13.2.css">
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/jquery-ui.1.13.2.min.js"></script>
     <script src="../js/cytoscape.3.24.0.min.js"></script>
-    <style>
-        /* simple styles for the ego-network panel */
-        #egoPanel { border: 1px solid #dddddd00; padding: 12px; margin-top: 18px; background: #fafafa00; }
-        /* Use viewport-relative height so the network scales with window height */
-        #cy { width: 100%; height: 60vh; min-height: 300px; border: 1px solid #666; background: #fff; }
-        .control-row { display:flex; gap:8px; align-items:center; margin-bottom:8px; flex-wrap:wrap }
-        .control-row label { margin-right:6px; }
-        /* disabled action buttons look gray */
-        button:disabled { background: #e9ecef; color: #6c757d; cursor: not-allowed; }
-
-        input[type="range"]:disabled {
-            opacity: 0.5; /* 半透明にする */
-            cursor: not-allowed; /* カーソルを変更 */
-        }
-    </style>
-
 </head>
 
 <body>
@@ -97,39 +82,31 @@
                     </div>
                 </nav>
 
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-                <div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
-                    <div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
-                        <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0">
-                        </div>
-                    </div>
-                    <div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
-                        <div style="position:absolute;width:200%;height:200%;left:0; top:0">
-                        </div>
-                    </div>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 atlas-page">
+                <header class="atlas-page-heading">
+                    <p class="atlas-eyebrow">Genome neighborhoods</p>
+                    <h1>Neighboring Network</h1>
+                    <p>Explore recurrent genomic associations among SAR11 orthogroups as an interactive local network.</p>
+                </header>
+
+                <div class="atlas-intro">
+                    <p>Nodes represent orthogroups and are colored by COG functional category. Edges connect OG pairs found near each other in at least 75% of the relevant SAR11 genome neighborhoods.</p>
+                    <p>Enter an OG ID, choose the network depth, and extract its local neighborhood. The complete Cosmograph network is available <a id="cosmograph_here" href="#" target="_blank" rel="noopener">in a separate view</a>, and source tables are available from the <a href="./download.html">Download page</a>.</p>
                 </div>
 
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <br><br><br><br><br>
-                    <h1 class="h2">Neighboring Gene Network</h1>
-                    <br>
-                </div>
-
-                <!-- Dark-mode toggle -->
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
                 <script src="../js/theme.js"></script>
-                <!-- Dark-mode toggle END -->
 
                 <!-- EDITABLE ZONE START -->
-                <p>This is a synteny (genome neighborhood) network of orthogroups (OGs). Nodes are OGs colored by COG functional categories, and; 
-                    edges show that two OGs are frequently (≧75%) found near each other in the SAR11 genomes.<br>
-                    <strong>How to use:</strong> enter an OG ID (e.g. <code>OG0000123</code>) and click the <i>Extract and show</i> button.<br>
-                    Full network visualized using Cosmograph is available <a id="cosmograph_here" href="#" target="_blank">here</a>, and the raw data can be downloaded as a TSV file from the <a href="./download.html">Download page</a>.</p>
-
-                <!-- Ego-network prototype using Cytoscape -->
-                <div id="egoPanel">
-                    <h3>Synteny Network</h3>
-                    <div class="control-row">
+                <section class="atlas-section" id="egoPanel">
+                    <div class="atlas-section__header">
+                        <div>
+                            <p class="atlas-section__kicker">Local exploration</p>
+                            <h2>Synteny network</h2>
+                            <p>Increase depth to include progressively more distant neighbors. Smaller depths are faster for highly connected OGs.</p>
+                        </div>
+                    </div>
+                    <div class="atlas-network-controls control-row">
                         <label for="egoNode">Center node (OG ID):</label>
                         <input type="text" id="egoNode" placeholder="OG0000173">
                         <label for="depthRange">Depth</label>
@@ -138,54 +115,31 @@
                         <button id="extractBtn">Extract and show</button>
                         <button id="exportPngBtn" disabled>Export PNG</button>
                         <button id="exportJsonBtn" disabled>Export JSON</button>
-                        <label style="display:flex; align-items:center; gap:6px;"><input type="checkbox" id="onlyBidirectional"> Only show bidirectional edges</label>
-                        <span style="margin-left:auto; font-size:0.9em; color:#666">Max nodes: <input id="maxNodes" type="number" value="500" style="width:80px;"> </span>
+                        <label class="atlas-inline-check"><input type="checkbox" id="onlyBidirectional"> Only show bidirectional edges</label>
+                        <label class="atlas-max-nodes" for="maxNodes">Max nodes: <input id="maxNodes" type="number" value="500"></label>
                     </div>
-                    <div id="cyInfo" style="font-size:0.9em; color:#666; margin-bottom:6px">Total node = 0; Selected node = 0; Visualized node = 0</div>
-                    <div id="cy" style="position:relative"></div>
-                    <div style="margin-top:8px; color:#666; font-size:0.9em">Note: If the webpage is slow, please use small depths.</div>
-                </div>
+                    <div id="cyInfo" class="atlas-network-status">Total node = 0; Selected node = 0; Visualized node = 0</div>
+                    <div id="cy" class="atlas-network-canvas"></div>
+                </section>
 
                 <script>
                     // Centralize the cosmograph URL so it can be updated in one place
                     const cosmograph_url = "https://cosmograph.app/run/?data=https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/251203_net.tsv&meta=https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/251202_nei_annot.tsv&source=query_num&target=target_num&gravity=1&repulsion=1&repulsionTheta=1.15&linkSpring=1&linkDistance=10&friction=0.85&renderLabels=true&renderHoveredLabel=true&renderLinks=true&linkArrows=true&nodeSizeScale=1&linkWidthScale=1&linkArrowsSizeScale=1&nodeSize=size-default&nodeColor=color-COG_LETTER&nodeLabel=Orthogroup&linkWidth=width-default&linkColor=color-default&";
-                    // On DOM ready, assign to link and iframe
+                    // Assign the full-network URL to the separate Cosmograph view.
                     document.addEventListener('DOMContentLoaded', function() {
-                        const a = document.getElementById('cosmograph_fullscreen');
                         const here = document.getElementById('cosmograph_here');
-                        const iframe = document.getElementById('cosmograph');
-                        if (a) a.href = cosmograph_url;
                         if (here) here.href = cosmograph_url;
-                        if (iframe) {
-                            // Prevent iframe from stealing focus and delay its loading to reduce auto-scroll
-                            try {
-                                iframe.setAttribute('loading', 'lazy');
-                                iframe.setAttribute('tabindex', '-1');
-                                iframe.loading = 'lazy';
-                                iframe.tabIndex = -1;
-                            } catch (e) { /* ignore if attributes not supported */ }
-                            iframe.src = cosmograph_url;
-                        }
                     });
                 </script>
 
-                <!-- <br><br>
-                <h4 style="margin-top:18px; margin-bottom:6px;">Full Network by Cosmograph</h4>
-                <a id="cosmograph_fullscreen" href="#" target="_blank">Full screen view</a> / Download <a href="../data/network/251203_net.tsv" download="network.tsv">network data</a> and <a href="../data/network/251202_nei_annot.tsv" download="network_annotation.tsv">annotation file</a>
-                <iframe id="cosmograph" src="#" width="100%" height="100%" data-external="1" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
-
-                <br><br> -->
                 <script src="../js/Neighborhood_ego.js"></script>
-
-                <br><br><br>
                 <!-- EDITABLE ZONE END -->
 
-                <div class="border-top p-4 mb-4">
-                    <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>in prep.</em></p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>bioRxiv 2025.</em></p>
+                <div class="atlas-citation">
+                    <h2>Citation information</h2>
+                    <p>Nishino et al. <strong>"SAR11 Genome Atlas."</strong> <em>in prep.</em></p>
+                    <p>Nishino et al. <strong>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</strong> <em>bioRxiv 2025.</em></p>
                 </div>
-                <br>
 
             </main>
         </div>

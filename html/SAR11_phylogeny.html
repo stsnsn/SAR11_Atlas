@@ -17,6 +17,7 @@
     <link rel="canonical" href="https://stsnsn.github.io/SAR11_Gene_Catalog/">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
+    <link href="../css/atlas_page.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/leaflet.css">
     <link rel="stylesheet" href="../css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="../css/buttons.dataTables.min.css">
@@ -104,56 +105,55 @@
                     </div>
                 </nav>
 
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4"><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 atlas-page">
 
-                <div class="d-flex flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <br><br><br><br><br>
+                <div class="atlas-page-heading">
+                    <p class="atlas-eyebrow">Genome collection</p>
                     <h1 class="h2">SAR11 Genome Information</h1>
-                    <br>
+                    <p>Explore where SAR11 genomes were sampled, how they are related, and the metadata available for every genome in the atlas.</p>
+                </div>
+
+                <!-- EDITABLE ZONE START -->
+
+                <div class="atlas-intro">
+                    <p>This page connects three complementary views of the collection: sampling geography, phylogenetic placement, and a searchable genome metadata table.</p>
                 </div>
 
                 <!-- Dark-mode toggle -->
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
                 <script src="../js/theme.js"></script>
-                <hr style="margin-top: 20px; margin-bottom: 20px; border: 1px solid gray;">
                 <!-- Dark-mode toggle END -->
 
-                <!-- EDITABLE ZONE START -->
-
                 <!-- map -->
-                <br>
-                <!-- 説明 -->
-                <h3>SAR11 Genome Sampling Location Map</h3>
-                <p style="text-align: left;">
-                    This map shows the reported sampling locations of SAR11 genomes included in the atlas.<br>
-                    Use the "Data filter" menu to display all genomes or focus on MAGs, SAGs, or cultured strains.<br>
-                    Nearby markers are grouped into clusters. Each cluster shows the number of genomes in the center, and the surrounding pie chart shows the relative proportion of MAGs, SAGs, and cultured strains within that cluster.<br>
-                    Click an individual marker to view the genome metadata associated with that sampling location.
-                </p>
+                <section class="atlas-section">
+                    <div class="atlas-section__header">
+                        <div>
+                            <p class="atlas-section__kicker">Sampling geography</p>
+                            <h2>SAR11 Genome Sampling Location Map</h2>
+                            <p>Explore reported sampling locations. Nearby genomes are grouped into clusters: the center shows the genome count, while the surrounding ring shows the relative proportions of MAGs, SAGs, and cultured strains. Select an individual marker to inspect its metadata.</p>
+                        </div>
+                    </div>
 
-                <div id="controls"><!-- プルダウンメニュー -->
-                    <label for="filter">Data filter:</label>
-                    <select id="filter">
-                        <option value="all" selected>All</option>
-                        <option value="MAG">MAG</option>
-                        <option value="SAG">SAG</option>
-                        <option value="isolate">Cultured strain</option>
-                    </select>
-                </div>
+                    <div class="atlas-toolbar">
+                        <div id="controls">
+                            <label for="filter" class="atlas-filter">Genome type
+                                <select id="filter">
+                                    <option value="all" selected>All genomes</option>
+                                    <option value="MAG">MAG</option>
+                                    <option value="SAG">SAG</option>
+                                    <option value="isolate">Cultured strain</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="atlas-map-legend" aria-label="Genome type legend">
+                            <span class="atlas-map-legend__item"><img src="../css/images/marker-icon.png" alt="" class="icon acmarker_yellow" /> Cultured strain</span>
+                            <span class="atlas-map-legend__item"><img src="../css/images/marker-icon.png" alt="" class="icon acmarker_blue" /> SAG</span>
+                            <span class="atlas-map-legend__item"><img src="../css/images/marker-icon.png" alt="" class="icon acmarker_red" /> MAG</span>
+                        </div>
+                    </div>
 
-                <!-- 凡例 -->
-                <p style="text-align: left;">
-                    <img src="../css/images/marker-icon.png" alt="isolate" class="icon acmarker_yellow" /> Cultured strain (yellow),
-                    <img src="../css/images/marker-icon.png" alt="SAG" class="icon acmarker_blue" /> SAG (blue),
-                    <img src="../css/images/marker-icon.png" alt="MAG" class="icon acmarker_red" /> MAG (red).
-                    Cluster pie charts use the same colors to summarize the composition of grouped markers.
-                </p>
-
-                <div style="display: flex; justify-content: space-between;">
-                    <div id="map" style="width: 1100px; height: 900px;"></div>
-                    <hr style="margin-top: 20px; margin-bottom: 20px; border: 1px solid gray;">
-                </div>
-                <br>
+                    <div id="map" class="atlas-map-frame atlas-map-frame--sampling"></div>
+                </section>
 
                 <!-- tree -->
                 <!-- Unknomics Tree
@@ -168,40 +168,43 @@
                 </iframe>
                 <br><br><br>
                 -->
-                <h5>The 544 SAR11 Genomes Tree</h5>
-                    <p style="text-align: left;">
-                        This interactive phylogenetic tree summarizes the relationships among the 544 SAR11 genomes currently included in the atlas.<br>
-                        Use the Taxonium controls to zoom, pan, search genome names, and change metadata-based color coding from the "Color by:" menu.<br>
-                        Expand the tree to inspect individual genome labels, and click or hover over tree tips to view detailed metadata.
-                    </p>
-                <iframe
-                src="https://taxonium.org/?treeUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fstsnsn%2Fpublic_data%2Fmain%2F20240709%2FSAR11_extracted_iqtree2.treefile&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fstsnsn%2Fpublic_data%2Fc0ead74192a15099fa29f46a8b48b98b2ce3e887%2F20240709%2Fsubclade_cat.tsv&metaType=meta_tsv&xType=x_dist"
-                width="100%"
-                height="900"
-                style="border: 1px solid #666;"
-                allowfullscreen
-                ></iframe>
-
-                <hr style="margin-top: 20px; margin-bottom: 20px; border: 1px solid gray;">
+                <section class="atlas-section">
+                    <div class="atlas-section__header">
+                        <div>
+                            <p class="atlas-section__kicker">Phylogeny</p>
+                            <h2>The 544 SAR11 Genomes Tree</h2>
+                            <p>This interactive Taxonium tree summarizes relationships among the 544 SAR11 genomes. Zoom, pan, search genome names, or change metadata-based coloring from the "Color by" menu. Select or hover over tree tips to inspect genome metadata.</p>
+                        </div>
+                    </div>
+                    <iframe
+                    class="atlas-embed-frame"
+                    src="https://taxonium.org/?treeUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fstsnsn%2Fpublic_data%2Fmain%2F20240709%2FSAR11_extracted_iqtree2.treefile&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fstsnsn%2Fpublic_data%2Fc0ead74192a15099fa29f46a8b48b98b2ce3e887%2F20240709%2Fsubclade_cat.tsv&metaType=meta_tsv&xType=x_dist"
+                    height="900"
+                    allowfullscreen
+                    ></iframe>
+                </section>
 
 
 
                 <!-- table -->
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h4>SAR11 Genome Information Table</h4>
-                </div>
-                <p style="text-align: left;">
-                        This searchable table lists metadata for 564 genomes, including 544 SAR11 genomes and 20 cultured alpha-proteobacteria used as outgroups.<br>
-                        Use the search box to find genomes, sort columns to compare metadata fields, and export the displayed table using the copy, CSV, JSON, Excel, or print buttons.
-                    </p>
-                <a href="./SAR11_genome_table.html">Full screen view</a>
-                <table id="table" class="display" style="width:100%">
-                    <caption>The 564 genomes' information table</caption>
-                    <thead>
-                        <tr></tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
+                <section class="atlas-section">
+                    <div class="atlas-section__header">
+                        <div>
+                            <p class="atlas-section__kicker">Genome metadata</p>
+                            <h2>SAR11 Genome Information Table</h2>
+                            <p>Search metadata for 564 genomes: 544 SAR11 genomes and 20 cultured alpha-proteobacteria used as outgroups. Sort columns to compare fields, or export the displayed data as copy, CSV, JSON, Excel, or print output.</p>
+                        </div>
+                    </div>
+                    <a class="atlas-section__link" href="./SAR11_genome_table.html">Open full-screen table</a>
+                    <div class="atlas-table-wrap">
+                        <table id="table" class="display" style="width:100%">
+                            <caption>The 564 genomes' information table</caption>
+                            <thead>
+                                <tr></tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
 
                 <style>
                     /* ページネーションを非表示に */
@@ -273,12 +276,12 @@
                         });
                     });
                 </script>
+                </section>
 
-                <br><br><br>
-                <div class="border-top p-4 mb-4">
-                    <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>in prep.</em></p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>bioRxiv 2025.</em></p>
+                <div class="atlas-citation">
+                    <h2>Citation information</h2>
+                    <p>Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>in prep.</em></p>
+                    <p>Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>bioRxiv 2025.</em></p>
                 </div>
 
                 <br><br><br>

@@ -23,6 +23,7 @@
     <script src="../js/plotly-2.35.2.min.js"></script>
     <link rel="stylesheet" href="../css/metaT_style.css">
     <link rel="stylesheet" href="../css/data_table_style.css">
+    <link rel="stylesheet" href="../css/atlas_page.css">
     <script src="../js/pca_plot.js"></script>
     <!-- Leaflet easyprint plugin-->
     <script src="../js/leaflet-easyprint.2.1.9.bundle.min.js"></script>
@@ -112,28 +113,19 @@
                     </div>
                 </nav>
 
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-                <div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
-                    <div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
-                        <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0">
-                        </div>
-                    </div>
-                    <div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
-                        <div style="position:absolute;width:200%;height:200%;left:0; top:0">
-                        </div>
-                    </div>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 atlas-page">
+                <header class="atlas-page-heading">
+                    <p class="atlas-eyebrow">Ocean expression patterns</p>
+                    <h1>Metatranscriptome Viewer</h1>
+                    <p>Explore the geographic expression profile of a SAR11 orthogroup and its relationships with environmental conditions.</p>
+                </header>
+
+                <div class="atlas-intro">
+                    <p>Search for an OG to map its metatranscriptomic expression across ocean samples. Marker size represents expression level, while the accompanying plots summarize correlations with temperature, salinity, depth, oxygen, and a selectable environmental parameter.</p>
                 </div>
 
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <br><br><br><br><br>
-                    <h1 class="h2">Metatranscriptome viewer</h1>
-                    <br>
-                </div>
-
-                <!-- Dark-mode toggle -->
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
                 <script src="../js/theme.js"></script>
-                <!-- Dark-mode toggle END -->
 
                 <!-- EDITABLE ZONE START -->
 
@@ -204,60 +196,67 @@
                         });
                         </script>
 
-                <!-- MAP -->
-                <div style="display: flex; justify-content: space-between;">
-                    <div style="width: 100%; height: 600px;">
-                        <p>Input an OG ID (e.g., OG0000173) and click the "Update Map and Correlation plots" button. You can also download the data as a CSV file by clicking the "Download CSV" button.</p>
-                        <div id="map" style="width: 550px; height: 400px;"></div>
-                        <!-- Expression profile header (hidden until Update pressed) -->
-                        <div id="expressionProfileHeader" style="text-align: center; font-weight: bold; margin: 12px 0; display: none;"></div>
-                        <div id="controls">
-                            <input type="text" id="ogInput" placeholder="Enter ID: (e.g., OG0000173)">
-                            <button id="updateMap">Update Map and Correlation plots</button>
-                            <!-- 初期は無効化: OGが読み込まれたら有効にする -->
-                            <button id="downloadData" disabled>Download CSV</button>
-                            <!-- Size transform toggle -->
-                            <label style="margin-left:8px; display:inline-flex; align-items:center; gap:6px;">
-                                <input type="checkbox" id="sizeLogToggle">
-                                <span style="font-size:0.9em;">Log-scale</span>
+                <section class="atlas-section">
+                    <div class="atlas-section__header">
+                        <div>
+                            <p class="atlas-section__kicker">Global distribution</p>
+                            <h2>OG expression map</h2>
+                            <p>Enter an OG ID or annotation term, update the view, and download the displayed sample data as CSV.</p>
+                        </div>
+                    </div>
+                    <div id="controls" class="atlas-control-panel">
+                        <div class="atlas-search-row">
+                            <div class="atlas-search-field">
+                                <label for="ogInput">OG ID or annotation</label>
+                                <input type="text" id="ogInput" placeholder="Enter ID: (e.g., OG0000173)">
+                            </div>
+                            <button id="updateMap" class="atlas-action-button" type="button">Update map and plots</button>
+                            <button id="downloadData" class="atlas-secondary-button" type="button" disabled>Download CSV</button>
+                            <label class="atlas-switch" for="sizeLogToggle">
+                                <input type="checkbox" id="sizeLogToggle" checked>
+                                <span><strong>Log scale</strong><small>Compress the marker-size range.</small></span>
                             </label>
                         </div>
-                        <p> The plots show the correlation between the expression level of the selected OG and environmental factors.</p>
                     </div>
-                </div>
+                    <div id="expressionProfileHeader" class="atlas-expression-heading" style="display: none;"></div>
+                    <div id="map" class="atlas-metat-map"></div>
+                </section>
 
-                <div class="plots-container">
-                    <div id="temperaturePlot" class="single-plot"></div>
-                    <div id="salinityPlot" class="single-plot"></div>
-                </div>
-
-                <div class="plots-container">
-                    <div id="depthPlot" class="single-plot"></div>
-                    <div id="oxygenPlot" class="single-plot"></div>
-                </div>
-
-                <div id="userPlotContainer"> <!-- ユーザ指定のplot -->
-                    <div>
-                        <label for="userParameterSelect">Choose another parameter if you need:</label>
-                        <select id="userParameterSelect">
-                            <option value="Oxygen">Oxygen</option>
-                            <option value="Temperature">Temperature</option>
-                            <option value="Salinity">Salinity</option>
-                            <option value="Nitrate">Nitrate</option>
-                            <option value="Chl_a">Chl_a</option>
-                            <option value="fCDOM">fCDOM</option>
-                            <option value="Depth">Depth</option>
-                            <option value="Latitude">Latitude</option>
-                            <option value="Longitude">Longitude</option>
-                            <option value="Sigma-theta">Sigma-theta</option>
-                        </select>
-                        <button id="updateUserPlot">Draw Plot</button>
+                <section class="atlas-section">
+                    <div class="atlas-section__header">
+                        <div>
+                            <p class="atlas-section__kicker">Environmental context</p>
+                            <h2>Expression correlations</h2>
+                            <p>Compare the selected OG expression score with environmental measurements across sampled locations.</p>
+                        </div>
                     </div>
-                    <br>
-                    <div id="userPlot"></div>
-                </div>
-                <p> option: Latitude, Longitude, Temperature, Sigma-theta, Salinity, Oxygen, Nitrate, Chl_a, fCDOM, Depth</p>
-                <br>
+                    <div class="atlas-plot-grid">
+                        <div id="temperaturePlot" class="single-plot atlas-plot-frame"></div>
+                        <div id="salinityPlot" class="single-plot atlas-plot-frame"></div>
+                        <div id="depthPlot" class="single-plot atlas-plot-frame"></div>
+                        <div id="oxygenPlot" class="single-plot atlas-plot-frame"></div>
+                    </div>
+
+                    <div id="userPlotContainer" class="atlas-custom-plot">
+                        <div class="atlas-custom-plot__controls">
+                            <label for="userParameterSelect">Additional parameter</label>
+                            <select id="userParameterSelect">
+                                <option value="Oxygen">Oxygen</option>
+                                <option value="Temperature">Temperature</option>
+                                <option value="Salinity">Salinity</option>
+                                <option value="Nitrate">Nitrate</option>
+                                <option value="Chl_a">Chl_a</option>
+                                <option value="fCDOM">fCDOM</option>
+                                <option value="Depth">Depth</option>
+                                <option value="Latitude">Latitude</option>
+                                <option value="Longitude">Longitude</option>
+                                <option value="Sigma-theta">Sigma-theta</option>
+                            </select>
+                            <button id="updateUserPlot" class="atlas-secondary-button" type="button">Draw plot</button>
+                        </div>
+                        <div id="userPlot" class="atlas-plot-frame"></div>
+                    </div>
+                </section>
 
                 <script src="../js/metaTplot.js"></script>
                 <script>
@@ -333,9 +332,6 @@
                         } catch (e) { /* ignore */ }
                     })();
                 </script>
-                <br>
-
-                <br><br><br>
                 <!-- PCA プロット
                 <div style="display: flex; justify-content: space-between;">
                     <div id="plotly-3d-scatter" style="width: 100%; height: 500px;"></div>
@@ -343,17 +339,12 @@
                 <p>Please note that the cumulative proportion is only 20.0%.</p>
                 <br>
                 -->
-                <br><br>
-
                 <!-- EDITABLE ZONE END -->
-                <div class="border-top p-4 mb-4">
-                    <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>in prep.</em></p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>bioRxiv 2025.</em></p>
+                <div class="atlas-citation">
+                    <h2>Citation information</h2>
+                    <p>Nishino et al. <strong>"SAR11 Genome Atlas."</strong> <em>in prep.</em></p>
+                    <p>Nishino et al. <strong>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</strong> <em>bioRxiv 2025.</em></p>
                 </div>
-                <br>
-
-                <a href="./Overview.html">Back to Home</a>
 
             </main>
         </div>

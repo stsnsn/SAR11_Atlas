@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+    <link rel="stylesheet" href="../css/atlas_page.css">
     <style>
         /* Open Foldseek ボタンが disabled のときに分かりやすくグレー表示にする */
         #openFoldseek[disabled], #openFoldseek:disabled {
@@ -90,40 +91,52 @@
                     </div>
                 </nav>
 
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4"><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 atlas-page">
+                <header class="atlas-page-heading">
+                    <p class="atlas-eyebrow">Structural annotation</p>
+                    <h1>Protein Structures</h1>
+                    <p>Connect SAR11 proteins to UniProt accessions and inspect available AlphaFold predictions in an interactive 3D viewer.</p>
+                </header>
 
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <br><br><br><br><br>
-                    <h1 class="h2">SAR11 Protein Structure Viewer</h1>
-                    <br>
+                <div class="atlas-intro">
+                    <p>Genes from 130 cultured strains were linked to UniProt (March 2024) with MMseqs2 v13.45111 using a minimum sequence identity of 0.85 and one best match per query. Matches below 100% identity are similar but not identical sequences, and not every accession has an AlphaFoldDB prediction.</p>
                 </div>
 
-                <!-- Dark-mode toggle -->
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
                 <script src="../js/theme.js"></script>
-                <!-- Dark-mode toggle END -->
-
-
                 <!-- EDITABLE ZONE START -->
-                <!-- HTML部分 -->
-                <div>
-                    <p>Structure viewer is below the table.</p>
-                    <p>Genes of the 130 pure-cultured strains were linked to Uniprot(2024-03) using MMseqs2 version 13.45111 (--min-seq-id 0.85, --max-seqs 1). Note that when the percent identity (pident) is &lt;100, the sequences do not match completely. Some Accession do not have predicted structures in AlphaFoldDB.</p>
+                <section class="atlas-section">
+                    <div class="atlas-section__header">
+                        <div>
+                            <p class="atlas-section__kicker">Accession lookup</p>
+                            <h2>SAR11 protein to UniProt matches</h2>
+                            <p>Search and filter the embedded table, then use an accession in the structure viewer below.</p>
+                        </div>
+                    </div>
+                    <a class="atlas-section__link" href="./pure_uniprot.html" target="_blank">Open the match table in full screen</a>
+                    <iframe src="./pure_uniprot.html" id="OGs" class="atlas-content-frame" data-theme-sync title="SAR11 protein to UniProt matches" allowfullscreen allow="autoplay"></iframe>
+                </section>
 
-                    <a href="./pure_uniprot.html">Full screen view</a>
-                    <iframe src="./pure_uniprot.html" id="OGs" data-theme-sync width="100%" height="500px" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
-
-                    <br><br>
-
-                    <label for="afdb-input">Enter Accession number:</label>
-                    <input type="text" id="afdb-input" placeholder="D0RN70">
-                    <button id="updateProteinBtn" onclick="updateIframeSrc()">Update Protein Structure</button>
-                    <!-- 初期は無効化 -->
-                    <button id="openFoldseek" onclick="openFoldseek()" disabled>Open Foldseek</button>
-                    <br><br>
-                    <a href="#" id="molstar-link" target="_blank">Molstar viewer Full screen view</a>
-                    <iframe src="https://molstar.org/viewer/?afdb=D0RN70" id="molstar-iframe" width="100%" height="500px" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
-                </div>
+                <section class="atlas-section">
+                    <div class="atlas-section__header">
+                        <div>
+                            <p class="atlas-section__kicker">3D inspection</p>
+                            <h2>AlphaFold structure viewer</h2>
+                            <p>Enter a UniProt accession to update Mol* and check whether the structure can be opened in Foldseek.</p>
+                        </div>
+                    </div>
+                    <div class="atlas-control-panel">
+                        <div class="atlas-search-row">
+                            <div class="atlas-search-field">
+                                <label for="afdb-input">UniProt accession</label>
+                                <input type="text" id="afdb-input" placeholder="e.g. D0RN70">
+                            </div>
+                            <button class="atlas-action-button" id="updateProteinBtn" type="button" onclick="updateIframeSrc()">Update structure</button>
+                            <button class="atlas-secondary-button" id="openFoldseek" type="button" onclick="openFoldseek()" disabled>Open Foldseek</button>
+                        </div>
+                    </div>
+                    <a class="atlas-section__link" href="#" id="molstar-link" target="_blank" rel="noopener">Open Mol* in full screen</a>
+                    <iframe src="https://molstar.org/viewer/?afdb=D0RN70" id="molstar-iframe" class="atlas-content-frame" title="Molstar protein structure viewer" allowfullscreen allow="autoplay"></iframe>
 
                 <!-- JavaScript部分 -->
                 <script>
@@ -219,16 +232,15 @@
                 })();
                 </script>
 
-                <p>Note: UniProtKB/TrEMBL has been applying Proteome Redundancy Reduction, and some protein sequences that Note: UniProtKB/TrEMBL has been applying Proteome Redundancy Reduction, and some previously registered protein sequences may have been removed. If a structure is not displayed, please also check UniParc (the UniProt archive) for historical sequence records.</p>
-                <br><br><br>
+                    <p class="atlas-note"><strong>Data note:</strong> UniProtKB/TrEMBL applies proteome redundancy reduction, so some previously registered sequences may have been removed. If a structure is unavailable, check UniParc for historical sequence records.</p>
+                </section>
 
                 <!-- EDITABLE ZONE END -->
-                <div class="border-top p-4 mb-4">
-                    <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>in prep.</em></p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>bioRxiv 2025.</em></p>
+                <div class="atlas-citation">
+                    <h2>Citation information</h2>
+                    <p>Nishino et al. <strong>"SAR11 Genome Atlas."</strong> <em>in prep.</em></p>
+                    <p>Nishino et al. <strong>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</strong> <em>bioRxiv 2025.</em></p>
                 </div>
-                <br>
             </main>
         </div>
     </div>

@@ -20,6 +20,7 @@
     <!-- DataTables CSS (embedded here so this page can run standalone) -->
     <link rel="stylesheet" href="../css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="../css/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="../css/atlas_page.css">
 
 </head>
 
@@ -80,21 +81,22 @@
                     </div>
                 </nav>
 
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4"><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <br><br>
-                    <h1 class="h2">List of OGs</h1>
-                    <br>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 atlas-page">
+                <div class="atlas-page-heading">
+                    <p class="atlas-eyebrow">Orthogroup catalog</p>
+                    <h1 class="h2">All OG List</h1>
+                    <p>Search and compare the top functional annotation assignments for every orthogroup in the SAR11 Genome Atlas.</p>
+                </div>
 
+                <div class="atlas-intro">
+                    <p>Search across OG IDs, KO, COG, Pfam, and annotation names. OG IDs open the integrated OG Information Viewer, while external annotation IDs link to their source databases. Use the export controls to download the current table view.</p>
+                    <p>Complete gene-level annotations, OG HMM profiles, and OG phylogenetic trees are available from the <a href="./download.html">Download</a> page.</p>
                 </div>
 
                 <!-- Dark-mode toggle -->
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
                 <script src="../js/theme.js"></script>
                 <!-- Dark-mode toggle END -->
-
-                <!--<p>Here, you can see which strains have which OGs. Select the ortholog group ID you want to check from the "Color by" pull-down menu.</p>-->
-                <p>Annotation table containing top annotation results for all 5342 OGs. Full annotation table for all genes, all OGs HMM profiles, and all OGs phylogenetic trees are available from download page.</p>
 
                 <!-- EDITABLE ZONE START -->
                 <!-- Taxonium
@@ -105,19 +107,23 @@
 
 
                 <!-- Table -->
-                <!-- Embedded full OG table (inlined so this page is standalone) -->
-                <div style="margin-bottom: 1rem;">
-                    <!-- If you still want a separate full-screen view, open this same page in a new tab. -->
-                </div>
+                <section class="atlas-section">
+                    <div class="atlas-section__header">
+                        <div>
+                            <p class="atlas-section__kicker">Functional annotations</p>
+                            <h2>Orthogroup Annotation Table</h2>
+                            <p>Filter the catalog with the search field, sort any column, or export the displayed results. Select an OG ID to open its detailed integrated profile.</p>
+                        </div>
+                    </div>
 
-                <table id="table" class="display" style="width:100%">
-                    <thead>
-                        <tr></tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
-
-                <br>
+                    <div class="atlas-table-wrap">
+                        <table id="table" class="display" style="width:100%">
+                            <thead>
+                                <tr></tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
 
                 <!-- Scripts required for the table (included here so the page is functional standalone) -->
                 <script src="../js/jquery-3.6.0.min.js"></script>
@@ -275,16 +281,15 @@
                         });
                     });
                 </script>
+                </section>
 
-                <br><br><br>
                 <!-- Table END -->
 
                 <!-- Reference -->
-                <br><br><br>
-                <div class="border-top p-4 mb-4">
-                    <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>in prep.</em></p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>bioRxiv 2025.</em></p>
+                <div class="atlas-citation">
+                    <h2>Citation information</h2>
+                    <p>Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>in prep.</em></p>
+                    <p>Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>bioRxiv 2025.</em></p>
                 </div>
                 <!-- EDITABLE ZONE END -->
             </main>

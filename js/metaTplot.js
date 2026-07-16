@@ -9,12 +9,17 @@ const ogInputEl = document.getElementById('ogInput');
 if (ogInputEl && !ogInputEl.value.trim()) {
     ogInputEl.value = 'OG0000000';
 }
+let lastCorrelationData = null;
+let lastUserPlotData = null;
+let lastUserParameter = null;
 
 // Reset the user plot
 const resetUserPlot = () => {
     // Clear the plot by removing the existing graph
     const userPlotDiv = document.getElementById('userPlot');
     userPlotDiv.innerHTML = ''; // This removes the current plot
+    lastUserPlotData = null;
+    lastUserParameter = null;
 };
 
 // CSVダウンロード
@@ -115,7 +120,6 @@ const updateCircles = (csvFilePath) => {
         Plotly.purge('salinityPlot');
         Plotly.purge('depthPlot');
         Plotly.purge('oxygenPlot');
-        Plotly.purge('userPlot');
     } catch (e) { /* ignore if plots not initialized */ }
 
     // add cache-busting timestamp if caller didn't already include one
@@ -126,43 +130,43 @@ const updateCircles = (csvFilePath) => {
         header: true,
         complete: function(results) {
             const data = results.data;
-            // compute max TPM for linear scaling if needed
-            const tpmValues = data.map(r => parseFloat(r.sumTPM)).filter(v => !isNaN(v) && v > 0);
-            const dataMax = tpmValues.length ? Math.max(...tpmValues) : 0;
+            // Compute the maximum expression score for linear marker scaling.
+            const expressionValues = data.map(r => parseFloat(r.sumTPM)).filter(v => !isNaN(v) && v > 0);
+            const dataMax = expressionValues.length ? Math.max(...expressionValues) : 0;
             const minRadius = 2;
             const maxRadius = 20;
             const useTransformed = (function(){
                 try { const el = document.getElementById('sizeLogToggle'); return el ? !!el.checked : true; } catch(e) { return true; }
             })();
 
-            function computeRadius(tpm) {
-                if (isNaN(tpm) || tpm <= 0) return 0;
+            function computeRadius(expressionScore) {
+                if (isNaN(expressionScore) || expressionScore <= 0) return 0;
                 if (useTransformed) {
                     // original power transform (kept for compatibility)
-                    return Math.pow(tpm, 0.3);
+                    return Math.pow(expressionScore, 0.3);
                 } else {
                     // linear scaling mapped to [minRadius, maxRadius] using dataMax
                     if (dataMax <= 0) return minRadius;
-                    const frac = Math.min(1, tpm / dataMax);
+                    const frac = Math.min(1, expressionScore / dataMax);
                     return minRadius + frac * (maxRadius - minRadius);
                 }
             }
             data.forEach(row => {
                 const lat = parseFloat(row.Latitude);
                 const lon = parseFloat(row.Longitude);
-                const tpm = parseFloat(row.sumTPM);
+                const expressionScore = parseFloat(row.sumTPM);
 
-                if (!isNaN(lat) && !isNaN(lon) && tpm > 0) {
-                    const radius = computeRadius(tpm);
+                if (!isNaN(lat) && !isNaN(lon) && expressionScore > 0) {
+                    const radius = computeRadius(expressionScore);
 
                     const circleMarker = L.circleMarker([lat, lon], {
                         color: 'blue',
                         fillColor: '#3388ff',
                         fillOpacity: 0.5,
-                        radius: radius // TPMに基づいて円のサイズを設定
+                        radius: radius
                     }).addTo(map).bindPopup(`
-                        <b>sample_id:</b> ${row.sample || 'Unknown'}<br>
-                        <b>sumTPM:</b> ${tpm.toFixed(2)}<br>
+                        <b>Sample:</b> ${row.sample_id || row.sample || 'Unknown'}<br>
+                        <b>Expression Score:</b> ${expressionScore.toFixed(2)}<br>
                         <b>Depth:</b> ${row.Depth || 'Unknown'}<br>
                         <b>Temperature:</b> ${row.Temperature || 'Unknown'}<br>
                     `);
@@ -227,7 +231,7 @@ const addLegend = () => {
 
     legend.onAdd = function () {
         const div = L.DomUtil.create('div', 'info legend');
-        const grades = [10, 100, 1000, 10000, 100000]; // Define the TPM breakpoints
+        const grades = [10, 100, 1000, 10000, 100000];
         div.innerHTML += '<b>Expression Score</b><br>';
 
         // Loop through the grades to create the circles with appropriate sizes
@@ -277,173 +281,226 @@ document.getElementById('updateMap').addEventListener('click', () => {
     }
 });
 
-// Pearson corr calculation
+const CORRELATION_PLOT_CONFIG = {
+    responsive: true,
+    displaylogo: false,
+    scrollZoom: false,
+    modeBarButtonsToRemove: ['lasso2d', 'select2d']
+};
+const CORRELATION_POINT_COLOR = '#0a8f91';
+const CORRELATION_POINT_BORDER = '#075970';
+
 const calculatePearsonCorrelation = (x, y) => {
-    // x と y の配列から NaN や null を取り除く
-    const validData = x
-        .map((val, index) => [val, y[index]]) // x と y の対応する値をペアにする
-        .filter(([xVal, yVal]) => !isNaN(xVal) && !isNaN(yVal)); // NaN を除外
-
-    // 有効なデータがない場合は null を返す
-    if (validData.length === 0) {
-        return null;
-    }
-
-    // フィルタリング後の x と y の配列を再取得
-    const validX = validData.map(([xVal]) => xVal);
-    const validY = validData.map(([, yVal]) => yVal);
-
-    const n = validX.length;
-    const meanX = validX.reduce((a, b) => a + b, 0) / n;
-    const meanY = validY.reduce((a, b) => a + b, 0) / n;
-
-    const numerator = validX.reduce((sum, xi, i) => sum + (xi - meanX) * (validY[i] - meanY), 0);
+    if (x.length < 2 || y.length < 2 || x.length !== y.length) return null;
+    const meanX = x.reduce((sum, value) => sum + value, 0) / x.length;
+    const meanY = y.reduce((sum, value) => sum + value, 0) / y.length;
+    const numerator = x.reduce((sum, value, index) => sum + (value - meanX) * (y[index] - meanY), 0);
     const denominator = Math.sqrt(
-        validX.reduce((sum, xi) => sum + (xi - meanX) ** 2, 0) *
-        validY.reduce((sum, yi) => sum + (yi - meanY) ** 2, 0)
+        x.reduce((sum, value) => sum + (value - meanX) ** 2, 0) *
+        y.reduce((sum, value) => sum + (value - meanY) ** 2, 0)
     );
-
-    return denominator !== 0 ? numerator / denominator : null;
+    return denominator ? numerator / denominator : null;
 };
 
-// Helper: build paired arrays (x,y) from rows by keys, excluding rows where either value is NaN
+function rankValues(values) {
+    const sorted = values.map((value, index) => ({ value, index })).sort((a, b) => a.value - b.value);
+    const ranks = new Array(values.length);
+    let start = 0;
+    while (start < sorted.length) {
+        let end = start;
+        while (end + 1 < sorted.length && sorted[end + 1].value === sorted[start].value) end += 1;
+        const averageRank = (start + end + 2) / 2;
+        for (let index = start; index <= end; index += 1) ranks[sorted[index].index] = averageRank;
+        start = end + 1;
+    }
+    return ranks;
+}
+
+function calculateSpearmanCorrelation(x, y) {
+    if (x.length < 2 || y.length < 2 || x.length !== y.length) return null;
+    return calculatePearsonCorrelation(rankValues(x), rankValues(y));
+}
+
 function buildPairedArrays(rows, xKey, yKey) {
     const xs = [];
     const ys = [];
-    for (let i = 0; i < rows.length; i++) {
-        const row = rows[i];
-        const xv = parseFloat(typeof xKey === 'function' ? xKey(row) : row[xKey]);
-        const yv = parseFloat(typeof yKey === 'function' ? yKey(row) : row[yKey]);
-        if (!isNaN(xv) && !isNaN(yv)) {
-            xs.push(xv);
-            ys.push(yv);
+    const pairedRows = [];
+    rows.forEach(row => {
+        const xValue = parseFloat(typeof xKey === 'function' ? xKey(row) : row[xKey]);
+        const yValue = parseFloat(typeof yKey === 'function' ? yKey(row) : row[yKey]);
+        if (!isNaN(xValue) && !isNaN(yValue)) {
+            xs.push(xValue);
+            ys.push(yValue);
+            pairedRows.push(row);
         }
-    }
-    return { x: xs, y: ys };
+    });
+    return { x: xs, y: ys, rows: pairedRows };
 }
 
-// Update plots
-const updatePlots = (data) => {
-    // Build paired arrays so NA are removed row-wise and x/y remain aligned
-    const tempPair = buildPairedArrays(data, 'Temperature', 'sumTPM');
-    const temperature = tempPair.x;
-    const tpm_temp = tempPair.y;
-
-    const salPair = buildPairedArrays(data, 'Salinity', 'sumTPM');
-    const salinity = salPair.x;
-    const tpm_sal = salPair.y;
-
-    const depthPair = buildPairedArrays(data, 'Depth', 'sumTPM');
-    const depth = depthPair.x;
-    const tpm_depth = depthPair.y;
-
-    const oxyPair = buildPairedArrays(data, 'Oxygen', 'sumTPM');
-    const oxygen = oxyPair.x;
-    const tpm_oxy = oxyPair.y;
-
-    // 相関計算（各ペアで対応する tpm を使う）
-    const tempCorr = calculatePearsonCorrelation(temperature, tpm_temp);
-    const salinityCorr = calculatePearsonCorrelation(salinity, tpm_sal);
-    const depthCorr = calculatePearsonCorrelation(depth, tpm_depth);
-    const oxygenCorr = calculatePearsonCorrelation(oxygen, tpm_oxy);
-
-    // プロット更新（x/y は常にペアで揃っている）
-    // Determine whether to use log scale for TPM based on toggle
-    const useLogAxis = (function(){ try { const el = document.getElementById('sizeLogToggle'); return el ? !!el.checked : true; } catch(e) { return true; } })();
-
-    function preparePlot(xArr, yArr, color, label) {
-        // filter pairs: if log axis requested, remove non-positive y values
-        let xs = xArr.slice();
-        let ys = yArr.slice();
-        if (useLogAxis) {
-            const xf = [], yf = [];
-            for (let i=0;i<ys.length;i++) {
-                const yv = ys[i];
-                if (!isNaN(yv) && yv > 0 && !isNaN(xs[i])) { xf.push(xs[i]); yf.push(ys[i]); }
-            }
-            xs = xf; ys = yf;
-        }
-
-        // correlation: if log axis, compute correlation on log10(y), otherwise raw y
-        let corr = null;
-        try {
-            if (useLogAxis) {
-                const yl = ys.map(v => Math.log10(v));
-                corr = calculatePearsonCorrelation(xs, yl);
-            } else {
-                corr = calculatePearsonCorrelation(xs, ys);
-            }
-        } catch (e) { corr = null; }
-
-        const trace = { x: xs, y: ys, mode: 'markers', type: 'scatter', marker: { color: color, size: 10, opacity: 0.2 } };
-        const layout = { title: `${label} vs TPM (r = ${corr !== null ? corr.toFixed(2) : 'N/A'})`, xaxis: { title: label }, yaxis: { title: useLogAxis ? 'TPM (log10)' : 'TPM', type: useLogAxis ? 'log' : 'linear' } };
-        return { trace, layout };
+function useLogExpressionScale() {
+    try {
+        const toggle = document.getElementById('sizeLogToggle');
+        return toggle ? toggle.checked : true;
+    } catch (error) {
+        return true;
     }
+}
 
-    const tPlot = preparePlot(temperature, tpm_temp, 'blue', 'Temperature');
-    const sPlot = preparePlot(salinity, tpm_sal, 'green', 'Salinity');
-    const dPlot = preparePlot(depth, tpm_depth, 'red', 'Depth');
-    const oPlot = preparePlot(oxygen, tpm_oxy, 'purple', 'Oxygen');
+function getSharedExpressionRange(data, useLogAxis) {
+    const values = data.map(row => parseFloat(row.sumTPM)).filter(value => !isNaN(value) && (!useLogAxis || value > 0));
+    if (!values.length) return undefined;
+    if (useLogAxis) {
+        const logValues = values.map(value => Math.log10(value));
+        const minimum = Math.min(...logValues);
+        const maximum = Math.max(...logValues);
+        const padding = Math.max(0.15, (maximum - minimum) * 0.06);
+        return [minimum - padding, maximum + padding];
+    }
+    const minimum = Math.min(...values);
+    const maximum = Math.max(...values);
+    const span = Math.max(1, maximum - minimum);
+    return [minimum >= 0 ? 0 : minimum - span * 0.06, maximum + span * 0.06];
+}
 
-    Plotly.newPlot('temperaturePlot', [tPlot.trace], tPlot.layout);
-    Plotly.newPlot('salinityPlot', [sPlot.trace], sPlot.layout);
-    Plotly.newPlot('depthPlot', [dPlot.trace], dPlot.layout);
-    Plotly.newPlot('oxygenPlot', [oPlot.trace], oPlot.layout);
+function getCorrelationPlotTheme() {
+    const dark = document.body.classList.contains('dark-mode');
+    return {
+        text: dark ? '#eaf7fa' : '#143f50',
+        muted: dark ? '#aac2cc' : '#607985',
+        grid: dark ? 'rgba(170, 194, 204, 0.16)' : 'rgba(20, 63, 80, 0.12)',
+        plot: dark ? '#102733' : '#f8fbfb'
+    };
+}
+
+function formatCorrelation(value) {
+    return value === null || !isFinite(value) ? 'N/A' : value.toFixed(2);
+}
+
+function prepareCorrelationPlot(pair, label, sharedRange, useLogAxis) {
+    const filteredIndices = pair.y.map((value, index) => ({ value, index }))
+        .filter(item => !useLogAxis || item.value > 0)
+        .map(item => item.index);
+    const xValues = filteredIndices.map(index => pair.x[index]);
+    const yValues = filteredIndices.map(index => pair.y[index]);
+    const rows = filteredIndices.map(index => pair.rows[index]);
+    const pearsonY = useLogAxis ? yValues.map(value => Math.log10(value)) : yValues;
+    const pearson = calculatePearsonCorrelation(xValues, pearsonY);
+    const spearman = calculateSpearmanCorrelation(xValues, yValues);
+    const theme = getCorrelationPlotTheme();
+    const customdata = rows.map(row => [
+        row.sample_id || row.sample || 'Unknown',
+        row.Latitude || 'NA',
+        row.Longitude || 'NA'
+    ]);
+
+    const trace = {
+        x: xValues,
+        y: yValues,
+        customdata,
+        mode: 'markers',
+        type: 'scatter',
+        marker: {
+            color: CORRELATION_POINT_COLOR,
+            size: 6,
+            opacity: 0.42,
+            line: { color: CORRELATION_POINT_BORDER, width: 0.7 }
+        },
+        hovertemplate: `<b>%{customdata[0]}</b><br>${label}: %{x:.4g}<br>Expression Score: %{y:.4g}<br>Latitude: %{customdata[1]}<br>Longitude: %{customdata[2]}<extra></extra>`
+    };
+    const layout = {
+        autosize: true,
+        showlegend: false,
+        hovermode: 'closest',
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: theme.plot,
+        font: { color: theme.text, family: 'Aptos, Helvetica Neue, sans-serif', size: 12 },
+        margin: { l: 68, r: 22, t: 76, b: 58 },
+        title: { text: `<b>${label}</b>`, x: 0.04, xanchor: 'left', font: { size: 16, color: theme.text } },
+        annotations: [{
+            x: 0.99,
+            y: 1.13,
+            xref: 'paper',
+            yref: 'paper',
+            xanchor: 'right',
+            yanchor: 'top',
+            showarrow: false,
+            text: `Pearson r = ${formatCorrelation(pearson)} &nbsp; Spearman ρ = ${formatCorrelation(spearman)} &nbsp; n = ${xValues.length}`,
+            font: { size: 10, color: theme.muted }
+        }],
+        xaxis: {
+            title: { text: label, standoff: 10 },
+            gridcolor: theme.grid,
+            zerolinecolor: theme.grid,
+            automargin: true
+        },
+        yaxis: {
+            title: { text: useLogAxis ? 'Expression Score (log scale)' : 'Expression Score', standoff: 8 },
+            type: useLogAxis ? 'log' : 'linear',
+            range: sharedRange,
+            gridcolor: theme.grid,
+            zerolinecolor: theme.grid,
+            automargin: true
+        }
+    };
+    return { trace, layout };
+}
+
+function drawCorrelationPlot(elementId, pair, label, sharedRange, useLogAxis) {
+    const plot = prepareCorrelationPlot(pair, label, sharedRange, useLogAxis);
+    Plotly.react(elementId, [plot.trace], plot.layout, CORRELATION_PLOT_CONFIG);
+}
+
+const updatePlots = data => {
+    lastCorrelationData = data;
+    const useLogAxis = useLogExpressionScale();
+    const sharedRange = getSharedExpressionRange(data, useLogAxis);
+    drawCorrelationPlot('temperaturePlot', buildPairedArrays(data, 'Temperature', 'sumTPM'), 'Temperature', sharedRange, useLogAxis);
+    drawCorrelationPlot('salinityPlot', buildPairedArrays(data, 'Salinity', 'sumTPM'), 'Salinity', sharedRange, useLogAxis);
+    drawCorrelationPlot('depthPlot', buildPairedArrays(data, 'Depth', 'sumTPM'), 'Depth', sharedRange, useLogAxis);
+    drawCorrelationPlot('oxygenPlot', buildPairedArrays(data, 'Oxygen', 'sumTPM'), 'Oxygen', sharedRange, useLogAxis);
 };
 
-// ユーザー指定パラメータを基に相関プロット作成
-document.getElementById('updateUserPlot').addEventListener('click', () => {
-    // プルダウンメニューから選ばれたパラメータを取得
-    const userParam = document.getElementById('userParameterSelect').value;
-    const validParams = ['Temperature', 'Salinity', 'Depth', 'Oxygen', 'Latitude', 'Longitude', 'Sigma-theta', 'Nitrate', 'Chl_a', 'fCDOM']; // 使用可能なパラメータを定義
+function renderUserCorrelationPlot(data, parameter) {
+    const useLogAxis = useLogExpressionScale();
+    const sharedRange = getSharedExpressionRange(data, useLogAxis);
+    drawCorrelationPlot('userPlot', buildPairedArrays(data, parameter, 'sumTPM'), parameter, sharedRange, useLogAxis);
+}
 
-    // パラメータが有効かどうかをチェック
-    if (validParams.includes(userParam)) {
+document.getElementById('updateUserPlot').addEventListener('click', () => {
+    const userParam = document.getElementById('userParameterSelect').value;
+    const validParams = ['Temperature', 'Salinity', 'Depth', 'Oxygen', 'Latitude', 'Longitude', 'Sigma-theta', 'Nitrate', 'Chl_a', 'fCDOM'];
+    if (!validParams.includes(userParam)) {
+        alert('Invalid parameter. Valid options are: Latitude, Longitude, Temperature, Sigma-theta, Salinity, Oxygen, Nitrate, Chl_a, fCDOM, Depth');
+        return;
+    }
+
     const ogId = document.getElementById('ogInput').value.trim();
     const csvFilePath = `../data/env_corr/${ogId}.csv?ts=${Date.now()}`;
-
-        // CSVファイルをパース
-        Papa.parse(csvFilePath, {
-            download: true,
-            header: true,
-            complete: function(results) {
-                const data = results.data;
-
-                // 指定されたパラメータとTPMデータを行単位でペアにして抽出（NA を含む行を除外）
-                const pair = buildPairedArrays(data, userParam, 'sumTPM');
-                const paramData = pair.x;
-                const tpm_p = pair.y;
-
-                // ピアソン相関係数を計算
-                const correlation = calculatePearsonCorrelation(paramData, tpm_p);
-
-                // プロットデータの作成（x/y は対応）
-                const userPlotData = {
-                    x: paramData,
-                    y: tpm_p,
-                    mode: 'markers',
-                    type: 'scatter',
-                    marker: { color: 'brown', size: 10, opacity: 0.2 }
-                };
-
-                // プロットのレイアウト
-                const userPlotLayout = {
-                    title: `${userParam} vs TPM (r = ${correlation !== null ? correlation.toFixed(2) : 'N/A'})`,
-                    xaxis: { title: userParam },
-                    yaxis: { title: 'TPM' }
-                };
-                Plotly.newPlot('userPlot', [userPlotData], userPlotLayout);
-            },
-
-            // エラー処理
-            error: function() {
-                alert('Invalid OG ID. Please enter a valid OG ID');
-            }
-        });
-    } else {
-        alert('Invalid parameter. Valid options are: Latitude, Longitude, Temperature, Sigma-theta, Salinity, Oxygen, Nitrate, Chl_a, fCDOM, Depth');
-    }
+    Papa.parse(csvFilePath, {
+        download: true,
+        header: true,
+        complete: function(results) {
+            lastUserPlotData = results.data;
+            lastUserParameter = userParam;
+            renderUserCorrelationPlot(lastUserPlotData, lastUserParameter);
+        },
+        error: function() {
+            alert('Invalid OG ID. Please enter a valid OG ID');
+        }
+    });
 });
+
+window.addEventListener('sar11:themechange', () => {
+    if (lastCorrelationData) updatePlots(lastCorrelationData);
+    if (lastUserPlotData && lastUserParameter) renderUserCorrelationPlot(lastUserPlotData, lastUserParameter);
+});
+
+const expressionScaleToggle = document.getElementById('sizeLogToggle');
+if (expressionScaleToggle) {
+    expressionScaleToggle.addEventListener('change', () => {
+        if (lastUserPlotData && lastUserParameter) renderUserCorrelationPlot(lastUserPlotData, lastUserParameter);
+    });
+}
 
 
 // ウィンドウサイズ変更時にプロットサイズを調整

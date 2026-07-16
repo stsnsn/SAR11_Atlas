@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/data_table_style.css">  <!-- 通常色の統一のため （ダークモードはコメントアウト済み）-->
+    <link rel="stylesheet" href="../css/og_info.css">
 
     <!-- 検索窓のsuggest用 -->
     <link rel="stylesheet" href="../css/jquery-ui.1.13.2.css">
@@ -37,25 +38,10 @@
     <script src="../js/jquery-ui.1.13.2.min.js"></script>
     <script src="../js/d3.v6.min.js"></script>
     <script src="../js/plotly-2.35.2.min.js"></script>
-    <link rel="stylesheet" href="../css/leaflet.css">
-    <script src="../js/leaflet.js"></script>
     <script src="../js/papaparse.min.js"></script>
     <script src="../js/cytoscape.3.24.0.min.js"></script>
     <script src="../js/Neighborhood_ego_mini.js"></script>
     <style>
-        /* Legend styling similar to metaT_style.css */
-        .info.legend {
-            background: rgba(255,255,255,0.9);
-            padding: 8px 10px;
-            line-height: 1.4em;
-            box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-            font-size: 0.9em;
-        }
-        .info.legend i {
-            display: inline-block;
-            margin-right: 6px;
-            vertical-align: middle;
-        }
         /* Make disabled buttons visually distinct */
         button[disabled], button:disabled {
             background-color: #e0e0e0 !important; /* light gray */
@@ -117,18 +103,14 @@
                 </div>
             </nav>
 
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 og-viewer">
                 <!-- removed ChartJS size monitor (not used) -->
 
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <br><br><br><br><br>
+                <div class="og-page-heading">
+                    <p class="og-eyebrow">Orthogroup workspace</p>
                     <h1 class="h2">OG Information Viewer</h1>
-                    <br>
+                    <p>Connect functional annotations with environmental expression, genome distribution, gene neighborhoods, and protein structures.</p>
                 </div>
-                <!-- Dark-mode toggle -->
-                <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
-                <script src="../js/theme.js"></script>
-                <!-- Dark-mode toggle END -->
                 <script>
                     let og_data = [];
                     d3.tsv("../data/orthogroups/og_suggest.tsv").then(data => {
@@ -184,64 +166,94 @@
                         // Enterで loadData
                         $("#ogInput").keydown(e => {
                             if (e.key === "Enter") {
-                                $("#loadData").click();
+                                e.preventDefault();
+                                $("#updateOGButton").click();
                             }
                         });
                     });
                     </script>
 
 
-                <!-- OG名を受け取る部分 -->
-                <br><br>
-                <!-- ページ説明: Enter OG name の上に表示 -->
-                <div id="pageDescription" style="font-size:0.98em; color:#222; margin-bottom:8px; line-height:1.4;">
-                    This page provides annotation summaries of each ortholog group (OG). Search is available via OG ID, KEGG Orthology (KO), COG, Pfam, or gene name. Auto-complete suggestions are enabled. <br>
-                    If you want to explore syntheny information, please visit the <a href="./SAR11_operon_vis.html">Neighboring Genes</a> and <a href="./Neighborhood_network.html">Neighboring Network</a> page.<br>
-                    If you want to explore the expression profile with environmental parameters, please visit the <a href="./metaT.html">Metatranscriptome Viewer</a> page.
+                <div id="pageDescription" class="og-intro">
+                    <p>
+                        Explore a SAR11 orthogroup across functional annotations, environmental expression,
+                        phylogenetic distribution, neighboring genes, and predicted protein structures.
+                        Search by OG ID or by terms found in KO, COG, Pfam, and gene-name annotations.
+                    </p>
+                    <p class="og-intro__links">
+                        Continue with dedicated views for
+                        <a href="./SAR11_operon_vis.html">Neighboring Genes</a>,
+                        <a href="./Neighborhood_network.html">Neighboring Network</a>, or the
+                        <a href="./metaT.html">Metatranscriptome Viewer</a>.
+                    </p>
                 </div>
 
-                <label for="ogInput">Enter OG name:</label>
-                <input type="text" id="ogInput" placeholder="OG0000001">
-                <button id="updateOGButton">Update OG Data</button>
-                    <button id="browseSynButton" disabled style="margin-left:8px;">Browse Synteny</button>
-                    <button id="openSyntenyNetworkButton" disabled style="margin-left:8px;">Synteny Network</button>
-                    <button id="openExpressionButton" disabled style="margin-left:8px;">Expression Profile</button>
-                <br>
+                <!-- Dark-mode toggle -->
+                <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
+                <script src="../js/theme.js"></script>
+                <!-- Dark-mode toggle END -->
+
+                <section class="og-search-panel" aria-labelledby="ogSearchLabel">
+                    <div class="og-search-panel__heading">
+                        <div>
+                            <p class="og-eyebrow">Start exploring</p>
+                            <h2 id="ogSearchLabel">Find an orthogroup</h2>
+                        </div>
+                        <span>Autocomplete begins after two characters</span>
+                    </div>
+                    <div class="og-search-row">
+                        <div class="og-search-primary">
+                            <label for="ogInput">OG ID or annotation term</label>
+                            <div>
+                                <input type="text" id="ogInput" placeholder="e.g. OG0000001, ribosomal protein, K02040">
+                                <button id="updateOGButton">Update viewer</button>
+                            </div>
+                        </div>
+                        <div class="og-actions" aria-label="Open related views">
+                            <button id="browseSynButton" disabled>Browse Synteny</button>
+                            <button id="openSyntenyNetworkButton" disabled>Synteny Network</button>
+                            <button id="openExpressionButton" disabled>Expression Profile</button>
+                        </div>
+                    </div>
+                </section>
 
                 <!-- 大きな説明をここに表示（Enter OG name の下、見やすく） -->
-                <div id="bigOgCaption" style="font-size:1.05em; color:#1a1a1a; margin-bottom:12px; font-weight:600;">Select an OG and click "Update OG Data" to see details here.</div>
+                <div id="bigOgCaption" class="og-selection-status">Select an OG and update the viewer to see its integrated profile.</div>
 
 
                 <!-- OG に基づく円グラフと Taxonium 埋め込みの領域 -->
-                <div id="ogPlots" style="display:flex; gap:20px; align-items:flex-start;">
+                <div id="ogPlots">
                     <!-- 左カラム: 円グラフ（幅の40%） -->
-                    <div id="leftPlots" style="width:40%; display:flex; flex-direction:column; gap:20px;">
+                    <div id="leftPlots">
                             <!-- metaT map placed above COG pie, centered and sized similar to metaT.html -->
-                            <div id="metaT_map_container" style="width:100%; display:flex; flex-direction:column; align-items:center; margin-bottom:12px;">
-                                <div id="metaTHeader" style="width:100%; text-align:center; font-size:0.95em; color:#333; margin-bottom:6px;">Expression profile will be shown here, more detail: <a href="./metaT.html" target="_blank">Metatranscriptome Viewer</a></div>
-                                    <div id="metaT_map" style="width:100%; height:400px; border:1px solid #666;"></div>
+                            <div id="metaT_map_container" class="og-panel">
+                                <div id="metaTHeader" class="og-panel-heading">Expression profile will be shown here. Open the <a href="./metaT.html" target="_blank">Metatranscriptome Viewer</a> for more detail.</div>
+                                <div class="og-map-shell">
+                                    <div id="metaT_map" class="og-visual-frame og-map-frame"></div>
+                                    <div id="metaTLegend" class="og-map-legend" aria-label="Expression Score marker size legend"></div>
+                                </div>
                             </div>
-                            <div id="cogDesc" style="font-size:0.95em; color:#333;"></div>
-                            <div id="cogPie" style="width:100%; height:300px;"></div>
-                        <div id="koDesc" style="font-size:0.95em; color:#333;"></div>
-                        <div id="koPie" style="width:100%; height:300px;"></div>
+                            <div id="cogDesc" class="og-panel-heading"></div>
+                            <div id="cogPie" class="og-chart-card" style="width:100%; height:300px;"></div>
+                        <div id="koDesc" class="og-panel-heading"></div>
+                        <div id="koPie" class="og-chart-card" style="width:100%; height:300px;"></div>
                         <!-- Pfam 棒グラフ: OG に応じた Pfam_ID vs Specific_Pfam_Count -->
-                        <div id="pfamBar" style="width:100%; height:300px;"></div>
+                        <div id="pfamBar" class="og-chart-card" style="width:100%; height:300px;"></div>
                     </div>
 
                     <!-- 右カラム: EgoNet + Taxonium -->
-                    <div id="taxoniumContainer" style="width:60%">
+                    <div id="taxoniumContainer">
                         <!-- Mini Ego network (minimal controls) -->
-                        <div id="egoMiniHeader" style="font-size:0.95em; color:#333; margin-bottom:6px;">Synteny Network</div>
-                        <div id="egoMini" style="height:400px; border:1px solid #666; margin-bottom:10px;"></div>
+                        <div id="egoMiniHeader" class="og-panel-heading">Synteny Network</div>
+                        <div id="egoMini" class="og-visual-frame" style="height:400px;"></div>
                         <!-- 系統樹上の小さな説明（Presence/Absence 表示） -->
-                        <div id="taxoniumCaption" style="font-size:0.95em; color:#333; margin-bottom:8px;">Presence(yellow)/Absence(blue) of <strong>OG0000000</strong></div>
+                        <div id="taxoniumCaption" class="og-panel-heading">Presence (yellow) / absence (blue) of <strong>OG0000000</strong></div>
                         <!-- ローカル wrapper を使って taxonium を埋め込み。wrapper を再読み込みすることで外部表示を確実に更新 -->
                             <iframe id="taxoniumFrame"
                             src="./taxonium_wrapper.html?og=OG0000000&ts=0"
                             width="100%"
                             height="980"
-                            style="border: 1px solid #666;"
+                            class="og-embed-frame"
                             data-theme-sync
                             allowfullscreen
                             ></iframe>
@@ -283,22 +295,85 @@
                         return {labels, values};
                     }
 
-                    function drawPie(divId, labels, values, title) {
-                        const data = [{
-                            values: values,
-                            labels: labels,
-                            type: 'pie',
-                            textinfo: 'label+percent',
-                            hoverinfo: 'label+value+percent',
-                            automargin: true
-                        }];
-                        const layout = {
-                            title: title,
-                            margin: {t:40, l:10, r:10, b:10},
-                            showlegend: false
+                    const OG_CHART_PALETTE = [
+                        '#087d82', '#3b82f6', '#c84f4f', '#b97916', '#2f8f64',
+                        '#6677ad', '#c76638', '#398eae', '#8a6747', '#637b35',
+                        '#b85978', '#64748b'
+                    ];
+
+                    function ogChartTheme() {
+                        const dark = document.body.classList.contains('dark-mode');
+                        return {
+                            text: dark ? '#c9e0e7' : '#45616d',
+                            title: dark ? '#f0fbff' : '#143f50',
+                            grid: dark ? 'rgba(154,195,208,0.14)' : 'rgba(11,61,87,0.10)',
+                            axis: dark ? 'rgba(154,195,208,0.28)' : 'rgba(11,61,87,0.20)',
+                            sliceBorder: dark ? '#102733' : '#ffffff',
+                            hoverBg: dark ? '#102733' : '#ffffff'
                         };
-                        Plotly.newPlot(divId, data, layout, {displayModeBar: false});
                     }
+
+                    function ogChartBaseLayout(title) {
+                        const theme = ogChartTheme();
+                        return {
+                            title: {
+                                text: title,
+                                x: 0.04,
+                                xanchor: 'left',
+                                font: { color: theme.title, size: 15 }
+                            },
+                            paper_bgcolor: 'rgba(0,0,0,0)',
+                            plot_bgcolor: 'rgba(0,0,0,0)',
+                            font: { color: theme.text, size: 11 },
+                            hoverlabel: {
+                                bgcolor: theme.hoverBg,
+                                bordercolor: theme.axis,
+                                font: { color: theme.title }
+                            }
+                        };
+                    }
+
+                    function ogCategoryColors(labels) {
+                        return labels.map((label, index) => {
+                            if (!label || String(label).toUpperCase() === 'NA') return '#64727a';
+                            return OG_CHART_PALETTE[index % OG_CHART_PALETTE.length];
+                        });
+                    }
+
+                    function refreshAnnotationChartTheme() {
+                        if (typeof Plotly === 'undefined') return;
+                        const theme = ogChartTheme();
+                        ['koPie', 'cogPie'].forEach(id => {
+                            const chart = document.getElementById(id);
+                            if (!chart || !chart.data) return;
+                            Plotly.relayout(chart, {
+                                'font.color': theme.text,
+                                'title.font.color': theme.title,
+                                'legend.font.color': theme.text,
+                                'hoverlabel.bgcolor': theme.hoverBg,
+                                'hoverlabel.bordercolor': theme.axis,
+                                'hoverlabel.font.color': theme.title
+                            });
+                            Plotly.restyle(chart, { 'marker.line.color': theme.sliceBorder });
+                        });
+                        const pfamChart = document.getElementById('pfamBar');
+                        if (pfamChart && pfamChart.data) {
+                            Plotly.relayout(pfamChart, {
+                                'font.color': theme.text,
+                                'title.font.color': theme.title,
+                                'xaxis.color': theme.text,
+                                'xaxis.linecolor': theme.axis,
+                                'yaxis.color': theme.text,
+                                'yaxis.gridcolor': theme.grid,
+                                'yaxis.linecolor': theme.axis,
+                                'hoverlabel.bgcolor': theme.hoverBg,
+                                'hoverlabel.bordercolor': theme.axis,
+                                'hoverlabel.font.color': theme.title
+                            });
+                        }
+                    }
+
+                    window.addEventListener('sar11:themechange', refreshAnnotationChartTheme);
 
                     let lastUpdatedOG = null;
 
@@ -345,12 +420,8 @@
                                     return '';
                                 });
 
-                                // カラー割り当て: label が 'NA' のものは灰色、それ以外は d3.schemeCategory10 を順に使う
-                                const palette = d3.schemeCategory10 || ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'];
-                                const colors = labels.map((lab, i) => {
-                                    if (!lab || lab === 'NA') return '#cccccc';
-                                    return palette[i % palette.length];
-                                });
+                                const colors = ogCategoryColors(labels);
+                                const chartTheme = ogChartTheme();
 
                                 const data = [{
                                     values: values,
@@ -363,20 +434,27 @@
                                     customdata: custom,
                                     hovertemplate: '%{label}<br>Rate: %{value}<br>%{customdata}<extra></extra>',
                                     insidetextorientation: 'radial',
-                                    marker: { colors: colors },
-                                    domain: { x: [0, 1], y: [0, 1] }
+                                    textfont: { color: '#ffffff', size: 11 },
+                                    sort: false,
+                                    marker: {
+                                        colors: colors,
+                                        line: { color: chartTheme.sliceBorder, width: 2 }
+                                    },
+                                    domain: { x: [0, 0.68], y: [0, 1] }
                                 }];
-                                const layout = {
-                                    title: 'KO Annotation Results',
-                                    margin: { t: 40, l: 10, r: 10, b: 10 },
+                                const layout = Object.assign(ogChartBaseLayout('KO Annotation Results'), {
+                                    margin: { t: 44, l: 8, r: 8, b: 10 },
                                     height: 300,
                                     showlegend: true,
                                     legend: {
                                         orientation: 'v',
-                                        x: 1.02,
-                                        y: 0.5
+                                        x: 0.72,
+                                        xanchor: 'left',
+                                        y: 0.5,
+                                        yanchor: 'middle',
+                                        font: { color: chartTheme.text, size: 10 }
                                     }
-                                };
+                                });
                                 Plotly.newPlot('koPie', data, layout, { displayModeBar: false, responsive: true })
                                     .then(gd => {
                                         try {
@@ -421,12 +499,8 @@
                                     return '';
                                 });
 
-                                // Color assignment: NA -> gray, otherwise use d3.schemeCategory10 in order
-                                const palette = d3.schemeCategory10 || ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'];
-                                const colors = labels.map((lab, i) => {
-                                    if (!lab || lab === 'NA') return '#cccccc';
-                                    return palette[i % palette.length];
-                                });
+                                const colors = ogCategoryColors(labels);
+                                const chartTheme = ogChartTheme();
 
                                 const data = [{
                                     values: values,
@@ -439,21 +513,28 @@
                                     customdata: custom,
                                     hovertemplate: '%{label}<br>Rate: %{value}<br>%{customdata}<extra></extra>',
                                     insidetextorientation: 'radial',
-                                    marker: { colors: colors },
-                                    domain: { x: [0, 1], y: [0, 1] }
+                                    textfont: { color: '#ffffff', size: 11 },
+                                    sort: false,
+                                    marker: {
+                                        colors: colors,
+                                        line: { color: chartTheme.sliceBorder, width: 2 }
+                                    },
+                                    domain: { x: [0, 0.68], y: [0, 1] }
                                 }];
 
-                                const layout = {
-                                    title: 'COG Annotation Results',
-                                    margin: { t: 40, l: 10, r: 10, b: 10 },
+                                const layout = Object.assign(ogChartBaseLayout('COG Annotation Results'), {
+                                    margin: { t: 44, l: 8, r: 8, b: 10 },
                                     height: 300,
                                     showlegend: true,
                                     legend: {
                                         orientation: 'v',
-                                        x: 1.02,
-                                        y: 0.5
+                                        x: 0.72,
+                                        xanchor: 'left',
+                                        y: 0.5,
+                                        yanchor: 'middle',
+                                        font: { color: chartTheme.text, size: 10 }
                                     }
-                                };
+                                });
 
                                 Plotly.newPlot('cogPie', data, layout, { displayModeBar: false, responsive: true })
                                     .then(gd => {
@@ -570,8 +651,12 @@
                                     // hover には Pfam 名を表示し、Count は %{y}（棒の値）で表示する
                                     const hover = filtered.map(r => `${r.Pfam_NAME || ''}`);
 
-                                    const palette = d3.schemeCategory10 || ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'];
-                                    const colors = ids.map((_,i) => palette[i % palette.length]);
+                                    const chartTheme = ogChartTheme();
+                                    const maxCount = Math.max(...counts, 1);
+                                    const colors = counts.map(count => {
+                                        const ratio = Math.max(0, Math.min(1, count / maxCount));
+                                        return d3.interpolateRgb('#88d5cf', '#087d82')(0.2 + ratio * 0.8);
+                                    });
 
                                     const data = [{
                                         x: ids,
@@ -579,14 +664,29 @@
                                         type: 'bar',
                                         text: hover,
                                         hovertemplate: '%{x}<br>Count: %{y}<br>%{text}<extra></extra>',
-                                        marker: { color: colors }
+                                        marker: {
+                                            color: colors,
+                                            line: { color: '#075970', width: 1 }
+                                        }
                                     }];
-                                    const layout = {
-                                        title: 'Pfam specific counts',
+                                    const layout = Object.assign(ogChartBaseLayout('Pfam-specific counts'), {
                                         margin: { t: 40, l: 60, r: 10, b: 140 },
-                                        xaxis: { tickangle: -45, automargin: true },
-                                        yaxis: { title: 'Specific Pfam domain Count' }
-                                    };
+                                        bargap: 0.24,
+                                        xaxis: {
+                                            tickangle: -45,
+                                            automargin: true,
+                                            color: chartTheme.text,
+                                            linecolor: chartTheme.axis,
+                                            showgrid: false
+                                        },
+                                        yaxis: {
+                                            title: 'Specific Pfam domain count',
+                                            color: chartTheme.text,
+                                            gridcolor: chartTheme.grid,
+                                            linecolor: chartTheme.axis,
+                                            zeroline: false
+                                        }
+                                    });
                                     Plotly.newPlot('pfamBar', data, layout, { displayModeBar: false, responsive: true })
                                         .then(gd => {
                                             try {
@@ -828,100 +928,145 @@
                 <br><br>
 
                 <!-- Mol* viewer section: show structures for Accessions matched to OG -->
-                <div id="molstarSection" style="width:100%; margin-top:20px;">
-                    <div id="molstarInfo" style="font-size:0.95em; color:#333; margin-bottom:6px;">Protein structure will appear here.</div>
+                <div id="molstarSection" class="og-panel og-structure-panel">
+                    <div id="molstarInfo" class="og-panel-heading">Protein structure will appear here.</div>
                     <div id="molstarControls" style="margin-bottom:8px;"></div>
                     <a id="molstar-link" href="#" target="_blank">Mol* viewer Full screen view</a>
-                    <iframe id="molstar-iframe" src="about:blank" width="100%" height="600" style="border: 1px solid #464646; margin-top:8px;" allowfullscreen allow="autoplay"></iframe>
-                    <p>Note: UniProtKB/TrEMBL has been applying Proteome Redundancy Reduction, and some previously registered protein sequences may have been removed. If a structure is not displayed, please also check UniParc (the UniProt archive) for historical sequence records.</p>
+                    <iframe id="molstar-iframe" class="og-embed-frame" src="about:blank" width="100%" height="600" allowfullscreen allow="autoplay"></iframe>
+                    <p class="og-note">Note: UniProtKB/TrEMBL applies Proteome Redundancy Reduction, so some previously registered sequences may no longer be available. If a structure is not displayed, check UniParc for historical sequence records.</p>
                 </div>
 
                 <script>
-                // Minimal metaT map implementation (scoped for this page)
-                let metaMap;
-                let metaMarkers = [];
-                function initMetaTMap() {
-                    if (metaMap) return;
-                    try {
-                        metaMap = L.map('metaT_map', { minZoom: 1, maxZoom: 18 }).setView([20, 0], 1);
-                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap contributors' }).addTo(metaMap);
+                // Fixed global expression map for this page.
+                let currentMetaTData = [];
+                let currentMetaTOg = '';
+                let metaTRequestId = 0;
 
-                        // Add legend similar to metaT page
-                        const legend = L.control({ position: 'bottomright' });
-                        legend.onAdd = function () {
-                            const div = L.DomUtil.create('div', 'info legend');
-                            const grades = [10, 100, 1000, 10000, 100000];
-                            div.innerHTML += '<b>Expression score</b><br>';
-                            grades.forEach((grade, index) => {
-                                const circleSize = Math.pow(grade, 0.3) * 1; // same sizing formula as markers
-                                div.innerHTML += `
-                                    <i style="background: #3388ff; border-radius: 50%; width: ${circleSize}px; height: ${circleSize}px; display: inline-block;"></i>
-                                    ${grade}<br>`;
-                            });
-                            div.style.backgroundColor = 'rgba(255,255,255,0.8)';
-                            return div;
-                        };
-                        legend.addTo(metaMap);
-                    } catch (e) { console.warn('Leaflet init failed', e); }
+                function metaTMarkerDiameter(score) {
+                    const minDiameter = 6;
+                    const maxDiameter = 48;
+                    if (!(score > 0)) return minDiameter;
+                    return Math.max(minDiameter, Math.min(maxDiameter, Math.pow(score, 0.3) * 2));
                 }
 
-                function clearMetaMarkers() {
-                    metaMarkers.forEach(m => { try { metaMap.removeLayer(m); } catch(e){} });
-                    metaMarkers = [];
+                function renderMetaTLegend() {
+                    const legend = document.getElementById('metaTLegend');
+                    if (!legend) return;
+                    legend.innerHTML = '<strong>Expression Score</strong>';
+                    for (let exponent = 1; exponent <= 5; exponent++) {
+                        const value = Math.pow(10, exponent);
+                        const row = document.createElement('div');
+                        row.className = 'og-map-legend__row';
+                        const circle = document.createElement('span');
+                        circle.className = 'og-map-legend__circle';
+                        const diameter = Math.round(metaTMarkerDiameter(value));
+                        circle.style.width = `${diameter}px`;
+                        circle.style.height = `${diameter}px`;
+                        const label = document.createElement('span');
+                        label.innerHTML = `10<sup>${exponent}</sup>`;
+                        row.append(circle, label);
+                        legend.appendChild(row);
+                    }
                 }
 
-                function updateMetaTMap(og) {
-                    initMetaTMap();
-                    clearMetaMarkers();
-                    // update header with OG and link to metaT page
-                    try {
-                        const hdr = document.getElementById('metaTHeader');
-                        if (hdr) {
-                            const enc = encodeURIComponent(og);
-                            hdr.innerHTML = `Expression profile of <a href="./metaT.html?ogInput=${enc}" target="_blank">${og}</a> (Log-scaled TPM)`;
+                function renderMetaTMap() {
+                    const mapElement = document.getElementById('metaT_map');
+                    if (!mapElement || typeof Plotly === 'undefined') return;
+                    renderMetaTLegend();
+                    const validRows = currentMetaTData.map(row => ({
+                        sample: row.sample || 'NA',
+                        lat: parseFloat(row.Latitude),
+                        lon: parseFloat(row.Longitude),
+                        score: parseFloat(row.sumTPM)
+                    })).filter(item => !isNaN(item.lat) && !isNaN(item.lon) && item.score > 0);
+                    const dark = document.body.classList.contains('dark-mode');
+                    const trace = {
+                        type: 'scattergeo',
+                        mode: 'markers',
+                        lat: validRows.map(item => item.lat),
+                        lon: validRows.map(item => item.lon),
+                        customdata: validRows.map(item => [item.sample, item.score]),
+                        hovertemplate: '<b>%{customdata[0]}</b><br>Expression Score: %{customdata[1]:.2f}<extra></extra>',
+                        showlegend: false,
+                        marker: {
+                            size: validRows.map(item => metaTMarkerDiameter(item.score)),
+                            sizemode: 'diameter',
+                            color: '#3388ff',
+                            opacity: 0.58,
+                            line: { color: '#0759b8', width: 1 }
                         }
-                    } catch(e) { console.warn('Failed to update metaT header', e); }
-                    const csvFile = `../data/env_corr/${og}.csv`;
-                    Papa.parse(csvFile, {
-                        download: true,
-                        header: true,
-                        complete: function(results) {
-                            const data = results.data || [];
-                            data.forEach(row => {
-                                const lat = parseFloat(row.Latitude);
-                                const lon = parseFloat(row.Longitude);
-                                const tpm = parseFloat(row.sumTPM);
-                                if (!isNaN(lat) && !isNaN(lon) && tpm > 0) {
-                                    const radius = Math.pow(tpm, 0.3) * 1; // adjust for visual
-                                    try {
-                                        const cm = L.circleMarker([lat, lon], { color: 'blue', fillColor: '#3388ff', fillOpacity: 0.5, radius: radius }).addTo(metaMap)
-                                            .bindPopup(`<b>sample:</b> ${row.sample||'NA'}<br><b>sumTPM:</b> ${tpm.toFixed(2)}`);
-                                        metaMarkers.push(cm);
-                                    } catch(e) { console.warn(e); }
-                                }
-                            });
-                            // fit to markers if any
-                            if (metaMarkers.length > 0) {
-                                const group = L.featureGroup(metaMarkers);
-                                try { metaMap.fitBounds(group.getBounds().pad(0.2)); } catch(e) { /* ignore */ }
-                            }
+                    };
+                    const layout = {
+                        margin: { l: 0, r: 0, t: 0, b: 0 },
+                        paper_bgcolor: 'rgba(0,0,0,0)',
+                        plot_bgcolor: 'rgba(0,0,0,0)',
+                        hoverlabel: {
+                            bgcolor: dark ? '#102733' : '#ffffff',
+                            bordercolor: dark ? '#69d7d3' : '#087d82',
+                            font: { color: dark ? '#eaf7fa' : '#143f50' }
                         },
-                        error: function() { console.warn('metaT CSV load error'); }
+                        showlegend: false,
+                        geo: {
+                            scope: 'world',
+                            projection: { type: 'equirectangular' },
+                            bgcolor: dark ? '#102733' : '#eaf7f7',
+                            showframe: false,
+                            showcoastlines: true,
+                            coastlinecolor: dark ? '#86a9b6' : '#73909b',
+                            coastlinewidth: 0.8,
+                            showland: true,
+                            landcolor: dark ? '#294652' : '#e2e8e5',
+                            showocean: true,
+                            oceancolor: dark ? '#102f3d' : '#dceff2',
+                            showcountries: false,
+                            lataxis: { range: [-90, 90], showgrid: false },
+                            lonaxis: { range: [-180, 180], showgrid: false }
+                        },
+                        dragmode: false,
+                        uirevision: 'fixed-global-expression-map'
+                    };
+                    Plotly.react(mapElement, [trace], layout, {
+                        responsive: true,
+                        displayModeBar: false,
+                        scrollZoom: false,
+                        doubleClick: false
                     });
                 }
 
-                                        try { if (metaMap) metaMap.invalidateSize(); } catch(e) {}
-                // initialize map on load so it's ready when updateOGData calls it
-                document.addEventListener('DOMContentLoaded', () => { initMetaTMap(); });
-                // Ensure Leaflet resizes correctly when the window or container size changes
-                window.addEventListener('resize', () => {
-                    try {
-                        if (metaMap) {
-                            // small delay to allow layout to settle
-                            setTimeout(() => { try { metaMap.invalidateSize(); } catch(e){} }, 150);
+                function updateMetaTHeader() {
+                    if (!currentMetaTOg) return;
+                    const header = document.getElementById('metaTHeader');
+                    if (!header) return;
+                    const encodedOg = encodeURIComponent(currentMetaTOg);
+                    header.innerHTML = `Expression Score of <a href="./metaT.html?ogInput=${encodedOg}" target="_blank">${currentMetaTOg}</a>`;
+                }
+
+                function updateMetaTMap(og) {
+                    currentMetaTOg = og;
+                    currentMetaTData = [];
+                    updateMetaTHeader();
+                    renderMetaTMap();
+                    const requestId = ++metaTRequestId;
+                    Papa.parse(`../data/env_corr/${og}.csv`, {
+                        download: true,
+                        header: true,
+                        complete: function(results) {
+                            if (requestId !== metaTRequestId) return;
+                            currentMetaTData = results.data || [];
+                            renderMetaTMap();
+                        },
+                        error: function() {
+                            if (requestId !== metaTRequestId) return;
+                            console.warn('metaT CSV load error');
                         }
-                    } catch(e) { /* ignore */ }
+                    });
+                }
+
+                document.addEventListener('DOMContentLoaded', () => {
+                    renderMetaTMap();
                 });
+
+                window.addEventListener('sar11:themechange', renderMetaTMap);
                 </script>
 
                 <br><br><br>

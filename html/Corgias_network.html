@@ -17,25 +17,11 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/data_table_style.css"> <!-- 表・ダークモード色CSS -->
+    <link rel="stylesheet" href="../css/atlas_page.css">
     <link rel="stylesheet" href="../css/jquery-ui.1.13.2.css">
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/jquery-ui.1.13.2.min.js"></script>
     <script src="../js/cytoscape.3.24.0.min.js"></script>
-    <style>
-        /* simple styles for the ego-network panel */
-        #egoPanel { border: 1px solid #dddddd00; padding: 12px; margin-top: 18px; background: #fafafa00; }
-        /* Use viewport-relative height so the network scales with window height */
-        #cy { width: 100%; height: 60vh; min-height: 300px; border: 1px solid #666; background: #fff; }
-        .control-row { display:flex; gap:8px; align-items:center; margin-bottom:8px; flex-wrap:wrap }
-        .control-row label { margin-right:6px; }
-        /* disabled action buttons look gray */
-        button:disabled { background: #e9ecef; color: #6c757d; cursor: not-allowed; }
-        input[type="range"]:disabled {
-            opacity: 0.5; /* 半透明にする */
-            cursor: not-allowed; /* カーソルを変更 */
-        }
-    </style>
-
 </head>
 
 <body>
@@ -96,44 +82,31 @@
                     </div>
                 </nav>
 
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-                <div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
-                    <div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
-                        <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0">
-                        </div>
-                    </div>
-                    <div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
-                        <div style="position:absolute;width:200%;height:200%;left:0; top:0">
-                        </div>
-                    </div>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 atlas-page">
+                <header class="atlas-page-heading">
+                    <p class="atlas-eyebrow">Orthogroup associations</p>
+                    <h1>CORGIAS Network</h1>
+                    <p>Explore statistically supported co-occurrence and anti-occurrence relationships among SAR11 orthogroups.</p>
+                </header>
+
+                <div class="atlas-intro">
+                    <p>Nodes represent OGs and are colored by COG functional category. Red edges indicate co-occurrence, blue edges indicate anti-occurrence, and edge width reflects association significance as -log<sub>10</sub>(q-value).</p>
+                    <p>Enter an OG ID, set the exploration depth and minimum significance, then extract its local correlation network.</p>
                 </div>
 
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <br><br><br><br><br>
-                    <h1 class="h2">CORGIAS Network</h1>
-                    <br>
-                </div>
-
-                <!-- Dark-mode toggle -->
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
                 <script src="../js/theme.js"></script>
-                <!-- Dark-mode toggle END -->
 
                 <!-- EDITABLE ZONE START -->
-                <p>
-                    This is an <strong>undirected network</strong> showing co-occurrence or anti-occurrence between orthogroups (OGs).<br>
-                    <strong>Nodes:</strong> Represent OGs, colored by their COG functional categories.<br>
-                    <strong>Edges:</strong> Weighted by the statistical significance, calculated as $-\log_{10}(q\text{-value})$. 
-                    Thicker edges represent more significant associations.<br>
-                    <strong>Colors:</strong>
-                    <span style="color: #d62728; font-weight: bold;">Red</span> indicates positive correlation (co-occurrence), while 
-                    <span style="color: #1f77b4; font-weight: bold;">Blue</span> indicates negative correlation (anti-occurrence).<br><br>
-                    <strong>How to use:</strong> Enter an OG ID (e.g., <code>OG0000123</code>) and click the <i>Extract and show</i> button.
-                </p>
-                <!-- Ego-network prototype using Cytoscape -->
-                <div id="egoPanel">
-                    <h3>Correlation Network</h3>
-                    <div class="control-row">
+                <section class="atlas-section" id="egoPanel">
+                    <div class="atlas-section__header">
+                        <div>
+                            <p class="atlas-section__kicker">Local exploration</p>
+                            <h2>Correlation network</h2>
+                            <p>Use a higher significance threshold to focus on stronger associations and a smaller depth for faster rendering.</p>
+                        </div>
+                    </div>
+                    <div class="atlas-network-controls control-row">
                         <label for="egoNode">Center node (OG ID):</label>
                         <input type="text" id="egoNode" placeholder="OG0001059">
                         <label for="depthRange">Depth</label>
@@ -146,30 +119,20 @@
                         <button id="exportPngBtn" disabled>Export PNG</button>
                         <button id="exportJsonBtn" disabled>Export JSON</button>
                         <!--  <label style="display:flex; align-items:center; gap:6px;"><input type="checkbox" id="onlyBidirectional"> Only show bidirectional edges</label>  -->
-                        <span style="margin-left:auto; font-size:0.9em; color:#666">Max nodes: <input id="maxNodes" type="number" value="500" style="width:80px;"> </span>
+                        <label class="atlas-max-nodes" for="maxNodes">Max nodes: <input id="maxNodes" type="number" value="500"></label>
                     </div>
-                    <div id="cyInfo" style="font-size:0.9em; color:#666; margin-bottom:6px">Total node = 0; Selected node = 0; Visualized node = 0</div>
-                    <div id="cy" style="position:relative"></div>
-                    <div style="margin-top:8px; color:#666; font-size:0.9em">Note: If the webpage is slow, please use small depths.</div>
-                </div>
+                    <div id="cyInfo" class="atlas-network-status">Total node = 0; Selected node = 0; Visualized node = 0</div>
+                    <div id="cy" class="atlas-network-canvas"></div>
+                </section>
 
-                <!-- <br><br>
-                <h4 style="margin-top:18px; margin-bottom:6px;">Full Network by Cosmograph</h4>
-                <a id="cosmograph_fullscreen" href="#" target="_blank">Full screen view</a> / Download <a href="../data/network/251203_net.tsv" download="network.tsv">network data</a> and <a href="../data/network/251202_nei_annot.tsv" download="network_annotation.tsv">annotation file</a>
-                <iframe id="cosmograph" src="#" width="100%" height="100%" data-external="1" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
-
-                <br><br> -->
                 <script src="../js/Corgias_ego.js"></script>
-
-                <br><br><br>
                 <!-- EDITABLE ZONE END -->
 
-                <div class="border-top p-4 mb-4">
-                    <p style="font-size: 1.5em; font-weight: bold; color: #0cc5c5; text-transform: uppercase;">Citation information:</p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"SAR11 Genome Atlas."</b> <em>in prep.</em></p>
-                    <p style="font-size: 1.2em; line-height: 1.6; color: #099393;">Nishino et al. <b>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</b> <em>bioRxiv 2025.</em></p>
+                <div class="atlas-citation">
+                    <h2>Citation information</h2>
+                    <p>Nishino et al. <strong>"SAR11 Genome Atlas."</strong> <em>in prep.</em></p>
+                    <p>Nishino et al. <strong>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</strong> <em>bioRxiv 2025.</em></p>
                 </div>
-                <br>
 
             </main>
         </div>
