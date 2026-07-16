@@ -25,9 +25,7 @@ Click an individual marker to open a popup containing the metadata for that geno
 
 ## SAR11 Genome Phylogeny
 
-The phylogenetic tree summarizes relationships among the SAR11 genomes included in the atlas. It is displayed with Taxonium, which supports interactive zooming, panning, searching, and metadata-based coloring.
-
-The 542-genome marker-gene tree is currently being re-estimated. Until it is replaced, treat the embedded tree as belonging to the preceding phylogeny release; the metadata map and table already use the current 542-genome dataset.
+The phylogenetic tree was inferred with IQ-TREE from the bac120 marker alignment and contains 542 SAR11 genomes plus 20 alphaproteobacterial outgroups. It is displayed with Taxonium, which supports interactive zooming, panning, searching, and metadata-based coloring.
 
 Use the tree controls to:
 

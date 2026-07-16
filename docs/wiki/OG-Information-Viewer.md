@@ -22,6 +22,10 @@ The COG and KO pie charts include an unannotated slice when some orthogroup memb
 
 Select a plotted annotation to open its external database record when a link is available. **No Annotation** or **data not found** means that the corresponding annotation source did not provide a supported assignment for that orthogroup.
 
+## Phylogenetic Distribution
+
+The Taxonium panel shows presence or absence of the selected orthogroup across the bac120 IQ-TREE phylogeny. The tree contains 542 SAR11 genomes and 20 alphaproteobacterial outgroups; orthogroup presence is calculated from the current 542-genome OrthoFinder assignment, while outgroups are shown as absent because they were not included in that assignment.
+
 ## Expression Profile
 
 The map displays the metatranscriptomic Expression Score of the selected orthogroup across Tara Oceans stations using a log-style visual scale. The score is the sum of TPM values assigned to the OG within a sample and is not a conventional single-gene TPM measurement. Use the linked orthogroup name or **Expression Profile** button to open the full [Metatranscriptome Viewer](Metatranscriptome-Viewer).

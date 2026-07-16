@@ -6,7 +6,7 @@ The SAR11 Genome Atlas provides interactive tools for exploring SAR11 genomes, o
 
 The current atlas contains 542 SAR11 genomes, 675,669 predicted proteins, and 4,577 orthogroups. Genome metadata, orthogroup assignments and annotations, the Neighboring Genes dataset, and the Neighboring Network have been updated for this collection.
 
-The marker-gene phylogeny is being re-estimated. The CORGIAS association network and protein-structure links still reflect the preceding analysis release and will be updated separately. Pages with mixed release status should therefore be interpreted with this distinction in mind.
+The bac120 IQ-TREE phylogeny, genome metadata, orthogroup assignments and annotations, the Neighboring Genes dataset, and the Neighboring Network have been updated for this collection. The CORGIAS association network and protein-structure links still reflect the preceding analysis release and will be updated separately. Pages with mixed release status should therefore be interpreted with this distinction in mind.
 
 Open the [SAR11 Genome Atlas](https://stsnsn.github.io/SAR11_Gene_Catalog/), or use the guides below to learn about each page.
 
