@@ -136,6 +136,7 @@
                             }
                         // TSV → Autocomplete 用データに変換
                         og_data = data.map(d => ({
+                            ...d,
                             label: `${d.og_id} | ${d.ko}: ${d.ko_name} | ${d.cog}: ${d.cog_name} | ${d.pfams}: ${d.pfam_names} `, // 表示内容
                             value: d.og_id                                          // 入力値
                         }));
@@ -369,30 +370,139 @@
 
                     window.addEventListener('sar11:themechange', refreshAnnotationChartTheme);
 
+                    const annotationTablePaths = {
+                        ko: '../data/orthogroups/og_ko_counts.tsv',
+                        cog: '../data/orthogroups/og_cog_counts.tsv',
+                        pfam: '../data/orthogroups/og_pfam_counts.tsv'
+                    };
+                    const annotationTablePromises = {};
+                    let legacyPfamPromise = null;
+
+                    function loadAnnotationTable(kind) {
+                        if (!annotationTablePromises[kind]) {
+                            annotationTablePromises[kind] = d3.tsv(annotationTablePaths[kind]);
+                        }
+                        return annotationTablePromises[kind];
+                    }
+
+                    function annotationOgId(row) {
+                        return String(row.OG_ID || row.Orthogroup || row.orthogroup || row.OG || '').trim();
+                    }
+
+                    function addUnannotatedSlice(rows, countField, rateField, idField, nameField) {
+                        if (!rows.length) return rows;
+
+                        const totalGenes = Number(rows[0].n_genes);
+                        const annotatedGenes = rows.reduce((sum, row) => sum + Number(row[countField] || 0), 0);
+                        const unannotatedGenes = Math.max(0, totalGenes - annotatedGenes);
+                        if (!Number.isFinite(totalGenes) || unannotatedGenes === 0) return rows;
+
+                        return rows.concat({
+                            [idField]: 'NA',
+                            [nameField]: 'No Annotation',
+                            [countField]: String(unannotatedGenes),
+                            [rateField]: String(unannotatedGenes / totalGenes)
+                        });
+                    }
+
+                    function normalizeCombinedRows(kind, rows) {
+                        if (kind === 'ko') {
+                            const normalized = rows.map(row => ({
+                                ko_id: row.ko_best || row.ko || 'NA',
+                                ko_description: row.ko_best_definition || row.ko_name || 'No Annotation',
+                                Specific_KO_Count: row.ko_support || '0',
+                                Rate: row.ko_rate || '0',
+                                n_genes: row.n_genes
+                            }));
+                            return addUnannotatedSlice(
+                                normalized,
+                                'Specific_KO_Count',
+                                'Rate',
+                                'ko_id',
+                                'ko_description'
+                            );
+                        }
+
+                        if (kind === 'cog') {
+                            const normalized = rows.map(row => ({
+                                COG_ID: row.cog_best || row.cog || 'NA',
+                                COG_NAME: row.cog_best_name || row.cog_name || 'No Annotation',
+                                Specific_COG_Count: row.cog_support || '0',
+                                Rate: row.cog_rate || '0',
+                                n_genes: row.n_genes
+                            }));
+                            return addUnannotatedSlice(
+                                normalized,
+                                'Specific_COG_Count',
+                                'Rate',
+                                'COG_ID',
+                                'COG_NAME'
+                            );
+                        }
+
+                        return rows.map(row => ({
+                            Orthogroup: annotationOgId(row),
+                            Pfam_ID: row.pfam || row.Pfam_ID || 'NA',
+                            Pfam_NAME: row.pfam_name || row.Pfam_NAME || '',
+                            Specific_Pfam_Count: row.pfam_support || row.Specific_Pfam_Count || '0',
+                            Pfam_Specific_Rate: row.pfam_rate || row.Pfam_Specific_Rate || '0'
+                        }));
+                    }
+
+                    async function loadOgAnnotationRows(kind, og) {
+                        try {
+                            const allRows = await loadAnnotationTable(kind);
+                            const rows = allRows.filter(row => annotationOgId(row) === og);
+                            if (!rows.length && (kind === 'ko' || kind === 'cog')) {
+                                const ogEntry = og_data.find(entry => entry.value === og);
+                                const nGenes = Number(ogEntry && ogEntry.n_genes);
+                                if (Number.isFinite(nGenes) && nGenes > 0) {
+                                    if (kind === 'ko') {
+                                        return [{
+                                            ko_id: 'NA',
+                                            ko_description: 'No Annotation',
+                                            Specific_KO_Count: String(nGenes),
+                                            Rate: '1'
+                                        }];
+                                    }
+                                    return [{
+                                        COG_ID: 'NA',
+                                        COG_NAME: 'No Annotation',
+                                        Specific_COG_Count: String(nGenes),
+                                        Rate: '1'
+                                    }];
+                                }
+                            }
+                            return normalizeCombinedRows(kind, rows);
+                        } catch (error) {
+                            console.warn(`Combined ${kind.toUpperCase()} table unavailable; using legacy data.`, error);
+                        }
+
+                        if (kind === 'pfam') {
+                            if (!legacyPfamPromise) {
+                                legacyPfamPromise = d3.csv('../data/og_annot_count/pfam/pfam_count_barplot.csv');
+                            }
+                            const rows = await legacyPfamPromise;
+                            return rows.filter(row => annotationOgId(row) === og);
+                        }
+
+                        return d3.csv(`../data/og_annot_count/${kind}/${og}.csv`);
+                    }
+
                     let lastUpdatedOG = null;
 
                     async function updateOGData() {
                         const og = document.getElementById('ogInput').value.trim();
                         if (!og) { alert('Enter OG name'); return; }
 
-                        // Check existence of a representative data file for this OG (KO annotations)
-                        try {
-                            const koCheckPath = `../data/og_annot_count/ko/${og}.csv`;
-                            const resp = await fetch(koCheckPath, { method: 'GET' });
-                            if (!resp.ok) {
-                                alert(`OG ID '${og}' Not Found. Please check the OG ID and try again.`);
-                                return;
-                            }
-                        } catch (e) {
-                            console.warn('Error checking OG data existence', e);
-                            alert(`An error occurred while checking data for OG ID '${og}'. Please check your network connection and the existence of the file.`);
+                        if (og_data.length > 0 && !og_data.some(entry => entry.value === og)) {
+                            alert(`OG ID '${og}' Not Found. Please check the OG ID and try again.`);
                             return;
                         }
 
                         // KO pie
-                        const koPath = `../data/og_annot_count/ko/${og}.csv`;
                         try {
-                            const koRows = await d3.csv(koPath);
+                            const koRows = await loadOgAnnotationRows('ko', og);
                             if (koRows && koRows.length > 0) {
                                 const labels = koRows.map(r => r.ko_id || r.ko || 'NA');
                                 const values = koRows.map(r => {
@@ -469,9 +579,8 @@
                         }
 
                         // COG pie (render with the same rules as KO pie)
-                        const cogPath = `../data/og_annot_count/cog/${og}.csv`;
                         try {
-                            const cogRows = await d3.csv(cogPath);
+                            const cogRows = await loadOgAnnotationRows('cog', og);
                             if (cogRows && cogRows.length > 0) {
                                 const labels = cogRows.map(r => r.COG_ID || r.COG || 'NA');
                                 const values = cogRows.map(r => {
@@ -630,12 +739,7 @@
 
                             // --- Pfam barplot (Pfam_ID x Specific_Pfam_Count) ---
                             try {
-                                const pfamPath = `../data/og_annot_count/pfam/pfam_count_barplot.csv`;
-                                const pfamRows = await d3.csv(pfamPath);
-                                const filtered = (pfamRows || []).filter(r => {
-                                    const key = (r.Orthogroup || r.orthogroup || r.OG || '').trim();
-                                    return key === og;
-                                });
+                                const filtered = await loadOgAnnotationRows('pfam', og);
                                 if (filtered && filtered.length > 0) {
                                     const ids = filtered.map(r => r.Pfam_ID || r.Pfam || 'NA');
                                     const counts = filtered.map(r => {
