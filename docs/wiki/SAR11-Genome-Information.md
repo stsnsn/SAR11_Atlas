@@ -39,7 +39,7 @@ The tree file and associated metadata are available from the [Download](Download
 
 ## SAR11 Genome Information Table
 
-The genome information table lists the SAR11 genomes and cultured alphaproteobacterial genomes used as phylogenetic outgroups. Available fields include taxonomy, genome source, sampling information, genome quality, assembly statistics, and accession information where available.
+The genome information table lists 542 SAR11 genomes and 20 cultured alphaproteobacterial genomes used as phylogenetic outgroups. Available fields include taxonomy, genome source type, sampling depth and coordinates, Longhurst province, habitat, waterbody, and source references where available.
 
 Use the table controls to:
 

@@ -19,57 +19,54 @@
         }
     }
 
-    function createSiteLogo() {
-        if (document.body.hasAttribute("data-theme-embedded") || document.querySelector("[data-site-logo]")) return;
+    function initializeNavbarBrand() {
+        if (document.body.hasAttribute("data-theme-embedded")) return;
 
-        const header = document.createElement("div");
-        header.className = "site-logo-header";
-        header.setAttribute("data-site-logo", "");
+        const brand = document.querySelector(".navbar-brand");
+        if (!brand || brand.querySelector("[data-navbar-brand-lockup]")) return;
 
-        const brand = document.createElement("a");
-        brand.className = "site-brand";
-        brand.href = "../index.html";
         brand.setAttribute("aria-label", "SAR11 Genome Atlas home");
 
         const emblem = document.createElement("img");
-        emblem.className = "site-brand__emblem";
+        emblem.className = "navbar-brand-lockup__emblem";
         emblem.src = "../data/image/favicon/favicon_30right.svg";
         emblem.alt = "";
 
         const wordmark = document.createElement("span");
-        wordmark.className = "site-brand__wordmark";
+        wordmark.className = "navbar-brand-lockup__wordmark";
 
         const title = document.createElement("span");
-        title.className = "site-brand__title";
+        title.className = "navbar-brand-lockup__title";
         title.textContent = "SAR11 Genome Atlas";
 
         const subtitle = document.createElement("span");
-        subtitle.className = "site-brand__subtitle";
+        subtitle.className = "navbar-brand-lockup__subtitle";
         subtitle.textContent = "Connecting genomes, orthogroups, and function";
 
         const rule = document.createElement("span");
-        rule.className = "site-brand__rule";
+        rule.className = "navbar-brand-lockup__rule";
         rule.setAttribute("aria-hidden", "true");
 
         wordmark.append(title, subtitle, rule);
-        brand.append(emblem, wordmark);
-        header.appendChild(brand);
+        wordmark.setAttribute("data-navbar-brand-lockup", "");
+        brand.replaceChildren(emblem, wordmark);
+    }
 
-        const main = document.querySelector("main[role='main'], [role='main']");
-        if (main) {
-            const pageTitle = main.querySelector("h1");
-            const titleContainer = pageTitle && pageTitle.parentElement !== main ? pageTitle.parentElement : null;
-            if (titleContainer) {
-                titleContainer.classList.add("site-title-after-logo");
-                main.insertBefore(header, titleContainer);
-            } else {
-                main.insertBefore(header, main.firstChild);
-            }
-            return;
+    function positionThemeToggles() {
+        const heading = document.querySelector(".atlas-page-heading, .og-page-heading");
+        if (!heading) return;
+
+        const description = document.querySelector(".atlas-intro, .og-intro");
+        if (description && !heading.contains(description)) {
+            description.classList.add("page-heading-description");
+            heading.appendChild(description);
         }
 
-        const standaloneTitle = document.body.querySelector("h1");
-        document.body.insertBefore(header, standaloneTitle || document.body.firstChild);
+        document.querySelectorAll("[data-theme-toggle]").forEach((button) => {
+            button.classList.remove("mb-3", "theme-toggle--floating");
+            button.classList.add("theme-toggle--heading");
+            heading.appendChild(button);
+        });
     }
 
     function notifySyncedFrames(dark) {
@@ -108,7 +105,8 @@
     }
 
     function initializeTheme() {
-        createSiteLogo();
+        initializeNavbarBrand();
+        positionThemeToggles();
         initializeSyncedFrames();
         const savedTheme = readSavedTheme();
         const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;

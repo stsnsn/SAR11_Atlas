@@ -6,7 +6,7 @@ The Download page is the entry point for reusable files underlying the SAR11 Gen
 
 Resources are organized into the following categories:
 
-- **Genome information**: the metadata table used by the Genome Information page.
+- **Genome information**: complete metadata for 542 SAR11 genomes and 20 phylogenetic outgroups, including numeric sampling values and their categorical summaries.
 - **SAR11 genomes**: genome assemblies included in the atlas.
 - **Tables**: orthogroup, annotation, expression, and related analysis tables.
 - **Phylogenetic trees**: the marker-gene species tree and orthogroup-level trees.

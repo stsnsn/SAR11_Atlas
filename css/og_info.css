@@ -29,8 +29,13 @@
     letter-spacing: -0.025em;
 }
 
-.og-page-heading > p:last-child {
-    max-width: 760px;
+.og-page-heading > h1,
+.og-page-heading > p {
+    max-width: calc(100% - 7.5rem);
+}
+
+.og-page-heading > p:last-of-type {
+    max-width: min(760px, calc(100% - 7.5rem));
     margin: 0;
     color: var(--og-muted);
     line-height: 1.65;
@@ -57,6 +62,16 @@
 
 .og-intro p {
     margin: 0;
+}
+
+.og-page-heading .og-intro {
+    max-width: none;
+    margin: 1rem 0 0;
+    padding: 0.85rem 0 0;
+    border-top: 1px solid rgba(8, 125, 130, 0.18);
+    border-left: 0;
+    border-radius: 0;
+    background: transparent;
 }
 
 .og-intro__links {
@@ -381,6 +396,11 @@ body.dark-mode .og-intro {
     background: rgba(21, 53, 64, 0.82);
 }
 
+body.dark-mode .og-page-heading .og-intro {
+    border-top-color: rgba(105, 215, 211, 0.2);
+    background: transparent;
+}
+
 body.dark-mode .og-viewer .atlas-citation {
     background: rgba(21, 53, 64, 0.82);
 }
@@ -443,6 +463,15 @@ body.dark-mode .ui-menu-item-wrapper.ui-state-active {
     .og-viewer {
         padding-right: 1rem !important;
         padding-left: 1rem !important;
+    }
+
+    .og-page-heading {
+        padding-right: 1.2rem;
+    }
+
+    .og-page-heading > h1,
+    .og-page-heading > p {
+        max-width: 100%;
     }
 
     .og-page-heading,

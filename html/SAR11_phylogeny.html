@@ -156,7 +156,7 @@
                     </div>
                     <iframe
                     class="atlas-embed-frame"
-                    src="https://taxonium.org/?treeUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fstsnsn%2Fpublic_data%2Fmain%2F20240709%2FSAR11_extracted_iqtree2.treefile&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fstsnsn%2Fpublic_data%2Fc0ead74192a15099fa29f46a8b48b98b2ce3e887%2F20240709%2Fsubclade_cat.tsv&metaType=meta_tsv&xType=x_dist"
+                    src="https://taxonium.org/?treeUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fstsnsn%2Fpublic_data%2Fmain%2F20240709%2FSAR11_extracted_iqtree2.treefile&ladderizeTree=true&treeType=nwk&metaUrl=https%3A%2F%2Fproxy.taxonium.org%2Fproxy%3Furl%3Dhttps%3A%2F%2Fstsnsn.github.io%2FSAR11_Gene_Catalog%2Fdata%2Fphylogeny%2Fsubclade_cat.tsv&metaType=meta_tsv&xType=x_dist"
                     height="900"
                     allowfullscreen
                     ></iframe>
@@ -198,6 +198,7 @@
                             download: true,
                             delimiter: "\t", // TSVの場合
                             header: true, // ヘッダー行を利用
+                            skipEmptyLines: true,
                             complete: function (result) {
                                 const data = result.data; // データ部分
                                 const headers = Object.keys(data[0]); // ヘッダー部分

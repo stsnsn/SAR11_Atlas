@@ -30,8 +30,7 @@
     <!-- Dark-mode toggle END -->
 
     <table id="table" class="display" style="width:100%">
-        <caption>SAR11 Genome List</caption>
-        <caption>仮。今後、SAGをさらに追加する予定。</caption>
+        <caption>Metadata for 562 genomes: 542 SAR11 genomes and 20 phylogenetic outgroups</caption>
         <thead>
             <tr></tr>
         </thead>
@@ -48,6 +47,7 @@
                 download: true,
                 delimiter: "\t", // TSVの場合
                 header: true, // ヘッダー行を利用
+                skipEmptyLines: true,
                 complete: function (result) {
                     const data = result.data; // データ部分
                     const headers = Object.keys(data[0]); // ヘッダー部分
