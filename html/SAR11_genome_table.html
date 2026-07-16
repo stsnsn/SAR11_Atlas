@@ -15,10 +15,8 @@
     <script src="../js/buttons.html5.min.js"></script>
     <script src="../js/buttons.print.min.js"></script>
     <script src="../js/papaparse.min.js"></script>
-    <!--<script src="../js/dataTables.scroller.min.js"></script>-->
     <link rel="stylesheet" href="../css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="../css/buttons.dataTables.min.css">
-    <link rel="stylesheet" href="../css/scroller.dataTables.min.css">
 
 
     <!-- 表・ダークモード色CSS -->
@@ -71,9 +69,10 @@
                     $("#table tbody").html(bodyHtml);
 
                     // DataTableを適用
-                    $("#table").DataTable({
+                    const genomeTable = $("#table").DataTable({
                         dom: "Bfrtipl",
                         pageLength: 10,
+                        autoWidth: true,
                         buttons: ["copy", "csv",
                             {
                                 text: "JSON", // JSONボタン
@@ -89,12 +88,11 @@
                                     document.body.removeChild(link);
                                 }
                         }, "excel", "print"],
-                        responsive: true,
+                        responsive: false,
                         lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
                         searching: true,
                         ordering: true,
-                        scrollY: 600, // スクロール領域の高さをピクセル単位で指定
-                        scroller: true, // Scrollerを有効化
+                        scroller: false,
                         language: {
                             infoEmpty: "No data available",
                             lengthMenu: "Show _MENU_ entries",

@@ -672,7 +672,8 @@
 }
 
 .atlas-table-wrap {
-    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
     border: 1px solid var(--atlas-border);
     border-radius: 12px;
 }

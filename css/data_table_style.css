@@ -2,25 +2,36 @@
 
 /* テーブル全体のデザイン */
 #table {
-    border-collapse: collapse;
-    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: max-content !important;
+    min-width: 100%;
     font-family: "Helvetica", "Times New Roman", sans-serif;
     font-size: 0.8rem; /* 全体の文字サイズを少し小さく */
 }
 
+.dataTables_wrapper {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
 /* ヘッダー部分のスタイル */
 table.dataTable thead th   {
+    box-sizing: border-box;
     background-color: #003366 ; /* だーくぶるー */
     color: white;
     text-align: center;
     padding: 10px;
+    white-space: nowrap;
 }
 
 /* 行のスタイル */
 table.dataTable tbody td {
+    box-sizing: border-box;
     text-align: center;
     padding: 8px;
     border: 1px solid #ddd;
+    white-space: nowrap;
 }
 
 /* 奇数行と偶数行に異なる背景色をつける */

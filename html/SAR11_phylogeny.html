@@ -35,7 +35,6 @@
     <script src="../js/vfs_fonts.js"></script>
     <script src="../js/buttons.html5.min.js"></script>
     <script src="../js/buttons.print.min.js"></script>
-    <script src="../js/dataTables.scroller.min.js"></script>
     <!-- Leaflet easyprint plugin-->
     <script src="../js/leaflet-easyprint.2.1.9.bundle.min.js"></script>
     <link href="../css/leaflet-easyprint.2.1.9.min.css" rel="stylesheet">
@@ -219,11 +218,10 @@
                                 });
                                 $("#table tbody").html(bodyHtml);
                                 // DataTableを適用
-                                $("#table").DataTable({
+                                const genomeTable = $("#table").DataTable({
                                     dom: "Bfrtipl",
                                     pageLength: 10,
-                                    scrollX: true, // enable horizontal scrolling so header and body scroll together
-                                    fixedHeader: true, // ヘッダーを固定表示
+                                    autoWidth: true,
                                     buttons: ["copy", "csv",
                                         {
                                             text: "JSON", // JSONボタン
@@ -239,12 +237,11 @@
                                                 document.body.removeChild(link);
                                             }
                                     }, "excel", "print"],
-                                    responsive: true,
+                                    responsive: false,
                                     searching: true,
                                     ordering: true,
                                     paging: true,
-                                    scrollY: 600, // スクロール領域の高さをピクセル単位で指定
-                                    scroller: true, // Scrollerを有効化
+                                    scroller: false,
                                     language: {
                                         infoEmpty: "No data available",
                                         info: "Showing _START_ to _END_ of _TOTAL_ entries",
