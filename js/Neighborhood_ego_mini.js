@@ -188,8 +188,10 @@
 
     function renderCySimple(elements, containerId) {
         try { if (cy) { cy.destroy(); cy = null; } } catch(e){}
+        const container = document.getElementById(containerId);
+        if (!container) return;
         cy = cytoscape({
-            container: document.getElementById(containerId),
+            container: container,
             // ensure crisp rendering on high-DPI displays
             pixelRatio: 'auto',
             elements: [].concat(elements.nodes, elements.edges),
@@ -197,6 +199,7 @@
                 // center labels on nodes to avoid baseline/offset issues
                 { selector: 'node', style: { 'label': 'data(label)', 'width': 16, 'height': 16, 'background-color': 'data(color)', 'font-size': 10, 'border-width': 0, 'text-valign': 'center', 'text-halign': 'center', 'color': '#000', 'text-wrap': 'none' } },
                 { selector: 'node[depth = 0]', style: { 'border-width': 2, 'border-color': '#ff7f0e', 'border-opacity': 1, 'border-style': 'solid' } },
+                { selector: 'node.is-hovered', style: { 'border-width': 3, 'border-color': '#087d82', 'border-opacity': 1, 'overlay-color': '#087d82', 'overlay-opacity': 0.14, 'overlay-padding': 5 } },
                     { selector: 'edge', style: { 'width': 0.5, 'line-color': '#999', 'curve-style': 'bezier', 'source-arrow-shape': 'none', 'target-arrow-shape': 'triangle', 'target-arrow-color': '#999', 'arrow-scale': 0.3 } },
                     // bidirectional edges: arrows on both ends
                     { selector: 'edge[bidirectional = "true"]', style: { 'source-arrow-shape': 'triangle', 'source-arrow-color': '#999', 'target-arrow-shape': 'triangle', 'target-arrow-color': '#999', 'arrow-scale': 0.3 } }
@@ -209,6 +212,13 @@
                 idealEdgeLength: 30   // エッジの理想的な長さ
             }
         });
+        const setNetworkCursor = cursor => {
+            const value = cursor || 'default';
+            container.style.setProperty('cursor', value, 'important');
+            container.querySelectorAll('canvas').forEach(canvas => {
+                canvas.style.setProperty('cursor', value, 'important');
+            });
+        };
         // ensure tooltip element exists (same behavior as full ego view)
         let tip = document.getElementById('cyTooltip');
         if (!tip) {
@@ -233,7 +243,7 @@
             const cogName = d.cogName || d.COG_NAME || null;
             const koId = d.ko_id || d.ko || null;
             const koDesc = d.koDesc || d.ko_description || null;
-            let parts = [];
+            let parts = [`<strong>Click to open ${d.og}</strong>`];
             if (cogId) {
                 const namePart = cogName ? `: ${cogName}` : '';
                 parts.push(`${cogId}${namePart}`);
@@ -248,7 +258,11 @@
         };
 
         // primary listeners via cy.on
-        cy.on('mouseover', 'node', evt => { showTipForNode(evt.target); });
+        cy.on('mouseover', 'node', evt => {
+            evt.target.addClass('is-hovered');
+            setNetworkCursor('pointer');
+            showTipForNode(evt.target);
+        });
         cy.on('mousemove', 'node', evt => {
             const e = evt.originalEvent || evt; // fallback
             if (e && tip) {
@@ -256,17 +270,29 @@
                 tip.style.top = (e.pageY + 12) + 'px';
             }
         });
-        cy.on('mouseout', 'node', evt => { if (tip) tip.style.display = 'none'; });
+        cy.on('mouseout', 'node', evt => {
+            evt.target.removeClass('is-hovered');
+            setNetworkCursor('default');
+            if (tip) tip.style.display = 'none';
+        });
 
         // attach per-node listeners as a fallback (some Cytoscape builds/environments)
         try {
             cy.nodes().forEach(n => {
-                n.on('mouseover', () => { showTipForNode(n); });
+                n.on('mouseover', () => {
+                    n.addClass('is-hovered');
+                    setNetworkCursor('pointer');
+                    showTipForNode(n);
+                });
                 n.on('mousemove', (evt) => {
                     const e = evt.originalEvent || evt;
                     if (e && tip) { tip.style.left = (e.pageX + 12) + 'px'; tip.style.top = (e.pageY + 12) + 'px'; }
                 });
-                n.on('mouseout', () => { if (tip) tip.style.display = 'none'; });
+                n.on('mouseout', () => {
+                    n.removeClass('is-hovered');
+                    setNetworkCursor('default');
+                    if (tip) tip.style.display = 'none';
+                });
             });
         } catch(e) { /* non-fatal fallback */ }
         cy.on('tap', 'node', evt => {

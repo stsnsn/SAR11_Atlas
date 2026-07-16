@@ -240,7 +240,7 @@
                     <div id="taxoniumContainer">
                         <!-- Mini Ego network (minimal controls) -->
                         <div id="egoMiniHeader" class="og-panel-heading">Neighboring Network</div>
-                        <div id="egoMini" class="og-visual-frame" style="height:400px;"></div>
+                        <div id="egoMini" class="og-visual-frame og-clickable-visual" data-click-hint="Click a node to open its OG page" style="height:400px;"></div>
                         <!-- 系統樹上の小さな説明（Presence/Absence 表示） -->
                         <div id="taxoniumCaption" class="og-panel-heading">Presence (yellow) / absence (blue) of <strong>OG0000000</strong></div>
                         <!-- ローカル wrapper を使って taxonium を埋め込み。wrapper を再読み込みすることで外部表示を確実に更新 -->
@@ -333,6 +333,21 @@
                             if (!label || String(label).toUpperCase() === 'NA') return '#64727a';
                             return OG_CHART_PALETTE[index % OG_CHART_PALETTE.length];
                         });
+                    }
+
+                    function bindPlotlyLinkCursor(gd, pointIsLinked) {
+                        const setCursor = cursor => {
+                            gd.style.cursor = cursor;
+                            gd.querySelectorAll('.nsewdrag, .slice path, .bars .point path').forEach(element => {
+                                element.style.setProperty('cursor', cursor, 'important');
+                            });
+                        };
+
+                        gd.on('plotly_hover', evt => {
+                            const point = evt.points && evt.points[0];
+                            setCursor(point && pointIsLinked(point) ? 'pointer' : 'default');
+                        });
+                        gd.on('plotly_unhover', () => setCursor('default'));
                     }
 
                     function refreshAnnotationChartTheme() {
@@ -499,7 +514,12 @@
                                     const v = parseFloat(r.Rate);
                                     return isNaN(v) ? 0 : v;
                                 });
-                                const custom = koRows.map(r => `Description: ${r.ko_description || 'NA'}<br>Count: ${r.Specific_KO_Count || '0'}`);
+                                const custom = koRows.map((r, index) => {
+                                    const clickHint = labels[index] && labels[index].startsWith('K')
+                                        ? '<br><b>Click to open KEGG</b>'
+                                        : '';
+                                    return `Description: ${r.ko_description || 'NA'}<br>Count: ${r.Specific_KO_Count || '0'}${clickHint}`;
+                                });
 
                                 // Hide labels and percent for very small slices: show "label (xx%)" only when >= minShare
                                 const total = values.reduce((a, b) => a + b, 0);
@@ -552,6 +572,9 @@
                                 Plotly.newPlot('koPie', data, layout, { displayModeBar: false, responsive: true })
                                     .then(gd => {
                                         try {
+                                            bindPlotlyLinkCursor(gd, point => (
+                                                typeof point.label === 'string' && point.label.startsWith('K')
+                                            ));
                                             gd.on('plotly_click', function(evt) {
                                                 const label = evt.points && evt.points[0] && evt.points[0].label;
                                                 if (label && typeof label === 'string' && label.startsWith('K')) {
@@ -577,7 +600,12 @@
                                     const v = parseFloat(r.Rate);
                                     return isNaN(v) ? 0 : v;
                                 });
-                                const custom = cogRows.map(r => `Name: ${r.COG_NAME || 'NA'}<br>Count: ${r.Specific_COG_Count || '0'}`);
+                                const custom = cogRows.map((r, index) => {
+                                    const clickHint = labels[index] && labels[index].startsWith('COG')
+                                        ? '<br><b>Click to open NCBI COG</b>'
+                                        : '';
+                                    return `Name: ${r.COG_NAME || 'NA'}<br>Count: ${r.Specific_COG_Count || '0'}${clickHint}`;
+                                });
 
                                 // Use the same label/percent hiding rule as KO: show label (x.x%) only when share >= minShare
                                 const total = values.reduce((a, b) => a + b, 0);
@@ -632,6 +660,9 @@
                                 Plotly.newPlot('cogPie', data, layout, { displayModeBar: false, responsive: true })
                                     .then(gd => {
                                         try {
+                                            bindPlotlyLinkCursor(gd, point => (
+                                                typeof point.label === 'string' && point.label.startsWith('COG')
+                                            ));
                                             gd.on('plotly_click', function(evt) {
                                                 const label = evt.points && evt.points[0] && evt.points[0].label;
                                                 if (label && typeof label === 'string' && label.startsWith('COG')) {
@@ -778,6 +809,9 @@
                                     Plotly.newPlot('pfamBar', data, layout, { displayModeBar: false, responsive: true })
                                         .then(gd => {
                                             try {
+                                                bindPlotlyLinkCursor(gd, point => (
+                                                    typeof point.x === 'string' && point.x.startsWith('PF')
+                                                ));
                                                 gd.on('plotly_click', function(evt) {
                                                     const id = evt.points && evt.points[0] && evt.points[0].x;
                                                     if (id && typeof id === 'string' && id.startsWith('PF')) {

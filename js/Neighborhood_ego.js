@@ -292,6 +292,8 @@
     let cy = null;
     function renderCy(elements) {
         if (cy) { cy.destroy(); cy = null; }
+        const container = document.getElementById('cy');
+        if (!container) return;
         // ensure tooltip element exists
         let tip = document.getElementById('cyTooltip');
         if (!tip) {
@@ -309,7 +311,7 @@
         }
 
         cy = cytoscape({
-            container: document.getElementById('cy'),
+            container: container,
             // ensure crisp rendering on high-DPI displays
             pixelRatio: 'auto',
             elements: [].concat(elements.nodes, elements.edges),
@@ -345,6 +347,7 @@
         cy.on('mouseover', 'node', evt => {
             const node = evt.target;
             const d = node.data();
+            container.style.cursor = 'pointer';
             const cogId = d.cogId || d.COG_ID || null;
             const cogName = d.cogName || d.COG_NAME || null;
             const koId = d.ko_id || d.ko || null;
@@ -372,6 +375,7 @@
         });
 
         cy.on('mouseout', 'node', evt => {
+            container.style.cursor = '';
             if (tip) tip.style.display = 'none';
         });
     }

@@ -41,6 +41,7 @@ Large or complete reproducibility datasets remain marked **Coming soon** until t
 - Protein-to-UniProt similarity-search results for all 542 genomes and representative matches for each OG.
 - Sample-level metatranscriptome mapping results and OG-level expression summaries used by the Metatranscriptome Viewer.
 - An all-vs-all average nucleotide identity matrix for the 542 SAR11 genomes.
+- A 95% ANI-dereplicated representative SAR11 genome set, accompanied by the cluster membership table, documented representative-selection criteria, and sequence archives. This is a technical dereplication resource rather than a species classification.
 - Profile HMM files and gene trees representing all 4,577 orthogroups.
 
 The compact summaries available from the website are intended for browsing and routine reuse. Use the future Zenodo archives when complete records, all intermediate outputs, or a citable frozen release are required.
