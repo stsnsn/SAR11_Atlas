@@ -1,0 +1,58 @@
+name: Sync GitHub Wiki
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "docs/wiki/**"
+      - ".github/workflows/wiki-sync.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-github-wiki
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Clone Wiki repository
+        run: |
+          git clone \
+            "https://github.com/${GITHUB_REPOSITORY}.wiki.git" \
+            wiki
+
+      - name: Synchronize Wiki files
+        run: |
+          rsync -av --delete \
+            --exclude=".git/" \
+            docs/wiki/ wiki/
+
+      - name: Commit and push changes
+        env:
+          WIKI_TOKEN: ${{ secrets.WIKI_TOKEN }}
+        run: |
+          git -C wiki config user.name "github-actions[bot]"
+          git -C wiki config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git -C wiki add -A
+
+          if git -C wiki diff --cached --quiet; then
+            echo "No Wiki changes to publish."
+            exit 0
+          fi
+
+          git -C wiki commit -m "Sync Wiki from ${GITHUB_SHA}"
+          wiki_branch="$(git -C wiki branch --show-current)"
+
+          git -C wiki push \
+            "https://${GITHUB_ACTOR}:${WIKI_TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git" \
+            "HEAD:${wiki_branch}"
