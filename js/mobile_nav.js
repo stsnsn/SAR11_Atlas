@@ -12,12 +12,15 @@
 
     function closeMenu() {
       sidebar.classList.remove('mobile-sidebar-open');
+      sidebar.classList.add('d-none');
       backdrop.classList.remove('mobile-sidebar-open');
       toggle.setAttribute('aria-expanded', 'false');
     }
 
     toggle.addEventListener('click', function () {
+      sidebar.classList.remove('d-none');
       var open = sidebar.classList.toggle('mobile-sidebar-open');
+      if (!open) sidebar.classList.add('d-none');
       backdrop.classList.toggle('mobile-sidebar-open', open);
       toggle.setAttribute('aria-expanded', String(open));
     });
