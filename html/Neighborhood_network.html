@@ -114,7 +114,33 @@
 
                 <script>
                     // Centralize the cosmograph URL so it can be updated in one place
-                    const cosmograph_url = "https://cosmograph.app/run/?data=https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/251203_net.tsv&meta=https://raw.githubusercontent.com/stsnsn/public_data/main/20240709/251202_nei_annot.tsv&source=query_num&target=target_num&gravity=1&repulsion=1&repulsionTheta=1.15&linkSpring=1&linkDistance=10&friction=0.85&renderLabels=true&renderHoveredLabel=true&renderLinks=true&linkArrows=true&nodeSizeScale=1&linkWidthScale=1&linkArrowsSizeScale=1&nodeSize=size-default&nodeColor=color-COG_LETTER&nodeLabel=Orthogroup&linkWidth=width-default&linkColor=color-default&";
+                    const networkUrl = "https://raw.githubusercontent.com/stsnsn/SAR11_Atlas/main/data/network/neighbor_network.tsv";
+                    const annotationUrl = "https://raw.githubusercontent.com/stsnsn/SAR11_Atlas/main/data/orthogroups/og_suggest.tsv";
+                    const cosmographParams = new URLSearchParams({
+                        data: networkUrl,
+                        meta: annotationUrl,
+                        source: 'source',
+                        target: 'target',
+                        gravity: '1',
+                        repulsion: '1',
+                        repulsionTheta: '1.15',
+                        linkSpring: '1',
+                        linkDistance: '10',
+                        friction: '0.85',
+                        renderLabels: 'true',
+                        renderHoveredLabel: 'true',
+                        renderLinks: 'true',
+                        linkArrows: 'true',
+                        nodeSizeScale: '1',
+                        linkWidthScale: '1',
+                        linkArrowsSizeScale: '1',
+                        nodeSize: 'size-default',
+                        nodeColor: 'color-cog_letter',
+                        nodeLabel: 'og_id',
+                        linkWidth: 'width-prevalence',
+                        linkColor: 'color-default'
+                    });
+                    const cosmograph_url = `https://cosmograph.app/run/?${cosmographParams.toString()}`;
                     // Assign the full-network URL to the separate Cosmograph view.
                     document.addEventListener('DOMContentLoaded', function() {
                         const here = document.getElementById('cosmograph_here');

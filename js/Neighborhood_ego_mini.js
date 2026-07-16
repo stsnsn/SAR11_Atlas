@@ -25,15 +25,21 @@
     async function loadTSV() {
         if (adjacency.size > 0) return;
         try {
-            const resp = await fetch('../data/network/251203_net.tsv');
+            const resp = await fetch('../data/network/neighbor_network.tsv');
             if (!resp.ok) throw new Error('Failed to fetch network TSV');
             const text = await resp.text();
             const lines = text.split(/\r?\n/).filter(Boolean);
+            const header = lines.shift().split('\t').map(h => h.trim());
+            const sourceIndex = header.indexOf('source');
+            const targetIndex = header.indexOf('target');
+            if (sourceIndex < 0 || targetIndex < 0) {
+                throw new Error('Network TSV must contain source and target columns');
+            }
             lines.forEach(line => {
                 const parts = line.split(/\t/);
-                if (parts.length < 2) return;
-                const a = ogToNumId(parts[0].trim());
-                const b = ogToNumId(parts[1].trim());
+                const a = ogToNumId((parts[sourceIndex] || '').trim());
+                const b = ogToNumId((parts[targetIndex] || '').trim());
+                if (!a || !b) return;
                 // record original direction a->b for rendering decisions
                 try { originalDirected.add(`${a}___${b}`); } catch (e) {}
                 if (!adjacency.has(a)) adjacency.set(a, []);
@@ -47,7 +53,7 @@
 
     async function loadAnnotations() {
         if (annotMap.size > 0) return;
-        const candidates = ['../data/network/251202_nei_annot.tsv'];
+        const candidates = ['../data/orthogroups/og_suggest.tsv'];
         for (const url of candidates) {
             try {
                 const resp = await fetch(url);
@@ -60,16 +66,16 @@
                     if (parts.length < 1) return;
                     const obj = {};
                     header.forEach((h,i) => { obj[h] = (parts[i]||'').trim(); });
-                    let key = null;
-                    if (obj.id && obj.id!=='') key = String(parseInt(obj.id,10));
-                    else if (obj.Orthogroup) key = ogToNumId(obj.Orthogroup);
-                    else if (obj.orthogroup) key = ogToNumId(obj.orthogroup);
+                    const og = obj.og_id || obj.Orthogroup || obj.orthogroup;
+                    const key = og ? ogToNumId(og) : null;
                     if (!key) return;
                     annotMap.set(String(key), {
                         raw: obj,
-                        COG_LETTER: obj.COG_LETTER || obj.Cog || obj.cog || null,
-                        COG_ID: obj.COG_ID || obj.cog_id || obj.COG || null,
-                        ko_id: obj.ko_id || obj.KO || obj.ko || null
+                        COG_LETTER: obj.cog_letter || obj.COG_LETTER || null,
+                        COG_ID: obj.cog || obj.COG_ID || null,
+                        COG_NAME: obj.cog_name || obj.COG_NAME || null,
+                        ko_id: obj.ko || obj.ko_id || null,
+                        ko_name: obj.ko_name || obj.ko_description || null
                     });
                 });
                 console.log('mini loadAnnotations loaded', annotMap.size);

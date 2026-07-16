@@ -36,19 +36,24 @@
         return 'OG' + String(n).padStart(7, '0');
     }
 
-    // Load TSV into adjacency list (expects first two columns: source \t target)
+    // Load the directed neighboring network into an undirected traversal map.
     async function loadTSV() {
         try {
-            const resp = await fetch('../data/network/251203_net.tsv');
+            const resp = await fetch('../data/network/neighbor_network.tsv');
             if (!resp.ok) throw new Error('Failed to fetch network TSV');
             const text = await resp.text();
             const lines = text.split(/\r?\n/).filter(Boolean);
+            const header = lines.shift().split('\t').map(h => h.trim());
+            const sourceIndex = header.indexOf('source');
+            const targetIndex = header.indexOf('target');
+            if (sourceIndex < 0 || targetIndex < 0) {
+                throw new Error('Network TSV must contain source and target columns');
+            }
             lines.forEach(line => {
                 const parts = line.split(/\t/);
-                if (parts.length < 2) return;
                 // Normalize IDs to numeric suffix strings (no leading zeros)
-                const a0 = parts[0].trim();
-                const b0 = parts[1].trim();
+                const a0 = (parts[sourceIndex] || '').trim();
+                const b0 = (parts[targetIndex] || '').trim();
                 if (!a0 || !b0) return;
                 const a = ogToNumId(a0);
                 const b = ogToNumId(b0);
@@ -65,11 +70,9 @@
         }
     }
 
-    // Load annotation TSV (try a couple of likely filenames) and populate annotMap
+    // Use the shared orthogroup summary for node labels, colors, and tooltips.
     async function loadAnnotations() {
-        const candidates = [
-            '../data/network/251202_nei_annot.tsv'
-        ];
+        const candidates = ['../data/orthogroups/og_suggest.tsv'];
         for (const url of candidates) {
             try {
                 const resp = await fetch(url);
@@ -82,18 +85,17 @@
                     if (parts.length < 1) return;
                     const obj = {};
                     header.forEach((h, i) => { obj[h] = (parts[i] || '').trim(); });
-                    // prefer numeric id column 'id' if present, otherwise use Orthogroup
-                    let key = null;
-                    if (obj.id && obj.id !== '') key = String(parseInt(obj.id, 10));
-                    else if (obj.Orthogroup) key = ogToNumId(obj.Orthogroup);
-                    else if (obj.orthogroup) key = ogToNumId(obj.orthogroup);
+                    const og = obj.og_id || obj.Orthogroup || obj.orthogroup;
+                    const key = og ? ogToNumId(og) : null;
                     if (!key) return;
                     // store parsed fields plus raw object for flexible lookups
                     annotMap.set(String(key), {
-                        og: obj.Orthogroup || obj.orthogroup || numIdToOg(key),
-                        COG_LETTER: obj.COG_LETTER || obj.Cog || obj.cog || null,
-                        COG_ID: obj.COG_ID || obj.cog_id || obj.COG || null,
-                        ko_id: obj.ko_id || obj.KO || obj.ko || null,
+                        og: og || numIdToOg(key),
+                        COG_LETTER: obj.cog_letter || obj.COG_LETTER || null,
+                        COG_ID: obj.cog || obj.COG_ID || null,
+                        COG_NAME: obj.cog_name || obj.COG_NAME || null,
+                        ko_id: obj.ko || obj.ko_id || null,
+                        ko_name: obj.ko_name || obj.ko_description || null,
                         // keep raw row so we can search for alternative name/description columns
                         raw: obj
                     });

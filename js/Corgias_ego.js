@@ -83,11 +83,9 @@
         }
     }
 
-    // Load annotation TSV (try a couple of likely filenames) and populate annotMap
+    // Use the shared orthogroup summary for node labels, colors, and tooltips.
     async function loadAnnotations() {
-        const candidates = [
-            '../data/network/251202_nei_annot.tsv'
-        ];
+        const candidates = ['../data/orthogroups/og_suggest.tsv'];
         for (const url of candidates) {
             try {
                 const resp = await fetch(url);
@@ -100,18 +98,17 @@
                     if (parts.length < 1) return;
                     const obj = {};
                     header.forEach((h, i) => { obj[h] = (parts[i] || '').trim(); });
-                    // prefer numeric id column 'id' if present, otherwise use Orthogroup
-                    let key = null;
-                    if (obj.id && obj.id !== '') key = String(parseInt(obj.id, 10));
-                    else if (obj.Orthogroup) key = ogToNumId(obj.Orthogroup);
-                    else if (obj.orthogroup) key = ogToNumId(obj.orthogroup);
+                    const og = obj.og_id || obj.Orthogroup || obj.orthogroup;
+                    const key = og ? ogToNumId(og) : null;
                     if (!key) return;
                     // store parsed fields plus raw object for flexible lookups
                     annotMap.set(String(key), {
-                        og: obj.Orthogroup || obj.orthogroup || numIdToOg(key),
-                        COG_LETTER: obj.COG_LETTER || obj.Cog || obj.cog || null,
-                        COG_ID: obj.COG_ID || obj.cog_id || obj.COG || null,
-                        ko_id: obj.ko_id || obj.KO || obj.ko || null,
+                        og: og || numIdToOg(key),
+                        COG_LETTER: obj.cog_letter || obj.COG_LETTER || null,
+                        COG_ID: obj.cog || obj.COG_ID || null,
+                        COG_NAME: obj.cog_name || obj.COG_NAME || null,
+                        ko_id: obj.ko || obj.ko_id || null,
+                        ko_name: obj.ko_name || obj.ko_description || null,
                         // keep raw row so we can search for alternative name/description columns
                         raw: obj
                     });
