@@ -110,3 +110,47 @@ button:hover {
   background-color: #00796b; /* ホバー時に海の緑色 */
 }
 
+.mobile-menu-toggle {
+  display: none;
+}
+
+.mobile-sidebar-backdrop {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .mobile-menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin-left: auto;
+    padding: 0;
+    color: #fff;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.35rem;
+  }
+
+  .mobile-menu-toggle:hover,
+  .mobile-menu-toggle:focus {
+    background: rgba(255, 255, 255, 0.14);
+  }
+
+  .sidebar.mobile-sidebar-open {
+    display: block !important;
+    width: min(82vw, 300px);
+    padding-top: 48px;
+    z-index: 1040;
+  }
+
+  .mobile-sidebar-backdrop.mobile-sidebar-open {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 1030;
+    background: rgba(0, 18, 32, 0.55);
+  }
+}
