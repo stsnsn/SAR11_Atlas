@@ -88,6 +88,38 @@
         });
     }
 
+    function themeToggleIcon(mode) {
+        if (mode === "deep") {
+            return `
+                <svg class="theme-toggle__icon" viewBox="0 0 28 20" aria-hidden="true">
+                    <path d="M5 8.5h12.5a5 5 0 0 1 0 10H7.5a5 5 0 0 1-2.5-9.33V8.5Z" />
+                    <path d="M10 8.5V5.75h5V8.5M12.5 5.75V3.5h3.25" />
+                    <circle cx="10" cy="13.5" r="1.5" />
+                    <circle cx="15" cy="13.5" r="1.5" />
+                    <path class="theme-toggle__beam" d="m22 11 5-2.5v7L22 13" />
+                </svg>`;
+        }
+
+        return `
+            <svg class="theme-toggle__icon" viewBox="0 0 28 20" aria-hidden="true">
+                <path class="theme-toggle__sun" d="M10 10a4 4 0 0 1 8 0M14 1.5V4M6.5 4.25 8.25 6M21.5 4.25 19.75 6" />
+                <path d="M2 12.5c2.15-1.8 4.3-1.8 6.45 0s4.3 1.8 6.45 0 4.3-1.8 6.45 0 4.3 1.8 6.45 0M2 17c2.15-1.8 4.3-1.8 6.45 0s4.3 1.8 6.45 0 4.3-1.8 6.45 0 4.3 1.8 6.45 0" />
+            </svg>`;
+    }
+
+    function renderThemeToggle(button, dark) {
+        const nextMode = dark ? "shallow" : "deep";
+        button.classList.toggle("is-deep", dark);
+        button.innerHTML = `
+            ${themeToggleIcon("shallow")}
+            <span class="theme-toggle__track" aria-hidden="true">
+                <span class="theme-toggle__knob"></span>
+            </span>
+            ${themeToggleIcon("deep")}`;
+        button.setAttribute("aria-label", `Switch to ${nextMode} mode`);
+        button.setAttribute("title", `Switch to ${nextMode} mode`);
+    }
+
     function applyTheme(dark, persist) {
         document.body.classList.toggle("dark-mode", dark);
 
@@ -95,7 +127,7 @@
         if (table) table.classList.toggle("dark-mode", dark);
 
         document.querySelectorAll("[data-theme-toggle]").forEach((button) => {
-            button.textContent = dark ? "Light mode" : "Dark mode";
+            renderThemeToggle(button, dark);
             button.setAttribute("aria-pressed", String(dark));
         });
 
