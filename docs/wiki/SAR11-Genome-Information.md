@@ -1,6 +1,6 @@
 # SAR11 Genome Information
 
-This page provides three linked views for exploring SAR11 genome metadata: a genome sampling map, an interactive phylogenetic tree, and a searchable genome information table.
+The Genome Information page provides three linked views for exploring the genomes included in the SAR11 Genome Atlas: a sampling-location map, an interactive phylogenetic tree, and a searchable metadata table.
 
 ## SAR11 Genome Map
 
@@ -23,9 +23,9 @@ Markers that are close together are automatically grouped into clusters. The num
 
 Click an individual marker to open a popup containing the metadata for that genome.
 
-## The 544 SAR11 Genomes Tree
+## SAR11 Genome Phylogeny
 
-The phylogenetic tree summarizes relationships among the 544 SAR11 genomes included in the atlas. The tree is displayed with Taxonium, which supports interactive zooming, panning, searching, and metadata-based coloring.
+The phylogenetic tree summarizes relationships among the SAR11 genomes included in the atlas. It is displayed with Taxonium, which supports interactive zooming, panning, searching, and metadata-based coloring.
 
 Use the tree controls to:
 
@@ -35,11 +35,11 @@ Use the tree controls to:
 - Change tip color coding with the **Color by:** menu.
 - Click or hover over tree tips to view genome metadata.
 
-The tree file and associated metadata are available from the **Download** page.
+The tree file and associated metadata are available from the [Download](Download) page.
 
 ## SAR11 Genome Information Table
 
-The genome information table lists metadata for 564 genomes, including 544 SAR11 genomes and 20 cultured alpha-proteobacteria used as outgroups.
+The genome information table lists the SAR11 genomes and cultured alphaproteobacterial genomes used as phylogenetic outgroups. Available fields include taxonomy, genome source, sampling information, genome quality, assembly statistics, and accession information where available.
 
 Use the table controls to:
 
@@ -50,6 +50,7 @@ Use the table controls to:
 
 Use **Full screen view** to open the table in a dedicated page when a wider view is needed.
 
-## Notes For Wiki Expansion
+## Related Pages
 
-This document is a local draft for the future GitHub Wiki. When the wiki is assembled, this page can be used as the entry for `SAR11_phylogeny.html` and linked from a broader page index covering all SAR11 Genome Atlas sections.
+- [Overview](Overview) summarizes genome size, GC content, source type, and annotation coverage.
+- [Download](Download) provides access to genome metadata and phylogenetic resources.
