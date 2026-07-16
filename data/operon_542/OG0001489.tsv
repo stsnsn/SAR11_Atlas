@@ -1,0 +1,845 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CVSB01000053.1	1187	2098	-	AAA795-A20_01091	AAA795-A20	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AAA795-A20_01093	-2
+CVSB01000053.1	2104	3159	-	AAA795-A20_01092	AAA795-A20	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AAA795-A20_01093	-1
+CVSB01000053.1	3159	5357	-	AAA795-A20_01093	AAA795-A20	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AAA795-A20_01093	0
+CVSB01000053.1	5370	6407	-	AAA795-A20_01094	AAA795-A20	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AAA795-A20_01093	1
+CVSB01000053.1	6604	7410	+	AAA795-A20_01095	AAA795-A20	268	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AAA795-A20_01093	2
+CVSB01000053.1	7407	8366	-	AAA795-A20_01096	AAA795-A20	319	OG0000084	NA	NA	COG2512	NA	Predicted transcriptional regulator, contains CW (cell wall-binding) repeats and an HTH domain	AAA795-A20_01093	3
+CVSB01000053.1	8483	8680	+	AAA795-A20_01097	AAA795-A20	65	OG0001133	NA	NA	NA	NA	NA	AAA795-A20_01093	4
+CVSB01000053.1	8669	9673	-	AAA795-A20_01098	AAA795-A20	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AAA795-A20_01093	5
+CABYCY010000016.1	13805	14809	+	AG-333-A04_01256	AG-333-A04	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-333-A04_01261	-5
+CABYCY010000016.1	14798	15010	-	AG-333-A04_01257	AG-333-A04	70	OG0001133	NA	NA	NA	NA	NA	AG-333-A04_01261	-4
+CABYCY010000016.1	15095	16057	+	AG-333-A04_01258	AG-333-A04	320	OG0000084	NA	NA	NA	NA	NA	AG-333-A04_01261	-3
+CABYCY010000016.1	16050	16910	-	AG-333-A04_01259	AG-333-A04	286	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-333-A04_01261	-2
+CABYCY010000016.1	17054	18091	+	AG-333-A04_01260	AG-333-A04	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-333-A04_01261	-1
+CABYCY010000016.1	18104	20296	+	AG-333-A04_01261	AG-333-A04	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-333-A04_01261	0
+CABYCY010000016.1	20969	21184	-	AG-333-A04_01262	AG-333-A04	71	NA	NA	NA	NA	NA	NA	AG-333-A04_01261	1
+CACBGQ010000003.1	47486	48490	+	AG-349-O05_00334	AG-349-O05	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-349-O05_00339	-5
+CACBGQ010000003.1	48479	48676	-	AG-349-O05_00335	AG-349-O05	65	OG0001133	NA	NA	NA	NA	NA	AG-349-O05_00339	-4
+CACBGQ010000003.1	48780	49739	+	AG-349-O05_00336	AG-349-O05	319	OG0000084	NA	NA	COG1349	GlpR	DNA-binding transcriptional regulator of sugar metabolism, DeoR/GlpR family	AG-349-O05_00339	-3
+CACBGQ010000003.1	49736	50542	-	AG-349-O05_00337	AG-349-O05	268	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-349-O05_00339	-2
+CACBGQ010000003.1	50742	51779	+	AG-349-O05_00338	AG-349-O05	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-349-O05_00339	-1
+CACBGQ010000003.1	51792	53990	+	AG-349-O05_00339	AG-349-O05	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-349-O05_00339	0
+CACBGQ010000003.1	53990	55045	+	AG-349-O05_00340	AG-349-O05	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-349-O05_00339	1
+CACBGQ010000003.1	55051	55962	+	AG-349-O05_00341	AG-349-O05	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-349-O05_00339	2
+CACBGQ010000003.1	56023	57309	+	AG-349-O05_00342	AG-349-O05	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-349-O05_00339	3
+CACBGQ010000003.1	57306	58568	-	AG-349-O05_00343	AG-349-O05	420	OG0001281	NA	NA	COG3408	GDB1	Glycogen debranching enzyme (alpha-1,6-glucosidase)	AG-349-O05_00339	4
+CACBGQ010000003.1	58568	59761	-	AG-349-O05_00344	AG-349-O05	397	OG0000002	NA	NA	COG0395	UgpE	ABC-type glycerol-3-phosphate transport system, permease component	AG-349-O05_00339	5
+CACBQD010000004.1	249	464	+	AG-359-G17_00290	AG-359-G17	71	NA	NA	NA	NA	NA	NA	AG-359-G17_00292	-2
+CACBQD010000004.1	575	1612	+	AG-359-G17_00291	AG-359-G17	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-359-G17_00292	-1
+CACBQD010000004.1	1622	3820	+	AG-359-G17_00292	AG-359-G17	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-359-G17_00292	0
+CACBQD010000004.1	3820	4875	+	AG-359-G17_00293	AG-359-G17	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-359-G17_00292	1
+CACBQD010000004.1	4879	6804	-	AG-359-G17_00294	AG-359-G17	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-359-G17_00292	2
+CACBQD010000004.1	6805	7602	-	AG-359-G17_00295	AG-359-G17	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-359-G17_00292	3
+CACBQD010000004.1	7685	8626	-	AG-359-G17_00296	AG-359-G17	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-359-G17_00292	4
+CACBQD010000004.1	8800	10161	+	AG-359-G17_00297	AG-359-G17	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-359-G17_00292	5
+CACDRL010000012.1	21761	22765	+	AG-390-C17_01182	AG-390-C17	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-390-C17_01187	-5
+CACDRL010000012.1	22754	22951	-	AG-390-C17_01183	AG-390-C17	65	OG0001133	NA	NA	NA	NA	NA	AG-390-C17_01187	-4
+CACDRL010000012.1	23068	24027	+	AG-390-C17_01184	AG-390-C17	319	OG0000084	NA	NA	COG1349	GlpR	DNA-binding transcriptional regulator of sugar metabolism, DeoR/GlpR family	AG-390-C17_01187	-3
+CACDRL010000012.1	24024	24875	-	AG-390-C17_01185	AG-390-C17	283	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-390-C17_01187	-2
+CACDRL010000012.1	25030	26067	+	AG-390-C17_01186	AG-390-C17	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-390-C17_01187	-1
+CACDRL010000012.1	26080	28272	+	AG-390-C17_01187	AG-390-C17	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-390-C17_01187	0
+CACDRL010000012.1	28276	29331	+	AG-390-C17_01188	AG-390-C17	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-390-C17_01187	1
+CACDRL010000012.1	29336	30247	+	AG-390-C17_01189	AG-390-C17	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-390-C17_01187	2
+CACDRL010000012.1	30309	31595	+	AG-390-C17_01190	AG-390-C17	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-390-C17_01187	3
+CACDRL010000012.1	31613	31978	+	AG-390-C17_01191	AG-390-C17	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	AG-390-C17_01187	4
+CACDRL010000012.1	31975	33060	-	AG-390-C17_01192	AG-390-C17	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	AG-390-C17_01187	5
+CACDYK010000004.1	54325	55329	+	AG-390-G11_00478	AG-390-G11	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-390-G11_00483	-5
+CACDYK010000004.1	55318	55512	-	AG-390-G11_00479	AG-390-G11	64	OG0001133	NA	NA	COG4152	YhaQ	ABC-type uncharacterized transport system, ATPase component	AG-390-G11_00483	-4
+CACDYK010000004.1	55613	56620	+	AG-390-G11_00480	AG-390-G11	335	OG0000084	NA	NA	NA	NA	NA	AG-390-G11_00483	-3
+CACDYK010000004.1	56622	57467	-	AG-390-G11_00481	AG-390-G11	281	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-390-G11_00483	-2
+CACDYK010000004.1	57642	58667	+	AG-390-G11_00482	AG-390-G11	341	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-390-G11_00483	-1
+CACDYK010000004.1	58680	60878	+	AG-390-G11_00483	AG-390-G11	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-390-G11_00483	0
+CACDYK010000004.1	60878	61933	+	AG-390-G11_00484	AG-390-G11	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-390-G11_00483	1
+CACDYK010000004.1	61930	63102	-	AG-390-G11_00485	AG-390-G11	390	OG0001408	NA	NA	COG0596	MenH	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase MenH/undecaprenyl monophosphate-sugar esterase UshA/YqjL	AG-390-G11_00483	2
+CACDYK010000004.1	63175	64086	+	AG-390-G11_00486	AG-390-G11	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-390-G11_00483	3
+CACDYK010000004.1	64251	65537	+	AG-390-G11_00487	AG-390-G11	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-390-G11_00483	4
+CACDYK010000004.1	65542	66294	-	AG-390-G11_00488	AG-390-G11	250	OG0000051	NA	NA	COG0596	MenH	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase MenH/undecaprenyl monophosphate-sugar esterase UshA/YqjL	AG-390-G11_00483	5
+CACDZS010000007.1	49908	50813	+	AG-390-I15_00758	AG-390-I15	301	OG0000934	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-390-I15_00763	-5
+CACDZS010000007.1	50817	51932	+	AG-390-I15_00759	AG-390-I15	371	OG0000943	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	AG-390-I15_00763	-4
+CACDZS010000007.1	51937	52164	-	AG-390-I15_00760	AG-390-I15	75	OG0001075	NA	NA	COG5559	NA	Uncharacterized conserved protein, DUF2281 domain	AG-390-I15_00763	-3
+CACDZS010000007.1	52243	53424	+	AG-390-I15_00761	AG-390-I15	393	OG0001408	NA	NA	COG0596	MenH	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase MenH/undecaprenyl monophosphate-sugar esterase UshA/YqjL	AG-390-I15_00763	-2
+CACDZS010000007.1	53414	54469	-	AG-390-I15_00762	AG-390-I15	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-390-I15_00763	-1
+CACDZS010000007.1	54469	56667	-	AG-390-I15_00763	AG-390-I15	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-390-I15_00763	0
+CACDZS010000007.1	56680	57717	-	AG-390-I15_00764	AG-390-I15	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-390-I15_00763	1
+CACDZS010000007.1	58052	59533	+	AG-390-I15_00765	AG-390-I15	493	OG0001003	K09472	4-(gamma-glutamylamino)butanal dehydrogenase [EC:1.2.1.99]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-390-I15_00763	2
+CACDZS010000007.1	59658	60707	+	AG-390-I15_00766	AG-390-I15	349	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-390-I15_00763	3
+CACDZS010000007.1	60799	62082	+	AG-390-I15_00767	AG-390-I15	427	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-390-I15_00763	4
+CACDZS010000007.1	62087	62596	+	AG-390-I15_00768	AG-390-I15	169	OG0001487	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-390-I15_00763	5
+CACGAU010000001.1	109059	110063	+	AG-422-B22_00135	AG-422-B22	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-422-B22_00140	-5
+CACGAU010000001.1	110052	110249	-	AG-422-B22_00136	AG-422-B22	65	OG0001133	NA	NA	NA	NA	NA	AG-422-B22_00140	-4
+CACGAU010000001.1	110366	111325	+	AG-422-B22_00137	AG-422-B22	319	OG0000084	NA	NA	COG2512	NA	Predicted transcriptional regulator, contains CW (cell wall-binding) repeats and an HTH domain	AG-422-B22_00140	-3
+CACGAU010000001.1	111322	112128	-	AG-422-B22_00138	AG-422-B22	268	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-422-B22_00140	-2
+CACGAU010000001.1	112327	113364	+	AG-422-B22_00139	AG-422-B22	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-422-B22_00140	-1
+CACGAU010000001.1	113377	115575	+	AG-422-B22_00140	AG-422-B22	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-422-B22_00140	0
+CACGAU010000001.1	115575	116630	+	AG-422-B22_00141	AG-422-B22	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-422-B22_00140	1
+CACGAU010000001.1	116636	117547	+	AG-422-B22_00142	AG-422-B22	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-422-B22_00140	2
+CACGAU010000001.1	117607	118893	+	AG-422-B22_00143	AG-422-B22	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-422-B22_00140	3
+CACGAU010000001.1	118911	119276	+	AG-422-B22_00144	AG-422-B22	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	AG-422-B22_00140	4
+CACGAU010000001.1	119273	120538	-	AG-422-B22_00145	AG-422-B22	421	OG0001281	NA	NA	COG3408	GDB1	Glycogen debranching enzyme (alpha-1,6-glucosidase)	AG-422-B22_00140	5
+CACGDQ010000002.1	2	763	+	AG-422-D23_00434	AG-422-D23	253	OG0000002	NA	NA	COG0395	UgpE	ABC-type glycerol-3-phosphate transport system, permease component	AG-422-D23_00439	-5
+CACGDQ010000002.1	763	2019	+	AG-422-D23_00435	AG-422-D23	418	OG0001281	NA	NA	COG3408	GDB1	Glycogen debranching enzyme (alpha-1,6-glucosidase)	AG-422-D23_00439	-4
+CACGDQ010000002.1	2022	3308	-	AG-422-D23_00436	AG-422-D23	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-422-D23_00439	-3
+CACGDQ010000002.1	3383	4294	-	AG-422-D23_00437	AG-422-D23	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-422-D23_00439	-2
+CACGDQ010000002.1	4300	5355	-	AG-422-D23_00438	AG-422-D23	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-422-D23_00439	-1
+CACGDQ010000002.1	5355	7553	-	AG-422-D23_00439	AG-422-D23	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-422-D23_00439	0
+CACGDQ010000002.1	7566	8603	-	AG-422-D23_00440	AG-422-D23	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-422-D23_00439	1
+CACGDQ010000002.1	8803	9609	+	AG-422-D23_00441	AG-422-D23	268	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-422-D23_00439	2
+CACGDQ010000002.1	9606	10568	-	AG-422-D23_00442	AG-422-D23	320	OG0000084	NA	NA	COG1349	GlpR	DNA-binding transcriptional regulator of sugar metabolism, DeoR/GlpR family	AG-422-D23_00439	3
+CACGDQ010000002.1	10683	10880	+	AG-422-D23_00443	AG-422-D23	65	OG0001133	NA	NA	NA	NA	NA	AG-422-D23_00439	4
+CACGDQ010000002.1	10869	11873	-	AG-422-D23_00444	AG-422-D23	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-422-D23_00439	5
+CACJIJ010000025.1	55	1806	+	AG-447-E19_01115	AG-447-E19	583	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-447-E19_01115	0
+CACJIJ010000025.1	1806	2861	+	AG-447-E19_01116	AG-447-E19	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-447-E19_01115	1
+CACJIJ010000025.1	2867	3778	+	AG-447-E19_01117	AG-447-E19	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-447-E19_01115	2
+CACJIJ010000025.1	3839	5125	+	AG-447-E19_01118	AG-447-E19	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-447-E19_01115	3
+CACJIJ010000025.1	5122	6384	-	AG-447-E19_01119	AG-447-E19	420	OG0001281	NA	NA	COG3408	GDB1	Glycogen debranching enzyme (alpha-1,6-glucosidase)	AG-447-E19_01115	4
+CACJIJ010000025.1	6384	7577	-	AG-447-E19_01120	AG-447-E19	397	OG0000002	NA	NA	COG0395	UgpE	ABC-type glycerol-3-phosphate transport system, permease component	AG-447-E19_01115	5
+CACJNJ010000004.1	57536	58621	+	AG-447-K11_00507	AG-447-K11	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	AG-447-K11_00512	-5
+CACJNJ010000004.1	58618	58983	-	AG-447-K11_00508	AG-447-K11	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	AG-447-K11_00512	-4
+CACJNJ010000004.1	59001	60287	-	AG-447-K11_00509	AG-447-K11	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-447-K11_00512	-3
+CACJNJ010000004.1	60349	61260	-	AG-447-K11_00510	AG-447-K11	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-447-K11_00512	-2
+CACJNJ010000004.1	61265	62320	-	AG-447-K11_00511	AG-447-K11	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-447-K11_00512	-1
+CACJNJ010000004.1	62324	64516	-	AG-447-K11_00512	AG-447-K11	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-447-K11_00512	0
+CACJNJ010000004.1	64529	65566	-	AG-447-K11_00513	AG-447-K11	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-447-K11_00512	1
+CACJNJ010000004.1	65721	66572	+	AG-447-K11_00514	AG-447-K11	283	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-447-K11_00512	2
+CACJNJ010000004.1	66569	67531	-	AG-447-K11_00515	AG-447-K11	320	OG0000084	NA	NA	COG2512	NA	Predicted transcriptional regulator, contains CW (cell wall-binding) repeats and an HTH domain	AG-447-K11_00512	3
+CACJNJ010000004.1	67648	67845	+	AG-447-K11_00516	AG-447-K11	65	OG0001133	NA	NA	NA	NA	NA	AG-447-K11_00512	4
+CACJNJ010000004.1	67834	68838	-	AG-447-K11_00517	AG-447-K11	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-447-K11_00512	5
+CACJMB010000004.1	72835	73026	-	AG-447-L03_00790	AG-447-L03	63	OG0001220	NA	NA	NA	NA	NA	AG-447-L03_00795	-5
+CACJMB010000004.1	73076	74050	+	AG-447-L03_00791	AG-447-L03	324	OG0001852	NA	NA	COG4448	AnsA2	L-asparaginase II	AG-447-L03_00795	-4
+CACJMB010000004.1	74053	75339	-	AG-447-L03_00792	AG-447-L03	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-447-L03_00795	-3
+CACJMB010000004.1	75399	76310	-	AG-447-L03_00793	AG-447-L03	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-447-L03_00795	-2
+CACJMB010000004.1	76316	77371	-	AG-447-L03_00794	AG-447-L03	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-447-L03_00795	-1
+CACJMB010000004.1	77371	79569	-	AG-447-L03_00795	AG-447-L03	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-447-L03_00795	0
+CACJMB010000004.1	79582	80619	-	AG-447-L03_00796	AG-447-L03	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-447-L03_00795	1
+CACJMB010000004.1	80821	81627	+	AG-447-L03_00797	AG-447-L03	268	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-447-L03_00795	2
+CACJMB010000004.1	81624	82586	-	AG-447-L03_00798	AG-447-L03	320	OG0000084	NA	NA	NA	NA	NA	AG-447-L03_00795	3
+CACJMB010000004.1	82702	82899	+	AG-447-L03_00799	AG-447-L03	65	OG0001133	NA	NA	NA	NA	NA	AG-447-L03_00795	4
+CACJMB010000004.1	82888	83928	-	AG-447-L03_00800	AG-447-L03	346	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-447-L03_00795	5
+CACJQI010000014.1	11700	11972	+	AG-447-M05_01347	AG-447-M05	90	OG0001584	NA	NA	NA	NA	NA	AG-447-M05_01352	-5
+CACJQI010000014.1	11989	12948	-	AG-447-M05_01348	AG-447-M05	319	OG0001428	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-447-M05_01352	-4
+CACJQI010000014.1	12993	14057	+	AG-447-M05_01349	AG-447-M05	354	OG0000040	K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	AG-447-M05_01352	-3
+CACJQI010000014.1	14064	14855	+	AG-447-M05_01350	AG-447-M05	263	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-447-M05_01352	-2
+CACJQI010000014.1	15039	16373	+	AG-447-M05_01351	AG-447-M05	444	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-447-M05_01352	-1
+CACJQI010000014.1	16426	18108	+	AG-447-M05_01352	AG-447-M05	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-447-M05_01352	0
+CACJQI010000014.1	18108	19148	+	AG-447-M05_01353	AG-447-M05	346	OG0000109	NA	NA	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-447-M05_01352	1
+CACJQI010000014.1	19148	19807	+	AG-447-M05_01354	AG-447-M05	219	NA	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-447-M05_01352	2
+CACMIH010000017.1	273	1559	-	AG-891-I18_01470	AG-891-I18	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-891-I18_01473	-3
+CACMIH010000017.1	1620	2531	-	AG-891-I18_01471	AG-891-I18	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-891-I18_01473	-2
+CACMIH010000017.1	2537	3592	-	AG-891-I18_01472	AG-891-I18	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-891-I18_01473	-1
+CACMIH010000017.1	3592	5790	-	AG-891-I18_01473	AG-891-I18	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-891-I18_01473	0
+CACMIH010000017.1	5802	6788	-	AG-891-I18_01474	AG-891-I18	328	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-891-I18_01473	1
+CACMRC010000008.1	33891	34895	+	AG-892-A22_01041	AG-892-A22	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-892-A22_01046	-5
+CACMRC010000008.1	34884	35081	-	AG-892-A22_01042	AG-892-A22	65	OG0001133	NA	NA	NA	NA	NA	AG-892-A22_01046	-4
+CACMRC010000008.1	35197	36159	+	AG-892-A22_01043	AG-892-A22	320	OG0000084	NA	NA	COG1349	GlpR	DNA-binding transcriptional regulator of sugar metabolism, DeoR/GlpR family	AG-892-A22_01046	-3
+CACMRC010000008.1	36156	36962	-	AG-892-A22_01044	AG-892-A22	268	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-892-A22_01046	-2
+CACMRC010000008.1	37162	38199	+	AG-892-A22_01045	AG-892-A22	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-892-A22_01046	-1
+CACMRC010000008.1	38212	40410	+	AG-892-A22_01046	AG-892-A22	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-892-A22_01046	0
+CACMRC010000008.1	40410	41465	+	AG-892-A22_01047	AG-892-A22	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-892-A22_01046	1
+CACMRC010000008.1	41471	42382	+	AG-892-A22_01048	AG-892-A22	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-892-A22_01046	2
+CACMRC010000008.1	42458	43744	+	AG-892-A22_01049	AG-892-A22	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-892-A22_01046	3
+CACMRC010000008.1	43747	45003	-	AG-892-A22_01050	AG-892-A22	418	OG0001281	NA	NA	COG3408	GDB1	Glycogen debranching enzyme (alpha-1,6-glucosidase)	AG-892-A22_01046	4
+CACMRC010000008.1	45003	46196	-	AG-892-A22_01051	AG-892-A22	397	OG0000002	K02026	multiple sugar transport system permease protein	COG0395	UgpE	ABC-type glycerol-3-phosphate transport system, permease component	AG-892-A22_01046	5
+CACMWB010000003.1	25395	26588	+	AG-892-F02_00469	AG-892-F02	397	OG0000002	NA	NA	COG0395	UgpE	ABC-type glycerol-3-phosphate transport system, permease component	AG-892-F02_00474	-5
+CACMWB010000003.1	26588	27850	+	AG-892-F02_00470	AG-892-F02	420	OG0001281	NA	NA	COG3408	GDB1	Glycogen debranching enzyme (alpha-1,6-glucosidase)	AG-892-F02_00474	-4
+CACMWB010000003.1	27847	29133	-	AG-892-F02_00471	AG-892-F02	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-892-F02_00474	-3
+CACMWB010000003.1	29194	30105	-	AG-892-F02_00472	AG-892-F02	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-892-F02_00474	-2
+CACMWB010000003.1	30111	31166	-	AG-892-F02_00473	AG-892-F02	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-892-F02_00474	-1
+CACMWB010000003.1	31166	33364	-	AG-892-F02_00474	AG-892-F02	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-892-F02_00474	0
+CACMWB010000003.1	33377	34414	-	AG-892-F02_00475	AG-892-F02	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-892-F02_00474	1
+CACMWB010000003.1	34612	35418	+	AG-892-F02_00476	AG-892-F02	268	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-892-F02_00474	2
+CACMWB010000003.1	35415	36374	-	AG-892-F02_00477	AG-892-F02	319	OG0000084	NA	NA	COG2512	NA	Predicted transcriptional regulator, contains CW (cell wall-binding) repeats and an HTH domain	AG-892-F02_00474	3
+CACMWB010000003.1	36491	36688	+	AG-892-F02_00478	AG-892-F02	65	OG0001133	NA	NA	NA	NA	NA	AG-892-F02_00474	4
+CACMWB010000003.1	36677	37681	-	AG-892-F02_00479	AG-892-F02	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-892-F02_00474	5
+CACNCJ010000002.1	15843	16847	+	AG-892-L17_00266	AG-892-L17	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-892-L17_00271	-5
+CACNCJ010000002.1	16836	17033	-	AG-892-L17_00267	AG-892-L17	65	OG0001133	NA	NA	NA	NA	NA	AG-892-L17_00271	-4
+CACNCJ010000002.1	17151	18113	+	AG-892-L17_00268	AG-892-L17	320	OG0000084	NA	NA	COG1349	GlpR	DNA-binding transcriptional regulator of sugar metabolism, DeoR/GlpR family	AG-892-L17_00271	-3
+CACNCJ010000002.1	18110	18916	-	AG-892-L17_00269	AG-892-L17	268	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-892-L17_00271	-2
+CACNCJ010000002.1	19115	20152	+	AG-892-L17_00270	AG-892-L17	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-892-L17_00271	-1
+CACNCJ010000002.1	20165	22363	+	AG-892-L17_00271	AG-892-L17	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-892-L17_00271	0
+CACNCJ010000002.1	22363	23418	+	AG-892-L17_00272	AG-892-L17	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-892-L17_00271	1
+CACNCJ010000002.1	23424	24335	+	AG-892-L17_00273	AG-892-L17	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-892-L17_00271	2
+CACNCJ010000002.1	24396	25682	+	AG-892-L17_00274	AG-892-L17	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-892-L17_00271	3
+CACNCJ010000002.1	25687	26946	-	AG-892-L17_00275	AG-892-L17	419	OG0001281	NA	NA	COG3408	GDB1	Glycogen debranching enzyme (alpha-1,6-glucosidase)	AG-892-L17_00271	4
+CACNCJ010000002.1	26946	28139	-	AG-892-L17_00276	AG-892-L17	397	OG0000002	NA	NA	COG0395	UgpE	ABC-type glycerol-3-phosphate transport system, permease component	AG-892-L17_00271	5
+CACNPC010000002.1	191401	192249	+	AG-893-J08_00548	AG-893-J08	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-893-J08_00553	-5
+CACNPC010000002.1	192242	193204	-	AG-893-J08_00549	AG-893-J08	320	OG0000084	NA	NA	NA	NA	NA	AG-893-J08_00553	-4
+CACNPC010000002.1	193307	193513	+	AG-893-J08_00550	AG-893-J08	68	OG0001133	NA	NA	NA	NA	NA	AG-893-J08_00553	-3
+CACNPC010000002.1	193510	194514	-	AG-893-J08_00551	AG-893-J08	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-893-J08_00553	-2
+CACNPC010000002.1	194665	195702	+	AG-893-J08_00552	AG-893-J08	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-893-J08_00553	-1
+CACNPC010000002.1	195712	197910	+	AG-893-J08_00553	AG-893-J08	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-893-J08_00553	0
+CACNPC010000002.1	197910	198965	+	AG-893-J08_00554	AG-893-J08	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-893-J08_00553	1
+CACNPC010000002.1	198969	200894	-	AG-893-J08_00555	AG-893-J08	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-893-J08_00553	2
+CACNPC010000002.1	200895	201692	-	AG-893-J08_00556	AG-893-J08	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-893-J08_00553	3
+CACNPC010000002.1	201775	202716	-	AG-893-J08_00557	AG-893-J08	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-893-J08_00553	4
+CACNPC010000002.1	202890	204251	+	AG-893-J08_00558	AG-893-J08	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-893-J08_00553	5
+CACNTH010000005.1	32747	33595	+	AG-893-M22_00989	AG-893-M22	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-893-M22_00994	-5
+CACNTH010000005.1	33588	34550	-	AG-893-M22_00990	AG-893-M22	320	OG0000084	NA	NA	NA	NA	NA	AG-893-M22_00994	-4
+CACNTH010000005.1	34652	34858	+	AG-893-M22_00991	AG-893-M22	68	OG0001133	NA	NA	NA	NA	NA	AG-893-M22_00994	-3
+CACNTH010000005.1	34855	35859	-	AG-893-M22_00992	AG-893-M22	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-893-M22_00994	-2
+CACNTH010000005.1	36010	37047	+	AG-893-M22_00993	AG-893-M22	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-893-M22_00994	-1
+CACNTH010000005.1	37056	39254	+	AG-893-M22_00994	AG-893-M22	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-893-M22_00994	0
+CACNTH010000005.1	39254	40309	+	AG-893-M22_00995	AG-893-M22	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-893-M22_00994	1
+CACNTH010000005.1	40313	42238	-	AG-893-M22_00996	AG-893-M22	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-893-M22_00994	2
+CACNTH010000005.1	42239	43036	-	AG-893-M22_00997	AG-893-M22	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-893-M22_00994	3
+CACNTH010000005.1	43119	44060	-	AG-893-M22_00998	AG-893-M22	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-893-M22_00994	4
+CACNTH010000005.1	44234	45595	+	AG-893-M22_00999	AG-893-M22	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-893-M22_00994	5
+CACNTW010000006.1	17831	19174	-	AG-893-N07_00851	AG-893-N07	447	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-893-N07_00856	-5
+CACNTW010000006.1	19365	20306	+	AG-893-N07_00852	AG-893-N07	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-893-N07_00856	-4
+CACNTW010000006.1	20389	21186	+	AG-893-N07_00853	AG-893-N07	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-893-N07_00856	-3
+CACNTW010000006.1	21187	23112	+	AG-893-N07_00854	AG-893-N07	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-893-N07_00856	-2
+CACNTW010000006.1	23116	24171	-	AG-893-N07_00855	AG-893-N07	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-893-N07_00856	-1
+CACNTW010000006.1	24171	26369	-	AG-893-N07_00856	AG-893-N07	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-893-N07_00856	0
+CACNTW010000006.1	26378	27415	-	AG-893-N07_00857	AG-893-N07	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-893-N07_00856	1
+CACNTW010000006.1	27566	28570	+	AG-893-N07_00858	AG-893-N07	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-893-N07_00856	2
+CACNTW010000006.1	28567	28773	-	AG-893-N07_00859	AG-893-N07	68	OG0001133	NA	NA	NA	NA	NA	AG-893-N07_00856	3
+CACNTW010000006.1	28874	29836	+	AG-893-N07_00860	AG-893-N07	320	OG0000084	NA	NA	NA	NA	NA	AG-893-N07_00856	4
+CACNTW010000006.1	29829	30677	-	AG-893-N07_00861	AG-893-N07	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-893-N07_00856	5
+CABYDS010000001.1	113895	114743	+	AG-894-A03_00126	AG-894-A03	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-894-A03_00131	-5
+CABYDS010000001.1	114736	115698	-	AG-894-A03_00127	AG-894-A03	320	OG0000084	NA	NA	NA	NA	NA	AG-894-A03_00131	-4
+CABYDS010000001.1	115800	116006	+	AG-894-A03_00128	AG-894-A03	68	OG0001133	NA	NA	NA	NA	NA	AG-894-A03_00131	-3
+CABYDS010000001.1	116003	117007	-	AG-894-A03_00129	AG-894-A03	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-894-A03_00131	-2
+CABYDS010000001.1	117158	118195	+	AG-894-A03_00130	AG-894-A03	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-894-A03_00131	-1
+CABYDS010000001.1	118205	120403	+	AG-894-A03_00131	AG-894-A03	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-894-A03_00131	0
+CABYDS010000001.1	120403	121458	+	AG-894-A03_00132	AG-894-A03	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-894-A03_00131	1
+CABYDS010000001.1	121462	123387	-	AG-894-A03_00133	AG-894-A03	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-894-A03_00131	2
+CABYDS010000001.1	123388	124185	-	AG-894-A03_00134	AG-894-A03	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-894-A03_00131	3
+CABYDS010000001.1	124268	125209	-	AG-894-A03_00135	AG-894-A03	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-894-A03_00131	4
+CABYDS010000001.1	125401	126744	+	AG-894-A03_00136	AG-894-A03	447	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-894-A03_00131	5
+CABYFB010000002.1	75689	76537	+	AG-894-B06_00343	AG-894-B06	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-894-B06_00348	-5
+CABYFB010000002.1	76530	77492	-	AG-894-B06_00344	AG-894-B06	320	OG0000084	NA	NA	NA	NA	NA	AG-894-B06_00348	-4
+CABYFB010000002.1	77593	77799	+	AG-894-B06_00345	AG-894-B06	68	OG0001133	NA	NA	NA	NA	NA	AG-894-B06_00348	-3
+CABYFB010000002.1	77796	78800	-	AG-894-B06_00346	AG-894-B06	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-894-B06_00348	-2
+CABYFB010000002.1	78951	79988	+	AG-894-B06_00347	AG-894-B06	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-894-B06_00348	-1
+CABYFB010000002.1	79997	82195	+	AG-894-B06_00348	AG-894-B06	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-894-B06_00348	0
+CABYFB010000002.1	82195	83250	+	AG-894-B06_00349	AG-894-B06	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-894-B06_00348	1
+CABYFB010000002.1	83254	85179	-	AG-894-B06_00350	AG-894-B06	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-894-B06_00348	2
+CABYFB010000002.1	85180	85977	-	AG-894-B06_00351	AG-894-B06	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-894-B06_00348	3
+CABYFB010000002.1	86060	87001	-	AG-894-B06_00352	AG-894-B06	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-894-B06_00348	4
+CABYFB010000002.1	87175	88536	+	AG-894-B06_00353	AG-894-B06	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-894-B06_00348	5
+CABYID010000002.1	176867	178210	-	AG-894-E10_00615	AG-894-E10	447	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-894-E10_00620	-5
+CABYID010000002.1	178402	179343	+	AG-894-E10_00616	AG-894-E10	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-894-E10_00620	-4
+CABYID010000002.1	179426	180223	+	AG-894-E10_00617	AG-894-E10	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-894-E10_00620	-3
+CABYID010000002.1	180224	182149	+	AG-894-E10_00618	AG-894-E10	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-894-E10_00620	-2
+CABYID010000002.1	182153	183208	-	AG-894-E10_00619	AG-894-E10	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-894-E10_00620	-1
+CABYID010000002.1	183208	185406	-	AG-894-E10_00620	AG-894-E10	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-894-E10_00620	0
+CABYID010000002.1	185415	186452	-	AG-894-E10_00621	AG-894-E10	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-894-E10_00620	1
+CABYID010000002.1	186603	187607	+	AG-894-E10_00622	AG-894-E10	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-894-E10_00620	2
+CABYID010000002.1	187604	187810	-	AG-894-E10_00623	AG-894-E10	68	OG0001133	NA	NA	NA	NA	NA	AG-894-E10_00620	3
+CABYID010000002.1	187912	188874	+	AG-894-E10_00624	AG-894-E10	320	OG0000084	NA	NA	NA	NA	NA	AG-894-E10_00620	4
+CABYID010000002.1	188867	189715	-	AG-894-E10_00625	AG-894-E10	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-894-E10_00620	5
+CABYIW010000006.1	51927	53288	-	AG-894-F15_00867	AG-894-F15	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-894-F15_00872	-5
+CABYIW010000006.1	53462	54403	+	AG-894-F15_00868	AG-894-F15	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-894-F15_00872	-4
+CABYIW010000006.1	54486	55283	+	AG-894-F15_00869	AG-894-F15	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-894-F15_00872	-3
+CABYIW010000006.1	55284	57209	+	AG-894-F15_00870	AG-894-F15	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-894-F15_00872	-2
+CABYIW010000006.1	57213	58268	-	AG-894-F15_00871	AG-894-F15	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-894-F15_00872	-1
+CABYIW010000006.1	58268	60466	-	AG-894-F15_00872	AG-894-F15	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-894-F15_00872	0
+CABYIW010000006.1	60476	61486	-	AG-894-F15_00873	AG-894-F15	336	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-894-F15_00872	1
+CABZPQ010000002.1	65186	66034	+	AG-896-G07_00401	AG-896-G07	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-896-G07_00406	-5
+CABZPQ010000002.1	66027	66989	-	AG-896-G07_00402	AG-896-G07	320	OG0000084	NA	NA	NA	NA	NA	AG-896-G07_00406	-4
+CABZPQ010000002.1	67091	67297	+	AG-896-G07_00403	AG-896-G07	68	OG0001133	NA	NA	NA	NA	NA	AG-896-G07_00406	-3
+CABZPQ010000002.1	67294	68298	-	AG-896-G07_00404	AG-896-G07	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-896-G07_00406	-2
+CABZPQ010000002.1	68449	69486	+	AG-896-G07_00405	AG-896-G07	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-896-G07_00406	-1
+CABZPQ010000002.1	69496	71694	+	AG-896-G07_00406	AG-896-G07	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-896-G07_00406	0
+CABZPQ010000002.1	71694	72749	+	AG-896-G07_00407	AG-896-G07	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-896-G07_00406	1
+CABZPQ010000002.1	72753	74678	-	AG-896-G07_00408	AG-896-G07	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-896-G07_00406	2
+CABZPQ010000002.1	74679	75476	-	AG-896-G07_00409	AG-896-G07	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-896-G07_00406	3
+CABZPQ010000002.1	75559	76500	-	AG-896-G07_00410	AG-896-G07	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-896-G07_00406	4
+CABZPQ010000002.1	76674	78035	+	AG-896-G07_00411	AG-896-G07	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-896-G07_00406	5
+CACADE010000006.1	33759	35120	-	AG-897-G09_01016	AG-897-G09	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-897-G09_01021	-5
+CACADE010000006.1	35294	36235	+	AG-897-G09_01017	AG-897-G09	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-897-G09_01021	-4
+CACADE010000006.1	36320	37117	+	AG-897-G09_01018	AG-897-G09	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-897-G09_01021	-3
+CACADE010000006.1	37117	39042	+	AG-897-G09_01019	AG-897-G09	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-897-G09_01021	-2
+CACADE010000006.1	39046	40101	-	AG-897-G09_01020	AG-897-G09	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-897-G09_01021	-1
+CACADE010000006.1	40101	42299	-	AG-897-G09_01021	AG-897-G09	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-897-G09_01021	0
+CACADE010000006.1	42308	43345	-	AG-897-G09_01022	AG-897-G09	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-897-G09_01021	1
+CACADE010000006.1	43496	44500	+	AG-897-G09_01023	AG-897-G09	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-897-G09_01021	2
+CACADE010000006.1	44497	44703	-	AG-897-G09_01024	AG-897-G09	68	OG0001133	NA	NA	NA	NA	NA	AG-897-G09_01021	3
+CACADE010000006.1	44804	45766	+	AG-897-G09_01025	AG-897-G09	320	OG0000084	NA	NA	NA	NA	NA	AG-897-G09_01021	4
+CACADE010000006.1	45759	46607	-	AG-897-G09_01026	AG-897-G09	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-897-G09_01021	5
+CACARD010000002.1	111607	112968	-	AG-898-G21_00473	AG-898-G21	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-898-G21_00478	-5
+CACARD010000002.1	113142	114083	+	AG-898-G21_00474	AG-898-G21	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-898-G21_00478	-4
+CACARD010000002.1	114166	114963	+	AG-898-G21_00475	AG-898-G21	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-898-G21_00478	-3
+CACARD010000002.1	114964	116889	+	AG-898-G21_00476	AG-898-G21	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-898-G21_00478	-2
+CACARD010000002.1	116893	117948	-	AG-898-G21_00477	AG-898-G21	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-898-G21_00478	-1
+CACARD010000002.1	117948	120146	-	AG-898-G21_00478	AG-898-G21	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-898-G21_00478	0
+CACARD010000002.1	120155	121192	-	AG-898-G21_00479	AG-898-G21	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-898-G21_00478	1
+CACARD010000002.1	121343	122347	+	AG-898-G21_00480	AG-898-G21	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-898-G21_00478	2
+CACARD010000002.1	122344	122550	-	AG-898-G21_00481	AG-898-G21	68	OG0001133	NA	NA	NA	NA	NA	AG-898-G21_00478	3
+CACARD010000002.1	122652	123614	+	AG-898-G21_00482	AG-898-G21	320	OG0000084	NA	NA	NA	NA	NA	AG-898-G21_00478	4
+CACARD010000002.1	123607	124455	-	AG-898-G21_00483	AG-898-G21	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-898-G21_00478	5
+CACBOD010000004.1	29	481	+	AG-899-O04_00593	AG-899-O04	150	OG0001483	NA	NA	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-899-O04_00594	-1
+CACBOD010000004.1	490	2688	+	AG-899-O04_00594	AG-899-O04	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-899-O04_00594	0
+CACBOD010000004.1	2688	3743	+	AG-899-O04_00595	AG-899-O04	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-899-O04_00594	1
+CACBOD010000004.1	3747	5672	-	AG-899-O04_00596	AG-899-O04	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-899-O04_00594	2
+CACBOD010000004.1	5673	6470	-	AG-899-O04_00597	AG-899-O04	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-899-O04_00594	3
+CACBOD010000004.1	6553	7494	-	AG-899-O04_00598	AG-899-O04	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-899-O04_00594	4
+CACBOD010000004.1	7686	9029	+	AG-899-O04_00599	AG-899-O04	447	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-899-O04_00594	5
+CACBXW010000004.1	63914	64762	+	AG-900-G16_00960	AG-900-G16	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-900-G16_00965	-5
+CACBXW010000004.1	64755	65717	-	AG-900-G16_00961	AG-900-G16	320	OG0000084	NA	NA	NA	NA	NA	AG-900-G16_00965	-4
+CACBXW010000004.1	65819	66025	+	AG-900-G16_00962	AG-900-G16	68	OG0001133	NA	NA	NA	NA	NA	AG-900-G16_00965	-3
+CACBXW010000004.1	66022	67026	-	AG-900-G16_00963	AG-900-G16	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-900-G16_00965	-2
+CACBXW010000004.1	67177	68214	+	AG-900-G16_00964	AG-900-G16	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-900-G16_00965	-1
+CACBXW010000004.1	68223	70421	+	AG-900-G16_00965	AG-900-G16	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-900-G16_00965	0
+CACBXW010000004.1	70421	71476	+	AG-900-G16_00966	AG-900-G16	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-900-G16_00965	1
+CACBXW010000004.1	71480	73405	-	AG-900-G16_00967	AG-900-G16	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-900-G16_00965	2
+CACBXW010000004.1	73406	74203	-	AG-900-G16_00968	AG-900-G16	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-900-G16_00965	3
+CACBXW010000004.1	74286	75227	-	AG-900-G16_00969	AG-900-G16	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-900-G16_00965	4
+CACBXW010000004.1	75401	76762	+	AG-900-G16_00970	AG-900-G16	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-900-G16_00965	5
+CACCXN010000002.1	99334	100182	+	AG-903-C11_00367	AG-903-C11	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-903-C11_00372	-5
+CACCXN010000002.1	100175	101137	-	AG-903-C11_00368	AG-903-C11	320	OG0000084	NA	NA	NA	NA	NA	AG-903-C11_00372	-4
+CACCXN010000002.1	101238	101444	+	AG-903-C11_00369	AG-903-C11	68	OG0001133	NA	NA	NA	NA	NA	AG-903-C11_00372	-3
+CACCXN010000002.1	101441	102445	-	AG-903-C11_00370	AG-903-C11	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-903-C11_00372	-2
+CACCXN010000002.1	102596	103633	+	AG-903-C11_00371	AG-903-C11	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-903-C11_00372	-1
+CACCXN010000002.1	103642	105840	+	AG-903-C11_00372	AG-903-C11	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-903-C11_00372	0
+CACCXN010000002.1	105840	106895	+	AG-903-C11_00373	AG-903-C11	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-903-C11_00372	1
+CACCXN010000002.1	106899	108824	-	AG-903-C11_00374	AG-903-C11	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-903-C11_00372	2
+CACCXN010000002.1	108825	109622	-	AG-903-C11_00375	AG-903-C11	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-903-C11_00372	3
+CACCXN010000002.1	109705	110646	-	AG-903-C11_00376	AG-903-C11	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-903-C11_00372	4
+CACCXN010000002.1	110820	112181	+	AG-903-C11_00377	AG-903-C11	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-903-C11_00372	5
+CACPIG010000004.1	71144	71992	+	AG-912-I02_00949	AG-912-I02	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-912-I02_00954	-5
+CACPIG010000004.1	71985	72947	-	AG-912-I02_00950	AG-912-I02	320	OG0000084	NA	NA	NA	NA	NA	AG-912-I02_00954	-4
+CACPIG010000004.1	73049	73255	+	AG-912-I02_00951	AG-912-I02	68	OG0001133	NA	NA	NA	NA	NA	AG-912-I02_00954	-3
+CACPIG010000004.1	73252	74256	-	AG-912-I02_00952	AG-912-I02	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-912-I02_00954	-2
+CACPIG010000004.1	74407	75444	+	AG-912-I02_00953	AG-912-I02	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-912-I02_00954	-1
+CACPIG010000004.1	75454	77652	+	AG-912-I02_00954	AG-912-I02	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-912-I02_00954	0
+CACPIG010000004.1	77652	78707	+	AG-912-I02_00955	AG-912-I02	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-912-I02_00954	1
+CACPIG010000004.1	78711	80636	-	AG-912-I02_00956	AG-912-I02	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-912-I02_00954	2
+CACPIG010000004.1	80637	81434	-	AG-912-I02_00957	AG-912-I02	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-912-I02_00954	3
+CACPIG010000004.1	81517	82458	-	AG-912-I02_00958	AG-912-I02	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-912-I02_00954	4
+CACPIG010000004.1	82632	83993	+	AG-912-I02_00959	AG-912-I02	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-912-I02_00954	5
+CACJNI010000006.1	53771	54619	+	AG-915-G14_01068	AG-915-G14	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-915-G14_01073	-5
+CACJNI010000006.1	54612	55574	-	AG-915-G14_01069	AG-915-G14	320	OG0000084	NA	NA	NA	NA	NA	AG-915-G14_01073	-4
+CACJNI010000006.1	55676	55882	+	AG-915-G14_01070	AG-915-G14	68	OG0001133	NA	NA	NA	NA	NA	AG-915-G14_01073	-3
+CACJNI010000006.1	55879	56883	-	AG-915-G14_01071	AG-915-G14	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-915-G14_01073	-2
+CACJNI010000006.1	57034	58071	+	AG-915-G14_01072	AG-915-G14	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-915-G14_01073	-1
+CACJNI010000006.1	58081	60279	+	AG-915-G14_01073	AG-915-G14	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-915-G14_01073	0
+CACJNI010000006.1	60279	61334	+	AG-915-G14_01074	AG-915-G14	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-915-G14_01073	1
+CACJNI010000006.1	61338	63263	-	AG-915-G14_01075	AG-915-G14	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-915-G14_01073	2
+CACJNI010000006.1	63264	64061	-	AG-915-G14_01076	AG-915-G14	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-915-G14_01073	3
+CACJNI010000006.1	64144	65085	-	AG-915-G14_01077	AG-915-G14	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-915-G14_01073	4
+CACJNI010000006.1	65259	66620	+	AG-915-G14_01078	AG-915-G14	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-915-G14_01073	5
+CACJWS010000003.1	85224	86072	+	AG-916-E19_00403	AG-916-E19	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-916-E19_00408	-5
+CACJWS010000003.1	86065	87027	-	AG-916-E19_00404	AG-916-E19	320	OG0000084	NA	NA	NA	NA	NA	AG-916-E19_00408	-4
+CACJWS010000003.1	87128	87334	+	AG-916-E19_00405	AG-916-E19	68	OG0001133	NA	NA	NA	NA	NA	AG-916-E19_00408	-3
+CACJWS010000003.1	87331	88335	-	AG-916-E19_00406	AG-916-E19	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-916-E19_00408	-2
+CACJWS010000003.1	88486	89523	+	AG-916-E19_00407	AG-916-E19	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-916-E19_00408	-1
+CACJWS010000003.1	89533	91731	+	AG-916-E19_00408	AG-916-E19	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-916-E19_00408	0
+CACJWS010000003.1	91731	92786	+	AG-916-E19_00409	AG-916-E19	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-916-E19_00408	1
+CACJWS010000003.1	92790	94715	-	AG-916-E19_00410	AG-916-E19	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-916-E19_00408	2
+CACJWS010000003.1	94716	95513	-	AG-916-E19_00411	AG-916-E19	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-916-E19_00408	3
+CACJWS010000003.1	95596	96537	-	AG-916-E19_00412	AG-916-E19	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-916-E19_00408	4
+CACJWS010000003.1	96729	98072	+	AG-916-E19_00413	AG-916-E19	447	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-916-E19_00408	5
+CACKFA010000015.1	955	3153	-	AG-916-N14_01300	AG-916-N14	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-916-N14_01300	0
+CACKFA010000015.1	3166	4203	-	AG-916-N14_01301	AG-916-N14	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-916-N14_01300	1
+CACKFA010000015.1	4402	5208	+	AG-916-N14_01302	AG-916-N14	268	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-916-N14_01300	2
+CACKFA010000015.1	5205	6167	-	AG-916-N14_01303	AG-916-N14	320	OG0000084	NA	NA	COG1349	GlpR	DNA-binding transcriptional regulator of sugar metabolism, DeoR/GlpR family	AG-916-N14_01300	3
+CACKFA010000015.1	6284	6481	+	AG-916-N14_01304	AG-916-N14	65	OG0001133	NA	NA	NA	NA	NA	AG-916-N14_01300	4
+CACKFA010000015.1	6470	7474	-	AG-916-N14_01305	AG-916-N14	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-916-N14_01300	5
+CACNIV010000001.1	70697	71545	+	AG-920-L20_00080	AG-920-L20	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-920-L20_00085	-5
+CACNIV010000001.1	71538	72500	-	AG-920-L20_00081	AG-920-L20	320	OG0000084	NA	NA	NA	NA	NA	AG-920-L20_00085	-4
+CACNIV010000001.1	72602	72808	+	AG-920-L20_00082	AG-920-L20	68	OG0001133	NA	NA	NA	NA	NA	AG-920-L20_00085	-3
+CACNIV010000001.1	72805	73809	-	AG-920-L20_00083	AG-920-L20	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-920-L20_00085	-2
+CACNIV010000001.1	73960	74997	+	AG-920-L20_00084	AG-920-L20	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AG-920-L20_00085	-1
+CACNIV010000001.1	75006	77204	+	AG-920-L20_00085	AG-920-L20	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AG-920-L20_00085	0
+CACNIV010000001.1	77204	78259	+	AG-920-L20_00086	AG-920-L20	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-920-L20_00085	1
+CACNIV010000001.1	78263	80188	-	AG-920-L20_00087	AG-920-L20	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	AG-920-L20_00085	2
+CACNIV010000001.1	80189	80986	-	AG-920-L20_00088	AG-920-L20	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG4525	TauB	ABC-type taurine transport system, ATPase component	AG-920-L20_00085	3
+CACNIV010000001.1	81069	82010	-	AG-920-L20_00089	AG-920-L20	313	OG0000993	NA	NA	COG4521	TauA	ABC-type taurine transport system, periplasmic component	AG-920-L20_00085	4
+CACNIV010000001.1	82184	83545	+	AG-920-L20_00090	AG-920-L20	453	OG0000119	K00822	beta-alanine--pyruvate transaminase [EC:2.6.1.18]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	AG-920-L20_00085	5
+CACNWL010000006.1	8687	9370	+	AH-287-E17_00690	AH-287-E17	227	OG0001390	K17893	ubiquinol oxidase [EC:1.10.3.11]	NA	NA	NA	AH-287-E17_00695	-5
+CACNWL010000006.1	9373	9738	-	AH-287-E17_00691	AH-287-E17	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	AH-287-E17_00695	-4
+CACNWL010000006.1	9759	11045	-	AH-287-E17_00692	AH-287-E17	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AH-287-E17_00695	-3
+CACNWL010000006.1	11105	12016	-	AH-287-E17_00693	AH-287-E17	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AH-287-E17_00695	-2
+CACNWL010000006.1	12022	13077	-	AH-287-E17_00694	AH-287-E17	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AH-287-E17_00695	-1
+CACNWL010000006.1	13077	15275	-	AH-287-E17_00695	AH-287-E17	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AH-287-E17_00695	0
+CACNWL010000006.1	15288	16325	-	AH-287-E17_00696	AH-287-E17	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AH-287-E17_00695	1
+CACNWL010000006.1	16530	17336	+	AH-287-E17_00697	AH-287-E17	268	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AH-287-E17_00695	2
+CACNWL010000006.1	17333	18292	-	AH-287-E17_00698	AH-287-E17	319	OG0000084	NA	NA	NA	NA	NA	AH-287-E17_00695	3
+CACNWL010000006.1	18395	18592	+	AH-287-E17_00699	AH-287-E17	65	OG0001133	NA	NA	NA	NA	NA	AH-287-E17_00695	4
+CACNWL010000006.1	18581	19585	-	AH-287-E17_00700	AH-287-E17	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AH-287-E17_00695	5
+CACOEF010000001.1	132594	133598	+	AH-321-A17_00153	AH-321-A17	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AH-321-A17_00158	-5
+CACOEF010000001.1	133587	133784	-	AH-321-A17_00154	AH-321-A17	65	OG0001133	NA	NA	NA	NA	NA	AH-321-A17_00158	-4
+CACOEF010000001.1	133888	134847	+	AH-321-A17_00155	AH-321-A17	319	OG0000084	NA	NA	NA	NA	NA	AH-321-A17_00158	-3
+CACOEF010000001.1	134844	135725	-	AH-321-A17_00156	AH-321-A17	293	OG0000874	K03453	bile acid:Na+ symporter, BASS family	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AH-321-A17_00158	-2
+CACOEF010000001.1	135856	136893	+	AH-321-A17_00157	AH-321-A17	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AH-321-A17_00158	-1
+CACOEF010000001.1	136906	139098	+	AH-321-A17_00158	AH-321-A17	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AH-321-A17_00158	0
+CACOEF010000001.1	139103	140158	+	AH-321-A17_00159	AH-321-A17	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AH-321-A17_00158	1
+CACOEF010000001.1	140164	141075	+	AH-321-A17_00160	AH-321-A17	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AH-321-A17_00158	2
+CACOEF010000001.1	141135	142421	+	AH-321-A17_00161	AH-321-A17	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AH-321-A17_00158	3
+CACOEF010000001.1	142441	142806	+	AH-321-A17_00162	AH-321-A17	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	AH-321-A17_00158	4
+CACOEF010000001.1	142811	143494	-	AH-321-A17_00163	AH-321-A17	227	OG0001390	K17893	ubiquinol oxidase [EC:1.10.3.11]	NA	NA	NA	AH-321-A17_00158	5
+CACOPB010000003.1	34961	35638	+	AH-324-F03_00654	AH-324-F03	225	OG0001390	K17893	ubiquinol oxidase [EC:1.10.3.11]	NA	NA	NA	AH-324-F03_00659	-5
+CACOPB010000003.1	35631	36377	+	AH-324-F03_00655	AH-324-F03	248	OG0001840	K01004	phosphatidylcholine synthase [EC:2.7.8.24]	COG1183	PssA	Phosphatidylserine synthase	AH-324-F03_00659	-4
+CACOPB010000003.1	36378	37664	-	AH-324-F03_00656	AH-324-F03	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AH-324-F03_00659	-3
+CACOPB010000003.1	37726	38637	-	AH-324-F03_00657	AH-324-F03	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AH-324-F03_00659	-2
+CACOPB010000003.1	38643	39698	-	AH-324-F03_00658	AH-324-F03	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AH-324-F03_00659	-1
+CACOPB010000003.1	39698	41896	-	AH-324-F03_00659	AH-324-F03	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AH-324-F03_00659	0
+CACOPB010000003.1	41909	42946	-	AH-324-F03_00660	AH-324-F03	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AH-324-F03_00659	1
+CACOPB010000003.1	43087	43959	+	AH-324-F03_00661	AH-324-F03	290	OG0000874	K03453	bile acid:Na+ symporter, BASS family	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AH-324-F03_00659	2
+CACOPB010000003.1	43956	44915	-	AH-324-F03_00662	AH-324-F03	319	OG0000084	NA	NA	COG1349	GlpR	DNA-binding transcriptional regulator of sugar metabolism, DeoR/GlpR family	AH-324-F03_00659	3
+CACOPB010000003.1	45019	45216	+	AH-324-F03_00663	AH-324-F03	65	OG0001133	NA	NA	NA	NA	NA	AH-324-F03_00659	4
+CACOPB010000003.1	45205	46209	-	AH-324-F03_00664	AH-324-F03	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AH-324-F03_00659	5
+CACORG010000011.1	16365	17648	-	AH-324-K09_00810	AH-324-K09	427	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AH-324-K09_00815	-5
+CACORG010000011.1	17739	18779	-	AH-324-K09_00811	AH-324-K09	346	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AH-324-K09_00815	-4
+CACORG010000011.1	19007	20494	+	AH-324-K09_00812	AH-324-K09	495	OG0001003	K09472	4-(gamma-glutamylamino)butanal dehydrogenase [EC:1.2.1.99]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AH-324-K09_00815	-3
+CACORG010000011.1	20494	21675	+	AH-324-K09_00813	AH-324-K09	393	OG0001408	NA	NA	COG0596	MenH	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase MenH/undecaprenyl monophosphate-sugar esterase UshA/YqjL	AH-324-K09_00815	-2
+CACORG010000011.1	21684	22739	-	AH-324-K09_00814	AH-324-K09	351	OG0000109	NA	NA	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AH-324-K09_00815	-1
+CACORG010000011.1	22742	24934	-	AH-324-K09_00815	AH-324-K09	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	AH-324-K09_00815	0
+CACORG010000011.1	24946	25950	-	AH-324-K09_00816	AH-324-K09	334	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	AH-324-K09_00815	1
+NYVZ01000011.1	13334	13504	-	CPC289_00697	CPC289	56	OG0002747	NA	NA	NA	NA	NA	CPC289_00702	-5
+NYVZ01000011.1	13501	13863	-	CPC289_00698	CPC289	120	OG0000998	NA	NA	NA	NA	NA	CPC289_00702	-4
+NYVZ01000011.1	13954	14523	+	CPC289_00699	CPC289	189	OG0001093	K00355	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	COG2249	MdaB	Putative NADPH-quinone reductase (modulator of drug activity B)	CPC289_00702	-3
+NYVZ01000011.1	14556	15701	+	CPC289_00700	CPC289	381	OG0000828	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	CPC289_00702	-2
+NYVZ01000011.1	15806	17131	+	CPC289_00701	CPC289	441	OG0001483	K08478	phosphoglycerate transport regulatory protein PgtC	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	CPC289_00702	-1
+NYVZ01000011.1	17180	18862	+	CPC289_00702	CPC289	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	CPC289_00702	0
+NYVZ01000011.1	18855	19898	+	CPC289_00703	CPC289	347	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	CPC289_00702	1
+NYVZ01000011.1	19895	20560	+	CPC289_00704	CPC289	221	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	CPC289_00702	2
+NYVZ01000011.1	20583	20780	-	CPC289_00705	CPC289	65	OG0002386	NA	NA	NA	NA	NA	CPC289_00702	3
+NYVZ01000011.1	20847	21230	+	CPC289_00706	CPC289	127	NA	NA	NA	NA	NA	NA	CPC289_00702	4
+CP031125.1	42109	43113	+	FZCC0015_00045	FZCC0015	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	FZCC0015_00050	-5
+CP031125.1	43102	43299	-	FZCC0015_00046	FZCC0015	65	OG0001133	NA	NA	NA	NA	NA	FZCC0015_00050	-4
+CP031125.1	43400	44362	+	FZCC0015_00047	FZCC0015	320	OG0000084	NA	NA	COG2512	NA	Predicted transcriptional regulator, contains CW (cell wall-binding) repeats and an HTH domain	FZCC0015_00050	-3
+CP031125.1	44355	45161	-	FZCC0015_00048	FZCC0015	268	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	FZCC0015_00050	-2
+CP031125.1	45363	46400	+	FZCC0015_00049	FZCC0015	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	FZCC0015_00050	-1
+CP031125.1	46413	48611	+	FZCC0015_00050	FZCC0015	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	FZCC0015_00050	0
+CP031125.1	48611	49666	+	FZCC0015_00051	FZCC0015	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	FZCC0015_00050	1
+CP031125.1	49672	50583	+	FZCC0015_00052	FZCC0015	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	FZCC0015_00050	2
+CP031125.1	50659	51945	+	FZCC0015_00053	FZCC0015	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	FZCC0015_00050	3
+CP031125.1	51948	52922	-	FZCC0015_00054	FZCC0015	324	OG0001852	NA	NA	COG4448	AnsA2	L-asparaginase II	FZCC0015_00050	4
+CP031125.1	52972	53163	+	FZCC0015_00055	FZCC0015	63	OG0001220	NA	NA	NA	NA	NA	FZCC0015_00050	5
+LHBX01000017.1	47974	48822	+	GOM-A1_00266	GOM-A1	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	GOM-A1_00271	-5
+LHBX01000017.1	48815	49777	-	GOM-A1_00267	GOM-A1	320	OG0000084	NA	NA	NA	NA	NA	GOM-A1_00271	-4
+LHBX01000017.1	49879	50085	+	GOM-A1_00268	GOM-A1	68	OG0001133	NA	NA	NA	NA	NA	GOM-A1_00271	-3
+LHBX01000017.1	50082	51086	-	GOM-A1_00269	GOM-A1	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	GOM-A1_00271	-2
+LHBX01000017.1	51237	52274	+	GOM-A1_00270	GOM-A1	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	GOM-A1_00271	-1
+LHBX01000017.1	52283	54481	+	GOM-A1_00271	GOM-A1	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	GOM-A1_00271	0
+HIMB109-00000000001	31095	31301	+	HIMB109_00047	HIMB109	68	OG0002965	NA	NA	NA	NA	NA	HIMB109_00052	-5
+HIMB109-00000000001	31349	31546	+	HIMB109_00048	HIMB109	65	OG0002386	NA	NA	NA	NA	NA	HIMB109_00052	-4
+HIMB109-00000000001	31632	32045	+	HIMB109_00049	HIMB109	137	OG0002239	NA	NA	NA	NA	NA	HIMB109_00052	-3
+HIMB109-00000000001	32091	32771	-	HIMB109_00050	HIMB109	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	HIMB109_00052	-2
+HIMB109-00000000001	32771	33811	-	HIMB109_00051	HIMB109	346	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB109_00052	-1
+HIMB109-00000000001	33804	35486	-	HIMB109_00052	HIMB109	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB109_00052	0
+HIMB109-00000000001	35538	36863	-	HIMB109_00053	HIMB109	441	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB109_00052	1
+HIMB109-00000000001	37013	38158	-	HIMB109_00054	HIMB109	381	OG0000828	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB109_00052	2
+HIMB109-00000000001	38179	38346	+	HIMB109_00055	HIMB109	55	OG0003128	NA	NA	NA	NA	NA	HIMB109_00052	3
+HIMB109-00000000001	38352	39806	+	HIMB109_00056	HIMB109	484	OG0000423	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB109_00052	4
+HIMB109-00000000001	39807	42299	-	HIMB109_00057	HIMB109	830	OG0001116	NA	NA	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	HIMB109_00052	5
+ADAC02000001.1	1223012	1223683	+	HIMB114_01343	HIMB114	223	OG0000000	K02003	putative ABC transport system ATP-binding protein	COG1136	LolD	ABC-type lipoprotein targeting system ATPase component LolD	HIMB114_01348	-5
+ADAC02000001.1	1223680	1226172	+	HIMB114_01344	HIMB114	830	OG0001116	NA	NA	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	HIMB114_01348	-4
+ADAC02000001.1	1226174	1226338	-	HIMB114_01345	HIMB114	54	OG0003128	NA	NA	NA	NA	NA	HIMB114_01348	-3
+ADAC02000001.1	1226359	1227504	+	HIMB114_01346	HIMB114	381	OG0000828	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB114_01348	-2
+ADAC02000001.1	1227654	1228979	+	HIMB114_01347	HIMB114	441	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB114_01348	-1
+ADAC02000001.1	1229031	1230713	+	HIMB114_01348	HIMB114	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB114_01348	0
+ADAC02000001.1	1230706	1231746	+	HIMB114_01349	HIMB114	346	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB114_01348	1
+ADAC02000001.1	1231746	1232426	+	HIMB114_01350	HIMB114	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	HIMB114_01348	2
+ADAC02000001.1	1232472	1232885	-	HIMB114_01351	HIMB114	137	OG0002239	NA	NA	NA	NA	NA	HIMB114_01348	3
+ADAC02000001.1	1232971	1233168	-	HIMB114_01352	HIMB114	65	OG0002386	NA	NA	NA	NA	NA	HIMB114_01348	4
+ADAC02000001.1	1233216	1233422	-	HIMB114_01353	HIMB114	68	OG0002965	NA	NA	NA	NA	NA	HIMB114_01348	5
+O147DRAFT_scaffold00001.1	967781	968866	+	HIMB122_01001	HIMB122	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB122_01006	-5
+O147DRAFT_scaffold00001.1	968863	969228	-	HIMB122_01002	HIMB122	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB122_01006	-4
+O147DRAFT_scaffold00001.1	969253	970533	-	HIMB122_01003	HIMB122	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB122_01006	-3
+O147DRAFT_scaffold00001.1	970595	971506	-	HIMB122_01004	HIMB122	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB122_01006	-2
+O147DRAFT_scaffold00001.1	971511	972566	-	HIMB122_01005	HIMB122	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB122_01006	-1
+O147DRAFT_scaffold00001.1	972570	974762	-	HIMB122_01006	HIMB122	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB122_01006	0
+O147DRAFT_scaffold00001.1	974775	975812	-	HIMB122_01007	HIMB122	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB122_01006	1
+O147DRAFT_scaffold00001.1	975969	976820	+	HIMB122_01008	HIMB122	283	OG0000874	K03453	bile acid:Na+ symporter, BASS family	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB122_01006	2
+O147DRAFT_scaffold00001.1	976813	977769	-	HIMB122_01009	HIMB122	318	OG0000084	NA	NA	NA	NA	NA	HIMB122_01006	3
+O147DRAFT_scaffold00001.1	977880	978077	+	HIMB122_01010	HIMB122	65	OG0001133	NA	NA	NA	NA	NA	HIMB122_01006	4
+O147DRAFT_scaffold00001.1	978057	979070	-	HIMB122_01011	HIMB122	337	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB122_01006	5
+NZ_LAMZ01000001.1	1417117	1418202	+	HIMB140_01522	HIMB140	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB140_01527	-5
+NZ_LAMZ01000001.1	1418199	1418564	-	HIMB140_01523	HIMB140	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB140_01527	-4
+NZ_LAMZ01000001.1	1418589	1419869	-	HIMB140_01524	HIMB140	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB140_01527	-3
+NZ_LAMZ01000001.1	1419931	1420842	-	HIMB140_01525	HIMB140	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB140_01527	-2
+NZ_LAMZ01000001.1	1420847	1421902	-	HIMB140_01526	HIMB140	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB140_01527	-1
+NZ_LAMZ01000001.1	1421906	1424098	-	HIMB140_01527	HIMB140	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB140_01527	0
+NZ_LAMZ01000001.1	1424111	1425148	-	HIMB140_01528	HIMB140	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB140_01527	1
+NZ_LAMZ01000001.1	1425304	1426152	+	HIMB140_01529	HIMB140	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB140_01527	2
+NZ_LAMZ01000001.1	1426145	1427101	-	HIMB140_01530	HIMB140	318	OG0000084	NA	NA	COG1378	YrhO	Sugar-specific transcriptional regulator TrmB	HIMB140_01527	3
+NZ_LAMZ01000001.1	1427218	1427415	+	HIMB140_01531	HIMB140	65	OG0001133	NA	NA	NA	NA	NA	HIMB140_01527	4
+NZ_LAMZ01000001.1	1427404	1428408	-	HIMB140_01532	HIMB140	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB140_01527	5
+HIMB1430-00000000012	129786	130799	+	HIMB1430_00956	HIMB1430	337	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1430_00961	-5
+HIMB1430-00000000012	130779	130997	-	HIMB1430_00957	HIMB1430	72	OG0001133	NA	NA	NA	NA	NA	HIMB1430_00961	-4
+HIMB1430-00000000012	131091	132047	+	HIMB1430_00958	HIMB1430	318	OG0000084	NA	NA	NA	NA	NA	HIMB1430_00961	-3
+HIMB1430-00000000012	132040	132888	-	HIMB1430_00959	HIMB1430	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1430_00961	-2
+HIMB1430-00000000012	133044	134081	+	HIMB1430_00960	HIMB1430	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1430_00961	-1
+HIMB1430-00000000012	134094	136286	+	HIMB1430_00961	HIMB1430	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1430_00961	0
+HIMB1430-00000000012	136290	137345	+	HIMB1430_00962	HIMB1430	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1430_00961	1
+HIMB1430-00000000012	137350	138261	+	HIMB1430_00963	HIMB1430	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1430_00961	2
+HIMB1430-00000000012	138323	139603	+	HIMB1430_00964	HIMB1430	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1430_00961	3
+HIMB1430-00000000012	139628	139993	+	HIMB1430_00965	HIMB1430	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1430_00961	4
+HIMB1430-00000000012	139990	141075	-	HIMB1430_00966	HIMB1430	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1430_00961	5
+HIMB1436-00000000001	676173	677213	+	HIMB1436_00721	HIMB1436	346	OG0000859	K00797	spermidine synthase [EC:2.5.1.16]	COG1586	SpeD	S-adenosylmethionine decarboxylase	HIMB1436_00726	-5
+HIMB1436-00000000001	677275	678102	+	HIMB1436_00722	HIMB1436	275	OG0000978	K10018	octopine/nopaline transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1436_00726	-4
+HIMB1436-00000000001	678148	678840	+	HIMB1436_00723	HIMB1436	230	OG0000979	K10020	octopine/nopaline transport system permease protein	COG4215	ArtQ	ABC-type arginine transport system, permease component	HIMB1436_00726	-3
+HIMB1436-00000000001	678840	679514	+	HIMB1436_00724	HIMB1436	224	OG0000101	K02029	polar amino acid transport system permease protein	COG4160	ArtM	ABC-type arginine/histidine transport system, permease component	HIMB1436_00726	-2
+HIMB1436-00000000001	679515	680555	-	HIMB1436_00725	HIMB1436	346	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1436_00726	-1
+HIMB1436-00000000001	680555	682237	-	HIMB1436_00726	HIMB1436	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1436_00726	0
+HIMB1436-00000000001	682281	683615	-	HIMB1436_00727	HIMB1436	444	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1436_00726	1
+HIMB1436-00000000001	683703	684854	-	HIMB1436_00728	HIMB1436	383	OG0001015	K01271	Xaa-Pro dipeptidase [EC:3.4.13.9]	COG0006	PepP	Xaa-Pro aminopeptidase	HIMB1436_00726	2
+HIMB1436-00000000001	684864	685253	-	HIMB1436_00729	HIMB1436	129	OG0000745	NA	NA	NA	NA	NA	HIMB1436_00726	3
+HIMB1436-00000000001	685286	686227	+	HIMB1436_00730	HIMB1436	313	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB1436_00726	4
+HIMB1436-00000000001	686224	687306	-	HIMB1436_00731	HIMB1436	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB1436_00726	5
+HIMB1485-00000000002	156438	157442	+	HIMB1485_00668	HIMB1485	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1485_00673	-5
+HIMB1485-00000000002	157431	157649	-	HIMB1485_00669	HIMB1485	72	OG0001133	NA	NA	NA	NA	NA	HIMB1485_00673	-4
+HIMB1485-00000000002	157743	158699	+	HIMB1485_00670	HIMB1485	318	OG0000084	NA	NA	NA	NA	NA	HIMB1485_00673	-3
+HIMB1485-00000000002	158692	159540	-	HIMB1485_00671	HIMB1485	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1485_00673	-2
+HIMB1485-00000000002	159696	160733	+	HIMB1485_00672	HIMB1485	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1485_00673	-1
+HIMB1485-00000000002	160746	162938	+	HIMB1485_00673	HIMB1485	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1485_00673	0
+HIMB1485-00000000002	162942	163997	+	HIMB1485_00674	HIMB1485	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1485_00673	1
+HIMB1485-00000000002	164002	164913	+	HIMB1485_00675	HIMB1485	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1485_00673	2
+HIMB1485-00000000002	164974	166254	+	HIMB1485_00676	HIMB1485	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1485_00673	3
+HIMB1485-00000000002	166278	166643	+	HIMB1485_00677	HIMB1485	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1485_00673	4
+HIMB1485-00000000002	166640	167725	-	HIMB1485_00678	HIMB1485	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1485_00673	5
+HIMB1490-00000000011	116343	117428	+	HIMB1490_00863	HIMB1490	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1490_00868	-5
+HIMB1490-00000000011	117425	117790	-	HIMB1490_00864	HIMB1490	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1490_00868	-4
+HIMB1490-00000000011	117815	119095	-	HIMB1490_00865	HIMB1490	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1490_00868	-3
+HIMB1490-00000000011	119157	120068	-	HIMB1490_00866	HIMB1490	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1490_00868	-2
+HIMB1490-00000000011	120073	121128	-	HIMB1490_00867	HIMB1490	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1490_00868	-1
+HIMB1490-00000000011	121132	123324	-	HIMB1490_00868	HIMB1490	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1490_00868	0
+HIMB1490-00000000011	123337	124374	-	HIMB1490_00869	HIMB1490	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1490_00868	1
+HIMB1490-00000000011	124529	125380	+	HIMB1490_00870	HIMB1490	283	OG0000874	K03453	bile acid:Na+ symporter, BASS family	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1490_00868	2
+HIMB1490-00000000011	125373	126329	-	HIMB1490_00871	HIMB1490	318	OG0000084	NA	NA	NA	NA	NA	HIMB1490_00868	3
+HIMB1490-00000000011	126490	128784	+	HIMB1490_00872	HIMB1490	764	OG0001644	NA	NA	COG1538	TolC	Outer membrane protein TolC	HIMB1490_00868	4
+HIMB1490-00000000011	128820	129083	+	HIMB1490_00873	HIMB1490	87	OG0001822	NA	NA	NA	NA	NA	HIMB1490_00868	5
+HIMB1491-00000000001	943277	944362	+	HIMB1491_00977	HIMB1491	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1491_00982	-5
+HIMB1491-00000000001	944359	944724	-	HIMB1491_00978	HIMB1491	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1491_00982	-4
+HIMB1491-00000000001	944749	946029	-	HIMB1491_00979	HIMB1491	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1491_00982	-3
+HIMB1491-00000000001	946091	947002	-	HIMB1491_00980	HIMB1491	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1491_00982	-2
+HIMB1491-00000000001	947007	948062	-	HIMB1491_00981	HIMB1491	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1491_00982	-1
+HIMB1491-00000000001	948066	950258	-	HIMB1491_00982	HIMB1491	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1491_00982	0
+HIMB1491-00000000001	950271	951308	-	HIMB1491_00983	HIMB1491	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1491_00982	1
+HIMB1491-00000000001	951463	952314	+	HIMB1491_00984	HIMB1491	283	OG0000874	K03453	bile acid:Na+ symporter, BASS family	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1491_00982	2
+HIMB1491-00000000001	952307	953263	-	HIMB1491_00985	HIMB1491	318	OG0000084	NA	NA	NA	NA	NA	HIMB1491_00982	3
+HIMB1491-00000000001	953424	955718	+	HIMB1491_00986	HIMB1491	764	OG0001644	NA	NA	COG1538	TolC	Outer membrane protein TolC	HIMB1491_00982	4
+HIMB1491-00000000001	955754	956017	+	HIMB1491_00987	HIMB1491	87	OG0001822	NA	NA	NA	NA	NA	HIMB1491_00982	5
+HIMB1494-00000000002	154406	155419	+	HIMB1494_01275	HIMB1494	337	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1494_01280	-5
+HIMB1494-00000000002	155399	155596	-	HIMB1494_01276	HIMB1494	65	OG0001133	NA	NA	NA	NA	NA	HIMB1494_01280	-4
+HIMB1494-00000000002	155711	156667	+	HIMB1494_01277	HIMB1494	318	OG0000084	NA	NA	NA	NA	NA	HIMB1494_01280	-3
+HIMB1494-00000000002	156660	157508	-	HIMB1494_01278	HIMB1494	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1494_01280	-2
+HIMB1494-00000000002	157664	158701	+	HIMB1494_01279	HIMB1494	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1494_01280	-1
+HIMB1494-00000000002	158714	160906	+	HIMB1494_01280	HIMB1494	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1494_01280	0
+HIMB1494-00000000002	160910	161965	+	HIMB1494_01281	HIMB1494	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1494_01280	1
+HIMB1494-00000000002	161970	162881	+	HIMB1494_01282	HIMB1494	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1494_01280	2
+HIMB1494-00000000002	162942	164222	+	HIMB1494_01283	HIMB1494	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1494_01280	3
+HIMB1494-00000000002	164247	164612	+	HIMB1494_01284	HIMB1494	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1494_01280	4
+HIMB1494-00000000002	164609	165694	-	HIMB1494_01285	HIMB1494	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1494_01280	5
+HIMB1495-00000000001	1148991	1150004	+	HIMB1495_01253	HIMB1495	337	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1495_01258	-5
+HIMB1495-00000000001	1149984	1150181	-	HIMB1495_01254	HIMB1495	65	OG0001133	NA	NA	NA	NA	NA	HIMB1495_01258	-4
+HIMB1495-00000000001	1150296	1151252	+	HIMB1495_01255	HIMB1495	318	OG0000084	NA	NA	NA	NA	NA	HIMB1495_01258	-3
+HIMB1495-00000000001	1151245	1152093	-	HIMB1495_01256	HIMB1495	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1495_01258	-2
+HIMB1495-00000000001	1152249	1153286	+	HIMB1495_01257	HIMB1495	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1495_01258	-1
+HIMB1495-00000000001	1153299	1155491	+	HIMB1495_01258	HIMB1495	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1495_01258	0
+HIMB1495-00000000001	1155495	1156550	+	HIMB1495_01259	HIMB1495	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1495_01258	1
+HIMB1495-00000000001	1156555	1157466	+	HIMB1495_01260	HIMB1495	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1495_01258	2
+HIMB1495-00000000001	1157527	1158807	+	HIMB1495_01261	HIMB1495	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1495_01258	3
+HIMB1495-00000000001	1158832	1159197	+	HIMB1495_01262	HIMB1495	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1495_01258	4
+HIMB1495-00000000001	1159194	1160279	-	HIMB1495_01263	HIMB1495	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1495_01258	5
+HIMB1507-00000000001	968653	969738	+	HIMB1507_00996	HIMB1507	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1507_01001	-5
+HIMB1507-00000000001	969735	970100	-	HIMB1507_00997	HIMB1507	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1507_01001	-4
+HIMB1507-00000000001	970125	971405	-	HIMB1507_00998	HIMB1507	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1507_01001	-3
+HIMB1507-00000000001	971467	972378	-	HIMB1507_00999	HIMB1507	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1507_01001	-2
+HIMB1507-00000000001	972383	973438	-	HIMB1507_01000	HIMB1507	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1507_01001	-1
+HIMB1507-00000000001	973442	975634	-	HIMB1507_01001	HIMB1507	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1507_01001	0
+HIMB1507-00000000001	975647	976684	-	HIMB1507_01002	HIMB1507	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1507_01001	1
+HIMB1507-00000000001	976839	977687	+	HIMB1507_01003	HIMB1507	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1507_01001	2
+HIMB1507-00000000001	977680	978636	-	HIMB1507_01004	HIMB1507	318	OG0000084	NA	NA	NA	NA	NA	HIMB1507_01001	3
+HIMB1507-00000000001	978730	978948	+	HIMB1507_01005	HIMB1507	72	OG0001133	NA	NA	NA	NA	NA	HIMB1507_01001	4
+HIMB1507-00000000001	978928	979941	-	HIMB1507_01006	HIMB1507	337	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1507_01001	5
+HIMB1513-00000000001	953614	954699	+	HIMB1513_00984	HIMB1513	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1513_00989	-5
+HIMB1513-00000000001	954696	955061	-	HIMB1513_00985	HIMB1513	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1513_00989	-4
+HIMB1513-00000000001	955085	956365	-	HIMB1513_00986	HIMB1513	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1513_00989	-3
+HIMB1513-00000000001	956427	957338	-	HIMB1513_00987	HIMB1513	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1513_00989	-2
+HIMB1513-00000000001	957343	958398	-	HIMB1513_00988	HIMB1513	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1513_00989	-1
+HIMB1513-00000000001	958402	960594	-	HIMB1513_00989	HIMB1513	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1513_00989	0
+HIMB1513-00000000001	960607	961644	-	HIMB1513_00990	HIMB1513	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1513_00989	1
+HIMB1513-00000000001	961801	962649	+	HIMB1513_00991	HIMB1513	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1513_00989	2
+HIMB1513-00000000001	962642	963598	-	HIMB1513_00992	HIMB1513	318	OG0000084	NA	NA	NA	NA	NA	HIMB1513_00989	3
+HIMB1513-00000000001	963714	963911	+	HIMB1513_00993	HIMB1513	65	OG0001133	NA	NA	NA	NA	NA	HIMB1513_00989	4
+HIMB1513-00000000001	963900	964904	-	HIMB1513_00994	HIMB1513	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1513_00989	5
+HIMB1521-00000000007	41782	42786	+	HIMB1521_00752	HIMB1521	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1521_00757	-5
+HIMB1521-00000000007	42775	42972	-	HIMB1521_00753	HIMB1521	65	OG0001133	NA	NA	NA	NA	NA	HIMB1521_00757	-4
+HIMB1521-00000000007	43088	44044	+	HIMB1521_00754	HIMB1521	318	OG0000084	NA	NA	NA	NA	NA	HIMB1521_00757	-3
+HIMB1521-00000000007	44037	44885	-	HIMB1521_00755	HIMB1521	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1521_00757	-2
+HIMB1521-00000000007	45042	46079	+	HIMB1521_00756	HIMB1521	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1521_00757	-1
+HIMB1521-00000000007	46092	48284	+	HIMB1521_00757	HIMB1521	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1521_00757	0
+HIMB1521-00000000007	48288	49343	+	HIMB1521_00758	HIMB1521	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1521_00757	1
+HIMB1521-00000000007	49348	50259	+	HIMB1521_00759	HIMB1521	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1521_00757	2
+HIMB1521-00000000007	50321	51601	+	HIMB1521_00760	HIMB1521	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1521_00757	3
+HIMB1521-00000000007	51625	51990	+	HIMB1521_00761	HIMB1521	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1521_00757	4
+HIMB1521-00000000007	51987	53072	-	HIMB1521_00762	HIMB1521	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1521_00757	5
+HIMB1526-00000000001	988912	989916	+	HIMB1526_01066	HIMB1526	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1526_01071	-5
+HIMB1526-00000000001	989905	990123	-	HIMB1526_01067	HIMB1526	72	OG0001133	NA	NA	NA	NA	NA	HIMB1526_01071	-4
+HIMB1526-00000000001	990217	991173	+	HIMB1526_01068	HIMB1526	318	OG0000084	NA	NA	NA	NA	NA	HIMB1526_01071	-3
+HIMB1526-00000000001	991166	992014	-	HIMB1526_01069	HIMB1526	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1526_01071	-2
+HIMB1526-00000000001	992170	993207	+	HIMB1526_01070	HIMB1526	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1526_01071	-1
+HIMB1526-00000000001	993220	995412	+	HIMB1526_01071	HIMB1526	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1526_01071	0
+HIMB1526-00000000001	995416	996471	+	HIMB1526_01072	HIMB1526	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1526_01071	1
+HIMB1526-00000000001	996476	997387	+	HIMB1526_01073	HIMB1526	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1526_01071	2
+HIMB1526-00000000001	997449	998729	+	HIMB1526_01074	HIMB1526	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1526_01071	3
+HIMB1526-00000000001	998754	999119	+	HIMB1526_01075	HIMB1526	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1526_01071	4
+HIMB1526-00000000001	999116	1000201	-	HIMB1526_01076	HIMB1526	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1526_01071	5
+HIMB1542-00000000001	297750	298835	+	HIMB1542_00312	HIMB1542	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1542_00317	-5
+HIMB1542-00000000001	298832	299197	-	HIMB1542_00313	HIMB1542	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1542_00317	-4
+HIMB1542-00000000001	299222	300502	-	HIMB1542_00314	HIMB1542	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1542_00317	-3
+HIMB1542-00000000001	300564	301475	-	HIMB1542_00315	HIMB1542	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1542_00317	-2
+HIMB1542-00000000001	301480	302535	-	HIMB1542_00316	HIMB1542	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1542_00317	-1
+HIMB1542-00000000001	302539	304731	-	HIMB1542_00317	HIMB1542	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1542_00317	0
+HIMB1542-00000000001	304744	305781	-	HIMB1542_00318	HIMB1542	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1542_00317	1
+HIMB1542-00000000001	305937	306785	+	HIMB1542_00319	HIMB1542	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1542_00317	2
+HIMB1542-00000000001	306778	307734	-	HIMB1542_00320	HIMB1542	318	OG0000084	NA	NA	NA	NA	NA	HIMB1542_00317	3
+HIMB1542-00000000001	307828	308046	+	HIMB1542_00321	HIMB1542	72	OG0001133	NA	NA	NA	NA	NA	HIMB1542_00317	4
+HIMB1542-00000000001	308026	309039	-	HIMB1542_00322	HIMB1542	337	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1542_00317	5
+HIMB1552-00000000001	539274	540278	+	HIMB1552_00602	HIMB1552	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1552_00607	-5
+HIMB1552-00000000001	540267	540485	-	HIMB1552_00603	HIMB1552	72	OG0001133	NA	NA	NA	NA	NA	HIMB1552_00607	-4
+HIMB1552-00000000001	540579	541535	+	HIMB1552_00604	HIMB1552	318	OG0000084	NA	NA	NA	NA	NA	HIMB1552_00607	-3
+HIMB1552-00000000001	541528	542376	-	HIMB1552_00605	HIMB1552	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1552_00607	-2
+HIMB1552-00000000001	542659	543570	+	HIMB1552_00606	HIMB1552	303	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1552_00607	-1
+HIMB1552-00000000001	543583	545775	+	HIMB1552_00607	HIMB1552	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1552_00607	0
+HIMB1552-00000000001	545779	546834	+	HIMB1552_00608	HIMB1552	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1552_00607	1
+HIMB1552-00000000001	546839	547750	+	HIMB1552_00609	HIMB1552	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1552_00607	2
+HIMB1552-00000000001	547812	549092	+	HIMB1552_00610	HIMB1552	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1552_00607	3
+HIMB1552-00000000001	549117	549482	+	HIMB1552_00611	HIMB1552	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1552_00607	4
+HIMB1552-00000000001	549479	550564	-	HIMB1552_00612	HIMB1552	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1552_00607	5
+HIMB1559-00000000001	478265	479278	+	HIMB1559_00542	HIMB1559	337	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1559_00547	-5
+HIMB1559-00000000001	479258	479455	-	HIMB1559_00543	HIMB1559	65	OG0001133	NA	NA	NA	NA	NA	HIMB1559_00547	-4
+HIMB1559-00000000001	479570	480526	+	HIMB1559_00544	HIMB1559	318	OG0000084	NA	NA	NA	NA	NA	HIMB1559_00547	-3
+HIMB1559-00000000001	480519	481367	-	HIMB1559_00545	HIMB1559	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1559_00547	-2
+HIMB1559-00000000001	481523	482560	+	HIMB1559_00546	HIMB1559	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1559_00547	-1
+HIMB1559-00000000001	482573	484765	+	HIMB1559_00547	HIMB1559	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1559_00547	0
+HIMB1559-00000000001	484769	485824	+	HIMB1559_00548	HIMB1559	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1559_00547	1
+HIMB1559-00000000001	485829	486740	+	HIMB1559_00549	HIMB1559	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1559_00547	2
+HIMB1559-00000000001	486801	488081	+	HIMB1559_00550	HIMB1559	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1559_00547	3
+HIMB1559-00000000001	488105	488470	+	HIMB1559_00551	HIMB1559	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1559_00547	4
+HIMB1559-00000000001	488467	489552	-	HIMB1559_00552	HIMB1559	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1559_00547	5
+HIMB1565-00000000001	388043	390535	+	HIMB1565_00433	HIMB1565	830	OG0001116	NA	NA	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	HIMB1565_00438	-5
+HIMB1565-00000000001	390536	391990	-	HIMB1565_00434	HIMB1565	484	OG0000423	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1565_00438	-4
+HIMB1565-00000000001	391996	392163	-	HIMB1565_00435	HIMB1565	55	OG0003128	NA	NA	NA	NA	NA	HIMB1565_00438	-3
+HIMB1565-00000000001	392184	393329	+	HIMB1565_00436	HIMB1565	381	OG0000828	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	HIMB1565_00438	-2
+HIMB1565-00000000001	393480	394805	+	HIMB1565_00437	HIMB1565	441	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1565_00438	-1
+HIMB1565-00000000001	394857	396539	+	HIMB1565_00438	HIMB1565	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1565_00438	0
+HIMB1565-00000000001	396532	397572	+	HIMB1565_00439	HIMB1565	346	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1565_00438	1
+HIMB1565-00000000001	397572	398252	+	HIMB1565_00440	HIMB1565	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	HIMB1565_00438	2
+HIMB1565-00000000001	398298	398711	-	HIMB1565_00441	HIMB1565	137	OG0002239	NA	NA	NA	NA	NA	HIMB1565_00438	3
+HIMB1565-00000000001	398797	398994	-	HIMB1565_00442	HIMB1565	65	OG0002386	NA	NA	NA	NA	NA	HIMB1565_00438	4
+HIMB1565-00000000001	399042	399248	-	HIMB1565_00443	HIMB1565	68	OG0002965	NA	NA	NA	NA	NA	HIMB1565_00438	5
+HIMB1577-00000000001	163617	164621	+	HIMB1577_00188	HIMB1577	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1577_00193	-5
+HIMB1577-00000000001	164610	164825	-	HIMB1577_00189	HIMB1577	71	OG0001133	NA	NA	NA	NA	NA	HIMB1577_00193	-4
+HIMB1577-00000000001	164922	165878	+	HIMB1577_00190	HIMB1577	318	OG0000084	NA	NA	NA	NA	NA	HIMB1577_00193	-3
+HIMB1577-00000000001	165871	166719	-	HIMB1577_00191	HIMB1577	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1577_00193	-2
+HIMB1577-00000000001	166875	167912	+	HIMB1577_00192	HIMB1577	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1577_00193	-1
+HIMB1577-00000000001	167925	170117	+	HIMB1577_00193	HIMB1577	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1577_00193	0
+HIMB1577-00000000001	170121	171176	+	HIMB1577_00194	HIMB1577	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1577_00193	1
+HIMB1577-00000000001	171181	172092	+	HIMB1577_00195	HIMB1577	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1577_00193	2
+HIMB1577-00000000001	172154	173434	+	HIMB1577_00196	HIMB1577	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1577_00193	3
+HIMB1577-00000000001	173459	173824	+	HIMB1577_00197	HIMB1577	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1577_00193	4
+HIMB1577-00000000001	173821	174906	-	HIMB1577_00198	HIMB1577	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1577_00193	5
+HIMB1587-00000000001	497441	498454	+	HIMB1587_00566	HIMB1587	337	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1587_00571	-5
+HIMB1587-00000000001	498434	498631	-	HIMB1587_00567	HIMB1587	65	OG0001133	NA	NA	NA	NA	NA	HIMB1587_00571	-4
+HIMB1587-00000000001	498746	499702	+	HIMB1587_00568	HIMB1587	318	OG0000084	NA	NA	NA	NA	NA	HIMB1587_00571	-3
+HIMB1587-00000000001	499695	500543	-	HIMB1587_00569	HIMB1587	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1587_00571	-2
+HIMB1587-00000000001	500699	501736	+	HIMB1587_00570	HIMB1587	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1587_00571	-1
+HIMB1587-00000000001	501749	503941	+	HIMB1587_00571	HIMB1587	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1587_00571	0
+HIMB1587-00000000001	503945	505000	+	HIMB1587_00572	HIMB1587	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1587_00571	1
+HIMB1587-00000000001	505005	505916	+	HIMB1587_00573	HIMB1587	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1587_00571	2
+HIMB1587-00000000001	505977	507257	+	HIMB1587_00574	HIMB1587	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1587_00571	3
+HIMB1587-00000000001	507281	507646	+	HIMB1587_00575	HIMB1587	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1587_00571	4
+HIMB1587-00000000001	507643	508728	-	HIMB1587_00576	HIMB1587	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1587_00571	5
+HIMB1593-00000000001	1136715	1137728	+	HIMB1593_01214	HIMB1593	337	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1593_01219	-5
+HIMB1593-00000000001	1137708	1137905	-	HIMB1593_01215	HIMB1593	65	OG0001133	NA	NA	NA	NA	NA	HIMB1593_01219	-4
+HIMB1593-00000000001	1138020	1138976	+	HIMB1593_01216	HIMB1593	318	OG0000084	NA	NA	NA	NA	NA	HIMB1593_01219	-3
+HIMB1593-00000000001	1138969	1139817	-	HIMB1593_01217	HIMB1593	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1593_01219	-2
+HIMB1593-00000000001	1139962	1140999	+	HIMB1593_01218	HIMB1593	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1593_01219	-1
+HIMB1593-00000000001	1141012	1143204	+	HIMB1593_01219	HIMB1593	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1593_01219	0
+HIMB1593-00000000001	1143208	1144263	+	HIMB1593_01220	HIMB1593	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1593_01219	1
+HIMB1593-00000000001	1144268	1145179	+	HIMB1593_01221	HIMB1593	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1593_01219	2
+HIMB1593-00000000001	1145240	1146520	+	HIMB1593_01222	HIMB1593	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1593_01219	3
+HIMB1593-00000000001	1146545	1146910	+	HIMB1593_01223	HIMB1593	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1593_01219	4
+HIMB1593-00000000001	1146907	1147992	-	HIMB1593_01224	HIMB1593	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1593_01219	5
+HIMB1597-00000000001	1302459	1303544	+	HIMB1597_01369	HIMB1597	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1597_01374	-5
+HIMB1597-00000000001	1303541	1303906	-	HIMB1597_01370	HIMB1597	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1597_01374	-4
+HIMB1597-00000000001	1303930	1305210	-	HIMB1597_01371	HIMB1597	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1597_01374	-3
+HIMB1597-00000000001	1305271	1306182	-	HIMB1597_01372	HIMB1597	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1597_01374	-2
+HIMB1597-00000000001	1306187	1307242	-	HIMB1597_01373	HIMB1597	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1597_01374	-1
+HIMB1597-00000000001	1307246	1309438	-	HIMB1597_01374	HIMB1597	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1597_01374	0
+HIMB1597-00000000001	1309451	1310488	-	HIMB1597_01375	HIMB1597	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1597_01374	1
+HIMB1597-00000000001	1310644	1311492	+	HIMB1597_01376	HIMB1597	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1597_01374	2
+HIMB1597-00000000001	1311485	1312441	-	HIMB1597_01377	HIMB1597	318	OG0000084	NA	NA	NA	NA	NA	HIMB1597_01374	3
+HIMB1597-00000000001	1312556	1312753	+	HIMB1597_01378	HIMB1597	65	OG0001133	NA	NA	NA	NA	NA	HIMB1597_01374	4
+HIMB1597-00000000001	1312733	1313746	-	HIMB1597_01379	HIMB1597	337	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1597_01374	5
+HIMB1602-00000000033	31	396	-	HIMB1602_00452	HIMB1602	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1602_00456	-4
+HIMB1602-00000000033	418	1698	-	HIMB1602_00453	HIMB1602	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1602_00456	-3
+HIMB1602-00000000033	1774	2685	-	HIMB1602_00454	HIMB1602	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1602_00456	-2
+HIMB1602-00000000033	2690	3745	-	HIMB1602_00455	HIMB1602	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1602_00456	-1
+HIMB1602-00000000033	3749	5941	-	HIMB1602_00456	HIMB1602	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1602_00456	0
+HIMB1602-00000000033	5954	6991	-	HIMB1602_00457	HIMB1602	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1602_00456	1
+HIMB1602-00000000033	7147	8214	+	HIMB1602_00458	HIMB1602	355	OG0000874	K03453	bile acid:Na+ symporter, BASS family	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1602_00456	2
+HIMB1602-00000000033	8206	8640	-	HIMB1602_00459	HIMB1602	144	OG0000043	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1602_00456	3
+HIMB1611-00000000001	272619	273704	+	HIMB1611_00287	HIMB1611	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1611_00292	-5
+HIMB1611-00000000001	273701	274066	-	HIMB1611_00288	HIMB1611	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1611_00292	-4
+HIMB1611-00000000001	274091	275371	-	HIMB1611_00289	HIMB1611	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1611_00292	-3
+HIMB1611-00000000001	275433	276344	-	HIMB1611_00290	HIMB1611	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1611_00292	-2
+HIMB1611-00000000001	276349	277404	-	HIMB1611_00291	HIMB1611	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1611_00292	-1
+HIMB1611-00000000001	277408	279600	-	HIMB1611_00292	HIMB1611	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1611_00292	0
+HIMB1611-00000000001	279613	280650	-	HIMB1611_00293	HIMB1611	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1611_00292	1
+HIMB1611-00000000001	280806	281654	+	HIMB1611_00294	HIMB1611	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1611_00292	2
+HIMB1611-00000000001	281647	282603	-	HIMB1611_00295	HIMB1611	318	OG0000084	NA	NA	NA	NA	NA	HIMB1611_00292	3
+HIMB1611-00000000001	282718	282915	+	HIMB1611_00296	HIMB1611	65	OG0001133	NA	NA	NA	NA	NA	HIMB1611_00292	4
+HIMB1611-00000000001	282895	283908	-	HIMB1611_00297	HIMB1611	337	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1611_00292	5
+HIMB1623-00000000001	62200	63204	+	HIMB1623_00070	HIMB1623	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1623_00075	-5
+HIMB1623-00000000001	63193	63390	-	HIMB1623_00071	HIMB1623	65	OG0001133	NA	NA	NA	NA	NA	HIMB1623_00075	-4
+HIMB1623-00000000001	63506	64462	+	HIMB1623_00072	HIMB1623	318	OG0000084	NA	NA	NA	NA	NA	HIMB1623_00075	-3
+HIMB1623-00000000001	64455	65303	-	HIMB1623_00073	HIMB1623	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1623_00075	-2
+HIMB1623-00000000001	65450	66487	+	HIMB1623_00074	HIMB1623	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1623_00075	-1
+HIMB1623-00000000001	66500	68692	+	HIMB1623_00075	HIMB1623	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1623_00075	0
+HIMB1623-00000000001	68696	69751	+	HIMB1623_00076	HIMB1623	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1623_00075	1
+HIMB1623-00000000001	69756	70667	+	HIMB1623_00077	HIMB1623	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1623_00075	2
+HIMB1623-00000000001	70729	72009	+	HIMB1623_00078	HIMB1623	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1623_00075	3
+HIMB1623-00000000001	72034	72399	+	HIMB1623_00079	HIMB1623	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1623_00075	4
+HIMB1623-00000000001	72396	73481	-	HIMB1623_00080	HIMB1623	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1623_00075	5
+HIMB1631-00000000001	493378	494382	+	HIMB1631_00556	HIMB1631	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1631_00561	-5
+HIMB1631-00000000001	494371	494586	-	HIMB1631_00557	HIMB1631	71	OG0001133	NA	NA	NA	NA	NA	HIMB1631_00561	-4
+HIMB1631-00000000001	494683	495639	+	HIMB1631_00558	HIMB1631	318	OG0000084	NA	NA	NA	NA	NA	HIMB1631_00561	-3
+HIMB1631-00000000001	495632	496480	-	HIMB1631_00559	HIMB1631	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1631_00561	-2
+HIMB1631-00000000001	496636	497673	+	HIMB1631_00560	HIMB1631	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1631_00561	-1
+HIMB1631-00000000001	497686	499878	+	HIMB1631_00561	HIMB1631	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1631_00561	0
+HIMB1631-00000000001	499882	500937	+	HIMB1631_00562	HIMB1631	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1631_00561	1
+HIMB1631-00000000001	500942	501853	+	HIMB1631_00563	HIMB1631	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1631_00561	2
+HIMB1631-00000000001	501915	503195	+	HIMB1631_00564	HIMB1631	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1631_00561	3
+HIMB1631-00000000001	503220	503585	+	HIMB1631_00565	HIMB1631	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1631_00561	4
+HIMB1631-00000000001	503582	504667	-	HIMB1631_00566	HIMB1631	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1631_00561	5
+HIMB1701-00000000001	1464477	1465562	+	HIMB1701_01562	HIMB1701	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1701_01567	-5
+HIMB1701-00000000001	1465559	1465924	-	HIMB1701_01563	HIMB1701	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1701_01567	-4
+HIMB1701-00000000001	1465949	1467229	-	HIMB1701_01564	HIMB1701	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1701_01567	-3
+HIMB1701-00000000001	1467291	1468202	-	HIMB1701_01565	HIMB1701	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1701_01567	-2
+HIMB1701-00000000001	1468207	1469262	-	HIMB1701_01566	HIMB1701	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1701_01567	-1
+HIMB1701-00000000001	1469266	1471458	-	HIMB1701_01567	HIMB1701	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1701_01567	0
+HIMB1701-00000000001	1471471	1472508	-	HIMB1701_01568	HIMB1701	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1701_01567	1
+HIMB1701-00000000001	1472664	1473512	+	HIMB1701_01569	HIMB1701	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1701_01567	2
+HIMB1701-00000000001	1473505	1474461	-	HIMB1701_01570	HIMB1701	318	OG0000084	NA	NA	NA	NA	NA	HIMB1701_01567	3
+HIMB1701-00000000001	1474578	1474775	+	HIMB1701_01571	HIMB1701	65	OG0001133	NA	NA	NA	NA	NA	HIMB1701_01567	4
+HIMB1701-00000000001	1474764	1475768	-	HIMB1701_01572	HIMB1701	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1701_01567	5
+HIMB1709-00000000001	381705	382502	+	HIMB1709_00437	HIMB1709	265	OG0000001	K10831	taurine transport system ATP-binding protein [EC:7.6.2.7]	COG1116	TauB	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	HIMB1709_00442	-5
+HIMB1709-00000000001	382502	384427	+	HIMB1709_00438	HIMB1709	641	OG0000975	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	HIMB1709_00442	-4
+HIMB1709-00000000001	384428	385432	+	HIMB1709_00439	HIMB1709	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1709_00442	-3
+HIMB1709-00000000001	385436	386284	-	HIMB1709_00440	HIMB1709	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1709_00442	-2
+HIMB1709-00000000001	386429	387466	+	HIMB1709_00441	HIMB1709	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1709_00442	-1
+HIMB1709-00000000001	387479	389671	+	HIMB1709_00442	HIMB1709	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1709_00442	0
+HIMB1709-00000000001	389675	390730	+	HIMB1709_00443	HIMB1709	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1709_00442	1
+HIMB1709-00000000001	390735	391646	+	HIMB1709_00444	HIMB1709	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1709_00442	2
+HIMB1709-00000000001	391708	392988	+	HIMB1709_00445	HIMB1709	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1709_00442	3
+HIMB1709-00000000001	393012	393377	+	HIMB1709_00446	HIMB1709	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1709_00442	4
+HIMB1709-00000000001	393374	394459	-	HIMB1709_00447	HIMB1709	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1709_00442	5
+HIMB1758-00000000001	931435	932520	+	HIMB1758_00960	HIMB1758	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1758_00965	-5
+HIMB1758-00000000001	932517	932882	-	HIMB1758_00961	HIMB1758	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1758_00965	-4
+HIMB1758-00000000001	932907	934187	-	HIMB1758_00962	HIMB1758	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1758_00965	-3
+HIMB1758-00000000001	934249	935160	-	HIMB1758_00963	HIMB1758	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1758_00965	-2
+HIMB1758-00000000001	935165	936220	-	HIMB1758_00964	HIMB1758	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1758_00965	-1
+HIMB1758-00000000001	936224	938416	-	HIMB1758_00965	HIMB1758	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1758_00965	0
+HIMB1758-00000000001	938429	939466	-	HIMB1758_00966	HIMB1758	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1758_00965	1
+HIMB1758-00000000001	939622	940470	+	HIMB1758_00967	HIMB1758	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1758_00965	2
+HIMB1758-00000000001	940463	941419	-	HIMB1758_00968	HIMB1758	318	OG0000084	NA	NA	NA	NA	NA	HIMB1758_00965	3
+HIMB1758-00000000001	941513	941731	+	HIMB1758_00969	HIMB1758	72	OG0001133	NA	NA	NA	NA	NA	HIMB1758_00965	4
+HIMB1758-00000000001	941711	942724	-	HIMB1758_00970	HIMB1758	337	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1758_00965	5
+HIMB1765-00000000001	488422	489426	+	HIMB1765_00554	HIMB1765	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1765_00559	-5
+HIMB1765-00000000001	489415	489633	-	HIMB1765_00555	HIMB1765	72	OG0001133	NA	NA	NA	NA	NA	HIMB1765_00559	-4
+HIMB1765-00000000001	489727	490683	+	HIMB1765_00556	HIMB1765	318	OG0000084	NA	NA	NA	NA	NA	HIMB1765_00559	-3
+HIMB1765-00000000001	490676	491524	-	HIMB1765_00557	HIMB1765	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1765_00559	-2
+HIMB1765-00000000001	491669	492706	+	HIMB1765_00558	HIMB1765	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1765_00559	-1
+HIMB1765-00000000001	492719	494911	+	HIMB1765_00559	HIMB1765	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1765_00559	0
+HIMB1765-00000000001	494915	495970	+	HIMB1765_00560	HIMB1765	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1765_00559	1
+HIMB1765-00000000001	495975	496886	+	HIMB1765_00561	HIMB1765	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1765_00559	2
+HIMB1765-00000000001	496948	498228	+	HIMB1765_00562	HIMB1765	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1765_00559	3
+HIMB1765-00000000001	498253	498618	+	HIMB1765_00563	HIMB1765	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1765_00559	4
+HIMB1765-00000000001	498615	499700	-	HIMB1765_00564	HIMB1765	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1765_00559	5
+HIMB1782-00000000002	305282	306367	+	HIMB1782_01242	HIMB1782	361	OG0001363	NA	NA	COG5485	SnoaL	Polyketide cyclase, SnoaL/DnrD family	HIMB1782_01247	-5
+HIMB1782-00000000002	306364	306729	-	HIMB1782_01243	HIMB1782	121	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1782_01247	-4
+HIMB1782-00000000002	306754	308034	-	HIMB1782_01244	HIMB1782	426	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB1782_01247	-3
+HIMB1782-00000000002	308095	309006	-	HIMB1782_01245	HIMB1782	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB1782_01247	-2
+HIMB1782-00000000002	309011	310066	-	HIMB1782_01246	HIMB1782	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB1782_01247	-1
+HIMB1782-00000000002	310070	312262	-	HIMB1782_01247	HIMB1782	730	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB1782_01247	0
+HIMB1782-00000000002	312275	313312	-	HIMB1782_01248	HIMB1782	345	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HIMB1782_01247	1
+HIMB1782-00000000002	313468	314316	+	HIMB1782_01249	HIMB1782	282	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HIMB1782_01247	2
+HIMB1782-00000000002	314309	315265	-	HIMB1782_01250	HIMB1782	318	OG0000084	NA	NA	NA	NA	NA	HIMB1782_01247	3
+HIMB1782-00000000002	315380	315577	+	HIMB1782_01251	HIMB1782	65	OG0001133	NA	NA	NA	NA	NA	HIMB1782_01247	4
+HIMB1782-00000000002	315566	316570	-	HIMB1782_01252	HIMB1782	334	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HIMB1782_01247	5
+HIMB2304-00000000228	222	1973	+	HIMB2304_00791	HIMB2304	583	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HIMB2304_00791	0
+HIMB2304-00000000228	1973	3028	+	HIMB2304_00792	HIMB2304	351	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HIMB2304_00791	1
+HIMB2304-00000000228	3034	3945	+	HIMB2304_00793	HIMB2304	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HIMB2304_00791	2
+HIMB2304-00000000228	4006	5292	+	HIMB2304_00794	HIMB2304	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HIMB2304_00791	3
+HIMB2304-00000000228	5289	5474	-	HIMB2304_00795	HIMB2304	61	OG0001281	NA	NA	COG3408	GDB1	Glycogen debranching enzyme (alpha-1,6-glucosidase)	HIMB2304_00791	4
+KI421440.1	455886	456941	+	HTCC8051_00480	HTCC8051	351	OG0000001	NA	NA	COG3839	MalK	ABC-type sugar transport system, ATPase component MalK	HTCC8051_00485	-5
+KI421440.1	456938	458224	-	HTCC8051_00481	HTCC8051	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	HTCC8051_00485	-4
+KI421440.1	458390	459301	-	HTCC8051_00482	HTCC8051	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	HTCC8051_00485	-3
+KI421440.1	459374	460564	+	HTCC8051_00483	HTCC8051	396	OG0001408	NA	NA	COG0596	MenH	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase MenH/undecaprenyl monophosphate-sugar esterase UshA/YqjL	HTCC8051_00485	-2
+KI421440.1	460548	461600	-	HTCC8051_00484	HTCC8051	350	OG0000109	NA	NA	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	HTCC8051_00485	-1
+KI421440.1	461600	463798	-	HTCC8051_00485	HTCC8051	732	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	HTCC8051_00485	0
+KI421440.1	463811	464836	-	HTCC8051_00486	HTCC8051	341	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	HTCC8051_00485	1
+KI421440.1	465007	465852	+	HTCC8051_00487	HTCC8051	281	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	HTCC8051_00485	2
+KI421440.1	465849	466811	-	HTCC8051_00488	HTCC8051	320	OG0000084	NA	NA	COG2512	NA	Predicted transcriptional regulator, contains CW (cell wall-binding) repeats and an HTH domain	HTCC8051_00485	3
+KI421440.1	466831	467142	+	HTCC8051_00489	HTCC8051	103	OG0001133	NA	NA	NA	NA	NA	HTCC8051_00485	4
+KI421440.1	467139	468146	-	HTCC8051_00490	HTCC8051	335	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	HTCC8051_00485	5
+CP002511.1	155993	156805	-	IMCC9063_00185	IMCC9063	270	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	IMCC9063_00190	-5
+CP002511.1	156805	157560	-	IMCC9063_00186	IMCC9063	251	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	IMCC9063_00190	-4
+CP002511.1	157637	158581	-	IMCC9063_00187	IMCC9063	314	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	IMCC9063_00190	-3
+CP002511.1	158765	159427	-	IMCC9063_00188	IMCC9063	220	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	IMCC9063_00190	-2
+CP002511.1	159427	160488	-	IMCC9063_00189	IMCC9063	353	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	IMCC9063_00190	-1
+CP002511.1	160488	162170	-	IMCC9063_00190	IMCC9063	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	IMCC9063_00190	0
+CP002511.1	162223	163554	-	IMCC9063_00191	IMCC9063	443	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	IMCC9063_00190	1
+CP002511.1	163723	163848	+	IMCC9063_00192	IMCC9063	41	OG0000908	NA	NA	COG1235	PhnP	Phosphoribosyl 1,2-cyclic phosphate phosphodiesterase	IMCC9063_00190	2
+CP002511.1	164174	164500	+	IMCC9063_00193	IMCC9063	108	OG0000908	NA	NA	COG1235	PhnP	Phosphoribosyl 1,2-cyclic phosphate phosphodiesterase	IMCC9063_00190	3
+CP002511.1	164509	165633	+	IMCC9063_00194	IMCC9063	374	OG0001034	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	IMCC9063_00190	4
+CP002511.1	165636	166322	-	IMCC9063_00195	IMCC9063	228	OG0001023	K07657	two-component system, OmpR family, phosphate regulon response regulator PhoB	COG0745	OmpR	DNA-binding response regulator, OmpR family, contains REC and winged-helix (wHTH) domain	IMCC9063_00190	5
+Ga0182791_11	286245	286484	-	LSUCC0261_00296	LSUCC0261	79	OG0000100	NA	NA	COG0583	LysR	DNA-binding transcriptional regulator, LysR family	LSUCC0261_00301	-5
+Ga0182791_11	286614	287462	-	LSUCC0261_00297	LSUCC0261	282	OG0001421	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	LSUCC0261_00301	-4
+Ga0182791_11	287526	287966	-	LSUCC0261_00298	LSUCC0261	146	OG0001304	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	LSUCC0261_00301	-3
+Ga0182791_11	288021	288173	+	LSUCC0261_00299	LSUCC0261	50	NA	NA	NA	NA	NA	NA	LSUCC0261_00301	-2
+Ga0182791_11	288273	289604	+	LSUCC0261_00300	LSUCC0261	443	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	LSUCC0261_00301	-1
+Ga0182791_11	289653	291335	+	LSUCC0261_00301	LSUCC0261	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	LSUCC0261_00301	0
+Ga0182791_11	291335	292372	+	LSUCC0261_00302	LSUCC0261	345	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	LSUCC0261_00301	1
+Ga0182791_11	292372	293031	+	LSUCC0261_00303	LSUCC0261	219	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	LSUCC0261_00301	2
+Ga0182791_11	293083	294321	+	LSUCC0261_00304	LSUCC0261	412	OG0001339	NA	NA	COG1680	AmpC	CubicO group peptidase, beta-lactamase class C family	LSUCC0261_00301	3
+Ga0182791_11	294531	295097	-	LSUCC0261_00305	LSUCC0261	188	OG0003116	NA	NA	NA	NA	NA	LSUCC0261_00301	4
+Ga0182791_11	295130	295480	-	LSUCC0261_00306	LSUCC0261	116	OG0000170	NA	NA	NA	NA	NA	LSUCC0261_00301	5
+Ga0255589_11	69014	70162	+	LSUCC0664_00076	LSUCC0664	382	OG0000828	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	LSUCC0664_00081	-5
+Ga0255589_11	70336	70524	-	LSUCC0664_00077	LSUCC0664	62	OG0003386	NA	NA	NA	NA	NA	LSUCC0664_00081	-4
+Ga0255589_11	70721	70915	-	LSUCC0664_00078	LSUCC0664	64	OG0000306	NA	NA	NA	NA	NA	LSUCC0664_00081	-3
+Ga0255589_11	70934	71140	-	LSUCC0664_00079	LSUCC0664	68	OG0001080	K03704	cold shock protein	COG1278	CspC	Cold shock protein, CspA family	LSUCC0664_00081	-2
+Ga0255589_11	71462	72787	+	LSUCC0664_00080	LSUCC0664	441	OG0001483	K08478	phosphoglycerate transport regulatory protein PgtC	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	LSUCC0664_00081	-1
+Ga0255589_11	72838	74520	+	LSUCC0664_00081	LSUCC0664	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	LSUCC0664_00081	0
+Ga0255589_11	74513	75553	+	LSUCC0664_00082	LSUCC0664	346	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	LSUCC0664_00081	1
+Ga0255589_11	75553	76233	+	LSUCC0664_00083	LSUCC0664	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	LSUCC0664_00081	2
+Ga0255589_11	76279	76692	-	LSUCC0664_00084	LSUCC0664	137	OG0002239	NA	NA	NA	NA	NA	LSUCC0664_00081	3
+Ga0255589_11	77093	77290	-	LSUCC0664_00085	LSUCC0664	65	OG0002386	NA	NA	NA	NA	NA	LSUCC0664_00081	4
+Ga0255589_11	77483	77689	-	LSUCC0664_00086	LSUCC0664	68	OG0002965	NA	NA	NA	NA	NA	LSUCC0664_00081	5
+Ga0197930_11	955725	955922	+	LSUCC0723_01046	LSUCC0723	65	OG0002386	NA	NA	NA	NA	NA	LSUCC0723_01051	-5
+Ga0197930_11	956006	956419	+	LSUCC0723_01047	LSUCC0723	137	OG0002239	NA	NA	NA	NA	NA	LSUCC0723_01051	-4
+Ga0197930_11	956500	957348	-	LSUCC0723_01048	LSUCC0723	282	OG0001421	NA	NA	COG2510	RibN	Riboflavin transporter RibN, EamA domain	LSUCC0723_01051	-3
+Ga0197930_11	957345	958004	-	LSUCC0723_01049	LSUCC0723	219	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	LSUCC0723_01051	-2
+Ga0197930_11	958004	959044	-	LSUCC0723_01050	LSUCC0723	346	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	LSUCC0723_01051	-1
+Ga0197930_11	959037	960719	-	LSUCC0723_01051	LSUCC0723	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	LSUCC0723_01051	0
+Ga0197930_11	960771	962096	-	LSUCC0723_01052	LSUCC0723	441	OG0001483	K08478	phosphoglycerate transport regulatory protein PgtC	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	LSUCC0723_01051	1
+Ga0197930_11	962419	962625	+	LSUCC0723_01053	LSUCC0723	68	OG0001080	K03704	cold shock protein	COG1278	CspC	Cold shock protein, CspA family	LSUCC0723_01051	2
+Ga0197930_11	962644	962844	+	LSUCC0723_01054	LSUCC0723	66	OG0000306	NA	NA	NA	NA	NA	LSUCC0723_01051	3
+Ga0197930_11	962845	963024	+	LSUCC0723_01055	LSUCC0723	59	OG0003386	NA	NA	NA	NA	NA	LSUCC0723_01051	4
+Ga0197930_11	963031	963189	-	LSUCC0723_01056	LSUCC0723	52	OG0001493	NA	NA	NA	NA	NA	LSUCC0723_01051	5
+CP020777.1	814382	815464	+	RS39_00900	RS39	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	RS39_00905	-5
+CP020777.1	815461	816402	-	RS39_00901	RS39	313	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	RS39_00905	-4
+CP020777.1	816435	816824	+	RS39_00902	RS39	129	OG0000745	NA	NA	NA	NA	NA	RS39_00905	-3
+CP020777.1	816834	817985	+	RS39_00903	RS39	383	OG0001015	K01271	Xaa-Pro dipeptidase [EC:3.4.13.9]	COG0006	PepP	Xaa-Pro aminopeptidase	RS39_00905	-2
+CP020777.1	818073	819407	+	RS39_00904	RS39	444	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	RS39_00905	-1
+CP020777.1	819451	821133	+	RS39_00905	RS39	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	RS39_00905	0
+CP020777.1	821133	822173	+	RS39_00906	RS39	346	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	RS39_00905	1
+CP020777.1	822174	822848	-	RS39_00907	RS39	224	OG0000101	K02029	polar amino acid transport system permease protein	COG4160	ArtM	ABC-type arginine/histidine transport system, permease component	RS39_00905	2
+CP020777.1	822848	823540	-	RS39_00908	RS39	230	OG0000979	K10020	octopine/nopaline transport system permease protein	COG4215	ArtQ	ABC-type arginine transport system, permease component	RS39_00905	3
+CP020777.1	823586	824413	-	RS39_00909	RS39	275	OG0000978	K10018	octopine/nopaline transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	RS39_00905	4
+CP020777.1	824475	825515	-	RS39_00910	RS39	346	OG0000859	K00797	spermidine synthase [EC:2.5.1.16]	COG1586	SpeD	S-adenosylmethionine decarboxylase	RS39_00905	5
+PBKK01000016.1	49	246	+	SP27_00133	SP27	65	OG0002386	NA	NA	NA	NA	NA	SP27_00136	-3
+PBKK01000016.1	357	1016	-	SP27_00134	SP27	219	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	SP27_00136	-2
+PBKK01000016.1	1016	2056	-	SP27_00135	SP27	346	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	SP27_00136	-1
+PBKK01000016.1	2049	3731	-	SP27_00136	SP27	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	SP27_00136	0
+PBKK01000016.1	3780	5105	-	SP27_00137	SP27	441	OG0001483	K08478	phosphoglycerate transport regulatory protein PgtC	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	SP27_00136	1
+PBKK01000016.1	5279	6430	-	SP27_00138	SP27	383	OG0000828	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	SP27_00136	2
+PBKK01000016.1	6620	8074	+	SP27_00139	SP27	484	OG0000423	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	SP27_00136	3
+PBKK01000016.1	8075	10567	-	SP27_00140	SP27	830	OG0001116	K01992	ABC-2 type transport system permease protein	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	SP27_00136	4
+PBKK01000016.1	10564	11235	-	SP27_00141	SP27	223	OG0000000	K02003	putative ABC transport system ATP-binding protein	COG1136	LolD	ABC-type lipoprotein targeting system ATPase component LolD	SP27_00136	5

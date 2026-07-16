@@ -1,0 +1,377 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CABZDS010000009.1	28230	28697	+	AG-337-D16_00902	AG-337-D16	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-337-D16_00907	-5
+CABZDS010000009.1	28699	29526	+	AG-337-D16_00903	AG-337-D16	275	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-337-D16_00907	-4
+CABZDS010000009.1	29547	31127	+	AG-337-D16_00904	AG-337-D16	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-337-D16_00907	-3
+CABZDS010000009.1	31120	31596	-	AG-337-D16_00905	AG-337-D16	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-337-D16_00907	-2
+CABZDS010000009.1	31659	32606	+	AG-337-D16_00906	AG-337-D16	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-337-D16_00907	-1
+CABZDS010000009.1	32663	36097	+	AG-337-D16_00907	AG-337-D16	1144	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-337-D16_00907	0
+CABZDS010000009.1	36225	37415	+	AG-337-D16_00908	AG-337-D16	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-337-D16_00907	1
+CABZDS010000009.1	37519	38889	-	AG-337-D16_00909	AG-337-D16	456	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-337-D16_00907	2
+CABZDS010000009.1	38886	39536	-	AG-337-D16_00910	AG-337-D16	216	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-337-D16_00907	3
+CABZDS010000009.1	39536	39895	-	AG-337-D16_00911	AG-337-D16	119	OG0000021	NA	NA	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-337-D16_00907	4
+CABZDS010000009.1	39895	40602	-	AG-337-D16_00912	AG-337-D16	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-337-D16_00907	5
+CABZHN010000008.1	21560	21850	-	AG-337-G06_01112	AG-337-G06	96	OG0000515	K03530	DNA-binding protein HU-beta	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	AG-337-G06_01118	-5
+CABZHN010000008.1	21989	24397	-	AG-337-G06_01113	AG-337-G06	802	OG0000595	K01338	ATP-dependent Lon protease [EC:3.4.21.53]	COG0466	Lon	ATP-dependent Lon protease, bacterial type	AG-337-G06_01118	-4
+CABZHN010000008.1	24525	25793	-	AG-337-G06_01114	AG-337-G06	422	OG0000516	K03544	ATP-dependent Clp protease ATP-binding subunit ClpX	COG1219	ClpX	ATP-dependent protease Clp, ATPase subunit ClpX	AG-337-G06_01118	-3
+CABZHN010000008.1	25919	26542	-	AG-337-G06_01115	AG-337-G06	207	OG0000647	K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]	COG0740	ClpP	ATP-dependent protease ClpP, protease subunit	AG-337-G06_01118	-2
+CABZHN010000008.1	26547	27965	-	AG-337-G06_01116	AG-337-G06	472	OG0000744	K03545	trigger factor	COG0544	Tig	Trigger factor Tig, ribosome-bound chaperone (peptidyl-prolyl cis-trans isomerase)	AG-337-G06_01118	-1
+CABZHN010000008.1	28222	31425	-	AG-337-G06_01118	AG-337-G06	1067	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-337-G06_01118	0
+CABZHN010000008.1	31568	32521	+	AG-337-G06_01119	AG-337-G06	317	OG0000011	K00018	glycerate dehydrogenase [EC:1.1.1.29]	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	AG-337-G06_01118	1
+CABZHN010000008.1	32672	32890	+	AG-337-G06_01120	AG-337-G06	72	OG0002177	NA	NA	NA	NA	NA	AG-337-G06_01118	2
+CABZHN010000008.1	32887	34773	-	AG-337-G06_01121	AG-337-G06	628	OG0002036	NA	NA	COG2272	PnbA	Carboxylesterase type B	AG-337-G06_01118	3
+CABZHN010000008.1	34754	36241	-	AG-337-G06_01122	AG-337-G06	495	OG0001662	K23997	ADP-dependent NAD(P)H-hydrate dehydratase / NAD(P)H-hydrate epimerase [EC:4.2.1.136 5.1.99.6]	COG0063	NnrD	NAD(P)H-hydrate repair enzyme Nnr, NAD(P)H-hydrate dehydratase (NAXD) domain	AG-337-G06_01118	4
+CABZHN010000008.1	36417	36752	+	AG-337-G06_01123	AG-337-G06	111	OG0001790	K04751	nitrogen regulatory protein P-II 1	COG0347	GlnK	Nitrogen regulatory protein PII	AG-337-G06_01118	5
+CACBKI010000012.1	7616	8476	+	AG-359-B05_00902	AG-359-B05	286	OG0001183	K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]	COG2301	CitE	Citrate lyase beta subunit	AG-359-B05_00907	-5
+CACBKI010000012.1	8481	8948	+	AG-359-B05_00903	AG-359-B05	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-359-B05_00907	-4
+CACBKI010000012.1	8949	10529	+	AG-359-B05_00904	AG-359-B05	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-359-B05_00907	-3
+CACBKI010000012.1	10522	10998	-	AG-359-B05_00905	AG-359-B05	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-359-B05_00907	-2
+CACBKI010000012.1	11061	12008	+	AG-359-B05_00906	AG-359-B05	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-359-B05_00907	-1
+CACBKI010000012.1	12014	15412	+	AG-359-B05_00907	AG-359-B05	1132	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-359-B05_00907	0
+CACBKI010000012.1	15540	16730	+	AG-359-B05_00908	AG-359-B05	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-359-B05_00907	1
+CACBKI010000012.1	16834	18204	-	AG-359-B05_00909	AG-359-B05	456	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-359-B05_00907	2
+CACBKI010000012.1	18201	19211	-	AG-359-B05_00910	AG-359-B05	336	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-359-B05_00907	3
+CACBKI010000012.1	19211	19918	-	AG-359-B05_00911	AG-359-B05	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-359-B05_00907	4
+CACBKI010000012.1	19918	20706	-	AG-359-B05_00912	AG-359-B05	262	OG0000143	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	AG-359-B05_00907	5
+CACBWZ010000015.1	23	145	+	AG-359-O11_01141	AG-359-O11	40	OG0001183	NA	NA	COG2301	CitE	Citrate lyase beta subunit	AG-359-O11_01146	-5
+CACBWZ010000015.1	150	617	+	AG-359-O11_01142	AG-359-O11	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-359-O11_01146	-4
+CACBWZ010000015.1	618	2198	+	AG-359-O11_01143	AG-359-O11	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-359-O11_01146	-3
+CACBWZ010000015.1	2191	2667	-	AG-359-O11_01144	AG-359-O11	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-359-O11_01146	-2
+CACBWZ010000015.1	2726	3673	+	AG-359-O11_01145	AG-359-O11	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-359-O11_01146	-1
+CACBWZ010000015.1	3679	7077	+	AG-359-O11_01146	AG-359-O11	1132	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-359-O11_01146	0
+CACBWZ010000015.1	7205	8395	+	AG-359-O11_01147	AG-359-O11	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-359-O11_01146	1
+CACBWZ010000015.1	8499	9869	-	AG-359-O11_01148	AG-359-O11	456	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-359-O11_01146	2
+CACGAF010000010.1	11250	11969	+	AG-422-B15_00739	AG-422-B15	239	OG0000769	K01923	phosphoribosylaminoimidazole-succinocarboxamide synthase [EC:6.3.2.6]	COG0152	PurC	Phosphoribosylaminoimidazole-succinocarboxamide synthase	AG-422-B15_00744	-5
+CACGAF010000010.1	11976	12218	+	AG-422-B15_00740	AG-422-B15	80	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-422-B15_00744	-4
+CACGAF010000010.1	12219	12890	+	AG-422-B15_00741	AG-422-B15	223	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-422-B15_00744	-3
+CACGAF010000010.1	12890	15088	+	AG-422-B15_00742	AG-422-B15	732	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-422-B15_00744	-2
+CACGAF010000010.1	15146	15475	+	AG-422-B15_00743	AG-422-B15	109	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-422-B15_00744	-1
+CACGAF010000010.1	15490	18801	-	AG-422-B15_00744	AG-422-B15	1103	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-422-B15_00744	0
+CACGAF010000010.1	18841	19950	-	AG-422-B15_00745	AG-422-B15	369	OG0002144	NA	NA	COG2866	MpaA	Murein tripeptide amidase MpaA	AG-422-B15_00744	1
+CACGAF010000010.1	19958	20575	-	AG-422-B15_00746	AG-422-B15	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-422-B15_00744	2
+CACGAF010000010.1	20629	21366	-	AG-422-B15_00747	AG-422-B15	245	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-422-B15_00744	3
+CACGAF010000010.1	21373	22965	-	AG-422-B15_00748	AG-422-B15	530	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-422-B15_00744	4
+CACGAF010000010.1	22966	24330	-	AG-422-B15_00749	AG-422-B15	454	OG0000584	K01883	cysteinyl-tRNA synthetase [EC:6.1.1.16]	COG0215	CysS	Cysteinyl-tRNA synthetase	AG-422-B15_00744	5
+CACLEJ010000003.1	88058	88765	-	AG-461-L09_00487	AG-461-L09	235	OG0000273	K02195	heme exporter protein C	COG0755	CcmC	ABC-type transport system involved in cytochrome c biogenesis, permease component	AG-461-L09_00492	-5
+CACLEJ010000003.1	88947	89267	-	AG-461-L09_00488	AG-461-L09	106	OG0000313	K11940	heat shock protein HspQ	COG3785	HspQ	Heat shock protein HspQ	AG-461-L09_00492	-4
+CACLEJ010000003.1	89312	89896	+	AG-461-L09_00489	AG-461-L09	194	OG0000348	K06190	intracellular septation protein	COG2917	YciB	Intracellular septation protein A	AG-461-L09_00492	-3
+CACLEJ010000003.1	89889	90227	+	AG-461-L09_00490	AG-461-L09	112	OG0000375	NA	NA	NA	NA	NA	AG-461-L09_00492	-2
+CACLEJ010000003.1	90224	90610	-	AG-461-L09_00491	AG-461-L09	128	OG0002849	NA	NA	NA	NA	NA	AG-461-L09_00492	-1
+CACLEJ010000003.1	90648	92960	-	AG-461-L09_00492	AG-461-L09	770	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-461-L09_00492	0
+CACLEJ010000003.1	92973	93557	-	AG-461-L09_00493	AG-461-L09	194	OG0002850	NA	NA	NA	NA	NA	AG-461-L09_00492	1
+CACLEJ010000003.1	93716	94084	+	AG-461-L09_00494	AG-461-L09	122	OG0001472	NA	NA	NA	NA	NA	AG-461-L09_00492	2
+CACLEJ010000003.1	94098	94679	+	AG-461-L09_00495	AG-461-L09	193	OG0002545	NA	NA	NA	NA	NA	AG-461-L09_00492	3
+CACLEJ010000003.1	94680	95438	-	AG-461-L09_00496	AG-461-L09	252	OG0000280	K06890	uncharacterized protein	COG0670	YbhL	Integral membrane protein YbhL, putative Ca2+ regulator, Bax inhibitor (BI-1)/TMBIM family	AG-461-L09_00492	4
+CACLEJ010000003.1	95509	96543	+	AG-461-L09_00497	AG-461-L09	344	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	AG-461-L09_00492	5
+CACMIH010000003.1	26814	27521	-	AG-891-I18_00515	AG-891-I18	235	OG0000273	K02195	heme exporter protein C	COG0755	CcmC	ABC-type transport system involved in cytochrome c biogenesis, permease component	AG-891-I18_00520	-5
+CACMIH010000003.1	27701	28021	-	AG-891-I18_00516	AG-891-I18	106	OG0000313	K11940	heat shock protein HspQ	COG3785	HspQ	Heat shock protein HspQ	AG-891-I18_00520	-4
+CACMIH010000003.1	28109	28660	+	AG-891-I18_00517	AG-891-I18	183	OG0000348	K06190	intracellular septation protein	COG2917	YciB	Intracellular septation protein A	AG-891-I18_00520	-3
+CACMIH010000003.1	28653	28991	+	AG-891-I18_00518	AG-891-I18	112	OG0000375	NA	NA	NA	NA	NA	AG-891-I18_00520	-2
+CACMIH010000003.1	28994	29410	-	AG-891-I18_00519	AG-891-I18	138	OG0002849	NA	NA	NA	NA	NA	AG-891-I18_00520	-1
+CACMIH010000003.1	29412	31745	-	AG-891-I18_00520	AG-891-I18	777	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-891-I18_00520	0
+CACMIH010000003.1	31865	32212	+	AG-891-I18_00521	AG-891-I18	115	OG0001472	NA	NA	NA	NA	NA	AG-891-I18_00520	1
+CACMIH010000003.1	32231	32809	+	AG-891-I18_00522	AG-891-I18	192	OG0002545	NA	NA	NA	NA	NA	AG-891-I18_00520	2
+CACMIH010000003.1	32810	33571	-	AG-891-I18_00523	AG-891-I18	253	OG0000280	K06890	uncharacterized protein	COG0670	YbhL	Integral membrane protein YbhL, putative Ca2+ regulator, Bax inhibitor (BI-1)/TMBIM family	AG-891-I18_00520	3
+CACMIH010000003.1	33652	34686	+	AG-891-I18_00524	AG-891-I18	344	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	AG-891-I18_00520	4
+CACMIH010000003.1	34677	35189	+	AG-891-I18_00525	AG-891-I18	170	OG0000165	NA	NA	COG5342	IalB	Invasion protein IalB, involved in pathogenesis	AG-891-I18_00520	5
+CACMSB010000002.1	118072	118932	+	AG-892-B11_00668	AG-892-B11	286	OG0001183	K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]	COG2301	CitE	Citrate lyase beta subunit	AG-892-B11_00673	-5
+CACMSB010000002.1	118937	119404	+	AG-892-B11_00669	AG-892-B11	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-892-B11_00673	-4
+CACMSB010000002.1	119405	120985	+	AG-892-B11_00670	AG-892-B11	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-892-B11_00673	-3
+CACMSB010000002.1	120978	121454	-	AG-892-B11_00671	AG-892-B11	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-892-B11_00673	-2
+CACMSB010000002.1	121517	122464	+	AG-892-B11_00672	AG-892-B11	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-892-B11_00673	-1
+CACMSB010000002.1	122470	125868	+	AG-892-B11_00673	AG-892-B11	1132	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-892-B11_00673	0
+CACMSB010000002.1	125996	127186	+	AG-892-B11_00674	AG-892-B11	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-892-B11_00673	1
+CACMSB010000002.1	127290	128660	-	AG-892-B11_00675	AG-892-B11	456	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-892-B11_00673	2
+CACMSB010000002.1	128657	129667	-	AG-892-B11_00676	AG-892-B11	336	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-892-B11_00673	3
+CACMSB010000002.1	129667	130374	-	AG-892-B11_00677	AG-892-B11	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-892-B11_00673	4
+CACMSB010000002.1	130374	131162	-	AG-892-B11_00678	AG-892-B11	262	OG0000143	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	AG-892-B11_00673	5
+CACNRC010000006.1	26461	27168	-	AG-893-L07_01180	AG-893-L07	235	OG0000273	K02195	heme exporter protein C	COG0755	CcmC	ABC-type transport system involved in cytochrome c biogenesis, permease component	AG-893-L07_01185	-5
+CACNRC010000006.1	27352	27672	-	AG-893-L07_01181	AG-893-L07	106	OG0000313	K11940	heat shock protein HspQ	COG3785	HspQ	Heat shock protein HspQ	AG-893-L07_01185	-4
+CACNRC010000006.1	27717	28301	+	AG-893-L07_01182	AG-893-L07	194	OG0000348	K06190	intracellular septation protein	COG2917	YciB	Intracellular septation protein A	AG-893-L07_01185	-3
+CACNRC010000006.1	28294	28638	+	AG-893-L07_01183	AG-893-L07	114	OG0000375	NA	NA	NA	NA	NA	AG-893-L07_01185	-2
+CACNRC010000006.1	28628	28954	-	AG-893-L07_01184	AG-893-L07	108	OG0002849	NA	NA	NA	NA	NA	AG-893-L07_01185	-1
+CACNRC010000006.1	29088	31454	-	AG-893-L07_01185	AG-893-L07	788	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-893-L07_01185	0
+CACNRC010000006.1	31537	32115	+	AG-893-L07_01186	AG-893-L07	192	OG0002545	NA	NA	NA	NA	NA	AG-893-L07_01185	1
+CACNRC010000006.1	32116	32874	-	AG-893-L07_01187	AG-893-L07	252	OG0000280	K06890	uncharacterized protein	COG0670	YbhL	Integral membrane protein YbhL, putative Ca2+ regulator, Bax inhibitor (BI-1)/TMBIM family	AG-893-L07_01185	2
+CACNRC010000006.1	32946	33980	+	AG-893-L07_01188	AG-893-L07	344	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	AG-893-L07_01185	3
+CACNRC010000006.1	33971	34483	+	AG-893-L07_01189	AG-893-L07	170	OG0000165	NA	NA	COG5342	IalB	Invasion protein IalB, involved in pathogenesis	AG-893-L07_01185	4
+CACNRC010000006.1	34484	35668	+	AG-893-L07_01190	AG-893-L07	394	OG0000201	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	AG-893-L07_01185	5
+CACNTW010000003.1	34291	34758	+	AG-893-N07_00586	AG-893-N07	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-893-N07_00591	-5
+CACNTW010000003.1	34759	35295	+	AG-893-N07_00587	AG-893-N07	178	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-893-N07_00591	-4
+CACNTW010000003.1	35292	36872	+	AG-893-N07_00588	AG-893-N07	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-893-N07_00591	-3
+CACNTW010000003.1	36865	37341	-	AG-893-N07_00589	AG-893-N07	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-893-N07_00591	-2
+CACNTW010000003.1	37400	38347	+	AG-893-N07_00590	AG-893-N07	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-893-N07_00591	-1
+CACNTW010000003.1	38353	41763	+	AG-893-N07_00591	AG-893-N07	1136	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-893-N07_00591	0
+CACNTW010000003.1	41887	43116	+	AG-893-N07_00592	AG-893-N07	409	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-893-N07_00591	1
+CACNTW010000003.1	43228	44598	-	AG-893-N07_00593	AG-893-N07	456	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-893-N07_00591	2
+CACNTW010000003.1	44595	45605	-	AG-893-N07_00594	AG-893-N07	336	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-893-N07_00591	3
+CACNTW010000003.1	45605	46312	-	AG-893-N07_00595	AG-893-N07	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-893-N07_00591	4
+CACNTW010000003.1	46312	47100	-	AG-893-N07_00596	AG-893-N07	262	OG0000143	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	AG-893-N07_00591	5
+CABYDS010000004.1	66628	67335	+	AG-894-A03_00631	AG-894-A03	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-894-A03_00636	-5
+CABYDS010000004.1	67335	68345	+	AG-894-A03_00632	AG-894-A03	336	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-894-A03_00636	-4
+CABYDS010000004.1	68342	69712	+	AG-894-A03_00633	AG-894-A03	456	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-894-A03_00636	-3
+CABYDS010000004.1	69753	70253	-	AG-894-A03_00634	AG-894-A03	166	NA	NA	NA	COG0494	MutT	8-oxo-dGTP pyrophosphatase MutT and related house-cleaning NTP pyrophosphohydrolases, NUDIX family	AG-894-A03_00636	-2
+CABYDS010000004.1	70299	71489	-	AG-894-A03_00635	AG-894-A03	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-894-A03_00636	-1
+CABYDS010000004.1	71617	75012	-	AG-894-A03_00636	AG-894-A03	1131	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-894-A03_00636	0
+CABYDS010000004.1	75018	75965	-	AG-894-A03_00637	AG-894-A03	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-894-A03_00636	1
+CABYDS010000004.1	76028	76504	+	AG-894-A03_00638	AG-894-A03	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-894-A03_00636	2
+CABYDS010000004.1	76497	78077	-	AG-894-A03_00639	AG-894-A03	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-894-A03_00636	3
+CABYDS010000004.1	78078	78545	-	AG-894-A03_00640	AG-894-A03	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-894-A03_00636	4
+CABYDS010000004.1	78550	79410	-	AG-894-A03_00641	AG-894-A03	286	OG0001183	K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]	COG2301	CitE	Citrate lyase beta subunit	AG-894-A03_00636	5
+CABYDZ010000014.1	19	738	+	AG-894-A11_01229	AG-894-A11	239	OG0000045	NA	NA	NA	NA	NA	AG-894-A11_01234	-5
+CABYDZ010000014.1	879	2222	+	AG-894-A11_01230	AG-894-A11	447	OG0001490	K06902	MFS transporter, UMF1 family	COG2270	BtlA	MFS-type transporter involved in bile tolerance, Atg22 family	AG-894-A11_01234	-4
+CABYDZ010000014.1	2227	3792	-	AG-894-A11_01231	AG-894-A11	521	OG0000331	K00602	phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase [EC:2.1.2.3 3.5.4.10]	COG0138	PurH	AICAR transformylase/IMP cyclohydrolase PurH	AG-894-A11_01234	-3
+CABYDZ010000014.1	3794	4450	-	AG-894-A11_01232	AG-894-A11	218	OG0000402	K01783	ribulose-phosphate 3-epimerase [EC:5.1.3.1]	COG0036	Rpe	Pentose-5-phosphate-3-epimerase	AG-894-A11_01234	-2
+CABYDZ010000014.1	4550	4705	+	AG-894-A11_01233	AG-894-A11	51	OG0001719	NA	NA	COG5508	NA	Uncharacterized conserved protein, DUF1674 domain	AG-894-A11_01234	-1
+CABYDZ010000014.1	4792	6378	+	AG-894-A11_01234	AG-894-A11	528	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-894-A11_01234	0
+CABYDZ010000014.1	6375	6905	+	AG-894-A11_01235	AG-894-A11	176	NA	NA	NA	NA	NA	NA	AG-894-A11_01234	1
+CABYDZ010000014.1	6977	7564	-	AG-894-A11_01236	AG-894-A11	195	OG0002850	NA	NA	NA	NA	NA	AG-894-A11_01234	2
+CABYDZ010000014.1	7670	8125	-	AG-894-A11_01237	AG-894-A11	151	OG0001304	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-894-A11_01234	3
+CABYDZ010000014.1	8181	8597	-	AG-894-A11_01238	AG-894-A11	138	OG0001803	K09705	uncharacterized protein	COG3542	CFF1	Predicted sugar epimerase, cupin superfamily	AG-894-A11_01234	4
+CABYDZ010000014.1	8627	9178	-	AG-894-A11_01239	AG-894-A11	183	OG0002586	NA	NA	NA	NA	NA	AG-894-A11_01234	5
+CABYID010000006.1	71060	71848	+	AG-894-E10_01095	AG-894-E10	262	OG0000143	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	AG-894-E10_01100	-5
+CABYID010000006.1	71848	72555	+	AG-894-E10_01096	AG-894-E10	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-894-E10_01100	-4
+CABYID010000006.1	72555	73565	+	AG-894-E10_01097	AG-894-E10	336	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-894-E10_01100	-3
+CABYID010000006.1	73601	74932	+	AG-894-E10_01098	AG-894-E10	443	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-894-E10_01100	-2
+CABYID010000006.1	75036	76226	-	AG-894-E10_01099	AG-894-E10	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-894-E10_01100	-1
+CABYID010000006.1	76354	79752	-	AG-894-E10_01100	AG-894-E10	1132	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-894-E10_01100	0
+CABYID010000006.1	79758	80705	-	AG-894-E10_01101	AG-894-E10	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-894-E10_01100	1
+CABYID010000006.1	80768	81244	+	AG-894-E10_01102	AG-894-E10	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-894-E10_01100	2
+CABYID010000006.1	81237	82817	-	AG-894-E10_01103	AG-894-E10	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-894-E10_01100	3
+CABYID010000006.1	82818	83285	-	AG-894-E10_01104	AG-894-E10	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-894-E10_01100	4
+CABYID010000006.1	83290	84150	-	AG-894-E10_01105	AG-894-E10	286	OG0001183	K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]	COG2301	CitE	Citrate lyase beta subunit	AG-894-E10_01100	5
+CACAZW010000019.1	44	991	+	AG-899-A06_01177	AG-899-A06	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-899-A06_01178	-1
+CACAZW010000019.1	998	4423	+	AG-899-A06_01178	AG-899-A06	1141	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-899-A06_01178	0
+CACAZW010000019.1	4547	5737	+	AG-899-A06_01179	AG-899-A06	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-899-A06_01178	1
+CACAZW010000019.1	5847	7217	-	AG-899-A06_01180	AG-899-A06	456	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-899-A06_01178	2
+CACAZW010000019.1	7214	8224	-	AG-899-A06_01181	AG-899-A06	336	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-899-A06_01178	3
+CACAZW010000019.1	8224	8931	-	AG-899-A06_01182	AG-899-A06	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-899-A06_01178	4
+CACBYV010000004.1	18404	19264	+	AG-900-I19_00508	AG-900-I19	286	OG0001183	K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]	COG2301	CitE	Citrate lyase beta subunit	AG-900-I19_00513	-5
+CACBYV010000004.1	19269	19736	+	AG-900-I19_00509	AG-900-I19	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-900-I19_00513	-4
+CACBYV010000004.1	19737	21317	+	AG-900-I19_00510	AG-900-I19	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-900-I19_00513	-3
+CACBYV010000004.1	21310	21786	-	AG-900-I19_00511	AG-900-I19	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-900-I19_00513	-2
+CACBYV010000004.1	21849	22796	+	AG-900-I19_00512	AG-900-I19	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-900-I19_00513	-1
+CACBYV010000004.1	22803	26228	+	AG-900-I19_00513	AG-900-I19	1141	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-900-I19_00513	0
+CACBYV010000004.1	26356	27546	+	AG-900-I19_00514	AG-900-I19	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-900-I19_00513	1
+CACBYV010000004.1	27650	29020	-	AG-900-I19_00515	AG-900-I19	456	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-900-I19_00513	2
+CACBYV010000004.1	29017	30027	-	AG-900-I19_00516	AG-900-I19	336	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-900-I19_00513	3
+CACBYV010000004.1	30027	30734	-	AG-900-I19_00517	AG-900-I19	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-900-I19_00513	4
+CACBYV010000004.1	30734	31522	-	AG-900-I19_00518	AG-900-I19	262	OG0000143	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	AG-900-I19_00513	5
+CACCAS010000018.1	44	448	-	AG-900-K14_01361	AG-900-K14	134	OG0001954	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	AG-900-K14_01362	-1
+CACCAS010000018.1	544	3129	-	AG-900-K14_01362	AG-900-K14	861	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-900-K14_01362	0
+CACCCN010000014.1	385	681	+	AG-900-M14_01258	AG-900-M14	98	OG0001375	NA	NA	COG1305	YebA	Transglutaminase-like enzyme, putative cysteine protease	AG-900-M14_01260	-2
+CACCCN010000014.1	701	1144	-	AG-900-M14_01259	AG-900-M14	147	OG0002849	NA	NA	NA	NA	NA	AG-900-M14_01260	-1
+CACCCN010000014.1	1113	3479	-	AG-900-M14_01260	AG-900-M14	788	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-900-M14_01260	0
+CACCCN010000014.1	3513	4157	-	AG-900-M14_01261	AG-900-M14	214	NA	NA	NA	NA	NA	NA	AG-900-M14_01260	1
+CACCCN010000014.1	4396	6108	-	AG-900-M14_01262	AG-900-M14	570	OG0000063	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	AG-900-M14_01260	2
+CACCCN010000014.1	6118	8763	-	AG-900-M14_01263	AG-900-M14	881	OG0000887	K01873	valyl-tRNA synthetase [EC:6.1.1.9]	COG0525	ValS	Valyl-tRNA synthetase	AG-900-M14_01260	3
+CACCCN010000014.1	8771	9220	-	AG-900-M14_01264	AG-900-M14	149	OG0002218	NA	NA	NA	NA	NA	AG-900-M14_01260	4
+CACCCN010000014.1	9265	10566	-	AG-900-M14_01265	AG-900-M14	433	OG0000566	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	AG-900-M14_01260	5
+CACDSY010000006.1	63211	64395	-	AG-904-K03_01265	AG-904-K03	394	OG0000201	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	AG-904-K03_01270	-5
+CACDSY010000006.1	64396	64908	-	AG-904-K03_01266	AG-904-K03	170	OG0000165	NA	NA	COG5342	IalB	Invasion protein IalB, involved in pathogenesis	AG-904-K03_01270	-4
+CACDSY010000006.1	64899	65933	-	AG-904-K03_01267	AG-904-K03	344	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	AG-904-K03_01270	-3
+CACDSY010000006.1	66005	66763	+	AG-904-K03_01268	AG-904-K03	252	OG0000280	K06890	uncharacterized protein	COG0670	YbhL	Integral membrane protein YbhL, putative Ca2+ regulator, Bax inhibitor (BI-1)/TMBIM family	AG-904-K03_01270	-2
+CACDSY010000006.1	66764	67342	-	AG-904-K03_01269	AG-904-K03	192	OG0002545	NA	NA	NA	NA	NA	AG-904-K03_01270	-1
+CACDSY010000006.1	67425	69791	+	AG-904-K03_01270	AG-904-K03	788	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-904-K03_01270	0
+CACDSY010000006.1	69793	70251	+	AG-904-K03_01271	AG-904-K03	152	OG0002849	NA	NA	NA	NA	NA	AG-904-K03_01270	1
+CACDSY010000006.1	70241	70585	-	AG-904-K03_01272	AG-904-K03	114	OG0000375	NA	NA	NA	NA	NA	AG-904-K03_01270	2
+CACDSY010000006.1	70578	71162	-	AG-904-K03_01273	AG-904-K03	194	OG0000348	K06190	intracellular septation protein	COG2917	YciB	Intracellular septation protein A	AG-904-K03_01270	3
+CACDSY010000006.1	71207	71527	+	AG-904-K03_01274	AG-904-K03	106	OG0000313	K11940	heat shock protein HspQ	COG3785	HspQ	Heat shock protein HspQ	AG-904-K03_01270	4
+CACDSY010000006.1	71711	72418	+	AG-904-K03_01275	AG-904-K03	235	OG0000273	K02195	heme exporter protein C	COG0755	CcmC	ABC-type transport system involved in cytochrome c biogenesis, permease component	AG-904-K03_01270	5
+CACFLJ010000001.1	77092	78234	-	AG-908-F18_00090	AG-908-F18	380	OG0000828	NA	NA	COG0415	PhrB	Deoxyribodipyrimidine photolyase	AG-908-F18_00095	-5
+CACFLJ010000001.1	78335	79519	-	AG-908-F18_00091	AG-908-F18	394	OG0000201	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	AG-908-F18_00095	-4
+CACFLJ010000001.1	79520	80032	-	AG-908-F18_00092	AG-908-F18	170	OG0000165	NA	NA	COG5342	IalB	Invasion protein IalB, involved in pathogenesis	AG-908-F18_00095	-3
+CACFLJ010000001.1	80023	81057	-	AG-908-F18_00093	AG-908-F18	344	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	AG-908-F18_00095	-2
+CACFLJ010000001.1	81129	81887	+	AG-908-F18_00094	AG-908-F18	252	OG0000280	K06890	uncharacterized protein	COG0670	YbhL	Integral membrane protein YbhL, putative Ca2+ regulator, Bax inhibitor (BI-1)/TMBIM family	AG-908-F18_00095	-1
+CACFLJ010000001.1	82072	84534	+	AG-908-F18_00095	AG-908-F18	820	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-908-F18_00095	0
+CACFLJ010000001.1	84560	84961	+	AG-908-F18_00096	AG-908-F18	133	OG0004218	NA	NA	COG1109	ManB	Phosphomannomutase	AG-908-F18_00095	1
+CACFLJ010000001.1	84970	85311	-	AG-908-F18_00097	AG-908-F18	113	OG0000375	NA	NA	NA	NA	NA	AG-908-F18_00095	2
+CACFLJ010000001.1	85304	85888	-	AG-908-F18_00098	AG-908-F18	194	OG0000348	K06190	intracellular septation protein	COG2917	YciB	Intracellular septation protein A	AG-908-F18_00095	3
+CACFLJ010000001.1	85933	86253	+	AG-908-F18_00099	AG-908-F18	106	OG0000313	K11940	heat shock protein HspQ	COG3785	HspQ	Heat shock protein HspQ	AG-908-F18_00095	4
+CACFLJ010000001.1	86436	87143	+	AG-908-F18_00100	AG-908-F18	235	OG0000273	K02195	heme exporter protein C	COG0755	CcmC	ABC-type transport system involved in cytochrome c biogenesis, permease component	AG-908-F18_00095	5
+CACFPI010000003.1	66688	67548	+	AG-908-L09_00390	AG-908-L09	286	OG0001183	K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]	COG2301	CitE	Citrate lyase beta subunit	AG-908-L09_00395	-5
+CACFPI010000003.1	67553	68020	+	AG-908-L09_00391	AG-908-L09	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-908-L09_00395	-4
+CACFPI010000003.1	68021	69601	+	AG-908-L09_00392	AG-908-L09	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-908-L09_00395	-3
+CACFPI010000003.1	69594	70070	-	AG-908-L09_00393	AG-908-L09	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-908-L09_00395	-2
+CACFPI010000003.1	70133	71080	+	AG-908-L09_00394	AG-908-L09	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-908-L09_00395	-1
+CACFPI010000003.1	71086	74484	+	AG-908-L09_00395	AG-908-L09	1132	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-908-L09_00395	0
+CACFPI010000003.1	74613	75803	+	AG-908-L09_00396	AG-908-L09	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-908-L09_00395	1
+CACFPI010000003.1	75907	77238	-	AG-908-L09_00397	AG-908-L09	443	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-908-L09_00395	2
+CACFPI010000003.1	77274	78284	-	AG-908-L09_00398	AG-908-L09	336	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-908-L09_00395	3
+CACFPI010000003.1	78284	78991	-	AG-908-L09_00399	AG-908-L09	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-908-L09_00395	4
+CACFPI010000003.1	78991	79779	-	AG-908-L09_00400	AG-908-L09	262	OG0000143	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	AG-908-L09_00395	5
+CACPIG010000001.1	148	2628	+	AG-912-I02_00001	AG-912-I02	826	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-912-I02_00001	0
+CACPIG010000001.1	2756	3946	+	AG-912-I02_00002	AG-912-I02	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-912-I02_00001	1
+CACPIG010000001.1	4056	5426	-	AG-912-I02_00003	AG-912-I02	456	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-912-I02_00001	2
+CACPIG010000001.1	5423	6433	-	AG-912-I02_00004	AG-912-I02	336	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-912-I02_00001	3
+CACPIG010000001.1	6433	7140	-	AG-912-I02_00005	AG-912-I02	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-912-I02_00001	4
+CACPIG010000001.1	7140	7928	-	AG-912-I02_00006	AG-912-I02	262	OG0000143	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	AG-912-I02_00001	5
+CACIOQ010000001.1	133702	134490	+	AG-913-N09_00138	AG-913-N09	262	OG0000143	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	AG-913-N09_00143	-5
+CACIOQ010000001.1	134490	135197	+	AG-913-N09_00139	AG-913-N09	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-913-N09_00143	-4
+CACIOQ010000001.1	135197	136207	+	AG-913-N09_00140	AG-913-N09	336	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-913-N09_00143	-3
+CACIOQ010000001.1	136204	137574	+	AG-913-N09_00141	AG-913-N09	456	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-913-N09_00143	-2
+CACIOQ010000001.1	137678	138868	-	AG-913-N09_00142	AG-913-N09	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-913-N09_00143	-1
+CACIOQ010000001.1	138998	142429	-	AG-913-N09_00143	AG-913-N09	1143	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-913-N09_00143	0
+CACIOQ010000001.1	142435	143382	-	AG-913-N09_00144	AG-913-N09	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-913-N09_00143	1
+CACIOQ010000001.1	143445	143921	+	AG-913-N09_00145	AG-913-N09	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-913-N09_00143	2
+CACIOQ010000001.1	143914	145494	-	AG-913-N09_00146	AG-913-N09	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-913-N09_00143	3
+CACIOQ010000001.1	145495	145962	-	AG-913-N09_00147	AG-913-N09	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-913-N09_00143	4
+CACIOQ010000001.1	145967	146827	-	AG-913-N09_00148	AG-913-N09	286	OG0001183	K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]	COG2301	CitE	Citrate lyase beta subunit	AG-913-N09_00143	5
+CACJWS010000009.1	6293	7081	+	AG-916-E19_00891	AG-916-E19	262	OG0000143	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	AG-916-E19_00896	-5
+CACJWS010000009.1	7081	7788	+	AG-916-E19_00892	AG-916-E19	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-916-E19_00896	-4
+CACJWS010000009.1	7788	8798	+	AG-916-E19_00893	AG-916-E19	336	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-916-E19_00896	-3
+CACJWS010000009.1	8795	10165	+	AG-916-E19_00894	AG-916-E19	456	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-916-E19_00896	-2
+CACJWS010000009.1	10269	11459	-	AG-916-E19_00895	AG-916-E19	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-916-E19_00896	-1
+CACJWS010000009.1	11588	14986	-	AG-916-E19_00896	AG-916-E19	1132	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-916-E19_00896	0
+CACJWS010000009.1	14992	15939	-	AG-916-E19_00897	AG-916-E19	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-916-E19_00896	1
+CACJWS010000009.1	16001	16477	+	AG-916-E19_00898	AG-916-E19	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-916-E19_00896	2
+CACJWS010000009.1	16470	18050	-	AG-916-E19_00899	AG-916-E19	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-916-E19_00896	3
+CACJWS010000009.1	18051	18518	-	AG-916-E19_00900	AG-916-E19	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-916-E19_00896	4
+CACJWS010000009.1	18523	19383	-	AG-916-E19_00901	AG-916-E19	286	OG0001183	K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]	COG2301	CitE	Citrate lyase beta subunit	AG-916-E19_00896	5
+CACJZJ010000001.1	275511	276698	-	AG-916-G19_00302	AG-916-G19	395	OG0000201	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	AG-916-G19_00307	-5
+CACJZJ010000001.1	276702	277214	-	AG-916-G19_00303	AG-916-G19	170	OG0000165	NA	NA	COG5342	IalB	Invasion protein IalB, involved in pathogenesis	AG-916-G19_00307	-4
+CACJZJ010000001.1	277205	278245	-	AG-916-G19_00304	AG-916-G19	346	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	AG-916-G19_00307	-3
+CACJZJ010000001.1	278328	279089	+	AG-916-G19_00305	AG-916-G19	253	OG0000280	K06890	uncharacterized protein	COG0670	YbhL	Integral membrane protein YbhL, putative Ca2+ regulator, Bax inhibitor (BI-1)/TMBIM family	AG-916-G19_00307	-2
+CACJZJ010000001.1	279090	279677	-	AG-916-G19_00306	AG-916-G19	195	OG0002545	NA	NA	NA	NA	NA	AG-916-G19_00307	-1
+CACJZJ010000001.1	279783	282125	+	AG-916-G19_00307	AG-916-G19	780	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-916-G19_00307	0
+CACJZJ010000001.1	282073	282567	+	AG-916-G19_00308	AG-916-G19	164	OG0002849	NA	NA	NA	NA	NA	AG-916-G19_00307	1
+CACJZJ010000001.1	282535	282876	-	AG-916-G19_00309	AG-916-G19	113	OG0000375	NA	NA	NA	NA	NA	AG-916-G19_00307	2
+CACJZJ010000001.1	282869	283420	-	AG-916-G19_00310	AG-916-G19	183	OG0000348	K06190	intracellular septation protein	COG2917	YciB	Intracellular septation protein A	AG-916-G19_00307	3
+CACJZJ010000001.1	283502	283828	+	AG-916-G19_00311	AG-916-G19	108	OG0000313	K11940	heat shock protein HspQ	COG3785	HspQ	Heat shock protein HspQ	AG-916-G19_00307	4
+CACJZJ010000001.1	284005	284712	+	AG-916-G19_00312	AG-916-G19	235	OG0000273	K02195	heme exporter protein C	COG0755	CcmC	ABC-type transport system involved in cytochrome c biogenesis, permease component	AG-916-G19_00307	5
+CACKFA010000008.1	27283	28470	-	AG-916-N14_01093	AG-916-N14	395	OG0000201	K01940	argininosuccinate synthase [EC:6.3.4.5]	COG0137	ArgG	Argininosuccinate synthase	AG-916-N14_01098	-5
+CACKFA010000008.1	28475	28987	-	AG-916-N14_01094	AG-916-N14	170	OG0000165	NA	NA	COG5342	IalB	Invasion protein IalB, involved in pathogenesis	AG-916-N14_01098	-4
+CACKFA010000008.1	28978	30012	-	AG-916-N14_01095	AG-916-N14	344	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	AG-916-N14_01098	-3
+CACKFA010000008.1	30089	30853	+	AG-916-N14_01096	AG-916-N14	254	OG0000280	K06890	uncharacterized protein	COG0670	YbhL	Integral membrane protein YbhL, putative Ca2+ regulator, Bax inhibitor (BI-1)/TMBIM family	AG-916-N14_01098	-2
+CACKFA010000008.1	30854	31432	-	AG-916-N14_01097	AG-916-N14	192	OG0002545	NA	NA	NA	NA	NA	AG-916-N14_01098	-1
+CACKFA010000008.1	31488	33788	+	AG-916-N14_01098	AG-916-N14	766	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-916-N14_01098	0
+CACKFA010000008.1	34198	34536	-	AG-916-N14_01099	AG-916-N14	112	OG0000375	NA	NA	NA	NA	NA	AG-916-N14_01098	1
+CACKFA010000008.1	34529	35080	-	AG-916-N14_01100	AG-916-N14	183	OG0000348	K06190	intracellular septation protein	COG2917	YciB	Intracellular septation protein A	AG-916-N14_01098	2
+CACKFA010000008.1	35168	35488	+	AG-916-N14_01101	AG-916-N14	106	OG0000313	K11940	heat shock protein HspQ	COG3785	HspQ	Heat shock protein HspQ	AG-916-N14_01098	3
+CACKLR010000010.1	7719	8507	+	AG-917-D14_00801	AG-917-D14	262	OG0000143	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	AG-917-D14_00806	-5
+CACKLR010000010.1	8507	9214	+	AG-917-D14_00802	AG-917-D14	235	OG0000065	K01996	branched-chain amino acid transport system ATP-binding protein	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	AG-917-D14_00806	-4
+CACKLR010000010.1	9214	10224	+	AG-917-D14_00803	AG-917-D14	336	OG0000021	K01997	branched-chain amino acid transport system permease protein	COG0559	LivH	Branched-chain amino acid ABC-type transport system, permease component	AG-917-D14_00806	-3
+CACKLR010000010.1	10221	11591	+	AG-917-D14_00804	AG-917-D14	456	OG0001016	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	AG-917-D14_00806	-2
+CACKLR010000010.1	11695	12885	-	AG-917-D14_00805	AG-917-D14	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-917-D14_00806	-1
+CACKLR010000010.1	13014	16412	-	AG-917-D14_00806	AG-917-D14	1132	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-917-D14_00806	0
+CACKLR010000010.1	16418	17365	-	AG-917-D14_00807	AG-917-D14	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-917-D14_00806	1
+CACKLR010000010.1	17428	17904	+	AG-917-D14_00808	AG-917-D14	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-917-D14_00806	2
+CACKLR010000010.1	17897	19477	-	AG-917-D14_00809	AG-917-D14	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-917-D14_00806	3
+CACKLR010000010.1	19478	19945	-	AG-917-D14_00810	AG-917-D14	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-917-D14_00806	4
+CACKLR010000010.1	19950	20810	-	AG-917-D14_00811	AG-917-D14	286	OG0001183	K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]	COG2301	CitE	Citrate lyase beta subunit	AG-917-D14_00806	5
+CACLXR010000001.1	169265	169615	+	AG-917-O20_00194	AG-917-O20	116	OG0000902	NA	NA	NA	NA	NA	AG-917-O20_00199	-5
+CACLXR010000001.1	169822	170907	+	AG-917-O20_00195	AG-917-O20	361	OG0000240	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	AG-917-O20_00199	-4
+CACLXR010000001.1	170913	172079	-	AG-917-O20_00196	AG-917-O20	388	OG0000085	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	AG-917-O20_00199	-3
+CACLXR010000001.1	172084	172368	-	AG-917-O20_00197	AG-917-O20	94	OG0000950	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	AG-917-O20_00199	-2
+CACLXR010000001.1	172482	174266	+	AG-917-O20_00198	AG-917-O20	594	OG0000014	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	AG-917-O20_00199	-1
+CACLXR010000001.1	174518	192154	+	AG-917-O20_00199	AG-917-O20	5878	OG0001787	NA	NA	COG3210	FhaB	Large exoprotein involved in heme utilization or adhesion	AG-917-O20_00199	0
+CACLXR010000001.1	192151	192612	-	AG-917-O20_00200	AG-917-O20	153	OG0003117	NA	NA	NA	NA	NA	AG-917-O20_00199	1
+CACLXR010000001.1	192890	195304	+	AG-917-O20_00201	AG-917-O20	804	OG0000070	NA	NA	COG4625	NA	Uncharacterized conserved protein, contains a C-terminal beta-barrel porin domain	AG-917-O20_00199	2
+CACLXR010000001.1	195459	196262	-	AG-917-O20_00202	AG-917-O20	267	OG0000498	NA	NA	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	AG-917-O20_00199	3
+CACLXR010000001.1	196247	197014	-	AG-917-O20_00203	AG-917-O20	255	OG0000007	K03331	L-xylulose reductase [EC:1.1.1.10]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-917-O20_00199	4
+CACLXR010000001.1	197014	197607	-	AG-917-O20_00204	AG-917-O20	197	OG0000922	NA	NA	COG0861	TerC	Tellurite resistance membrane protein TerC	AG-917-O20_00199	5
+CACMFU010000003.1	102296	103156	+	AG-918-K13_00475	AG-918-K13	286	OG0001183	K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]	COG2301	CitE	Citrate lyase beta subunit	AG-918-K13_00480	-5
+CACMFU010000003.1	103161	103628	+	AG-918-K13_00476	AG-918-K13	155	OG0001047	NA	NA	COG0824	FadM	Acyl-CoA thioesterase FadM	AG-918-K13_00480	-4
+CACMFU010000003.1	103629	105209	+	AG-918-K13_00477	AG-918-K13	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-918-K13_00480	-3
+CACMFU010000003.1	105202	105678	-	AG-918-K13_00478	AG-918-K13	158	OG0001322	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-918-K13_00480	-2
+CACMFU010000003.1	105741	106688	+	AG-918-K13_00479	AG-918-K13	315	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-918-K13_00480	-1
+CACMFU010000003.1	106744	110169	+	AG-918-K13_00480	AG-918-K13	1141	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	AG-918-K13_00480	0
+CACMFU010000003.1	110294	111484	+	AG-918-K13_00481	AG-918-K13	396	OG0000851	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	AG-918-K13_00480	1
+CACMFU010000003.1	111588	111809	-	AG-918-K13_00482	AG-918-K13	73	OG0001016	NA	NA	NA	NA	NA	AG-918-K13_00480	2
+CACNXC010000012.1	179	9682	+	AH-287-G05_01102	AH-287-G05	3167	OG0001787	NA	NA	COG3210	FhaB	Large exoprotein involved in heme utilization or adhesion	AH-287-G05_01102	0
+CACNXC010000012.1	9679	10140	-	AH-287-G05_01103	AH-287-G05	153	OG0003117	NA	NA	NA	NA	NA	AH-287-G05_01102	1
+CACNXC010000012.1	10420	12834	+	AH-287-G05_01104	AH-287-G05	804	OG0000070	NA	NA	COG4625	NA	Uncharacterized conserved protein, contains a C-terminal beta-barrel porin domain	AH-287-G05_01102	2
+CACNXC010000012.1	12980	13660	-	AH-287-G05_01105	AH-287-G05	226	OG0001922	NA	NA	COG1134	TagH	ABC-type polysaccharide/polyol phosphate transport system, ATPase component	AH-287-G05_01102	3
+CACNXC010000012.1	13657	14460	-	AH-287-G05_01106	AH-287-G05	267	OG0001995	NA	NA	COG1682	TagG	ABC-type polysaccharide/teichoic acid/polyol phosphate export permease	AH-287-G05_01102	4
+CACNXC010000012.1	14475	15542	+	AH-287-G05_01107	AH-287-G05	355	OG0002182	NA	NA	NA	NA	NA	AH-287-G05_01102	5
+HIMB1509-00000000001	1126271	1127029	-	HIMB1509_01230	HIMB1509	252	OG0001737	NA	NA	COG1074	RecB	3'-5' helicase subunit RecB of the DNA repair enzyme RecBCD (exonuclease V)	HIMB1509_01235	-5
+HIMB1509-00000000001	1127252	1127542	+	HIMB1509_01231	HIMB1509	96	OG0004383	NA	NA	NA	NA	NA	HIMB1509_01235	-4
+HIMB1509-00000000001	1127532	1128089	+	HIMB1509_01232	HIMB1509	185	OG0002269	NA	NA	NA	NA	NA	HIMB1509_01235	-3
+HIMB1509-00000000001	1128082	1128423	+	HIMB1509_01233	HIMB1509	113	OG0002293	NA	NA	NA	NA	NA	HIMB1509_01235	-2
+HIMB1509-00000000001	1128380	1128895	+	HIMB1509_01234	HIMB1509	171	OG0001869	NA	NA	COG4520	LipA17	Surface antigen	HIMB1509_01235	-1
+HIMB1509-00000000001	1128895	1132566	+	HIMB1509_01235	HIMB1509	1223	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	HIMB1509_01235	0
+HIMB1509-00000000001	1132563	1133000	+	HIMB1509_01236	HIMB1509	145	OG0001869	NA	NA	NA	NA	NA	HIMB1509_01235	1
+HIMB1509-00000000001	1133034	1134023	-	HIMB1509_01237	HIMB1509	329	OG0001521	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1509_01235	2
+HIMB1509-00000000001	1134219	1136669	-	HIMB1509_01239	HIMB1509	816	OG0000080	NA	NA	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1509_01235	3
+HIMB1509-00000000001	1136656	1137393	-	HIMB1509_01240	HIMB1509	245	OG0001552	NA	NA	NA	NA	NA	HIMB1509_01235	4
+HIMB1509-00000000001	1137458	1138576	-	HIMB1509_01241	HIMB1509	372	OG0000911	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	HIMB1509_01235	5
+HIMB1746-00000000001	316583	317701	+	HIMB1746_00348	HIMB1746	372	OG0000911	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	HIMB1746_00354	-5
+HIMB1746-00000000001	317704	320148	+	HIMB1746_00349	HIMB1746	814	OG0000080	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	HIMB1746_00354	-4
+HIMB1746-00000000001	320158	320631	-	HIMB1746_00350	HIMB1746	157	OG0001581	NA	NA	NA	NA	NA	HIMB1746_00354	-3
+HIMB1746-00000000001	320821	321810	+	HIMB1746_00352	HIMB1746	329	OG0001521	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1746_00354	-2
+HIMB1746-00000000001	321844	322281	-	HIMB1746_00353	HIMB1746	145	OG0001869	NA	NA	NA	NA	NA	HIMB1746_00354	-1
+HIMB1746-00000000001	322278	325949	-	HIMB1746_00354	HIMB1746	1223	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	HIMB1746_00354	0
+HIMB1746-00000000001	325949	326344	-	HIMB1746_00355	HIMB1746	131	OG0001869	NA	NA	COG4520	LipA17	Surface antigen	HIMB1746_00354	1
+HIMB1746-00000000001	326421	326762	-	HIMB1746_00356	HIMB1746	113	OG0002293	NA	NA	NA	NA	NA	HIMB1746_00354	2
+HIMB1746-00000000001	326755	327234	-	HIMB1746_00357	HIMB1746	159	OG0002269	NA	NA	NA	NA	NA	HIMB1746_00354	3
+HIMB1746-00000000001	327302	327592	-	HIMB1746_00358	HIMB1746	96	OG0004383	NA	NA	NA	NA	NA	HIMB1746_00354	4
+HIMB1746-00000000001	327814	328572	+	HIMB1746_00359	HIMB1746	252	OG0001737	NA	NA	COG1074	RecB	3'-5' helicase subunit RecB of the DNA repair enzyme RecBCD (exonuclease V)	HIMB1746_00354	5
+HIMB2104-00000000004	306056	307315	+	HIMB2104_00543	HIMB2104	419	OG0000016	NA	NA	COG1175	UgpA	ABC-type sugar transport system, permease component	HIMB2104_00549	-5
+HIMB2104-00000000004	307305	308498	+	HIMB2104_00544	HIMB2104	397	OG0000002	K02026	multiple sugar transport system permease protein	COG0395	UgpE	ABC-type glycerol-3-phosphate transport system, permease component	HIMB2104_00549	-4
+HIMB2104-00000000004	308510	310612	+	HIMB2104_00545	HIMB2104	700	OG0000070	NA	NA	COG4625	NA	Uncharacterized conserved protein, contains a C-terminal beta-barrel porin domain	HIMB2104_00549	-3
+HIMB2104-00000000004	310651	312063	+	HIMB2104_00546	HIMB2104	470	OG0001339	NA	NA	NA	NA	NA	HIMB2104_00549	-2
+HIMB2104-00000000004	312220	312990	+	HIMB2104_00548	HIMB2104	256	OG0000972	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	HIMB2104_00549	-1
+HIMB2104-00000000004	313151	330961	+	HIMB2104_00549	HIMB2104	5936	OG0001787	NA	NA	COG3210	FhaB	Large exoprotein involved in heme utilization or adhesion	HIMB2104_00549	0
+HIMB2104-00000000004	330958	331419	-	HIMB2104_00550	HIMB2104	153	OG0003117	NA	NA	NA	NA	NA	HIMB2104_00549	1
+HIMB2104-00000000004	331469	331945	+	HIMB2104_00551	HIMB2104	158	OG0000006	NA	NA	COG4969	PilA	Type IV pilus major pilin PilA	HIMB2104_00549	2
+HIMB2104-00000000004	332212	332616	+	HIMB2104_00552	HIMB2104	134	OG0001880	NA	NA	NA	NA	NA	HIMB2104_00549	3
+HIMB2104-00000000004	332832	333575	-	HIMB2104_00554	HIMB2104	247	OG0000786	K03218	23S rRNA (guanosine2251-2'-O)-methyltransferase [EC:2.1.1.185]	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	HIMB2104_00549	4
+HIMB2104-00000000004	333948	335138	+	HIMB2104_00557	HIMB2104	396	OG0000491	K02358	elongation factor Tu	COG0050	TufA	Translation elongation factor EF-Tu, a GTPase	HIMB2104_00549	5
+HIMB2305-00000000003	143074	143658	-	HIMB2305_00235	HIMB2305	194	OG0001199	NA	NA	NA	NA	NA	HIMB2305_00240	-5
+HIMB2305-00000000003	143666	143968	-	HIMB2305_00236	HIMB2305	100	OG0001511	NA	NA	NA	NA	NA	HIMB2305_00240	-4
+HIMB2305-00000000003	143973	145667	-	HIMB2305_00237	HIMB2305	564	OG0000014	NA	NA	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HIMB2305_00240	-3
+HIMB2305-00000000003	145664	146833	-	HIMB2305_00238	HIMB2305	389	OG0001155	NA	NA	COG2141	SsuD	Flavin-dependent oxidoreductase, luciferase family (includes alkanesulfonate monooxygenase SsuD and methylene tetrahydromethanopterin reductase)	HIMB2305_00240	-2
+HIMB2305-00000000003	146964	148013	+	HIMB2305_00239	HIMB2305	349	OG0001302	K00549	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]	COG0620	MetE	Methionine synthase II (cobalamin-independent)	HIMB2305_00240	-1
+HIMB2305-00000000003	148317	150815	+	HIMB2305_00240	HIMB2305	832	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	HIMB2305_00240	0
+HIMB2305-00000000003	150838	151236	+	HIMB2305_00241	HIMB2305	132	OG0004218	NA	NA	NA	NA	NA	HIMB2305_00240	1
+HIMB2305-00000000003	151254	152219	-	HIMB2305_00242	HIMB2305	321	OG0001299	NA	NA	COG3491	PcbC	Isopenicillin N synthase and related dioxygenases	HIMB2305_00240	2
+HIMB2305-00000000003	152219	153169	-	HIMB2305_00243	HIMB2305	316	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB2305_00240	3
+HIMB2305-00000000003	153205	154788	-	HIMB2305_00244	HIMB2305	527	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	HIMB2305_00240	4
+HIMB2305-00000000003	154785	155321	-	HIMB2305_00245	HIMB2305	178	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HIMB2305_00240	5
+KL370779.1	712600	712713	+	HTCC7214_00739	HTCC7214	37	OG0002229	NA	NA	NA	NA	NA	HTCC7214_00744	-5
+KL370779.1	712731	713492	+	HTCC7214_00740	HTCC7214	253	OG0001213	K02654	leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43 2.1.1.-]	COG1989	GspO/PilD	Type II secretion system/type IV prepilin peptidase GspO/PulO/PilD	HTCC7214_00744	-4
+KL370779.1	713552	715345	+	HTCC7214_00741	HTCC7214	597	OG0000070	NA	NA	COG4625	NA	Uncharacterized conserved protein, contains a C-terminal beta-barrel porin domain	HTCC7214_00744	-3
+KL370779.1	715439	715927	+	HTCC7214_00742	HTCC7214	162	OG0000006	NA	NA	COG4968	PilE	Type IV pilus minor pilin/pseudopilin PilE	HTCC7214_00744	-2
+KL370779.1	716060	716266	+	HTCC7214_00743	HTCC7214	68	OG0001673	NA	NA	NA	NA	NA	HTCC7214_00744	-1
+KL370779.1	716263	719667	-	HTCC7214_00744	HTCC7214	1134	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	HTCC7214_00744	0
+KL370779.1	719699	723880	-	HTCC7214_00745	HTCC7214	1393	OG0001266	K02674	type IV pilus assembly protein PilY1	COG3419	PilY1	Type IV pilus tip-associated adhesin PilY1	HTCC7214_00744	1
+KL370779.1	723870	724424	-	HTCC7214_00746	HTCC7214	184	OG0001316	NA	NA	NA	NA	NA	HTCC7214_00744	2
+KL370779.1	724494	725285	-	HTCC7214_00747	HTCC7214	263	OG0001201	NA	NA	COG4726	PilX	Type IV pilus assembly protein PilX	HTCC7214_00744	3
+KL370779.1	725285	726073	-	HTCC7214_00748	HTCC7214	262	OG0001197	K02672	type IV pilus assembly protein PilW	COG4966	PilW	Type IV pilus minor pilin/pseudopilin PilW	HTCC7214_00744	4
+KL370779.1	726073	726657	-	HTCC7214_00749	HTCC7214	194	OG0001293	NA	NA	COG4967	PilV	Type IV pilus minor pilin/pseudopilin PilV	HTCC7214_00744	5
+NZIO01000055.1	43	828	+	MED605_00039	MED605	261	OG0001088	K07315	phosphoserine phosphatase RsbU/P [EC:3.1.3.3]	COG2208	RsbU	Phosphoserine phosphatase RsbU, regulator of sigma subunit	MED605_00041	-2
+NZIO01000055.1	836	1039	+	MED605_00040	MED605	67	OG0001673	NA	NA	NA	NA	NA	MED605_00041	-1
+NZIO01000055.1	1040	4471	-	MED605_00041	MED605	1143	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	MED605_00041	0
+NZIO01000055.1	4549	8631	-	MED605_00042	MED605	1360	OG0001266	K02674	type IV pilus assembly protein PilY1	COG3419	PilY1	Type IV pilus tip-associated adhesin PilY1	MED605_00041	1
+JACWEQ010000009.1	2243	3367	+	SAG-MED49_01218	SAG-MED49	374	OG0000486	K05837	rod shape determining protein RodA	COG0772	FtsW	Peptodoglycan polymerase FtsW/RodA/SpoVE	SAG-MED49_01223	-5
+JACWEQ010000009.1	3437	4678	+	SAG-MED49_01219	SAG-MED49	413	OG0000778	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	SAG-MED49_01223	-4
+JACWEQ010000009.1	4683	5972	-	SAG-MED49_01220	SAG-MED49	429	OG0001088	K07315	phosphoserine phosphatase RsbU/P [EC:3.1.3.3]	COG2208	RsbU	Phosphoserine phosphatase RsbU, regulator of sigma subunit	SAG-MED49_01223	-3
+JACWEQ010000009.1	6153	6917	+	SAG-MED49_01221	SAG-MED49	254	OG0001213	K02654	leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43 2.1.1.-]	COG1989	GspO/PilD	Type II secretion system/type IV prepilin peptidase GspO/PulO/PilD	SAG-MED49_01223	-2
+JACWEQ010000009.1	6914	8917	+	SAG-MED49_01222	SAG-MED49	667	OG0001088	K07315	phosphoserine phosphatase RsbU/P [EC:3.1.3.3]	COG4252	CHASE2	Extracytoplasmic sensor domain CHASE2 (specificity unknown)	SAG-MED49_01223	-1
+JACWEQ010000009.1	9129	9362	-	SAG-MED49_01223	SAG-MED49	77	OG0001787	NA	NA	NA	NA	NA	SAG-MED49_01223	0
+JACWEQ010000009.1	9409	16326	-	SAG-MED49_01224	SAG-MED49	2305	OG0001787	NA	NA	COG3210	FhaB	Large exoprotein involved in heme utilization or adhesion	SAG-MED49_01223	1
+JACWEQ010000009.1	16397	20611	-	SAG-MED49_01225	SAG-MED49	1404	OG0001266	K02674	type IV pilus assembly protein PilY1	COG3419	PilY1	Type IV pilus tip-associated adhesin PilY1	SAG-MED49_01223	2
+JACWEQ010000009.1	20613	21167	-	SAG-MED49_01226	SAG-MED49	184	OG0001316	NA	NA	NA	NA	NA	SAG-MED49_01223	3
+JACWEQ010000009.1	21239	21922	-	SAG-MED49_01227	SAG-MED49	227	OG0001201	K02673	type IV pilus assembly protein PilX	NA	NA	NA	SAG-MED49_01223	4
+JACWEQ010000009.1	21919	22770	-	SAG-MED49_01228	SAG-MED49	283	OG0001197	K02672	type IV pilus assembly protein PilW	COG4966	PilW	Type IV pilus minor pilin/pseudopilin PilW	SAG-MED49_01223	5
+JACWEQ010000009.1	3437	4678	+	SAG-MED49_01219	SAG-MED49	413	OG0000778	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	SAG-MED49_01224	-5
+JACWEQ010000009.1	4683	5972	-	SAG-MED49_01220	SAG-MED49	429	OG0001088	K07315	phosphoserine phosphatase RsbU/P [EC:3.1.3.3]	COG2208	RsbU	Phosphoserine phosphatase RsbU, regulator of sigma subunit	SAG-MED49_01224	-4
+JACWEQ010000009.1	6153	6917	+	SAG-MED49_01221	SAG-MED49	254	OG0001213	K02654	leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43 2.1.1.-]	COG1989	GspO/PilD	Type II secretion system/type IV prepilin peptidase GspO/PulO/PilD	SAG-MED49_01224	-3
+JACWEQ010000009.1	6914	8917	+	SAG-MED49_01222	SAG-MED49	667	OG0001088	K07315	phosphoserine phosphatase RsbU/P [EC:3.1.3.3]	COG4252	CHASE2	Extracytoplasmic sensor domain CHASE2 (specificity unknown)	SAG-MED49_01224	-2
+JACWEQ010000009.1	9129	9362	-	SAG-MED49_01223	SAG-MED49	77	OG0001787	NA	NA	NA	NA	NA	SAG-MED49_01224	-1
+JACWEQ010000009.1	9409	16326	-	SAG-MED49_01224	SAG-MED49	2305	OG0001787	NA	NA	COG3210	FhaB	Large exoprotein involved in heme utilization or adhesion	SAG-MED49_01224	0
+JACWEQ010000009.1	16397	20611	-	SAG-MED49_01225	SAG-MED49	1404	OG0001266	K02674	type IV pilus assembly protein PilY1	COG3419	PilY1	Type IV pilus tip-associated adhesin PilY1	SAG-MED49_01224	1
+JACWEQ010000009.1	20613	21167	-	SAG-MED49_01226	SAG-MED49	184	OG0001316	NA	NA	NA	NA	NA	SAG-MED49_01224	2
+JACWEQ010000009.1	21239	21922	-	SAG-MED49_01227	SAG-MED49	227	OG0001201	K02673	type IV pilus assembly protein PilX	NA	NA	NA	SAG-MED49_01224	3
+JACWEQ010000009.1	21919	22770	-	SAG-MED49_01228	SAG-MED49	283	OG0001197	K02672	type IV pilus assembly protein PilW	COG4966	PilW	Type IV pilus minor pilin/pseudopilin PilW	SAG-MED49_01224	4
+JACWEQ010000009.1	22771	23382	-	SAG-MED49_01229	SAG-MED49	203	OG0001293	NA	NA	NA	NA	NA	SAG-MED49_01224	5
+CP159810.1	1255968	1256678	-	Uisw_090_01401	Uisw_090	236	OG0000273	K02195	heme exporter protein C	COG0755	CcmC	ABC-type transport system involved in cytochrome c biogenesis, permease component	Uisw_090_01406	-5
+CP159810.1	1256860	1257180	-	Uisw_090_01402	Uisw_090	106	OG0000313	K11940	heat shock protein HspQ	COG3785	HspQ	Heat shock protein HspQ	Uisw_090_01406	-4
+CP159810.1	1257230	1257811	+	Uisw_090_01403	Uisw_090	193	OG0000348	K06190	intracellular septation protein	COG2917	YciB	Intracellular septation protein A	Uisw_090_01406	-3
+CP159810.1	1257804	1258148	+	Uisw_090_01404	Uisw_090	114	OG0000375	NA	NA	NA	NA	NA	Uisw_090_01406	-2
+CP159810.1	1258151	1258570	-	Uisw_090_01405	Uisw_090	139	OG0002849	NA	NA	NA	NA	NA	Uisw_090_01406	-1
+CP159810.1	1258572	1260884	-	Uisw_090_01406	Uisw_090	770	OG0001787	NA	NA	COG1404	AprE	Serine protease, subtilisin family	Uisw_090_01406	0
+CP159810.1	1261057	1261404	+	Uisw_090_01407	Uisw_090	115	OG0000170	NA	NA	NA	NA	NA	Uisw_090_01406	1
+CP159810.1	1261451	1261990	+	Uisw_090_01408	Uisw_090	179	OG0002545	NA	NA	NA	NA	NA	Uisw_090_01406	2
+CP159810.1	1261991	1262761	-	Uisw_090_01409	Uisw_090	256	OG0000280	K06890	uncharacterized protein	COG0670	YbhL	Integral membrane protein YbhL, putative Ca2+ regulator, Bax inhibitor (BI-1)/TMBIM family	Uisw_090_01406	3
+CP159810.1	1262813	1263850	+	Uisw_090_01410	Uisw_090	345	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	Uisw_090_01406	4
+CP159810.1	1263841	1264347	+	Uisw_090_01411	Uisw_090	168	OG0000165	NA	NA	COG5342	IalB	Invasion protein IalB, involved in pathogenesis	Uisw_090_01406	5

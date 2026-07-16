@@ -1,0 +1,23 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CACEDD010000002.1	164855	166837	-	AG-390-L03_00828	AG-390-L03	660	OG0001464	K24300	UDP-N-acetylglucosamine 4,6-dehydratase [EC:4.2.1.135]	COG1086	EpsC	NDP-sugar epimerase, includes UDP-N-acetylglucosamine 4,6-dehydratase EpsC	AG-390-L03_00833	-5
+CACEDD010000002.1	166989	167549	-	AG-390-L03_00829	AG-390-L03	186	OG0001497	K13012	O-antigen biosynthesis protein WbqP	COG2148	WcaJ	Sugar transferase involved in LPS biosynthesis (colanic, teichoic acid)	AG-390-L03_00833	-4
+CACEDD010000002.1	167555	168679	-	AG-390-L03_00830	AG-390-L03	374	OG0000010	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-390-L03_00833	-3
+CACEDD010000002.1	168730	169770	-	AG-390-L03_00831	AG-390-L03	346	NA	NA	NA	NA	NA	NA	AG-390-L03_00833	-2
+CACEDD010000002.1	170014	172287	-	AG-390-L03_00832	AG-390-L03	757	OG0000010	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-390-L03_00833	-1
+CACEDD010000002.1	172328	173410	-	AG-390-L03_00833	AG-390-L03	360	OG0003921	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-390-L03_00833	0
+CACEDD010000002.1	173449	174294	-	AG-390-L03_00834	AG-390-L03	281	OG0001189	K16698	teichuronic acid biosynthesis glycosyltransferase TuaG [EC:2.4.-.-]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-390-L03_00833	1
+CACEDD010000002.1	174368	175120	-	AG-390-L03_00835	AG-390-L03	250	OG0001429	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	AG-390-L03_00833	2
+CACEDD010000002.1	175325	176194	+	AG-390-L03_00836	AG-390-L03	289	OG0001500	NA	NA	NA	NA	NA	AG-390-L03_00833	3
+CACEDD010000002.1	176191	176967	+	AG-390-L03_00837	AG-390-L03	258	OG0000274	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	AG-390-L03_00833	4
+CACEDD010000002.1	176964	178052	+	AG-390-L03_00838	AG-390-L03	362	OG0001249	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-390-L03_00833	5
+CP159809.1	753786	754886	-	Uisw_113_00825	Uisw_113	366	OG0001930	K01991	polysaccharide biosynthesis/export protein	COG1596	Wza	Periplasmic protein Wza involved in polysaccharide export, contains SLBB domain of the beta-grasp fold	Uisw_113_00830	-5
+CP159809.1	755005	755952	+	Uisw_113_00826	Uisw_113	315	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	Uisw_113_00830	-4
+CP159809.1	755939	756640	-	Uisw_113_00827	Uisw_113	233	OG0001741	NA	NA	NA	NA	NA	Uisw_113_00830	-3
+CP159809.1	756701	757957	-	Uisw_113_00828	Uisw_113	418	NA	NA	NA	NA	NA	NA	Uisw_113_00830	-2
+CP159809.1	757947	759002	-	Uisw_113_00829	Uisw_113	351	NA	NA	NA	NA	NA	NA	Uisw_113_00830	-1
+CP159809.1	758975	759868	-	Uisw_113_00830	Uisw_113	297	OG0003921	NA	NA	NA	NA	NA	Uisw_113_00830	0
+CP159809.1	759858	760964	-	Uisw_113_00831	Uisw_113	368	NA	NA	NA	NA	NA	NA	Uisw_113_00830	1
+CP159809.1	761190	762284	+	Uisw_113_00832	Uisw_113	364	OG0001104	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_113_00830	2
+CP159809.1	762284	763273	+	Uisw_113_00833	Uisw_113	329	OG0003411	K19997	GlcNAc-P-P-Und epimerase [EC:5.1.3.26]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Uisw_113_00830	3
+CP159809.1	763343	764332	-	Uisw_113_00834	Uisw_113	329	OG0000023	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	Uisw_113_00830	4
+CP159809.1	764514	765596	-	Uisw_113_00835	Uisw_113	360	OG0000240	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	Uisw_113_00830	5

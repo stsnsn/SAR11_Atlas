@@ -165,7 +165,8 @@
     letter-spacing: 0.025em;
 }
 
-.atlas-search-field input {
+.atlas-search-field input,
+.atlas-search-field select {
     width: 100%;
     min-height: 44px;
     padding: 0.55rem 0.75rem;
@@ -175,10 +176,32 @@
     color: var(--atlas-ink);
 }
 
-.atlas-search-field input:focus {
+.atlas-search-field input:focus,
+.atlas-search-field select:focus {
     border-color: var(--atlas-accent);
     box-shadow: 0 0 0 3px rgba(8, 125, 130, 0.14);
     outline: none;
+}
+
+.atlas-operon-filter-row {
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(8, 125, 130, 0.14);
+}
+
+.atlas-operon-filter-row .atlas-search-field {
+    flex: 1 1 180px;
+}
+
+.atlas-filter-status {
+    flex: 1 1 260px;
+    margin: 0 0 0.7rem;
+    color: var(--atlas-muted);
+    font-size: 0.78rem;
+    font-weight: 750;
+    text-align: right;
 }
 
 .atlas-action-button,
@@ -784,7 +807,8 @@ body.dark-mode .atlas-filter select {
     color: #f0fbfd;
 }
 
-body.dark-mode .atlas-search-field input {
+body.dark-mode .atlas-search-field input,
+body.dark-mode .atlas-search-field select {
     border-color: rgba(123, 184, 206, 0.28);
     background: #0c202a;
     color: #f0fbfd;

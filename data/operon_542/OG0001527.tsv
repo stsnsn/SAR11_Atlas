@@ -1,0 +1,782 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CVSB01000029.1	69055	69687	+	AAA795-A20_00476	AAA795-A20	210	OG0001875	NA	NA	NA	NA	NA	AAA795-A20_00481	-5
+CVSB01000029.1	69725	72352	+	AAA795-A20_00477	AAA795-A20	875	OG0000887	K01873	valyl-tRNA synthetase [EC:6.1.1.9]	COG0525	ValS	Valyl-tRNA synthetase	AAA795-A20_00481	-4
+CVSB01000029.1	72352	74070	+	AAA795-A20_00478	AAA795-A20	572	OG0000063	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	AAA795-A20_00481	-3
+CVSB01000029.1	74070	75275	+	AAA795-A20_00479	AAA795-A20	401	OG0000840	K00971	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0836	CpsB	Mannose-1-phosphate guanylyltransferase	AAA795-A20_00481	-2
+CVSB01000029.1	75300	76418	+	AAA795-A20_00480	AAA795-A20	372	OG0001562	K01009	L-glutamine-phosphate cytidylyltransferase [EC:2.7.7.103]	COG1213	NA	Choline kinase	AAA795-A20_00481	-1
+CVSB01000029.1	76518	77372	+	AAA795-A20_00481	AAA795-A20	284	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AAA795-A20_00481	0
+CVSB01000029.1	77390	78112	+	AAA795-A20_00482	AAA795-A20	240	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AAA795-A20_00481	1
+CVSB01000029.1	78117	78944	+	AAA795-A20_00483	AAA795-A20	275	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AAA795-A20_00481	2
+CVSB01000029.1	78954	79292	+	AAA795-A20_00484	AAA795-A20	112	OG0000042	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	AAA795-A20_00481	3
+CVSB01000029.1	79307	80149	+	AAA795-A20_00485	AAA795-A20	280	OG0001421	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AAA795-A20_00481	4
+CVSB01000029.1	80146	80331	-	AAA795-A20_00486	AAA795-A20	61	OG0002005	NA	NA	NA	NA	NA	AAA795-A20_00481	5
+CABYCY010000005.1	391	1086	+	AG-333-A04_00529	AG-333-A04	231	OG0001562	NA	NA	COG1213	NA	Choline kinase	AG-333-A04_00530	-1
+CABYCY010000005.1	1157	2020	+	AG-333-A04_00530	AG-333-A04	287	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-333-A04_00530	0
+CABYCY010000005.1	2038	2760	+	AG-333-A04_00531	AG-333-A04	240	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-333-A04_00530	1
+CABYCY010000005.1	2765	3592	+	AG-333-A04_00532	AG-333-A04	275	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-333-A04_00530	2
+CABYCY010000005.1	3602	3940	+	AG-333-A04_00533	AG-333-A04	112	OG0000042	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	AG-333-A04_00530	3
+CABYCY010000005.1	3955	4797	+	AG-333-A04_00534	AG-333-A04	280	OG0001421	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-333-A04_00530	4
+CABYCY010000005.1	4794	4979	-	AG-333-A04_00535	AG-333-A04	61	OG0002005	NA	NA	NA	NA	NA	AG-333-A04_00530	5
+CACBKZ010000004.1	17212	17763	+	AG-359-C09_00461	AG-359-C09	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-359-C09_00466	-5
+CACBKZ010000004.1	17756	18928	-	AG-359-C09_00462	AG-359-C09	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-359-C09_00466	-4
+CACBKZ010000004.1	18983	19405	+	AG-359-C09_00463	AG-359-C09	140	OG0001618	NA	NA	NA	NA	NA	AG-359-C09_00466	-3
+CACBKZ010000004.1	19425	20825	-	AG-359-C09_00464	AG-359-C09	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-359-C09_00466	-2
+CACBKZ010000004.1	20822	21676	-	AG-359-C09_00465	AG-359-C09	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-359-C09_00466	-1
+CACBKZ010000004.1	21742	22692	-	AG-359-C09_00466	AG-359-C09	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-359-C09_00466	0
+CACBKZ010000004.1	22759	23583	-	AG-359-C09_00467	AG-359-C09	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-359-C09_00466	1
+CACBKZ010000004.1	23703	24413	-	AG-359-C09_00468	AG-359-C09	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-359-C09_00466	2
+CACBKZ010000004.1	24480	24923	+	AG-359-C09_00469	AG-359-C09	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-359-C09_00466	3
+CACBKZ010000004.1	24927	25481	+	AG-359-C09_00470	AG-359-C09	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-359-C09_00466	4
+CACBKZ010000004.1	25483	26562	+	AG-359-C09_00471	AG-359-C09	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-359-C09_00466	5
+CACBWH010000002.1	163861	164409	-	AG-359-M21_00553	AG-359-M21	182	OG0000497	NA	NA	COG2834	LolA	Periplasmic chaperone for outer membrane lipoprotein sorting	AG-359-M21_00558	-5
+CACBWH010000002.1	164409	166523	-	AG-359-M21_00554	AG-359-M21	704	OG0000327	K03466	DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family	COG1674	FtsK	DNA segregation ATPase FtsK/SpoIIIE or related protein	AG-359-M21_00558	-4
+CACBWH010000002.1	166554	167633	+	AG-359-M21_00555	AG-359-M21	359	OG0000545	NA	NA	COG0654	UbiH	2-polyprenyl-6-methoxyphenol hydroxylase and related FAD-dependent oxidoreductases	AG-359-M21_00558	-3
+CACBWH010000002.1	167635	168279	-	AG-359-M21_00556	AG-359-M21	214	OG0000642	K07157	uncharacterized protein	COG2802	LON/PUA	Uncharacterized conserved protein, LON_N-like domain, ASCH/PUA-like superfamily	AG-359-M21_00558	-2
+CACBWH010000002.1	168395	169249	+	AG-359-M21_00557	AG-359-M21	284	OG0000077	NA	NA	NA	NA	NA	AG-359-M21_00558	-1
+CACBWH010000002.1	169589	170467	+	AG-359-M21_00558	AG-359-M21	292	OG0001527	NA	NA	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-359-M21_00558	0
+CACBWH010000002.1	170524	171291	+	AG-359-M21_00559	AG-359-M21	255	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-359-M21_00558	1
+CACBWH010000002.1	171309	172142	+	AG-359-M21_00560	AG-359-M21	277	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-359-M21_00558	2
+CACBWH010000002.1	172169	172834	+	AG-359-M21_00561	AG-359-M21	221	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-359-M21_00558	3
+CACBWH010000002.1	172801	172911	+	AG-359-M21_00562	AG-359-M21	36	OG0001317	NA	NA	NA	NA	NA	AG-359-M21_00558	4
+CACBWH010000002.1	173325	173669	+	AG-359-M21_00564	AG-359-M21	114	OG0000624	K01724	4a-hydroxytetrahydrobiopterin dehydratase [EC:4.2.1.96]	COG2154	PhhB	Pterin-4a-carbinolamine dehydratase	AG-359-M21_00558	5
+CACBWH010000005.1	45667	46746	-	AG-359-M21_00988	AG-359-M21	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-359-M21_00993	-5
+CACBWH010000005.1	46748	47302	-	AG-359-M21_00989	AG-359-M21	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-359-M21_00993	-4
+CACBWH010000005.1	47306	47749	-	AG-359-M21_00990	AG-359-M21	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-359-M21_00993	-3
+CACBWH010000005.1	47816	48526	+	AG-359-M21_00991	AG-359-M21	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-359-M21_00993	-2
+CACBWH010000005.1	48646	49470	+	AG-359-M21_00992	AG-359-M21	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-359-M21_00993	-1
+CACBWH010000005.1	49537	50487	+	AG-359-M21_00993	AG-359-M21	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-359-M21_00993	0
+CACBWH010000005.1	50554	51408	+	AG-359-M21_00994	AG-359-M21	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-359-M21_00993	1
+CACBWH010000005.1	51405	52805	+	AG-359-M21_00995	AG-359-M21	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-359-M21_00993	2
+CACBWH010000005.1	52825	53247	-	AG-359-M21_00996	AG-359-M21	140	OG0001618	NA	NA	NA	NA	NA	AG-359-M21_00993	3
+CACBWH010000005.1	53362	54474	+	AG-359-M21_00997	AG-359-M21	370	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-359-M21_00993	4
+CACBWH010000005.1	54467	55018	-	AG-359-M21_00998	AG-359-M21	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-359-M21_00993	5
+CACFXK010000006.1	42151	43230	-	AG-414-O09_00735	AG-414-O09	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-414-O09_00740	-5
+CACFXK010000006.1	43232	43786	-	AG-414-O09_00736	AG-414-O09	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-414-O09_00740	-4
+CACFXK010000006.1	43790	44233	-	AG-414-O09_00737	AG-414-O09	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-414-O09_00740	-3
+CACFXK010000006.1	44300	45010	+	AG-414-O09_00738	AG-414-O09	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-414-O09_00740	-2
+CACFXK010000006.1	45118	45942	+	AG-414-O09_00739	AG-414-O09	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-414-O09_00740	-1
+CACFXK010000006.1	46009	46959	+	AG-414-O09_00740	AG-414-O09	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-414-O09_00740	0
+CACFXK010000006.1	47025	47879	+	AG-414-O09_00741	AG-414-O09	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-414-O09_00740	1
+CACFXK010000006.1	47876	49276	+	AG-414-O09_00742	AG-414-O09	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-414-O09_00740	2
+CACFXK010000006.1	49344	49772	-	AG-414-O09_00743	AG-414-O09	142	OG0001618	NA	NA	NA	NA	NA	AG-414-O09_00740	3
+CACFXK010000006.1	49827	50999	+	AG-414-O09_00744	AG-414-O09	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-414-O09_00740	4
+CACFXK010000006.1	50992	51546	-	AG-414-O09_00745	AG-414-O09	184	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-414-O09_00740	5
+CACFXO010000003.1	97651	98202	+	AG-414-O11_00720	AG-414-O11	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-414-O11_00725	-5
+CACFXO010000003.1	98195	99367	-	AG-414-O11_00721	AG-414-O11	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-414-O11_00725	-4
+CACFXO010000003.1	99422	99844	+	AG-414-O11_00722	AG-414-O11	140	OG0001618	NA	NA	NA	NA	NA	AG-414-O11_00725	-3
+CACFXO010000003.1	99864	101264	-	AG-414-O11_00723	AG-414-O11	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-414-O11_00725	-2
+CACFXO010000003.1	101261	102115	-	AG-414-O11_00724	AG-414-O11	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-414-O11_00725	-1
+CACFXO010000003.1	102182	103132	-	AG-414-O11_00725	AG-414-O11	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-414-O11_00725	0
+CACFXO010000003.1	103199	104023	-	AG-414-O11_00726	AG-414-O11	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-414-O11_00725	1
+CACFXO010000003.1	104143	104853	-	AG-414-O11_00727	AG-414-O11	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-414-O11_00725	2
+CACFXO010000003.1	104920	105363	+	AG-414-O11_00728	AG-414-O11	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-414-O11_00725	3
+CACFXO010000003.1	105367	105921	+	AG-414-O11_00729	AG-414-O11	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-414-O11_00725	4
+CACFXO010000003.1	105923	107002	+	AG-414-O11_00730	AG-414-O11	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-414-O11_00725	5
+CACGXV010000006.1	7351	8430	-	AG-426-F15_01283	AG-426-F15	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-426-F15_01288	-5
+CACGXV010000006.1	8432	8986	-	AG-426-F15_01284	AG-426-F15	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-426-F15_01288	-4
+CACGXV010000006.1	8990	9433	-	AG-426-F15_01285	AG-426-F15	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-426-F15_01288	-3
+CACGXV010000006.1	9500	10210	+	AG-426-F15_01286	AG-426-F15	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-426-F15_01288	-2
+CACGXV010000006.1	10318	11142	+	AG-426-F15_01287	AG-426-F15	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-426-F15_01288	-1
+CACGXV010000006.1	11203	12153	+	AG-426-F15_01288	AG-426-F15	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-426-F15_01288	0
+CACGXV010000006.1	12218	13072	+	AG-426-F15_01289	AG-426-F15	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-426-F15_01288	1
+CACGXV010000006.1	13069	14469	+	AG-426-F15_01290	AG-426-F15	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-426-F15_01288	2
+CACGXV010000006.1	14537	14965	-	AG-426-F15_01291	AG-426-F15	142	OG0001618	NA	NA	NA	NA	NA	AG-426-F15_01288	3
+CACGXV010000006.1	15020	16192	+	AG-426-F15_01292	AG-426-F15	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-426-F15_01288	4
+CACGXV010000006.1	16185	16727	-	AG-426-F15_01293	AG-426-F15	180	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-426-F15_01288	5
+CACHAK010000006.1	16351	17562	-	AG-426-I21_00893	AG-426-I21	403	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-426-I21_00898	-5
+CACHAK010000006.1	17695	18039	+	AG-426-I21_00894	AG-426-I21	114	OG0002379	NA	NA	NA	NA	NA	AG-426-I21_00898	-4
+CACHAK010000006.1	18040	18477	-	AG-426-I21_00895	AG-426-I21	145	OG0001618	NA	NA	NA	NA	NA	AG-426-I21_00898	-3
+CACHAK010000006.1	18534	19943	-	AG-426-I21_00896	AG-426-I21	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-426-I21_00898	-2
+CACHAK010000006.1	19940	20794	-	AG-426-I21_00897	AG-426-I21	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-426-I21_00898	-1
+CACHAK010000006.1	20871	21830	-	AG-426-I21_00898	AG-426-I21	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-426-I21_00898	0
+CACHAK010000006.1	21883	22686	-	AG-426-I21_00899	AG-426-I21	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-426-I21_00898	1
+CACHAK010000006.1	22821	23420	+	AG-426-I21_00900	AG-426-I21	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-426-I21_00898	2
+CACHAK010000006.1	23417	23932	+	AG-426-I21_00901	AG-426-I21	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-426-I21_00898	3
+CACHAK010000006.1	23929	24765	-	AG-426-I21_00902	AG-426-I21	278	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-426-I21_00898	4
+CACHAK010000006.1	24802	25428	-	AG-426-I21_00903	AG-426-I21	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-426-I21_00898	5
+CACHIY010000004.1	56830	57381	+	AG-430-E20_00853	AG-430-E20	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-430-E20_00858	-5
+CACHIY010000004.1	57374	58546	-	AG-430-E20_00854	AG-430-E20	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-430-E20_00858	-4
+CACHIY010000004.1	58601	59023	+	AG-430-E20_00855	AG-430-E20	140	OG0001618	NA	NA	NA	NA	NA	AG-430-E20_00858	-3
+CACHIY010000004.1	59043	60443	-	AG-430-E20_00856	AG-430-E20	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-430-E20_00858	-2
+CACHIY010000004.1	60440	61294	-	AG-430-E20_00857	AG-430-E20	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-430-E20_00858	-1
+CACHIY010000004.1	61360	62310	-	AG-430-E20_00858	AG-430-E20	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-430-E20_00858	0
+CACHIY010000004.1	62377	63201	-	AG-430-E20_00859	AG-430-E20	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-430-E20_00858	1
+CACHIY010000004.1	63321	64031	-	AG-430-E20_00860	AG-430-E20	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-430-E20_00858	2
+CACHIY010000004.1	64098	64541	+	AG-430-E20_00861	AG-430-E20	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-430-E20_00858	3
+CACHIY010000004.1	64545	65099	+	AG-430-E20_00862	AG-430-E20	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-430-E20_00858	4
+CACHIY010000004.1	65101	66180	+	AG-430-E20_00863	AG-430-E20	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-430-E20_00858	5
+CACHVT010000001.1	51412	52365	+	AG-430-K07_00053	AG-430-K07	317	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-430-K07_00058	-5
+CACHVT010000001.1	52464	53609	+	AG-430-K07_00054	AG-430-K07	381	OG0001546	NA	NA	COG1887	TagB	CDP-glycerol glycerophosphotransferase, TagB/SpsB family	AG-430-K07_00058	-4
+CACHVT010000001.1	53657	54172	+	AG-430-K07_00055	AG-430-K07	171	OG0000966	K23148	cytidine diphosphoramidate kinase [EC:2.7.1.224]	COG0529	CysC	Adenylylsulfate kinase or related kinase	AG-430-K07_00058	-3
+CACHVT010000001.1	54189	55016	-	AG-430-K07_00056	AG-430-K07	275	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-430-K07_00058	-2
+CACHVT010000001.1	55018	55740	-	AG-430-K07_00057	AG-430-K07	240	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-430-K07_00058	-1
+CACHVT010000001.1	55755	56630	-	AG-430-K07_00058	AG-430-K07	291	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-430-K07_00058	0
+CACHVT010000001.1	56694	57830	-	AG-430-K07_00059	AG-430-K07	378	OG0001562	K01009	L-glutamine-phosphate cytidylyltransferase [EC:2.7.7.103]	COG1213	NA	Choline kinase	AG-430-K07_00058	1
+CACHVT010000001.1	62865	64169	+	AG-430-K07_00064	AG-430-K07	434	OG0000842	K19304	murein DD-endopeptidase [EC:3.4.24.-]	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	AG-430-K07_00058	2
+CACHVT010000001.1	64171	64551	-	AG-430-K07_00065	AG-430-K07	126	OG0000869	NA	NA	NA	NA	NA	AG-430-K07_00058	3
+CACHVT010000001.1	64566	65408	-	AG-430-K07_00066	AG-430-K07	280	OG0000560	NA	NA	COG2890	HemK	Methylase of polypeptide chain release factors	AG-430-K07_00058	4
+CACHVT010000001.1	65409	66482	-	AG-430-K07_00067	AG-430-K07	357	OG0000742	K02835	peptide chain release factor 1	COG0216	PrfA	Protein chain release factor RF1	AG-430-K07_00058	5
+CACPLW010000016.1	10412	11533	+	AG-439-O15_01036	AG-439-O15	373	OG0001305	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-439-O15_01041	-5
+CACPLW010000016.1	11542	11730	+	AG-439-O15_01037	AG-439-O15	62	OG0001517	NA	NA	NA	NA	NA	AG-439-O15_01041	-4
+CACPLW010000016.1	11742	12176	+	AG-439-O15_01038	AG-439-O15	144	OG0001517	NA	NA	COG1670	RimL	Protein N-acetyltransferase, RimJ/RimL family	AG-439-O15_01041	-3
+CACPLW010000016.1	12182	13540	+	AG-439-O15_01039	AG-439-O15	452	OG0001510	NA	NA	NA	NA	NA	AG-439-O15_01041	-2
+CACPLW010000016.1	13657	14781	+	AG-439-O15_01040	AG-439-O15	374	OG0001562	K01009	L-glutamine-phosphate cytidylyltransferase [EC:2.7.7.103]	COG1213	NA	Choline kinase	AG-439-O15_01041	-1
+CACPLW010000016.1	14862	15716	+	AG-439-O15_01041	AG-439-O15	284	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-439-O15_01041	0
+CACPLW010000016.1	15734	16456	+	AG-439-O15_01042	AG-439-O15	240	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-439-O15_01041	1
+CACPLW010000016.1	16449	17285	+	AG-439-O15_01043	AG-439-O15	278	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-439-O15_01041	2
+CACPLW010000016.1	17340	17684	+	AG-439-O15_01044	AG-439-O15	114	OG0000042	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	AG-439-O15_01041	3
+CACPLW010000016.1	17723	17815	+	AG-439-O15_01045	AG-439-O15	30	NA	NA	NA	NA	NA	NA	AG-439-O15_01041	4
+CACJSJ010000023.1	4719	5363	+	AG-447-O23_01124	AG-447-O23	214	OG0001051	NA	NA	COG0580	GlpF	Glycerol uptake facilitator or related aquaporin (Major Intrinsic protein Family)	AG-447-O23_01129	-5
+CACJSJ010000023.1	5557	6522	+	AG-447-O23_01125	AG-447-O23	321	OG0001433	NA	NA	NA	NA	NA	AG-447-O23_01129	-4
+CACJSJ010000023.1	6565	6909	-	AG-447-O23_01126	AG-447-O23	114	OG0000042	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	AG-447-O23_01129	-3
+CACJSJ010000023.1	6953	7780	-	AG-447-O23_01127	AG-447-O23	275	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-447-O23_01129	-2
+CACJSJ010000023.1	7782	8504	-	AG-447-O23_01128	AG-447-O23	240	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-447-O23_01129	-1
+CACJSJ010000023.1	8519	9394	-	AG-447-O23_01129	AG-447-O23	291	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-447-O23_01129	0
+CACLZL010000006.1	59550	60101	+	AG-891-A05_00771	AG-891-A05	183	NA	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-891-A05_00776	-5
+CACLZL010000006.1	60094	61266	-	AG-891-A05_00772	AG-891-A05	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-891-A05_00776	-4
+CACLZL010000006.1	61321	61743	+	AG-891-A05_00773	AG-891-A05	140	OG0001618	NA	NA	NA	NA	NA	AG-891-A05_00776	-3
+CACLZL010000006.1	61818	63218	-	AG-891-A05_00774	AG-891-A05	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-891-A05_00776	-2
+CACLZL010000006.1	63215	64069	-	AG-891-A05_00775	AG-891-A05	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-891-A05_00776	-1
+CACLZL010000006.1	64134	65084	-	AG-891-A05_00776	AG-891-A05	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-891-A05_00776	0
+CACLZL010000006.1	65145	65969	-	AG-891-A05_00777	AG-891-A05	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-891-A05_00776	1
+CACLZL010000006.1	66077	66787	-	AG-891-A05_00778	AG-891-A05	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-891-A05_00776	2
+CACLZL010000006.1	66854	67297	+	AG-891-A05_00779	AG-891-A05	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-891-A05_00776	3
+CACLZL010000006.1	67301	67855	+	AG-891-A05_00780	AG-891-A05	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-891-A05_00776	4
+CACLZL010000006.1	67857	68936	+	AG-891-A05_00781	AG-891-A05	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-891-A05_00776	5
+CACMGO010000014.1	15791	16963	-	AG-891-G02_01283	AG-891-G02	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-891-G02_01288	-5
+CACMGO010000014.1	17018	17440	+	AG-891-G02_01284	AG-891-G02	140	OG0001618	NA	NA	NA	NA	NA	AG-891-G02_01288	-4
+CACMGO010000014.1	17516	18916	-	AG-891-G02_01285	AG-891-G02	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-891-G02_01288	-3
+CACMGO010000014.1	18913	19374	-	AG-891-G02_01286	AG-891-G02	153	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-891-G02_01288	-2
+CACMGO010000014.1	19489	19767	-	AG-891-G02_01287	AG-891-G02	92	OG0001351	NA	NA	NA	NA	NA	AG-891-G02_01288	-1
+CACMGO010000014.1	19833	20783	-	AG-891-G02_01288	AG-891-G02	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-891-G02_01288	0
+CACMIV010000002.1	189155	189781	+	AG-891-J04_00894	AG-891-J04	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-891-J04_00899	-5
+CACMIV010000002.1	189818	190654	+	AG-891-J04_00895	AG-891-J04	278	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-891-J04_00899	-4
+CACMIV010000002.1	190651	191166	-	AG-891-J04_00896	AG-891-J04	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-891-J04_00899	-3
+CACMIV010000002.1	191163	191762	-	AG-891-J04_00897	AG-891-J04	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-891-J04_00899	-2
+CACMIV010000002.1	191897	192700	+	AG-891-J04_00898	AG-891-J04	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-891-J04_00899	-1
+CACMIV010000002.1	192753	193712	+	AG-891-J04_00899	AG-891-J04	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-891-J04_00899	0
+CACMIV010000002.1	193789	194643	+	AG-891-J04_00900	AG-891-J04	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-891-J04_00899	1
+CACMIV010000002.1	194640	196049	+	AG-891-J04_00901	AG-891-J04	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-891-J04_00899	2
+CACMIV010000002.1	196103	196540	+	AG-891-J04_00902	AG-891-J04	145	OG0001618	NA	NA	NA	NA	NA	AG-891-J04_00899	3
+CACMIV010000002.1	196541	196885	-	AG-891-J04_00903	AG-891-J04	114	OG0002379	NA	NA	NA	NA	NA	AG-891-J04_00899	4
+CACMIV010000002.1	197018	198229	+	AG-891-J04_00904	AG-891-J04	403	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-891-J04_00899	5
+CACMVC010000002.1	215466	215969	+	AG-892-E08_00575	AG-892-E08	167	OG0000799	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	AG-892-E08_00580	-5
+CACMVC010000002.1	215966	216514	-	AG-892-E08_00576	AG-892-E08	182	OG0000497	NA	NA	COG2834	LolA	Periplasmic chaperone for outer membrane lipoprotein sorting	AG-892-E08_00580	-4
+CACMVC010000002.1	216514	218598	-	AG-892-E08_00577	AG-892-E08	694	OG0000327	K03466	DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family	COG1674	FtsK	DNA segregation ATPase FtsK/SpoIIIE or related protein	AG-892-E08_00580	-3
+CACMVC010000002.1	218659	219726	+	AG-892-E08_00578	AG-892-E08	355	OG0000545	NA	NA	COG0654	UbiH	2-polyprenyl-6-methoxyphenol hydroxylase and related FAD-dependent oxidoreductases	AG-892-E08_00580	-2
+CACMVC010000002.1	219728	220372	-	AG-892-E08_00579	AG-892-E08	214	OG0000642	K07157	uncharacterized protein	COG2802	LON/PUA	Uncharacterized conserved protein, LON_N-like domain, ASCH/PUA-like superfamily	AG-892-E08_00580	-1
+CACMVC010000002.1	220729	221607	+	AG-892-E08_00580	AG-892-E08	292	OG0001527	NA	NA	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-892-E08_00580	0
+CACMVC010000002.1	221664	222431	+	AG-892-E08_00581	AG-892-E08	255	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-892-E08_00580	1
+CACMVC010000002.1	222449	223282	+	AG-892-E08_00582	AG-892-E08	277	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-892-E08_00580	2
+CACMVC010000002.1	223282	223974	+	AG-892-E08_00583	AG-892-E08	230	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-892-E08_00580	3
+CACMVC010000002.1	223941	224051	+	AG-892-E08_00584	AG-892-E08	36	OG0001317	NA	NA	NA	NA	NA	AG-892-E08_00580	4
+CACMVC010000002.1	224492	224809	+	AG-892-E08_00586	AG-892-E08	105	OG0000624	K01724	4a-hydroxytetrahydrobiopterin dehydratase [EC:4.2.1.96]	COG2154	PhhB	Pterin-4a-carbinolamine dehydratase	AG-892-E08_00580	5
+CACMVC010000003.1	158488	159039	+	AG-892-E08_00762	AG-892-E08	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-892-E08_00767	-5
+CACMVC010000003.1	159032	160204	-	AG-892-E08_00763	AG-892-E08	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-892-E08_00767	-4
+CACMVC010000003.1	160259	160681	+	AG-892-E08_00764	AG-892-E08	140	OG0001618	NA	NA	NA	NA	NA	AG-892-E08_00767	-3
+CACMVC010000003.1	160701	162101	-	AG-892-E08_00765	AG-892-E08	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-892-E08_00767	-2
+CACMVC010000003.1	162098	162952	-	AG-892-E08_00766	AG-892-E08	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-892-E08_00767	-1
+CACMVC010000003.1	163019	163969	-	AG-892-E08_00767	AG-892-E08	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-892-E08_00767	0
+CACMVC010000003.1	164036	164860	-	AG-892-E08_00768	AG-892-E08	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-892-E08_00767	1
+CACMVC010000003.1	164980	165690	-	AG-892-E08_00769	AG-892-E08	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-892-E08_00767	2
+CACMVC010000003.1	165757	166200	+	AG-892-E08_00770	AG-892-E08	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-892-E08_00767	3
+CACMVC010000003.1	166204	166758	+	AG-892-E08_00771	AG-892-E08	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-892-E08_00767	4
+CACMVC010000003.1	166760	167839	+	AG-892-E08_00772	AG-892-E08	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-892-E08_00767	5
+CACNCV010000002.1	77313	77939	+	AG-892-M06_00585	AG-892-M06	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-892-M06_00590	-5
+CACNCV010000002.1	77976	78812	+	AG-892-M06_00586	AG-892-M06	278	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-892-M06_00590	-4
+CACNCV010000002.1	78809	79324	-	AG-892-M06_00587	AG-892-M06	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-892-M06_00590	-3
+CACNCV010000002.1	79321	79920	-	AG-892-M06_00588	AG-892-M06	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-892-M06_00590	-2
+CACNCV010000002.1	80055	80858	+	AG-892-M06_00589	AG-892-M06	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-892-M06_00590	-1
+CACNCV010000002.1	80911	81870	+	AG-892-M06_00590	AG-892-M06	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-892-M06_00590	0
+CACNCV010000002.1	81947	82801	+	AG-892-M06_00591	AG-892-M06	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-892-M06_00590	1
+CACNCV010000002.1	82798	84207	+	AG-892-M06_00592	AG-892-M06	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-892-M06_00590	2
+CACNCV010000002.1	84262	84699	+	AG-892-M06_00593	AG-892-M06	145	OG0001618	NA	NA	NA	NA	NA	AG-892-M06_00590	3
+CACNCV010000002.1	84700	85044	-	AG-892-M06_00594	AG-892-M06	114	OG0002379	NA	NA	NA	NA	NA	AG-892-M06_00590	4
+CACNCV010000002.1	85177	86391	+	AG-892-M06_00595	AG-892-M06	404	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-892-M06_00590	5
+CACNRC010000005.1	60286	61365	-	AG-893-L07_01118	AG-893-L07	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-893-L07_01123	-5
+CACNRC010000005.1	61367	61921	-	AG-893-L07_01119	AG-893-L07	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-893-L07_01123	-4
+CACNRC010000005.1	61925	62368	-	AG-893-L07_01120	AG-893-L07	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-893-L07_01123	-3
+CACNRC010000005.1	62435	63145	+	AG-893-L07_01121	AG-893-L07	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-893-L07_01123	-2
+CACNRC010000005.1	63253	64077	+	AG-893-L07_01122	AG-893-L07	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-893-L07_01123	-1
+CACNRC010000005.1	64144	65094	+	AG-893-L07_01123	AG-893-L07	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-893-L07_01123	0
+CACNRC010000005.1	65160	66014	+	AG-893-L07_01124	AG-893-L07	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-893-L07_01123	1
+CACNRC010000005.1	66011	67411	+	AG-893-L07_01125	AG-893-L07	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-893-L07_01123	2
+CACNRC010000005.1	67479	67907	-	AG-893-L07_01126	AG-893-L07	142	OG0001618	NA	NA	NA	NA	NA	AG-893-L07_01123	3
+CACNRC010000005.1	67962	69134	+	AG-893-L07_01127	AG-893-L07	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-893-L07_01123	4
+CACNRC010000005.1	69127	69681	-	AG-893-L07_01128	AG-893-L07	184	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-893-L07_01123	5
+CACNSH010000002.1	76	702	+	AG-893-M03_00337	AG-893-M03	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-893-M03_00342	-5
+CACNSH010000002.1	739	1575	+	AG-893-M03_00338	AG-893-M03	278	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-893-M03_00342	-4
+CACNSH010000002.1	1572	2087	-	AG-893-M03_00339	AG-893-M03	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-893-M03_00342	-3
+CACNSH010000002.1	2084	2683	-	AG-893-M03_00340	AG-893-M03	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-893-M03_00342	-2
+CACNSH010000002.1	2818	3621	+	AG-893-M03_00341	AG-893-M03	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-893-M03_00342	-1
+CACNSH010000002.1	3674	4633	+	AG-893-M03_00342	AG-893-M03	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-893-M03_00342	0
+CACNSH010000002.1	4710	5564	+	AG-893-M03_00343	AG-893-M03	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-893-M03_00342	1
+CACNSH010000002.1	5561	6970	+	AG-893-M03_00344	AG-893-M03	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-893-M03_00342	2
+CACNSH010000002.1	7025	7462	+	AG-893-M03_00345	AG-893-M03	145	OG0001618	NA	NA	NA	NA	NA	AG-893-M03_00342	3
+CACNSH010000002.1	7463	7786	-	AG-893-M03_00346	AG-893-M03	107	OG0002379	NA	NA	NA	NA	NA	AG-893-M03_00342	4
+CACNSH010000002.1	7940	9154	+	AG-893-M03_00347	AG-893-M03	404	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-893-M03_00342	5
+CABYDZ010000008.1	33236	33862	+	AG-894-A11_01007	AG-894-A11	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-894-A11_01012	-5
+CABYDZ010000008.1	33899	34735	+	AG-894-A11_01008	AG-894-A11	278	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-894-A11_01012	-4
+CABYDZ010000008.1	34732	35247	-	AG-894-A11_01009	AG-894-A11	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-894-A11_01012	-3
+CABYDZ010000008.1	35244	35843	-	AG-894-A11_01010	AG-894-A11	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-894-A11_01012	-2
+CABYDZ010000008.1	35977	36780	+	AG-894-A11_01011	AG-894-A11	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-894-A11_01012	-1
+CABYDZ010000008.1	36833	37792	+	AG-894-A11_01012	AG-894-A11	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-894-A11_01012	0
+CABYDZ010000008.1	37869	38723	+	AG-894-A11_01013	AG-894-A11	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-894-A11_01012	1
+CABYDZ010000008.1	38720	40129	+	AG-894-A11_01014	AG-894-A11	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-894-A11_01012	2
+CABYDZ010000008.1	40182	40619	+	AG-894-A11_01015	AG-894-A11	145	OG0001618	NA	NA	NA	NA	NA	AG-894-A11_01012	3
+CABYDZ010000008.1	40620	40964	-	AG-894-A11_01016	AG-894-A11	114	OG0002379	NA	NA	NA	NA	NA	AG-894-A11_01012	4
+CABYDZ010000008.1	41097	41804	+	AG-894-A11_01017	AG-894-A11	235	OG0000107	NA	NA	NA	NA	NA	AG-894-A11_01012	5
+CABYGC010000005.1	38133	39212	-	AG-894-C14_01196	AG-894-C14	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-894-C14_01201	-5
+CABYGC010000005.1	39214	39768	-	AG-894-C14_01197	AG-894-C14	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-894-C14_01201	-4
+CABYGC010000005.1	39772	40215	-	AG-894-C14_01198	AG-894-C14	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-894-C14_01201	-3
+CABYGC010000005.1	40282	40992	+	AG-894-C14_01199	AG-894-C14	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-894-C14_01201	-2
+CABYGC010000005.1	41112	41936	+	AG-894-C14_01200	AG-894-C14	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-894-C14_01201	-1
+CABYGC010000005.1	42003	42953	+	AG-894-C14_01201	AG-894-C14	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-894-C14_01201	0
+CABYGC010000005.1	43020	43874	+	AG-894-C14_01202	AG-894-C14	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-894-C14_01201	1
+CABYGC010000005.1	43871	45271	+	AG-894-C14_01203	AG-894-C14	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-894-C14_01201	2
+CABYGC010000005.1	45291	45713	-	AG-894-C14_01204	AG-894-C14	140	OG0001618	NA	NA	NA	NA	NA	AG-894-C14_01201	3
+CABYGC010000005.1	45768	46940	+	AG-894-C14_01205	AG-894-C14	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-894-C14_01201	4
+CABYGC010000005.1	46933	47484	-	AG-894-C14_01206	AG-894-C14	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-894-C14_01201	5
+CABYOT010000001.1	65519	66073	+	AG-894-L17_00070	AG-894-L17	184	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-894-L17_00075	-5
+CABYOT010000001.1	66066	67238	-	AG-894-L17_00071	AG-894-L17	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-894-L17_00075	-4
+CABYOT010000001.1	67293	67721	+	AG-894-L17_00072	AG-894-L17	142	OG0001618	NA	NA	NA	NA	NA	AG-894-L17_00075	-3
+CABYOT010000001.1	67789	69189	-	AG-894-L17_00073	AG-894-L17	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-894-L17_00075	-2
+CABYOT010000001.1	69186	70040	-	AG-894-L17_00074	AG-894-L17	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-894-L17_00075	-1
+CABYOT010000001.1	70106	71056	-	AG-894-L17_00075	AG-894-L17	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-894-L17_00075	0
+CABYOT010000001.1	71117	71941	-	AG-894-L17_00076	AG-894-L17	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-894-L17_00075	1
+CABYOT010000001.1	72048	72758	-	AG-894-L17_00077	AG-894-L17	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-894-L17_00075	2
+CABYOT010000001.1	72825	73268	+	AG-894-L17_00078	AG-894-L17	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-894-L17_00075	3
+CABYOT010000001.1	73272	73826	+	AG-894-L17_00079	AG-894-L17	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-894-L17_00075	4
+CABYOT010000001.1	73828	74907	+	AG-894-L17_00080	AG-894-L17	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-894-L17_00075	5
+CABYZG010000003.1	21438	22064	+	AG-895-F07_00668	AG-895-F07	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-895-F07_00673	-5
+CABYZG010000003.1	22101	22937	+	AG-895-F07_00669	AG-895-F07	278	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-895-F07_00673	-4
+CABYZG010000003.1	22934	23449	-	AG-895-F07_00670	AG-895-F07	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-895-F07_00673	-3
+CABYZG010000003.1	23446	24045	-	AG-895-F07_00671	AG-895-F07	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-895-F07_00673	-2
+CABYZG010000003.1	24180	24983	+	AG-895-F07_00672	AG-895-F07	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-895-F07_00673	-1
+CABYZG010000003.1	25036	25995	+	AG-895-F07_00673	AG-895-F07	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-895-F07_00673	0
+CABYZG010000003.1	26072	26926	+	AG-895-F07_00674	AG-895-F07	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-895-F07_00673	1
+CABYZG010000003.1	26923	28332	+	AG-895-F07_00675	AG-895-F07	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-895-F07_00673	2
+CABYZG010000003.1	28386	28823	+	AG-895-F07_00676	AG-895-F07	145	OG0001618	NA	NA	NA	NA	NA	AG-895-F07_00673	3
+CABYZG010000003.1	28824	29168	-	AG-895-F07_00677	AG-895-F07	114	OG0002379	NA	NA	NA	NA	NA	AG-895-F07_00673	4
+CABYZG010000003.1	29301	30512	+	AG-895-F07_00678	AG-895-F07	403	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-895-F07_00673	5
+CACALX010000002.1	68634	69713	-	AG-898-C07_00275	AG-898-C07	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-898-C07_00280	-5
+CACALX010000002.1	69715	70269	-	AG-898-C07_00276	AG-898-C07	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-898-C07_00280	-4
+CACALX010000002.1	70273	70716	-	AG-898-C07_00277	AG-898-C07	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-898-C07_00280	-3
+CACALX010000002.1	70783	71493	+	AG-898-C07_00278	AG-898-C07	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-898-C07_00280	-2
+CACALX010000002.1	71601	72425	+	AG-898-C07_00279	AG-898-C07	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-898-C07_00280	-1
+CACALX010000002.1	72486	73436	+	AG-898-C07_00280	AG-898-C07	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-898-C07_00280	0
+CACALX010000002.1	73499	74353	+	AG-898-C07_00281	AG-898-C07	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-898-C07_00280	1
+CACALX010000002.1	74350	75750	+	AG-898-C07_00282	AG-898-C07	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-898-C07_00280	2
+CACALX010000002.1	75821	76243	-	AG-898-C07_00283	AG-898-C07	140	OG0001618	NA	NA	NA	NA	NA	AG-898-C07_00280	3
+CACALX010000002.1	76298	77470	+	AG-898-C07_00284	AG-898-C07	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-898-C07_00280	4
+CACALX010000002.1	77463	78014	-	AG-898-C07_00285	AG-898-C07	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-898-C07_00280	5
+CACBCM010000020.1	719	1270	+	AG-899-D19_01237	AG-899-D19	183	NA	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-899-D19_01242	-5
+CACBCM010000020.1	1263	2435	-	AG-899-D19_01238	AG-899-D19	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-899-D19_01242	-4
+CACBCM010000020.1	2490	2918	+	AG-899-D19_01239	AG-899-D19	142	OG0001618	NA	NA	NA	NA	NA	AG-899-D19_01242	-3
+CACBCM010000020.1	2986	4386	-	AG-899-D19_01240	AG-899-D19	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-899-D19_01242	-2
+CACBCM010000020.1	4383	5237	-	AG-899-D19_01241	AG-899-D19	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-899-D19_01242	-1
+CACBCM010000020.1	5302	6252	-	AG-899-D19_01242	AG-899-D19	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-899-D19_01242	0
+CACBCM010000020.1	6313	7137	-	AG-899-D19_01243	AG-899-D19	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-899-D19_01242	1
+CACBCM010000020.1	7245	7448	-	AG-899-D19_01244	AG-899-D19	67	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-899-D19_01242	2
+CACBNI010000002.1	72978	73529	+	AG-899-N21_00245	AG-899-N21	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-899-N21_00250	-5
+CACBNI010000002.1	73522	74694	-	AG-899-N21_00246	AG-899-N21	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-899-N21_00250	-4
+CACBNI010000002.1	74749	75171	+	AG-899-N21_00247	AG-899-N21	140	OG0001618	NA	NA	NA	NA	NA	AG-899-N21_00250	-3
+CACBNI010000002.1	75191	76591	-	AG-899-N21_00248	AG-899-N21	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-899-N21_00250	-2
+CACBNI010000002.1	76588	77442	-	AG-899-N21_00249	AG-899-N21	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-899-N21_00250	-1
+CACBNI010000002.1	77509	78459	-	AG-899-N21_00250	AG-899-N21	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-899-N21_00250	0
+CACBNI010000002.1	78526	79350	-	AG-899-N21_00251	AG-899-N21	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-899-N21_00250	1
+CACBNI010000002.1	79470	80180	-	AG-899-N21_00252	AG-899-N21	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-899-N21_00250	2
+CACBNI010000002.1	80247	80690	+	AG-899-N21_00253	AG-899-N21	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-899-N21_00250	3
+CACBNI010000002.1	80694	81248	+	AG-899-N21_00254	AG-899-N21	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-899-N21_00250	4
+CACBNI010000002.1	81250	82329	+	AG-899-N21_00255	AG-899-N21	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-899-N21_00250	5
+CACBNI010000006.1	48439	48783	-	AG-899-N21_00761	AG-899-N21	114	OG0000624	K01724	4a-hydroxytetrahydrobiopterin dehydratase [EC:4.2.1.96]	COG2154	PhhB	Pterin-4a-carbinolamine dehydratase	AG-899-N21_00767	-5
+CACBNI010000006.1	49199	49309	-	AG-899-N21_00763	AG-899-N21	36	OG0001317	NA	NA	NA	NA	NA	AG-899-N21_00767	-4
+CACBNI010000006.1	49276	49941	-	AG-899-N21_00764	AG-899-N21	221	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-899-N21_00767	-3
+CACBNI010000006.1	49968	50801	-	AG-899-N21_00765	AG-899-N21	277	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-899-N21_00767	-2
+CACBNI010000006.1	50819	51586	-	AG-899-N21_00766	AG-899-N21	255	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-899-N21_00767	-1
+CACBNI010000006.1	51643	52521	-	AG-899-N21_00767	AG-899-N21	292	OG0001527	NA	NA	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-899-N21_00767	0
+CACBNI010000006.1	52878	53522	+	AG-899-N21_00768	AG-899-N21	214	OG0000642	K07157	uncharacterized protein	COG2802	LON/PUA	Uncharacterized conserved protein, LON_N-like domain, ASCH/PUA-like superfamily	AG-899-N21_00767	1
+CACBNI010000006.1	53524	54591	-	AG-899-N21_00769	AG-899-N21	355	OG0000545	NA	NA	COG0654	UbiH	2-polyprenyl-6-methoxyphenol hydroxylase and related FAD-dependent oxidoreductases	AG-899-N21_00767	2
+CACBNI010000006.1	54652	56736	+	AG-899-N21_00770	AG-899-N21	694	OG0000327	K03466	DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family	COG1674	FtsK	DNA segregation ATPase FtsK/SpoIIIE or related protein	AG-899-N21_00767	3
+CACBNI010000006.1	56736	57284	+	AG-899-N21_00771	AG-899-N21	182	OG0000497	NA	NA	COG2834	LolA	Periplasmic chaperone for outer membrane lipoprotein sorting	AG-899-N21_00767	4
+CACBNI010000006.1	57281	57784	-	AG-899-N21_00772	AG-899-N21	167	OG0000799	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	AG-899-N21_00767	5
+CACBNN010000003.1	124592	125803	-	AG-899-O02_00452	AG-899-O02	403	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-899-O02_00457	-5
+CACBNN010000003.1	125936	126280	+	AG-899-O02_00453	AG-899-O02	114	OG0002379	NA	NA	NA	NA	NA	AG-899-O02_00457	-4
+CACBNN010000003.1	126281	126718	-	AG-899-O02_00454	AG-899-O02	145	OG0001618	NA	NA	NA	NA	NA	AG-899-O02_00457	-3
+CACBNN010000003.1	126772	128181	-	AG-899-O02_00455	AG-899-O02	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-899-O02_00457	-2
+CACBNN010000003.1	128178	129032	-	AG-899-O02_00456	AG-899-O02	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-899-O02_00457	-1
+CACBNN010000003.1	129109	130068	-	AG-899-O02_00457	AG-899-O02	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-899-O02_00457	0
+CACBNN010000003.1	130121	130924	-	AG-899-O02_00458	AG-899-O02	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-899-O02_00457	1
+CACBNN010000003.1	131058	131657	+	AG-899-O02_00459	AG-899-O02	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-899-O02_00457	2
+CACBNN010000003.1	131654	132169	+	AG-899-O02_00460	AG-899-O02	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-899-O02_00457	3
+CACBNN010000003.1	132166	133002	-	AG-899-O02_00461	AG-899-O02	278	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-899-O02_00457	4
+CACBNN010000003.1	133039	133665	-	AG-899-O02_00462	AG-899-O02	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-899-O02_00457	5
+CACCAS010000004.1	102963	103589	+	AG-900-K14_00983	AG-900-K14	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-900-K14_00988	-5
+CACCAS010000004.1	103626	104462	+	AG-900-K14_00984	AG-900-K14	278	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-900-K14_00988	-4
+CACCAS010000004.1	104459	104974	-	AG-900-K14_00985	AG-900-K14	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-900-K14_00988	-3
+CACCAS010000004.1	104971	105570	-	AG-900-K14_00986	AG-900-K14	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-900-K14_00988	-2
+CACCAS010000004.1	105705	106508	+	AG-900-K14_00987	AG-900-K14	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-900-K14_00988	-1
+CACCAS010000004.1	106562	107521	+	AG-900-K14_00988	AG-900-K14	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-900-K14_00988	0
+CACCAS010000004.1	107598	108452	+	AG-900-K14_00989	AG-900-K14	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-900-K14_00988	1
+CACCAS010000004.1	108449	109858	+	AG-900-K14_00990	AG-900-K14	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-900-K14_00988	2
+CACCAS010000004.1	109912	110349	+	AG-900-K14_00991	AG-900-K14	145	OG0001618	NA	NA	NA	NA	NA	AG-900-K14_00988	3
+CACCAS010000004.1	110350	110694	-	AG-900-K14_00992	AG-900-K14	114	OG0002379	NA	NA	NA	NA	NA	AG-900-K14_00988	4
+CACCAS010000004.1	110827	112038	+	AG-900-K14_00993	AG-900-K14	403	OG0000107	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	AG-900-K14_00988	5
+CACCCN010000005.1	45449	46660	-	AG-900-M14_00870	AG-900-M14	403	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-900-M14_00875	-5
+CACCCN010000005.1	46792	47136	+	AG-900-M14_00871	AG-900-M14	114	OG0002379	NA	NA	NA	NA	NA	AG-900-M14_00875	-4
+CACCCN010000005.1	47137	47574	-	AG-900-M14_00872	AG-900-M14	145	OG0001618	NA	NA	NA	NA	NA	AG-900-M14_00875	-3
+CACCCN010000005.1	47626	49035	-	AG-900-M14_00873	AG-900-M14	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-900-M14_00875	-2
+CACCCN010000005.1	49032	49886	-	AG-900-M14_00874	AG-900-M14	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-900-M14_00875	-1
+CACCCN010000005.1	49963	50922	-	AG-900-M14_00875	AG-900-M14	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-900-M14_00875	0
+CACCCN010000005.1	50984	51787	-	AG-900-M14_00876	AG-900-M14	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-900-M14_00875	1
+CACCCN010000005.1	51921	52520	+	AG-900-M14_00877	AG-900-M14	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-900-M14_00875	2
+CACCCN010000005.1	52716	53333	-	AG-900-M14_00878	AG-900-M14	205	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-900-M14_00875	3
+CACCCN010000005.1	53327	54004	-	AG-900-M14_00879	AG-900-M14	225	OG0000007	NA	NA	COG0300	YqjQ	Short-chain dehydrogenase	AG-900-M14_00875	4
+CACCCN010000005.1	54041	54400	+	AG-900-M14_00880	AG-900-M14	119	OG0000953	NA	NA	COG5652	VanZ	VanZ-like family protein, affects binding of lipoglycopeptide antibiotics to the cell wall	AG-900-M14_00875	5
+CACCND010000012.1	11769	12395	+	AG-901-G03_01166	AG-901-G03	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-901-G03_01171	-5
+CACCND010000012.1	12432	13268	+	AG-901-G03_01167	AG-901-G03	278	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-901-G03_01171	-4
+CACCND010000012.1	13265	13780	-	AG-901-G03_01168	AG-901-G03	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-901-G03_01171	-3
+CACCND010000012.1	13777	14376	-	AG-901-G03_01169	AG-901-G03	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-901-G03_01171	-2
+CACCND010000012.1	14511	15314	+	AG-901-G03_01170	AG-901-G03	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-901-G03_01171	-1
+CACCND010000012.1	15367	16326	+	AG-901-G03_01171	AG-901-G03	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-901-G03_01171	0
+CACCND010000012.1	16403	17257	+	AG-901-G03_01172	AG-901-G03	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-901-G03_01171	1
+CACCND010000012.1	17254	18663	+	AG-901-G03_01173	AG-901-G03	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-901-G03_01171	2
+CACCND010000012.1	18717	19154	+	AG-901-G03_01174	AG-901-G03	145	OG0001618	NA	NA	NA	NA	NA	AG-901-G03_01171	3
+CACCND010000012.1	19155	19499	-	AG-901-G03_01175	AG-901-G03	114	OG0002379	NA	NA	NA	NA	NA	AG-901-G03_01171	4
+CACCND010000012.1	19632	20843	+	AG-901-G03_01176	AG-901-G03	403	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-901-G03_01171	5
+CACDGO010000009.1	11470	12645	-	AG-903-M21_00982	AG-903-M21	391	OG0000501	K00333	NADH-quinone oxidoreductase subunit D [EC:7.1.1.2]	COG0649	NuoD	NADH:ubiquinone oxidoreductase 49 kD subunit (chain D)	AG-903-M21_00989	-5
+CACDGO010000009.1	12629	13243	-	AG-903-M21_00983	AG-903-M21	204	OG0000664	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	AG-903-M21_00989	-4
+CACDGO010000009.1	13247	13783	-	AG-903-M21_00984	AG-903-M21	178	OG0000700	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	AG-903-M21_00989	-3
+CACDGO010000009.1	13774	14142	-	AG-903-M21_00985	AG-903-M21	122	OG0000730	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	AG-903-M21_00989	-2
+CACDGO010000009.1	14550	14834	-	AG-903-M21_00988	AG-903-M21	94	OG0001421	NA	NA	COG2510	RibN	Riboflavin transporter RibN, EamA domain	AG-903-M21_00989	-1
+CACDGO010000009.1	14803	15246	-	AG-903-M21_00989	AG-903-M21	147	OG0001527	NA	NA	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-903-M21_00989	0
+CACDGO010000009.1	15260	15790	+	AG-903-M21_00990	AG-903-M21	176	OG0000130	NA	NA	NA	NA	NA	AG-903-M21_00989	1
+CACDQH010000001.1	307910	308989	-	AG-904-F17_00361	AG-904-F17	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-904-F17_00366	-5
+CACDQH010000001.1	308991	309545	-	AG-904-F17_00362	AG-904-F17	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-904-F17_00366	-4
+CACDQH010000001.1	309549	309992	-	AG-904-F17_00363	AG-904-F17	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-904-F17_00366	-3
+CACDQH010000001.1	310059	310769	+	AG-904-F17_00364	AG-904-F17	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-904-F17_00366	-2
+CACDQH010000001.1	310889	311713	+	AG-904-F17_00365	AG-904-F17	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-904-F17_00366	-1
+CACDQH010000001.1	311780	312730	+	AG-904-F17_00366	AG-904-F17	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-904-F17_00366	0
+CACDQH010000001.1	312797	313651	+	AG-904-F17_00367	AG-904-F17	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-904-F17_00366	1
+CACDQH010000001.1	313648	315048	+	AG-904-F17_00368	AG-904-F17	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-904-F17_00366	2
+CACDQH010000001.1	315068	315490	-	AG-904-F17_00369	AG-904-F17	140	OG0001618	NA	NA	NA	NA	NA	AG-904-F17_00366	3
+CACDQH010000001.1	315545	316717	+	AG-904-F17_00370	AG-904-F17	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-904-F17_00366	4
+CACDQH010000001.1	316710	317261	-	AG-904-F17_00371	AG-904-F17	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-904-F17_00366	5
+CACDQH010000002.1	57829	59139	-	AG-904-F17_00470	AG-904-F17	436	OG0001502	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	AG-904-F17_00476	-5
+CACDQH010000002.1	59598	59708	-	AG-904-F17_00472	AG-904-F17	36	OG0001317	NA	NA	NA	NA	NA	AG-904-F17_00476	-4
+CACDQH010000002.1	59675	60367	-	AG-904-F17_00473	AG-904-F17	230	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-904-F17_00476	-3
+CACDQH010000002.1	60367	61200	-	AG-904-F17_00474	AG-904-F17	277	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-904-F17_00476	-2
+CACDQH010000002.1	61218	61985	-	AG-904-F17_00475	AG-904-F17	255	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-904-F17_00476	-1
+CACDQH010000002.1	62042	62920	-	AG-904-F17_00476	AG-904-F17	292	OG0001527	NA	NA	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-904-F17_00476	0
+CACDQH010000002.1	63294	63710	+	AG-904-F17_00477	AG-904-F17	138	OG0001730	NA	NA	COG0346	GloA	Glyoxalase, catechol 2,3-dioxygenase or related enzyme, vicinal oxygen chelate (VOC) family	AG-904-F17_00476	1
+CACDQH010000002.1	63790	64644	-	AG-904-F17_00478	AG-904-F17	284	OG0000077	NA	NA	NA	NA	NA	AG-904-F17_00476	2
+CACDQH010000002.1	64694	65335	+	AG-904-F17_00479	AG-904-F17	213	OG0000642	K07157	uncharacterized protein	COG2802	LON/PUA	Uncharacterized conserved protein, LON_N-like domain, ASCH/PUA-like superfamily	AG-904-F17_00476	3
+CACDQH010000002.1	65336	66412	-	AG-904-F17_00480	AG-904-F17	358	OG0000545	NA	NA	COG0654	UbiH	2-polyprenyl-6-methoxyphenol hydroxylase and related FAD-dependent oxidoreductases	AG-904-F17_00476	4
+CACDQH010000002.1	66473	68557	+	AG-904-F17_00481	AG-904-F17	694	OG0000327	K03466	DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family	COG1674	FtsK	DNA segregation ATPase FtsK/SpoIIIE or related protein	AG-904-F17_00476	5
+CACEDC010000004.1	20804	21430	+	AG-905-D16_00797	AG-905-D16	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-905-D16_00802	-5
+CACEDC010000004.1	21467	22303	+	AG-905-D16_00798	AG-905-D16	278	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-905-D16_00802	-4
+CACEDC010000004.1	22300	22815	-	AG-905-D16_00799	AG-905-D16	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-905-D16_00802	-3
+CACEDC010000004.1	22812	23411	-	AG-905-D16_00800	AG-905-D16	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-905-D16_00802	-2
+CACEDC010000004.1	23545	24348	+	AG-905-D16_00801	AG-905-D16	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-905-D16_00802	-1
+CACEDC010000004.1	24401	25360	+	AG-905-D16_00802	AG-905-D16	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-905-D16_00802	0
+CACEDC010000004.1	25437	26291	+	AG-905-D16_00803	AG-905-D16	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-905-D16_00802	1
+CACEDC010000004.1	26288	27697	+	AG-905-D16_00804	AG-905-D16	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-905-D16_00802	2
+CACEDC010000004.1	27751	28188	+	AG-905-D16_00805	AG-905-D16	145	OG0001618	NA	NA	NA	NA	NA	AG-905-D16_00802	3
+CACEDC010000004.1	28189	28533	-	AG-905-D16_00806	AG-905-D16	114	OG0002379	NA	NA	NA	NA	NA	AG-905-D16_00802	4
+CACEDC010000004.1	28666	29877	+	AG-905-D16_00807	AG-905-D16	403	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-905-D16_00802	5
+CACEDU010000014.1	8127	9206	-	AG-905-E11_01270	AG-905-E11	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-905-E11_01275	-5
+CACEDU010000014.1	9208	9762	-	AG-905-E11_01271	AG-905-E11	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-905-E11_01275	-4
+CACEDU010000014.1	9766	10209	-	AG-905-E11_01272	AG-905-E11	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-905-E11_01275	-3
+CACEDU010000014.1	10276	10986	+	AG-905-E11_01273	AG-905-E11	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-905-E11_01275	-2
+CACEDU010000014.1	11094	11918	+	AG-905-E11_01274	AG-905-E11	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-905-E11_01275	-1
+CACEDU010000014.1	11979	12929	+	AG-905-E11_01275	AG-905-E11	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-905-E11_01275	0
+CACEDU010000014.1	12994	13848	+	AG-905-E11_01276	AG-905-E11	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-905-E11_01275	1
+CACEDU010000014.1	13845	15245	+	AG-905-E11_01277	AG-905-E11	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-905-E11_01275	2
+CACEDU010000014.1	15313	15741	-	AG-905-E11_01278	AG-905-E11	142	OG0001618	NA	NA	NA	NA	NA	AG-905-E11_01275	3
+CACEDU010000014.1	15796	16968	+	AG-905-E11_01279	AG-905-E11	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-905-E11_01275	4
+CACEDU010000014.1	16961	17512	-	AG-905-E11_01280	AG-905-E11	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-905-E11_01275	5
+CACFLJ010000001.1	51163	52803	+	AG-908-F18_00060	AG-908-F18	546	OG0001078	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	AG-908-F18_00065	-5
+CACFLJ010000001.1	52850	53587	-	AG-908-F18_00061	AG-908-F18	245	OG0001468	NA	NA	COG3176	Alr0228	GNAT family N-acetyltransferase domain	AG-908-F18_00065	-4
+CACFLJ010000001.1	53587	54414	-	AG-908-F18_00062	AG-908-F18	275	OG0001555	K22310	L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	COG3176	Alr0228	GNAT family N-acetyltransferase domain	AG-908-F18_00065	-3
+CACFLJ010000001.1	54575	54907	+	AG-908-F18_00063	AG-908-F18	110	OG0001844	NA	NA	NA	NA	NA	AG-908-F18_00065	-2
+CACFLJ010000001.1	55052	55486	+	AG-908-F18_00064	AG-908-F18	144	OG0001407	K03975	membrane-associated protein	COG1238	YgaA	Membrane protein YqaA involved in indium extrusion, DedA family, contains VTT domain	AG-908-F18_00065	-1
+CACFLJ010000001.1	55624	56502	+	AG-908-F18_00065	AG-908-F18	292	OG0001527	NA	NA	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-908-F18_00065	0
+CACFLJ010000001.1	56560	57327	+	AG-908-F18_00066	AG-908-F18	255	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-908-F18_00065	1
+CACFLJ010000001.1	57582	58178	+	AG-908-F18_00067	AG-908-F18	198	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-908-F18_00065	2
+CACFLJ010000001.1	58205	58870	+	AG-908-F18_00068	AG-908-F18	221	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-908-F18_00065	3
+CACFLJ010000001.1	59031	59297	-	AG-908-F18_00069	AG-908-F18	88	OG0001076	NA	NA	COG4642	NA	Uncharacterized conserved protein, contains MORN repeats	AG-908-F18_00065	4
+CACFLJ010000001.1	59404	59607	-	AG-908-F18_00070	AG-908-F18	67	OG0001780	NA	NA	NA	NA	NA	AG-908-F18_00065	5
+CACFLJ010000010.1	29150	30229	-	AG-908-F18_01011	AG-908-F18	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-908-F18_01016	-5
+CACFLJ010000010.1	30231	30785	-	AG-908-F18_01012	AG-908-F18	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-908-F18_01016	-4
+CACFLJ010000010.1	30789	31232	-	AG-908-F18_01013	AG-908-F18	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-908-F18_01016	-3
+CACFLJ010000010.1	31299	32009	+	AG-908-F18_01014	AG-908-F18	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-908-F18_01016	-2
+CACFLJ010000010.1	32128	32952	+	AG-908-F18_01015	AG-908-F18	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-908-F18_01016	-1
+CACFLJ010000010.1	33019	33969	+	AG-908-F18_01016	AG-908-F18	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-908-F18_01016	0
+CACFLJ010000010.1	34036	34890	+	AG-908-F18_01017	AG-908-F18	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-908-F18_01016	1
+CACFLJ010000010.1	34887	36287	+	AG-908-F18_01018	AG-908-F18	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-908-F18_01016	2
+CACFLJ010000010.1	36354	36782	-	AG-908-F18_01019	AG-908-F18	142	OG0001618	NA	NA	NA	NA	NA	AG-908-F18_01016	3
+CACFLJ010000010.1	36837	38009	+	AG-908-F18_01020	AG-908-F18	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-908-F18_01016	4
+CACFLJ010000010.1	38002	38553	-	AG-908-F18_01021	AG-908-F18	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-908-F18_01016	5
+CACGAG010000002.1	29689	30315	+	AG-909-G09_00217	AG-909-G09	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-909-G09_00222	-5
+CACGAG010000002.1	30361	31188	+	AG-909-G09_00218	AG-909-G09	275	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-909-G09_00222	-4
+CACGAG010000002.1	31185	31700	-	AG-909-G09_00219	AG-909-G09	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-909-G09_00222	-3
+CACGAG010000002.1	31697	32296	-	AG-909-G09_00220	AG-909-G09	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-909-G09_00222	-2
+CACGAG010000002.1	32431	33234	+	AG-909-G09_00221	AG-909-G09	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-909-G09_00222	-1
+CACGAG010000002.1	33287	34246	+	AG-909-G09_00222	AG-909-G09	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-909-G09_00222	0
+CACGAG010000002.1	34323	35177	+	AG-909-G09_00223	AG-909-G09	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-909-G09_00222	1
+CACGAG010000002.1	35174	36583	+	AG-909-G09_00224	AG-909-G09	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-909-G09_00222	2
+CACGAG010000002.1	36637	37074	+	AG-909-G09_00225	AG-909-G09	145	OG0001618	NA	NA	NA	NA	NA	AG-909-G09_00222	3
+CACGAG010000002.1	37075	37419	-	AG-909-G09_00226	AG-909-G09	114	OG0002379	NA	NA	NA	NA	NA	AG-909-G09_00222	4
+CACGAG010000002.1	37552	38766	+	AG-909-G09_00227	AG-909-G09	404	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-909-G09_00222	5
+CACIEE010000004.1	68838	69389	+	AG-913-A04_00735	AG-913-A04	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-913-A04_00740	-5
+CACIEE010000004.1	69382	70554	-	AG-913-A04_00736	AG-913-A04	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-913-A04_00740	-4
+CACIEE010000004.1	70609	71031	+	AG-913-A04_00737	AG-913-A04	140	OG0001618	NA	NA	NA	NA	NA	AG-913-A04_00740	-3
+CACIEE010000004.1	71051	72451	-	AG-913-A04_00738	AG-913-A04	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-913-A04_00740	-2
+CACIEE010000004.1	72448	73302	-	AG-913-A04_00739	AG-913-A04	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-913-A04_00740	-1
+CACIEE010000004.1	73369	74319	-	AG-913-A04_00740	AG-913-A04	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-913-A04_00740	0
+CACIEE010000004.1	74386	75210	-	AG-913-A04_00741	AG-913-A04	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-913-A04_00740	1
+CACIEE010000004.1	75330	76040	-	AG-913-A04_00742	AG-913-A04	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-913-A04_00740	2
+CACIEE010000004.1	76107	76550	+	AG-913-A04_00743	AG-913-A04	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-913-A04_00740	3
+CACIEE010000004.1	76554	77108	+	AG-913-A04_00744	AG-913-A04	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-913-A04_00740	4
+CACIEE010000004.1	77110	78189	+	AG-913-A04_00745	AG-913-A04	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-913-A04_00740	5
+CACIEM010000002.1	96632	97711	-	AG-913-C03_00427	AG-913-C03	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-913-C03_00432	-5
+CACIEM010000002.1	97713	98267	-	AG-913-C03_00428	AG-913-C03	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-913-C03_00432	-4
+CACIEM010000002.1	98271	98714	-	AG-913-C03_00429	AG-913-C03	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-913-C03_00432	-3
+CACIEM010000002.1	98781	99491	+	AG-913-C03_00430	AG-913-C03	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-913-C03_00432	-2
+CACIEM010000002.1	99611	100435	+	AG-913-C03_00431	AG-913-C03	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-913-C03_00432	-1
+CACIEM010000002.1	100502	101452	+	AG-913-C03_00432	AG-913-C03	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-913-C03_00432	0
+CACIEM010000002.1	101519	102373	+	AG-913-C03_00433	AG-913-C03	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-913-C03_00432	1
+CACIEM010000002.1	102370	103770	+	AG-913-C03_00434	AG-913-C03	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-913-C03_00432	2
+CACIEM010000002.1	103790	104212	-	AG-913-C03_00435	AG-913-C03	140	OG0001618	NA	NA	NA	NA	NA	AG-913-C03_00432	3
+CACIEM010000002.1	104267	105439	+	AG-913-C03_00436	AG-913-C03	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-913-C03_00432	4
+CACIEM010000002.1	105432	105983	-	AG-913-C03_00437	AG-913-C03	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-913-C03_00432	5
+CACJFQ010000006.1	53020	53571	+	AG-914-P23_00893	AG-914-P23	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-914-P23_00898	-5
+CACJFQ010000006.1	53564	54736	-	AG-914-P23_00894	AG-914-P23	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-914-P23_00898	-4
+CACJFQ010000006.1	54791	55213	+	AG-914-P23_00895	AG-914-P23	140	OG0001618	NA	NA	NA	NA	NA	AG-914-P23_00898	-3
+CACJFQ010000006.1	55233	56633	-	AG-914-P23_00896	AG-914-P23	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-914-P23_00898	-2
+CACJFQ010000006.1	56630	57484	-	AG-914-P23_00897	AG-914-P23	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-914-P23_00898	-1
+CACJFQ010000006.1	57551	58501	-	AG-914-P23_00898	AG-914-P23	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-914-P23_00898	0
+CACJFQ010000006.1	58568	59392	-	AG-914-P23_00899	AG-914-P23	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-914-P23_00898	1
+CACJFQ010000006.1	59512	60222	-	AG-914-P23_00900	AG-914-P23	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-914-P23_00898	2
+CACJFQ010000006.1	60289	60732	+	AG-914-P23_00901	AG-914-P23	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-914-P23_00898	3
+CACJFQ010000006.1	60736	61290	+	AG-914-P23_00902	AG-914-P23	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-914-P23_00898	4
+CACJFQ010000006.1	61292	62371	+	AG-914-P23_00903	AG-914-P23	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-914-P23_00898	5
+CACJMX010000001.1	205763	207847	-	AG-915-K13_00229	AG-915-K13	694	OG0000327	K03466	DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family	COG1674	FtsK	DNA segregation ATPase FtsK/SpoIIIE or related protein	AG-915-K13_00234	-5
+CACJMX010000001.1	207908	208984	+	AG-915-K13_00230	AG-915-K13	358	OG0000545	NA	NA	COG0654	UbiH	2-polyprenyl-6-methoxyphenol hydroxylase and related FAD-dependent oxidoreductases	AG-915-K13_00234	-4
+CACJMX010000001.1	208985	209626	-	AG-915-K13_00231	AG-915-K13	213	OG0000642	K07157	uncharacterized protein	COG2802	LON/PUA	Uncharacterized conserved protein, LON_N-like domain, ASCH/PUA-like superfamily	AG-915-K13_00234	-3
+CACJMX010000001.1	209676	210524	+	AG-915-K13_00232	AG-915-K13	282	OG0000077	NA	NA	NA	NA	NA	AG-915-K13_00234	-2
+CACJMX010000001.1	210611	211027	-	AG-915-K13_00233	AG-915-K13	138	OG0001730	NA	NA	COG2514	CatE	Catechol-2,3-dioxygenase	AG-915-K13_00234	-1
+CACJMX010000001.1	211401	212279	+	AG-915-K13_00234	AG-915-K13	292	OG0001527	NA	NA	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-915-K13_00234	0
+CACJMX010000001.1	212336	213103	+	AG-915-K13_00235	AG-915-K13	255	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-915-K13_00234	1
+CACJMX010000001.1	213121	213954	+	AG-915-K13_00236	AG-915-K13	277	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-915-K13_00234	2
+CACJMX010000001.1	213954	214646	+	AG-915-K13_00237	AG-915-K13	230	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-915-K13_00234	3
+CACJMX010000001.1	214613	214723	+	AG-915-K13_00238	AG-915-K13	36	OG0001317	NA	NA	NA	NA	NA	AG-915-K13_00234	4
+CACJMX010000001.1	215182	216492	+	AG-915-K13_00240	AG-915-K13	436	OG0001502	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	AG-915-K13_00234	5
+CACPQM010000008.1	38842	39396	+	AG-916-B15_00944	AG-916-B15	184	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-916-B15_00949	-5
+CACPQM010000008.1	39389	40561	-	AG-916-B15_00945	AG-916-B15	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-916-B15_00949	-4
+CACPQM010000008.1	40616	41044	+	AG-916-B15_00946	AG-916-B15	142	OG0001618	NA	NA	NA	NA	NA	AG-916-B15_00949	-3
+CACPQM010000008.1	41112	42512	-	AG-916-B15_00947	AG-916-B15	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-916-B15_00949	-2
+CACPQM010000008.1	42509	43363	-	AG-916-B15_00948	AG-916-B15	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-916-B15_00949	-1
+CACPQM010000008.1	43429	44379	-	AG-916-B15_00949	AG-916-B15	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-916-B15_00949	0
+CACPQM010000008.1	44446	45270	-	AG-916-B15_00950	AG-916-B15	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-916-B15_00949	1
+CACPQM010000008.1	45378	46088	-	AG-916-B15_00951	AG-916-B15	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-916-B15_00949	2
+CACPQM010000008.1	46155	46598	+	AG-916-B15_00952	AG-916-B15	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-916-B15_00949	3
+CACPQM010000008.1	46602	47156	+	AG-916-B15_00953	AG-916-B15	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-916-B15_00949	4
+CACPQM010000008.1	47158	48237	+	AG-916-B15_00954	AG-916-B15	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-916-B15_00949	5
+CACKFZ010000001.1	14704	15783	-	AG-916-M15_00021	AG-916-M15	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-916-M15_00026	-5
+CACKFZ010000001.1	15785	16339	-	AG-916-M15_00022	AG-916-M15	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-916-M15_00026	-4
+CACKFZ010000001.1	16343	16786	-	AG-916-M15_00023	AG-916-M15	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-916-M15_00026	-3
+CACKFZ010000001.1	16853	17563	+	AG-916-M15_00024	AG-916-M15	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-916-M15_00026	-2
+CACKFZ010000001.1	17683	18507	+	AG-916-M15_00025	AG-916-M15	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-916-M15_00026	-1
+CACKFZ010000001.1	18575	19525	+	AG-916-M15_00026	AG-916-M15	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-916-M15_00026	0
+CACKFZ010000001.1	19592	20446	+	AG-916-M15_00027	AG-916-M15	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-916-M15_00026	1
+CACKFZ010000001.1	20443	21843	+	AG-916-M15_00028	AG-916-M15	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-916-M15_00026	2
+CACKFZ010000001.1	21863	22285	-	AG-916-M15_00029	AG-916-M15	140	OG0001618	NA	NA	NA	NA	NA	AG-916-M15_00026	3
+CACKFZ010000001.1	22340	23011	+	AG-916-M15_00030	AG-916-M15	223	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-916-M15_00026	4
+CACKFZ010000001.1	22992	23513	+	AG-916-M15_00031	AG-916-M15	173	OG0000107	NA	NA	COG2271	UhpC	Sugar phosphate permease	AG-916-M15_00026	5
+CACKGK010000014.1	9642	10196	+	AG-916-O20_01096	AG-916-O20	184	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-916-O20_01101	-5
+CACKGK010000014.1	10189	11361	-	AG-916-O20_01097	AG-916-O20	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-916-O20_01101	-4
+CACKGK010000014.1	11416	11844	+	AG-916-O20_01098	AG-916-O20	142	OG0001618	NA	NA	NA	NA	NA	AG-916-O20_01101	-3
+CACKGK010000014.1	11912	13312	-	AG-916-O20_01099	AG-916-O20	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-916-O20_01101	-2
+CACKGK010000014.1	13309	14163	-	AG-916-O20_01100	AG-916-O20	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-916-O20_01101	-1
+CACKGK010000014.1	14229	15179	-	AG-916-O20_01101	AG-916-O20	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-916-O20_01101	0
+CACKGK010000014.1	15240	16064	-	AG-916-O20_01102	AG-916-O20	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-916-O20_01101	1
+CACKGK010000014.1	16172	16882	-	AG-916-O20_01103	AG-916-O20	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-916-O20_01101	2
+CACKGK010000014.1	16949	17392	+	AG-916-O20_01104	AG-916-O20	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-916-O20_01101	3
+CACKGK010000014.1	17396	17950	+	AG-916-O20_01105	AG-916-O20	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-916-O20_01101	4
+CACKGK010000014.1	17952	19031	+	AG-916-O20_01106	AG-916-O20	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-916-O20_01101	5
+CACKKI010000003.1	1596	2675	-	AG-917-C08_00458	AG-917-C08	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-917-C08_00463	-5
+CACKKI010000003.1	2677	3231	-	AG-917-C08_00459	AG-917-C08	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-917-C08_00463	-4
+CACKKI010000003.1	3235	3678	-	AG-917-C08_00460	AG-917-C08	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-917-C08_00463	-3
+CACKKI010000003.1	3745	4455	+	AG-917-C08_00461	AG-917-C08	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-917-C08_00463	-2
+CACKKI010000003.1	4575	5399	+	AG-917-C08_00462	AG-917-C08	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-917-C08_00463	-1
+CACKKI010000003.1	5466	6416	+	AG-917-C08_00463	AG-917-C08	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-917-C08_00463	0
+CACKKI010000003.1	6482	7336	+	AG-917-C08_00464	AG-917-C08	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-917-C08_00463	1
+CACKKI010000003.1	7333	8733	+	AG-917-C08_00465	AG-917-C08	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-917-C08_00463	2
+CACKKI010000003.1	8753	9175	-	AG-917-C08_00466	AG-917-C08	140	OG0001618	NA	NA	NA	NA	NA	AG-917-C08_00463	3
+CACKKI010000003.1	9230	10402	+	AG-917-C08_00467	AG-917-C08	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-917-C08_00463	4
+CACKKI010000003.1	10395	10946	-	AG-917-C08_00468	AG-917-C08	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-917-C08_00463	5
+CACKKP010000019.1	24	446	+	AG-917-C11_01097	AG-917-C11	140	OG0001618	NA	NA	NA	NA	NA	AG-917-C11_01100	-3
+CACKKP010000019.1	466	1866	-	AG-917-C11_01098	AG-917-C11	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-917-C11_01100	-2
+CACKKP010000019.1	1863	2717	-	AG-917-C11_01099	AG-917-C11	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-917-C11_01100	-1
+CACKKP010000019.1	2784	3734	-	AG-917-C11_01100	AG-917-C11	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-917-C11_01100	0
+CACKKP010000019.1	3801	4625	-	AG-917-C11_01101	AG-917-C11	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-917-C11_01100	1
+CACKKP010000019.1	4745	5455	-	AG-917-C11_01102	AG-917-C11	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-917-C11_01100	2
+CACKKP010000019.1	5522	5965	+	AG-917-C11_01103	AG-917-C11	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-917-C11_01100	3
+CACKKP010000019.1	5969	6523	+	AG-917-C11_01104	AG-917-C11	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-917-C11_01100	4
+CACKKP010000019.1	6525	7604	+	AG-917-C11_01105	AG-917-C11	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-917-C11_01100	5
+CACKMS010000007.1	21909	22988	-	AG-917-E05_00780	AG-917-E05	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-917-E05_00785	-5
+CACKMS010000007.1	22990	23544	-	AG-917-E05_00781	AG-917-E05	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-917-E05_00785	-4
+CACKMS010000007.1	23548	23991	-	AG-917-E05_00782	AG-917-E05	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-917-E05_00785	-3
+CACKMS010000007.1	24058	24768	+	AG-917-E05_00783	AG-917-E05	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-917-E05_00785	-2
+CACKMS010000007.1	24876	25700	+	AG-917-E05_00784	AG-917-E05	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-917-E05_00785	-1
+CACKMS010000007.1	25761	26711	+	AG-917-E05_00785	AG-917-E05	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-917-E05_00785	0
+CACKMS010000007.1	26776	27630	+	AG-917-E05_00786	AG-917-E05	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-917-E05_00785	1
+CACKMS010000007.1	27627	29027	+	AG-917-E05_00787	AG-917-E05	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-917-E05_00785	2
+CACKMS010000007.1	29095	29523	-	AG-917-E05_00788	AG-917-E05	142	OG0001618	NA	NA	NA	NA	NA	AG-917-E05_00785	3
+CACKMS010000007.1	29578	30750	+	AG-917-E05_00789	AG-917-E05	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-917-E05_00785	4
+CACKMS010000007.1	30743	31294	-	AG-917-E05_00790	AG-917-E05	183	NA	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-917-E05_00785	5
+CACLVR010000002.1	24583	25662	-	AG-917-M22_00291	AG-917-M22	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-917-M22_00296	-5
+CACLVR010000002.1	25664	26218	-	AG-917-M22_00292	AG-917-M22	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-917-M22_00296	-4
+CACLVR010000002.1	26222	26665	-	AG-917-M22_00293	AG-917-M22	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-917-M22_00296	-3
+CACLVR010000002.1	26732	27442	+	AG-917-M22_00294	AG-917-M22	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-917-M22_00296	-2
+CACLVR010000002.1	27562	28386	+	AG-917-M22_00295	AG-917-M22	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-917-M22_00296	-1
+CACLVR010000002.1	28453	29403	+	AG-917-M22_00296	AG-917-M22	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-917-M22_00296	0
+CACLVR010000002.1	29470	30138	+	AG-917-M22_00297	AG-917-M22	222	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-917-M22_00296	1
+CACLVR010000002.1	30322	31722	+	AG-917-M22_00298	AG-917-M22	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-917-M22_00296	2
+CACLVR010000002.1	31742	32164	-	AG-917-M22_00299	AG-917-M22	140	OG0001618	NA	NA	NA	NA	NA	AG-917-M22_00296	3
+CACLVR010000002.1	32219	33391	+	AG-917-M22_00300	AG-917-M22	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-917-M22_00296	4
+CACLVR010000002.1	33384	33935	-	AG-917-M22_00301	AG-917-M22	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-917-M22_00296	5
+CACPFM010000001.1	192951	194030	-	AG-917-P07_00231	AG-917-P07	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-917-P07_00236	-5
+CACPFM010000001.1	194032	194586	-	AG-917-P07_00232	AG-917-P07	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-917-P07_00236	-4
+CACPFM010000001.1	194590	195033	-	AG-917-P07_00233	AG-917-P07	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-917-P07_00236	-3
+CACPFM010000001.1	195100	195810	+	AG-917-P07_00234	AG-917-P07	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-917-P07_00236	-2
+CACPFM010000001.1	195930	196754	+	AG-917-P07_00235	AG-917-P07	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-917-P07_00236	-1
+CACPFM010000001.1	196821	197771	+	AG-917-P07_00236	AG-917-P07	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-917-P07_00236	0
+CACPFM010000001.1	197838	198692	+	AG-917-P07_00237	AG-917-P07	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-917-P07_00236	1
+CACPFM010000001.1	198689	200089	+	AG-917-P07_00238	AG-917-P07	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-917-P07_00236	2
+CACPFM010000001.1	200109	200531	-	AG-917-P07_00239	AG-917-P07	140	OG0001618	NA	NA	NA	NA	NA	AG-917-P07_00236	3
+CACPFM010000001.1	200586	201758	+	AG-917-P07_00240	AG-917-P07	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-917-P07_00236	4
+CACPFM010000001.1	201751	202185	-	AG-917-P07_00241	AG-917-P07	144	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-917-P07_00236	5
+CACMFM010000007.1	7111	7662	+	AG-918-K09_01090	AG-918-K09	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-918-K09_01095	-5
+CACMFM010000007.1	7655	8827	-	AG-918-K09_01091	AG-918-K09	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-918-K09_01095	-4
+CACMFM010000007.1	8882	9304	+	AG-918-K09_01092	AG-918-K09	140	OG0001618	NA	NA	NA	NA	NA	AG-918-K09_01095	-3
+CACMFM010000007.1	9324	10724	-	AG-918-K09_01093	AG-918-K09	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-918-K09_01095	-2
+CACMFM010000007.1	10721	11575	-	AG-918-K09_01094	AG-918-K09	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-918-K09_01095	-1
+CACMFM010000007.1	11641	12591	-	AG-918-K09_01095	AG-918-K09	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-918-K09_01095	0
+CACMFM010000007.1	12658	13482	-	AG-918-K09_01096	AG-918-K09	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-918-K09_01095	1
+CACMFM010000007.1	13602	14312	-	AG-918-K09_01097	AG-918-K09	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-918-K09_01095	2
+CACMFM010000007.1	14379	14822	+	AG-918-K09_01098	AG-918-K09	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-918-K09_01095	3
+CACMFM010000007.1	14826	15380	+	AG-918-K09_01099	AG-918-K09	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-918-K09_01095	4
+CACMFM010000007.1	15382	16461	+	AG-918-K09_01100	AG-918-K09	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-918-K09_01095	5
+CACMGQ010000009.1	41902	42453	+	AG-918-L07_01196	AG-918-L07	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-918-L07_01201	-5
+CACMGQ010000009.1	42446	43618	-	AG-918-L07_01197	AG-918-L07	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-918-L07_01201	-4
+CACMGQ010000009.1	43673	44095	+	AG-918-L07_01198	AG-918-L07	140	OG0001618	NA	NA	NA	NA	NA	AG-918-L07_01201	-3
+CACMGQ010000009.1	44115	45515	-	AG-918-L07_01199	AG-918-L07	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-918-L07_01201	-2
+CACMGQ010000009.1	45512	46366	-	AG-918-L07_01200	AG-918-L07	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-918-L07_01201	-1
+CACMGQ010000009.1	46433	47383	-	AG-918-L07_01201	AG-918-L07	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-918-L07_01201	0
+CACMGQ010000009.1	47450	48274	-	AG-918-L07_01202	AG-918-L07	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-918-L07_01201	1
+CACMGQ010000009.1	48394	49104	-	AG-918-L07_01203	AG-918-L07	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-918-L07_01201	2
+CACMGQ010000009.1	49171	49614	+	AG-918-L07_01204	AG-918-L07	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-918-L07_01201	3
+CACMGQ010000009.1	49618	50172	+	AG-918-L07_01205	AG-918-L07	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-918-L07_01201	4
+CACMGQ010000009.1	50174	51253	+	AG-918-L07_01206	AG-918-L07	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-918-L07_01201	5
+CACMHD010000020.1	291	428	+	AG-918-L21_01100	AG-918-L21	45	OG0001618	NA	NA	NA	NA	NA	AG-918-L21_01104	-4
+CACMHD010000020.1	460	714	+	AG-918-L21_01101	AG-918-L21	84	NA	NA	NA	NA	NA	NA	AG-918-L21_01104	-3
+CACMHD010000020.1	734	2134	-	AG-918-L21_01102	AG-918-L21	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-918-L21_01104	-2
+CACMHD010000020.1	2131	2985	-	AG-918-L21_01103	AG-918-L21	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-918-L21_01104	-1
+CACMHD010000020.1	3051	4001	-	AG-918-L21_01104	AG-918-L21	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-918-L21_01104	0
+CACMHD010000020.1	4068	4892	-	AG-918-L21_01105	AG-918-L21	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-918-L21_01104	1
+CACMHD010000020.1	5012	5722	-	AG-918-L21_01106	AG-918-L21	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-918-L21_01104	2
+CACMHD010000020.1	5790	6233	+	AG-918-L21_01107	AG-918-L21	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-918-L21_01104	3
+CACMHD010000020.1	6237	6791	+	AG-918-L21_01108	AG-918-L21	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-918-L21_01104	4
+CACMHD010000020.1	6793	7872	+	AG-918-L21_01109	AG-918-L21	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-918-L21_01104	5
+CACMWW010000001.1	38	475	-	AG-919-N17_00001	AG-919-N17	145	OG0001618	NA	NA	NA	NA	NA	AG-919-N17_00004	-3
+CACMWW010000001.1	529	1938	-	AG-919-N17_00002	AG-919-N17	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-919-N17_00004	-2
+CACMWW010000001.1	1935	2789	-	AG-919-N17_00003	AG-919-N17	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-919-N17_00004	-1
+CACMWW010000001.1	2866	3825	-	AG-919-N17_00004	AG-919-N17	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-919-N17_00004	0
+CACMWW010000001.1	3878	4681	-	AG-919-N17_00005	AG-919-N17	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-919-N17_00004	1
+CACMWW010000001.1	4816	5415	+	AG-919-N17_00006	AG-919-N17	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-919-N17_00004	2
+CACMWW010000001.1	5412	5927	+	AG-919-N17_00007	AG-919-N17	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-919-N17_00004	3
+CACMWW010000001.1	5924	6760	-	AG-919-N17_00008	AG-919-N17	278	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-919-N17_00004	4
+CACMWW010000001.1	6797	7423	-	AG-919-N17_00009	AG-919-N17	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-919-N17_00004	5
+CACMYK010000003.1	85441	86067	+	AG-919-P09_00599	AG-919-P09	208	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-919-P09_00604	-5
+CACMYK010000003.1	86104	86940	+	AG-919-P09_00600	AG-919-P09	278	OG0001594	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	COG0637	YcjU	Beta-phosphoglucomutase, HAD superfamily	AG-919-P09_00604	-4
+CACMYK010000003.1	86937	87452	-	AG-919-P09_00601	AG-919-P09	171	OG0002285	NA	NA	COG2453	CDC14	Protein-tyrosine phosphatase	AG-919-P09_00604	-3
+CACMYK010000003.1	87449	88048	-	AG-919-P09_00602	AG-919-P09	199	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-919-P09_00604	-2
+CACMYK010000003.1	88183	88986	+	AG-919-P09_00603	AG-919-P09	267	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-919-P09_00604	-1
+CACMYK010000003.1	89039	89998	+	AG-919-P09_00604	AG-919-P09	319	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-919-P09_00604	0
+CACMYK010000003.1	90075	90929	+	AG-919-P09_00605	AG-919-P09	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-919-P09_00604	1
+CACMYK010000003.1	90926	92335	+	AG-919-P09_00606	AG-919-P09	469	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AG-919-P09_00604	2
+CACMYK010000003.1	92428	92826	+	AG-919-P09_00607	AG-919-P09	132	OG0001618	NA	NA	NA	NA	NA	AG-919-P09_00604	3
+CACMYK010000003.1	92827	93171	-	AG-919-P09_00608	AG-919-P09	114	OG0002379	NA	NA	NA	NA	NA	AG-919-P09_00604	4
+CACMYK010000003.1	93304	94515	+	AG-919-P09_00609	AG-919-P09	403	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-919-P09_00604	5
+CACNGH010000013.1	22859	23938	-	AG-920-J04_01128	AG-920-J04	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	AG-920-J04_01133	-5
+CACNGH010000013.1	23940	24494	-	AG-920-J04_01129	AG-920-J04	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	AG-920-J04_01133	-4
+CACNGH010000013.1	24498	24941	-	AG-920-J04_01130	AG-920-J04	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	AG-920-J04_01133	-3
+CACNGH010000013.1	25008	25718	+	AG-920-J04_01131	AG-920-J04	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	AG-920-J04_01133	-2
+CACNGH010000013.1	25838	26662	+	AG-920-J04_01132	AG-920-J04	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AG-920-J04_01133	-1
+CACNGH010000013.1	26729	27679	+	AG-920-J04_01133	AG-920-J04	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AG-920-J04_01133	0
+CACNWC010000012.1	7935	8306	+	AH-287-E08_00870	AH-287-E08	123	OG0000900	NA	NA	COG1396	HipB	Transcriptional regulator, contains XRE-family HTH domain	AH-287-E08_00877	-5
+CACNWC010000012.1	8633	11260	+	AH-287-E08_00873	AH-287-E08	875	OG0000887	K01873	valyl-tRNA synthetase [EC:6.1.1.9]	COG0525	ValS	Valyl-tRNA synthetase	AH-287-E08_00877	-4
+CACNWC010000012.1	11260	12978	+	AH-287-E08_00874	AH-287-E08	572	OG0000063	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	AH-287-E08_00877	-3
+CACNWC010000012.1	12978	14177	+	AH-287-E08_00875	AH-287-E08	399	OG0000840	K00971	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0836	CpsB	Mannose-1-phosphate guanylyltransferase	AH-287-E08_00877	-2
+CACNWC010000012.1	14190	15314	+	AH-287-E08_00876	AH-287-E08	374	OG0001562	K01009	L-glutamine-phosphate cytidylyltransferase [EC:2.7.7.103]	COG1213	NA	Choline kinase	AH-287-E08_00877	-1
+CACNWC010000012.1	15400	16254	+	AH-287-E08_00877	AH-287-E08	284	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AH-287-E08_00877	0
+CACNWC010000012.1	16259	16981	+	AH-287-E08_00878	AH-287-E08	240	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AH-287-E08_00877	1
+CACNWC010000012.1	16985	17812	+	AH-287-E08_00879	AH-287-E08	275	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AH-287-E08_00877	2
+CACNWC010000012.1	17822	18160	+	AH-287-E08_00880	AH-287-E08	112	OG0000042	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	AH-287-E08_00877	3
+CACNWC010000012.1	18211	19176	-	AH-287-E08_00881	AH-287-E08	321	OG0001433	NA	NA	NA	NA	NA	AH-287-E08_00877	4
+CACNWC010000012.1	19342	19563	-	AH-287-E08_00882	AH-287-E08	73	OG0000357	NA	NA	NA	NA	NA	AH-287-E08_00877	5
+CACNWV010000002.1	31983	32996	-	AH-287-E19_00168	AH-287-E19	337	OG0002961	NA	NA	COG0306	PitA	Phosphate/sulfate permease	AH-287-E19_00173	-5
+CACNWV010000002.1	32999	33634	-	AH-287-E19_00169	AH-287-E19	211	OG0002962	K07220	uncharacterized protein	COG1392	YkaA	Phosphate transport regulator YkaA, distantly related to PhoU, UPF0111/DUF47 family	AH-287-E19_00173	-4
+CACNWV010000002.1	33634	34431	-	AH-287-E19_00170	AH-287-E19	265	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AH-287-E19_00173	-3
+CACNWV010000002.1	34433	35245	-	AH-287-E19_00171	AH-287-E19	270	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	AH-287-E19_00173	-2
+CACNWV010000002.1	35251	36009	-	AH-287-E19_00172	AH-287-E19	252	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	AH-287-E19_00173	-1
+CACNWV010000002.1	36076	36981	-	AH-287-E19_00173	AH-287-E19	301	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	AH-287-E19_00173	0
+CACNWV010000002.1	37091	37624	+	AH-287-E19_00174	AH-287-E19	177	OG0000130	NA	NA	NA	NA	NA	AH-287-E19_00173	1
+CACNWV010000002.1	37614	40184	-	AH-287-E19_00175	AH-287-E19	856	OG0001319	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AH-287-E19_00173	2
+CACNWV010000002.1	40220	41101	+	AH-287-E19_00176	AH-287-E19	293	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AH-287-E19_00173	3
+CACNWV010000002.1	41111	43495	-	AH-287-E19_00177	AH-287-E19	794	OG0000595	K01338	ATP-dependent Lon protease [EC:3.4.21.53]	COG0466	Lon	ATP-dependent Lon protease, bacterial type	AH-287-E19_00173	4
+CACNWV010000002.1	43544	44797	-	AH-287-E19_00178	AH-287-E19	417	OG0000516	K03544	ATP-dependent Clp protease ATP-binding subunit ClpX	COG1219	ClpX	ATP-dependent protease Clp, ATPase subunit ClpX	AH-287-E19_00173	5
+NYVZ01000004.1	160125	160790	+	CPC289_00564	CPC289	221	OG0001600	K24131	protease PrsW [EC:3.4.-.-]	COG2339	PrsW	Membrane proteinase PrsW, cleaves anti-sigma factor RsiW, M82 family	CPC289_00569	-5
+NYVZ01000004.1	160791	161201	-	CPC289_00565	CPC289	136	NA	NA	NA	NA	NA	NA	CPC289_00569	-4
+NYVZ01000004.1	161329	161427	-	CPC289_00566	CPC289	32	NA	NA	NA	NA	NA	NA	CPC289_00569	-3
+NYVZ01000004.1	161563	162537	+	CPC289_00567	CPC289	324	OG0001433	NA	NA	NA	NA	NA	CPC289_00569	-2
+NYVZ01000004.1	162539	163300	-	CPC289_00568	CPC289	253	OG0000908	K06167	phosphoribosyl 1,2-cyclic phosphate phosphodiesterase [EC:3.1.4.55]	COG1235	PhnP	Phosphoribosyl 1,2-cyclic phosphate phosphodiesterase	CPC289_00569	-1
+NYVZ01000004.1	163430	164335	+	CPC289_00569	CPC289	301	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	CPC289_00569	0
+NYVZ01000004.1	164413	165171	+	CPC289_00570	CPC289	252	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	CPC289_00569	1
+NYVZ01000004.1	165181	165993	+	CPC289_00571	CPC289	270	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	CPC289_00569	2
+NYVZ01000004.1	165995	166792	+	CPC289_00572	CPC289	265	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	CPC289_00569	3
+NYVZ01000004.1	166792	167427	+	CPC289_00573	CPC289	211	OG0002962	K07220	uncharacterized protein	COG1392	YkaA	Phosphate transport regulator YkaA, distantly related to PhoU, UPF0111/DUF47 family	CPC289_00569	4
+NYVZ01000004.1	167431	168441	+	CPC289_00574	CPC289	336	OG0002961	NA	NA	COG0306	PitA	Phosphate/sulfate permease	CPC289_00569	5
+AZAL01000001.1	160340	161497	-	HIMB083_00194	HIMB083	385	OG0001034	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	HIMB083_00199	-5
+AZAL01000001.1	161555	162397	-	HIMB083_00195	HIMB083	280	OG0001421	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB083_00199	-4
+AZAL01000001.1	162412	162750	-	HIMB083_00196	HIMB083	112	OG0000042	NA	NA	COG2076	EmrE	Multidrug transporter EmrE and related cation transporters	HIMB083_00199	-3
+AZAL01000001.1	162760	163587	-	HIMB083_00197	HIMB083	275	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	HIMB083_00199	-2
+AZAL01000001.1	163592	164314	-	HIMB083_00198	HIMB083	240	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	HIMB083_00199	-1
+AZAL01000001.1	164332	165186	-	HIMB083_00199	HIMB083	284	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	HIMB083_00199	0
+AZAL01000001.1	165286	166404	-	HIMB083_00200	HIMB083	372	OG0001562	K01009	L-glutamine-phosphate cytidylyltransferase [EC:2.7.7.103]	COG1213	NA	Choline kinase	HIMB083_00199	1
+AZAL01000001.1	166429	167634	-	HIMB083_00201	HIMB083	401	OG0000840	K00971	mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0836	CpsB	Mannose-1-phosphate guanylyltransferase	HIMB083_00199	2
+AZAL01000001.1	167634	169352	-	HIMB083_00202	HIMB083	572	OG0000063	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]	COG0129	IlvD	Dihydroxyacid dehydratase/phosphogluconate dehydratase	HIMB083_00199	3
+AZAL01000001.1	169352	171979	-	HIMB083_00203	HIMB083	875	OG0000887	K01873	valyl-tRNA synthetase [EC:6.1.1.9]	COG0525	ValS	Valyl-tRNA synthetase	HIMB083_00199	4
+AZAL01000001.1	172019	172651	-	HIMB083_00204	HIMB083	210	OG0001875	NA	NA	NA	NA	NA	HIMB083_00199	5
+HIMB109-00000000006	24237	25244	-	HIMB109_00931	HIMB109	335	OG0002961	NA	NA	COG0306	PitA	Phosphate/sulfate permease	HIMB109_00936	-5
+HIMB109-00000000006	25247	25882	-	HIMB109_00932	HIMB109	211	OG0002962	K07220	uncharacterized protein	COG1392	YkaA	Phosphate transport regulator YkaA, distantly related to PhoU, UPF0111/DUF47 family	HIMB109_00936	-4
+HIMB109-00000000006	25882	26685	-	HIMB109_00933	HIMB109	267	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	HIMB109_00936	-3
+HIMB109-00000000006	26689	27501	-	HIMB109_00934	HIMB109	270	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	HIMB109_00936	-2
+HIMB109-00000000006	27504	28277	-	HIMB109_00935	HIMB109	257	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	HIMB109_00936	-1
+HIMB109-00000000006	28329	29234	-	HIMB109_00936	HIMB109	301	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	HIMB109_00936	0
+HIMB109-00000000006	29370	30134	+	HIMB109_00937	HIMB109	254	OG0000908	K06167	phosphoribosyl 1,2-cyclic phosphate phosphodiesterase [EC:3.1.4.55]	COG1235	PhnP	Phosphoribosyl 1,2-cyclic phosphate phosphodiesterase	HIMB109_00936	1
+HIMB109-00000000006	30202	31344	+	HIMB109_00938	HIMB109	380	OG0001034	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	HIMB109_00936	2
+HIMB109-00000000006	31341	32021	-	HIMB109_00939	HIMB109	226	OG0001023	K07657	two-component system, OmpR family, phosphate regulon response regulator PhoB	COG0745	OmpR	DNA-binding response regulator, OmpR family, contains REC and winged-helix (wHTH) domain	HIMB109_00936	3
+HIMB109-00000000006	32025	32687	-	HIMB109_00940	HIMB109	220	OG0001017	K02039	phosphate transport system protein	COG0704	PhoU	Phosphate uptake regulator PhoU	HIMB109_00936	4
+HIMB109-00000000006	32691	33467	-	HIMB109_00941	HIMB109	258	OG0001022	K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]	COG1117	PstB	ABC-type phosphate transport system, ATPase component	HIMB109_00936	5
+ADAC02000001.1	893825	894832	-	HIMB114_00964	HIMB114	335	OG0002961	NA	NA	COG0306	PitA	Phosphate/sulfate permease	HIMB114_00969	-5
+ADAC02000001.1	894835	895470	-	HIMB114_00965	HIMB114	211	OG0002962	K07220	uncharacterized protein	COG1392	YkaA	Phosphate transport regulator YkaA, distantly related to PhoU, UPF0111/DUF47 family	HIMB114_00969	-4
+ADAC02000001.1	895470	896273	-	HIMB114_00966	HIMB114	267	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	HIMB114_00969	-3
+ADAC02000001.1	896277	897089	-	HIMB114_00967	HIMB114	270	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	HIMB114_00969	-2
+ADAC02000001.1	897092	897865	-	HIMB114_00968	HIMB114	257	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	HIMB114_00969	-1
+ADAC02000001.1	897917	898822	-	HIMB114_00969	HIMB114	301	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	HIMB114_00969	0
+ADAC02000001.1	898958	899722	+	HIMB114_00970	HIMB114	254	OG0000908	K06167	phosphoribosyl 1,2-cyclic phosphate phosphodiesterase [EC:3.1.4.55]	COG1235	PhnP	Phosphoribosyl 1,2-cyclic phosphate phosphodiesterase	HIMB114_00969	1
+ADAC02000001.1	899793	900209	+	HIMB114_00971	HIMB114	138	OG0001072	K03741	arsenate reductase (thioredoxin) [EC:1.20.4.4]	COG0394	Wzb	Protein-tyrosine-phosphatase	HIMB114_00969	2
+ADAC02000001.1	900206	900856	+	HIMB114_00972	HIMB114	216	OG0001051	NA	NA	COG0580	GlpF	Glycerol uptake facilitator or related aquaporin (Major Intrinsic protein Family)	HIMB114_00969	3
+ADAC02000001.1	900871	902013	+	HIMB114_00973	HIMB114	380	OG0001034	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	HIMB114_00969	4
+ADAC02000001.1	902010	902690	-	HIMB114_00974	HIMB114	226	OG0001023	K07657	two-component system, OmpR family, phosphate regulon response regulator PhoB	COG0745	OmpR	DNA-binding response regulator, OmpR family, contains REC and winged-helix (wHTH) domain	HIMB114_00969	5
+HIMB1565-00000000001	60271	61278	-	HIMB1565_00058	HIMB1565	335	OG0002961	NA	NA	COG0306	PitA	Phosphate/sulfate permease	HIMB1565_00063	-5
+HIMB1565-00000000001	61281	61916	-	HIMB1565_00059	HIMB1565	211	OG0002962	K07220	uncharacterized protein	COG1392	YkaA	Phosphate transport regulator YkaA, distantly related to PhoU, UPF0111/DUF47 family	HIMB1565_00063	-4
+HIMB1565-00000000001	61916	62719	-	HIMB1565_00060	HIMB1565	267	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	HIMB1565_00063	-3
+HIMB1565-00000000001	62723	63535	-	HIMB1565_00061	HIMB1565	270	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	HIMB1565_00063	-2
+HIMB1565-00000000001	63538	64311	-	HIMB1565_00062	HIMB1565	257	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	HIMB1565_00063	-1
+HIMB1565-00000000001	64363	65268	-	HIMB1565_00063	HIMB1565	301	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	HIMB1565_00063	0
+HIMB1565-00000000001	65404	66168	+	HIMB1565_00064	HIMB1565	254	OG0000908	K06167	phosphoribosyl 1,2-cyclic phosphate phosphodiesterase [EC:3.1.4.55]	COG1235	PhnP	Phosphoribosyl 1,2-cyclic phosphate phosphodiesterase	HIMB1565_00063	1
+HIMB1565-00000000001	66237	67379	+	HIMB1565_00065	HIMB1565	380	OG0001034	NA	NA	COG5002	WalK	Sensor histidine kinase WalK	HIMB1565_00063	2
+HIMB1565-00000000001	67376	68056	-	HIMB1565_00066	HIMB1565	226	OG0001023	K07657	two-component system, OmpR family, phosphate regulon response regulator PhoB	COG0745	OmpR	DNA-binding response regulator, OmpR family, contains REC and winged-helix (wHTH) domain	HIMB1565_00063	3
+HIMB1565-00000000001	68060	68722	-	HIMB1565_00067	HIMB1565	220	OG0001017	K02039	phosphate transport system protein	COG0704	PhoU	Phosphate uptake regulator PhoU	HIMB1565_00063	4
+HIMB1565-00000000001	68726	69502	-	HIMB1565_00068	HIMB1565	258	OG0001022	K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]	COG1117	PstB	ABC-type phosphate transport system, ATPase component	HIMB1565_00063	5
+DS995298.1	974567	975646	-	HTCC7211_01073	HTCC7211	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	HTCC7211_01078	-5
+DS995298.1	975648	976202	-	HTCC7211_01074	HTCC7211	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	HTCC7211_01078	-4
+DS995298.1	976206	976649	-	HTCC7211_01075	HTCC7211	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	HTCC7211_01078	-3
+DS995298.1	976716	977426	+	HTCC7211_01076	HTCC7211	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	HTCC7211_01078	-2
+DS995298.1	977545	978369	+	HTCC7211_01077	HTCC7211	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	HTCC7211_01078	-1
+DS995298.1	978430	979380	+	HTCC7211_01078	HTCC7211	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	HTCC7211_01078	0
+DS995298.1	979443	980297	+	HTCC7211_01079	HTCC7211	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	HTCC7211_01078	1
+DS995298.1	980294	981694	+	HTCC7211_01080	HTCC7211	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	HTCC7211_01078	2
+DS995298.1	981768	982190	-	HTCC7211_01081	HTCC7211	140	OG0001618	NA	NA	NA	NA	NA	HTCC7211_01078	3
+DS995298.1	982245	983417	+	HTCC7211_01082	HTCC7211	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	HTCC7211_01078	4
+DS995298.1	983410	983961	-	HTCC7211_01083	HTCC7211	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HTCC7211_01078	5
+JNIU01000001.1	333003	334082	-	HTCC7217_00385	HTCC7217	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	HTCC7217_00390	-5
+JNIU01000001.1	334084	334638	-	HTCC7217_00386	HTCC7217	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	HTCC7217_00390	-4
+JNIU01000001.1	334642	335085	-	HTCC7217_00387	HTCC7217	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	HTCC7217_00390	-3
+JNIU01000001.1	335152	335862	+	HTCC7217_00388	HTCC7217	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	HTCC7217_00390	-2
+JNIU01000001.1	335981	336805	+	HTCC7217_00389	HTCC7217	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	HTCC7217_00390	-1
+JNIU01000001.1	336866	337816	+	HTCC7217_00390	HTCC7217	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	HTCC7217_00390	0
+JNIU01000001.1	337881	338735	+	HTCC7217_00391	HTCC7217	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	HTCC7217_00390	1
+JNIU01000001.1	338732	340132	+	HTCC7217_00392	HTCC7217	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	HTCC7217_00390	2
+JNIU01000001.1	340205	340627	-	HTCC7217_00393	HTCC7217	140	OG0001618	NA	NA	NA	NA	NA	HTCC7217_00390	3
+JNIU01000001.1	340682	341854	+	HTCC7217_00394	HTCC7217	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	HTCC7217_00390	4
+JNIU01000001.1	341847	342398	-	HTCC7217_00395	HTCC7217	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	HTCC7217_00390	5
+CP002511.1	153553	154542	-	IMCC9063_00182	IMCC9063	329	OG0002961	NA	NA	COG0306	PitA	Phosphate/sulfate permease	IMCC9063_00187	-5
+CP002511.1	154547	155188	-	IMCC9063_00183	IMCC9063	213	OG0002962	K07220	uncharacterized protein	COG1392	YkaA	Phosphate transport regulator YkaA, distantly related to PhoU, UPF0111/DUF47 family	IMCC9063_00187	-4
+CP002511.1	155192	155989	-	IMCC9063_00184	IMCC9063	265	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	IMCC9063_00187	-3
+CP002511.1	155993	156805	-	IMCC9063_00185	IMCC9063	270	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	IMCC9063_00187	-2
+CP002511.1	156805	157560	-	IMCC9063_00186	IMCC9063	251	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	IMCC9063_00187	-1
+CP002511.1	157637	158581	-	IMCC9063_00187	IMCC9063	314	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	IMCC9063_00187	0
+CP002511.1	158765	159427	-	IMCC9063_00188	IMCC9063	220	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	IMCC9063_00187	1
+CP002511.1	159427	160488	-	IMCC9063_00189	IMCC9063	353	OG0000109	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	IMCC9063_00187	2
+CP002511.1	160488	162170	-	IMCC9063_00190	IMCC9063	560	OG0001489	K02011	iron(III) transport system permease protein	COG1178	FbpB	ABC-type Fe3+ transport system, permease component	IMCC9063_00187	3
+CP002511.1	162223	163554	-	IMCC9063_00191	IMCC9063	443	OG0001483	K02012	iron(III) transport system substrate-binding protein	COG1840	AfuA	ABC-type transport systems for B6 and hexose phosphate, periplasmic component	IMCC9063_00187	4
+CP002511.1	163723	163848	+	IMCC9063_00192	IMCC9063	41	OG0000908	NA	NA	COG1235	PhnP	Phosphoribosyl 1,2-cyclic phosphate phosphodiesterase	IMCC9063_00187	5
+JACWDD010000001.1	186397	186939	+	SAG-MED06_00213	SAG-MED06	180	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	SAG-MED06_00218	-5
+JACWDD010000001.1	186932	188104	-	SAG-MED06_00214	SAG-MED06	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	SAG-MED06_00218	-4
+JACWDD010000001.1	188159	188581	+	SAG-MED06_00215	SAG-MED06	140	OG0001618	NA	NA	NA	NA	NA	SAG-MED06_00218	-3
+JACWDD010000001.1	188687	190087	-	SAG-MED06_00216	SAG-MED06	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	SAG-MED06_00218	-2
+JACWDD010000001.1	190084	190938	-	SAG-MED06_00217	SAG-MED06	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	SAG-MED06_00218	-1
+JACWDD010000001.1	191002	191952	-	SAG-MED06_00218	SAG-MED06	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	SAG-MED06_00218	0
+JACWDD010000001.1	192013	192837	-	SAG-MED06_00219	SAG-MED06	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	SAG-MED06_00218	1
+JACWDD010000001.1	192956	193666	-	SAG-MED06_00220	SAG-MED06	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	SAG-MED06_00218	2
+JACWDD010000001.1	193733	194176	+	SAG-MED06_00221	SAG-MED06	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	SAG-MED06_00218	3
+JACWDD010000001.1	194180	194734	+	SAG-MED06_00222	SAG-MED06	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	SAG-MED06_00218	4
+JACWDD010000001.1	194736	195815	+	SAG-MED06_00223	SAG-MED06	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	SAG-MED06_00218	5
+JACWDF010000007.1	740	1294	-	SAG-MED08_01121	SAG-MED08	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	SAG-MED08_01125	-4
+JACWDF010000007.1	1298	1741	-	SAG-MED08_01122	SAG-MED08	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	SAG-MED08_01125	-3
+JACWDF010000007.1	1808	2518	+	SAG-MED08_01123	SAG-MED08	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	SAG-MED08_01125	-2
+JACWDF010000007.1	2638	3462	+	SAG-MED08_01124	SAG-MED08	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	SAG-MED08_01125	-1
+JACWDF010000007.1	3529	4479	+	SAG-MED08_01125	SAG-MED08	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	SAG-MED08_01125	0
+JACWDF010000007.1	4546	5400	+	SAG-MED08_01126	SAG-MED08	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	SAG-MED08_01125	1
+JACWDF010000007.1	5397	5762	+	SAG-MED08_01127	SAG-MED08	121	OG0001351	NA	NA	NA	NA	NA	SAG-MED08_01125	2
+JACWDF010000007.1	5749	6795	+	SAG-MED08_01128	SAG-MED08	348	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	SAG-MED08_01125	3
+JACWDF010000007.1	6815	7237	-	SAG-MED08_01129	SAG-MED08	140	OG0001618	NA	NA	NA	NA	NA	SAG-MED08_01125	4
+JACWDF010000007.1	7292	8464	+	SAG-MED08_01130	SAG-MED08	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	SAG-MED08_01125	5
+JACWDT010000002.1	46953	47504	+	SAG-MED22_00608	SAG-MED22	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	SAG-MED22_00613	-5
+JACWDT010000002.1	47497	48669	-	SAG-MED22_00609	SAG-MED22	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	SAG-MED22_00613	-4
+JACWDT010000002.1	48724	49146	+	SAG-MED22_00610	SAG-MED22	140	OG0001618	NA	NA	NA	NA	NA	SAG-MED22_00613	-3
+JACWDT010000002.1	49166	50566	-	SAG-MED22_00611	SAG-MED22	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	SAG-MED22_00613	-2
+JACWDT010000002.1	50563	51417	-	SAG-MED22_00612	SAG-MED22	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	SAG-MED22_00613	-1
+JACWDT010000002.1	51485	52435	-	SAG-MED22_00613	SAG-MED22	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	SAG-MED22_00613	0
+JACWDT010000002.1	52502	53326	-	SAG-MED22_00614	SAG-MED22	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	SAG-MED22_00613	1
+JACWDT010000002.1	53446	54156	-	SAG-MED22_00615	SAG-MED22	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	SAG-MED22_00613	2
+JACWDT010000002.1	54223	54666	+	SAG-MED22_00616	SAG-MED22	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	SAG-MED22_00613	3
+JACWDT010000002.1	54670	55224	+	SAG-MED22_00617	SAG-MED22	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	SAG-MED22_00613	4
+JACWDT010000002.1	55226	56305	+	SAG-MED22_00618	SAG-MED22	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	SAG-MED22_00613	5
+JACWEQ010000001.1	172441	172992	+	SAG-MED49_00190	SAG-MED49	183	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	SAG-MED49_00195	-5
+JACWEQ010000001.1	172985	174157	-	SAG-MED49_00191	SAG-MED49	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	SAG-MED49_00195	-4
+JACWEQ010000001.1	174212	174634	+	SAG-MED49_00192	SAG-MED49	140	OG0001618	NA	NA	NA	NA	NA	SAG-MED49_00195	-3
+JACWEQ010000001.1	174708	176108	-	SAG-MED49_00193	SAG-MED49	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	SAG-MED49_00195	-2
+JACWEQ010000001.1	176105	176959	-	SAG-MED49_00194	SAG-MED49	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	SAG-MED49_00195	-1
+JACWEQ010000001.1	177022	177972	-	SAG-MED49_00195	SAG-MED49	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	SAG-MED49_00195	0
+JACWEQ010000001.1	178033	178857	-	SAG-MED49_00196	SAG-MED49	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	SAG-MED49_00195	1
+JACWEQ010000001.1	178976	179686	-	SAG-MED49_00197	SAG-MED49	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	SAG-MED49_00195	2
+JACWEQ010000001.1	179753	180196	+	SAG-MED49_00198	SAG-MED49	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	SAG-MED49_00195	3
+JACWEQ010000001.1	180200	180754	+	SAG-MED49_00199	SAG-MED49	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	SAG-MED49_00195	4
+JACWEQ010000001.1	180756	181835	+	SAG-MED49_00200	SAG-MED49	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	SAG-MED49_00195	5
+JACWER010000016.1	8453	8995	+	SAG-MED50_00485	SAG-MED50	180	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	SAG-MED50_00490	-5
+JACWER010000016.1	8988	10160	-	SAG-MED50_00486	SAG-MED50	390	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	SAG-MED50_00490	-4
+JACWER010000016.1	10215	10637	+	SAG-MED50_00487	SAG-MED50	140	OG0001618	NA	NA	NA	NA	NA	SAG-MED50_00490	-3
+JACWER010000016.1	10743	12143	-	SAG-MED50_00488	SAG-MED50	466	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	SAG-MED50_00490	-2
+JACWER010000016.1	12140	12994	-	SAG-MED50_00489	SAG-MED50	284	OG0001351	K02042	phosphonate transport system permease protein	COG3639	PhnE	ABC-type phosphate/phosphonate transport system, permease component	SAG-MED50_00490	-1
+JACWER010000016.1	13058	14008	-	SAG-MED50_00490	SAG-MED50	316	OG0001527	K02044	phosphonate transport system substrate-binding protein	COG3221	PhnD	ABC-type phosphate/phosphonate transport system, periplasmic component	SAG-MED50_00490	0
+JACWER010000016.1	14069	14893	-	SAG-MED50_00491	SAG-MED50	274	OG0000000	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	COG3638	PhnC	ABC-type phosphate/phosphonate transport system, ATPase component	SAG-MED50_00490	1
+JACWER010000016.1	15012	15722	-	SAG-MED50_00492	SAG-MED50	236	OG0001622	NA	NA	COG2188	MngR	DNA-binding transcriptional regulator, GntR family	SAG-MED50_00490	2
+JACWER010000016.1	15789	16232	+	SAG-MED50_00493	SAG-MED50	147	OG0001652	K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	COG3624	PhnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG	SAG-MED50_00490	3
+JACWER010000016.1	16236	16790	+	SAG-MED50_00494	SAG-MED50	184	OG0001653	NA	NA	COG3625	PhnH	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH	SAG-MED50_00490	4
+JACWER010000016.1	16792	17871	+	SAG-MED50_00495	SAG-MED50	359	OG0001645	K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	COG3626	PhnI	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI	SAG-MED50_00490	5

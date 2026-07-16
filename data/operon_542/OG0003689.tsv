@@ -1,0 +1,15 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CACFUR010000017.1	151	1554	+	AG-909-A17_01127	AG-909-A17	467	OG0000973	K03498	trk/ktr system potassium uptake protein	COG0168	TrkG	Trk-type K+ transport system, membrane component	AG-909-A17_01131	-3
+CACFUR010000017.1	1830	2867	+	AG-909-A17_01129	AG-909-A17	345	OG0000767	K09969	general L-amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-909-A17_01131	-2
+CACFUR010000017.1	2930	4081	+	AG-909-A17_01130	AG-909-A17	383	OG0000793	K09970	general L-amino acid transport system permease protein	COG4597	BatB	ABC-type amino acid transport system, permease component	AG-909-A17_01131	-1
+CACFUR010000017.1	4181	4483	-	AG-909-A17_01131	AG-909-A17	100	OG0003689	NA	NA	NA	NA	NA	AG-909-A17_01131	0
+HIMB1492-00000000222	76	813	+	HIMB1492_01323	HIMB1492	245	OG0000793	NA	NA	COG4597	BatB	ABC-type amino acid transport system, permease component	HIMB1492_01324	-1
+HIMB1492-00000000222	738	938	-	HIMB1492_01324	HIMB1492	66	OG0003689	NA	NA	NA	NA	NA	HIMB1492_01324	0
+JACWDK010000023.1	109	846	+	SAG-MED13_00616	SAG-MED13	245	OG0000904	K03499	trk/ktr system potassium uptake protein	COG0569	TrkA	Trk/Ktr K+ transport system regulatory component TrkA/KtrA/KtrC, RCK domain	SAG-MED13_00620	-4
+JACWDK010000023.1	851	1519	+	SAG-MED13_00617	SAG-MED13	222	OG0000973	NA	NA	COG0168	TrkG	Trk-type K+ transport system, membrane component	SAG-MED13_00620	-3
+JACWDK010000023.1	1549	2181	+	SAG-MED13_00618	SAG-MED13	210	OG0000767	K09969	general L-amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	SAG-MED13_00620	-2
+JACWDK010000023.1	2293	3408	+	SAG-MED13_00619	SAG-MED13	371	OG0000793	K09970	general L-amino acid transport system permease protein	COG4597	BatB	ABC-type amino acid transport system, permease component	SAG-MED13_00620	-1
+JACWDK010000023.1	3449	3784	-	SAG-MED13_00620	SAG-MED13	111	OG0003689	NA	NA	NA	NA	NA	SAG-MED13_00620	0
+JACWDK010000023.1	3968	5149	-	SAG-MED13_00621	SAG-MED13	393	OG0000887	K01873	valyl-tRNA synthetase [EC:6.1.1.9]	COG0525	ValS	Valyl-tRNA synthetase	SAG-MED13_00620	1
+JACWDK010000023.1	5471	5842	-	SAG-MED13_00624	SAG-MED13	123	OG0000900	NA	NA	COG1396	HipB	Transcriptional regulator, contains XRE-family HTH domain	SAG-MED13_00620	2
+JACWDK010000023.1	6005	6193	-	SAG-MED13_00625	SAG-MED13	62	OG0000112	NA	NA	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	SAG-MED13_00620	3

@@ -1,0 +1,23 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CP159823.1	662004	662768	+	Uisw_094_00719	Uisw_094	254	OG0000723	K03424	TatD DNase family protein [EC:3.1.21.-]	COG0084	TatD	3'->5' ssDNA/RNA exonuclease TatD	Uisw_094_00725	-5
+CP159823.1	662768	663547	+	Uisw_094_00720	Uisw_094	259	OG0000908	K06167	phosphoribosyl 1,2-cyclic phosphate phosphodiesterase [EC:3.1.4.55]	COG1235	PhnP	Phosphoribosyl 1,2-cyclic phosphate phosphodiesterase	Uisw_094_00725	-4
+CP159823.1	663536	664048	-	Uisw_094_00721	Uisw_094	170	OG0000552	K00432	glutathione peroxidase [EC:1.11.1.9]	COG0386	BtuE	Thioredoxin/glutathione peroxidase BtuE, reduces lipid peroxides	Uisw_094_00725	-3
+CP159823.1	664116	665288	-	Uisw_094_00722	Uisw_094	390	OG0000896	K03313	Na+:H+ antiporter, NhaA family	COG3004	NhaA	Na+/H+ antiporter NhaA	Uisw_094_00725	-2
+CP159823.1	665293	665841	-	Uisw_094_00723	Uisw_094	182	OG0000130	NA	NA	NA	NA	NA	Uisw_094_00725	-1
+CP159823.1	666369	666689	+	Uisw_094_00725	Uisw_094	106	OG0004566	NA	NA	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	Uisw_094_00725	0
+CP159823.1	666731	667384	+	Uisw_094_00726	Uisw_094	217	OG0001959	NA	NA	NA	NA	NA	Uisw_094_00725	1
+CP159823.1	667624	667905	+	Uisw_094_00727	Uisw_094	93	OG0000809	K03937	NADH dehydrogenase (ubiquinone) Fe-S protein 4	NA	NA	NA	Uisw_094_00725	2
+CP159823.1	667905	668897	+	Uisw_094_00728	Uisw_094	330	OG0000639	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	Uisw_094_00725	3
+CP159823.1	668897	669844	+	Uisw_094_00729	Uisw_094	315	OG0000659	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_094_00725	4
+CP159823.1	669841	671535	+	Uisw_094_00730	Uisw_094	564	OG0001377	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_094_00725	5
+CP159822.1	818369	818854	+	Uisw_099_02_00915	Uisw_099_02	161	OG0001237	K09767	cyclic-di-GMP-binding protein	COG1666	YajQ	Cyclic di-GMP-binding protein YajQ, UPF0234 family	Uisw_099_02_00920	-5
+CP159822.1	818969	819676	+	Uisw_099_02_00916	Uisw_099_02	235	OG0001349	NA	NA	COG4942	EnvC	Septal ring factor EnvC, activator of murein hydrolases AmiA and AmiB	Uisw_099_02_00920	-4
+CP159822.1	819712	819906	+	Uisw_099_02_00917	Uisw_099_02	64	OG0001075	NA	NA	COG5559	NA	Uncharacterized conserved protein, DUF2281 domain	Uisw_099_02_00920	-3
+CP159822.1	820022	820747	-	Uisw_099_02_00918	Uisw_099_02	241	OG0003768	NA	NA	NA	NA	NA	Uisw_099_02_00920	-2
+CP159822.1	820843	821580	-	Uisw_099_02_00919	Uisw_099_02	245	NA	NA	NA	COG3780	NA	DNA endonuclease related to intein-encoded endonucleases	Uisw_099_02_00920	-1
+CP159822.1	821619	821951	-	Uisw_099_02_00920	Uisw_099_02	110	OG0004566	NA	NA	NA	NA	NA	Uisw_099_02_00920	0
+CP159822.1	823070	823222	-	Uisw_099_02_00921	Uisw_099_02	50	OG0001900	NA	NA	NA	NA	NA	Uisw_099_02_00920	1
+CP159822.1	823222	824265	-	Uisw_099_02_00922	Uisw_099_02	347	OG0001262	K01620	threonine aldolase [EC:4.1.2.48]	COG2008	GLY1	Threonine aldolase	Uisw_099_02_00920	2
+CP159822.1	824268	825383	-	Uisw_099_02_00923	Uisw_099_02	371	OG0000943	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	Uisw_099_02_00920	3
+CP159822.1	825391	826605	-	Uisw_099_02_00924	Uisw_099_02	404	OG0001015	K08688	creatinase [EC:3.5.3.3]	COG0006	PepP	Xaa-Pro aminopeptidase	Uisw_099_02_00920	4
+CP159822.1	826611	827516	-	Uisw_099_02_00925	Uisw_099_02	301	OG0000934	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_099_02_00920	5

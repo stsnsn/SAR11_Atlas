@@ -91,6 +91,7 @@
                 <script>
                     // Pending SVG download when a re-render is required.
                     let pendingDownload = null;
+                    let currentOperonDownload = null;
 
                     // Helper: show download buttons
                     function showDownloadControls() {
@@ -149,10 +150,22 @@
                         setTimeout(() => URL.revokeObjectURL(url), 1000);
                     }
 
-                    // Attach the SVG download handler.
+                    function downloadTsvFile() {
+                        if (!currentOperonDownload) return;
+                        const a = document.createElement('a');
+                        a.href = currentOperonDownload.path;
+                        a.download = `SAR11GenomeAtlas_${currentOperonDownload.og}_neighborhood.tsv`;
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                    }
+
+                    // Attach download handlers.
                     document.addEventListener('DOMContentLoaded', function() {
                         const svgBtn = document.getElementById('downloadSvgBtn');
                         if (svgBtn) svgBtn.addEventListener('click', function() { downloadSvgFile(); });
+                        const tsvBtn = document.getElementById('downloadTsvBtn');
+                        if (tsvBtn) tsvBtn.addEventListener('click', downloadTsvFile);
                     });
                     
                     // Called after render completes to perform a pending download if any
@@ -171,7 +184,7 @@
                         <div>
                             <p class="atlas-section__kicker">Genome context</p>
                             <h2>Neighborhood comparison</h2>
-                            <p>Adjust scaling, ribbons, row order, labels, and the color legend before exporting the visualization as SVG.</p>
+                            <p>Adjust scaling, ribbons, row order, labels, and the color legend before exporting the visualization as SVG, or download the underlying neighborhood table as TSV.</p>
                         </div>
                     </div>
 
@@ -182,6 +195,26 @@
                                 <input type="text" id="ogInput" placeholder="e.g. OG0000173, rhodopsin, or COG5524" aria-label="OG ID or annotation">
                             </div>
                             <button class="atlas-action-button" type="button" id="loadData">Visualize neighborhood</button>
+                        </div>
+                        <div class="atlas-search-row atlas-operon-filter-row" aria-label="Genome filters">
+                            <div class="atlas-search-field">
+                                <label for="genomeTypeFilter">Genome type</label>
+                                <select id="genomeTypeFilter">
+                                    <option value="isolate" selected>Cultured strain</option>
+                                    <option value="SAG">SAG</option>
+                                    <option value="MAG">MAG</option>
+                                    <option value="all">All genome types</option>
+                                </select>
+                            </div>
+                            <div class="atlas-search-field">
+                                <label for="cladeFilter">Clade</label>
+                                <select id="cladeFilter"><option value="all">All clades</option></select>
+                            </div>
+                            <div class="atlas-search-field">
+                                <label for="subcladeFilter">Subclade</label>
+                                <select id="subcladeFilter"><option value="all">All subclades</option></select>
+                            </div>
+                            <p id="operonFilterStatus" class="atlas-filter-status" aria-live="polite"></p>
                         </div>
                         <div class="atlas-control-panel__options">
                             <div class="atlas-switch-group">
@@ -202,12 +235,13 @@
                                     <span><strong>Show color legend</strong><small>Display the top-20 OG color key at the right.</small></span>
                                 </label>
                                 <label class="atlas-switch" for="pinLabelsLeftToggle">
-                                    <input type="checkbox" id="pinLabelsLeftToggle">
+                                    <input type="checkbox" id="pinLabelsLeftToggle" checked>
                                     <span><strong>Pin labels to left</strong><small>Keep genome and contig names in a fixed left column.</small></span>
                                 </label>
                             </div>
                             <div id="downloadControls" class="atlas-secondary-actions" style="display:none;">
                                 <button id="downloadSvgBtn" class="atlas-secondary-button" type="button">Download SVG</button>
+                                <button id="downloadTsvBtn" class="atlas-secondary-button" type="button">Download TSV</button>
                             </div>
                         </div>
                     </div>
@@ -258,12 +292,106 @@
 
                 <script>
                     let grouped; // グローバルスコープに移動
+                    const operonDataCache = new Map();
+                    let genomeMetadata = new Map();
+
+                    const genomeMetadataPromise = d3.tsv('../data/phylogeny/subclade.txt').then(rows => {
+                        genomeMetadata = new Map(rows.map(row => [row.genome, row]));
+                        refreshOperonTaxonomyFilters();
+                        return genomeMetadata;
+                    }).catch(error => {
+                        console.error('Failed to load genome metadata', error);
+                        return genomeMetadata;
+                    });
+
+                    function loadOperonData(filePath) {
+                        if (!operonDataCache.has(filePath)) {
+                            operonDataCache.set(filePath, d3.tsv(filePath));
+                        }
+                        return operonDataCache.get(filePath);
+                    }
+
+                    function validMetadataValue(value) {
+                        return value && value !== 'NA' ? value : null;
+                    }
+
+                    function replaceFilterOptions(select, values, allLabel) {
+                        const previous = select.value;
+                        select.innerHTML = '';
+                        select.add(new Option(allLabel, 'all'));
+                        values.forEach(value => select.add(new Option(value, value)));
+                        select.value = values.includes(previous) ? previous : 'all';
+                    }
+
+                    function refreshOperonTaxonomyFilters() {
+                        const type = document.getElementById('genomeTypeFilter').value;
+                        const cladeSelect = document.getElementById('cladeFilter');
+                        const subcladeSelect = document.getElementById('subcladeFilter');
+                        const metadataRows = Array.from(genomeMetadata.values()).filter(row =>
+                            row.Clade1 !== 'outgroup' && (type === 'all' || row.type === type)
+                        );
+                        const clades = Array.from(new Set(metadataRows.map(row => validMetadataValue(row.Clade1)).filter(Boolean))).sort();
+                        replaceFilterOptions(cladeSelect, clades, 'All clades');
+
+                        const clade = cladeSelect.value;
+                        const subclades = Array.from(new Set(metadataRows
+                            .filter(row => clade === 'all' || row.Clade1 === clade)
+                            .map(row => validMetadataValue(row.Subclade))
+                            .filter(Boolean))).sort();
+                        replaceFilterOptions(subcladeSelect, subclades, 'All subclades');
+                    }
+
+                    function filterOperonRows(rows) {
+                        const type = document.getElementById('genomeTypeFilter').value;
+                        const clade = document.getElementById('cladeFilter').value;
+                        const subclade = document.getElementById('subcladeFilter').value;
+                        return rows.filter(row => {
+                            const metadata = genomeMetadata.get(row.genome);
+                            if (!metadata) return false;
+                            return (type === 'all' || metadata.type === type) &&
+                                (clade === 'all' || metadata.Clade1 === clade) &&
+                                (subclade === 'all' || metadata.Subclade === subclade);
+                        });
+                    }
+
+                    function updateOperonFilterStatus(rows) {
+                        const genomes = new Set(rows.map(row => row.genome)).size;
+                        const centers = new Set(rows.map(row => row.center_query)).size;
+                        document.getElementById('operonFilterStatus').textContent =
+                            `${centers.toLocaleString()} neighborhood${centers === 1 ? '' : 's'} across ${genomes.toLocaleString()} genome${genomes === 1 ? '' : 's'}`;
+                    }
 
                     // getTextColor関数を追加
                     function getTextColor(backgroundColor) {
                         const rgb = d3.color(backgroundColor).rgb();
                         const brightness = (rgb.r * 299 + rgb.g * 587 + rgb.b * 114) / 1000;
                         return brightness > 128 ? 'black' : 'white';
+                    }
+
+                    function showGeneTooltip(event, gene) {
+                        const tooltip = d3.select('#tooltip');
+                        tooltip
+                            .html(`seq_id: ${gene.seq_id}<br>Orthogroup: ${gene.Orthogroup || 'NA'}<br>COG_ID: ${gene.COG_ID || 'NA'}<br>GENE_NAME: ${gene.GENE_NAME || 'NA'}<br>ko_id: ${gene.ko_id || 'NA'}<br>ko_description: ${gene.ko_description || 'NA'}`)
+                            .style('visibility', 'hidden');
+
+                        const tooltipNode = tooltip.node();
+                        const gap = 14;
+                        const tooltipWidth = tooltipNode.offsetWidth;
+                        const tooltipHeight = tooltipNode.offsetHeight;
+                        let left = event.clientX + gap;
+                        let top = event.clientY + gap;
+
+                        if (left + tooltipWidth > window.innerWidth - gap) {
+                            left = Math.max(gap, event.clientX - tooltipWidth - gap);
+                        }
+                        if (top + tooltipHeight > window.innerHeight - gap) {
+                            top = Math.max(gap, event.clientY - tooltipHeight - gap);
+                        }
+
+                        tooltip
+                            .style('left', `${left}px`)
+                            .style('top', `${top}px`)
+                            .style('visibility', 'visible');
                     }
 
                     // 凡例を追加する関数
@@ -391,18 +519,38 @@
                     }
 
                     document.getElementById('loadData').addEventListener('click', function () {
-                        const og = document.getElementById('ogInput').value;
+                        const og = document.getElementById('ogInput').value.trim();
                         if (!og) {
                             alert('Please enter a valid OG.');
                             return;
                         }
 
+                        currentOperonDownload = null;
+                        const downloadControls = document.getElementById('downloadControls');
+                        if (downloadControls) downloadControls.style.display = 'none';
+
                         // length mode: true = actual lengths (proportional to max), false = per-row full-width
                         const useActualLengths = document.getElementById('lengthModeToggle') ? document.getElementById('lengthModeToggle').checked : true;
 
-                        const filePath = `../data/operon_test/${og}.tsv`;
-                        d3.tsv(filePath).then(data => {
+                        const filePath = `../data/operon_542/${og}.tsv`;
+                        Promise.all([loadOperonData(filePath), genomeMetadataPromise]).then(([allData]) => {
+                            currentOperonDownload = { og, path: filePath };
                             d3.select('#operonVisualization').html(''); // Clear
+                            const data = filterOperonRows(allData);
+                            updateOperonFilterStatus(data);
+
+                            if (!data.length) {
+                                d3.select('#operonVisualization').html(
+                                    '<div class="atlas-visualization__empty">No neighborhoods match the selected genome filters.</div>'
+                                );
+                                const svgButton = document.getElementById('downloadSvgBtn');
+                                if (svgButton) svgButton.disabled = true;
+                                try { showDownloadControls(); } catch (e) { console.warn('showDownloadControls failed', e); }
+                                return;
+                            }
+
+                            const svgButton = document.getElementById('downloadSvgBtn');
+                            if (svgButton) svgButton.disabled = false;
 
                             const minimumCanvasWidth = 1800;
                             const rowHeight = 58;
@@ -636,16 +784,9 @@
                                         .attr('stroke', 'black')
                                         .attr('stroke-width', d.center_query === d.seq_id ? 2 : 0.5)
                                         .on('mouseover', function (event) {
-                                            const tooltip = d3.select('#tooltip');
-                                            const svg = document.querySelector('#operonVisualization svg');
-                                            const svgRect = svg.getBoundingClientRect();
-                                            const top = event.clientY + window.scrollY;
-                                            const left = event.clientX - svgRect.left + window.scrollX;
-                                            tooltip.style('visibility', 'visible')
-                                                .style('top', top + 'px')
-                                                .style('left', left + 'px')
-                                                .html(`seq_id: ${d.seq_id}<br>Orthogroup: ${d.Orthogroup || 'NA'}<br>COG_ID: ${d.COG_ID || 'NA'}<br>GENE_NAME: ${d.GENE_NAME || 'NA'}<br>ko_id: ${d.ko_id || 'NA'}<br>ko_description: ${d.ko_description || 'NA'}`);
+                                            showGeneTooltip(event, d);
                                         })
+                                        .on('mousemove', function (event) { showGeneTooltip(event, d); })
                                         .on('mouseout', function () {
                                             d3.select('#tooltip').style('visibility', 'hidden');
                                         });
@@ -669,16 +810,9 @@
 
                                     // hover tooltip (existing behavior)
                                     ogLabel.on('mouseover', function (event) {
-                                            const tooltip = d3.select('#tooltip');
-                                            const svg = document.querySelector('#operonVisualization svg');
-                                            const svgRect = svg.getBoundingClientRect();
-                                            const top = event.clientY + window.scrollY;
-                                            const left = event.clientX - svgRect.left + window.scrollX;
-                                            tooltip.style('visibility', 'visible')
-                                                .style('top', top + 'px')
-                                                .style('left', left + 'px')
-                                                .html(`seq_id: ${d.seq_id}<br>Orthogroup: ${d.Orthogroup || 'NA'}<br>COG_ID: ${d.COG_ID || 'NA'}<br>GENE_NAME: ${d.GENE_NAME || 'NA'}<br>ko_id: ${d.ko_id || 'NA'}<br>ko_description: ${d.ko_description || 'NA'}`);
+                                            showGeneTooltip(event, d);
                                         })
+                                        .on('mousemove', function (event) { showGeneTooltip(event, d); })
                                         .on('mouseout', function () {
                                             d3.select('#tooltip').style('visibility', 'hidden');
                                         })
@@ -745,6 +879,22 @@
                             };
                         }
                     });
+
+                    function rerenderOperonIfSelected() {
+                        if (document.getElementById('ogInput').value.trim()) {
+                            document.getElementById('loadData').click();
+                        }
+                    }
+
+                    document.getElementById('genomeTypeFilter').addEventListener('change', function () {
+                        refreshOperonTaxonomyFilters();
+                        rerenderOperonIfSelected();
+                    });
+                    document.getElementById('cladeFilter').addEventListener('change', function () {
+                        refreshOperonTaxonomyFilters();
+                        rerenderOperonIfSelected();
+                    });
+                    document.getElementById('subcladeFilter').addEventListener('change', rerenderOperonIfSelected);
                 </script>
 
                 <script>
@@ -776,15 +926,20 @@
                 <!-- ツールチップ -->
                 <style>
                     #tooltip {
-                        position: absolute;
+                        position: fixed;
+                        max-width: min(420px, calc(100vw - 28px));
                         background-color: #fff;
                         border: 1px solid #ccc;
-                        padding: 5px;
+                        border-radius: 7px;
+                        padding: 7px 9px;
                         font-size: 12px;
+                        line-height: 1.45;
                         pointer-events: none;
                         visibility: hidden;
                         white-space: pre-wrap;
-                        z-index: 10;
+                        overflow-wrap: anywhere;
+                        box-shadow: 0 6px 20px rgba(11, 61, 87, 0.18);
+                        z-index: 2000;
                     }
                 </style>
                 <div id="tooltip"></div>

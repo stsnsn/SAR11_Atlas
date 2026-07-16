@@ -1,0 +1,23 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+JACWCY010000007.1	48612	49367	-	SAG-MED01_01147	SAG-MED01	251	OG0000880	NA	NA	COG0797	RlpA	Peptidoglycan lytic transglycosylase RlpA, contains C-terminal SPOR domain	SAG-MED01_01152	-5
+JACWCY010000007.1	49357	50358	-	SAG-MED01_01148	SAG-MED01	333	OG0000873	K08305	membrane-bound lytic murein transglycosylase B [EC:4.2.2.-]	COG2951	MltB	Membrane-bound lytic murein transglycosylase B	SAG-MED01_01152	-4
+JACWCY010000007.1	50345	51229	-	SAG-MED01_01149	SAG-MED01	294	OG0000992	K05786	chloramphenicol-sensitive protein RarD	COG2962	RarD	Membrane protein RarD, contains two EamA domains, drug/metabolite transporter family	SAG-MED01_01152	-3
+JACWCY010000007.1	51313	51924	+	SAG-MED01_01150	SAG-MED01	203	OG0001732	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	SAG-MED01_01152	-2
+JACWCY010000007.1	51929	52762	-	SAG-MED01_01151	SAG-MED01	277	OG0002198	NA	NA	NA	NA	NA	SAG-MED01_01152	-1
+JACWCY010000007.1	52851	53663	+	SAG-MED01_01152	SAG-MED01	270	OG0004558	NA	NA	COG2850	RoxA	Ribosomal protein L16 Arg81 hydroxylase, contains JmjC domain	SAG-MED01_01152	0
+JACWCY010000007.1	53826	54089	-	SAG-MED01_01154	SAG-MED01	87	OG0000868	NA	NA	COG2938	SdhE	Succinate dehydrogenase flavin-adding protein, antitoxin component of the CptAB toxin-antitoxin module	SAG-MED01_01152	1
+JACWCY010000007.1	54112	56163	+	SAG-MED01_01155	SAG-MED01	683	OG0000263	K03655	ATP-dependent DNA helicase RecG [EC:5.6.2.4]	COG1200	RecG	RecG-like helicase	SAG-MED01_01152	2
+JACWCY010000007.1	56167	56775	-	SAG-MED01_01156	SAG-MED01	202	OG0000714	NA	NA	COG2928	NA	Uncharacterized membrane protein, DUF502 domain	SAG-MED01_01152	3
+JACWCY010000007.1	56915	57715	+	SAG-MED01_01157	SAG-MED01	266	OG0000535	K23010	metalloendopeptidase OMA1, mitochondrial [EC:3.4.24.-]	COG4784	NA	Putative Zn-dependent protease	SAG-MED01_01152	4
+JACWCY010000007.1	57882	58994	-	SAG-MED01_01159	SAG-MED01	370	OG0000446	K00773	queuine tRNA-ribosyltransferase [EC:2.4.2.29]	COG0343	Tgt	Queuine/archaeosine tRNA-ribosyltransferase	SAG-MED01_01152	5
+CP159824.1	741083	741247	-	Uisw_092_00842	Uisw_092	54	OG0002062	NA	NA	NA	NA	NA	Uisw_092_00847	-5
+CP159824.1	741272	741781	-	Uisw_092_00843	Uisw_092	169	OG0001207	NA	NA	COG1357	DotG	Type IVB secretion/DNA transfer system protein DotG/IcmE, contains pentapeptide repeats	Uisw_092_00847	-4
+CP159824.1	741878	743278	-	Uisw_092_00844	Uisw_092	466	OG0001883	NA	NA	COG0334	GdhA	Glutamate dehydrogenase/leucine dehydrogenase	Uisw_092_00847	-3
+CP159824.1	743328	743816	-	Uisw_092_00845	Uisw_092	162	OG0001799	NA	NA	NA	NA	NA	Uisw_092_00847	-2
+CP159824.1	743813	744106	-	Uisw_092_00846	Uisw_092	97	OG0001258	NA	NA	NA	NA	NA	Uisw_092_00847	-1
+CP159824.1	744159	744974	-	Uisw_092_00847	Uisw_092	271	OG0004558	NA	NA	COG2850	RoxA	Ribosomal protein L16 Arg81 hydroxylase, contains JmjC domain	Uisw_092_00847	0
+CP159824.1	744982	745815	-	Uisw_092_00848	Uisw_092	277	OG0002198	NA	NA	NA	NA	NA	Uisw_092_00847	1
+CP159824.1	745946	747556	-	Uisw_092_00849	Uisw_092	536	OG0001813	K03321	sulfate permease, SulP family	COG0659	SUL1	Sulfate permease or related transporter, MFS superfamily, contains STAS domain	Uisw_092_00847	2
+CP159824.1	747725	748129	-	Uisw_092_00850	Uisw_092	134	OG0001385	NA	NA	COG0537	HinT	Purine nucleoside phosphoramidase/Ap4A hydrolase, histidine triade (HIT) family	Uisw_092_00847	3
+CP159824.1	748285	749589	-	Uisw_092_00851	Uisw_092	434	OG0001323	K01578	malonyl-CoA decarboxylase [EC:4.1.1.9]	NA	NA	NA	Uisw_092_00847	4
+CP159824.1	749597	750433	-	Uisw_092_00852	Uisw_092	278	OG0000089	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	Uisw_092_00847	5

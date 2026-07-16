@@ -1,0 +1,899 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CABWYD010000015.1	423	1292	-	AG-313-A04_01016	AG-313-A04	289	OG0000345	K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	AG-313-A04_01019	-2
+CABWYD010000015.1	1324	3582	+	AG-313-A04_01017	AG-313-A04	752	OG0000514	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	AG-313-A04_01019	-1
+CABWYD010000015.1	3731	3991	-	AG-313-A04_01019	AG-313-A04	86	OG0001471	NA	NA	NA	NA	NA	AG-313-A04_01019	0
+CABWYD010000015.1	3995	4603	-	AG-313-A04_01020	AG-313-A04	202	OG0001404	NA	NA	NA	NA	NA	AG-313-A04_01019	1
+CABXTN010000012.1	14245	14967	+	AG-325-C21_00792	AG-325-C21	240	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-325-C21_00797	-5
+CABXTN010000012.1	14996	15613	+	AG-325-C21_00793	AG-325-C21	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-325-C21_00797	-4
+CABXTN010000012.1	15647	17233	+	AG-325-C21_00794	AG-325-C21	528	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-325-C21_00797	-3
+CABXTN010000012.1	17230	17916	-	AG-325-C21_00795	AG-325-C21	228	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-325-C21_00797	-2
+CABXTN010000012.1	17977	18672	-	AG-325-C21_00796	AG-325-C21	231	OG0001203	NA	NA	NA	NA	NA	AG-325-C21_00797	-1
+CABXTN010000012.1	18669	18932	-	AG-325-C21_00797	AG-325-C21	87	OG0001471	NA	NA	NA	NA	NA	AG-325-C21_00797	0
+CABXTN010000012.1	18929	19255	-	AG-325-C21_00798	AG-325-C21	108	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-325-C21_00797	1
+CABXTN010000012.1	19239	19484	-	AG-325-C21_00799	AG-325-C21	81	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-325-C21_00797	2
+CABXTN010000012.1	19484	21676	-	AG-325-C21_00800	AG-325-C21	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-325-C21_00797	3
+CABXTN010000012.1	21673	22359	-	AG-325-C21_00801	AG-325-C21	228	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-325-C21_00797	4
+CABXTN010000012.1	22366	22599	-	AG-325-C21_00802	AG-325-C21	77	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-325-C21_00797	5
+CABXUW010000005.1	57529	57768	+	AG-325-E13_00653	AG-325-E13	79	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-325-E13_00658	-5
+CABXUW010000005.1	57768	58445	+	AG-325-E13_00654	AG-325-E13	225	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-325-E13_00658	-4
+CABXUW010000005.1	58451	60631	+	AG-325-E13_00655	AG-325-E13	726	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-325-E13_00658	-3
+CABXUW010000005.1	60631	60861	+	AG-325-E13_00656	AG-325-E13	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-325-E13_00658	-2
+CABXUW010000005.1	60861	61178	+	AG-325-E13_00657	AG-325-E13	105	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-325-E13_00658	-1
+CABXUW010000005.1	61284	61547	+	AG-325-E13_00658	AG-325-E13	87	OG0001471	NA	NA	NA	NA	NA	AG-325-E13_00658	0
+CABXUW010000005.1	61544	62254	+	AG-325-E13_00659	AG-325-E13	236	OG0001203	NA	NA	NA	NA	NA	AG-325-E13_00658	1
+CABXUW010000005.1	62255	63838	-	AG-325-E13_00660	AG-325-E13	527	OG0001404	NA	NA	COG1368	MdoB	Phosphoglycerol transferase MdoB/OpgB, AlkP superfamily	AG-325-E13_00658	2
+CABXUW010000005.1	63919	64536	-	AG-325-E13_00661	AG-325-E13	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-325-E13_00658	3
+CABXUW010000005.1	64587	65306	-	AG-325-E13_00662	AG-325-E13	239	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-325-E13_00658	4
+CABXUW010000005.1	65296	66900	-	AG-325-E13_00663	AG-325-E13	534	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-325-E13_00658	5
+CABXUW010000008.1	25589	27082	+	AG-325-E13_00815	AG-325-E13	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-325-E13_00820	-5
+CABXUW010000008.1	27096	28052	+	AG-325-E13_00816	AG-325-E13	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-325-E13_00820	-4
+CABXUW010000008.1	28079	29482	+	AG-325-E13_00817	AG-325-E13	467	OG0001860	NA	NA	NA	NA	NA	AG-325-E13_00820	-3
+CABXUW010000008.1	29482	30714	+	AG-325-E13_00818	AG-325-E13	410	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-325-E13_00820	-2
+CABXUW010000008.1	30722	32296	+	AG-325-E13_00819	AG-325-E13	524	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-325-E13_00820	-1
+CABXUW010000008.1	32326	32589	-	AG-325-E13_00820	AG-325-E13	87	OG0001471	NA	NA	NA	NA	NA	AG-325-E13_00820	0
+CABXUW010000008.1	32586	34223	-	AG-325-E13_00821	AG-325-E13	545	OG0001404	NA	NA	NA	NA	NA	AG-325-E13_00820	1
+CABXUW010000008.1	34269	34973	+	AG-325-E13_00822	AG-325-E13	234	OG0000045	NA	NA	NA	NA	NA	AG-325-E13_00820	2
+CABXUW010000008.1	34970	36136	+	AG-325-E13_00823	AG-325-E13	388	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-325-E13_00820	3
+CABXUW010000008.1	36137	37012	+	AG-325-E13_00824	AG-325-E13	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-325-E13_00820	4
+CABXUW010000008.1	37046	39934	+	AG-325-E13_00825	AG-325-E13	962	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-325-E13_00820	5
+CABXVN010000001.1	10081	11046	+	AG-325-E20_00012	AG-325-E20	321	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-325-E20_00017	-5
+CABXVN010000001.1	11089	12501	+	AG-325-E20_00013	AG-325-E20	470	OG0001860	NA	NA	NA	NA	NA	AG-325-E20_00017	-4
+CABXVN010000001.1	12503	13756	+	AG-325-E20_00014	AG-325-E20	417	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-325-E20_00017	-3
+CABXVN010000001.1	13757	15331	+	AG-325-E20_00015	AG-325-E20	524	OG0001507	NA	NA	NA	NA	NA	AG-325-E20_00017	-2
+CABXVN010000001.1	15328	15960	+	AG-325-E20_00016	AG-325-E20	210	OG0002246	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	AG-325-E20_00017	-1
+CABXVN010000001.1	15962	16219	-	AG-325-E20_00017	AG-325-E20	85	OG0001471	NA	NA	NA	NA	NA	AG-325-E20_00017	0
+CABXVN010000001.1	16216	17859	-	AG-325-E20_00018	AG-325-E20	547	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-325-E20_00017	1
+CABXVN010000001.1	17948	19108	+	AG-325-E20_00019	AG-325-E20	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-325-E20_00017	2
+CABXVN010000001.1	19109	19984	+	AG-325-E20_00020	AG-325-E20	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-325-E20_00017	3
+CABXVN010000001.1	20017	22908	+	AG-325-E20_00021	AG-325-E20	963	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-325-E20_00017	4
+CABXVN010000001.1	22908	24278	+	AG-325-E20_00022	AG-325-E20	456	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-325-E20_00017	5
+CABXVN010000001.1	381555	383321	+	AG-325-E20_00395	AG-325-E20	588	OG0000845	K13598	two-component system, NtrC family, nitrogen regulation sensor histidine kinase NtrY [EC:2.7.13.3]	COG5000	NtrY	Signal transduction histidine kinase NtrY involved in nitrogen fixation and metabolism regulation	AG-325-E20_00400	-5
+CABXVN010000001.1	383325	384695	+	AG-325-E20_00396	AG-325-E20	456	OG0000749	NA	NA	COG2204	AtoC	DNA-binding transcriptional response regulator, NtrC family, contains REC, AAA-type ATPase, and a Fis-type DNA-binding domains	AG-325-E20_00400	-4
+CABXVN010000001.1	384700	386067	+	AG-325-E20_00397	AG-325-E20	455	OG0000904	K03499	trk/ktr system potassium uptake protein	COG0569	TrkA	Trk/Ktr K+ transport system regulatory component TrkA/KtrA/KtrC, RCK domain	AG-325-E20_00400	-3
+CABXVN010000001.1	386060	387049	-	AG-325-E20_00398	AG-325-E20	329	OG0000023	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	AG-325-E20_00400	-2
+CABXVN010000001.1	387036	387791	-	AG-325-E20_00399	AG-325-E20	251	OG0001189	K16698	teichuronic acid biosynthesis glycosyltransferase TuaG [EC:2.4.-.-]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-325-E20_00400	-1
+CABXVN010000001.1	387830	388108	+	AG-325-E20_00400	AG-325-E20	92	OG0001471	NA	NA	NA	NA	NA	AG-325-E20_00400	0
+CABXVN010000001.1	388117	389673	+	AG-325-E20_00401	AG-325-E20	518	OG0001404	NA	NA	NA	NA	NA	AG-325-E20_00400	1
+CABXVN010000001.1	389689	390402	+	AG-325-E20_00402	AG-325-E20	237	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-325-E20_00400	2
+CABXVN010000001.1	390406	390840	+	AG-325-E20_00403	AG-325-E20	144	OG0001635	NA	NA	NA	NA	NA	AG-325-E20_00400	3
+CABXVN010000001.1	390812	391954	+	AG-325-E20_00404	AG-325-E20	380	OG0000093	K13010	perosamine synthetase [EC:2.6.1.102]	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-325-E20_00400	4
+CABXVN010000001.1	392073	392861	-	AG-325-E20_00406	AG-325-E20	262	OG0000786	NA	NA	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	AG-325-E20_00400	5
+CABXWY010000013.1	5004	5237	+	AG-325-G21_01031	AG-325-G21	77	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-325-G21_01036	-5
+CABXWY010000013.1	5244	5927	+	AG-325-G21_01032	AG-325-G21	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-325-G21_01036	-4
+CABXWY010000013.1	5924	8119	+	AG-325-G21_01033	AG-325-G21	731	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-325-G21_01036	-3
+CABXWY010000013.1	8092	8364	+	AG-325-G21_01034	AG-325-G21	90	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-325-G21_01036	-2
+CABXWY010000013.1	8348	8680	+	AG-325-G21_01035	AG-325-G21	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-325-G21_01036	-1
+CABXWY010000013.1	8677	8940	+	AG-325-G21_01036	AG-325-G21	87	OG0001471	NA	NA	NA	NA	NA	AG-325-G21_01036	0
+CABXWY010000013.1	8937	9635	+	AG-325-G21_01037	AG-325-G21	232	OG0001203	NA	NA	NA	NA	NA	AG-325-G21_01036	1
+CABXWY010000013.1	9632	11215	-	AG-325-G21_01038	AG-325-G21	527	OG0001404	NA	NA	NA	NA	NA	AG-325-G21_01036	2
+CABXWY010000013.1	11249	11866	-	AG-325-G21_01039	AG-325-G21	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-325-G21_01036	3
+CABXWY010000013.1	11895	12617	-	AG-325-G21_01040	AG-325-G21	240	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-325-G21_01036	4
+CABXWY010000013.1	12617	14218	-	AG-325-G21_01041	AG-325-G21	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-325-G21_01036	5
+CABYVA010000010.1	25534	26889	+	AG-333-N15_00644	AG-333-N15	451	OG0000800	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	AG-333-N15_00649	-5
+CABYVA010000010.1	26857	27417	-	AG-333-N15_00645	AG-333-N15	186	OG0000969	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	AG-333-N15_00649	-4
+CABYVA010000010.1	27410	30415	-	AG-333-N15_00646	AG-333-N15	1001	OG0000022	K00302	sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	AG-333-N15_00649	-3
+CABYVA010000010.1	30415	30690	-	AG-333-N15_00647	AG-333-N15	91	OG0000024	K00304	sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	COG4311	SoxD	Sarcosine oxidase delta subunit	AG-333-N15_00649	-2
+CABYVA010000010.1	30690	31943	-	AG-333-N15_00648	AG-333-N15	417	OG0000004	K00303	sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	AG-333-N15_00649	-1
+CABYVA010000010.1	32131	32424	+	AG-333-N15_00649	AG-333-N15	97	OG0001471	NA	NA	NA	NA	NA	AG-333-N15_00649	0
+CABYVA010000010.1	32873	33001	-	AG-333-N15_00650	AG-333-N15	42	NA	NA	NA	NA	NA	NA	AG-333-N15_00649	1
+CACABC010000001.1	177217	177672	+	AG-343-E17_00193	AG-343-E17	151	OG0000371	K09117	uncharacterized protein	COG1610	YqeY	Uncharacterized conserved protein YqeY, may have tRNA amino acid amidase activity	AG-343-E17_00198	-5
+CACABC010000001.1	177674	179440	+	AG-343-E17_00194	AG-343-E17	588	OG0000317	K02316	DNA primase [EC:2.7.7.101]	COG0358	DnaG	DNA primase (bacterial type)	AG-343-E17_00198	-4
+CACABC010000001.1	179502	181379	+	AG-343-E17_00195	AG-343-E17	625	OG0000836	K03086	RNA polymerase primary sigma factor	COG0568	RpoD	DNA-directed RNA polymerase, sigma subunit (sigma70/sigma32)	AG-343-E17_00198	-3
+CACABC010000001.1	181368	182360	-	AG-343-E17_00196	AG-343-E17	330	OG0001129	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	AG-343-E17_00198	-2
+CACABC010000001.1	182392	184044	+	AG-343-E17_00197	AG-343-E17	550	OG0001404	NA	NA	NA	NA	NA	AG-343-E17_00198	-1
+CACABC010000001.1	184045	184305	+	AG-343-E17_00198	AG-343-E17	86	OG0001471	NA	NA	NA	NA	NA	AG-343-E17_00198	0
+CACABC010000001.1	184443	185045	-	AG-343-E17_00200	AG-343-E17	200	OG0000414	K07323	phospholipid transport system substrate-binding protein	COG2854	MlaC	Periplasmic subunit MlaC of the ABC-type intermembrane phospholipid transporter Mla	AG-343-E17_00198	1
+CACABC010000001.1	185055	185840	-	AG-343-E17_00201	AG-343-E17	261	OG0000413	K04754	phospholipid-binding lipoprotein MlaA	COG2853	MlaA	Outer membrane channel MlaA of the intermembrane phospholipid transporter MlaABCDEF complex	AG-343-E17_00198	2
+CACABC010000001.1	185847	186575	+	AG-343-E17_00202	AG-343-E17	242	OG0000640	K01447	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]	COG3023	AmpD	N-acetyl-anhydromuramyl-L-alanine amidase AmpD	AG-343-E17_00198	3
+CACABC010000001.1	187115	187579	+	AG-343-E17_00203	AG-343-E17	154	OG0000325	K03925	transcriptional regulator MraZ	COG2001	MraZ	MraZ, DNA-binding transcriptional regulator and inhibitor of RsmH methyltransferase activity	AG-343-E17_00198	4
+CACABC010000001.1	187576	189069	+	AG-343-E17_00204	AG-343-E17	497	OG0000412	K03531	cell division protein FtsZ	COG0206	FtsZ	Cell division GTPase FtsZ	AG-343-E17_00198	5
+CACAYM010000002.1	96891	98492	+	AG-349-I05_00397	AG-349-I05	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-349-I05_00402	-5
+CACAYM010000002.1	98493	99353	+	AG-349-I05_00398	AG-349-I05	286	OG0001297	NA	NA	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	AG-349-I05_00402	-4
+CACAYM010000002.1	99354	100079	+	AG-349-I05_00399	AG-349-I05	241	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-349-I05_00402	-3
+CACAYM010000002.1	100108	100725	+	AG-349-I05_00400	AG-349-I05	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-349-I05_00402	-2
+CACAYM010000002.1	100726	102306	+	AG-349-I05_00401	AG-349-I05	526	OG0001404	NA	NA	NA	NA	NA	AG-349-I05_00402	-1
+CACAYM010000002.1	102303	102569	-	AG-349-I05_00402	AG-349-I05	88	OG0001471	NA	NA	NA	NA	NA	AG-349-I05_00402	0
+CACAYM010000002.1	102566	102898	-	AG-349-I05_00403	AG-349-I05	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-349-I05_00402	1
+CACAYM010000002.1	102882	103154	-	AG-349-I05_00404	AG-349-I05	90	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-349-I05_00402	2
+CACAYM010000002.1	103130	105322	-	AG-349-I05_00405	AG-349-I05	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-349-I05_00402	3
+CACAYM010000002.1	105319	106002	-	AG-349-I05_00406	AG-349-I05	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-349-I05_00402	4
+CACAYM010000002.1	106009	106242	-	AG-349-I05_00407	AG-349-I05	77	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-349-I05_00402	5
+CACCZZ010000002.1	114810	117707	-	AG-365-B19_00297	AG-365-B19	965	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-365-B19_00302	-5
+CACCZZ010000002.1	117766	118641	-	AG-365-B19_00298	AG-365-B19	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-365-B19_00302	-4
+CACCZZ010000002.1	118642	119802	-	AG-365-B19_00299	AG-365-B19	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-365-B19_00302	-3
+CACCZZ010000002.1	119845	120708	+	AG-365-B19_00300	AG-365-B19	287	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-365-B19_00302	-2
+CACCZZ010000002.1	120709	122376	+	AG-365-B19_00301	AG-365-B19	555	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-365-B19_00302	-1
+CACCZZ010000002.1	122379	122642	+	AG-365-B19_00302	AG-365-B19	87	OG0001471	NA	NA	NA	NA	NA	AG-365-B19_00302	0
+CACCZZ010000002.1	122661	123467	+	AG-365-B19_00303	AG-365-B19	268	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-365-B19_00302	1
+CACCZZ010000002.1	123464	125017	-	AG-365-B19_00304	AG-365-B19	517	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-365-B19_00302	2
+CACCZZ010000002.1	125020	125985	-	AG-365-B19_00305	AG-365-B19	321	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-365-B19_00302	3
+CACCZZ010000002.1	125991	127484	-	AG-365-B19_00306	AG-365-B19	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-365-B19_00302	4
+CACCZZ010000002.1	127508	128284	-	AG-365-B19_00307	AG-365-B19	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-365-B19_00302	5
+CACDII010000001.1	47464	48819	+	AG-365-L04_00061	AG-365-L04	451	OG0000800	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	AG-365-L04_00066	-5
+CACDII010000001.1	48787	49365	-	AG-365-L04_00062	AG-365-L04	192	OG0000969	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	AG-365-L04_00066	-4
+CACDII010000001.1	49358	52363	-	AG-365-L04_00063	AG-365-L04	1001	OG0000022	K00302	sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	AG-365-L04_00066	-3
+CACDII010000001.1	52365	52640	-	AG-365-L04_00064	AG-365-L04	91	OG0000024	K00304	sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	COG4311	SoxD	Sarcosine oxidase delta subunit	AG-365-L04_00066	-2
+CACDII010000001.1	52640	53893	-	AG-365-L04_00065	AG-365-L04	417	OG0000004	K00303	sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	AG-365-L04_00066	-1
+CACDII010000001.1	54082	54375	+	AG-365-L04_00066	AG-365-L04	97	OG0001471	NA	NA	NA	NA	NA	AG-365-L04_00066	0
+CACDII010000001.1	54372	55958	+	AG-365-L04_00067	AG-365-L04	528	OG0001404	NA	NA	NA	NA	NA	AG-365-L04_00066	1
+CACDII010000001.1	56120	56812	-	AG-365-L04_00069	AG-365-L04	230	OG0000043	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-365-L04_00066	2
+CACDII010000001.1	56815	57981	-	AG-365-L04_00070	AG-365-L04	388	OG0002067	NA	NA	NA	NA	NA	AG-365-L04_00066	3
+CACDII010000001.1	57975	58376	-	AG-365-L04_00071	AG-365-L04	133	OG0002396	NA	NA	NA	NA	NA	AG-365-L04_00066	4
+CACDII010000001.1	58360	60648	-	AG-365-L04_00072	AG-365-L04	762	OG0000514	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	AG-365-L04_00066	5
+CACDSN010000004.1	36356	37954	+	AG-390-C19_00352	AG-390-C19	532	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-390-C19_00357	-5
+CACDSN010000004.1	37954	38673	+	AG-390-C19_00353	AG-390-C19	239	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-390-C19_00357	-4
+CACDSN010000004.1	38710	39327	+	AG-390-C19_00354	AG-390-C19	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-390-C19_00357	-3
+CACDSN010000004.1	39334	40020	+	AG-390-C19_00355	AG-390-C19	228	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-390-C19_00357	-2
+CACDSN010000004.1	40001	41596	+	AG-390-C19_00356	AG-390-C19	531	OG0001404	NA	NA	NA	NA	NA	AG-390-C19_00357	-1
+CACDSN010000004.1	41593	41865	-	AG-390-C19_00357	AG-390-C19	90	OG0001471	NA	NA	NA	NA	NA	AG-390-C19_00357	0
+CACDSN010000004.1	41862	42194	-	AG-390-C19_00358	AG-390-C19	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-390-C19_00357	1
+CACDSN010000004.1	42195	42425	-	AG-390-C19_00359	AG-390-C19	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-390-C19_00357	2
+CACDSN010000004.1	42425	44620	-	AG-390-C19_00360	AG-390-C19	731	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-390-C19_00357	3
+CACDSN010000004.1	44617	45300	-	AG-390-C19_00361	AG-390-C19	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-390-C19_00357	4
+CACDSN010000004.1	45307	45540	-	AG-390-C19_00362	AG-390-C19	77	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-390-C19_00357	5
+CACDTD010000007.1	9562	9801	+	AG-390-C22_00745	AG-390-C22	79	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-390-C22_00750	-5
+CACDTD010000007.1	9801	10478	+	AG-390-C22_00746	AG-390-C22	225	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-390-C22_00750	-4
+CACDTD010000007.1	10484	12664	+	AG-390-C22_00747	AG-390-C22	726	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-390-C22_00750	-3
+CACDTD010000007.1	12664	12894	+	AG-390-C22_00748	AG-390-C22	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-390-C22_00750	-2
+CACDTD010000007.1	12894	13211	+	AG-390-C22_00749	AG-390-C22	105	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-390-C22_00750	-1
+CACDTD010000007.1	13212	13472	+	AG-390-C22_00750	AG-390-C22	86	OG0001471	NA	NA	NA	NA	NA	AG-390-C22_00750	0
+CACDTD010000007.1	13469	15049	-	AG-390-C22_00751	AG-390-C22	526	OG0001404	NA	NA	NA	NA	NA	AG-390-C22_00750	1
+CACDTD010000007.1	15087	15704	-	AG-390-C22_00752	AG-390-C22	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-390-C22_00750	2
+CACDTD010000007.1	15745	16473	-	AG-390-C22_00753	AG-390-C22	242	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-390-C22_00750	3
+CACDTD010000007.1	16463	18067	-	AG-390-C22_00754	AG-390-C22	534	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-390-C22_00750	4
+CACDTD010000007.1	18064	18873	-	AG-390-C22_00755	AG-390-C22	269	OG0000584	NA	NA	COG0215	CysS	Cysteinyl-tRNA synthetase	AG-390-C22_00750	5
+CACDTD010000013.1	5999	7339	-	AG-390-C22_00997	AG-390-C22	446	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-390-C22_01002	-5
+CACDTD010000013.1	7343	10225	-	AG-390-C22_00998	AG-390-C22	960	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-390-C22_01002	-4
+CACDTD010000013.1	10259	11134	-	AG-390-C22_00999	AG-390-C22	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-390-C22_01002	-3
+CACDTD010000013.1	11135	12295	-	AG-390-C22_01000	AG-390-C22	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-390-C22_01002	-2
+CACDTD010000013.1	12335	14014	+	AG-390-C22_01001	AG-390-C22	559	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-390-C22_01002	-1
+CACDTD010000013.1	14014	14277	+	AG-390-C22_01002	AG-390-C22	87	OG0001471	NA	NA	NA	NA	NA	AG-390-C22_01002	0
+CACDTD010000013.1	14383	15054	+	AG-390-C22_01003	AG-390-C22	223	OG0002518	NA	NA	NA	NA	NA	AG-390-C22_01002	1
+CACDTD010000013.1	15074	16657	-	AG-390-C22_01004	AG-390-C22	527	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-390-C22_01002	2
+CACDTD010000013.1	16623	17582	-	AG-390-C22_01005	AG-390-C22	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-390-C22_01002	3
+CACDTD010000013.1	17596	19089	-	AG-390-C22_01006	AG-390-C22	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-390-C22_01002	4
+CACDTD010000013.1	19114	19890	-	AG-390-C22_01007	AG-390-C22	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-390-C22_01002	5
+CACDZS010000011.1	3339	4202	+	AG-390-I15_00977	AG-390-I15	287	OG0001297	K09967	uncharacterized protein	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	AG-390-I15_00982	-5
+CACDZS010000011.1	4205	4918	+	AG-390-I15_00978	AG-390-I15	237	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-390-I15_00982	-4
+CACDZS010000011.1	4959	5576	+	AG-390-I15_00979	AG-390-I15	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-390-I15_00982	-3
+CACDZS010000011.1	5579	6274	+	AG-390-I15_00980	AG-390-I15	231	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-390-I15_00982	-2
+CACDZS010000011.1	6261	7832	+	AG-390-I15_00981	AG-390-I15	523	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-390-I15_00982	-1
+CACDZS010000011.1	7829	8095	-	AG-390-I15_00982	AG-390-I15	88	OG0001471	NA	NA	NA	NA	NA	AG-390-I15_00982	0
+CACDZS010000011.1	8115	8453	-	AG-390-I15_00983	AG-390-I15	112	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-390-I15_00982	1
+CACDZS010000011.1	8455	8685	-	AG-390-I15_00984	AG-390-I15	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-390-I15_00982	2
+CACDZS010000011.1	8685	10877	-	AG-390-I15_00985	AG-390-I15	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-390-I15_00982	3
+CACDZS010000011.1	10874	11557	-	AG-390-I15_00986	AG-390-I15	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-390-I15_00982	4
+CACDZS010000011.1	11561	11803	-	AG-390-I15_00987	AG-390-I15	80	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-390-I15_00982	5
+CACFGT010000002.1	20574	21086	-	AG-410-K05_00177	AG-410-K05	170	OG0000716	K00950	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3]	COG0801	FolK	7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase (folate biosynthesis)	AG-410-K05_00183	-5
+CACFGT010000002.1	21052	21522	-	AG-410-K05_00178	AG-410-K05	156	OG0000620	K03664	SsrA-binding protein	COG0691	SmpB	tmRNA-binding protein	AG-410-K05_00183	-4
+CACFGT010000002.1	21522	22403	-	AG-410-K05_00179	AG-410-K05	293	OG0000345	K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	AG-410-K05_00183	-3
+CACFGT010000002.1	22441	24648	+	AG-410-K05_00180	AG-410-K05	735	OG0000514	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	AG-410-K05_00183	-2
+CACFGT010000002.1	24761	26332	-	AG-410-K05_00182	AG-410-K05	523	OG0001404	NA	NA	NA	NA	NA	AG-410-K05_00183	-1
+CACFGT010000002.1	26319	26612	-	AG-410-K05_00183	AG-410-K05	97	OG0001471	NA	NA	NA	NA	NA	AG-410-K05_00183	0
+CACFGT010000002.1	26599	27348	-	AG-410-K05_00184	AG-410-K05	249	OG0001249	NA	NA	NA	NA	NA	AG-410-K05_00183	1
+CACFGT010000002.1	27348	28607	-	AG-410-K05_00185	AG-410-K05	419	OG0001137	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-410-K05_00183	2
+CACFGT010000002.1	28636	29556	+	AG-410-K05_00186	AG-410-K05	306	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-410-K05_00183	3
+CACFGT010000002.1	29543	30610	-	AG-410-K05_00187	AG-410-K05	355	OG0001249	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-410-K05_00183	4
+CACFGT010000002.1	30601	31371	-	AG-410-K05_00188	AG-410-K05	256	OG0000274	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	AG-410-K05_00183	5
+CACFZK010000014.1	626	2005	-	AG-422-A21_00942	AG-422-A21	459	OG0001860	NA	NA	NA	NA	NA	AG-422-A21_00946	-3
+CACFZK010000014.1	2146	2916	-	AG-422-A21_00944	AG-422-A21	256	OG0000045	NA	NA	NA	NA	NA	AG-422-A21_00946	-2
+CACFZK010000014.1	2919	4496	-	AG-422-A21_00945	AG-422-A21	525	OG0001404	NA	NA	NA	NA	NA	AG-422-A21_00946	-1
+CACFZK010000014.1	4513	4815	-	AG-422-A21_00946	AG-422-A21	100	OG0001471	NA	NA	NA	NA	NA	AG-422-A21_00946	0
+CACFZK010000014.1	4844	6067	-	AG-422-A21_00947	AG-422-A21	407	OG0001137	NA	NA	COG4976	NA	Predicted methyltransferase, contains TPR repeat	AG-422-A21_00946	1
+CACFZK010000014.1	6101	6802	+	AG-422-A21_00948	AG-422-A21	233	OG0000983	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-422-A21_00946	2
+CACFZK010000014.1	6812	7108	-	AG-422-A21_00949	AG-422-A21	98	OG0000877	NA	NA	NA	NA	NA	AG-422-A21_00946	3
+CACFZK010000014.1	7112	7876	-	AG-422-A21_00950	AG-422-A21	254	OG0000972	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	AG-422-A21_00946	4
+CACFZK010000014.1	7881	8822	-	AG-422-A21_00951	AG-422-A21	313	OG0001706	NA	NA	NA	NA	NA	AG-422-A21_00946	5
+CACGEW010000007.1	3309	4631	-	AG-422-F15_00767	AG-422-F15	440	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-422-F15_00772	-5
+CACGEW010000007.1	4632	7526	-	AG-422-F15_00768	AG-422-F15	964	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-422-F15_00772	-4
+CACGEW010000007.1	7558	8433	-	AG-422-F15_00769	AG-422-F15	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-422-F15_00772	-3
+CACGEW010000007.1	8433	9596	-	AG-422-F15_00770	AG-422-F15	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-422-F15_00772	-2
+CACGEW010000007.1	9653	11305	+	AG-422-F15_00771	AG-422-F15	550	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-422-F15_00772	-1
+CACGEW010000007.1	11302	11565	+	AG-422-F15_00772	AG-422-F15	87	OG0001471	NA	NA	NA	NA	NA	AG-422-F15_00772	0
+CACGEW010000007.1	11567	12412	+	AG-422-F15_00773	AG-422-F15	281	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-422-F15_00772	1
+CACGEW010000007.1	12409	13968	-	AG-422-F15_00774	AG-422-F15	519	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-422-F15_00772	2
+CACGEW010000007.1	14012	14695	+	AG-422-F15_00775	AG-422-F15	227	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-422-F15_00772	3
+CACGEW010000007.1	14697	15656	-	AG-422-F15_00776	AG-422-F15	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-422-F15_00772	4
+CACGEW010000007.1	15670	17163	-	AG-422-F15_00777	AG-422-F15	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-422-F15_00772	5
+CACGKL010000001.1	11	610	+	AG-422-K17_00001	AG-422-K17	199	OG0001404	NA	NA	NA	NA	NA	AG-422-K17_00002	-1
+CACGKL010000001.1	619	882	+	AG-422-K17_00002	AG-422-K17	87	OG0001471	NA	NA	NA	NA	NA	AG-422-K17_00002	0
+CACGKL010000001.1	887	1162	+	AG-422-K17_00003	AG-422-K17	91	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-422-K17_00002	1
+CACGKL010000001.1	1179	1763	+	AG-422-K17_00004	AG-422-K17	194	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-422-K17_00002	2
+CACGKL010000001.1	1728	3302	-	AG-422-K17_00005	AG-422-K17	524	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-422-K17_00002	3
+CACGKL010000001.1	3344	4027	+	AG-422-K17_00006	AG-422-K17	227	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-422-K17_00002	4
+CACGKL010000001.1	4028	4987	-	AG-422-K17_00007	AG-422-K17	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-422-K17_00002	5
+CACGKL010000002.1	50202	51806	+	AG-422-K17_00264	AG-422-K17	534	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-422-K17_00269	-5
+CACGKL010000002.1	51796	52506	+	AG-422-K17_00265	AG-422-K17	236	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-422-K17_00269	-4
+CACGKL010000002.1	52564	53181	+	AG-422-K17_00266	AG-422-K17	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-422-K17_00269	-3
+CACGKL010000002.1	53182	53928	+	AG-422-K17_00267	AG-422-K17	248	OG0000028	NA	NA	NA	NA	NA	AG-422-K17_00269	-2
+CACGKL010000002.1	53939	55519	+	AG-422-K17_00268	AG-422-K17	526	OG0001404	NA	NA	NA	NA	NA	AG-422-K17_00269	-1
+CACGKL010000002.1	55516	55779	-	AG-422-K17_00269	AG-422-K17	87	OG0001471	NA	NA	NA	NA	NA	AG-422-K17_00269	0
+CACGKL010000002.1	55779	56096	-	AG-422-K17_00270	AG-422-K17	105	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-422-K17_00269	1
+CACGKL010000002.1	56096	56326	-	AG-422-K17_00271	AG-422-K17	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-422-K17_00269	2
+CACGKL010000002.1	56326	58506	-	AG-422-K17_00272	AG-422-K17	726	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-422-K17_00269	3
+CACGKL010000002.1	58511	59191	-	AG-422-K17_00273	AG-422-K17	226	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-422-K17_00269	4
+CACGKL010000002.1	59188	59427	-	AG-422-K17_00274	AG-422-K17	79	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-422-K17_00269	5
+CACGMC010000002.1	172128	172652	-	AG-422-L15_00540	AG-422-L15	174	OG0000601	K02601	transcription termination/antitermination protein NusG	COG0250	NusG	Transcription termination/antitermination protein NusG	AG-422-L15_00549	-5
+CACGMC010000002.1	172653	172844	-	AG-422-L15_00541	AG-422-L15	63	OG0001138	K03073	preprotein translocase subunit SecE	COG0690	SecE	Preprotein translocase subunit SecE	AG-422-L15_00549	-4
+CACGMC010000002.1	174496	175251	+	AG-422-L15_00545	AG-422-L15	251	OG0000786	NA	NA	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	AG-422-L15_00549	-3
+CACGMC010000002.1	175372	176460	-	AG-422-L15_00547	AG-422-L15	362	OG0001888	NA	NA	NA	NA	NA	AG-422-L15_00549	-2
+CACGMC010000002.1	176467	177222	-	AG-422-L15_00548	AG-422-L15	251	OG0001189	K16698	teichuronic acid biosynthesis glycosyltransferase TuaG [EC:2.4.-.-]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-422-L15_00549	-1
+CACGMC010000002.1	177257	177535	+	AG-422-L15_00549	AG-422-L15	92	OG0001471	NA	NA	NA	NA	NA	AG-422-L15_00549	0
+CACGMC010000002.1	177545	179101	+	AG-422-L15_00550	AG-422-L15	518	OG0001404	NA	NA	NA	NA	NA	AG-422-L15_00549	1
+CACGMC010000002.1	179101	180237	+	AG-422-L15_00551	AG-422-L15	378	OG0001636	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	AG-422-L15_00549	2
+CACGMC010000002.1	180241	181218	+	AG-422-L15_00552	AG-422-L15	325	OG0000023	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	AG-422-L15_00549	3
+CACGMC010000002.1	181205	182572	-	AG-422-L15_00553	AG-422-L15	455	OG0000904	K03499	trk/ktr system potassium uptake protein	COG0569	TrkA	Trk/Ktr K+ transport system regulatory component TrkA/KtrA/KtrC, RCK domain	AG-422-L15_00549	4
+CACGMC010000002.1	182577	183947	-	AG-422-L15_00554	AG-422-L15	456	OG0000749	NA	NA	COG2204	AtoC	DNA-binding transcriptional response regulator, NtrC family, contains REC, AAA-type ATPase, and a Fis-type DNA-binding domains	AG-422-L15_00549	5
+CACGMC010000007.1	10194	11153	+	AG-422-L15_01117	AG-422-L15	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-422-L15_01122	-5
+CACGMC010000007.1	11196	12608	+	AG-422-L15_01118	AG-422-L15	470	OG0001860	NA	NA	NA	NA	NA	AG-422-L15_01122	-4
+CACGMC010000007.1	12610	13863	+	AG-422-L15_01119	AG-422-L15	417	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-422-L15_01122	-3
+CACGMC010000007.1	13877	15451	+	AG-422-L15_01120	AG-422-L15	524	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-422-L15_01122	-2
+CACGMC010000007.1	15448	16080	+	AG-422-L15_01121	AG-422-L15	210	OG0002246	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	AG-422-L15_01122	-1
+CACGMC010000007.1	16082	16339	-	AG-422-L15_01122	AG-422-L15	85	OG0001471	NA	NA	NA	NA	NA	AG-422-L15_01122	0
+CACGMC010000007.1	16336	17367	-	AG-422-L15_01123	AG-422-L15	343	OG0001404	NA	NA	NA	NA	NA	AG-422-L15_01122	1
+CACGON010000021.1	36	281	+	AG-422-N15_01099	AG-422-N15	81	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-422-N15_01101	-2
+CACGON010000021.1	265	591	+	AG-422-N15_01100	AG-422-N15	108	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-422-N15_01101	-1
+CACGON010000021.1	588	851	+	AG-422-N15_01101	AG-422-N15	87	OG0001471	NA	NA	NA	NA	NA	AG-422-N15_01101	0
+CACGON010000021.1	848	1546	+	AG-422-N15_01102	AG-422-N15	232	OG0001203	NA	NA	NA	NA	NA	AG-422-N15_01101	1
+CACGON010000021.1	1543	3126	-	AG-422-N15_01103	AG-422-N15	527	OG0001404	NA	NA	NA	NA	NA	AG-422-N15_01101	2
+CACGON010000021.1	3163	3780	-	AG-422-N15_01104	AG-422-N15	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-422-N15_01101	3
+CACGON010000021.1	3808	3918	-	AG-422-N15_01105	AG-422-N15	36	OG0000685	NA	NA	NA	NA	NA	AG-422-N15_01101	4
+CACGZT010000002.1	112488	113258	+	AG-426-I15_00494	AG-426-I15	256	OG0000972	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	AG-426-I15_00499	-5
+CACGZT010000002.1	113260	114387	+	AG-426-I15_00495	AG-426-I15	375	OG0000093	K13010	perosamine synthetase [EC:2.6.1.102]	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-426-I15_00499	-4
+CACGZT010000002.1	114384	115622	+	AG-426-I15_00496	AG-426-I15	412	OG0001137	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-426-I15_00499	-3
+CACGZT010000002.1	115624	115998	+	AG-426-I15_00497	AG-426-I15	124	OG0001513	NA	NA	COG1917	QdoI	Cupin domain protein related to quercetin dioxygenase	AG-426-I15_00499	-2
+CACGZT010000002.1	115991	117562	-	AG-426-I15_00498	AG-426-I15	523	OG0001404	NA	NA	NA	NA	NA	AG-426-I15_00499	-1
+CACGZT010000002.1	117559	117864	-	AG-426-I15_00499	AG-426-I15	101	OG0001471	NA	NA	NA	NA	NA	AG-426-I15_00499	0
+CACGZT010000002.1	117923	118540	+	AG-426-I15_00500	AG-426-I15	205	OG0001732	NA	NA	COG0088	RplD	Ribosomal protein L4	AG-426-I15_00499	1
+CACGZT010000002.1	118533	119240	+	AG-426-I15_00501	AG-426-I15	235	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-426-I15_00499	2
+CACGZT010000002.1	119240	119533	+	AG-426-I15_00502	AG-426-I15	97	OG0000877	NA	NA	NA	NA	NA	AG-426-I15_00499	3
+CACGZT010000002.1	119533	121104	+	AG-426-I15_00503	AG-426-I15	523	OG0001507	NA	NA	NA	NA	NA	AG-426-I15_00499	4
+CACGZT010000002.1	121110	122090	-	AG-426-I15_00504	AG-426-I15	326	OG0000023	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	AG-426-I15_00499	5
+CACHEU010000002.1	195418	196734	+	AG-426-O05_00613	AG-426-O05	438	OG0001456	NA	NA	COG4310	NA	Uncharacterized conserved protein, cotains an aminopeptidase-like domain	AG-426-O05_00619	-5
+CACHEU010000002.1	196731	197555	+	AG-426-O05_00614	AG-426-O05	274	OG0000035	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	AG-426-O05_00619	-4
+CACHEU010000002.1	197714	198649	+	AG-426-O05_00616	AG-426-O05	311	OG0001706	NA	NA	NA	NA	NA	AG-426-O05_00619	-3
+CACHEU010000002.1	198656	199423	+	AG-426-O05_00617	AG-426-O05	255	OG0000972	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	AG-426-O05_00619	-2
+CACHEU010000002.1	199416	201005	-	AG-426-O05_00618	AG-426-O05	529	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-426-O05_00619	-1
+CACHEU010000002.1	201018	201317	-	AG-426-O05_00619	AG-426-O05	99	OG0001471	NA	NA	NA	NA	NA	AG-426-O05_00619	0
+CACHEU010000002.1	201435	202373	+	AG-426-O05_00620	AG-426-O05	312	OG0000020	K02377	GDP-L-fucose synthase [EC:1.1.1.271]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-426-O05_00619	1
+CACHEU010000002.1	202379	203104	+	AG-426-O05_00621	AG-426-O05	241	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-426-O05_00619	2
+CACHEU010000002.1	203135	203938	-	AG-426-O05_00622	AG-426-O05	267	OG0000787	NA	NA	COG2062	SixA	Phosphohistidine phosphatase SixA	AG-426-O05_00619	3
+CACHEU010000002.1	204060	204812	-	AG-426-O05_00624	AG-426-O05	250	OG0000786	NA	NA	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	AG-426-O05_00619	4
+CACHEU010000002.1	205197	206390	+	AG-426-O05_00627	AG-426-O05	397	OG0000491	K02358	elongation factor Tu	COG0050	TufA	Translation elongation factor EF-Tu, a GTPase	AG-426-O05_00619	5
+CACHPL010000005.1	19407	20900	+	AG-430-F03_00923	AG-430-F03	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-430-F03_00928	-5
+CACHPL010000005.1	20904	21860	+	AG-430-F03_00924	AG-430-F03	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-430-F03_00928	-4
+CACHPL010000005.1	21844	23400	+	AG-430-F03_00925	AG-430-F03	518	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-430-F03_00928	-3
+CACHPL010000005.1	23397	24110	+	AG-430-F03_00926	AG-430-F03	237	OG0000045	NA	NA	NA	NA	NA	AG-430-F03_00928	-2
+CACHPL010000005.1	24107	24916	-	AG-430-F03_00927	AG-430-F03	269	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-430-F03_00928	-1
+CACHPL010000005.1	24951	25214	-	AG-430-F03_00928	AG-430-F03	87	OG0001471	NA	NA	NA	NA	NA	AG-430-F03_00928	0
+CACHPL010000005.1	25211	26878	-	AG-430-F03_00929	AG-430-F03	555	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-430-F03_00928	1
+CACHPL010000005.1	26941	28098	+	AG-430-F03_00930	AG-430-F03	385	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-430-F03_00928	2
+CACHPL010000005.1	28099	28974	+	AG-430-F03_00931	AG-430-F03	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-430-F03_00928	3
+CACHPL010000005.1	29012	31909	+	AG-430-F03_00932	AG-430-F03	965	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-430-F03_00928	4
+CACHPL010000005.1	31910	33238	+	AG-430-F03_00933	AG-430-F03	442	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-430-F03_00928	5
+CACHSC010000002.1	16947	18548	+	AG-430-G11_00187	AG-430-G11	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-430-G11_00192	-5
+CACHSC010000002.1	18548	19270	+	AG-430-G11_00188	AG-430-G11	240	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-430-G11_00192	-4
+CACHSC010000002.1	19299	19916	+	AG-430-G11_00189	AG-430-G11	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-430-G11_00192	-3
+CACHSC010000002.1	19951	21534	+	AG-430-G11_00190	AG-430-G11	527	OG0001404	NA	NA	NA	NA	NA	AG-430-G11_00192	-2
+CACHSC010000002.1	21531	22229	-	AG-430-G11_00191	AG-430-G11	232	OG0001203	NA	NA	NA	NA	NA	AG-430-G11_00192	-1
+CACHSC010000002.1	22226	22489	-	AG-430-G11_00192	AG-430-G11	87	OG0001471	NA	NA	NA	NA	NA	AG-430-G11_00192	0
+CACHSC010000002.1	22486	22812	-	AG-430-G11_00193	AG-430-G11	108	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-430-G11_00192	1
+CACHSC010000002.1	22796	23068	-	AG-430-G11_00194	AG-430-G11	90	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-430-G11_00192	2
+CACHSC010000002.1	23041	25236	-	AG-430-G11_00195	AG-430-G11	731	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-430-G11_00192	3
+CACHSC010000002.1	25233	25916	-	AG-430-G11_00196	AG-430-G11	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-430-G11_00192	4
+CACHSC010000002.1	25923	26156	-	AG-430-G11_00197	AG-430-G11	77	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-430-G11_00192	5
+CACHRP010000003.1	85517	86200	+	AG-430-I18_00523	AG-430-I18	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-430-I18_00528	-5
+CACHRP010000003.1	86197	86568	+	AG-430-I18_00524	AG-430-I18	123	OG0000422	NA	NA	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-430-I18_00528	-4
+CACHRP010000003.1	86528	88393	+	AG-430-I18_00525	AG-430-I18	621	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-430-I18_00528	-3
+CACHRP010000003.1	88366	88638	+	AG-430-I18_00526	AG-430-I18	90	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-430-I18_00528	-2
+CACHRP010000003.1	88622	88954	+	AG-430-I18_00527	AG-430-I18	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-430-I18_00528	-1
+CACHRP010000003.1	88951	89217	+	AG-430-I18_00528	AG-430-I18	88	OG0001471	NA	NA	NA	NA	NA	AG-430-I18_00528	0
+CACHRP010000003.1	89214	90794	-	AG-430-I18_00529	AG-430-I18	526	OG0001404	NA	NA	NA	NA	NA	AG-430-I18_00528	1
+CACHRP010000003.1	90795	91412	-	AG-430-I18_00530	AG-430-I18	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-430-I18_00528	2
+CACHRP010000003.1	91441	92166	-	AG-430-I18_00531	AG-430-I18	241	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-430-I18_00528	3
+CACHRP010000003.1	92167	93027	-	AG-430-I18_00532	AG-430-I18	286	OG0001297	NA	NA	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	AG-430-I18_00528	4
+CACHRP010000003.1	93028	94629	-	AG-430-I18_00533	AG-430-I18	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-430-I18_00528	5
+CACIPQ010000002.1	70291	71766	-	AG-439-C08_00289	AG-439-C08	491	OG0000412	K03531	cell division protein FtsZ	COG0206	FtsZ	Cell division GTPase FtsZ	AG-439-C08_00295	-5
+CACIPQ010000002.1	71763	72227	-	AG-439-C08_00290	AG-439-C08	154	OG0000325	K03925	transcriptional regulator MraZ	COG2001	MraZ	MraZ, DNA-binding transcriptional regulator and inhibitor of RsmH methyltransferase activity	AG-439-C08_00295	-4
+CACIPQ010000002.1	72768	73496	-	AG-439-C08_00291	AG-439-C08	242	OG0000640	K01447	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]	COG3023	AmpD	N-acetyl-anhydromuramyl-L-alanine amidase AmpD	AG-439-C08_00295	-3
+CACIPQ010000002.1	73503	74288	+	AG-439-C08_00292	AG-439-C08	261	OG0000413	K04754	phospholipid-binding lipoprotein MlaA	COG2853	MlaA	Outer membrane channel MlaA of the intermembrane phospholipid transporter MlaABCDEF complex	AG-439-C08_00295	-2
+CACIPQ010000002.1	74298	74900	+	AG-439-C08_00293	AG-439-C08	200	OG0000414	K07323	phospholipid transport system substrate-binding protein	COG2854	MlaC	Periplasmic subunit MlaC of the ABC-type intermembrane phospholipid transporter Mla	AG-439-C08_00295	-1
+CACIPQ010000002.1	75078	75338	-	AG-439-C08_00295	AG-439-C08	86	OG0001471	NA	NA	NA	NA	NA	AG-439-C08_00295	0
+CACIPQ010000002.1	75339	76994	-	AG-439-C08_00296	AG-439-C08	551	OG0001404	NA	NA	NA	NA	NA	AG-439-C08_00295	1
+CACIPQ010000002.1	77026	78018	+	AG-439-C08_00297	AG-439-C08	330	OG0001129	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	AG-439-C08_00295	2
+CACIPQ010000002.1	78007	79908	-	AG-439-C08_00298	AG-439-C08	633	OG0000836	K03086	RNA polymerase primary sigma factor	COG0568	RpoD	DNA-directed RNA polymerase, sigma subunit (sigma70/sigma32)	AG-439-C08_00295	3
+CACIPQ010000002.1	79970	81736	-	AG-439-C08_00299	AG-439-C08	588	OG0000317	K02316	DNA primase [EC:2.7.7.101]	COG0358	DnaG	DNA primase (bacterial type)	AG-439-C08_00295	4
+CACIPQ010000002.1	81738	82193	-	AG-439-C08_00300	AG-439-C08	151	OG0000371	K09117	uncharacterized protein	COG1610	YqeY	Uncharacterized conserved protein YqeY, may have tRNA amino acid amidase activity	AG-439-C08_00295	5
+CACIRD010000001.1	162574	163935	+	AG-439-C18_00182	AG-439-C18	453	OG0000584	K01883	cysteinyl-tRNA synthetase [EC:6.1.1.16]	COG0215	CysS	Cysteinyl-tRNA synthetase	AG-439-C18_00187	-5
+CACIRD010000001.1	163932	165533	+	AG-439-C18_00183	AG-439-C18	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-439-C18_00187	-4
+CACIRD010000001.1	165533	166249	+	AG-439-C18_00184	AG-439-C18	238	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-439-C18_00187	-3
+CACIRD010000001.1	166286	166903	+	AG-439-C18_00185	AG-439-C18	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-439-C18_00187	-2
+CACIRD010000001.1	166904	168484	+	AG-439-C18_00186	AG-439-C18	526	OG0001404	NA	NA	NA	NA	NA	AG-439-C18_00187	-1
+CACIRD010000001.1	168481	168747	-	AG-439-C18_00187	AG-439-C18	88	OG0001471	NA	NA	NA	NA	NA	AG-439-C18_00187	0
+CACIRD010000001.1	168744	169076	-	AG-439-C18_00188	AG-439-C18	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-439-C18_00187	1
+CACIRD010000001.1	169060	169332	-	AG-439-C18_00189	AG-439-C18	90	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-439-C18_00187	2
+CACIRD010000001.1	169305	171497	-	AG-439-C18_00190	AG-439-C18	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-439-C18_00187	3
+CACIRD010000001.1	171494	172180	-	AG-439-C18_00191	AG-439-C18	228	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-439-C18_00187	4
+CACIRD010000001.1	172187	172420	-	AG-439-C18_00192	AG-439-C18	77	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-439-C18_00187	5
+CACJMB010000018.1	41	946	+	AG-447-L03_01307	AG-447-L03	301	OG0001404	NA	NA	NA	NA	NA	AG-447-L03_01308	-1
+CACJMB010000018.1	943	1209	-	AG-447-L03_01308	AG-447-L03	88	OG0001471	NA	NA	NA	NA	NA	AG-447-L03_01308	0
+CACJMB010000018.1	1230	1568	-	AG-447-L03_01309	AG-447-L03	112	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-447-L03_01308	1
+CACJMB010000018.1	1569	1799	-	AG-447-L03_01310	AG-447-L03	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-447-L03_01308	2
+CACJMB010000018.1	1799	3874	-	AG-447-L03_01311	AG-447-L03	691	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-447-L03_01308	3
+CACLBB010000006.1	18950	19240	+	AG-461-E04_00558	AG-461-E04	96	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-461-E04_00563	-5
+CACLBB010000006.1	19240	19917	+	AG-461-E04_00559	AG-461-E04	225	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-461-E04_00563	-4
+CACLBB010000006.1	19922	22117	+	AG-461-E04_00560	AG-461-E04	731	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-461-E04_00563	-3
+CACLBB010000006.1	22101	22331	+	AG-461-E04_00561	AG-461-E04	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-461-E04_00563	-2
+CACLBB010000006.1	22331	22648	+	AG-461-E04_00562	AG-461-E04	105	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-461-E04_00563	-1
+CACLBB010000006.1	22649	22912	+	AG-461-E04_00563	AG-461-E04	87	OG0001471	NA	NA	NA	NA	NA	AG-461-E04_00563	0
+CACLBB010000006.1	22909	23598	+	AG-461-E04_00564	AG-461-E04	229	OG0001203	NA	NA	NA	NA	NA	AG-461-E04_00563	1
+CACLBB010000006.1	23604	24017	-	AG-461-E04_00565	AG-461-E04	137	OG0001404	NA	NA	NA	NA	NA	AG-461-E04_00563	2
+CACLBB010000006.1	23995	25203	-	AG-461-E04_00566	AG-461-E04	402	OG0001404	NA	NA	NA	NA	NA	AG-461-E04_00563	3
+CACLBB010000006.1	25251	25868	-	AG-461-E04_00567	AG-461-E04	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-461-E04_00563	4
+CACLBB010000006.1	25913	26638	-	AG-461-E04_00568	AG-461-E04	241	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-461-E04_00563	5
+CACNQD010000003.1	136856	137620	+	AG-893-K09_00836	AG-893-K09	254	OG0000274	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	AG-893-K09_00841	-5
+CACNQD010000003.1	137611	138678	+	AG-893-K09_00837	AG-893-K09	355	OG0001249	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-893-K09_00841	-4
+CACNQD010000003.1	138665	139585	-	AG-893-K09_00838	AG-893-K09	306	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-893-K09_00841	-3
+CACNQD010000003.1	139613	140869	+	AG-893-K09_00839	AG-893-K09	418	OG0001137	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-893-K09_00841	-2
+CACNQD010000003.1	140869	141624	+	AG-893-K09_00840	AG-893-K09	251	OG0001249	NA	NA	NA	NA	NA	AG-893-K09_00841	-1
+CACNQD010000003.1	141605	141898	+	AG-893-K09_00841	AG-893-K09	97	OG0001471	NA	NA	NA	NA	NA	AG-893-K09_00841	0
+CACNQD010000003.1	141876	143465	+	AG-893-K09_00842	AG-893-K09	529	OG0001404	NA	NA	NA	NA	NA	AG-893-K09_00841	1
+CACNQD010000003.1	143505	145730	-	AG-893-K09_00843	AG-893-K09	741	OG0000514	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	AG-893-K09_00841	2
+CACNQD010000003.1	145772	146656	+	AG-893-K09_00844	AG-893-K09	294	OG0000345	K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	AG-893-K09_00841	3
+CACNQD010000003.1	146656	147126	+	AG-893-K09_00845	AG-893-K09	156	OG0000620	K03664	SsrA-binding protein	COG0691	SmpB	tmRNA-binding protein	AG-893-K09_00841	4
+CACNQD010000003.1	147323	147604	+	AG-893-K09_00846	AG-893-K09	93	OG0000716	NA	NA	COG0801	FolK	7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase (folate biosynthesis)	AG-893-K09_00841	5
+CACAYV010000007.1	24606	26816	+	AG-898-P13_00895	AG-898-P13	736	OG0000514	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	AG-898-P13_00900	-5
+CACAYV010000007.1	26825	27196	+	AG-898-P13_00896	AG-898-P13	123	OG0002396	NA	NA	NA	NA	NA	AG-898-P13_00900	-4
+CACAYV010000007.1	27190	28338	+	AG-898-P13_00897	AG-898-P13	382	OG0002067	NA	NA	NA	NA	NA	AG-898-P13_00900	-3
+CACAYV010000007.1	28331	29029	+	AG-898-P13_00898	AG-898-P13	232	OG0000043	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-898-P13_00900	-2
+CACAYV010000007.1	29037	30617	+	AG-898-P13_00899	AG-898-P13	526	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-898-P13_00900	-1
+CACAYV010000007.1	30614	30871	+	AG-898-P13_00900	AG-898-P13	85	OG0001471	NA	NA	NA	NA	NA	AG-898-P13_00900	0
+CACAYV010000007.1	31039	32292	+	AG-898-P13_00902	AG-898-P13	417	OG0000004	K00303	sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	AG-898-P13_00900	1
+CACAYV010000007.1	32292	32567	+	AG-898-P13_00903	AG-898-P13	91	OG0000024	K00304	sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	COG4311	SoxD	Sarcosine oxidase delta subunit	AG-898-P13_00900	2
+CACAYV010000007.1	32570	35581	+	AG-898-P13_00904	AG-898-P13	1003	OG0000022	K00302	sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	AG-898-P13_00900	3
+CACAYV010000007.1	35574	36137	+	AG-898-P13_00905	AG-898-P13	187	OG0000969	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	AG-898-P13_00900	4
+CACAYV010000007.1	36099	37460	-	AG-898-P13_00906	AG-898-P13	453	OG0000800	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	AG-898-P13_00900	5
+CACBLI010000005.1	54145	54708	-	AG-899-M07_00651	AG-899-M07	187	OG0000969	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	AG-899-M07_00656	-5
+CACBLI010000005.1	54701	57706	-	AG-899-M07_00652	AG-899-M07	1001	OG0000022	K00302	sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	AG-899-M07_00656	-4
+CACBLI010000005.1	57714	57986	-	AG-899-M07_00653	AG-899-M07	90	OG0000024	K00304	sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	COG4311	SoxD	Sarcosine oxidase delta subunit	AG-899-M07_00656	-3
+CACBLI010000005.1	57986	59239	-	AG-899-M07_00654	AG-899-M07	417	OG0000004	K00303	sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	AG-899-M07_00656	-2
+CACBLI010000005.1	59308	60972	+	AG-899-M07_00655	AG-899-M07	554	OG0001404	NA	NA	NA	NA	NA	AG-899-M07_00656	-1
+CACBLI010000005.1	60969	61223	+	AG-899-M07_00656	AG-899-M07	84	OG0001471	NA	NA	NA	NA	NA	AG-899-M07_00656	0
+CACBLI010000005.1	61361	63568	-	AG-899-M07_00658	AG-899-M07	735	OG0000514	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	AG-899-M07_00656	1
+CACBLI010000005.1	63611	64492	+	AG-899-M07_00659	AG-899-M07	293	OG0000345	K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	AG-899-M07_00656	2
+CACBLI010000005.1	64492	64962	+	AG-899-M07_00660	AG-899-M07	156	OG0000620	K03664	SsrA-binding protein	COG0691	SmpB	tmRNA-binding protein	AG-899-M07_00656	3
+CACBLI010000005.1	64963	65439	+	AG-899-M07_00661	AG-899-M07	158	OG0000716	K00950	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3]	COG0801	FolK	7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase (folate biosynthesis)	AG-899-M07_00656	4
+CACBLI010000005.1	65459	67204	+	AG-899-M07_00662	AG-899-M07	581	OG0000682	NA	NA	COG0317	SpoT	(p)ppGpp synthase/hydrolase, HD superfamily	AG-899-M07_00656	5
+CACCOG010000001.1	114590	115354	+	AG-901-I21_00126	AG-901-I21	254	OG0000274	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	AG-901-I21_00131	-5
+CACCOG010000001.1	115345	116412	+	AG-901-I21_00127	AG-901-I21	355	OG0001249	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-901-I21_00131	-4
+CACCOG010000001.1	116399	117319	-	AG-901-I21_00128	AG-901-I21	306	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-901-I21_00131	-3
+CACCOG010000001.1	117347	118603	+	AG-901-I21_00129	AG-901-I21	418	OG0001137	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-901-I21_00131	-2
+CACCOG010000001.1	118603	119358	+	AG-901-I21_00130	AG-901-I21	251	OG0001249	NA	NA	NA	NA	NA	AG-901-I21_00131	-1
+CACCOG010000001.1	119339	119632	+	AG-901-I21_00131	AG-901-I21	97	OG0001471	NA	NA	NA	NA	NA	AG-901-I21_00131	0
+CACCOG010000001.1	119619	121199	+	AG-901-I21_00132	AG-901-I21	526	OG0001404	NA	NA	NA	NA	NA	AG-901-I21_00131	1
+CACCOG010000001.1	121239	123464	-	AG-901-I21_00133	AG-901-I21	741	OG0000514	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	AG-901-I21_00131	2
+CACCOG010000001.1	123506	124390	+	AG-901-I21_00134	AG-901-I21	294	OG0000345	K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	AG-901-I21_00131	3
+CACCOG010000001.1	124390	124860	+	AG-901-I21_00135	AG-901-I21	156	OG0000620	K03664	SsrA-binding protein	COG0691	SmpB	tmRNA-binding protein	AG-901-I21_00131	4
+CACCOG010000001.1	125359	127119	+	AG-901-I21_00136	AG-901-I21	586	OG0000682	NA	NA	COG0317	SpoT	(p)ppGpp synthase/hydrolase, HD superfamily	AG-901-I21_00131	5
+CACDGO010000002.1	144172	145518	-	AG-903-M21_00431	AG-903-M21	448	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-903-M21_00436	-5
+CACDGO010000002.1	145519	148416	-	AG-903-M21_00432	AG-903-M21	965	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-903-M21_00436	-4
+CACDGO010000002.1	148449	149324	-	AG-903-M21_00433	AG-903-M21	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-903-M21_00436	-3
+CACDGO010000002.1	149325	150488	-	AG-903-M21_00434	AG-903-M21	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-903-M21_00436	-2
+CACDGO010000002.1	150553	152202	+	AG-903-M21_00435	AG-903-M21	549	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-903-M21_00436	-1
+CACDGO010000002.1	152206	152469	+	AG-903-M21_00436	AG-903-M21	87	OG0001471	NA	NA	NA	NA	NA	AG-903-M21_00436	0
+CACDGO010000002.1	152471	153346	+	AG-903-M21_00437	AG-903-M21	291	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-903-M21_00436	1
+CACDGO010000002.1	153311	154882	-	AG-903-M21_00438	AG-903-M21	523	OG0001507	NA	NA	NA	NA	NA	AG-903-M21_00436	2
+CACDGO010000002.1	154923	155606	+	AG-903-M21_00439	AG-903-M21	227	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-903-M21_00436	3
+CACDGO010000002.1	155607	156566	-	AG-903-M21_00440	AG-903-M21	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-903-M21_00436	4
+CACDGO010000002.1	156577	158070	-	AG-903-M21_00441	AG-903-M21	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-903-M21_00436	5
+CACDPZ010000006.1	40579	42345	+	AG-904-F11_00601	AG-904-F11	588	OG0000845	K13598	two-component system, NtrC family, nitrogen regulation sensor histidine kinase NtrY [EC:2.7.13.3]	COG5000	NtrY	Signal transduction histidine kinase NtrY involved in nitrogen fixation and metabolism regulation	AG-904-F11_00606	-5
+CACDPZ010000006.1	42349	43716	+	AG-904-F11_00602	AG-904-F11	455	OG0000749	NA	NA	COG2204	AtoC	DNA-binding transcriptional response regulator, NtrC family, contains REC, AAA-type ATPase, and a Fis-type DNA-binding domains	AG-904-F11_00606	-4
+CACDPZ010000006.1	43719	45086	+	AG-904-F11_00603	AG-904-F11	455	OG0000904	K03499	trk/ktr system potassium uptake protein	COG0569	TrkA	Trk/Ktr K+ transport system regulatory component TrkA/KtrA/KtrC, RCK domain	AG-904-F11_00606	-3
+CACDPZ010000006.1	45079	46053	-	AG-904-F11_00604	AG-904-F11	324	OG0000023	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	AG-904-F11_00606	-2
+CACDPZ010000006.1	46050	47621	-	AG-904-F11_00605	AG-904-F11	523	OG0001404	NA	NA	NA	NA	NA	AG-904-F11_00606	-1
+CACDPZ010000006.1	47630	47908	-	AG-904-F11_00606	AG-904-F11	92	OG0001471	NA	NA	NA	NA	NA	AG-904-F11_00606	0
+CACDPZ010000006.1	47947	48702	+	AG-904-F11_00607	AG-904-F11	251	OG0001189	K16698	teichuronic acid biosynthesis glycosyltransferase TuaG [EC:2.4.-.-]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-904-F11_00606	1
+CACDPZ010000006.1	48902	49657	-	AG-904-F11_00609	AG-904-F11	251	OG0000786	NA	NA	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	AG-904-F11_00606	2
+CACDPZ010000006.1	51313	51504	+	AG-904-F11_00613	AG-904-F11	63	OG0001138	K03073	preprotein translocase subunit SecE	COG0690	SecE	Preprotein translocase subunit SecE	AG-904-F11_00606	3
+CACDPZ010000006.1	51505	52029	+	AG-904-F11_00614	AG-904-F11	174	OG0000601	K02601	transcription termination/antitermination protein NusG	COG0250	NusG	Transcription termination/antitermination protein NusG	AG-904-F11_00606	4
+CACDPZ010000006.1	52032	52457	+	AG-904-F11_00615	AG-904-F11	141	OG0000619	K02867	large subunit ribosomal protein L11	COG0080	RplK	Ribosomal protein L11	AG-904-F11_00606	5
+CACFUR010000002.1	90485	92245	-	AG-909-A17_00342	AG-909-A17	586	OG0000682	NA	NA	COG0317	SpoT	(p)ppGpp synthase/hydrolase, HD superfamily	AG-909-A17_00347	-5
+CACFUR010000002.1	92744	93214	-	AG-909-A17_00343	AG-909-A17	156	OG0000620	K03664	SsrA-binding protein	COG0691	SmpB	tmRNA-binding protein	AG-909-A17_00347	-4
+CACFUR010000002.1	93214	94098	-	AG-909-A17_00344	AG-909-A17	294	OG0000345	K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	AG-909-A17_00347	-3
+CACFUR010000002.1	94140	96368	+	AG-909-A17_00345	AG-909-A17	742	OG0000514	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	AG-909-A17_00347	-2
+CACFUR010000002.1	96352	97947	+	AG-909-A17_00346	AG-909-A17	531	OG0001404	NA	NA	NA	NA	NA	AG-909-A17_00347	-1
+CACFUR010000002.1	97944	98201	+	AG-909-A17_00347	AG-909-A17	85	OG0001471	NA	NA	NA	NA	NA	AG-909-A17_00347	0
+CACFUR010000002.1	98370	99623	+	AG-909-A17_00349	AG-909-A17	417	OG0000004	K00303	sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	AG-909-A17_00347	1
+CACFUR010000002.1	99623	99898	+	AG-909-A17_00350	AG-909-A17	91	OG0000024	K00304	sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	COG4311	SoxD	Sarcosine oxidase delta subunit	AG-909-A17_00347	2
+CACFUR010000002.1	99901	102909	+	AG-909-A17_00351	AG-909-A17	1002	OG0000022	K00302	sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	AG-909-A17_00347	3
+CACFUR010000002.1	102902	103465	+	AG-909-A17_00352	AG-909-A17	187	OG0000969	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	AG-909-A17_00347	4
+CACFUR010000002.1	103527	104291	+	AG-909-A17_00353	AG-909-A17	254	OG0001242	K01713	cyclohexadienyl dehydratase [EC:4.2.1.51 4.2.1.91]	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-909-A17_00347	5
+CACHFP010000005.1	55216	55992	-	AG-911-G13_00763	AG-911-G13	258	OG0001132	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	AG-911-G13_00768	-5
+CACHFP010000005.1	55992	57080	-	AG-911-G13_00764	AG-911-G13	362	OG0001850	K21071	ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase [EC:2.7.1.11 2.7.1.90]	COG0205	PfkA	6-phosphofructokinase	AG-911-G13_00768	-4
+CACHFP010000005.1	57146	58558	+	AG-911-G13_00765	AG-911-G13	470	OG0001526	K00873	pyruvate kinase [EC:2.7.1.40]	COG0469	PykF	Pyruvate kinase	AG-911-G13_00768	-3
+CACHFP010000005.1	58558	58731	+	AG-911-G13_00766	AG-911-G13	57	OG0001680	NA	NA	NA	NA	NA	AG-911-G13_00768	-2
+CACHFP010000005.1	58728	59732	-	AG-911-G13_00767	AG-911-G13	334	OG0000505	K00134	glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]	COG0057	GapA	Glyceraldehyde-3-phosphate dehydrogenase/erythrose-4-phosphate dehydrogenase	AG-911-G13_00768	-1
+CACHFP010000005.1	59745	59999	-	AG-911-G13_00768	AG-911-G13	84	OG0001471	NA	NA	NA	NA	NA	AG-911-G13_00768	0
+CACHFP010000005.1	59999	61654	-	AG-911-G13_00769	AG-911-G13	551	OG0001404	NA	NA	NA	NA	NA	AG-911-G13_00768	1
+CACHFP010000005.1	61711	62316	+	AG-911-G13_00770	AG-911-G13	201	OG0002246	NA	NA	NA	NA	NA	AG-911-G13_00768	2
+CACHFP010000005.1	62313	63422	-	AG-911-G13_00771	AG-911-G13	369	NA	K13010	perosamine synthetase [EC:2.6.1.102]	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-911-G13_00768	3
+CACHFP010000005.1	63472	64173	+	AG-911-G13_00772	AG-911-G13	233	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-911-G13_00768	4
+CACHFP010000005.1	64174	65256	+	AG-911-G13_00773	AG-911-G13	360	OG0002401	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	AG-911-G13_00768	5
+CACHJZ010000002.1	78874	80475	+	AG-911-N14_00316	AG-911-N14	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-911-N14_00321	-5
+CACHJZ010000002.1	80476	81336	+	AG-911-N14_00317	AG-911-N14	286	OG0001297	NA	NA	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	AG-911-N14_00321	-4
+CACHJZ010000002.1	81337	82062	+	AG-911-N14_00318	AG-911-N14	241	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-911-N14_00321	-3
+CACHJZ010000002.1	82091	82708	+	AG-911-N14_00319	AG-911-N14	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-911-N14_00321	-2
+CACHJZ010000002.1	82709	84289	+	AG-911-N14_00320	AG-911-N14	526	OG0001404	NA	NA	NA	NA	NA	AG-911-N14_00321	-1
+CACHJZ010000002.1	84286	84552	-	AG-911-N14_00321	AG-911-N14	88	OG0001471	NA	NA	NA	NA	NA	AG-911-N14_00321	0
+CACHJZ010000002.1	84549	84881	-	AG-911-N14_00322	AG-911-N14	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-911-N14_00321	1
+CACHJZ010000002.1	84865	85137	-	AG-911-N14_00323	AG-911-N14	90	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-911-N14_00321	2
+CACHJZ010000002.1	85110	87305	-	AG-911-N14_00324	AG-911-N14	731	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-911-N14_00321	3
+CACHJZ010000002.1	87302	87985	-	AG-911-N14_00325	AG-911-N14	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-911-N14_00321	4
+CACHJZ010000002.1	87992	88225	-	AG-911-N14_00326	AG-911-N14	77	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-911-N14_00321	5
+CACHRI010000001.1	235055	235579	-	AG-912-D10_00266	AG-912-D10	174	OG0000601	K02601	transcription termination/antitermination protein NusG	COG0250	NusG	Transcription termination/antitermination protein NusG	AG-912-D10_00275	-5
+CACHRI010000001.1	235580	235771	-	AG-912-D10_00267	AG-912-D10	63	OG0001138	K03073	preprotein translocase subunit SecE	COG0690	SecE	Preprotein translocase subunit SecE	AG-912-D10_00275	-4
+CACHRI010000001.1	237424	238179	+	AG-912-D10_00271	AG-912-D10	251	OG0000786	NA	NA	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	AG-912-D10_00275	-3
+CACHRI010000001.1	238303	239385	-	AG-912-D10_00273	AG-912-D10	360	OG0001888	NA	NA	NA	NA	NA	AG-912-D10_00275	-2
+CACHRI010000001.1	239376	240131	-	AG-912-D10_00274	AG-912-D10	251	OG0001189	K16698	teichuronic acid biosynthesis glycosyltransferase TuaG [EC:2.4.-.-]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-912-D10_00275	-1
+CACHRI010000001.1	240170	240448	+	AG-912-D10_00275	AG-912-D10	92	OG0001471	NA	NA	NA	NA	NA	AG-912-D10_00275	0
+CACHRI010000001.1	240458	242020	+	AG-912-D10_00276	AG-912-D10	520	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-912-D10_00275	1
+CACHRI010000001.1	242013	243152	+	AG-912-D10_00277	AG-912-D10	379	OG0001636	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	AG-912-D10_00275	2
+CACHRI010000001.1	243149	244123	+	AG-912-D10_00278	AG-912-D10	324	OG0000023	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	AG-912-D10_00275	3
+CACHRI010000001.1	244116	245483	-	AG-912-D10_00279	AG-912-D10	455	OG0000904	K03499	trk/ktr system potassium uptake protein	COG0569	TrkA	Trk/Ktr K+ transport system regulatory component TrkA/KtrA/KtrC, RCK domain	AG-912-D10_00275	4
+CACHRI010000001.1	245486	246856	-	AG-912-D10_00280	AG-912-D10	456	OG0000749	NA	NA	COG2204	AtoC	DNA-binding transcriptional response regulator, NtrC family, contains REC, AAA-type ATPase, and a Fis-type DNA-binding domains	AG-912-D10_00275	5
+CACICB010000001.1	55571	55744	+	AG-912-P19_00059	AG-912-P19	57	OG0001680	NA	NA	NA	NA	NA	AG-912-P19_00064	-5
+CACICB010000001.1	55741	56904	-	AG-912-P19_00060	AG-912-P19	387	OG0001129	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	AG-912-P19_00064	-4
+CACICB010000001.1	56904	58235	-	AG-912-P19_00061	AG-912-P19	443	OG0001596	NA	NA	COG2220	UlaG	L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily	AG-912-P19_00064	-3
+CACICB010000001.1	58261	59265	-	AG-912-P19_00062	AG-912-P19	334	OG0000505	K00134	glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]	COG0057	GapA	Glyceraldehyde-3-phosphate dehydrogenase/erythrose-4-phosphate dehydrogenase	AG-912-P19_00064	-2
+CACICB010000001.1	59273	59860	-	AG-912-P19_00063	AG-912-P19	195	OG0003038	NA	NA	NA	NA	NA	AG-912-P19_00064	-1
+CACICB010000001.1	59868	60131	-	AG-912-P19_00064	AG-912-P19	87	OG0001471	NA	NA	NA	NA	NA	AG-912-P19_00064	0
+CACICB010000001.1	60134	61783	-	AG-912-P19_00065	AG-912-P19	549	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-912-P19_00064	1
+CACICB010000001.1	61780	62520	-	AG-912-P19_00066	AG-912-P19	246	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-912-P19_00064	2
+CACICB010000001.1	62565	62963	+	AG-912-P19_00067	AG-912-P19	132	OG0001635	NA	NA	NA	NA	NA	AG-912-P19_00064	3
+CACICB010000001.1	62967	64100	+	AG-912-P19_00068	AG-912-P19	377	OG0000093	K13010	perosamine synthetase [EC:2.6.1.102]	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-912-P19_00064	4
+CACICB010000001.1	64097	64456	-	AG-912-P19_00069	AG-912-P19	119	OG0001503	NA	NA	COG5477	NA	Small integral membrane protein, DUF2160 family	AG-912-P19_00064	5
+CACICB010000002.1	89213	90412	-	AG-912-P19_00331	AG-912-P19	399	OG0000491	K02358	elongation factor Tu	COG0050	TufA	Translation elongation factor EF-Tu, a GTPase	AG-912-P19_00339	-5
+CACICB010000002.1	90791	91534	+	AG-912-P19_00334	AG-912-P19	247	OG0000786	NA	NA	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	AG-912-P19_00339	-4
+CACICB010000002.1	91713	92417	+	AG-912-P19_00336	AG-912-P19	234	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-912-P19_00339	-3
+CACICB010000002.1	92423	93193	-	AG-912-P19_00337	AG-912-P19	256	OG0000045	NA	NA	NA	NA	NA	AG-912-P19_00339	-2
+CACICB010000002.1	93190	94779	-	AG-912-P19_00338	AG-912-P19	529	OG0001404	NA	NA	NA	NA	NA	AG-912-P19_00339	-1
+CACICB010000002.1	94763	95062	-	AG-912-P19_00339	AG-912-P19	99	OG0001471	NA	NA	NA	NA	NA	AG-912-P19_00339	0
+CACICB010000002.1	95118	95885	-	AG-912-P19_00340	AG-912-P19	255	OG0000972	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	AG-912-P19_00339	1
+CACICB010000002.1	96046	96999	+	AG-912-P19_00342	AG-912-P19	317	OG0001428	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-912-P19_00339	2
+CACICB010000002.1	96996	97751	-	AG-912-P19_00343	AG-912-P19	251	OG0000807	NA	NA	COG1058	CinA	ADP-ribose pyrophosphatase domain of DNA damage- and competence-inducible protein CinA	AG-912-P19_00339	3
+CACICB010000002.1	97768	98463	+	AG-912-P19_00344	AG-912-P19	231	OG0000819	K06206	sugar fermentation stimulation protein A	COG1489	SfsA	DNA-binding protein, stimulates sugar fermentation	AG-912-P19_00339	4
+CACICB010000002.1	98463	99212	+	AG-912-P19_00345	AG-912-P19	249	OG0000721	K01265	methionyl aminopeptidase [EC:3.4.11.18]	COG0024	Map	Methionine aminopeptidase	AG-912-P19_00339	5
+CACIEO010000002.1	255519	257120	+	AG-913-C02_00583	AG-913-C02	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-913-C02_00588	-5
+CACIEO010000002.1	257121	257981	+	AG-913-C02_00584	AG-913-C02	286	OG0001297	K09967	uncharacterized protein	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	AG-913-C02_00588	-4
+CACIEO010000002.1	257982	258707	+	AG-913-C02_00585	AG-913-C02	241	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-913-C02_00588	-3
+CACIEO010000002.1	258736	259353	+	AG-913-C02_00586	AG-913-C02	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-913-C02_00588	-2
+CACIEO010000002.1	259354	260934	+	AG-913-C02_00587	AG-913-C02	526	OG0001404	NA	NA	NA	NA	NA	AG-913-C02_00588	-1
+CACIEO010000002.1	260931	261197	-	AG-913-C02_00588	AG-913-C02	88	OG0001471	NA	NA	NA	NA	NA	AG-913-C02_00588	0
+CACIEO010000002.1	261194	261526	-	AG-913-C02_00589	AG-913-C02	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-913-C02_00588	1
+CACIEO010000002.1	261510	261755	-	AG-913-C02_00590	AG-913-C02	81	OG0000763	NA	NA	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-913-C02_00588	2
+CACIEO010000002.1	261755	263950	-	AG-913-C02_00591	AG-913-C02	731	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-913-C02_00588	3
+CACIEO010000002.1	263947	264630	-	AG-913-C02_00592	AG-913-C02	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-913-C02_00588	4
+CACIEO010000002.1	264637	264870	-	AG-913-C02_00593	AG-913-C02	77	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-913-C02_00588	5
+CACIEM010000013.1	185	568	+	AG-913-C03_01284	AG-913-C03	127	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-913-C03_01286	-2
+CACIEM010000013.1	608	2149	+	AG-913-C03_01285	AG-913-C03	513	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-913-C03_01286	-1
+CACIEM010000013.1	2146	2412	-	AG-913-C03_01286	AG-913-C03	88	OG0001471	NA	NA	NA	NA	NA	AG-913-C03_01286	0
+CACIEM010000013.1	2432	2770	-	AG-913-C03_01287	AG-913-C03	112	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-913-C03_01286	1
+CACIEM010000013.1	2772	3002	-	AG-913-C03_01288	AG-913-C03	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-913-C03_01286	2
+CACIEM010000013.1	3002	5194	-	AG-913-C03_01289	AG-913-C03	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-913-C03_01286	3
+CACIEM010000013.1	5191	5874	-	AG-913-C03_01290	AG-913-C03	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-913-C03_01286	4
+CACIEM010000013.1	5878	6120	-	AG-913-C03_01291	AG-913-C03	80	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-913-C03_01286	5
+CACILM010000002.1	142102	142383	+	AG-913-I14_00418	AG-913-I14	93	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-913-I14_00423	-5
+CACILM010000002.1	142380	143057	+	AG-913-I14_00419	AG-913-I14	225	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-913-I14_00423	-4
+CACILM010000002.1	143065	145245	+	AG-913-I14_00420	AG-913-I14	726	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-913-I14_00423	-3
+CACILM010000002.1	145245	145475	+	AG-913-I14_00421	AG-913-I14	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-913-I14_00423	-2
+CACILM010000002.1	145475	145792	+	AG-913-I14_00422	AG-913-I14	105	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-913-I14_00423	-1
+CACILM010000002.1	145792	146055	+	AG-913-I14_00423	AG-913-I14	87	OG0001471	NA	NA	NA	NA	NA	AG-913-I14_00423	0
+CACILM010000002.1	146052	147629	-	AG-913-I14_00424	AG-913-I14	525	OG0001404	NA	NA	NA	NA	NA	AG-913-I14_00423	1
+CACILM010000002.1	147668	148285	-	AG-913-I14_00425	AG-913-I14	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-913-I14_00423	2
+CACILM010000002.1	148330	149055	-	AG-913-I14_00426	AG-913-I14	241	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-913-I14_00423	3
+CACILM010000002.1	149045	150649	-	AG-913-I14_00427	AG-913-I14	534	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-913-I14_00423	4
+CACILM010000002.1	150646	151992	-	AG-913-I14_00428	AG-913-I14	448	OG0000584	K01883	cysteinyl-tRNA synthetase [EC:6.1.1.16]	COG0215	CysS	Cysteinyl-tRNA synthetase	AG-913-I14_00423	5
+CACILM010000004.1	103616	104356	+	AG-913-I14_00798	AG-913-I14	246	OG0000383	NA	NA	COG0791	NlpC	Cell wall-associated hydrolase, NlpC_P60 family	AG-913-I14_00803	-5
+CACILM010000004.1	104518	105456	+	AG-913-I14_00799	AG-913-I14	312	OG0000020	K02377	GDP-L-fucose synthase [EC:1.1.1.271]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-913-I14_00803	-4
+CACILM010000004.1	105457	106182	+	AG-913-I14_00800	AG-913-I14	241	OG0000983	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-913-I14_00803	-3
+CACILM010000004.1	106195	107457	-	AG-913-I14_00801	AG-913-I14	420	OG0001354	NA	NA	NA	NA	NA	AG-913-I14_00803	-2
+CACILM010000004.1	107746	109356	+	AG-913-I14_00802	AG-913-I14	536	OG0001404	NA	NA	NA	NA	NA	AG-913-I14_00803	-1
+CACILM010000004.1	109394	109663	+	AG-913-I14_00803	AG-913-I14	89	OG0001471	NA	NA	NA	NA	NA	AG-913-I14_00803	0
+CACILM010000004.1	109672	110382	-	AG-913-I14_00804	AG-913-I14	236	OG0000983	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-913-I14_00803	1
+CACILM010000004.1	110566	111339	-	AG-913-I14_00806	AG-913-I14	257	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-913-I14_00803	2
+CACILM010000004.1	111440	112450	+	AG-913-I14_00807	AG-913-I14	336	OG0001175	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-913-I14_00803	3
+CACILM010000004.1	112460	113380	+	AG-913-I14_00808	AG-913-I14	306	OG0001141	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-913-I14_00803	4
+CACILM010000004.1	113389	114639	+	AG-913-I14_00809	AG-913-I14	416	OG0001325	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	AG-913-I14_00803	5
+CACPLO010000002.1	97346	98686	-	AG-914-I16_00325	AG-914-I16	446	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-914-I16_00330	-5
+CACPLO010000002.1	98686	101574	-	AG-914-I16_00326	AG-914-I16	962	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-914-I16_00330	-4
+CACPLO010000002.1	101607	102482	-	AG-914-I16_00327	AG-914-I16	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-914-I16_00330	-3
+CACPLO010000002.1	102484	103647	-	AG-914-I16_00328	AG-914-I16	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-914-I16_00330	-2
+CACPLO010000002.1	103695	105338	+	AG-914-I16_00329	AG-914-I16	547	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-914-I16_00330	-1
+CACPLO010000002.1	105335	105589	+	AG-914-I16_00330	AG-914-I16	84	OG0001471	NA	NA	NA	NA	NA	AG-914-I16_00330	0
+CACPLO010000002.1	105599	106465	+	AG-914-I16_00331	AG-914-I16	288	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-914-I16_00330	1
+CACPLO010000002.1	106462	107094	-	AG-914-I16_00332	AG-914-I16	210	OG0002246	NA	NA	COG1246	ArgA	N-acetylglutamate synthase or related acetyltransferase, GNAT family	AG-914-I16_00330	2
+CACPLO010000002.1	107100	108686	-	AG-914-I16_00333	AG-914-I16	528	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-914-I16_00330	3
+CACPLO010000002.1	108661	109926	-	AG-914-I16_00334	AG-914-I16	421	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-914-I16_00330	4
+CACPLO010000002.1	109926	111338	-	AG-914-I16_00335	AG-914-I16	470	OG0001860	NA	NA	NA	NA	NA	AG-914-I16_00330	5
+CACPLO010000011.1	15305	15544	+	AG-914-I16_00980	AG-914-I16	79	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-914-I16_00985	-5
+CACPLO010000011.1	15544	16221	+	AG-914-I16_00981	AG-914-I16	225	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-914-I16_00985	-4
+CACPLO010000011.1	16222	18402	+	AG-914-I16_00982	AG-914-I16	726	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-914-I16_00985	-3
+CACPLO010000011.1	18402	18632	+	AG-914-I16_00983	AG-914-I16	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-914-I16_00985	-2
+CACPLO010000011.1	18632	18952	+	AG-914-I16_00984	AG-914-I16	106	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-914-I16_00985	-1
+CACPLO010000011.1	18949	19212	+	AG-914-I16_00985	AG-914-I16	87	OG0001471	NA	NA	NA	NA	NA	AG-914-I16_00985	0
+CACPLO010000011.1	19209	20789	-	AG-914-I16_00986	AG-914-I16	526	OG0001404	NA	NA	NA	NA	NA	AG-914-I16_00985	1
+CACPLO010000011.1	20799	21416	-	AG-914-I16_00987	AG-914-I16	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-914-I16_00985	2
+CACPLO010000011.1	21460	22185	-	AG-914-I16_00988	AG-914-I16	241	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-914-I16_00985	3
+CACPLO010000011.1	22175	23779	-	AG-914-I16_00989	AG-914-I16	534	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-914-I16_00985	4
+CACPLO010000011.1	23776	25125	-	AG-914-I16_00990	AG-914-I16	449	OG0000584	K01883	cysteinyl-tRNA synthetase [EC:6.1.1.16]	COG0215	CysS	Cysteinyl-tRNA synthetase	AG-914-I16_00985	5
+CACIZB010000001.1	91685	91927	+	AG-914-L04_00101	AG-914-L04	80	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-914-L04_00106	-5
+CACIZB010000001.1	91931	92623	+	AG-914-L04_00102	AG-914-L04	230	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-914-L04_00106	-4
+CACIZB010000001.1	92613	94805	+	AG-914-L04_00103	AG-914-L04	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-914-L04_00106	-3
+CACIZB010000001.1	94805	95035	+	AG-914-L04_00104	AG-914-L04	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-914-L04_00106	-2
+CACIZB010000001.1	95035	95373	+	AG-914-L04_00105	AG-914-L04	112	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-914-L04_00106	-1
+CACIZB010000001.1	95385	95654	+	AG-914-L04_00106	AG-914-L04	89	OG0001471	NA	NA	COG2902	Gdh2	NAD-specific glutamate dehydrogenase	AG-914-L04_00106	0
+CACIZB010000001.1	95651	97261	-	AG-914-L04_00107	AG-914-L04	536	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-914-L04_00106	1
+CACIZB010000001.1	97224	97910	-	AG-914-L04_00108	AG-914-L04	228	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-914-L04_00106	2
+CACIZB010000001.1	97918	98535	-	AG-914-L04_00109	AG-914-L04	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-914-L04_00106	3
+CACIZB010000001.1	98576	99289	-	AG-914-L04_00110	AG-914-L04	237	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-914-L04_00106	4
+CACIZB010000001.1	99291	100154	-	AG-914-L04_00111	AG-914-L04	287	OG0001297	K09967	uncharacterized protein	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	AG-914-L04_00106	5
+CACPMO010000002.1	134801	136402	+	AG-914-L20_00355	AG-914-L20	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-914-L20_00360	-5
+CACPMO010000002.1	136403	137263	+	AG-914-L20_00356	AG-914-L20	286	OG0001297	NA	NA	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	AG-914-L20_00360	-4
+CACPMO010000002.1	137264	137989	+	AG-914-L20_00357	AG-914-L20	241	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-914-L20_00360	-3
+CACPMO010000002.1	138018	138635	+	AG-914-L20_00358	AG-914-L20	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-914-L20_00360	-2
+CACPMO010000002.1	138636	140216	+	AG-914-L20_00359	AG-914-L20	526	OG0001404	NA	NA	NA	NA	NA	AG-914-L20_00360	-1
+CACPMO010000002.1	140213	140479	-	AG-914-L20_00360	AG-914-L20	88	OG0001471	NA	NA	NA	NA	NA	AG-914-L20_00360	0
+CACPMO010000002.1	140476	140808	-	AG-914-L20_00361	AG-914-L20	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-914-L20_00360	1
+CACPMO010000002.1	140792	141064	-	AG-914-L20_00362	AG-914-L20	90	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-914-L20_00360	2
+CACPMO010000002.1	141037	143229	-	AG-914-L20_00363	AG-914-L20	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-914-L20_00360	3
+CACPMO010000002.1	143229	144095	-	AG-914-L20_00364	AG-914-L20	288	OG0001126	NA	NA	NA	NA	NA	AG-914-L20_00360	4
+CACPMO010000002.1	144092	144937	-	AG-914-L20_00365	AG-914-L20	281	OG0001126	NA	NA	NA	NA	NA	AG-914-L20_00360	5
+CACJCF010000006.1	2158	3204	-	AG-914-N11_00905	AG-914-N11	348	OG0000283	K00254	dihydroorotate dehydrogenase [EC:1.3.5.2]	COG0167	PyrD	Dihydroorotate dehydrogenase	AG-914-N11_00910	-5
+CACJCF010000006.1	3204	4766	-	AG-914-N11_00906	AG-914-N11	520	OG0000268	K04566	lysyl-tRNA synthetase, class I [EC:6.1.1.6]	COG1384	LysS	Lysyl-tRNA synthetase, class I	AG-914-N11_00910	-4
+CACJCF010000006.1	4860	6308	+	AG-914-N11_00907	AG-914-N11	482	OG0000551	K03498	trk/ktr system potassium uptake protein	COG0168	TrkG	Trk-type K+ transport system, membrane component	AG-914-N11_00910	-3
+CACJCF010000006.1	6312	7685	+	AG-914-N11_00908	AG-914-N11	457	OG0000364	K08218	MFS transporter, PAT family, beta-lactamase induction signal transducer AmpG	COG2211	MelB	Na+/melibiose symporter or related transporter	AG-914-N11_00910	-2
+CACJCF010000006.1	7678	8418	+	AG-914-N11_00909	AG-914-N11	246	OG0000383	NA	NA	COG0791	NlpC	Cell wall-associated hydrolase, NlpC_P60 family	AG-914-N11_00910	-1
+CACJCF010000006.1	8524	8781	-	AG-914-N11_00910	AG-914-N11	85	OG0001471	NA	NA	NA	NA	NA	AG-914-N11_00910	0
+CACJCF010000006.1	8785	10401	-	AG-914-N11_00911	AG-914-N11	538	OG0001404	NA	NA	COG4485	YfhO	Uncharacterized membrane protein YfhO	AG-914-N11_00910	1
+CACJCF010000006.1	10554	11798	-	AG-914-N11_00913	AG-914-N11	414	OG0001354	NA	NA	NA	NA	NA	AG-914-N11_00910	2
+CACJCF010000006.1	11799	12497	-	AG-914-N11_00914	AG-914-N11	232	OG0000983	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-914-N11_00910	3
+CACJCF010000006.1	12519	13541	-	AG-914-N11_00915	AG-914-N11	340	OG0001175	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-914-N11_00910	4
+CACJCF010000006.1	13541	15349	-	AG-914-N11_00916	AG-914-N11	602	OG0000294	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	AG-914-N11_00910	5
+CACJUZ010000001.1	105999	107369	+	AG-916-D16_00109	AG-916-D16	456	OG0000749	NA	NA	COG2204	AtoC	DNA-binding transcriptional response regulator, NtrC family, contains REC, AAA-type ATPase, and a Fis-type DNA-binding domains	AG-916-D16_00114	-5
+CACJUZ010000001.1	107373	108740	+	AG-916-D16_00110	AG-916-D16	455	OG0000904	K03499	trk/ktr system potassium uptake protein	COG0569	TrkA	Trk/Ktr K+ transport system regulatory component TrkA/KtrA/KtrC, RCK domain	AG-916-D16_00114	-4
+CACJUZ010000001.1	108723	109700	-	AG-916-D16_00111	AG-916-D16	325	OG0000023	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	AG-916-D16_00114	-3
+CACJUZ010000001.1	109704	110840	-	AG-916-D16_00112	AG-916-D16	378	OG0001636	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	AG-916-D16_00114	-2
+CACJUZ010000001.1	110837	112393	-	AG-916-D16_00113	AG-916-D16	518	OG0001404	NA	NA	NA	NA	NA	AG-916-D16_00114	-1
+CACJUZ010000001.1	112403	112681	-	AG-916-D16_00114	AG-916-D16	92	OG0001471	NA	NA	NA	NA	NA	AG-916-D16_00114	0
+CACJUZ010000001.1	112716	113471	+	AG-916-D16_00115	AG-916-D16	251	OG0001189	K16698	teichuronic acid biosynthesis glycosyltransferase TuaG [EC:2.4.-.-]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-916-D16_00114	1
+CACJUZ010000001.1	113458	114567	+	AG-916-D16_00116	AG-916-D16	369	OG0001888	NA	NA	NA	NA	NA	AG-916-D16_00114	2
+CACJUZ010000001.1	114743	115345	+	AG-916-D16_00117	AG-916-D16	200	OG0001335	NA	NA	NA	NA	NA	AG-916-D16_00114	3
+CACJUZ010000001.1	115393	115980	+	AG-916-D16_00118	AG-916-D16	195	OG0001335	NA	NA	NA	NA	NA	AG-916-D16_00114	4
+CACJUZ010000001.1	116064	116645	+	AG-916-D16_00119	AG-916-D16	193	OG0001335	NA	NA	NA	NA	NA	AG-916-D16_00114	5
+CACJWN010000005.1	15404	16714	+	AG-916-E17_00550	AG-916-E17	436	OG0001354	NA	NA	NA	NA	NA	AG-916-E17_00556	-5
+CACJWN010000005.1	16729	17667	-	AG-916-E17_00551	AG-916-E17	312	OG0003146	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-916-E17_00556	-4
+CACJWN010000005.1	17877	18581	+	AG-916-E17_00553	AG-916-E17	234	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-916-E17_00556	-3
+CACJWN010000005.1	18586	19356	-	AG-916-E17_00554	AG-916-E17	256	OG0000045	NA	NA	NA	NA	NA	AG-916-E17_00556	-2
+CACJWN010000005.1	19357	20946	-	AG-916-E17_00555	AG-916-E17	529	OG0001404	NA	NA	NA	NA	NA	AG-916-E17_00556	-1
+CACJWN010000005.1	20930	21229	-	AG-916-E17_00556	AG-916-E17	99	OG0001471	NA	NA	NA	NA	NA	AG-916-E17_00556	0
+CACJWN010000005.1	21286	22053	-	AG-916-E17_00557	AG-916-E17	255	OG0000972	K00858	NAD+ kinase [EC:2.7.1.23]	COG0061	NadK	NAD kinase	AG-916-E17_00556	1
+CACJWN010000005.1	22215	23168	+	AG-916-E17_00559	AG-916-E17	317	OG0001428	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-916-E17_00556	2
+CACJWN010000005.1	23165	23920	-	AG-916-E17_00560	AG-916-E17	251	OG0000807	NA	NA	COG1058	CinA	ADP-ribose pyrophosphatase domain of DNA damage- and competence-inducible protein CinA	AG-916-E17_00556	3
+CACJWN010000005.1	23937	24632	+	AG-916-E17_00561	AG-916-E17	231	OG0000819	K06206	sugar fermentation stimulation protein A	COG1489	SfsA	DNA-binding protein, stimulates sugar fermentation	AG-916-E17_00556	4
+CACJWN010000005.1	24632	25381	+	AG-916-E17_00562	AG-916-E17	249	OG0000721	K01265	methionyl aminopeptidase [EC:3.4.11.18]	COG0024	Map	Methionine aminopeptidase	AG-916-E17_00556	5
+CACKAB010000001.1	233773	235134	+	AG-916-J11_00255	AG-916-J11	453	OG0000584	K01883	cysteinyl-tRNA synthetase [EC:6.1.1.16]	COG0215	CysS	Cysteinyl-tRNA synthetase	AG-916-J11_00260	-5
+CACKAB010000001.1	235131	236732	+	AG-916-J11_00256	AG-916-J11	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-916-J11_00260	-4
+CACKAB010000001.1	236732	237454	+	AG-916-J11_00257	AG-916-J11	240	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-916-J11_00260	-3
+CACKAB010000001.1	237483	238100	+	AG-916-J11_00258	AG-916-J11	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-916-J11_00260	-2
+CACKAB010000001.1	238101	239681	+	AG-916-J11_00259	AG-916-J11	526	OG0001404	NA	NA	NA	NA	NA	AG-916-J11_00260	-1
+CACKAB010000001.1	239678	239944	-	AG-916-J11_00260	AG-916-J11	88	OG0001471	NA	NA	NA	NA	NA	AG-916-J11_00260	0
+CACKAB010000001.1	239941	240273	-	AG-916-J11_00261	AG-916-J11	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-916-J11_00260	1
+CACKAB010000001.1	240257	240529	-	AG-916-J11_00262	AG-916-J11	90	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-916-J11_00260	2
+CACKAB010000001.1	240502	241698	-	AG-916-J11_00263	AG-916-J11	398	OG0000422	NA	NA	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-916-J11_00260	3
+CACKJD010000004.1	77113	77877	-	AG-917-B07_00852	AG-917-B07	254	OG0001242	K01713	cyclohexadienyl dehydratase [EC:4.2.1.51 4.2.1.91]	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-917-B07_00858	-5
+CACKJD010000004.1	77939	78502	-	AG-917-B07_00853	AG-917-B07	187	OG0000969	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	AG-917-B07_00858	-4
+CACKJD010000004.1	78495	81503	-	AG-917-B07_00854	AG-917-B07	1002	OG0000022	K00302	sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	AG-917-B07_00858	-3
+CACKJD010000004.1	81506	81781	-	AG-917-B07_00855	AG-917-B07	91	OG0000024	K00304	sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	COG4311	SoxD	Sarcosine oxidase delta subunit	AG-917-B07_00858	-2
+CACKJD010000004.1	81781	83034	-	AG-917-B07_00856	AG-917-B07	417	OG0000004	K00303	sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	AG-917-B07_00858	-1
+CACKJD010000004.1	83215	83469	-	AG-917-B07_00858	AG-917-B07	84	OG0001471	NA	NA	NA	NA	NA	AG-917-B07_00858	0
+CACKJD010000004.1	83472	85067	-	AG-917-B07_00859	AG-917-B07	531	OG0001404	NA	NA	NA	NA	NA	AG-917-B07_00858	1
+CACKJD010000004.1	85181	86317	-	AG-917-B07_00860	AG-917-B07	378	OG0001636	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	AG-917-B07_00858	2
+CACKJD010000004.1	86314	86997	-	AG-917-B07_00861	AG-917-B07	227	OG0000043	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-917-B07_00858	3
+CACKJD010000004.1	87006	89234	-	AG-917-B07_00862	AG-917-B07	742	OG0000514	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	AG-917-B07_00858	4
+CACKJD010000004.1	89276	90160	+	AG-917-B07_00863	AG-917-B07	294	OG0000345	K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	AG-917-B07_00858	5
+CACKKI010000004.1	97976	99577	+	AG-917-C08_00778	AG-917-C08	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-917-C08_00783	-5
+CACKKI010000004.1	99580	100443	+	AG-917-C08_00779	AG-917-C08	287	OG0001297	K09967	uncharacterized protein	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	AG-917-C08_00783	-4
+CACKKI010000004.1	100446	101159	+	AG-917-C08_00780	AG-917-C08	237	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-917-C08_00783	-3
+CACKKI010000004.1	101200	101817	+	AG-917-C08_00781	AG-917-C08	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-917-C08_00783	-2
+CACKKI010000004.1	101857	103398	+	AG-917-C08_00782	AG-917-C08	513	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-917-C08_00783	-1
+CACKKI010000004.1	103395	103661	-	AG-917-C08_00783	AG-917-C08	88	OG0001471	NA	NA	NA	NA	NA	AG-917-C08_00783	0
+CACKKI010000004.1	103681	104019	-	AG-917-C08_00784	AG-917-C08	112	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-917-C08_00783	1
+CACKKI010000004.1	104021	104251	-	AG-917-C08_00785	AG-917-C08	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-917-C08_00783	2
+CACKKI010000004.1	104251	106443	-	AG-917-C08_00786	AG-917-C08	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-917-C08_00783	3
+CACKKI010000004.1	106440	107123	-	AG-917-C08_00787	AG-917-C08	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-917-C08_00783	4
+CACKKI010000004.1	107127	107369	-	AG-917-C08_00788	AG-917-C08	80	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-917-C08_00783	5
+CACKKP010000014.1	9278	9520	+	AG-917-C11_00967	AG-917-C11	80	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-917-C11_00972	-5
+CACKKP010000014.1	9524	10207	+	AG-917-C11_00968	AG-917-C11	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-917-C11_00972	-4
+CACKKP010000014.1	10204	12396	+	AG-917-C11_00969	AG-917-C11	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-917-C11_00972	-3
+CACKKP010000014.1	12396	12626	+	AG-917-C11_00970	AG-917-C11	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-917-C11_00972	-2
+CACKKP010000014.1	12628	12966	+	AG-917-C11_00971	AG-917-C11	112	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-917-C11_00972	-1
+CACKKP010000014.1	12986	13252	+	AG-917-C11_00972	AG-917-C11	88	OG0001471	NA	NA	NA	NA	NA	AG-917-C11_00972	0
+CACKKP010000014.1	13249	14790	-	AG-917-C11_00973	AG-917-C11	513	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-917-C11_00972	1
+CACKKP010000014.1	14830	15447	-	AG-917-C11_00974	AG-917-C11	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-917-C11_00972	2
+CACKKP010000014.1	15488	16201	-	AG-917-C11_00975	AG-917-C11	237	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-917-C11_00972	3
+CACKKP010000014.1	16204	17067	-	AG-917-C11_00976	AG-917-C11	287	OG0001297	K09967	uncharacterized protein	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	AG-917-C11_00972	4
+CACKKP010000014.1	17070	18671	-	AG-917-C11_00977	AG-917-C11	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-917-C11_00972	5
+CACKNV010000004.1	10797	12200	+	AG-917-F18_00744	AG-917-F18	467	OG0001860	NA	NA	NA	NA	NA	AG-917-F18_00749	-5
+CACKNV010000004.1	12200	13441	+	AG-917-F18_00745	AG-917-F18	413	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-917-F18_00749	-4
+CACKNV010000004.1	13434	15026	+	AG-917-F18_00746	AG-917-F18	530	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-917-F18_00749	-3
+CACKNV010000004.1	15010	15630	+	AG-917-F18_00747	AG-917-F18	206	OG0002246	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	AG-917-F18_00749	-2
+CACKNV010000004.1	15623	16492	-	AG-917-F18_00748	AG-917-F18	289	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-917-F18_00749	-1
+CACKNV010000004.1	16506	16760	-	AG-917-F18_00749	AG-917-F18	84	OG0001471	NA	NA	NA	NA	NA	AG-917-F18_00749	0
+CACKNV010000004.1	16757	18400	-	AG-917-F18_00750	AG-917-F18	547	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-917-F18_00749	1
+CACKNV010000004.1	18452	19615	+	AG-917-F18_00751	AG-917-F18	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-917-F18_00749	2
+CACKNV010000004.1	19615	20490	+	AG-917-F18_00752	AG-917-F18	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-917-F18_00749	3
+CACKNV010000004.1	20523	23417	+	AG-917-F18_00753	AG-917-F18	964	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-917-F18_00749	4
+CACKNV010000004.1	23418	24725	+	AG-917-F18_00754	AG-917-F18	435	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-917-F18_00749	5
+CACKQD010000002.1	272927	273790	+	AG-917-I17_00877	AG-917-I17	287	OG0001297	K09967	uncharacterized protein	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	AG-917-I17_00882	-5
+CACKQD010000002.1	273793	274506	+	AG-917-I17_00878	AG-917-I17	237	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-917-I17_00882	-4
+CACKQD010000002.1	274547	275164	+	AG-917-I17_00879	AG-917-I17	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-917-I17_00882	-3
+CACKQD010000002.1	275167	275856	+	AG-917-I17_00880	AG-917-I17	229	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-917-I17_00882	-2
+CACKQD010000002.1	275849	277429	+	AG-917-I17_00881	AG-917-I17	526	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-917-I17_00882	-1
+CACKQD010000002.1	277432	277695	-	AG-917-I17_00882	AG-917-I17	87	OG0001471	NA	NA	NA	NA	NA	AG-917-I17_00882	0
+CACKQD010000002.1	277716	278054	-	AG-917-I17_00883	AG-917-I17	112	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-917-I17_00882	1
+CACKQD010000002.1	278056	278286	-	AG-917-I17_00884	AG-917-I17	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-917-I17_00882	2
+CACKQD010000002.1	278286	280478	-	AG-917-I17_00885	AG-917-I17	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-917-I17_00882	3
+CACKQD010000002.1	280475	281158	-	AG-917-I17_00886	AG-917-I17	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-917-I17_00882	4
+CACKQD010000002.1	281162	281404	-	AG-917-I17_00887	AG-917-I17	80	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-917-I17_00882	5
+CACLVA010000004.1	11738	13966	+	AG-917-M15_00500	AG-917-M15	742	OG0000514	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	AG-917-M15_00505	-5
+CACLVA010000004.1	13976	14659	+	AG-917-M15_00501	AG-917-M15	227	OG0000043	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-917-M15_00505	-4
+CACLVA010000004.1	14656	15792	+	AG-917-M15_00502	AG-917-M15	378	OG0001636	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	AG-917-M15_00505	-3
+CACLVA010000004.1	15789	16763	+	AG-917-M15_00503	AG-917-M15	324	OG0000023	NA	NA	COG1087	GalE	UDP-glucose 4-epimerase	AG-917-M15_00505	-2
+CACLVA010000004.1	16765	18366	+	AG-917-M15_00504	AG-917-M15	533	OG0001404	NA	NA	NA	NA	NA	AG-917-M15_00505	-1
+CACLVA010000004.1	18363	18617	+	AG-917-M15_00505	AG-917-M15	84	OG0001471	NA	NA	NA	NA	NA	AG-917-M15_00505	0
+CACLVA010000004.1	18798	20051	+	AG-917-M15_00507	AG-917-M15	417	OG0000004	K00303	sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	AG-917-M15_00505	1
+CACLVA010000004.1	20051	20326	+	AG-917-M15_00508	AG-917-M15	91	OG0000024	K00304	sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	COG4311	SoxD	Sarcosine oxidase delta subunit	AG-917-M15_00505	2
+CACLVA010000004.1	20329	23337	+	AG-917-M15_00509	AG-917-M15	1002	OG0000022	K00302	sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	AG-917-M15_00505	3
+CACLVA010000004.1	23330	23893	+	AG-917-M15_00510	AG-917-M15	187	OG0000969	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	AG-917-M15_00505	4
+CACLVA010000004.1	23954	24718	+	AG-917-M15_00511	AG-917-M15	254	OG0001242	K01713	cyclohexadienyl dehydratase [EC:4.2.1.51 4.2.1.91]	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-917-M15_00505	5
+CACPFM010000001.1	30499	32100	+	AG-917-P07_00032	AG-917-P07	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-917-P07_00037	-5
+CACPFM010000001.1	32103	32966	+	AG-917-P07_00033	AG-917-P07	287	OG0001297	K09967	uncharacterized protein	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	AG-917-P07_00037	-4
+CACPFM010000001.1	32969	33682	+	AG-917-P07_00034	AG-917-P07	237	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-917-P07_00037	-3
+CACPFM010000001.1	33723	34340	+	AG-917-P07_00035	AG-917-P07	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-917-P07_00037	-2
+CACPFM010000001.1	34380	35921	+	AG-917-P07_00036	AG-917-P07	513	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-917-P07_00037	-1
+CACPFM010000001.1	35918	36184	-	AG-917-P07_00037	AG-917-P07	88	OG0001471	NA	NA	NA	NA	NA	AG-917-P07_00037	0
+CACPFM010000001.1	36204	36542	-	AG-917-P07_00038	AG-917-P07	112	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-917-P07_00037	1
+CACPFM010000001.1	36544	36774	-	AG-917-P07_00039	AG-917-P07	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-917-P07_00037	2
+CACPFM010000001.1	36774	38966	-	AG-917-P07_00040	AG-917-P07	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-917-P07_00037	3
+CACPFM010000001.1	38963	39646	-	AG-917-P07_00041	AG-917-P07	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-917-P07_00037	4
+CACPFM010000001.1	39650	39892	-	AG-917-P07_00042	AG-917-P07	80	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-917-P07_00037	5
+CACMFM010000012.1	591	833	+	AG-918-K09_01216	AG-918-K09	80	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-918-K09_01221	-5
+CACMFM010000012.1	837	1520	+	AG-918-K09_01217	AG-918-K09	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-918-K09_01221	-4
+CACMFM010000012.1	1517	3709	+	AG-918-K09_01218	AG-918-K09	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-918-K09_01221	-3
+CACMFM010000012.1	3709	3939	+	AG-918-K09_01219	AG-918-K09	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-918-K09_01221	-2
+CACMFM010000012.1	3941	4279	+	AG-918-K09_01220	AG-918-K09	112	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-918-K09_01221	-1
+CACMFM010000012.1	4299	4565	+	AG-918-K09_01221	AG-918-K09	88	OG0001471	NA	NA	NA	NA	NA	AG-918-K09_01221	0
+CACMFM010000012.1	4562	4732	-	AG-918-K09_01222	AG-918-K09	56	OG0001404	NA	NA	NA	NA	NA	AG-918-K09_01221	1
+CACMHW010000004.1	34845	36449	+	AG-918-M15_00572	AG-918-M15	534	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-918-M15_00577	-5
+CACMHW010000004.1	36439	37152	+	AG-918-M15_00573	AG-918-M15	237	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-918-M15_00577	-4
+CACMHW010000004.1	37209	37826	+	AG-918-M15_00574	AG-918-M15	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-918-M15_00577	-3
+CACMHW010000004.1	37857	38570	+	AG-918-M15_00575	AG-918-M15	237	OG0000028	NA	NA	NA	NA	NA	AG-918-M15_00577	-2
+CACMHW010000004.1	38578	40167	+	AG-918-M15_00576	AG-918-M15	529	OG0001404	NA	NA	NA	NA	NA	AG-918-M15_00577	-1
+CACMHW010000004.1	40164	40427	-	AG-918-M15_00577	AG-918-M15	87	OG0001471	NA	NA	NA	NA	NA	AG-918-M15_00577	0
+CACMHW010000004.1	40427	40744	-	AG-918-M15_00578	AG-918-M15	105	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-918-M15_00577	1
+CACMHW010000004.1	40741	40974	-	AG-918-M15_00579	AG-918-M15	77	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-918-M15_00577	2
+CACMHW010000004.1	40974	43154	-	AG-918-M15_00580	AG-918-M15	726	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-918-M15_00577	3
+CACMHW010000004.1	43161	43838	-	AG-918-M15_00581	AG-918-M15	225	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-918-M15_00577	4
+CACMHW010000004.1	43835	44116	-	AG-918-M15_00582	AG-918-M15	93	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-918-M15_00577	5
+CACMQA010000007.1	19040	20296	+	AG-919-F21_01095	AG-919-F21	418	OG0000540	K01689	enolase [EC:4.2.1.11]	COG0148	Eno	Enolase	AG-919-F21_01100	-5
+CACMQA010000007.1	20300	20593	+	AG-919-F21_01096	AG-919-F21	97	OG0000702	NA	NA	COG2919	FtsB	Cell division protein FtsB	AG-919-F21_01100	-4
+CACMQA010000007.1	20590	21534	+	AG-919-F21_01097	AG-919-F21	314	OG0000368	K03644	lipoyl synthase [EC:2.8.1.8]	COG0320	LipA	Lipoate synthase	AG-919-F21_01100	-3
+CACMQA010000007.1	21516	21959	+	AG-919-F21_01098	AG-919-F21	147	OG0000569	K18588	coenzyme Q-binding protein COQ10	COG2867	PasT	Ribosome association toxin PasT (RatA) of the RatAB toxin-antitoxin module	AG-919-F21_01100	-2
+CACMQA010000007.1	21959	22270	+	AG-919-F21_01099	AG-919-F21	103	OG0000877	NA	NA	NA	NA	NA	AG-919-F21_01100	-1
+CACMQA010000007.1	22271	22534	-	AG-919-F21_01100	AG-919-F21	87	OG0001471	NA	NA	NA	NA	NA	AG-919-F21_01100	0
+CACMQA010000007.1	22550	23239	-	AG-919-F21_01101	AG-919-F21	229	OG0001404	NA	NA	NA	NA	NA	AG-919-F21_01100	1
+CACMRM010000008.1	515	754	+	AG-919-I13_01017	AG-919-I13	79	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-919-I13_01022	-5
+CACMRM010000008.1	754	1431	+	AG-919-I13_01018	AG-919-I13	225	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-919-I13_01022	-4
+CACMRM010000008.1	1436	3616	+	AG-919-I13_01019	AG-919-I13	726	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-919-I13_01022	-3
+CACMRM010000008.1	3616	3846	+	AG-919-I13_01020	AG-919-I13	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-919-I13_01022	-2
+CACMRM010000008.1	3846	4163	+	AG-919-I13_01021	AG-919-I13	105	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-919-I13_01022	-1
+CACMRM010000008.1	4163	4417	+	AG-919-I13_01022	AG-919-I13	84	OG0001471	NA	NA	NA	NA	NA	AG-919-I13_01022	0
+CACMRM010000008.1	4419	5996	-	AG-919-I13_01023	AG-919-I13	525	OG0001404	NA	NA	NA	NA	NA	AG-919-I13_01022	1
+CACMRM010000008.1	6032	6649	-	AG-919-I13_01024	AG-919-I13	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-919-I13_01022	2
+CACMRM010000008.1	6694	7419	-	AG-919-I13_01025	AG-919-I13	241	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-919-I13_01022	3
+CACMRM010000008.1	7409	9013	-	AG-919-I13_01026	AG-919-I13	534	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-919-I13_01022	4
+CACMRM010000008.1	9010	10356	-	AG-919-I13_01027	AG-919-I13	448	OG0000584	K01883	cysteinyl-tRNA synthetase [EC:6.1.1.16]	COG0215	CysS	Cysteinyl-tRNA synthetase	AG-919-I13_01022	5
+CACMVB010000001.1	181655	181894	+	AG-919-M05_00213	AG-919-M05	79	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	AG-919-M05_00218	-5
+CACMVB010000001.1	181894	182571	+	AG-919-M05_00214	AG-919-M05	225	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AG-919-M05_00218	-4
+CACMVB010000001.1	182577	184757	+	AG-919-M05_00215	AG-919-M05	726	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AG-919-M05_00218	-3
+CACMVB010000001.1	184757	184996	+	AG-919-M05_00216	AG-919-M05	79	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AG-919-M05_00218	-2
+CACMVB010000001.1	184986	185303	+	AG-919-M05_00217	AG-919-M05	105	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AG-919-M05_00218	-1
+CACMVB010000001.1	185304	185567	+	AG-919-M05_00218	AG-919-M05	87	OG0001471	NA	NA	NA	NA	NA	AG-919-M05_00218	0
+CACMVB010000001.1	185564	187141	-	AG-919-M05_00219	AG-919-M05	525	OG0001404	NA	NA	NA	NA	NA	AG-919-M05_00218	1
+CACMVB010000001.1	187146	187799	-	AG-919-M05_00220	AG-919-M05	217	OG0000028	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-919-M05_00218	2
+CACMVB010000001.1	187878	188495	-	AG-919-M05_00221	AG-919-M05	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AG-919-M05_00218	3
+CACMVB010000001.1	188545	189264	-	AG-919-M05_00222	AG-919-M05	239	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AG-919-M05_00218	4
+CACMVB010000001.1	189254	190858	-	AG-919-M05_00223	AG-919-M05	534	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AG-919-M05_00218	5
+CACNFY010000011.1	14039	15448	+	AG-920-I23_01004	AG-920-I23	469	OG0000800	K03327	multidrug resistance protein, MATE family	COG0534	NorM	Na+-driven multidrug efflux pump, DinF/NorM/MATE family	AG-920-I23_01010	-5
+CACNFY010000011.1	15410	15973	-	AG-920-I23_01005	AG-920-I23	187	OG0000969	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	AG-920-I23_01010	-4
+CACNFY010000011.1	15966	18977	-	AG-920-I23_01006	AG-920-I23	1003	OG0000022	K00302	sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	AG-920-I23_01010	-3
+CACNFY010000011.1	18980	19255	-	AG-920-I23_01007	AG-920-I23	91	OG0000024	K00304	sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	COG4311	SoxD	Sarcosine oxidase delta subunit	AG-920-I23_01010	-2
+CACNFY010000011.1	19255	20508	-	AG-920-I23_01008	AG-920-I23	417	OG0000004	K00303	sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	AG-920-I23_01010	-1
+CACNFY010000011.1	20676	20933	-	AG-920-I23_01010	AG-920-I23	85	OG0001471	NA	NA	NA	NA	NA	AG-920-I23_01010	0
+CACNFY010000011.1	20930	22510	-	AG-920-I23_01011	AG-920-I23	526	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-920-I23_01010	1
+CACNFY010000011.1	22518	23216	-	AG-920-I23_01012	AG-920-I23	232	OG0000043	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-920-I23_01010	2
+CACNFY010000011.1	23209	24357	-	AG-920-I23_01013	AG-920-I23	382	OG0002067	NA	NA	NA	NA	NA	AG-920-I23_01010	3
+CACNFY010000011.1	24351	24722	-	AG-920-I23_01014	AG-920-I23	123	OG0002396	NA	NA	NA	NA	NA	AG-920-I23_01010	4
+CACNFY010000011.1	24731	26941	-	AG-920-I23_01015	AG-920-I23	736	OG0000514	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	AG-920-I23_01010	5
+CACNIK010000003.1	31494	32864	+	AG-920-L07_00611	AG-920-L07	456	OG0000749	NA	NA	COG2204	AtoC	DNA-binding transcriptional response regulator, NtrC family, contains REC, AAA-type ATPase, and a Fis-type DNA-binding domains	AG-920-L07_00616	-5
+CACNIK010000003.1	32867	34234	+	AG-920-L07_00612	AG-920-L07	455	OG0000904	K03499	trk/ktr system potassium uptake protein	COG0569	TrkA	Trk/Ktr K+ transport system regulatory component TrkA/KtrA/KtrC, RCK domain	AG-920-L07_00616	-4
+CACNIK010000003.1	34227	35201	-	AG-920-L07_00613	AG-920-L07	324	OG0000023	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	AG-920-L07_00616	-3
+CACNIK010000003.1	35198	36340	-	AG-920-L07_00614	AG-920-L07	380	OG0001636	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	AG-920-L07_00616	-2
+CACNIK010000003.1	36333	37895	-	AG-920-L07_00615	AG-920-L07	520	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-920-L07_00616	-1
+CACNIK010000003.1	37904	38182	-	AG-920-L07_00616	AG-920-L07	92	OG0001471	NA	NA	NA	NA	NA	AG-920-L07_00616	0
+CACNIK010000003.1	38220	38975	+	AG-920-L07_00617	AG-920-L07	251	OG0001189	K16698	teichuronic acid biosynthesis glycosyltransferase TuaG [EC:2.4.-.-]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-920-L07_00616	1
+CACNIK010000003.1	38962	40050	+	AG-920-L07_00618	AG-920-L07	362	OG0001888	NA	NA	NA	NA	NA	AG-920-L07_00616	2
+CACNIK010000003.1	40058	41146	-	AG-920-L07_00619	AG-920-L07	362	OG0001129	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	AG-920-L07_00616	3
+CACNIK010000003.1	41308	42063	-	AG-920-L07_00621	AG-920-L07	251	OG0000786	NA	NA	COG0566	SpoU	tRNA G18 (ribose-2'-O)-methylase SpoU	AG-920-L07_00616	4
+CACNIK010000003.1	43716	43907	+	AG-920-L07_00625	AG-920-L07	63	OG0001138	K03073	preprotein translocase subunit SecE	COG0690	SecE	Preprotein translocase subunit SecE	AG-920-L07_00616	5
+CACNIT010000003.1	31303	33063	-	AG-920-L19_00404	AG-920-L19	586	OG0000682	NA	NA	COG0317	SpoT	(p)ppGpp synthase/hydrolase, HD superfamily	AG-920-L19_00409	-5
+CACNIT010000003.1	33562	34032	-	AG-920-L19_00405	AG-920-L19	156	OG0000620	K03664	SsrA-binding protein	COG0691	SmpB	tmRNA-binding protein	AG-920-L19_00409	-4
+CACNIT010000003.1	34032	34916	-	AG-920-L19_00406	AG-920-L19	294	OG0000345	K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	AG-920-L19_00409	-3
+CACNIT010000003.1	34958	37186	+	AG-920-L19_00407	AG-920-L19	742	OG0000514	K08309	soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741	MltE	Soluble lytic murein transglycosylase or regulatory protein ( may contain LysM/invasin domain), , includes type III secretion system proteins IagB/IpgF/YsaH	AG-920-L19_00409	-2
+CACNIT010000003.1	37170	38765	+	AG-920-L19_00408	AG-920-L19	531	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-920-L19_00409	-1
+CACNIT010000003.1	38762	39019	+	AG-920-L19_00409	AG-920-L19	85	OG0001471	NA	NA	NA	NA	NA	AG-920-L19_00409	0
+CACNIT010000003.1	39188	40441	+	AG-920-L19_00411	AG-920-L19	417	OG0000004	K00303	sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	AG-920-L19_00409	1
+CACNIT010000003.1	40441	40716	+	AG-920-L19_00412	AG-920-L19	91	OG0000024	K00304	sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	COG4311	SoxD	Sarcosine oxidase delta subunit	AG-920-L19_00409	2
+CACNIT010000003.1	40719	43727	+	AG-920-L19_00413	AG-920-L19	1002	OG0000022	K00302	sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	AG-920-L19_00409	3
+CACNIT010000003.1	43720	44283	+	AG-920-L19_00414	AG-920-L19	187	OG0000969	NA	NA	COG4583	SoxG	Sarcosine oxidase gamma subunit	AG-920-L19_00409	4
+CACNIT010000003.1	44344	45108	+	AG-920-L19_00415	AG-920-L19	254	OG0001242	K01713	cyclohexadienyl dehydratase [EC:4.2.1.51 4.2.1.91]	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-920-L19_00409	5
+CACNWC010000027.1	96	2285	+	AH-287-E08_01069	AH-287-E08	729	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AH-287-E08_01072	-3
+CACNWC010000027.1	2288	2518	+	AH-287-E08_01070	AH-287-E08	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AH-287-E08_01072	-2
+CACNWC010000027.1	2518	2856	+	AH-287-E08_01071	AH-287-E08	112	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AH-287-E08_01072	-1
+CACNWC010000027.1	2878	3144	+	AH-287-E08_01072	AH-287-E08	88	OG0001471	NA	NA	COG0373	HemA	Glutamyl-tRNA reductase	AH-287-E08_01072	0
+CACNWC010000027.1	3141	4070	-	AH-287-E08_01073	AH-287-E08	309	OG0001404	NA	NA	NA	NA	NA	AH-287-E08_01072	1
+CACNWV010000001.1	76709	78124	+	AH-287-E19_00090	AH-287-E19	471	OG0001860	NA	NA	NA	NA	NA	AH-287-E19_00095	-5
+CACNWV010000001.1	78121	79371	+	AH-287-E19_00091	AH-287-E19	416	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AH-287-E19_00095	-4
+CACNWV010000001.1	79349	80920	+	AH-287-E19_00092	AH-287-E19	523	OG0001507	NA	NA	NA	NA	NA	AH-287-E19_00095	-3
+CACNWV010000001.1	80907	81599	-	AH-287-E19_00093	AH-287-E19	230	OG0002518	NA	NA	NA	NA	NA	AH-287-E19_00095	-2
+CACNWV010000001.1	81601	82437	-	AH-287-E19_00094	AH-287-E19	278	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AH-287-E19_00095	-1
+CACNWV010000001.1	82469	82732	-	AH-287-E19_00095	AH-287-E19	87	OG0001471	NA	NA	NA	NA	NA	AH-287-E19_00095	0
+CACNWV010000001.1	82733	84382	-	AH-287-E19_00096	AH-287-E19	549	OG0001404	NA	NA	NA	NA	NA	AH-287-E19_00095	1
+CACNWV010000001.1	84438	85601	+	AH-287-E19_00097	AH-287-E19	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AH-287-E19_00095	2
+CACNWV010000001.1	85602	86477	+	AH-287-E19_00098	AH-287-E19	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AH-287-E19_00095	3
+CACNWV010000001.1	86507	89404	+	AH-287-E19_00099	AH-287-E19	965	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AH-287-E19_00095	4
+CACNWV010000001.1	89405	90721	+	AH-287-E19_00100	AH-287-E19	438	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AH-287-E19_00095	5
+CACOIL010000002.1	72529	73632	+	AH-321-I23_00186	AH-321-I23	367	OG0000040	K00052	3-isopropylmalate dehydrogenase [EC:1.1.1.85]	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	AH-321-I23_00191	-5
+CACOIL010000002.1	73695	74477	-	AH-321-I23_00187	AH-321-I23	260	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AH-321-I23_00191	-4
+CACOIL010000002.1	74537	75148	+	AH-321-I23_00188	AH-321-I23	203	NA	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	AH-321-I23_00191	-3
+CACOIL010000002.1	75150	75824	-	AH-321-I23_00189	AH-321-I23	224	NA	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	AH-321-I23_00191	-2
+CACOIL010000002.1	75951	77594	+	AH-321-I23_00190	AH-321-I23	547	OG0001404	NA	NA	NA	NA	NA	AH-321-I23_00191	-1
+CACOIL010000002.1	77606	77869	+	AH-321-I23_00191	AH-321-I23	87	OG0001471	NA	NA	NA	NA	NA	AH-321-I23_00191	0
+CACOIL010000002.1	77884	78876	+	AH-321-I23_00192	AH-321-I23	330	OG0000576	K00133	aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]	COG0136	Asd	Aspartate-semialdehyde dehydrogenase	AH-321-I23_00191	1
+CACOIL010000002.1	78897	79283	+	AH-321-I23_00193	AH-321-I23	128	OG0000608	K00241	succinate dehydrogenase cytochrome b subunit	COG2009	SdhC	Succinate dehydrogenase/fumarate reductase, cytochrome b subunit	AH-321-I23_00191	2
+CACOIL010000002.1	79348	79608	+	AH-321-I23_00194	AH-321-I23	86	OG0000670	NA	NA	NA	NA	NA	AH-321-I23_00191	3
+CACOIL010000002.1	79608	81383	+	AH-321-I23_00195	AH-321-I23	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AH-321-I23_00191	4
+CACOIL010000002.1	81386	82162	+	AH-321-I23_00196	AH-321-I23	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AH-321-I23_00191	5
+CACOOX010000001.1	129573	131174	+	AH-324-E14_00146	AH-324-E14	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	AH-324-E14_00151	-5
+CACOOX010000001.1	131175	132035	+	AH-324-E14_00147	AH-324-E14	286	OG0001297	NA	NA	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	AH-324-E14_00151	-4
+CACOOX010000001.1	132042	132761	+	AH-324-E14_00148	AH-324-E14	239	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	AH-324-E14_00151	-3
+CACOOX010000001.1	132790	133407	+	AH-324-E14_00149	AH-324-E14	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	AH-324-E14_00151	-2
+CACOOX010000001.1	133408	134988	+	AH-324-E14_00150	AH-324-E14	526	OG0001404	NA	NA	NA	NA	NA	AH-324-E14_00151	-1
+CACOOX010000001.1	134985	135251	-	AH-324-E14_00151	AH-324-E14	88	OG0001471	NA	NA	NA	NA	NA	AH-324-E14_00151	0
+CACOOX010000001.1	135248	135580	-	AH-324-E14_00152	AH-324-E14	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	AH-324-E14_00151	1
+CACOOX010000001.1	135564	135836	-	AH-324-E14_00153	AH-324-E14	90	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	AH-324-E14_00151	2
+CACOOX010000001.1	135809	138001	-	AH-324-E14_00154	AH-324-E14	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	AH-324-E14_00151	3
+CACOOX010000001.1	138001	138885	-	AH-324-E14_00155	AH-324-E14	294	OG0001126	NA	NA	NA	NA	NA	AH-324-E14_00151	4
+CACOOX010000001.1	138882	139565	-	AH-324-E14_00156	AH-324-E14	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	AH-324-E14_00151	5
+ATTF01000053.1	795	1058	-	HIMB058_01191	HIMB058	87	OG0001471	NA	NA	NA	NA	NA	HIMB058_01191	0
+ATTF01000053.1	1058	1408	-	HIMB058_01192	HIMB058	116	OG0001404	NA	NA	NA	NA	NA	HIMB058_01191	1
+CP024034.1	386303	387076	-	LSUCC0530_00433	LSUCC0530	257	OG0000045	NA	NA	NA	NA	NA	LSUCC0530_00438	-5
+CP024034.1	387076	387801	-	LSUCC0530_00434	LSUCC0530	241	OG0000983	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	LSUCC0530_00438	-4
+CP024034.1	387801	389024	-	LSUCC0530_00435	LSUCC0530	407	OG0001137	NA	NA	NA	NA	NA	LSUCC0530_00438	-3
+CP024034.1	389083	389988	+	LSUCC0530_00436	LSUCC0530	301	OG0000023	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	LSUCC0530_00438	-2
+CP024034.1	390015	391274	+	LSUCC0530_00437	LSUCC0530	419	OG0001354	NA	NA	NA	NA	NA	LSUCC0530_00438	-1
+CP024034.1	391271	391573	+	LSUCC0530_00438	LSUCC0530	100	OG0001471	NA	NA	NA	NA	NA	LSUCC0530_00438	0
+CP024034.1	391554	393161	+	LSUCC0530_00439	LSUCC0530	535	OG0001404	NA	NA	NA	NA	NA	LSUCC0530_00438	1
+CP024034.1	393213	394040	-	LSUCC0530_00440	LSUCC0530	275	OG0000089	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	LSUCC0530_00438	2
+CP024034.1	394100	394354	+	LSUCC0530_00441	LSUCC0530	84	OG0002648	NA	NA	NA	NA	NA	LSUCC0530_00438	3
+CP024034.1	394578	394913	+	LSUCC0530_00444	LSUCC0530	111	OG0001912	NA	NA	COG2105	YtfP	Predicted gamma-glutamylamine cyclotransferase YtfP, GGCT/AIG2-like family	LSUCC0530_00438	4
+CP024034.1	395101	395727	+	LSUCC0530_00446	LSUCC0530	208	OG0001811	K05595	multiple antibiotic resistance protein	COG2095	MarC	Small neutral amino acid transporter SnatA, MarC family	LSUCC0530_00438	5
+NTJN01000001.1	174613	176106	+	MED-G40_00193	MED-G40	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	MED-G40_00198	-5
+NTJN01000001.1	176108	177067	+	MED-G40_00194	MED-G40	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	MED-G40_00198	-4
+NTJN01000001.1	177088	177918	+	MED-G40_00195	MED-G40	276	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	MED-G40_00198	-3
+NTJN01000001.1	177923	179488	+	MED-G40_00196	MED-G40	521	OG0001507	NA	NA	COG1287	Stt3	Asparagine N-glycosylation enzyme, membrane subunit Stt3	MED-G40_00198	-2
+NTJN01000001.1	179474	180280	-	MED-G40_00197	MED-G40	268	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	MED-G40_00198	-1
+NTJN01000001.1	180301	180567	-	MED-G40_00198	MED-G40	88	OG0001471	NA	NA	NA	NA	NA	MED-G40_00198	0
+NTJN01000001.1	180571	182232	-	MED-G40_00199	MED-G40	553	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	MED-G40_00198	1
+NTJN01000001.1	182293	183453	+	MED-G40_00200	MED-G40	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	MED-G40_00198	2
+NTJN01000001.1	183454	184329	+	MED-G40_00201	MED-G40	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	MED-G40_00198	3
+NTJN01000001.1	184363	187248	+	MED-G40_00202	MED-G40	961	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	MED-G40_00198	4
+NTJN01000001.1	187252	188610	+	MED-G40_00203	MED-G40	452	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	MED-G40_00198	5
+NZIO01000061.1	552	1328	-	MED605_00142	MED605	258	OG0001132	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	MED605_00147	-5
+NZIO01000061.1	1376	1567	+	MED605_00143	MED605	63	OG0001680	NA	NA	NA	NA	NA	MED605_00147	-4
+NZIO01000061.1	1577	2908	-	MED605_00144	MED605	443	OG0001596	NA	NA	COG2220	UlaG	L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily	MED605_00147	-3
+NZIO01000061.1	2921	4078	-	MED605_00145	MED605	385	NA	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	MED605_00147	-2
+NZIO01000061.1	4100	5104	-	MED605_00146	MED605	334	OG0000505	K00134	glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]	COG0057	GapA	Glyceraldehyde-3-phosphate dehydrogenase/erythrose-4-phosphate dehydrogenase	MED605_00147	-1
+NZIO01000061.1	5119	5379	-	MED605_00147	MED605	86	OG0001471	NA	NA	NA	NA	NA	MED605_00147	0
+NZIO01000061.1	5379	7040	-	MED605_00148	MED605	553	OG0001404	NA	NA	NA	NA	NA	MED605_00147	1
+NZIO01000061.1	7176	7787	+	MED605_00149	MED605	203	OG0002246	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	MED605_00147	2
+NZIO01000061.1	7791	8486	-	MED605_00150	MED605	231	OG0000983	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	MED605_00147	3
+NZIO01000061.1	8534	9037	-	MED605_00151	MED605	167	OG0001735	NA	NA	COG1898	RfbC	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme	MED605_00147	4
+NZIO01000061.1	9041	9394	-	MED605_00152	MED605	117	OG0001503	NA	NA	COG5477	NA	Small integral membrane protein, DUF2160 family	MED605_00147	5
+JACWDM010000004.1	952	1185	+	SAG-MED15_00830	SAG-MED15	77	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	SAG-MED15_00835	-5
+JACWDM010000004.1	1192	1878	+	SAG-MED15_00831	SAG-MED15	228	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	SAG-MED15_00835	-4
+JACWDM010000004.1	1875	4067	+	SAG-MED15_00832	SAG-MED15	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	SAG-MED15_00835	-3
+JACWDM010000004.1	4067	4312	+	SAG-MED15_00833	SAG-MED15	81	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	SAG-MED15_00835	-2
+JACWDM010000004.1	4296	4628	+	SAG-MED15_00834	SAG-MED15	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	SAG-MED15_00835	-1
+JACWDM010000004.1	4625	4888	+	SAG-MED15_00835	SAG-MED15	87	OG0001471	NA	NA	NA	NA	NA	SAG-MED15_00835	0
+JACWDM010000004.1	4885	5583	+	SAG-MED15_00836	SAG-MED15	232	OG0001203	NA	NA	NA	NA	NA	SAG-MED15_00835	1
+JACWDM010000004.1	5580	7163	-	SAG-MED15_00837	SAG-MED15	527	OG0001404	NA	NA	NA	NA	NA	SAG-MED15_00835	2
+JACWDM010000004.1	7201	7818	-	SAG-MED15_00838	SAG-MED15	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	SAG-MED15_00835	3
+JACWDM010000004.1	7847	8569	-	SAG-MED15_00839	SAG-MED15	240	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	SAG-MED15_00835	4
+JACWDM010000004.1	8569	10170	-	SAG-MED15_00840	SAG-MED15	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	SAG-MED15_00835	5
+JACWDY010000001.1	158541	158711	+	SAG-MED28_00189	SAG-MED28	56	OG0001680	NA	NA	NA	NA	NA	SAG-MED28_00194	-5
+JACWDY010000001.1	158704	159708	-	SAG-MED28_00190	SAG-MED28	334	OG0000505	K00134	glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]	COG0057	GapA	Glyceraldehyde-3-phosphate dehydrogenase/erythrose-4-phosphate dehydrogenase	SAG-MED28_00194	-4
+JACWDY010000001.1	159767	160687	-	SAG-MED28_00191	SAG-MED28	306	OG0002929	NA	NA	NA	NA	NA	SAG-MED28_00194	-3
+JACWDY010000001.1	160687	161253	-	SAG-MED28_00192	SAG-MED28	188	OG0003038	NA	NA	NA	NA	NA	SAG-MED28_00194	-2
+JACWDY010000001.1	161255	162466	-	SAG-MED28_00193	SAG-MED28	403	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	SAG-MED28_00194	-1
+JACWDY010000001.1	162472	162735	-	SAG-MED28_00194	SAG-MED28	87	OG0001471	NA	NA	NA	NA	NA	SAG-MED28_00194	0
+JACWDY010000001.1	162732	164387	-	SAG-MED28_00195	SAG-MED28	551	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	SAG-MED28_00194	1
+JACWDY010000001.1	164432	165136	+	SAG-MED28_00196	SAG-MED28	234	OG0000983	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	SAG-MED28_00194	2
+JACWDY010000001.1	165123	165893	+	SAG-MED28_00197	SAG-MED28	256	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	SAG-MED28_00194	3
+JACWDY010000001.1	165903	166259	-	SAG-MED28_00198	SAG-MED28	118	OG0001503	NA	NA	COG5477	NA	Small integral membrane protein, DUF2160 family	SAG-MED28_00194	4
+JACWDY010000001.1	166256	167056	-	SAG-MED28_00199	SAG-MED28	266	OG0000002	K17323	glycerol transport system permease protein	COG0395	UgpE	ABC-type glycerol-3-phosphate transport system, permease component	SAG-MED28_00194	5
+CP159822.1	676820	677062	+	Uisw_099_02_00760	Uisw_099_02	80	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	Uisw_099_02_00765	-5
+CP159822.1	677069	677752	+	Uisw_099_02_00761	Uisw_099_02	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	Uisw_099_02_00765	-4
+CP159822.1	677752	679944	+	Uisw_099_02_00762	Uisw_099_02	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	Uisw_099_02_00765	-3
+CP159822.1	679946	680176	+	Uisw_099_02_00763	Uisw_099_02	76	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	Uisw_099_02_00765	-2
+CP159822.1	680176	680508	+	Uisw_099_02_00764	Uisw_099_02	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	Uisw_099_02_00765	-1
+CP159822.1	680512	680769	+	Uisw_099_02_00765	Uisw_099_02	85	OG0001471	NA	NA	NA	NA	NA	Uisw_099_02_00765	0
+CP159822.1	680771	682351	-	Uisw_099_02_00766	Uisw_099_02	526	OG0001404	NA	NA	NA	NA	NA	Uisw_099_02_00765	1
+CP159822.1	682352	682969	-	Uisw_099_02_00767	Uisw_099_02	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	Uisw_099_02_00765	2
+CP159822.1	683010	683723	-	Uisw_099_02_00768	Uisw_099_02	237	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	Uisw_099_02_00765	3
+CP159822.1	683735	684598	-	Uisw_099_02_00769	Uisw_099_02	287	OG0001297	K09967	uncharacterized protein	COG3665	YcgI	Uncharacterized conserved protein YcgI, DUF1989 family	Uisw_099_02_00765	4
+CP159822.1	684601	686202	-	Uisw_099_02_00770	Uisw_099_02	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	Uisw_099_02_00765	5
+CP159819.1	730220	730462	+	Uisw_106_00815	Uisw_106	80	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	Uisw_106_00820	-5
+CP159819.1	730469	731152	+	Uisw_106_00816	Uisw_106	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	Uisw_106_00820	-4
+CP159819.1	731152	733344	+	Uisw_106_00817	Uisw_106	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	Uisw_106_00820	-3
+CP159819.1	733352	733576	+	Uisw_106_00818	Uisw_106	74	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	Uisw_106_00820	-2
+CP159819.1	733576	733914	+	Uisw_106_00819	Uisw_106	112	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	Uisw_106_00820	-1
+CP159819.1	733915	734184	+	Uisw_106_00820	Uisw_106	89	OG0001471	NA	NA	NA	NA	NA	Uisw_106_00820	0
+CP159819.1	734181	735767	-	Uisw_106_00821	Uisw_106	528	OG0001404	NA	NA	NA	NA	NA	Uisw_106_00820	1
+CP159819.1	735764	736447	-	Uisw_106_00822	Uisw_106	227	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	Uisw_106_00820	2
+CP159819.1	736458	737075	-	Uisw_106_00823	Uisw_106	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	Uisw_106_00820	3
+CP159819.1	737116	737829	-	Uisw_106_00824	Uisw_106	237	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	Uisw_106_00820	4
+CP159819.1	737829	739430	-	Uisw_106_00825	Uisw_106	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	Uisw_106_00820	5
+CP159817.1	671603	673006	+	Uisw_116_00782	Uisw_116	467	OG0000422	NA	NA	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	Uisw_116_00787	-5
+CP159817.1	673014	673238	+	Uisw_116_00783	Uisw_116	74	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	Uisw_116_00787	-4
+CP159817.1	673238	673570	+	Uisw_116_00784	Uisw_116	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	Uisw_116_00787	-3
+CP159817.1	673575	674765	-	Uisw_116_00785	Uisw_116	396	OG0000894	K00574	cyclopropane-fatty-acyl-phospholipid synthase [EC:2.1.1.79]	COG2230	Cfa	Cyclopropane fatty-acyl-phospholipid synthase and related methyltransferases	Uisw_116_00787	-2
+CP159817.1	674993	675172	+	Uisw_116_00786	Uisw_116	59	OG0000539	NA	NA	COG0278	GrxD	Glutaredoxin-related protein	Uisw_116_00787	-1
+CP159817.1	675206	675442	+	Uisw_116_00787	Uisw_116	78	OG0001471	NA	NA	NA	NA	NA	Uisw_116_00787	0
+CP159817.1	675439	677025	-	Uisw_116_00788	Uisw_116	528	OG0001404	NA	NA	NA	NA	NA	Uisw_116_00787	1
+CP159817.1	677022	677705	-	Uisw_116_00789	Uisw_116	227	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	Uisw_116_00787	2
+CP159817.1	677715	678332	-	Uisw_116_00790	Uisw_116	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	Uisw_116_00787	3
+CP159817.1	678373	679086	-	Uisw_116_00791	Uisw_116	237	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	Uisw_116_00787	4
+CP159817.1	679086	680687	-	Uisw_116_00792	Uisw_116	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	Uisw_116_00787	5
+CP159816.1	716104	718296	+	Uisw_121_00792	Uisw_121	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	Uisw_121_00797	-5
+CP159816.1	718304	718528	+	Uisw_121_00793	Uisw_121	74	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	Uisw_121_00797	-4
+CP159816.1	718528	718860	+	Uisw_121_00794	Uisw_121	110	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	Uisw_121_00797	-3
+CP159816.1	718865	720055	-	Uisw_121_00795	Uisw_121	396	OG0000894	K00574	cyclopropane-fatty-acyl-phospholipid synthase [EC:2.1.1.79]	COG2230	Cfa	Cyclopropane fatty-acyl-phospholipid synthase and related methyltransferases	Uisw_121_00797	-2
+CP159816.1	720283	720462	+	Uisw_121_00796	Uisw_121	59	OG0000539	NA	NA	COG0278	GrxD	Glutaredoxin-related protein	Uisw_121_00797	-1
+CP159816.1	720496	720732	+	Uisw_121_00797	Uisw_121	78	OG0001471	NA	NA	NA	NA	NA	Uisw_121_00797	0
+CP159816.1	720729	722315	-	Uisw_121_00798	Uisw_121	528	OG0001404	NA	NA	NA	NA	NA	Uisw_121_00797	1
+CP159816.1	722312	722995	-	Uisw_121_00799	Uisw_121	227	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	Uisw_121_00797	2
+CP159816.1	723005	723622	-	Uisw_121_00800	Uisw_121	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	Uisw_121_00797	3
+CP159816.1	723663	724376	-	Uisw_121_00801	Uisw_121	237	OG0000685	K02533	tRNA/rRNA methyltransferase [EC:2.1.1.-]	COG0565	TrmJ	tRNA C32,U32 (ribose-2'-O)-methylase TrmJ or a related methyltransferase	Uisw_121_00797	4
+CP159816.1	724376	725977	-	Uisw_121_00802	Uisw_121	533	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	Uisw_121_00797	5
+CP159814.1	449807	450472	-	Uisw_130_00482	Uisw_130	221	OG0000000	K02003	putative ABC transport system ATP-binding protein	COG1136	LolD	ABC-type lipoprotein targeting system ATPase component LolD	Uisw_130_00487	-5
+CP159814.1	450567	451094	+	Uisw_130_00483	Uisw_130	175	OG0001100	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	Uisw_130_00487	-4
+CP159814.1	451139	451924	+	Uisw_130_00484	Uisw_130	261	OG0000028	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	Uisw_130_00487	-3
+CP159814.1	451925	453640	-	Uisw_130_00485	Uisw_130	571	OG0001142	NA	NA	NA	NA	NA	Uisw_130_00487	-2
+CP159814.1	453645	454313	-	Uisw_130_00486	Uisw_130	222	OG0000045	NA	NA	NA	NA	NA	Uisw_130_00487	-1
+CP159814.1	454396	454662	-	Uisw_130_00487	Uisw_130	88	OG0001471	NA	NA	NA	NA	NA	Uisw_130_00487	0
+CP159814.1	454662	454997	-	Uisw_130_00488	Uisw_130	111	OG0000539	K07390	monothiol glutaredoxin	COG0278	GrxD	Glutaredoxin-related protein	Uisw_130_00487	1
+CP159814.1	454997	455221	-	Uisw_130_00489	Uisw_130	74	OG0000763	NA	NA	COG5007	IbaG	Acid stress protein IbaG/YrbA, BolA-like family	Uisw_130_00487	2
+CP159814.1	455229	457421	-	Uisw_130_00490	Uisw_130	730	OG0000422	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	Uisw_130_00487	3
+CP159814.1	457421	458104	-	Uisw_130_00491	Uisw_130	227	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	Uisw_130_00487	4
+CP159814.1	458111	458353	-	Uisw_130_00492	Uisw_130	80	OG0000770	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	COG1828	PurS	Phosphoribosylformylglycinamidine (FGAM) synthase, PurS subunit	Uisw_130_00487	5

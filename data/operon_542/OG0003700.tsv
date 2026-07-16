@@ -1,0 +1,31 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CACPLO010000011.1	1262	2575	-	AG-914-I16_00965	AG-914-I16	437	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-914-I16_00967	-2
+CACPLO010000011.1	2575	3093	-	AG-914-I16_00966	AG-914-I16	172	OG0001179	NA	NA	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-914-I16_00967	-1
+CACPLO010000011.1	3178	4263	-	AG-914-I16_00967	AG-914-I16	361	OG0003700	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-914-I16_00967	0
+CACPLO010000011.1	4422	5399	+	AG-914-I16_00968	AG-914-I16	325	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-914-I16_00967	1
+CACPLO010000011.1	5424	5921	+	AG-914-I16_00969	AG-914-I16	165	OG0001161	NA	NA	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-914-I16_00967	2
+CACPLO010000011.1	5918	7195	+	AG-914-I16_00970	AG-914-I16	425	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-914-I16_00967	3
+CACPLO010000011.1	7196	7762	+	AG-914-I16_00971	AG-914-I16	188	OG0003701	NA	NA	COG2203	GAF	GAF domain	AG-914-I16_00967	4
+CACPLO010000011.1	7847	8551	+	AG-914-I16_00972	AG-914-I16	234	OG0002931	K07130	arylformamidase [EC:3.5.1.9]	COG1878	NA	Kynurenine formamidase	AG-914-I16_00967	5
+NZJW01000015.1	75069	75728	-	MED1116_00381	MED1116	219	OG0002931	K07130	arylformamidase [EC:3.5.1.9]	COG1878	NA	Kynurenine formamidase	MED1116_00386	-5
+NZJW01000015.1	75875	76444	-	MED1116_00382	MED1116	189	OG0003701	NA	NA	COG2203	GAF	GAF domain	MED1116_00386	-4
+NZJW01000015.1	76447	77724	-	MED1116_00383	MED1116	425	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	MED1116_00386	-3
+NZJW01000015.1	77727	78221	-	MED1116_00384	MED1116	164	OG0001161	NA	NA	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	MED1116_00386	-2
+NZJW01000015.1	78249	79226	-	MED1116_00385	MED1116	325	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	MED1116_00386	-1
+NZJW01000015.1	79490	80554	+	MED1116_00386	MED1116	354	OG0003700	NA	NA	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	MED1116_00386	0
+NZJW01000015.1	80602	81126	+	MED1116_00387	MED1116	174	OG0001179	NA	NA	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	MED1116_00386	1
+NZJW01000015.1	81127	82440	+	MED1116_00388	MED1116	437	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	MED1116_00386	2
+NZJW01000015.1	82461	83078	-	MED1116_00389	MED1116	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	MED1116_00386	3
+NZJW01000015.1	83117	84721	-	MED1116_00390	MED1116	534	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	MED1116_00386	4
+NZJW01000015.1	84718	86061	-	MED1116_00391	MED1116	447	OG0000584	K01883	cysteinyl-tRNA synthetase [EC:6.1.1.16]	COG0215	CysS	Cysteinyl-tRNA synthetase	MED1116_00386	5
+PBKK01000013.1	53759	55363	+	SP27_01122	SP27	534	OG0000012	K01649	2-isopropylmalate synthase [EC:2.3.3.13]	COG0119	LeuA	Isopropylmalate/homocitrate/citramalate synthases	SP27_01127	-5
+PBKK01000013.1	55402	56019	+	SP27_01123	SP27	205	OG0000613	K02986	small subunit ribosomal protein S4	COG0522	RpsD	Ribosomal protein S4 or related protein	SP27_01127	-4
+PBKK01000013.1	56078	57052	+	SP27_01124	SP27	324	OG0000009	NA	NA	COG0604	Qor	NADPH:quinone reductase or related Zn-dependent oxidoreductase	SP27_01127	-3
+PBKK01000013.1	57071	58384	-	SP27_01125	SP27	437	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	SP27_01127	-2
+PBKK01000013.1	58385	58909	-	SP27_01126	SP27	174	OG0001161	NA	NA	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	SP27_01127	-1
+PBKK01000013.1	58956	60020	-	SP27_01127	SP27	354	OG0003700	NA	NA	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	SP27_01127	0
+PBKK01000013.1	60276	61253	+	SP27_01128	SP27	325	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	SP27_01127	1
+PBKK01000013.1	61281	61775	+	SP27_01129	SP27	164	OG0001161	NA	NA	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	SP27_01127	2
+PBKK01000013.1	61778	63055	+	SP27_01130	SP27	425	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	SP27_01127	3
+PBKK01000013.1	63058	63630	+	SP27_01131	SP27	190	OG0003701	NA	NA	COG2203	GAF	GAF domain	SP27_01127	4
+PBKK01000013.1	63727	64431	+	SP27_01132	SP27	234	OG0002931	K07130	arylformamidase [EC:3.5.1.9]	COG1878	NA	Kynurenine formamidase	SP27_01127	5

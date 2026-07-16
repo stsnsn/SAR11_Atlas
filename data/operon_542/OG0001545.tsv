@@ -1,0 +1,744 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CABZHN010000003.1	44160	45137	-	AG-337-G06_00530	AG-337-G06	325	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-337-G06_00535	-5
+CABZHN010000003.1	45194	46114	-	AG-337-G06_00531	AG-337-G06	306	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-337-G06_00535	-4
+CABZHN010000003.1	46120	47841	-	AG-337-G06_00532	AG-337-G06	573	OG0000182	NA	NA	NA	NA	NA	AG-337-G06_00535	-3
+CABZHN010000003.1	47894	48433	+	AG-337-G06_00533	AG-337-G06	179	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-337-G06_00535	-2
+CABZHN010000003.1	48426	49532	+	AG-337-G06_00534	AG-337-G06	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-337-G06_00535	-1
+CABZHN010000003.1	49533	50801	+	AG-337-G06_00535	AG-337-G06	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-337-G06_00535	0
+CABZHN010000003.1	50790	51071	-	AG-337-G06_00536	AG-337-G06	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-337-G06_00535	1
+CABZHN010000003.1	51108	51647	+	AG-337-G06_00537	AG-337-G06	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-337-G06_00535	2
+CABZHN010000003.1	51616	52605	+	AG-337-G06_00538	AG-337-G06	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0645	AAA	Predicted kinase, contains AAA domain	AG-337-G06_00535	3
+CABZHN010000003.1	52605	54440	+	AG-337-G06_00539	AG-337-G06	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-337-G06_00535	4
+CABZHN010000003.1	54433	54723	-	AG-337-G06_00540	AG-337-G06	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-337-G06_00535	5
+CABZHN010000006.1	15978	18383	-	AG-337-G06_00953	AG-337-G06	801	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-337-G06_00958	-5
+CABZHN010000006.1	18407	19942	-	AG-337-G06_00954	AG-337-G06	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-337-G06_00958	-4
+CABZHN010000006.1	20066	20767	-	AG-337-G06_00955	AG-337-G06	233	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-337-G06_00958	-3
+CABZHN010000006.1	20772	21929	-	AG-337-G06_00956	AG-337-G06	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-337-G06_00958	-2
+CABZHN010000006.1	21922	23367	-	AG-337-G06_00957	AG-337-G06	481	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-337-G06_00958	-1
+CABZHN010000006.1	23374	24204	-	AG-337-G06_00958	AG-337-G06	276	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-337-G06_00958	0
+CABZHN010000006.1	24207	24656	-	AG-337-G06_00959	AG-337-G06	149	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-337-G06_00958	1
+CABZHN010000006.1	24662	25708	-	AG-337-G06_00960	AG-337-G06	348	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-337-G06_00958	2
+CABZHN010000006.1	25702	26967	-	AG-337-G06_00961	AG-337-G06	421	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-337-G06_00958	3
+CABZHN010000006.1	27011	27787	-	AG-337-G06_00962	AG-337-G06	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-337-G06_00958	4
+CABZHN010000006.1	27788	28207	-	AG-337-G06_00963	AG-337-G06	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-337-G06_00958	5
+CACGAF010000009.1	42298	43278	-	AG-422-B15_00720	AG-422-B15	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-422-B15_00725	-5
+CACGAF010000009.1	43332	44258	-	AG-422-B15_00721	AG-422-B15	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-422-B15_00725	-4
+CACGAF010000009.1	44258	45991	-	AG-422-B15_00722	AG-422-B15	577	OG0000182	NA	NA	NA	NA	NA	AG-422-B15_00725	-3
+CACGAF010000009.1	46047	46577	+	AG-422-B15_00723	AG-422-B15	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-422-B15_00725	-2
+CACGAF010000009.1	46580	47686	+	AG-422-B15_00724	AG-422-B15	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-422-B15_00725	-1
+CACGAF010000009.1	47687	48955	+	AG-422-B15_00725	AG-422-B15	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-422-B15_00725	0
+CACGAF010000011.1	271	1806	-	AG-422-B15_00768	AG-422-B15	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-422-B15_00772	-4
+CACGAF010000011.1	1926	2399	-	AG-422-B15_00769	AG-422-B15	157	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-422-B15_00772	-3
+CACGAF010000011.1	2640	3797	-	AG-422-B15_00770	AG-422-B15	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-422-B15_00772	-2
+CACGAF010000011.1	3803	5236	-	AG-422-B15_00771	AG-422-B15	477	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-422-B15_00772	-1
+CACGAF010000011.1	5236	6072	-	AG-422-B15_00772	AG-422-B15	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-422-B15_00772	0
+CACGAF010000011.1	6069	6524	-	AG-422-B15_00773	AG-422-B15	151	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-422-B15_00772	1
+CACGAF010000011.1	6528	7547	-	AG-422-B15_00774	AG-422-B15	339	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-422-B15_00772	2
+CACGAF010000011.1	7566	8831	-	AG-422-B15_00775	AG-422-B15	421	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-422-B15_00772	3
+CACGAF010000011.1	8874	9650	-	AG-422-B15_00776	AG-422-B15	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-422-B15_00772	4
+CACGAF010000011.1	9651	10070	-	AG-422-B15_00777	AG-422-B15	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-422-B15_00772	5
+CACGCK010000001.1	13555	14535	-	AG-422-C21_00015	AG-422-C21	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-422-C21_00020	-5
+CACGCK010000001.1	14589	15515	-	AG-422-C21_00016	AG-422-C21	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-422-C21_00020	-4
+CACGCK010000001.1	15515	17248	-	AG-422-C21_00017	AG-422-C21	577	OG0000182	NA	NA	NA	NA	NA	AG-422-C21_00020	-3
+CACGCK010000001.1	17304	17834	+	AG-422-C21_00018	AG-422-C21	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-422-C21_00020	-2
+CACGCK010000001.1	17837	18943	+	AG-422-C21_00019	AG-422-C21	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-422-C21_00020	-1
+CACGCK010000001.1	18944	20212	+	AG-422-C21_00020	AG-422-C21	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-422-C21_00020	0
+CACGCK010000001.1	20201	20482	-	AG-422-C21_00021	AG-422-C21	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-422-C21_00020	1
+CACGCK010000001.1	20518	21057	+	AG-422-C21_00022	AG-422-C21	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-422-C21_00020	2
+CACGCK010000001.1	21026	22015	+	AG-422-C21_00023	AG-422-C21	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-422-C21_00020	3
+CACGCK010000001.1	22015	23850	+	AG-422-C21_00024	AG-422-C21	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-422-C21_00020	4
+CACGCK010000001.1	23843	24133	-	AG-422-C21_00025	AG-422-C21	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-422-C21_00020	5
+CACGCK010000001.1	220065	220484	+	AG-422-C21_00242	AG-422-C21	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-422-C21_00247	-5
+CACGCK010000001.1	220485	221261	+	AG-422-C21_00243	AG-422-C21	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-422-C21_00247	-4
+CACGCK010000001.1	221262	222569	+	AG-422-C21_00244	AG-422-C21	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-422-C21_00247	-3
+CACGCK010000001.1	222563	223609	+	AG-422-C21_00245	AG-422-C21	348	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-422-C21_00247	-2
+CACGCK010000001.1	223613	224068	+	AG-422-C21_00246	AG-422-C21	151	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-422-C21_00247	-1
+CACGCK010000001.1	224065	224901	+	AG-422-C21_00247	AG-422-C21	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-422-C21_00247	0
+CACGCK010000001.1	224901	226334	+	AG-422-C21_00248	AG-422-C21	477	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-422-C21_00247	1
+CACGCK010000001.1	226306	227496	+	AG-422-C21_00249	AG-422-C21	396	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-422-C21_00247	2
+CACGCK010000001.1	227595	228209	+	AG-422-C21_00250	AG-422-C21	204	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-422-C21_00247	3
+CACGCK010000001.1	228329	229864	+	AG-422-C21_00251	AG-422-C21	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-422-C21_00247	4
+CACGCK010000001.1	229886	232264	+	AG-422-C21_00252	AG-422-C21	792	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-422-C21_00247	5
+CACHAK010000002.1	129592	129882	+	AG-426-I21_00502	AG-426-I21	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-426-I21_00507	-5
+CACHAK010000002.1	129875	131710	-	AG-426-I21_00503	AG-426-I21	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-426-I21_00507	-4
+CACHAK010000002.1	131710	132699	-	AG-426-I21_00504	AG-426-I21	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-426-I21_00507	-3
+CACHAK010000002.1	132668	133207	-	AG-426-I21_00505	AG-426-I21	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-426-I21_00507	-2
+CACHAK010000002.1	133243	133524	+	AG-426-I21_00506	AG-426-I21	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-426-I21_00507	-1
+CACHAK010000002.1	133513	134781	-	AG-426-I21_00507	AG-426-I21	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-426-I21_00507	0
+CACHAK010000002.1	134782	135888	-	AG-426-I21_00508	AG-426-I21	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-426-I21_00507	1
+CACHAK010000002.1	135891	136421	-	AG-426-I21_00509	AG-426-I21	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-426-I21_00507	2
+CACHAK010000002.1	136477	138207	+	AG-426-I21_00510	AG-426-I21	576	OG0000182	NA	NA	NA	NA	NA	AG-426-I21_00507	3
+CACHAK010000002.1	138207	139133	+	AG-426-I21_00511	AG-426-I21	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-426-I21_00507	4
+CACHAK010000002.1	139187	140167	+	AG-426-I21_00512	AG-426-I21	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-426-I21_00507	5
+CACHAK010000003.1	40077	42461	-	AG-426-I21_00594	AG-426-I21	794	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-426-I21_00599	-5
+CACHAK010000003.1	42486	44021	-	AG-426-I21_00595	AG-426-I21	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-426-I21_00599	-4
+CACHAK010000003.1	44139	44828	-	AG-426-I21_00596	AG-426-I21	229	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-426-I21_00599	-3
+CACHAK010000003.1	44850	46007	-	AG-426-I21_00597	AG-426-I21	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-426-I21_00599	-2
+CACHAK010000003.1	46014	47441	-	AG-426-I21_00598	AG-426-I21	475	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-426-I21_00599	-1
+CACHAK010000003.1	47441	48277	-	AG-426-I21_00599	AG-426-I21	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-426-I21_00599	0
+CACHAK010000003.1	48274	48726	-	AG-426-I21_00600	AG-426-I21	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-426-I21_00599	1
+CACHAK010000003.1	48730	49749	-	AG-426-I21_00601	AG-426-I21	339	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-426-I21_00599	2
+CACHAK010000003.1	49770	51077	-	AG-426-I21_00602	AG-426-I21	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-426-I21_00599	3
+CACHAK010000003.1	51082	51855	-	AG-426-I21_00603	AG-426-I21	257	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-426-I21_00599	4
+CACHAK010000003.1	51856	52275	-	AG-426-I21_00604	AG-426-I21	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-426-I21_00599	5
+CACIQL010000011.1	29565	29855	+	AG-439-D15_00917	AG-439-D15	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-439-D15_00922	-5
+CACIQL010000011.1	29848	31683	-	AG-439-D15_00918	AG-439-D15	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-439-D15_00922	-4
+CACIQL010000011.1	31683	32672	-	AG-439-D15_00919	AG-439-D15	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-439-D15_00922	-3
+CACIQL010000011.1	32641	33180	-	AG-439-D15_00920	AG-439-D15	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-439-D15_00922	-2
+CACIQL010000011.1	33216	33497	+	AG-439-D15_00921	AG-439-D15	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-439-D15_00922	-1
+CACIQL010000011.1	33486	34754	-	AG-439-D15_00922	AG-439-D15	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-439-D15_00922	0
+CACIQL010000011.1	34755	35861	-	AG-439-D15_00923	AG-439-D15	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-439-D15_00922	1
+CACIQL010000011.1	35864	36394	-	AG-439-D15_00924	AG-439-D15	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-439-D15_00922	2
+CACIQL010000011.1	36450	38183	+	AG-439-D15_00925	AG-439-D15	577	OG0000182	NA	NA	NA	NA	NA	AG-439-D15_00922	3
+CACIQL010000011.1	38183	39109	+	AG-439-D15_00926	AG-439-D15	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-439-D15_00922	4
+CACKWR010000001.1	79095	81494	-	AG-457-M14_00073	AG-457-M14	799	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-457-M14_00078	-5
+CACKWR010000001.1	81513	83048	-	AG-457-M14_00074	AG-457-M14	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-457-M14_00078	-4
+CACKWR010000001.1	83182	83895	-	AG-457-M14_00075	AG-457-M14	237	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-457-M14_00078	-3
+CACKWR010000001.1	83898	85061	-	AG-457-M14_00076	AG-457-M14	387	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-457-M14_00078	-2
+CACKWR010000001.1	85067	86506	-	AG-457-M14_00077	AG-457-M14	479	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-457-M14_00078	-1
+CACKWR010000001.1	86507	87334	-	AG-457-M14_00078	AG-457-M14	275	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-457-M14_00078	0
+CACKWR010000001.1	87331	87786	-	AG-457-M14_00079	AG-457-M14	151	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-457-M14_00078	1
+CACKWR010000001.1	87776	88798	-	AG-457-M14_00080	AG-457-M14	340	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-457-M14_00078	2
+CACKWR010000001.1	88813	90135	-	AG-457-M14_00081	AG-457-M14	440	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-457-M14_00078	3
+CACKWR010000001.1	90141	90950	-	AG-457-M14_00082	AG-457-M14	269	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-457-M14_00078	4
+CACKWR010000001.1	90973	91395	-	AG-457-M14_00083	AG-457-M14	140	OG0000708	NA	NA	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-457-M14_00078	5
+CACKWR010000013.1	25068	25355	+	AG-457-M14_00975	AG-457-M14	95	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-457-M14_00980	-5
+CACKWR010000013.1	25357	27186	-	AG-457-M14_00976	AG-457-M14	609	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-457-M14_00980	-4
+CACKWR010000013.1	27187	28176	-	AG-457-M14_00977	AG-457-M14	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	AG-457-M14_00980	-3
+CACKWR010000013.1	28154	28684	-	AG-457-M14_00978	AG-457-M14	176	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-457-M14_00980	-2
+CACKWR010000013.1	28714	29013	+	AG-457-M14_00979	AG-457-M14	99	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-457-M14_00980	-1
+CACKWR010000013.1	28984	29364	-	AG-457-M14_00980	AG-457-M14	126	OG0001545	NA	NA	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-457-M14_00980	0
+CACLHF010000021.1	10	966	+	AG-461-P14_01215	AG-461-P14	318	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-461-P14_01216	-1
+CACLHF010000021.1	969	2237	+	AG-461-P14_01216	AG-461-P14	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-461-P14_01216	0
+CACLHF010000021.1	2208	2507	-	AG-461-P14_01217	AG-461-P14	99	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-461-P14_01216	1
+CACLHF010000021.1	2537	3067	+	AG-461-P14_01218	AG-461-P14	176	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-461-P14_01216	2
+CACLHF010000021.1	3045	4034	+	AG-461-P14_01219	AG-461-P14	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG2086	FixA	Electron transfer flavoprotein, alpha and beta subunits	AG-461-P14_01216	3
+CACMIV010000001.1	253498	254478	-	AG-891-J04_00272	AG-891-J04	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-891-J04_00277	-5
+CACMIV010000001.1	254532	255458	-	AG-891-J04_00273	AG-891-J04	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-891-J04_00277	-4
+CACMIV010000001.1	255458	257188	-	AG-891-J04_00274	AG-891-J04	576	OG0000182	NA	NA	NA	NA	NA	AG-891-J04_00277	-3
+CACMIV010000001.1	257244	257774	+	AG-891-J04_00275	AG-891-J04	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-891-J04_00277	-2
+CACMIV010000001.1	257777	258883	+	AG-891-J04_00276	AG-891-J04	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-891-J04_00277	-1
+CACMIV010000001.1	258884	260152	+	AG-891-J04_00277	AG-891-J04	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-891-J04_00277	0
+CACMIV010000001.1	260141	260422	-	AG-891-J04_00278	AG-891-J04	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-891-J04_00277	1
+CACMIV010000001.1	260460	260999	+	AG-891-J04_00279	AG-891-J04	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-891-J04_00277	2
+CACMIV010000001.1	260968	261957	+	AG-891-J04_00280	AG-891-J04	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-891-J04_00277	3
+CACMIV010000001.1	261957	263792	+	AG-891-J04_00281	AG-891-J04	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-891-J04_00277	4
+CACMIV010000001.1	263785	264075	-	AG-891-J04_00282	AG-891-J04	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-891-J04_00277	5
+CACMIV010000001.1	460712	461131	+	AG-891-J04_00501	AG-891-J04	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-891-J04_00506	-5
+CACMIV010000001.1	461132	461908	+	AG-891-J04_00502	AG-891-J04	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-891-J04_00506	-4
+CACMIV010000001.1	461910	463214	+	AG-891-J04_00503	AG-891-J04	434	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-891-J04_00506	-3
+CACMIV010000001.1	463234	464262	+	AG-891-J04_00504	AG-891-J04	342	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-891-J04_00506	-2
+CACMIV010000001.1	464259	464714	+	AG-891-J04_00505	AG-891-J04	151	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-891-J04_00506	-1
+CACMIV010000001.1	464711	465547	+	AG-891-J04_00506	AG-891-J04	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-891-J04_00506	0
+CACMIV010000001.1	465547	466980	+	AG-891-J04_00507	AG-891-J04	477	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-891-J04_00506	1
+CACMIV010000001.1	466984	468141	+	AG-891-J04_00508	AG-891-J04	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-891-J04_00506	2
+CACMIV010000001.1	468149	468859	+	AG-891-J04_00509	AG-891-J04	236	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-891-J04_00506	3
+CACMIV010000001.1	468979	470514	+	AG-891-J04_00510	AG-891-J04	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-891-J04_00506	4
+CACMIV010000001.1	470533	472926	+	AG-891-J04_00511	AG-891-J04	797	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-891-J04_00506	5
+CACNCV010000001.1	199297	199587	+	AG-892-M06_00213	AG-892-M06	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-892-M06_00218	-5
+CACNCV010000001.1	199580	201415	-	AG-892-M06_00214	AG-892-M06	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-892-M06_00218	-4
+CACNCV010000001.1	201415	202404	-	AG-892-M06_00215	AG-892-M06	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-892-M06_00218	-3
+CACNCV010000001.1	202373	202912	-	AG-892-M06_00216	AG-892-M06	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-892-M06_00218	-2
+CACNCV010000001.1	202948	203229	+	AG-892-M06_00217	AG-892-M06	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-892-M06_00218	-1
+CACNCV010000001.1	203218	204486	-	AG-892-M06_00218	AG-892-M06	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-892-M06_00218	0
+CACNCV010000001.1	204487	205593	-	AG-892-M06_00219	AG-892-M06	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-892-M06_00218	1
+CACNCV010000001.1	205596	206126	-	AG-892-M06_00220	AG-892-M06	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-892-M06_00218	2
+CACNCV010000001.1	206182	207915	+	AG-892-M06_00221	AG-892-M06	577	OG0000182	NA	NA	NA	NA	NA	AG-892-M06_00218	3
+CACNCV010000001.1	207915	208841	+	AG-892-M06_00222	AG-892-M06	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-892-M06_00218	4
+CACNCV010000001.1	208895	209875	+	AG-892-M06_00223	AG-892-M06	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-892-M06_00218	5
+CACNCV010000003.1	11195	11614	+	AG-892-M06_00831	AG-892-M06	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-892-M06_00836	-5
+CACNCV010000003.1	11615	12391	+	AG-892-M06_00832	AG-892-M06	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-892-M06_00836	-4
+CACNCV010000003.1	12393	13700	+	AG-892-M06_00833	AG-892-M06	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-892-M06_00836	-3
+CACNCV010000003.1	13721	14734	+	AG-892-M06_00834	AG-892-M06	337	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-892-M06_00836	-2
+CACNCV010000003.1	14739	15200	+	AG-892-M06_00835	AG-892-M06	153	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-892-M06_00836	-1
+CACNCV010000003.1	15190	16026	+	AG-892-M06_00836	AG-892-M06	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-892-M06_00836	0
+CACNCV010000003.1	16026	17459	+	AG-892-M06_00837	AG-892-M06	477	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-892-M06_00836	1
+CACNCV010000003.1	17431	18621	+	AG-892-M06_00838	AG-892-M06	396	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-892-M06_00836	2
+CACNCV010000003.1	18629	19333	+	AG-892-M06_00839	AG-892-M06	234	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-892-M06_00836	3
+CACNCV010000003.1	19452	20987	+	AG-892-M06_00840	AG-892-M06	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-892-M06_00836	4
+CACNCV010000003.1	21009	23417	+	AG-892-M06_00841	AG-892-M06	802	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-892-M06_00836	5
+CACNSH010000001.1	173979	174959	-	AG-893-M03_00183	AG-893-M03	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-893-M03_00188	-5
+CACNSH010000001.1	175013	175939	-	AG-893-M03_00184	AG-893-M03	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-893-M03_00188	-4
+CACNSH010000001.1	175939	177669	-	AG-893-M03_00185	AG-893-M03	576	OG0000182	NA	NA	NA	NA	NA	AG-893-M03_00188	-3
+CACNSH010000001.1	177725	178255	+	AG-893-M03_00186	AG-893-M03	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-893-M03_00188	-2
+CACNSH010000001.1	178258	179364	+	AG-893-M03_00187	AG-893-M03	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-893-M03_00188	-1
+CACNSH010000001.1	179365	180633	+	AG-893-M03_00188	AG-893-M03	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-893-M03_00188	0
+CACNSH010000001.1	180622	180903	-	AG-893-M03_00189	AG-893-M03	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-893-M03_00188	1
+CACNSH010000001.1	180939	181478	+	AG-893-M03_00190	AG-893-M03	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-893-M03_00188	2
+CACNSH010000001.1	181447	182436	+	AG-893-M03_00191	AG-893-M03	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-893-M03_00188	3
+CACNSH010000001.1	182436	184271	+	AG-893-M03_00192	AG-893-M03	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-893-M03_00188	4
+CACNSH010000001.1	184264	184554	-	AG-893-M03_00193	AG-893-M03	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-893-M03_00188	5
+CACNSH010000006.1	13421	15829	-	AG-893-M03_01049	AG-893-M03	802	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-893-M03_01054	-5
+CACNSH010000006.1	15851	17386	-	AG-893-M03_01050	AG-893-M03	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-893-M03_01054	-4
+CACNSH010000006.1	17503	18207	-	AG-893-M03_01051	AG-893-M03	234	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-893-M03_01054	-3
+CACNSH010000006.1	18216	19373	-	AG-893-M03_01052	AG-893-M03	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-893-M03_01054	-2
+CACNSH010000006.1	19377	20810	-	AG-893-M03_01053	AG-893-M03	477	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-893-M03_01054	-1
+CACNSH010000006.1	20810	21646	-	AG-893-M03_01054	AG-893-M03	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-893-M03_01054	0
+CACNSH010000006.1	21643	22098	-	AG-893-M03_01055	AG-893-M03	151	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-893-M03_01054	1
+CACNSH010000006.1	22103	23116	-	AG-893-M03_01056	AG-893-M03	337	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-893-M03_01054	2
+CACNSH010000006.1	23136	24443	-	AG-893-M03_01057	AG-893-M03	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-893-M03_01054	3
+CACNSH010000006.1	24445	25221	-	AG-893-M03_01058	AG-893-M03	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-893-M03_01054	4
+CACNSH010000006.1	25222	25641	-	AG-893-M03_01059	AG-893-M03	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-893-M03_01054	5
+CABYDT010000001.1	160617	162779	+	AG-894-A09_00173	AG-894-A09	720	OG0000589	K01638	malate synthase [EC:2.3.3.9]	COG2225	AceB	Malate synthase	AG-894-A09_00178	-5
+CABYDT010000001.1	162765	164513	-	AG-894-A09_00174	AG-894-A09	582	OG0000182	NA	NA	NA	NA	NA	AG-894-A09_00178	-4
+CABYDT010000001.1	164488	164637	-	AG-894-A09_00175	AG-894-A09	49	OG0000855	NA	NA	NA	NA	NA	AG-894-A09_00178	-3
+CABYDT010000001.1	164707	165210	+	AG-894-A09_00176	AG-894-A09	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-894-A09_00178	-2
+CABYDT010000001.1	165207	166295	+	AG-894-A09_00177	AG-894-A09	362	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-894-A09_00178	-1
+CABYDT010000001.1	166297	167571	+	AG-894-A09_00178	AG-894-A09	424	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-894-A09_00178	0
+CABYDT010000001.1	167561	167815	-	AG-894-A09_00179	AG-894-A09	84	OG0000729	NA	NA	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-894-A09_00178	1
+CABYDT010000001.1	167840	168493	+	AG-894-A09_00180	AG-894-A09	217	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-894-A09_00178	2
+CABYDT010000001.1	168490	169482	+	AG-894-A09_00181	AG-894-A09	330	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-894-A09_00178	3
+CABYDT010000001.1	169475	171250	+	AG-894-A09_00182	AG-894-A09	591	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-894-A09_00178	4
+CABYDT010000001.1	171224	171799	-	AG-894-A09_00183	AG-894-A09	191	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	AG-894-A09_00178	5
+CABYDT010000003.1	112061	112624	+	AG-894-A09_00551	AG-894-A09	187	OG0000866	NA	NA	NA	NA	NA	AG-894-A09_00556	-5
+CABYDT010000003.1	112643	113092	+	AG-894-A09_00552	AG-894-A09	149	OG0000708	NA	NA	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-894-A09_00556	-4
+CABYDT010000003.1	113124	114395	+	AG-894-A09_00553	AG-894-A09	423	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-894-A09_00556	-3
+CABYDT010000003.1	114400	115365	+	AG-894-A09_00554	AG-894-A09	321	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-894-A09_00556	-2
+CABYDT010000003.1	115365	115817	+	AG-894-A09_00555	AG-894-A09	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-894-A09_00556	-1
+CABYDT010000003.1	115814	116644	+	AG-894-A09_00556	AG-894-A09	276	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-894-A09_00556	0
+CABYDT010000003.1	116646	118163	+	AG-894-A09_00557	AG-894-A09	505	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-894-A09_00556	1
+CABYDT010000003.1	118156	119313	+	AG-894-A09_00558	AG-894-A09	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-894-A09_00556	2
+CABYDT010000003.1	119453	119923	+	AG-894-A09_00559	AG-894-A09	156	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-894-A09_00556	3
+CABYDT010000003.1	119961	121541	+	AG-894-A09_00560	AG-894-A09	526	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-894-A09_00556	4
+CABYDT010000003.1	121560	123728	+	AG-894-A09_00561	AG-894-A09	722	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-894-A09_00556	5
+CABYDZ010000003.1	134819	137224	-	AG-894-A11_00548	AG-894-A11	801	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-894-A11_00553	-5
+CABYDZ010000003.1	137248	138783	-	AG-894-A11_00549	AG-894-A11	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-894-A11_00553	-4
+CABYDZ010000003.1	138907	139608	-	AG-894-A11_00550	AG-894-A11	233	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-894-A11_00553	-3
+CABYDZ010000003.1	139613	140770	-	AG-894-A11_00551	AG-894-A11	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-894-A11_00553	-2
+CABYDZ010000003.1	140763	142208	-	AG-894-A11_00552	AG-894-A11	481	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-894-A11_00553	-1
+CABYDZ010000003.1	142215	143045	-	AG-894-A11_00553	AG-894-A11	276	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-894-A11_00553	0
+CABYDZ010000003.1	143048	143497	-	AG-894-A11_00554	AG-894-A11	149	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-894-A11_00553	1
+CABYDZ010000003.1	143503	144546	-	AG-894-A11_00555	AG-894-A11	347	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-894-A11_00553	2
+CABYDZ010000003.1	144543	145850	-	AG-894-A11_00556	AG-894-A11	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-894-A11_00553	3
+CABYDZ010000003.1	145852	146628	-	AG-894-A11_00557	AG-894-A11	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-894-A11_00553	4
+CABYDZ010000003.1	146629	147048	-	AG-894-A11_00558	AG-894-A11	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-894-A11_00553	5
+CABYDZ010000004.1	60222	60512	+	AG-894-A11_00659	AG-894-A11	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-894-A11_00664	-5
+CABYDZ010000004.1	60505	62340	-	AG-894-A11_00660	AG-894-A11	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-894-A11_00664	-4
+CABYDZ010000004.1	62340	63329	-	AG-894-A11_00661	AG-894-A11	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0645	AAA	Predicted kinase, contains AAA domain	AG-894-A11_00664	-3
+CABYDZ010000004.1	63298	63837	-	AG-894-A11_00662	AG-894-A11	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-894-A11_00664	-2
+CABYDZ010000004.1	63874	64155	+	AG-894-A11_00663	AG-894-A11	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-894-A11_00664	-1
+CABYDZ010000004.1	64144	65412	-	AG-894-A11_00664	AG-894-A11	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-894-A11_00664	0
+CABYDZ010000004.1	65413	66519	-	AG-894-A11_00665	AG-894-A11	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-894-A11_00664	1
+CABYDZ010000004.1	66512	67051	-	AG-894-A11_00666	AG-894-A11	179	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-894-A11_00664	2
+CABYDZ010000004.1	67104	68825	+	AG-894-A11_00667	AG-894-A11	573	OG0000182	NA	NA	NA	NA	NA	AG-894-A11_00664	3
+CABYDZ010000004.1	68831	69751	+	AG-894-A11_00668	AG-894-A11	306	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-894-A11_00664	4
+CABYDZ010000004.1	69808	70785	+	AG-894-A11_00669	AG-894-A11	325	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-894-A11_00664	5
+CABYZG010000001.1	63931	64221	+	AG-895-F07_00074	AG-895-F07	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-895-F07_00079	-5
+CABYZG010000001.1	64214	66049	-	AG-895-F07_00075	AG-895-F07	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-895-F07_00079	-4
+CABYZG010000001.1	66049	67038	-	AG-895-F07_00076	AG-895-F07	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-895-F07_00079	-3
+CABYZG010000001.1	67007	67546	-	AG-895-F07_00077	AG-895-F07	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-895-F07_00079	-2
+CABYZG010000001.1	67582	67863	+	AG-895-F07_00078	AG-895-F07	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-895-F07_00079	-1
+CABYZG010000001.1	67852	69120	-	AG-895-F07_00079	AG-895-F07	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-895-F07_00079	0
+CABYZG010000001.1	69121	70227	-	AG-895-F07_00080	AG-895-F07	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-895-F07_00079	1
+CABYZG010000001.1	70230	70760	-	AG-895-F07_00081	AG-895-F07	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-895-F07_00079	2
+CABYZG010000001.1	70816	72549	+	AG-895-F07_00082	AG-895-F07	577	OG0000182	NA	NA	NA	NA	NA	AG-895-F07_00079	3
+CABYZG010000001.1	72549	73475	+	AG-895-F07_00083	AG-895-F07	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-895-F07_00079	4
+CABYZG010000001.1	73529	74509	+	AG-895-F07_00084	AG-895-F07	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-895-F07_00079	5
+CABYZG010000002.1	69175	71574	-	AG-895-F07_00511	AG-895-F07	799	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-895-F07_00516	-5
+CABYZG010000002.1	71596	73131	-	AG-895-F07_00512	AG-895-F07	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-895-F07_00516	-4
+CABYZG010000002.1	73251	73946	-	AG-895-F07_00513	AG-895-F07	231	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-895-F07_00516	-3
+CABYZG010000002.1	73964	75121	-	AG-895-F07_00514	AG-895-F07	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-895-F07_00516	-2
+CABYZG010000002.1	75127	76560	-	AG-895-F07_00515	AG-895-F07	477	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-895-F07_00516	-1
+CABYZG010000002.1	76560	77396	-	AG-895-F07_00516	AG-895-F07	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-895-F07_00516	0
+CABYZG010000002.1	77393	77848	-	AG-895-F07_00517	AG-895-F07	151	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-895-F07_00516	1
+CABYZG010000002.1	77852	78871	-	AG-895-F07_00518	AG-895-F07	339	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-895-F07_00516	2
+CABYZG010000002.1	78890	80155	-	AG-895-F07_00519	AG-895-F07	421	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-895-F07_00516	3
+CABYZG010000002.1	80198	80974	-	AG-895-F07_00520	AG-895-F07	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-895-F07_00516	4
+CABYZG010000002.1	80975	81394	-	AG-895-F07_00521	AG-895-F07	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-895-F07_00516	5
+CABZIW010000001.1	160037	162439	-	AG-896-A02_00161	AG-896-A02	800	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-896-A02_00166	-5
+CABZIW010000001.1	162461	163996	-	AG-896-A02_00162	AG-896-A02	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-896-A02_00166	-4
+CABZIW010000001.1	164116	164811	-	AG-896-A02_00163	AG-896-A02	231	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-896-A02_00166	-3
+CABZIW010000001.1	164829	165986	-	AG-896-A02_00164	AG-896-A02	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-896-A02_00166	-2
+CABZIW010000001.1	165992	167425	-	AG-896-A02_00165	AG-896-A02	477	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-896-A02_00166	-1
+CABZIW010000001.1	167425	168261	-	AG-896-A02_00166	AG-896-A02	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-896-A02_00166	0
+CABZIW010000001.1	168258	168713	-	AG-896-A02_00167	AG-896-A02	151	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-896-A02_00166	1
+CABZIW010000001.1	168717	169736	-	AG-896-A02_00168	AG-896-A02	339	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-896-A02_00166	2
+CABZIW010000001.1	169755	171020	-	AG-896-A02_00169	AG-896-A02	421	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-896-A02_00166	3
+CABZIW010000001.1	171063	171839	-	AG-896-A02_00170	AG-896-A02	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-896-A02_00166	4
+CABZIW010000001.1	171840	172259	-	AG-896-A02_00171	AG-896-A02	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-896-A02_00166	5
+CABZIW010000008.1	87	1355	-	AG-896-A02_01187	AG-896-A02	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-896-A02_01187	0
+CABZIW010000008.1	1356	2462	-	AG-896-A02_01188	AG-896-A02	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-896-A02_01187	1
+CABZIW010000008.1	2465	2995	-	AG-896-A02_01189	AG-896-A02	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-896-A02_01187	2
+CABZIW010000008.1	3051	4784	+	AG-896-A02_01190	AG-896-A02	577	OG0000182	NA	NA	NA	NA	NA	AG-896-A02_01187	3
+CABZIW010000008.1	4784	5710	+	AG-896-A02_01191	AG-896-A02	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-896-A02_01187	4
+CABZIW010000008.1	5764	6744	+	AG-896-A02_01192	AG-896-A02	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-896-A02_01187	5
+CACBNN010000007.1	63469	64449	-	AG-899-O02_00922	AG-899-O02	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-899-O02_00927	-5
+CACBNN010000007.1	64503	65429	-	AG-899-O02_00923	AG-899-O02	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-899-O02_00927	-4
+CACBNN010000007.1	65429	67162	-	AG-899-O02_00924	AG-899-O02	577	OG0000182	NA	NA	NA	NA	NA	AG-899-O02_00927	-3
+CACBNN010000007.1	67218	67748	+	AG-899-O02_00925	AG-899-O02	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-899-O02_00927	-2
+CACBNN010000007.1	67751	68857	+	AG-899-O02_00926	AG-899-O02	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-899-O02_00927	-1
+CACBNN010000007.1	68858	70126	+	AG-899-O02_00927	AG-899-O02	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-899-O02_00927	0
+CACBNN010000007.1	70115	70396	-	AG-899-O02_00928	AG-899-O02	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-899-O02_00927	1
+CACBNN010000007.1	70432	70971	+	AG-899-O02_00929	AG-899-O02	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-899-O02_00927	2
+CACBNN010000007.1	70940	71929	+	AG-899-O02_00930	AG-899-O02	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-899-O02_00927	3
+CACBNN010000007.1	71929	73764	+	AG-899-O02_00931	AG-899-O02	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-899-O02_00927	4
+CACBNN010000007.1	73757	74047	-	AG-899-O02_00932	AG-899-O02	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-899-O02_00927	5
+CACCAS010000002.1	95201	95620	+	AG-900-K14_00434	AG-900-K14	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-900-K14_00439	-5
+CACCAS010000002.1	95621	96397	+	AG-900-K14_00435	AG-900-K14	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-900-K14_00439	-4
+CACCAS010000002.1	96399	97706	+	AG-900-K14_00436	AG-900-K14	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-900-K14_00439	-3
+CACCAS010000002.1	97700	98746	+	AG-900-K14_00437	AG-900-K14	348	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-900-K14_00439	-2
+CACCAS010000002.1	98752	99201	+	AG-900-K14_00438	AG-900-K14	149	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-900-K14_00439	-1
+CACCAS010000002.1	99204	100034	+	AG-900-K14_00439	AG-900-K14	276	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-900-K14_00439	0
+CACCAS010000002.1	100041	101486	+	AG-900-K14_00440	AG-900-K14	481	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-900-K14_00439	1
+CACCAS010000002.1	101479	102636	+	AG-900-K14_00441	AG-900-K14	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-900-K14_00439	2
+CACCAS010000002.1	102641	103342	+	AG-900-K14_00442	AG-900-K14	233	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-900-K14_00439	3
+CACCAS010000002.1	103466	105001	+	AG-900-K14_00443	AG-900-K14	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-900-K14_00439	4
+CACCAS010000002.1	105027	107432	+	AG-900-K14_00444	AG-900-K14	801	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-900-K14_00439	5
+CACCAS010000007.1	20451	21428	-	AG-900-K14_01238	AG-900-K14	325	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-900-K14_01243	-5
+CACCAS010000007.1	21485	22405	-	AG-900-K14_01239	AG-900-K14	306	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-900-K14_01243	-4
+CACCAS010000007.1	22411	24132	-	AG-900-K14_01240	AG-900-K14	573	OG0000182	NA	NA	NA	NA	NA	AG-900-K14_01243	-3
+CACCAS010000007.1	24185	24724	+	AG-900-K14_01241	AG-900-K14	179	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-900-K14_01243	-2
+CACCAS010000007.1	24717	25823	+	AG-900-K14_01242	AG-900-K14	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-900-K14_01243	-1
+CACCAS010000007.1	25824	27092	+	AG-900-K14_01243	AG-900-K14	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-900-K14_01243	0
+CACCAS010000007.1	27081	27362	-	AG-900-K14_01244	AG-900-K14	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-900-K14_01243	1
+CACCAS010000007.1	27405	27944	+	AG-900-K14_01245	AG-900-K14	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-900-K14_01243	2
+CACCAS010000007.1	27913	28902	+	AG-900-K14_01246	AG-900-K14	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0645	AAA	Predicted kinase, contains AAA domain	AG-900-K14_01243	3
+CACCAS010000007.1	28902	30737	+	AG-900-K14_01247	AG-900-K14	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-900-K14_01243	4
+CACCAS010000007.1	30730	31020	-	AG-900-K14_01248	AG-900-K14	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-900-K14_01243	5
+CACCCN010000001.1	220496	222895	-	AG-900-M14_00225	AG-900-M14	799	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-900-M14_00230	-5
+CACCCN010000001.1	222914	224449	-	AG-900-M14_00226	AG-900-M14	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-900-M14_00230	-4
+CACCCN010000001.1	224585	225298	-	AG-900-M14_00227	AG-900-M14	237	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-900-M14_00230	-3
+CACCCN010000001.1	225301	226464	-	AG-900-M14_00228	AG-900-M14	387	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-900-M14_00230	-2
+CACCCN010000001.1	226470	227909	-	AG-900-M14_00229	AG-900-M14	479	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-900-M14_00230	-1
+CACCCN010000001.1	227910	228737	-	AG-900-M14_00230	AG-900-M14	275	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-900-M14_00230	0
+CACCCN010000001.1	228734	229189	-	AG-900-M14_00231	AG-900-M14	151	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-900-M14_00230	1
+CACCCN010000001.1	229179	230201	-	AG-900-M14_00232	AG-900-M14	340	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-900-M14_00230	2
+CACCCN010000001.1	230216	231538	-	AG-900-M14_00233	AG-900-M14	440	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-900-M14_00230	3
+CACCCN010000001.1	231544	232353	-	AG-900-M14_00234	AG-900-M14	269	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-900-M14_00230	4
+CACCCN010000001.1	232376	232798	-	AG-900-M14_00235	AG-900-M14	140	OG0000708	NA	NA	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-900-M14_00230	5
+CACCCN010000002.1	219126	219869	+	AG-900-M14_00535	AG-900-M14	247	OG0000597	NA	NA	COG1647	YvaK	Esterase/lipase	AG-900-M14_00540	-5
+CACCCN010000002.1	219876	220772	+	AG-900-M14_00536	AG-900-M14	298	OG0000082	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-900-M14_00540	-4
+CACCCN010000002.1	220794	222524	-	AG-900-M14_00537	AG-900-M14	576	OG0000182	NA	NA	NA	NA	NA	AG-900-M14_00540	-3
+CACCCN010000002.1	222625	223170	+	AG-900-M14_00538	AG-900-M14	181	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-900-M14_00540	-2
+CACCCN010000002.1	223157	224257	+	AG-900-M14_00539	AG-900-M14	366	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-900-M14_00540	-1
+CACCCN010000002.1	224260	225528	+	AG-900-M14_00540	AG-900-M14	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-900-M14_00540	0
+CACCCN010000002.1	225499	225798	-	AG-900-M14_00541	AG-900-M14	99	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-900-M14_00540	1
+CACCCN010000002.1	225828	226358	+	AG-900-M14_00542	AG-900-M14	176	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-900-M14_00540	2
+CACCND010000002.1	186578	186991	+	AG-901-G03_00447	AG-901-G03	137	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-901-G03_00452	-5
+CACCND010000002.1	186997	187773	+	AG-901-G03_00448	AG-901-G03	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-901-G03_00452	-4
+CACCND010000002.1	187775	189082	+	AG-901-G03_00449	AG-901-G03	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-901-G03_00452	-3
+CACCND010000002.1	189076	190119	+	AG-901-G03_00450	AG-901-G03	347	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-901-G03_00452	-2
+CACCND010000002.1	190122	190580	+	AG-901-G03_00451	AG-901-G03	152	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-901-G03_00452	-1
+CACCND010000002.1	190573	191409	+	AG-901-G03_00452	AG-901-G03	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-901-G03_00452	0
+CACCND010000002.1	191409	192857	+	AG-901-G03_00453	AG-901-G03	482	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-901-G03_00452	1
+CACCND010000002.1	192847	194004	+	AG-901-G03_00454	AG-901-G03	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-901-G03_00452	2
+CACCND010000002.1	193971	194708	+	AG-901-G03_00455	AG-901-G03	245	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-901-G03_00452	3
+CACCND010000002.1	194833	196368	+	AG-901-G03_00456	AG-901-G03	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-901-G03_00452	4
+CACCND010000015.1	3640	3930	+	AG-901-G03_01217	AG-901-G03	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-901-G03_01222	-5
+CACCND010000015.1	3927	5762	-	AG-901-G03_01218	AG-901-G03	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-901-G03_01222	-4
+CACCND010000015.1	5762	6751	-	AG-901-G03_01219	AG-901-G03	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0645	AAA	Predicted kinase, contains AAA domain	AG-901-G03_01222	-3
+CACCND010000015.1	6720	7259	-	AG-901-G03_01220	AG-901-G03	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-901-G03_01222	-2
+CACCND010000015.1	7295	7576	+	AG-901-G03_01221	AG-901-G03	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-901-G03_01222	-1
+CACCND010000015.1	7565	8833	-	AG-901-G03_01222	AG-901-G03	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-901-G03_01222	0
+CACCND010000015.1	8834	9826	-	AG-901-G03_01223	AG-901-G03	330	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-901-G03_01222	1
+CACEDC010000001.1	164304	166706	-	AG-905-D16_00169	AG-905-D16	800	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-905-D16_00174	-5
+CACEDC010000001.1	166728	168263	-	AG-905-D16_00170	AG-905-D16	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-905-D16_00174	-4
+CACEDC010000001.1	168383	169078	-	AG-905-D16_00171	AG-905-D16	231	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-905-D16_00174	-3
+CACEDC010000001.1	169096	170253	-	AG-905-D16_00172	AG-905-D16	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-905-D16_00174	-2
+CACEDC010000001.1	170259	171692	-	AG-905-D16_00173	AG-905-D16	477	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-905-D16_00174	-1
+CACEDC010000001.1	171692	172528	-	AG-905-D16_00174	AG-905-D16	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-905-D16_00174	0
+CACEDC010000001.1	172525	172980	-	AG-905-D16_00175	AG-905-D16	151	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-905-D16_00174	1
+CACEDC010000001.1	172984	174003	-	AG-905-D16_00176	AG-905-D16	339	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-905-D16_00174	2
+CACEDC010000001.1	174022	175287	-	AG-905-D16_00177	AG-905-D16	421	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-905-D16_00174	3
+CACEDC010000001.1	175330	176106	-	AG-905-D16_00178	AG-905-D16	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-905-D16_00174	4
+CACEDC010000001.1	176107	176526	-	AG-905-D16_00179	AG-905-D16	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-905-D16_00174	5
+CACEDC010000009.1	15428	16408	-	AG-905-D16_01204	AG-905-D16	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-905-D16_01209	-5
+CACEDC010000009.1	16462	17388	-	AG-905-D16_01205	AG-905-D16	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-905-D16_01209	-4
+CACEDC010000009.1	17388	19121	-	AG-905-D16_01206	AG-905-D16	577	OG0000182	NA	NA	NA	NA	NA	AG-905-D16_01209	-3
+CACEDC010000009.1	19177	19707	+	AG-905-D16_01207	AG-905-D16	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-905-D16_01209	-2
+CACEDC010000009.1	19710	20816	+	AG-905-D16_01208	AG-905-D16	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-905-D16_01209	-1
+CACEDC010000009.1	20817	22085	+	AG-905-D16_01209	AG-905-D16	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-905-D16_01209	0
+CACEDC010000009.1	22074	22355	-	AG-905-D16_01210	AG-905-D16	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-905-D16_01209	1
+CACEDC010000009.1	22391	22930	+	AG-905-D16_01211	AG-905-D16	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-905-D16_01209	2
+CACEDC010000009.1	22899	23888	+	AG-905-D16_01212	AG-905-D16	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-905-D16_01209	3
+CACEDC010000009.1	23888	25723	+	AG-905-D16_01213	AG-905-D16	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-905-D16_01209	4
+CACEDC010000009.1	25716	26006	-	AG-905-D16_01214	AG-905-D16	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-905-D16_01209	5
+CACEPS010000002.1	18723	20885	+	AG-907-B09_00423	AG-907-B09	720	OG0000589	K01638	malate synthase [EC:2.3.3.9]	COG2225	AceB	Malate synthase	AG-907-B09_00428	-5
+CACEPS010000002.1	20871	22619	-	AG-907-B09_00424	AG-907-B09	582	OG0000182	NA	NA	NA	NA	NA	AG-907-B09_00428	-4
+CACEPS010000002.1	22594	22743	-	AG-907-B09_00425	AG-907-B09	49	OG0000855	NA	NA	NA	NA	NA	AG-907-B09_00428	-3
+CACEPS010000002.1	22813	23316	+	AG-907-B09_00426	AG-907-B09	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-907-B09_00428	-2
+CACEPS010000002.1	23313	24401	+	AG-907-B09_00427	AG-907-B09	362	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-907-B09_00428	-1
+CACEPS010000002.1	24403	25677	+	AG-907-B09_00428	AG-907-B09	424	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-907-B09_00428	0
+CACEPS010000002.1	25667	25921	-	AG-907-B09_00429	AG-907-B09	84	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-907-B09_00428	1
+CACEPS010000002.1	25946	26599	+	AG-907-B09_00430	AG-907-B09	217	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-907-B09_00428	2
+CACEPS010000002.1	26596	27588	+	AG-907-B09_00431	AG-907-B09	330	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-907-B09_00428	3
+CACEPS010000002.1	27581	29356	+	AG-907-B09_00432	AG-907-B09	591	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-907-B09_00428	4
+CACEPS010000002.1	29330	29905	-	AG-907-B09_00433	AG-907-B09	191	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	AG-907-B09_00428	5
+CACEPS010000002.1	127426	129594	-	AG-907-B09_00537	AG-907-B09	722	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-907-B09_00542	-5
+CACEPS010000002.1	129613	131193	-	AG-907-B09_00538	AG-907-B09	526	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-907-B09_00542	-4
+CACEPS010000002.1	131230	131700	-	AG-907-B09_00539	AG-907-B09	156	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-907-B09_00542	-3
+CACEPS010000002.1	131840	132997	-	AG-907-B09_00540	AG-907-B09	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-907-B09_00542	-2
+CACEPS010000002.1	132990	134507	-	AG-907-B09_00541	AG-907-B09	505	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-907-B09_00542	-1
+CACEPS010000002.1	134509	135339	-	AG-907-B09_00542	AG-907-B09	276	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-907-B09_00542	0
+CACEPS010000002.1	135336	135788	-	AG-907-B09_00543	AG-907-B09	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-907-B09_00542	1
+CACEPS010000002.1	135788	136753	-	AG-907-B09_00544	AG-907-B09	321	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-907-B09_00542	2
+CACEPS010000002.1	136758	138029	-	AG-907-B09_00545	AG-907-B09	423	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-907-B09_00542	3
+CACEPS010000002.1	138061	138510	-	AG-907-B09_00546	AG-907-B09	149	OG0000708	NA	NA	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-907-B09_00542	4
+CACEPS010000002.1	138529	139092	-	AG-907-B09_00547	AG-907-B09	187	OG0000866	NA	NA	NA	NA	NA	AG-907-B09_00542	5
+CACGAG010000010.1	5558	5848	+	AG-909-G09_01126	AG-909-G09	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-909-G09_01131	-5
+CACGAG010000010.1	5841	7676	-	AG-909-G09_01127	AG-909-G09	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-909-G09_01131	-4
+CACGAG010000010.1	7676	8665	-	AG-909-G09_01128	AG-909-G09	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-909-G09_01131	-3
+CACGAG010000010.1	8634	9173	-	AG-909-G09_01129	AG-909-G09	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-909-G09_01131	-2
+CACGAG010000010.1	9209	9490	+	AG-909-G09_01130	AG-909-G09	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-909-G09_01131	-1
+CACGAG010000010.1	9479	10747	-	AG-909-G09_01131	AG-909-G09	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-909-G09_01131	0
+CACGAG010000010.1	10748	11854	-	AG-909-G09_01132	AG-909-G09	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-909-G09_01131	1
+CACGAG010000010.1	11857	12387	-	AG-909-G09_01133	AG-909-G09	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-909-G09_01131	2
+CACGAG010000010.1	12443	14176	+	AG-909-G09_01134	AG-909-G09	577	OG0000182	NA	NA	NA	NA	NA	AG-909-G09_01131	3
+CACGAG010000010.1	14176	15102	+	AG-909-G09_01135	AG-909-G09	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-909-G09_01131	4
+CACGAG010000010.1	15156	16136	+	AG-909-G09_01136	AG-909-G09	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-909-G09_01131	5
+CACHCK010000004.1	67204	67494	+	AG-911-E02_00864	AG-911-E02	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-911-E02_00869	-5
+CACHCK010000004.1	67487	69322	-	AG-911-E02_00865	AG-911-E02	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-911-E02_00869	-4
+CACHCK010000004.1	69322	70311	-	AG-911-E02_00866	AG-911-E02	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-911-E02_00869	-3
+CACHCK010000004.1	70280	70819	-	AG-911-E02_00867	AG-911-E02	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-911-E02_00869	-2
+CACHCK010000004.1	70855	71136	+	AG-911-E02_00868	AG-911-E02	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-911-E02_00869	-1
+CACHCK010000004.1	71125	72393	-	AG-911-E02_00869	AG-911-E02	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-911-E02_00869	0
+CACHCK010000004.1	72394	73500	-	AG-911-E02_00870	AG-911-E02	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-911-E02_00869	1
+CACHCK010000004.1	73503	74033	-	AG-911-E02_00871	AG-911-E02	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-911-E02_00869	2
+CACHCK010000004.1	74089	75822	+	AG-911-E02_00872	AG-911-E02	577	OG0000182	NA	NA	NA	NA	NA	AG-911-E02_00869	3
+CACHCK010000004.1	75822	76748	+	AG-911-E02_00873	AG-911-E02	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-911-E02_00869	4
+CACHCK010000004.1	76802	77782	+	AG-911-E02_00874	AG-911-E02	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-911-E02_00869	5
+CACHCK010000017.1	244	657	+	AG-911-E02_01229	AG-911-E02	137	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-911-E02_01234	-5
+CACHCK010000017.1	662	1438	+	AG-911-E02_01230	AG-911-E02	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-911-E02_01234	-4
+CACHCK010000017.1	1440	2747	+	AG-911-E02_01231	AG-911-E02	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-911-E02_01234	-3
+CACHCK010000017.1	2767	3786	+	AG-911-E02_01232	AG-911-E02	339	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-911-E02_01234	-2
+CACHCK010000017.1	3783	4238	+	AG-911-E02_01233	AG-911-E02	151	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-911-E02_01234	-1
+CACHCK010000017.1	4235	5071	+	AG-911-E02_01234	AG-911-E02	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-911-E02_01234	0
+CACMWW010000004.1	102739	103719	-	AG-919-N17_00520	AG-919-N17	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-919-N17_00525	-5
+CACMWW010000004.1	103773	104699	-	AG-919-N17_00521	AG-919-N17	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-919-N17_00525	-4
+CACMWW010000004.1	104699	106432	-	AG-919-N17_00522	AG-919-N17	577	OG0000182	NA	NA	NA	NA	NA	AG-919-N17_00525	-3
+CACMWW010000004.1	106488	107018	+	AG-919-N17_00523	AG-919-N17	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-919-N17_00525	-2
+CACMWW010000004.1	107021	108127	+	AG-919-N17_00524	AG-919-N17	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-919-N17_00525	-1
+CACMWW010000004.1	108128	109396	+	AG-919-N17_00525	AG-919-N17	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-919-N17_00525	0
+CACMWW010000004.1	109385	109666	-	AG-919-N17_00526	AG-919-N17	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-919-N17_00525	1
+CACMWW010000004.1	109702	110241	+	AG-919-N17_00527	AG-919-N17	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-919-N17_00525	2
+CACMWW010000004.1	110210	111199	+	AG-919-N17_00528	AG-919-N17	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-919-N17_00525	3
+CACMWW010000004.1	111199	113034	+	AG-919-N17_00529	AG-919-N17	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-919-N17_00525	4
+CACMWW010000004.1	113027	113317	-	AG-919-N17_00530	AG-919-N17	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-919-N17_00525	5
+CACMYK010000002.1	13997	14410	+	AG-919-P09_00343	AG-919-P09	137	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-919-P09_00348	-5
+CACMYK010000002.1	14416	15192	+	AG-919-P09_00344	AG-919-P09	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-919-P09_00348	-4
+CACMYK010000002.1	15194	16501	+	AG-919-P09_00345	AG-919-P09	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-919-P09_00348	-3
+CACMYK010000002.1	16495	17538	+	AG-919-P09_00346	AG-919-P09	347	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-919-P09_00348	-2
+CACMYK010000002.1	17541	17999	+	AG-919-P09_00347	AG-919-P09	152	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-919-P09_00348	-1
+CACMYK010000002.1	17992	18828	+	AG-919-P09_00348	AG-919-P09	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-919-P09_00348	0
+CACMYK010000002.1	18828	20276	+	AG-919-P09_00349	AG-919-P09	482	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-919-P09_00348	1
+CACMYK010000002.1	20266	21423	+	AG-919-P09_00350	AG-919-P09	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-919-P09_00348	2
+CACMYK010000002.1	21390	22127	+	AG-919-P09_00351	AG-919-P09	245	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-919-P09_00348	3
+CACMYK010000002.1	22252	23787	+	AG-919-P09_00352	AG-919-P09	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-919-P09_00348	4
+CACMYK010000002.1	23810	26212	+	AG-919-P09_00353	AG-919-P09	800	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-919-P09_00348	5
+CACMYK010000008.1	30440	30730	+	AG-919-P09_00976	AG-919-P09	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-919-P09_00981	-5
+CACMYK010000008.1	30727	32562	-	AG-919-P09_00977	AG-919-P09	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-919-P09_00981	-4
+CACMYK010000008.1	32562	33551	-	AG-919-P09_00978	AG-919-P09	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0645	AAA	Predicted kinase, contains AAA domain	AG-919-P09_00981	-3
+CACMYK010000008.1	33520	34059	-	AG-919-P09_00979	AG-919-P09	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-919-P09_00981	-2
+CACMYK010000008.1	34095	34376	+	AG-919-P09_00980	AG-919-P09	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-919-P09_00981	-1
+CACMYK010000008.1	34365	35633	-	AG-919-P09_00981	AG-919-P09	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-919-P09_00981	0
+CACMYK010000008.1	35634	36743	-	AG-919-P09_00982	AG-919-P09	369	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-919-P09_00981	1
+CACMYK010000008.1	36749	37273	-	AG-919-P09_00983	AG-919-P09	174	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-919-P09_00981	2
+CACMYK010000008.1	37329	39059	+	AG-919-P09_00984	AG-919-P09	576	OG0000182	NA	NA	NA	NA	NA	AG-919-P09_00981	3
+CACMYK010000008.1	39064	39981	+	AG-919-P09_00985	AG-919-P09	305	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-919-P09_00981	4
+CACMYK010000008.1	40035	41015	+	AG-919-P09_00986	AG-919-P09	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-919-P09_00981	5
+CACNJA010000003.1	130462	130752	+	AG-920-L11_00541	AG-920-L11	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AG-920-L11_00546	-5
+CACNJA010000003.1	130745	132580	-	AG-920-L11_00542	AG-920-L11	611	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AG-920-L11_00546	-4
+CACNJA010000003.1	132580	133569	-	AG-920-L11_00543	AG-920-L11	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AG-920-L11_00546	-3
+CACNJA010000003.1	133538	134077	-	AG-920-L11_00544	AG-920-L11	179	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AG-920-L11_00546	-2
+CACNJA010000003.1	134113	134394	+	AG-920-L11_00545	AG-920-L11	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AG-920-L11_00546	-1
+CACNJA010000003.1	134383	135651	-	AG-920-L11_00546	AG-920-L11	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AG-920-L11_00546	0
+CACNJA010000003.1	135652	136758	-	AG-920-L11_00547	AG-920-L11	368	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AG-920-L11_00546	1
+CACNJA010000003.1	136761	137291	-	AG-920-L11_00548	AG-920-L11	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AG-920-L11_00546	2
+CACNJA010000003.1	137347	139080	+	AG-920-L11_00549	AG-920-L11	577	OG0000182	NA	NA	NA	NA	NA	AG-920-L11_00546	3
+CACNJA010000003.1	139080	140006	+	AG-920-L11_00550	AG-920-L11	308	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-920-L11_00546	4
+CACNJA010000003.1	140060	141040	+	AG-920-L11_00551	AG-920-L11	326	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AG-920-L11_00546	5
+CACNJA010000011.1	32512	34911	-	AG-920-L11_01177	AG-920-L11	799	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-920-L11_01182	-5
+CACNJA010000011.1	34933	36468	-	AG-920-L11_01178	AG-920-L11	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-920-L11_01182	-4
+CACNJA010000011.1	36588	37283	-	AG-920-L11_01179	AG-920-L11	231	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AG-920-L11_01182	-3
+CACNJA010000011.1	37301	38458	-	AG-920-L11_01180	AG-920-L11	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AG-920-L11_01182	-2
+CACNJA010000011.1	38455	39897	-	AG-920-L11_01181	AG-920-L11	480	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AG-920-L11_01182	-1
+CACNJA010000011.1	39897	40733	-	AG-920-L11_01182	AG-920-L11	278	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AG-920-L11_01182	0
+CACNJA010000011.1	40730	41185	-	AG-920-L11_01183	AG-920-L11	151	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AG-920-L11_01182	1
+CACNJA010000011.1	41189	42208	-	AG-920-L11_01184	AG-920-L11	339	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AG-920-L11_01182	2
+CACNJA010000011.1	42227	43492	-	AG-920-L11_01185	AG-920-L11	421	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AG-920-L11_01182	3
+CACNJA010000011.1	43535	44311	-	AG-920-L11_01186	AG-920-L11	258	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AG-920-L11_01182	4
+CACNJA010000011.1	44312	44731	-	AG-920-L11_01187	AG-920-L11	139	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-920-L11_01182	5
+CACNXQ010000001.1	51519	53921	-	AH-287-F15_00050	AH-287-F15	800	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AH-287-F15_00055	-5
+CACNXQ010000001.1	53940	55475	-	AH-287-F15_00051	AH-287-F15	511	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AH-287-F15_00055	-4
+CACNXQ010000001.1	55601	56314	-	AH-287-F15_00052	AH-287-F15	237	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	AH-287-F15_00055	-3
+CACNXQ010000001.1	56318	57514	-	AH-287-F15_00053	AH-287-F15	398	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	AH-287-F15_00055	-2
+CACNXQ010000001.1	57483	58919	-	AH-287-F15_00054	AH-287-F15	478	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	AH-287-F15_00055	-1
+CACNXQ010000001.1	58912	59760	-	AH-287-F15_00055	AH-287-F15	282	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	AH-287-F15_00055	0
+CACNXQ010000001.1	59761	60210	-	AH-287-F15_00056	AH-287-F15	149	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	AH-287-F15_00055	1
+CACNXQ010000001.1	60214	61236	-	AH-287-F15_00057	AH-287-F15	340	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	AH-287-F15_00055	2
+CACNXQ010000001.1	61255	62523	-	AH-287-F15_00058	AH-287-F15	422	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	AH-287-F15_00055	3
+CACNXQ010000001.1	62565	63347	-	AH-287-F15_00059	AH-287-F15	260	OG0002103	NA	NA	COG0204	PlsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	AH-287-F15_00055	4
+CACNXQ010000001.1	63354	63767	-	AH-287-F15_00060	AH-287-F15	137	OG0000708	NA	NA	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AH-287-F15_00055	5
+CACNXQ010000001.1	284315	284605	+	AH-287-F15_00300	AH-287-F15	96	OG0000282	K02902	large subunit ribosomal protein L28	COG0227	RpmB	Ribosomal protein L28	AH-287-F15_00305	-5
+CACNXQ010000001.1	284598	286430	-	AH-287-F15_00301	AH-287-F15	610	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	AH-287-F15_00305	-4
+CACNXQ010000001.1	286430	287419	-	AH-287-F15_00302	AH-287-F15	329	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	AH-287-F15_00305	-3
+CACNXQ010000001.1	287382	287927	-	AH-287-F15_00303	AH-287-F15	181	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	AH-287-F15_00305	-2
+CACNXQ010000001.1	287962	288243	+	AH-287-F15_00304	AH-287-F15	93	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	AH-287-F15_00305	-1
+CACNXQ010000001.1	288232	289500	-	AH-287-F15_00305	AH-287-F15	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	AH-287-F15_00305	0
+CACNXQ010000001.1	289497	290609	-	AH-287-F15_00306	AH-287-F15	370	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	AH-287-F15_00305	1
+CACNXQ010000001.1	290614	291144	-	AH-287-F15_00307	AH-287-F15	176	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	AH-287-F15_00305	2
+CACNXQ010000001.1	291200	292942	+	AH-287-F15_00308	AH-287-F15	580	OG0000182	NA	NA	NA	NA	NA	AH-287-F15_00305	3
+CACNXQ010000001.1	292947	293861	+	AH-287-F15_00309	AH-287-F15	304	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AH-287-F15_00305	4
+CACNXQ010000001.1	293933	294910	+	AH-287-F15_00310	AH-287-F15	325	OG0001183	K08691	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	COG2301	CitE	Citrate lyase beta subunit	AH-287-F15_00305	5
+NYVZ01000004.1	67205	67729	+	CPC289_00463	CPC289	174	OG0000866	NA	NA	NA	NA	NA	CPC289_00468	-5
+NYVZ01000004.1	67739	68173	+	CPC289_00464	CPC289	144	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	CPC289_00468	-4
+NYVZ01000004.1	68170	69477	+	CPC289_00465	CPC289	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	CPC289_00468	-3
+NYVZ01000004.1	69483	70451	+	CPC289_00466	CPC289	322	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	CPC289_00468	-2
+NYVZ01000004.1	70451	70903	+	CPC289_00467	CPC289	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	CPC289_00468	-1
+NYVZ01000004.1	70900	71754	+	CPC289_00468	CPC289	284	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	CPC289_00468	0
+NYVZ01000004.1	71796	72959	+	CPC289_00469	CPC289	387	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	CPC289_00468	1
+NYVZ01000004.1	73357	73596	+	CPC289_00470	CPC289	79	OG0001649	NA	NA	COG0220	TrmB	tRNA G46 N7-methylase TrmB	CPC289_00468	2
+NYVZ01000004.1	73673	75217	+	CPC289_00471	CPC289	514	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	CPC289_00468	3
+NYVZ01000004.1	75239	77407	+	CPC289_00472	CPC289	722	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	CPC289_00468	4
+NYVZ01000004.1	77412	77777	+	CPC289_00473	CPC289	121	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	CPC289_00468	5
+NYVZ01000004.1	183187	183762	+	CPC289_00591	CPC289	191	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	CPC289_00596	-5
+NYVZ01000004.1	183733	185517	-	CPC289_00592	CPC289	594	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	CPC289_00596	-4
+NYVZ01000004.1	185522	186490	-	CPC289_00593	CPC289	322	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	CPC289_00596	-3
+NYVZ01000004.1	186490	187143	-	CPC289_00594	CPC289	217	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	CPC289_00596	-2
+NYVZ01000004.1	187167	187430	+	CPC289_00595	CPC289	87	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	CPC289_00596	-1
+NYVZ01000004.1	187423	188691	-	CPC289_00596	CPC289	422	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	CPC289_00596	0
+NYVZ01000004.1	188669	189754	-	CPC289_00597	CPC289	361	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	CPC289_00596	1
+NYVZ01000004.1	189778	190281	-	CPC289_00598	CPC289	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	CPC289_00596	2
+NYVZ01000004.1	190346	190495	+	CPC289_00599	CPC289	49	OG0000855	NA	NA	NA	NA	NA	CPC289_00596	3
+NYVZ01000004.1	190470	192266	+	CPC289_00600	CPC289	598	OG0000182	NA	NA	NA	NA	NA	CPC289_00596	4
+NYVZ01000004.1	192273	193358	+	CPC289_00601	CPC289	361	OG0000287	K01962	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]	COG0825	AccA	Acetyl-CoA carboxylase alpha subunit	CPC289_00596	5
+HIMB109-00000000001	252714	253229	+	HIMB109_00310	HIMB109	171	OG0000866	NA	NA	NA	NA	NA	HIMB109_00315	-5
+HIMB109-00000000001	253248	253682	+	HIMB109_00311	HIMB109	144	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB109_00315	-4
+HIMB109-00000000001	253679	254986	+	HIMB109_00312	HIMB109	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	HIMB109_00315	-3
+HIMB109-00000000001	254992	255960	+	HIMB109_00313	HIMB109	322	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	HIMB109_00315	-2
+HIMB109-00000000001	255960	256412	+	HIMB109_00314	HIMB109	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	HIMB109_00315	-1
+HIMB109-00000000001	256409	257254	+	HIMB109_00315	HIMB109	281	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	HIMB109_00315	0
+HIMB109-00000000001	257311	258468	+	HIMB109_00316	HIMB109	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	HIMB109_00315	1
+HIMB109-00000000001	258665	259105	+	HIMB109_00317	HIMB109	146	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	HIMB109_00315	2
+HIMB109-00000000001	259182	260726	+	HIMB109_00318	HIMB109	514	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	HIMB109_00315	3
+HIMB109-00000000001	260748	262931	+	HIMB109_00319	HIMB109	727	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	HIMB109_00315	4
+HIMB109-00000000001	262934	263299	+	HIMB109_00320	HIMB109	121	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	HIMB109_00315	5
+HIMB109-00000000006	1195	1344	-	HIMB109_00906	HIMB109	49	OG0000855	NA	NA	NA	NA	NA	HIMB109_00909	-3
+HIMB109-00000000006	1411	1914	+	HIMB109_00907	HIMB109	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	HIMB109_00909	-2
+HIMB109-00000000006	1911	3023	+	HIMB109_00908	HIMB109	370	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	HIMB109_00909	-1
+HIMB109-00000000006	3010	4275	+	HIMB109_00909	HIMB109	421	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	HIMB109_00909	0
+HIMB109-00000000006	4265	4525	-	HIMB109_00910	HIMB109	86	OG0000729	NA	NA	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	HIMB109_00909	1
+HIMB109-00000000006	4551	5201	+	HIMB109_00911	HIMB109	216	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	HIMB109_00909	2
+HIMB109-00000000006	5205	6179	+	HIMB109_00912	HIMB109	324	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	HIMB109_00909	3
+HIMB109-00000000006	6172	7956	+	HIMB109_00913	HIMB109	594	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	HIMB109_00909	4
+HIMB109-00000000006	7927	8466	-	HIMB109_00914	HIMB109	179	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	HIMB109_00909	5
+ADAC02000001.1	867918	869009	-	HIMB114_00937	HIMB114	363	OG0000287	K01962	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]	COG0825	AccA	Acetyl-CoA carboxylase alpha subunit	HIMB114_00942	-5
+ADAC02000001.1	869013	870806	-	HIMB114_00938	HIMB114	597	OG0000182	NA	NA	NA	NA	NA	HIMB114_00942	-4
+ADAC02000001.1	870781	870930	-	HIMB114_00939	HIMB114	49	OG0000855	NA	NA	COG4134	YnjB	ABC-type uncharacterized transport system YnjBCD, periplasmic component	HIMB114_00942	-3
+ADAC02000001.1	870997	871500	+	HIMB114_00940	HIMB114	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	HIMB114_00942	-2
+ADAC02000001.1	871497	872609	+	HIMB114_00941	HIMB114	370	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	HIMB114_00942	-1
+ADAC02000001.1	872596	873861	+	HIMB114_00942	HIMB114	421	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	HIMB114_00942	0
+ADAC02000001.1	873851	874111	-	HIMB114_00943	HIMB114	86	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	HIMB114_00942	1
+ADAC02000001.1	874137	874787	+	HIMB114_00944	HIMB114	216	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	HIMB114_00942	2
+ADAC02000001.1	874791	875765	+	HIMB114_00945	HIMB114	324	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	HIMB114_00942	3
+ADAC02000001.1	875758	877542	+	HIMB114_00946	HIMB114	594	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	HIMB114_00942	4
+ADAC02000001.1	877513	878088	-	HIMB114_00947	HIMB114	191	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	HIMB114_00942	5
+ADAC02000001.1	1001668	1002033	-	HIMB114_01079	HIMB114	121	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	HIMB114_01084	-5
+ADAC02000001.1	1002036	1004219	-	HIMB114_01080	HIMB114	727	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	HIMB114_01084	-4
+ADAC02000001.1	1004241	1005785	-	HIMB114_01081	HIMB114	514	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	HIMB114_01084	-3
+ADAC02000001.1	1005862	1006302	-	HIMB114_01082	HIMB114	146	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	HIMB114_01084	-2
+ADAC02000001.1	1006499	1007656	-	HIMB114_01083	HIMB114	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	HIMB114_01084	-1
+ADAC02000001.1	1007713	1008558	-	HIMB114_01084	HIMB114	281	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	HIMB114_01084	0
+ADAC02000001.1	1008555	1009007	-	HIMB114_01085	HIMB114	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	HIMB114_01084	1
+ADAC02000001.1	1009007	1009975	-	HIMB114_01086	HIMB114	322	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	HIMB114_01084	2
+ADAC02000001.1	1009981	1011288	-	HIMB114_01087	HIMB114	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	HIMB114_01084	3
+ADAC02000001.1	1011285	1011719	-	HIMB114_01088	HIMB114	144	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB114_01084	4
+ADAC02000001.1	1011738	1012253	-	HIMB114_01089	HIMB114	171	OG0000866	NA	NA	NA	NA	NA	HIMB114_01084	5
+HIMB1517-00000000004	40789	41880	-	HIMB1517_00512	HIMB1517	363	OG0000287	K01962	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]	COG0825	AccA	Acetyl-CoA carboxylase alpha subunit	HIMB1517_00517	-5
+HIMB1517-00000000004	41884	43677	-	HIMB1517_00513	HIMB1517	597	OG0000182	NA	NA	NA	NA	NA	HIMB1517_00517	-4
+HIMB1517-00000000004	43652	43801	-	HIMB1517_00514	HIMB1517	49	OG0000855	NA	NA	NA	NA	NA	HIMB1517_00517	-3
+HIMB1517-00000000004	43868	44371	+	HIMB1517_00515	HIMB1517	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	HIMB1517_00517	-2
+HIMB1517-00000000004	44368	45480	+	HIMB1517_00516	HIMB1517	370	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	HIMB1517_00517	-1
+HIMB1517-00000000004	45467	46732	+	HIMB1517_00517	HIMB1517	421	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	HIMB1517_00517	0
+HIMB1517-00000000004	46722	46982	-	HIMB1517_00518	HIMB1517	86	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	HIMB1517_00517	1
+HIMB1517-00000000004	47008	47658	+	HIMB1517_00519	HIMB1517	216	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	HIMB1517_00517	2
+HIMB1517-00000000004	47662	48636	+	HIMB1517_00520	HIMB1517	324	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	HIMB1517_00517	3
+HIMB1517-00000000004	48629	50413	+	HIMB1517_00521	HIMB1517	594	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	HIMB1517_00517	4
+HIMB1517-00000000004	50384	50923	-	HIMB1517_00522	HIMB1517	179	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	HIMB1517_00517	5
+HIMB1517-00000000007	23887	24252	-	HIMB1517_00864	HIMB1517	121	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	HIMB1517_00869	-5
+HIMB1517-00000000007	24255	26438	-	HIMB1517_00865	HIMB1517	727	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	HIMB1517_00869	-4
+HIMB1517-00000000007	26460	28004	-	HIMB1517_00866	HIMB1517	514	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	HIMB1517_00869	-3
+HIMB1517-00000000007	28081	28521	-	HIMB1517_00867	HIMB1517	146	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	HIMB1517_00869	-2
+HIMB1517-00000000007	28718	29875	-	HIMB1517_00868	HIMB1517	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	HIMB1517_00869	-1
+HIMB1517-00000000007	29932	30777	-	HIMB1517_00869	HIMB1517	281	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	HIMB1517_00869	0
+HIMB1517-00000000007	30774	31226	-	HIMB1517_00870	HIMB1517	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	HIMB1517_00869	1
+HIMB1517-00000000007	31226	32194	-	HIMB1517_00871	HIMB1517	322	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	HIMB1517_00869	2
+HIMB1517-00000000007	32200	33507	-	HIMB1517_00872	HIMB1517	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	HIMB1517_00869	3
+HIMB1517-00000000007	33504	33938	-	HIMB1517_00873	HIMB1517	144	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB1517_00869	4
+HIMB1517-00000000007	33957	34472	-	HIMB1517_00874	HIMB1517	171	OG0000866	NA	NA	NA	NA	NA	HIMB1517_00869	5
+HIMB1565-00000000001	34364	35455	-	HIMB1565_00031	HIMB1565	363	OG0000287	K01962	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]	COG0825	AccA	Acetyl-CoA carboxylase alpha subunit	HIMB1565_00036	-5
+HIMB1565-00000000001	35459	37252	-	HIMB1565_00032	HIMB1565	597	OG0000182	NA	NA	NA	NA	NA	HIMB1565_00036	-4
+HIMB1565-00000000001	37227	37376	-	HIMB1565_00033	HIMB1565	49	OG0000855	NA	NA	NA	NA	NA	HIMB1565_00036	-3
+HIMB1565-00000000001	37443	37946	+	HIMB1565_00034	HIMB1565	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	HIMB1565_00036	-2
+HIMB1565-00000000001	37943	39055	+	HIMB1565_00035	HIMB1565	370	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	HIMB1565_00036	-1
+HIMB1565-00000000001	39042	40307	+	HIMB1565_00036	HIMB1565	421	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	HIMB1565_00036	0
+HIMB1565-00000000001	40297	40557	-	HIMB1565_00037	HIMB1565	86	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	HIMB1565_00036	1
+HIMB1565-00000000001	40583	41233	+	HIMB1565_00038	HIMB1565	216	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	HIMB1565_00036	2
+HIMB1565-00000000001	41237	42211	+	HIMB1565_00039	HIMB1565	324	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	HIMB1565_00036	3
+HIMB1565-00000000001	42204	43988	+	HIMB1565_00040	HIMB1565	594	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	HIMB1565_00036	4
+HIMB1565-00000000001	43959	44498	-	HIMB1565_00041	HIMB1565	179	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	HIMB1565_00036	5
+HIMB1565-00000000001	167038	167403	-	HIMB1565_00170	HIMB1565	121	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	HIMB1565_00175	-5
+HIMB1565-00000000001	167406	169589	-	HIMB1565_00171	HIMB1565	727	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	HIMB1565_00175	-4
+HIMB1565-00000000001	169611	171155	-	HIMB1565_00172	HIMB1565	514	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	HIMB1565_00175	-3
+HIMB1565-00000000001	171232	171672	-	HIMB1565_00173	HIMB1565	146	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	HIMB1565_00175	-2
+HIMB1565-00000000001	171869	173026	-	HIMB1565_00174	HIMB1565	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	HIMB1565_00175	-1
+HIMB1565-00000000001	173083	173928	-	HIMB1565_00175	HIMB1565	281	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	HIMB1565_00175	0
+HIMB1565-00000000001	173925	174377	-	HIMB1565_00176	HIMB1565	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	HIMB1565_00175	1
+HIMB1565-00000000001	174377	175345	-	HIMB1565_00177	HIMB1565	322	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	HIMB1565_00175	2
+HIMB1565-00000000001	175351	176658	-	HIMB1565_00178	HIMB1565	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	HIMB1565_00175	3
+HIMB1565-00000000001	176655	177089	-	HIMB1565_00179	HIMB1565	144	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB1565_00175	4
+HIMB1565-00000000001	177108	177623	-	HIMB1565_00180	HIMB1565	171	OG0000866	NA	NA	NA	NA	NA	HIMB1565_00175	5
+CP002511.1	123564	124649	-	IMCC9063_00153	IMCC9063	361	OG0000287	K01962	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]	COG0825	AccA	Acetyl-CoA carboxylase alpha subunit	IMCC9063_00158	-5
+CP002511.1	124792	126954	+	IMCC9063_00154	IMCC9063	720	OG0000589	K01638	malate synthase [EC:2.3.3.9]	COG2225	AceB	Malate synthase	IMCC9063_00158	-4
+CP002511.1	126943	128730	-	IMCC9063_00155	IMCC9063	595	OG0000182	NA	NA	NA	NA	NA	IMCC9063_00158	-3
+CP002511.1	128702	128854	-	IMCC9063_00156	IMCC9063	50	OG0000855	NA	NA	NA	NA	NA	IMCC9063_00158	-2
+CP002511.1	128922	130538	+	IMCC9063_00157	IMCC9063	538	OG0001190	K13829	shikimate kinase / 3-dehydroquinate synthase [EC:2.7.1.71 4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	IMCC9063_00158	-1
+CP002511.1	130531	131811	+	IMCC9063_00158	IMCC9063	426	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	IMCC9063_00158	0
+CP002511.1	131795	132058	-	IMCC9063_00159	IMCC9063	87	OG0000729	NA	NA	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	IMCC9063_00158	1
+CP002511.1	132097	132747	+	IMCC9063_00160	IMCC9063	216	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	IMCC9063_00158	2
+CP002511.1	132744	133742	+	IMCC9063_00161	IMCC9063	332	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0645	AAA	Predicted kinase, contains AAA domain	IMCC9063_00158	3
+CP002511.1	133732	135507	+	IMCC9063_00162	IMCC9063	591	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	IMCC9063_00158	4
+CP002511.1	135481	136017	-	IMCC9063_00163	IMCC9063	178	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	IMCC9063_00158	5
+CP002511.1	309358	311166	-	IMCC9063_00341	IMCC9063	602	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	IMCC9063_00346	-5
+CP002511.1	311561	313105	-	IMCC9063_00342	IMCC9063	514	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	IMCC9063_00346	-4
+CP002511.1	313212	313670	-	IMCC9063_00343	IMCC9063	152	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	IMCC9063_00346	-3
+CP002511.1	313822	314985	-	IMCC9063_00344	IMCC9063	387	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	IMCC9063_00346	-2
+CP002511.1	314982	316499	-	IMCC9063_00345	IMCC9063	505	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	IMCC9063_00346	-1
+CP002511.1	316502	317344	-	IMCC9063_00346	IMCC9063	280	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	IMCC9063_00346	0
+CP002511.1	317341	317637	-	IMCC9063_00347	IMCC9063	98	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	IMCC9063_00346	1
+CP002511.1	317670	317801	-	IMCC9063_00348	IMCC9063	43	OG0000862	NA	NA	NA	NA	NA	IMCC9063_00346	2
+CP002511.1	317794	318813	-	IMCC9063_00349	IMCC9063	339	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	IMCC9063_00346	3
+CP002511.1	318813	320087	-	IMCC9063_00350	IMCC9063	424	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	IMCC9063_00346	4
+CP002511.1	320127	320570	-	IMCC9063_00351	IMCC9063	147	OG0000708	NA	NA	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	IMCC9063_00346	5
+Ga0182791_11	109506	110078	+	LSUCC0261_00110	LSUCC0261	190	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	LSUCC0261_00115	-5
+Ga0182791_11	110052	111827	-	LSUCC0261_00111	LSUCC0261	591	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	LSUCC0261_00115	-4
+Ga0182791_11	111817	112809	-	LSUCC0261_00112	LSUCC0261	330	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	LSUCC0261_00115	-3
+Ga0182791_11	112806	113456	-	LSUCC0261_00113	LSUCC0261	216	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	LSUCC0261_00115	-2
+Ga0182791_11	113495	113758	+	LSUCC0261_00114	LSUCC0261	87	OG0000729	NA	NA	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	LSUCC0261_00115	-1
+Ga0182791_11	113748	115022	-	LSUCC0261_00115	LSUCC0261	424	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	LSUCC0261_00115	0
+Ga0182791_11	115015	116136	-	LSUCC0261_00116	LSUCC0261	373	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	LSUCC0261_00115	1
+Ga0182791_11	116133	116636	-	LSUCC0261_00117	LSUCC0261	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	LSUCC0261_00115	2
+Ga0182791_11	116704	116856	+	LSUCC0261_00118	LSUCC0261	50	OG0000855	NA	NA	NA	NA	NA	LSUCC0261_00115	3
+Ga0182791_11	116828	118606	+	LSUCC0261_00119	LSUCC0261	592	OG0000182	NA	NA	NA	NA	NA	LSUCC0261_00115	4
+Ga0182791_11	118610	120811	-	LSUCC0261_00120	LSUCC0261	733	OG0000589	K01638	malate synthase [EC:2.3.3.9]	COG2225	AceB	Malate synthase	LSUCC0261_00115	5
+Ga0182791_11	1244615	1245172	+	LSUCC0261_01337	LSUCC0261	185	OG0000866	NA	NA	COG1214	TsaB	tRNA A37 threonylcarbamoyladenosine modification protein TsaB	LSUCC0261_01342	-5
+Ga0182791_11	1245220	1245660	+	LSUCC0261_01338	LSUCC0261	146	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	LSUCC0261_01342	-4
+Ga0182791_11	1245700	1246968	+	LSUCC0261_01339	LSUCC0261	422	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	LSUCC0261_01342	-3
+Ga0182791_11	1246974	1247972	+	LSUCC0261_01340	LSUCC0261	332	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	LSUCC0261_01342	-2
+Ga0182791_11	1247959	1248417	+	LSUCC0261_01341	LSUCC0261	152	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	LSUCC0261_01342	-1
+Ga0182791_11	1248417	1249256	+	LSUCC0261_01342	LSUCC0261	279	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	LSUCC0261_01342	0
+Ga0182791_11	1249262	1250791	+	LSUCC0261_01343	LSUCC0261	509	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	LSUCC0261_01342	1
+Ga0182791_11	1250784	1251947	+	LSUCC0261_01344	LSUCC0261	387	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	LSUCC0261_01342	2
+Ga0182791_11	1252096	1252584	+	LSUCC0261_01345	LSUCC0261	162	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	LSUCC0261_01342	3
+Ga0182791_11	1252659	1254203	+	LSUCC0261_01346	LSUCC0261	514	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	LSUCC0261_01342	4
+Ga0182791_11	1254225	1256408	+	LSUCC0261_01347	LSUCC0261	727	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	LSUCC0261_01342	5
+Ga0255589_11	884994	886079	-	LSUCC0664_00958	LSUCC0664	361	OG0000287	K01962	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]	COG0825	AccA	Acetyl-CoA carboxylase alpha subunit	LSUCC0664_00963	-5
+Ga0255589_11	886087	887880	-	LSUCC0664_00959	LSUCC0664	597	OG0000182	NA	NA	NA	NA	NA	LSUCC0664_00963	-4
+Ga0255589_11	887855	888001	-	LSUCC0664_00960	LSUCC0664	48	OG0000855	NA	NA	NA	NA	NA	LSUCC0664_00963	-3
+Ga0255589_11	888068	888571	+	LSUCC0664_00961	LSUCC0664	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	LSUCC0664_00963	-2
+Ga0255589_11	888568	889680	+	LSUCC0664_00962	LSUCC0664	370	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	LSUCC0664_00963	-1
+Ga0255589_11	889667	890932	+	LSUCC0664_00963	LSUCC0664	421	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	LSUCC0664_00963	0
+Ga0255589_11	890922	891182	-	LSUCC0664_00964	LSUCC0664	86	OG0000729	NA	NA	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	LSUCC0664_00963	1
+Ga0255589_11	891208	891858	+	LSUCC0664_00965	LSUCC0664	216	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	LSUCC0664_00963	2
+Ga0255589_11	891864	892829	+	LSUCC0664_00966	LSUCC0664	321	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	LSUCC0664_00963	3
+Ga0255589_11	892819	894603	+	LSUCC0664_00967	LSUCC0664	594	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	LSUCC0664_00963	4
+Ga0255589_11	894574	895113	-	LSUCC0664_00968	LSUCC0664	179	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	LSUCC0664_00963	5
+Ga0255589_11	1147504	1148028	+	LSUCC0664_01265	LSUCC0664	174	OG0000866	NA	NA	NA	NA	NA	LSUCC0664_01270	-5
+Ga0255589_11	1148038	1148472	+	LSUCC0664_01266	LSUCC0664	144	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	LSUCC0664_01270	-4
+Ga0255589_11	1148469	1149776	+	LSUCC0664_01267	LSUCC0664	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	LSUCC0664_01270	-3
+Ga0255589_11	1149781	1150749	+	LSUCC0664_01268	LSUCC0664	322	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	LSUCC0664_01270	-2
+Ga0255589_11	1150749	1151201	+	LSUCC0664_01269	LSUCC0664	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	LSUCC0664_01270	-1
+Ga0255589_11	1151198	1152040	+	LSUCC0664_01270	LSUCC0664	280	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	LSUCC0664_01270	0
+Ga0255589_11	1152083	1153243	+	LSUCC0664_01271	LSUCC0664	386	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	LSUCC0664_01270	1
+Ga0255589_11	1153473	1153877	+	LSUCC0664_01272	LSUCC0664	134	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	LSUCC0664_01270	2
+Ga0255589_11	1153954	1155498	+	LSUCC0664_01273	LSUCC0664	514	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	LSUCC0664_01270	3
+Ga0255589_11	1155520	1157697	+	LSUCC0664_01274	LSUCC0664	725	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	LSUCC0664_01270	4
+Ga0255589_11	1157701	1158066	+	LSUCC0664_01275	LSUCC0664	121	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	LSUCC0664_01270	5
+Ga0197930_11	109513	110052	+	LSUCC0723_00118	LSUCC0723	179	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	LSUCC0723_00123	-5
+Ga0197930_11	110023	111807	-	LSUCC0723_00119	LSUCC0723	594	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	LSUCC0723_00123	-4
+Ga0197930_11	111800	112774	-	LSUCC0723_00120	LSUCC0723	324	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	LSUCC0723_00123	-3
+Ga0197930_11	112778	113428	-	LSUCC0723_00121	LSUCC0723	216	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	LSUCC0723_00123	-2
+Ga0197930_11	113454	113714	+	LSUCC0723_00122	LSUCC0723	86	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	LSUCC0723_00123	-1
+Ga0197930_11	113704	114969	-	LSUCC0723_00123	LSUCC0723	421	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	LSUCC0723_00123	0
+Ga0197930_11	114956	116068	-	LSUCC0723_00124	LSUCC0723	370	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	LSUCC0723_00123	1
+Ga0197930_11	116065	116568	-	LSUCC0723_00125	LSUCC0723	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	LSUCC0723_00123	2
+Ga0197930_11	116635	116784	+	LSUCC0723_00126	LSUCC0723	49	OG0000855	NA	NA	NA	NA	NA	LSUCC0723_00123	3
+Ga0197930_11	116759	118552	+	LSUCC0723_00127	LSUCC0723	597	OG0000182	NA	NA	COG3933	LevR	Transcriptional regulator of LevR family, contains sigma54-interacting AAA domain, PTS regulation domain (PRD), and EIIA-type domain	LSUCC0723_00123	4
+Ga0197930_11	118555	119646	+	LSUCC0723_00128	LSUCC0723	363	OG0000287	K01962	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]	COG0825	AccA	Acetyl-CoA carboxylase alpha subunit	LSUCC0723_00123	5
+Ga0197930_11	1181938	1182453	+	LSUCC0723_01318	LSUCC0723	171	OG0000866	NA	NA	NA	NA	NA	LSUCC0723_01323	-5
+Ga0197930_11	1182472	1182906	+	LSUCC0723_01319	LSUCC0723	144	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	LSUCC0723_01323	-4
+Ga0197930_11	1182945	1184210	+	LSUCC0723_01320	LSUCC0723	421	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	LSUCC0723_01323	-3
+Ga0197930_11	1184216	1185184	+	LSUCC0723_01321	LSUCC0723	322	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	LSUCC0723_01323	-2
+Ga0197930_11	1185184	1185636	+	LSUCC0723_01322	LSUCC0723	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	LSUCC0723_01323	-1
+Ga0197930_11	1185633	1186478	+	LSUCC0723_01323	LSUCC0723	281	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	LSUCC0723_01323	0
+Ga0197930_11	1186535	1187692	+	LSUCC0723_01324	LSUCC0723	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	LSUCC0723_01323	1
+Ga0197930_11	1187889	1188329	+	LSUCC0723_01325	LSUCC0723	146	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	LSUCC0723_01323	2
+Ga0197930_11	1188406	1189950	+	LSUCC0723_01326	LSUCC0723	514	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	LSUCC0723_01323	3
+Ga0197930_11	1189972	1192155	+	LSUCC0723_01327	LSUCC0723	727	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	LSUCC0723_01323	4
+Ga0197930_11	1192158	1192523	+	LSUCC0723_01328	LSUCC0723	121	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	LSUCC0723_01323	5
+NZJW01000017.1	14371	14895	+	MED1116_00544	MED1116	174	OG0000866	NA	NA	NA	NA	NA	MED1116_00549	-5
+NZJW01000017.1	14905	15339	+	MED1116_00545	MED1116	144	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	MED1116_00549	-4
+NZJW01000017.1	15336	16643	+	MED1116_00546	MED1116	435	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	MED1116_00549	-3
+NZJW01000017.1	16649	17617	+	MED1116_00547	MED1116	322	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	MED1116_00549	-2
+NZJW01000017.1	17617	18069	+	MED1116_00548	MED1116	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	MED1116_00549	-1
+NZJW01000017.1	18066	18914	+	MED1116_00549	MED1116	282	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	MED1116_00549	0
+NZJW01000017.1	18982	20139	+	MED1116_00550	MED1116	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	MED1116_00549	1
+NZJW01000017.1	20429	20773	+	MED1116_00551	MED1116	114	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	MED1116_00549	2
+NZJW01000017.1	20850	22394	+	MED1116_00552	MED1116	514	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	MED1116_00549	3
+NZJW01000017.1	22416	24596	+	MED1116_00553	MED1116	726	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	MED1116_00549	4
+NZJW01000017.1	24599	24964	+	MED1116_00554	MED1116	121	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	MED1116_00549	5
+NZJW01000003.1	10768	11853	-	MED1116_00857	MED1116	361	OG0000287	K01962	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]	COG0825	AccA	Acetyl-CoA carboxylase alpha subunit	MED1116_00862	-5
+NZJW01000003.1	11860	13656	-	MED1116_00858	MED1116	598	OG0000182	NA	NA	NA	NA	NA	MED1116_00862	-4
+NZJW01000003.1	13631	13780	-	MED1116_00859	MED1116	49	OG0000855	NA	NA	NA	NA	NA	MED1116_00862	-3
+NZJW01000003.1	13845	14348	+	MED1116_00860	MED1116	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	MED1116_00862	-2
+NZJW01000003.1	14345	15457	+	MED1116_00861	MED1116	370	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	MED1116_00862	-1
+NZJW01000003.1	15444	16709	+	MED1116_00862	MED1116	421	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	MED1116_00862	0
+NZJW01000003.1	16699	16959	-	MED1116_00863	MED1116	86	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	MED1116_00862	1
+NZJW01000003.1	16985	17641	+	MED1116_00864	MED1116	218	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	MED1116_00862	2
+NZJW01000003.1	17641	18609	+	MED1116_00865	MED1116	322	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	MED1116_00862	3
+NZJW01000003.1	18610	20394	+	MED1116_00866	MED1116	594	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	MED1116_00862	4
+NZJW01000003.1	20365	20904	-	MED1116_00867	MED1116	179	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	MED1116_00862	5
+NZIR01000019.1	69093	69656	+	MED602_00144	MED602	187	OG0000866	NA	NA	NA	NA	NA	MED602_00149	-5
+NZIR01000019.1	69675	70124	+	MED602_00145	MED602	149	OG0000708	NA	NA	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	MED602_00149	-4
+NZIR01000019.1	70156	71427	+	MED602_00146	MED602	423	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	MED602_00149	-3
+NZIR01000019.1	71432	72397	+	MED602_00147	MED602	321	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	MED602_00149	-2
+NZIR01000019.1	72397	72849	+	MED602_00148	MED602	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	MED602_00149	-1
+NZIR01000019.1	72846	73676	+	MED602_00149	MED602	276	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	MED602_00149	0
+NZIR01000019.1	73678	75195	+	MED602_00150	MED602	505	OG0000573	K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]	COG0815	Lnt	Apolipoprotein N-acyltransferase	MED602_00149	1
+NZIR01000019.1	75188	76345	+	MED602_00151	MED602	385	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	MED602_00149	2
+NZIR01000019.1	76485	76955	+	MED602_00152	MED602	156	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	MED602_00149	3
+NZIR01000019.1	76992	78572	+	MED602_00153	MED602	526	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	MED602_00149	4
+NZIR01000019.1	78591	80759	+	MED602_00154	MED602	722	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	MED602_00149	5
+NZIR01000019.1	179462	180037	+	MED602_00264	MED602	191	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	MED602_00269	-5
+NZIR01000019.1	180011	181786	-	MED602_00265	MED602	591	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	MED602_00269	-4
+NZIR01000019.1	181779	182771	-	MED602_00266	MED602	330	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	MED602_00269	-3
+NZIR01000019.1	182768	183421	-	MED602_00267	MED602	217	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	MED602_00269	-2
+NZIR01000019.1	183446	183700	+	MED602_00268	MED602	84	OG0000729	NA	NA	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	MED602_00269	-1
+NZIR01000019.1	183690	184964	-	MED602_00269	MED602	424	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	MED602_00269	0
+NZIR01000019.1	184966	186054	-	MED602_00270	MED602	362	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	MED602_00269	1
+NZIR01000019.1	186051	186554	-	MED602_00271	MED602	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	MED602_00269	2
+NZIR01000019.1	186624	186773	+	MED602_00272	MED602	49	OG0000855	NA	NA	NA	NA	NA	MED602_00269	3
+NZIR01000019.1	186748	188496	+	MED602_00273	MED602	582	OG0000182	NA	NA	NA	NA	NA	MED602_00269	4
+NZIR01000019.1	188482	190644	-	MED602_00274	MED602	720	OG0000589	K01638	malate synthase [EC:2.3.3.9]	COG2225	AceB	Malate synthase	MED602_00269	5
+PBKK01000002.1	88402	90090	-	SP27_00350	SP27	562	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	SP27_00355	-5
+PBKK01000002.1	90461	90589	-	SP27_00351	SP27	42	NA	NA	NA	NA	NA	NA	SP27_00355	-4
+PBKK01000002.1	90611	92155	-	SP27_00352	SP27	514	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	SP27_00355	-3
+PBKK01000002.1	92230	92676	-	SP27_00353	SP27	148	OG0001649	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	TrmB	tRNA G46 N7-methylase TrmB	SP27_00355	-2
+PBKK01000002.1	92867	94021	-	SP27_00354	SP27	384	OG0000398	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	COG0192	MetK	S-adenosylmethionine synthetase	SP27_00355	-1
+PBKK01000002.1	94074	94928	-	SP27_00355	SP27	284	OG0001545	K06189	hemolysin (HlyC) family protein	COG1253	MpfA	Mg2+ efflux pump MpfA, contains CBS pair and CorC-HlyC domains, TlyC/UPF0053 family	SP27_00355	0
+PBKK01000002.1	94925	95377	-	SP27_00356	SP27	150	OG0000862	K07042	probable rRNA maturation factor	COG0319	YbeY	ssRNA-specific RNase YbeY, 16S rRNA maturation enzyme	SP27_00355	1
+PBKK01000002.1	95377	96345	-	SP27_00357	SP27	322	OG0000673	K06217	phosphate starvation-inducible protein PhoH and related proteins	COG1702	PhoH	Phosphate starvation-inducible protein PhoH, predicted ATPase	SP27_00355	2
+PBKK01000002.1	96351	97616	-	SP27_00358	SP27	421	OG0000154	K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	COG0621	MiaB	tRNA A37 methylthiotransferase MiaB	SP27_00355	3
+PBKK01000002.1	97655	98089	-	SP27_00359	SP27	144	OG0000708	K03711	Fur family transcriptional regulator, ferric uptake regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	SP27_00355	4
+PBKK01000002.1	98099	98623	-	SP27_00360	SP27	174	OG0000866	NA	NA	NA	NA	NA	SP27_00355	5
+PBKK01000011.1	14990	15508	+	SP27_00985	SP27	172	OG0000430	K09125	queuosine precursor transporter	COG1738	YhhQ	Queuosine precursor transporter YhhQ, DUF165 family	SP27_00990	-5
+PBKK01000011.1	15500	17284	-	SP27_00986	SP27	594	OG0000193	K09883	cobaltochelatase CobT [EC:6.6.1.2]	COG4547	CobT2	Cobalamin biosynthesis cobaltochelatase CobT subunit	SP27_00990	-4
+PBKK01000011.1	17290	18252	-	SP27_00987	SP27	320	OG0000310	K09882	cobaltochelatase CobS [EC:6.6.1.2]	COG0714	MMP0363	MoxR-like ATPase, includes components of a predicted archaeal secretion system	SP27_00990	-3
+PBKK01000011.1	18258	18908	-	SP27_00988	SP27	216	OG0000311	NA	NA	COG0484	DnaJ	DnaJ molecular chaperone, contains DnaJ and DnaJ_C  domains	SP27_00990	-2
+PBKK01000011.1	18934	19194	+	SP27_00989	SP27	86	OG0000729	K05527	BolA family transcriptional regulator, general stress-responsive regulator	COG0271	BolA	DNA-binding global transcriptional regulator BolA, affects cell shape, cell division and biofilm formation	SP27_00990	-1
+PBKK01000011.1	19184	20449	-	SP27_00990	SP27	421	OG0001545	K03699	magnesium and cobalt exporter, CNNM family	COG4536	CorB	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains	SP27_00990	0
+PBKK01000011.1	20436	21548	-	SP27_00991	SP27	370	OG0001190	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	COG0337	AroB	3-dehydroquinate synthetase	SP27_00990	1
+PBKK01000011.1	21545	22048	-	SP27_00992	SP27	167	OG0000655	K00891	shikimate kinase [EC:2.7.1.71]	COG0703	AroK	Shikimate kinase	SP27_00990	2
+PBKK01000011.1	22108	22263	+	SP27_00993	SP27	51	OG0000855	NA	NA	NA	NA	NA	SP27_00990	3
+PBKK01000011.1	22238	24049	+	SP27_00994	SP27	603	OG0000182	NA	NA	NA	NA	NA	SP27_00990	4
+PBKK01000011.1	24057	25145	+	SP27_00995	SP27	362	OG0000287	K01962	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]	COG0825	AccA	Acetyl-CoA carboxylase alpha subunit	SP27_00990	5

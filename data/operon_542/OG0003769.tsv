@@ -1,0 +1,32 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CP002511.1	782495	783505	+	IMCC9063_00883	IMCC9063	336	OG0001097	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	IMCC9063_00888	-5
+CP002511.1	783557	784054	+	IMCC9063_00884	IMCC9063	165	OG0001161	K21394	TRAP-type transport system small permease protein	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	IMCC9063_00888	-4
+CP002511.1	784054	785397	+	IMCC9063_00885	IMCC9063	447	OG0001173	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	IMCC9063_00888	-3
+CP002511.1	785384	786685	+	IMCC9063_00886	IMCC9063	433	OG0001323	K01578	malonyl-CoA decarboxylase [EC:4.1.1.9]	NA	NA	NA	IMCC9063_00888	-2
+CP002511.1	786678	787673	+	IMCC9063_00887	IMCC9063	331	OG0000229	K05539	tRNA-dihydrouridine synthase A [EC:1.-.-.-]	COG0042	DusA	tRNA-dihydrouridine synthase	IMCC9063_00888	-1
+CP002511.1	787670	788356	+	IMCC9063_00888	IMCC9063	228	OG0003769	K16165	fumarylpyruvate hydrolase [EC:3.7.1.20]	COG0179	FAHD1	Oxaloacetate decarboxylase and tautomerase, fumarylacetoacetate (FAA) hydrolase family	IMCC9063_00888	0
+CP002511.1	788406	789242	+	IMCC9063_00889	IMCC9063	278	OG0000089	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	IMCC9063_00888	1
+CP002511.1	789205	789843	+	IMCC9063_00890	IMCC9063	212	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	IMCC9063_00888	2
+CP002511.1	789881	791071	+	IMCC9063_00891	IMCC9063	396	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	IMCC9063_00888	3
+CP002511.1	791108	791533	+	IMCC9063_00892	IMCC9063	141	OG0001407	NA	NA	COG1238	YgaA	Membrane protein YqaA involved in indium extrusion, DedA family, contains VTT domain	IMCC9063_00888	4
+CP002511.1	791516	793402	-	IMCC9063_00893	IMCC9063	628	OG0000166	K01908	propionyl-CoA synthetase [EC:6.2.1.17]	COG0365	Acs	Acyl-coenzyme A synthetase/AMP-(fatty) acid ligase	IMCC9063_00888	5
+JACWDD010000009.1	44	517	+	SAG-MED06_01277	SAG-MED06	157	OG0000975	NA	NA	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	SAG-MED06_01280	-3
+JACWDD010000009.1	538	1299	+	SAG-MED06_01278	SAG-MED06	253	OG0000001	K02049	NitT/TauT family transport system ATP-binding protein	COG1116	TauB	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	SAG-MED06_01280	-2
+JACWDD010000009.1	1309	2064	+	SAG-MED06_01279	SAG-MED06	251	OG0000017	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	SAG-MED06_01280	-1
+JACWDD010000009.1	2097	2780	+	SAG-MED06_01280	SAG-MED06	227	OG0003769	K16165	fumarylpyruvate hydrolase [EC:3.7.1.20]	COG0179	FAHD1	Oxaloacetate decarboxylase and tautomerase, fumarylacetoacetate (FAA) hydrolase family	SAG-MED06_01280	0
+JACWDD010000009.1	2834	5485	-	SAG-MED06_01281	SAG-MED06	883	OG0001307	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	SAG-MED06_01280	1
+JACWDD010000009.1	5489	6472	-	SAG-MED06_01282	SAG-MED06	327	OG0000033	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	SAG-MED06_01280	2
+JACWDD010000009.1	6552	7685	-	SAG-MED06_01283	SAG-MED06	377	OG0000116	K21395	TRAP-type transport system periplasmic protein	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	SAG-MED06_01280	3
+JACWDD010000009.1	7923	8837	-	SAG-MED06_01284	SAG-MED06	304	OG0000005	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	SAG-MED06_01280	4
+JACWDD010000009.1	8853	9806	-	SAG-MED06_01285	SAG-MED06	317	OG0000025	NA	NA	COG1052	LdhA	Lactate dehydrogenase or related 2-hydroxyacid dehydrogenase	SAG-MED06_01280	5
+CP159812.1	812059	813363	-	Uisw_136_00892	Uisw_136	434	OG0001323	K01578	malonyl-CoA decarboxylase [EC:4.1.1.9]	NA	NA	NA	Uisw_136_00897	-5
+CP159812.1	813450	813650	-	Uisw_136_00893	Uisw_136	66	OG0000089	NA	NA	NA	NA	NA	Uisw_136_00897	-4
+CP159812.1	813867	815375	+	Uisw_136_00894	Uisw_136	502	OG0000074	K22133	oxalate---CoA ligase [EC:6.2.1.8]	COG0318	MenE	O-succinylbenzoic acid-CoA ligase MenE or related acyl-CoA synthetase (AMP-forming)	Uisw_136_00897	-3
+CP159812.1	815377	816393	+	Uisw_136_00895	Uisw_136	338	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	Uisw_136_00897	-2
+CP159812.1	816448	817239	-	Uisw_136_00896	Uisw_136	263	OG0000089	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	Uisw_136_00897	-1
+CP159812.1	817280	817963	-	Uisw_136_00897	Uisw_136	227	OG0003769	K16165	fumarylpyruvate hydrolase [EC:3.7.1.20]	COG0179	FAHD1	Oxaloacetate decarboxylase and tautomerase, fumarylacetoacetate (FAA) hydrolase family	Uisw_136_00897	0
+CP159812.1	817996	818751	-	Uisw_136_00898	Uisw_136	251	OG0000017	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	Uisw_136_00897	1
+CP159812.1	818761	819522	-	Uisw_136_00899	Uisw_136	253	OG0000001	K02049	NitT/TauT family transport system ATP-binding protein	COG1116	TauB	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	Uisw_136_00897	2
+CP159812.1	819543	820304	-	Uisw_136_00900	Uisw_136	253	OG0000017	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	Uisw_136_00897	3
+CP159812.1	820371	821342	-	Uisw_136_00901	Uisw_136	323	OG0001272	NA	NA	COG0715	TauA	ABC-type nitrate/sulfonate/bicarbonate transport system, periplasmic component	Uisw_136_00897	4
+CP159812.1	821509	822237	+	Uisw_136_00902	Uisw_136	242	OG0002843	K15735	GntR family transcriptional regulator, carbon starvation induced regulator	COG1802	GntR	DNA-binding transcriptional regulator, GntR family	Uisw_136_00897	5

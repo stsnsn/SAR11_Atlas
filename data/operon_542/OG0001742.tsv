@@ -1,0 +1,426 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CABZHN010000001.1	40	1158	+	AG-337-G06_00001	AG-337-G06	372	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-337-G06_00003	-2
+CABZHN010000001.1	1222	2349	+	AG-337-G06_00002	AG-337-G06	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-337-G06_00003	-1
+CABZHN010000001.1	2350	3468	+	AG-337-G06_00003	AG-337-G06	372	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-337-G06_00003	0
+CABZHN010000001.1	3476	5896	+	AG-337-G06_00004	AG-337-G06	806	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-337-G06_00003	1
+CABZHN010000001.1	5893	6606	-	AG-337-G06_00005	AG-337-G06	237	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-337-G06_00003	2
+CABZHN010000001.1	6662	7960	+	AG-337-G06_00006	AG-337-G06	432	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-337-G06_00003	3
+CABZHN010000001.1	7953	8504	+	AG-337-G06_00007	AG-337-G06	183	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-337-G06_00003	4
+CABZHN010000001.1	8517	9728	-	AG-337-G06_00008	AG-337-G06	403	OG0002131	NA	NA	NA	NA	NA	AG-337-G06_00003	5
+CACGAF010000008.1	13445	14134	-	AG-422-B15_00646	AG-422-B15	229	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-422-B15_00651	-5
+CACGAF010000008.1	14188	15015	+	AG-422-B15_00647	AG-422-B15	275	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-422-B15_00651	-4
+CACGAF010000008.1	15032	15295	+	AG-422-B15_00648	AG-422-B15	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-422-B15_00651	-3
+CACGAF010000008.1	15620	17029	+	AG-422-B15_00649	AG-422-B15	469	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-422-B15_00651	-2
+CACGAF010000008.1	17054	18181	+	AG-422-B15_00650	AG-422-B15	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-422-B15_00651	-1
+CACGAF010000008.1	18184	19299	+	AG-422-B15_00651	AG-422-B15	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-422-B15_00651	0
+CACGAF010000008.1	19322	21739	+	AG-422-B15_00652	AG-422-B15	805	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-422-B15_00651	1
+CACGAF010000008.1	21736	22437	-	AG-422-B15_00653	AG-422-B15	233	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-422-B15_00651	2
+CACGAF010000008.1	22504	23802	+	AG-422-B15_00654	AG-422-B15	432	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-422-B15_00651	3
+CACGAF010000008.1	23795	24349	+	AG-422-B15_00655	AG-422-B15	184	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-422-B15_00651	4
+CACGAF010000008.1	24354	25553	-	AG-422-B15_00656	AG-422-B15	399	OG0002131	NA	NA	NA	NA	NA	AG-422-B15_00651	5
+CACGCK010000001.1	246113	246802	-	AG-422-C21_00268	AG-422-C21	229	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-422-C21_00273	-5
+CACGCK010000001.1	246856	247683	+	AG-422-C21_00269	AG-422-C21	275	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-422-C21_00273	-4
+CACGCK010000001.1	247700	247963	+	AG-422-C21_00270	AG-422-C21	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-422-C21_00273	-3
+CACGCK010000001.1	248291	249700	+	AG-422-C21_00271	AG-422-C21	469	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-422-C21_00273	-2
+CACGCK010000001.1	249725	250852	+	AG-422-C21_00272	AG-422-C21	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-422-C21_00273	-1
+CACGCK010000001.1	250855	251970	+	AG-422-C21_00273	AG-422-C21	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-422-C21_00273	0
+CACGCK010000001.1	251993	254410	+	AG-422-C21_00274	AG-422-C21	805	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-422-C21_00273	1
+CACGCK010000001.1	254407	255108	-	AG-422-C21_00275	AG-422-C21	233	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-422-C21_00273	2
+CACGCK010000001.1	255175	256467	+	AG-422-C21_00276	AG-422-C21	430	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-422-C21_00273	3
+CACGCK010000001.1	256460	257017	+	AG-422-C21_00277	AG-422-C21	185	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-422-C21_00273	4
+CACGCK010000001.1	257022	258221	-	AG-422-C21_00278	AG-422-C21	399	OG0002131	NA	NA	NA	NA	NA	AG-422-C21_00273	5
+CACHAK010000003.1	14114	15313	+	AG-426-I21_00568	AG-426-I21	399	OG0002131	NA	NA	NA	NA	NA	AG-426-I21_00573	-5
+CACHAK010000003.1	15318	15851	-	AG-426-I21_00569	AG-426-I21	177	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-426-I21_00573	-4
+CACHAK010000003.1	15871	17166	-	AG-426-I21_00570	AG-426-I21	431	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-426-I21_00573	-3
+CACHAK010000003.1	17221	17934	+	AG-426-I21_00571	AG-426-I21	237	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-426-I21_00573	-2
+CACHAK010000003.1	17931	20348	-	AG-426-I21_00572	AG-426-I21	805	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-426-I21_00573	-1
+CACHAK010000003.1	20372	21487	-	AG-426-I21_00573	AG-426-I21	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-426-I21_00573	0
+CACHAK010000003.1	21490	22617	-	AG-426-I21_00574	AG-426-I21	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-426-I21_00573	1
+CACHAK010000003.1	22643	24052	-	AG-426-I21_00575	AG-426-I21	469	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-426-I21_00573	2
+CACHAK010000003.1	24378	24641	-	AG-426-I21_00576	AG-426-I21	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-426-I21_00573	3
+CACHAK010000003.1	24658	25485	-	AG-426-I21_00577	AG-426-I21	275	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-426-I21_00573	4
+CACHAK010000003.1	25539	26228	+	AG-426-I21_00578	AG-426-I21	229	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-426-I21_00573	5
+CACIQL010000005.1	15728	16417	-	AG-439-D15_00552	AG-439-D15	229	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-439-D15_00557	-5
+CACIQL010000005.1	16471	17298	+	AG-439-D15_00553	AG-439-D15	275	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-439-D15_00557	-4
+CACIQL010000005.1	17315	17578	+	AG-439-D15_00554	AG-439-D15	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-439-D15_00557	-3
+CACIQL010000005.1	17904	19313	+	AG-439-D15_00555	AG-439-D15	469	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-439-D15_00557	-2
+CACIQL010000005.1	19339	20466	+	AG-439-D15_00556	AG-439-D15	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-439-D15_00557	-1
+CACIQL010000005.1	20469	21584	+	AG-439-D15_00557	AG-439-D15	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-439-D15_00557	0
+CACIQL010000005.1	21608	24025	+	AG-439-D15_00558	AG-439-D15	805	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-439-D15_00557	1
+CACIQL010000005.1	24022	24735	-	AG-439-D15_00559	AG-439-D15	237	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-439-D15_00557	2
+CACIQL010000005.1	24790	26085	+	AG-439-D15_00560	AG-439-D15	431	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-439-D15_00557	3
+CACIQL010000005.1	26105	26638	+	AG-439-D15_00561	AG-439-D15	177	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-439-D15_00557	4
+CACIQL010000005.1	26643	27842	-	AG-439-D15_00562	AG-439-D15	399	OG0002131	NA	NA	NA	NA	NA	AG-439-D15_00557	5
+CACKWR010000001.1	54019	55218	+	AG-457-M14_00049	AG-457-M14	399	OG0002131	NA	NA	NA	NA	NA	AG-457-M14_00054	-5
+CACKWR010000001.1	55220	55762	-	AG-457-M14_00050	AG-457-M14	180	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-457-M14_00054	-4
+CACKWR010000001.1	55767	57062	-	AG-457-M14_00051	AG-457-M14	431	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-457-M14_00054	-3
+CACKWR010000001.1	57087	57797	+	AG-457-M14_00052	AG-457-M14	236	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-457-M14_00054	-2
+CACKWR010000001.1	57794	60217	-	AG-457-M14_00053	AG-457-M14	807	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-457-M14_00054	-1
+CACKWR010000001.1	60245	61351	-	AG-457-M14_00054	AG-457-M14	368	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-457-M14_00054	0
+CACKWR010000001.1	61354	62490	-	AG-457-M14_00055	AG-457-M14	378	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-457-M14_00054	1
+CACKWR010000001.1	62542	63960	-	AG-457-M14_00056	AG-457-M14	472	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-457-M14_00054	2
+CACKWR010000001.1	64306	64569	-	AG-457-M14_00057	AG-457-M14	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-457-M14_00054	3
+CACKWR010000001.1	64604	65437	-	AG-457-M14_00058	AG-457-M14	277	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-457-M14_00054	4
+CACKWR010000001.1	65502	66182	+	AG-457-M14_00059	AG-457-M14	226	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-457-M14_00054	5
+CACLHF010000001.1	474	1307	+	AG-461-P14_00001	AG-461-P14	277	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-461-P14_00005	-4
+CACLHF010000001.1	1342	1605	+	AG-461-P14_00002	AG-461-P14	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-461-P14_00005	-3
+CACLHF010000001.1	1950	3362	+	AG-461-P14_00003	AG-461-P14	470	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-461-P14_00005	-2
+CACLHF010000001.1	3430	4557	+	AG-461-P14_00004	AG-461-P14	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-461-P14_00005	-1
+CACLHF010000001.1	4560	5666	+	AG-461-P14_00005	AG-461-P14	368	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-461-P14_00005	0
+CACLHF010000001.1	5694	8117	+	AG-461-P14_00006	AG-461-P14	807	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-461-P14_00005	1
+CACLHF010000001.1	8114	8824	-	AG-461-P14_00007	AG-461-P14	236	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-461-P14_00005	2
+CACLHF010000001.1	8849	10144	+	AG-461-P14_00008	AG-461-P14	431	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-461-P14_00005	3
+CACLHF010000001.1	10152	10694	+	AG-461-P14_00009	AG-461-P14	180	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-461-P14_00005	4
+CACLHF010000001.1	10696	11895	-	AG-461-P14_00010	AG-461-P14	399	OG0002131	NA	NA	NA	NA	NA	AG-461-P14_00005	5
+CACMIV010000001.1	486779	487465	-	AG-891-J04_00527	AG-891-J04	228	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-891-J04_00532	-5
+CACMIV010000001.1	487519	488346	+	AG-891-J04_00528	AG-891-J04	275	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-891-J04_00532	-4
+CACMIV010000001.1	488362	488625	+	AG-891-J04_00529	AG-891-J04	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-891-J04_00532	-3
+CACMIV010000001.1	488934	490364	+	AG-891-J04_00530	AG-891-J04	476	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-891-J04_00532	-2
+CACMIV010000001.1	490426	491553	+	AG-891-J04_00531	AG-891-J04	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-891-J04_00532	-1
+CACMIV010000001.1	491556	492671	+	AG-891-J04_00532	AG-891-J04	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-891-J04_00532	0
+CACMIV010000001.1	492694	495111	+	AG-891-J04_00533	AG-891-J04	805	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-891-J04_00532	1
+CACMIV010000001.1	495108	495809	-	AG-891-J04_00534	AG-891-J04	233	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-891-J04_00532	2
+CACMIV010000001.1	495876	497174	+	AG-891-J04_00535	AG-891-J04	432	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-891-J04_00532	3
+CACMIV010000001.1	497167	497721	+	AG-891-J04_00536	AG-891-J04	184	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-891-J04_00532	4
+CACMIV010000001.1	497726	498925	-	AG-891-J04_00537	AG-891-J04	399	OG0002131	NA	NA	NA	NA	NA	AG-891-J04_00532	5
+CACNCV010000003.1	37266	37955	-	AG-892-M06_00857	AG-892-M06	229	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-892-M06_00862	-5
+CACNCV010000003.1	38009	38836	+	AG-892-M06_00858	AG-892-M06	275	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-892-M06_00862	-4
+CACNCV010000003.1	38853	39116	+	AG-892-M06_00859	AG-892-M06	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-892-M06_00862	-3
+CACNCV010000003.1	39442	40851	+	AG-892-M06_00860	AG-892-M06	469	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-892-M06_00862	-2
+CACNCV010000003.1	40876	42003	+	AG-892-M06_00861	AG-892-M06	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-892-M06_00862	-1
+CACNCV010000003.1	42006	43121	+	AG-892-M06_00862	AG-892-M06	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-892-M06_00862	0
+CACNCV010000003.1	43144	45561	+	AG-892-M06_00863	AG-892-M06	805	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-892-M06_00862	1
+CACNCV010000003.1	45558	46259	-	AG-892-M06_00864	AG-892-M06	233	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-892-M06_00862	2
+CACNCV010000003.1	46326	47624	+	AG-892-M06_00865	AG-892-M06	432	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-892-M06_00862	3
+CACNCV010000003.1	47617	48171	+	AG-892-M06_00866	AG-892-M06	184	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-892-M06_00862	4
+CACNCV010000003.1	48176	49375	-	AG-892-M06_00867	AG-892-M06	399	OG0002131	NA	NA	NA	NA	NA	AG-892-M06_00862	5
+CACNSH010000008.1	35009	36226	+	AG-893-M03_01202	AG-893-M03	405	OG0002131	NA	NA	NA	NA	NA	AG-893-M03_01207	-5
+CACNSH010000008.1	36231	36785	-	AG-893-M03_01203	AG-893-M03	184	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-893-M03_01207	-4
+CACNSH010000008.1	36778	38076	-	AG-893-M03_01204	AG-893-M03	432	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-893-M03_01207	-3
+CACNSH010000008.1	38143	38844	+	AG-893-M03_01205	AG-893-M03	233	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-893-M03_01207	-2
+CACNSH010000008.1	38841	41258	-	AG-893-M03_01206	AG-893-M03	805	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-893-M03_01207	-1
+CACNSH010000008.1	41281	41655	-	AG-893-M03_01207	AG-893-M03	124	OG0001742	NA	NA	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-893-M03_01207	0
+CABYDT010000003.1	135000	135710	-	AG-894-A09_00575	AG-894-A09	236	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-894-A09_00580	-5
+CABYDT010000003.1	135731	136585	+	AG-894-A09_00576	AG-894-A09	284	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-894-A09_00580	-4
+CABYDT010000003.1	136633	136899	+	AG-894-A09_00577	AG-894-A09	88	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-894-A09_00580	-3
+CABYDT010000003.1	136999	138393	+	AG-894-A09_00578	AG-894-A09	464	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-894-A09_00580	-2
+CABYDT010000003.1	138395	139507	+	AG-894-A09_00579	AG-894-A09	370	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-894-A09_00580	-1
+CABYDT010000003.1	139516	140601	+	AG-894-A09_00580	AG-894-A09	361	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-894-A09_00580	0
+CABYDT010000003.1	140661	143186	+	AG-894-A09_00581	AG-894-A09	841	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-894-A09_00580	1
+CABYDT010000003.1	143194	144474	+	AG-894-A09_00582	AG-894-A09	426	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-894-A09_00580	2
+CABYDT010000003.1	144479	145528	-	AG-894-A09_00583	AG-894-A09	349	OG0001269	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	AG-894-A09_00580	3
+CABYDT010000003.1	146389	147414	-	AG-894-A09_00585	AG-894-A09	341	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	AG-894-A09_00580	4
+CABYDT010000003.1	147420	148604	-	AG-894-A09_00586	AG-894-A09	394	OG0000617	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	AG-894-A09_00580	5
+CABYDZ010000003.1	108795	109991	+	AG-894-A11_00522	AG-894-A11	398	OG0002131	NA	NA	NA	NA	NA	AG-894-A11_00527	-5
+CABYDZ010000003.1	110004	110555	-	AG-894-A11_00523	AG-894-A11	183	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-894-A11_00527	-4
+CABYDZ010000003.1	110548	111846	-	AG-894-A11_00524	AG-894-A11	432	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-894-A11_00527	-3
+CABYDZ010000003.1	111895	112608	+	AG-894-A11_00525	AG-894-A11	237	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-894-A11_00527	-2
+CABYDZ010000003.1	112605	115025	-	AG-894-A11_00526	AG-894-A11	806	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-894-A11_00527	-1
+CABYDZ010000003.1	115033	116151	-	AG-894-A11_00527	AG-894-A11	372	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-894-A11_00527	0
+CABYDZ010000003.1	116152	117279	-	AG-894-A11_00528	AG-894-A11	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-894-A11_00527	1
+CABYDZ010000003.1	117343	118755	-	AG-894-A11_00529	AG-894-A11	470	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-894-A11_00527	2
+CABYDZ010000003.1	119079	119342	-	AG-894-A11_00530	AG-894-A11	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-894-A11_00527	3
+CABYDZ010000003.1	119358	120188	-	AG-894-A11_00531	AG-894-A11	276	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-894-A11_00527	4
+CABYDZ010000003.1	120254	120937	+	AG-894-A11_00532	AG-894-A11	227	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-894-A11_00527	5
+CABYZG010000002.1	43201	44418	+	AG-895-F07_00485	AG-895-F07	405	OG0002131	NA	NA	NA	NA	NA	AG-895-F07_00490	-5
+CABYZG010000002.1	44423	44977	-	AG-895-F07_00486	AG-895-F07	184	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-895-F07_00490	-4
+CABYZG010000002.1	44970	46268	-	AG-895-F07_00487	AG-895-F07	432	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-895-F07_00490	-3
+CABYZG010000002.1	46335	47036	+	AG-895-F07_00488	AG-895-F07	233	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-895-F07_00490	-2
+CABYZG010000002.1	47033	49450	-	AG-895-F07_00489	AG-895-F07	805	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-895-F07_00490	-1
+CABYZG010000002.1	49472	50587	-	AG-895-F07_00490	AG-895-F07	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-895-F07_00490	0
+CABYZG010000002.1	50590	51717	-	AG-895-F07_00491	AG-895-F07	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-895-F07_00490	1
+CABYZG010000002.1	51742	53151	-	AG-895-F07_00492	AG-895-F07	469	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-895-F07_00490	2
+CABYZG010000002.1	53477	53740	-	AG-895-F07_00493	AG-895-F07	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-895-F07_00490	3
+CABYZG010000002.1	53757	54584	-	AG-895-F07_00494	AG-895-F07	275	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-895-F07_00490	4
+CABYZG010000002.1	54638	55327	+	AG-895-F07_00495	AG-895-F07	229	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-895-F07_00490	5
+CABZIW010000001.1	134075	135274	+	AG-896-A02_00135	AG-896-A02	399	OG0002131	NA	NA	NA	NA	NA	AG-896-A02_00140	-5
+CABZIW010000001.1	135279	135812	-	AG-896-A02_00136	AG-896-A02	177	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-896-A02_00140	-4
+CABZIW010000001.1	135832	137127	-	AG-896-A02_00137	AG-896-A02	431	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-896-A02_00140	-3
+CABZIW010000001.1	137182	137895	+	AG-896-A02_00138	AG-896-A02	237	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-896-A02_00140	-2
+CABZIW010000001.1	137892	140309	-	AG-896-A02_00139	AG-896-A02	805	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-896-A02_00140	-1
+CABZIW010000001.1	140333	141448	-	AG-896-A02_00140	AG-896-A02	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-896-A02_00140	0
+CABZIW010000001.1	141451	142578	-	AG-896-A02_00141	AG-896-A02	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-896-A02_00140	1
+CABZIW010000001.1	142604	144013	-	AG-896-A02_00142	AG-896-A02	469	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-896-A02_00140	2
+CABZIW010000001.1	144339	144602	-	AG-896-A02_00143	AG-896-A02	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-896-A02_00140	3
+CABZIW010000001.1	144619	145446	-	AG-896-A02_00144	AG-896-A02	275	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-896-A02_00140	4
+CABZIW010000001.1	145500	146189	+	AG-896-A02_00145	AG-896-A02	229	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-896-A02_00140	5
+CACCAS010000002.1	121311	121994	-	AG-900-K14_00460	AG-900-K14	227	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-900-K14_00465	-5
+CACCAS010000002.1	122060	122890	+	AG-900-K14_00461	AG-900-K14	276	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-900-K14_00465	-4
+CACCAS010000002.1	122906	123169	+	AG-900-K14_00462	AG-900-K14	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-900-K14_00465	-3
+CACCAS010000002.1	123491	124903	+	AG-900-K14_00463	AG-900-K14	470	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-900-K14_00465	-2
+CACCAS010000002.1	124963	126090	+	AG-900-K14_00464	AG-900-K14	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-900-K14_00465	-1
+CACCAS010000002.1	126091	127209	+	AG-900-K14_00465	AG-900-K14	372	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-900-K14_00465	0
+CACCAS010000002.1	127217	129637	+	AG-900-K14_00466	AG-900-K14	806	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-900-K14_00465	1
+CACCAS010000002.1	129634	130347	-	AG-900-K14_00467	AG-900-K14	237	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-900-K14_00465	2
+CACCAS010000002.1	130403	131692	+	AG-900-K14_00468	AG-900-K14	429	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-900-K14_00465	3
+CACCAS010000002.1	131692	132243	+	AG-900-K14_00469	AG-900-K14	183	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-900-K14_00465	4
+CACCAS010000002.1	132256	133452	-	AG-900-K14_00470	AG-900-K14	398	OG0002131	NA	NA	NA	NA	NA	AG-900-K14_00465	5
+CACCCN010000001.1	195416	196615	+	AG-900-M14_00201	AG-900-M14	399	OG0002131	NA	NA	NA	NA	NA	AG-900-M14_00206	-5
+CACCCN010000001.1	196617	197159	-	AG-900-M14_00202	AG-900-M14	180	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-900-M14_00206	-4
+CACCCN010000001.1	197167	198462	-	AG-900-M14_00203	AG-900-M14	431	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-900-M14_00206	-3
+CACCCN010000001.1	198487	199197	+	AG-900-M14_00204	AG-900-M14	236	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-900-M14_00206	-2
+CACCCN010000001.1	199194	201617	-	AG-900-M14_00205	AG-900-M14	807	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-900-M14_00206	-1
+CACCCN010000001.1	201645	202751	-	AG-900-M14_00206	AG-900-M14	368	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-900-M14_00206	0
+CACCCN010000001.1	202754	203890	-	AG-900-M14_00207	AG-900-M14	378	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-900-M14_00206	1
+CACCCN010000001.1	203951	205363	-	AG-900-M14_00208	AG-900-M14	470	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-900-M14_00206	2
+CACCCN010000001.1	205706	205969	-	AG-900-M14_00209	AG-900-M14	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-900-M14_00206	3
+CACCCN010000001.1	206004	206837	-	AG-900-M14_00210	AG-900-M14	277	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-900-M14_00206	4
+CACCCN010000001.1	206902	207582	+	AG-900-M14_00211	AG-900-M14	226	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-900-M14_00206	5
+CACEDC010000001.1	138342	139541	+	AG-905-D16_00143	AG-905-D16	399	OG0002131	NA	NA	NA	NA	NA	AG-905-D16_00148	-5
+CACEDC010000001.1	139546	140079	-	AG-905-D16_00144	AG-905-D16	177	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-905-D16_00148	-4
+CACEDC010000001.1	140099	141394	-	AG-905-D16_00145	AG-905-D16	431	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-905-D16_00148	-3
+CACEDC010000001.1	141449	142162	+	AG-905-D16_00146	AG-905-D16	237	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-905-D16_00148	-2
+CACEDC010000001.1	142159	144576	-	AG-905-D16_00147	AG-905-D16	805	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-905-D16_00148	-1
+CACEDC010000001.1	144600	145715	-	AG-905-D16_00148	AG-905-D16	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-905-D16_00148	0
+CACEDC010000001.1	145718	146845	-	AG-905-D16_00149	AG-905-D16	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-905-D16_00148	1
+CACEDC010000001.1	146870	148279	-	AG-905-D16_00150	AG-905-D16	469	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-905-D16_00148	2
+CACEDC010000001.1	148605	148868	-	AG-905-D16_00151	AG-905-D16	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-905-D16_00148	3
+CACEDC010000001.1	148885	149712	-	AG-905-D16_00152	AG-905-D16	275	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-905-D16_00148	4
+CACEDC010000001.1	149766	150455	+	AG-905-D16_00153	AG-905-D16	229	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-905-D16_00148	5
+CACEPS010000002.1	104464	105489	+	AG-907-B09_00514	AG-907-B09	341	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	AG-907-B09_00519	-5
+CACEPS010000002.1	105482	106357	+	AG-907-B09_00515	AG-907-B09	291	OG0001065	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	AG-907-B09_00519	-4
+CACEPS010000002.1	106350	107399	+	AG-907-B09_00516	AG-907-B09	349	OG0001269	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	AG-907-B09_00519	-3
+CACEPS010000002.1	107404	108684	-	AG-907-B09_00517	AG-907-B09	426	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	AG-907-B09_00519	-2
+CACEPS010000002.1	108692	111217	-	AG-907-B09_00518	AG-907-B09	841	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-907-B09_00519	-1
+CACEPS010000002.1	111277	112362	-	AG-907-B09_00519	AG-907-B09	361	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-907-B09_00519	0
+CACEPS010000002.1	112371	113483	-	AG-907-B09_00520	AG-907-B09	370	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-907-B09_00519	1
+CACEPS010000002.1	113485	114879	-	AG-907-B09_00521	AG-907-B09	464	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-907-B09_00519	2
+CACEPS010000002.1	114980	115246	-	AG-907-B09_00522	AG-907-B09	88	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-907-B09_00519	3
+CACEPS010000002.1	115294	116148	-	AG-907-B09_00523	AG-907-B09	284	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-907-B09_00519	4
+CACEPS010000002.1	116169	116879	+	AG-907-B09_00524	AG-907-B09	236	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-907-B09_00519	5
+CACGAG010000018.1	793	1908	-	AG-909-G09_01309	AG-909-G09	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-909-G09_01309	0
+CACGAG010000018.1	1911	3038	-	AG-909-G09_01310	AG-909-G09	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-909-G09_01309	1
+CACGAG010000018.1	3063	4472	-	AG-909-G09_01311	AG-909-G09	469	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-909-G09_01309	2
+CACGAG010000018.1	4796	5059	-	AG-909-G09_01312	AG-909-G09	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-909-G09_01309	3
+CACGAG010000018.1	5075	5902	-	AG-909-G09_01313	AG-909-G09	275	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-909-G09_01309	4
+CACGAG010000018.1	5956	6642	+	AG-909-G09_01314	AG-909-G09	228	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-909-G09_01309	5
+CACMYK010000002.1	40075	40752	-	AG-919-P09_00369	AG-919-P09	225	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-919-P09_00374	-5
+CACMYK010000002.1	40806	41630	+	AG-919-P09_00370	AG-919-P09	274	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-919-P09_00374	-4
+CACMYK010000002.1	41647	41910	+	AG-919-P09_00371	AG-919-P09	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-919-P09_00374	-3
+CACMYK010000002.1	42215	43642	+	AG-919-P09_00372	AG-919-P09	475	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-919-P09_00374	-2
+CACMYK010000002.1	43707	44834	+	AG-919-P09_00373	AG-919-P09	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-919-P09_00374	-1
+CACMYK010000002.1	44837	45952	+	AG-919-P09_00374	AG-919-P09	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-919-P09_00374	0
+CACMYK010000002.1	45971	48391	+	AG-919-P09_00375	AG-919-P09	806	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-919-P09_00374	1
+CACMYK010000002.1	48388	49038	-	AG-919-P09_00376	AG-919-P09	216	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-919-P09_00374	2
+CACMYK010000002.1	49149	50447	+	AG-919-P09_00377	AG-919-P09	432	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-919-P09_00374	3
+CACMYK010000002.1	50440	50997	+	AG-919-P09_00378	AG-919-P09	185	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-919-P09_00374	4
+CACMYK010000002.1	51002	52219	-	AG-919-P09_00379	AG-919-P09	405	OG0002131	NA	NA	NA	NA	NA	AG-919-P09_00374	5
+CACNJA010000011.1	6557	7756	+	AG-920-L11_01151	AG-920-L11	399	OG0002131	NA	NA	NA	NA	NA	AG-920-L11_01156	-5
+CACNJA010000011.1	7761	8315	-	AG-920-L11_01152	AG-920-L11	184	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AG-920-L11_01156	-4
+CACNJA010000011.1	8308	9606	-	AG-920-L11_01153	AG-920-L11	432	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AG-920-L11_01156	-3
+CACNJA010000011.1	9673	10374	+	AG-920-L11_01154	AG-920-L11	233	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AG-920-L11_01156	-2
+CACNJA010000011.1	10371	12788	-	AG-920-L11_01155	AG-920-L11	805	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AG-920-L11_01156	-1
+CACNJA010000011.1	12810	13925	-	AG-920-L11_01156	AG-920-L11	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AG-920-L11_01156	0
+CACNJA010000011.1	13928	15055	-	AG-920-L11_01157	AG-920-L11	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AG-920-L11_01156	1
+CACNJA010000011.1	15080	16489	-	AG-920-L11_01158	AG-920-L11	469	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AG-920-L11_01156	2
+CACNJA010000011.1	16814	17077	-	AG-920-L11_01159	AG-920-L11	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AG-920-L11_01156	3
+CACNJA010000011.1	17094	17921	-	AG-920-L11_01160	AG-920-L11	275	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AG-920-L11_01156	4
+CACNJA010000011.1	17975	18664	+	AG-920-L11_01161	AG-920-L11	229	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-920-L11_01156	5
+CACNXQ010000001.1	27805	29001	+	AH-287-F15_00026	AH-287-F15	398	OG0002131	NA	NA	NA	NA	NA	AH-287-F15_00031	-5
+CACNXQ010000001.1	29009	29572	-	AH-287-F15_00027	AH-287-F15	187	OG0000382	K15012	two-component system, response regulator RegA	COG4567	NA	DNA-binding response regulator, ActR/RegA family, consists of REC and Fis-type HTH domains	AH-287-F15_00031	-4
+CACNXQ010000001.1	29565	30863	-	AH-287-F15_00028	AH-287-F15	432	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	AH-287-F15_00031	-3
+CACNXQ010000001.1	30913	31626	+	AH-287-F15_00029	AH-287-F15	237	OG0001855	NA	NA	COG1451	YgjP	UTP pyrophosphatase, metal-dependent hydrolase family	AH-287-F15_00031	-2
+CACNXQ010000001.1	31623	34043	-	AH-287-F15_00030	AH-287-F15	806	OG0000103	K02470	DNA gyrase subunit B [EC:5.6.2.2]	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	AH-287-F15_00031	-1
+CACNXQ010000001.1	34051	35166	-	AH-287-F15_00031	AH-287-F15	371	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	AH-287-F15_00031	0
+CACNXQ010000001.1	35167	36294	-	AH-287-F15_00032	AH-287-F15	375	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	AH-287-F15_00031	1
+CACNXQ010000001.1	36313	37725	-	AH-287-F15_00033	AH-287-F15	470	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	AH-287-F15_00031	2
+CACNXQ010000001.1	38045	38308	-	AH-287-F15_00034	AH-287-F15	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	AH-287-F15_00031	3
+CACNXQ010000001.1	38336	39166	-	AH-287-F15_00035	AH-287-F15	276	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	AH-287-F15_00031	4
+CACNXQ010000001.1	39233	39907	+	AH-287-F15_00036	AH-287-F15	224	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AH-287-F15_00031	5
+NYVZ01000004.1	88376	89086	-	CPC289_00486	CPC289	236	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	CPC289_00491	-5
+NYVZ01000004.1	89125	89985	+	CPC289_00487	CPC289	286	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	CPC289_00491	-4
+NYVZ01000004.1	90032	90295	+	CPC289_00488	CPC289	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	CPC289_00491	-3
+NYVZ01000004.1	90517	91905	+	CPC289_00489	CPC289	462	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	CPC289_00491	-2
+NYVZ01000004.1	91907	93016	+	CPC289_00490	CPC289	369	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	CPC289_00491	-1
+NYVZ01000004.1	93026	93349	+	CPC289_00491	CPC289	107	OG0001742	NA	NA	COG1195	RecF	Recombinational DNA repair ATPase RecF	CPC289_00491	0
+NYVZ01000004.1	93423	94121	+	CPC289_00492	CPC289	232	OG0001742	NA	NA	COG1195	RecF	Recombinational DNA repair ATPase RecF	CPC289_00491	1
+NYVZ01000004.1	94189	96693	+	CPC289_00493	CPC289	834	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	CPC289_00491	2
+NYVZ01000004.1	96697	97974	+	CPC289_00494	CPC289	425	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	CPC289_00491	3
+NYVZ01000004.1	97956	98831	-	CPC289_00495	CPC289	291	OG0001092	K01480	agmatinase [EC:3.5.3.11]	COG0010	SpeB	Arginase/agmatinase family enzyme	CPC289_00491	4
+NYVZ01000004.1	98828	99853	-	CPC289_00496	CPC289	341	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	CPC289_00491	5
+NYVZ01000004.1	89125	89985	+	CPC289_00487	CPC289	286	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	CPC289_00492	-5
+NYVZ01000004.1	90032	90295	+	CPC289_00488	CPC289	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	CPC289_00492	-4
+NYVZ01000004.1	90517	91905	+	CPC289_00489	CPC289	462	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	CPC289_00492	-3
+NYVZ01000004.1	91907	93016	+	CPC289_00490	CPC289	369	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	CPC289_00492	-2
+NYVZ01000004.1	93026	93349	+	CPC289_00491	CPC289	107	OG0001742	NA	NA	COG1195	RecF	Recombinational DNA repair ATPase RecF	CPC289_00492	-1
+NYVZ01000004.1	93423	94121	+	CPC289_00492	CPC289	232	OG0001742	NA	NA	COG1195	RecF	Recombinational DNA repair ATPase RecF	CPC289_00492	0
+NYVZ01000004.1	94189	96693	+	CPC289_00493	CPC289	834	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	CPC289_00492	1
+NYVZ01000004.1	96697	97974	+	CPC289_00494	CPC289	425	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	CPC289_00492	2
+NYVZ01000004.1	97956	98831	-	CPC289_00495	CPC289	291	OG0001092	K01480	agmatinase [EC:3.5.3.11]	COG0010	SpeB	Arginase/agmatinase family enzyme	CPC289_00492	3
+NYVZ01000004.1	98828	99853	-	CPC289_00496	CPC289	341	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	CPC289_00492	4
+NYVZ01000004.1	99856	101040	-	CPC289_00497	CPC289	394	OG0000617	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	CPC289_00492	5
+HIMB109-00000000009	52	1371	+	HIMB109_01105	HIMB109	439	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	HIMB109_01107	-2
+HIMB109-00000000009	1373	2482	+	HIMB109_01106	HIMB109	369	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	HIMB109_01107	-1
+HIMB109-00000000009	2493	3584	+	HIMB109_01107	HIMB109	363	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	HIMB109_01107	0
+HIMB109-00000000009	3655	6159	+	HIMB109_01108	HIMB109	834	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	HIMB109_01107	1
+HIMB109-00000000009	6162	7442	+	HIMB109_01109	HIMB109	426	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	HIMB109_01107	2
+HIMB109-00000000009	7424	8299	-	HIMB109_01110	HIMB109	291	OG0001092	K01480	agmatinase [EC:3.5.3.11]	COG0010	SpeB	Arginase/agmatinase family enzyme	HIMB109_01107	3
+HIMB109-00000000009	8299	9321	-	HIMB109_01111	HIMB109	340	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	HIMB109_01107	4
+HIMB109-00000000009	9324	10508	-	HIMB109_01112	HIMB109	394	OG0000617	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	HIMB109_01107	5
+ADAC02000001.1	978805	979989	+	HIMB114_01057	HIMB114	394	OG0000617	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	HIMB114_01062	-5
+ADAC02000001.1	979992	981017	+	HIMB114_01058	HIMB114	341	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	HIMB114_01062	-4
+ADAC02000001.1	981014	981889	+	HIMB114_01059	HIMB114	291	OG0001092	K01480	agmatinase [EC:3.5.3.11]	COG0010	SpeB	Arginase/agmatinase family enzyme	HIMB114_01062	-3
+ADAC02000001.1	981871	983151	-	HIMB114_01060	HIMB114	426	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	HIMB114_01062	-2
+ADAC02000001.1	983154	985658	-	HIMB114_01061	HIMB114	834	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	HIMB114_01062	-1
+ADAC02000001.1	985729	986820	-	HIMB114_01062	HIMB114	363	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	HIMB114_01062	0
+ADAC02000001.1	986831	987940	-	HIMB114_01063	HIMB114	369	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	HIMB114_01062	1
+ADAC02000001.1	987942	989330	-	HIMB114_01064	HIMB114	462	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	HIMB114_01062	2
+ADAC02000001.1	989565	989828	-	HIMB114_01065	HIMB114	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	HIMB114_01062	3
+ADAC02000001.1	989875	990735	-	HIMB114_01066	HIMB114	286	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	HIMB114_01062	4
+ADAC02000001.1	990774	991484	+	HIMB114_01067	HIMB114	236	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB114_01062	5
+HIMB1517-00000000007	1024	2208	+	HIMB1517_00842	HIMB1517	394	OG0000617	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	HIMB1517_00847	-5
+HIMB1517-00000000007	2211	3233	+	HIMB1517_00843	HIMB1517	340	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	HIMB1517_00847	-4
+HIMB1517-00000000007	3233	4108	+	HIMB1517_00844	HIMB1517	291	OG0001092	K01480	agmatinase [EC:3.5.3.11]	COG0010	SpeB	Arginase/agmatinase family enzyme	HIMB1517_00847	-3
+HIMB1517-00000000007	4090	5370	-	HIMB1517_00845	HIMB1517	426	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	HIMB1517_00847	-2
+HIMB1517-00000000007	5373	7877	-	HIMB1517_00846	HIMB1517	834	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	HIMB1517_00847	-1
+HIMB1517-00000000007	7948	9039	-	HIMB1517_00847	HIMB1517	363	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	HIMB1517_00847	0
+HIMB1517-00000000007	9050	10159	-	HIMB1517_00848	HIMB1517	369	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	HIMB1517_00847	1
+HIMB1517-00000000007	10161	11549	-	HIMB1517_00849	HIMB1517	462	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	HIMB1517_00847	2
+HIMB1517-00000000007	11784	12047	-	HIMB1517_00850	HIMB1517	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	HIMB1517_00847	3
+HIMB1517-00000000007	12094	12954	-	HIMB1517_00851	HIMB1517	286	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	HIMB1517_00847	4
+HIMB1517-00000000007	12993	13703	+	HIMB1517_00852	HIMB1517	236	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1517_00847	5
+HIMB1565-00000000001	144176	145360	+	HIMB1565_00148	HIMB1565	394	OG0000617	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	HIMB1565_00153	-5
+HIMB1565-00000000001	145363	146385	+	HIMB1565_00149	HIMB1565	340	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	HIMB1565_00153	-4
+HIMB1565-00000000001	146385	147260	+	HIMB1565_00150	HIMB1565	291	OG0001092	K01480	agmatinase [EC:3.5.3.11]	COG0010	SpeB	Arginase/agmatinase family enzyme	HIMB1565_00153	-3
+HIMB1565-00000000001	147242	148522	-	HIMB1565_00151	HIMB1565	426	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	HIMB1565_00153	-2
+HIMB1565-00000000001	148525	151029	-	HIMB1565_00152	HIMB1565	834	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	HIMB1565_00153	-1
+HIMB1565-00000000001	151100	152191	-	HIMB1565_00153	HIMB1565	363	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	HIMB1565_00153	0
+HIMB1565-00000000001	152202	153311	-	HIMB1565_00154	HIMB1565	369	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	HIMB1565_00153	1
+HIMB1565-00000000001	153313	154701	-	HIMB1565_00155	HIMB1565	462	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	HIMB1565_00153	2
+HIMB1565-00000000001	154935	155198	-	HIMB1565_00156	HIMB1565	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	HIMB1565_00153	3
+HIMB1565-00000000001	155245	156105	-	HIMB1565_00157	HIMB1565	286	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	HIMB1565_00153	4
+HIMB1565-00000000001	156144	156854	+	HIMB1565_00158	HIMB1565	236	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB1565_00153	5
+CP002511.1	287048	288118	+	IMCC9063_00316	IMCC9063	356	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	IMCC9063_00321	-5
+CP002511.1	288115	288363	+	IMCC9063_00317	IMCC9063	82	OG0001092	NA	NA	COG0010	SpeB	Arginase/agmatinase family enzyme	IMCC9063_00321	-4
+CP002511.1	288573	288989	+	IMCC9063_00318	IMCC9063	138	OG0001092	NA	NA	COG0010	SpeB	Arginase/agmatinase family enzyme	IMCC9063_00321	-3
+CP002511.1	288991	290265	-	IMCC9063_00319	IMCC9063	424	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	IMCC9063_00321	-2
+CP002511.1	290267	292357	-	IMCC9063_00320	IMCC9063	696	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	IMCC9063_00321	-1
+CP002511.1	292419	293507	-	IMCC9063_00321	IMCC9063	362	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	IMCC9063_00321	0
+CP002511.1	293514	294629	-	IMCC9063_00322	IMCC9063	371	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	IMCC9063_00321	1
+CP002511.1	294630	296027	-	IMCC9063_00323	IMCC9063	465	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	IMCC9063_00321	2
+CP002511.1	296277	296543	-	IMCC9063_00324	IMCC9063	88	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	IMCC9063_00321	3
+CP002511.1	296587	297447	-	IMCC9063_00325	IMCC9063	286	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	IMCC9063_00321	4
+CP002511.1	297500	298198	+	IMCC9063_00326	IMCC9063	232	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	IMCC9063_00321	5
+Ga0182791_11	148	1545	+	LSUCC0261_00001	LSUCC0261	465	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	LSUCC0261_00003	-2
+Ga0182791_11	1547	2662	+	LSUCC0261_00002	LSUCC0261	371	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	LSUCC0261_00003	-1
+Ga0182791_11	2670	3752	+	LSUCC0261_00003	LSUCC0261	360	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	LSUCC0261_00003	0
+Ga0182791_11	3813	5903	+	LSUCC0261_00004	LSUCC0261	696	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	LSUCC0261_00003	1
+Ga0182791_11	5905	7179	+	LSUCC0261_00005	LSUCC0261	424	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	LSUCC0261_00003	2
+Ga0182791_11	7186	8061	-	LSUCC0261_00006	LSUCC0261	291	OG0001092	K01480	agmatinase [EC:3.5.3.11]	COG0010	SpeB	Arginase/agmatinase family enzyme	LSUCC0261_00003	3
+Ga0182791_11	8058	9083	-	LSUCC0261_00007	LSUCC0261	341	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	LSUCC0261_00003	4
+Ga0182791_11	9097	10275	-	LSUCC0261_00008	LSUCC0261	392	OG0000617	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	LSUCC0261_00003	5
+CP024034.1	10	1404	+	LSUCC0530_00001	LSUCC0530	464	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	LSUCC0530_00003	-2
+CP024034.1	1404	2519	+	LSUCC0530_00002	LSUCC0530	371	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	LSUCC0530_00003	-1
+CP024034.1	2524	3603	+	LSUCC0530_00003	LSUCC0530	359	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	LSUCC0530_00003	0
+CP024034.1	3667	6219	+	LSUCC0530_00004	LSUCC0530	850	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	LSUCC0530_00003	1
+CP024034.1	6224	7516	+	LSUCC0530_00005	LSUCC0530	430	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	LSUCC0530_00003	2
+CP024034.1	7509	8579	-	LSUCC0530_00006	LSUCC0530	356	OG0001269	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	LSUCC0530_00003	3
+CP024034.1	8572	9453	-	LSUCC0530_00007	LSUCC0530	293	OG0001065	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	LSUCC0530_00003	4
+CP024034.1	9457	10503	-	LSUCC0530_00008	LSUCC0530	348	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	LSUCC0530_00003	5
+Ga0255589_11	19	1407	+	LSUCC0664_00001	LSUCC0664	462	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	LSUCC0664_00003	-2
+Ga0255589_11	1409	2518	+	LSUCC0664_00002	LSUCC0664	369	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	LSUCC0664_00003	-1
+Ga0255589_11	2530	3618	+	LSUCC0664_00003	LSUCC0664	362	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	LSUCC0664_00003	0
+Ga0255589_11	3689	6196	+	LSUCC0664_00004	LSUCC0664	835	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	LSUCC0664_00003	1
+Ga0255589_11	6198	7478	+	LSUCC0664_00005	LSUCC0664	426	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	LSUCC0664_00003	2
+Ga0255589_11	7460	8335	-	LSUCC0664_00006	LSUCC0664	291	OG0001092	K01480	agmatinase [EC:3.5.3.11]	COG0010	SpeB	Arginase/agmatinase family enzyme	LSUCC0664_00003	3
+Ga0255589_11	8332	9357	-	LSUCC0664_00007	LSUCC0664	341	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	LSUCC0664_00003	4
+Ga0255589_11	9360	10547	-	LSUCC0664_00008	LSUCC0664	395	OG0000617	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	LSUCC0664_00003	5
+Ga0197930_11	15	1403	+	LSUCC0723_00001	LSUCC0723	462	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	LSUCC0723_00003	-2
+Ga0197930_11	1405	2514	+	LSUCC0723_00002	LSUCC0723	369	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	LSUCC0723_00003	-1
+Ga0197930_11	2525	3616	+	LSUCC0723_00003	LSUCC0723	363	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	LSUCC0723_00003	0
+Ga0197930_11	3687	6191	+	LSUCC0723_00004	LSUCC0723	834	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	LSUCC0723_00003	1
+Ga0197930_11	6194	7474	+	LSUCC0723_00005	LSUCC0723	426	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	LSUCC0723_00003	2
+Ga0197930_11	7456	8331	-	LSUCC0723_00006	LSUCC0723	291	OG0001092	K01480	agmatinase [EC:3.5.3.11]	COG0010	SpeB	Arginase/agmatinase family enzyme	LSUCC0723_00003	3
+Ga0197930_11	8328	9353	-	LSUCC0723_00007	LSUCC0723	341	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	LSUCC0723_00003	4
+Ga0197930_11	9356	10540	-	LSUCC0723_00008	LSUCC0723	394	OG0000617	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	LSUCC0723_00003	5
+OZ249404.1	1	1395	+	ME-17_00001	ME-17	464	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	ME-17_00003	-2
+OZ249404.1	1395	2510	+	ME-17_00002	ME-17	371	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	ME-17_00003	-1
+OZ249404.1	2515	3594	+	ME-17_00003	ME-17	359	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	ME-17_00003	0
+OZ249404.1	3658	6210	+	ME-17_00004	ME-17	850	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	ME-17_00003	1
+OZ249404.1	6215	7507	+	ME-17_00005	ME-17	430	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	ME-17_00003	2
+OZ249404.1	7500	8570	-	ME-17_00006	ME-17	356	OG0001269	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	ME-17_00003	3
+OZ249404.1	8563	9444	-	ME-17_00007	ME-17	293	OG0001065	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	ME-17_00003	4
+OZ249404.1	9448	10494	-	ME-17_00008	ME-17	348	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	ME-17_00003	5
+OZ247825.1	1	1395	+	ME-18_00001	ME-18	464	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	ME-18_00003	-2
+OZ247825.1	1395	2510	+	ME-18_00002	ME-18	371	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	ME-18_00003	-1
+OZ247825.1	2515	3594	+	ME-18_00003	ME-18	359	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	ME-18_00003	0
+OZ247825.1	3657	6209	+	ME-18_00004	ME-18	850	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	ME-18_00003	1
+OZ247825.1	6214	7506	+	ME-18_00005	ME-18	430	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	ME-18_00003	2
+OZ247825.1	7499	8569	-	ME-18_00006	ME-18	356	OG0001269	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	ME-18_00003	3
+OZ247825.1	8562	9443	-	ME-18_00007	ME-18	293	OG0001065	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	ME-18_00003	4
+OZ247825.1	9447	10493	-	ME-18_00008	ME-18	348	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	ME-18_00003	5
+OZ247816.1	1	1395	+	ME-20_00001	ME-20	464	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	ME-20_00003	-2
+OZ247816.1	1395	2510	+	ME-20_00002	ME-20	371	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	ME-20_00003	-1
+OZ247816.1	2515	3594	+	ME-20_00003	ME-20	359	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	ME-20_00003	0
+OZ247816.1	3658	6210	+	ME-20_00004	ME-20	850	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	ME-20_00003	1
+OZ247816.1	6215	7507	+	ME-20_00005	ME-20	430	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	ME-20_00003	2
+OZ247816.1	7500	8570	-	ME-20_00006	ME-20	356	OG0001269	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	ME-20_00003	3
+OZ247816.1	8563	9444	-	ME-20_00007	ME-20	293	OG0001065	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	ME-20_00003	4
+OZ247816.1	9448	10494	-	ME-20_00008	ME-20	348	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	ME-20_00003	5
+OZ247817.1	1	1395	+	ME-31_00001	ME-31	464	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	ME-31_00003	-2
+OZ247817.1	1395	2510	+	ME-31_00002	ME-31	371	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	ME-31_00003	-1
+OZ247817.1	2515	3594	+	ME-31_00003	ME-31	359	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	ME-31_00003	0
+OZ247817.1	3658	6210	+	ME-31_00004	ME-31	850	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	ME-31_00003	1
+OZ247817.1	6215	7507	+	ME-31_00005	ME-31	430	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	ME-31_00003	2
+OZ247817.1	7500	8570	-	ME-31_00006	ME-31	356	OG0001269	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	ME-31_00003	3
+OZ247817.1	8563	9444	-	ME-31_00007	ME-31	293	OG0001065	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	ME-31_00003	4
+OZ247817.1	9448	10494	-	ME-31_00008	ME-31	348	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	ME-31_00003	5
+OZ247815.1	1	1395	+	ME-33_00001	ME-33	464	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	ME-33_00003	-2
+OZ247815.1	1395	2510	+	ME-33_00002	ME-33	371	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	ME-33_00003	-1
+OZ247815.1	2515	3594	+	ME-33_00003	ME-33	359	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	ME-33_00003	0
+OZ247815.1	3657	6209	+	ME-33_00004	ME-33	850	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	ME-33_00003	1
+OZ247815.1	6214	7506	+	ME-33_00005	ME-33	430	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	ME-33_00003	2
+OZ247815.1	7499	8569	-	ME-33_00006	ME-33	356	OG0001269	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	ME-33_00003	3
+OZ247815.1	8562	9443	-	ME-33_00007	ME-33	293	OG0001065	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	ME-33_00003	4
+OZ247815.1	9447	10493	-	ME-33_00008	ME-33	348	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	ME-33_00003	5
+NZJW01000017.1	35320	36030	-	MED1116_00566	MED1116	236	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	MED1116_00571	-5
+NZJW01000017.1	36070	36930	+	MED1116_00567	MED1116	286	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	MED1116_00571	-4
+NZJW01000017.1	37152	37241	+	MED1116_00568	MED1116	29	OG0000479	NA	NA	NA	NA	NA	MED1116_00571	-3
+NZJW01000017.1	37420	38808	+	MED1116_00569	MED1116	462	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	MED1116_00571	-2
+NZJW01000017.1	38809	39918	+	MED1116_00570	MED1116	369	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	MED1116_00571	-1
+NZJW01000017.1	39929	41020	+	MED1116_00571	MED1116	363	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	MED1116_00571	0
+NZJW01000017.1	41084	43588	+	MED1116_00572	MED1116	834	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	MED1116_00571	1
+NZJW01000017.1	43591	44868	+	MED1116_00573	MED1116	425	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	MED1116_00571	2
+NZJW01000017.1	44850	45725	-	MED1116_00574	MED1116	291	OG0001092	K01480	agmatinase [EC:3.5.3.11]	COG0010	SpeB	Arginase/agmatinase family enzyme	MED1116_00571	3
+NZJW01000017.1	45725	46747	-	MED1116_00575	MED1116	340	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	MED1116_00571	4
+NZJW01000017.1	46750	47934	-	MED1116_00576	MED1116	394	OG0000617	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	MED1116_00571	5
+NZIR01000019.1	89724	91295	-	MED602_00166	MED602	523	OG0000178	K03688	ubiquinone biosynthesis protein	COG0661	AarF	Predicted protein kinase regulating ubiquinone biosynthesis, AarF/ABC1/UbiB family	MED602_00171	-5
+NZIR01000019.1	91292	92002	-	MED602_00167	MED602	236	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	MED602_00171	-4
+NZIR01000019.1	92023	92877	+	MED602_00168	MED602	284	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	MED602_00171	-3
+NZIR01000019.1	93238	94686	+	MED602_00169	MED602	482	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	MED602_00171	-2
+NZIR01000019.1	94688	95800	+	MED602_00170	MED602	370	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	MED602_00171	-1
+NZIR01000019.1	95809	96894	+	MED602_00171	MED602	361	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	MED602_00171	0
+NZIR01000019.1	96954	99479	+	MED602_00172	MED602	841	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	MED602_00171	1
+NZIR01000019.1	99487	100767	+	MED602_00173	MED602	426	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	MED602_00171	2
+NZIR01000019.1	100772	101821	-	MED602_00174	MED602	349	OG0001269	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	MED602_00171	3
+NZIR01000019.1	101814	102689	-	MED602_00175	MED602	291	OG0001065	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	MED602_00171	4
+NZIR01000019.1	102682	103707	-	MED602_00176	MED602	341	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	MED602_00171	5
+OZ247814.1	357110	358156	+	MKE-138_00418	MKE-138	348	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	MKE-138_00423	-5
+OZ247814.1	358160	359041	+	MKE-138_00419	MKE-138	293	OG0001065	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	MKE-138_00423	-4
+OZ247814.1	359034	360104	+	MKE-138_00420	MKE-138	356	OG0001269	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	MKE-138_00423	-3
+OZ247814.1	360097	361389	-	MKE-138_00421	MKE-138	430	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	MKE-138_00423	-2
+OZ247814.1	361394	363946	-	MKE-138_00422	MKE-138	850	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	MKE-138_00423	-1
+OZ247814.1	364010	365089	-	MKE-138_00423	MKE-138	359	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	MKE-138_00423	0
+OZ247814.1	365094	366209	-	MKE-138_00424	MKE-138	371	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	MKE-138_00423	1
+OZ247814.1	366209	367603	-	MKE-138_00425	MKE-138	464	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	MKE-138_00423	2
+OZ247814.1	367759	368019	-	MKE-138_00426	MKE-138	86	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	MKE-138_00423	3
+OZ247814.1	368066	368929	-	MKE-138_00427	MKE-138	287	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	MKE-138_00423	4
+OZ247814.1	368972	369688	+	MKE-138_00428	MKE-138	238	OG0000032	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	MKE-138_00423	5
+OZ249405.1	294	1115	+	MiE-29_00001	MiE-29	273	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	MiE-29_00002	-1
+OZ249405.1	1120	2199	+	MiE-29_00002	MiE-29	359	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	MiE-29_00002	0
+OZ249405.1	2263	4815	+	MiE-29_00003	MiE-29	850	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	MiE-29_00002	1
+OZ249405.1	4820	6112	+	MiE-29_00004	MiE-29	430	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG2205	KdpD	K+-sensing histidine kinase KdpD	MiE-29_00002	2
+OZ249405.1	6105	7175	-	MiE-29_00005	MiE-29	356	OG0001269	K10536	agmatine deiminase [EC:3.5.3.12]	COG2957	AguA	Agmatine/peptidylarginine deiminase	MiE-29_00002	3
+OZ249405.1	7168	8049	-	MiE-29_00006	MiE-29	293	OG0001065	K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]	COG0388	Nit1	Nitrilase/amidase YafV/Nit2, hydrolyzes deaminated glutathione	MiE-29_00002	4
+OZ249405.1	8053	9099	-	MiE-29_00007	MiE-29	348	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	MiE-29_00002	5
+PBKK01000002.1	65143	66327	+	SP27_00327	SP27	394	OG0000617	K01581	ornithine decarboxylase [EC:4.1.1.17]	COG0019	LysA	Diaminopimelate decarboxylase	SP27_00332	-5
+PBKK01000002.1	66330	67349	+	SP27_00328	SP27	339	OG0000618	K00809	deoxyhypusine synthase [EC:2.5.1.46]	COG1899	DYS1	Deoxyhypusine synthase	SP27_00332	-4
+PBKK01000002.1	67288	68226	+	SP27_00329	SP27	312	OG0001092	K01480	agmatinase [EC:3.5.3.11]	COG0010	SpeB	Arginase/agmatinase family enzyme	SP27_00332	-3
+PBKK01000002.1	68208	69485	-	SP27_00330	SP27	425	OG0000234	K15011	two-component system, sensor histidine kinase RegB [EC:2.7.13.3]	COG0642	BaeS	Signal transduction histidine kinase	SP27_00332	-2
+PBKK01000002.1	69490	71994	-	SP27_00331	SP27	834	OG0000103	NA	NA	COG0187	GyrB	DNA gyrase/topoisomerase IV, subunit B	SP27_00332	-1
+PBKK01000002.1	72065	73156	-	SP27_00332	SP27	363	OG0001742	K03629	DNA replication and repair protein RecF	COG1195	RecF	Recombinational DNA repair ATPase RecF	SP27_00332	0
+PBKK01000002.1	73169	74275	-	SP27_00333	SP27	368	OG0000223	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DnaN	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	SP27_00332	1
+PBKK01000002.1	74277	75665	-	SP27_00334	SP27	462	OG0000259	K02313	chromosomal replication initiator protein	COG0593	DnaA	Chromosomal replication initiation ATPase DnaA	SP27_00332	2
+PBKK01000002.1	75869	76132	-	SP27_00335	SP27	87	OG0000479	K02968	small subunit ribosomal protein S20	COG0268	RpsT	Ribosomal protein S20	SP27_00332	3
+PBKK01000002.1	76179	77039	-	SP27_00336	SP27	286	OG0000626	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	COG0266	Nei	Formamidopyrimidine-DNA glycosylase	SP27_00332	4
+PBKK01000002.1	77078	77788	+	SP27_00337	SP27	236	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	SP27_00332	5

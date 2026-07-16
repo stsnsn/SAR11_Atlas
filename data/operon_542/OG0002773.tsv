@@ -1,0 +1,89 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CP024034.1	930765	932213	-	LSUCC0530_01018	LSUCC0530	482	OG0000465	K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	LSUCC0530_01023	-5
+CP024034.1	932366	933373	+	LSUCC0530_01019	LSUCC0530	335	OG0000086	K11688	C4-dicarboxylate-binding protein DctP	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	LSUCC0530_01023	-4
+CP024034.1	933428	933970	+	LSUCC0530_01020	LSUCC0530	180	OG0001457	K11689	C4-dicarboxylate transporter, DctQ subunit	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	LSUCC0530_01023	-3
+CP024034.1	933967	935277	+	LSUCC0530_01021	LSUCC0530	436	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	LSUCC0530_01023	-2
+CP024034.1	935284	936060	+	LSUCC0530_01022	LSUCC0530	258	OG0001132	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	LSUCC0530_01023	-1
+CP024034.1	936062	936982	-	LSUCC0530_01023	LSUCC0530	306	OG0002773	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	LSUCC0530_01023	0
+CP024034.1	937172	937867	+	LSUCC0530_01024	LSUCC0530	231	OG0001361	NA	NA	COG3637	LomR	Opacity protein LomR and related surface antigens	LSUCC0530_01023	1
+CP024034.1	937917	939167	-	LSUCC0530_01025	LSUCC0530	416	OG0000687	NA	NA	COG1196	Smc	Chromosome segregation ATPase Smc	LSUCC0530_01023	2
+CP024034.1	939249	940121	-	LSUCC0530_01026	LSUCC0530	290	OG0000738	NA	NA	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	LSUCC0530_01023	3
+CP024034.1	940219	941148	+	LSUCC0530_01027	LSUCC0530	309	OG0001193	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	LSUCC0530_01023	4
+CP024034.1	941141	941923	-	LSUCC0530_01028	LSUCC0530	260	OG0001565	NA	NA	COG2982	AsmA	Outer membrane assembly factor AsmA	LSUCC0530_01023	5
+OZ249404.1	822511	823959	-	ME-17_00926	ME-17	482	OG0000465	K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	ME-17_00931	-5
+OZ249404.1	824114	825157	+	ME-17_00927	ME-17	347	OG0000086	K11688	C4-dicarboxylate-binding protein DctP	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	ME-17_00931	-4
+OZ249404.1	825271	825747	+	ME-17_00928	ME-17	158	OG0001457	K11689	C4-dicarboxylate transporter, DctQ subunit	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	ME-17_00931	-3
+OZ249404.1	825748	827058	+	ME-17_00929	ME-17	436	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	ME-17_00931	-2
+OZ249404.1	827063	827836	+	ME-17_00930	ME-17	257	OG0001132	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	ME-17_00931	-1
+OZ249404.1	827838	828752	-	ME-17_00931	ME-17	304	OG0002773	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	ME-17_00931	0
+OZ249404.1	828765	830051	-	ME-17_00932	ME-17	428	OG0000687	NA	NA	COG1196	Smc	Chromosome segregation ATPase Smc	ME-17_00931	1
+OZ249404.1	830134	831006	-	ME-17_00933	ME-17	290	OG0000738	NA	NA	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	ME-17_00931	2
+OZ249404.1	831101	832030	+	ME-17_00934	ME-17	309	OG0001193	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	ME-17_00931	3
+OZ249404.1	832023	832805	-	ME-17_00935	ME-17	260	OG0001565	NA	NA	COG2982	AsmA	Outer membrane assembly factor AsmA	ME-17_00931	4
+OZ249404.1	832964	835039	+	ME-17_00936	ME-17	691	OG0000410	K01354	oligopeptidase B [EC:3.4.21.83]	COG1770	PtrB	Protease II	ME-17_00931	5
+OZ247825.1	852820	854268	-	ME-18_00945	ME-18	482	OG0000465	K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	ME-18_00950	-5
+OZ247825.1	854422	855462	+	ME-18_00946	ME-18	346	OG0000086	K11688	C4-dicarboxylate-binding protein DctP	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	ME-18_00950	-4
+OZ247825.1	855497	856060	+	ME-18_00947	ME-18	187	OG0001457	K11689	C4-dicarboxylate transporter, DctQ subunit	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	ME-18_00950	-3
+OZ247825.1	856057	857367	+	ME-18_00948	ME-18	436	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	ME-18_00950	-2
+OZ247825.1	857372	858145	+	ME-18_00949	ME-18	257	OG0001132	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	ME-18_00950	-1
+OZ247825.1	858147	859061	-	ME-18_00950	ME-18	304	OG0002773	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	ME-18_00950	0
+OZ247825.1	859074	860360	-	ME-18_00951	ME-18	428	OG0000687	NA	NA	COG1196	Smc	Chromosome segregation ATPase Smc	ME-18_00950	1
+OZ247825.1	860443	861315	-	ME-18_00952	ME-18	290	OG0000738	NA	NA	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	ME-18_00950	2
+OZ247825.1	861409	862338	+	ME-18_00953	ME-18	309	OG0001193	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	ME-18_00950	3
+OZ247825.1	862331	863113	-	ME-18_00954	ME-18	260	OG0001565	NA	NA	COG2982	AsmA	Outer membrane assembly factor AsmA	ME-18_00950	4
+OZ247825.1	863141	863257	+	ME-18_00955	ME-18	38	NA	NA	NA	NA	NA	NA	ME-18_00950	5
+OZ247816.1	844012	845460	-	ME-20_00929	ME-20	482	OG0000465	K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	ME-20_00934	-5
+OZ247816.1	845614	846624	+	ME-20_00930	ME-20	336	OG0000086	K11688	C4-dicarboxylate-binding protein DctP	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	ME-20_00934	-4
+OZ247816.1	846684	847226	+	ME-20_00931	ME-20	180	OG0001457	K11689	C4-dicarboxylate transporter, DctQ subunit	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	ME-20_00934	-3
+OZ247816.1	847223	848533	+	ME-20_00932	ME-20	436	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	ME-20_00934	-2
+OZ247816.1	848540	849313	+	ME-20_00933	ME-20	257	OG0001132	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	ME-20_00934	-1
+OZ247816.1	849315	850229	-	ME-20_00934	ME-20	304	OG0002773	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	ME-20_00934	0
+OZ247816.1	850243	851517	-	ME-20_00935	ME-20	424	OG0000687	NA	NA	COG1196	Smc	Chromosome segregation ATPase Smc	ME-20_00934	1
+OZ247816.1	851600	852472	-	ME-20_00936	ME-20	290	OG0000738	NA	NA	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	ME-20_00934	2
+OZ247816.1	852566	853495	+	ME-20_00937	ME-20	309	OG0001193	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	ME-20_00934	3
+OZ247816.1	853488	854270	-	ME-20_00938	ME-20	260	OG0001565	NA	NA	COG2982	AsmA	Outer membrane assembly factor AsmA	ME-20_00934	4
+OZ247816.1	854429	856504	+	ME-20_00939	ME-20	691	OG0000410	K01354	oligopeptidase B [EC:3.4.21.83]	COG1770	PtrB	Protease II	ME-20_00934	5
+OZ247817.1	869277	870725	-	ME-31_00955	ME-31	482	OG0000465	K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	ME-31_00960	-5
+OZ247817.1	870879	871889	+	ME-31_00956	ME-31	336	OG0000086	K11688	C4-dicarboxylate-binding protein DctP	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	ME-31_00960	-4
+OZ247817.1	871950	872492	+	ME-31_00957	ME-31	180	OG0001457	K11689	C4-dicarboxylate transporter, DctQ subunit	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	ME-31_00960	-3
+OZ247817.1	872489	873799	+	ME-31_00958	ME-31	436	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	ME-31_00960	-2
+OZ247817.1	873806	874579	+	ME-31_00959	ME-31	257	OG0001132	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	ME-31_00960	-1
+OZ247817.1	874581	875495	-	ME-31_00960	ME-31	304	OG0002773	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	ME-31_00960	0
+OZ247817.1	875509	876810	-	ME-31_00961	ME-31	433	OG0000687	NA	NA	COG1196	Smc	Chromosome segregation ATPase Smc	ME-31_00960	1
+OZ247817.1	876893	877765	-	ME-31_00962	ME-31	290	OG0000738	NA	NA	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	ME-31_00960	2
+OZ247817.1	877859	878788	+	ME-31_00963	ME-31	309	OG0001193	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	ME-31_00960	3
+OZ247817.1	878781	879563	-	ME-31_00964	ME-31	260	OG0001565	NA	NA	COG2982	AsmA	Outer membrane assembly factor AsmA	ME-31_00960	4
+OZ247817.1	879722	881797	+	ME-31_00965	ME-31	691	OG0000410	K01354	oligopeptidase B [EC:3.4.21.83]	COG1770	PtrB	Protease II	ME-31_00960	5
+OZ247815.1	874047	875495	-	ME-33_00971	ME-33	482	OG0000465	K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	ME-33_00976	-5
+OZ247815.1	875649	876659	+	ME-33_00972	ME-33	336	OG0000086	K11688	C4-dicarboxylate-binding protein DctP	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	ME-33_00976	-4
+OZ247815.1	876719	877261	+	ME-33_00973	ME-33	180	OG0001457	K11689	C4-dicarboxylate transporter, DctQ subunit	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	ME-33_00976	-3
+OZ247815.1	877258	878568	+	ME-33_00974	ME-33	436	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	ME-33_00976	-2
+OZ247815.1	878575	879348	+	ME-33_00975	ME-33	257	OG0001132	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	ME-33_00976	-1
+OZ247815.1	879350	880270	-	ME-33_00976	ME-33	306	OG0002773	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	ME-33_00976	0
+OZ247815.1	880458	881135	+	ME-33_00977	ME-33	225	OG0001361	NA	NA	COG3637	LomR	Opacity protein LomR and related surface antigens	ME-33_00976	1
+OZ247815.1	881188	882480	-	ME-33_00978	ME-33	430	OG0000687	NA	NA	COG1196	Smc	Chromosome segregation ATPase Smc	ME-33_00976	2
+OZ247815.1	882563	883435	-	ME-33_00979	ME-33	290	OG0000738	NA	NA	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	ME-33_00976	3
+OZ247815.1	883529	884458	+	ME-33_00980	ME-33	309	OG0001193	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	ME-33_00976	4
+OZ247815.1	884451	885233	-	ME-33_00981	ME-33	260	OG0001565	NA	NA	COG2982	AsmA	Outer membrane assembly factor AsmA	ME-33_00976	5
+OZ247814.1	586504	587286	+	MKE-138_00672	MKE-138	260	OG0001565	NA	NA	COG2982	AsmA	Outer membrane assembly factor AsmA	MKE-138_00677	-5
+OZ247814.1	587278	588294	-	MKE-138_00673	MKE-138	338	OG0001193	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	MKE-138_00677	-4
+OZ247814.1	588296	589249	-	MKE-138_00674	MKE-138	317	OG0000023	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	MKE-138_00677	-3
+OZ247814.1	589318	590190	+	MKE-138_00675	MKE-138	290	OG0000738	NA	NA	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	MKE-138_00677	-2
+OZ247814.1	590273	591559	+	MKE-138_00676	MKE-138	428	OG0000687	NA	NA	COG1196	Smc	Chromosome segregation ATPase Smc	MKE-138_00677	-1
+OZ247814.1	591573	592487	+	MKE-138_00677	MKE-138	304	OG0002773	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	MKE-138_00677	0
+OZ247814.1	592489	593262	-	MKE-138_00678	MKE-138	257	OG0001132	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	MKE-138_00677	1
+OZ247814.1	593267	594532	-	MKE-138_00679	MKE-138	421	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	MKE-138_00677	2
+OZ247814.1	594574	595137	-	MKE-138_00680	MKE-138	187	OG0001457	K11689	C4-dicarboxylate transporter, DctQ subunit	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	MKE-138_00677	3
+OZ247814.1	595172	596215	-	MKE-138_00681	MKE-138	347	OG0000086	K11688	C4-dicarboxylate-binding protein DctP	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	MKE-138_00677	4
+OZ247814.1	596370	597818	+	MKE-138_00682	MKE-138	482	OG0000465	K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	MKE-138_00677	5
+OZ249405.1	868550	869998	-	MiE-29_00964	MiE-29	482	OG0000465	K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	MiE-29_00969	-5
+OZ249405.1	870153	871196	+	MiE-29_00965	MiE-29	347	OG0000086	K11688	C4-dicarboxylate-binding protein DctP	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	MiE-29_00969	-4
+OZ249405.1	871265	871804	+	MiE-29_00966	MiE-29	179	OG0001457	K11689	C4-dicarboxylate transporter, DctQ subunit	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	MiE-29_00969	-3
+OZ249405.1	871804	873111	+	MiE-29_00967	MiE-29	435	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	MiE-29_00969	-2
+OZ249405.1	873124	873897	+	MiE-29_00968	MiE-29	257	OG0001132	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	MiE-29_00969	-1
+OZ249405.1	873899	874813	-	MiE-29_00969	MiE-29	304	OG0002773	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	MiE-29_00969	0
+OZ249405.1	874826	876112	-	MiE-29_00970	MiE-29	428	OG0000687	NA	NA	COG1196	Smc	Chromosome segregation ATPase Smc	MiE-29_00969	1
+OZ249405.1	876195	877067	-	MiE-29_00971	MiE-29	290	OG0000738	NA	NA	COG0329	DapA	4-hydroxy-tetrahydrodipicolinate synthase/N-acetylneuraminate lyase	MiE-29_00969	2
+OZ249405.1	877137	878090	+	MiE-29_00972	MiE-29	317	OG0000023	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	MiE-29_00969	3
+OZ249405.1	878092	879108	+	MiE-29_00973	MiE-29	338	OG0001193	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	MiE-29_00969	4
+OZ249405.1	879100	879882	-	MiE-29_00974	MiE-29	260	OG0001565	NA	NA	COG2982	AsmA	Outer membrane assembly factor AsmA	MiE-29_00969	5

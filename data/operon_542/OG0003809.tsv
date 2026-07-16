@@ -1,0 +1,23 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CACIPQ010000010.1	15385	16149	-	AG-439-C08_00986	AG-439-C08	254	OG0001107	K02510	4-hydroxy-2-oxoheptanedioate aldolase [EC:4.1.2.52]	COG3836	HpcH	2-keto-3-deoxy-L-rhamnonate aldolase RhmA	AG-439-C08_00991	-5
+CACIPQ010000010.1	16153	17256	-	AG-439-C08_00987	AG-439-C08	367	OG0000977	NA	NA	COG4948	RspA	L-alanine-DL-glutamate epimerase or related enzyme of enolase superfamily	AG-439-C08_00991	-4
+CACIPQ010000010.1	17257	18114	-	AG-439-C08_00988	AG-439-C08	285	OG0002389	K18981	uronate dehydrogenase [EC:1.1.1.203]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-439-C08_00991	-3
+CACIPQ010000010.1	18114	19376	-	AG-439-C08_00989	AG-439-C08	420	OG0000052	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-439-C08_00991	-2
+CACIPQ010000010.1	19376	19891	-	AG-439-C08_00990	AG-439-C08	171	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-439-C08_00991	-1
+CACIPQ010000010.1	19954	21111	+	AG-439-C08_00991	AG-439-C08	385	OG0003809	NA	NA	COG0006	PepP	Xaa-Pro aminopeptidase	AG-439-C08_00991	0
+CACIPQ010000010.1	21205	22176	+	AG-439-C08_00992	AG-439-C08	323	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-439-C08_00991	1
+CACIPQ010000010.1	22238	22606	+	AG-439-C08_00993	AG-439-C08	122	OG0000170	NA	NA	COG1846	MarR	DNA-binding transcriptional regulator, MarR family	AG-439-C08_00991	2
+CACIPQ010000010.1	22646	23515	+	AG-439-C08_00994	AG-439-C08	289	OG0000005	K00042	2-hydroxy-3-oxopropionate reductase [EC:1.1.1.60]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	AG-439-C08_00991	3
+CACIPQ010000010.1	23519	24130	+	AG-439-C08_00995	AG-439-C08	203	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-439-C08_00991	4
+CACIPQ010000010.1	24131	24634	-	AG-439-C08_00996	AG-439-C08	167	OG0000407	K01726	gamma-carbonic anhydrase [EC:4.2.1.-]	COG0663	PaaY	Carbonic anhydrase or acetyltransferase, isoleucine patch superfamily	AG-439-C08_00991	5
+OZ249405.1	320303	321076	-	MiE-29_00369	MiE-29	257	OG0001107	K02510	4-hydroxy-2-oxoheptanedioate aldolase [EC:4.1.2.52]	COG3836	HpcH	2-keto-3-deoxy-L-rhamnonate aldolase RhmA	MiE-29_00374	-5
+OZ249405.1	321080	322189	-	MiE-29_00370	MiE-29	369	OG0000977	NA	NA	COG4948	RspA	L-alanine-DL-glutamate epimerase or related enzyme of enolase superfamily	MiE-29_00374	-4
+OZ249405.1	322193	322993	-	MiE-29_00371	MiE-29	266	OG0002389	K18981	uronate dehydrogenase [EC:1.1.1.203]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	MiE-29_00374	-3
+OZ249405.1	323042	324307	-	MiE-29_00372	MiE-29	421	NA	K11690	C4-dicarboxylate transporter, DctM subunit	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	MiE-29_00374	-2
+OZ249405.1	324314	324817	-	MiE-29_00373	MiE-29	167	NA	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	MiE-29_00374	-1
+OZ249405.1	324872	326035	+	MiE-29_00374	MiE-29	387	OG0003809	NA	NA	COG0006	PepP	Xaa-Pro aminopeptidase	MiE-29_00374	0
+OZ249405.1	326113	327090	+	MiE-29_00375	MiE-29	325	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	MiE-29_00374	1
+OZ249405.1	327153	327515	+	MiE-29_00376	MiE-29	120	OG0000170	NA	NA	NA	NA	NA	MiE-29_00374	2
+OZ249405.1	327943	329211	+	MiE-29_00378	MiE-29	422	OG0002866	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	MiE-29_00374	3
+OZ249405.1	329318	330022	-	MiE-29_00379	MiE-29	234	OG0001361	NA	NA	COG3637	LomR	Opacity protein LomR and related surface antigens	MiE-29_00374	4
+OZ249405.1	330193	330570	+	MiE-29_00380	MiE-29	125	OG0001472	NA	NA	NA	NA	NA	MiE-29_00374	5

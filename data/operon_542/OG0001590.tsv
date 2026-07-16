@@ -1,0 +1,656 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CVSF01000067.1	37219	37539	+	AAA795-D22_00881	AAA795-D22	106	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	AAA795-D22_00886	-5
+CVSF01000067.1	37540	38559	+	AAA795-D22_00882	AAA795-D22	339	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	AAA795-D22_00886	-4
+CVSF01000067.1	38552	39178	+	AAA795-D22_00883	AAA795-D22	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	AAA795-D22_00886	-3
+CVSF01000067.1	39179	40006	-	AAA795-D22_00884	AAA795-D22	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AAA795-D22_00886	-2
+CVSF01000067.1	40023	40811	+	AAA795-D22_00885	AAA795-D22	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AAA795-D22_00886	-1
+CVSF01000067.1	40906	41751	+	AAA795-D22_00886	AAA795-D22	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AAA795-D22_00886	0
+CVSF01000067.1	41825	42496	+	AAA795-D22_00887	AAA795-D22	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AAA795-D22_00886	1
+CVSF01000067.1	42500	43177	+	AAA795-D22_00888	AAA795-D22	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AAA795-D22_00886	2
+CVSF01000067.1	43181	43972	+	AAA795-D22_00889	AAA795-D22	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AAA795-D22_00886	3
+CVSF01000067.1	44191	44691	-	AAA795-D22_00890	AAA795-D22	166	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	AAA795-D22_00886	4
+CVSF01000067.1	44771	46159	+	AAA795-D22_00891	AAA795-D22	462	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AAA795-D22_00886	5
+CABYCY010000002.1	8769	9644	+	AG-333-A04_00185	AG-333-A04	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-333-A04_00190	-5
+CABYCY010000002.1	9675	10979	+	AG-333-A04_00186	AG-333-A04	434	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	AG-333-A04_00190	-4
+CABYCY010000002.1	11002	11793	-	AG-333-A04_00187	AG-333-A04	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-333-A04_00190	-3
+CABYCY010000002.1	11797	12474	-	AG-333-A04_00188	AG-333-A04	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-333-A04_00190	-2
+CABYCY010000002.1	12478	13149	-	AG-333-A04_00189	AG-333-A04	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-333-A04_00190	-1
+CABYCY010000002.1	13222	14067	-	AG-333-A04_00190	AG-333-A04	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-333-A04_00190	0
+CABYCY010000002.1	14173	14958	-	AG-333-A04_00191	AG-333-A04	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-333-A04_00190	1
+CABYCY010000002.1	14977	15804	+	AG-333-A04_00192	AG-333-A04	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-333-A04_00190	2
+CABYCY010000002.1	15809	16819	+	AG-333-A04_00193	AG-333-A04	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-333-A04_00190	3
+CABYCY010000002.1	16816	17907	+	AG-333-A04_00194	AG-333-A04	363	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-333-A04_00190	4
+CABYCY010000002.1	17963	19330	-	AG-333-A04_00195	AG-333-A04	455	OG0001917	NA	NA	COG4758	LiaF	Membrane protein LiaF, inhibitor of the LiaRS two-component envelope stress sensory system	AG-333-A04_00190	5
+CACDMX010000003.1	100906	102486	+	AG-365-O14_00485	AG-365-O14	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-365-O14_00490	-5
+CACDMX010000003.1	102495	103064	-	AG-365-O14_00486	AG-365-O14	189	OG0001145	NA	NA	NA	NA	NA	AG-365-O14_00490	-4
+CACDMX010000003.1	103141	103932	-	AG-365-O14_00487	AG-365-O14	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-365-O14_00490	-3
+CACDMX010000003.1	103945	104622	-	AG-365-O14_00488	AG-365-O14	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-365-O14_00490	-2
+CACDMX010000003.1	104627	105298	-	AG-365-O14_00489	AG-365-O14	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-365-O14_00490	-1
+CACDMX010000003.1	105375	106223	-	AG-365-O14_00490	AG-365-O14	282	OG0001590	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-365-O14_00490	0
+CACDMX010000003.1	106331	107107	-	AG-365-O14_00491	AG-365-O14	258	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-365-O14_00490	1
+CACDMX010000003.1	107155	108126	+	AG-365-O14_00492	AG-365-O14	323	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-365-O14_00490	2
+CACDMX010000003.1	108127	109095	+	AG-365-O14_00493	AG-365-O14	322	OG0001299	NA	NA	COG3491	PcbC	Isopenicillin N synthase and related dioxygenases	AG-365-O14_00490	3
+CACDMX010000003.1	109199	110365	+	AG-365-O14_00494	AG-365-O14	388	OG0001155	NA	NA	COG2141	SsuD	Flavin-dependent oxidoreductase, luciferase family (includes alkanesulfonate monooxygenase SsuD and methylene tetrahydromethanopterin reductase)	AG-365-O14_00490	4
+CACDMX010000003.1	110369	110956	+	AG-365-O14_00495	AG-365-O14	195	OG0001199	NA	NA	NA	NA	NA	AG-365-O14_00490	5
+CACDYK010000001.1	172747	173376	+	AG-390-G11_00181	AG-390-G11	209	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	AG-390-G11_00186	-5
+CACDYK010000001.1	173373	174446	-	AG-390-G11_00182	AG-390-G11	357	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-390-G11_00186	-4
+CACDYK010000001.1	174443	175453	-	AG-390-G11_00183	AG-390-G11	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-390-G11_00186	-3
+CACDYK010000001.1	175457	176284	-	AG-390-G11_00184	AG-390-G11	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-390-G11_00186	-2
+CACDYK010000001.1	176304	177089	+	AG-390-G11_00185	AG-390-G11	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-390-G11_00186	-1
+CACDYK010000001.1	177192	178037	+	AG-390-G11_00186	AG-390-G11	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-390-G11_00186	0
+CACDYK010000001.1	178112	178783	+	AG-390-G11_00187	AG-390-G11	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-390-G11_00186	1
+CACDYK010000001.1	178785	179471	+	AG-390-G11_00188	AG-390-G11	228	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-390-G11_00186	2
+CACDYK010000001.1	179473	180261	+	AG-390-G11_00189	AG-390-G11	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-390-G11_00186	3
+CACDYK010000001.1	180495	181016	-	AG-390-G11_00190	AG-390-G11	173	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	AG-390-G11_00186	4
+CACDYK010000001.1	181095	182417	+	AG-390-G11_00191	AG-390-G11	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-390-G11_00186	5
+CACDYL010000002.1	14662	15489	+	AG-390-G13_00135	AG-390-G13	275	OG0000978	K10018	octopine/nopaline transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-390-G13_00140	-5
+CACDYL010000002.1	15534	16226	+	AG-390-G13_00136	AG-390-G13	230	OG0000979	K10020	octopine/nopaline transport system permease protein	COG4215	ArtQ	ABC-type arginine transport system, permease component	AG-390-G13_00140	-4
+CACDYL010000002.1	16241	16903	+	AG-390-G13_00137	AG-390-G13	220	OG0000101	K02029	polar amino acid transport system permease protein	COG4160	ArtM	ABC-type arginine/histidine transport system, permease component	AG-390-G13_00140	-3
+CACDYL010000002.1	16900	17727	+	AG-390-G13_00138	AG-390-G13	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-390-G13_00140	-2
+CACDYL010000002.1	17731	18504	+	AG-390-G13_00139	AG-390-G13	257	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-390-G13_00140	-1
+CACDYL010000002.1	18631	19476	+	AG-390-G13_00140	AG-390-G13	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-390-G13_00140	0
+CACDYL010000002.1	19557	20228	+	AG-390-G13_00141	AG-390-G13	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-390-G13_00140	1
+CACDYL010000002.1	20233	20910	+	AG-390-G13_00142	AG-390-G13	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-390-G13_00140	2
+CACDYL010000002.1	20923	21714	+	AG-390-G13_00143	AG-390-G13	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-390-G13_00140	3
+CACDYL010000002.1	21711	22100	-	AG-390-G13_00144	AG-390-G13	129	OG0000745	NA	NA	NA	NA	NA	AG-390-G13_00140	4
+CACDYL010000002.1	22133	23065	+	AG-390-G13_00145	AG-390-G13	310	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-390-G13_00140	5
+CACEDD010000001.1	86701	88023	-	AG-390-L03_00087	AG-390-L03	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-390-L03_00092	-5
+CACEDD010000001.1	88102	88623	+	AG-390-L03_00088	AG-390-L03	173	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	AG-390-L03_00092	-4
+CACEDD010000001.1	88861	89649	-	AG-390-L03_00089	AG-390-L03	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-390-L03_00092	-3
+CACEDD010000001.1	89651	90337	-	AG-390-L03_00090	AG-390-L03	228	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-390-L03_00092	-2
+CACEDD010000001.1	90339	91010	-	AG-390-L03_00091	AG-390-L03	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-390-L03_00092	-1
+CACEDD010000001.1	91085	91930	-	AG-390-L03_00092	AG-390-L03	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-390-L03_00092	0
+CACEDD010000001.1	92033	92818	-	AG-390-L03_00093	AG-390-L03	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-390-L03_00092	1
+CACEDD010000001.1	92838	93665	+	AG-390-L03_00094	AG-390-L03	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-390-L03_00092	2
+CACEDD010000001.1	93669	94679	+	AG-390-L03_00095	AG-390-L03	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-390-L03_00092	3
+CACEDD010000001.1	94676	95749	+	AG-390-L03_00096	AG-390-L03	357	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-390-L03_00092	4
+CACEDD010000001.1	95746	96375	-	AG-390-L03_00097	AG-390-L03	209	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	AG-390-L03_00092	5
+CACEIL010000001.1	78946	79587	-	AG-390-O04_00089	AG-390-O04	213	OG0000720	K00945	CMP/dCMP kinase [EC:2.7.4.25]	COG0283	Cmk	Cytidylate kinase	AG-390-O04_00094	-5
+CACEIL010000001.1	80055	80570	+	AG-390-O04_00090	AG-390-O04	171	OG0001349	NA	NA	COG1196	Smc	Chromosome segregation ATPase Smc	AG-390-O04_00094	-4
+CACEIL010000001.1	80578	81366	-	AG-390-O04_00091	AG-390-O04	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-390-O04_00094	-3
+CACEIL010000001.1	81370	82056	-	AG-390-O04_00092	AG-390-O04	228	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-390-O04_00094	-2
+CACEIL010000001.1	82058	82729	-	AG-390-O04_00093	AG-390-O04	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-390-O04_00094	-1
+CACEIL010000001.1	82806	83648	-	AG-390-O04_00094	AG-390-O04	280	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-390-O04_00094	0
+CACEIL010000001.1	83746	84534	-	AG-390-O04_00095	AG-390-O04	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-390-O04_00094	1
+CACEIL010000001.1	84550	85377	+	AG-390-O04_00096	AG-390-O04	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-390-O04_00094	2
+CACEIL010000001.1	85628	88729	+	AG-390-O04_00097	AG-390-O04	1033	OG0001393	K03427	type I restriction enzyme M protein [EC:2.1.1.72]	COG0286	HsdM	Type I restriction-modification system, DNA methylase subunit	AG-390-O04_00094	3
+CACEIL010000001.1	88793	89020	+	AG-390-O04_00098	AG-390-O04	75	OG0001075	NA	NA	NA	NA	NA	AG-390-O04_00094	4
+CACEIL010000001.1	89027	90142	-	AG-390-O04_00099	AG-390-O04	371	OG0000943	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	AG-390-O04_00094	5
+CACFAF010000003.1	12199	13452	+	AG-404-O18_00297	AG-404-O18	417	OG0001259	K03750	molybdopterin molybdotransferase [EC:2.10.1.1]	COG0303	MoeA	Molybdopterin Mo-transferase (molybdopterin biosynthesis)	AG-404-O18_00302	-5
+CACFAF010000003.1	13507	14415	+	AG-404-O18_00298	AG-404-O18	302	OG0000934	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-404-O18_00302	-4
+CACFAF010000003.1	14433	15548	+	AG-404-O18_00299	AG-404-O18	371	OG0000943	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	AG-404-O18_00302	-3
+CACFAF010000003.1	15572	15799	-	AG-404-O18_00300	AG-404-O18	75	OG0001075	NA	NA	NA	NA	NA	AG-404-O18_00302	-2
+CACFAF010000003.1	15849	16628	+	AG-404-O18_00301	AG-404-O18	259	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-404-O18_00302	-1
+CACFAF010000003.1	16731	17576	+	AG-404-O18_00302	AG-404-O18	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-404-O18_00302	0
+CACFAF010000003.1	17656	18327	+	AG-404-O18_00303	AG-404-O18	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-404-O18_00302	1
+CACFAF010000003.1	18332	19018	+	AG-404-O18_00304	AG-404-O18	228	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-404-O18_00302	2
+CACFAF010000003.1	19022	19813	+	AG-404-O18_00305	AG-404-O18	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-404-O18_00302	3
+CACFAF010000003.1	19806	21098	-	AG-404-O18_00306	AG-404-O18	430	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	AG-404-O18_00302	4
+CACFAF010000003.1	21155	22015	-	AG-404-O18_00307	AG-404-O18	286	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-404-O18_00302	5
+CACFLX010000007.1	70004	71437	-	AG-414-B08_00822	AG-414-B08	477	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-414-B08_00827	-5
+CACFLX010000007.1	71452	72411	-	AG-414-B08_00823	AG-414-B08	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	AG-414-B08_00827	-4
+CACFLX010000007.1	72443	73231	-	AG-414-B08_00824	AG-414-B08	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-414-B08_00827	-3
+CACFLX010000007.1	73234	73908	-	AG-414-B08_00825	AG-414-B08	224	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-414-B08_00827	-2
+CACFLX010000007.1	73921	74583	-	AG-414-B08_00826	AG-414-B08	220	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-414-B08_00827	-1
+CACFLX010000007.1	74660	75505	-	AG-414-B08_00827	AG-414-B08	281	OG0001590	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-414-B08_00827	0
+CACFLX010000007.1	75620	76399	-	AG-414-B08_00828	AG-414-B08	259	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-414-B08_00827	1
+CACFLX010000007.1	76404	77231	-	AG-414-B08_00829	AG-414-B08	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-414-B08_00827	2
+CACFLX010000007.1	77233	78069	-	AG-414-B08_00830	AG-414-B08	278	OG0000071	NA	NA	COG1024	CaiD	Enoyl-CoA hydratase/carnithine racemase	AG-414-B08_00827	3
+CACGTJ010000006.1	40137	41393	+	AG-426-C04_00564	AG-426-C04	418	OG0000747	K02054	putative spermidine/putrescine transport system permease protein	COG1176	PotB	ABC-type spermidine/putrescine transport system, permease component I	AG-426-C04_00569	-5
+CACGTJ010000006.1	41396	42277	+	AG-426-C04_00565	AG-426-C04	293	OG0000002	K02053	putative spermidine/putrescine transport system permease protein	COG1177	PotC	ABC-type spermidine/putrescine transport system, permease component II	AG-426-C04_00569	-4
+CACGTJ010000006.1	42324	44552	+	AG-426-C04_00566	AG-426-C04	742	OG0000071	K07516	3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35]	COG1250	FadB	3-hydroxyacyl-CoA dehydrogenase	AG-426-C04_00569	-3
+CACGTJ010000006.1	44554	45381	+	AG-426-C04_00567	AG-426-C04	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-426-C04_00569	-2
+CACGTJ010000006.1	45386	46165	+	AG-426-C04_00568	AG-426-C04	259	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-426-C04_00569	-1
+CACGTJ010000006.1	46280	47125	+	AG-426-C04_00569	AG-426-C04	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-426-C04_00569	0
+CACGTJ010000006.1	47201	47863	+	AG-426-C04_00570	AG-426-C04	220	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-426-C04_00569	1
+CACGTJ010000006.1	47873	48550	+	AG-426-C04_00571	AG-426-C04	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-426-C04_00569	2
+CACGTJ010000006.1	48550	49338	+	AG-426-C04_00572	AG-426-C04	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-426-C04_00569	3
+CACGTJ010000006.1	49363	49545	+	AG-426-C04_00573	AG-426-C04	60	OG0002884	NA	NA	NA	NA	NA	AG-426-C04_00569	4
+CACGTJ010000006.1	49508	50512	+	AG-426-C04_00574	AG-426-C04	334	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	AG-426-C04_00569	5
+CACHFM010000002.1	52442	52669	-	AG-430-A11_00281	AG-430-A11	75	OG0001075	NA	NA	NA	NA	NA	AG-430-A11_00286	-5
+CACHFM010000002.1	52773	53630	+	AG-430-A11_00282	AG-430-A11	285	OG0003438	NA	NA	NA	NA	NA	AG-430-A11_00286	-4
+CACHFM010000002.1	53620	54609	+	AG-430-A11_00283	AG-430-A11	329	OG0000141	NA	NA	COG0863	YhdJ	DNA modification adenine methylase	AG-430-A11_00286	-3
+CACHFM010000002.1	54649	55476	-	AG-430-A11_00284	AG-430-A11	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-430-A11_00286	-2
+CACHFM010000002.1	55496	56281	+	AG-430-A11_00285	AG-430-A11	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-430-A11_00286	-1
+CACHFM010000002.1	56385	57230	+	AG-430-A11_00286	AG-430-A11	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-430-A11_00286	0
+CACHFM010000002.1	57303	57974	+	AG-430-A11_00287	AG-430-A11	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-430-A11_00286	1
+CACHFM010000002.1	57976	58662	+	AG-430-A11_00288	AG-430-A11	228	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-430-A11_00286	2
+CACHFM010000002.1	58666	59454	+	AG-430-A11_00289	AG-430-A11	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-430-A11_00286	3
+CACHFM010000002.1	59451	60758	-	AG-430-A11_00290	AG-430-A11	435	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	AG-430-A11_00286	4
+CACHFM010000002.1	60802	61662	-	AG-430-A11_00291	AG-430-A11	286	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-430-A11_00286	5
+CACHVT010000005.1	26885	27421	+	AG-430-K07_00502	AG-430-K07	178	OG0000612	NA	NA	COG4341	NA	Predicted HD phosphohydrolase	AG-430-K07_00507	-5
+CACHVT010000005.1	27418	28998	+	AG-430-K07_00503	AG-430-K07	526	OG0000054	K00108	choline dehydrogenase [EC:1.1.99.1]	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-430-K07_00507	-4
+CACHVT010000005.1	28995	29786	-	AG-430-K07_00504	AG-430-K07	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-430-K07_00507	-3
+CACHVT010000005.1	29799	30476	-	AG-430-K07_00505	AG-430-K07	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-430-K07_00507	-2
+CACHVT010000005.1	30481	31152	-	AG-430-K07_00506	AG-430-K07	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-430-K07_00507	-1
+CACHVT010000005.1	31231	32076	-	AG-430-K07_00507	AG-430-K07	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-430-K07_00507	0
+CACHVT010000005.1	32184	32960	-	AG-430-K07_00508	AG-430-K07	258	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-430-K07_00507	1
+CACHVT010000005.1	33008	33979	+	AG-430-K07_00509	AG-430-K07	323	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-430-K07_00507	2
+CACHVT010000005.1	33980	34948	+	AG-430-K07_00510	AG-430-K07	322	OG0001299	NA	NA	COG3491	PcbC	Isopenicillin N synthase and related dioxygenases	AG-430-K07_00507	3
+CACHVT010000005.1	35050	36216	+	AG-430-K07_00511	AG-430-K07	388	OG0001155	NA	NA	COG2141	SsuD	Flavin-dependent oxidoreductase, luciferase family (includes alkanesulfonate monooxygenase SsuD and methylene tetrahydromethanopterin reductase)	AG-430-K07_00507	4
+CACHVT010000005.1	36220	36807	+	AG-430-K07_00512	AG-430-K07	195	OG0001199	NA	NA	NA	NA	NA	AG-430-K07_00507	5
+CACPJJ010000032.1	261	1220	-	AG-439-B12_01183	AG-439-B12	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	AG-439-B12_01187	-4
+CACPJJ010000032.1	1252	2040	-	AG-439-B12_01184	AG-439-B12	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-439-B12_01187	-3
+CACPJJ010000032.1	2040	2717	-	AG-439-B12_01185	AG-439-B12	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-439-B12_01187	-2
+CACPJJ010000032.1	2730	3392	-	AG-439-B12_01186	AG-439-B12	220	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-439-B12_01187	-1
+CACPJJ010000032.1	3469	3810	-	AG-439-B12_01187	AG-439-B12	113	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-439-B12_01187	0
+CACIRD010000001.1	125357	126184	+	AG-439-C18_00142	AG-439-C18	275	OG0000978	K10018	octopine/nopaline transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-439-C18_00147	-5
+CACIRD010000001.1	126229	126921	+	AG-439-C18_00143	AG-439-C18	230	OG0000979	K10020	octopine/nopaline transport system permease protein	COG4215	ArtQ	ABC-type arginine transport system, permease component	AG-439-C18_00147	-4
+CACIRD010000001.1	126936	127595	+	AG-439-C18_00144	AG-439-C18	219	OG0000101	K02029	polar amino acid transport system permease protein	COG4160	ArtM	ABC-type arginine/histidine transport system, permease component	AG-439-C18_00147	-3
+CACIRD010000001.1	127595	128422	+	AG-439-C18_00145	AG-439-C18	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-439-C18_00147	-2
+CACIRD010000001.1	128424	129200	+	AG-439-C18_00146	AG-439-C18	258	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-439-C18_00147	-1
+CACIRD010000001.1	129315	130160	+	AG-439-C18_00147	AG-439-C18	281	OG0001590	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-439-C18_00147	0
+CACIRD010000001.1	130226	130897	+	AG-439-C18_00148	AG-439-C18	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-439-C18_00147	1
+CACIRD010000001.1	130901	131578	+	AG-439-C18_00149	AG-439-C18	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-439-C18_00147	2
+CACIRD010000001.1	131585	132376	+	AG-439-C18_00150	AG-439-C18	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-439-C18_00147	3
+CACIRD010000001.1	132423	133538	+	AG-439-C18_00151	AG-439-C18	371	OG0003997	NA	NA	NA	NA	NA	AG-439-C18_00147	4
+CACIRD010000001.1	133541	133933	-	AG-439-C18_00152	AG-439-C18	130	OG0000745	NA	NA	NA	NA	NA	AG-439-C18_00147	5
+CACIUK010000011.1	5386	6645	+	AG-439-E23_00866	AG-439-E23	419	OG0000747	K02054	putative spermidine/putrescine transport system permease protein	COG1176	PotB	ABC-type spermidine/putrescine transport system, permease component I	AG-439-E23_00871	-5
+CACIUK010000011.1	6648	7529	+	AG-439-E23_00867	AG-439-E23	293	OG0000002	K02053	putative spermidine/putrescine transport system permease protein	COG1177	PotC	ABC-type spermidine/putrescine transport system, permease component II	AG-439-E23_00871	-4
+CACIUK010000011.1	7579	9801	+	AG-439-E23_00868	AG-439-E23	740	OG0000071	K07516	3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35]	COG1250	FadB	3-hydroxyacyl-CoA dehydrogenase	AG-439-E23_00871	-3
+CACIUK010000011.1	9803	10630	+	AG-439-E23_00869	AG-439-E23	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-439-E23_00871	-2
+CACIUK010000011.1	10635	11414	+	AG-439-E23_00870	AG-439-E23	259	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-439-E23_00871	-1
+CACIUK010000011.1	11529	12374	+	AG-439-E23_00871	AG-439-E23	281	OG0001590	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-439-E23_00871	0
+CACIUK010000011.1	12451	13113	+	AG-439-E23_00872	AG-439-E23	220	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-439-E23_00871	1
+CACIUK010000011.1	13126	13803	+	AG-439-E23_00873	AG-439-E23	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-439-E23_00871	2
+CACIUK010000011.1	13803	14591	+	AG-439-E23_00874	AG-439-E23	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-439-E23_00871	3
+CACIUK010000011.1	14623	15582	+	AG-439-E23_00875	AG-439-E23	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	AG-439-E23_00871	4
+CACIUK010000011.1	15597	17030	+	AG-439-E23_00876	AG-439-E23	477	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-439-E23_00871	5
+CACJIJ010000007.1	13860	14735	+	AG-447-E19_00423	AG-447-E19	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-447-E19_00428	-5
+CACJIJ010000007.1	14766	16076	+	AG-447-E19_00424	AG-447-E19	436	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	AG-447-E19_00428	-4
+CACJIJ010000007.1	16091	16879	-	AG-447-E19_00425	AG-447-E19	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-447-E19_00428	-3
+CACJIJ010000007.1	16883	17560	-	AG-447-E19_00426	AG-447-E19	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-447-E19_00428	-2
+CACJIJ010000007.1	17564	18151	-	AG-447-E19_00427	AG-447-E19	195	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-447-E19_00428	-1
+CACJIJ010000007.1	18307	19152	-	AG-447-E19_00428	AG-447-E19	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-447-E19_00428	0
+CACJIJ010000007.1	19250	20038	-	AG-447-E19_00429	AG-447-E19	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-447-E19_00428	1
+CACJIJ010000007.1	20058	20882	+	AG-447-E19_00430	AG-447-E19	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-447-E19_00428	2
+CACJIJ010000007.1	20887	21897	+	AG-447-E19_00431	AG-447-E19	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-447-E19_00428	3
+CACJIJ010000007.1	21894	22973	+	AG-447-E19_00432	AG-447-E19	359	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-447-E19_00428	4
+CACJIJ010000007.1	22976	23443	+	AG-447-E19_00433	AG-447-E19	155	OG0001628	NA	NA	NA	NA	NA	AG-447-E19_00428	5
+CACJNJ010000014.1	14665	15504	+	AG-447-K11_01118	AG-447-K11	279	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-447-K11_01123	-5
+CACJNJ010000014.1	15535	16848	+	AG-447-K11_01119	AG-447-K11	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	AG-447-K11_01123	-4
+CACJNJ010000014.1	16858	17646	-	AG-447-K11_01120	AG-447-K11	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-447-K11_01123	-3
+CACJNJ010000014.1	17650	18321	-	AG-447-K11_01121	AG-447-K11	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-447-K11_01123	-2
+CACJNJ010000014.1	18331	19002	-	AG-447-K11_01122	AG-447-K11	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-447-K11_01123	-1
+CACJNJ010000014.1	19074	19919	-	AG-447-K11_01123	AG-447-K11	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-447-K11_01123	0
+CACJNJ010000014.1	20018	20806	-	AG-447-K11_01124	AG-447-K11	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-447-K11_01123	1
+CACJNJ010000014.1	20826	21650	+	AG-447-K11_01125	AG-447-K11	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-447-K11_01123	2
+CACJNJ010000014.1	21655	22665	+	AG-447-K11_01126	AG-447-K11	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-447-K11_01123	3
+CACJNJ010000014.1	22662	23735	+	AG-447-K11_01127	AG-447-K11	357	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-447-K11_01123	4
+CACJNJ010000014.1	24004	26004	+	AG-447-K11_01128	AG-447-K11	666	OG0000067	NA	NA	COG0265	DegQ	Periplasmic serine protease DegP/DegQ, contain C-terminal PDZ domain	AG-447-K11_01123	5
+CACPOX010000032.1	3	848	+	AG-447-L10_01170	AG-447-L10	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-447-L10_01170	0
+CACPOX010000032.1	921	1592	+	AG-447-L10_01171	AG-447-L10	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-447-L10_01170	1
+CACPOX010000032.1	1596	2273	+	AG-447-L10_01172	AG-447-L10	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-447-L10_01170	2
+CACPOX010000032.1	2277	3068	+	AG-447-L10_01173	AG-447-L10	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-447-L10_01170	3
+CACPOX010000032.1	3065	4366	-	AG-447-L10_01174	AG-447-L10	433	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	AG-447-L10_01170	4
+CACPOX010000032.1	4421	5227	-	AG-447-L10_01175	AG-447-L10	268	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-447-L10_01170	5
+CACJQI010000002.1	81788	83110	-	AG-447-M05_00325	AG-447-M05	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-447-M05_00330	-5
+CACJQI010000002.1	83189	83731	+	AG-447-M05_00326	AG-447-M05	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	AG-447-M05_00330	-4
+CACJQI010000002.1	83746	84534	-	AG-447-M05_00327	AG-447-M05	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-447-M05_00330	-3
+CACJQI010000002.1	84536	85222	-	AG-447-M05_00328	AG-447-M05	228	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-447-M05_00330	-2
+CACJQI010000002.1	85224	85895	-	AG-447-M05_00329	AG-447-M05	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-447-M05_00330	-1
+CACJQI010000002.1	85967	86812	-	AG-447-M05_00330	AG-447-M05	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-447-M05_00330	0
+CACJQI010000002.1	86915	87700	-	AG-447-M05_00331	AG-447-M05	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-447-M05_00330	1
+CACJQI010000002.1	87720	88547	+	AG-447-M05_00332	AG-447-M05	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-447-M05_00330	2
+CACJQI010000002.1	88765	89391	-	AG-447-M05_00333	AG-447-M05	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	AG-447-M05_00330	3
+CACJQI010000002.1	89388	90404	-	AG-447-M05_00334	AG-447-M05	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	AG-447-M05_00330	4
+CACJQI010000002.1	90405	90725	-	AG-447-M05_00335	AG-447-M05	106	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	AG-447-M05_00330	5
+CACPPS010000003.1	49458	50321	+	AG-447-N21_00356	AG-447-N21	287	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-447-N21_00361	-5
+CACPPS010000003.1	50372	51685	+	AG-447-N21_00357	AG-447-N21	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	AG-447-N21_00361	-4
+CACPPS010000003.1	51682	52473	-	AG-447-N21_00358	AG-447-N21	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-447-N21_00361	-3
+CACPPS010000003.1	52486	53163	-	AG-447-N21_00359	AG-447-N21	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-447-N21_00361	-2
+CACPPS010000003.1	53168	53839	-	AG-447-N21_00360	AG-447-N21	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-447-N21_00361	-1
+CACPPS010000003.1	53921	54766	-	AG-447-N21_00361	AG-447-N21	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-447-N21_00361	0
+CACPPS010000003.1	54863	55654	-	AG-447-N21_00362	AG-447-N21	263	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-447-N21_00361	1
+CACPPS010000003.1	55737	56396	+	AG-447-N21_00363	AG-447-N21	219	OG0000030	K17290	oxidoreductase [EC:1.1.1.-]	COG0702	YbjT	Uncharacterized conserved protein YbjT, contains NAD(P)-binding and DUF2867 domains	AG-447-N21_00361	2
+CACPPS010000003.1	56389	56505	+	AG-447-N21_00364	AG-447-N21	38	OG0001157	NA	NA	NA	NA	NA	AG-447-N21_00361	3
+CACPPS010000003.1	56509	57534	-	AG-447-N21_00365	AG-447-N21	341	OG0000025	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-447-N21_00361	4
+CACPPS010000003.1	57833	59554	+	AG-447-N21_00366	AG-447-N21	573	NA	NA	NA	COG4642	NA	Uncharacterized conserved protein, contains MORN repeats	AG-447-N21_00361	5
+CACLZL010000001.1	162157	162312	-	AG-891-A05_00167	AG-891-A05	51	OG0003228	NA	NA	NA	NA	NA	AG-891-A05_00172	-5
+CACLZL010000001.1	162343	163413	-	AG-891-A05_00168	AG-891-A05	356	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-891-A05_00172	-4
+CACLZL010000001.1	163410	164420	-	AG-891-A05_00169	AG-891-A05	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-891-A05_00172	-3
+CACLZL010000001.1	164425	165249	-	AG-891-A05_00170	AG-891-A05	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-891-A05_00172	-2
+CACLZL010000001.1	165268	166056	+	AG-891-A05_00171	AG-891-A05	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-891-A05_00172	-1
+CACLZL010000001.1	166154	166999	+	AG-891-A05_00172	AG-891-A05	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-891-A05_00172	0
+CACLZL010000001.1	167155	167742	+	AG-891-A05_00173	AG-891-A05	195	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-891-A05_00172	1
+CACLZL010000001.1	167746	168423	+	AG-891-A05_00174	AG-891-A05	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-891-A05_00172	2
+CACLZL010000001.1	168427	169215	+	AG-891-A05_00175	AG-891-A05	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-891-A05_00172	3
+CACLZL010000001.1	169230	170543	-	AG-891-A05_00176	AG-891-A05	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	AG-891-A05_00172	4
+CACLZL010000001.1	170575	171450	-	AG-891-A05_00177	AG-891-A05	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-891-A05_00172	5
+CACMGO010000005.1	82624	83463	+	AG-891-G02_00818	AG-891-G02	279	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-891-G02_00823	-5
+CACMGO010000005.1	83493	84806	+	AG-891-G02_00819	AG-891-G02	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	AG-891-G02_00823	-4
+CACMGO010000005.1	84816	85604	-	AG-891-G02_00820	AG-891-G02	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-891-G02_00823	-3
+CACMGO010000005.1	85608	86285	-	AG-891-G02_00821	AG-891-G02	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-891-G02_00823	-2
+CACMGO010000005.1	86289	86960	-	AG-891-G02_00822	AG-891-G02	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-891-G02_00823	-1
+CACMGO010000005.1	87032	87877	-	AG-891-G02_00823	AG-891-G02	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-891-G02_00823	0
+CACMGO010000005.1	87977	88765	-	AG-891-G02_00824	AG-891-G02	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-891-G02_00823	1
+CACMGO010000005.1	88785	89609	+	AG-891-G02_00825	AG-891-G02	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-891-G02_00823	2
+CACMGO010000005.1	89614	90624	+	AG-891-G02_00826	AG-891-G02	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-891-G02_00823	3
+CACMGO010000005.1	90621	91697	+	AG-891-G02_00827	AG-891-G02	358	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-891-G02_00823	4
+CACMIH010000006.1	14600	15619	+	AG-891-I18_01052	AG-891-I18	339	OG0001202	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	AG-891-I18_01057	-5
+CACMIH010000006.1	15619	16485	+	AG-891-I18_01053	AG-891-I18	288	OG0001160	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	AG-891-I18_01057	-4
+CACMIH010000006.1	16497	17285	-	AG-891-I18_01054	AG-891-I18	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-891-I18_01057	-3
+CACMIH010000006.1	17289	17966	-	AG-891-I18_01055	AG-891-I18	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-891-I18_01057	-2
+CACMIH010000006.1	17970	18641	-	AG-891-I18_01056	AG-891-I18	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-891-I18_01057	-1
+CACMIH010000006.1	18711	19556	-	AG-891-I18_01057	AG-891-I18	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-891-I18_01057	0
+CACMIH010000006.1	19657	20445	-	AG-891-I18_01058	AG-891-I18	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-891-I18_01057	1
+CACMIH010000006.1	20464	21291	+	AG-891-I18_01059	AG-891-I18	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-891-I18_01057	2
+CACMIH010000006.1	21296	22306	+	AG-891-I18_01060	AG-891-I18	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-891-I18_01057	3
+CACMIH010000006.1	22303	23382	+	AG-891-I18_01061	AG-891-I18	359	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-891-I18_01057	4
+CACMIH010000006.1	23385	23852	+	AG-891-I18_01062	AG-891-I18	155	OG0001628	NA	NA	NA	NA	NA	AG-891-I18_01057	5
+CACMRC010000012.1	8949	9416	-	AG-892-A22_01235	AG-892-A22	155	OG0001628	NA	NA	NA	NA	NA	AG-892-A22_01240	-5
+CACMRC010000012.1	9419	10498	-	AG-892-A22_01236	AG-892-A22	359	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-892-A22_01240	-4
+CACMRC010000012.1	10495	11505	-	AG-892-A22_01237	AG-892-A22	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-892-A22_01240	-3
+CACMRC010000012.1	11510	12334	-	AG-892-A22_01238	AG-892-A22	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-892-A22_01240	-2
+CACMRC010000012.1	12354	13142	+	AG-892-A22_01239	AG-892-A22	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-892-A22_01240	-1
+CACMRC010000012.1	13243	14088	+	AG-892-A22_01240	AG-892-A22	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-892-A22_01240	0
+CACMRC010000012.1	14176	14829	+	AG-892-A22_01241	AG-892-A22	217	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-892-A22_01240	1
+CACMRC010000012.1	14833	15510	+	AG-892-A22_01242	AG-892-A22	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-892-A22_01240	2
+CACMRC010000012.1	15514	16302	+	AG-892-A22_01243	AG-892-A22	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-892-A22_01240	3
+CACMRC010000012.1	16311	16466	-	AG-892-A22_01244	AG-892-A22	51	OG0000850	NA	NA	NA	NA	NA	AG-892-A22_01240	4
+CABZAK010000002.1	57555	58508	-	AG-895-G15_00489	AG-895-G15	317	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	AG-895-G15_00494	-5
+CABZAK010000002.1	58516	58701	-	AG-895-G15_00490	AG-895-G15	61	OG0002884	NA	NA	NA	NA	NA	AG-895-G15_00494	-4
+CABZAK010000002.1	58721	59512	-	AG-895-G15_00491	AG-895-G15	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AG-895-G15_00494	-3
+CABZAK010000002.1	59518	60195	-	AG-895-G15_00492	AG-895-G15	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-895-G15_00494	-2
+CABZAK010000002.1	60199	60870	-	AG-895-G15_00493	AG-895-G15	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AG-895-G15_00494	-1
+CABZAK010000002.1	60942	61787	-	AG-895-G15_00494	AG-895-G15	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-895-G15_00494	0
+CABZAK010000002.1	61890	62663	-	AG-895-G15_00495	AG-895-G15	257	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AG-895-G15_00494	1
+CABZAK010000002.1	62667	63494	-	AG-895-G15_00496	AG-895-G15	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-895-G15_00494	2
+CABZAK010000002.1	63495	65717	-	AG-895-G15_00497	AG-895-G15	740	OG0000071	K07516	3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35]	COG1250	FadB	3-hydroxyacyl-CoA dehydrogenase	AG-895-G15_00494	3
+CABZAK010000002.1	65756	66643	-	AG-895-G15_00498	AG-895-G15	295	OG0000002	K02053	putative spermidine/putrescine transport system permease protein	COG1177	PotC	ABC-type spermidine/putrescine transport system, permease component II	AG-895-G15_00494	4
+CABZAK010000002.1	66646	67902	-	AG-895-G15_00499	AG-895-G15	418	OG0000747	K02054	putative spermidine/putrescine transport system permease protein	COG1176	PotB	ABC-type spermidine/putrescine transport system, permease component I	AG-895-G15_00494	5
+CACORG010000006.1	38960	39799	+	AH-324-K09_00623	AH-324-K09	279	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AH-324-K09_00628	-5
+CACORG010000006.1	39831	41141	+	AH-324-K09_00624	AH-324-K09	436	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	AH-324-K09_00628	-4
+CACORG010000006.1	41159	41950	-	AH-324-K09_00625	AH-324-K09	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AH-324-K09_00628	-3
+CACORG010000006.1	41954	42625	-	AH-324-K09_00626	AH-324-K09	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AH-324-K09_00628	-2
+CACORG010000006.1	42635	43306	-	AH-324-K09_00627	AH-324-K09	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AH-324-K09_00628	-1
+CACORG010000006.1	43378	44235	-	AH-324-K09_00628	AH-324-K09	285	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AH-324-K09_00628	0
+CACORG010000006.1	44352	45137	-	AH-324-K09_00629	AH-324-K09	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AH-324-K09_00628	1
+CACORG010000006.1	45157	45981	+	AH-324-K09_00630	AH-324-K09	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AH-324-K09_00628	2
+CACORG010000006.1	45987	46997	+	AH-324-K09_00631	AH-324-K09	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	AH-324-K09_00628	3
+CACORG010000006.1	46994	48067	+	AH-324-K09_00632	AH-324-K09	357	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	AH-324-K09_00628	4
+CACORG010000006.1	48067	48627	+	AH-324-K09_00633	AH-324-K09	186	OG0001256	NA	NA	NA	NA	NA	AH-324-K09_00628	5
+CACOSU010000003.1	39827	40459	-	AH-324-N03_00444	AH-324-N03	210	OG0000720	K00945	CMP/dCMP kinase [EC:2.7.4.25]	COG0283	Cmk	Cytidylate kinase	AH-324-N03_00449	-5
+CACOSU010000003.1	40498	40944	-	AH-324-N03_00445	AH-324-N03	148	NA	NA	NA	COG2258	YiiM	N-hydroxylaminopurine reductase YiiM, contains MOSC domain	AH-324-N03_00449	-4
+CACOSU010000003.1	40950	41741	-	AH-324-N03_00446	AH-324-N03	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	AH-324-N03_00449	-3
+CACOSU010000003.1	41745	42422	-	AH-324-N03_00447	AH-324-N03	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AH-324-N03_00449	-2
+CACOSU010000003.1	42426	43097	-	AH-324-N03_00448	AH-324-N03	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	AH-324-N03_00449	-1
+CACOSU010000003.1	43168	44013	-	AH-324-N03_00449	AH-324-N03	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AH-324-N03_00449	0
+CACOSU010000003.1	44120	44908	-	AH-324-N03_00450	AH-324-N03	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	AH-324-N03_00449	1
+CACOSU010000003.1	44926	45750	+	AH-324-N03_00451	AH-324-N03	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AH-324-N03_00449	2
+CACOSU010000003.1	45752	46489	-	AH-324-N03_00452	AH-324-N03	245	OG0001840	K01004	phosphatidylcholine synthase [EC:2.7.8.24]	COG1183	PssA	Phosphatidylserine synthase	AH-324-N03_00449	3
+CACOSU010000003.1	46482	47159	-	AH-324-N03_00453	AH-324-N03	225	OG0001390	K17893	ubiquinol oxidase [EC:1.10.3.11]	NA	NA	NA	AH-324-N03_00449	4
+CACOSU010000003.1	47309	47611	+	AH-324-N03_00454	AH-324-N03	100	OG0001465	NA	NA	COG2329	HmoA	Heme-degrading monooxygenase HmoA and related ABM domain proteins	AH-324-N03_00449	5
+NZ_LAMZ01000001.1	490136	491011	+	HIMB140_00564	HIMB140	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB140_00569	-5
+NZ_LAMZ01000001.1	491043	492356	+	HIMB140_00565	HIMB140	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB140_00569	-4
+NZ_LAMZ01000001.1	492361	493149	-	HIMB140_00566	HIMB140	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB140_00569	-3
+NZ_LAMZ01000001.1	493153	493824	-	HIMB140_00567	HIMB140	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB140_00569	-2
+NZ_LAMZ01000001.1	493834	494505	-	HIMB140_00568	HIMB140	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB140_00569	-1
+NZ_LAMZ01000001.1	494577	495422	-	HIMB140_00569	HIMB140	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB140_00569	0
+NZ_LAMZ01000001.1	495520	496308	-	HIMB140_00570	HIMB140	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB140_00569	1
+NZ_LAMZ01000001.1	496327	497151	+	HIMB140_00571	HIMB140	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB140_00569	2
+NZ_LAMZ01000001.1	497156	497836	+	HIMB140_00572	HIMB140	226	OG0001371	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB140_00569	3
+NZ_LAMZ01000001.1	497863	499203	+	HIMB140_00573	HIMB140	446	OG0002000	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB140_00569	4
+NZ_LAMZ01000001.1	499206	500216	+	HIMB140_00574	HIMB140	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB140_00569	5
+HIMB1485-00000000002	633882	634892	-	HIMB1485_01149	HIMB1485	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1485_01154	-5
+HIMB1485-00000000002	634900	636606	-	HIMB1485_01150	HIMB1485	568	OG0001331	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	HIMB1485_01154	-4
+HIMB1485-00000000002	636634	637314	-	HIMB1485_01151	HIMB1485	226	OG0001371	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1485_01154	-3
+HIMB1485-00000000002	637319	638143	-	HIMB1485_01152	HIMB1485	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1485_01154	-2
+HIMB1485-00000000002	638162	638950	+	HIMB1485_01153	HIMB1485	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1485_01154	-1
+HIMB1485-00000000002	639048	639893	+	HIMB1485_01154	HIMB1485	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1485_01154	0
+HIMB1485-00000000002	639965	640636	+	HIMB1485_01155	HIMB1485	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1485_01154	1
+HIMB1485-00000000002	640646	641317	+	HIMB1485_01156	HIMB1485	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1485_01154	2
+HIMB1485-00000000002	641321	642109	+	HIMB1485_01157	HIMB1485	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1485_01154	3
+HIMB1485-00000000002	642114	643427	-	HIMB1485_01158	HIMB1485	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1485_01154	4
+HIMB1485-00000000002	643459	644298	-	HIMB1485_01159	HIMB1485	279	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1485_01154	5
+HIMB1488-00000000001	434142	435215	-	HIMB1488_00457	HIMB1488	357	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1488_00462	-5
+HIMB1488-00000000001	435212	436222	-	HIMB1488_00458	HIMB1488	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1488_00462	-4
+HIMB1488-00000000001	436225	437562	-	HIMB1488_00459	HIMB1488	445	OG0002000	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1488_00462	-3
+HIMB1488-00000000001	437567	438391	-	HIMB1488_00460	HIMB1488	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1488_00462	-2
+HIMB1488-00000000001	438410	439198	+	HIMB1488_00461	HIMB1488	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1488_00462	-1
+HIMB1488-00000000001	439297	440142	+	HIMB1488_00462	HIMB1488	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1488_00462	0
+HIMB1488-00000000001	440214	440885	+	HIMB1488_00463	HIMB1488	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1488_00462	1
+HIMB1488-00000000001	440889	441566	+	HIMB1488_00464	HIMB1488	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1488_00462	2
+HIMB1488-00000000001	441570	442358	+	HIMB1488_00465	HIMB1488	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1488_00462	3
+HIMB1488-00000000001	442363	443676	-	HIMB1488_00466	HIMB1488	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1488_00462	4
+HIMB1488-00000000001	443708	444583	-	HIMB1488_00467	HIMB1488	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1488_00462	5
+HIMB1492-00000000111	475	1263	+	HIMB1492_01013	HIMB1492	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1492_01014	-1
+HIMB1492-00000000111	1361	2206	+	HIMB1492_01014	HIMB1492	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1492_01014	0
+HIMB1492-00000000111	2278	2949	+	HIMB1492_01015	HIMB1492	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1492_01014	1
+HIMB1492-00000000111	2959	3630	+	HIMB1492_01016	HIMB1492	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1492_01014	2
+HIMB1493-00000000001	763618	764493	+	HIMB1493_00829	HIMB1493	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1493_00834	-5
+HIMB1493-00000000001	764525	765838	+	HIMB1493_00830	HIMB1493	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1493_00834	-4
+HIMB1493-00000000001	765843	766631	-	HIMB1493_00831	HIMB1493	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1493_00834	-3
+HIMB1493-00000000001	766635	767306	-	HIMB1493_00832	HIMB1493	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1493_00834	-2
+HIMB1493-00000000001	767316	767987	-	HIMB1493_00833	HIMB1493	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1493_00834	-1
+HIMB1493-00000000001	768059	768904	-	HIMB1493_00834	HIMB1493	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1493_00834	0
+HIMB1493-00000000001	769002	769790	-	HIMB1493_00835	HIMB1493	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1493_00834	1
+HIMB1493-00000000001	769809	770633	+	HIMB1493_00836	HIMB1493	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1493_00834	2
+HIMB1493-00000000001	770638	771648	+	HIMB1493_00837	HIMB1493	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1493_00834	3
+HIMB1493-00000000001	771645	772721	+	HIMB1493_00838	HIMB1493	358	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1493_00834	4
+HIMB1493-00000000001	772721	773548	+	HIMB1493_00839	HIMB1493	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1493_00834	5
+HIMB1505-00000000002	121055	122425	+	HIMB1505_01394	HIMB1505	456	OG0000119	K15785	L-2,4-diaminobutyrate transaminase [EC:2.6.1.76]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	HIMB1505_01399	-5
+HIMB1505-00000000002	122422	123417	-	HIMB1505_01395	HIMB1505	331	OG0002867	NA	NA	COG2423	OCDMu	Ornithine cyclodeaminase/archaeal alanine dehydrogenase, mu-crystallin family	HIMB1505_01399	-4
+HIMB1505-00000000002	123407	124408	-	HIMB1505_01396	HIMB1505	333	OG0000806	K01754	threonine dehydratase [EC:4.3.1.19]	COG1171	IlvA	Threonine deaminase	HIMB1505_01399	-3
+HIMB1505-00000000002	124471	125295	-	HIMB1505_01397	HIMB1505	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1505_01399	-2
+HIMB1505-00000000002	125314	126099	+	HIMB1505_01398	HIMB1505	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1505_01399	-1
+HIMB1505-00000000002	126183	127028	+	HIMB1505_01399	HIMB1505	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1505_01399	0
+HIMB1505-00000000002	127093	127764	+	HIMB1505_01400	HIMB1505	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1505_01399	1
+HIMB1505-00000000002	127768	128454	+	HIMB1505_01401	HIMB1505	228	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1505_01399	2
+HIMB1505-00000000002	128455	129240	+	HIMB1505_01402	HIMB1505	261	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1505_01399	3
+HIMB1505-00000000002	129241	129468	-	HIMB1505_01403	HIMB1505	75	OG0001075	NA	NA	NA	NA	NA	HIMB1505_01399	4
+HIMB1505-00000000002	129524	130183	-	HIMB1505_01404	HIMB1505	219	OG0002816	NA	NA	COG4725	IME4	N6-adenosine-specific RNA methylase, MT-A70 family	HIMB1505_01399	5
+HIMB1518-00000000001	919069	919944	+	HIMB1518_00984	HIMB1518	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1518_00989	-5
+HIMB1518-00000000001	919976	921289	+	HIMB1518_00985	HIMB1518	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1518_00989	-4
+HIMB1518-00000000001	921294	922082	-	HIMB1518_00986	HIMB1518	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1518_00989	-3
+HIMB1518-00000000001	922086	922757	-	HIMB1518_00987	HIMB1518	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1518_00989	-2
+HIMB1518-00000000001	922767	923438	-	HIMB1518_00988	HIMB1518	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1518_00989	-1
+HIMB1518-00000000001	923510	924355	-	HIMB1518_00989	HIMB1518	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1518_00989	0
+HIMB1518-00000000001	924453	925241	-	HIMB1518_00990	HIMB1518	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1518_00989	1
+HIMB1518-00000000001	925260	926084	+	HIMB1518_00991	HIMB1518	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1518_00989	2
+HIMB1518-00000000001	926089	927099	+	HIMB1518_00992	HIMB1518	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1518_00989	3
+HIMB1518-00000000001	927096	928172	+	HIMB1518_00993	HIMB1518	358	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1518_00989	4
+HIMB1518-00000000001	928172	928999	+	HIMB1518_00994	HIMB1518	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1518_00989	5
+HIMB1520-00000000001	534253	535641	-	HIMB1520_00612	HIMB1520	462	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HIMB1520_00617	-5
+HIMB1520-00000000001	535724	536275	+	HIMB1520_00613	HIMB1520	183	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HIMB1520_00617	-4
+HIMB1520-00000000001	536276	537067	-	HIMB1520_00614	HIMB1520	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1520_00617	-3
+HIMB1520-00000000001	537071	537748	-	HIMB1520_00615	HIMB1520	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1520_00617	-2
+HIMB1520-00000000001	537751	538458	-	HIMB1520_00616	HIMB1520	235	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1520_00617	-1
+HIMB1520-00000000001	538497	539339	-	HIMB1520_00617	HIMB1520	280	OG0001590	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1520_00617	0
+HIMB1520-00000000001	539496	540281	-	HIMB1520_00618	HIMB1520	261	NA	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1520_00617	1
+HIMB1520-00000000001	540299	541126	+	HIMB1520_00619	HIMB1520	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1520_00617	2
+HIMB1520-00000000001	541127	541753	-	HIMB1520_00620	HIMB1520	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HIMB1520_00617	3
+HIMB1520-00000000001	541746	542768	-	HIMB1520_00621	HIMB1520	340	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	HIMB1520_00617	4
+HIMB1520-00000000001	542768	543088	-	HIMB1520_00622	HIMB1520	106	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	HIMB1520_00617	5
+HIMB1542-00000000001	784080	784955	+	HIMB1542_00863	HIMB1542	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1542_00868	-5
+HIMB1542-00000000001	784987	786300	+	HIMB1542_00864	HIMB1542	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1542_00868	-4
+HIMB1542-00000000001	786305	787093	-	HIMB1542_00865	HIMB1542	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1542_00868	-3
+HIMB1542-00000000001	787097	787774	-	HIMB1542_00866	HIMB1542	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1542_00868	-2
+HIMB1542-00000000001	787778	788449	-	HIMB1542_00867	HIMB1542	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1542_00868	-1
+HIMB1542-00000000001	788521	789366	-	HIMB1542_00868	HIMB1542	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1542_00868	0
+HIMB1542-00000000001	789464	790252	-	HIMB1542_00869	HIMB1542	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1542_00868	1
+HIMB1542-00000000001	790271	791095	+	HIMB1542_00870	HIMB1542	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1542_00868	2
+HIMB1542-00000000001	791100	792110	+	HIMB1542_00871	HIMB1542	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1542_00868	3
+HIMB1542-00000000001	792107	793186	+	HIMB1542_00872	HIMB1542	359	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1542_00868	4
+HIMB1542-00000000001	793183	794010	+	HIMB1542_00873	HIMB1542	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1542_00868	5
+HIMB1602-00000000004	1059	2069	-	HIMB1602_00072	HIMB1602	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1602_00076	-4
+HIMB1602-00000000004	2097	2777	-	HIMB1602_00073	HIMB1602	226	OG0001371	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1602_00076	-3
+HIMB1602-00000000004	2782	3606	-	HIMB1602_00074	HIMB1602	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1602_00076	-2
+HIMB1602-00000000004	3625	4413	+	HIMB1602_00075	HIMB1602	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1602_00076	-1
+HIMB1602-00000000004	4511	5356	+	HIMB1602_00076	HIMB1602	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1602_00076	0
+HIMB1602-00000000004	5428	6099	+	HIMB1602_00077	HIMB1602	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1602_00076	1
+HIMB1602-00000000004	6109	6780	+	HIMB1602_00078	HIMB1602	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1602_00076	2
+HIMB1602-00000000004	6784	7572	+	HIMB1602_00079	HIMB1602	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1602_00076	3
+HIMB1602-00000000004	7577	8890	-	HIMB1602_00080	HIMB1602	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1602_00076	4
+HIMB1602-00000000004	8922	9797	-	HIMB1602_00081	HIMB1602	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1602_00076	5
+HIMB1685-00000000001	502722	503597	+	HIMB1685_00568	HIMB1685	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1685_00573	-5
+HIMB1685-00000000001	503629	504936	+	HIMB1685_00569	HIMB1685	435	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1685_00573	-4
+HIMB1685-00000000001	504947	505738	-	HIMB1685_00570	HIMB1685	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1685_00573	-3
+HIMB1685-00000000001	505743	506420	-	HIMB1685_00571	HIMB1685	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1685_00573	-2
+HIMB1685-00000000001	506424	507095	-	HIMB1685_00572	HIMB1685	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1685_00573	-1
+HIMB1685-00000000001	507162	508007	-	HIMB1685_00573	HIMB1685	281	OG0001590	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1685_00573	0
+HIMB1685-00000000001	508107	508895	-	HIMB1685_00574	HIMB1685	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1685_00573	1
+HIMB1685-00000000001	508915	509739	+	HIMB1685_00575	HIMB1685	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1685_00573	2
+HIMB1685-00000000001	509744	510424	+	HIMB1685_00576	HIMB1685	226	OG0001371	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1685_00573	3
+HIMB1685-00000000001	510452	511462	+	HIMB1685_00577	HIMB1685	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1685_00573	4
+HIMB1685-00000000001	511459	512532	+	HIMB1685_00578	HIMB1685	357	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1685_00573	5
+HIMB1701-00000000001	519202	520077	+	HIMB1701_00590	HIMB1701	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1701_00595	-5
+HIMB1701-00000000001	520109	521422	+	HIMB1701_00591	HIMB1701	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1701_00595	-4
+HIMB1701-00000000001	521427	522215	-	HIMB1701_00592	HIMB1701	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1701_00595	-3
+HIMB1701-00000000001	522219	522896	-	HIMB1701_00593	HIMB1701	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1701_00595	-2
+HIMB1701-00000000001	522900	523571	-	HIMB1701_00594	HIMB1701	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1701_00595	-1
+HIMB1701-00000000001	523643	524488	-	HIMB1701_00595	HIMB1701	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1701_00595	0
+HIMB1701-00000000001	524586	525374	-	HIMB1701_00596	HIMB1701	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1701_00595	1
+HIMB1701-00000000001	525393	526217	+	HIMB1701_00597	HIMB1701	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1701_00595	2
+HIMB1701-00000000001	526222	527559	+	HIMB1701_00598	HIMB1701	445	OG0002000	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1701_00595	3
+HIMB1701-00000000001	527562	528572	+	HIMB1701_00599	HIMB1701	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1701_00595	4
+HIMB1701-00000000001	528569	529648	+	HIMB1701_00600	HIMB1701	359	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1701_00595	5
+HIMB1723-00000000001	268404	269279	+	HIMB1723_00301	HIMB1723	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1723_00306	-5
+HIMB1723-00000000001	269311	270624	+	HIMB1723_00302	HIMB1723	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1723_00306	-4
+HIMB1723-00000000001	270629	271417	-	HIMB1723_00303	HIMB1723	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1723_00306	-3
+HIMB1723-00000000001	271421	272098	-	HIMB1723_00304	HIMB1723	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1723_00306	-2
+HIMB1723-00000000001	272102	272773	-	HIMB1723_00305	HIMB1723	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1723_00306	-1
+HIMB1723-00000000001	272845	273747	-	HIMB1723_00306	HIMB1723	300	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1723_00306	0
+HIMB1723-00000000001	273788	274576	-	HIMB1723_00307	HIMB1723	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1723_00306	1
+HIMB1723-00000000001	274595	275419	+	HIMB1723_00308	HIMB1723	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1723_00306	2
+HIMB1723-00000000001	275424	276434	+	HIMB1723_00309	HIMB1723	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1723_00306	3
+HIMB1723-00000000001	276431	277510	+	HIMB1723_00310	HIMB1723	359	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1723_00306	4
+HIMB1723-00000000001	277507	278334	+	HIMB1723_00311	HIMB1723	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1723_00306	5
+HIMB1746-00000000005	17666	18541	+	HIMB1746_01360	HIMB1746	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1746_01365	-5
+HIMB1746-00000000005	18573	19886	+	HIMB1746_01361	HIMB1746	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1746_01365	-4
+HIMB1746-00000000005	19891	20679	-	HIMB1746_01362	HIMB1746	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1746_01365	-3
+HIMB1746-00000000005	20683	21360	-	HIMB1746_01363	HIMB1746	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1746_01365	-2
+HIMB1746-00000000005	21364	22035	-	HIMB1746_01364	HIMB1746	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1746_01365	-1
+HIMB1746-00000000005	22107	23009	-	HIMB1746_01365	HIMB1746	300	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1746_01365	0
+HIMB1746-00000000005	23050	23838	-	HIMB1746_01366	HIMB1746	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1746_01365	1
+HIMB1746-00000000005	23857	24681	+	HIMB1746_01367	HIMB1746	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1746_01365	2
+HIMB1746-00000000005	24686	25366	+	HIMB1746_01368	HIMB1746	226	OG0001371	NA	NA	COG1262	YfmG	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	HIMB1746_01365	3
+HIMB1746-00000000005	25393	26730	+	HIMB1746_01369	HIMB1746	445	OG0002000	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1746_01365	4
+HIMB1746-00000000005	26733	27743	+	HIMB1746_01370	HIMB1746	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1746_01365	5
+HIMB1765-00000000001	1408992	1410074	-	HIMB1765_01506	HIMB1765	360	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1765_01511	-5
+HIMB1765-00000000001	1410071	1411081	-	HIMB1765_01507	HIMB1765	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1765_01511	-4
+HIMB1765-00000000001	1411084	1412421	-	HIMB1765_01508	HIMB1765	445	OG0002000	K19882	O-palmitoleoyl-L-serine hydrolase [EC:3.1.1.98]	NA	NA	NA	HIMB1765_01511	-3
+HIMB1765-00000000001	1412426	1413250	-	HIMB1765_01509	HIMB1765	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1765_01511	-2
+HIMB1765-00000000001	1413269	1414057	+	HIMB1765_01510	HIMB1765	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1765_01511	-1
+HIMB1765-00000000001	1414098	1415000	+	HIMB1765_01511	HIMB1765	300	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1765_01511	0
+HIMB1765-00000000001	1415072	1415743	+	HIMB1765_01512	HIMB1765	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1765_01511	1
+HIMB1765-00000000001	1415747	1416424	+	HIMB1765_01513	HIMB1765	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1765_01511	2
+HIMB1765-00000000001	1416428	1417216	+	HIMB1765_01514	HIMB1765	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1765_01511	3
+HIMB1765-00000000001	1417221	1418534	-	HIMB1765_01515	HIMB1765	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1765_01511	4
+HIMB1765-00000000001	1418566	1419441	-	HIMB1765_01516	HIMB1765	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1765_01511	5
+HIMB1770-00000000001	397346	398221	+	HIMB1770_00451	HIMB1770	291	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1770_00456	-5
+HIMB1770-00000000001	398253	399566	+	HIMB1770_00452	HIMB1770	437	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB1770_00456	-4
+HIMB1770-00000000001	399571	400359	-	HIMB1770_00453	HIMB1770	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB1770_00456	-3
+HIMB1770-00000000001	400363	401034	-	HIMB1770_00454	HIMB1770	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1770_00456	-2
+HIMB1770-00000000001	401044	401715	-	HIMB1770_00455	HIMB1770	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB1770_00456	-1
+HIMB1770-00000000001	401787	402632	-	HIMB1770_00456	HIMB1770	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB1770_00456	0
+HIMB1770-00000000001	402730	403518	-	HIMB1770_00457	HIMB1770	262	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB1770_00456	1
+HIMB1770-00000000001	403537	404361	+	HIMB1770_00458	HIMB1770	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1770_00456	2
+HIMB1770-00000000001	404366	405376	+	HIMB1770_00459	HIMB1770	336	OG0001397	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1770_00456	3
+HIMB1770-00000000001	405373	406449	+	HIMB1770_00460	HIMB1770	358	OG0000059	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1770_00456	4
+HIMB1770-00000000001	406449	407276	+	HIMB1770_00461	HIMB1770	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1770_00456	5
+HIMB2304-00000000091	40	447	+	HIMB2304_00359	HIMB2304	135	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB2304_00360	-1
+HIMB2304-00000000091	545	1390	+	HIMB2304_00360	HIMB2304	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB2304_00360	0
+HIMB2304-00000000091	1461	2132	+	HIMB2304_00361	HIMB2304	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB2304_00360	1
+HIMB2304-00000000091	2136	2813	+	HIMB2304_00362	HIMB2304	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB2304_00360	2
+HIMB2304-00000000091	2817	3605	+	HIMB2304_00363	HIMB2304	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB2304_00360	3
+HIMB2304-00000000091	3614	4930	-	HIMB2304_00364	HIMB2304	438	OG0000850	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	HIMB2304_00360	4
+HIMB2304-00000000091	4961	5533	-	HIMB2304_00365	HIMB2304	190	OG0000995	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB2304_00360	5
+NZ_JBPPFS010000001.1	164605	164838	-	HIMB4_00181	HIMB4	77	OG0001455	NA	NA	NA	NA	NA	HIMB4_00186	-5
+NZ_JBPPFS010000001.1	164983	165210	+	HIMB4_00182	HIMB4	75	OG0001075	NA	NA	NA	NA	NA	HIMB4_00186	-4
+NZ_JBPPFS010000001.1	165211	165996	-	HIMB4_00183	HIMB4	261	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HIMB4_00186	-3
+NZ_JBPPFS010000001.1	165997	166683	-	HIMB4_00184	HIMB4	228	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB4_00186	-2
+NZ_JBPPFS010000001.1	166687	167358	-	HIMB4_00185	HIMB4	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HIMB4_00186	-1
+NZ_JBPPFS010000001.1	167423	168268	-	HIMB4_00186	HIMB4	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HIMB4_00186	0
+NZ_JBPPFS010000001.1	168351	169136	-	HIMB4_00187	HIMB4	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HIMB4_00186	1
+NZ_JBPPFS010000001.1	169155	169979	+	HIMB4_00188	HIMB4	274	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB4_00186	2
+NZ_JBPPFS010000001.1	170042	171040	+	HIMB4_00189	HIMB4	332	OG0000806	K01754	threonine dehydratase [EC:4.3.1.19]	COG1171	IlvA	Threonine deaminase	HIMB4_00186	3
+NZ_JBPPFS010000001.1	171033	172028	+	HIMB4_00190	HIMB4	331	OG0002867	NA	NA	COG2423	OCDMu	Ornithine cyclodeaminase/archaeal alanine dehydrogenase, mu-crystallin family	HIMB4_00186	4
+NZ_JBPPFS010000001.1	172025	173395	-	HIMB4_00191	HIMB4	456	OG0000119	K15785	L-2,4-diaminobutyrate transaminase [EC:2.6.1.76]	COG0161	BioA	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase	HIMB4_00186	5
+DS995298.1	530860	531876	+	HTCC7211_00561	HTCC7211	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	HTCC7211_00566	-5
+DS995298.1	531873	532499	+	HTCC7211_00562	HTCC7211	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC7211_00566	-4
+DS995298.1	532769	534460	-	HTCC7211_00563	HTCC7211	563	OG0001331	NA	NA	COG2956	LapB	Lipopolysaccharide biosynthesis regulator YciM/LapB, contains six TPR domains and a C-terminal metal-binding domain	HTCC7211_00566	-3
+DS995298.1	534462	535289	-	HTCC7211_00564	HTCC7211	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HTCC7211_00566	-2
+DS995298.1	535309	536094	+	HTCC7211_00565	HTCC7211	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC7211_00566	-1
+DS995298.1	536196	537041	+	HTCC7211_00566	HTCC7211	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HTCC7211_00566	0
+DS995298.1	537115	537786	+	HTCC7211_00567	HTCC7211	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC7211_00566	1
+DS995298.1	537788	538474	+	HTCC7211_00568	HTCC7211	228	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC7211_00566	2
+DS995298.1	538476	539264	+	HTCC7211_00569	HTCC7211	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HTCC7211_00566	3
+DS995298.1	539271	539813	-	HTCC7211_00570	HTCC7211	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC7211_00566	4
+DS995298.1	539892	541283	+	HTCC7211_00571	HTCC7211	463	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HTCC7211_00566	5
+KL370779.1	110695	112086	-	HTCC7214_00110	HTCC7214	463	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HTCC7214_00115	-5
+KL370779.1	112165	112707	+	HTCC7214_00111	HTCC7214	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC7214_00115	-4
+KL370779.1	112714	113502	-	HTCC7214_00112	HTCC7214	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HTCC7214_00115	-3
+KL370779.1	113504	114190	-	HTCC7214_00113	HTCC7214	228	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC7214_00115	-2
+KL370779.1	114192	114863	-	HTCC7214_00114	HTCC7214	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC7214_00115	-1
+KL370779.1	114935	115780	-	HTCC7214_00115	HTCC7214	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HTCC7214_00115	0
+KL370779.1	115883	116668	-	HTCC7214_00116	HTCC7214	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC7214_00115	1
+KL370779.1	116688	117515	+	HTCC7214_00117	HTCC7214	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HTCC7214_00115	2
+KL370779.1	117733	118359	-	HTCC7214_00118	HTCC7214	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC7214_00115	3
+KL370779.1	118356	119372	-	HTCC7214_00119	HTCC7214	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	HTCC7214_00115	4
+KL370779.1	119373	119693	-	HTCC7214_00120	HTCC7214	106	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	HTCC7214_00115	5
+JNIU01000001.1	1331117	1331743	+	HTCC7217_01428	HTCC7217	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC7217_01433	-5
+JNIU01000001.1	1331745	1331840	-	HTCC7217_01429	HTCC7217	31	OG0001423	NA	NA	NA	NA	NA	HTCC7217_01433	-4
+JNIU01000001.1	1331837	1331953	-	HTCC7217_01430	HTCC7217	38	OG0002262	NA	NA	NA	NA	NA	HTCC7217_01433	-3
+JNIU01000001.1	1331960	1332787	-	HTCC7217_01431	HTCC7217	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HTCC7217_01433	-2
+JNIU01000001.1	1332807	1333592	+	HTCC7217_01432	HTCC7217	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC7217_01433	-1
+JNIU01000001.1	1333694	1334539	+	HTCC7217_01433	HTCC7217	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HTCC7217_01433	0
+JNIU01000001.1	1334613	1335284	+	HTCC7217_01434	HTCC7217	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC7217_01433	1
+JNIU01000001.1	1335286	1335972	+	HTCC7217_01435	HTCC7217	228	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC7217_01433	2
+JNIU01000001.1	1335974	1336762	+	HTCC7217_01436	HTCC7217	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HTCC7217_01433	3
+JNIU01000001.1	1336774	1337316	-	HTCC7217_01437	HTCC7217	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC7217_01433	4
+JNIU01000001.1	1337395	1338786	+	HTCC7217_01438	HTCC7217	463	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HTCC7217_01433	5
+NZ_LANA01000001.1	106313	107635	-	HTCC9565_00115	HTCC9565	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	HTCC9565_00120	-5
+NZ_LANA01000001.1	107715	108257	+	HTCC9565_00116	HTCC9565	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	HTCC9565_00120	-4
+NZ_LANA01000001.1	108272	109066	-	HTCC9565_00117	HTCC9565	264	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	HTCC9565_00120	-3
+NZ_LANA01000001.1	109067	109744	-	HTCC9565_00118	HTCC9565	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC9565_00120	-2
+NZ_LANA01000001.1	109746	110417	-	HTCC9565_00119	HTCC9565	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	HTCC9565_00120	-1
+NZ_LANA01000001.1	110496	111341	-	HTCC9565_00120	HTCC9565	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	HTCC9565_00120	0
+NZ_LANA01000001.1	111448	112230	-	HTCC9565_00121	HTCC9565	260	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	HTCC9565_00120	1
+NZ_LANA01000001.1	112249	113076	+	HTCC9565_00122	HTCC9565	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HTCC9565_00120	2
+NZ_LANA01000001.1	113083	113196	+	HTCC9565_00123	HTCC9565	37	OG0002262	NA	NA	NA	NA	NA	HTCC9565_00120	3
+NZ_LANA01000001.1	113197	113292	+	HTCC9565_00124	HTCC9565	31	OG0001423	NA	NA	NA	NA	NA	HTCC9565_00120	4
+NZ_LANA01000001.1	113297	113923	-	HTCC9565_00125	HTCC9565	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	HTCC9565_00120	5
+JACWCY010000003.1	40784	41995	+	SAG-MED01_00588	SAG-MED01	403	OG0001015	K08688	creatinase [EC:3.5.3.3]	COG0006	PepP	Xaa-Pro aminopeptidase	SAG-MED01_00593	-5
+JACWCY010000003.1	42003	43118	+	SAG-MED01_00589	SAG-MED01	371	OG0000943	K00613	glycine amidinotransferase [EC:2.1.4.1]	COG1834	DdaH	N-Dimethylarginine dimethylaminohydrolase	SAG-MED01_00593	-4
+JACWCY010000003.1	43124	43351	-	SAG-MED01_00590	SAG-MED01	75	OG0001075	NA	NA	NA	NA	NA	SAG-MED01_00593	-3
+JACWCY010000003.1	43351	44178	-	SAG-MED01_00591	SAG-MED01	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	SAG-MED01_00593	-2
+JACWCY010000003.1	44195	44980	+	SAG-MED01_00592	SAG-MED01	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	SAG-MED01_00593	-1
+JACWCY010000003.1	45078	45923	+	SAG-MED01_00593	SAG-MED01	281	OG0001590	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	SAG-MED01_00593	0
+JACWCY010000003.1	45992	46663	+	SAG-MED01_00594	SAG-MED01	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	SAG-MED01_00593	1
+JACWCY010000003.1	46667	47344	+	SAG-MED01_00595	SAG-MED01	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	SAG-MED01_00593	2
+JACWCY010000003.1	47344	48135	+	SAG-MED01_00596	SAG-MED01	263	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	SAG-MED01_00593	3
+JACWCY010000003.1	48143	48952	-	SAG-MED01_00597	SAG-MED01	269	OG0001349	NA	NA	NA	NA	NA	SAG-MED01_00593	4
+JACWCY010000003.1	49127	49762	+	SAG-MED01_00598	SAG-MED01	211	OG0000720	K00945	CMP/dCMP kinase [EC:2.7.4.25]	COG0283	Cmk	Cytidylate kinase	SAG-MED01_00593	5
+JACWEQ010000014.1	8089	9411	-	SAG-MED49_00389	SAG-MED49	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	SAG-MED49_00394	-5
+JACWEQ010000014.1	9489	10031	+	SAG-MED49_00390	SAG-MED49	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	SAG-MED49_00394	-4
+JACWEQ010000014.1	10046	10834	-	SAG-MED49_00391	SAG-MED49	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	SAG-MED49_00394	-3
+JACWEQ010000014.1	10836	11522	-	SAG-MED49_00392	SAG-MED49	228	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	SAG-MED49_00394	-2
+JACWEQ010000014.1	11523	12194	-	SAG-MED49_00393	SAG-MED49	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	SAG-MED49_00394	-1
+JACWEQ010000014.1	12269	13114	-	SAG-MED49_00394	SAG-MED49	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	SAG-MED49_00394	0
+JACWEQ010000014.1	13216	14001	-	SAG-MED49_00395	SAG-MED49	261	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	SAG-MED49_00394	1
+JACWEQ010000014.1	14021	14848	+	SAG-MED49_00396	SAG-MED49	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	SAG-MED49_00394	2
+JACWEQ010000014.1	14855	14971	+	SAG-MED49_00397	SAG-MED49	38	OG0002262	NA	NA	NA	NA	NA	SAG-MED49_00394	3
+JACWEQ010000014.1	15065	15691	-	SAG-MED49_00398	SAG-MED49	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	SAG-MED49_00394	4
+JACWEQ010000014.1	15688	16704	-	SAG-MED49_00399	SAG-MED49	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	SAG-MED49_00394	5
+CP159810.1	178201	178563	+	Uisw_090_00194	Uisw_090	120	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_090_00199	-5
+CP159810.1	178564	179580	+	Uisw_090_00195	Uisw_090	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_090_00199	-4
+CP159810.1	179577	180203	+	Uisw_090_00196	Uisw_090	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_090_00199	-3
+CP159810.1	180204	181031	-	Uisw_090_00197	Uisw_090	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_090_00199	-2
+CP159810.1	181050	181841	+	Uisw_090_00198	Uisw_090	263	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_090_00199	-1
+CP159810.1	181949	182800	+	Uisw_090_00199	Uisw_090	283	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_090_00199	0
+CP159810.1	182881	183552	+	Uisw_090_00200	Uisw_090	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_090_00199	1
+CP159810.1	183554	184231	+	Uisw_090_00201	Uisw_090	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_090_00199	2
+CP159810.1	184232	185020	+	Uisw_090_00202	Uisw_090	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_090_00199	3
+CP159810.1	185037	185579	-	Uisw_090_00203	Uisw_090	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_090_00199	4
+CP159810.1	185686	187008	+	Uisw_090_00204	Uisw_090	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_090_00199	5
+CP159824.1	948100	949494	-	Uisw_092_01081	Uisw_092	464	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_092_01086	-5
+CP159824.1	949602	950144	+	Uisw_092_01082	Uisw_092	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_092_01086	-4
+CP159824.1	950160	950948	-	Uisw_092_01083	Uisw_092	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_092_01086	-3
+CP159824.1	950949	951626	-	Uisw_092_01084	Uisw_092	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_092_01086	-2
+CP159824.1	951628	952176	-	Uisw_092_01085	Uisw_092	182	OG0000101	NA	NA	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_092_01086	-1
+CP159824.1	952379	953230	-	Uisw_092_01086	Uisw_092	283	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_092_01086	0
+CP159824.1	953338	954129	-	Uisw_092_01087	Uisw_092	263	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_092_01086	1
+CP159824.1	954148	954975	+	Uisw_092_01088	Uisw_092	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_092_01086	2
+CP159824.1	955072	955188	+	Uisw_092_01089	Uisw_092	38	OG0002262	NA	NA	NA	NA	NA	Uisw_092_01086	3
+CP159824.1	955185	955280	+	Uisw_092_01090	Uisw_092	31	OG0001423	NA	NA	NA	NA	NA	Uisw_092_01086	4
+CP159824.1	955285	955911	-	Uisw_092_01091	Uisw_092	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_092_01086	5
+CP159823.1	233275	234045	+	Uisw_094_00248	Uisw_094	256	OG0000236	K04643	sensory rhodopsin	COG5524	NA	Bacteriorhodopsin	Uisw_094_00253	-5
+CP159823.1	234127	234447	+	Uisw_094_00249	Uisw_094	106	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_094_00253	-4
+CP159823.1	234448	235464	+	Uisw_094_00250	Uisw_094	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_094_00253	-3
+CP159823.1	235461	236078	+	Uisw_094_00251	Uisw_094	205	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_094_00253	-2
+CP159823.1	236055	236732	-	Uisw_094_00252	Uisw_094	225	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_094_00253	-1
+CP159823.1	237645	238496	+	Uisw_094_00253	Uisw_094	283	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_094_00253	0
+CP159823.1	238577	239248	+	Uisw_094_00254	Uisw_094	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_094_00253	1
+CP159823.1	239250	239927	+	Uisw_094_00255	Uisw_094	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_094_00253	2
+CP159823.1	239928	240716	+	Uisw_094_00256	Uisw_094	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_094_00253	3
+CP159823.1	240733	241275	-	Uisw_094_00257	Uisw_094	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_094_00253	4
+CP159823.1	241354	242676	+	Uisw_094_00258	Uisw_094	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_094_00253	5
+CP159822.1	872332	873654	-	Uisw_099_02_00970	Uisw_099_02	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_099_02_00975	-5
+CP159822.1	873733	874275	+	Uisw_099_02_00971	Uisw_099_02	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_099_02_00975	-4
+CP159822.1	874291	875085	-	Uisw_099_02_00972	Uisw_099_02	264	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_099_02_00975	-3
+CP159822.1	875086	875763	-	Uisw_099_02_00973	Uisw_099_02	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_099_02_00975	-2
+CP159822.1	875765	876436	-	Uisw_099_02_00974	Uisw_099_02	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_099_02_00975	-1
+CP159822.1	876518	877366	-	Uisw_099_02_00975	Uisw_099_02	282	OG0001590	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_099_02_00975	0
+CP159822.1	877472	878263	-	Uisw_099_02_00976	Uisw_099_02	263	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_099_02_00975	1
+CP159822.1	878276	878902	-	Uisw_099_02_00977	Uisw_099_02	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_099_02_00975	2
+CP159822.1	878899	879915	-	Uisw_099_02_00978	Uisw_099_02	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_099_02_00975	3
+CP159822.1	879916	880236	-	Uisw_099_02_00979	Uisw_099_02	106	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_099_02_00975	4
+CP159822.1	880318	881088	-	Uisw_099_02_00980	Uisw_099_02	256	OG0000236	K04643	sensory rhodopsin	COG5524	NA	Bacteriorhodopsin	Uisw_099_02_00975	5
+CP159819.1	244262	244624	+	Uisw_106_00267	Uisw_106	120	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_106_00272	-5
+CP159819.1	244625	245641	+	Uisw_106_00268	Uisw_106	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_106_00272	-4
+CP159819.1	245638	246264	+	Uisw_106_00269	Uisw_106	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_106_00272	-3
+CP159819.1	246265	247092	-	Uisw_106_00270	Uisw_106	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_106_00272	-2
+CP159819.1	247111	247902	+	Uisw_106_00271	Uisw_106	263	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_106_00272	-1
+CP159819.1	248010	248861	+	Uisw_106_00272	Uisw_106	283	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_106_00272	0
+CP159819.1	248942	249613	+	Uisw_106_00273	Uisw_106	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_106_00272	1
+CP159819.1	249615	250292	+	Uisw_106_00274	Uisw_106	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_106_00272	2
+CP159819.1	250293	251081	+	Uisw_106_00275	Uisw_106	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_106_00272	3
+CP159819.1	251098	251640	-	Uisw_106_00276	Uisw_106	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_106_00272	4
+CP159819.1	251719	253041	+	Uisw_106_00277	Uisw_106	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_106_00272	5
+CP159809.1	971112	972434	-	Uisw_113_01057	Uisw_113	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_113_01062	-5
+CP159809.1	972513	973055	+	Uisw_113_01058	Uisw_113	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_113_01062	-4
+CP159809.1	973072	973860	-	Uisw_113_01059	Uisw_113	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_113_01062	-3
+CP159809.1	973861	974538	-	Uisw_113_01060	Uisw_113	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_113_01062	-2
+CP159809.1	974540	975211	-	Uisw_113_01061	Uisw_113	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_113_01062	-1
+CP159809.1	975292	976143	-	Uisw_113_01062	Uisw_113	283	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_113_01062	0
+CP159809.1	976249	977040	-	Uisw_113_01063	Uisw_113	263	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_113_01062	1
+CP159809.1	977059	977886	+	Uisw_113_01064	Uisw_113	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_113_01062	2
+CP159809.1	977887	978513	-	Uisw_113_01065	Uisw_113	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_113_01062	3
+CP159809.1	978510	979526	-	Uisw_113_01066	Uisw_113	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_113_01062	4
+CP159809.1	979527	979847	-	Uisw_113_01067	Uisw_113	106	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_113_01062	5
+CP159818.1	232037	232399	+	Uisw_114_00284	Uisw_114	120	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_114_00289	-5
+CP159818.1	232400	233416	+	Uisw_114_00285	Uisw_114	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_114_00289	-4
+CP159818.1	233413	234039	+	Uisw_114_00286	Uisw_114	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_114_00289	-3
+CP159818.1	234040	234867	-	Uisw_114_00287	Uisw_114	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_114_00289	-2
+CP159818.1	234886	235677	+	Uisw_114_00288	Uisw_114	263	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_114_00289	-1
+CP159818.1	235784	236635	+	Uisw_114_00289	Uisw_114	283	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_114_00289	0
+CP159818.1	236716	237387	+	Uisw_114_00290	Uisw_114	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_114_00289	1
+CP159818.1	237389	238066	+	Uisw_114_00291	Uisw_114	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_114_00289	2
+CP159818.1	238067	238855	+	Uisw_114_00292	Uisw_114	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_114_00289	3
+CP159818.1	238872	239414	-	Uisw_114_00293	Uisw_114	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_114_00289	4
+CP159818.1	239495	240817	+	Uisw_114_00294	Uisw_114	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_114_00289	5
+CP159814.1	231537	231857	+	Uisw_130_00250	Uisw_130	106	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_130_00255	-5
+CP159814.1	231858	232874	+	Uisw_130_00251	Uisw_130	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_130_00255	-4
+CP159814.1	232871	233497	+	Uisw_130_00252	Uisw_130	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_130_00255	-3
+CP159814.1	233498	234325	-	Uisw_130_00253	Uisw_130	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_130_00255	-2
+CP159814.1	234344	235135	+	Uisw_130_00254	Uisw_130	263	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_130_00255	-1
+CP159814.1	235243	236094	+	Uisw_130_00255	Uisw_130	283	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_130_00255	0
+CP159814.1	236176	236847	+	Uisw_130_00256	Uisw_130	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_130_00255	1
+CP159814.1	236849	237526	+	Uisw_130_00257	Uisw_130	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_130_00255	2
+CP159814.1	237527	238315	+	Uisw_130_00258	Uisw_130	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_130_00255	3
+CP159814.1	238332	238874	-	Uisw_130_00259	Uisw_130	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_130_00255	4
+CP159814.1	238953	240275	+	Uisw_130_00260	Uisw_130	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_130_00255	5
+CP159813.1	226234	227250	+	Uisw_134_02_00239	Uisw_134_02	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_134_02_00244	-5
+CP159813.1	227247	227873	+	Uisw_134_02_00240	Uisw_134_02	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_134_02_00244	-4
+CP159813.1	227972	228085	-	Uisw_134_02_00241	Uisw_134_02	37	OG0002262	NA	NA	NA	NA	NA	Uisw_134_02_00244	-3
+CP159813.1	228092	228919	-	Uisw_134_02_00242	Uisw_134_02	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_134_02_00244	-2
+CP159813.1	228938	229729	+	Uisw_134_02_00243	Uisw_134_02	263	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_134_02_00244	-1
+CP159813.1	229835	230680	+	Uisw_134_02_00244	Uisw_134_02	281	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_134_02_00244	0
+CP159813.1	230764	231435	+	Uisw_134_02_00245	Uisw_134_02	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_134_02_00244	1
+CP159813.1	231435	232112	+	Uisw_134_02_00246	Uisw_134_02	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_134_02_00244	2
+CP159813.1	232113	232907	+	Uisw_134_02_00247	Uisw_134_02	264	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_134_02_00244	3
+CP159813.1	232924	233466	-	Uisw_134_02_00248	Uisw_134_02	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_134_02_00244	4
+CP159813.1	233546	234949	+	Uisw_134_02_00249	Uisw_134_02	467	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_134_02_00244	5
+CP159812.1	231665	231985	+	Uisw_136_00240	Uisw_136	106	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_136_00245	-5
+CP159812.1	231986	233002	+	Uisw_136_00241	Uisw_136	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_136_00245	-4
+CP159812.1	232999	233625	+	Uisw_136_00242	Uisw_136	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_136_00245	-3
+CP159812.1	233626	234453	-	Uisw_136_00243	Uisw_136	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_136_00245	-2
+CP159812.1	234472	235263	+	Uisw_136_00244	Uisw_136	263	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_136_00245	-1
+CP159812.1	235370	236221	+	Uisw_136_00245	Uisw_136	283	OG0001590	NA	NA	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_136_00245	0
+CP159812.1	236302	236973	+	Uisw_136_00246	Uisw_136	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_136_00245	1
+CP159812.1	236975	237652	+	Uisw_136_00247	Uisw_136	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_136_00245	2
+CP159812.1	237653	238441	+	Uisw_136_00248	Uisw_136	262	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_136_00245	3
+CP159812.1	238458	239000	-	Uisw_136_00249	Uisw_136	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_136_00245	4
+CP159812.1	239081	240403	+	Uisw_136_00250	Uisw_136	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_136_00245	5
+CP159811.1	225808	226128	+	Uisw_137_00240	Uisw_137	106	OG0000315	K04755	ferredoxin, 2Fe-2S	COG0633	Fdx	Ferredoxin	Uisw_137_00245	-5
+CP159811.1	226129	227145	+	Uisw_137_00241	Uisw_137	338	OG0000299	NA	NA	COG0492	TrxB	Thioredoxin reductase	Uisw_137_00245	-4
+CP159811.1	227142	227768	+	Uisw_137_00242	Uisw_137	208	OG0000255	K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]	COG0625	GstA	Glutathione S-transferase or stringent starvation protein SspA	Uisw_137_00245	-3
+CP159811.1	227769	228596	-	Uisw_137_00243	Uisw_137	275	OG0000057	K00477	phytanoyl-CoA hydroxylase [EC:1.14.11.18]	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_137_00245	-2
+CP159811.1	228615	229406	+	Uisw_137_00244	Uisw_137	263	OG0001252	NA	NA	COG3217	YcbX	N-hydroxylaminopurine reductase subunit YcbX, contains MOSC domain	Uisw_137_00245	-1
+CP159811.1	229513	230361	+	Uisw_137_00245	Uisw_137	282	OG0001590	K02030	polar amino acid transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	Uisw_137_00245	0
+CP159811.1	230443	231114	+	Uisw_137_00246	Uisw_137	223	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_137_00245	1
+CP159811.1	231116	231793	+	Uisw_137_00247	Uisw_137	225	OG0000101	K02029	polar amino acid transport system permease protein	COG0765	HisM	ABC-type amino acid transport system, permease component	Uisw_137_00245	2
+CP159811.1	231794	232588	+	Uisw_137_00248	Uisw_137	264	OG0000112	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	COG1126	GlnQ	ABC-type polar amino acid transport system, ATPase component	Uisw_137_00245	3
+CP159811.1	232605	233147	-	Uisw_137_00249	Uisw_137	180	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	Uisw_137_00245	4
+CP159811.1	233226	234560	+	Uisw_137_00250	Uisw_137	444	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_137_00245	5

@@ -1,0 +1,23 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+NYVZ01000004.1	19768	20439	+	CPC289_00410	CPC289	223	OG0000163	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG0847	DnaQ	DNA polymerase III, epsilon subunit or related 3'-5' exonuclease	CPC289_00415	-5
+NYVZ01000004.1	20432	20872	-	CPC289_00411	CPC289	146	OG0000396	K03071	preprotein translocase subunit SecB	COG1952	SecB	Preprotein translocase subunit SecB	CPC289_00415	-4
+NYVZ01000004.1	20856	21281	-	CPC289_00412	CPC289	141	OG0000437	K07113	UPF0716 protein FxsA	COG3030	FxsA	FxsA protein affecting phage T7 exclusion by the F plasmid, UPF0716 family	CPC289_00415	-3
+NYVZ01000004.1	21320	21934	+	CPC289_00413	CPC289	204	OG0000290	NA	NA	COG4395	Tim44	Predicted lipid-binding transport protein, Tim44 family	CPC289_00415	-2
+NYVZ01000004.1	21912	22346	+	CPC289_00414	CPC289	144	OG0000253	NA	NA	COG2840	SmrA	Stalled ribosome-rescuing mRNA endonuclease or DNA-nicking endonuclease, Smr domain	CPC289_00415	-1
+NYVZ01000004.1	22361	23062	+	CPC289_00415	CPC289	233	OG0004327	NA	NA	COG0009	TsaC	tRNA A37 threonylcarbamoyladenosine synthetase subunit TsaC/SUA5/YrdC	CPC289_00415	0
+NYVZ01000004.1	23057	24376	-	CPC289_00416	CPC289	439	OG0000420	K03667	ATP-dependent HslUV protease ATP-binding subunit HslU	COG1220	HslU	ATP-dependent protease HslVU (ClpYQ), ATPase subunit HslU	CPC289_00415	1
+NYVZ01000004.1	24376	24924	-	CPC289_00417	CPC289	182	OG0000395	K01419	ATP-dependent HslUV protease, peptidase subunit HslV [EC:3.4.25.2]	COG5405	HslV	ATP-dependent protease HslVU (ClpYQ), peptidase subunit	CPC289_00415	2
+NYVZ01000004.1	25004	25591	+	CPC289_00418	CPC289	195	OG0000257	K01693	imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]	COG0131	HisB2	Imidazoleglycerol phosphate dehydratase HisB	CPC289_00415	3
+NYVZ01000004.1	25598	26233	+	CPC289_00419	CPC289	211	OG0000060	K02501	imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	CPC289_00415	4
+NYVZ01000004.1	26233	26949	+	CPC289_00420	CPC289	238	OG0000058	K01814	phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]	COG0106	HisA	Phosphoribosylformimino-5-aminoimidazole carboxamide ribonucleotide (ProFAR) isomerase	CPC289_00415	5
+PBKK01000002.1	138600	139316	-	SP27_00405	SP27	238	OG0000058	K01814	phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]	COG0106	HisA	Phosphoribosylformimino-5-aminoimidazole carboxamide ribonucleotide (ProFAR) isomerase	SP27_00410	-5
+PBKK01000002.1	139316	139951	-	SP27_00406	SP27	211	OG0000060	K02501	imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	SP27_00410	-4
+PBKK01000002.1	139958	140545	-	SP27_00407	SP27	195	OG0000257	K01693	imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]	COG0131	HisB2	Imidazoleglycerol phosphate dehydratase HisB	SP27_00410	-3
+PBKK01000002.1	140625	141176	+	SP27_00408	SP27	183	OG0000395	K01419	ATP-dependent HslUV protease, peptidase subunit HslV [EC:3.4.25.2]	COG5405	HslV	ATP-dependent protease HslVU (ClpYQ), peptidase subunit	SP27_00410	-2
+PBKK01000002.1	141173	142495	+	SP27_00409	SP27	440	OG0000420	K03667	ATP-dependent HslUV protease ATP-binding subunit HslU	COG1220	HslU	ATP-dependent protease HslVU (ClpYQ), ATPase subunit HslU	SP27_00410	-1
+PBKK01000002.1	142497	143192	-	SP27_00410	SP27	231	OG0004327	NA	NA	COG0009	TsaC	tRNA A37 threonylcarbamoyladenosine synthetase subunit TsaC/SUA5/YrdC	SP27_00410	0
+PBKK01000002.1	143201	143635	-	SP27_00411	SP27	144	OG0000253	NA	NA	COG2840	SmrA	Stalled ribosome-rescuing mRNA endonuclease or DNA-nicking endonuclease, Smr domain	SP27_00410	1
+PBKK01000002.1	143613	144278	-	SP27_00412	SP27	221	OG0000290	NA	NA	COG4395	Tim44	Predicted lipid-binding transport protein, Tim44 family	SP27_00410	2
+PBKK01000002.1	144320	144691	+	SP27_00413	SP27	123	OG0000437	K07113	UPF0716 protein FxsA	COG3030	FxsA	FxsA protein affecting phage T7 exclusion by the F plasmid, UPF0716 family	SP27_00410	3
+PBKK01000002.1	144672	145115	+	SP27_00414	SP27	147	OG0000396	K03071	preprotein translocase subunit SecB	COG1952	SecB	Preprotein translocase subunit SecB	SP27_00410	4
+PBKK01000002.1	145108	145779	-	SP27_00415	SP27	223	OG0000163	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	COG0847	DnaQ	DNA polymerase III, epsilon subunit or related 3'-5' exonuclease	SP27_00410	5

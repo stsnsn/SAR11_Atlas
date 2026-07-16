@@ -1,0 +1,776 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CACDRL010000002.1	97160	98713	+	AG-390-C17_00413	AG-390-C17	517	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-390-C17_00418	-5
+CACDRL010000002.1	98724	100940	+	AG-390-C17_00414	AG-390-C17	738	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-390-C17_00418	-4
+CACDRL010000002.1	100940	101308	+	AG-390-C17_00415	AG-390-C17	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	AG-390-C17_00418	-3
+CACDRL010000002.1	101321	101569	+	AG-390-C17_00416	AG-390-C17	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	AG-390-C17_00418	-2
+CACDRL010000002.1	101627	103699	+	AG-390-C17_00417	AG-390-C17	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	AG-390-C17_00418	-1
+CACDRL010000002.1	103754	103960	-	AG-390-C17_00418	AG-390-C17	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	AG-390-C17_00418	0
+CACDRL010000002.1	103978	104763	-	AG-390-C17_00419	AG-390-C17	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	AG-390-C17_00418	1
+CACDRL010000002.1	104767	105978	-	AG-390-C17_00420	AG-390-C17	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	AG-390-C17_00418	2
+CACDRL010000002.1	105978	106478	-	AG-390-C17_00421	AG-390-C17	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	AG-390-C17_00418	3
+CACDRL010000002.1	106572	107000	+	AG-390-C17_00422	AG-390-C17	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-390-C17_00418	4
+CACDRL010000002.1	107105	107521	+	AG-390-C17_00423	AG-390-C17	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	AG-390-C17_00418	5
+CACEDD010000001.1	456973	458526	+	AG-390-L03_00480	AG-390-L03	517	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-390-L03_00485	-5
+CACEDD010000001.1	458537	460753	+	AG-390-L03_00481	AG-390-L03	738	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-390-L03_00485	-4
+CACEDD010000001.1	460753	461121	+	AG-390-L03_00482	AG-390-L03	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	AG-390-L03_00485	-3
+CACEDD010000001.1	461134	461382	+	AG-390-L03_00483	AG-390-L03	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	AG-390-L03_00485	-2
+CACEDD010000001.1	461440	463512	+	AG-390-L03_00484	AG-390-L03	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	AG-390-L03_00485	-1
+CACEDD010000001.1	463566	463772	-	AG-390-L03_00485	AG-390-L03	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	AG-390-L03_00485	0
+CACEDD010000001.1	463820	464605	-	AG-390-L03_00486	AG-390-L03	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	AG-390-L03_00485	1
+CACEDD010000001.1	464609	465820	-	AG-390-L03_00487	AG-390-L03	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	AG-390-L03_00485	2
+CACEDD010000001.1	465820	466320	-	AG-390-L03_00488	AG-390-L03	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	AG-390-L03_00485	3
+CACEDD010000001.1	466414	466842	+	AG-390-L03_00489	AG-390-L03	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-390-L03_00485	4
+CACEDD010000001.1	466949	467365	+	AG-390-L03_00490	AG-390-L03	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	AG-390-L03_00485	5
+CACGAU010000006.1	78956	80548	+	AG-422-B22_00849	AG-422-B22	530	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-422-B22_00854	-5
+CACGAU010000006.1	80559	82778	+	AG-422-B22_00850	AG-422-B22	739	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-422-B22_00854	-4
+CACGAU010000006.1	82778	83146	+	AG-422-B22_00851	AG-422-B22	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	AG-422-B22_00854	-3
+CACGAU010000006.1	83159	83407	+	AG-422-B22_00852	AG-422-B22	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	AG-422-B22_00854	-2
+CACGAU010000006.1	83465	85537	+	AG-422-B22_00853	AG-422-B22	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	AG-422-B22_00854	-1
+CACGAU010000006.1	85592	85798	-	AG-422-B22_00854	AG-422-B22	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	AG-422-B22_00854	0
+CACGAU010000006.1	85826	86611	-	AG-422-B22_00855	AG-422-B22	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	AG-422-B22_00854	1
+CACGAU010000006.1	86615	87826	-	AG-422-B22_00856	AG-422-B22	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	AG-422-B22_00854	2
+CACGAU010000006.1	87826	88326	-	AG-422-B22_00857	AG-422-B22	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	AG-422-B22_00854	3
+CACGAU010000006.1	88418	88846	+	AG-422-B22_00858	AG-422-B22	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-422-B22_00854	4
+CACGAU010000006.1	88952	89368	+	AG-422-B22_00859	AG-422-B22	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	AG-422-B22_00854	5
+CACGDZ010000003.1	2498	4090	+	AG-422-E09_00399	AG-422-E09	530	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-422-E09_00404	-5
+CACGDZ010000003.1	4101	6320	+	AG-422-E09_00400	AG-422-E09	739	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-422-E09_00404	-4
+CACGDZ010000003.1	6320	6688	+	AG-422-E09_00401	AG-422-E09	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	AG-422-E09_00404	-3
+CACGDZ010000003.1	6701	6949	+	AG-422-E09_00402	AG-422-E09	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	AG-422-E09_00404	-2
+CACGDZ010000003.1	7007	9079	+	AG-422-E09_00403	AG-422-E09	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	AG-422-E09_00404	-1
+CACGDZ010000003.1	9134	9340	-	AG-422-E09_00404	AG-422-E09	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	AG-422-E09_00404	0
+CACGDZ010000003.1	9368	10153	-	AG-422-E09_00405	AG-422-E09	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	AG-422-E09_00404	1
+CACGDZ010000003.1	10157	11368	-	AG-422-E09_00406	AG-422-E09	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	AG-422-E09_00404	2
+CACGDZ010000003.1	11368	11937	-	AG-422-E09_00407	AG-422-E09	189	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	AG-422-E09_00404	3
+CACGDZ010000003.1	11962	12390	+	AG-422-E09_00408	AG-422-E09	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-422-E09_00404	4
+CACGDZ010000003.1	12496	12912	+	AG-422-E09_00409	AG-422-E09	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	AG-422-E09_00404	5
+CACJNJ010000002.1	21883	23436	+	AG-447-K11_00201	AG-447-K11	517	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-447-K11_00206	-5
+CACJNJ010000002.1	23447	25666	+	AG-447-K11_00202	AG-447-K11	739	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-447-K11_00206	-4
+CACJNJ010000002.1	25666	26034	+	AG-447-K11_00203	AG-447-K11	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	AG-447-K11_00206	-3
+CACJNJ010000002.1	26047	26295	+	AG-447-K11_00204	AG-447-K11	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	AG-447-K11_00206	-2
+CACJNJ010000002.1	26362	28434	+	AG-447-K11_00205	AG-447-K11	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	AG-447-K11_00206	-1
+CACJNJ010000002.1	28488	28694	-	AG-447-K11_00206	AG-447-K11	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	AG-447-K11_00206	0
+CACJNJ010000002.1	28712	29497	-	AG-447-K11_00207	AG-447-K11	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	AG-447-K11_00206	1
+CACJNJ010000002.1	29501	30712	-	AG-447-K11_00208	AG-447-K11	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	AG-447-K11_00206	2
+CACJNJ010000002.1	30712	31212	-	AG-447-K11_00209	AG-447-K11	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	AG-447-K11_00206	3
+CACJNJ010000002.1	31306	31734	+	AG-447-K11_00210	AG-447-K11	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-447-K11_00206	4
+CACJNJ010000002.1	31839	32255	+	AG-447-K11_00211	AG-447-K11	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	AG-447-K11_00206	5
+CACMGO010000009.1	11606	12619	-	AG-891-G02_01097	AG-891-G02	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	AG-891-G02_01102	-5
+CACMGO010000009.1	12734	13537	+	AG-891-G02_01098	AG-891-G02	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	AG-891-G02_01102	-4
+CACMGO010000009.1	13503	14399	+	AG-891-G02_01099	AG-891-G02	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	AG-891-G02_01102	-3
+CACMGO010000009.1	14399	16465	+	AG-891-G02_01100	AG-891-G02	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	AG-891-G02_01102	-2
+CACMGO010000009.1	16465	19125	+	AG-891-G02_01101	AG-891-G02	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	AG-891-G02_01102	-1
+CACMGO010000009.1	19136	19342	+	AG-891-G02_01102	AG-891-G02	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	AG-891-G02_01102	0
+CACMGO010000009.1	19622	19825	+	AG-891-G02_01103	AG-891-G02	67	OG0001780	NA	NA	NA	NA	NA	AG-891-G02_01102	1
+CACMGO010000009.1	19891	21057	+	AG-891-G02_01104	AG-891-G02	388	OG0001812	NA	NA	COG2159	LigW	5-carboxyvanillate decarboxylase LigW (lignin degradation), amidohydro domain	AG-891-G02_01102	2
+CACMGO010000009.1	21061	21171	+	AG-891-G02_01105	AG-891-G02	36	OG0001514	NA	NA	NA	NA	NA	AG-891-G02_01102	3
+CACMGO010000009.1	21231	21530	+	AG-891-G02_01106	AG-891-G02	99	OG0001514	NA	NA	NA	NA	NA	AG-891-G02_01102	4
+CACMGO010000009.1	22051	22968	-	AG-891-G02_01108	AG-891-G02	305	OG0000075	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-891-G02_01102	5
+CACNCJ010000019.1	2527	4080	+	AG-892-L17_01053	AG-892-L17	517	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-892-L17_01058	-5
+CACNCJ010000019.1	4091	6310	+	AG-892-L17_01054	AG-892-L17	739	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-892-L17_01058	-4
+CACNCJ010000019.1	6310	6678	+	AG-892-L17_01055	AG-892-L17	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	AG-892-L17_01058	-3
+CACNCJ010000019.1	6691	6939	+	AG-892-L17_01056	AG-892-L17	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	AG-892-L17_01058	-2
+CACNCJ010000019.1	6997	9069	+	AG-892-L17_01057	AG-892-L17	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	AG-892-L17_01058	-1
+CACNCJ010000019.1	9124	9330	-	AG-892-L17_01058	AG-892-L17	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	AG-892-L17_01058	0
+CACNCJ010000019.1	9358	10143	-	AG-892-L17_01059	AG-892-L17	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	AG-892-L17_01058	1
+CACNCJ010000019.1	10147	11157	-	AG-892-L17_01060	AG-892-L17	336	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	AG-892-L17_01058	2
+CABZXO010000002.1	47818	48234	-	AG-896-O18_00254	AG-896-O18	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	AG-896-O18_00259	-5
+CABZXO010000002.1	48340	48768	-	AG-896-O18_00255	AG-896-O18	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-896-O18_00259	-4
+CABZXO010000002.1	48861	49361	+	AG-896-O18_00256	AG-896-O18	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	AG-896-O18_00259	-3
+CABZXO010000002.1	49361	50572	+	AG-896-O18_00257	AG-896-O18	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	AG-896-O18_00259	-2
+CABZXO010000002.1	50576	51361	+	AG-896-O18_00258	AG-896-O18	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	AG-896-O18_00259	-1
+CABZXO010000002.1	51389	51595	+	AG-896-O18_00259	AG-896-O18	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	AG-896-O18_00259	0
+CABZXO010000002.1	51650	53722	-	AG-896-O18_00260	AG-896-O18	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	AG-896-O18_00259	1
+CABZXO010000002.1	53780	54028	-	AG-896-O18_00261	AG-896-O18	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	AG-896-O18_00259	2
+CABZXO010000002.1	54041	54409	-	AG-896-O18_00262	AG-896-O18	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	AG-896-O18_00259	3
+CABZXO010000002.1	54409	56628	-	AG-896-O18_00263	AG-896-O18	739	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-896-O18_00259	4
+CABZXO010000002.1	56639	58192	-	AG-896-O18_00264	AG-896-O18	517	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-896-O18_00259	5
+CACIKZ010000002.1	95394	95810	-	AG-913-F03_00327	AG-913-F03	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	AG-913-F03_00332	-5
+CACIKZ010000002.1	95915	96343	-	AG-913-F03_00328	AG-913-F03	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AG-913-F03_00332	-4
+CACIKZ010000002.1	96435	96935	+	AG-913-F03_00329	AG-913-F03	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	AG-913-F03_00332	-3
+CACIKZ010000002.1	96935	98146	+	AG-913-F03_00330	AG-913-F03	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	AG-913-F03_00332	-2
+CACIKZ010000002.1	98150	98935	+	AG-913-F03_00331	AG-913-F03	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	AG-913-F03_00332	-1
+CACIKZ010000002.1	98963	99169	+	AG-913-F03_00332	AG-913-F03	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	AG-913-F03_00332	0
+CACIKZ010000002.1	99224	101296	-	AG-913-F03_00333	AG-913-F03	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	AG-913-F03_00332	1
+CACIKZ010000002.1	101353	101601	-	AG-913-F03_00334	AG-913-F03	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	AG-913-F03_00332	2
+CACIKZ010000002.1	101598	101978	-	AG-913-F03_00335	AG-913-F03	126	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	AG-913-F03_00332	3
+CACIKZ010000002.1	101978	104197	-	AG-913-F03_00336	AG-913-F03	739	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AG-913-F03_00332	4
+CACIKZ010000002.1	104208	105800	-	AG-913-F03_00337	AG-913-F03	530	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AG-913-F03_00332	5
+CACOPB010000001.1	138213	139805	+	AH-324-F03_00155	AH-324-F03	530	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	AH-324-F03_00160	-5
+CACOPB010000001.1	139816	142035	+	AH-324-F03_00156	AH-324-F03	739	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	AH-324-F03_00160	-4
+CACOPB010000001.1	142035	142403	+	AH-324-F03_00157	AH-324-F03	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	AH-324-F03_00160	-3
+CACOPB010000001.1	142416	142664	+	AH-324-F03_00158	AH-324-F03	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	AH-324-F03_00160	-2
+CACOPB010000001.1	142722	144794	+	AH-324-F03_00159	AH-324-F03	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	AH-324-F03_00160	-1
+CACOPB010000001.1	144846	145052	-	AH-324-F03_00160	AH-324-F03	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	AH-324-F03_00160	0
+CACOPB010000001.1	145083	145856	-	AH-324-F03_00161	AH-324-F03	257	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	AH-324-F03_00160	1
+CACOPB010000001.1	145868	147079	-	AH-324-F03_00162	AH-324-F03	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	AH-324-F03_00160	2
+CACOPB010000001.1	147079	147579	-	AH-324-F03_00163	AH-324-F03	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	AH-324-F03_00160	3
+CACOPB010000001.1	147652	148062	+	AH-324-F03_00164	AH-324-F03	136	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	AH-324-F03_00160	4
+CACOPB010000001.1	148157	150394	+	AH-324-F03_00165	AH-324-F03	745	OG0001150	K03782	catalase-peroxidase [EC:1.11.1.21]	COG0376	KatG	Catalase (peroxidase I)	AH-324-F03_00160	5
+LIBV01000058.1	21	1289	+	BACL5_MAG-120820-bin39_00784	BACL5_MAG-120820-bin39	422	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG1080	PtsA	Phosphoenolpyruvate-protein kinase (PTS system EI component in bacteria)	BACL5_MAG-120820-bin39_00785	-1
+LIBV01000058.1	1301	1507	+	BACL5_MAG-120820-bin39_00785	BACL5_MAG-120820-bin39	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	BACL5_MAG-120820-bin39_00785	0
+LIBV01000058.1	1683	2045	-	BACL5_MAG-120820-bin39_00786	BACL5_MAG-120820-bin39	120	OG0004317	NA	NA	NA	NA	NA	BACL5_MAG-120820-bin39_00785	1
+LIBV01000058.1	2244	3314	+	BACL5_MAG-120820-bin39_00788	BACL5_MAG-120820-bin39	356	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	BACL5_MAG-120820-bin39_00785	2
+LIBV01000058.1	3295	4119	-	BACL5_MAG-120820-bin39_00789	BACL5_MAG-120820-bin39	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	BACL5_MAG-120820-bin39_00785	3
+LIBV01000058.1	4170	5276	+	BACL5_MAG-120820-bin39_00790	BACL5_MAG-120820-bin39	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	BACL5_MAG-120820-bin39_00785	4
+LIBW01000219.1	126	1016	+	BACL5_MAG-121015-bin10_01232	BACL5_MAG-121015-bin10	296	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG1080	PtsA	Phosphoenolpyruvate-protein kinase (PTS system EI component in bacteria)	BACL5_MAG-121015-bin10_01233	-1
+LIBW01000219.1	1028	1234	+	BACL5_MAG-121015-bin10_01233	BACL5_MAG-121015-bin10	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	BACL5_MAG-121015-bin10_01233	0
+LIBW01000219.1	1410	1559	-	BACL5_MAG-121015-bin10_01234	BACL5_MAG-121015-bin10	49	OG0004317	NA	NA	NA	NA	NA	BACL5_MAG-121015-bin10_01233	1
+CP031125.1	479968	480384	-	FZCC0015_00508	FZCC0015	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	FZCC0015_00513	-5
+CP031125.1	480491	480919	-	FZCC0015_00509	FZCC0015	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	FZCC0015_00513	-4
+CP031125.1	481013	481513	+	FZCC0015_00510	FZCC0015	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	FZCC0015_00513	-3
+CP031125.1	481513	482724	+	FZCC0015_00511	FZCC0015	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	FZCC0015_00513	-2
+CP031125.1	482761	483513	+	FZCC0015_00512	FZCC0015	250	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	FZCC0015_00513	-1
+CP031125.1	483540	483725	+	FZCC0015_00513	FZCC0015	61	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	FZCC0015_00513	0
+CP031125.1	483801	485873	-	FZCC0015_00514	FZCC0015	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	FZCC0015_00513	1
+CP031125.1	485931	486179	-	FZCC0015_00515	FZCC0015	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	FZCC0015_00513	2
+CP031125.1	486192	486560	-	FZCC0015_00516	FZCC0015	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	FZCC0015_00513	3
+CP031125.1	486560	488779	-	FZCC0015_00517	FZCC0015	739	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	FZCC0015_00513	4
+CP031125.1	488790	490382	-	FZCC0015_00518	FZCC0015	530	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	FZCC0015_00513	5
+O147DRAFT_scaffold00001.1	741767	742780	-	HIMB122_00770	HIMB122	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB122_00775	-5
+O147DRAFT_scaffold00001.1	742895	743698	+	HIMB122_00771	HIMB122	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB122_00775	-4
+O147DRAFT_scaffold00001.1	743664	744560	+	HIMB122_00772	HIMB122	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB122_00775	-3
+O147DRAFT_scaffold00001.1	744560	746626	+	HIMB122_00773	HIMB122	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB122_00775	-2
+O147DRAFT_scaffold00001.1	746626	749286	+	HIMB122_00774	HIMB122	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB122_00775	-1
+O147DRAFT_scaffold00001.1	749297	749503	+	HIMB122_00775	HIMB122	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB122_00775	0
+O147DRAFT_scaffold00001.1	749807	750754	+	HIMB122_00777	HIMB122	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB122_00775	1
+O147DRAFT_scaffold00001.1	750735	751559	-	HIMB122_00778	HIMB122	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB122_00775	2
+O147DRAFT_scaffold00001.1	751611	752717	+	HIMB122_00779	HIMB122	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB122_00775	3
+O147DRAFT_scaffold00001.1	752718	753590	+	HIMB122_00780	HIMB122	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB122_00775	4
+O147DRAFT_scaffold00001.1	753598	753783	+	HIMB122_00781	HIMB122	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB122_00775	5
+NZ_LAMZ01000001.1	1195176	1196189	-	HIMB140_01293	HIMB140	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB140_01298	-5
+NZ_LAMZ01000001.1	1196304	1197107	+	HIMB140_01294	HIMB140	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB140_01298	-4
+NZ_LAMZ01000001.1	1197073	1197969	+	HIMB140_01295	HIMB140	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB140_01298	-3
+NZ_LAMZ01000001.1	1197969	1200035	+	HIMB140_01296	HIMB140	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB140_01298	-2
+NZ_LAMZ01000001.1	1200035	1202695	+	HIMB140_01297	HIMB140	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB140_01298	-1
+NZ_LAMZ01000001.1	1202706	1202912	+	HIMB140_01298	HIMB140	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB140_01298	0
+NZ_LAMZ01000001.1	1203216	1204163	+	HIMB140_01300	HIMB140	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB140_01298	1
+NZ_LAMZ01000001.1	1204144	1204968	-	HIMB140_01301	HIMB140	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB140_01298	2
+NZ_LAMZ01000001.1	1205020	1206126	+	HIMB140_01302	HIMB140	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB140_01298	3
+NZ_LAMZ01000001.1	1206127	1206999	+	HIMB140_01303	HIMB140	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB140_01298	4
+NZ_LAMZ01000001.1	1207007	1207192	+	HIMB140_01304	HIMB140	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB140_01298	5
+HIMB1413-00000000001	1211324	1212916	+	HIMB1413_01312	HIMB1413	530	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	HIMB1413_01317	-5
+HIMB1413-00000000001	1212927	1215146	+	HIMB1413_01313	HIMB1413	739	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	HIMB1413_01317	-4
+HIMB1413-00000000001	1215146	1215514	+	HIMB1413_01314	HIMB1413	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	HIMB1413_01317	-3
+HIMB1413-00000000001	1215527	1215775	+	HIMB1413_01315	HIMB1413	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	HIMB1413_01317	-2
+HIMB1413-00000000001	1215833	1217905	+	HIMB1413_01316	HIMB1413	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	HIMB1413_01317	-1
+HIMB1413-00000000001	1217959	1218165	-	HIMB1413_01317	HIMB1413	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1413_01317	0
+HIMB1413-00000000001	1218193	1218969	-	HIMB1413_01318	HIMB1413	258	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	HIMB1413_01317	1
+HIMB1413-00000000001	1218982	1220193	-	HIMB1413_01319	HIMB1413	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	HIMB1413_01317	2
+HIMB1413-00000000001	1220193	1220693	-	HIMB1413_01320	HIMB1413	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	HIMB1413_01317	3
+HIMB1413-00000000001	1220785	1221213	+	HIMB1413_01321	HIMB1413	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB1413_01317	4
+HIMB1413-00000000001	1221319	1221735	+	HIMB1413_01322	HIMB1413	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	HIMB1413_01317	5
+HIMB1430-00000000003	31857	32870	-	HIMB1430_00405	HIMB1430	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1430_00410	-5
+HIMB1430-00000000003	32985	33788	+	HIMB1430_00406	HIMB1430	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1430_00410	-4
+HIMB1430-00000000003	33754	34650	+	HIMB1430_00407	HIMB1430	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1430_00410	-3
+HIMB1430-00000000003	34650	36716	+	HIMB1430_00408	HIMB1430	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1430_00410	-2
+HIMB1430-00000000003	36716	39376	+	HIMB1430_00409	HIMB1430	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1430_00410	-1
+HIMB1430-00000000003	39387	39593	+	HIMB1430_00410	HIMB1430	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1430_00410	0
+HIMB1430-00000000003	39897	40844	+	HIMB1430_00412	HIMB1430	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1430_00410	1
+HIMB1430-00000000003	40825	41649	-	HIMB1430_00413	HIMB1430	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1430_00410	2
+HIMB1430-00000000003	41701	42807	+	HIMB1430_00414	HIMB1430	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1430_00410	3
+HIMB1430-00000000003	42808	43680	+	HIMB1430_00415	HIMB1430	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1430_00410	4
+HIMB1430-00000000003	43688	43873	+	HIMB1430_00416	HIMB1430	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1430_00410	5
+HIMB1456-00000000002	245979	247571	+	HIMB1456_00567	HIMB1456	530	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	HIMB1456_00572	-5
+HIMB1456-00000000002	247582	249801	+	HIMB1456_00568	HIMB1456	739	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	HIMB1456_00572	-4
+HIMB1456-00000000002	249801	250169	+	HIMB1456_00569	HIMB1456	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	HIMB1456_00572	-3
+HIMB1456-00000000002	250182	250430	+	HIMB1456_00570	HIMB1456	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	HIMB1456_00572	-2
+HIMB1456-00000000002	250488	252560	+	HIMB1456_00571	HIMB1456	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	HIMB1456_00572	-1
+HIMB1456-00000000002	252615	252821	-	HIMB1456_00572	HIMB1456	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1456_00572	0
+HIMB1456-00000000002	252839	253624	-	HIMB1456_00573	HIMB1456	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	HIMB1456_00572	1
+HIMB1456-00000000002	253628	254839	-	HIMB1456_00574	HIMB1456	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	HIMB1456_00572	2
+HIMB1456-00000000002	254836	255339	-	HIMB1456_00575	HIMB1456	167	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	HIMB1456_00572	3
+HIMB1456-00000000002	255431	255859	+	HIMB1456_00576	HIMB1456	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB1456_00572	4
+HIMB1456-00000000002	255965	256381	+	HIMB1456_00577	HIMB1456	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	HIMB1456_00572	5
+HIMB1485-00000000002	380484	380669	-	HIMB1485_00897	HIMB1485	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1485_00903	-5
+HIMB1485-00000000002	380677	381549	-	HIMB1485_00898	HIMB1485	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1485_00903	-4
+HIMB1485-00000000002	381550	382656	-	HIMB1485_00899	HIMB1485	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1485_00903	-3
+HIMB1485-00000000002	382708	383532	+	HIMB1485_00900	HIMB1485	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1485_00903	-2
+HIMB1485-00000000002	383513	384460	-	HIMB1485_00901	HIMB1485	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1485_00903	-1
+HIMB1485-00000000002	384764	384970	-	HIMB1485_00903	HIMB1485	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1485_00903	0
+HIMB1485-00000000002	384981	387641	-	HIMB1485_00904	HIMB1485	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1485_00903	1
+HIMB1485-00000000002	387641	389707	-	HIMB1485_00905	HIMB1485	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1485_00903	2
+HIMB1485-00000000002	389707	390603	-	HIMB1485_00906	HIMB1485	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1485_00903	3
+HIMB1485-00000000002	390569	391372	-	HIMB1485_00907	HIMB1485	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1485_00903	4
+HIMB1485-00000000002	391487	392500	+	HIMB1485_00908	HIMB1485	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1485_00903	5
+HIMB1488-00000000001	1459593	1460009	-	HIMB1488_01574	HIMB1488	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	HIMB1488_01579	-5
+HIMB1488-00000000001	1460116	1460544	-	HIMB1488_01575	HIMB1488	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB1488_01579	-4
+HIMB1488-00000000001	1460639	1461139	+	HIMB1488_01576	HIMB1488	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	HIMB1488_01579	-3
+HIMB1488-00000000001	1461139	1462350	+	HIMB1488_01577	HIMB1488	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	HIMB1488_01579	-2
+HIMB1488-00000000001	1462354	1463139	+	HIMB1488_01578	HIMB1488	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	HIMB1488_01579	-1
+HIMB1488-00000000001	1463167	1463373	+	HIMB1488_01579	HIMB1488	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1488_01579	0
+HIMB1488-00000000001	1463429	1465501	-	HIMB1488_01580	HIMB1488	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	HIMB1488_01579	1
+HIMB1488-00000000001	1465559	1465807	-	HIMB1488_01581	HIMB1488	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	HIMB1488_01579	2
+HIMB1488-00000000001	1465820	1466188	-	HIMB1488_01582	HIMB1488	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	HIMB1488_01579	3
+HIMB1488-00000000001	1466188	1468404	-	HIMB1488_01583	HIMB1488	738	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	HIMB1488_01579	4
+HIMB1488-00000000001	1468415	1469968	-	HIMB1488_01584	HIMB1488	517	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	HIMB1488_01579	5
+HIMB1490-00000000004	71805	72677	-	HIMB1490_00310	HIMB1490	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1490_00316	-5
+HIMB1490-00000000004	72678	73784	-	HIMB1490_00311	HIMB1490	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1490_00316	-4
+HIMB1490-00000000004	73836	74660	+	HIMB1490_00312	HIMB1490	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1490_00316	-3
+HIMB1490-00000000004	74668	75558	-	HIMB1490_00313	HIMB1490	296	OG0001697	NA	NA	COG3128	PiuC	Predicted 2-oxoglutarate- and Fe(II)-dependent dioxygenase YbiX	HIMB1490_00316	-2
+HIMB1490-00000000004	75558	76505	-	HIMB1490_00314	HIMB1490	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1490_00316	-1
+HIMB1490-00000000004	76809	77015	-	HIMB1490_00316	HIMB1490	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1490_00316	0
+HIMB1490-00000000004	77026	79686	-	HIMB1490_00317	HIMB1490	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1490_00316	1
+HIMB1490-00000000004	79686	81752	-	HIMB1490_00318	HIMB1490	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1490_00316	2
+HIMB1490-00000000004	81752	82648	-	HIMB1490_00319	HIMB1490	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1490_00316	3
+HIMB1490-00000000004	82614	83417	-	HIMB1490_00320	HIMB1490	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1490_00316	4
+HIMB1490-00000000004	83532	84545	+	HIMB1490_00321	HIMB1490	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1490_00316	5
+HIMB1491-00000000001	715360	716373	-	HIMB1491_00743	HIMB1491	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1491_00748	-5
+HIMB1491-00000000001	716488	717291	+	HIMB1491_00744	HIMB1491	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1491_00748	-4
+HIMB1491-00000000001	717257	718153	+	HIMB1491_00745	HIMB1491	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1491_00748	-3
+HIMB1491-00000000001	718153	720219	+	HIMB1491_00746	HIMB1491	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1491_00748	-2
+HIMB1491-00000000001	720219	722879	+	HIMB1491_00747	HIMB1491	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1491_00748	-1
+HIMB1491-00000000001	722890	723096	+	HIMB1491_00748	HIMB1491	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1491_00748	0
+HIMB1491-00000000001	723400	724347	+	HIMB1491_00750	HIMB1491	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1491_00748	1
+HIMB1491-00000000001	724347	725237	+	HIMB1491_00751	HIMB1491	296	OG0001697	NA	NA	COG3128	PiuC	Predicted 2-oxoglutarate- and Fe(II)-dependent dioxygenase YbiX	HIMB1491_00748	2
+HIMB1491-00000000001	725245	726069	-	HIMB1491_00752	HIMB1491	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1491_00748	3
+HIMB1491-00000000001	726121	727227	+	HIMB1491_00753	HIMB1491	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1491_00748	4
+HIMB1491-00000000001	727228	728100	+	HIMB1491_00754	HIMB1491	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1491_00748	5
+HIMB1492-00000000016	8800	8985	-	HIMB1492_00359	HIMB1492	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1492_00365	-5
+HIMB1492-00000000016	8993	9865	-	HIMB1492_00360	HIMB1492	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1492_00365	-4
+HIMB1492-00000000016	9866	10972	-	HIMB1492_00361	HIMB1492	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1492_00365	-3
+HIMB1492-00000000016	11024	11848	+	HIMB1492_00362	HIMB1492	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1492_00365	-2
+HIMB1492-00000000016	11829	12899	-	HIMB1492_00363	HIMB1492	356	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1492_00365	-1
+HIMB1492-00000000016	13080	13286	-	HIMB1492_00365	HIMB1492	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1492_00365	0
+HIMB1493-00000000001	40349	41362	-	HIMB1493_00050	HIMB1493	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1493_00055	-5
+HIMB1493-00000000001	41477	42280	+	HIMB1493_00051	HIMB1493	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1493_00055	-4
+HIMB1493-00000000001	42246	43142	+	HIMB1493_00052	HIMB1493	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1493_00055	-3
+HIMB1493-00000000001	43142	45208	+	HIMB1493_00053	HIMB1493	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1493_00055	-2
+HIMB1493-00000000001	45208	47865	+	HIMB1493_00054	HIMB1493	885	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1493_00055	-1
+HIMB1493-00000000001	47879	48085	+	HIMB1493_00055	HIMB1493	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1493_00055	0
+HIMB1493-00000000001	48389	49336	+	HIMB1493_00057	HIMB1493	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1493_00055	1
+HIMB1493-00000000001	49317	50141	-	HIMB1493_00058	HIMB1493	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1493_00055	2
+HIMB1493-00000000001	50193	51299	+	HIMB1493_00059	HIMB1493	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1493_00055	3
+HIMB1493-00000000001	51300	52172	+	HIMB1493_00060	HIMB1493	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1493_00055	4
+HIMB1493-00000000001	52180	52365	+	HIMB1493_00061	HIMB1493	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1493_00055	5
+HIMB1494-00000000002	379540	379725	-	HIMB1494_01504	HIMB1494	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1494_01510	-5
+HIMB1494-00000000002	379733	380605	-	HIMB1494_01505	HIMB1494	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1494_01510	-4
+HIMB1494-00000000002	380606	381712	-	HIMB1494_01506	HIMB1494	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1494_01510	-3
+HIMB1494-00000000002	381764	382588	+	HIMB1494_01507	HIMB1494	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1494_01510	-2
+HIMB1494-00000000002	382569	383516	-	HIMB1494_01508	HIMB1494	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1494_01510	-1
+HIMB1494-00000000002	383820	384026	-	HIMB1494_01510	HIMB1494	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1494_01510	0
+HIMB1494-00000000002	384037	386697	-	HIMB1494_01511	HIMB1494	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1494_01510	1
+HIMB1494-00000000002	386697	388763	-	HIMB1494_01512	HIMB1494	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1494_01510	2
+HIMB1494-00000000002	388763	389659	-	HIMB1494_01513	HIMB1494	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1494_01510	3
+HIMB1494-00000000002	389625	390428	-	HIMB1494_01514	HIMB1494	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1494_01510	4
+HIMB1494-00000000002	390543	391556	+	HIMB1494_01515	HIMB1494	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1494_01510	5
+HIMB1495-00000000001	1374125	1374310	-	HIMB1495_01482	HIMB1495	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1495_01488	-5
+HIMB1495-00000000001	1374318	1375190	-	HIMB1495_01483	HIMB1495	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1495_01488	-4
+HIMB1495-00000000001	1375191	1376297	-	HIMB1495_01484	HIMB1495	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1495_01488	-3
+HIMB1495-00000000001	1376349	1377173	+	HIMB1495_01485	HIMB1495	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1495_01488	-2
+HIMB1495-00000000001	1377154	1378101	-	HIMB1495_01486	HIMB1495	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1495_01488	-1
+HIMB1495-00000000001	1378405	1378611	-	HIMB1495_01488	HIMB1495	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1495_01488	0
+HIMB1495-00000000001	1378622	1381282	-	HIMB1495_01489	HIMB1495	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1495_01488	1
+HIMB1495-00000000001	1381282	1383348	-	HIMB1495_01490	HIMB1495	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1495_01488	2
+HIMB1495-00000000001	1383348	1384244	-	HIMB1495_01491	HIMB1495	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1495_01488	3
+HIMB1495-00000000001	1384210	1385013	-	HIMB1495_01492	HIMB1495	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1495_01488	4
+HIMB1495-00000000001	1385128	1386141	+	HIMB1495_01493	HIMB1495	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1495_01488	5
+HIMB1507-00000000001	739513	740526	-	HIMB1507_00764	HIMB1507	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1507_00769	-5
+HIMB1507-00000000001	740641	741444	+	HIMB1507_00765	HIMB1507	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1507_00769	-4
+HIMB1507-00000000001	741410	742306	+	HIMB1507_00766	HIMB1507	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1507_00769	-3
+HIMB1507-00000000001	742306	744372	+	HIMB1507_00767	HIMB1507	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1507_00769	-2
+HIMB1507-00000000001	744372	747032	+	HIMB1507_00768	HIMB1507	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1507_00769	-1
+HIMB1507-00000000001	747043	747249	+	HIMB1507_00769	HIMB1507	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1507_00769	0
+HIMB1507-00000000001	747401	749881	+	HIMB1507_00770	HIMB1507	826	OG0001665	K01153	type I restriction enzyme, R subunit [EC:3.1.21.3]	COG4096	HsdR	Type I site-specific restriction endonuclease, part of a restriction-modification system	HIMB1507_00769	1
+HIMB1507-00000000001	749874	752345	+	HIMB1507_00771	HIMB1507	823	OG0001393	K03427	type I restriction enzyme M protein [EC:2.1.1.72]	COG0286	HsdM	Type I restriction-modification system, DNA methylase subunit	HIMB1507_00769	2
+HIMB1507-00000000001	752766	753713	+	HIMB1507_00773	HIMB1507	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1507_00769	3
+HIMB1507-00000000001	753694	754518	-	HIMB1507_00774	HIMB1507	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1507_00769	4
+HIMB1507-00000000001	754570	755676	+	HIMB1507_00775	HIMB1507	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1507_00769	5
+HIMB1513-00000000001	732271	733284	-	HIMB1513_00758	HIMB1513	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1513_00763	-5
+HIMB1513-00000000001	733399	734202	+	HIMB1513_00759	HIMB1513	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1513_00763	-4
+HIMB1513-00000000001	734168	735064	+	HIMB1513_00760	HIMB1513	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1513_00763	-3
+HIMB1513-00000000001	735064	737130	+	HIMB1513_00761	HIMB1513	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1513_00763	-2
+HIMB1513-00000000001	737130	739790	+	HIMB1513_00762	HIMB1513	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1513_00763	-1
+HIMB1513-00000000001	739802	740008	+	HIMB1513_00763	HIMB1513	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1513_00763	0
+HIMB1513-00000000001	740311	741258	+	HIMB1513_00765	HIMB1513	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1513_00763	1
+HIMB1513-00000000001	741239	742063	-	HIMB1513_00766	HIMB1513	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1513_00763	2
+HIMB1513-00000000001	742115	743221	+	HIMB1513_00767	HIMB1513	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1513_00763	3
+HIMB1513-00000000001	743222	744094	+	HIMB1513_00768	HIMB1513	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1513_00763	4
+HIMB1513-00000000001	744102	744287	+	HIMB1513_00769	HIMB1513	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1513_00763	5
+HIMB1518-00000000001	195800	196813	-	HIMB1518_00205	HIMB1518	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1518_00210	-5
+HIMB1518-00000000001	196928	197731	+	HIMB1518_00206	HIMB1518	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1518_00210	-4
+HIMB1518-00000000001	197697	198593	+	HIMB1518_00207	HIMB1518	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1518_00210	-3
+HIMB1518-00000000001	198593	200659	+	HIMB1518_00208	HIMB1518	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1518_00210	-2
+HIMB1518-00000000001	200659	203316	+	HIMB1518_00209	HIMB1518	885	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1518_00210	-1
+HIMB1518-00000000001	203330	203536	+	HIMB1518_00210	HIMB1518	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1518_00210	0
+HIMB1518-00000000001	203840	204787	+	HIMB1518_00212	HIMB1518	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1518_00210	1
+HIMB1518-00000000001	204768	205592	-	HIMB1518_00213	HIMB1518	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1518_00210	2
+HIMB1518-00000000001	205644	206750	+	HIMB1518_00214	HIMB1518	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1518_00210	3
+HIMB1518-00000000001	206751	207623	+	HIMB1518_00215	HIMB1518	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1518_00210	4
+HIMB1518-00000000001	207631	207816	+	HIMB1518_00216	HIMB1518	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1518_00210	5
+HIMB1521-00000000003	38961	39974	-	HIMB1521_00317	HIMB1521	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1521_00322	-5
+HIMB1521-00000000003	40089	40892	+	HIMB1521_00318	HIMB1521	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1521_00322	-4
+HIMB1521-00000000003	40858	41754	+	HIMB1521_00319	HIMB1521	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1521_00322	-3
+HIMB1521-00000000003	41754	43820	+	HIMB1521_00320	HIMB1521	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1521_00322	-2
+HIMB1521-00000000003	43820	46480	+	HIMB1521_00321	HIMB1521	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1521_00322	-1
+HIMB1521-00000000003	46492	46698	+	HIMB1521_00322	HIMB1521	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1521_00322	0
+HIMB1521-00000000003	47001	47948	+	HIMB1521_00324	HIMB1521	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1521_00322	1
+HIMB1521-00000000003	47929	48753	-	HIMB1521_00325	HIMB1521	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1521_00322	2
+HIMB1521-00000000003	48805	49911	+	HIMB1521_00326	HIMB1521	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1521_00322	3
+HIMB1521-00000000003	49912	50784	+	HIMB1521_00327	HIMB1521	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1521_00322	4
+HIMB1521-00000000003	50792	50977	+	HIMB1521_00328	HIMB1521	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1521_00322	5
+HIMB1526-00000000001	1207983	1208168	-	HIMB1526_01289	HIMB1526	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1526_01295	-5
+HIMB1526-00000000001	1208176	1209048	-	HIMB1526_01290	HIMB1526	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1526_01295	-4
+HIMB1526-00000000001	1209049	1210155	-	HIMB1526_01291	HIMB1526	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1526_01295	-3
+HIMB1526-00000000001	1210207	1211031	+	HIMB1526_01292	HIMB1526	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1526_01295	-2
+HIMB1526-00000000001	1211012	1211959	-	HIMB1526_01293	HIMB1526	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1526_01295	-1
+HIMB1526-00000000001	1212263	1212469	-	HIMB1526_01295	HIMB1526	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1526_01295	0
+HIMB1526-00000000001	1212480	1215140	-	HIMB1526_01296	HIMB1526	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1526_01295	1
+HIMB1526-00000000001	1215140	1217206	-	HIMB1526_01297	HIMB1526	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1526_01295	2
+HIMB1526-00000000001	1217206	1218102	-	HIMB1526_01298	HIMB1526	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1526_01295	3
+HIMB1526-00000000001	1218068	1218871	-	HIMB1526_01299	HIMB1526	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1526_01295	4
+HIMB1526-00000000001	1218986	1219999	+	HIMB1526_01300	HIMB1526	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1526_01295	5
+HIMB1542-00000000001	83168	84181	-	HIMB1542_00092	HIMB1542	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1542_00097	-5
+HIMB1542-00000000001	84296	85099	+	HIMB1542_00093	HIMB1542	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1542_00097	-4
+HIMB1542-00000000001	85065	85961	+	HIMB1542_00094	HIMB1542	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1542_00097	-3
+HIMB1542-00000000001	85961	88027	+	HIMB1542_00095	HIMB1542	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1542_00097	-2
+HIMB1542-00000000001	88027	90687	+	HIMB1542_00096	HIMB1542	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1542_00097	-1
+HIMB1542-00000000001	90701	90907	+	HIMB1542_00097	HIMB1542	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1542_00097	0
+HIMB1542-00000000001	91119	91964	+	HIMB1542_00098	HIMB1542	281	OG0000088	NA	NA	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HIMB1542_00097	1
+HIMB1542-00000000001	91973	92758	+	HIMB1542_00099	HIMB1542	261	OG0000035	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	HIMB1542_00097	2
+HIMB1542-00000000001	93169	94116	+	HIMB1542_00101	HIMB1542	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1542_00097	3
+HIMB1542-00000000001	94097	94921	-	HIMB1542_00102	HIMB1542	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1542_00097	4
+HIMB1542-00000000001	94973	96079	+	HIMB1542_00103	HIMB1542	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1542_00097	5
+HIMB1552-00000000001	758346	758531	-	HIMB1552_00824	HIMB1552	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1552_00830	-5
+HIMB1552-00000000001	758539	759411	-	HIMB1552_00825	HIMB1552	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1552_00830	-4
+HIMB1552-00000000001	759412	760518	-	HIMB1552_00826	HIMB1552	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1552_00830	-3
+HIMB1552-00000000001	760570	761394	+	HIMB1552_00827	HIMB1552	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1552_00830	-2
+HIMB1552-00000000001	761375	762322	-	HIMB1552_00828	HIMB1552	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1552_00830	-1
+HIMB1552-00000000001	762626	762832	-	HIMB1552_00830	HIMB1552	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1552_00830	0
+HIMB1552-00000000001	762843	765503	-	HIMB1552_00831	HIMB1552	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1552_00830	1
+HIMB1552-00000000001	765503	767569	-	HIMB1552_00832	HIMB1552	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1552_00830	2
+HIMB1552-00000000001	767569	768465	-	HIMB1552_00833	HIMB1552	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1552_00830	3
+HIMB1552-00000000001	768431	769234	-	HIMB1552_00834	HIMB1552	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1552_00830	4
+HIMB1552-00000000001	769349	770362	+	HIMB1552_00835	HIMB1552	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1552_00830	5
+HIMB1556-00000000001	658708	659721	-	HIMB1556_00678	HIMB1556	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1556_00683	-5
+HIMB1556-00000000001	659836	660639	+	HIMB1556_00679	HIMB1556	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1556_00683	-4
+HIMB1556-00000000001	660605	661501	+	HIMB1556_00680	HIMB1556	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1556_00683	-3
+HIMB1556-00000000001	661501	663567	+	HIMB1556_00681	HIMB1556	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1556_00683	-2
+HIMB1556-00000000001	663567	666227	+	HIMB1556_00682	HIMB1556	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1556_00683	-1
+HIMB1556-00000000001	666238	666444	+	HIMB1556_00683	HIMB1556	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1556_00683	0
+HIMB1556-00000000001	666748	667695	+	HIMB1556_00685	HIMB1556	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1556_00683	1
+HIMB1556-00000000001	667676	668500	-	HIMB1556_00686	HIMB1556	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1556_00683	2
+HIMB1556-00000000001	668552	669658	+	HIMB1556_00687	HIMB1556	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1556_00683	3
+HIMB1556-00000000001	669659	670531	+	HIMB1556_00688	HIMB1556	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1556_00683	4
+HIMB1556-00000000001	670539	670724	+	HIMB1556_00689	HIMB1556	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1556_00683	5
+HIMB1559-00000000001	999611	1000027	-	HIMB1559_01099	HIMB1559	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	HIMB1559_01104	-5
+HIMB1559-00000000001	1000134	1000562	-	HIMB1559_01100	HIMB1559	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB1559_01104	-4
+HIMB1559-00000000001	1000657	1001157	+	HIMB1559_01101	HIMB1559	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	HIMB1559_01104	-3
+HIMB1559-00000000001	1001157	1002368	+	HIMB1559_01102	HIMB1559	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	HIMB1559_01104	-2
+HIMB1559-00000000001	1002372	1003157	+	HIMB1559_01103	HIMB1559	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	HIMB1559_01104	-1
+HIMB1559-00000000001	1003185	1003391	+	HIMB1559_01104	HIMB1559	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1559_01104	0
+HIMB1559-00000000001	1003446	1005518	-	HIMB1559_01105	HIMB1559	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	HIMB1559_01104	1
+HIMB1559-00000000001	1005577	1005825	-	HIMB1559_01106	HIMB1559	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	HIMB1559_01104	2
+HIMB1559-00000000001	1005838	1006206	-	HIMB1559_01107	HIMB1559	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	HIMB1559_01104	3
+HIMB1559-00000000001	1006206	1008422	-	HIMB1559_01108	HIMB1559	738	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	HIMB1559_01104	4
+HIMB1559-00000000001	1008433	1009986	-	HIMB1559_01109	HIMB1559	517	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	HIMB1559_01104	5
+HIMB1573-00000000001	710100	711113	-	HIMB1573_00761	HIMB1573	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1573_00766	-5
+HIMB1573-00000000001	711228	712031	+	HIMB1573_00762	HIMB1573	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1573_00766	-4
+HIMB1573-00000000001	711997	712893	+	HIMB1573_00763	HIMB1573	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1573_00766	-3
+HIMB1573-00000000001	712893	714959	+	HIMB1573_00764	HIMB1573	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1573_00766	-2
+HIMB1573-00000000001	714959	717619	+	HIMB1573_00765	HIMB1573	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1573_00766	-1
+HIMB1573-00000000001	717630	717836	+	HIMB1573_00766	HIMB1573	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1573_00766	0
+HIMB1573-00000000001	718142	719089	+	HIMB1573_00768	HIMB1573	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1573_00766	1
+HIMB1573-00000000001	719070	719894	-	HIMB1573_00769	HIMB1573	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1573_00766	2
+HIMB1573-00000000001	719946	721052	+	HIMB1573_00770	HIMB1573	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1573_00766	3
+HIMB1573-00000000001	721053	721925	+	HIMB1573_00771	HIMB1573	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1573_00766	4
+HIMB1573-00000000001	721933	722118	+	HIMB1573_00772	HIMB1573	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1573_00766	5
+HIMB1577-00000000001	386668	386853	-	HIMB1577_00418	HIMB1577	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1577_00424	-5
+HIMB1577-00000000001	386861	387733	-	HIMB1577_00419	HIMB1577	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1577_00424	-4
+HIMB1577-00000000001	387734	388840	-	HIMB1577_00420	HIMB1577	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1577_00424	-3
+HIMB1577-00000000001	388892	389716	+	HIMB1577_00421	HIMB1577	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1577_00424	-2
+HIMB1577-00000000001	389697	390767	-	HIMB1577_00422	HIMB1577	356	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1577_00424	-1
+HIMB1577-00000000001	390947	391153	-	HIMB1577_00424	HIMB1577	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1577_00424	0
+HIMB1577-00000000001	391164	393824	-	HIMB1577_00425	HIMB1577	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1577_00424	1
+HIMB1577-00000000001	393824	395890	-	HIMB1577_00426	HIMB1577	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1577_00424	2
+HIMB1577-00000000001	395890	396786	-	HIMB1577_00427	HIMB1577	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1577_00424	3
+HIMB1577-00000000001	396752	397555	-	HIMB1577_00428	HIMB1577	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1577_00424	4
+HIMB1577-00000000001	397670	398683	+	HIMB1577_00429	HIMB1577	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1577_00424	5
+HIMB1587-00000000002	182612	183028	-	HIMB1587_01092	HIMB1587	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	HIMB1587_01097	-5
+HIMB1587-00000000002	183135	183563	-	HIMB1587_01093	HIMB1587	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB1587_01097	-4
+HIMB1587-00000000002	183658	184158	+	HIMB1587_01094	HIMB1587	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	HIMB1587_01097	-3
+HIMB1587-00000000002	184158	185369	+	HIMB1587_01095	HIMB1587	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	HIMB1587_01097	-2
+HIMB1587-00000000002	185373	186158	+	HIMB1587_01096	HIMB1587	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	HIMB1587_01097	-1
+HIMB1587-00000000002	186186	186392	+	HIMB1587_01097	HIMB1587	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1587_01097	0
+HIMB1587-00000000002	186447	188519	-	HIMB1587_01098	HIMB1587	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	HIMB1587_01097	1
+HIMB1587-00000000002	188578	188826	-	HIMB1587_01099	HIMB1587	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	HIMB1587_01097	2
+HIMB1587-00000000002	188839	189207	-	HIMB1587_01100	HIMB1587	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	HIMB1587_01097	3
+HIMB1587-00000000002	189207	191423	-	HIMB1587_01101	HIMB1587	738	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	HIMB1587_01097	4
+HIMB1587-00000000002	191434	192987	-	HIMB1587_01102	HIMB1587	517	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	HIMB1587_01097	5
+HIMB1593-00000000001	1354663	1354848	-	HIMB1593_01438	HIMB1593	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1593_01444	-5
+HIMB1593-00000000001	1354856	1355728	-	HIMB1593_01439	HIMB1593	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1593_01444	-4
+HIMB1593-00000000001	1355729	1356829	-	HIMB1593_01440	HIMB1593	366	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1593_01444	-3
+HIMB1593-00000000001	1356881	1357705	+	HIMB1593_01441	HIMB1593	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1593_01444	-2
+HIMB1593-00000000001	1357686	1358633	-	HIMB1593_01442	HIMB1593	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1593_01444	-1
+HIMB1593-00000000001	1358937	1359143	-	HIMB1593_01444	HIMB1593	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1593_01444	0
+HIMB1593-00000000001	1359154	1361814	-	HIMB1593_01445	HIMB1593	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1593_01444	1
+HIMB1593-00000000001	1361814	1363880	-	HIMB1593_01446	HIMB1593	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1593_01444	2
+HIMB1593-00000000001	1363880	1364776	-	HIMB1593_01447	HIMB1593	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1593_01444	3
+HIMB1593-00000000001	1364742	1365545	-	HIMB1593_01448	HIMB1593	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1593_01444	4
+HIMB1593-00000000001	1365660	1366673	+	HIMB1593_01449	HIMB1593	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1593_01444	5
+HIMB1597-00000000001	801435	802988	+	HIMB1597_00844	HIMB1597	517	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	HIMB1597_00849	-5
+HIMB1597-00000000001	802999	805215	+	HIMB1597_00845	HIMB1597	738	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	HIMB1597_00849	-4
+HIMB1597-00000000001	805215	805583	+	HIMB1597_00846	HIMB1597	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	HIMB1597_00849	-3
+HIMB1597-00000000001	805596	805844	+	HIMB1597_00847	HIMB1597	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	HIMB1597_00849	-2
+HIMB1597-00000000001	805903	807975	+	HIMB1597_00848	HIMB1597	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	HIMB1597_00849	-1
+HIMB1597-00000000001	808030	808236	-	HIMB1597_00849	HIMB1597	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1597_00849	0
+HIMB1597-00000000001	808264	809049	-	HIMB1597_00850	HIMB1597	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	HIMB1597_00849	1
+HIMB1597-00000000001	809053	810264	-	HIMB1597_00851	HIMB1597	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	HIMB1597_00849	2
+HIMB1597-00000000001	810264	810764	-	HIMB1597_00852	HIMB1597	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	HIMB1597_00849	3
+HIMB1597-00000000001	810859	811287	+	HIMB1597_00853	HIMB1597	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB1597_00849	4
+HIMB1597-00000000001	811394	811810	+	HIMB1597_00854	HIMB1597	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	HIMB1597_00849	5
+HIMB1602-00000000066	325	2985	+	HIMB1602_00726	HIMB1602	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1602_00727	-1
+HIMB1602-00000000066	2996	3202	+	HIMB1602_00727	HIMB1602	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1602_00727	0
+HIMB1602-00000000066	3275	4477	-	HIMB1602_00728	HIMB1602	400	OG0002065	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1602_00727	1
+HIMB1602-00000000066	4567	4908	-	HIMB1602_00729	HIMB1602	113	NA	NA	NA	NA	NA	NA	HIMB1602_00727	2
+HIMB1611-00000000001	52393	53406	-	HIMB1611_00063	HIMB1611	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1611_00068	-5
+HIMB1611-00000000001	53521	54324	+	HIMB1611_00064	HIMB1611	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1611_00068	-4
+HIMB1611-00000000001	54290	55186	+	HIMB1611_00065	HIMB1611	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1611_00068	-3
+HIMB1611-00000000001	55186	57252	+	HIMB1611_00066	HIMB1611	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1611_00068	-2
+HIMB1611-00000000001	57252	59912	+	HIMB1611_00067	HIMB1611	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1611_00068	-1
+HIMB1611-00000000001	59923	60129	+	HIMB1611_00068	HIMB1611	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1611_00068	0
+HIMB1611-00000000001	60433	61380	+	HIMB1611_00070	HIMB1611	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1611_00068	1
+HIMB1611-00000000001	61361	62185	-	HIMB1611_00071	HIMB1611	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1611_00068	2
+HIMB1611-00000000001	62237	63343	+	HIMB1611_00072	HIMB1611	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1611_00068	3
+HIMB1611-00000000001	63344	64216	+	HIMB1611_00073	HIMB1611	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1611_00068	4
+HIMB1611-00000000001	64224	64409	+	HIMB1611_00074	HIMB1611	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1611_00068	5
+HIMB1623-00000000012	214845	215030	-	HIMB1623_00856	HIMB1623	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1623_00862	-5
+HIMB1623-00000000012	215038	215910	-	HIMB1623_00857	HIMB1623	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1623_00862	-4
+HIMB1623-00000000012	215912	217021	-	HIMB1623_00858	HIMB1623	369	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1623_00862	-3
+HIMB1623-00000000012	217073	217897	+	HIMB1623_00859	HIMB1623	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1623_00862	-2
+HIMB1623-00000000012	217878	218948	-	HIMB1623_00860	HIMB1623	356	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1623_00862	-1
+HIMB1623-00000000012	219129	219335	-	HIMB1623_00862	HIMB1623	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1623_00862	0
+HIMB1623-00000000012	219346	222006	-	HIMB1623_00863	HIMB1623	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1623_00862	1
+HIMB1623-00000000012	222006	224072	-	HIMB1623_00864	HIMB1623	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1623_00862	2
+HIMB1623-00000000012	224072	224968	-	HIMB1623_00865	HIMB1623	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1623_00862	3
+HIMB1623-00000000012	224934	225737	-	HIMB1623_00866	HIMB1623	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1623_00862	4
+HIMB1623-00000000012	225852	226865	+	HIMB1623_00867	HIMB1623	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1623_00862	5
+HIMB1631-00000000001	716430	716615	-	HIMB1631_00786	HIMB1631	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1631_00792	-5
+HIMB1631-00000000001	716623	717495	-	HIMB1631_00787	HIMB1631	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1631_00792	-4
+HIMB1631-00000000001	717496	718602	-	HIMB1631_00788	HIMB1631	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1631_00792	-3
+HIMB1631-00000000001	718654	719478	+	HIMB1631_00789	HIMB1631	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1631_00792	-2
+HIMB1631-00000000001	719459	720529	-	HIMB1631_00790	HIMB1631	356	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1631_00792	-1
+HIMB1631-00000000001	720709	720915	-	HIMB1631_00792	HIMB1631	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1631_00792	0
+HIMB1631-00000000001	720926	723586	-	HIMB1631_00793	HIMB1631	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1631_00792	1
+HIMB1631-00000000001	723586	725652	-	HIMB1631_00794	HIMB1631	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1631_00792	2
+HIMB1631-00000000001	725652	726548	-	HIMB1631_00795	HIMB1631	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1631_00792	3
+HIMB1631-00000000001	726514	727317	-	HIMB1631_00796	HIMB1631	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1631_00792	4
+HIMB1631-00000000001	727432	728445	+	HIMB1631_00797	HIMB1631	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1631_00792	5
+HIMB1636-00000000001	57165	58178	-	HIMB1636_00061	HIMB1636	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1636_00066	-5
+HIMB1636-00000000001	58293	59096	+	HIMB1636_00062	HIMB1636	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1636_00066	-4
+HIMB1636-00000000001	59062	59958	+	HIMB1636_00063	HIMB1636	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1636_00066	-3
+HIMB1636-00000000001	59958	62024	+	HIMB1636_00064	HIMB1636	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1636_00066	-2
+HIMB1636-00000000001	62024	64684	+	HIMB1636_00065	HIMB1636	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1636_00066	-1
+HIMB1636-00000000001	64695	64901	+	HIMB1636_00066	HIMB1636	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1636_00066	0
+HIMB1636-00000000001	65205	66152	+	HIMB1636_00068	HIMB1636	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1636_00066	1
+HIMB1636-00000000001	66133	66957	-	HIMB1636_00069	HIMB1636	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1636_00066	2
+HIMB1636-00000000001	67009	68115	+	HIMB1636_00070	HIMB1636	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1636_00066	3
+HIMB1636-00000000001	68116	68988	+	HIMB1636_00071	HIMB1636	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1636_00066	4
+HIMB1636-00000000001	68996	69181	+	HIMB1636_00072	HIMB1636	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1636_00066	5
+HIMB1641-00000000001	645815	646828	-	HIMB1641_00668	HIMB1641	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1641_00673	-5
+HIMB1641-00000000001	646943	647746	+	HIMB1641_00669	HIMB1641	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1641_00673	-4
+HIMB1641-00000000001	647712	648608	+	HIMB1641_00670	HIMB1641	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1641_00673	-3
+HIMB1641-00000000001	648608	650674	+	HIMB1641_00671	HIMB1641	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1641_00673	-2
+HIMB1641-00000000001	650674	653334	+	HIMB1641_00672	HIMB1641	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1641_00673	-1
+HIMB1641-00000000001	653345	653551	+	HIMB1641_00673	HIMB1641	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1641_00673	0
+HIMB1641-00000000001	653855	654802	+	HIMB1641_00675	HIMB1641	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1641_00673	1
+HIMB1641-00000000001	654783	655607	-	HIMB1641_00676	HIMB1641	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1641_00673	2
+HIMB1641-00000000001	655659	656765	+	HIMB1641_00677	HIMB1641	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1641_00673	3
+HIMB1641-00000000001	656766	657638	+	HIMB1641_00678	HIMB1641	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1641_00673	4
+HIMB1641-00000000001	657646	657831	+	HIMB1641_00679	HIMB1641	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1641_00673	5
+HIMB1662-00000000001	652437	653450	-	HIMB1662_00671	HIMB1662	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1662_00676	-5
+HIMB1662-00000000001	653565	654368	+	HIMB1662_00672	HIMB1662	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1662_00676	-4
+HIMB1662-00000000001	654334	655230	+	HIMB1662_00673	HIMB1662	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1662_00676	-3
+HIMB1662-00000000001	655230	657296	+	HIMB1662_00674	HIMB1662	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1662_00676	-2
+HIMB1662-00000000001	657296	659956	+	HIMB1662_00675	HIMB1662	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1662_00676	-1
+HIMB1662-00000000001	659967	660173	+	HIMB1662_00676	HIMB1662	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1662_00676	0
+HIMB1662-00000000001	660378	660839	+	HIMB1662_00677	HIMB1662	153	OG0004287	NA	NA	NA	NA	NA	HIMB1662_00676	1
+HIMB1662-00000000001	661129	662391	-	HIMB1662_00678	HIMB1662	420	OG0002065	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1662_00676	2
+HIMB1662-00000000001	662553	663206	-	HIMB1662_00679	HIMB1662	217	OG0002432	NA	NA	NA	NA	NA	HIMB1662_00676	3
+HIMB1662-00000000001	663372	664112	+	HIMB1662_00680	HIMB1662	246	OG0002064	NA	NA	COG1961	SpoIVCA	Site-specific DNA recombinase SpoIVCA/DNA invertase PinE	HIMB1662_00676	4
+HIMB1662-00000000001	664254	664688	+	HIMB1662_00681	HIMB1662	144	OG0000120	NA	NA	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	HIMB1662_00676	5
+HIMB1685-00000000001	1216531	1217544	-	HIMB1685_01320	HIMB1685	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1685_01325	-5
+HIMB1685-00000000001	1217659	1218462	+	HIMB1685_01321	HIMB1685	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1685_01325	-4
+HIMB1685-00000000001	1218428	1219324	+	HIMB1685_01322	HIMB1685	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1685_01325	-3
+HIMB1685-00000000001	1219324	1221390	+	HIMB1685_01323	HIMB1685	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1685_01325	-2
+HIMB1685-00000000001	1221390	1224050	+	HIMB1685_01324	HIMB1685	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1685_01325	-1
+HIMB1685-00000000001	1224061	1224267	+	HIMB1685_01325	HIMB1685	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1685_01325	0
+HIMB1685-00000000001	1224571	1225518	+	HIMB1685_01327	HIMB1685	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1685_01325	1
+HIMB1685-00000000001	1225499	1226323	-	HIMB1685_01328	HIMB1685	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1685_01325	2
+HIMB1685-00000000001	1226375	1227481	+	HIMB1685_01329	HIMB1685	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1685_01325	3
+HIMB1685-00000000001	1227482	1228354	+	HIMB1685_01330	HIMB1685	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1685_01325	4
+HIMB1685-00000000001	1228362	1228547	+	HIMB1685_01331	HIMB1685	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1685_01325	5
+HIMB1695-00000000002	44847	45860	-	HIMB1695_01341	HIMB1695	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1695_01346	-5
+HIMB1695-00000000002	45975	46778	+	HIMB1695_01342	HIMB1695	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1695_01346	-4
+HIMB1695-00000000002	46744	47640	+	HIMB1695_01343	HIMB1695	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1695_01346	-3
+HIMB1695-00000000002	47640	49706	+	HIMB1695_01344	HIMB1695	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1695_01346	-2
+HIMB1695-00000000002	49706	52366	+	HIMB1695_01345	HIMB1695	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1695_01346	-1
+HIMB1695-00000000002	52377	52583	+	HIMB1695_01346	HIMB1695	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1695_01346	0
+HIMB1695-00000000002	52887	53834	+	HIMB1695_01348	HIMB1695	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1695_01346	1
+HIMB1695-00000000002	53815	54639	-	HIMB1695_01349	HIMB1695	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1695_01346	2
+HIMB1695-00000000002	54691	55797	+	HIMB1695_01350	HIMB1695	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1695_01346	3
+HIMB1695-00000000002	55798	56670	+	HIMB1695_01351	HIMB1695	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1695_01346	4
+HIMB1695-00000000002	56678	56863	+	HIMB1695_01352	HIMB1695	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1695_01346	5
+HIMB1702-00000000001	1376682	1376867	-	HIMB1702_01453	HIMB1702	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1702_01459	-5
+HIMB1702-00000000001	1376875	1377747	-	HIMB1702_01454	HIMB1702	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1702_01459	-4
+HIMB1702-00000000001	1377748	1378854	-	HIMB1702_01455	HIMB1702	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1702_01459	-3
+HIMB1702-00000000001	1378906	1379730	+	HIMB1702_01456	HIMB1702	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1702_01459	-2
+HIMB1702-00000000001	1379711	1380658	-	HIMB1702_01457	HIMB1702	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1702_01459	-1
+HIMB1702-00000000001	1380962	1381168	-	HIMB1702_01459	HIMB1702	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1702_01459	0
+HIMB1702-00000000001	1381179	1383839	-	HIMB1702_01460	HIMB1702	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1702_01459	1
+HIMB1702-00000000001	1383839	1385905	-	HIMB1702_01461	HIMB1702	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1702_01459	2
+HIMB1702-00000000001	1385905	1386801	-	HIMB1702_01462	HIMB1702	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1702_01459	3
+HIMB1702-00000000001	1386767	1387570	-	HIMB1702_01463	HIMB1702	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1702_01459	4
+HIMB1702-00000000001	1387685	1388698	+	HIMB1702_01464	HIMB1702	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1702_01459	5
+HIMB1709-00000000002	196995	197180	-	HIMB1709_01462	HIMB1709	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1709_01468	-5
+HIMB1709-00000000002	197188	198060	-	HIMB1709_01463	HIMB1709	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1709_01468	-4
+HIMB1709-00000000002	198062	199171	-	HIMB1709_01464	HIMB1709	369	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1709_01468	-3
+HIMB1709-00000000002	199223	200047	+	HIMB1709_01465	HIMB1709	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1709_01468	-2
+HIMB1709-00000000002	200028	200975	-	HIMB1709_01466	HIMB1709	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1709_01468	-1
+HIMB1709-00000000002	201278	201484	-	HIMB1709_01468	HIMB1709	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1709_01468	0
+HIMB1709-00000000002	201495	204155	-	HIMB1709_01469	HIMB1709	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1709_01468	1
+HIMB1709-00000000002	204155	206221	-	HIMB1709_01470	HIMB1709	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1709_01468	2
+HIMB1709-00000000002	206221	207117	-	HIMB1709_01471	HIMB1709	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1709_01468	3
+HIMB1709-00000000002	207083	207886	-	HIMB1709_01472	HIMB1709	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1709_01468	4
+HIMB1709-00000000002	208001	209014	+	HIMB1709_01473	HIMB1709	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1709_01468	5
+HIMB1710-00000000003	1368929	1369114	-	HIMB1710_01463	HIMB1710	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1710_01469	-5
+HIMB1710-00000000003	1369122	1369994	-	HIMB1710_01464	HIMB1710	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1710_01469	-4
+HIMB1710-00000000003	1369995	1371101	-	HIMB1710_01465	HIMB1710	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1710_01469	-3
+HIMB1710-00000000003	1371153	1371977	+	HIMB1710_01466	HIMB1710	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1710_01469	-2
+HIMB1710-00000000003	1371958	1372905	-	HIMB1710_01467	HIMB1710	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1710_01469	-1
+HIMB1710-00000000003	1373209	1373415	-	HIMB1710_01469	HIMB1710	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1710_01469	0
+HIMB1710-00000000003	1373426	1376086	-	HIMB1710_01470	HIMB1710	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1710_01469	1
+HIMB1710-00000000003	1376086	1378152	-	HIMB1710_01471	HIMB1710	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1710_01469	2
+HIMB1710-00000000003	1378152	1379048	-	HIMB1710_01472	HIMB1710	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1710_01469	3
+HIMB1710-00000000003	1379014	1379817	-	HIMB1710_01473	HIMB1710	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1710_01469	4
+HIMB1710-00000000003	1379932	1380945	+	HIMB1710_01474	HIMB1710	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1710_01469	5
+HIMB1723-00000000001	980279	981292	-	HIMB1723_01036	HIMB1723	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1723_01041	-5
+HIMB1723-00000000001	981407	982210	+	HIMB1723_01037	HIMB1723	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1723_01041	-4
+HIMB1723-00000000001	982176	983072	+	HIMB1723_01038	HIMB1723	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1723_01041	-3
+HIMB1723-00000000001	983072	985138	+	HIMB1723_01039	HIMB1723	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1723_01041	-2
+HIMB1723-00000000001	985138	987798	+	HIMB1723_01040	HIMB1723	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1723_01041	-1
+HIMB1723-00000000001	987809	988015	+	HIMB1723_01041	HIMB1723	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1723_01041	0
+HIMB1723-00000000001	988319	989266	+	HIMB1723_01043	HIMB1723	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1723_01041	1
+HIMB1723-00000000001	989274	991049	+	HIMB1723_01044	HIMB1723	591	OG0002274	NA	NA	NA	NA	NA	HIMB1723_01041	2
+HIMB1723-00000000001	991046	992539	-	HIMB1723_01045	HIMB1723	497	OG0001636	NA	NA	COG1232	HemY	Protoporphyrinogen oxidase HemY/PPOX	HIMB1723_01041	3
+HIMB1723-00000000001	992545	993453	-	HIMB1723_01046	HIMB1723	302	OG0000030	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB1723_01041	4
+HIMB1723-00000000001	993468	994292	-	HIMB1723_01047	HIMB1723	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1723_01041	5
+HIMB1746-00000000001	55671	56684	-	HIMB1746_00068	HIMB1746	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1746_00073	-5
+HIMB1746-00000000001	56799	57602	+	HIMB1746_00069	HIMB1746	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1746_00073	-4
+HIMB1746-00000000001	57568	58464	+	HIMB1746_00070	HIMB1746	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1746_00073	-3
+HIMB1746-00000000001	58464	60533	+	HIMB1746_00071	HIMB1746	689	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1746_00073	-2
+HIMB1746-00000000001	60530	63190	+	HIMB1746_00072	HIMB1746	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1746_00073	-1
+HIMB1746-00000000001	63201	63407	+	HIMB1746_00073	HIMB1746	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1746_00073	0
+HIMB1746-00000000001	63480	64682	-	HIMB1746_00074	HIMB1746	400	OG0002065	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1746_00073	1
+HIMB1746-00000000001	64750	65322	-	HIMB1746_00075	HIMB1746	190	NA	NA	NA	NA	NA	NA	HIMB1746_00073	2
+HIMB1746-00000000001	65538	66200	+	HIMB1746_00076	HIMB1746	220	NA	NA	NA	COG1961	SpoIVCA	Site-specific DNA recombinase SpoIVCA/DNA invertase PinE	HIMB1746_00073	3
+HIMB1746-00000000001	66222	67139	+	HIMB1746_00077	HIMB1746	305	OG0001997	NA	NA	NA	NA	NA	HIMB1746_00073	4
+HIMB1746-00000000001	67139	67477	+	HIMB1746_00078	HIMB1746	112	OG0003162	NA	NA	NA	NA	NA	HIMB1746_00073	5
+HIMB1748-00000000003	51238	52251	-	HIMB1748_00685	HIMB1748	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1748_00690	-5
+HIMB1748-00000000003	52366	53169	+	HIMB1748_00686	HIMB1748	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1748_00690	-4
+HIMB1748-00000000003	53135	54031	+	HIMB1748_00687	HIMB1748	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1748_00690	-3
+HIMB1748-00000000003	54031	56097	+	HIMB1748_00688	HIMB1748	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1748_00690	-2
+HIMB1748-00000000003	56097	58757	+	HIMB1748_00689	HIMB1748	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1748_00690	-1
+HIMB1748-00000000003	58768	58974	+	HIMB1748_00690	HIMB1748	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1748_00690	0
+HIMB1748-00000000003	59278	60225	+	HIMB1748_00692	HIMB1748	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1748_00690	1
+HIMB1748-00000000003	60206	61030	-	HIMB1748_00693	HIMB1748	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1748_00690	2
+HIMB1748-00000000003	61082	62188	+	HIMB1748_00694	HIMB1748	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1748_00690	3
+HIMB1748-00000000003	62189	63061	+	HIMB1748_00695	HIMB1748	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1748_00690	4
+HIMB1748-00000000003	63069	63254	+	HIMB1748_00696	HIMB1748	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1748_00690	5
+HIMB1758-00000000001	711209	712222	-	HIMB1758_00736	HIMB1758	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1758_00741	-5
+HIMB1758-00000000001	712337	713140	+	HIMB1758_00737	HIMB1758	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1758_00741	-4
+HIMB1758-00000000001	713106	714002	+	HIMB1758_00738	HIMB1758	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1758_00741	-3
+HIMB1758-00000000001	714002	716068	+	HIMB1758_00739	HIMB1758	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1758_00741	-2
+HIMB1758-00000000001	716068	718728	+	HIMB1758_00740	HIMB1758	886	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1758_00741	-1
+HIMB1758-00000000001	718739	718945	+	HIMB1758_00741	HIMB1758	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1758_00741	0
+HIMB1758-00000000001	719249	720196	+	HIMB1758_00743	HIMB1758	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1758_00741	1
+HIMB1758-00000000001	720177	721001	-	HIMB1758_00744	HIMB1758	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1758_00741	2
+HIMB1758-00000000001	721053	722159	+	HIMB1758_00745	HIMB1758	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1758_00741	3
+HIMB1758-00000000001	722160	723032	+	HIMB1758_00746	HIMB1758	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1758_00741	4
+HIMB1758-00000000001	723040	723225	+	HIMB1758_00747	HIMB1758	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1758_00741	5
+HIMB1765-00000000001	920802	921218	-	HIMB1765_01005	HIMB1765	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	HIMB1765_01010	-5
+HIMB1765-00000000001	921325	921753	-	HIMB1765_01006	HIMB1765	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB1765_01010	-4
+HIMB1765-00000000001	921848	922348	+	HIMB1765_01007	HIMB1765	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	HIMB1765_01010	-3
+HIMB1765-00000000001	922348	923559	+	HIMB1765_01008	HIMB1765	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	HIMB1765_01010	-2
+HIMB1765-00000000001	923563	924348	+	HIMB1765_01009	HIMB1765	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	HIMB1765_01010	-1
+HIMB1765-00000000001	924376	924582	+	HIMB1765_01010	HIMB1765	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1765_01010	0
+HIMB1765-00000000001	924637	926709	-	HIMB1765_01011	HIMB1765	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	HIMB1765_01010	1
+HIMB1765-00000000001	926767	927015	-	HIMB1765_01012	HIMB1765	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	HIMB1765_01010	2
+HIMB1765-00000000001	927028	927396	-	HIMB1765_01013	HIMB1765	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	HIMB1765_01010	3
+HIMB1765-00000000001	927396	929612	-	HIMB1765_01014	HIMB1765	738	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	HIMB1765_01010	4
+HIMB1765-00000000001	929623	931176	-	HIMB1765_01015	HIMB1765	517	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	HIMB1765_01010	5
+HIMB1770-00000000001	1122771	1123784	-	HIMB1770_01206	HIMB1770	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1770_01211	-5
+HIMB1770-00000000001	1123899	1124702	+	HIMB1770_01207	HIMB1770	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1770_01211	-4
+HIMB1770-00000000001	1124668	1125564	+	HIMB1770_01208	HIMB1770	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1770_01211	-3
+HIMB1770-00000000001	1125564	1127630	+	HIMB1770_01209	HIMB1770	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1770_01211	-2
+HIMB1770-00000000001	1127630	1130287	+	HIMB1770_01210	HIMB1770	885	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1770_01211	-1
+HIMB1770-00000000001	1130301	1130507	+	HIMB1770_01211	HIMB1770	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1770_01211	0
+HIMB1770-00000000001	1130811	1131758	+	HIMB1770_01213	HIMB1770	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1770_01211	1
+HIMB1770-00000000001	1131739	1132563	-	HIMB1770_01214	HIMB1770	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1770_01211	2
+HIMB1770-00000000001	1132615	1133721	+	HIMB1770_01215	HIMB1770	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1770_01211	3
+HIMB1770-00000000001	1133722	1134594	+	HIMB1770_01216	HIMB1770	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1770_01211	4
+HIMB1770-00000000001	1134602	1134787	+	HIMB1770_01217	HIMB1770	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1770_01211	5
+HIMB1782-00000000002	53541	54554	-	HIMB1782_00966	HIMB1782	337	OG0000641	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	COG0142	IspA	Geranylgeranyl pyrophosphate synthase	HIMB1782_00971	-5
+HIMB1782-00000000002	54669	55472	+	HIMB1782_00967	HIMB1782	267	OG0000623	K04773	protease IV [EC:3.4.21.-]	COG0616	SppA	Periplasmic serine protease, ClpP class	HIMB1782_00971	-4
+HIMB1782-00000000002	55438	56334	+	HIMB1782_00968	HIMB1782	298	OG0000870	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	COG0752	GlyQ	Glycyl-tRNA synthetase, alpha subunit	HIMB1782_00971	-3
+HIMB1782-00000000002	56334	58400	+	HIMB1782_00969	HIMB1782	688	OG0000882	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	COG0751	GlyS	Glycyl-tRNA synthetase, beta subunit	HIMB1782_00971	-2
+HIMB1782-00000000002	58400	61057	+	HIMB1782_00970	HIMB1782	885	OG0000798	K01006	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	COG0574	PpsA	Phosphoenolpyruvate synthase/pyruvate phosphate dikinase	HIMB1782_00971	-1
+HIMB1782-00000000002	61072	61278	+	HIMB1782_00971	HIMB1782	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB1782_00971	0
+HIMB1782-00000000002	61582	62529	+	HIMB1782_00973	HIMB1782	315	OG0000256	K03465	thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	ThyX	Thymidylate synthase ThyX, FAD-dependent family	HIMB1782_00971	1
+HIMB1782-00000000002	62510	63334	-	HIMB1782_00974	HIMB1782	274	OG0000361	K03593	ATP-binding protein involved in chromosome partitioning	COG0489	Mrp	Fe-S cluster carrier ATPase, Mrp/ApbC/NBP35 family	HIMB1782_00971	2
+HIMB1782-00000000002	63386	64492	+	HIMB1782_00975	HIMB1782	368	OG0000394	K04088	modulator of FtsH protease HflK	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1782_00971	3
+HIMB1782-00000000002	64493	65365	+	HIMB1782_00976	HIMB1782	290	OG0000387	K04087	modulator of FtsH protease HflC	COG0330	HflC	Regulator of protease activity HflC, stomatin/prohibitin superfamily	HIMB1782_00971	4
+HIMB1782-00000000002	65373	65558	+	HIMB1782_00977	HIMB1782	61	OG0000827	K09937	uncharacterized protein	COG3242	YjeT	Uncharacterized conserved protein YjeT, DUF2065 family	HIMB1782_00971	5
+HIMB2211-00000000001	1286953	1288506	+	HIMB2211_01380	HIMB2211	517	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	HIMB2211_01385	-5
+HIMB2211-00000000001	1288517	1290733	+	HIMB2211_01381	HIMB2211	738	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	HIMB2211_01385	-4
+HIMB2211-00000000001	1290733	1291101	+	HIMB2211_01382	HIMB2211	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	HIMB2211_01385	-3
+HIMB2211-00000000001	1291114	1291362	+	HIMB2211_01383	HIMB2211	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	HIMB2211_01385	-2
+HIMB2211-00000000001	1291420	1293492	+	HIMB2211_01384	HIMB2211	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	HIMB2211_01385	-1
+HIMB2211-00000000001	1293547	1293753	-	HIMB2211_01385	HIMB2211	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HIMB2211_01385	0
+HIMB2211-00000000001	1293781	1294566	-	HIMB2211_01386	HIMB2211	261	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	HIMB2211_01385	1
+HIMB2211-00000000001	1294570	1295781	-	HIMB2211_01387	HIMB2211	403	OG0000133	NA	NA	COG0304	FabB	3-oxoacyl-(acyl-carrier-protein) synthase	HIMB2211_01385	2
+HIMB2211-00000000001	1295781	1296281	-	HIMB2211_01388	HIMB2211	166	OG0000292	K01716	3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]	COG0764	FabA	3-hydroxymyristoyl/3-hydroxydecanoyl-(acyl carrier protein) dehydratase	HIMB2211_01385	3
+HIMB2211-00000000001	1296376	1296804	+	HIMB2211_01389	HIMB2211	142	OG0000765	K09826	Fur family transcriptional regulator, iron response regulator	COG0735	Fur	Fe2+ or Zn2+ uptake regulation protein Fur/Zur	HIMB2211_01385	4
+HIMB2211-00000000001	1296911	1297327	+	HIMB2211_01390	HIMB2211	138	OG0001232	NA	NA	COG1592	YotD	Rubrerythrin	HIMB2211_01385	5
+KI421438.1	205548	205658	-	HTCC1013_01014	HTCC1013	36	OG0004437	NA	NA	NA	NA	NA	HTCC1013_01019	-5
+KI421438.1	205743	205928	-	HTCC1013_01015	HTCC1013	61	OG0002061	NA	NA	NA	NA	NA	HTCC1013_01019	-4
+KI421438.1	205954	207297	-	HTCC1013_01016	HTCC1013	447	OG0001113	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HTCC1013_01019	-3
+KI421438.1	207415	207966	-	HTCC1013_01017	HTCC1013	183	OG0001939	K07397	putative redox protein	COG1765	YhfA	Uncharacterized OsmC-related protein/domain	HTCC1013_01019	-2
+KI421438.1	208038	209099	-	HTCC1013_01018	HTCC1013	353	OG0001216	K00544	betaine-homocysteine S-methyltransferase [EC:2.1.1.5]	COG0646	MetH1	Methionine synthase I (cobalamin-dependent), methyltransferase domain	HTCC1013_01019	-1
+KI421438.1	209527	209733	-	HTCC1013_01019	HTCC1013	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HTCC1013_01019	0
+KI421438.1	209819	210499	-	HTCC1013_01020	HTCC1013	226	OG0001023	K07657	two-component system, OmpR family, phosphate regulon response regulator PhoB	COG0745	OmpR	DNA-binding response regulator, OmpR family, contains REC and winged-helix (wHTH) domain	HTCC1013_01019	1
+KI421438.1	210499	211197	-	HTCC1013_01021	HTCC1013	232	OG0001017	K02039	phosphate transport system protein	COG0704	PhoU	Phosphate uptake regulator PhoU	HTCC1013_01019	2
+KI421438.1	211200	211967	-	HTCC1013_01022	HTCC1013	255	OG0001022	K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]	COG1117	PstB	ABC-type phosphate transport system, ATPase component	HTCC1013_01019	3
+KI421438.1	211967	213226	-	HTCC1013_01023	HTCC1013	419	OG0001025	K02038	phosphate transport system permease protein	COG0581	PstA	ABC-type phosphate transport system, permease component	HTCC1013_01019	4
+KI421438.1	213219	214619	-	HTCC1013_01024	HTCC1013	466	OG0001032	K02037	phosphate transport system permease protein	COG0573	PstC	ABC-type phosphate transport system, permease component	HTCC1013_01019	5
+A3QGDRAFT_scaffold_1.2	228908	229459	-	HTCC1016_01115	HTCC1016	183	OG0001939	K07397	putative redox protein	COG1765	YhfA	Uncharacterized OsmC-related protein/domain	HTCC1016_01120	-5
+A3QGDRAFT_scaffold_1.2	229532	230593	-	HTCC1016_01116	HTCC1016	353	OG0001216	K00544	betaine-homocysteine S-methyltransferase [EC:2.1.1.5]	COG0646	MetH1	Methionine synthase I (cobalamin-dependent), methyltransferase domain	HTCC1016_01120	-4
+A3QGDRAFT_scaffold_1.2	231072	231635	-	HTCC1016_01117	HTCC1016	187	OG0002948	NA	NA	NA	NA	NA	HTCC1016_01120	-3
+A3QGDRAFT_scaffold_1.2	231700	232956	-	HTCC1016_01118	HTCC1016	418	OG0002427	K01455	formamidase [EC:3.5.1.49]	COG2421	FmdA	Acetamidase/formamidase	HTCC1016_01120	-2
+A3QGDRAFT_scaffold_1.2	233068	233592	-	HTCC1016_01119	HTCC1016	174	OG0002124	NA	NA	NA	NA	NA	HTCC1016_01120	-1
+A3QGDRAFT_scaffold_1.2	233621	233827	-	HTCC1016_01120	HTCC1016	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HTCC1016_01120	0
+A3QGDRAFT_scaffold_1.2	234269	235234	+	HTCC1016_01121	HTCC1016	321	OG0001433	NA	NA	NA	NA	NA	HTCC1016_01120	1
+A3QGDRAFT_scaffold_1.2	235416	235763	-	HTCC1016_01122	HTCC1016	115	OG0002643	NA	NA	NA	NA	NA	HTCC1016_01120	2
+A3QGDRAFT_scaffold_1.2	235897	236820	+	HTCC1016_01123	HTCC1016	307	OG0000009	K00344	NADPH:quinone reductase [EC:1.6.5.5]	COG0604	Qor	NADPH:quinone reductase or related Zn-dependent oxidoreductase	HTCC1016_01120	3
+A3QGDRAFT_scaffold_1.2	236937	237101	-	HTCC1016_01124	HTCC1016	54	OG0002062	NA	NA	NA	NA	NA	HTCC1016_01120	4
+A3QGDRAFT_scaffold_1.2	237098	237280	-	HTCC1016_01125	HTCC1016	60	OG0001317	NA	NA	NA	NA	NA	HTCC1016_01120	5
+ARVY01000001.1	948105	949010	-	HTCC1040_01023	HTCC1040	301	OG0000081	NA	NA	COG0115	IlvE	Branched-chain amino acid aminotransferase/4-amino-4-deoxychorismate lyase	HTCC1040_01028	-5
+ARVY01000001.1	949103	949288	-	HTCC1040_01024	HTCC1040	61	OG0002061	NA	NA	NA	NA	NA	HTCC1040_01028	-4
+ARVY01000001.1	949314	950657	-	HTCC1040_01025	HTCC1040	447	OG0001113	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HTCC1040_01028	-3
+ARVY01000001.1	950775	951326	-	HTCC1040_01026	HTCC1040	183	OG0001939	K07397	putative redox protein	COG1765	YhfA	Uncharacterized OsmC-related protein/domain	HTCC1040_01028	-2
+ARVY01000001.1	951399	952460	-	HTCC1040_01027	HTCC1040	353	OG0001216	K00544	betaine-homocysteine S-methyltransferase [EC:2.1.1.5]	COG0646	MetH1	Methionine synthase I (cobalamin-dependent), methyltransferase domain	HTCC1040_01028	-1
+ARVY01000001.1	952887	953093	-	HTCC1040_01028	HTCC1040	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HTCC1040_01028	0
+ARVY01000001.1	953179	953859	-	HTCC1040_01029	HTCC1040	226	OG0001023	K07657	two-component system, OmpR family, phosphate regulon response regulator PhoB	COG0745	OmpR	DNA-binding response regulator, OmpR family, contains REC and winged-helix (wHTH) domain	HTCC1040_01028	1
+ARVY01000001.1	953859	954557	-	HTCC1040_01030	HTCC1040	232	OG0001017	K02039	phosphate transport system protein	COG0704	PhoU	Phosphate uptake regulator PhoU	HTCC1040_01028	2
+ARVY01000001.1	954560	955327	-	HTCC1040_01031	HTCC1040	255	OG0001022	K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]	COG1117	PstB	ABC-type phosphate transport system, ATPase component	HTCC1040_01028	3
+ARVY01000001.1	955327	956586	-	HTCC1040_01032	HTCC1040	419	OG0001025	K02038	phosphate transport system permease protein	COG0581	PstA	ABC-type phosphate transport system, permease component	HTCC1040_01028	4
+ARVY01000001.1	956579	957979	-	HTCC1040_01033	HTCC1040	466	OG0001032	K02037	phosphate transport system permease protein	COG0573	PstC	ABC-type phosphate transport system, permease component	HTCC1040_01028	5
+CP000084.1	1122717	1123640	-	HTCC1062_01181	HTCC1062	307	OG0001892	NA	NA	NA	NA	NA	HTCC1062_01186	-5
+CP000084.1	1123935	1124120	-	HTCC1062_01182	HTCC1062	61	OG0002061	NA	NA	NA	NA	NA	HTCC1062_01186	-4
+CP000084.1	1124146	1125489	-	HTCC1062_01183	HTCC1062	447	OG0001113	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HTCC1062_01186	-3
+CP000084.1	1125607	1126158	-	HTCC1062_01184	HTCC1062	183	OG0001939	K07397	putative redox protein	COG1765	YhfA	Uncharacterized OsmC-related protein/domain	HTCC1062_01186	-2
+CP000084.1	1126231	1127292	-	HTCC1062_01185	HTCC1062	353	OG0001216	K00544	betaine-homocysteine S-methyltransferase [EC:2.1.1.5]	COG0646	MetH1	Methionine synthase I (cobalamin-dependent), methyltransferase domain	HTCC1062_01186	-1
+CP000084.1	1127719	1127925	-	HTCC1062_01186	HTCC1062	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HTCC1062_01186	0
+CP000084.1	1128011	1128691	-	HTCC1062_01187	HTCC1062	226	OG0001023	K07657	two-component system, OmpR family, phosphate regulon response regulator PhoB	COG0745	OmpR	DNA-binding response regulator, OmpR family, contains REC and winged-helix (wHTH) domain	HTCC1062_01186	1
+CP000084.1	1128691	1129389	-	HTCC1062_01188	HTCC1062	232	OG0001017	K02039	phosphate transport system protein	COG0704	PhoU	Phosphate uptake regulator PhoU	HTCC1062_01186	2
+CP000084.1	1129392	1130159	-	HTCC1062_01189	HTCC1062	255	OG0001022	K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]	COG1117	PstB	ABC-type phosphate transport system, ATPase component	HTCC1062_01186	3
+CP000084.1	1130159	1131418	-	HTCC1062_01190	HTCC1062	419	OG0001025	K02038	phosphate transport system permease protein	COG0581	PstA	ABC-type phosphate transport system, permease component	HTCC1062_01186	4
+CP000084.1	1131411	1132811	-	HTCC1062_01191	HTCC1062	466	OG0001032	K02037	phosphate transport system permease protein	COG0573	PstC	ABC-type phosphate transport system, permease component	HTCC1062_01186	5
+KI421433.1	668701	669504	+	HTCC9022_01290	HTCC9022	267	OG0000498	NA	NA	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	HTCC9022_01295	-5
+KI421433.1	669514	670290	+	HTCC9022_01291	HTCC9022	258	OG0001132	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	HTCC9022_01295	-4
+KI421433.1	670290	671441	+	HTCC9022_01292	HTCC9022	383	OG0001015	NA	NA	COG0006	PepP	Xaa-Pro aminopeptidase	HTCC9022_01295	-3
+KI421433.1	671533	672762	-	HTCC9022_01293	HTCC9022	409	OG0001339	NA	NA	NA	NA	NA	HTCC9022_01295	-2
+KI421433.1	673015	673200	+	HTCC9022_01294	HTCC9022	61	NA	NA	NA	COG0006	PepP	Xaa-Pro aminopeptidase	HTCC9022_01295	-1
+KI421433.1	673208	673414	-	HTCC9022_01295	HTCC9022	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	HTCC9022_01295	0
+KI421433.1	673475	674353	+	HTCC9022_01296	HTCC9022	292	OG0000082	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HTCC9022_01295	1
+KI421433.1	674370	675674	-	HTCC9022_01297	HTCC9022	434	OG0001113	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	HTCC9022_01295	2
+KI421433.1	675714	677498	-	HTCC9022_01298	HTCC9022	594	OG0000014	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	HTCC9022_01295	3
+KI421433.1	677556	677897	+	HTCC9022_01299	HTCC9022	113	OG0000950	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HTCC9022_01295	4
+KI421433.1	677902	679068	+	HTCC9022_01300	HTCC9022	388	OG0000085	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	HTCC9022_01295	5
+JACWDD010000001.1	63451	64653	-	SAG-MED06_00083	SAG-MED06	400	OG0000085	K16846	(2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	SAG-MED06_00088	-5
+JACWDD010000001.1	64622	64906	-	SAG-MED06_00084	SAG-MED06	94	OG0000950	K16845	(2R)-sulfolactate sulfo-lyase subunit alpha [EC:4.4.1.24]	COG2721	UxaA	Altronate dehydratase	SAG-MED06_00088	-4
+JACWDD010000001.1	65018	66802	+	SAG-MED06_00085	SAG-MED06	594	OG0000014	K03852	sulfoacetaldehyde acetyltransferase [EC:2.3.3.15]	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	SAG-MED06_00088	-3
+JACWDD010000001.1	66842	68146	+	SAG-MED06_00086	SAG-MED06	434	OG0001113	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	SAG-MED06_00088	-2
+JACWDD010000001.1	68159	69040	-	SAG-MED06_00087	SAG-MED06	293	OG0000082	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	SAG-MED06_00088	-1
+JACWDD010000001.1	69102	69308	+	SAG-MED06_00088	SAG-MED06	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	SAG-MED06_00088	0
+JACWDD010000001.1	69316	70467	-	SAG-MED06_00089	SAG-MED06	383	OG0001015	NA	NA	COG0006	PepP	Xaa-Pro aminopeptidase	SAG-MED06_00088	1
+JACWDD010000001.1	70467	71243	-	SAG-MED06_00090	SAG-MED06	258	OG0001132	NA	NA	COG3971	MhpD	2-keto-4-pentenoate hydratase	SAG-MED06_00088	2
+JACWDD010000001.1	71252	72055	-	SAG-MED06_00091	SAG-MED06	267	OG0000498	NA	NA	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	SAG-MED06_00088	3
+JACWDD010000001.1	72040	72798	-	SAG-MED06_00092	SAG-MED06	252	OG0000007	K03331	L-xylulose reductase [EC:1.1.1.10]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	SAG-MED06_00088	4
+JACWDD010000001.1	72798	73391	-	SAG-MED06_00093	SAG-MED06	197	OG0000922	NA	NA	COG0861	TerC	Tellurite resistance membrane protein TerC	SAG-MED06_00088	5
+JACWDD010000011.1	27063	27839	+	SAG-MED06_00331	SAG-MED06	258	OG0000237	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	SAG-MED06_00336	-5
+JACWDD010000011.1	27862	29505	+	SAG-MED06_00332	SAG-MED06	547	OG0001078	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	SAG-MED06_00336	-4
+JACWDD010000011.1	29665	29793	+	SAG-MED06_00333	SAG-MED06	42	NA	NA	NA	COG0623	FabI	Enoyl-[acyl-carrier-protein] reductase FabI	SAG-MED06_00336	-3
+JACWDD010000011.1	29883	30605	+	SAG-MED06_00334	SAG-MED06	240	OG0000983	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	SAG-MED06_00336	-2
+JACWDD010000011.1	30624	32261	+	SAG-MED06_00335	SAG-MED06	545	OG0001142	NA	NA	NA	NA	NA	SAG-MED06_00336	-1
+JACWDD010000011.1	32301	32396	+	SAG-MED06_00336	SAG-MED06	31	OG0001534	NA	NA	NA	NA	NA	SAG-MED06_00336	0
+JACWDD010000011.1	32577	34649	-	SAG-MED06_00337	SAG-MED06	690	OG0000258	K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	COG1185	Pnp	Polyribonucleotide nucleotidyltransferase (polynucleotide phosphorylase)	SAG-MED06_00336	1
+JACWDD010000011.1	34702	34950	-	SAG-MED06_00338	SAG-MED06	82	OG0000463	K02956	small subunit ribosomal protein S15	COG0184	RpsO	Ribosomal protein S15P/S13E	SAG-MED06_00336	2
+JACWDD010000011.1	34963	35331	-	SAG-MED06_00339	SAG-MED06	122	OG0000449	K02834	ribosome-binding factor A	COG0858	RbfA	Ribosome-binding factor RbfA	SAG-MED06_00336	3
+JACWDD010000011.1	35331	37547	-	SAG-MED06_00340	SAG-MED06	738	OG0000339	K02519	translation initiation factor IF-2	COG0532	InfB	Translation initiation factor IF-2, a GTPase	SAG-MED06_00336	4
+JACWDD010000011.1	37558	39150	-	SAG-MED06_00341	SAG-MED06	530	OG0000346	K02600	transcription termination/antitermination protein NusA	COG0195	NusA	Transcription antitermination factor NusA, contains S1 and KH domains	SAG-MED06_00336	5
+CP159823.1	818170	818283	+	Uisw_094_00909	Uisw_094	37	OG0001915	NA	NA	NA	NA	NA	Uisw_094_00914	-5
+CP159823.1	818296	818808	+	Uisw_094_00910	Uisw_094	170	OG0001936	NA	NA	NA	NA	NA	Uisw_094_00914	-4
+CP159823.1	818987	819415	-	Uisw_094_00911	Uisw_094	142	OG0001608	NA	NA	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	Uisw_094_00914	-3
+CP159823.1	819555	819707	-	Uisw_094_00912	Uisw_094	50	OG0002050	NA	NA	NA	NA	NA	Uisw_094_00914	-2
+CP159823.1	819755	819934	-	Uisw_094_00913	Uisw_094	59	OG0002651	NA	NA	NA	NA	NA	Uisw_094_00914	-1
+CP159823.1	820481	820687	-	Uisw_094_00914	Uisw_094	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	Uisw_094_00914	0
+CP159823.1	820700	820918	-	Uisw_094_00915	Uisw_094	72	OG0002643	NA	NA	NA	NA	NA	Uisw_094_00914	1
+CP159823.1	821109	821786	-	Uisw_094_00916	Uisw_094	225	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_094_00914	2
+CP159823.1	822161	822325	-	Uisw_094_00917	Uisw_094	54	OG0002062	NA	NA	NA	NA	NA	Uisw_094_00914	3
+CP159823.1	822328	822903	-	Uisw_094_00918	Uisw_094	191	OG0001771	NA	NA	NA	NA	NA	Uisw_094_00914	4
+CP159823.1	822906	824054	-	Uisw_094_00919	Uisw_094	382	OG0001339	NA	NA	NA	NA	NA	Uisw_094_00914	5
+CP159821.1	840535	841062	-	Uisw_101_00897	Uisw_101	175	OG0002124	NA	NA	NA	NA	NA	Uisw_101_00902	-5
+CP159821.1	841172	841423	-	Uisw_101_00898	Uisw_101	83	OG0002642	NA	NA	COG3081	NdpA	dsDNA-binding nucleoid-associated protein YejK/NdpA	Uisw_101_00902	-4
+CP159821.1	841589	841819	-	Uisw_101_00899	Uisw_101	76	OG0003804	NA	NA	NA	NA	NA	Uisw_101_00902	-3
+CP159821.1	842065	843087	-	Uisw_101_00900	Uisw_101	340	OG0000091	NA	NA	NA	NA	NA	Uisw_101_00902	-2
+CP159821.1	843087	843533	-	Uisw_101_00901	Uisw_101	148	OG0001666	NA	NA	NA	NA	NA	Uisw_101_00902	-1
+CP159821.1	843740	843946	-	Uisw_101_00902	Uisw_101	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	Uisw_101_00902	0
+CP159821.1	843959	844306	-	Uisw_101_00903	Uisw_101	115	OG0002643	NA	NA	NA	NA	NA	Uisw_101_00902	1
+CP159821.1	844362	845249	-	Uisw_101_00904	Uisw_101	295	OG0000091	NA	NA	NA	NA	NA	Uisw_101_00902	2
+CP159821.1	845339	846292	-	Uisw_101_00905	Uisw_101	317	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_101_00902	3
+CP159821.1	846392	846556	-	Uisw_101_00906	Uisw_101	54	OG0002062	NA	NA	NA	NA	NA	Uisw_101_00902	4
+CP159821.1	846559	847134	-	Uisw_101_00907	Uisw_101	191	OG0001771	NA	NA	NA	NA	NA	Uisw_101_00902	5
+CP159820.1	852283	852810	-	Uisw_104_00932	Uisw_104	175	OG0002124	NA	NA	NA	NA	NA	Uisw_104_00937	-5
+CP159820.1	852920	853171	-	Uisw_104_00933	Uisw_104	83	OG0002642	NA	NA	COG3081	NdpA	dsDNA-binding nucleoid-associated protein YejK/NdpA	Uisw_104_00937	-4
+CP159820.1	853337	853567	-	Uisw_104_00934	Uisw_104	76	OG0003804	NA	NA	NA	NA	NA	Uisw_104_00937	-3
+CP159820.1	853813	854835	-	Uisw_104_00935	Uisw_104	340	OG0000091	NA	NA	NA	NA	NA	Uisw_104_00937	-2
+CP159820.1	854835	855332	-	Uisw_104_00936	Uisw_104	165	OG0001666	NA	NA	NA	NA	NA	Uisw_104_00937	-1
+CP159820.1	855488	855694	-	Uisw_104_00937	Uisw_104	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	Uisw_104_00937	0
+CP159820.1	855707	856054	-	Uisw_104_00938	Uisw_104	115	OG0002643	NA	NA	NA	NA	NA	Uisw_104_00937	1
+CP159820.1	856110	856997	-	Uisw_104_00939	Uisw_104	295	OG0000091	NA	NA	NA	NA	NA	Uisw_104_00937	2
+CP159820.1	857087	858040	-	Uisw_104_00940	Uisw_104	317	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_104_00937	3
+CP159820.1	858140	858304	-	Uisw_104_00941	Uisw_104	54	OG0002062	NA	NA	NA	NA	NA	Uisw_104_00937	4
+CP159820.1	858301	858483	-	Uisw_104_00942	Uisw_104	60	OG0001317	NA	NA	NA	NA	NA	Uisw_104_00937	5
+CP159809.1	447231	447413	+	Uisw_113_00476	Uisw_113	60	OG0001317	NA	NA	NA	NA	NA	Uisw_113_00481	-5
+CP159809.1	447410	447985	+	Uisw_113_00477	Uisw_113	191	OG0001771	NA	NA	NA	NA	NA	Uisw_113_00481	-4
+CP159809.1	448252	449205	+	Uisw_113_00478	Uisw_113	317	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_113_00481	-3
+CP159809.1	449310	449615	-	Uisw_113_00479	Uisw_113	101	OG0003803	NA	NA	NA	NA	NA	Uisw_113_00481	-2
+CP159809.1	449772	450119	+	Uisw_113_00480	Uisw_113	115	OG0002643	NA	NA	NA	NA	NA	Uisw_113_00481	-1
+CP159809.1	450132	450338	+	Uisw_113_00481	Uisw_113	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	Uisw_113_00481	0
+CP159809.1	450481	450657	+	Uisw_113_00482	Uisw_113	58	OG0002651	NA	NA	NA	NA	NA	Uisw_113_00481	1
+CP159809.1	450669	451010	+	Uisw_113_00483	Uisw_113	113	NA	K05524	ferredoxin	COG1146	PreA	NAD-dependent dihydropyrimidine dehydrogenase, PreA subunit	Uisw_113_00481	2
+CP159809.1	451038	451268	-	Uisw_113_00484	Uisw_113	76	OG0001379	NA	NA	NA	NA	NA	Uisw_113_00481	3
+CP159809.1	451279	451833	-	Uisw_113_00485	Uisw_113	184	OG0000462	K22074	NFU1 iron-sulfur cluster scaffold homolog, mitochondrial	COG0694	NifU	Fe-S cluster biogenesis protein NfuA, 4Fe-4S-binding domain	Uisw_113_00481	4
+CP159809.1	452391	452570	+	Uisw_113_00486	Uisw_113	59	OG0002651	NA	NA	NA	NA	NA	Uisw_113_00481	5
+CP159818.1	783004	783969	-	Uisw_114_00940	Uisw_114	321	OG0002806	NA	NA	NA	NA	NA	Uisw_114_00945	-5
+CP159818.1	784216	784488	-	Uisw_114_00941	Uisw_114	90	NA	NA	NA	NA	NA	NA	Uisw_114_00945	-4
+CP159818.1	784485	785228	-	Uisw_114_00942	Uisw_114	247	NA	K07451	5-methylcytosine-specific restriction enzyme A [EC:3.1.21.-]	COG3183	McrA	5-methylcytosine-specific restriction endonuclease McrA	Uisw_114_00945	-3
+CP159818.1	785293	785412	+	Uisw_114_00943	Uisw_114	39	OG0001793	NA	NA	NA	NA	NA	Uisw_114_00945	-2
+CP159818.1	785454	785981	-	Uisw_114_00944	Uisw_114	175	OG0002124	NA	NA	NA	NA	NA	Uisw_114_00945	-1
+CP159818.1	786009	786215	-	Uisw_114_00945	Uisw_114	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	Uisw_114_00945	0
+CP159818.1	786241	786405	-	Uisw_114_00946	Uisw_114	54	OG0002062	NA	NA	NA	NA	NA	Uisw_114_00945	1
+CP159818.1	786402	786581	-	Uisw_114_00947	Uisw_114	59	OG0001317	NA	NA	NA	NA	NA	Uisw_114_00945	2
+CP159818.1	786590	787027	-	Uisw_114_00948	Uisw_114	145	OG0000889	NA	NA	NA	NA	NA	Uisw_114_00945	3
+CP159818.1	787033	787461	-	Uisw_114_00949	Uisw_114	142	OG0001304	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	Uisw_114_00945	4
+CP159818.1	787596	788462	-	Uisw_114_00950	Uisw_114	288	OG0004571	NA	NA	COG3115	ZipA	Cell division protein ZipA, interacts with FtsZ	Uisw_114_00945	5
+CP159812.1	796518	797045	-	Uisw_136_00869	Uisw_136	175	OG0002124	NA	NA	NA	NA	NA	Uisw_136_00874	-5
+CP159812.1	797154	797405	-	Uisw_136_00870	Uisw_136	83	OG0002642	NA	NA	COG3081	NdpA	dsDNA-binding nucleoid-associated protein YejK/NdpA	Uisw_136_00874	-4
+CP159812.1	797560	797988	-	Uisw_136_00871	Uisw_136	142	OG0001608	NA	NA	COG2905	NA	Signal-transduction protein containing cAMP-binding, CBS, and nucleotidyltransferase domains	Uisw_136_00874	-3
+CP159812.1	798128	798280	-	Uisw_136_00872	Uisw_136	50	OG0002050	NA	NA	NA	NA	NA	Uisw_136_00874	-2
+CP159812.1	798328	798543	-	Uisw_136_00873	Uisw_136	71	OG0002651	NA	NA	NA	NA	NA	Uisw_136_00874	-1
+CP159812.1	799054	799260	-	Uisw_136_00874	Uisw_136	68	OG0001534	NA	NA	COG5515	NA	Uncharacterized conserved protein, DUF1737 domain	Uisw_136_00874	0
+CP159812.1	799273	799620	-	Uisw_136_00875	Uisw_136	115	OG0002643	NA	NA	NA	NA	NA	Uisw_136_00874	1
+CP159812.1	799718	801082	-	Uisw_136_00876	Uisw_136	454	OG0001339	NA	NA	COG1680	AmpC	CubicO group peptidase, beta-lactamase class C family	Uisw_136_00874	2
+CP159812.1	801145	802098	-	Uisw_136_00877	Uisw_136	317	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_136_00874	3
+CP159812.1	802198	802362	-	Uisw_136_00878	Uisw_136	54	OG0002062	NA	NA	NA	NA	NA	Uisw_136_00874	4
+CP159812.1	802365	803510	-	Uisw_136_00879	Uisw_136	381	OG0001339	NA	NA	NA	NA	NA	Uisw_136_00874	5

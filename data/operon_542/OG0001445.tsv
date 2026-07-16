@@ -1,0 +1,980 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CVSB01000020.1	11557	12993	-	AAA795-A20_00176	AAA795-A20	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AAA795-A20_00181	-5
+CVSB01000020.1	12994	13344	-	AAA795-A20_00177	AAA795-A20	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AAA795-A20_00181	-4
+CVSB01000020.1	13392	13889	+	AAA795-A20_00178	AAA795-A20	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AAA795-A20_00181	-3
+CVSB01000020.1	13886	14872	+	AAA795-A20_00179	AAA795-A20	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AAA795-A20_00181	-2
+CVSB01000020.1	14869	15360	+	AAA795-A20_00180	AAA795-A20	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AAA795-A20_00181	-1
+CVSB01000020.1	15357	16256	+	AAA795-A20_00181	AAA795-A20	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AAA795-A20_00181	0
+CVSB01000020.1	16264	16587	-	AAA795-A20_00182	AAA795-A20	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AAA795-A20_00181	1
+CVSB01000020.1	16631	16918	+	AAA795-A20_00183	AAA795-A20	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AAA795-A20_00181	2
+CVSB01000020.1	16951	17838	+	AAA795-A20_00184	AAA795-A20	295	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AAA795-A20_00181	3
+CVSB01000020.1	17848	18483	-	AAA795-A20_00185	AAA795-A20	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AAA795-A20_00181	4
+CVSB01000020.1	18476	19357	-	AAA795-A20_00186	AAA795-A20	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AAA795-A20_00181	5
+CABXTN010000010.1	22552	23418	+	AG-325-C21_00722	AG-325-C21	288	OG0001160	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	COG1209	RmlA1	dTDP-glucose pyrophosphorylase	AG-325-C21_00727	-5
+CABXTN010000010.1	23415	24890	+	AG-325-C21_00723	AG-325-C21	491	OG0001531	NA	NA	COG5305	NA	Uncharacterized membrane protein PF0508, contains N-terminal glycosyltransferase domain of PMT family	AG-325-C21_00727	-4
+CABXTN010000010.1	24883	25650	-	AG-325-C21_00724	AG-325-C21	255	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-325-C21_00727	-3
+CABXTN010000010.1	25634	26701	-	AG-325-C21_00725	AG-325-C21	355	OG0001211	NA	NA	COG0381	WecB	UDP-N-acetylglucosamine 2-epimerase	AG-325-C21_00727	-2
+CABXTN010000010.1	26717	27520	-	AG-325-C21_00726	AG-325-C21	267	OG0000137	NA	NA	COG0223	Fmt	Methionyl-tRNA formyltransferase	AG-325-C21_00727	-1
+CABXTN010000010.1	27517	28458	-	AG-325-C21_00727	AG-325-C21	313	OG0001445	NA	NA	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-325-C21_00727	0
+CABXTN010000010.1	28595	29425	-	AG-325-C21_00729	AG-325-C21	276	OG0001639	NA	NA	NA	NA	NA	AG-325-C21_00727	1
+CABXTN010000010.1	29430	30227	-	AG-325-C21_00730	AG-325-C21	265	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-325-C21_00727	2
+CABXTN010000010.1	30232	31107	-	AG-325-C21_00731	AG-325-C21	291	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-325-C21_00727	3
+CABXTN010000010.1	31164	31955	+	AG-325-C21_00732	AG-325-C21	263	OG0001309	NA	NA	NA	NA	NA	AG-325-C21_00727	4
+CABXTN010000010.1	31952	32794	-	AG-325-C21_00733	AG-325-C21	280	OG0000874	NA	NA	COG0385	YfeH	Predicted Na+-dependent transporter YfeH	AG-325-C21_00727	5
+CABYCY010000011.1	32184	33620	-	AG-333-A04_01095	AG-333-A04	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-333-A04_01100	-5
+CABYCY010000011.1	33621	33971	-	AG-333-A04_01096	AG-333-A04	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-333-A04_01100	-4
+CABYCY010000011.1	34020	34517	+	AG-333-A04_01097	AG-333-A04	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-333-A04_01100	-3
+CABYCY010000011.1	34514	35500	+	AG-333-A04_01098	AG-333-A04	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-333-A04_01100	-2
+CABYCY010000011.1	35497	35988	+	AG-333-A04_01099	AG-333-A04	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-333-A04_01100	-1
+CABYCY010000011.1	35985	36884	+	AG-333-A04_01100	AG-333-A04	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-333-A04_01100	0
+CABYCY010000011.1	36893	37216	-	AG-333-A04_01101	AG-333-A04	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-333-A04_01100	1
+CABYCY010000011.1	37260	37547	+	AG-333-A04_01102	AG-333-A04	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-333-A04_01100	2
+CABYCY010000011.1	37577	37903	+	AG-333-A04_01103	AG-333-A04	108	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-333-A04_01100	3
+CABYCY010000011.1	37903	38601	+	AG-333-A04_01104	AG-333-A04	232	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-333-A04_01100	4
+CABYCY010000011.1	38619	38918	+	AG-333-A04_01105	AG-333-A04	99	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-333-A04_01100	5
+CABYVA010000003.1	15130	16374	-	AG-333-N15_00252	AG-333-N15	414	OG0000815	NA	NA	COG2907	Ppro0129	Predicted flavin-containing amine oxidase	AG-333-N15_00257	-5
+CABYVA010000003.1	16376	17242	-	AG-333-N15_00253	AG-333-N15	288	OG0000658	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-333-N15_00257	-4
+CABYVA010000003.1	17239	18192	-	AG-333-N15_00254	AG-333-N15	317	OG0000967	NA	NA	COG1984	PxpC	5-oxoprolinase subunit C/Allophanate hydrolase subunit 2	AG-333-N15_00257	-3
+CABYVA010000003.1	18185	18871	-	AG-333-N15_00255	AG-333-N15	228	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	AG-333-N15_00257	-2
+CABYVA010000003.1	18875	19672	+	AG-333-N15_00256	AG-333-N15	265	OG0000952	K07160	5-oxoprolinase (ATP-hydrolysing) subunit A [EC:3.5.2.9]	COG1540	PxpA	5-oxoprolinase subunit A	AG-333-N15_00257	-1
+CABYVA010000003.1	19675	20580	+	AG-333-N15_00257	AG-333-N15	301	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-333-N15_00257	0
+CABYVA010000003.1	20589	21578	+	AG-333-N15_00258	AG-333-N15	329	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-333-N15_00257	1
+CABYVA010000003.1	21578	22084	+	AG-333-N15_00259	AG-333-N15	168	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-333-N15_00257	2
+CABYVA010000003.1	22111	23580	-	AG-333-N15_00260	AG-333-N15	489	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	AG-333-N15_00257	3
+CABYVA010000003.1	23736	24347	+	AG-333-N15_00261	AG-333-N15	203	OG0000906	NA	NA	COG0861	TerC	Tellurite resistance membrane protein TerC	AG-333-N15_00257	4
+CABYVA010000003.1	24344	25120	-	AG-333-N15_00262	AG-333-N15	258	OG0000073	K00606	3-methyl-2-oxobutanoate hydroxymethyltransferase [EC:2.1.2.11]	COG0413	PanB	Ketopantoate hydroxymethyltransferase	AG-333-N15_00257	5
+CACBGQ010000006.1	46324	47760	-	AG-349-O05_00594	AG-349-O05	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-349-O05_00599	-5
+CACBGQ010000006.1	47761	48111	-	AG-349-O05_00595	AG-349-O05	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-349-O05_00599	-4
+CACBGQ010000006.1	48160	48657	+	AG-349-O05_00596	AG-349-O05	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-349-O05_00599	-3
+CACBGQ010000006.1	48654	49640	+	AG-349-O05_00597	AG-349-O05	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-349-O05_00599	-2
+CACBGQ010000006.1	49637	50128	+	AG-349-O05_00598	AG-349-O05	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-349-O05_00599	-1
+CACBGQ010000006.1	50125	51024	+	AG-349-O05_00599	AG-349-O05	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-349-O05_00599	0
+CACBGQ010000006.1	51034	51357	-	AG-349-O05_00600	AG-349-O05	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-349-O05_00599	1
+CACBGQ010000006.1	51401	51688	+	AG-349-O05_00601	AG-349-O05	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-349-O05_00599	2
+CACBGQ010000006.1	51701	52273	-	AG-349-O05_00602	AG-349-O05	190	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-349-O05_00599	3
+CACBMB010000001.1	116179	116340	-	AG-359-D09_00123	AG-359-D09	53	OG0001070	NA	NA	NA	NA	NA	AG-359-D09_00128	-5
+CACBMB010000001.1	116452	117885	+	AG-359-D09_00124	AG-359-D09	477	OG0001055	K21686	XRE family transcriptional regulator, fatty acid utilization regulator	COG3800	NA	Predicted transcriptional regulator	AG-359-D09_00128	-4
+CACBMB010000001.1	117895	118059	+	AG-359-D09_00125	AG-359-D09	54	OG0001345	NA	NA	NA	NA	NA	AG-359-D09_00128	-3
+CACBMB010000001.1	118070	118168	+	AG-359-D09_00126	AG-359-D09	32	OG0001145	NA	NA	NA	NA	NA	AG-359-D09_00128	-2
+CACBMB010000001.1	118285	118638	+	AG-359-D09_00127	AG-359-D09	117	OG0001145	NA	NA	NA	NA	NA	AG-359-D09_00128	-1
+CACBMB010000001.1	118674	119573	+	AG-359-D09_00128	AG-359-D09	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-359-D09_00128	0
+CACBMB010000001.1	119575	120558	+	AG-359-D09_00129	AG-359-D09	327	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-359-D09_00128	1
+CACBMB010000001.1	120567	121058	+	AG-359-D09_00130	AG-359-D09	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-359-D09_00128	2
+CACBMB010000001.1	121058	121963	+	AG-359-D09_00131	AG-359-D09	301	OG0000036	K00852	ribokinase [EC:2.7.1.15]	COG0524	RbsK	Sugar or nucleoside kinase, ribokinase family	AG-359-D09_00128	3
+CACBMB010000001.1	122024	122578	+	AG-359-D09_00132	AG-359-D09	184	OG0001002	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	AG-359-D09_00128	4
+CACBMB010000001.1	122582	123739	+	AG-359-D09_00133	AG-359-D09	385	OG0000078	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	AG-359-D09_00128	5
+CACFFB010000012.1	33869	34750	+	AG-365-D07_00829	AG-365-D07	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-365-D07_00834	-5
+CACFFB010000012.1	34743	35369	+	AG-365-D07_00830	AG-365-D07	208	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-365-D07_00834	-4
+CACFFB010000012.1	35356	35655	-	AG-365-D07_00831	AG-365-D07	99	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-365-D07_00834	-3
+CACFFB010000012.1	35657	36547	-	AG-365-D07_00832	AG-365-D07	296	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	COG1221	PspF	Transcriptional regulators containing sigma54-interacting ATPase domain	AG-365-D07_00834	-2
+CACFFB010000012.1	36617	36928	+	AG-365-D07_00833	AG-365-D07	103	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-365-D07_00834	-1
+CACFFB010000012.1	36925	37833	-	AG-365-D07_00834	AG-365-D07	302	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-365-D07_00834	0
+CACFFB010000012.1	37830	38324	-	AG-365-D07_00835	AG-365-D07	164	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-365-D07_00834	1
+CACFFB010000012.1	38321	39307	-	AG-365-D07_00836	AG-365-D07	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-365-D07_00834	2
+CACFFB010000012.1	39304	39801	-	AG-365-D07_00837	AG-365-D07	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-365-D07_00834	3
+CACFFB010000012.1	39867	40217	+	AG-365-D07_00838	AG-365-D07	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-365-D07_00834	4
+CACDII010000017.1	340	1329	-	AG-365-L04_01088	AG-365-L04	329	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-365-L04_01089	-1
+CACDII010000017.1	1337	2242	-	AG-365-L04_01089	AG-365-L04	301	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-365-L04_01089	0
+CACDII010000017.1	2245	3042	-	AG-365-L04_01090	AG-365-L04	265	OG0000952	K07160	5-oxoprolinase (ATP-hydrolysing) subunit A [EC:3.5.2.9]	COG1540	PxpA	5-oxoprolinase subunit A	AG-365-L04_01089	1
+CACDII010000017.1	3046	3732	+	AG-365-L04_01091	AG-365-L04	228	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	AG-365-L04_01089	2
+CACDII010000017.1	3725	4678	+	AG-365-L04_01092	AG-365-L04	317	OG0000967	NA	NA	COG1984	PxpC	5-oxoprolinase subunit C/Allophanate hydrolase subunit 2	AG-365-L04_01089	3
+CACDII010000017.1	4675	5541	+	AG-365-L04_01093	AG-365-L04	288	OG0000658	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-365-L04_01089	4
+CACDRL010000005.1	16687	18123	-	AG-390-C17_00675	AG-390-C17	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-390-C17_00680	-5
+CACDRL010000005.1	18124	18474	-	AG-390-C17_00676	AG-390-C17	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-390-C17_00680	-4
+CACDRL010000005.1	18522	19019	+	AG-390-C17_00677	AG-390-C17	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-390-C17_00680	-3
+CACDRL010000005.1	19016	20002	+	AG-390-C17_00678	AG-390-C17	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-390-C17_00680	-2
+CACDRL010000005.1	19999	20490	+	AG-390-C17_00679	AG-390-C17	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-390-C17_00680	-1
+CACDRL010000005.1	20487	21386	+	AG-390-C17_00680	AG-390-C17	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-390-C17_00680	0
+CACDRL010000005.1	21395	21676	-	AG-390-C17_00681	AG-390-C17	93	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-390-C17_00680	1
+CACDRL010000005.1	21769	22101	+	AG-390-C17_00682	AG-390-C17	110	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-390-C17_00680	2
+CACDRL010000005.1	22098	22796	+	AG-390-C17_00683	AG-390-C17	232	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-390-C17_00680	3
+CACDRL010000005.1	22814	23104	+	AG-390-C17_00684	AG-390-C17	96	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-390-C17_00680	4
+CACDRL010000005.1	23101	23736	-	AG-390-C17_00685	AG-390-C17	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-390-C17_00680	5
+CACDUS010000001.1	47396	48355	+	AG-390-E04_00051	AG-390-E04	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	AG-390-E04_00056	-5
+CACDUS010000001.1	48376	49812	+	AG-390-E04_00052	AG-390-E04	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-390-E04_00056	-4
+CACDUS010000001.1	50001	51452	+	AG-390-E04_00053	AG-390-E04	483	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	AG-390-E04_00056	-3
+CACDUS010000001.1	51501	52004	-	AG-390-E04_00054	AG-390-E04	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-390-E04_00056	-2
+CACDUS010000001.1	52001	52984	-	AG-390-E04_00055	AG-390-E04	327	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-390-E04_00056	-1
+CACDUS010000001.1	52986	53885	-	AG-390-E04_00056	AG-390-E04	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-390-E04_00056	0
+CACDUS010000001.1	53924	55114	-	AG-390-E04_00057	AG-390-E04	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	AG-390-E04_00056	1
+CACDUS010000001.1	55144	55485	+	AG-390-E04_00058	AG-390-E04	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	AG-390-E04_00056	2
+CACDUS010000001.1	55488	56078	+	AG-390-E04_00059	AG-390-E04	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	AG-390-E04_00056	3
+CACDUS010000001.1	56080	58749	+	AG-390-E04_00060	AG-390-E04	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	AG-390-E04_00056	4
+CACDUS010000001.1	58752	59396	+	AG-390-E04_00061	AG-390-E04	214	OG0000832	NA	NA	COG2976	YfgM	Ancillary subunit YfgM of SecYEG translocon, regulates RcsB-dependent stress response	AG-390-E04_00056	5
+CACDYK010000001.1	14790	15443	+	AG-390-G11_00015	AG-390-G11	217	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-390-G11_00020	-5
+CACDYK010000001.1	15430	15729	-	AG-390-G11_00016	AG-390-G11	99	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-390-G11_00020	-4
+CACDYK010000001.1	15765	16445	-	AG-390-G11_00017	AG-390-G11	226	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-390-G11_00020	-3
+CACDYK010000001.1	16442	16774	-	AG-390-G11_00018	AG-390-G11	110	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-390-G11_00020	-2
+CACDYK010000001.1	16825	17148	+	AG-390-G11_00019	AG-390-G11	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-390-G11_00020	-1
+CACDYK010000001.1	17157	18056	-	AG-390-G11_00020	AG-390-G11	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-390-G11_00020	0
+CACDYK010000001.1	18053	18544	-	AG-390-G11_00021	AG-390-G11	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-390-G11_00020	1
+CACDYK010000001.1	18541	19527	-	AG-390-G11_00022	AG-390-G11	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-390-G11_00020	2
+CACDYK010000001.1	19524	20021	-	AG-390-G11_00023	AG-390-G11	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-390-G11_00020	3
+CACDYK010000001.1	20070	20420	+	AG-390-G11_00024	AG-390-G11	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-390-G11_00020	4
+CACDYK010000001.1	20421	21857	+	AG-390-G11_00025	AG-390-G11	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-390-G11_00020	5
+CACDYL010000022.1	8	361	+	AG-390-G13_01072	AG-390-G13	117	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-390-G13_01075	-3
+CACDYL010000022.1	358	1344	+	AG-390-G13_01073	AG-390-G13	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-390-G13_01075	-2
+CACDYL010000022.1	1341	1835	+	AG-390-G13_01074	AG-390-G13	164	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-390-G13_01075	-1
+CACDYL010000022.1	1832	2734	+	AG-390-G13_01075	AG-390-G13	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-390-G13_01075	0
+CACDYL010000022.1	2736	3047	-	AG-390-G13_01076	AG-390-G13	103	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-390-G13_01075	1
+CACDYL010000022.1	3117	4007	+	AG-390-G13_01077	AG-390-G13	296	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-390-G13_01075	2
+CACDYL010000022.1	4015	4641	-	AG-390-G13_01078	AG-390-G13	208	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-390-G13_01075	3
+CACDYL010000022.1	4634	5515	-	AG-390-G13_01079	AG-390-G13	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-390-G13_01075	4
+CACDYL010000022.1	5550	5993	+	AG-390-G13_01080	AG-390-G13	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-390-G13_01075	5
+CACDYR010000001.1	287971	289407	-	AG-390-G23_00307	AG-390-G23	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-390-G23_00312	-5
+CACDYR010000001.1	289408	289758	-	AG-390-G23_00308	AG-390-G23	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-390-G23_00312	-4
+CACDYR010000001.1	289806	290303	+	AG-390-G23_00309	AG-390-G23	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-390-G23_00312	-3
+CACDYR010000001.1	290300	291286	+	AG-390-G23_00310	AG-390-G23	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-390-G23_00312	-2
+CACDYR010000001.1	291283	291774	+	AG-390-G23_00311	AG-390-G23	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-390-G23_00312	-1
+CACDYR010000001.1	291771	292670	+	AG-390-G23_00312	AG-390-G23	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-390-G23_00312	0
+CACDYR010000001.1	292679	293002	-	AG-390-G23_00313	AG-390-G23	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-390-G23_00312	1
+CACDYR010000001.1	293046	293333	+	AG-390-G23_00314	AG-390-G23	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-390-G23_00312	2
+CACDYR010000001.1	293387	294253	+	AG-390-G23_00315	AG-390-G23	288	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-390-G23_00312	3
+CACDYR010000001.1	294263	294898	-	AG-390-G23_00316	AG-390-G23	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-390-G23_00312	4
+CACDYR010000001.1	294891	295772	-	AG-390-G23_00317	AG-390-G23	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-390-G23_00312	5
+CACEDD010000001.1	251772	253208	-	AG-390-L03_00257	AG-390-L03	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-390-L03_00262	-5
+CACEDD010000001.1	253209	253559	-	AG-390-L03_00258	AG-390-L03	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-390-L03_00262	-4
+CACEDD010000001.1	253608	254105	+	AG-390-L03_00259	AG-390-L03	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-390-L03_00262	-3
+CACEDD010000001.1	254102	255088	+	AG-390-L03_00260	AG-390-L03	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-390-L03_00262	-2
+CACEDD010000001.1	255085	255576	+	AG-390-L03_00261	AG-390-L03	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-390-L03_00262	-1
+CACEDD010000001.1	255573	256472	+	AG-390-L03_00262	AG-390-L03	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-390-L03_00262	0
+CACEDD010000001.1	256481	256804	-	AG-390-L03_00263	AG-390-L03	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-390-L03_00262	1
+CACEDD010000001.1	256855	257187	+	AG-390-L03_00264	AG-390-L03	110	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-390-L03_00262	2
+CACEDD010000001.1	257184	257864	+	AG-390-L03_00265	AG-390-L03	226	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-390-L03_00262	3
+CACEDD010000001.1	257900	258199	+	AG-390-L03_00266	AG-390-L03	99	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-390-L03_00262	4
+CACEDD010000001.1	258186	258821	-	AG-390-L03_00267	AG-390-L03	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-390-L03_00262	5
+CACEFK010000019.1	1195	1545	-	AG-390-M14_01038	AG-390-M14	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-390-M14_01042	-4
+CACEFK010000019.1	1593	2090	+	AG-390-M14_01039	AG-390-M14	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-390-M14_01042	-3
+CACEFK010000019.1	2087	3073	+	AG-390-M14_01040	AG-390-M14	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-390-M14_01042	-2
+CACEFK010000019.1	3070	3561	+	AG-390-M14_01041	AG-390-M14	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-390-M14_01042	-1
+CACEFK010000019.1	3558	4457	+	AG-390-M14_01042	AG-390-M14	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-390-M14_01042	0
+CACEFK010000019.1	4466	4789	-	AG-390-M14_01043	AG-390-M14	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-390-M14_01042	1
+CACEFK010000019.1	4833	5120	+	AG-390-M14_01044	AG-390-M14	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-390-M14_01042	2
+CACEFK010000019.1	5133	5768	-	AG-390-M14_01045	AG-390-M14	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-390-M14_01042	3
+CACEFK010000019.1	5761	6642	-	AG-390-M14_01046	AG-390-M14	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-390-M14_01042	4
+CACEFK010000019.1	6677	7120	+	AG-390-M14_01047	AG-390-M14	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-390-M14_01042	5
+CACEIL010000005.1	60276	61442	-	AG-390-O04_00538	AG-390-O04	388	OG0000078	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	AG-390-O04_00543	-5
+CACEIL010000005.1	61446	62018	-	AG-390-O04_00539	AG-390-O04	190	OG0001002	NA	NA	COG4785	NlpI	Lipoprotein NlpI, contains TPR repeats	AG-390-O04_00543	-4
+CACEIL010000005.1	62109	63560	+	AG-390-O04_00540	AG-390-O04	483	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	AG-390-O04_00543	-3
+CACEIL010000005.1	63609	64112	-	AG-390-O04_00541	AG-390-O04	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-390-O04_00543	-2
+CACEIL010000005.1	64109	65092	-	AG-390-O04_00542	AG-390-O04	327	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-390-O04_00543	-1
+CACEIL010000005.1	65089	65991	-	AG-390-O04_00543	AG-390-O04	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-390-O04_00543	0
+CACEIL010000005.1	66029	66628	-	AG-390-O04_00544	AG-390-O04	199	OG0000392	K13985	N-acyl-phosphatidylethanolamine-hydrolysing phospholipase D [EC:3.1.4.54]	COG2220	UlaG	L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily	AG-390-O04_00543	1
+CACFJT010000001.1	111478	112113	+	AG-410-O02_00112	AG-410-O02	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-410-O02_00117	-5
+CACFJT010000001.1	112110	112799	-	AG-410-O02_00113	AG-410-O02	229	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-410-O02_00117	-4
+CACFJT010000001.1	112799	113128	-	AG-410-O02_00114	AG-410-O02	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-410-O02_00117	-3
+CACFJT010000001.1	113150	113437	-	AG-410-O02_00115	AG-410-O02	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-410-O02_00117	-2
+CACFJT010000001.1	113481	113804	+	AG-410-O02_00116	AG-410-O02	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-410-O02_00117	-1
+CACFJT010000001.1	113813	114712	-	AG-410-O02_00117	AG-410-O02	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-410-O02_00117	0
+CACFJT010000001.1	114709	115200	-	AG-410-O02_00118	AG-410-O02	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-410-O02_00117	1
+CACFJT010000001.1	115197	116183	-	AG-410-O02_00119	AG-410-O02	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-410-O02_00117	2
+CACFJT010000001.1	116180	116677	-	AG-410-O02_00120	AG-410-O02	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-410-O02_00117	3
+CACFJT010000001.1	116726	117076	+	AG-410-O02_00121	AG-410-O02	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-410-O02_00117	4
+CACFJT010000001.1	117077	118513	+	AG-410-O02_00122	AG-410-O02	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-410-O02_00117	5
+CACFLX010000007.1	60490	61134	-	AG-414-B08_00813	AG-414-B08	214	OG0000832	NA	NA	NA	NA	NA	AG-414-B08_00818	-5
+CACFLX010000007.1	61136	63805	-	AG-414-B08_00814	AG-414-B08	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	AG-414-B08_00818	-4
+CACFLX010000007.1	63809	64396	-	AG-414-B08_00815	AG-414-B08	195	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	AG-414-B08_00818	-3
+CACFLX010000007.1	64401	64742	-	AG-414-B08_00816	AG-414-B08	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	AG-414-B08_00818	-2
+CACFLX010000007.1	64770	65960	+	AG-414-B08_00817	AG-414-B08	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	AG-414-B08_00818	-1
+CACFLX010000007.1	65965	66867	+	AG-414-B08_00818	AG-414-B08	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-414-B08_00818	0
+CACFLX010000007.1	66876	67868	+	AG-414-B08_00819	AG-414-B08	330	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-414-B08_00818	1
+CACFLX010000007.1	67865	68362	+	AG-414-B08_00820	AG-414-B08	165	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-414-B08_00818	2
+CACFLX010000007.1	68408	69862	-	AG-414-B08_00821	AG-414-B08	484	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	AG-414-B08_00818	3
+CACFLX010000007.1	70004	71437	-	AG-414-B08_00822	AG-414-B08	477	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-414-B08_00818	4
+CACFLX010000007.1	71452	72411	-	AG-414-B08_00823	AG-414-B08	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	AG-414-B08_00818	5
+CACFOP010000003.1	159363	160532	-	AG-414-E02_00796	AG-414-E02	389	OG0001185	NA	NA	COG2814	AraJ	Predicted arabinose efflux permease AraJ, MFS family	AG-414-E02_00801	-5
+CACFOP010000003.1	160574	161560	+	AG-414-E02_00797	AG-414-E02	328	OG0002467	K17950	L-cysteate sulfo-lyase [EC:4.4.1.25]	COG2515	Acd	1-aminocyclopropane-1-carboxylate deaminase/D-cysteine desulfhydrase, PLP-dependent ACC family	AG-414-E02_00801	-4
+CACFOP010000003.1	161564	162475	+	AG-414-E02_00798	AG-414-E02	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	AG-414-E02_00801	-3
+CACFOP010000003.1	162490	163494	-	AG-414-E02_00799	AG-414-E02	334	OG0000009	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	AG-414-E02_00801	-2
+CACFOP010000003.1	163497	164783	-	AG-414-E02_00800	AG-414-E02	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	AG-414-E02_00801	-1
+CACFOP010000003.1	164836	165741	+	AG-414-E02_00801	AG-414-E02	301	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-414-E02_00801	0
+CACFOP010000003.1	165750	166742	+	AG-414-E02_00802	AG-414-E02	330	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-414-E02_00801	1
+CACFOP010000003.1	166742	167236	+	AG-414-E02_00803	AG-414-E02	164	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-414-E02_00801	2
+CACFOP010000003.1	167290	168720	-	AG-414-E02_00804	AG-414-E02	476	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	AG-414-E02_00801	3
+CACFOP010000003.1	168841	170175	-	AG-414-E02_00805	AG-414-E02	444	OG0000987	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	AG-414-E02_00801	4
+CACFOP010000003.1	170172	170783	-	AG-414-E02_00806	AG-414-E02	203	OG0000994	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	AG-414-E02_00801	5
+CACFVS010000002.1	45697	46146	-	AG-414-M23_00173	AG-414-M23	149	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-414-M23_00178	-5
+CACFVS010000002.1	46181	47062	+	AG-414-M23_00174	AG-414-M23	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-414-M23_00178	-4
+CACFVS010000002.1	47055	47681	+	AG-414-M23_00175	AG-414-M23	208	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-414-M23_00178	-3
+CACFVS010000002.1	47678	48568	-	AG-414-M23_00176	AG-414-M23	296	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-414-M23_00178	-2
+CACFVS010000002.1	48638	48949	+	AG-414-M23_00177	AG-414-M23	103	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-414-M23_00178	-1
+CACFVS010000002.1	48952	49854	-	AG-414-M23_00178	AG-414-M23	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-414-M23_00178	0
+CACFVS010000002.1	49851	50345	-	AG-414-M23_00179	AG-414-M23	164	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-414-M23_00178	1
+CACFVS010000002.1	50342	51328	-	AG-414-M23_00180	AG-414-M23	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-414-M23_00178	2
+CACFVS010000002.1	51325	51822	-	AG-414-M23_00181	AG-414-M23	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-414-M23_00178	3
+CACFVS010000002.1	51887	52237	+	AG-414-M23_00182	AG-414-M23	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-414-M23_00178	4
+CACFVS010000002.1	52237	53673	+	AG-414-M23_00183	AG-414-M23	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-414-M23_00178	5
+CACGAU010000007.1	10114	10557	-	AG-422-B22_00876	AG-422-B22	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-422-B22_00881	-5
+CACGAU010000007.1	10592	11473	+	AG-422-B22_00877	AG-422-B22	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-422-B22_00881	-4
+CACGAU010000007.1	11466	12101	+	AG-422-B22_00878	AG-422-B22	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-422-B22_00881	-3
+CACGAU010000007.1	12114	12401	-	AG-422-B22_00879	AG-422-B22	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-422-B22_00881	-2
+CACGAU010000007.1	12445	12768	+	AG-422-B22_00880	AG-422-B22	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-422-B22_00881	-1
+CACGAU010000007.1	12776	13675	-	AG-422-B22_00881	AG-422-B22	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-422-B22_00881	0
+CACGAU010000007.1	13672	14163	-	AG-422-B22_00882	AG-422-B22	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-422-B22_00881	1
+CACGAU010000007.1	14160	15146	-	AG-422-B22_00883	AG-422-B22	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-422-B22_00881	2
+CACGAU010000007.1	15143	15637	-	AG-422-B22_00884	AG-422-B22	164	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-422-B22_00881	3
+CACGAU010000007.1	15685	16035	+	AG-422-B22_00885	AG-422-B22	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-422-B22_00881	4
+CACGAU010000007.1	16036	17472	+	AG-422-B22_00886	AG-422-B22	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-422-B22_00881	5
+CACGBP010000001.1	242410	243369	+	AG-422-C13_00253	AG-422-C13	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	AG-422-C13_00258	-5
+CACGBP010000001.1	243390	244826	+	AG-422-C13_00254	AG-422-C13	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-422-C13_00258	-4
+CACGBP010000001.1	245007	246461	+	AG-422-C13_00255	AG-422-C13	484	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	AG-422-C13_00258	-3
+CACGBP010000001.1	246511	247014	-	AG-422-C13_00256	AG-422-C13	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-422-C13_00258	-2
+CACGBP010000001.1	247011	247994	-	AG-422-C13_00257	AG-422-C13	327	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-422-C13_00258	-1
+CACGBP010000001.1	247996	248895	-	AG-422-C13_00258	AG-422-C13	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-422-C13_00258	0
+CACGBP010000001.1	248934	250124	-	AG-422-C13_00259	AG-422-C13	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	AG-422-C13_00258	1
+CACGBP010000001.1	250154	250495	+	AG-422-C13_00260	AG-422-C13	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	AG-422-C13_00258	2
+CACGBP010000001.1	250498	251088	+	AG-422-C13_00261	AG-422-C13	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	AG-422-C13_00258	3
+CACGBP010000001.1	251092	253761	+	AG-422-C13_00262	AG-422-C13	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	AG-422-C13_00258	4
+CACGBP010000001.1	253764	254408	+	AG-422-C13_00263	AG-422-C13	214	OG0000832	NA	NA	NA	NA	NA	AG-422-C13_00258	5
+CACGBZ010000001.1	139314	140195	+	AG-422-C20_00145	AG-422-C20	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-422-C20_00150	-5
+CACGBZ010000001.1	140188	140823	+	AG-422-C20_00146	AG-422-C20	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-422-C20_00150	-4
+CACGBZ010000001.1	140820	141107	-	AG-422-C20_00147	AG-422-C20	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-422-C20_00150	-3
+CACGBZ010000001.1	141120	142010	-	AG-422-C20_00148	AG-422-C20	296	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-422-C20_00150	-2
+CACGBZ010000001.1	142128	142451	+	AG-422-C20_00149	AG-422-C20	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-422-C20_00150	-1
+CACGBZ010000001.1	142460	143359	-	AG-422-C20_00150	AG-422-C20	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-422-C20_00150	0
+CACGBZ010000001.1	143356	143847	-	AG-422-C20_00151	AG-422-C20	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-422-C20_00150	1
+CACGBZ010000001.1	143844	144830	-	AG-422-C20_00152	AG-422-C20	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-422-C20_00150	2
+CACGBZ010000001.1	144827	145324	-	AG-422-C20_00153	AG-422-C20	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-422-C20_00150	3
+CACGBZ010000001.1	145373	145723	+	AG-422-C20_00154	AG-422-C20	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-422-C20_00150	4
+CACGBZ010000001.1	145724	147160	+	AG-422-C20_00155	AG-422-C20	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-422-C20_00150	5
+CACGDQ010000001.1	251473	251916	-	AG-422-D23_00262	AG-422-D23	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-422-D23_00267	-5
+CACGDQ010000001.1	251951	252832	+	AG-422-D23_00263	AG-422-D23	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-422-D23_00267	-4
+CACGDQ010000001.1	252825	253460	+	AG-422-D23_00264	AG-422-D23	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-422-D23_00267	-3
+CACGDQ010000001.1	253473	253760	-	AG-422-D23_00265	AG-422-D23	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-422-D23_00267	-2
+CACGDQ010000001.1	253804	254127	+	AG-422-D23_00266	AG-422-D23	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-422-D23_00267	-1
+CACGDQ010000001.1	254136	255035	-	AG-422-D23_00267	AG-422-D23	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-422-D23_00267	0
+CACGDQ010000001.1	255032	255523	-	AG-422-D23_00268	AG-422-D23	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-422-D23_00267	1
+CACGDQ010000001.1	255520	256506	-	AG-422-D23_00269	AG-422-D23	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-422-D23_00267	2
+CACGDQ010000001.1	256503	257000	-	AG-422-D23_00270	AG-422-D23	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-422-D23_00267	3
+CACGDQ010000001.1	257048	257398	+	AG-422-D23_00271	AG-422-D23	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-422-D23_00267	4
+CACGDQ010000001.1	257423	258835	+	AG-422-D23_00272	AG-422-D23	470	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-422-D23_00267	5
+CACGDZ010000005.1	16254	17690	-	AG-422-E09_00637	AG-422-E09	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-422-E09_00642	-5
+CACGDZ010000005.1	17691	18041	-	AG-422-E09_00638	AG-422-E09	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-422-E09_00642	-4
+CACGDZ010000005.1	18090	18587	+	AG-422-E09_00639	AG-422-E09	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-422-E09_00642	-3
+CACGDZ010000005.1	18584	19570	+	AG-422-E09_00640	AG-422-E09	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-422-E09_00642	-2
+CACGDZ010000005.1	19567	20058	+	AG-422-E09_00641	AG-422-E09	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-422-E09_00642	-1
+CACGDZ010000005.1	20055	20954	+	AG-422-E09_00642	AG-422-E09	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-422-E09_00642	0
+CACGDZ010000005.1	20963	21286	-	AG-422-E09_00643	AG-422-E09	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-422-E09_00642	1
+CACGDZ010000005.1	21330	21617	+	AG-422-E09_00644	AG-422-E09	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-422-E09_00642	2
+CACGDZ010000005.1	21639	21968	+	AG-422-E09_00645	AG-422-E09	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-422-E09_00642	3
+CACGDZ010000005.1	21968	22657	+	AG-422-E09_00646	AG-422-E09	229	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-422-E09_00642	4
+CACGDZ010000005.1	22654	23289	-	AG-422-E09_00647	AG-422-E09	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-422-E09_00642	5
+CACGGJ010000022.1	7126	8007	+	AG-422-G03_01164	AG-422-G03	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-422-G03_01169	-5
+CACGGJ010000022.1	8000	8635	+	AG-422-G03_01165	AG-422-G03	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-422-G03_01169	-4
+CACGGJ010000022.1	8648	8938	-	AG-422-G03_01166	AG-422-G03	96	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-422-G03_01169	-3
+CACGGJ010000022.1	8940	9809	-	AG-422-G03_01167	AG-422-G03	289	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-422-G03_01169	-2
+CACGGJ010000022.1	9968	10291	+	AG-422-G03_01168	AG-422-G03	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-422-G03_01169	-1
+CACGGJ010000022.1	10300	11199	-	AG-422-G03_01169	AG-422-G03	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-422-G03_01169	0
+CACGGJ010000022.1	11196	11687	-	AG-422-G03_01170	AG-422-G03	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-422-G03_01169	1
+CACGGJ010000022.1	11684	12670	-	AG-422-G03_01171	AG-422-G03	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-422-G03_01169	2
+CACGGJ010000022.1	12667	13164	-	AG-422-G03_01172	AG-422-G03	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-422-G03_01169	3
+CACGGJ010000022.1	13212	13562	+	AG-422-G03_01173	AG-422-G03	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-422-G03_01169	4
+CACGOM010000004.1	24996	26429	-	AG-422-N14_00381	AG-422-N14	477	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-422-N14_00386	-5
+CACGOM010000004.1	26429	26779	-	AG-422-N14_00382	AG-422-N14	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-422-N14_00386	-4
+CACGOM010000004.1	26845	27342	+	AG-422-N14_00383	AG-422-N14	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-422-N14_00386	-3
+CACGOM010000004.1	27339	28325	+	AG-422-N14_00384	AG-422-N14	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-422-N14_00386	-2
+CACGOM010000004.1	28322	28816	+	AG-422-N14_00385	AG-422-N14	164	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-422-N14_00386	-1
+CACGOM010000004.1	28813	29715	+	AG-422-N14_00386	AG-422-N14	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-422-N14_00386	0
+CACGOM010000004.1	29718	30029	-	AG-422-N14_00387	AG-422-N14	103	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-422-N14_00386	1
+CACGOM010000004.1	30056	32605	-	AG-422-N14_00388	AG-422-N14	849	OG0001319	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-422-N14_00386	2
+CACGOM010000004.1	32667	33557	+	AG-422-N14_00389	AG-422-N14	296	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-422-N14_00386	3
+CACGOM010000004.1	33559	33846	+	AG-422-N14_00390	AG-422-N14	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-422-N14_00386	4
+CACGOM010000004.1	33843	34469	-	AG-422-N14_00391	AG-422-N14	208	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-422-N14_00386	5
+CACGTJ010000006.1	49508	50512	+	AG-426-C04_00574	AG-426-C04	334	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	AG-426-C04_00579	-5
+CACGTJ010000006.1	50527	51960	+	AG-426-C04_00575	AG-426-C04	477	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-426-C04_00579	-4
+CACGTJ010000006.1	52101	53555	+	AG-426-C04_00576	AG-426-C04	484	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	AG-426-C04_00579	-3
+CACGTJ010000006.1	53604	54101	-	AG-426-C04_00577	AG-426-C04	165	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-426-C04_00579	-2
+CACGTJ010000006.1	54098	55090	-	AG-426-C04_00578	AG-426-C04	330	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-426-C04_00579	-1
+CACGTJ010000006.1	55098	56000	-	AG-426-C04_00579	AG-426-C04	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-426-C04_00579	0
+CACGTJ010000006.1	56005	57195	-	AG-426-C04_00580	AG-426-C04	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	AG-426-C04_00579	1
+CACGTJ010000006.1	57223	57564	+	AG-426-C04_00581	AG-426-C04	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	AG-426-C04_00579	2
+CACGYT010000011.1	47880	48761	+	AG-426-G09_00867	AG-426-G09	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-426-G09_00872	-5
+CACGYT010000011.1	48754	49380	+	AG-426-G09_00868	AG-426-G09	208	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-426-G09_00872	-4
+CACGYT010000011.1	49367	49666	-	AG-426-G09_00869	AG-426-G09	99	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-426-G09_00872	-3
+CACGYT010000011.1	49668	50558	-	AG-426-G09_00870	AG-426-G09	296	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-426-G09_00872	-2
+CACGYT010000011.1	50625	50936	+	AG-426-G09_00871	AG-426-G09	103	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-426-G09_00872	-1
+CACGYT010000011.1	50933	51634	-	AG-426-G09_00872	AG-426-G09	233	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-426-G09_00872	0
+CACPHV010000004.1	83278	84714	-	AG-426-M05_00548	AG-426-M05	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-426-M05_00553	-5
+CACPHV010000004.1	84715	85065	-	AG-426-M05_00549	AG-426-M05	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-426-M05_00553	-4
+CACPHV010000004.1	85114	85611	+	AG-426-M05_00550	AG-426-M05	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-426-M05_00553	-3
+CACPHV010000004.1	85608	86594	+	AG-426-M05_00551	AG-426-M05	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-426-M05_00553	-2
+CACPHV010000004.1	86591	87082	+	AG-426-M05_00552	AG-426-M05	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-426-M05_00553	-1
+CACPHV010000004.1	87079	87978	+	AG-426-M05_00553	AG-426-M05	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-426-M05_00553	0
+CACPHV010000004.1	87987	88277	-	AG-426-M05_00554	AG-426-M05	96	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-426-M05_00553	1
+CACPHV010000004.1	88354	88641	+	AG-426-M05_00555	AG-426-M05	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-426-M05_00553	2
+CACPHV010000004.1	88654	89289	-	AG-426-M05_00556	AG-426-M05	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-426-M05_00553	3
+CACPHV010000004.1	89282	90163	-	AG-426-M05_00557	AG-426-M05	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-426-M05_00553	4
+CACPHV010000004.1	90198	90641	+	AG-426-M05_00558	AG-426-M05	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-426-M05_00553	5
+CACHFM010000004.1	9536	10417	-	AG-430-A11_00494	AG-430-A11	293	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-430-A11_00499	-5
+CACHFM010000004.1	10456	11136	-	AG-430-A11_00495	AG-430-A11	226	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-430-A11_00499	-4
+CACHFM010000004.1	11133	11465	-	AG-430-A11_00496	AG-430-A11	110	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-430-A11_00499	-3
+CACHFM010000004.1	11501	11788	-	AG-430-A11_00497	AG-430-A11	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-430-A11_00499	-2
+CACHFM010000004.1	11833	12156	+	AG-430-A11_00498	AG-430-A11	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-430-A11_00499	-1
+CACHFM010000004.1	12162	13061	-	AG-430-A11_00499	AG-430-A11	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-430-A11_00499	0
+CACHFM010000004.1	13058	13549	-	AG-430-A11_00500	AG-430-A11	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-430-A11_00499	1
+CACHFM010000004.1	13546	14532	-	AG-430-A11_00501	AG-430-A11	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-430-A11_00499	2
+CACHFM010000004.1	14529	15026	-	AG-430-A11_00502	AG-430-A11	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-430-A11_00499	3
+CACHFM010000004.1	15075	15425	+	AG-430-A11_00503	AG-430-A11	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-430-A11_00499	4
+CACHFM010000004.1	15426	16862	+	AG-430-A11_00504	AG-430-A11	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-430-A11_00499	5
+CACIUK010000011.1	14623	15582	+	AG-439-E23_00875	AG-439-E23	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	AG-439-E23_00880	-5
+CACIUK010000011.1	15597	17030	+	AG-439-E23_00876	AG-439-E23	477	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-439-E23_00880	-4
+CACIUK010000011.1	17169	18623	+	AG-439-E23_00877	AG-439-E23	484	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	AG-439-E23_00880	-3
+CACIUK010000011.1	18669	19166	-	AG-439-E23_00878	AG-439-E23	165	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-439-E23_00880	-2
+CACIUK010000011.1	19163	20155	-	AG-439-E23_00879	AG-439-E23	330	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-439-E23_00880	-1
+CACIUK010000011.1	20163	21065	-	AG-439-E23_00880	AG-439-E23	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-439-E23_00880	0
+CACIUK010000011.1	21070	22260	-	AG-439-E23_00881	AG-439-E23	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	AG-439-E23_00880	1
+CACIUK010000011.1	22288	22629	+	AG-439-E23_00882	AG-439-E23	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	AG-439-E23_00880	2
+CACIUK010000011.1	22634	23221	+	AG-439-E23_00883	AG-439-E23	195	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	AG-439-E23_00880	3
+CACIUK010000011.1	23225	25894	+	AG-439-E23_00884	AG-439-E23	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	AG-439-E23_00880	4
+CACIUK010000011.1	25896	26540	+	AG-439-E23_00885	AG-439-E23	214	OG0000832	NA	NA	NA	NA	NA	AG-439-E23_00880	5
+CACISU010000020.1	31	945	-	AG-439-G19_01174	AG-439-G19	304	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-439-G19_01174	0
+CACISU010000020.1	942	1715	-	AG-439-G19_01175	AG-439-G19	257	OG0000952	K07160	5-oxoprolinase (ATP-hydrolysing) subunit A [EC:3.5.2.9]	COG1540	PxpA	5-oxoprolinase subunit A	AG-439-G19_01174	1
+CACISU010000020.1	1744	2418	+	AG-439-G19_01176	AG-439-G19	224	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	AG-439-G19_01174	2
+CACISU010000020.1	2411	3361	+	AG-439-G19_01177	AG-439-G19	316	OG0000967	NA	NA	COG1984	PxpC	5-oxoprolinase subunit C/Allophanate hydrolase subunit 2	AG-439-G19_01174	3
+CACISU010000020.1	3358	4224	+	AG-439-G19_01178	AG-439-G19	288	OG0000658	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-439-G19_01174	4
+CACISU010000020.1	4265	4441	+	AG-439-G19_01179	AG-439-G19	58	OG0002050	NA	NA	NA	NA	NA	AG-439-G19_01174	5
+CACJEG010000003.1	129579	131015	-	AG-447-C08_00706	AG-447-C08	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-447-C08_00711	-5
+CACJEG010000003.1	131016	131366	-	AG-447-C08_00707	AG-447-C08	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-447-C08_00711	-4
+CACJEG010000003.1	131414	131911	+	AG-447-C08_00708	AG-447-C08	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-447-C08_00711	-3
+CACJEG010000003.1	131908	132894	+	AG-447-C08_00709	AG-447-C08	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-447-C08_00711	-2
+CACJEG010000003.1	132891	133382	+	AG-447-C08_00710	AG-447-C08	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-447-C08_00711	-1
+CACJEG010000003.1	133379	134278	+	AG-447-C08_00711	AG-447-C08	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-447-C08_00711	0
+CACJEG010000003.1	134287	134610	-	AG-447-C08_00712	AG-447-C08	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-447-C08_00711	1
+CACJEG010000003.1	134654	134941	+	AG-447-C08_00713	AG-447-C08	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-447-C08_00711	2
+CACJEG010000003.1	134954	135589	-	AG-447-C08_00714	AG-447-C08	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-447-C08_00711	3
+CACJEG010000003.1	135582	136463	-	AG-447-C08_00715	AG-447-C08	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-447-C08_00711	4
+CACJEG010000003.1	136498	136941	+	AG-447-C08_00716	AG-447-C08	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-447-C08_00711	5
+CACJIJ010000001.1	8797	10233	-	AG-447-E19_00009	AG-447-E19	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-447-E19_00014	-5
+CACJIJ010000001.1	10234	10584	-	AG-447-E19_00010	AG-447-E19	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-447-E19_00014	-4
+CACJIJ010000001.1	10632	11129	+	AG-447-E19_00011	AG-447-E19	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-447-E19_00014	-3
+CACJIJ010000001.1	11126	12112	+	AG-447-E19_00012	AG-447-E19	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-447-E19_00014	-2
+CACJIJ010000001.1	12109	12600	+	AG-447-E19_00013	AG-447-E19	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-447-E19_00014	-1
+CACJIJ010000001.1	12597	13496	+	AG-447-E19_00014	AG-447-E19	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-447-E19_00014	0
+CACJIJ010000001.1	13505	13798	-	AG-447-E19_00015	AG-447-E19	97	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-447-E19_00014	1
+CACJIJ010000001.1	13872	14159	+	AG-447-E19_00016	AG-447-E19	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-447-E19_00014	2
+CACJIJ010000001.1	14180	14509	+	AG-447-E19_00017	AG-447-E19	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-447-E19_00014	3
+CACJIJ010000001.1	14509	15207	+	AG-447-E19_00018	AG-447-E19	232	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-447-E19_00014	4
+CACJIJ010000001.1	15225	15524	+	AG-447-E19_00019	AG-447-E19	99	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-447-E19_00014	5
+CACJLJ010000001.1	412378	412539	-	AG-447-K09_00438	AG-447-K09	53	OG0001070	NA	NA	NA	NA	NA	AG-447-K09_00443	-5
+CACJLJ010000001.1	412651	414090	+	AG-447-K09_00439	AG-447-K09	479	OG0001055	K21686	XRE family transcriptional regulator, fatty acid utilization regulator	COG3800	NA	Predicted transcriptional regulator	AG-447-K09_00443	-4
+CACJLJ010000001.1	414093	414257	+	AG-447-K09_00440	AG-447-K09	54	OG0001345	NA	NA	NA	NA	NA	AG-447-K09_00443	-3
+CACJLJ010000001.1	414262	414531	+	AG-447-K09_00441	AG-447-K09	89	OG0001303	NA	NA	COG0454	PhnO	N-acetyltransferase, GNAT superfamily (includes histone acetyltransferase HPA2)	AG-447-K09_00443	-2
+CACJLJ010000001.1	414522	415091	+	AG-447-K09_00442	AG-447-K09	189	OG0001145	NA	NA	NA	NA	NA	AG-447-K09_00443	-1
+CACJLJ010000001.1	415127	416026	+	AG-447-K09_00443	AG-447-K09	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-447-K09_00443	0
+CACJLJ010000001.1	416028	417011	+	AG-447-K09_00444	AG-447-K09	327	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-447-K09_00443	1
+CACJLJ010000001.1	417008	417511	+	AG-447-K09_00445	AG-447-K09	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-447-K09_00443	2
+CACJLJ010000001.1	417511	418416	+	AG-447-K09_00446	AG-447-K09	301	OG0000036	K00852	ribokinase [EC:2.7.1.15]	COG0524	RbsK	Sugar or nucleoside kinase, ribokinase family	AG-447-K09_00443	3
+CACJLJ010000001.1	418469	419920	-	AG-447-K09_00447	AG-447-K09	483	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	AG-447-K09_00443	4
+CACJLJ010000001.1	419986	420585	+	AG-447-K09_00448	AG-447-K09	199	OG0001002	NA	NA	COG4785	NlpI	Lipoprotein NlpI, contains TPR repeats	AG-447-K09_00443	5
+CACJNJ010000020.1	4825	5460	+	AG-447-K11_01224	AG-447-K11	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-447-K11_01229	-5
+CACJNJ010000020.1	5457	5747	-	AG-447-K11_01225	AG-447-K11	96	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-447-K11_01229	-4
+CACJNJ010000020.1	5765	6463	-	AG-447-K11_01226	AG-447-K11	232	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-447-K11_01229	-3
+CACJNJ010000020.1	6460	6792	-	AG-447-K11_01227	AG-447-K11	110	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-447-K11_01229	-2
+CACJNJ010000020.1	6885	7166	+	AG-447-K11_01228	AG-447-K11	93	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-447-K11_01229	-1
+CACJNJ010000020.1	7175	8074	-	AG-447-K11_01229	AG-447-K11	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-447-K11_01229	0
+CACJNJ010000020.1	8071	8562	-	AG-447-K11_01230	AG-447-K11	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-447-K11_01229	1
+CACJNJ010000020.1	8559	9545	-	AG-447-K11_01231	AG-447-K11	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-447-K11_01229	2
+CACJNJ010000020.1	9542	10039	-	AG-447-K11_01232	AG-447-K11	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-447-K11_01229	3
+CACJNJ010000020.1	10087	10437	+	AG-447-K11_01233	AG-447-K11	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-447-K11_01229	4
+CACJNJ010000020.1	10438	11874	+	AG-447-K11_01234	AG-447-K11	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-447-K11_01229	5
+CACJMB010000003.1	152859	153494	+	AG-447-L03_00680	AG-447-L03	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-447-L03_00685	-5
+CACJMB010000003.1	153491	154180	-	AG-447-L03_00681	AG-447-L03	229	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-447-L03_00685	-4
+CACJMB010000003.1	154180	154509	-	AG-447-L03_00682	AG-447-L03	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-447-L03_00685	-3
+CACJMB010000003.1	154531	154818	-	AG-447-L03_00683	AG-447-L03	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-447-L03_00685	-2
+CACJMB010000003.1	154862	155185	+	AG-447-L03_00684	AG-447-L03	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-447-L03_00685	-1
+CACJMB010000003.1	155194	156093	-	AG-447-L03_00685	AG-447-L03	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-447-L03_00685	0
+CACJMB010000003.1	156090	156581	-	AG-447-L03_00686	AG-447-L03	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-447-L03_00685	1
+CACJMB010000003.1	156578	157564	-	AG-447-L03_00687	AG-447-L03	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-447-L03_00685	2
+CACJMB010000003.1	157561	158058	-	AG-447-L03_00688	AG-447-L03	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-447-L03_00685	3
+CACJMB010000003.1	158106	158456	+	AG-447-L03_00689	AG-447-L03	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-447-L03_00685	4
+CACJMB010000003.1	158457	159893	+	AG-447-L03_00690	AG-447-L03	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-447-L03_00685	5
+CACJQD010000006.1	28836	30272	-	AG-447-M10_00760	AG-447-M10	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-447-M10_00765	-5
+CACJQD010000006.1	30273	30623	-	AG-447-M10_00761	AG-447-M10	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-447-M10_00765	-4
+CACJQD010000006.1	30671	31168	+	AG-447-M10_00762	AG-447-M10	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-447-M10_00765	-3
+CACJQD010000006.1	31165	32151	+	AG-447-M10_00763	AG-447-M10	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-447-M10_00765	-2
+CACJQD010000006.1	32148	32639	+	AG-447-M10_00764	AG-447-M10	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-447-M10_00765	-1
+CACJQD010000006.1	32636	33535	+	AG-447-M10_00765	AG-447-M10	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-447-M10_00765	0
+CACJQD010000006.1	33544	33867	-	AG-447-M10_00766	AG-447-M10	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-447-M10_00765	1
+CACJQD010000006.1	34005	34895	+	AG-447-M10_00767	AG-447-M10	296	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-447-M10_00765	2
+CACJQD010000006.1	34897	35187	+	AG-447-M10_00768	AG-447-M10	96	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-447-M10_00765	3
+CACJQD010000006.1	35200	35835	-	AG-447-M10_00769	AG-447-M10	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-447-M10_00765	4
+CACJQD010000006.1	35828	36709	-	AG-447-M10_00770	AG-447-M10	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-447-M10_00765	5
+CACJTU010000008.1	38001	39437	-	AG-447-P03_00832	AG-447-P03	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-447-P03_00837	-5
+CACJTU010000008.1	39438	39788	-	AG-447-P03_00833	AG-447-P03	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-447-P03_00837	-4
+CACJTU010000008.1	39836	40333	+	AG-447-P03_00834	AG-447-P03	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-447-P03_00837	-3
+CACJTU010000008.1	40330	41316	+	AG-447-P03_00835	AG-447-P03	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-447-P03_00837	-2
+CACJTU010000008.1	41313	41804	+	AG-447-P03_00836	AG-447-P03	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-447-P03_00837	-1
+CACJTU010000008.1	41801	42700	+	AG-447-P03_00837	AG-447-P03	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-447-P03_00837	0
+CACJTU010000008.1	42709	43032	-	AG-447-P03_00838	AG-447-P03	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-447-P03_00837	1
+CACJTU010000008.1	43076	43363	+	AG-447-P03_00839	AG-447-P03	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-447-P03_00837	2
+CACJTU010000008.1	43376	44011	-	AG-447-P03_00840	AG-447-P03	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-447-P03_00837	3
+CACJTU010000008.1	44004	44885	-	AG-447-P03_00841	AG-447-P03	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-447-P03_00837	4
+CACJTU010000008.1	44920	45363	+	AG-447-P03_00842	AG-447-P03	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-447-P03_00837	5
+CACLNT010000012.1	21267	22703	-	AG-464-P13_00921	AG-464-P13	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-464-P13_00926	-5
+CACLNT010000012.1	22704	23054	-	AG-464-P13_00922	AG-464-P13	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-464-P13_00926	-4
+CACLNT010000012.1	23125	23619	+	AG-464-P13_00923	AG-464-P13	164	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-464-P13_00926	-3
+CACLNT010000012.1	23625	24611	+	AG-464-P13_00924	AG-464-P13	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-464-P13_00926	-2
+CACLNT010000012.1	24608	25105	+	AG-464-P13_00925	AG-464-P13	165	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-464-P13_00926	-1
+CACLNT010000012.1	25077	26003	+	AG-464-P13_00926	AG-464-P13	308	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-464-P13_00926	0
+CACLNT010000012.1	26011	26907	+	AG-464-P13_00927	AG-464-P13	298	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-464-P13_00926	1
+CACLNT010000012.1	26909	27196	+	AG-464-P13_00928	AG-464-P13	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-464-P13_00926	2
+CACLNT010000012.1	27193	27819	-	AG-464-P13_00929	AG-464-P13	208	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-464-P13_00926	3
+CACLNT010000012.1	27812	28696	-	AG-464-P13_00930	AG-464-P13	294	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-464-P13_00926	4
+CACLNT010000012.1	28732	29178	+	AG-464-P13_00931	AG-464-P13	148	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-464-P13_00926	5
+CACLZL010000002.1	64843	66279	-	AG-891-A05_00307	AG-891-A05	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-891-A05_00312	-5
+CACLZL010000002.1	66280	66630	-	AG-891-A05_00308	AG-891-A05	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-891-A05_00312	-4
+CACLZL010000002.1	66678	67175	+	AG-891-A05_00309	AG-891-A05	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-891-A05_00312	-3
+CACLZL010000002.1	67196	68158	+	AG-891-A05_00310	AG-891-A05	320	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-891-A05_00312	-2
+CACLZL010000002.1	68155	68646	+	AG-891-A05_00311	AG-891-A05	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-891-A05_00312	-1
+CACLZL010000002.1	68643	69542	+	AG-891-A05_00312	AG-891-A05	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-891-A05_00312	0
+CACLZL010000002.1	69551	69793	-	AG-891-A05_00313	AG-891-A05	80	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-891-A05_00312	1
+CACLZL010000002.1	69918	70205	+	AG-891-A05_00314	AG-891-A05	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-891-A05_00312	2
+CACLZL010000002.1	70227	70556	+	AG-891-A05_00315	AG-891-A05	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-891-A05_00312	3
+CACLZL010000002.1	70556	71245	+	AG-891-A05_00316	AG-891-A05	229	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-891-A05_00312	4
+CACLZL010000002.1	71242	71877	-	AG-891-A05_00317	AG-891-A05	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-891-A05_00312	5
+CACMGO010000002.1	168905	169540	+	AG-891-G02_00421	AG-891-G02	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-891-G02_00426	-5
+CACMGO010000002.1	169537	169827	-	AG-891-G02_00422	AG-891-G02	96	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-891-G02_00426	-4
+CACMGO010000002.1	169845	170543	-	AG-891-G02_00423	AG-891-G02	232	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-891-G02_00426	-3
+CACMGO010000002.1	170540	170872	-	AG-891-G02_00424	AG-891-G02	110	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-891-G02_00426	-2
+CACMGO010000002.1	170965	171246	+	AG-891-G02_00425	AG-891-G02	93	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-891-G02_00426	-1
+CACMGO010000002.1	171255	172154	-	AG-891-G02_00426	AG-891-G02	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-891-G02_00426	0
+CACMGO010000002.1	172151	172642	-	AG-891-G02_00427	AG-891-G02	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-891-G02_00426	1
+CACMGO010000002.1	172639	173625	-	AG-891-G02_00428	AG-891-G02	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-891-G02_00426	2
+CACMGO010000002.1	173622	174119	-	AG-891-G02_00429	AG-891-G02	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-891-G02_00426	3
+CACMGO010000002.1	174167	174517	+	AG-891-G02_00430	AG-891-G02	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-891-G02_00426	4
+CACMGO010000002.1	174542	175954	+	AG-891-G02_00431	AG-891-G02	470	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-891-G02_00426	5
+CACMIH010000002.1	71095	71538	-	AG-891-I18_00345	AG-891-I18	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-891-I18_00350	-5
+CACMIH010000002.1	71573	72454	+	AG-891-I18_00346	AG-891-I18	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-891-I18_00350	-4
+CACMIH010000002.1	72447	73082	+	AG-891-I18_00347	AG-891-I18	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-891-I18_00350	-3
+CACMIH010000002.1	73069	73365	-	AG-891-I18_00348	AG-891-I18	98	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-891-I18_00350	-2
+CACMIH010000002.1	73409	73732	+	AG-891-I18_00349	AG-891-I18	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-891-I18_00350	-1
+CACMIH010000002.1	73740	74639	-	AG-891-I18_00350	AG-891-I18	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-891-I18_00350	0
+CACMIH010000002.1	74636	75127	-	AG-891-I18_00351	AG-891-I18	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-891-I18_00350	1
+CACMIH010000002.1	75124	76110	-	AG-891-I18_00352	AG-891-I18	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-891-I18_00350	2
+CACMIH010000002.1	76107	76604	-	AG-891-I18_00353	AG-891-I18	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-891-I18_00350	3
+CACMIH010000002.1	76652	77002	+	AG-891-I18_00354	AG-891-I18	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-891-I18_00350	4
+CACMIH010000002.1	77003	78439	+	AG-891-I18_00355	AG-891-I18	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-891-I18_00350	5
+CACMRC010000001.1	91160	91603	-	AG-892-A22_00087	AG-892-A22	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-892-A22_00092	-5
+CACMRC010000001.1	91638	92519	+	AG-892-A22_00088	AG-892-A22	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-892-A22_00092	-4
+CACMRC010000001.1	92512	93147	+	AG-892-A22_00089	AG-892-A22	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-892-A22_00092	-3
+CACMRC010000001.1	93160	93447	-	AG-892-A22_00090	AG-892-A22	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-892-A22_00092	-2
+CACMRC010000001.1	93491	93814	+	AG-892-A22_00091	AG-892-A22	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-892-A22_00092	-1
+CACMRC010000001.1	93822	94721	-	AG-892-A22_00092	AG-892-A22	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-892-A22_00092	0
+CACMRC010000001.1	94718	95209	-	AG-892-A22_00093	AG-892-A22	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-892-A22_00092	1
+CACMRC010000001.1	95206	96192	-	AG-892-A22_00094	AG-892-A22	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-892-A22_00092	2
+CACMRC010000001.1	96189	96686	-	AG-892-A22_00095	AG-892-A22	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-892-A22_00092	3
+CACMRC010000001.1	96734	97084	+	AG-892-A22_00096	AG-892-A22	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-892-A22_00092	4
+CACMRC010000001.1	97085	98521	+	AG-892-A22_00097	AG-892-A22	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-892-A22_00092	5
+CACMWB010000001.1	104751	106187	-	AG-892-F02_00112	AG-892-F02	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-892-F02_00117	-5
+CACMWB010000001.1	106188	106538	-	AG-892-F02_00113	AG-892-F02	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-892-F02_00117	-4
+CACMWB010000001.1	106586	107083	+	AG-892-F02_00114	AG-892-F02	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-892-F02_00117	-3
+CACMWB010000001.1	107080	108066	+	AG-892-F02_00115	AG-892-F02	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-892-F02_00117	-2
+CACMWB010000001.1	108063	108554	+	AG-892-F02_00116	AG-892-F02	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-892-F02_00117	-1
+CACMWB010000001.1	108551	109450	+	AG-892-F02_00117	AG-892-F02	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-892-F02_00117	0
+CACMWB010000001.1	109458	109781	-	AG-892-F02_00118	AG-892-F02	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-892-F02_00117	1
+CACMWB010000001.1	109825	110112	+	AG-892-F02_00119	AG-892-F02	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-892-F02_00117	2
+CACMWB010000001.1	110125	110760	-	AG-892-F02_00120	AG-892-F02	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-892-F02_00117	3
+CACMWB010000001.1	110753	111634	-	AG-892-F02_00121	AG-892-F02	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-892-F02_00117	4
+CACMWB010000001.1	111669	112112	+	AG-892-F02_00122	AG-892-F02	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-892-F02_00117	5
+CACNCJ010000001.1	193863	195299	-	AG-892-L17_00204	AG-892-L17	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-892-L17_00209	-5
+CACNCJ010000001.1	195300	195650	-	AG-892-L17_00205	AG-892-L17	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-892-L17_00209	-4
+CACNCJ010000001.1	195699	196196	+	AG-892-L17_00206	AG-892-L17	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-892-L17_00209	-3
+CACNCJ010000001.1	196193	197179	+	AG-892-L17_00207	AG-892-L17	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-892-L17_00209	-2
+CACNCJ010000001.1	197176	197667	+	AG-892-L17_00208	AG-892-L17	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-892-L17_00209	-1
+CACNCJ010000001.1	197664	198563	+	AG-892-L17_00209	AG-892-L17	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-892-L17_00209	0
+CACNCJ010000001.1	198571	198894	-	AG-892-L17_00210	AG-892-L17	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-892-L17_00209	1
+CACNCJ010000001.1	198938	199225	+	AG-892-L17_00211	AG-892-L17	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-892-L17_00209	2
+CACNCJ010000001.1	199258	200145	+	AG-892-L17_00212	AG-892-L17	295	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-892-L17_00209	3
+CACNCJ010000001.1	200155	200790	-	AG-892-L17_00213	AG-892-L17	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-892-L17_00209	4
+CACNCJ010000001.1	200783	201664	-	AG-892-L17_00214	AG-892-L17	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-892-L17_00209	5
+CABYSJ010000003.1	5037	5480	-	AG-894-O09_00347	AG-894-O09	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-894-O09_00352	-5
+CABYSJ010000003.1	5515	6396	+	AG-894-O09_00348	AG-894-O09	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-894-O09_00352	-4
+CABYSJ010000003.1	6389	7024	+	AG-894-O09_00349	AG-894-O09	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-894-O09_00352	-3
+CABYSJ010000003.1	7037	7324	-	AG-894-O09_00350	AG-894-O09	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-894-O09_00352	-2
+CABYSJ010000003.1	7368	7691	+	AG-894-O09_00351	AG-894-O09	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-894-O09_00352	-1
+CABYSJ010000003.1	7699	8598	-	AG-894-O09_00352	AG-894-O09	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-894-O09_00352	0
+CABYSJ010000003.1	8595	9086	-	AG-894-O09_00353	AG-894-O09	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-894-O09_00352	1
+CABYSJ010000003.1	9083	10069	-	AG-894-O09_00354	AG-894-O09	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-894-O09_00352	2
+CABYSJ010000003.1	10066	10563	-	AG-894-O09_00355	AG-894-O09	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-894-O09_00352	3
+CABYSJ010000003.1	10610	10960	+	AG-894-O09_00356	AG-894-O09	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-894-O09_00352	4
+CABYSJ010000003.1	10961	12397	+	AG-894-O09_00357	AG-894-O09	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-894-O09_00352	5
+CABYUV010000010.1	7824	8267	-	AG-894-P23_00874	AG-894-P23	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-894-P23_00879	-5
+CABYUV010000010.1	8302	9183	+	AG-894-P23_00875	AG-894-P23	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-894-P23_00879	-4
+CABYUV010000010.1	9176	9811	+	AG-894-P23_00876	AG-894-P23	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-894-P23_00879	-3
+CABYUV010000010.1	9824	10111	-	AG-894-P23_00877	AG-894-P23	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-894-P23_00879	-2
+CABYUV010000010.1	10155	10478	+	AG-894-P23_00878	AG-894-P23	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-894-P23_00879	-1
+CABYUV010000010.1	10487	11386	-	AG-894-P23_00879	AG-894-P23	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-894-P23_00879	0
+CABYUV010000010.1	11383	11874	-	AG-894-P23_00880	AG-894-P23	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-894-P23_00879	1
+CABYUV010000010.1	11871	12857	-	AG-894-P23_00881	AG-894-P23	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-894-P23_00879	2
+CABYUV010000010.1	12854	13351	-	AG-894-P23_00882	AG-894-P23	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-894-P23_00879	3
+CABYUV010000010.1	13400	13750	+	AG-894-P23_00883	AG-894-P23	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-894-P23_00879	4
+CABYUV010000010.1	13751	15187	+	AG-894-P23_00884	AG-894-P23	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-894-P23_00879	5
+CABYZT010000005.1	46628	47263	+	AG-895-F17_00946	AG-895-F17	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-895-F17_00951	-5
+CABYZT010000005.1	47260	47949	-	AG-895-F17_00947	AG-895-F17	229	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-895-F17_00951	-4
+CABYZT010000005.1	47949	48278	-	AG-895-F17_00948	AG-895-F17	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-895-F17_00951	-3
+CABYZT010000005.1	48300	48587	-	AG-895-F17_00949	AG-895-F17	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-895-F17_00951	-2
+CABYZT010000005.1	48631	48954	+	AG-895-F17_00950	AG-895-F17	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-895-F17_00951	-1
+CABYZT010000005.1	48963	49862	-	AG-895-F17_00951	AG-895-F17	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-895-F17_00951	0
+CABYZT010000005.1	49859	50350	-	AG-895-F17_00952	AG-895-F17	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-895-F17_00951	1
+CABYZT010000005.1	50347	51333	-	AG-895-F17_00953	AG-895-F17	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-895-F17_00951	2
+CABYZT010000005.1	51330	51827	-	AG-895-F17_00954	AG-895-F17	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-895-F17_00951	3
+CABYZT010000005.1	51875	52225	+	AG-895-F17_00955	AG-895-F17	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-895-F17_00951	4
+CABYZT010000005.1	52226	53662	+	AG-895-F17_00956	AG-895-F17	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-895-F17_00951	5
+CABZXO010000009.1	40723	42159	-	AG-896-O18_01027	AG-896-O18	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-896-O18_01032	-5
+CABZXO010000009.1	42160	42510	-	AG-896-O18_01028	AG-896-O18	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-896-O18_01032	-4
+CABZXO010000009.1	42559	43056	+	AG-896-O18_01029	AG-896-O18	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-896-O18_01032	-3
+CABZXO010000009.1	43053	44039	+	AG-896-O18_01030	AG-896-O18	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-896-O18_01032	-2
+CABZXO010000009.1	44036	44527	+	AG-896-O18_01031	AG-896-O18	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-896-O18_01032	-1
+CABZXO010000009.1	44524	45423	+	AG-896-O18_01032	AG-896-O18	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-896-O18_01032	0
+CABZXO010000009.1	45432	45755	-	AG-896-O18_01033	AG-896-O18	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-896-O18_01032	1
+CABZXO010000009.1	45799	46086	+	AG-896-O18_01034	AG-896-O18	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-896-O18_01032	2
+CABZXO010000009.1	46108	46437	+	AG-896-O18_01035	AG-896-O18	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-896-O18_01032	3
+CABZXO010000009.1	46437	47126	+	AG-896-O18_01036	AG-896-O18	229	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-896-O18_01032	4
+CABZXO010000009.1	47123	47758	-	AG-896-O18_01037	AG-896-O18	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-896-O18_01032	5
+CACPIF010000005.1	70243	71679	-	AG-912-L11_00856	AG-912-L11	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-912-L11_00861	-5
+CACPIF010000005.1	71680	72030	-	AG-912-L11_00857	AG-912-L11	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-912-L11_00861	-4
+CACPIF010000005.1	72079	72576	+	AG-912-L11_00858	AG-912-L11	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-912-L11_00861	-3
+CACPIF010000005.1	72573	73559	+	AG-912-L11_00859	AG-912-L11	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-912-L11_00861	-2
+CACPIF010000005.1	73556	74047	+	AG-912-L11_00860	AG-912-L11	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-912-L11_00861	-1
+CACPIF010000005.1	74044	74943	+	AG-912-L11_00861	AG-912-L11	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-912-L11_00861	0
+CACPIF010000005.1	74952	75335	-	AG-912-L11_00862	AG-912-L11	127	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-912-L11_00861	1
+CACPIF010000005.1	75434	76303	+	AG-912-L11_00863	AG-912-L11	289	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-912-L11_00861	2
+CACPIF010000005.1	76305	76595	+	AG-912-L11_00864	AG-912-L11	96	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-912-L11_00861	3
+CACPIF010000005.1	76592	77227	-	AG-912-L11_00865	AG-912-L11	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-912-L11_00861	4
+CACPIF010000005.1	77220	78101	-	AG-912-L11_00866	AG-912-L11	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-912-L11_00861	5
+CACIMN010000001.1	319049	320461	-	AG-913-L03_00336	AG-913-L03	470	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-913-L03_00341	-5
+CACIMN010000001.1	320486	320836	-	AG-913-L03_00337	AG-913-L03	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-913-L03_00341	-4
+CACIMN010000001.1	320883	321380	+	AG-913-L03_00338	AG-913-L03	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-913-L03_00341	-3
+CACIMN010000001.1	321377	322363	+	AG-913-L03_00339	AG-913-L03	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-913-L03_00341	-2
+CACIMN010000001.1	322360	322851	+	AG-913-L03_00340	AG-913-L03	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-913-L03_00341	-1
+CACIMN010000001.1	322848	323747	+	AG-913-L03_00341	AG-913-L03	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-913-L03_00341	0
+CACIMN010000001.1	323755	324078	-	AG-913-L03_00342	AG-913-L03	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-913-L03_00341	1
+CACIMN010000001.1	324124	324453	+	AG-913-L03_00343	AG-913-L03	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-913-L03_00341	2
+CACIMN010000001.1	324453	325139	+	AG-913-L03_00344	AG-913-L03	228	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-913-L03_00341	3
+CACIMN010000001.1	325189	326079	+	AG-913-L03_00345	AG-913-L03	296	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-913-L03_00341	4
+CACIMN010000001.1	326081	326371	+	AG-913-L03_00346	AG-913-L03	96	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-913-L03_00341	5
+CACITU010000012.1	7704	8339	+	AG-914-B14_01119	AG-914-B14	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-914-B14_01124	-5
+CACITU010000012.1	8326	9024	-	AG-914-B14_01120	AG-914-B14	232	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-914-B14_01124	-4
+CACITU010000012.1	9024	9353	-	AG-914-B14_01121	AG-914-B14	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-914-B14_01124	-3
+CACITU010000012.1	9375	9662	-	AG-914-B14_01122	AG-914-B14	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-914-B14_01124	-2
+CACITU010000012.1	9706	10029	+	AG-914-B14_01123	AG-914-B14	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-914-B14_01124	-1
+CACITU010000012.1	10038	10937	-	AG-914-B14_01124	AG-914-B14	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-914-B14_01124	0
+CACITU010000012.1	10934	11425	-	AG-914-B14_01125	AG-914-B14	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-914-B14_01124	1
+CACITU010000012.1	11422	12408	-	AG-914-B14_01126	AG-914-B14	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-914-B14_01124	2
+CACITU010000012.1	12405	12902	-	AG-914-B14_01127	AG-914-B14	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-914-B14_01124	3
+CACITU010000012.1	12951	13301	+	AG-914-B14_01128	AG-914-B14	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-914-B14_01124	4
+CACKFA010000002.1	145292	146728	-	AG-916-N14_00404	AG-916-N14	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-916-N14_00409	-5
+CACKFA010000002.1	146729	147079	-	AG-916-N14_00405	AG-916-N14	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-916-N14_00409	-4
+CACKFA010000002.1	147128	147625	+	AG-916-N14_00406	AG-916-N14	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-916-N14_00409	-3
+CACKFA010000002.1	147622	148608	+	AG-916-N14_00407	AG-916-N14	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-916-N14_00409	-2
+CACKFA010000002.1	148605	149096	+	AG-916-N14_00408	AG-916-N14	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-916-N14_00409	-1
+CACKFA010000002.1	149093	149992	+	AG-916-N14_00409	AG-916-N14	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-916-N14_00409	0
+CACKFA010000002.1	150001	150324	-	AG-916-N14_00410	AG-916-N14	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-916-N14_00409	1
+CACKFA010000002.1	150368	150655	+	AG-916-N14_00411	AG-916-N14	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-916-N14_00409	2
+CACKFA010000002.1	150668	151303	-	AG-916-N14_00412	AG-916-N14	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-916-N14_00409	3
+CACKFA010000002.1	151296	152177	-	AG-916-N14_00413	AG-916-N14	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-916-N14_00409	4
+CACKFA010000002.1	152212	152655	+	AG-916-N14_00414	AG-916-N14	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AG-916-N14_00409	5
+CACKQQ010000004.1	96788	98224	-	AG-917-J06_00645	AG-917-J06	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-917-J06_00650	-5
+CACKQQ010000004.1	98225	98575	-	AG-917-J06_00646	AG-917-J06	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-917-J06_00650	-4
+CACKQQ010000004.1	98624	99121	+	AG-917-J06_00647	AG-917-J06	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-917-J06_00650	-3
+CACKQQ010000004.1	99118	100104	+	AG-917-J06_00648	AG-917-J06	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-917-J06_00650	-2
+CACKQQ010000004.1	100101	100592	+	AG-917-J06_00649	AG-917-J06	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-917-J06_00650	-1
+CACKQQ010000004.1	100589	101488	+	AG-917-J06_00650	AG-917-J06	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-917-J06_00650	0
+CACKQQ010000004.1	101497	101820	-	AG-917-J06_00651	AG-917-J06	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-917-J06_00650	1
+CACKQQ010000004.1	101864	102151	+	AG-917-J06_00652	AG-917-J06	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-917-J06_00650	2
+CACKQQ010000004.1	102173	102502	+	AG-917-J06_00653	AG-917-J06	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-917-J06_00650	3
+CACKQQ010000004.1	102502	103191	+	AG-917-J06_00654	AG-917-J06	229	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-917-J06_00650	4
+CACKQQ010000004.1	103188	103823	-	AG-917-J06_00655	AG-917-J06	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-917-J06_00650	5
+CACNCB010000001.1	348916	349797	+	AG-920-D05_00376	AG-920-D05	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-920-D05_00381	-5
+CACNCB010000001.1	349790	350425	+	AG-920-D05_00377	AG-920-D05	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AG-920-D05_00381	-4
+CACNCB010000001.1	350435	351322	-	AG-920-D05_00378	AG-920-D05	295	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-920-D05_00381	-3
+CACNCB010000001.1	351355	351642	-	AG-920-D05_00379	AG-920-D05	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AG-920-D05_00381	-2
+CACNCB010000001.1	351686	352009	+	AG-920-D05_00380	AG-920-D05	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AG-920-D05_00381	-1
+CACNCB010000001.1	352018	352917	-	AG-920-D05_00381	AG-920-D05	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AG-920-D05_00381	0
+CACNCB010000001.1	352914	353405	-	AG-920-D05_00382	AG-920-D05	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AG-920-D05_00381	1
+CACNCB010000001.1	353402	354388	-	AG-920-D05_00383	AG-920-D05	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AG-920-D05_00381	2
+CACNCB010000001.1	354385	354882	-	AG-920-D05_00384	AG-920-D05	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AG-920-D05_00381	3
+CACNCB010000001.1	354931	355281	+	AG-920-D05_00385	AG-920-D05	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AG-920-D05_00381	4
+CACNCB010000001.1	355282	356718	+	AG-920-D05_00386	AG-920-D05	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AG-920-D05_00381	5
+CACNSD010000008.1	11646	13055	-	AH-287-B07_00895	AH-287-B07	469	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AH-287-B07_00900	-5
+CACNSD010000008.1	13083	13433	-	AH-287-B07_00896	AH-287-B07	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AH-287-B07_00900	-4
+CACNSD010000008.1	13482	13979	+	AH-287-B07_00897	AH-287-B07	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AH-287-B07_00900	-3
+CACNSD010000008.1	13976	14962	+	AH-287-B07_00898	AH-287-B07	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AH-287-B07_00900	-2
+CACNSD010000008.1	14959	15450	+	AH-287-B07_00899	AH-287-B07	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AH-287-B07_00900	-1
+CACNSD010000008.1	15447	16346	+	AH-287-B07_00900	AH-287-B07	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AH-287-B07_00900	0
+CACNSD010000008.1	16353	16676	-	AH-287-B07_00901	AH-287-B07	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AH-287-B07_00900	1
+CACNSD010000008.1	16720	17007	+	AH-287-B07_00902	AH-287-B07	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AH-287-B07_00900	2
+CACNSD010000008.1	17020	17655	-	AH-287-B07_00903	AH-287-B07	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AH-287-B07_00900	3
+CACNSD010000008.1	17648	18529	-	AH-287-B07_00904	AH-287-B07	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AH-287-B07_00900	4
+CACNSD010000008.1	18564	19007	+	AH-287-B07_00905	AH-287-B07	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AH-287-B07_00900	5
+CACNWC010000010.1	31329	32492	-	AH-287-E08_00833	AH-287-E08	387	OG0000078	NA	NA	COG1454	EutG	Alcohol dehydrogenase, class IV	AH-287-E08_00838	-5
+CACNWC010000010.1	32540	33127	-	AH-287-E08_00834	AH-287-E08	195	OG0001002	NA	NA	COG0457	TPR	Tetratricopeptide (TPR) repeat	AH-287-E08_00838	-4
+CACNWC010000010.1	33203	34657	+	AH-287-E08_00835	AH-287-E08	484	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	AH-287-E08_00838	-3
+CACNWC010000010.1	34704	35207	-	AH-287-E08_00836	AH-287-E08	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AH-287-E08_00838	-2
+CACNWC010000010.1	35204	36187	-	AH-287-E08_00837	AH-287-E08	327	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AH-287-E08_00838	-1
+CACNWC010000010.1	36189	36569	-	AH-287-E08_00838	AH-287-E08	126	OG0001445	NA	NA	NA	NA	NA	AH-287-E08_00838	0
+CACNWL010000008.1	5542	5985	-	AH-287-E17_00843	AH-287-E17	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AH-287-E17_00848	-5
+CACNWL010000008.1	6020	6901	+	AH-287-E17_00844	AH-287-E17	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AH-287-E17_00848	-4
+CACNWL010000008.1	6894	7529	+	AH-287-E17_00845	AH-287-E17	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AH-287-E17_00848	-3
+CACNWL010000008.1	7542	7829	-	AH-287-E17_00846	AH-287-E17	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AH-287-E17_00848	-2
+CACNWL010000008.1	7873	8196	+	AH-287-E17_00847	AH-287-E17	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AH-287-E17_00848	-1
+CACNWL010000008.1	8205	9104	-	AH-287-E17_00848	AH-287-E17	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AH-287-E17_00848	0
+CACNWL010000008.1	9101	9592	-	AH-287-E17_00849	AH-287-E17	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AH-287-E17_00848	1
+CACNWL010000008.1	9589	10575	-	AH-287-E17_00850	AH-287-E17	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AH-287-E17_00848	2
+CACNWL010000008.1	10572	11069	-	AH-287-E17_00851	AH-287-E17	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AH-287-E17_00848	3
+CACNWL010000008.1	11118	11468	+	AH-287-E17_00852	AH-287-E17	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AH-287-E17_00848	4
+CACNWL010000008.1	11496	12905	+	AH-287-E17_00853	AH-287-E17	469	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AH-287-E17_00848	5
+CACOEF010000005.1	9842	10141	-	AH-321-A17_00720	AH-321-A17	99	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AH-321-A17_00725	-5
+CACOEF010000005.1	10159	10857	-	AH-321-A17_00721	AH-321-A17	232	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AH-321-A17_00725	-4
+CACOEF010000005.1	10857	11174	-	AH-321-A17_00722	AH-321-A17	105	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AH-321-A17_00725	-3
+CACOEF010000005.1	11213	11500	-	AH-321-A17_00723	AH-321-A17	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AH-321-A17_00725	-2
+CACOEF010000005.1	11544	11867	+	AH-321-A17_00724	AH-321-A17	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AH-321-A17_00725	-1
+CACOEF010000005.1	11874	12773	-	AH-321-A17_00725	AH-321-A17	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AH-321-A17_00725	0
+CACOEF010000005.1	12770	13261	-	AH-321-A17_00726	AH-321-A17	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AH-321-A17_00725	1
+CACOEF010000005.1	13258	14244	-	AH-321-A17_00727	AH-321-A17	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AH-321-A17_00725	2
+CACOEF010000005.1	14241	14738	-	AH-321-A17_00728	AH-321-A17	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AH-321-A17_00725	3
+CACOEF010000005.1	14787	15137	+	AH-321-A17_00729	AH-321-A17	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AH-321-A17_00725	4
+CACOEF010000005.1	15165	16574	+	AH-321-A17_00730	AH-321-A17	469	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AH-321-A17_00725	5
+CACOKI010000037.1	223	510	+	AH-321-L23_01105	AH-321-L23	95	OG0004291	NA	NA	NA	NA	NA	AH-321-L23_01106	-1
+CACOKI010000037.1	799	1698	-	AH-321-L23_01106	AH-321-L23	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AH-321-L23_01106	0
+CACOKI010000037.1	1730	2086	-	AH-321-L23_01107	AH-321-L23	118	OG0001145	NA	NA	NA	NA	NA	AH-321-L23_01106	1
+CACOLY010000031.1	42	869	+	AH-321-P04_01048	AH-321-P04	275	OG0000104	NA	NA	COG1131	RbbA	Ribosome-associated ATPase or ATPase component of an ABC-type multidrug transport system	AH-321-P04_01051	-3
+CACOLY010000031.1	859	1626	+	AH-321-P04_01049	AH-321-P04	255	OG0000111	NA	NA	COG0842	YadH	ABC-type multidrug transport system, permease component	AH-321-P04_01051	-2
+CACOLY010000031.1	1861	2433	+	AH-321-P04_01050	AH-321-P04	190	OG0001145	NA	NA	NA	NA	NA	AH-321-P04_01051	-1
+CACOLY010000031.1	2450	3364	+	AH-321-P04_01051	AH-321-P04	304	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AH-321-P04_01051	0
+CACOLY010000031.1	3653	3940	-	AH-321-P04_01052	AH-321-P04	95	OG0004291	NA	NA	NA	NA	NA	AH-321-P04_01051	1
+CACOPB010000002.1	69737	70036	-	AH-324-F03_00388	AH-324-F03	99	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AH-324-F03_00393	-5
+CACOPB010000002.1	70053	70751	-	AH-324-F03_00389	AH-324-F03	232	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AH-324-F03_00393	-4
+CACOPB010000002.1	70751	71119	-	AH-324-F03_00390	AH-324-F03	122	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AH-324-F03_00393	-3
+CACOPB010000002.1	71106	71393	-	AH-324-F03_00391	AH-324-F03	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AH-324-F03_00393	-2
+CACOPB010000002.1	71437	71760	+	AH-324-F03_00392	AH-324-F03	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AH-324-F03_00393	-1
+CACOPB010000002.1	71767	72666	-	AH-324-F03_00393	AH-324-F03	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AH-324-F03_00393	0
+CACOPB010000002.1	72663	73154	-	AH-324-F03_00394	AH-324-F03	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AH-324-F03_00393	1
+CACOPB010000002.1	73151	74137	-	AH-324-F03_00395	AH-324-F03	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AH-324-F03_00393	2
+CACOPB010000002.1	74134	74631	-	AH-324-F03_00396	AH-324-F03	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AH-324-F03_00393	3
+CACOPB010000002.1	74680	75030	+	AH-324-F03_00397	AH-324-F03	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AH-324-F03_00393	4
+CACOPB010000002.1	75031	76467	+	AH-324-F03_00398	AH-324-F03	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AH-324-F03_00393	5
+CACOQN010000005.1	42250	42693	-	AH-324-J07_00608	AH-324-J07	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	AH-324-J07_00613	-5
+CACOQN010000005.1	42728	43609	+	AH-324-J07_00609	AH-324-J07	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AH-324-J07_00613	-4
+CACOQN010000005.1	43602	44237	+	AH-324-J07_00610	AH-324-J07	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	AH-324-J07_00613	-3
+CACOQN010000005.1	44250	44537	-	AH-324-J07_00611	AH-324-J07	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	AH-324-J07_00613	-2
+CACOQN010000005.1	44581	44904	+	AH-324-J07_00612	AH-324-J07	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	AH-324-J07_00613	-1
+CACOQN010000005.1	44911	45810	-	AH-324-J07_00613	AH-324-J07	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	AH-324-J07_00613	0
+CACOQN010000005.1	45807	46298	-	AH-324-J07_00614	AH-324-J07	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	AH-324-J07_00613	1
+CACOQN010000005.1	46295	47281	-	AH-324-J07_00615	AH-324-J07	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	AH-324-J07_00613	2
+CACOQN010000005.1	47278	47775	-	AH-324-J07_00616	AH-324-J07	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	AH-324-J07_00613	3
+CACOQN010000005.1	47824	48174	+	AH-324-J07_00617	AH-324-J07	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	AH-324-J07_00613	4
+CACOQN010000005.1	48202	49611	+	AH-324-J07_00618	AH-324-J07	469	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	AH-324-J07_00613	5
+NZES01000055.1	3105	3722	+	ARS1_01314	ARS1	205	OG0000994	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	ARS1_01319	-5
+NZES01000055.1	3719	5053	+	ARS1_01315	ARS1	444	OG0000987	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	ARS1_01319	-4
+NZES01000055.1	5066	5560	-	ARS1_01316	ARS1	164	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	ARS1_01319	-3
+NZES01000055.1	5560	6054	-	ARS1_01317	ARS1	164	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	ARS1_01319	-2
+NZES01000055.1	6164	6553	-	ARS1_01318	ARS1	129	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	ARS1_01319	-1
+NZES01000055.1	6561	7466	-	ARS1_01319	ARS1	301	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	ARS1_01319	0
+NZES01000055.1	7532	8818	+	ARS1_01320	ARS1	428	OG0000913	K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]	COG0141	HisD	Histidinol dehydrogenase	ARS1_01319	1
+NZES01000055.1	8825	9832	+	ARS1_01321	ARS1	335	OG0000009	NA	NA	COG1063	Tdh	Threonine dehydrogenase or related Zn-dependent dehydrogenase	ARS1_01319	2
+NZES01000055.1	9885	10889	+	ARS1_01322	ARS1	334	OG0002145	K21053	adenine deaminase [EC:3.5.4.2]	COG1816	Add	Adenosine/6-amino-6-deoxyfutalosine deaminase	ARS1_01319	3
+NZES01000055.1	10881	11792	-	ARS1_01323	ARS1	303	OG0000961	NA	NA	COG0280	Pta	Phosphotransacetylase (includes Pta, EutD and phosphobutyryltransferase)	ARS1_01319	4
+NZES01000055.1	11842	12900	-	ARS1_01324	ARS1	352	OG0001408	NA	NA	COG0596	MenH	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase MenH/undecaprenyl monophosphate-sugar esterase UshA/YqjL	ARS1_01319	5
+LIBV01000085.1	38	1279	+	BACL5_MAG-120820-bin39_00932	BACL5_MAG-120820-bin39	413	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	BACL5_MAG-120820-bin39_00935	-3
+LIBV01000085.1	1339	1842	-	BACL5_MAG-120820-bin39_00933	BACL5_MAG-120820-bin39	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	BACL5_MAG-120820-bin39_00935	-2
+LIBV01000085.1	1839	2825	-	BACL5_MAG-120820-bin39_00934	BACL5_MAG-120820-bin39	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	BACL5_MAG-120820-bin39_00935	-1
+LIBV01000085.1	2826	3725	-	BACL5_MAG-120820-bin39_00935	BACL5_MAG-120820-bin39	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	BACL5_MAG-120820-bin39_00935	0
+LIBW01000077.1	120	1589	+	BACL5_MAG-121015-bin10_00783	BACL5_MAG-121015-bin10	489	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	BACL5_MAG-121015-bin10_00786	-3
+LIBW01000077.1	1649	2152	-	BACL5_MAG-121015-bin10_00784	BACL5_MAG-121015-bin10	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	BACL5_MAG-121015-bin10_00786	-2
+LIBW01000077.1	2149	3135	-	BACL5_MAG-121015-bin10_00785	BACL5_MAG-121015-bin10	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	BACL5_MAG-121015-bin10_00786	-1
+LIBW01000077.1	3136	4035	-	BACL5_MAG-121015-bin10_00786	BACL5_MAG-121015-bin10	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	BACL5_MAG-121015-bin10_00786	0
+LIBW01000077.1	4097	4672	+	BACL5_MAG-121015-bin10_00787	BACL5_MAG-121015-bin10	191	OG0002553	NA	NA	NA	NA	NA	BACL5_MAG-121015-bin10_00786	1
+LIBW01000077.1	4665	4982	-	BACL5_MAG-121015-bin10_00788	BACL5_MAG-121015-bin10	105	OG0001100	NA	NA	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	BACL5_MAG-121015-bin10_00786	2
+CP031125.1	688524	689405	+	FZCC0015_00728	FZCC0015	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	FZCC0015_00733	-5
+CP031125.1	689398	690033	+	FZCC0015_00729	FZCC0015	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	FZCC0015_00733	-4
+CP031125.1	690072	690962	-	FZCC0015_00730	FZCC0015	296	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	FZCC0015_00733	-3
+CP031125.1	690985	691272	-	FZCC0015_00731	FZCC0015	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	FZCC0015_00733	-2
+CP031125.1	691316	691639	+	FZCC0015_00732	FZCC0015	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	FZCC0015_00733	-1
+CP031125.1	691648	692547	-	FZCC0015_00733	FZCC0015	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	FZCC0015_00733	0
+CP031125.1	692544	693035	-	FZCC0015_00734	FZCC0015	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	FZCC0015_00733	1
+CP031125.1	693032	694018	-	FZCC0015_00735	FZCC0015	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	FZCC0015_00733	2
+CP031125.1	694015	694512	-	FZCC0015_00736	FZCC0015	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	FZCC0015_00733	3
+CP031125.1	694560	694910	+	FZCC0015_00737	FZCC0015	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	FZCC0015_00733	4
+CP031125.1	694911	696347	+	FZCC0015_00738	FZCC0015	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	FZCC0015_00733	5
+AZAL01000001.1	983531	984412	+	HIMB083_01066	HIMB083	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB083_01071	-5
+AZAL01000001.1	984405	985040	+	HIMB083_01067	HIMB083	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	HIMB083_01071	-4
+AZAL01000001.1	985050	985937	-	HIMB083_01068	HIMB083	295	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	HIMB083_01071	-3
+AZAL01000001.1	985970	986257	-	HIMB083_01069	HIMB083	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	HIMB083_01071	-2
+AZAL01000001.1	986301	986624	+	HIMB083_01070	HIMB083	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HIMB083_01071	-1
+AZAL01000001.1	986633	987532	-	HIMB083_01071	HIMB083	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HIMB083_01071	0
+AZAL01000001.1	987529	988020	-	HIMB083_01072	HIMB083	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HIMB083_01071	1
+AZAL01000001.1	988017	989003	-	HIMB083_01073	HIMB083	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HIMB083_01071	2
+AZAL01000001.1	989000	989497	-	HIMB083_01074	HIMB083	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	HIMB083_01071	3
+AZAL01000001.1	989545	989895	+	HIMB083_01075	HIMB083	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	HIMB083_01071	4
+AZAL01000001.1	989896	991332	+	HIMB083_01076	HIMB083	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	HIMB083_01071	5
+HIMB123-00000000014	19437	20873	-	HIMB123_00767	HIMB123	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	HIMB123_00772	-5
+HIMB123-00000000014	20874	21224	-	HIMB123_00768	HIMB123	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	HIMB123_00772	-4
+HIMB123-00000000014	21272	21769	+	HIMB123_00769	HIMB123	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	HIMB123_00772	-3
+HIMB123-00000000014	21766	22752	+	HIMB123_00770	HIMB123	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HIMB123_00772	-2
+HIMB123-00000000014	22749	23240	+	HIMB123_00771	HIMB123	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HIMB123_00772	-1
+HIMB123-00000000014	23237	24136	+	HIMB123_00772	HIMB123	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HIMB123_00772	0
+HIMB123-00000000014	24145	24468	-	HIMB123_00773	HIMB123	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HIMB123_00772	1
+HIMB123-00000000014	24512	24799	+	HIMB123_00774	HIMB123	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	HIMB123_00772	2
+HIMB123-00000000014	24853	25719	+	HIMB123_00775	HIMB123	288	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	HIMB123_00772	3
+HIMB123-00000000014	25729	26364	-	HIMB123_00776	HIMB123	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	HIMB123_00772	4
+HIMB123-00000000014	26357	27238	-	HIMB123_00777	HIMB123	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB123_00772	5
+HIMB1409-00000000002	32753	34189	-	HIMB1409_00489	HIMB1409	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	HIMB1409_00494	-5
+HIMB1409-00000000002	34190	34540	-	HIMB1409_00490	HIMB1409	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	HIMB1409_00494	-4
+HIMB1409-00000000002	34589	35086	+	HIMB1409_00491	HIMB1409	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	HIMB1409_00494	-3
+HIMB1409-00000000002	35083	36069	+	HIMB1409_00492	HIMB1409	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HIMB1409_00494	-2
+HIMB1409-00000000002	36066	36557	+	HIMB1409_00493	HIMB1409	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HIMB1409_00494	-1
+HIMB1409-00000000002	36554	37453	+	HIMB1409_00494	HIMB1409	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HIMB1409_00494	0
+HIMB1409-00000000002	37462	37785	-	HIMB1409_00495	HIMB1409	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HIMB1409_00494	1
+HIMB1409-00000000002	37829	38116	+	HIMB1409_00496	HIMB1409	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	HIMB1409_00494	2
+HIMB1409-00000000002	38138	38467	+	HIMB1409_00497	HIMB1409	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	HIMB1409_00494	3
+HIMB1409-00000000002	38467	39156	+	HIMB1409_00498	HIMB1409	229	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	HIMB1409_00494	4
+HIMB1409-00000000002	39153	39788	-	HIMB1409_00499	HIMB1409	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	HIMB1409_00494	5
+HIMB1413-00000000001	1002363	1003799	-	HIMB1413_01087	HIMB1413	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	HIMB1413_01092	-5
+HIMB1413-00000000001	1003800	1004150	-	HIMB1413_01088	HIMB1413	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	HIMB1413_01092	-4
+HIMB1413-00000000001	1004199	1004696	+	HIMB1413_01089	HIMB1413	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	HIMB1413_01092	-3
+HIMB1413-00000000001	1004693	1005679	+	HIMB1413_01090	HIMB1413	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HIMB1413_01092	-2
+HIMB1413-00000000001	1005676	1006167	+	HIMB1413_01091	HIMB1413	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HIMB1413_01092	-1
+HIMB1413-00000000001	1006164	1007063	+	HIMB1413_01092	HIMB1413	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HIMB1413_01092	0
+HIMB1413-00000000001	1007071	1007394	-	HIMB1413_01093	HIMB1413	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HIMB1413_01092	1
+HIMB1413-00000000001	1007438	1007725	+	HIMB1413_01094	HIMB1413	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	HIMB1413_01092	2
+HIMB1413-00000000001	1007747	1008076	+	HIMB1413_01095	HIMB1413	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	HIMB1413_01092	3
+HIMB1413-00000000001	1008076	1008765	+	HIMB1413_01096	HIMB1413	229	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	HIMB1413_01092	4
+HIMB1413-00000000001	1008762	1009397	-	HIMB1413_01097	HIMB1413	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	HIMB1413_01092	5
+HIMB1444-00000000001	141542	142429	-	HIMB1444_00149	HIMB1444	295	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	HIMB1444_00154	-5
+HIMB1444-00000000001	142474	143154	-	HIMB1444_00150	HIMB1444	226	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	HIMB1444_00154	-4
+HIMB1444-00000000001	143154	143483	-	HIMB1444_00151	HIMB1444	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	HIMB1444_00154	-3
+HIMB1444-00000000001	143497	143784	-	HIMB1444_00152	HIMB1444	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	HIMB1444_00154	-2
+HIMB1444-00000000001	143828	144151	+	HIMB1444_00153	HIMB1444	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HIMB1444_00154	-1
+HIMB1444-00000000001	144160	145059	-	HIMB1444_00154	HIMB1444	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HIMB1444_00154	0
+HIMB1444-00000000001	145056	145547	-	HIMB1444_00155	HIMB1444	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HIMB1444_00154	1
+HIMB1444-00000000001	145544	146506	-	HIMB1444_00156	HIMB1444	320	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HIMB1444_00154	2
+HIMB1444-00000000001	146527	147024	-	HIMB1444_00157	HIMB1444	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	HIMB1444_00154	3
+HIMB1444-00000000001	147073	147423	+	HIMB1444_00158	HIMB1444	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	HIMB1444_00154	4
+HIMB1444-00000000001	147424	148860	+	HIMB1444_00159	HIMB1444	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	HIMB1444_00154	5
+HIMB1456-00000000002	38198	39634	-	HIMB1456_00345	HIMB1456	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	HIMB1456_00350	-5
+HIMB1456-00000000002	39635	39985	-	HIMB1456_00346	HIMB1456	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	HIMB1456_00350	-4
+HIMB1456-00000000002	40033	40530	+	HIMB1456_00347	HIMB1456	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	HIMB1456_00350	-3
+HIMB1456-00000000002	40527	41513	+	HIMB1456_00348	HIMB1456	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HIMB1456_00350	-2
+HIMB1456-00000000002	41510	42001	+	HIMB1456_00349	HIMB1456	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HIMB1456_00350	-1
+HIMB1456-00000000002	41998	42897	+	HIMB1456_00350	HIMB1456	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HIMB1456_00350	0
+HIMB1456-00000000002	42906	43229	-	HIMB1456_00351	HIMB1456	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HIMB1456_00350	1
+HIMB1456-00000000002	43273	43560	+	HIMB1456_00352	HIMB1456	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	HIMB1456_00350	2
+HIMB1456-00000000002	43593	44483	+	HIMB1456_00353	HIMB1456	296	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	HIMB1456_00350	3
+HIMB1456-00000000002	44490	45125	-	HIMB1456_00354	HIMB1456	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	HIMB1456_00350	4
+HIMB1456-00000000002	45118	45999	-	HIMB1456_00355	HIMB1456	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1456_00350	5
+HIMB1483-00000000002	972131	972775	-	HIMB1483_01191	HIMB1483	214	OG0000832	NA	NA	COG4649	TPR1	TPR-like repeat domain	HIMB1483_01196	-5
+HIMB1483-00000000002	972778	975447	-	HIMB1483_01192	HIMB1483	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	HIMB1483_01196	-4
+HIMB1483-00000000002	975450	976040	-	HIMB1483_01193	HIMB1483	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	HIMB1483_01196	-3
+HIMB1483-00000000002	976043	976384	-	HIMB1483_01194	HIMB1483	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	HIMB1483_01196	-2
+HIMB1483-00000000002	976414	977604	+	HIMB1483_01195	HIMB1483	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	HIMB1483_01196	-1
+HIMB1483-00000000002	977643	978542	+	HIMB1483_01196	HIMB1483	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HIMB1483_01196	0
+HIMB1483-00000000002	978544	979530	+	HIMB1483_01197	HIMB1483	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HIMB1483_01196	1
+HIMB1483-00000000002	979527	980024	+	HIMB1483_01198	HIMB1483	165	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HIMB1483_01196	2
+HIMB1483-00000000002	980077	981528	-	HIMB1483_01199	HIMB1483	483	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HIMB1483_01196	3
+HIMB1483-00000000002	981711	983147	-	HIMB1483_01200	HIMB1483	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HIMB1483_01196	4
+HIMB1483-00000000002	983168	984127	-	HIMB1483_01201	HIMB1483	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	HIMB1483_01196	5
+HIMB2201-00000000001	1220930	1221811	+	HIMB2201_01325	HIMB2201	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB2201_01330	-5
+HIMB2201-00000000001	1221804	1222439	+	HIMB2201_01326	HIMB2201	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	HIMB2201_01330	-4
+HIMB2201-00000000001	1222448	1223335	-	HIMB2201_01327	HIMB2201	295	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	HIMB2201_01330	-3
+HIMB2201-00000000001	1223358	1223645	-	HIMB2201_01328	HIMB2201	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	HIMB2201_01330	-2
+HIMB2201-00000000001	1223689	1224012	+	HIMB2201_01329	HIMB2201	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HIMB2201_01330	-1
+HIMB2201-00000000001	1224021	1224920	-	HIMB2201_01330	HIMB2201	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HIMB2201_01330	0
+HIMB2201-00000000001	1224917	1225408	-	HIMB2201_01331	HIMB2201	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HIMB2201_01330	1
+HIMB2201-00000000001	1225405	1226391	-	HIMB2201_01332	HIMB2201	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HIMB2201_01330	2
+HIMB2201-00000000001	1226388	1226885	-	HIMB2201_01333	HIMB2201	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	HIMB2201_01330	3
+HIMB2201-00000000001	1226934	1227284	+	HIMB2201_01334	HIMB2201	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	HIMB2201_01330	4
+HIMB2201-00000000001	1227285	1228721	+	HIMB2201_01335	HIMB2201	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	HIMB2201_01330	5
+HIMB2250-00000000001	1087979	1089415	-	HIMB2250_01173	HIMB2250	478	OG0001336	K13481	xanthine dehydrogenase small subunit [EC:1.17.1.4]	COG4630	XdhA	Xanthine dehydrogenase, Fe-S cluster and FAD-binding subunit XdhA	HIMB2250_01178	-5
+HIMB2250-00000000001	1089416	1089766	-	HIMB2250_01174	HIMB2250	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	HIMB2250_01178	-4
+HIMB2250-00000000001	1089815	1090312	+	HIMB2250_01175	HIMB2250	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	HIMB2250_01178	-3
+HIMB2250-00000000001	1090309	1091295	+	HIMB2250_01176	HIMB2250	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HIMB2250_01178	-2
+HIMB2250-00000000001	1091292	1091783	+	HIMB2250_01177	HIMB2250	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HIMB2250_01178	-1
+HIMB2250-00000000001	1091780	1092679	+	HIMB2250_01178	HIMB2250	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HIMB2250_01178	0
+HIMB2250-00000000001	1092687	1093010	-	HIMB2250_01179	HIMB2250	107	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HIMB2250_01178	1
+HIMB2250-00000000001	1093054	1093341	+	HIMB2250_01180	HIMB2250	95	OG0000015	NA	NA	COG5470	NA	Uncharacterized conserved protein, DUF1330 family	HIMB2250_01178	2
+HIMB2250-00000000001	1093354	1093989	-	HIMB2250_01181	HIMB2250	211	OG0000208	K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	COG0122	AlkA	3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase	HIMB2250_01178	3
+HIMB2250-00000000001	1093982	1094863	-	HIMB2250_01182	HIMB2250	293	OG0000066	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB2250_01178	4
+HIMB2250-00000000001	1094898	1095341	+	HIMB2250_01183	HIMB2250	147	OG0000102	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	HIMB2250_01178	5
+HIMB2304-00000000192	74	259	+	HIMB2304_00694	HIMB2304	61	OG0001403	NA	NA	COG2010	CccA	Cytochrome c, mono- and diheme variants	HIMB2304_00695	-1
+HIMB2304-00000000192	268	1167	-	HIMB2304_00695	HIMB2304	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HIMB2304_00695	0
+HIMB2304-00000000192	1164	1655	-	HIMB2304_00696	HIMB2304	163	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HIMB2304_00695	1
+HIMB2304-00000000192	1652	2638	-	HIMB2304_00697	HIMB2304	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HIMB2304_00695	2
+HIMB2304-00000000192	2635	3132	-	HIMB2304_00698	HIMB2304	165	OG0001482	NA	NA	COG3195	PucL	2-oxo-4-hydroxy-4-carboxy--5-ureidoimidazoline (OHCU) decarboxylase (uric acid degradation)	HIMB2304_00695	3
+HIMB2304-00000000192	3180	3530	+	HIMB2304_00699	HIMB2304	116	OG0001310	K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]	COG2351	HiuH	5-hydroxyisourate hydrolase (purine catabolism), transthyretin-related family	HIMB2304_00695	4
+CH724130.1	1247944	1248903	+	HTCC1002_01330	HTCC1002	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	HTCC1002_01335	-5
+CH724130.1	1248924	1250360	+	HTCC1002_01331	HTCC1002	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HTCC1002_01335	-4
+CH724130.1	1250555	1252003	+	HTCC1002_01332	HTCC1002	482	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HTCC1002_01335	-3
+CH724130.1	1252049	1252552	-	HTCC1002_01333	HTCC1002	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HTCC1002_01335	-2
+CH724130.1	1252549	1253535	-	HTCC1002_01334	HTCC1002	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HTCC1002_01335	-1
+CH724130.1	1253538	1254437	-	HTCC1002_01335	HTCC1002	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HTCC1002_01335	0
+CH724130.1	1254476	1255666	-	HTCC1002_01336	HTCC1002	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	HTCC1002_01335	1
+CH724130.1	1255694	1256035	+	HTCC1002_01337	HTCC1002	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	HTCC1002_01335	2
+CH724130.1	1256042	1256632	+	HTCC1002_01338	HTCC1002	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	HTCC1002_01335	3
+CH724130.1	1256640	1259309	+	HTCC1002_01339	HTCC1002	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	HTCC1002_01335	4
+CH724130.1	1259312	1259956	+	HTCC1002_01340	HTCC1002	214	OG0000832	NA	NA	NA	NA	NA	HTCC1002_01335	5
+A3QGDRAFT_scaffold_1.2	350655	351299	-	HTCC1016_01256	HTCC1016	214	OG0000832	NA	NA	NA	NA	NA	HTCC1016_01261	-5
+A3QGDRAFT_scaffold_1.2	351302	353971	-	HTCC1016_01257	HTCC1016	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	HTCC1016_01261	-4
+A3QGDRAFT_scaffold_1.2	353979	354569	-	HTCC1016_01258	HTCC1016	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	HTCC1016_01261	-3
+A3QGDRAFT_scaffold_1.2	354576	354917	-	HTCC1016_01259	HTCC1016	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	HTCC1016_01261	-2
+A3QGDRAFT_scaffold_1.2	354945	356135	+	HTCC1016_01260	HTCC1016	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	HTCC1016_01261	-1
+A3QGDRAFT_scaffold_1.2	356174	357073	+	HTCC1016_01261	HTCC1016	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HTCC1016_01261	0
+A3QGDRAFT_scaffold_1.2	357076	358062	+	HTCC1016_01262	HTCC1016	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HTCC1016_01261	1
+A3QGDRAFT_scaffold_1.2	358059	358562	+	HTCC1016_01263	HTCC1016	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HTCC1016_01261	2
+A3QGDRAFT_scaffold_1.2	358608	360056	-	HTCC1016_01264	HTCC1016	482	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HTCC1016_01261	3
+A3QGDRAFT_scaffold_1.2	360251	361687	-	HTCC1016_01265	HTCC1016	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HTCC1016_01261	4
+A3QGDRAFT_scaffold_1.2	361708	362667	-	HTCC1016_01266	HTCC1016	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	HTCC1016_01261	5
+ARVY01000001.1	1076464	1077108	-	HTCC1040_01172	HTCC1040	214	OG0000832	NA	NA	NA	NA	NA	HTCC1040_01177	-5
+ARVY01000001.1	1077111	1079780	-	HTCC1040_01173	HTCC1040	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	HTCC1040_01177	-4
+ARVY01000001.1	1079788	1080378	-	HTCC1040_01174	HTCC1040	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	HTCC1040_01177	-3
+ARVY01000001.1	1080385	1080726	-	HTCC1040_01175	HTCC1040	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	HTCC1040_01177	-2
+ARVY01000001.1	1080754	1081944	+	HTCC1040_01176	HTCC1040	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	HTCC1040_01177	-1
+ARVY01000001.1	1081983	1082882	+	HTCC1040_01177	HTCC1040	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HTCC1040_01177	0
+ARVY01000001.1	1082885	1083871	+	HTCC1040_01178	HTCC1040	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HTCC1040_01177	1
+ARVY01000001.1	1083868	1084371	+	HTCC1040_01179	HTCC1040	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HTCC1040_01177	2
+ARVY01000001.1	1084417	1085865	-	HTCC1040_01180	HTCC1040	482	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HTCC1040_01177	3
+ARVY01000001.1	1086060	1087496	-	HTCC1040_01181	HTCC1040	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HTCC1040_01177	4
+ARVY01000001.1	1087517	1088476	-	HTCC1040_01182	HTCC1040	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	HTCC1040_01177	5
+AWZW01000001.1	511096	512055	+	HTCC9022_00538	HTCC9022	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	HTCC9022_00543	-5
+AWZW01000001.1	512076	513512	+	HTCC9022_00539	HTCC9022	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HTCC9022_00543	-4
+AWZW01000001.1	513733	515181	+	HTCC9022_00540	HTCC9022	482	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HTCC9022_00543	-3
+AWZW01000001.1	515245	515739	-	HTCC9022_00541	HTCC9022	164	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HTCC9022_00543	-2
+AWZW01000001.1	515739	516728	-	HTCC9022_00542	HTCC9022	329	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HTCC9022_00543	-1
+AWZW01000001.1	516731	517630	-	HTCC9022_00543	HTCC9022	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HTCC9022_00543	0
+AWZW01000001.1	517669	518859	-	HTCC9022_00544	HTCC9022	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	HTCC9022_00543	1
+AWZW01000001.1	518887	519228	+	HTCC9022_00545	HTCC9022	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	HTCC9022_00543	2
+AWZW01000001.1	519232	519825	+	HTCC9022_00546	HTCC9022	197	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	HTCC9022_00543	3
+AWZW01000001.1	519827	522496	+	HTCC9022_00547	HTCC9022	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	HTCC9022_00543	4
+AWZW01000001.1	522499	523143	+	HTCC9022_00548	HTCC9022	214	OG0000832	NA	NA	COG4649	TPR1	TPR-like repeat domain	HTCC9022_00543	5
+NZ_LANA01000002.1	18114	19073	+	HTCC9565_00828	HTCC9565	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	HTCC9565_00833	-5
+NZ_LANA01000002.1	19094	20530	+	HTCC9565_00829	HTCC9565	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	HTCC9565_00833	-4
+NZ_LANA01000002.1	20715	22163	+	HTCC9565_00830	HTCC9565	482	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	HTCC9565_00833	-3
+NZ_LANA01000002.1	22211	22714	-	HTCC9565_00831	HTCC9565	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	HTCC9565_00833	-2
+NZ_LANA01000002.1	22711	23697	-	HTCC9565_00832	HTCC9565	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	HTCC9565_00833	-1
+NZ_LANA01000002.1	23700	24599	-	HTCC9565_00833	HTCC9565	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	HTCC9565_00833	0
+NZ_LANA01000002.1	24638	25828	-	HTCC9565_00834	HTCC9565	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	HTCC9565_00833	1
+NZ_LANA01000002.1	25856	26197	+	HTCC9565_00835	HTCC9565	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	HTCC9565_00833	2
+NZ_LANA01000002.1	26203	26793	+	HTCC9565_00836	HTCC9565	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	HTCC9565_00833	3
+NZ_LANA01000002.1	26800	29469	+	HTCC9565_00837	HTCC9565	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	HTCC9565_00833	4
+NZ_LANA01000002.1	29472	30116	+	HTCC9565_00838	HTCC9565	214	OG0000832	NA	NA	NA	NA	NA	HTCC9565_00833	5
+Ga0182791_11	295942	298479	-	LSUCC0261_00308	LSUCC0261	845	OG0001116	NA	NA	COG3127	YbbP	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component	LSUCC0261_00313	-5
+Ga0182791_11	298463	299128	-	LSUCC0261_00309	LSUCC0261	221	OG0000000	K02003	putative ABC transport system ATP-binding protein	COG1136	LolD	ABC-type lipoprotein targeting system ATPase component LolD	LSUCC0261_00313	-4
+Ga0182791_11	299223	299744	+	LSUCC0261_00310	LSUCC0261	173	OG0001100	K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]	COG2755	TesA	Lysophospholipase L1 or related esterase. Includes spore coat protein LipC/YcsK	LSUCC0261_00313	-3
+Ga0182791_11	299831	301246	+	LSUCC0261_00311	LSUCC0261	471	OG0000238	K01464	dihydropyrimidinase [EC:3.5.2.2]	COG0044	AllB	Dihydroorotase or related cyclic amidohydrolase	LSUCC0261_00313	-2
+Ga0182791_11	301246	301881	+	LSUCC0261_00312	LSUCC0261	211	NA	K16841	allantoin racemase [EC:5.1.99.3]	COG4126	Dcg1	Asp/Glu/hydantoin racemase	LSUCC0261_00313	-1
+Ga0182791_11	301878	302780	+	LSUCC0261_00313	LSUCC0261	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	LSUCC0261_00313	0
+Ga0182791_11	302781	303770	+	LSUCC0261_00314	LSUCC0261	329	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	LSUCC0261_00313	1
+Ga0182791_11	303770	304255	+	LSUCC0261_00315	LSUCC0261	161	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	LSUCC0261_00313	2
+Ga0182791_11	304255	305055	+	LSUCC0261_00316	LSUCC0261	266	OG0001726	K03190	urease accessory protein	COG0829	UreH	Urease accessory protein UreD/UreH	LSUCC0261_00313	3
+Ga0182791_11	305059	305361	+	LSUCC0261_00317	LSUCC0261	100	OG0001725	NA	NA	COG0831	UreA	Urease gamma subunit	LSUCC0261_00313	4
+Ga0182791_11	305365	305676	+	LSUCC0261_00318	LSUCC0261	103	OG0001724	NA	NA	COG0832	UreB	Urease beta subunit	LSUCC0261_00313	5
+NTJN01000004.1	70810	71886	+	MED-G40_00740	MED-G40	358	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	MED-G40_00745	-5
+NTJN01000004.1	71883	73382	-	MED-G40_00741	MED-G40	499	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	MED-G40_00745	-4
+NTJN01000004.1	73379	73849	-	MED-G40_00742	MED-G40	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	MED-G40_00745	-3
+NTJN01000004.1	73884	74864	-	MED-G40_00743	MED-G40	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	MED-G40_00745	-2
+NTJN01000004.1	74932	75828	-	MED-G40_00744	MED-G40	298	OG0001090	K15737	glutarate dioxygenase [EC:1.14.11.64]	NA	NA	NA	MED-G40_00745	-1
+NTJN01000004.1	75850	76755	+	MED-G40_00745	MED-G40	301	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	MED-G40_00745	0
+NTJN01000004.1	76759	77745	+	MED-G40_00746	MED-G40	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	MED-G40_00745	1
+NTJN01000004.1	77748	78242	+	MED-G40_00747	MED-G40	164	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	MED-G40_00745	2
+NTJN01000004.1	78281	79732	-	MED-G40_00748	MED-G40	483	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	MED-G40_00745	3
+NTJN01000004.1	79886	80212	-	MED-G40_00749	MED-G40	108	OG0001083	NA	NA	NA	NA	NA	MED-G40_00745	4
+NTJN01000004.1	80202	80906	-	MED-G40_00750	MED-G40	234	OG0001073	NA	NA	COG1296	AzlC	Predicted branched-chain amino acid permease (azaleucine resistance)	MED-G40_00745	5
+JACWCY010000009.1	1849	2010	-	SAG-MED01_01246	SAG-MED01	53	OG0001070	NA	NA	NA	NA	NA	SAG-MED01_01251	-5
+JACWCY010000009.1	2122	3552	+	SAG-MED01_01247	SAG-MED01	476	OG0001055	K21686	XRE family transcriptional regulator, fatty acid utilization regulator	COG3800	NA	Predicted transcriptional regulator	SAG-MED01_01251	-4
+JACWCY010000009.1	3567	3731	+	SAG-MED01_01248	SAG-MED01	54	OG0001345	NA	NA	NA	NA	NA	SAG-MED01_01251	-3
+JACWCY010000009.1	3737	4006	+	SAG-MED01_01249	SAG-MED01	89	OG0001303	NA	NA	NA	NA	NA	SAG-MED01_01251	-2
+JACWCY010000009.1	4071	4691	+	SAG-MED01_01250	SAG-MED01	206	OG0001145	NA	NA	NA	NA	NA	SAG-MED01_01251	-1
+JACWCY010000009.1	4708	5607	+	SAG-MED01_01251	SAG-MED01	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	SAG-MED01_01251	0
+JACWCY010000009.1	5609	6592	+	SAG-MED01_01252	SAG-MED01	327	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	SAG-MED01_01251	1
+JACWCY010000009.1	6589	7092	+	SAG-MED01_01253	SAG-MED01	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	SAG-MED01_01251	2
+JACWCY010000009.1	7141	8592	-	SAG-MED01_01254	SAG-MED01	483	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	SAG-MED01_01251	3
+JACWCY010000009.1	8916	9425	+	SAG-MED01_01255	SAG-MED01	169	OG0000033	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	SAG-MED01_01251	4
+JACWCY010000009.1	9428	10765	+	SAG-MED01_01256	SAG-MED01	445	OG0002196	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	SAG-MED01_01251	5
+JACWDC010000004.1	89339	90043	+	SAG-MED05_00654	SAG-MED05	234	OG0001073	NA	NA	COG1296	AzlC	Predicted branched-chain amino acid permease (azaleucine resistance)	SAG-MED05_00659	-5
+JACWDC010000004.1	90033	90353	+	SAG-MED05_00655	SAG-MED05	106	OG0001083	NA	NA	COG4392	AzlD2	Branched-chain amino acid transport protein	SAG-MED05_00659	-4
+JACWDC010000004.1	90506	91957	+	SAG-MED05_00656	SAG-MED05	483	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	SAG-MED05_00659	-3
+JACWDC010000004.1	91996	92490	-	SAG-MED05_00657	SAG-MED05	164	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	SAG-MED05_00659	-2
+JACWDC010000004.1	92490	93479	-	SAG-MED05_00658	SAG-MED05	329	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	SAG-MED05_00659	-1
+JACWDC010000004.1	93483	94388	-	SAG-MED05_00659	SAG-MED05	301	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	SAG-MED05_00659	0
+JACWDC010000004.1	94410	95306	+	SAG-MED05_00660	SAG-MED05	298	OG0001090	K15737	glutarate dioxygenase [EC:1.14.11.64]	NA	NA	NA	SAG-MED05_00659	1
+JACWDC010000004.1	95378	96358	+	SAG-MED05_00661	SAG-MED05	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	SAG-MED05_00659	2
+JACWDC010000004.1	96394	96864	+	SAG-MED05_00662	SAG-MED05	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	SAG-MED05_00659	3
+JACWDC010000004.1	96861	98363	+	SAG-MED05_00663	SAG-MED05	500	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	SAG-MED05_00659	4
+JACWDC010000004.1	98494	99132	+	SAG-MED05_00664	SAG-MED05	212	OG0001361	NA	NA	NA	NA	NA	SAG-MED05_00659	5
+CP159824.1	905267	905857	-	Uisw_092_01037	Uisw_092	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	Uisw_092_01042	-5
+CP159824.1	905864	906205	-	Uisw_092_01038	Uisw_092	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	Uisw_092_01042	-4
+CP159824.1	906224	907423	+	Uisw_092_01039	Uisw_092	399	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_092_01042	-3
+CP159824.1	907420	907914	-	Uisw_092_01040	Uisw_092	164	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	Uisw_092_01042	-2
+CP159824.1	907914	908903	-	Uisw_092_01041	Uisw_092	329	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	Uisw_092_01042	-1
+CP159824.1	908903	909805	-	Uisw_092_01042	Uisw_092	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	Uisw_092_01042	0
+CP159824.1	909890	911341	-	Uisw_092_01043	Uisw_092	483	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_092_01042	1
+CP159824.1	911534	912970	-	Uisw_092_01044	Uisw_092	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	Uisw_092_01042	2
+CP159824.1	912991	913950	-	Uisw_092_01045	Uisw_092	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	Uisw_092_01042	3
+CP159824.1	914008	914730	+	Uisw_092_01046	Uisw_092	240	OG0001014	NA	NA	NA	NA	NA	Uisw_092_01042	4
+CP159824.1	914734	915378	+	Uisw_092_01047	Uisw_092	214	OG0001013	NA	NA	COG0652	PpiB	Peptidyl-prolyl cis-trans isomerase (rotamase) - cyclophilin family	Uisw_092_01042	5
+CP159822.1	259839	260798	+	Uisw_099_02_00276	Uisw_099_02	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	Uisw_099_02_00281	-5
+CP159822.1	260819	262255	+	Uisw_099_02_00277	Uisw_099_02	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	Uisw_099_02_00281	-4
+CP159822.1	262449	263897	+	Uisw_099_02_00278	Uisw_099_02	482	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_099_02_00281	-3
+CP159822.1	263943	264446	-	Uisw_099_02_00279	Uisw_099_02	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	Uisw_099_02_00281	-2
+CP159822.1	264443	265429	-	Uisw_099_02_00280	Uisw_099_02	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	Uisw_099_02_00281	-1
+CP159822.1	265429	266331	-	Uisw_099_02_00281	Uisw_099_02	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	Uisw_099_02_00281	0
+CP159822.1	266371	267561	-	Uisw_099_02_00282	Uisw_099_02	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_099_02_00281	1
+CP159822.1	267589	267930	+	Uisw_099_02_00283	Uisw_099_02	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	Uisw_099_02_00281	2
+CP159822.1	267936	268526	+	Uisw_099_02_00284	Uisw_099_02	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	Uisw_099_02_00281	3
+CP159822.1	268533	271202	+	Uisw_099_02_00285	Uisw_099_02	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	Uisw_099_02_00281	4
+CP159822.1	271205	271849	+	Uisw_099_02_00286	Uisw_099_02	214	OG0000832	NA	NA	NA	NA	NA	Uisw_099_02_00281	5
+CP159819.1	898773	899417	-	Uisw_106_01019	Uisw_106	214	OG0000832	NA	NA	NA	NA	NA	Uisw_106_01024	-5
+CP159819.1	899420	902089	-	Uisw_106_01020	Uisw_106	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	Uisw_106_01024	-4
+CP159819.1	902096	902686	-	Uisw_106_01021	Uisw_106	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	Uisw_106_01024	-3
+CP159819.1	902694	903035	-	Uisw_106_01022	Uisw_106	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	Uisw_106_01024	-2
+CP159819.1	903063	904253	+	Uisw_106_01023	Uisw_106	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_106_01024	-1
+CP159819.1	904292	905194	+	Uisw_106_01024	Uisw_106	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	Uisw_106_01024	0
+CP159819.1	905194	906180	+	Uisw_106_01025	Uisw_106	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	Uisw_106_01024	1
+CP159819.1	906177	906674	+	Uisw_106_01026	Uisw_106	165	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	Uisw_106_01024	2
+CP159819.1	906723	908174	-	Uisw_106_01027	Uisw_106	483	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_106_01024	3
+CP159819.1	908417	909853	-	Uisw_106_01028	Uisw_106	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	Uisw_106_01024	4
+CP159819.1	909874	910833	-	Uisw_106_01029	Uisw_106	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	Uisw_106_01024	5
+CP159809.1	279614	280573	+	Uisw_113_00290	Uisw_113	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	Uisw_113_00295	-5
+CP159809.1	280594	282030	+	Uisw_113_00291	Uisw_113	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	Uisw_113_00295	-4
+CP159809.1	282225	283676	+	Uisw_113_00292	Uisw_113	483	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_113_00295	-3
+CP159809.1	283725	284222	-	Uisw_113_00293	Uisw_113	165	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	Uisw_113_00295	-2
+CP159809.1	284219	285205	-	Uisw_113_00294	Uisw_113	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	Uisw_113_00295	-1
+CP159809.1	285205	286107	-	Uisw_113_00295	Uisw_113	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	Uisw_113_00295	0
+CP159809.1	286145	287335	-	Uisw_113_00296	Uisw_113	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_113_00295	1
+CP159809.1	287363	287704	+	Uisw_113_00297	Uisw_113	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	Uisw_113_00295	2
+CP159809.1	287712	288302	+	Uisw_113_00298	Uisw_113	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	Uisw_113_00295	3
+CP159809.1	288309	290978	+	Uisw_113_00299	Uisw_113	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	Uisw_113_00295	4
+CP159809.1	290981	291625	+	Uisw_113_00300	Uisw_113	214	OG0000832	NA	NA	NA	NA	NA	Uisw_113_00295	5
+CP159815.1	267216	268181	+	Uisw_127_00278	Uisw_127	321	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	Uisw_127_00283	-5
+CP159815.1	268196	269632	+	Uisw_127_00279	Uisw_127	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	Uisw_127_00283	-4
+CP159815.1	269875	271323	+	Uisw_127_00280	Uisw_127	482	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_127_00283	-3
+CP159815.1	271375	271869	-	Uisw_127_00281	Uisw_127	164	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	Uisw_127_00283	-2
+CP159815.1	271869	272858	-	Uisw_127_00282	Uisw_127	329	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	Uisw_127_00283	-1
+CP159815.1	272858	273760	-	Uisw_127_00283	Uisw_127	300	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	Uisw_127_00283	0
+CP159815.1	273799	274989	-	Uisw_127_00284	Uisw_127	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_127_00283	1
+CP159815.1	275017	275358	+	Uisw_127_00285	Uisw_127	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	Uisw_127_00283	2
+CP159815.1	275364	275951	+	Uisw_127_00286	Uisw_127	195	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	Uisw_127_00283	3
+CP159815.1	275958	278627	+	Uisw_127_00287	Uisw_127	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	Uisw_127_00283	4
+CP159815.1	278630	279274	+	Uisw_127_00288	Uisw_127	214	OG0000832	NA	NA	NA	NA	NA	Uisw_127_00283	5
+CP159813.1	269365	270324	+	Uisw_134_02_00283	Uisw_134_02	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	Uisw_134_02_00288	-5
+CP159813.1	270345	271781	+	Uisw_134_02_00284	Uisw_134_02	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	Uisw_134_02_00288	-4
+CP159813.1	271973	273421	+	Uisw_134_02_00285	Uisw_134_02	482	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_134_02_00288	-3
+CP159813.1	273467	273970	-	Uisw_134_02_00286	Uisw_134_02	167	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	Uisw_134_02_00288	-2
+CP159813.1	273967	274953	-	Uisw_134_02_00287	Uisw_134_02	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	Uisw_134_02_00288	-1
+CP159813.1	274956	275855	-	Uisw_134_02_00288	Uisw_134_02	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	Uisw_134_02_00288	0
+CP159813.1	275895	277085	-	Uisw_134_02_00289	Uisw_134_02	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_134_02_00288	1
+CP159813.1	277113	277454	+	Uisw_134_02_00290	Uisw_134_02	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	Uisw_134_02_00288	2
+CP159813.1	277461	278051	+	Uisw_134_02_00291	Uisw_134_02	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	Uisw_134_02_00288	3
+CP159813.1	278058	280727	+	Uisw_134_02_00292	Uisw_134_02	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	Uisw_134_02_00288	4
+CP159813.1	280730	280897	+	Uisw_134_02_00293	Uisw_134_02	55	OG0000832	NA	NA	NA	NA	NA	Uisw_134_02_00288	5
+CP159811.1	268455	269414	+	Uisw_137_00286	Uisw_137	319	OG0001053	K25365	guanidinobutyrase / D-arginase [EC:3.5.3.7 3.5.3.10]	COG0010	SpeB	Arginase/agmatinase family enzyme	Uisw_137_00291	-5
+CP159811.1	269435	270871	+	Uisw_137_00287	Uisw_137	478	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	Uisw_137_00291	-4
+CP159811.1	271032	272516	+	Uisw_137_00288	Uisw_137	494	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	Uisw_137_00291	-3
+CP159811.1	272564	273061	-	Uisw_137_00289	Uisw_137	165	OG0001453	K01483	ureidoglycolate lyase [EC:4.3.2.3]	COG3194	AllA	Ureidoglycolate hydrolase (allantoin degradation)	Uisw_137_00291	-2
+CP159811.1	273058	274044	-	Uisw_137_00290	Uisw_137	328	OG0001450	K01477	allantoicase [EC:3.5.3.4]	COG4266	Alc	Allantoicase	Uisw_137_00291	-1
+CP159811.1	274047	274946	-	Uisw_137_00291	Uisw_137	299	OG0001445	K16842	allantoinase [EC:3.5.2.5]	COG0726	PgaB	Peptidoglycan/xylan/chitin deacetylase, PgdA/NodB/CDA1 family	Uisw_137_00291	0
+CP159811.1	274986	276176	-	Uisw_137_00292	Uisw_137	396	OG0000997	K01438	acetylornithine deacetylase [EC:3.5.1.16]	COG0624	ArgE	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase	Uisw_137_00291	1
+CP159811.1	276204	276545	+	Uisw_137_00293	Uisw_137	113	OG0000837	K06878	tRNA-binding protein	COG0073	EMAP	tRNA-binding EMAP/Myf domain	Uisw_137_00291	2
+CP159811.1	276552	277142	+	Uisw_137_00294	Uisw_137	196	OG0000076	K11249	cysteine/O-acetylserine efflux protein	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	Uisw_137_00291	3
+CP159811.1	277149	279818	+	Uisw_137_00295	Uisw_137	889	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	Uisw_137_00291	4
+CP159811.1	279821	280465	+	Uisw_137_00296	Uisw_137	214	OG0000832	NA	NA	NA	NA	NA	Uisw_137_00291	5

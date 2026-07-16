@@ -1,0 +1,34 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CP038852.1	149052	150344	+	NP1_00184	NP1	430	OG0000564	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	NP1_00189	-5
+CP038852.1	150344	151246	+	NP1_00185	NP1	300	OG0000791	K24180	malate permease and related proteins	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	NP1_00189	-4
+CP038852.1	151264	152112	+	NP1_00186	NP1	282	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	NP1_00189	-3
+CP038852.1	152639	152917	-	NP1_00187	NP1	92	OG0000712	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	NP1_00189	-2
+CP038852.1	152898	153335	-	NP1_00188	NP1	145	OG0001444	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	NP1_00189	-1
+CP038852.1	153381	153743	-	NP1_00189	NP1	120	OG0003798	NA	NA	NA	NA	NA	NP1_00189	0
+CP038852.1	153819	154736	+	NP1_00190	NP1	305	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	NP1_00189	1
+CP038852.1	154794	156914	-	NP1_00191	NP1	706	OG0000777	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	NP1_00189	2
+CP038852.1	156892	157152	-	NP1_00192	NP1	86	OG0000885	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	NP1_00189	3
+CP038852.1	157292	158986	-	NP1_00194	NP1	564	OG0001377	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	NP1_00189	4
+CP038852.1	158983	159930	-	NP1_00195	NP1	315	OG0000659	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	NP1_00189	5
+CP159819.1	620389	621336	+	Uisw_106_00679	Uisw_106	315	OG0000659	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_106_00685	-5
+CP159819.1	621333	623027	+	Uisw_106_00680	Uisw_106	564	OG0001377	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_106_00685	-4
+CP159819.1	623167	625527	+	Uisw_106_00682	Uisw_106	786	OG0000777	K06320	spore maturation protein CgeB	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_106_00685	-3
+CP159819.1	625550	626431	+	Uisw_106_00683	Uisw_106	293	OG0001241	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Uisw_106_00685	-2
+CP159819.1	626432	627349	-	Uisw_106_00684	Uisw_106	305	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_106_00685	-1
+CP159819.1	627426	627791	+	Uisw_106_00685	Uisw_106	121	OG0003798	NA	NA	NA	NA	NA	Uisw_106_00685	0
+CP159819.1	627837	628274	+	Uisw_106_00686	Uisw_106	145	OG0001444	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_106_00685	1
+CP159819.1	628255	628533	+	Uisw_106_00687	Uisw_106	92	OG0000712	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_106_00685	2
+CP159819.1	629065	629913	-	Uisw_106_00688	Uisw_106	282	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_106_00685	3
+CP159819.1	629931	630833	-	Uisw_106_00689	Uisw_106	300	OG0000791	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_106_00685	4
+CP159819.1	630833	632125	-	Uisw_106_00690	Uisw_106	430	OG0000564	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_106_00685	5
+CP159812.1	643436	645550	+	Uisw_136_00689	Uisw_136	704	OG0000777	K06320	spore maturation protein CgeB	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_136_00694	-5
+CP159812.1	645558	645845	+	Uisw_136_00690	Uisw_136	95	OG0002326	NA	NA	NA	NA	NA	Uisw_136_00694	-4
+CP159812.1	645842	647398	+	Uisw_136_00691	Uisw_136	518	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_136_00694	-3
+CP159812.1	647408	648118	+	Uisw_136_00692	Uisw_136	236	OG0001203	NA	NA	NA	NA	NA	Uisw_136_00694	-2
+CP159812.1	648123	649040	-	Uisw_136_00693	Uisw_136	305	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_136_00694	-1
+CP159812.1	649116	649385	+	Uisw_136_00694	Uisw_136	89	OG0003798	NA	NA	NA	NA	NA	Uisw_136_00694	0
+CP159812.1	649431	649868	+	Uisw_136_00695	Uisw_136	145	OG0001444	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_136_00694	1
+CP159812.1	649849	650127	+	Uisw_136_00696	Uisw_136	92	OG0000712	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_136_00694	2
+CP159812.1	650725	651573	-	Uisw_136_00697	Uisw_136	282	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	Uisw_136_00694	3
+CP159812.1	651591	652493	-	Uisw_136_00698	Uisw_136	300	OG0000791	K24180	malate permease and related proteins	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	Uisw_136_00694	4
+CP159812.1	652493	653785	-	Uisw_136_00699	Uisw_136	430	OG0000564	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	Uisw_136_00694	5

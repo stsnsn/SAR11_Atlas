@@ -1,0 +1,10 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CABYHH010000037.1	58	735	+	AG-333-D08_01085	AG-333-D08	225	OG0000971	NA	NA	COG0006	PepP	Xaa-Pro aminopeptidase	AG-333-D08_01087	-2
+CABYHH010000037.1	788	1873	+	AG-333-D08_01086	AG-333-D08	361	OG0000109	K02052	putative spermidine/putrescine transport system ATP-binding protein	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-333-D08_01087	-1
+CABYHH010000037.1	2146	2364	-	AG-333-D08_01087	AG-333-D08	72	OG0003843	NA	NA	NA	NA	NA	AG-333-D08_01087	0
+LHBX01000045.1	701	889	+	GOM-A1_00808	GOM-A1	62	OG0003843	NA	NA	NA	NA	NA	GOM-A1_00808	0
+LHBX01000045.1	1205	2290	-	GOM-A1_00809	GOM-A1	361	OG0000109	K02052	putative spermidine/putrescine transport system ATP-binding protein	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	GOM-A1_00808	1
+LHBX01000045.1	2329	3501	-	GOM-A1_00810	GOM-A1	390	OG0000971	K15783	ectoine hydrolase [EC:3.5.4.44]	COG0006	PepP	Xaa-Pro aminopeptidase	GOM-A1_00808	2
+LHBX01000045.1	3505	4266	-	GOM-A1_00811	GOM-A1	253	OG0000958	K01799	maleate isomerase [EC:5.2.1.1]	COG3473	NA	Maleate cis-trans isomerase	GOM-A1_00808	3
+LHBX01000045.1	4311	5795	+	GOM-A1_00812	GOM-A1	494	OG0000047	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	GOM-A1_00808	4
+LHBX01000045.1	5797	6177	+	GOM-A1_00813	GOM-A1	126	OG0001184	NA	NA	COG0346	GloA	Glyoxalase, catechol 2,3-dioxygenase or related enzyme, vicinal oxygen chelate (VOC) family	GOM-A1_00808	5

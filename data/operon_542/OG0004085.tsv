@@ -1,0 +1,15 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CACMWB010000004.1	498	740	+	AG-892-F02_00549	AG-892-F02	80	OG0004085	NA	NA	NA	NA	NA	AG-892-F02_00549	0
+CACMWB010000004.1	781	1527	+	AG-892-F02_00550	AG-892-F02	248	OG0000958	K01799	maleate isomerase [EC:5.2.1.1]	COG3473	NA	Maleate cis-trans isomerase	AG-892-F02_00549	1
+CACMWB010000004.1	1527	2696	+	AG-892-F02_00551	AG-892-F02	389	OG0000971	K15783	ectoine hydrolase [EC:3.5.4.44]	COG0006	PepP	Xaa-Pro aminopeptidase	AG-892-F02_00549	2
+CACMWB010000004.1	2742	3827	+	AG-892-F02_00552	AG-892-F02	361	OG0000109	K02052	putative spermidine/putrescine transport system ATP-binding protein	COG3842	PotA	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase component	AG-892-F02_00549	3
+CACMWB010000004.1	3956	5071	+	AG-892-F02_00553	AG-892-F02	371	OG0000938	NA	NA	COG0687	PotD	Spermidine/putrescine-binding periplasmic protein	AG-892-F02_00549	4
+CACMWB010000004.1	5140	6405	+	AG-892-F02_00554	AG-892-F02	421	OG0000747	K02054	putative spermidine/putrescine transport system permease protein	COG1176	PotB	ABC-type spermidine/putrescine transport system, permease component I	AG-892-F02_00549	5
+JACWEQ010000013.1	461	1627	-	SAG-MED49_00353	SAG-MED49	388	OG0000971	K15783	ectoine hydrolase [EC:3.5.4.44]	COG0006	PepP	Xaa-Pro aminopeptidase	SAG-MED49_00355	-2
+JACWEQ010000013.1	1715	2374	-	SAG-MED49_00354	SAG-MED49	219	OG0000958	K01799	maleate isomerase [EC:5.2.1.1]	COG3473	NA	Maleate cis-trans isomerase	SAG-MED49_00355	-1
+JACWEQ010000013.1	2406	2750	-	SAG-MED49_00355	SAG-MED49	114	OG0004085	NA	NA	NA	NA	NA	SAG-MED49_00355	0
+JACWEQ010000013.1	2780	3307	+	SAG-MED49_00356	SAG-MED49	175	OG0001024	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	SAG-MED49_00355	1
+JACWEQ010000013.1	3304	4245	+	SAG-MED49_00357	SAG-MED49	313	OG0000005	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	SAG-MED49_00355	2
+JACWEQ010000013.1	4397	5410	+	SAG-MED49_00358	SAG-MED49	337	OG0001176	K02002	glycine betaine/proline transport system substrate-binding protein	COG2113	ProX	ABC-type proline/glycine betaine transport system, periplasmic component	SAG-MED49_00355	3
+JACWEQ010000013.1	5478	6365	+	SAG-MED49_00359	SAG-MED49	295	OG0000017	K02001	glycine betaine/proline transport system permease protein	COG4176	ProW	ABC-type proline/glycine betaine transport system, permease component	SAG-MED49_00355	4
+JACWEQ010000013.1	6383	7030	+	SAG-MED49_00360	SAG-MED49	215	OG0001191	NA	NA	COG0584	UgpQ	Glycerophosphoryl diester phosphodiesterase	SAG-MED49_00355	5

@@ -1,0 +1,23 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CACFOP010000003.1	142968	143546	+	AG-414-E02_00780	AG-414-E02	192	OG0001537	K09386	uncharacterized protein	COG3427	CoxG	Carbon monoxide dehydrogenase subunit CoxG	AG-414-E02_00785	-5
+CACFOP010000003.1	143618	144079	+	AG-414-E02_00781	AG-414-E02	153	OG0001336	K03518	aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3]	COG2080	CutS	Aldehyde, CO, or xanthine dehydrogenase, Fe-S subunit, CoxS/CutS family	AG-414-E02_00785	-4
+CACFOP010000003.1	144089	146461	+	AG-414-E02_00782	AG-414-E02	790	OG0001320	K03520	aerobic carbon-monoxide dehydrogenase large subunit [EC:1.2.5.3]	COG1529	CoxL	Aldehyde, CO or xanthine dehydrogenase, Mo-binding subunit	AG-414-E02_00785	-3
+CACFOP010000003.1	146464	147249	+	AG-414-E02_00783	AG-414-E02	261	OG0001506	NA	NA	COG1319	CutB	Aldehyde, CO, or xanthine dehydrogenase, FAD-binding subunit	AG-414-E02_00785	-2
+CACFOP010000003.1	147272	147601	+	AG-414-E02_00784	AG-414-E02	109	OG0001405	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-414-E02_00785	-1
+CACFOP010000003.1	147604	148272	+	AG-414-E02_00785	AG-414-E02	222	OG0003938	NA	NA	NA	NA	NA	AG-414-E02_00785	0
+CACFOP010000003.1	148272	148955	+	AG-414-E02_00786	AG-414-E02	227	OG0001414	K07402	xanthine dehydrogenase accessory factor	COG1975	XdhC	Molybdoenzyme maturation factor PaoD (Mo cofactor insertion), XdhC/CoxF family	AG-414-E02_00785	1
+CACFOP010000003.1	148960	149532	+	AG-414-E02_00787	AG-414-E02	190	OG0000098	K07141	molybdenum cofactor cytidylyltransferase [EC:2.7.7.76]	COG2068	MocA	CTP:molybdopterin cytidylyltransferase MocA	AG-414-E02_00785	2
+CACFOP010000003.1	149519	151951	-	AG-414-E02_00788	AG-414-E02	810	OG0000080	K00315	dimethylglycine dehydrogenase [EC:1.5.8.4]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	AG-414-E02_00785	3
+CACFOP010000003.1	151966	152394	-	AG-414-E02_00789	AG-414-E02	142	OG0001515	NA	NA	NA	NA	NA	AG-414-E02_00785	4
+CACFOP010000003.1	152387	153508	-	AG-414-E02_00790	AG-414-E02	373	OG0000911	K00259	alanine dehydrogenase [EC:1.4.1.1]	COG0686	Ald	Alanine dehydrogenase (includes sporulation protein SpoVN)	AG-414-E02_00785	5
+NZES01000038.1	312	1082	-	ARS1_00905	ARS1	256	OG0000676	NA	NA	COG0345	ProC	Pyrroline-5-carboxylate reductase	ARS1_00910	-5
+NZES01000038.1	1089	2168	+	ARS1_00906	ARS1	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	ARS1_00910	-4
+NZES01000038.1	2219	3712	-	ARS1_00907	ARS1	497	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	ARS1_00910	-3
+NZES01000038.1	3709	4179	-	ARS1_00908	ARS1	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	ARS1_00910	-2
+NZES01000038.1	4212	5183	-	ARS1_00909	ARS1	323	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	ARS1_00910	-1
+NZES01000038.1	5243	5908	-	ARS1_00910	ARS1	221	OG0003938	NA	NA	NA	NA	NA	ARS1_00910	0
+NZES01000038.1	5910	6242	-	ARS1_00911	ARS1	110	OG0001083	NA	NA	COG4392	AzlD2	Branched-chain amino acid transport protein	ARS1_00910	1
+NZES01000038.1	6239	6937	-	ARS1_00912	ARS1	232	OG0001073	NA	NA	NA	NA	NA	ARS1_00910	2
+NZES01000038.1	6937	7725	-	ARS1_00913	ARS1	262	OG0001077	NA	NA	COG0410	LivF	ABC-type branched-chain amino acid transport system, ATPase component LivF	ARS1_00910	3
+NZES01000038.1	7726	8469	-	ARS1_00914	ARS1	247	OG0000928	K01995	branched-chain amino acid transport system ATP-binding protein	COG0411	LivG	ABC-type branched-chain amino acid transport system, ATPase component LivG	ARS1_00910	4
+NZES01000038.1	8472	9527	-	ARS1_00915	ARS1	351	OG0001224	NA	NA	COG4177	LivM	ABC-type branched-chain amino acid transport system, permease component	ARS1_00910	5

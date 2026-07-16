@@ -1,0 +1,11 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+NZES01000052.1	46	909	+	ARS1_01231	ARS1	287	NA	NA	NA	COG5013	NarG	Nitrate reductase alpha subunit	ARS1_01232	-1
+NZES01000052.1	906	2426	+	ARS1_01232	ARS1	506	OG0003727	K00371	nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.-]	COG1140	NarY	Nitrate reductase beta subunit	ARS1_01232	0
+NZES01000052.1	2434	3057	+	ARS1_01233	ARS1	207	OG0004311	NA	NA	COG2180	NarJ	Nitrate reductase assembly protein NarJ, required for insertion of molybdenum cofactor	ARS1_01232	1
+NZES01000052.1	3047	3745	+	ARS1_01234	ARS1	232	OG0003728	NA	NA	COG2181	NarI	Nitrate reductase gamma subunit	ARS1_01232	2
+NZES01000052.1	3778	4203	+	ARS1_01235	ARS1	141	OG0001239	NA	NA	NA	NA	NA	ARS1_01232	3
+NZES01000052.1	4216	4374	+	ARS1_01236	ARS1	52	OG0001452	NA	NA	NA	NA	NA	ARS1_01232	4
+NZES01000052.1	4384	5697	+	ARS1_01237	ARS1	437	NA	K02575	MFS transporter, NNP family, nitrate/nitrite transporter	COG2223	NarK	Nitrate/nitrite transporter NarK	ARS1_01232	5
+JAGFVZ010000077.1	543	2039	-	ETNP2013_S02_SV82_300m_MAG_01_00878	ETNP2013_S02_SV82_300m_MAG_01	498	OG0003727	K00371	nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.-]	COG1140	NarY	Nitrate reductase beta subunit	ETNP2013_S02_SV82_300m_MAG_01_00878	0
+JAGFVZ010000078.1	154	717	+	ETNP2013_S02_SV82_300m_MAG_01_00879	ETNP2013_S02_SV82_300m_MAG_01	187	OG0003727	NA	NA	COG1140	NarY	Nitrate reductase beta subunit	ETNP2013_S02_SV82_300m_MAG_01_00879	0
+JAGFVZ010000078.1	714	1418	+	ETNP2013_S02_SV82_300m_MAG_01_00880	ETNP2013_S02_SV82_300m_MAG_01	234	OG0004311	K00373	nitrate reductase molybdenum cofactor assembly chaperone NarJ/NarW	COG2180	NarJ	Nitrate reductase assembly protein NarJ, required for insertion of molybdenum cofactor	ETNP2013_S02_SV82_300m_MAG_01_00879	1

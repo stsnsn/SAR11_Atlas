@@ -1,0 +1,627 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CABYVA010000004.1	714	1241	-	AG-333-N15_00316	AG-333-N15	175	OG0000487	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	AG-333-N15_00321	-5
+CABYVA010000004.1	1282	2151	+	AG-333-N15_00317	AG-333-N15	289	OG0000981	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	AG-333-N15_00321	-4
+CABYVA010000004.1	2148	3218	+	AG-333-N15_00318	AG-333-N15	356	OG0000959	K08963	methylthioribose-1-phosphate isomerase [EC:5.3.1.23]	COG0182	MtnA	5-methylthioribose/5-deoxyribulose 1-phosphate isomerase (methionine salvage pathway), a paralog of eIF-2B alpha subunit	AG-333-N15_00321	-3
+CABYVA010000004.1	3215	3553	+	AG-333-N15_00319	AG-333-N15	112	OG0001698	NA	NA	NA	NA	NA	AG-333-N15_00321	-2
+CABYVA010000004.1	3539	4474	-	AG-333-N15_00320	AG-333-N15	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-333-N15_00321	-1
+CABYVA010000004.1	4467	5621	-	AG-333-N15_00321	AG-333-N15	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-333-N15_00321	0
+CABYVA010000004.1	5743	6945	-	AG-333-N15_00322	AG-333-N15	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-333-N15_00321	1
+CABYVA010000004.1	7022	8383	-	AG-333-N15_00323	AG-333-N15	453	OG0001904	K06001	tryptophan synthase beta chain [EC:4.2.1.20]	COG1350	NA	Predicted alternative tryptophan synthase beta-subunit (paralog of TrpB)	AG-333-N15_00321	2
+CABYVA010000004.1	8444	10402	-	AG-333-N15_00324	AG-333-N15	652	OG0001481	NA	NA	COG3347	RhaD	Rhamnose utilisation protein RhaD, predicted bifunctional aldolase and dehydrogenase	AG-333-N15_00321	3
+CABYVA010000004.1	10577	11626	+	AG-333-N15_00325	AG-333-N15	349	OG0000859	K00797	spermidine synthase [EC:2.5.1.16]	COG1586	SpeD	S-adenosylmethionine decarboxylase	AG-333-N15_00321	4
+CABYVA010000004.1	11651	12514	+	AG-333-N15_00326	AG-333-N15	287	OG0000978	K10018	octopine/nopaline transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-333-N15_00321	5
+CABZHN010000003.1	93094	93852	+	AG-337-G06_00584	AG-337-G06	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-337-G06_00589	-5
+CABZHN010000003.1	93849	94571	-	AG-337-G06_00585	AG-337-G06	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-337-G06_00589	-4
+CABZHN010000003.1	94585	95757	-	AG-337-G06_00586	AG-337-G06	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-337-G06_00589	-3
+CABZHN010000003.1	95770	96489	-	AG-337-G06_00587	AG-337-G06	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-337-G06_00589	-2
+CABZHN010000003.1	96489	97430	-	AG-337-G06_00588	AG-337-G06	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-337-G06_00589	-1
+CABZHN010000003.1	97427	98587	-	AG-337-G06_00589	AG-337-G06	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-337-G06_00589	0
+CABZHN010000003.1	98589	99803	-	AG-337-G06_00590	AG-337-G06	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-337-G06_00589	1
+CABZHN010000003.1	99905	100402	+	AG-337-G06_00591	AG-337-G06	165	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-337-G06_00589	2
+CABZHN010000003.1	100405	100662	+	AG-337-G06_00592	AG-337-G06	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-337-G06_00589	3
+CABZHN010000003.1	100700	101677	+	AG-337-G06_00593	AG-337-G06	325	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-337-G06_00589	4
+CABZHN010000003.1	101674	102783	+	AG-337-G06_00594	AG-337-G06	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-337-G06_00589	5
+CACDII010000003.1	118896	119423	-	AG-365-L04_00538	AG-365-L04	175	OG0000487	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	AG-365-L04_00543	-5
+CACDII010000003.1	119464	120333	+	AG-365-L04_00539	AG-365-L04	289	OG0000981	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	AG-365-L04_00543	-4
+CACDII010000003.1	120330	121400	+	AG-365-L04_00540	AG-365-L04	356	OG0000959	K08963	methylthioribose-1-phosphate isomerase [EC:5.3.1.23]	COG0182	MtnA	5-methylthioribose/5-deoxyribulose 1-phosphate isomerase (methionine salvage pathway), a paralog of eIF-2B alpha subunit	AG-365-L04_00543	-3
+CACDII010000003.1	121397	121735	+	AG-365-L04_00541	AG-365-L04	112	OG0001698	NA	NA	NA	NA	NA	AG-365-L04_00543	-2
+CACDII010000003.1	121721	122656	-	AG-365-L04_00542	AG-365-L04	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-365-L04_00543	-1
+CACDII010000003.1	122649	123803	-	AG-365-L04_00543	AG-365-L04	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-365-L04_00543	0
+CACDII010000003.1	123900	125102	-	AG-365-L04_00544	AG-365-L04	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-365-L04_00543	1
+CACDII010000003.1	125179	126540	-	AG-365-L04_00545	AG-365-L04	453	OG0001904	K06001	tryptophan synthase beta chain [EC:4.2.1.20]	COG1350	NA	Predicted alternative tryptophan synthase beta-subunit (paralog of TrpB)	AG-365-L04_00543	2
+CACDII010000003.1	126601	128634	-	AG-365-L04_00546	AG-365-L04	677	OG0001481	NA	NA	COG3347	RhaD	Rhamnose utilisation protein RhaD, predicted bifunctional aldolase and dehydrogenase	AG-365-L04_00543	3
+CACDII010000003.1	128734	129783	+	AG-365-L04_00547	AG-365-L04	349	OG0000859	K00797	spermidine synthase [EC:2.5.1.16]	COG1586	SpeD	S-adenosylmethionine decarboxylase	AG-365-L04_00543	4
+CACDII010000003.1	129850	130671	+	AG-365-L04_00548	AG-365-L04	273	OG0000978	K10018	octopine/nopaline transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-365-L04_00543	5
+CACDMX010000002.1	132666	133082	-	AG-365-O14_00338	AG-365-O14	138	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	AG-365-O14_00343	-5
+CACDMX010000002.1	133161	134483	+	AG-365-O14_00339	AG-365-O14	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-365-O14_00343	-4
+CACDMX010000002.1	134480	134605	+	AG-365-O14_00340	AG-365-O14	41	OG0001423	NA	NA	COG4640	YvbJ	Uncharacterized protein YvbJ, contains N-terminal Zn ribbon domain	AG-365-O14_00343	-3
+CACDMX010000002.1	134592	135482	+	AG-365-O14_00341	AG-365-O14	296	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-365-O14_00343	-2
+CACDMX010000002.1	135493	136695	+	AG-365-O14_00342	AG-365-O14	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-365-O14_00343	-1
+CACDMX010000002.1	136814	137968	+	AG-365-O14_00343	AG-365-O14	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-365-O14_00343	0
+CACDMX010000002.1	137961	138896	+	AG-365-O14_00344	AG-365-O14	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-365-O14_00343	1
+CACDMX010000002.1	138896	139735	+	AG-365-O14_00345	AG-365-O14	279	OG0001126	NA	NA	NA	NA	NA	AG-365-O14_00343	2
+CACDMX010000002.1	139732	141012	-	AG-365-O14_00346	AG-365-O14	426	OG0000431	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	AG-365-O14_00343	3
+CACDMX010000002.1	140990	141385	-	AG-365-O14_00347	AG-365-O14	131	OG0000629	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	AG-365-O14_00343	4
+CACDMX010000002.1	141547	141963	+	AG-365-O14_00348	AG-365-O14	138	OG0001228	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-365-O14_00343	5
+CACEZQ010000004.1	56534	56950	-	AG-404-O05_00550	AG-404-O05	138	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	AG-404-O05_00555	-5
+CACEZQ010000004.1	57029	58384	+	AG-404-O05_00551	AG-404-O05	451	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-404-O05_00555	-4
+CACEZQ010000004.1	58409	58528	+	AG-404-O05_00552	AG-404-O05	39	OG0001423	NA	NA	NA	NA	NA	AG-404-O05_00555	-3
+CACEZQ010000004.1	58528	59397	+	AG-404-O05_00553	AG-404-O05	289	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-404-O05_00555	-2
+CACEZQ010000004.1	59408	60610	+	AG-404-O05_00554	AG-404-O05	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-404-O05_00555	-1
+CACEZQ010000004.1	60730	61884	+	AG-404-O05_00555	AG-404-O05	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-404-O05_00555	0
+CACEZQ010000004.1	61877	62812	+	AG-404-O05_00556	AG-404-O05	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-404-O05_00555	1
+CACEZQ010000004.1	62813	64090	-	AG-404-O05_00557	AG-404-O05	425	OG0000431	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	AG-404-O05_00555	2
+CACEZQ010000004.1	64068	64463	-	AG-404-O05_00558	AG-404-O05	131	OG0000629	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	AG-404-O05_00555	3
+CACEZQ010000004.1	64670	65041	+	AG-404-O05_00559	AG-404-O05	123	OG0001228	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-404-O05_00555	4
+CACEZQ010000004.1	65041	66339	+	AG-404-O05_00560	AG-404-O05	432	OG0000566	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	AG-404-O05_00555	5
+CACFLX010000005.1	68788	69156	-	AG-414-B08_00632	AG-414-B08	122	OG0001228	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-414-B08_00637	-5
+CACFLX010000005.1	69172	69591	-	AG-414-B08_00633	AG-414-B08	139	OG0002324	K01174	micrococcal nuclease [EC:3.1.31.1]	COG1525	YncB	Endonuclease YncB, thermonuclease family	AG-414-B08_00637	-4
+CACFLX010000005.1	69799	70194	+	AG-414-B08_00634	AG-414-B08	131	OG0000629	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	AG-414-B08_00637	-3
+CACFLX010000005.1	70172	71452	+	AG-414-B08_00635	AG-414-B08	426	OG0000431	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	AG-414-B08_00637	-2
+CACFLX010000005.1	71449	72384	-	AG-414-B08_00636	AG-414-B08	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-414-B08_00637	-1
+CACFLX010000005.1	72377	73531	-	AG-414-B08_00637	AG-414-B08	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-414-B08_00637	0
+CACFLX010000005.1	73658	74860	-	AG-414-B08_00638	AG-414-B08	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-414-B08_00637	1
+CACFLX010000005.1	74942	76303	-	AG-414-B08_00639	AG-414-B08	453	OG0001904	K06001	tryptophan synthase beta chain [EC:4.2.1.20]	COG1350	NA	Predicted alternative tryptophan synthase beta-subunit (paralog of TrpB)	AG-414-B08_00637	2
+CACFLX010000005.1	76380	77174	-	AG-414-B08_00640	AG-414-B08	264	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-414-B08_00637	3
+CACFLX010000005.1	77178	77969	-	AG-414-B08_00641	AG-414-B08	263	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-414-B08_00637	4
+CACFLX010000005.1	77969	78838	-	AG-414-B08_00642	AG-414-B08	289	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-414-B08_00637	5
+CACFOP010000001.1	88130	89068	-	AG-414-E02_00088	AG-414-E02	312	OG0000124	NA	NA	COG2113	ProX	ABC-type proline/glycine betaine transport system, periplasmic component	AG-414-E02_00093	-5
+CACFOP010000001.1	89181	91526	+	AG-414-E02_00089	AG-414-E02	781	OG0001066	K00605	aminomethyltransferase [EC:2.1.2.10]	COG0404	GcvT	Glycine cleavage system protein T (aminomethyltransferase)	AG-414-E02_00093	-4
+CACFOP010000001.1	91528	92874	+	AG-414-E02_00090	AG-414-E02	448	OG0000004	NA	NA	COG0665	DadA	Glycine/D-amino acid oxidase (deaminating)	AG-414-E02_00093	-3
+CACFOP010000001.1	92949	94310	+	AG-414-E02_00091	AG-414-E02	453	OG0001904	K06001	tryptophan synthase beta chain [EC:4.2.1.20]	COG1350	NA	Predicted alternative tryptophan synthase beta-subunit (paralog of TrpB)	AG-414-E02_00093	-2
+CACFOP010000001.1	94329	95558	+	AG-414-E02_00092	AG-414-E02	409	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-414-E02_00093	-1
+CACFOP010000001.1	95561	96721	+	AG-414-E02_00093	AG-414-E02	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-414-E02_00093	0
+CACFOP010000001.1	96714	97649	+	AG-414-E02_00094	AG-414-E02	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-414-E02_00093	1
+CACFOP010000001.1	97824	99293	+	AG-414-E02_00095	AG-414-E02	489	OG0000029	K01915	glutamine synthetase [EC:6.3.1.2]	COG0174	GlnA	Glutamine synthetase	AG-414-E02_00093	2
+CACFOP010000001.1	99309	100253	+	AG-414-E02_00096	AG-414-E02	314	OG0000018	K22081	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	COG0034	PurF	Glutamine phosphoribosylpyrophosphate amidotransferase	AG-414-E02_00093	3
+CACFOP010000001.1	100241	101083	+	AG-414-E02_00097	AG-414-E02	280	OG0000956	K22082	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	COG2218	FwdC	Formylmethanofuran dehydrogenase subunit C	AG-414-E02_00093	4
+CACFOP010000001.1	101085	102458	+	AG-414-E02_00098	AG-414-E02	457	OG0000878	K22083	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	COG0069	GltB2	Glutamate synthase domain 2	AG-414-E02_00093	5
+CACFTX010000001.1	38968	39384	-	AG-414-L04_00041	AG-414-L04	138	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	AG-414-L04_00046	-5
+CACFTX010000001.1	39463	40785	+	AG-414-L04_00042	AG-414-L04	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-414-L04_00046	-4
+CACFTX010000001.1	40782	40907	+	AG-414-L04_00043	AG-414-L04	41	OG0001423	NA	NA	NA	NA	NA	AG-414-L04_00046	-3
+CACFTX010000001.1	40912	41781	+	AG-414-L04_00044	AG-414-L04	289	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-414-L04_00046	-2
+CACFTX010000001.1	41842	43044	+	AG-414-L04_00045	AG-414-L04	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-414-L04_00046	-1
+CACFTX010000001.1	43167	44321	+	AG-414-L04_00046	AG-414-L04	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-414-L04_00046	0
+CACFTX010000001.1	44314	45249	+	AG-414-L04_00047	AG-414-L04	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-414-L04_00046	1
+CACFTX010000001.1	45250	46569	-	AG-414-L04_00048	AG-414-L04	439	OG0000431	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	AG-414-L04_00046	2
+CACFTX010000001.1	46508	46903	-	AG-414-L04_00049	AG-414-L04	131	OG0000629	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	AG-414-L04_00046	3
+CACFTX010000001.1	47065	47436	+	AG-414-L04_00050	AG-414-L04	123	OG0001228	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-414-L04_00046	4
+CACFTX010000001.1	47436	48734	+	AG-414-L04_00051	AG-414-L04	432	OG0000566	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	AG-414-L04_00046	5
+CACFVS010000014.1	7276	8145	+	AG-414-M23_00949	AG-414-M23	289	OG0000981	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	AG-414-M23_00954	-5
+CACFVS010000014.1	8142	9050	+	AG-414-M23_00950	AG-414-M23	302	OG0001267	NA	NA	COG1506	DAP2	Dipeptidyl aminopeptidase/acylaminoacyl peptidase	AG-414-M23_00954	-4
+CACFVS010000014.1	9051	10118	+	AG-414-M23_00951	AG-414-M23	355	OG0000959	K08963	methylthioribose-1-phosphate isomerase [EC:5.3.1.23]	COG0182	MtnA	5-methylthioribose/5-deoxyribulose 1-phosphate isomerase (methionine salvage pathway), a paralog of eIF-2B alpha subunit	AG-414-M23_00954	-3
+CACFVS010000014.1	10130	11110	+	AG-414-M23_00952	AG-414-M23	326	OG0001852	NA	NA	COG4448	AnsA2	L-asparaginase II	AG-414-M23_00954	-2
+CACFVS010000014.1	11107	12042	-	AG-414-M23_00953	AG-414-M23	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-414-M23_00954	-1
+CACFVS010000014.1	12035	13189	-	AG-414-M23_00954	AG-414-M23	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-414-M23_00954	0
+CACFVS010000014.1	13249	14451	-	AG-414-M23_00955	AG-414-M23	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-414-M23_00954	1
+CACFVS010000014.1	14493	15854	-	AG-414-M23_00956	AG-414-M23	453	OG0001904	K06001	tryptophan synthase beta chain [EC:4.2.1.20]	COG1350	NA	Predicted alternative tryptophan synthase beta-subunit (paralog of TrpB)	AG-414-M23_00954	2
+CACFVS010000014.1	15911	16573	+	AG-414-M23_00957	AG-414-M23	220	OG0000087	K01628	L-fuculose-phosphate aldolase [EC:4.1.2.17]	COG0235	AraD	5-methylthioribulose/5-deoxyribulose/Fuculose 1-phosphate aldolase (methionine salvage, sugar degradation)	AG-414-M23_00954	3
+CACFVS010000014.1	16599	17639	+	AG-414-M23_00958	AG-414-M23	346	OG0000859	K00797	spermidine synthase [EC:2.5.1.16]	COG1586	SpeD	S-adenosylmethionine decarboxylase	AG-414-M23_00954	4
+CACFVS010000014.1	17702	18529	+	AG-414-M23_00959	AG-414-M23	275	OG0000978	K10018	octopine/nopaline transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-414-M23_00954	5
+CACGAF010000004.1	40669	41427	+	AG-422-B15_00416	AG-422-B15	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-422-B15_00421	-5
+CACGAF010000004.1	41424	42146	-	AG-422-B15_00417	AG-422-B15	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-422-B15_00421	-4
+CACGAF010000004.1	42156	43328	-	AG-422-B15_00418	AG-422-B15	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-422-B15_00421	-3
+CACGAF010000004.1	43341	44060	-	AG-422-B15_00419	AG-422-B15	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-422-B15_00421	-2
+CACGAF010000004.1	44061	45002	-	AG-422-B15_00420	AG-422-B15	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-422-B15_00421	-1
+CACGAF010000004.1	44999	46195	-	AG-422-B15_00421	AG-422-B15	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-422-B15_00421	0
+CACGAF010000004.1	46164	47378	-	AG-422-B15_00422	AG-422-B15	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-422-B15_00421	1
+CACGAF010000004.1	47544	47978	+	AG-422-B15_00423	AG-422-B15	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-422-B15_00421	2
+CACGAF010000004.1	47981	48238	+	AG-422-B15_00424	AG-422-B15	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-422-B15_00421	3
+CACGAF010000004.1	48273	49247	+	AG-422-B15_00425	AG-422-B15	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-422-B15_00421	4
+CACGAF010000004.1	49248	50357	+	AG-422-B15_00426	AG-422-B15	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-422-B15_00421	5
+CACGCK010000001.1	62567	63325	+	AG-422-C21_00070	AG-422-C21	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-422-C21_00075	-5
+CACGCK010000001.1	63322	64044	-	AG-422-C21_00071	AG-422-C21	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-422-C21_00075	-4
+CACGCK010000001.1	64054	65226	-	AG-422-C21_00072	AG-422-C21	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-422-C21_00075	-3
+CACGCK010000001.1	65239	65958	-	AG-422-C21_00073	AG-422-C21	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-422-C21_00075	-2
+CACGCK010000001.1	65959	66900	-	AG-422-C21_00074	AG-422-C21	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-422-C21_00075	-1
+CACGCK010000001.1	66897	68093	-	AG-422-C21_00075	AG-422-C21	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-422-C21_00075	0
+CACGCK010000001.1	68062	69276	-	AG-422-C21_00076	AG-422-C21	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-422-C21_00075	1
+CACGCK010000001.1	69442	69876	+	AG-422-C21_00077	AG-422-C21	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-422-C21_00075	2
+CACGCK010000001.1	69879	70136	+	AG-422-C21_00078	AG-422-C21	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-422-C21_00075	3
+CACGCK010000001.1	70171	71145	+	AG-422-C21_00079	AG-422-C21	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-422-C21_00075	4
+CACGCK010000001.1	71146	72255	+	AG-422-C21_00080	AG-422-C21	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-422-C21_00075	5
+CACHAK010000002.1	85696	86805	-	AG-426-I21_00450	AG-426-I21	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-426-I21_00455	-5
+CACHAK010000002.1	86806	87780	-	AG-426-I21_00451	AG-426-I21	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-426-I21_00455	-4
+CACHAK010000002.1	87815	88072	-	AG-426-I21_00452	AG-426-I21	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-426-I21_00455	-3
+CACHAK010000002.1	88075	88509	-	AG-426-I21_00453	AG-426-I21	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-426-I21_00455	-2
+CACHAK010000002.1	88675	89889	+	AG-426-I21_00454	AG-426-I21	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-426-I21_00455	-1
+CACHAK010000002.1	89858	91054	+	AG-426-I21_00455	AG-426-I21	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-426-I21_00455	0
+CACHAK010000002.1	91051	91992	+	AG-426-I21_00456	AG-426-I21	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-426-I21_00455	1
+CACHAK010000002.1	91993	92712	+	AG-426-I21_00457	AG-426-I21	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-426-I21_00455	2
+CACHAK010000002.1	92725	93897	+	AG-426-I21_00458	AG-426-I21	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-426-I21_00455	3
+CACHAK010000002.1	93907	94629	+	AG-426-I21_00459	AG-426-I21	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-426-I21_00455	4
+CACHAK010000002.1	94626	95384	-	AG-426-I21_00460	AG-426-I21	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-426-I21_00455	5
+CACHVT010000002.1	16207	16623	-	AG-430-K07_00182	AG-430-K07	138	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	AG-430-K07_00187	-5
+CACHVT010000002.1	16702	18057	+	AG-430-K07_00183	AG-430-K07	451	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-430-K07_00187	-4
+CACHVT010000002.1	18081	18200	+	AG-430-K07_00184	AG-430-K07	39	OG0001423	NA	NA	NA	NA	NA	AG-430-K07_00187	-3
+CACHVT010000002.1	18200	19069	+	AG-430-K07_00185	AG-430-K07	289	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-430-K07_00187	-2
+CACHVT010000002.1	19080	20282	+	AG-430-K07_00186	AG-430-K07	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-430-K07_00187	-1
+CACHVT010000002.1	20386	21540	+	AG-430-K07_00187	AG-430-K07	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-430-K07_00187	0
+CACHVT010000002.1	21533	22468	+	AG-430-K07_00188	AG-430-K07	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-430-K07_00187	1
+CACHVT010000002.1	22469	23773	-	AG-430-K07_00189	AG-430-K07	434	OG0000431	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	AG-430-K07_00187	2
+CACHVT010000002.1	23724	24119	-	AG-430-K07_00190	AG-430-K07	131	OG0000629	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	AG-430-K07_00187	3
+CACHVT010000002.1	24281	24697	+	AG-430-K07_00191	AG-430-K07	138	OG0001228	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-430-K07_00187	4
+CACHVT010000002.1	24697	25995	+	AG-430-K07_00192	AG-430-K07	432	OG0000566	K12340	outer membrane protein	COG1538	TolC	Outer membrane protein TolC	AG-430-K07_00187	5
+CACPJJ010000014.1	12345	13136	+	AG-439-B12_00970	AG-439-B12	263	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-439-B12_00975	-5
+CACPJJ010000014.1	13143	14018	+	AG-439-B12_00971	AG-439-B12	291	OG0000051	K01561	haloacetate dehalogenase [EC:3.8.1.3]	COG0596	MenH	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase MenH/undecaprenyl monophosphate-sugar esterase UshA/YqjL	AG-439-B12_00975	-4
+CACPJJ010000014.1	14011	14805	+	AG-439-B12_00972	AG-439-B12	264	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-439-B12_00975	-3
+CACPJJ010000014.1	14883	16244	+	AG-439-B12_00973	AG-439-B12	453	OG0001904	K06001	tryptophan synthase beta chain [EC:4.2.1.20]	COG1350	NA	Predicted alternative tryptophan synthase beta-subunit (paralog of TrpB)	AG-439-B12_00975	-2
+CACPJJ010000014.1	16323	17525	+	AG-439-B12_00974	AG-439-B12	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-439-B12_00975	-1
+CACPJJ010000014.1	17651	18805	+	AG-439-B12_00975	AG-439-B12	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-439-B12_00975	0
+CACPJJ010000014.1	18798	19733	+	AG-439-B12_00976	AG-439-B12	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-439-B12_00975	1
+CACPJJ010000014.1	19733	20572	+	AG-439-B12_00977	AG-439-B12	279	OG0001126	NA	NA	NA	NA	NA	AG-439-B12_00975	2
+CACPJJ010000014.1	20569	21849	-	AG-439-B12_00978	AG-439-B12	426	OG0000431	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	AG-439-B12_00975	3
+CACPJJ010000014.1	21827	22222	-	AG-439-B12_00979	AG-439-B12	131	OG0000629	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	AG-439-B12_00975	4
+CACPJJ010000014.1	22393	22740	+	AG-439-B12_00980	AG-439-B12	115	OG0001771	NA	NA	NA	NA	NA	AG-439-B12_00975	5
+CACIQL010000001.1	2546	3304	+	AG-439-D15_00003	AG-439-D15	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-439-D15_00008	-5
+CACIQL010000001.1	3301	4023	-	AG-439-D15_00004	AG-439-D15	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-439-D15_00008	-4
+CACIQL010000001.1	4033	5205	-	AG-439-D15_00005	AG-439-D15	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-439-D15_00008	-3
+CACIQL010000001.1	5218	5937	-	AG-439-D15_00006	AG-439-D15	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-439-D15_00008	-2
+CACIQL010000001.1	5938	6879	-	AG-439-D15_00007	AG-439-D15	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-439-D15_00008	-1
+CACIQL010000001.1	6876	8072	-	AG-439-D15_00008	AG-439-D15	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-439-D15_00008	0
+CACIQL010000001.1	8041	9255	-	AG-439-D15_00009	AG-439-D15	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-439-D15_00008	1
+CACIQL010000001.1	9421	9855	+	AG-439-D15_00010	AG-439-D15	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-439-D15_00008	2
+CACIQL010000001.1	9858	10115	+	AG-439-D15_00011	AG-439-D15	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-439-D15_00008	3
+CACIQL010000001.1	10150	11124	+	AG-439-D15_00012	AG-439-D15	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-439-D15_00008	4
+CACIQL010000001.1	11125	12234	+	AG-439-D15_00013	AG-439-D15	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-439-D15_00008	5
+CACIUK010000006.1	52242	52415	-	AG-439-E23_00568	AG-439-E23	57	OG0001772	NA	NA	NA	NA	NA	AG-439-E23_00573	-5
+CACIUK010000006.1	52416	52661	-	AG-439-E23_00569	AG-439-E23	81	OG0001473	NA	NA	NA	NA	NA	AG-439-E23_00573	-4
+CACIUK010000006.1	52832	53227	+	AG-439-E23_00570	AG-439-E23	131	OG0000629	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	AG-439-E23_00573	-3
+CACIUK010000006.1	53205	54485	+	AG-439-E23_00571	AG-439-E23	426	OG0000431	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	AG-439-E23_00573	-2
+CACIUK010000006.1	54482	55417	-	AG-439-E23_00572	AG-439-E23	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-439-E23_00573	-1
+CACIUK010000006.1	55410	56564	-	AG-439-E23_00573	AG-439-E23	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-439-E23_00573	0
+CACIUK010000006.1	56691	57893	-	AG-439-E23_00574	AG-439-E23	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-439-E23_00573	1
+CACIUK010000006.1	57975	59336	-	AG-439-E23_00575	AG-439-E23	453	OG0001904	K06001	tryptophan synthase beta chain [EC:4.2.1.20]	COG1350	NA	Predicted alternative tryptophan synthase beta-subunit (paralog of TrpB)	AG-439-E23_00573	2
+CACIUK010000006.1	59414	60208	-	AG-439-E23_00576	AG-439-E23	264	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-439-E23_00573	3
+CACIUK010000006.1	60215	61006	-	AG-439-E23_00577	AG-439-E23	263	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-439-E23_00573	4
+CACIUK010000006.1	61006	61875	-	AG-439-E23_00578	AG-439-E23	289	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-439-E23_00573	5
+CACISU010000001.1	382540	383391	-	AG-439-G19_00438	AG-439-G19	283	OG0000978	K10018	octopine/nopaline transport system substrate-binding protein	COG0834	HisJ	ABC-type amino acid transport/signal transduction system, periplasmic component/domain	AG-439-G19_00443	-5
+CACISU010000001.1	383449	384489	-	AG-439-G19_00439	AG-439-G19	346	OG0000859	K00797	spermidine synthase [EC:2.5.1.16]	COG1586	SpeD	S-adenosylmethionine decarboxylase	AG-439-G19_00443	-4
+CACISU010000001.1	384496	385155	-	AG-439-G19_00440	AG-439-G19	219	OG0000087	K01628	L-fuculose-phosphate aldolase [EC:4.1.2.17]	COG0235	AraD	5-methylthioribulose/5-deoxyribulose/Fuculose 1-phosphate aldolase (methionine salvage, sugar degradation)	AG-439-G19_00443	-3
+CACISU010000001.1	385212	386573	+	AG-439-G19_00441	AG-439-G19	453	OG0001904	K06001	tryptophan synthase beta chain [EC:4.2.1.20]	COG1350	NA	Predicted alternative tryptophan synthase beta-subunit (paralog of TrpB)	AG-439-G19_00443	-2
+CACISU010000001.1	386615	387817	+	AG-439-G19_00442	AG-439-G19	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-439-G19_00443	-1
+CACISU010000001.1	387921	389075	+	AG-439-G19_00443	AG-439-G19	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-439-G19_00443	0
+CACISU010000001.1	389068	390003	+	AG-439-G19_00444	AG-439-G19	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-439-G19_00443	1
+CACISU010000001.1	390005	391084	-	AG-439-G19_00445	AG-439-G19	359	OG0000959	K08963	methylthioribose-1-phosphate isomerase [EC:5.3.1.23]	COG0182	MtnA	5-methylthioribose/5-deoxyribulose 1-phosphate isomerase (methionine salvage pathway), a paralog of eIF-2B alpha subunit	AG-439-G19_00443	2
+CACISU010000001.1	391081	391950	-	AG-439-G19_00446	AG-439-G19	289	OG0000981	K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]	COG0005	XapA	Purine nucleoside phosphorylase	AG-439-G19_00443	3
+CACISU010000001.1	391987	392514	+	AG-439-G19_00447	AG-439-G19	175	OG0000487	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	COG0503	Apt	Adenine/guanine phosphoribosyltransferase or related PRPP-binding protein	AG-439-G19_00443	4
+CACISU010000001.1	392518	393198	+	AG-439-G19_00448	AG-439-G19	226	OG0000028	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	AG-439-G19_00443	5
+CACKWR010000007.1	1816	2577	+	AG-457-M14_00714	AG-457-M14	253	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-457-M14_00719	-5
+CACKWR010000007.1	2574	3296	-	AG-457-M14_00715	AG-457-M14	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-457-M14_00719	-4
+CACKWR010000007.1	3314	4486	-	AG-457-M14_00716	AG-457-M14	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-457-M14_00719	-3
+CACKWR010000007.1	4504	5226	-	AG-457-M14_00717	AG-457-M14	240	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-457-M14_00719	-2
+CACKWR010000007.1	5228	6169	-	AG-457-M14_00718	AG-457-M14	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-457-M14_00719	-1
+CACKWR010000007.1	6169	7329	-	AG-457-M14_00719	AG-457-M14	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-457-M14_00719	0
+CACKWR010000007.1	7332	8552	-	AG-457-M14_00720	AG-457-M14	406	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-457-M14_00719	1
+CACKWR010000007.1	8734	9174	+	AG-457-M14_00721	AG-457-M14	146	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-457-M14_00719	2
+CACKWR010000007.1	9175	9438	+	AG-457-M14_00722	AG-457-M14	87	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-457-M14_00719	3
+CACKWR010000007.1	9501	10475	+	AG-457-M14_00723	AG-457-M14	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-457-M14_00719	4
+CACKWR010000007.1	10477	11586	+	AG-457-M14_00724	AG-457-M14	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-457-M14_00719	5
+CACLHF010000016.1	5887	6648	+	AG-461-P14_01128	AG-461-P14	253	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-461-P14_01133	-5
+CACLHF010000016.1	6645	7367	-	AG-461-P14_01129	AG-461-P14	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-461-P14_01133	-4
+CACLHF010000016.1	7385	8557	-	AG-461-P14_01130	AG-461-P14	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-461-P14_01133	-3
+CACLHF010000016.1	8575	9297	-	AG-461-P14_01131	AG-461-P14	240	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-461-P14_01133	-2
+CACLHF010000016.1	9299	10240	-	AG-461-P14_01132	AG-461-P14	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-461-P14_01133	-1
+CACLHF010000016.1	10240	11400	-	AG-461-P14_01133	AG-461-P14	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-461-P14_01133	0
+CACLHF010000016.1	11403	12623	-	AG-461-P14_01134	AG-461-P14	406	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-461-P14_01133	1
+CACLHF010000016.1	12805	13245	+	AG-461-P14_01135	AG-461-P14	146	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-461-P14_01133	2
+CACLHF010000016.1	13246	13509	+	AG-461-P14_01136	AG-461-P14	87	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-461-P14_01133	3
+CACLHF010000016.1	13572	14546	+	AG-461-P14_01137	AG-461-P14	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-461-P14_01133	4
+CACLHF010000016.1	14548	15657	+	AG-461-P14_01138	AG-461-P14	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-461-P14_01133	5
+CACLNT010000002.1	58818	60032	-	AG-464-P13_00162	AG-464-P13	404	OG0000988	NA	NA	COG0147	TrpE	Anthranilate/para-aminobenzoate synthases component I	AG-464-P13_00167	-5
+CACLNT010000002.1	60010	61230	-	AG-464-P13_00163	AG-464-P13	406	OG0000107	NA	NA	COG2223	NarK	Nitrate/nitrite transporter NarK	AG-464-P13_00167	-4
+CACLNT010000002.1	61227	62402	-	AG-464-P13_00164	AG-464-P13	391	OG0000863	NA	NA	COG0626	MetC	Cystathionine beta-lyase/cystathionine gamma-synthase	AG-464-P13_00167	-3
+CACLNT010000002.1	62576	63286	+	AG-464-P13_00165	AG-464-P13	236	OG0001227	NA	NA	NA	NA	NA	AG-464-P13_00167	-2
+CACLNT010000002.1	63314	64516	+	AG-464-P13_00166	AG-464-P13	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-464-P13_00167	-1
+CACLNT010000002.1	64605	65759	+	AG-464-P13_00167	AG-464-P13	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-464-P13_00167	0
+CACLNT010000002.1	65752	66687	+	AG-464-P13_00168	AG-464-P13	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-464-P13_00167	1
+CACLNT010000002.1	66688	67242	-	AG-464-P13_00169	AG-464-P13	184	OG0002948	NA	NA	NA	NA	NA	AG-464-P13_00167	2
+CACLNT010000002.1	67309	68565	-	AG-464-P13_00170	AG-464-P13	418	OG0002427	K01455	formamidase [EC:3.5.1.49]	COG2421	FmdA	Acetamidase/formamidase	AG-464-P13_00167	3
+CACLNT010000002.1	68725	69702	-	AG-464-P13_00171	AG-464-P13	325	OG0001852	NA	NA	COG4448	AnsA2	L-asparaginase II	AG-464-P13_00167	4
+CACLNT010000002.1	69711	70826	-	AG-464-P13_00172	AG-464-P13	371	OG0000581	NA	NA	COG0482	MnmA	tRNA U34 2-thiouridine synthase MnmA/TrmU, contains the PP-loop ATPase domain	AG-464-P13_00167	5
+CACMIV010000001.1	302523	303281	+	AG-891-J04_00327	AG-891-J04	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-891-J04_00332	-5
+CACMIV010000001.1	303278	304000	-	AG-891-J04_00328	AG-891-J04	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-891-J04_00332	-4
+CACMIV010000001.1	304010	305182	-	AG-891-J04_00329	AG-891-J04	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-891-J04_00332	-3
+CACMIV010000001.1	305198	305914	-	AG-891-J04_00330	AG-891-J04	238	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-891-J04_00332	-2
+CACMIV010000001.1	305915	306856	-	AG-891-J04_00331	AG-891-J04	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-891-J04_00332	-1
+CACMIV010000001.1	306853	308049	-	AG-891-J04_00332	AG-891-J04	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-891-J04_00332	0
+CACMIV010000001.1	308018	309232	-	AG-891-J04_00333	AG-891-J04	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-891-J04_00332	1
+CACMIV010000001.1	309382	309816	+	AG-891-J04_00334	AG-891-J04	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-891-J04_00332	2
+CACMIV010000001.1	309819	310076	+	AG-891-J04_00335	AG-891-J04	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-891-J04_00332	3
+CACMIV010000001.1	310111	311085	+	AG-891-J04_00336	AG-891-J04	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-891-J04_00332	4
+CACMIV010000001.1	311086	312195	+	AG-891-J04_00337	AG-891-J04	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-891-J04_00332	5
+CACNCD010000001.1	20130	20546	-	AG-892-L05_00019	AG-892-L05	138	OG0000366	K06204	DnaK suppressor protein	COG1734	DksA	RNA polymerase-binding transcription factor DksA	AG-892-L05_00024	-5
+CACNCD010000001.1	20625	21947	+	AG-892-L05_00020	AG-892-L05	440	OG0000780	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-892-L05_00024	-4
+CACNCD010000001.1	21944	22069	+	AG-892-L05_00021	AG-892-L05	41	OG0001423	NA	NA	NA	NA	NA	AG-892-L05_00024	-3
+CACNCD010000001.1	22074	22943	+	AG-892-L05_00022	AG-892-L05	289	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-892-L05_00024	-2
+CACNCD010000001.1	22956	24158	+	AG-892-L05_00023	AG-892-L05	400	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-892-L05_00024	-1
+CACNCD010000001.1	24277	25431	+	AG-892-L05_00024	AG-892-L05	384	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-892-L05_00024	0
+CACNCD010000001.1	25424	26359	+	AG-892-L05_00025	AG-892-L05	311	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-892-L05_00024	1
+CACNCD010000001.1	26359	27198	+	AG-892-L05_00026	AG-892-L05	279	OG0001126	NA	NA	NA	NA	NA	AG-892-L05_00024	2
+CACNCD010000001.1	27195	28475	-	AG-892-L05_00027	AG-892-L05	426	OG0000431	K03502	DNA polymerase V	COG0389	DinP	Nucleotidyltransferase/DNA polymerase DinP involved in DNA repair	AG-892-L05_00024	3
+CACNCD010000001.1	28453	28848	-	AG-892-L05_00028	AG-892-L05	131	OG0000629	K03503	DNA polymerase V [EC:3.4.21.-]	COG1974	LexA	SOS-response transcriptional repressor LexA (RecA-mediated autopeptidase)	AG-892-L05_00024	4
+CACNCD010000001.1	29056	29427	+	AG-892-L05_00029	AG-892-L05	123	OG0001228	NA	NA	COG3791	NA	Uncharacterized conserved protein	AG-892-L05_00024	5
+CACNCV010000001.1	151177	152286	-	AG-892-M06_00159	AG-892-M06	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-892-M06_00164	-5
+CACNCV010000001.1	152287	153261	-	AG-892-M06_00160	AG-892-M06	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-892-M06_00164	-4
+CACNCV010000001.1	153296	153553	-	AG-892-M06_00161	AG-892-M06	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-892-M06_00164	-3
+CACNCV010000001.1	153556	153990	-	AG-892-M06_00162	AG-892-M06	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-892-M06_00164	-2
+CACNCV010000001.1	154156	155370	+	AG-892-M06_00163	AG-892-M06	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-892-M06_00164	-1
+CACNCV010000001.1	155339	156535	+	AG-892-M06_00164	AG-892-M06	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-892-M06_00164	0
+CACNCV010000001.1	156532	157473	+	AG-892-M06_00165	AG-892-M06	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-892-M06_00164	1
+CACNCV010000001.1	157474	158190	+	AG-892-M06_00166	AG-892-M06	238	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-892-M06_00164	2
+CACNCV010000001.1	158206	159378	+	AG-892-M06_00167	AG-892-M06	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-892-M06_00164	3
+CACNCV010000001.1	159388	160110	+	AG-892-M06_00168	AG-892-M06	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-892-M06_00164	4
+CACNCV010000001.1	160107	160865	-	AG-892-M06_00169	AG-892-M06	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-892-M06_00164	5
+CACNSH010000001.1	222907	223665	+	AG-893-M03_00237	AG-893-M03	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-893-M03_00242	-5
+CACNSH010000001.1	223662	224384	-	AG-893-M03_00238	AG-893-M03	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-893-M03_00242	-4
+CACNSH010000001.1	224394	225566	-	AG-893-M03_00239	AG-893-M03	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-893-M03_00242	-3
+CACNSH010000001.1	225579	226298	-	AG-893-M03_00240	AG-893-M03	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-893-M03_00242	-2
+CACNSH010000001.1	226299	227240	-	AG-893-M03_00241	AG-893-M03	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-893-M03_00242	-1
+CACNSH010000001.1	227237	228433	-	AG-893-M03_00242	AG-893-M03	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-893-M03_00242	0
+CACNSH010000001.1	228402	229616	-	AG-893-M03_00243	AG-893-M03	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-893-M03_00242	1
+CACNSH010000001.1	229782	230216	+	AG-893-M03_00244	AG-893-M03	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-893-M03_00242	2
+CACNSH010000001.1	230219	230476	+	AG-893-M03_00245	AG-893-M03	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-893-M03_00242	3
+CACNSH010000001.1	230511	231485	+	AG-893-M03_00246	AG-893-M03	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-893-M03_00242	4
+CACNSH010000001.1	231486	232595	+	AG-893-M03_00247	AG-893-M03	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-893-M03_00242	5
+CABYDT010000004.1	128015	128608	+	AG-894-A09_00747	AG-894-A09	197	OG0001068	NA	NA	COG3917	NahD	2-hydroxychromene-2-carboxylate isomerase	AG-894-A09_00752	-5
+CABYDT010000004.1	128609	128998	-	AG-894-A09_00748	AG-894-A09	129	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	AG-894-A09_00752	-4
+CABYDT010000004.1	129023	129484	+	AG-894-A09_00749	AG-894-A09	153	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	AG-894-A09_00752	-3
+CABYDT010000004.1	129474	130358	-	AG-894-A09_00750	AG-894-A09	294	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	AG-894-A09_00752	-2
+CABYDT010000004.1	130351	131931	-	AG-894-A09_00751	AG-894-A09	526	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-894-A09_00752	-1
+CABYDT010000004.1	131932	132558	-	AG-894-A09_00752	AG-894-A09	208	OG0001619	NA	NA	COG1932	SerC	Phosphoserine aminotransferase	AG-894-A09_00752	0
+CABYDZ010000004.1	6327	7436	-	AG-894-A11_00601	AG-894-A11	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-894-A11_00606	-5
+CABYDZ010000004.1	7433	8410	-	AG-894-A11_00602	AG-894-A11	325	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-894-A11_00606	-4
+CABYDZ010000004.1	8449	8706	-	AG-894-A11_00603	AG-894-A11	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-894-A11_00606	-3
+CABYDZ010000004.1	8709	9143	-	AG-894-A11_00604	AG-894-A11	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-894-A11_00606	-2
+CABYDZ010000004.1	9307	10521	+	AG-894-A11_00605	AG-894-A11	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-894-A11_00606	-1
+CABYDZ010000004.1	10523	11683	+	AG-894-A11_00606	AG-894-A11	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-894-A11_00606	0
+CABYDZ010000004.1	11680	12621	+	AG-894-A11_00607	AG-894-A11	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-894-A11_00606	1
+CABYDZ010000004.1	12621	13340	+	AG-894-A11_00608	AG-894-A11	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-894-A11_00606	2
+CABYDZ010000004.1	13353	14525	+	AG-894-A11_00609	AG-894-A11	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-894-A11_00606	3
+CABYDZ010000004.1	14539	15261	+	AG-894-A11_00610	AG-894-A11	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-894-A11_00606	4
+CABYDZ010000004.1	15258	16016	-	AG-894-A11_00611	AG-894-A11	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-894-A11_00606	5
+CABYZG010000001.1	15809	16918	-	AG-895-F07_00019	AG-895-F07	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-895-F07_00024	-5
+CABYZG010000001.1	16919	17893	-	AG-895-F07_00020	AG-895-F07	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-895-F07_00024	-4
+CABYZG010000001.1	17927	18184	-	AG-895-F07_00021	AG-895-F07	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-895-F07_00024	-3
+CABYZG010000001.1	18187	18621	-	AG-895-F07_00022	AG-895-F07	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-895-F07_00024	-2
+CABYZG010000001.1	18787	20001	+	AG-895-F07_00023	AG-895-F07	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-895-F07_00024	-1
+CABYZG010000001.1	19970	21166	+	AG-895-F07_00024	AG-895-F07	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-895-F07_00024	0
+CABYZG010000001.1	21163	22104	+	AG-895-F07_00025	AG-895-F07	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-895-F07_00024	1
+CABYZG010000001.1	22105	22824	+	AG-895-F07_00026	AG-895-F07	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-895-F07_00024	2
+CABYZG010000001.1	22837	24009	+	AG-895-F07_00027	AG-895-F07	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-895-F07_00024	3
+CABYZG010000001.1	24019	24741	+	AG-895-F07_00028	AG-895-F07	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-895-F07_00024	4
+CABYZG010000001.1	24738	25496	-	AG-895-F07_00029	AG-895-F07	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-895-F07_00024	5
+CABZIW010000001.1	329191	330300	-	AG-896-A02_00335	AG-896-A02	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-896-A02_00340	-5
+CABZIW010000001.1	330301	331275	-	AG-896-A02_00336	AG-896-A02	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-896-A02_00340	-4
+CABZIW010000001.1	331310	331567	-	AG-896-A02_00337	AG-896-A02	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-896-A02_00340	-3
+CABZIW010000001.1	331570	332004	-	AG-896-A02_00338	AG-896-A02	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-896-A02_00340	-2
+CABZIW010000001.1	332170	333384	+	AG-896-A02_00339	AG-896-A02	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-896-A02_00340	-1
+CABZIW010000001.1	333353	334549	+	AG-896-A02_00340	AG-896-A02	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-896-A02_00340	0
+CABZIW010000001.1	334546	335487	+	AG-896-A02_00341	AG-896-A02	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-896-A02_00340	1
+CABZIW010000001.1	335488	336207	+	AG-896-A02_00342	AG-896-A02	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-896-A02_00340	2
+CABZIW010000001.1	336220	337392	+	AG-896-A02_00343	AG-896-A02	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-896-A02_00340	3
+CABZIW010000001.1	337402	338124	+	AG-896-A02_00344	AG-896-A02	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-896-A02_00340	4
+CABZIW010000001.1	338121	338879	-	AG-896-A02_00345	AG-896-A02	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-896-A02_00340	5
+CACCAS010000005.1	58723	59832	-	AG-900-K14_01076	AG-900-K14	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-900-K14_01081	-5
+CACCAS010000005.1	59829	60806	-	AG-900-K14_01077	AG-900-K14	325	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-900-K14_01081	-4
+CACCAS010000005.1	60845	61102	-	AG-900-K14_01078	AG-900-K14	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-900-K14_01081	-3
+CACCAS010000005.1	61105	61602	-	AG-900-K14_01079	AG-900-K14	165	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-900-K14_01081	-2
+CACCAS010000005.1	61704	62918	+	AG-900-K14_01080	AG-900-K14	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-900-K14_01081	-1
+CACCAS010000005.1	62920	64080	+	AG-900-K14_01081	AG-900-K14	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-900-K14_01081	0
+CACCAS010000005.1	64077	65018	+	AG-900-K14_01082	AG-900-K14	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-900-K14_01081	1
+CACCAS010000005.1	65018	65737	+	AG-900-K14_01083	AG-900-K14	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-900-K14_01081	2
+CACCAS010000005.1	65750	66922	+	AG-900-K14_01084	AG-900-K14	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-900-K14_01081	3
+CACCAS010000005.1	66936	67658	+	AG-900-K14_01085	AG-900-K14	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-900-K14_01081	4
+CACCAS010000005.1	67655	68413	-	AG-900-K14_01086	AG-900-K14	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-900-K14_01081	5
+CACCCN010000010.1	37685	38446	+	AG-900-M14_01144	AG-900-M14	253	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-900-M14_01149	-5
+CACCCN010000010.1	38443	39165	-	AG-900-M14_01145	AG-900-M14	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-900-M14_01149	-4
+CACCCN010000010.1	39183	40355	-	AG-900-M14_01146	AG-900-M14	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-900-M14_01149	-3
+CACCCN010000010.1	40373	41095	-	AG-900-M14_01147	AG-900-M14	240	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-900-M14_01149	-2
+CACCCN010000010.1	41097	42038	-	AG-900-M14_01148	AG-900-M14	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-900-M14_01149	-1
+CACCCN010000010.1	42038	43198	-	AG-900-M14_01149	AG-900-M14	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-900-M14_01149	0
+CACCCN010000010.1	43201	43521	-	AG-900-M14_01150	AG-900-M14	106	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-900-M14_01149	1
+CACCND010000002.1	28725	29483	+	AG-901-G03_00274	AG-901-G03	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-901-G03_00279	-5
+CACCND010000002.1	29480	30202	-	AG-901-G03_00275	AG-901-G03	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-901-G03_00279	-4
+CACCND010000002.1	30212	31384	-	AG-901-G03_00276	AG-901-G03	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-901-G03_00279	-3
+CACCND010000002.1	31397	32116	-	AG-901-G03_00277	AG-901-G03	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-901-G03_00279	-2
+CACCND010000002.1	32117	33058	-	AG-901-G03_00278	AG-901-G03	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-901-G03_00279	-1
+CACCND010000002.1	33055	34251	-	AG-901-G03_00279	AG-901-G03	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-901-G03_00279	0
+CACCND010000002.1	34220	35434	-	AG-901-G03_00280	AG-901-G03	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-901-G03_00279	1
+CACCND010000002.1	35600	36034	+	AG-901-G03_00281	AG-901-G03	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-901-G03_00279	2
+CACCND010000002.1	36037	36294	+	AG-901-G03_00282	AG-901-G03	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-901-G03_00279	3
+CACCND010000002.1	36329	37303	+	AG-901-G03_00283	AG-901-G03	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-901-G03_00279	4
+CACCND010000002.1	37304	38413	+	AG-901-G03_00284	AG-901-G03	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-901-G03_00279	5
+CACEDC010000001.1	323839	324948	-	AG-905-D16_00340	AG-905-D16	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-905-D16_00345	-5
+CACEDC010000001.1	324949	325923	-	AG-905-D16_00341	AG-905-D16	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-905-D16_00345	-4
+CACEDC010000001.1	325958	326215	-	AG-905-D16_00342	AG-905-D16	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-905-D16_00345	-3
+CACEDC010000001.1	326218	326652	-	AG-905-D16_00343	AG-905-D16	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-905-D16_00345	-2
+CACEDC010000001.1	326818	328032	+	AG-905-D16_00344	AG-905-D16	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-905-D16_00345	-1
+CACEDC010000001.1	328001	329197	+	AG-905-D16_00345	AG-905-D16	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-905-D16_00345	0
+CACEDC010000001.1	329194	330135	+	AG-905-D16_00346	AG-905-D16	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-905-D16_00345	1
+CACEDC010000001.1	330136	330855	+	AG-905-D16_00347	AG-905-D16	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-905-D16_00345	2
+CACEDC010000001.1	330868	332040	+	AG-905-D16_00348	AG-905-D16	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-905-D16_00345	3
+CACEDC010000001.1	332050	332772	+	AG-905-D16_00349	AG-905-D16	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-905-D16_00345	4
+CACEDC010000001.1	332769	333527	-	AG-905-D16_00350	AG-905-D16	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-905-D16_00345	5
+CACEPS010000001.1	81157	81750	+	AG-907-B09_00096	AG-907-B09	197	OG0001068	NA	NA	COG3917	NahD	2-hydroxychromene-2-carboxylate isomerase	AG-907-B09_00101	-5
+CACEPS010000001.1	81751	82140	-	AG-907-B09_00097	AG-907-B09	129	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	AG-907-B09_00101	-4
+CACEPS010000001.1	82166	82627	+	AG-907-B09_00098	AG-907-B09	153	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	AG-907-B09_00101	-3
+CACEPS010000001.1	82617	83501	-	AG-907-B09_00099	AG-907-B09	294	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	AG-907-B09_00101	-2
+CACEPS010000001.1	83494	85074	-	AG-907-B09_00100	AG-907-B09	526	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-907-B09_00101	-1
+CACEPS010000001.1	85075	86223	-	AG-907-B09_00101	AG-907-B09	382	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-907-B09_00101	0
+CACEPS010000001.1	86259	86930	-	AG-907-B09_00102	AG-907-B09	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	AG-907-B09_00101	1
+CACEPS010000001.1	87034	87309	-	AG-907-B09_00103	AG-907-B09	91	OG0000515	K03530	DNA-binding protein HU-beta	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	AG-907-B09_00101	2
+CACEPS010000001.1	87440	88537	-	AG-907-B09_00104	AG-907-B09	365	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	AG-907-B09_00101	3
+CACEPS010000001.1	88534	89154	-	AG-907-B09_00105	AG-907-B09	206	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	AG-907-B09_00101	4
+CACEPS010000001.1	89250	89756	+	AG-907-B09_00106	AG-907-B09	168	OG0002549	NA	NA	COG1664	CcmA	Cytoskeletal protein CcmA, bactofilin family	AG-907-B09_00101	5
+CACGAG010000001.1	149185	150294	-	AG-909-G09_00156	AG-909-G09	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-909-G09_00161	-5
+CACGAG010000001.1	150295	151269	-	AG-909-G09_00157	AG-909-G09	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-909-G09_00161	-4
+CACGAG010000001.1	151304	151561	-	AG-909-G09_00158	AG-909-G09	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-909-G09_00161	-3
+CACGAG010000001.1	151564	151998	-	AG-909-G09_00159	AG-909-G09	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-909-G09_00161	-2
+CACGAG010000001.1	152164	153378	+	AG-909-G09_00160	AG-909-G09	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-909-G09_00161	-1
+CACGAG010000001.1	153347	154543	+	AG-909-G09_00161	AG-909-G09	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-909-G09_00161	0
+CACGAG010000001.1	154540	155481	+	AG-909-G09_00162	AG-909-G09	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-909-G09_00161	1
+CACGAG010000001.1	155482	156201	+	AG-909-G09_00163	AG-909-G09	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-909-G09_00161	2
+CACGAG010000001.1	156214	157386	+	AG-909-G09_00164	AG-909-G09	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-909-G09_00161	3
+CACGAG010000001.1	157396	158118	+	AG-909-G09_00165	AG-909-G09	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-909-G09_00161	4
+CACGAG010000001.1	158115	158873	-	AG-909-G09_00166	AG-909-G09	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-909-G09_00161	5
+CACHCK010000004.1	19086	20195	-	AG-911-E02_00810	AG-911-E02	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-911-E02_00815	-5
+CACHCK010000004.1	20196	21170	-	AG-911-E02_00811	AG-911-E02	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-911-E02_00815	-4
+CACHCK010000004.1	21205	21462	-	AG-911-E02_00812	AG-911-E02	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-911-E02_00815	-3
+CACHCK010000004.1	21465	21899	-	AG-911-E02_00813	AG-911-E02	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-911-E02_00815	-2
+CACHCK010000004.1	22064	23278	+	AG-911-E02_00814	AG-911-E02	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-911-E02_00815	-1
+CACHCK010000004.1	23247	24443	+	AG-911-E02_00815	AG-911-E02	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-911-E02_00815	0
+CACHCK010000004.1	24440	25381	+	AG-911-E02_00816	AG-911-E02	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-911-E02_00815	1
+CACHCK010000004.1	25382	26101	+	AG-911-E02_00817	AG-911-E02	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-911-E02_00815	2
+CACHCK010000004.1	26114	27286	+	AG-911-E02_00818	AG-911-E02	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-911-E02_00815	3
+CACHCK010000004.1	27296	28018	+	AG-911-E02_00819	AG-911-E02	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-911-E02_00815	4
+CACHCK010000004.1	28015	28773	-	AG-911-E02_00820	AG-911-E02	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-911-E02_00815	5
+CACMWW010000013.1	5330	6088	+	AG-919-N17_01007	AG-919-N17	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-919-N17_01012	-5
+CACMWW010000013.1	6085	6807	-	AG-919-N17_01008	AG-919-N17	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-919-N17_01012	-4
+CACMWW010000013.1	6817	7989	-	AG-919-N17_01009	AG-919-N17	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-919-N17_01012	-3
+CACMWW010000013.1	8002	8721	-	AG-919-N17_01010	AG-919-N17	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-919-N17_01012	-2
+CACMWW010000013.1	8722	9663	-	AG-919-N17_01011	AG-919-N17	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-919-N17_01012	-1
+CACMWW010000013.1	9660	10856	-	AG-919-N17_01012	AG-919-N17	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-919-N17_01012	0
+CACMWW010000013.1	10825	12039	-	AG-919-N17_01013	AG-919-N17	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-919-N17_01012	1
+CACMWW010000013.1	12205	12639	+	AG-919-N17_01014	AG-919-N17	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-919-N17_01012	2
+CACMWW010000013.1	12642	12899	+	AG-919-N17_01015	AG-919-N17	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-919-N17_01012	3
+CACMWW010000013.1	12934	13908	+	AG-919-N17_01016	AG-919-N17	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-919-N17_01012	4
+CACMWW010000013.1	13909	15018	+	AG-919-N17_01017	AG-919-N17	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-919-N17_01012	5
+CACNJA010000003.1	82337	83446	-	AG-920-L11_00487	AG-920-L11	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AG-920-L11_00492	-5
+CACNJA010000003.1	83447	84421	-	AG-920-L11_00488	AG-920-L11	324	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AG-920-L11_00492	-4
+CACNJA010000003.1	84456	84713	-	AG-920-L11_00489	AG-920-L11	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AG-920-L11_00492	-3
+CACNJA010000003.1	84716	85150	-	AG-920-L11_00490	AG-920-L11	144	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AG-920-L11_00492	-2
+CACNJA010000003.1	85316	86530	+	AG-920-L11_00491	AG-920-L11	404	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AG-920-L11_00492	-1
+CACNJA010000003.1	86499	87695	+	AG-920-L11_00492	AG-920-L11	398	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AG-920-L11_00492	0
+CACNJA010000003.1	87692	88633	+	AG-920-L11_00493	AG-920-L11	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-920-L11_00492	1
+CACNJA010000003.1	88634	89353	+	AG-920-L11_00494	AG-920-L11	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AG-920-L11_00492	2
+CACNJA010000003.1	89366	90538	+	AG-920-L11_00495	AG-920-L11	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AG-920-L11_00492	3
+CACNJA010000003.1	90548	91270	+	AG-920-L11_00496	AG-920-L11	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-920-L11_00492	4
+CACNJA010000003.1	91267	92025	-	AG-920-L11_00497	AG-920-L11	252	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AG-920-L11_00492	5
+CACNXQ010000001.1	236138	237247	-	AH-287-F15_00245	AH-287-F15	369	OG0000408	K00931	glutamate 5-kinase [EC:2.7.2.11]	COG0263	ProB	Glutamate 5-kinase	AH-287-F15_00250	-5
+CACNXQ010000001.1	237237	238223	-	AH-287-F15_00246	AH-287-F15	328	OG0000585	K03979	GTPase [EC:3.6.5.-]	COG0536	Obg	GTPase involved in cell partioning and DNA repair	AH-287-F15_00250	-4
+CACNXQ010000001.1	238258	238515	-	AH-287-F15_00247	AH-287-F15	85	OG0000384	K02899	large subunit ribosomal protein L27	COG0211	RpmA	Ribosomal protein L27	AH-287-F15_00250	-3
+CACNXQ010000001.1	238522	238965	-	AH-287-F15_00248	AH-287-F15	147	OG0000425	K02888	large subunit ribosomal protein L21	COG0261	RplU	Ribosomal protein L21	AH-287-F15_00250	-2
+CACNXQ010000001.1	239122	240327	+	AH-287-F15_00249	AH-287-F15	401	OG0001638	NA	NA	COG4198	NA	Uncharacterized conserved protein, DUF1015 family	AH-287-F15_00250	-1
+CACNXQ010000001.1	240329	241489	+	AH-287-F15_00250	AH-287-F15	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	AH-287-F15_00250	0
+CACNXQ010000001.1	241486	242427	+	AH-287-F15_00251	AH-287-F15	313	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AH-287-F15_00250	1
+CACNXQ010000001.1	242427	243146	+	AH-287-F15_00252	AH-287-F15	239	OG0000525	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	COG0588	GpmA	Phosphoglycerate mutase (BPG-dependent)	AH-287-F15_00250	2
+CACNXQ010000001.1	243159	244331	+	AH-287-F15_00253	AH-287-F15	390	OG0000099	K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	COG0183	PaaJ	Acetyl-CoA acetyltransferase	AH-287-F15_00250	3
+CACNXQ010000001.1	244352	245074	+	AH-287-F15_00254	AH-287-F15	240	OG0000106	K00023	acetoacetyl-CoA reductase [EC:1.1.1.36]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AH-287-F15_00250	4
+CACNXQ010000001.1	245071	245826	-	AH-287-F15_00255	AH-287-F15	251	OG0000314	K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]	COG0491	GloB	Glyoxylase or a related metal-dependent hydrolase, beta-lactamase superfamily II	AH-287-F15_00250	5
+NZES01000021.1	392	1576	+	ARS1_00411	ARS1	394	OG0000096	K10764	O-succinylhomoserine sulfhydrylase [EC:2.5.1.-]	COG0626	MetC	Cystathionine beta-lyase/cystathionine gamma-synthase	ARS1_00416	-5
+NZES01000021.1	1595	2014	+	ARS1_00412	ARS1	139	OG0001448	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	ARS1_00416	-4
+NZES01000021.1	2016	2426	+	ARS1_00413	ARS1	136	OG0001449	K07112	uncharacterized protein	COG2391	YedE	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains	ARS1_00416	-3
+NZES01000021.1	2437	3027	+	ARS1_00414	ARS1	196	OG0000120	K00640	serine O-acetyltransferase [EC:2.3.1.30]	COG1045	CysE	Serine acetyltransferase	ARS1_00416	-2
+NZES01000021.1	3057	4058	+	ARS1_00415	ARS1	333	OG0000806	NA	NA	COG0031	CysK	Cysteine synthase	ARS1_00416	-1
+NZES01000021.1	4071	5219	+	ARS1_00416	ARS1	382	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	ARS1_00416	0
+NZES01000021.1	5220	6803	+	ARS1_00417	ARS1	527	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	ARS1_00416	1
+NZES01000021.1	6793	7674	+	ARS1_00418	ARS1	293	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	ARS1_00416	2
+NZES01000021.1	7906	8487	+	ARS1_00419	ARS1	193	NA	K00172	pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.1]	COG1014	PorC	Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, gamma subunit	ARS1_00416	3
+NZES01000021.1	8489	9742	+	ARS1_00420	ARS1	417	NA	K00169	pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1]	COG0674	PorA	Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, alpha subunit	ARS1_00416	4
+NZES01000021.1	9739	10803	+	ARS1_00421	ARS1	354	OG0004304	K00170	pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1]	COG1013	PorB	Pyruvate:ferredoxin oxidoreductase or related 2-oxoacid:ferredoxin oxidoreductase, beta subunit	ARS1_00416	5
+NYVZ01000006.1	8860	9252	-	CPC289_00172	CPC289	130	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	CPC289_00177	-5
+NYVZ01000006.1	9281	9742	+	CPC289_00173	CPC289	153	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	CPC289_00177	-4
+NYVZ01000006.1	9739	10695	-	CPC289_00174	CPC289	318	OG0001193	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	CPC289_00177	-3
+NYVZ01000006.1	10756	11637	-	CPC289_00175	CPC289	293	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	CPC289_00177	-2
+NYVZ01000006.1	11627	13210	-	CPC289_00176	CPC289	527	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	CPC289_00177	-1
+NYVZ01000006.1	13210	14358	-	CPC289_00177	CPC289	382	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG0075	PucG	Archaeal aspartate aminotransferase or a related aminotransferase, includes purine catabolism protein PucG	CPC289_00177	0
+NYVZ01000006.1	14418	15089	-	CPC289_00178	CPC289	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	CPC289_00177	1
+NYVZ01000006.1	15224	15499	-	CPC289_00179	CPC289	91	OG0000515	K03530	DNA-binding protein HU-beta	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	CPC289_00177	2
+NYVZ01000006.1	15623	16723	-	CPC289_00180	CPC289	366	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	CPC289_00177	3
+NYVZ01000006.1	16723	17337	-	CPC289_00181	CPC289	204	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	CPC289_00177	4
+NYVZ01000006.1	17428	17937	+	CPC289_00182	CPC289	169	OG0002549	NA	NA	COG1664	CcmA	Cytoskeletal protein CcmA, bactofilin family	CPC289_00177	5
+HIMB109-00000000002	77658	78050	-	HIMB109_00419	HIMB109	130	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB109_00424	-5
+HIMB109-00000000002	78065	79069	+	HIMB109_00420	HIMB109	334	OG0001120	NA	NA	NA	NA	NA	HIMB109_00424	-4
+HIMB109-00000000002	79062	79526	+	HIMB109_00421	HIMB109	154	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	HIMB109_00424	-3
+HIMB109-00000000002	79523	80404	-	HIMB109_00422	HIMB109	293	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	HIMB109_00424	-2
+HIMB109-00000000002	80397	81977	-	HIMB109_00423	HIMB109	526	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB109_00424	-1
+HIMB109-00000000002	81978	83126	-	HIMB109_00424	HIMB109	382	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	HIMB109_00424	0
+HIMB109-00000000002	83178	83909	-	HIMB109_00425	HIMB109	243	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	HIMB109_00424	1
+HIMB109-00000000002	83994	84269	-	HIMB109_00426	HIMB109	91	OG0000515	K03530	DNA-binding protein HU-beta	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	HIMB109_00424	2
+HIMB109-00000000002	84393	85493	-	HIMB109_00427	HIMB109	366	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	HIMB109_00424	3
+HIMB109-00000000002	85493	86107	-	HIMB109_00428	HIMB109	204	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	HIMB109_00424	4
+HIMB109-00000000002	86198	86710	+	HIMB109_00429	HIMB109	170	OG0002549	NA	NA	COG1664	CcmA	Cytoskeletal protein CcmA, bactofilin family	HIMB109_00424	5
+ADAC02000001.1	251550	252062	-	HIMB114_00270	HIMB114	170	OG0002549	NA	NA	COG1664	CcmA	Cytoskeletal protein CcmA, bactofilin family	HIMB114_00275	-5
+ADAC02000001.1	252153	252767	+	HIMB114_00271	HIMB114	204	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	HIMB114_00275	-4
+ADAC02000001.1	252767	253867	+	HIMB114_00272	HIMB114	366	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	HIMB114_00275	-3
+ADAC02000001.1	253991	254266	+	HIMB114_00273	HIMB114	91	OG0000515	K03530	DNA-binding protein HU-beta	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	HIMB114_00275	-2
+ADAC02000001.1	254352	255083	+	HIMB114_00274	HIMB114	243	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	HIMB114_00275	-1
+ADAC02000001.1	255137	256285	+	HIMB114_00275	HIMB114	382	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	HIMB114_00275	0
+ADAC02000001.1	256286	257866	+	HIMB114_00276	HIMB114	526	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB114_00275	1
+ADAC02000001.1	257859	258740	+	HIMB114_00277	HIMB114	293	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	HIMB114_00275	2
+ADAC02000001.1	258747	259736	+	HIMB114_00278	HIMB114	329	OG0001193	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB114_00275	3
+ADAC02000001.1	259728	260195	-	HIMB114_00279	HIMB114	155	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	HIMB114_00275	4
+ADAC02000001.1	260224	260616	+	HIMB114_00280	HIMB114	130	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB114_00275	5
+HIMB1517-00000000006	80241	80753	-	HIMB1517_00833	HIMB1517	170	OG0002549	NA	NA	COG1664	CcmA	Cytoskeletal protein CcmA, bactofilin family	HIMB1517_00838	-5
+HIMB1517-00000000006	80844	81458	+	HIMB1517_00834	HIMB1517	204	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	HIMB1517_00838	-4
+HIMB1517-00000000006	81458	82558	+	HIMB1517_00835	HIMB1517	366	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	HIMB1517_00838	-3
+HIMB1517-00000000006	82682	82957	+	HIMB1517_00836	HIMB1517	91	OG0000515	K03530	DNA-binding protein HU-beta	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	HIMB1517_00838	-2
+HIMB1517-00000000006	83103	83774	+	HIMB1517_00837	HIMB1517	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	HIMB1517_00838	-1
+HIMB1517-00000000006	83828	84976	+	HIMB1517_00838	HIMB1517	382	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	HIMB1517_00838	0
+HIMB1517-00000000006	84977	86557	+	HIMB1517_00839	HIMB1517	526	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1517_00838	1
+HIMB1517-00000000006	86550	87431	+	HIMB1517_00840	HIMB1517	293	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	HIMB1517_00838	2
+HIMB1565-00000000001	651496	652008	-	HIMB1565_00718	HIMB1565	170	OG0002549	NA	NA	COG1664	CcmA	Cytoskeletal protein CcmA, bactofilin family	HIMB1565_00723	-5
+HIMB1565-00000000001	652099	652713	+	HIMB1565_00719	HIMB1565	204	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	HIMB1565_00723	-4
+HIMB1565-00000000001	652713	653813	+	HIMB1565_00720	HIMB1565	366	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	HIMB1565_00723	-3
+HIMB1565-00000000001	653937	654212	+	HIMB1565_00721	HIMB1565	91	OG0000515	K03530	DNA-binding protein HU-beta	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	HIMB1565_00723	-2
+HIMB1565-00000000001	654298	655029	+	HIMB1565_00722	HIMB1565	243	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	HIMB1565_00723	-1
+HIMB1565-00000000001	655083	656231	+	HIMB1565_00723	HIMB1565	382	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	HIMB1565_00723	0
+HIMB1565-00000000001	656232	657812	+	HIMB1565_00724	HIMB1565	526	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1565_00723	1
+HIMB1565-00000000001	657805	658686	+	HIMB1565_00725	HIMB1565	293	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	HIMB1565_00723	2
+HIMB1565-00000000001	658693	659682	+	HIMB1565_00726	HIMB1565	329	OG0001193	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	HIMB1565_00723	3
+HIMB1565-00000000001	659674	660141	-	HIMB1565_00727	HIMB1565	155	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	HIMB1565_00723	4
+HIMB1565-00000000001	660170	660562	+	HIMB1565_00728	HIMB1565	130	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	HIMB1565_00723	5
+CP002511.1	750067	750405	+	IMCC9063_00845	IMCC9063	112	OG0001790	K04751	nitrogen regulatory protein P-II 1	COG0347	GlnK	Nitrogen regulatory protein PII	IMCC9063_00850	-5
+CP002511.1	750465	751073	+	IMCC9063_00846	IMCC9063	202	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	IMCC9063_00850	-4
+CP002511.1	751080	752192	+	IMCC9063_00847	IMCC9063	370	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	IMCC9063_00850	-3
+CP002511.1	752331	752612	+	IMCC9063_00848	IMCC9063	93	OG0000515	K03530	DNA-binding protein HU-beta	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	IMCC9063_00850	-2
+CP002511.1	752749	753420	+	IMCC9063_00849	IMCC9063	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	IMCC9063_00850	-1
+CP002511.1	753484	754635	+	IMCC9063_00850	IMCC9063	383	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	IMCC9063_00850	0
+CP002511.1	754636	756219	+	IMCC9063_00851	IMCC9063	527	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	IMCC9063_00850	1
+CP002511.1	756209	757096	+	IMCC9063_00852	IMCC9063	295	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	IMCC9063_00850	2
+CP002511.1	757147	757542	+	IMCC9063_00853	IMCC9063	131	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	IMCC9063_00850	3
+CP002511.1	757620	758825	+	IMCC9063_00854	IMCC9063	401	OG0000027	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	IMCC9063_00850	4
+CP002511.1	758958	760505	+	IMCC9063_00855	IMCC9063	515	OG0001003	K00138	aldehyde dehydrogenase [EC:1.2.1.-]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	IMCC9063_00850	5
+Ga0182791_11	757062	758267	-	LSUCC0261_00812	LSUCC0261	401	OG0000027	K03320	ammonium transporter, Amt family	COG0004	AmtB	Ammonia channel protein AmtB	LSUCC0261_00817	-5
+Ga0182791_11	758344	758745	-	LSUCC0261_00813	LSUCC0261	133	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	LSUCC0261_00817	-4
+Ga0182791_11	758778	759242	+	LSUCC0261_00814	LSUCC0261	154	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	LSUCC0261_00817	-3
+Ga0182791_11	759234	760121	-	LSUCC0261_00815	LSUCC0261	295	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	LSUCC0261_00817	-2
+Ga0182791_11	760111	761694	-	LSUCC0261_00816	LSUCC0261	527	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	LSUCC0261_00817	-1
+Ga0182791_11	761696	762847	-	LSUCC0261_00817	LSUCC0261	383	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	LSUCC0261_00817	0
+Ga0182791_11	762912	763583	-	LSUCC0261_00818	LSUCC0261	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	LSUCC0261_00817	1
+Ga0182791_11	763739	764014	-	LSUCC0261_00819	LSUCC0261	91	OG0000515	NA	NA	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	LSUCC0261_00817	2
+Ga0182791_11	764162	765265	-	LSUCC0261_00820	LSUCC0261	367	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	LSUCC0261_00817	3
+Ga0182791_11	765269	765889	-	LSUCC0261_00821	LSUCC0261	206	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	LSUCC0261_00817	4
+Ga0182791_11	765971	766309	-	LSUCC0261_00822	LSUCC0261	112	OG0001790	K04751	nitrogen regulatory protein P-II 1	COG0347	GlnK	Nitrogen regulatory protein PII	LSUCC0261_00817	5
+CP024034.1	315465	316355	+	LSUCC0530_00355	LSUCC0530	296	OG0000100	NA	NA	COG0583	LysR	DNA-binding transcriptional regulator, LysR family	LSUCC0530_00360	-5
+CP024034.1	316380	317000	+	LSUCC0530_00356	LSUCC0530	206	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	LSUCC0530_00360	-4
+CP024034.1	317004	318110	+	LSUCC0530_00357	LSUCC0530	368	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	LSUCC0530_00360	-3
+CP024034.1	318259	318534	+	LSUCC0530_00358	LSUCC0530	91	OG0000515	NA	NA	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	LSUCC0530_00360	-2
+CP024034.1	318699	319370	+	LSUCC0530_00359	LSUCC0530	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	LSUCC0530_00360	-1
+CP024034.1	319444	320604	+	LSUCC0530_00360	LSUCC0530	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	LSUCC0530_00360	0
+CP024034.1	320597	322189	+	LSUCC0530_00361	LSUCC0530	530	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	LSUCC0530_00360	1
+CP024034.1	322182	323066	+	LSUCC0530_00362	LSUCC0530	294	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	LSUCC0530_00360	2
+CP024034.1	323059	323517	-	LSUCC0530_00363	LSUCC0530	152	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	LSUCC0530_00360	3
+CP024034.1	323567	323959	+	LSUCC0530_00364	LSUCC0530	130	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	LSUCC0530_00360	4
+CP024034.1	323960	324544	-	LSUCC0530_00365	LSUCC0530	194	OG0001068	NA	NA	COG3917	NahD	2-hydroxychromene-2-carboxylate isomerase	LSUCC0530_00360	5
+Ga0255589_11	316993	317496	-	LSUCC0664_00350	LSUCC0664	167	OG0002549	NA	NA	COG1664	CcmA	Cytoskeletal protein CcmA, bactofilin family	LSUCC0664_00355	-5
+Ga0255589_11	317586	318203	+	LSUCC0664_00351	LSUCC0664	205	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	LSUCC0664_00355	-4
+Ga0255589_11	318213	319313	+	LSUCC0664_00352	LSUCC0664	366	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	LSUCC0664_00355	-3
+Ga0255589_11	319437	319712	+	LSUCC0664_00353	LSUCC0664	91	OG0000515	K03530	DNA-binding protein HU-beta	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	LSUCC0664_00355	-2
+Ga0255589_11	319857	320528	+	LSUCC0664_00354	LSUCC0664	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	LSUCC0664_00355	-1
+Ga0255589_11	320576	321724	+	LSUCC0664_00355	LSUCC0664	382	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	LSUCC0664_00355	0
+Ga0255589_11	321725	323308	+	LSUCC0664_00356	LSUCC0664	527	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	LSUCC0664_00355	1
+Ga0255589_11	323298	324179	+	LSUCC0664_00357	LSUCC0664	293	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	LSUCC0664_00355	2
+Ga0255589_11	324176	324643	-	LSUCC0664_00358	LSUCC0664	155	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	LSUCC0664_00355	3
+Ga0255589_11	324672	325064	+	LSUCC0664_00359	LSUCC0664	130	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	LSUCC0664_00355	4
+Ga0255589_11	325067	325651	-	LSUCC0664_00360	LSUCC0664	194	OG0001068	NA	NA	COG3917	NahD	2-hydroxychromene-2-carboxylate isomerase	LSUCC0664_00355	5
+Ga0197930_11	693035	693619	+	LSUCC0723_00756	LSUCC0723	194	OG0001068	NA	NA	COG3917	NahD	2-hydroxychromene-2-carboxylate isomerase	LSUCC0723_00761	-5
+Ga0197930_11	693621	694013	-	LSUCC0723_00757	LSUCC0723	130	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	LSUCC0723_00761	-4
+Ga0197930_11	694042	694506	+	LSUCC0723_00758	LSUCC0723	154	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	LSUCC0723_00761	-3
+Ga0197930_11	694503	695384	-	LSUCC0723_00759	LSUCC0723	293	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	LSUCC0723_00761	-2
+Ga0197930_11	695377	696957	-	LSUCC0723_00760	LSUCC0723	526	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	LSUCC0723_00761	-1
+Ga0197930_11	696958	698106	-	LSUCC0723_00761	LSUCC0723	382	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	LSUCC0723_00761	0
+Ga0197930_11	698160	698831	-	LSUCC0723_00762	LSUCC0723	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	LSUCC0723_00761	1
+Ga0197930_11	698978	699253	-	LSUCC0723_00763	LSUCC0723	91	OG0000515	K03530	DNA-binding protein HU-beta	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	LSUCC0723_00761	2
+Ga0197930_11	699376	700476	-	LSUCC0723_00764	LSUCC0723	366	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	LSUCC0723_00761	3
+Ga0197930_11	700476	701090	-	LSUCC0723_00765	LSUCC0723	204	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	LSUCC0723_00761	4
+Ga0197930_11	701181	701693	+	LSUCC0723_00766	LSUCC0723	170	OG0002549	NA	NA	COG1664	CcmA	Cytoskeletal protein CcmA, bactofilin family	LSUCC0723_00761	5
+OZ249404.1	241486	242376	+	ME-17_00280	ME-17	296	OG0000100	NA	NA	COG0583	LysR	DNA-binding transcriptional regulator, LysR family	ME-17_00285	-5
+OZ249404.1	242402	243022	+	ME-17_00281	ME-17	206	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	ME-17_00285	-4
+OZ249404.1	243026	244132	+	ME-17_00282	ME-17	368	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	ME-17_00285	-3
+OZ249404.1	244281	244556	+	ME-17_00283	ME-17	91	OG0000515	NA	NA	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	ME-17_00285	-2
+OZ249404.1	244755	245426	+	ME-17_00284	ME-17	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	ME-17_00285	-1
+OZ249404.1	245498	246658	+	ME-17_00285	ME-17	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	ME-17_00285	0
+OZ249404.1	246651	248243	+	ME-17_00286	ME-17	530	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	ME-17_00285	1
+OZ249404.1	248236	249120	+	ME-17_00287	ME-17	294	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	ME-17_00285	2
+OZ249404.1	249113	249574	-	ME-17_00288	ME-17	153	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	ME-17_00285	3
+OZ249404.1	249624	250016	+	ME-17_00289	ME-17	130	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	ME-17_00285	4
+OZ249404.1	250017	250601	-	ME-17_00290	ME-17	194	OG0001068	NA	NA	COG3917	NahD	2-hydroxychromene-2-carboxylate isomerase	ME-17_00285	5
+OZ247825.1	281651	282541	+	ME-18_00324	ME-18	296	OG0000100	NA	NA	COG0583	LysR	DNA-binding transcriptional regulator, LysR family	ME-18_00329	-5
+OZ247825.1	282567	283187	+	ME-18_00325	ME-18	206	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	ME-18_00329	-4
+OZ247825.1	283191	284297	+	ME-18_00326	ME-18	368	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	ME-18_00329	-3
+OZ247825.1	284446	284721	+	ME-18_00327	ME-18	91	OG0000515	NA	NA	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	ME-18_00329	-2
+OZ247825.1	284920	285591	+	ME-18_00328	ME-18	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	ME-18_00329	-1
+OZ247825.1	285663	286823	+	ME-18_00329	ME-18	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	ME-18_00329	0
+OZ247825.1	286816	288408	+	ME-18_00330	ME-18	530	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	ME-18_00329	1
+OZ247825.1	288401	289285	+	ME-18_00331	ME-18	294	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	ME-18_00329	2
+OZ247825.1	289278	289742	-	ME-18_00332	ME-18	154	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	ME-18_00329	3
+OZ247825.1	289735	290751	-	ME-18_00333	ME-18	338	OG0001120	NA	NA	NA	NA	NA	ME-18_00329	4
+OZ247825.1	290792	291187	+	ME-18_00334	ME-18	131	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	ME-18_00329	5
+OZ247816.1	267982	268872	+	ME-20_00300	ME-20	296	OG0000100	NA	NA	COG0583	LysR	DNA-binding transcriptional regulator, LysR family	ME-20_00305	-5
+OZ247816.1	268898	269518	+	ME-20_00301	ME-20	206	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	ME-20_00305	-4
+OZ247816.1	269522	270628	+	ME-20_00302	ME-20	368	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	ME-20_00305	-3
+OZ247816.1	270777	271052	+	ME-20_00303	ME-20	91	OG0000515	NA	NA	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	ME-20_00305	-2
+OZ247816.1	271251	271922	+	ME-20_00304	ME-20	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	ME-20_00305	-1
+OZ247816.1	271994	273154	+	ME-20_00305	ME-20	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	ME-20_00305	0
+OZ247816.1	273147	274739	+	ME-20_00306	ME-20	530	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	ME-20_00305	1
+OZ247816.1	274732	275616	+	ME-20_00307	ME-20	294	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	ME-20_00305	2
+OZ247816.1	275609	276073	-	ME-20_00308	ME-20	154	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	ME-20_00305	3
+OZ247816.1	276066	277082	-	ME-20_00309	ME-20	338	OG0001120	NA	NA	NA	NA	NA	ME-20_00305	4
+OZ247816.1	277123	277518	+	ME-20_00310	ME-20	131	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	ME-20_00305	5
+OZ247817.1	283014	283904	+	ME-31_00320	ME-31	296	OG0000100	NA	NA	COG0583	LysR	DNA-binding transcriptional regulator, LysR family	ME-31_00325	-5
+OZ247817.1	283930	284550	+	ME-31_00321	ME-31	206	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	ME-31_00325	-4
+OZ247817.1	284554	285660	+	ME-31_00322	ME-31	368	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	ME-31_00325	-3
+OZ247817.1	285809	286084	+	ME-31_00323	ME-31	91	OG0000515	NA	NA	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	ME-31_00325	-2
+OZ247817.1	286283	286954	+	ME-31_00324	ME-31	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	ME-31_00325	-1
+OZ247817.1	287026	288186	+	ME-31_00325	ME-31	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	ME-31_00325	0
+OZ247817.1	288179	289771	+	ME-31_00326	ME-31	530	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	ME-31_00325	1
+OZ247817.1	289764	290648	+	ME-31_00327	ME-31	294	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	ME-31_00325	2
+OZ247817.1	290641	291105	-	ME-31_00328	ME-31	154	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	ME-31_00325	3
+OZ247817.1	291098	292114	-	ME-31_00329	ME-31	338	OG0001120	NA	NA	NA	NA	NA	ME-31_00325	4
+OZ247817.1	292155	292550	+	ME-31_00330	ME-31	131	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	ME-31_00325	5
+OZ247815.1	285452	286342	+	ME-33_00329	ME-33	296	OG0000100	NA	NA	COG0583	LysR	DNA-binding transcriptional regulator, LysR family	ME-33_00334	-5
+OZ247815.1	286368	286988	+	ME-33_00330	ME-33	206	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	ME-33_00334	-4
+OZ247815.1	286992	288098	+	ME-33_00331	ME-33	368	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	ME-33_00334	-3
+OZ247815.1	288247	288522	+	ME-33_00332	ME-33	91	OG0000515	NA	NA	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	ME-33_00334	-2
+OZ247815.1	288721	289392	+	ME-33_00333	ME-33	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	ME-33_00334	-1
+OZ247815.1	289464	290624	+	ME-33_00334	ME-33	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	ME-33_00334	0
+OZ247815.1	290617	292209	+	ME-33_00335	ME-33	530	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	ME-33_00334	1
+OZ247815.1	292202	293086	+	ME-33_00336	ME-33	294	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	ME-33_00334	2
+OZ247815.1	293079	293543	-	ME-33_00337	ME-33	154	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	ME-33_00334	3
+OZ247815.1	293536	294552	-	ME-33_00338	ME-33	338	OG0001120	NA	NA	NA	NA	NA	ME-33_00334	4
+OZ247815.1	294593	294988	+	ME-33_00339	ME-33	131	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	ME-33_00334	5
+NZIR01000008.1	14581	15087	-	MED602_01802	MED602	168	OG0002549	NA	NA	COG1664	CcmA	Cytoskeletal protein CcmA, bactofilin family	MED602_01807	-5
+NZIR01000008.1	15182	15799	+	MED602_01803	MED602	205	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	MED602_01807	-4
+NZIR01000008.1	15799	16896	+	MED602_01804	MED602	365	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	MED602_01807	-3
+NZIR01000008.1	17027	17302	+	MED602_01805	MED602	91	OG0000515	K03530	DNA-binding protein HU-beta	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	MED602_01807	-2
+NZIR01000008.1	17406	18077	+	MED602_01806	MED602	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	MED602_01807	-1
+NZIR01000008.1	18113	19261	+	MED602_01807	MED602	382	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	MED602_01807	0
+NZIR01000008.1	19262	20842	+	MED602_01808	MED602	526	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	MED602_01807	1
+NZIR01000008.1	20835	21719	+	MED602_01809	MED602	294	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	MED602_01807	2
+NZIR01000008.1	21712	22170	-	MED602_01810	MED602	152	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	MED602_01807	3
+NZIR01000008.1	22196	22585	+	MED602_01811	MED602	129	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	MED602_01807	4
+NZIR01000008.1	22586	23179	-	MED602_01812	MED602	197	OG0001068	NA	NA	COG3917	NahD	2-hydroxychromene-2-carboxylate isomerase	MED602_01807	5
+OZ247814.1	93393	94415	+	MKE-138_00117	MKE-138	340	OG0001120	NA	NA	NA	NA	NA	MKE-138_00122	-5
+OZ247814.1	94423	94815	-	MKE-138_00118	MKE-138	130	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	MKE-138_00122	-4
+OZ247814.1	94865	95326	+	MKE-138_00119	MKE-138	153	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	MKE-138_00122	-3
+OZ247814.1	95319	96203	-	MKE-138_00120	MKE-138	294	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	MKE-138_00122	-2
+OZ247814.1	96196	97788	-	MKE-138_00121	MKE-138	530	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	MKE-138_00122	-1
+OZ247814.1	97781	98941	-	MKE-138_00122	MKE-138	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	MKE-138_00122	0
+OZ247814.1	99015	99686	-	MKE-138_00123	MKE-138	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	MKE-138_00122	1
+OZ247814.1	99882	100157	-	MKE-138_00124	MKE-138	91	OG0000515	NA	NA	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	MKE-138_00122	2
+OZ247814.1	100306	101412	-	MKE-138_00125	MKE-138	368	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	MKE-138_00122	3
+OZ247814.1	101422	102036	-	MKE-138_00126	MKE-138	204	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	MKE-138_00122	4
+OZ247814.1	102060	102950	-	MKE-138_00127	MKE-138	296	OG0000100	NA	NA	COG0583	LysR	DNA-binding transcriptional regulator, LysR family	MKE-138_00122	5
+OZ249405.1	271321	272211	+	MiE-29_00310	MiE-29	296	OG0000100	NA	NA	COG0583	LysR	DNA-binding transcriptional regulator, LysR family	MiE-29_00315	-5
+OZ249405.1	272236	272850	+	MiE-29_00311	MiE-29	204	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	MiE-29_00315	-4
+OZ249405.1	272860	273966	+	MiE-29_00312	MiE-29	368	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	MiE-29_00315	-3
+OZ249405.1	274115	274390	+	MiE-29_00313	MiE-29	91	OG0000515	NA	NA	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	MiE-29_00315	-2
+OZ249405.1	274586	275257	+	MiE-29_00314	MiE-29	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	MiE-29_00315	-1
+OZ249405.1	275330	276490	+	MiE-29_00315	MiE-29	386	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	MiE-29_00315	0
+OZ249405.1	276483	278075	+	MiE-29_00316	MiE-29	530	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	MiE-29_00315	1
+OZ249405.1	278068	278952	+	MiE-29_00317	MiE-29	294	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	MiE-29_00315	2
+OZ249405.1	278945	279406	-	MiE-29_00318	MiE-29	153	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	MiE-29_00315	3
+OZ249405.1	279456	279848	+	MiE-29_00319	MiE-29	130	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	MiE-29_00315	4
+OZ249405.1	279849	280433	-	MiE-29_00320	MiE-29	194	OG0001068	NA	NA	COG3917	NahD	2-hydroxychromene-2-carboxylate isomerase	MiE-29_00315	5
+PBKK01000012.1	17651	18235	+	SP27_01033	SP27	194	OG0001068	NA	NA	COG3917	NahD	2-hydroxychromene-2-carboxylate isomerase	SP27_01038	-5
+PBKK01000012.1	18237	18629	-	SP27_01034	SP27	130	OG0000053	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	SP27_01038	-4
+PBKK01000012.1	18676	19137	+	SP27_01035	SP27	153	OG0000131	K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	COG1225	Bcp	Peroxiredoxin	SP27_01038	-3
+PBKK01000012.1	19139	20020	-	SP27_01036	SP27	293	OG0002058	K01079	phosphoserine phosphatase [EC:3.1.3.3]	COG0560	SerB	Phosphoserine phosphatase	SP27_01038	-2
+PBKK01000012.1	20013	21593	-	SP27_01037	SP27	526	OG0000011	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	SP27_01038	-1
+PBKK01000012.1	21594	22742	-	SP27_01038	SP27	382	OG0001619	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	COG1932	SerC	Phosphoserine aminotransferase	SP27_01038	0
+PBKK01000012.1	22837	23508	-	SP27_01039	SP27	223	OG0001563	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]	COG5424	PqqC	Pyrroloquinoline quinone (PQQ) synthase PqqC, TenA/Thi4/PqqC family	SP27_01038	1
+PBKK01000012.1	23640	23915	-	SP27_01040	SP27	91	OG0000515	NA	NA	COG0776	HupA	DNA-binding chromatin protein HU or IHF, alpha or beta variants	SP27_01038	2
+PBKK01000012.1	24039	25139	-	SP27_01041	SP27	366	OG0000776	K11749	regulator of sigma E protease [EC:3.4.24.-]	COG0750	RseP	Membrane-associated protease RseP, regulator of RpoE activity	SP27_01038	3
+PBKK01000012.1	25139	25753	-	SP27_01042	SP27	204	OG0000076	NA	NA	COG1280	RhtB	Threonine/homoserine/homoserine lactone efflux protein	SP27_01038	4
+PBKK01000012.1	25842	26348	+	SP27_01043	SP27	168	OG0002549	NA	NA	COG1664	CcmA	Cytoskeletal protein CcmA, bactofilin family	SP27_01038	5

@@ -1,0 +1,89 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CP024034.1	741560	742825	+	LSUCC0530_00824	LSUCC0530	421	OG0000614	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	LSUCC0530_00829	-5
+CP024034.1	742883	743656	-	LSUCC0530_00825	LSUCC0530	257	OG0000952	K07160	5-oxoprolinase (ATP-hydrolysing) subunit A [EC:3.5.2.9]	COG1540	PxpA	5-oxoprolinase subunit A	LSUCC0530_00829	-4
+CP024034.1	743707	744384	+	LSUCC0530_00826	LSUCC0530	225	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	LSUCC0530_00829	-3
+CP024034.1	744384	745340	+	LSUCC0530_00827	LSUCC0530	318	OG0000967	NA	NA	COG1984	PxpC	5-oxoprolinase subunit C/Allophanate hydrolase subunit 2	LSUCC0530_00829	-2
+CP024034.1	745350	748013	-	LSUCC0530_00828	LSUCC0530	887	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	LSUCC0530_00829	-1
+CP024034.1	748029	748394	-	LSUCC0530_00829	LSUCC0530	121	OG0002769	NA	NA	COG4729	NA	Uncharacterized conserved protein, DUF1850 family	LSUCC0530_00829	0
+CP024034.1	748414	750501	-	LSUCC0530_00830	LSUCC0530	695	OG0001153	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	LSUCC0530_00829	1
+CP024034.1	750521	751462	-	LSUCC0530_00831	LSUCC0530	313	OG0001135	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	LSUCC0530_00829	2
+CP024034.1	751623	752024	+	LSUCC0530_00832	LSUCC0530	133	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	LSUCC0530_00829	3
+CP024034.1	752029	752421	+	LSUCC0530_00833	LSUCC0530	130	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	LSUCC0530_00829	4
+CP024034.1	752423	752992	-	LSUCC0530_00834	LSUCC0530	189	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	LSUCC0530_00829	5
+OZ249404.1	642726	643490	+	ME-17_00737	ME-17	254	OG0000676	NA	NA	COG0345	ProC	Pyrroline-5-carboxylate reductase	ME-17_00742	-5
+OZ249404.1	643493	644128	-	ME-17_00738	ME-17	211	OG0000522	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG0259	PdxH	Pyridoxine/pyridoxamine 5'-phosphate oxidase	ME-17_00742	-4
+OZ249404.1	644162	645247	+	ME-17_00739	ME-17	361	OG0000279	K01736	chorismate synthase [EC:4.2.3.5]	COG0082	AroC	Chorismate synthase	ME-17_00742	-3
+OZ249404.1	645251	645988	+	ME-17_00740	ME-17	245	OG0001865	K07059	rhomboid family protein	COG0705	GlpG	Membrane-associated serine protease, rhomboid family	ME-17_00742	-2
+OZ249404.1	646097	648760	-	ME-17_00741	ME-17	887	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	ME-17_00742	-1
+OZ249404.1	648776	649141	-	ME-17_00742	ME-17	121	OG0002769	NA	NA	COG4729	NA	Uncharacterized conserved protein, DUF1850 family	ME-17_00742	0
+OZ249404.1	649138	651240	-	ME-17_00743	ME-17	700	OG0001153	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	ME-17_00742	1
+OZ249404.1	651291	652232	-	ME-17_00744	ME-17	313	OG0001135	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	ME-17_00742	2
+OZ249404.1	652319	652819	+	ME-17_00745	ME-17	166	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	ME-17_00742	3
+OZ249404.1	652821	653216	+	ME-17_00746	ME-17	131	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	ME-17_00742	4
+OZ249404.1	653219	653791	-	ME-17_00747	ME-17	190	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	ME-17_00742	5
+OZ247825.1	673721	674986	+	ME-18_00760	ME-18	421	OG0000614	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	ME-18_00765	-5
+OZ247825.1	675044	675817	-	ME-18_00761	ME-18	257	OG0000952	K07160	5-oxoprolinase (ATP-hydrolysing) subunit A [EC:3.5.2.9]	COG1540	PxpA	5-oxoprolinase subunit A	ME-18_00765	-4
+OZ247825.1	675862	676545	+	ME-18_00762	ME-18	227	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	ME-18_00765	-3
+OZ247825.1	676545	677501	+	ME-18_00763	ME-18	318	OG0000967	NA	NA	COG1984	PxpC	5-oxoprolinase subunit C/Allophanate hydrolase subunit 2	ME-18_00765	-2
+OZ247825.1	677511	680174	-	ME-18_00764	ME-18	887	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	ME-18_00765	-1
+OZ247825.1	680190	680555	-	ME-18_00765	ME-18	121	OG0002769	NA	NA	COG4729	NA	Uncharacterized conserved protein, DUF1850 family	ME-18_00765	0
+OZ247825.1	680552	682654	-	ME-18_00766	ME-18	700	OG0001153	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	ME-18_00765	1
+OZ247825.1	682705	683646	-	ME-18_00767	ME-18	313	OG0001135	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	ME-18_00765	2
+OZ247825.1	683733	684233	+	ME-18_00768	ME-18	166	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	ME-18_00765	3
+OZ247825.1	684235	684630	+	ME-18_00769	ME-18	131	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	ME-18_00765	4
+OZ247825.1	684633	685205	-	ME-18_00770	ME-18	190	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	ME-18_00765	5
+OZ247816.1	660271	661536	+	ME-20_00739	ME-20	421	OG0000614	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	ME-20_00744	-5
+OZ247816.1	661594	662367	-	ME-20_00740	ME-20	257	OG0000952	K07160	5-oxoprolinase (ATP-hydrolysing) subunit A [EC:3.5.2.9]	COG1540	PxpA	5-oxoprolinase subunit A	ME-20_00744	-4
+OZ247816.1	662418	663095	+	ME-20_00741	ME-20	225	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	ME-20_00744	-3
+OZ247816.1	663095	664051	+	ME-20_00742	ME-20	318	OG0000967	NA	NA	COG1984	PxpC	5-oxoprolinase subunit C/Allophanate hydrolase subunit 2	ME-20_00744	-2
+OZ247816.1	664061	666724	-	ME-20_00743	ME-20	887	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	ME-20_00744	-1
+OZ247816.1	666740	667105	-	ME-20_00744	ME-20	121	OG0002769	NA	NA	COG4729	NA	Uncharacterized conserved protein, DUF1850 family	ME-20_00744	0
+OZ247816.1	667102	669204	-	ME-20_00745	ME-20	700	OG0001153	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	ME-20_00744	1
+OZ247816.1	669255	670196	-	ME-20_00746	ME-20	313	OG0001135	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	ME-20_00744	2
+OZ247816.1	670283	670783	+	ME-20_00747	ME-20	166	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	ME-20_00744	3
+OZ247816.1	670785	671180	+	ME-20_00748	ME-20	131	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	ME-20_00744	4
+OZ247816.1	671183	671755	-	ME-20_00749	ME-20	190	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	ME-20_00744	5
+OZ247817.1	688090	689355	+	ME-31_00768	ME-31	421	OG0000614	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	ME-31_00773	-5
+OZ247817.1	689415	690188	-	ME-31_00769	ME-31	257	OG0000952	K07160	5-oxoprolinase (ATP-hydrolysing) subunit A [EC:3.5.2.9]	COG1540	PxpA	5-oxoprolinase subunit A	ME-31_00773	-4
+OZ247817.1	690239	690916	+	ME-31_00770	ME-31	225	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	ME-31_00773	-3
+OZ247817.1	690916	691872	+	ME-31_00771	ME-31	318	OG0000967	NA	NA	COG1984	PxpC	5-oxoprolinase subunit C/Allophanate hydrolase subunit 2	ME-31_00773	-2
+OZ247817.1	691882	694545	-	ME-31_00772	ME-31	887	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	ME-31_00773	-1
+OZ247817.1	694561	694926	-	ME-31_00773	ME-31	121	OG0002769	NA	NA	COG4729	NA	Uncharacterized conserved protein, DUF1850 family	ME-31_00773	0
+OZ247817.1	694923	697025	-	ME-31_00774	ME-31	700	OG0001153	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	ME-31_00773	1
+OZ247817.1	697076	698017	-	ME-31_00775	ME-31	313	OG0001135	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	ME-31_00773	2
+OZ247817.1	698104	698604	+	ME-31_00776	ME-31	166	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	ME-31_00773	3
+OZ247817.1	698606	699001	+	ME-31_00777	ME-31	131	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	ME-31_00773	4
+OZ247817.1	699004	699576	-	ME-31_00778	ME-31	190	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	ME-31_00773	5
+OZ247815.1	683205	684470	+	ME-33_00771	ME-33	421	OG0000614	K01999	branched-chain amino acid transport system substrate-binding protein	COG0683	LivK	ABC-type branched-chain amino acid transport system, periplasmic component	ME-33_00776	-5
+OZ247815.1	684532	685305	-	ME-33_00772	ME-33	257	OG0000952	K07160	5-oxoprolinase (ATP-hydrolysing) subunit A [EC:3.5.2.9]	COG1540	PxpA	5-oxoprolinase subunit A	ME-33_00776	-4
+OZ247815.1	685356	686033	+	ME-33_00773	ME-33	225	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	ME-33_00776	-3
+OZ247815.1	686033	686989	+	ME-33_00774	ME-33	318	OG0000967	NA	NA	COG1984	PxpC	5-oxoprolinase subunit C/Allophanate hydrolase subunit 2	ME-33_00776	-2
+OZ247815.1	686999	689662	-	ME-33_00775	ME-33	887	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	ME-33_00776	-1
+OZ247815.1	689678	690043	-	ME-33_00776	ME-33	121	OG0002769	NA	NA	COG4729	NA	Uncharacterized conserved protein, DUF1850 family	ME-33_00776	0
+OZ247815.1	690040	692139	-	ME-33_00777	ME-33	699	OG0001153	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	ME-33_00776	1
+OZ247815.1	692182	693123	-	ME-33_00778	ME-33	313	OG0001135	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	ME-33_00776	2
+OZ247815.1	693231	693635	+	ME-33_00779	ME-33	134	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	ME-33_00776	3
+OZ247815.1	693637	694032	+	ME-33_00780	ME-33	131	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	ME-33_00776	4
+OZ247815.1	694035	694607	-	ME-33_00781	ME-33	190	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	ME-33_00776	5
+OZ247814.1	763958	764530	+	MKE-138_00856	MKE-138	190	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	MKE-138_00861	-5
+OZ247814.1	764533	764928	-	MKE-138_00857	MKE-138	131	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	MKE-138_00861	-4
+OZ247814.1	764930	765319	-	MKE-138_00858	MKE-138	129	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	MKE-138_00861	-3
+OZ247814.1	765514	766455	+	MKE-138_00859	MKE-138	313	OG0001135	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	MKE-138_00861	-2
+OZ247814.1	766506	768608	+	MKE-138_00860	MKE-138	700	OG0001153	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	MKE-138_00861	-1
+OZ247814.1	768605	768970	+	MKE-138_00861	MKE-138	121	OG0002769	NA	NA	COG4729	NA	Uncharacterized conserved protein, DUF1850 family	MKE-138_00861	0
+OZ247814.1	768986	771649	+	MKE-138_00862	MKE-138	887	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	MKE-138_00861	1
+OZ247814.1	771758	772495	-	MKE-138_00863	MKE-138	245	OG0001865	K07059	rhomboid family protein	COG0705	GlpG	Membrane-associated serine protease, rhomboid family	MKE-138_00861	2
+OZ247814.1	772499	773584	-	MKE-138_00864	MKE-138	361	OG0000279	K01736	chorismate synthase [EC:4.2.3.5]	COG0082	AroC	Chorismate synthase	MKE-138_00861	3
+OZ247814.1	773618	774253	+	MKE-138_00865	MKE-138	211	OG0000522	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG0259	PdxH	Pyridoxine/pyridoxamine 5'-phosphate oxidase	MKE-138_00861	4
+OZ247814.1	774268	775209	+	MKE-138_00866	MKE-138	313	OG0002750	K07086	uncharacterized protein	COG3329	SbtA	Na+-dependent bicarbonate transporter SbtA	MKE-138_00861	5
+OZ249405.1	679483	680424	-	MiE-29_00769	MiE-29	313	OG0002750	K07086	uncharacterized protein	COG3329	SbtA	Na+-dependent bicarbonate transporter SbtA	MiE-29_00774	-5
+OZ249405.1	680439	681074	-	MiE-29_00770	MiE-29	211	OG0000522	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG0259	PdxH	Pyridoxine/pyridoxamine 5'-phosphate oxidase	MiE-29_00774	-4
+OZ249405.1	681108	682193	+	MiE-29_00771	MiE-29	361	OG0000279	K01736	chorismate synthase [EC:4.2.3.5]	COG0082	AroC	Chorismate synthase	MiE-29_00774	-3
+OZ249405.1	682197	682934	+	MiE-29_00772	MiE-29	245	OG0001865	K07059	rhomboid family protein	COG0705	GlpG	Membrane-associated serine protease, rhomboid family	MiE-29_00774	-2
+OZ249405.1	683043	685706	-	MiE-29_00773	MiE-29	887	OG0000262	K01681	aconitate hydratase [EC:4.2.1.3]	COG1048	AcnA	Aconitase A	MiE-29_00774	-1
+OZ249405.1	685728	686093	-	MiE-29_00774	MiE-29	121	OG0002769	NA	NA	COG4729	NA	Uncharacterized conserved protein, DUF1850 family	MiE-29_00774	0
+OZ249405.1	686090	688189	-	MiE-29_00775	MiE-29	699	OG0001153	NA	NA	COG4666	NA	TRAP-type uncharacterized transport system, fused permease components	MiE-29_00774	1
+OZ249405.1	688232	689173	-	MiE-29_00776	MiE-29	313	OG0001135	K07080	uncharacterized protein	COG2358	Imp	TRAP-type uncharacterized transport system, periplasmic component	MiE-29_00774	2
+OZ249405.1	689285	689689	+	MiE-29_00777	MiE-29	134	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	MiE-29_00774	3
+OZ249405.1	689691	690086	+	MiE-29_00778	MiE-29	131	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	MiE-29_00774	4
+OZ249405.1	690089	690661	-	MiE-29_00779	MiE-29	190	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	MiE-29_00774	5

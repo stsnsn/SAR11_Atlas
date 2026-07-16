@@ -1,0 +1,821 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CABWYD010000001.1	150912	152249	-	AG-313-A04_00154	AG-313-A04	445	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-313-A04_00159	-5
+CABWYD010000001.1	152249	155143	-	AG-313-A04_00155	AG-313-A04	964	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-313-A04_00159	-4
+CABWYD010000001.1	155175	156050	-	AG-313-A04_00156	AG-313-A04	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-313-A04_00159	-3
+CABWYD010000001.1	156050	157213	-	AG-313-A04_00157	AG-313-A04	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-313-A04_00159	-2
+CABWYD010000001.1	157289	158149	+	AG-313-A04_00158	AG-313-A04	286	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-313-A04_00159	-1
+CABWYD010000001.1	158160	159728	-	AG-313-A04_00159	AG-313-A04	522	OG0001507	NA	NA	NA	NA	NA	AG-313-A04_00159	0
+CABWYD010000001.1	159694	160653	-	AG-313-A04_00160	AG-313-A04	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-313-A04_00159	1
+CABWYD010000001.1	160658	162151	-	AG-313-A04_00161	AG-313-A04	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-313-A04_00159	2
+CABWYD010000001.1	162175	162951	-	AG-313-A04_00162	AG-313-A04	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-313-A04_00159	3
+CABWYD010000001.1	162954	164729	-	AG-313-A04_00163	AG-313-A04	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-313-A04_00159	4
+CABWYD010000001.1	164729	165055	-	AG-313-A04_00164	AG-313-A04	108	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-313-A04_00159	5
+CABXTN010000009.1	9683	10489	-	AG-325-C21_00653	AG-325-C21	268	OG0000498	NA	NA	COG0739	NlpD	Murein endopeptidase or hydrolase activator MepM/NlpD, contains LysM domain	AG-325-C21_00658	-5
+CABXTN010000009.1	10474	11241	-	AG-325-C21_00654	AG-325-C21	255	OG0000007	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-325-C21_00658	-4
+CABXTN010000009.1	11243	11821	-	AG-325-C21_00655	AG-325-C21	192	OG0000922	NA	NA	COG0861	TerC	Tellurite resistance membrane protein TerC	AG-325-C21_00658	-3
+CABXTN010000009.1	11821	13416	-	AG-325-C21_00656	AG-325-C21	531	OG0000054	NA	NA	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-325-C21_00658	-2
+CABXTN010000009.1	13507	13764	+	AG-325-C21_00657	AG-325-C21	85	OG0002326	NA	NA	NA	NA	NA	AG-325-C21_00658	-1
+CABXTN010000009.1	13751	15349	+	AG-325-C21_00658	AG-325-C21	532	OG0001507	NA	NA	NA	NA	NA	AG-325-C21_00658	0
+CABXTN010000009.1	15426	16517	+	AG-325-C21_00659	AG-325-C21	363	OG0000072	NA	NA	COG4663	FcbT1	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component	AG-325-C21_00658	1
+CABXTN010000009.1	16587	17201	+	AG-325-C21_00660	AG-325-C21	204	OG0000994	NA	NA	COG4665	FcbT2	TRAP-type mannitol/chloroaromatic compound transport system, small permease component	AG-325-C21_00658	2
+CABXTN010000009.1	17198	18532	+	AG-325-C21_00661	AG-325-C21	444	OG0000987	K11690	C4-dicarboxylate transporter, DctM subunit	COG4664	FcbT3	TRAP-type mannitol/chloroaromatic compound transport system, large permease component	AG-325-C21_00658	3
+CABXTN010000009.1	18551	20020	+	AG-325-C21_00662	AG-325-C21	489	OG0000917	K03457	nucleobase:cation symporter-1, NCS1 family	COG1953	FUI1	Cytosine/uracil/thiamine/allantoin permease	AG-325-C21_00658	4
+CABXTN010000009.1	20017	20763	+	AG-325-C21_00663	AG-325-C21	248	OG0001186	K21883	2-dehydro-3-deoxy-L-rhamnonate dehydrogenase (NAD+) [EC:1.1.1.401]	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-325-C21_00658	5
+CABXUW010000008.1	24789	25565	+	AG-325-E13_00814	AG-325-E13	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-325-E13_00819	-5
+CABXUW010000008.1	25589	27082	+	AG-325-E13_00815	AG-325-E13	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-325-E13_00819	-4
+CABXUW010000008.1	27096	28052	+	AG-325-E13_00816	AG-325-E13	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-325-E13_00819	-3
+CABXUW010000008.1	28079	29482	+	AG-325-E13_00817	AG-325-E13	467	OG0001860	NA	NA	NA	NA	NA	AG-325-E13_00819	-2
+CABXUW010000008.1	29482	30714	+	AG-325-E13_00818	AG-325-E13	410	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-325-E13_00819	-1
+CABXUW010000008.1	30722	32296	+	AG-325-E13_00819	AG-325-E13	524	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-325-E13_00819	0
+CABXUW010000008.1	32326	32589	-	AG-325-E13_00820	AG-325-E13	87	OG0001471	NA	NA	NA	NA	NA	AG-325-E13_00819	1
+CABXUW010000008.1	32586	34223	-	AG-325-E13_00821	AG-325-E13	545	OG0001404	NA	NA	NA	NA	NA	AG-325-E13_00819	2
+CABXUW010000008.1	34269	34973	+	AG-325-E13_00822	AG-325-E13	234	OG0000045	NA	NA	NA	NA	NA	AG-325-E13_00819	3
+CABXUW010000008.1	34970	36136	+	AG-325-E13_00823	AG-325-E13	388	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-325-E13_00819	4
+CABXUW010000008.1	36137	37012	+	AG-325-E13_00824	AG-325-E13	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-325-E13_00819	5
+CABXVN010000001.1	7793	8569	+	AG-325-E20_00010	AG-325-E20	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-325-E20_00015	-5
+CABXVN010000001.1	8591	10084	+	AG-325-E20_00011	AG-325-E20	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-325-E20_00015	-4
+CABXVN010000001.1	10081	11046	+	AG-325-E20_00012	AG-325-E20	321	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-325-E20_00015	-3
+CABXVN010000001.1	11089	12501	+	AG-325-E20_00013	AG-325-E20	470	OG0001860	NA	NA	NA	NA	NA	AG-325-E20_00015	-2
+CABXVN010000001.1	12503	13756	+	AG-325-E20_00014	AG-325-E20	417	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-325-E20_00015	-1
+CABXVN010000001.1	13757	15331	+	AG-325-E20_00015	AG-325-E20	524	OG0001507	NA	NA	NA	NA	NA	AG-325-E20_00015	0
+CABXVN010000001.1	15328	15960	+	AG-325-E20_00016	AG-325-E20	210	OG0002246	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	AG-325-E20_00015	1
+CABXVN010000001.1	15962	16219	-	AG-325-E20_00017	AG-325-E20	85	OG0001471	NA	NA	NA	NA	NA	AG-325-E20_00015	2
+CABXVN010000001.1	16216	17859	-	AG-325-E20_00018	AG-325-E20	547	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-325-E20_00015	3
+CABXVN010000001.1	17948	19108	+	AG-325-E20_00019	AG-325-E20	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-325-E20_00015	4
+CABXVN010000001.1	19109	19984	+	AG-325-E20_00020	AG-325-E20	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-325-E20_00015	5
+CABXWY010000002.1	46671	47132	+	AG-325-G21_00247	AG-325-G21	153	OG0000371	K09117	uncharacterized protein	COG1610	YqeY	Uncharacterized conserved protein YqeY, may have tRNA amino acid amidase activity	AG-325-G21_00252	-5
+CABXWY010000002.1	47129	48904	+	AG-325-G21_00248	AG-325-G21	591	OG0000317	K02316	DNA primase [EC:2.7.7.101]	COG0358	DnaG	DNA primase (bacterial type)	AG-325-G21_00252	-4
+CABXWY010000002.1	49009	50802	+	AG-325-G21_00249	AG-325-G21	597	OG0000836	K03086	RNA polymerase primary sigma factor	COG0568	RpoD	DNA-directed RNA polymerase, sigma subunit (sigma70/sigma32)	AG-325-G21_00252	-3
+CABXWY010000002.1	50825	51511	+	AG-325-G21_00250	AG-325-G21	228	OG0001705	NA	NA	NA	NA	NA	AG-325-G21_00252	-2
+CABXWY010000002.1	51517	52779	+	AG-325-G21_00251	AG-325-G21	420	OG0000888	K02847	O-antigen ligase [EC:2.4.1.-]	COG3307	RfaL	O-antigen ligase	AG-325-G21_00252	-1
+CABXWY010000002.1	52769	54364	+	AG-325-G21_00252	AG-325-G21	531	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-325-G21_00252	0
+CABXWY010000002.1	54370	55179	+	AG-325-G21_00253	AG-325-G21	269	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-325-G21_00252	1
+CABXWY010000002.1	55228	56622	-	AG-325-G21_00254	AG-325-G21	464	OG0001484	NA	NA	COG0500	SmtA	SAM-dependent methyltransferase SmtA (CmoB moved to COG2228)	AG-325-G21_00252	2
+CABXWY010000002.1	56725	57423	-	AG-325-G21_00255	AG-325-G21	232	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-325-G21_00252	3
+CABXWY010000002.1	57420	58232	-	AG-325-G21_00256	AG-325-G21	270	OG0001398	K05303	O-methyltransferase [EC:2.1.1.-]	NA	NA	NA	AG-325-G21_00252	4
+CABXWY010000002.1	58609	58713	-	AG-325-G21_00257	AG-325-G21	34	NA	NA	NA	NA	NA	NA	AG-325-G21_00252	5
+CACABC010000007.1	766	2169	-	AG-343-E17_00781	AG-343-E17	467	OG0000378	K00382	dihydrolipoamide dehydrogenase [EC:1.8.1.4]	COG1249	Lpd	Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase	AG-343-E17_00786	-5
+CACABC010000007.1	2172	3491	-	AG-343-E17_00782	AG-343-E17	439	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-343-E17_00786	-4
+CACABC010000007.1	3497	6388	-	AG-343-E17_00783	AG-343-E17	963	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-343-E17_00786	-3
+CACABC010000007.1	6448	7323	-	AG-343-E17_00784	AG-343-E17	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-343-E17_00786	-2
+CACABC010000007.1	7324	8481	-	AG-343-E17_00785	AG-343-E17	385	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-343-E17_00786	-1
+CACABC010000007.1	8484	10061	-	AG-343-E17_00786	AG-343-E17	525	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-343-E17_00786	0
+CACABC010000007.1	10089	11051	-	AG-343-E17_00787	AG-343-E17	320	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-343-E17_00786	1
+CACABC010000007.1	11053	12546	-	AG-343-E17_00788	AG-343-E17	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-343-E17_00786	2
+CACABC010000007.1	12573	13349	-	AG-343-E17_00789	AG-343-E17	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-343-E17_00786	3
+CACABC010000007.1	13349	15124	-	AG-343-E17_00790	AG-343-E17	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-343-E17_00786	4
+CACABC010000007.1	15130	15453	-	AG-343-E17_00791	AG-343-E17	107	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-343-E17_00786	5
+CACBKZ010000005.1	9296	10225	-	AG-359-C09_00563	AG-359-C09	309	OG0001536	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-359-C09_00568	-5
+CACBKZ010000005.1	10385	11833	+	AG-359-C09_00564	AG-359-C09	482	OG0000888	NA	NA	COG3307	RfaL	O-antigen ligase	AG-359-C09_00568	-4
+CACBKZ010000005.1	11818	12819	+	AG-359-C09_00565	AG-359-C09	333	OG0000019	NA	NA	COG0472	Rfe	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase/archaeal AglH	AG-359-C09_00568	-3
+CACBKZ010000005.1	12800	13207	+	AG-359-C09_00566	AG-359-C09	135	OG0001723	NA	NA	NA	NA	NA	AG-359-C09_00568	-2
+CACBKZ010000005.1	13200	14462	+	AG-359-C09_00567	AG-359-C09	420	OG0001695	NA	NA	NA	NA	NA	AG-359-C09_00568	-1
+CACBKZ010000005.1	14469	15986	-	AG-359-C09_00568	AG-359-C09	505	OG0001507	NA	NA	NA	NA	NA	AG-359-C09_00568	0
+CACBKZ010000005.1	15979	16680	-	AG-359-C09_00569	AG-359-C09	233	OG0000043	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-359-C09_00568	1
+CACBKZ010000005.1	16682	17350	-	AG-359-C09_00570	AG-359-C09	222	OG0001898	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-359-C09_00568	2
+CACBKZ010000005.1	17334	18317	-	AG-359-C09_00571	AG-359-C09	327	OG0001543	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-359-C09_00568	3
+CACBKZ010000005.1	18328	19356	-	AG-359-C09_00572	AG-359-C09	342	OG0001249	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-359-C09_00568	4
+CACBKZ010000005.1	19357	20127	-	AG-359-C09_00573	AG-359-C09	256	OG0000274	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	AG-359-C09_00568	5
+CACCZZ010000002.1	118642	119802	-	AG-365-B19_00299	AG-365-B19	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-365-B19_00304	-5
+CACCZZ010000002.1	119845	120708	+	AG-365-B19_00300	AG-365-B19	287	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-365-B19_00304	-4
+CACCZZ010000002.1	120709	122376	+	AG-365-B19_00301	AG-365-B19	555	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-365-B19_00304	-3
+CACCZZ010000002.1	122379	122642	+	AG-365-B19_00302	AG-365-B19	87	OG0001471	NA	NA	NA	NA	NA	AG-365-B19_00304	-2
+CACCZZ010000002.1	122661	123467	+	AG-365-B19_00303	AG-365-B19	268	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-365-B19_00304	-1
+CACCZZ010000002.1	123464	125017	-	AG-365-B19_00304	AG-365-B19	517	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-365-B19_00304	0
+CACCZZ010000002.1	125020	125985	-	AG-365-B19_00305	AG-365-B19	321	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-365-B19_00304	1
+CACCZZ010000002.1	125991	127484	-	AG-365-B19_00306	AG-365-B19	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-365-B19_00304	2
+CACCZZ010000002.1	127508	128284	-	AG-365-B19_00307	AG-365-B19	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-365-B19_00304	3
+CACCZZ010000002.1	128284	130059	-	AG-365-B19_00308	AG-365-B19	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-365-B19_00304	4
+CACCZZ010000002.1	130065	130388	-	AG-365-B19_00309	AG-365-B19	107	OG0000670	NA	NA	NA	NA	NA	AG-365-B19_00304	5
+CACDTD010000013.1	10259	11134	-	AG-390-C22_00999	AG-390-C22	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-390-C22_01004	-5
+CACDTD010000013.1	11135	12295	-	AG-390-C22_01000	AG-390-C22	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-390-C22_01004	-4
+CACDTD010000013.1	12335	14014	+	AG-390-C22_01001	AG-390-C22	559	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-390-C22_01004	-3
+CACDTD010000013.1	14014	14277	+	AG-390-C22_01002	AG-390-C22	87	OG0001471	NA	NA	NA	NA	NA	AG-390-C22_01004	-2
+CACDTD010000013.1	14383	15054	+	AG-390-C22_01003	AG-390-C22	223	OG0002518	NA	NA	NA	NA	NA	AG-390-C22_01004	-1
+CACDTD010000013.1	15074	16657	-	AG-390-C22_01004	AG-390-C22	527	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-390-C22_01004	0
+CACDTD010000013.1	16623	17582	-	AG-390-C22_01005	AG-390-C22	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-390-C22_01004	1
+CACDTD010000013.1	17596	19089	-	AG-390-C22_01006	AG-390-C22	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-390-C22_01004	2
+CACDTD010000013.1	19114	19890	-	AG-390-C22_01007	AG-390-C22	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-390-C22_01004	3
+CACDTD010000013.1	19890	21665	-	AG-390-C22_01008	AG-390-C22	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-390-C22_01004	4
+CACDTD010000013.1	21665	21991	-	AG-390-C22_01009	AG-390-C22	108	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-390-C22_01004	5
+CACDYR010000008.1	25088	26257	+	AG-390-G23_01118	AG-390-G23	389	OG0001357	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-390-G23_01123	-5
+CACDYR010000008.1	26265	26987	+	AG-390-G23_01119	AG-390-G23	240	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-390-G23_01123	-4
+CACDYR010000008.1	26974	28401	-	AG-390-G23_01120	AG-390-G23	475	OG0001478	NA	NA	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-390-G23_01123	-3
+CACDYR010000008.1	28398	28568	-	AG-390-G23_01121	AG-390-G23	56	OG0003915	NA	NA	NA	NA	NA	AG-390-G23_01123	-2
+CACDYR010000008.1	28628	28924	+	AG-390-G23_01122	AG-390-G23	98	OG0002326	NA	NA	NA	NA	NA	AG-390-G23_01123	-1
+CACDYR010000008.1	28938	30500	+	AG-390-G23_01123	AG-390-G23	520	OG0001507	NA	NA	NA	NA	NA	AG-390-G23_01123	0
+CACDYR010000008.1	30500	31513	+	AG-390-G23_01124	AG-390-G23	337	OG0001337	K16568	exopolysaccharide production protein ExoZ	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	AG-390-G23_01123	1
+CACDYR010000008.1	31494	32186	-	AG-390-G23_01125	AG-390-G23	230	OG0002257	NA	NA	NA	NA	NA	AG-390-G23_01123	2
+CACDYR010000008.1	32217	33320	+	AG-390-G23_01126	AG-390-G23	367	OG0001969	NA	NA	NA	NA	NA	AG-390-G23_01123	3
+CACDYR010000008.1	33313	34626	-	AG-390-G23_01127	AG-390-G23	437	OG0000888	NA	NA	NA	NA	NA	AG-390-G23_01123	4
+CACDYR010000008.1	34619	35743	-	AG-390-G23_01128	AG-390-G23	374	OG0000010	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-390-G23_01123	5
+CACEFF010000003.1	81079	81867	-	AG-390-M07_00564	AG-390-M07	262	OG0001392	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-390-M07_00569	-5
+CACEFF010000003.1	81893	83017	+	AG-390-M07_00565	AG-390-M07	374	OG0000010	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-390-M07_00569	-4
+CACEFF010000003.1	83020	84126	-	AG-390-M07_00566	AG-390-M07	368	OG0001969	NA	NA	NA	NA	NA	AG-390-M07_00569	-3
+CACEFF010000003.1	84167	84829	+	AG-390-M07_00567	AG-390-M07	220	OG0002257	NA	NA	NA	NA	NA	AG-390-M07_00569	-2
+CACEFF010000003.1	84836	85855	-	AG-390-M07_00568	AG-390-M07	339	OG0001337	K16568	exopolysaccharide production protein ExoZ	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	AG-390-M07_00569	-1
+CACEFF010000003.1	85859	86461	-	AG-390-M07_00569	AG-390-M07	200	OG0001507	NA	NA	NA	NA	NA	AG-390-M07_00569	0
+CACEFF010000003.1	86601	87422	-	AG-390-M07_00570	AG-390-M07	273	OG0001507	NA	NA	NA	NA	NA	AG-390-M07_00569	1
+CACEFF010000003.1	87429	87701	-	AG-390-M07_00571	AG-390-M07	90	OG0002326	NA	NA	NA	NA	NA	AG-390-M07_00569	2
+CACEFF010000003.1	87909	89339	+	AG-390-M07_00572	AG-390-M07	476	OG0001478	NA	NA	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-390-M07_00569	3
+CACEFF010000003.1	89328	90047	-	AG-390-M07_00573	AG-390-M07	239	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-390-M07_00569	4
+CACEFF010000003.1	90052	90837	-	AG-390-M07_00574	AG-390-M07	261	OG0000023	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-390-M07_00569	5
+CACEFF010000003.1	81893	83017	+	AG-390-M07_00565	AG-390-M07	374	OG0000010	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-390-M07_00570	-5
+CACEFF010000003.1	83020	84126	-	AG-390-M07_00566	AG-390-M07	368	OG0001969	NA	NA	NA	NA	NA	AG-390-M07_00570	-4
+CACEFF010000003.1	84167	84829	+	AG-390-M07_00567	AG-390-M07	220	OG0002257	NA	NA	NA	NA	NA	AG-390-M07_00570	-3
+CACEFF010000003.1	84836	85855	-	AG-390-M07_00568	AG-390-M07	339	OG0001337	K16568	exopolysaccharide production protein ExoZ	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	AG-390-M07_00570	-2
+CACEFF010000003.1	85859	86461	-	AG-390-M07_00569	AG-390-M07	200	OG0001507	NA	NA	NA	NA	NA	AG-390-M07_00570	-1
+CACEFF010000003.1	86601	87422	-	AG-390-M07_00570	AG-390-M07	273	OG0001507	NA	NA	NA	NA	NA	AG-390-M07_00570	0
+CACEFF010000003.1	87429	87701	-	AG-390-M07_00571	AG-390-M07	90	OG0002326	NA	NA	NA	NA	NA	AG-390-M07_00570	1
+CACEFF010000003.1	87909	89339	+	AG-390-M07_00572	AG-390-M07	476	OG0001478	NA	NA	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AG-390-M07_00570	2
+CACEFF010000003.1	89328	90047	-	AG-390-M07_00573	AG-390-M07	239	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-390-M07_00570	3
+CACEFF010000003.1	90052	90837	-	AG-390-M07_00574	AG-390-M07	261	OG0000023	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-390-M07_00570	4
+CACEFF010000003.1	90877	91899	+	AG-390-M07_00575	AG-390-M07	340	OG0000023	K01711	GDPmannose 4,6-dehydratase [EC:4.2.1.47]	COG1089	Gmd	GDP-D-mannose dehydratase	AG-390-M07_00570	5
+CACEFJ010000002.1	6038	7813	+	AG-390-M15_00412	AG-390-M15	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-390-M15_00417	-5
+CACEFJ010000002.1	7813	8589	+	AG-390-M15_00413	AG-390-M15	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-390-M15_00417	-4
+CACEFJ010000002.1	8614	10107	+	AG-390-M15_00414	AG-390-M15	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-390-M15_00417	-3
+CACEFJ010000002.1	10120	11079	+	AG-390-M15_00415	AG-390-M15	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-390-M15_00417	-2
+CACEFJ010000002.1	11098	11904	-	AG-390-M15_00416	AG-390-M15	268	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-390-M15_00417	-1
+CACEFJ010000002.1	11960	13573	+	AG-390-M15_00417	AG-390-M15	537	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-390-M15_00417	0
+CACEFJ010000002.1	13575	14735	+	AG-390-M15_00418	AG-390-M15	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-390-M15_00417	1
+CACEFJ010000002.1	14736	15611	+	AG-390-M15_00419	AG-390-M15	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-390-M15_00417	2
+CACEFJ010000002.1	15645	18527	+	AG-390-M15_00420	AG-390-M15	960	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-390-M15_00417	3
+CACEFJ010000002.1	18531	19856	+	AG-390-M15_00421	AG-390-M15	441	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-390-M15_00417	4
+CACEFJ010000002.1	19859	21259	+	AG-390-M15_00422	AG-390-M15	466	OG0000378	K00382	dihydrolipoamide dehydrogenase [EC:1.8.1.4]	COG1249	Lpd	Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase	AG-390-M15_00417	5
+CACFMO010000004.1	222	959	-	AG-414-B15_00486	AG-414-B15	245	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-414-B15_00487	-1
+CACFMO010000004.1	1013	2569	-	AG-414-B15_00487	AG-414-B15	518	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-414-B15_00487	0
+CACFMO010000004.1	2581	4467	-	AG-414-B15_00488	AG-414-B15	628	OG0000836	K03086	RNA polymerase primary sigma factor	COG0568	RpoD	DNA-directed RNA polymerase, sigma subunit (sigma70/sigma32)	AG-414-B15_00487	1
+CACFMO010000004.1	4527	6290	-	AG-414-B15_00489	AG-414-B15	587	OG0000317	K02316	DNA primase [EC:2.7.7.101]	COG0358	DnaG	DNA primase (bacterial type)	AG-414-B15_00487	2
+CACFMO010000004.1	6292	6747	-	AG-414-B15_00490	AG-414-B15	151	OG0000371	K09117	uncharacterized protein	COG1610	YqeY	Uncharacterized conserved protein YqeY, may have tRNA amino acid amidase activity	AG-414-B15_00487	3
+CACFMO010000004.1	6878	8074	+	AG-414-B15_00491	AG-414-B15	398	OG0000194	K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]	COG0505	CarA	Carbamoylphosphate synthase small subunit	AG-414-B15_00487	4
+CACFMO010000004.1	8052	11270	+	AG-414-B15_00492	AG-414-B15	1072	OG0000176	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	COG0458	CarB	Carbamoylphosphate synthase large subunit	AG-414-B15_00487	5
+CACFMO010000005.1	10330	11733	-	AG-414-B15_00583	AG-414-B15	467	OG0000378	K00382	dihydrolipoamide dehydrogenase [EC:1.8.1.4]	COG1249	Lpd	Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase	AG-414-B15_00588	-5
+CACFMO010000005.1	11736	13022	-	AG-414-B15_00584	AG-414-B15	428	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-414-B15_00588	-4
+CACFMO010000005.1	13027	15930	-	AG-414-B15_00585	AG-414-B15	967	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-414-B15_00588	-3
+CACFMO010000005.1	15968	16843	-	AG-414-B15_00586	AG-414-B15	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-414-B15_00588	-2
+CACFMO010000005.1	16848	18005	-	AG-414-B15_00587	AG-414-B15	385	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-414-B15_00588	-1
+CACFMO010000005.1	18005	19585	-	AG-414-B15_00588	AG-414-B15	526	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-414-B15_00588	0
+CACFMO010000005.1	19604	20566	-	AG-414-B15_00589	AG-414-B15	320	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-414-B15_00588	1
+CACFMO010000005.1	20568	22061	-	AG-414-B15_00590	AG-414-B15	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-414-B15_00588	2
+CACFMO010000005.1	22088	22864	-	AG-414-B15_00591	AG-414-B15	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-414-B15_00588	3
+CACFMO010000005.1	22864	24639	-	AG-414-B15_00592	AG-414-B15	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-414-B15_00588	4
+CACFMO010000005.1	24643	24966	-	AG-414-B15_00593	AG-414-B15	107	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-414-B15_00588	5
+CACFOP010000005.1	35453	36859	-	AG-414-E02_00993	AG-414-E02	468	OG0000378	K00382	dihydrolipoamide dehydrogenase [EC:1.8.1.4]	COG1249	Lpd	Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase	AG-414-E02_00998	-5
+CACFOP010000005.1	36862	38202	-	AG-414-E02_00994	AG-414-E02	446	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-414-E02_00998	-4
+CACFOP010000005.1	38205	41108	-	AG-414-E02_00995	AG-414-E02	967	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-414-E02_00998	-3
+CACFOP010000005.1	41153	42028	-	AG-414-E02_00996	AG-414-E02	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-414-E02_00998	-2
+CACFOP010000005.1	42029	43189	-	AG-414-E02_00997	AG-414-E02	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-414-E02_00998	-1
+CACFOP010000005.1	43189	44739	-	AG-414-E02_00998	AG-414-E02	516	OG0001507	NA	NA	NA	NA	NA	AG-414-E02_00998	0
+CACFOP010000005.1	44748	45692	-	AG-414-E02_00999	AG-414-E02	314	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-414-E02_00998	1
+CACFOP010000005.1	45698	47191	-	AG-414-E02_01000	AG-414-E02	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-414-E02_00998	2
+CACFOP010000005.1	47220	47996	-	AG-414-E02_01001	AG-414-E02	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-414-E02_00998	3
+CACFOP010000005.1	47996	49771	-	AG-414-E02_01002	AG-414-E02	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-414-E02_00998	4
+CACFOP010000005.1	49771	50094	-	AG-414-E02_01003	AG-414-E02	107	OG0000670	K00242	succinate dehydrogenase membrane anchor subunit	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-414-E02_00998	5
+CACGEW010000007.1	7558	8433	-	AG-422-F15_00769	AG-422-F15	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-422-F15_00774	-5
+CACGEW010000007.1	8433	9596	-	AG-422-F15_00770	AG-422-F15	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-422-F15_00774	-4
+CACGEW010000007.1	9653	11305	+	AG-422-F15_00771	AG-422-F15	550	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-422-F15_00774	-3
+CACGEW010000007.1	11302	11565	+	AG-422-F15_00772	AG-422-F15	87	OG0001471	NA	NA	NA	NA	NA	AG-422-F15_00774	-2
+CACGEW010000007.1	11567	12412	+	AG-422-F15_00773	AG-422-F15	281	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-422-F15_00774	-1
+CACGEW010000007.1	12409	13968	-	AG-422-F15_00774	AG-422-F15	519	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-422-F15_00774	0
+CACGEW010000007.1	14012	14695	+	AG-422-F15_00775	AG-422-F15	227	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-422-F15_00774	1
+CACGEW010000007.1	14697	15656	-	AG-422-F15_00776	AG-422-F15	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-422-F15_00774	2
+CACGEW010000007.1	15670	17163	-	AG-422-F15_00777	AG-422-F15	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-422-F15_00774	3
+CACGEW010000007.1	17187	17963	-	AG-422-F15_00778	AG-422-F15	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-422-F15_00774	4
+CACGEW010000007.1	17966	19741	-	AG-422-F15_00779	AG-422-F15	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-422-F15_00774	5
+CACGKL010000001.1	11	610	+	AG-422-K17_00001	AG-422-K17	199	OG0001404	NA	NA	NA	NA	NA	AG-422-K17_00005	-4
+CACGKL010000001.1	619	882	+	AG-422-K17_00002	AG-422-K17	87	OG0001471	NA	NA	NA	NA	NA	AG-422-K17_00005	-3
+CACGKL010000001.1	887	1162	+	AG-422-K17_00003	AG-422-K17	91	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-422-K17_00005	-2
+CACGKL010000001.1	1179	1763	+	AG-422-K17_00004	AG-422-K17	194	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-422-K17_00005	-1
+CACGKL010000001.1	1728	3302	-	AG-422-K17_00005	AG-422-K17	524	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-422-K17_00005	0
+CACGKL010000001.1	3344	4027	+	AG-422-K17_00006	AG-422-K17	227	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-422-K17_00005	1
+CACGKL010000001.1	4028	4987	-	AG-422-K17_00007	AG-422-K17	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-422-K17_00005	2
+CACGKL010000001.1	4993	6486	-	AG-422-K17_00008	AG-422-K17	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-422-K17_00005	3
+CACGKL010000001.1	6510	7286	-	AG-422-K17_00009	AG-422-K17	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-422-K17_00005	4
+CACGKL010000001.1	7289	9064	-	AG-422-K17_00010	AG-422-K17	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-422-K17_00005	5
+CACGKL010000004.1	33939	35147	-	AG-422-K17_00505	AG-422-K17	402	OG0000194	K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]	COG0505	CarA	Carbamoylphosphate synthase small subunit	AG-422-K17_00510	-5
+CACGKL010000004.1	35270	35467	+	AG-422-K17_00506	AG-422-K17	65	OG0000371	NA	NA	COG1610	YqeY	Uncharacterized conserved protein YqeY, may have tRNA amino acid amidase activity	AG-422-K17_00510	-4
+CACGKL010000004.1	35448	35726	+	AG-422-K17_00507	AG-422-K17	92	OG0000371	K09117	uncharacterized protein	COG1610	YqeY	Uncharacterized conserved protein YqeY, may have tRNA amino acid amidase activity	AG-422-K17_00510	-3
+CACGKL010000004.1	35727	37514	+	AG-422-K17_00508	AG-422-K17	595	OG0000317	K02316	DNA primase [EC:2.7.7.101]	COG0358	DnaG	DNA primase (bacterial type)	AG-422-K17_00510	-2
+CACGKL010000004.1	37569	39443	+	AG-422-K17_00509	AG-422-K17	624	OG0000836	K03086	RNA polymerase primary sigma factor	COG0568	RpoD	DNA-directed RNA polymerase, sigma subunit (sigma70/sigma32)	AG-422-K17_00510	-1
+CACGKL010000004.1	39458	41050	+	AG-422-K17_00510	AG-422-K17	530	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-422-K17_00510	0
+CACGKL010000004.1	41059	41868	+	AG-422-K17_00511	AG-422-K17	269	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-422-K17_00510	1
+CACGKL010000004.1	41963	42559	-	AG-422-K17_00513	AG-422-K17	198	OG0000414	K07323	phospholipid transport system substrate-binding protein	COG2854	MlaC	Periplasmic subunit MlaC of the ABC-type intermembrane phospholipid transporter Mla	AG-422-K17_00510	2
+CACGKL010000004.1	42569	43312	-	AG-422-K17_00514	AG-422-K17	247	OG0000413	K04754	phospholipid-binding lipoprotein MlaA	COG2853	MlaA	Outer membrane channel MlaA of the intermembrane phospholipid transporter MlaABCDEF complex	AG-422-K17_00510	3
+CACGKL010000004.1	43397	44113	+	AG-422-K17_00515	AG-422-K17	238	OG0000640	K01447	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]	COG3023	AmpD	N-acetyl-anhydromuramyl-L-alanine amidase AmpD	AG-422-K17_00510	4
+CACGKL010000004.1	44654	45118	+	AG-422-K17_00516	AG-422-K17	154	OG0000325	K03925	transcriptional regulator MraZ	COG2001	MraZ	MraZ, DNA-binding transcriptional regulator and inhibitor of RsmH methyltransferase activity	AG-422-K17_00510	5
+CACGMC010000002.1	239136	240308	-	AG-422-L15_00611	AG-422-L15	390	OG0000501	K00333	NADH-quinone oxidoreductase subunit D [EC:7.1.1.2]	COG0649	NuoD	NADH:ubiquinone oxidoreductase 49 kD subunit (chain D)	AG-422-L15_00616	-5
+CACGMC010000002.1	240305	240910	-	AG-422-L15_00612	AG-422-L15	201	OG0000664	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	AG-422-L15_00616	-4
+CACGMC010000002.1	240913	241470	-	AG-422-L15_00613	AG-422-L15	185	OG0000700	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	AG-422-L15_00616	-3
+CACGMC010000002.1	241440	241808	-	AG-422-L15_00614	AG-422-L15	122	OG0000730	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	AG-422-L15_00616	-2
+CACGMC010000002.1	242010	242813	+	AG-422-L15_00615	AG-422-L15	267	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-422-L15_00616	-1
+CACGMC010000002.1	242797	244350	+	AG-422-L15_00616	AG-422-L15	517	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-422-L15_00616	0
+CACGMC010000002.1	244612	245172	+	AG-422-L15_00619	AG-422-L15	186	OG0000130	NA	NA	NA	NA	NA	AG-422-L15_00616	1
+CACGMC010000002.1	245169	247715	-	AG-422-L15_00620	AG-422-L15	848	OG0001319	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-422-L15_00616	2
+CACGMC010000002.1	247774	250158	-	AG-422-L15_00621	AG-422-L15	794	OG0000595	K01338	ATP-dependent Lon protease [EC:3.4.21.53]	COG0466	Lon	ATP-dependent Lon protease, bacterial type	AG-422-L15_00616	3
+CACGMC010000002.1	250207	251460	-	AG-422-L15_00622	AG-422-L15	417	OG0000516	K03544	ATP-dependent Clp protease ATP-binding subunit ClpX	COG1219	ClpX	ATP-dependent protease Clp, ATPase subunit ClpX	AG-422-L15_00616	4
+CACGMC010000002.1	251540	252151	-	AG-422-L15_00623	AG-422-L15	203	OG0000647	K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]	COG0740	ClpP	ATP-dependent protease ClpP, protease subunit	AG-422-L15_00616	5
+CACGMC010000007.1	7900	8676	+	AG-422-L15_01115	AG-422-L15	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-422-L15_01120	-5
+CACGMC010000007.1	8698	10191	+	AG-422-L15_01116	AG-422-L15	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-422-L15_01120	-4
+CACGMC010000007.1	10194	11153	+	AG-422-L15_01117	AG-422-L15	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-422-L15_01120	-3
+CACGMC010000007.1	11196	12608	+	AG-422-L15_01118	AG-422-L15	470	OG0001860	NA	NA	NA	NA	NA	AG-422-L15_01120	-2
+CACGMC010000007.1	12610	13863	+	AG-422-L15_01119	AG-422-L15	417	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-422-L15_01120	-1
+CACGMC010000007.1	13877	15451	+	AG-422-L15_01120	AG-422-L15	524	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-422-L15_01120	0
+CACGMC010000007.1	15448	16080	+	AG-422-L15_01121	AG-422-L15	210	OG0002246	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	AG-422-L15_01120	1
+CACGMC010000007.1	16082	16339	-	AG-422-L15_01122	AG-422-L15	85	OG0001471	NA	NA	NA	NA	NA	AG-422-L15_01120	2
+CACGMC010000007.1	16336	17367	-	AG-422-L15_01123	AG-422-L15	343	OG0001404	NA	NA	NA	NA	NA	AG-422-L15_01120	3
+CACGXV010000001.1	117995	118834	+	AG-426-F15_00132	AG-426-F15	279	OG0001778	NA	NA	NA	NA	NA	AG-426-F15_00138	-5
+CACGXV010000001.1	118908	120581	-	AG-426-F15_00133	AG-426-F15	557	OG0001416	NA	NA	NA	NA	NA	AG-426-F15_00138	-4
+CACGXV010000001.1	120665	121378	+	AG-426-F15_00134	AG-426-F15	237	OG0000058	NA	NA	COG0107	HisF	Imidazole glycerol phosphate synthase subunit HisF	AG-426-F15_00138	-3
+CACGXV010000001.1	121375	121989	+	AG-426-F15_00135	AG-426-F15	204	OG0000060	NA	NA	COG0118	HisH	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	AG-426-F15_00138	-2
+CACGXV010000001.1	121986	123281	-	AG-426-F15_00136	AG-426-F15	431	OG0001296	NA	NA	NA	NA	NA	AG-426-F15_00138	-1
+CACGXV010000001.1	123595	125175	+	AG-426-F15_00138	AG-426-F15	526	OG0001507	NA	NA	NA	NA	NA	AG-426-F15_00138	0
+CACGXV010000001.1	125168	125362	+	AG-426-F15_00139	AG-426-F15	64	NA	NA	NA	NA	NA	NA	AG-426-F15_00138	1
+CACGXV010000001.1	125586	126305	+	AG-426-F15_00140	AG-426-F15	239	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-426-F15_00138	2
+CACGXV010000001.1	126327	127292	+	AG-426-F15_00141	AG-426-F15	321	OG0001069	NA	NA	COG2146	NirD	Ferredoxin subunit of nitrite reductase or a ring-hydroxylating dioxygenase	AG-426-F15_00138	3
+CACGXV010000001.1	127282	128181	+	AG-426-F15_00142	AG-426-F15	299	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-426-F15_00138	4
+CACGXV010000001.1	128224	128814	-	AG-426-F15_00143	AG-426-F15	196	OG0000414	K07323	phospholipid transport system substrate-binding protein	COG2854	MlaC	Periplasmic subunit MlaC of the ABC-type intermembrane phospholipid transporter Mla	AG-426-F15_00138	5
+CACGZT010000002.1	115991	117562	-	AG-426-I15_00498	AG-426-I15	523	OG0001404	NA	NA	NA	NA	NA	AG-426-I15_00503	-5
+CACGZT010000002.1	117559	117864	-	AG-426-I15_00499	AG-426-I15	101	OG0001471	NA	NA	NA	NA	NA	AG-426-I15_00503	-4
+CACGZT010000002.1	117923	118540	+	AG-426-I15_00500	AG-426-I15	205	OG0001732	NA	NA	COG0088	RplD	Ribosomal protein L4	AG-426-I15_00503	-3
+CACGZT010000002.1	118533	119240	+	AG-426-I15_00501	AG-426-I15	235	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-426-I15_00503	-2
+CACGZT010000002.1	119240	119533	+	AG-426-I15_00502	AG-426-I15	97	OG0000877	NA	NA	NA	NA	NA	AG-426-I15_00503	-1
+CACGZT010000002.1	119533	121104	+	AG-426-I15_00503	AG-426-I15	523	OG0001507	NA	NA	NA	NA	NA	AG-426-I15_00503	0
+CACGZT010000002.1	121110	122090	-	AG-426-I15_00504	AG-426-I15	326	OG0000023	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	GalE	UDP-glucose 4-epimerase	AG-426-I15_00503	1
+CACGZT010000002.1	122094	123233	-	AG-426-I15_00505	AG-426-I15	379	OG0001636	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	COG0562	Glf	UDP-galactopyranose mutase	AG-426-I15_00503	2
+CACGZT010000002.1	123277	124380	+	AG-426-I15_00506	AG-426-I15	367	OG0001888	NA	NA	NA	NA	NA	AG-426-I15_00503	3
+CACGZT010000002.1	124370	125437	+	AG-426-I15_00507	AG-426-I15	355	OG0003232	NA	NA	NA	NA	NA	AG-426-I15_00503	4
+CACGZT010000002.1	125444	127405	+	AG-426-I15_00508	AG-426-I15	653	OG0001229	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	AsnB	Asparagine synthetase B (glutamine-hydrolyzing)	AG-426-I15_00503	5
+CACHEU010000003.1	6348	8123	+	AG-426-O05_00714	AG-426-O05	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-426-O05_00719	-5
+CACHEU010000003.1	8123	8899	+	AG-426-O05_00715	AG-426-O05	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-426-O05_00719	-4
+CACHEU010000003.1	8923	10416	+	AG-426-O05_00716	AG-426-O05	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-426-O05_00719	-3
+CACHEU010000003.1	10419	11378	+	AG-426-O05_00717	AG-426-O05	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-426-O05_00719	-2
+CACHEU010000003.1	11381	12187	-	AG-426-O05_00718	AG-426-O05	268	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-426-O05_00719	-1
+CACHEU010000003.1	12215	13822	+	AG-426-O05_00719	AG-426-O05	535	OG0001507	NA	NA	NA	NA	NA	AG-426-O05_00719	0
+CACHEU010000003.1	13817	14698	-	AG-426-O05_00720	AG-426-O05	293	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-426-O05_00719	1
+CACHEU010000003.1	14752	15912	+	AG-426-O05_00721	AG-426-O05	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-426-O05_00719	2
+CACHEU010000003.1	15913	16788	+	AG-426-O05_00722	AG-426-O05	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-426-O05_00719	3
+CACHEU010000003.1	16848	19745	+	AG-426-O05_00723	AG-426-O05	965	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-426-O05_00719	4
+CACHEU010000003.1	19746	21071	+	AG-426-O05_00724	AG-426-O05	441	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-426-O05_00719	5
+CACHIY010000006.1	17174	17284	+	AG-430-E20_01089	AG-430-E20	36	OG0001226	NA	NA	NA	NA	NA	AG-430-E20_01094	-5
+CACHIY010000006.1	17293	18381	+	AG-430-E20_01090	AG-430-E20	362	OG0000352	K00324	H+-translocating NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2 7.1.1.1]	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	AG-430-E20_01094	-4
+CACHIY010000006.1	18386	18691	+	AG-430-E20_01091	AG-430-E20	101	OG0000454	NA	NA	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	AG-430-E20_01094	-3
+CACHIY010000006.1	18691	20088	+	AG-430-E20_01092	AG-430-E20	465	OG0000436	K00325	H+-translocating NAD(P) transhydrogenase subunit beta [EC:1.6.1.2 7.1.1.1]	COG1282	PntB	NAD/NADP transhydrogenase beta subunit	AG-430-E20_01094	-2
+CACHIY010000006.1	20097	20792	+	AG-430-E20_01093	AG-430-E20	231	OG0000261	NA	NA	COG0176	TalA	Transaldolase/fructose-6-phosphate aldolase	AG-430-E20_01094	-1
+CACHIY010000006.1	20831	22282	+	AG-430-E20_01094	AG-430-E20	483	OG0001507	NA	NA	NA	NA	NA	AG-430-E20_01094	0
+CACHIY010000006.1	22302	23438	-	AG-430-E20_01095	AG-430-E20	378	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-430-E20_01094	1
+CACHIY010000006.1	23435	23830	-	AG-430-E20_01096	AG-430-E20	131	OG0001635	NA	NA	NA	NA	NA	AG-430-E20_01094	2
+CACHIY010000006.1	23831	24559	+	AG-430-E20_01097	AG-430-E20	242	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-430-E20_01094	3
+CACHIY010000006.1	24551	25018	-	AG-430-E20_01098	AG-430-E20	155	OG0003547	NA	NA	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	AG-430-E20_01094	4
+CACHIY010000006.1	25120	25860	+	AG-430-E20_01099	AG-430-E20	246	OG0000274	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	AG-430-E20_01094	5
+CACHPL010000005.1	16500	16823	+	AG-430-F03_00920	AG-430-F03	107	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-430-F03_00925	-5
+CACHPL010000005.1	16829	18604	+	AG-430-F03_00921	AG-430-F03	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-430-F03_00925	-4
+CACHPL010000005.1	18604	19380	+	AG-430-F03_00922	AG-430-F03	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-430-F03_00925	-3
+CACHPL010000005.1	19407	20900	+	AG-430-F03_00923	AG-430-F03	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-430-F03_00925	-2
+CACHPL010000005.1	20904	21860	+	AG-430-F03_00924	AG-430-F03	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-430-F03_00925	-1
+CACHPL010000005.1	21844	23400	+	AG-430-F03_00925	AG-430-F03	518	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-430-F03_00925	0
+CACHPL010000005.1	23397	24110	+	AG-430-F03_00926	AG-430-F03	237	OG0000045	NA	NA	NA	NA	NA	AG-430-F03_00925	1
+CACHPL010000005.1	24107	24916	-	AG-430-F03_00927	AG-430-F03	269	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-430-F03_00925	2
+CACHPL010000005.1	24951	25214	-	AG-430-F03_00928	AG-430-F03	87	OG0001471	NA	NA	NA	NA	NA	AG-430-F03_00925	3
+CACHPL010000005.1	25211	26878	-	AG-430-F03_00929	AG-430-F03	555	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-430-F03_00925	4
+CACHPL010000005.1	26941	28098	+	AG-430-F03_00930	AG-430-F03	385	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-430-F03_00925	5
+CACIPQ010000006.1	19832	20155	+	AG-439-C08_00800	AG-439-C08	107	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-439-C08_00805	-5
+CACIPQ010000006.1	20161	21936	+	AG-439-C08_00801	AG-439-C08	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-439-C08_00805	-4
+CACIPQ010000006.1	21936	22712	+	AG-439-C08_00802	AG-439-C08	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-439-C08_00805	-3
+CACIPQ010000006.1	22735	24228	+	AG-439-C08_00803	AG-439-C08	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-439-C08_00805	-2
+CACIPQ010000006.1	24174	25196	+	AG-439-C08_00804	AG-439-C08	340	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-439-C08_00805	-1
+CACIPQ010000006.1	25223	26794	+	AG-439-C08_00805	AG-439-C08	523	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-439-C08_00805	0
+CACIPQ010000006.1	26805	27962	+	AG-439-C08_00806	AG-439-C08	385	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-439-C08_00805	1
+CACIPQ010000006.1	27963	28838	+	AG-439-C08_00807	AG-439-C08	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-439-C08_00805	2
+CACIPQ010000006.1	28876	31779	+	AG-439-C08_00808	AG-439-C08	967	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-439-C08_00805	3
+CACIPQ010000006.1	31793	33109	+	AG-439-C08_00809	AG-439-C08	438	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-439-C08_00805	4
+CACIPQ010000006.1	33112	34515	+	AG-439-C08_00810	AG-439-C08	467	OG0000378	K00382	dihydrolipoamide dehydrogenase [EC:1.8.1.4]	COG1249	Lpd	Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase	AG-439-C08_00805	5
+CACIRD010000002.1	35808	36116	+	AG-439-C18_00313	AG-439-C18	102	OG0000454	NA	NA	COG3288	PntA	NAD/NADP transhydrogenase alpha subunit	AG-439-C18_00318	-5
+CACIRD010000002.1	36120	37514	+	AG-439-C18_00314	AG-439-C18	464	OG0000436	K00325	H+-translocating NAD(P) transhydrogenase subunit beta [EC:1.6.1.2 7.1.1.1]	COG1282	PntB	NAD/NADP transhydrogenase beta subunit	AG-439-C18_00318	-4
+CACIRD010000002.1	37520	38218	+	AG-439-C18_00315	AG-439-C18	232	OG0000261	NA	NA	COG0176	TalA	Transaldolase/fructose-6-phosphate aldolase	AG-439-C18_00318	-3
+CACIRD010000002.1	38267	39265	+	AG-439-C18_00316	AG-439-C18	332	OG0002122	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	AG-439-C18_00318	-2
+CACIRD010000002.1	39250	40509	+	AG-439-C18_00317	AG-439-C18	419	OG0001354	NA	NA	NA	NA	NA	AG-439-C18_00318	-1
+CACIRD010000002.1	40502	42139	-	AG-439-C18_00318	AG-439-C18	545	OG0001507	NA	NA	NA	NA	NA	AG-439-C18_00318	0
+CACIRD010000002.1	42117	42374	-	AG-439-C18_00319	AG-439-C18	85	OG0002326	NA	NA	NA	NA	NA	AG-439-C18_00318	1
+CACIRD010000002.1	42463	42669	-	AG-439-C18_00321	AG-439-C18	68	OG0001096	K02970	small subunit ribosomal protein S21	COG0828	RpsU	Ribosomal protein S21	AG-439-C18_00318	2
+CACIRD010000002.1	42725	43288	-	AG-439-C18_00322	AG-439-C18	187	OG0000453	K09987	uncharacterized protein	COG3820	TrcR	Cell cycle regulator TrcR, DUF1013 family	AG-439-C18_00318	3
+CACIRD010000002.1	43288	43515	-	AG-439-C18_00323	AG-439-C18	75	OG0000445	K02909	large subunit ribosomal protein L31	COG0254	RpmE	Ribosomal protein L31	AG-439-C18_00318	4
+CACIRD010000002.1	43551	44291	-	AG-439-C18_00324	AG-439-C18	246	OG0000343	K01092	myo-inositol-1(or 4)-monophosphatase [EC:3.1.3.25]	COG0483	SuhB	Archaeal fructose-1,6-bisphosphatase or related enzyme, inositol monophosphatase family	AG-439-C18_00318	5
+CACJDV010000006.1	42543	43667	+	AG-447-B22_00633	AG-447-B22	374	OG0000010	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-447-B22_00638	-5
+CACJDV010000006.1	43669	44775	-	AG-447-B22_00634	AG-447-B22	368	OG0001969	NA	NA	NA	NA	NA	AG-447-B22_00638	-4
+CACJDV010000006.1	44819	45481	+	AG-447-B22_00635	AG-447-B22	220	OG0002257	NA	NA	NA	NA	NA	AG-447-B22_00638	-3
+CACJDV010000006.1	45476	46498	-	AG-447-B22_00636	AG-447-B22	340	OG0001337	K16568	exopolysaccharide production protein ExoZ	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	AG-447-B22_00638	-2
+CACJDV010000006.1	46551	46835	+	AG-447-B22_00637	AG-447-B22	94	OG0002326	NA	NA	NA	NA	NA	AG-447-B22_00638	-1
+CACJDV010000006.1	46835	48373	+	AG-447-B22_00638	AG-447-B22	512	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-447-B22_00638	0
+CACJDV010000006.1	48370	49146	+	AG-447-B22_00639	AG-447-B22	258	OG0000274	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	AG-447-B22_00638	1
+CACJDV010000006.1	49125	50198	+	AG-447-B22_00640	AG-447-B22	357	OG0001249	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-447-B22_00638	2
+CACJDV010000006.1	50195	51382	+	AG-447-B22_00641	AG-447-B22	395	OG0001469	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-447-B22_00638	3
+CACJDV010000006.1	51379	53139	+	AG-447-B22_00642	AG-447-B22	586	OG0000108	NA	NA	COG0028	IlvB	Acetolactate synthase large subunit or other thiamine pyrophosphate-requiring enzyme	AG-447-B22_00638	4
+CACJDV010000006.1	53147	53977	+	AG-447-B22_00643	AG-447-B22	276	OG0001543	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-447-B22_00638	5
+CACJOY010000005.1	57646	58002	+	AG-447-N08_00980	AG-447-N08	118	OG0000309	K02887	large subunit ribosomal protein L20	COG0292	RplT	Ribosomal protein L20	AG-447-N08_00985	-5
+CACJOY010000005.1	58046	59113	+	AG-447-N08_00981	AG-447-N08	355	OG0000215	K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]	COG0016	PheS	Phenylalanyl-tRNA synthetase alpha subunit	AG-447-N08_00985	-4
+CACJOY010000005.1	59110	61515	+	AG-447-N08_00982	AG-447-N08	801	OG0000233	K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	COG0072	PheT	Phenylalanyl-tRNA synthetase beta subunit	AG-447-N08_00985	-3
+CACJOY010000005.1	61522	63327	+	AG-447-N08_00983	AG-447-N08	601	OG0000294	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	AG-447-N08_00985	-2
+CACJOY010000005.1	63334	64119	+	AG-447-N08_00984	AG-447-N08	261	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	AG-447-N08_00985	-1
+CACJOY010000005.1	64128	65783	-	AG-447-N08_00985	AG-447-N08	551	OG0001507	NA	NA	NA	NA	NA	AG-447-N08_00985	0
+CACJOY010000005.1	65840	66574	+	AG-447-N08_00986	AG-447-N08	244	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-447-N08_00985	1
+CACJOY010000005.1	66554	67270	-	AG-447-N08_00987	AG-447-N08	238	OG0000037	NA	NA	NA	NA	NA	AG-447-N08_00985	2
+CACKAJ010000004.1	9	725	-	AG-453-G04_00807	AG-453-G04	238	OG0000045	NA	NA	NA	NA	NA	AG-453-G04_00808	-1
+CACKAJ010000004.1	727	2328	-	AG-453-G04_00808	AG-453-G04	533	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-453-G04_00808	0
+CACKAJ010000004.1	2356	3315	-	AG-453-G04_00809	AG-453-G04	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-453-G04_00808	1
+CACKAJ010000004.1	3331	4824	-	AG-453-G04_00810	AG-453-G04	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-453-G04_00808	2
+CACKAJ010000004.1	4848	5624	-	AG-453-G04_00811	AG-453-G04	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-453-G04_00808	3
+CACKAJ010000004.1	5627	7402	-	AG-453-G04_00812	AG-453-G04	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-453-G04_00808	4
+CACKAJ010000004.1	7402	7728	-	AG-453-G04_00813	AG-453-G04	108	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-453-G04_00808	5
+CACLBB010000010.1	25178	26488	-	AG-461-E04_00858	AG-461-E04	436	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-461-E04_00863	-5
+CACLBB010000010.1	26489	29377	-	AG-461-E04_00859	AG-461-E04	962	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-461-E04_00863	-4
+CACLBB010000010.1	29411	30286	-	AG-461-E04_00860	AG-461-E04	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-461-E04_00863	-3
+CACLBB010000010.1	30287	31468	-	AG-461-E04_00861	AG-461-E04	393	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-461-E04_00863	-2
+CACLBB010000010.1	31489	32364	+	AG-461-E04_00862	AG-461-E04	291	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-461-E04_00863	-1
+CACLBB010000010.1	32361	33968	-	AG-461-E04_00863	AG-461-E04	535	OG0001507	NA	NA	NA	NA	NA	AG-461-E04_00863	0
+CACLBB010000010.1	34010	34810	+	AG-461-E04_00864	AG-461-E04	266	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-461-E04_00863	1
+CACLBB010000010.1	34813	35772	-	AG-461-E04_00865	AG-461-E04	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-461-E04_00863	2
+CACLBB010000010.1	35780	37273	-	AG-461-E04_00866	AG-461-E04	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-461-E04_00863	3
+CACLBB010000010.1	37298	38074	-	AG-461-E04_00867	AG-461-E04	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-461-E04_00863	4
+CACLBB010000010.1	38075	39850	-	AG-461-E04_00868	AG-461-E04	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-461-E04_00863	5
+CACMIX010000006.1	22918	23706	+	AG-891-J07_01150	AG-891-J07	262	OG0001574	NA	NA	COG3751	EGL9	Proline 4-hydroxylase (includes Rps23 Pro-64 3,4-dihydroxylase Tpa1), contains SM-20 domain	AG-891-J07_01155	-5
+CACMIX010000006.1	23721	25172	+	AG-891-J07_01151	AG-891-J07	483	OG0001144	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	AG-891-J07_01155	-4
+CACMIX010000006.1	25216	25761	-	AG-891-J07_01152	AG-891-J07	181	OG0001221	K03271	D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]	COG0279	GmhA	Phosphoheptose isomerase	AG-891-J07_01155	-3
+CACMIX010000006.1	25778	27031	+	AG-891-J07_01153	AG-891-J07	417	OG0000274	NA	NA	COG0241	HisB1/GmhB	Histidinol phosphatase/D-glycero-mannoheptose bisphosphatephosphatase, HAD superfamily	AG-891-J07_01155	-2
+CACMIX010000006.1	27028	27990	+	AG-891-J07_01154	AG-891-J07	320	OG0001346	K07031	D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]	COG2605	NA	Predicted kinase related to galactokinase and mevalonate kinase	AG-891-J07_01155	-1
+CACMIX010000006.1	27980	29491	-	AG-891-J07_01155	AG-891-J07	503	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-891-J07_01155	0
+CACMIX010000006.1	29469	30194	-	AG-891-J07_01156	AG-891-J07	241	OG0000043	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-891-J07_01155	1
+CACMIX010000006.1	30366	31205	-	AG-891-J07_01158	AG-891-J07	279	OG0001778	NA	NA	NA	NA	NA	AG-891-J07_01155	2
+CACMIX010000006.1	31319	31903	-	AG-891-J07_01159	AG-891-J07	194	OG0000414	K07323	phospholipid transport system substrate-binding protein	COG2854	MlaC	Periplasmic subunit MlaC of the ABC-type intermembrane phospholipid transporter Mla	AG-891-J07_01155	3
+CACMIX010000006.1	31927	32727	-	AG-891-J07_01160	AG-891-J07	266	OG0000413	K04754	phospholipid-binding lipoprotein MlaA	COG2853	MlaA	Outer membrane channel MlaA of the intermembrane phospholipid transporter MlaABCDEF complex	AG-891-J07_01155	4
+CACMIX010000006.1	32817	33557	+	AG-891-J07_01161	AG-891-J07	246	OG0000640	K01447	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]	COG3023	AmpD	N-acetyl-anhydromuramyl-L-alanine amidase AmpD	AG-891-J07_01155	5
+CACMOZ010000002.1	99775	101181	-	AG-891-O15_00295	AG-891-O15	468	OG0000378	K00382	dihydrolipoamide dehydrogenase [EC:1.8.1.4]	COG1249	Lpd	Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase	AG-891-O15_00300	-5
+CACMOZ010000002.1	101184	102512	-	AG-891-O15_00296	AG-891-O15	442	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-891-O15_00300	-4
+CACMOZ010000002.1	102513	105404	-	AG-891-O15_00297	AG-891-O15	963	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-891-O15_00300	-3
+CACMOZ010000002.1	105437	106312	-	AG-891-O15_00298	AG-891-O15	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-891-O15_00300	-2
+CACMOZ010000002.1	106315	107478	-	AG-891-O15_00299	AG-891-O15	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-891-O15_00300	-1
+CACMOZ010000002.1	107520	109085	-	AG-891-O15_00300	AG-891-O15	521	OG0001507	NA	NA	NA	NA	NA	AG-891-O15_00300	0
+CACMOZ010000002.1	109082	110323	-	AG-891-O15_00301	AG-891-O15	413	OG0001144	NA	NA	COG2133	YliI	Glucose/arabinose dehydrogenase, beta-propeller fold	AG-891-O15_00300	1
+CACMOZ010000002.1	110366	111046	+	AG-891-O15_00302	AG-891-O15	226	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-891-O15_00300	2
+CACMOZ010000002.1	111047	111904	-	AG-891-O15_00303	AG-891-O15	285	OG0000028	NA	NA	NA	NA	NA	AG-891-O15_00300	3
+CACMOZ010000002.1	111923	112879	-	AG-891-O15_00304	AG-891-O15	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-891-O15_00300	4
+CACMOZ010000002.1	112892	114385	-	AG-891-O15_00305	AG-891-O15	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-891-O15_00300	5
+CACMWB010000007.1	4805	5836	+	AG-892-F02_00814	AG-892-F02	343	OG0000020	NA	NA	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	AG-892-F02_00819	-5
+CACMWB010000007.1	5844	6905	+	AG-892-F02_00815	AG-892-F02	353	OG0000020	K12454	CDP-paratose 2-epimerase [EC:5.1.3.10]	COG1088	RfbB	dTDP-D-glucose 4,6-dehydratase	AG-892-F02_00819	-4
+CACMWB010000007.1	6886	8274	+	AG-892-F02_00816	AG-892-F02	462	OG0001531	NA	NA	COG5305	NA	Uncharacterized membrane protein PF0508, contains N-terminal glycosyltransferase domain of PMT family	AG-892-F02_00819	-3
+CACMWB010000007.1	8264	8551	+	AG-892-F02_00817	AG-892-F02	95	OG0000045	NA	NA	NA	NA	NA	AG-892-F02_00819	-2
+CACMWB010000007.1	8548	9246	-	AG-892-F02_00818	AG-892-F02	232	OG0000983	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-892-F02_00819	-1
+CACMWB010000007.1	9246	10838	-	AG-892-F02_00819	AG-892-F02	530	OG0001507	NA	NA	NA	NA	NA	AG-892-F02_00819	0
+CACMWB010000007.1	10932	11828	+	AG-892-F02_00820	AG-892-F02	298	OG0001470	NA	NA	NA	NA	NA	AG-892-F02_00819	1
+CACMWB010000007.1	11825	12787	-	AG-892-F02_00821	AG-892-F02	320	NA	NA	NA	NA	NA	NA	AG-892-F02_00819	2
+CACMWB010000007.1	12866	14158	+	AG-892-F02_00822	AG-892-F02	430	OG0000031	NA	NA	COG1004	Ugd	UDP-glucose 6-dehydrogenase	AG-892-F02_00819	3
+CACMWB010000007.1	14162	14815	-	AG-892-F02_00823	AG-892-F02	217	OG0001675	NA	NA	NA	NA	NA	AG-892-F02_00819	4
+CACMWB010000007.1	14886	15686	+	AG-892-F02_00824	AG-892-F02	266	OG0001574	NA	NA	COG3751	EGL9	Proline 4-hydroxylase (includes Rps23 Pro-64 3,4-dihydroxylase Tpa1), contains SM-20 domain	AG-892-F02_00819	5
+CACBDA010000001.1	164662	165438	+	AG-899-E14_00180	AG-899-E14	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-899-E14_00185	-5
+CACBDA010000001.1	165462	166955	+	AG-899-E14_00181	AG-899-E14	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-899-E14_00185	-4
+CACBDA010000001.1	166962	167918	+	AG-899-E14_00182	AG-899-E14	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-899-E14_00185	-3
+CACBDA010000001.1	167927	169342	+	AG-899-E14_00183	AG-899-E14	471	OG0001860	NA	NA	NA	NA	NA	AG-899-E14_00185	-2
+CACBDA010000001.1	169339	170592	+	AG-899-E14_00184	AG-899-E14	417	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-899-E14_00185	-1
+CACBDA010000001.1	170576	172141	+	AG-899-E14_00185	AG-899-E14	521	OG0001507	NA	NA	NA	NA	NA	AG-899-E14_00185	0
+CACBDA010000001.1	172126	172761	+	AG-899-E14_00186	AG-899-E14	211	OG0002246	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	AG-899-E14_00185	1
+CACBDA010000001.1	172754	173617	-	AG-899-E14_00187	AG-899-E14	287	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-899-E14_00185	2
+CACBDA010000001.1	173675	174838	+	AG-899-E14_00188	AG-899-E14	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-899-E14_00185	3
+CACBDA010000001.1	174839	175714	+	AG-899-E14_00189	AG-899-E14	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-899-E14_00185	4
+CACBDA010000001.1	175747	178626	+	AG-899-E14_00190	AG-899-E14	959	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-899-E14_00185	5
+CACDGO010000001.1	219119	222343	-	AG-903-M21_00240	AG-903-M21	1074	OG0000176	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	COG0458	CarB	Carbamoylphosphate synthase large subunit	AG-903-M21_00245	-5
+CACDGO010000001.1	222321	223529	-	AG-903-M21_00241	AG-903-M21	402	OG0000194	K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]	COG0505	CarA	Carbamoylphosphate synthase small subunit	AG-903-M21_00245	-4
+CACDGO010000001.1	223652	224107	+	AG-903-M21_00242	AG-903-M21	151	OG0000371	K09117	uncharacterized protein	COG1610	YqeY	Uncharacterized conserved protein YqeY, may have tRNA amino acid amidase activity	AG-903-M21_00245	-3
+CACDGO010000001.1	224108	225895	+	AG-903-M21_00243	AG-903-M21	595	OG0000317	K02316	DNA primase [EC:2.7.7.101]	COG0358	DnaG	DNA primase (bacterial type)	AG-903-M21_00245	-2
+CACDGO010000001.1	225949	227808	+	AG-903-M21_00244	AG-903-M21	619	OG0000836	K03086	RNA polymerase primary sigma factor	COG0568	RpoD	DNA-directed RNA polymerase, sigma subunit (sigma70/sigma32)	AG-903-M21_00245	-1
+CACDGO010000001.1	227824	229407	+	AG-903-M21_00245	AG-903-M21	527	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-903-M21_00245	0
+CACDGO010000001.1	229420	230226	+	AG-903-M21_00246	AG-903-M21	268	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-903-M21_00245	1
+CACDGO010000001.1	230386	230988	-	AG-903-M21_00248	AG-903-M21	200	OG0000414	K07323	phospholipid transport system substrate-binding protein	COG2854	MlaC	Periplasmic subunit MlaC of the ABC-type intermembrane phospholipid transporter Mla	AG-903-M21_00245	2
+CACDGO010000001.1	230996	231736	-	AG-903-M21_00249	AG-903-M21	246	OG0000413	K04754	phospholipid-binding lipoprotein MlaA	COG2853	MlaA	Outer membrane channel MlaA of the intermembrane phospholipid transporter MlaABCDEF complex	AG-903-M21_00245	3
+CACDGO010000001.1	231837	232556	+	AG-903-M21_00250	AG-903-M21	239	OG0000640	K01447	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]	COG3023	AmpD	N-acetyl-anhydromuramyl-L-alanine amidase AmpD	AG-903-M21_00245	4
+CACDGO010000001.1	233090	233554	+	AG-903-M21_00251	AG-903-M21	154	OG0000325	K03925	transcriptional regulator MraZ	COG2001	MraZ	MraZ, DNA-binding transcriptional regulator and inhibitor of RsmH methyltransferase activity	AG-903-M21_00245	5
+CACDGO010000002.1	148449	149324	-	AG-903-M21_00433	AG-903-M21	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-903-M21_00438	-5
+CACDGO010000002.1	149325	150488	-	AG-903-M21_00434	AG-903-M21	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-903-M21_00438	-4
+CACDGO010000002.1	150553	152202	+	AG-903-M21_00435	AG-903-M21	549	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-903-M21_00438	-3
+CACDGO010000002.1	152206	152469	+	AG-903-M21_00436	AG-903-M21	87	OG0001471	NA	NA	NA	NA	NA	AG-903-M21_00438	-2
+CACDGO010000002.1	152471	153346	+	AG-903-M21_00437	AG-903-M21	291	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-903-M21_00438	-1
+CACDGO010000002.1	153311	154882	-	AG-903-M21_00438	AG-903-M21	523	OG0001507	NA	NA	NA	NA	NA	AG-903-M21_00438	0
+CACDGO010000002.1	154923	155606	+	AG-903-M21_00439	AG-903-M21	227	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-903-M21_00438	1
+CACDGO010000002.1	155607	156566	-	AG-903-M21_00440	AG-903-M21	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-903-M21_00438	2
+CACDGO010000002.1	156577	158070	-	AG-903-M21_00441	AG-903-M21	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-903-M21_00438	3
+CACDGO010000002.1	158094	158870	-	AG-903-M21_00442	AG-903-M21	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-903-M21_00438	4
+CACDGO010000002.1	158870	160645	-	AG-903-M21_00443	AG-903-M21	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-903-M21_00438	5
+CACDPZ010000001.1	5694	6017	+	AG-904-F11_00008	AG-904-F11	107	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-904-F11_00013	-5
+CACDPZ010000001.1	6019	7794	+	AG-904-F11_00009	AG-904-F11	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-904-F11_00013	-4
+CACDPZ010000001.1	7794	8570	+	AG-904-F11_00010	AG-904-F11	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-904-F11_00013	-3
+CACDPZ010000001.1	8592	10085	+	AG-904-F11_00011	AG-904-F11	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-904-F11_00013	-2
+CACDPZ010000001.1	10088	11044	+	AG-904-F11_00012	AG-904-F11	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-904-F11_00013	-1
+CACDPZ010000001.1	11078	12628	+	AG-904-F11_00013	AG-904-F11	516	OG0001507	NA	NA	COG1287	Stt3	Asparagine N-glycosylation enzyme, membrane subunit Stt3	AG-904-F11_00013	0
+CACDPZ010000001.1	12625	13341	+	AG-904-F11_00014	AG-904-F11	238	OG0000045	NA	NA	NA	NA	NA	AG-904-F11_00013	1
+CACDPZ010000001.1	13334	14965	-	AG-904-F11_00015	AG-904-F11	543	OG0001404	NA	NA	NA	NA	NA	AG-904-F11_00013	2
+CACDPZ010000001.1	15009	16169	+	AG-904-F11_00016	AG-904-F11	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-904-F11_00013	3
+CACDPZ010000001.1	16170	17045	+	AG-904-F11_00017	AG-904-F11	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-904-F11_00013	4
+CACDPZ010000001.1	17078	19966	+	AG-904-F11_00018	AG-904-F11	962	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-904-F11_00013	5
+CACDPZ010000013.1	8071	8682	+	AG-904-F11_00923	AG-904-F11	203	OG0000647	K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]	COG0740	ClpP	ATP-dependent protease ClpP, protease subunit	AG-904-F11_00930	-5
+CACDPZ010000013.1	8762	10015	+	AG-904-F11_00924	AG-904-F11	417	OG0000516	K03544	ATP-dependent Clp protease ATP-binding subunit ClpX	COG1219	ClpX	ATP-dependent protease Clp, ATPase subunit ClpX	AG-904-F11_00930	-4
+CACDPZ010000013.1	10064	12448	+	AG-904-F11_00925	AG-904-F11	794	OG0000595	K01338	ATP-dependent Lon protease [EC:3.4.21.53]	COG0466	Lon	ATP-dependent Lon protease, bacterial type	AG-904-F11_00930	-3
+CACDPZ010000013.1	12504	15050	+	AG-904-F11_00926	AG-904-F11	848	OG0001319	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-904-F11_00930	-2
+CACDPZ010000013.1	15047	15607	-	AG-904-F11_00927	AG-904-F11	186	OG0000130	NA	NA	NA	NA	NA	AG-904-F11_00930	-1
+CACDPZ010000013.1	15859	17412	-	AG-904-F11_00930	AG-904-F11	517	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-904-F11_00930	0
+CACDPZ010000013.1	17396	18199	-	AG-904-F11_00931	AG-904-F11	267	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-904-F11_00930	1
+CACFHY010000004.1	65058	65957	+	AG-908-C18_00623	AG-908-C18	299	OG0000791	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	AG-908-C18_00628	-5
+CACFHY010000004.1	65974	66825	+	AG-908-C18_00624	AG-908-C18	283	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-908-C18_00628	-4
+CACFHY010000004.1	67338	67607	-	AG-908-C18_00625	AG-908-C18	89	OG0000712	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	AG-908-C18_00628	-3
+CACFHY010000004.1	67913	68866	+	AG-908-C18_00626	AG-908-C18	317	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	AG-908-C18_00628	-2
+CACFHY010000004.1	68856	69572	-	AG-908-C18_00627	AG-908-C18	238	OG0001203	NA	NA	NA	NA	NA	AG-908-C18_00628	-1
+CACFHY010000004.1	69576	71132	-	AG-908-C18_00628	AG-908-C18	518	OG0001507	NA	NA	NA	NA	NA	AG-908-C18_00628	0
+CACFHY010000004.1	71136	71408	-	AG-908-C18_00629	AG-908-C18	90	OG0002326	NA	NA	NA	NA	NA	AG-908-C18_00628	1
+CACFHY010000004.1	71457	73562	-	AG-908-C18_00630	AG-908-C18	701	OG0000777	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	AG-908-C18_00628	2
+CACFHY010000004.1	73576	73833	-	AG-908-C18_00631	AG-908-C18	85	OG0000885	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	AG-908-C18_00628	3
+CACFHY010000004.1	73959	74900	-	AG-908-C18_00633	AG-908-C18	313	OG0000659	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	AG-908-C18_00628	4
+CACFHY010000004.1	74900	75892	-	AG-908-C18_00634	AG-908-C18	330	OG0000639	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	AG-908-C18_00628	5
+CACGPY010000001.1	206568	209792	-	AG-910-G11_00231	AG-910-G11	1074	OG0000176	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	COG0458	CarB	Carbamoylphosphate synthase large subunit	AG-910-G11_00236	-5
+CACGPY010000001.1	209770	210978	-	AG-910-G11_00232	AG-910-G11	402	OG0000194	K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]	COG0505	CarA	Carbamoylphosphate synthase small subunit	AG-910-G11_00236	-4
+CACGPY010000001.1	211094	211552	+	AG-910-G11_00233	AG-910-G11	152	OG0000371	K09117	uncharacterized protein	COG1610	YqeY	Uncharacterized conserved protein YqeY, may have tRNA amino acid amidase activity	AG-910-G11_00236	-3
+CACGPY010000001.1	211549	213336	+	AG-910-G11_00234	AG-910-G11	595	OG0000317	K02316	DNA primase [EC:2.7.7.101]	COG0358	DnaG	DNA primase (bacterial type)	AG-910-G11_00236	-2
+CACGPY010000001.1	213389	215251	+	AG-910-G11_00235	AG-910-G11	620	OG0000836	K03086	RNA polymerase primary sigma factor	COG0568	RpoD	DNA-directed RNA polymerase, sigma subunit (sigma70/sigma32)	AG-910-G11_00236	-1
+CACGPY010000001.1	215266	216852	+	AG-910-G11_00236	AG-910-G11	528	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-910-G11_00236	0
+CACGPY010000001.1	216956	217552	-	AG-910-G11_00238	AG-910-G11	198	OG0000414	K07323	phospholipid transport system substrate-binding protein	COG2854	MlaC	Periplasmic subunit MlaC of the ABC-type intermembrane phospholipid transporter Mla	AG-910-G11_00236	1
+CACGPY010000001.1	217561	218304	-	AG-910-G11_00239	AG-910-G11	247	OG0000413	K04754	phospholipid-binding lipoprotein MlaA	COG2853	MlaA	Outer membrane channel MlaA of the intermembrane phospholipid transporter MlaABCDEF complex	AG-910-G11_00236	2
+CACGPY010000001.1	218396	219103	+	AG-910-G11_00240	AG-910-G11	235	OG0000640	K01447	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]	COG3023	AmpD	N-acetyl-anhydromuramyl-L-alanine amidase AmpD	AG-910-G11_00236	3
+CACGPY010000001.1	219652	220116	+	AG-910-G11_00241	AG-910-G11	154	OG0000325	K03925	transcriptional regulator MraZ	COG2001	MraZ	MraZ, DNA-binding transcriptional regulator and inhibitor of RsmH methyltransferase activity	AG-910-G11_00236	4
+CACGPY010000001.1	220083	221600	+	AG-910-G11_00242	AG-910-G11	505	OG0000412	K03531	cell division protein FtsZ	COG0206	FtsZ	Cell division GTPase FtsZ	AG-910-G11_00236	5
+CACGPY010000006.1	35209	38106	-	AG-910-G11_00655	AG-910-G11	965	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-910-G11_00660	-5
+CACGPY010000006.1	38139	39014	-	AG-910-G11_00656	AG-910-G11	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-910-G11_00660	-4
+CACGPY010000006.1	39016	40179	-	AG-910-G11_00657	AG-910-G11	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-910-G11_00660	-3
+CACGPY010000006.1	40277	41086	+	AG-910-G11_00658	AG-910-G11	269	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-910-G11_00660	-2
+CACGPY010000006.1	41120	41995	+	AG-910-G11_00659	AG-910-G11	291	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-910-G11_00660	-1
+CACGPY010000006.1	41982	43598	-	AG-910-G11_00660	AG-910-G11	538	OG0001507	NA	NA	NA	NA	NA	AG-910-G11_00660	0
+CACGPY010000006.1	43630	44589	-	AG-910-G11_00661	AG-910-G11	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-910-G11_00660	1
+CACGPY010000006.1	44600	46093	-	AG-910-G11_00662	AG-910-G11	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-910-G11_00660	2
+CACGPY010000006.1	46117	46893	-	AG-910-G11_00663	AG-910-G11	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-910-G11_00660	3
+CACGPY010000006.1	46896	48671	-	AG-910-G11_00664	AG-910-G11	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-910-G11_00660	4
+CACGPY010000006.1	48671	48997	-	AG-910-G11_00665	AG-910-G11	108	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-910-G11_00660	5
+CACHFP010000001.1	28894	30294	-	AG-911-G13_00035	AG-911-G13	466	OG0000378	K00382	dihydrolipoamide dehydrogenase [EC:1.8.1.4]	COG1249	Lpd	Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase	AG-911-G13_00040	-5
+CACHFP010000001.1	30296	31639	-	AG-911-G13_00036	AG-911-G13	447	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-911-G13_00040	-4
+CACHFP010000001.1	31640	34525	-	AG-911-G13_00037	AG-911-G13	961	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-911-G13_00040	-3
+CACHFP010000001.1	34558	35433	-	AG-911-G13_00038	AG-911-G13	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-911-G13_00040	-2
+CACHFP010000001.1	35434	36597	-	AG-911-G13_00039	AG-911-G13	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-911-G13_00040	-1
+CACHFP010000001.1	36622	38223	-	AG-911-G13_00040	AG-911-G13	533	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-911-G13_00040	0
+CACHFP010000001.1	38246	39205	-	AG-911-G13_00041	AG-911-G13	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-911-G13_00040	1
+CACHFP010000001.1	39214	40707	-	AG-911-G13_00042	AG-911-G13	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-911-G13_00040	2
+CACHFP010000001.1	40731	41507	-	AG-911-G13_00043	AG-911-G13	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-911-G13_00040	3
+CACHFP010000001.1	41510	43285	-	AG-911-G13_00044	AG-911-G13	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-911-G13_00040	4
+CACHFP010000001.1	43285	43611	-	AG-911-G13_00045	AG-911-G13	108	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-911-G13_00040	5
+CACHRI010000002.1	5693	6016	+	AG-912-D10_00302	AG-912-D10	107	OG0000670	NA	NA	NA	NA	NA	AG-912-D10_00307	-5
+CACHRI010000002.1	6018	7793	+	AG-912-D10_00303	AG-912-D10	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-912-D10_00307	-4
+CACHRI010000002.1	7793	8569	+	AG-912-D10_00304	AG-912-D10	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-912-D10_00307	-3
+CACHRI010000002.1	8591	10084	+	AG-912-D10_00305	AG-912-D10	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-912-D10_00307	-2
+CACHRI010000002.1	10088	11050	+	AG-912-D10_00306	AG-912-D10	320	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-912-D10_00307	-1
+CACHRI010000002.1	11052	12590	+	AG-912-D10_00307	AG-912-D10	512	OG0001507	NA	NA	NA	NA	NA	AG-912-D10_00307	0
+CACHRI010000002.1	12587	14239	-	AG-912-D10_00308	AG-912-D10	550	OG0001404	NA	NA	NA	NA	NA	AG-912-D10_00307	1
+CACHRI010000002.1	14290	15450	+	AG-912-D10_00309	AG-912-D10	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-912-D10_00307	2
+CACHRI010000002.1	15451	16326	+	AG-912-D10_00310	AG-912-D10	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-912-D10_00307	3
+CACHRI010000002.1	16359	19244	+	AG-912-D10_00311	AG-912-D10	961	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-912-D10_00307	4
+CACHRI010000002.1	19248	20582	+	AG-912-D10_00312	AG-912-D10	444	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-912-D10_00307	5
+CACHRI010000003.1	117734	118345	+	AG-912-D10_00599	AG-912-D10	203	OG0000647	K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]	COG0740	ClpP	ATP-dependent protease ClpP, protease subunit	AG-912-D10_00606	-5
+CACHRI010000003.1	118425	119678	+	AG-912-D10_00600	AG-912-D10	417	OG0000516	K03544	ATP-dependent Clp protease ATP-binding subunit ClpX	COG1219	ClpX	ATP-dependent protease Clp, ATPase subunit ClpX	AG-912-D10_00606	-4
+CACHRI010000003.1	119728	122109	+	AG-912-D10_00601	AG-912-D10	793	OG0000595	K01338	ATP-dependent Lon protease [EC:3.4.21.53]	COG0466	Lon	ATP-dependent Lon protease, bacterial type	AG-912-D10_00606	-3
+CACHRI010000003.1	122172	124718	+	AG-912-D10_00602	AG-912-D10	848	OG0001319	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-912-D10_00606	-2
+CACHRI010000003.1	124715	125233	-	AG-912-D10_00603	AG-912-D10	172	OG0000130	NA	NA	NA	NA	NA	AG-912-D10_00606	-1
+CACHRI010000003.1	125478	127031	-	AG-912-D10_00606	AG-912-D10	517	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-912-D10_00606	0
+CACHRI010000003.1	127015	127818	-	AG-912-D10_00607	AG-912-D10	267	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-912-D10_00606	1
+CACHRI010000003.1	128018	128386	+	AG-912-D10_00608	AG-912-D10	122	OG0000730	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	AG-912-D10_00606	2
+CACHRI010000003.1	128383	128913	+	AG-912-D10_00609	AG-912-D10	176	OG0000700	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	AG-912-D10_00606	3
+CACHRI010000003.1	128918	129529	+	AG-912-D10_00610	AG-912-D10	203	OG0000664	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	AG-912-D10_00606	4
+CACHRI010000003.1	129516	130688	+	AG-912-D10_00611	AG-912-D10	390	OG0000501	K00333	NADH-quinone oxidoreductase subunit D [EC:7.1.1.2]	COG0649	NuoD	NADH:ubiquinone oxidoreductase 49 kD subunit (chain D)	AG-912-D10_00606	5
+CACIEM010000016.1	105	1559	+	AG-913-C03_01307	AG-913-C03	484	OG0001507	NA	NA	NA	NA	NA	AG-913-C03_01307	0
+CACIEM010000016.1	1566	2906	+	AG-913-C03_01308	AG-913-C03	446	OG0001596	NA	NA	COG2220	UlaG	L-ascorbate lactonase UlaG, metallo-beta-lactamase superfamily	AG-913-C03_01307	1
+CACILH010000001.1	119443	120843	-	AG-913-I06_00123	AG-913-I06	466	OG0000378	K00382	dihydrolipoamide dehydrogenase [EC:1.8.1.4]	COG1249	Lpd	Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase	AG-913-I06_00128	-5
+CACILH010000001.1	120845	122176	-	AG-913-I06_00124	AG-913-I06	443	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-913-I06_00128	-4
+CACILH010000001.1	122177	125065	-	AG-913-I06_00125	AG-913-I06	962	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-913-I06_00128	-3
+CACILH010000001.1	125098	125973	-	AG-913-I06_00126	AG-913-I06	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-913-I06_00128	-2
+CACILH010000001.1	125974	127140	-	AG-913-I06_00127	AG-913-I06	388	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-913-I06_00128	-1
+CACILH010000001.1	127148	128713	-	AG-913-I06_00128	AG-913-I06	521	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-913-I06_00128	0
+CACILH010000001.1	128758	130065	+	AG-913-I06_00129	AG-913-I06	435	OG0001824	K16653	decaprenylphospho-beta-D-ribofuranose 2-oxidase [EC:1.1.98.3]	COG0277	GlcD	FAD/FMN-containing lactate dehydrogenase/glycolate oxidase	AG-913-I06_00128	1
+CACILH010000001.1	130067	130789	+	AG-913-I06_00130	AG-913-I06	240	NA	NA	NA	COG0300	YqjQ	Short-chain dehydrogenase	AG-913-I06_00128	2
+CACILH010000001.1	130786	131745	-	AG-913-I06_00131	AG-913-I06	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-913-I06_00128	3
+CACILH010000001.1	131752	133245	-	AG-913-I06_00132	AG-913-I06	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-913-I06_00128	4
+CACILH010000001.1	133269	134045	-	AG-913-I06_00133	AG-913-I06	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-913-I06_00128	5
+CACILM010000001.1	45010	46338	-	AG-913-I14_00048	AG-913-I14	442	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-913-I14_00053	-5
+CACILM010000001.1	46338	49226	-	AG-913-I14_00049	AG-913-I14	962	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-913-I14_00053	-4
+CACILM010000001.1	49258	50133	-	AG-913-I14_00050	AG-913-I14	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-913-I14_00053	-3
+CACILM010000001.1	50134	51297	-	AG-913-I14_00051	AG-913-I14	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-913-I14_00053	-2
+CACILM010000001.1	51396	52265	+	AG-913-I14_00052	AG-913-I14	289	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-913-I14_00053	-1
+CACILM010000001.1	52305	53891	-	AG-913-I14_00053	AG-913-I14	528	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-913-I14_00053	0
+CACILM010000001.1	53907	54866	-	AG-913-I14_00054	AG-913-I14	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-913-I14_00053	1
+CACILM010000001.1	54874	56367	-	AG-913-I14_00055	AG-913-I14	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-913-I14_00053	2
+CACILM010000001.1	56391	57167	-	AG-913-I14_00056	AG-913-I14	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-913-I14_00053	3
+CACILM010000001.1	57170	58945	-	AG-913-I14_00057	AG-913-I14	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-913-I14_00053	4
+CACILM010000001.1	58945	59271	-	AG-913-I14_00058	AG-913-I14	108	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-913-I14_00053	5
+CACPLO010000002.1	102484	103647	-	AG-914-I16_00328	AG-914-I16	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-914-I16_00333	-5
+CACPLO010000002.1	103695	105338	+	AG-914-I16_00329	AG-914-I16	547	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-914-I16_00333	-4
+CACPLO010000002.1	105335	105589	+	AG-914-I16_00330	AG-914-I16	84	OG0001471	NA	NA	NA	NA	NA	AG-914-I16_00333	-3
+CACPLO010000002.1	105599	106465	+	AG-914-I16_00331	AG-914-I16	288	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-914-I16_00333	-2
+CACPLO010000002.1	106462	107094	-	AG-914-I16_00332	AG-914-I16	210	OG0002246	NA	NA	COG1246	ArgA	N-acetylglutamate synthase or related acetyltransferase, GNAT family	AG-914-I16_00333	-1
+CACPLO010000002.1	107100	108686	-	AG-914-I16_00333	AG-914-I16	528	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-914-I16_00333	0
+CACPLO010000002.1	108661	109926	-	AG-914-I16_00334	AG-914-I16	421	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-914-I16_00333	1
+CACPLO010000002.1	109926	111338	-	AG-914-I16_00335	AG-914-I16	470	OG0001860	NA	NA	NA	NA	NA	AG-914-I16_00333	2
+CACPLO010000002.1	111426	112109	+	AG-914-I16_00336	AG-914-I16	227	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-914-I16_00333	3
+CACPLO010000002.1	112106	113065	-	AG-914-I16_00337	AG-914-I16	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-914-I16_00333	4
+CACPLO010000002.1	113071	114564	-	AG-914-I16_00338	AG-914-I16	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-914-I16_00333	5
+CACIWZ010000003.1	22414	24189	+	AG-914-J05_00563	AG-914-J05	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-914-J05_00568	-5
+CACIWZ010000003.1	24192	24968	+	AG-914-J05_00564	AG-914-J05	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-914-J05_00568	-4
+CACIWZ010000003.1	24992	26485	+	AG-914-J05_00565	AG-914-J05	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-914-J05_00568	-3
+CACIWZ010000003.1	26495	27451	+	AG-914-J05_00566	AG-914-J05	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-914-J05_00568	-2
+CACIWZ010000003.1	27476	28330	+	AG-914-J05_00567	AG-914-J05	284	OG0000028	NA	NA	NA	NA	NA	AG-914-J05_00568	-1
+CACIWZ010000003.1	28327	29895	+	AG-914-J05_00568	AG-914-J05	522	OG0001507	NA	NA	NA	NA	NA	AG-914-J05_00568	0
+CACIWZ010000003.1	29892	31055	+	AG-914-J05_00569	AG-914-J05	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-914-J05_00568	1
+CACIWZ010000003.1	31056	31931	+	AG-914-J05_00570	AG-914-J05	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-914-J05_00568	2
+CACIWZ010000003.1	31963	34851	+	AG-914-J05_00571	AG-914-J05	962	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-914-J05_00568	3
+CACIWZ010000003.1	34852	36192	+	AG-914-J05_00572	AG-914-J05	446	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-914-J05_00568	4
+CACIWZ010000003.1	36194	37594	+	AG-914-J05_00573	AG-914-J05	466	OG0000378	K00382	dihydrolipoamide dehydrogenase [EC:1.8.1.4]	COG1249	Lpd	Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase	AG-914-J05_00568	5
+CACJCF010000002.1	26877	28211	-	AG-914-N11_00409	AG-914-N11	444	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-914-N11_00414	-5
+CACJCF010000002.1	28212	31097	-	AG-914-N11_00410	AG-914-N11	961	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-914-N11_00414	-4
+CACJCF010000002.1	31128	32003	-	AG-914-N11_00411	AG-914-N11	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-914-N11_00414	-3
+CACJCF010000002.1	32004	33167	-	AG-914-N11_00412	AG-914-N11	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-914-N11_00414	-2
+CACJCF010000002.1	33164	33889	-	AG-914-N11_00413	AG-914-N11	241	OG0000045	NA	NA	NA	NA	NA	AG-914-N11_00414	-1
+CACJCF010000002.1	33886	35460	-	AG-914-N11_00414	AG-914-N11	524	OG0001507	NA	NA	COG1287	Stt3	Asparagine N-glycosylation enzyme, membrane subunit Stt3	AG-914-N11_00414	0
+CACJCF010000002.1	35429	36385	-	AG-914-N11_00415	AG-914-N11	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-914-N11_00414	1
+CACJCF010000002.1	36387	37880	-	AG-914-N11_00416	AG-914-N11	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-914-N11_00414	2
+CACJCF010000002.1	37904	38680	-	AG-914-N11_00417	AG-914-N11	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-914-N11_00414	3
+CACJCF010000002.1	38683	40458	-	AG-914-N11_00418	AG-914-N11	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-914-N11_00414	4
+CACJCF010000002.1	40458	40784	-	AG-914-N11_00419	AG-914-N11	108	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-914-N11_00414	5
+CACJUZ010000001.1	40565	41176	+	AG-916-D16_00042	AG-916-D16	203	OG0000647	K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]	COG0740	ClpP	ATP-dependent protease ClpP, protease subunit	AG-916-D16_00049	-5
+CACJUZ010000001.1	41256	42509	+	AG-916-D16_00043	AG-916-D16	417	OG0000516	K03544	ATP-dependent Clp protease ATP-binding subunit ClpX	COG1219	ClpX	ATP-dependent protease Clp, ATPase subunit ClpX	AG-916-D16_00049	-4
+CACJUZ010000001.1	42558	44942	+	AG-916-D16_00044	AG-916-D16	794	OG0000595	K01338	ATP-dependent Lon protease [EC:3.4.21.53]	COG0466	Lon	ATP-dependent Lon protease, bacterial type	AG-916-D16_00049	-3
+CACJUZ010000001.1	44998	47544	+	AG-916-D16_00045	AG-916-D16	848	OG0001319	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-916-D16_00049	-2
+CACJUZ010000001.1	47541	48062	-	AG-916-D16_00046	AG-916-D16	173	OG0000130	NA	NA	NA	NA	NA	AG-916-D16_00049	-1
+CACJUZ010000001.1	48313	49863	-	AG-916-D16_00049	AG-916-D16	516	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-916-D16_00049	0
+CACJUZ010000001.1	49850	50650	-	AG-916-D16_00050	AG-916-D16	266	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-916-D16_00049	1
+CACJUZ010000001.1	50852	51220	+	AG-916-D16_00051	AG-916-D16	122	OG0000730	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	AG-916-D16_00049	2
+CACJUZ010000001.1	51190	51747	+	AG-916-D16_00052	AG-916-D16	185	OG0000700	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	AG-916-D16_00049	3
+CACJUZ010000001.1	51750	52355	+	AG-916-D16_00053	AG-916-D16	201	OG0000664	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	AG-916-D16_00049	4
+CACJUZ010000001.1	52352	53524	+	AG-916-D16_00054	AG-916-D16	390	OG0000501	K00333	NADH-quinone oxidoreductase subunit D [EC:7.1.1.2]	COG0649	NuoD	NADH:ubiquinone oxidoreductase 49 kD subunit (chain D)	AG-916-D16_00049	5
+CACJUZ010000009.1	5729	6052	+	AG-916-D16_00847	AG-916-D16	107	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-916-D16_00852	-5
+CACJUZ010000009.1	6054	7829	+	AG-916-D16_00848	AG-916-D16	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-916-D16_00852	-4
+CACJUZ010000009.1	7829	8605	+	AG-916-D16_00849	AG-916-D16	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-916-D16_00852	-3
+CACJUZ010000009.1	8627	10120	+	AG-916-D16_00850	AG-916-D16	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-916-D16_00852	-2
+CACJUZ010000009.1	10123	11079	+	AG-916-D16_00851	AG-916-D16	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-916-D16_00852	-1
+CACJUZ010000009.1	11112	12662	+	AG-916-D16_00852	AG-916-D16	516	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-916-D16_00852	0
+CACJUZ010000009.1	12659	13372	+	AG-916-D16_00853	AG-916-D16	237	OG0000045	NA	NA	NA	NA	NA	AG-916-D16_00852	1
+CACJUZ010000009.1	13376	15055	-	AG-916-D16_00854	AG-916-D16	559	OG0001404	NA	NA	NA	NA	NA	AG-916-D16_00852	2
+CACJUZ010000009.1	15123	16283	+	AG-916-D16_00855	AG-916-D16	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-916-D16_00852	3
+CACJUZ010000009.1	16284	17159	+	AG-916-D16_00856	AG-916-D16	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-916-D16_00852	4
+CACJUZ010000009.1	17192	20083	+	AG-916-D16_00857	AG-916-D16	963	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-916-D16_00852	5
+CACJZK010000003.1	170	1945	+	AG-916-G03_00447	AG-916-G03	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-916-G03_00452	-5
+CACJZK010000003.1	1945	2718	+	AG-916-G03_00448	AG-916-G03	257	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-916-G03_00452	-4
+CACJZK010000003.1	2744	4237	+	AG-916-G03_00449	AG-916-G03	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-916-G03_00452	-3
+CACJZK010000003.1	4241	5200	+	AG-916-G03_00450	AG-916-G03	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-916-G03_00452	-2
+CACJZK010000003.1	5197	5889	-	AG-916-G03_00451	AG-916-G03	230	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-916-G03_00452	-1
+CACJZK010000003.1	5945	7525	+	AG-916-G03_00452	AG-916-G03	526	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-916-G03_00452	0
+CACJZK010000003.1	7522	8385	-	AG-916-G03_00453	AG-916-G03	287	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-916-G03_00452	1
+CACJZK010000003.1	8461	9621	+	AG-916-G03_00454	AG-916-G03	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-916-G03_00452	2
+CACJZK010000003.1	9621	10496	+	AG-916-G03_00455	AG-916-G03	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-916-G03_00452	3
+CACJZK010000003.1	10530	13409	+	AG-916-G03_00456	AG-916-G03	959	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-916-G03_00452	4
+CACJZK010000003.1	13409	14743	+	AG-916-G03_00457	AG-916-G03	444	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-916-G03_00452	5
+CACJZJ010000001.1	126087	127343	+	AG-916-G19_00142	AG-916-G19	418	OG0001319	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-916-G19_00147	-5
+CACJZJ010000001.1	127340	128167	+	AG-916-G19_00143	AG-916-G19	275	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-916-G19_00147	-4
+CACJZJ010000001.1	128156	128851	-	AG-916-G19_00144	AG-916-G19	231	OG0000983	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-916-G19_00147	-3
+CACJZJ010000001.1	128852	129940	-	AG-916-G19_00145	AG-916-G19	362	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-916-G19_00147	-2
+CACJZJ010000001.1	129943	131133	-	AG-916-G19_00146	AG-916-G19	396	OG0001357	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-916-G19_00147	-1
+CACJZJ010000001.1	131103	132833	-	AG-916-G19_00147	AG-916-G19	576	OG0001507	NA	NA	NA	NA	NA	AG-916-G19_00147	0
+CACJZJ010000001.1	132857	133906	+	AG-916-G19_00148	AG-916-G19	349	OG0000023	K01711	GDPmannose 4,6-dehydratase [EC:4.2.1.47]	COG1089	Gmd	GDP-D-mannose dehydratase	AG-916-G19_00147	1
+CACJZJ010000001.1	133903	135711	-	AG-916-G19_00149	AG-916-G19	602	OG0000294	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	AG-916-G19_00147	2
+CACJZJ010000001.1	135720	138125	-	AG-916-G19_00150	AG-916-G19	801	OG0000233	K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	COG0072	PheT	Phenylalanyl-tRNA synthetase beta subunit	AG-916-G19_00147	3
+CACJZJ010000001.1	138122	139189	-	AG-916-G19_00151	AG-916-G19	355	OG0000215	K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]	COG0016	PheS	Phenylalanyl-tRNA synthetase alpha subunit	AG-916-G19_00147	4
+CACJZJ010000001.1	139233	139589	-	AG-916-G19_00152	AG-916-G19	118	OG0000309	K02887	large subunit ribosomal protein L20	COG0292	RplT	Ribosomal protein L20	AG-916-G19_00147	5
+CACKJD010000001.1	67473	68567	+	AG-917-B07_00070	AG-917-B07	364	OG0000010	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-917-B07_00075	-5
+CACKJD010000001.1	68569	69714	-	AG-917-B07_00071	AG-917-B07	381	OG0000010	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-917-B07_00075	-4
+CACKJD010000001.1	69724	70818	-	AG-917-B07_00072	AG-917-B07	364	OG0001426	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-917-B07_00075	-3
+CACKJD010000001.1	70864	71826	-	AG-917-B07_00073	AG-917-B07	320	OG0001141	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-917-B07_00075	-2
+CACKJD010000001.1	71830	72204	-	AG-917-B07_00074	AG-917-B07	124	OG0001656	NA	NA	NA	NA	NA	AG-917-B07_00075	-1
+CACKJD010000001.1	72204	73793	-	AG-917-B07_00075	AG-917-B07	529	OG0001507	NA	NA	NA	NA	NA	AG-917-B07_00075	0
+CACKJD010000001.1	73790	74074	-	AG-917-B07_00076	AG-917-B07	94	OG0002326	NA	NA	NA	NA	NA	AG-917-B07_00075	1
+CACKJD010000001.1	74102	75484	+	AG-917-B07_00077	AG-917-B07	460	OG0001404	NA	NA	NA	NA	NA	AG-917-B07_00075	2
+CACKJD010000001.1	75481	76320	-	AG-917-B07_00078	AG-917-B07	279	OG0003271	NA	NA	NA	NA	NA	AG-917-B07_00075	3
+CACKJD010000001.1	76304	77332	-	AG-917-B07_00079	AG-917-B07	342	OG0000274	NA	NA	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	AG-917-B07_00075	4
+CACKJD010000001.1	77329	77931	-	AG-917-B07_00080	AG-917-B07	200	OG0001063	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	AG-917-B07_00075	5
+CACKNV010000004.1	7516	8292	+	AG-917-F18_00741	AG-917-F18	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-917-F18_00746	-5
+CACKNV010000004.1	8316	9809	+	AG-917-F18_00742	AG-917-F18	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-917-F18_00746	-4
+CACKNV010000004.1	9820	10773	+	AG-917-F18_00743	AG-917-F18	317	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-917-F18_00746	-3
+CACKNV010000004.1	10797	12200	+	AG-917-F18_00744	AG-917-F18	467	OG0001860	NA	NA	NA	NA	NA	AG-917-F18_00746	-2
+CACKNV010000004.1	12200	13441	+	AG-917-F18_00745	AG-917-F18	413	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AG-917-F18_00746	-1
+CACKNV010000004.1	13434	15026	+	AG-917-F18_00746	AG-917-F18	530	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-917-F18_00746	0
+CACKNV010000004.1	15010	15630	+	AG-917-F18_00747	AG-917-F18	206	OG0002246	NA	NA	COG0456	RimI	Ribosomal protein S18 acetylase RimI and related acetyltransferases	AG-917-F18_00746	1
+CACKNV010000004.1	15623	16492	-	AG-917-F18_00748	AG-917-F18	289	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AG-917-F18_00746	2
+CACKNV010000004.1	16506	16760	-	AG-917-F18_00749	AG-917-F18	84	OG0001471	NA	NA	NA	NA	NA	AG-917-F18_00746	3
+CACKNV010000004.1	16757	18400	-	AG-917-F18_00750	AG-917-F18	547	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-917-F18_00746	4
+CACKNV010000004.1	18452	19615	+	AG-917-F18_00751	AG-917-F18	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-917-F18_00746	5
+CACLTL010000004.1	2671	3546	-	AG-917-K20_00868	AG-917-K20	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-917-K20_00870	-2
+CACLTL010000004.1	3546	4709	-	AG-917-K20_00869	AG-917-K20	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-917-K20_00870	-1
+CACLTL010000004.1	4713	6296	-	AG-917-K20_00870	AG-917-K20	527	OG0001507	NA	NA	NA	NA	NA	AG-917-K20_00870	0
+CACLTL010000004.1	6363	7172	+	AG-917-K20_00871	AG-917-K20	269	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-917-K20_00870	1
+CACLTL010000004.1	7169	8125	-	AG-917-K20_00872	AG-917-K20	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-917-K20_00870	2
+CACLTL010000004.1	8140	9633	-	AG-917-K20_00873	AG-917-K20	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-917-K20_00870	3
+CACLTL010000004.1	9657	10433	-	AG-917-K20_00874	AG-917-K20	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-917-K20_00870	4
+CACLTL010000004.1	10436	12211	-	AG-917-K20_00875	AG-917-K20	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-917-K20_00870	5
+CACMHW010000001.1	216405	217745	-	AG-918-M15_00226	AG-918-M15	446	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-918-M15_00231	-5
+CACMHW010000001.1	217746	220634	-	AG-918-M15_00227	AG-918-M15	962	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-918-M15_00231	-4
+CACMHW010000001.1	220667	221542	-	AG-918-M15_00228	AG-918-M15	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-918-M15_00231	-3
+CACMHW010000001.1	221542	222705	-	AG-918-M15_00229	AG-918-M15	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-918-M15_00231	-2
+CACMHW010000001.1	222707	223420	-	AG-918-M15_00230	AG-918-M15	237	OG0000045	NA	NA	NA	NA	NA	AG-918-M15_00231	-1
+CACMHW010000001.1	223407	224963	-	AG-918-M15_00231	AG-918-M15	518	OG0001507	NA	NA	COG1287	Stt3	Asparagine N-glycosylation enzyme, membrane subunit Stt3	AG-918-M15_00231	0
+CACMHW010000001.1	224963	225817	-	AG-918-M15_00232	AG-918-M15	284	OG0000028	NA	NA	NA	NA	NA	AG-918-M15_00231	1
+CACMHW010000001.1	225839	226795	-	AG-918-M15_00233	AG-918-M15	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-918-M15_00231	2
+CACMHW010000001.1	226806	228299	-	AG-918-M15_00234	AG-918-M15	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-918-M15_00231	3
+CACMHW010000001.1	228323	229099	-	AG-918-M15_00235	AG-918-M15	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-918-M15_00231	4
+CACMHW010000001.1	229102	230877	-	AG-918-M15_00236	AG-918-M15	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-918-M15_00231	5
+CACMJB010000004.1	56009	57502	-	AG-918-N23_00520	AG-918-N23	497	OG0000412	K03531	cell division protein FtsZ	COG0206	FtsZ	Cell division GTPase FtsZ	AG-918-N23_00526	-5
+CACMJB010000004.1	57502	57963	-	AG-918-N23_00521	AG-918-N23	153	OG0000325	K03925	transcriptional regulator MraZ	COG2001	MraZ	MraZ, DNA-binding transcriptional regulator and inhibitor of RsmH methyltransferase activity	AG-918-N23_00526	-4
+CACMJB010000004.1	58504	59211	-	AG-918-N23_00522	AG-918-N23	235	OG0000640	K01447	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]	COG3023	AmpD	N-acetyl-anhydromuramyl-L-alanine amidase AmpD	AG-918-N23_00526	-3
+CACMJB010000004.1	59305	60060	+	AG-918-N23_00523	AG-918-N23	251	OG0000413	K04754	phospholipid-binding lipoprotein MlaA	COG2853	MlaA	Outer membrane channel MlaA of the intermembrane phospholipid transporter MlaABCDEF complex	AG-918-N23_00526	-2
+CACMJB010000004.1	60057	60653	+	AG-918-N23_00524	AG-918-N23	198	OG0000414	K07323	phospholipid transport system substrate-binding protein	COG2854	MlaC	Periplasmic subunit MlaC of the ABC-type intermembrane phospholipid transporter Mla	AG-918-N23_00526	-1
+CACMJB010000004.1	60751	62331	-	AG-918-N23_00526	AG-918-N23	526	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-918-N23_00526	0
+CACMJB010000004.1	62356	64212	-	AG-918-N23_00527	AG-918-N23	618	OG0000836	K03086	RNA polymerase primary sigma factor	COG0568	RpoD	DNA-directed RNA polymerase, sigma subunit (sigma70/sigma32)	AG-918-N23_00526	1
+CACMJB010000004.1	64262	66049	-	AG-918-N23_00528	AG-918-N23	595	OG0000317	K02316	DNA primase [EC:2.7.7.101]	COG0358	DnaG	DNA primase (bacterial type)	AG-918-N23_00526	2
+CACMJB010000004.1	66050	66505	-	AG-918-N23_00529	AG-918-N23	151	OG0000371	K09117	uncharacterized protein	COG1610	YqeY	Uncharacterized conserved protein YqeY, may have tRNA amino acid amidase activity	AG-918-N23_00526	3
+CACMJB010000004.1	66628	67836	+	AG-918-N23_00530	AG-918-N23	402	OG0000194	K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]	COG0505	CarA	Carbamoylphosphate synthase small subunit	AG-918-N23_00526	4
+CACMJB010000004.1	67814	71044	+	AG-918-N23_00531	AG-918-N23	1076	OG0000176	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	COG0458	CarB	Carbamoylphosphate synthase large subunit	AG-918-N23_00526	5
+CACMQA010000003.1	142125	143435	-	AG-919-F21_00745	AG-919-F21	436	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-919-F21_00750	-5
+CACMQA010000003.1	143436	146330	-	AG-919-F21_00746	AG-919-F21	964	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-919-F21_00750	-4
+CACMQA010000003.1	146363	147238	-	AG-919-F21_00747	AG-919-F21	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-919-F21_00750	-3
+CACMQA010000003.1	147238	148401	-	AG-919-F21_00748	AG-919-F21	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-919-F21_00750	-2
+CACMQA010000003.1	148401	149120	-	AG-919-F21_00749	AG-919-F21	239	OG0000045	NA	NA	NA	NA	NA	AG-919-F21_00750	-1
+CACMQA010000003.1	149117	150685	-	AG-919-F21_00750	AG-919-F21	522	OG0001507	NA	NA	COG1287	Stt3	Asparagine N-glycosylation enzyme, membrane subunit Stt3	AG-919-F21_00750	0
+CACMQA010000003.1	150651	151610	-	AG-919-F21_00751	AG-919-F21	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-919-F21_00750	1
+CACMQA010000003.1	151624	153117	-	AG-919-F21_00752	AG-919-F21	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-919-F21_00750	2
+CACMQA010000003.1	153141	153917	-	AG-919-F21_00753	AG-919-F21	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-919-F21_00750	3
+CACMQA010000003.1	153920	155695	-	AG-919-F21_00754	AG-919-F21	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-919-F21_00750	4
+CACMQA010000003.1	155695	156021	-	AG-919-F21_00755	AG-919-F21	108	OG0000670	NA	NA	COG2142	SdhD	Succinate dehydrogenase, hydrophobic anchor subunit	AG-919-F21_00750	5
+CACMRM010000003.1	28772	30172	-	AG-919-I13_00538	AG-919-I13	466	OG0000378	K00382	dihydrolipoamide dehydrogenase [EC:1.8.1.4]	COG1249	Lpd	Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase	AG-919-I13_00543	-5
+CACMRM010000003.1	30174	31484	-	AG-919-I13_00539	AG-919-I13	436	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-919-I13_00543	-4
+CACMRM010000003.1	31484	34369	-	AG-919-I13_00540	AG-919-I13	961	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-919-I13_00543	-3
+CACMRM010000003.1	34402	35277	-	AG-919-I13_00541	AG-919-I13	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-919-I13_00543	-2
+CACMRM010000003.1	35277	36440	-	AG-919-I13_00542	AG-919-I13	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-919-I13_00543	-1
+CACMRM010000003.1	36442	38022	-	AG-919-I13_00543	AG-919-I13	526	OG0001507	NA	NA	COG1287	Stt3	Asparagine N-glycosylation enzyme, membrane subunit Stt3	AG-919-I13_00543	0
+CACMRM010000003.1	38089	38898	+	AG-919-I13_00544	AG-919-I13	269	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-919-I13_00543	1
+CACMRM010000003.1	38895	39851	-	AG-919-I13_00545	AG-919-I13	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-919-I13_00543	2
+CACMRM010000003.1	39855	41348	-	AG-919-I13_00546	AG-919-I13	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-919-I13_00543	3
+CACMRM010000003.1	41372	42148	-	AG-919-I13_00547	AG-919-I13	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AG-919-I13_00543	4
+CACMRM010000003.1	42151	43926	-	AG-919-I13_00548	AG-919-I13	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	AG-919-I13_00543	5
+CACNIK010000001.1	285400	286755	-	AG-920-L07_00300	AG-920-L07	451	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	AG-920-L07_00305	-5
+CACNIK010000001.1	286755	289643	-	AG-920-L07_00301	AG-920-L07	962	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	AG-920-L07_00305	-4
+CACNIK010000001.1	289677	290552	-	AG-920-L07_00302	AG-920-L07	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	AG-920-L07_00305	-3
+CACNIK010000001.1	290553	291716	-	AG-920-L07_00303	AG-920-L07	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AG-920-L07_00305	-2
+CACNIK010000001.1	291786	292391	+	AG-920-L07_00304	AG-920-L07	201	OG0002622	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-920-L07_00305	-1
+CACNIK010000001.1	292388	293959	-	AG-920-L07_00305	AG-920-L07	523	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-920-L07_00305	0
+CACNIK010000001.1	294024	295445	+	AG-920-L07_00306	AG-920-L07	473	OG0000055	NA	NA	COG4992	ArgD	Acetylornithine/succinyldiaminopimelate/putrescine aminotransferase	AG-920-L07_00305	1
+CACNIK010000001.1	295449	296774	+	AG-920-L07_00307	AG-920-L07	441	OG0001824	NA	NA	COG0277	GlcD	FAD/FMN-containing lactate dehydrogenase/glycolate oxidase	AG-920-L07_00305	2
+CACNIK010000001.1	296746	297429	+	AG-920-L07_00308	AG-920-L07	227	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	AG-920-L07_00305	3
+CACNIK010000001.1	297431	298390	-	AG-920-L07_00309	AG-920-L07	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AG-920-L07_00305	4
+CACNIK010000001.1	298394	299887	-	AG-920-L07_00310	AG-920-L07	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-920-L07_00305	5
+CACNIK010000008.1	13328	14500	-	AG-920-L07_01136	AG-920-L07	390	OG0000501	K00333	NADH-quinone oxidoreductase subunit D [EC:7.1.1.2]	COG0649	NuoD	NADH:ubiquinone oxidoreductase 49 kD subunit (chain D)	AG-920-L07_01141	-5
+CACNIK010000008.1	14487	15101	-	AG-920-L07_01137	AG-920-L07	204	OG0000664	NA	NA	COG0852	NuoC	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	AG-920-L07_01141	-4
+CACNIK010000008.1	15105	15635	-	AG-920-L07_01138	AG-920-L07	176	OG0000700	K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	COG0377	NuoB	NADH:ubiquinone oxidoreductase 20 kD subunit (chain B) or related Fe-S oxidoreductase	AG-920-L07_01141	-3
+CACNIK010000008.1	15632	16000	-	AG-920-L07_01139	AG-920-L07	122	OG0000730	K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	COG0838	NuoA	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	AG-920-L07_01141	-2
+CACNIK010000008.1	16202	17005	+	AG-920-L07_01140	AG-920-L07	267	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	AG-920-L07_01141	-1
+CACNIK010000008.1	16989	18542	+	AG-920-L07_01141	AG-920-L07	517	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	AG-920-L07_01141	0
+CACNIK010000008.1	18790	19350	+	AG-920-L07_01144	AG-920-L07	186	OG0000130	NA	NA	NA	NA	NA	AG-920-L07_01141	1
+CACNIK010000008.1	19347	21893	-	AG-920-L07_01145	AG-920-L07	848	OG0001319	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	AG-920-L07_01141	2
+CACNIK010000008.1	21949	24333	-	AG-920-L07_01146	AG-920-L07	794	OG0000595	K01338	ATP-dependent Lon protease [EC:3.4.21.53]	COG0466	Lon	ATP-dependent Lon protease, bacterial type	AG-920-L07_01141	3
+CACNIK010000008.1	24382	25635	-	AG-920-L07_01147	AG-920-L07	417	OG0000516	K03544	ATP-dependent Clp protease ATP-binding subunit ClpX	COG1219	ClpX	ATP-dependent protease Clp, ATPase subunit ClpX	AG-920-L07_01141	4
+CACNIK010000008.1	25715	26326	-	AG-920-L07_01148	AG-920-L07	203	OG0000647	K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]	COG0740	ClpP	ATP-dependent protease ClpP, protease subunit	AG-920-L07_01141	5
+CACNWV010000001.1	73408	74226	+	AH-287-E19_00087	AH-287-E19	272	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	AH-287-E19_00092	-5
+CACNWV010000001.1	74250	75743	+	AH-287-E19_00088	AH-287-E19	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AH-287-E19_00092	-4
+CACNWV010000001.1	75746	76702	+	AH-287-E19_00089	AH-287-E19	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	AH-287-E19_00092	-3
+CACNWV010000001.1	76709	78124	+	AH-287-E19_00090	AH-287-E19	471	OG0001860	NA	NA	NA	NA	NA	AH-287-E19_00092	-2
+CACNWV010000001.1	78121	79371	+	AH-287-E19_00091	AH-287-E19	416	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	AH-287-E19_00092	-1
+CACNWV010000001.1	79349	80920	+	AH-287-E19_00092	AH-287-E19	523	OG0001507	NA	NA	NA	NA	NA	AH-287-E19_00092	0
+CACNWV010000001.1	80907	81599	-	AH-287-E19_00093	AH-287-E19	230	OG0002518	NA	NA	NA	NA	NA	AH-287-E19_00092	1
+CACNWV010000001.1	81601	82437	-	AH-287-E19_00094	AH-287-E19	278	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AH-287-E19_00092	2
+CACNWV010000001.1	82469	82732	-	AH-287-E19_00095	AH-287-E19	87	OG0001471	NA	NA	NA	NA	NA	AH-287-E19_00092	3
+CACNWV010000001.1	82733	84382	-	AH-287-E19_00096	AH-287-E19	549	OG0001404	NA	NA	NA	NA	NA	AH-287-E19_00092	4
+CACNWV010000001.1	84438	85601	+	AH-287-E19_00097	AH-287-E19	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	AH-287-E19_00092	5
+CACNZK010000008.1	47196	47984	-	AH-287-J18_00760	AH-287-J18	262	OG0001392	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AH-287-J18_00765	-5
+CACNZK010000008.1	48009	49133	+	AH-287-J18_00761	AH-287-J18	374	OG0000010	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AH-287-J18_00765	-4
+CACNZK010000008.1	49136	50242	-	AH-287-J18_00762	AH-287-J18	368	OG0001969	NA	NA	NA	NA	NA	AH-287-J18_00765	-3
+CACNZK010000008.1	50284	50943	+	AH-287-J18_00763	AH-287-J18	219	OG0002257	NA	NA	NA	NA	NA	AH-287-J18_00765	-2
+CACNZK010000008.1	50911	51954	-	AH-287-J18_00764	AH-287-J18	347	OG0001337	K16568	exopolysaccharide production protein ExoZ	COG1835	OafA	Peptidoglycan/LPS O-acetylase OafA/YrhL, contains acyltransferase and SGNH-hydrolase domains	AH-287-J18_00765	-1
+CACNZK010000008.1	51933	53495	-	AH-287-J18_00765	AH-287-J18	520	OG0001507	NA	NA	NA	NA	NA	AH-287-J18_00765	0
+CACNZK010000008.1	53503	53796	-	AH-287-J18_00766	AH-287-J18	97	OG0002326	NA	NA	NA	NA	NA	AH-287-J18_00765	1
+CACNZK010000008.1	53854	54030	+	AH-287-J18_00767	AH-287-J18	58	OG0003915	NA	NA	NA	NA	NA	AH-287-J18_00765	2
+CACNZK010000008.1	54027	55454	+	AH-287-J18_00768	AH-287-J18	475	OG0001478	NA	NA	COG2303	BetA	Choline dehydrogenase or related flavoprotein	AH-287-J18_00765	3
+CACNZK010000008.1	55440	56162	-	AH-287-J18_00769	AH-287-J18	240	OG0000983	K00721	dolichol-phosphate mannosyltransferase [EC:2.4.1.83]	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	AH-287-J18_00765	4
+CACNZK010000008.1	56170	56325	-	AH-287-J18_00770	AH-287-J18	51	OG0000093	NA	NA	NA	NA	NA	AH-287-J18_00765	5
+NZES01000015.1	20	388	+	ARS1_00310	ARS1	122	OG0000329	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	ARS1_00314	-4
+NZES01000015.1	950	1669	+	ARS1_00311	ARS1	239	OG0001689	NA	NA	NA	NA	NA	ARS1_00314	-3
+NZES01000015.1	1670	1957	+	ARS1_00312	ARS1	95	OG0000329	NA	NA	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	ARS1_00314	-2
+NZES01000015.1	1963	2925	+	ARS1_00313	ARS1	320	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	ARS1_00314	-1
+NZES01000015.1	2957	4522	+	ARS1_00314	ARS1	521	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	ARS1_00314	0
+NZES01000015.1	4558	5256	+	ARS1_00315	ARS1	232	OG0001689	NA	NA	NA	NA	NA	ARS1_00314	1
+NZES01000015.1	5275	6156	+	ARS1_00316	ARS1	293	OG0000695	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	ARS1_00314	2
+NZES01000015.1	6169	7329	+	ARS1_00317	ARS1	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	ARS1_00314	3
+NZES01000015.1	7331	8206	+	ARS1_00318	ARS1	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	ARS1_00314	4
+NZES01000015.1	8250	8825	+	ARS1_00319	ARS1	191	OG0000600	NA	NA	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	ARS1_00314	5
+NSIJ01000025.1	78	587	+	Baikal-G1_00633	Baikal-G1	169	OG0000019	NA	NA	COG0472	Rfe	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase/archaeal AglH	Baikal-G1_00636	-3
+NSIJ01000025.1	592	1269	+	Baikal-G1_00634	Baikal-G1	225	OG0001898	NA	NA	NA	NA	NA	Baikal-G1_00636	-2
+NSIJ01000025.1	1212	1967	+	Baikal-G1_00635	Baikal-G1	251	OG0000043	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	Baikal-G1_00636	-1
+NSIJ01000025.1	1960	3525	+	Baikal-G1_00636	Baikal-G1	521	OG0001507	NA	NA	NA	NA	NA	Baikal-G1_00636	0
+NSIJ01000025.1	3515	4795	-	Baikal-G1_00637	Baikal-G1	426	OG0001695	NA	NA	NA	NA	NA	Baikal-G1_00636	1
+NSIJ01000025.1	4788	5198	-	Baikal-G1_00638	Baikal-G1	136	OG0001723	NA	NA	NA	NA	NA	Baikal-G1_00636	2
+NSIJ01000025.1	5279	6235	-	Baikal-G1_00639	Baikal-G1	318	OG0001536	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	Baikal-G1_00636	3
+NSIJ01000025.1	6344	7126	+	Baikal-G1_00640	Baikal-G1	260	OG0000274	K00978	glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]	COG1208	GCD1	NDP-sugar pyrophosphorylase, includes eIF-2Bgamma, eIF-2Bepsilon, and LPS biosynthesis protein s	Baikal-G1_00636	4
+NSIJ01000025.1	7116	8195	+	Baikal-G1_00641	Baikal-G1	359	OG0001249	K01709	CDP-glucose 4,6-dehydratase [EC:4.2.1.45]	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	Baikal-G1_00636	5
+HIMB1413-00000000001	466945	468237	+	HIMB1413_00512	HIMB1413	430	OG0000564	K00003	homoserine dehydrogenase [EC:1.1.1.3]	COG0460	ThrA	Homoserine dehydrogenase	HIMB1413_00517	-5
+HIMB1413-00000000001	468237	469136	+	HIMB1413_00513	HIMB1413	299	OG0000791	NA	NA	COG0679	YfdV	Predicted permease, AEC (auxin efflux carrier) family	HIMB1413_00517	-4
+HIMB1413-00000000001	469153	470004	+	HIMB1413_00514	HIMB1413	283	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1413_00517	-3
+HIMB1413-00000000001	470519	470788	-	HIMB1413_00515	HIMB1413	89	OG0000712	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	HIMB1413_00517	-2
+HIMB1413-00000000001	471094	472047	+	HIMB1413_00516	HIMB1413	317	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	HIMB1413_00517	-1
+HIMB1413-00000000001	472037	473599	-	HIMB1413_00517	HIMB1413	520	OG0001507	NA	NA	NA	NA	NA	HIMB1413_00517	0
+HIMB1413-00000000001	473596	473883	-	HIMB1413_00518	HIMB1413	95	OG0002326	NA	NA	NA	NA	NA	HIMB1413_00517	1
+HIMB1413-00000000001	473921	474637	-	HIMB1413_00519	HIMB1413	238	OG0000028	NA	NA	COG4122	TrmR	tRNA 5-hydroxyU34 O-methylase TrmR/YrrM	HIMB1413_00517	2
+HIMB1413-00000000001	474637	476760	-	HIMB1413_00520	HIMB1413	707	OG0000777	K06320	spore maturation protein CgeB	COG4641	NA	Spore maturation protein CgeB	HIMB1413_00517	3
+HIMB1413-00000000001	476735	476998	-	HIMB1413_00521	HIMB1413	87	OG0000885	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	HIMB1413_00517	4
+HIMB1413-00000000001	477134	478075	-	HIMB1413_00523	HIMB1413	313	OG0000659	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1413_00517	5
+HIMB1488-00000000001	1279784	1280542	-	HIMB1488_01386	HIMB1488	252	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1488_01391	-5
+HIMB1488-00000000001	1280690	1281910	+	HIMB1488_01387	HIMB1488	406	OG0001137	NA	NA	NA	NA	NA	HIMB1488_01391	-4
+HIMB1488-00000000001	1281907	1282608	+	HIMB1488_01388	HIMB1488	233	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB1488_01391	-3
+HIMB1488-00000000001	1282569	1283573	-	HIMB1488_01389	HIMB1488	334	OG0000023	NA	NA	COG1089	Gmd	GDP-D-mannose dehydratase	HIMB1488_01391	-2
+HIMB1488-00000000001	1283563	1285047	-	HIMB1488_01390	HIMB1488	494	OG0001478	NA	NA	COG2303	BetA	Choline dehydrogenase or related flavoprotein	HIMB1488_01391	-1
+HIMB1488-00000000001	1285037	1286662	-	HIMB1488_01391	HIMB1488	541	OG0001507	NA	NA	NA	NA	NA	HIMB1488_01391	0
+HIMB1488-00000000001	1286662	1286943	-	HIMB1488_01392	HIMB1488	93	NA	NA	NA	NA	NA	NA	HIMB1488_01391	1
+HIMB1488-00000000001	1286952	1287719	-	HIMB1488_01393	HIMB1488	255	OG0000045	NA	NA	NA	NA	NA	HIMB1488_01391	2
+HIMB1488-00000000001	1287792	1288709	+	HIMB1488_01394	HIMB1488	305	OG0001494	NA	NA	COG1216	WcaE	Glycosyltransferase, GT2 family	HIMB1488_01391	3
+HIMB1488-00000000001	1288706	1289242	+	HIMB1488_01395	HIMB1488	178	OG0000120	NA	NA	COG0110	WbbJ	O-acetyltransferase, isoleucine patch superfamily, LacA/YvoF/WbbJ family	HIMB1488_01391	4
+HIMB1488-00000000001	1289239	1290621	-	HIMB1488_01396	HIMB1488	460	OG0001478	NA	NA	COG2303	BetA	Choline dehydrogenase or related flavoprotein	HIMB1488_01391	5
+HIMB1520-00000000001	939852	940208	+	HIMB1520_01030	HIMB1520	118	OG0000309	K02887	large subunit ribosomal protein L20	COG0292	RplT	Ribosomal protein L20	HIMB1520_01035	-5
+HIMB1520-00000000001	940252	941319	+	HIMB1520_01031	HIMB1520	355	OG0000215	K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]	COG0016	PheS	Phenylalanyl-tRNA synthetase alpha subunit	HIMB1520_01035	-4
+HIMB1520-00000000001	941316	943724	+	HIMB1520_01032	HIMB1520	802	OG0000233	K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	COG0072	PheT	Phenylalanyl-tRNA synthetase beta subunit	HIMB1520_01035	-3
+HIMB1520-00000000001	943732	945540	+	HIMB1520_01033	HIMB1520	602	OG0000294	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	HIMB1520_01035	-2
+HIMB1520-00000000001	945537	946352	+	HIMB1520_01034	HIMB1520	271	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	HIMB1520_01035	-1
+HIMB1520-00000000001	946356	948011	-	HIMB1520_01035	HIMB1520	551	OG0001507	NA	NA	COG1287	Stt3	Asparagine N-glycosylation enzyme, membrane subunit Stt3	HIMB1520_01035	0
+HIMB1520-00000000001	948008	948718	-	HIMB1520_01036	HIMB1520	236	OG0000032	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	HIMB1520_01035	1
+HIMB1520-00000000001	948787	949608	+	HIMB1520_01037	HIMB1520	273	OG0001309	NA	NA	NA	NA	NA	HIMB1520_01035	2
+HIMB1520-00000000001	949601	950317	+	HIMB1520_01038	HIMB1520	238	OG0000037	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB1520_01035	3
+HIMB1520-00000000001	950328	951320	+	HIMB1520_01039	HIMB1520	330	OG0000023	NA	NA	COG1087	GalE	UDP-glucose 4-epimerase	HIMB1520_01035	4
+HIMB1520-00000000001	951307	952167	+	HIMB1520_01040	HIMB1520	286	OG0002160	NA	NA	NA	NA	NA	HIMB1520_01035	5
+HIMB1746-00000000008	6284	7276	+	HIMB1746_01582	HIMB1746	330	OG0000639	K17938	peptide/bleomycin uptake transporter	COG1133	SbmA	Peptide antibiotic transporter SbmA/BacA, ABC-type permease family	HIMB1746_01588	-5
+HIMB1746-00000000008	7276	8223	+	HIMB1746_01583	HIMB1746	315	OG0000659	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	HIMB1746_01588	-4
+HIMB1746-00000000008	8435	8854	+	HIMB1746_01585	HIMB1746	139	OG0001635	NA	NA	COG0662	ManC	Mannose-6-phosphate isomerase, cupin superfamily	HIMB1746_01588	-3
+HIMB1746-00000000008	8847	9971	+	HIMB1746_01586	HIMB1746	374	OG0000093	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB1746_01588	-2
+HIMB1746-00000000008	9968	10252	+	HIMB1746_01587	HIMB1746	94	OG0002326	NA	NA	NA	NA	NA	HIMB1746_01588	-1
+HIMB1746-00000000008	10249	10872	-	HIMB1746_01588	HIMB1746	207	OG0001507	NA	NA	NA	NA	NA	HIMB1746_01588	0
+HIMB2187-00000000001	888021	889196	+	HIMB2187_00962	HIMB2187	391	OG0001357	NA	NA	COG0399	WecE	dTDP-4-amino-4,6-dideoxygalactose transaminase	HIMB2187_00967	-5
+HIMB2187-00000000001	889207	889929	+	HIMB2187_00963	HIMB2187	240	OG0000983	NA	NA	COG0463	WcaA	Glycosyltransferase involved in cell wall bisynthesis	HIMB2187_00967	-4
+HIMB2187-00000000001	889915	891342	-	HIMB2187_00964	HIMB2187	475	OG0001478	NA	NA	COG2303	BetA	Choline dehydrogenase or related flavoprotein	HIMB2187_00967	-3
+HIMB2187-00000000001	891339	891506	-	HIMB2187_00965	HIMB2187	55	NA	NA	NA	NA	NA	NA	HIMB2187_00967	-2
+HIMB2187-00000000001	891565	891861	+	HIMB2187_00966	HIMB2187	98	OG0002326	NA	NA	NA	NA	NA	HIMB2187_00967	-1
+HIMB2187-00000000001	891876	893453	+	HIMB2187_00967	HIMB2187	525	OG0001507	NA	NA	NA	NA	NA	HIMB2187_00967	0
+HIMB2187-00000000001	893434	894093	-	HIMB2187_00968	HIMB2187	219	OG0002257	NA	NA	NA	NA	NA	HIMB2187_00967	1
+HIMB2187-00000000001	894133	895239	+	HIMB2187_00969	HIMB2187	368	OG0001969	NA	NA	NA	NA	NA	HIMB2187_00967	2
+HIMB2187-00000000001	895232	896503	-	HIMB2187_00970	HIMB2187	423	OG0000888	NA	NA	COG3307	RfaL	O-antigen ligase	HIMB2187_00967	3
+HIMB2187-00000000001	896506	897630	-	HIMB2187_00971	HIMB2187	374	OG0000010	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB2187_00967	4
+HIMB2187-00000000001	897639	898802	-	HIMB2187_00972	HIMB2187	387	OG0000010	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	HIMB2187_00967	5
+CP003809.1	1153535	1154383	-	HIMB5_01265	HIMB5	282	OG0000023	NA	NA	COG1087	GalE	UDP-glucose 4-epimerase	HIMB5_01270	-5
+CP003809.1	1154353	1154526	-	HIMB5_01266	HIMB5	57	OG0000023	NA	NA	COG0451	WcaG	Nucleoside-diphosphate-sugar epimerase	HIMB5_01270	-4
+CP003809.1	1154528	1155244	-	HIMB5_01267	HIMB5	238	OG0000037	NA	NA	COG1091	RfbD	dTDP-4-dehydrorhamnose reductase	HIMB5_01270	-3
+CP003809.1	1155237	1156058	-	HIMB5_01268	HIMB5	273	OG0001309	NA	NA	NA	NA	NA	HIMB5_01270	-2
+CP003809.1	1156127	1156837	+	HIMB5_01269	HIMB5	236	OG0000032	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	HIMB5_01270	-1
+CP003809.1	1156834	1158489	+	HIMB5_01270	HIMB5	551	OG0001507	NA	NA	COG1287	Stt3	Asparagine N-glycosylation enzyme, membrane subunit Stt3	HIMB5_01270	0
+CP003809.1	1158493	1159308	-	HIMB5_01271	HIMB5	271	OG0000113	K00737	beta-1,4-mannosyl-glycoprotein beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.144]	NA	NA	NA	HIMB5_01270	1
+CP003809.1	1159305	1161113	-	HIMB5_01272	HIMB5	602	OG0000294	K03596	GTP-binding protein LepA	COG0481	LepA	Translation elongation factor EF-4, membrane-bound GTPase	HIMB5_01270	2
+CP003809.1	1161121	1163529	-	HIMB5_01273	HIMB5	802	OG0000233	K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	COG0072	PheT	Phenylalanyl-tRNA synthetase beta subunit	HIMB5_01270	3
+CP003809.1	1163526	1164593	-	HIMB5_01274	HIMB5	355	OG0000215	K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]	COG0016	PheS	Phenylalanyl-tRNA synthetase alpha subunit	HIMB5_01270	4
+CP003809.1	1164637	1164993	-	HIMB5_01275	HIMB5	118	OG0000309	K02887	large subunit ribosomal protein L20	COG0292	RplT	Ribosomal protein L20	HIMB5_01270	5
+NTJN01000001.1	172038	173813	+	MED-G40_00191	MED-G40	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	MED-G40_00196	-5
+NTJN01000001.1	173813	174589	+	MED-G40_00192	MED-G40	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	MED-G40_00196	-4
+NTJN01000001.1	174613	176106	+	MED-G40_00193	MED-G40	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	MED-G40_00196	-3
+NTJN01000001.1	176108	177067	+	MED-G40_00194	MED-G40	319	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	MED-G40_00196	-2
+NTJN01000001.1	177088	177918	+	MED-G40_00195	MED-G40	276	OG0000008	NA	NA	COG2227	UbiG	2-polyprenyl-3-methyl-5-hydroxy-6-metoxy-1,4-benzoquinol methylase	MED-G40_00196	-1
+NTJN01000001.1	177923	179488	+	MED-G40_00196	MED-G40	521	OG0001507	NA	NA	COG1287	Stt3	Asparagine N-glycosylation enzyme, membrane subunit Stt3	MED-G40_00196	0
+NTJN01000001.1	179474	180280	-	MED-G40_00197	MED-G40	268	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	MED-G40_00196	1
+NTJN01000001.1	180301	180567	-	MED-G40_00198	MED-G40	88	OG0001471	NA	NA	NA	NA	NA	MED-G40_00196	2
+NTJN01000001.1	180571	182232	-	MED-G40_00199	MED-G40	553	OG0001404	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	MED-G40_00196	3
+NTJN01000001.1	182293	183453	+	MED-G40_00200	MED-G40	386	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	MED-G40_00196	4
+NTJN01000001.1	183454	184329	+	MED-G40_00201	MED-G40	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	MED-G40_00196	5
+JACWDY010000007.1	6199	7974	+	SAG-MED28_00970	SAG-MED28	591	OG0000114	K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	COG0029	NadB	Aspartate oxidase	SAG-MED28_00975	-5
+JACWDY010000007.1	7977	8753	+	SAG-MED28_00971	SAG-MED28	258	OG0000419	K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	COG0479	SdhB	Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit	SAG-MED28_00975	-4
+JACWDY010000007.1	8777	10270	+	SAG-MED28_00972	SAG-MED28	497	OG0000329	K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	SAG-MED28_00975	-3
+JACWDY010000007.1	10286	11242	+	SAG-MED28_00973	SAG-MED28	318	OG0000567	K00024	malate dehydrogenase [EC:1.1.1.37]	COG0039	Mdh	Malate/lactate dehydrogenase	SAG-MED28_00975	-2
+JACWDY010000007.1	11239	12048	-	SAG-MED28_00974	SAG-MED28	269	OG0001576	NA	NA	COG2226	UbiE	Ubiquinone/menaquinone biosynthesis C-methylase UbiE/MenG or 23S rRNA G745 methylase RmlAII or tRNA-U5 methylase TRM9	SAG-MED28_00975	-1
+JACWDY010000007.1	12115	13695	+	SAG-MED28_00975	SAG-MED28	526	OG0001507	NA	NA	NA	NA	NA	SAG-MED28_00975	0
+JACWDY010000007.1	13704	14867	+	SAG-MED28_00976	SAG-MED28	387	OG0000092	K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	COG0045	SucC	Succinyl-CoA synthetase, beta subunit	SAG-MED28_00975	1
+JACWDY010000007.1	14867	15742	+	SAG-MED28_00977	SAG-MED28	291	OG0000090	K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	COG0074	SucD	Succinyl-CoA synthetase, alpha subunit	SAG-MED28_00975	2
+JACWDY010000007.1	15775	18669	+	SAG-MED28_00978	SAG-MED28	964	OG0000600	K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]	COG0567	SucA	2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, and related enzymes	SAG-MED28_00975	3
+JACWDY010000007.1	18670	19986	+	SAG-MED28_00979	SAG-MED28	438	OG0000611	K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]	COG0508	AceF	Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component	SAG-MED28_00975	4
+JACWDY010000007.1	19989	21395	+	SAG-MED28_00980	SAG-MED28	468	OG0000378	K00382	dihydrolipoamide dehydrogenase [EC:1.8.1.4]	COG1249	Lpd	Dihydrolipoamide dehydrogenase (E3) component of pyruvate/2-oxoglutarate dehydrogenase complex or glutathione oxidoreductase	SAG-MED28_00975	5
+CP159812.1	640410	641357	+	Uisw_136_00685	Uisw_136	315	OG0000659	NA	NA	COG1494	GlpX	Fructose-1,6-bisphosphatase/sedoheptulose 1,7-bisphosphatase or related protein	Uisw_136_00691	-5
+CP159812.1	641354	643048	+	Uisw_136_00686	Uisw_136	564	OG0001377	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	COG0608	RecJ	ssDNA-specific exonuclease RecJ, DHH superfamily, may be involved in archaeal DNA replication intiation	Uisw_136_00691	-4
+CP159812.1	643177	643464	+	Uisw_136_00688	Uisw_136	95	OG0000885	K07461	putative endonuclease	COG2827	YhbQ	Predicted endonuclease, GIY-YIG superfamily	Uisw_136_00691	-3
+CP159812.1	643436	645550	+	Uisw_136_00689	Uisw_136	704	OG0000777	K06320	spore maturation protein CgeB	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	Uisw_136_00691	-2
+CP159812.1	645558	645845	+	Uisw_136_00690	Uisw_136	95	OG0002326	NA	NA	NA	NA	NA	Uisw_136_00691	-1
+CP159812.1	645842	647398	+	Uisw_136_00691	Uisw_136	518	OG0001507	NA	NA	COG1807	ArnT	PMT family glycosyltransferase ArnT/Agl22, involved in glycosylation of proteins and lipid IVA	Uisw_136_00691	0
+CP159812.1	647408	648118	+	Uisw_136_00692	Uisw_136	236	OG0001203	NA	NA	NA	NA	NA	Uisw_136_00691	1
+CP159812.1	648123	649040	-	Uisw_136_00693	Uisw_136	305	OG0000428	NA	NA	COG4974	XerD	Site-specific tyrosine recombinase XerD	Uisw_136_00691	2
+CP159812.1	649116	649385	+	Uisw_136_00694	Uisw_136	89	OG0003798	NA	NA	NA	NA	NA	Uisw_136_00691	3
+CP159812.1	649431	649868	+	Uisw_136_00695	Uisw_136	145	OG0001444	NA	NA	COG1247	MnaT	L-amino acid N-acyltransferase MnaT	Uisw_136_00691	4
+CP159812.1	649849	650127	+	Uisw_136_00696	Uisw_136	92	OG0000712	NA	NA	COG0350	AdaB	DNA repair enzyme Ada (O6-methylguanine-DNA--protein-cysteine methyltransferase)	Uisw_136_00691	5

@@ -1,0 +1,856 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CABYCY010000003.1	23458	24372	-	AG-333-A04_00328	AG-333-A04	304	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-333-A04_00333	-5
+CABYCY010000003.1	24534	25130	+	AG-333-A04_00329	AG-333-A04	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-333-A04_00333	-4
+CABYCY010000003.1	25130	26419	+	AG-333-A04_00330	AG-333-A04	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-333-A04_00333	-3
+CABYCY010000003.1	26504	27556	+	AG-333-A04_00331	AG-333-A04	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-333-A04_00333	-2
+CABYCY010000003.1	27598	28068	-	AG-333-A04_00332	AG-333-A04	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-333-A04_00333	-1
+CABYCY010000003.1	28174	29406	+	AG-333-A04_00333	AG-333-A04	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-333-A04_00333	0
+CABYCY010000003.1	29436	30518	+	AG-333-A04_00334	AG-333-A04	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-333-A04_00333	1
+CABYCY010000003.1	30511	31434	-	AG-333-A04_00335	AG-333-A04	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-333-A04_00333	2
+CABYCY010000003.1	31449	32432	-	AG-333-A04_00336	AG-333-A04	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-333-A04_00333	3
+CABYCY010000003.1	32464	33333	-	AG-333-A04_00337	AG-333-A04	289	OG0001287	NA	NA	NA	NA	NA	AG-333-A04_00333	4
+CABYCY010000003.1	33334	34278	-	AG-333-A04_00338	AG-333-A04	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	AG-333-A04_00333	5
+CACBGQ010000001.1	68281	69246	-	AG-349-O05_00076	AG-349-O05	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-349-O05_00081	-5
+CACBGQ010000001.1	69358	69954	+	AG-349-O05_00077	AG-349-O05	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-349-O05_00081	-4
+CACBGQ010000001.1	69954	71243	+	AG-349-O05_00078	AG-349-O05	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-349-O05_00081	-3
+CACBGQ010000001.1	71334	72386	+	AG-349-O05_00079	AG-349-O05	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-349-O05_00081	-2
+CACBGQ010000001.1	72427	72897	-	AG-349-O05_00080	AG-349-O05	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-349-O05_00081	-1
+CACBGQ010000001.1	73252	74235	+	AG-349-O05_00081	AG-349-O05	327	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-349-O05_00081	0
+CACBGQ010000001.1	74266	75351	+	AG-349-O05_00082	AG-349-O05	361	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-349-O05_00081	1
+CACBGQ010000001.1	75344	76267	-	AG-349-O05_00083	AG-349-O05	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-349-O05_00081	2
+CACBGQ010000001.1	76290	77081	-	AG-349-O05_00084	AG-349-O05	263	OG0001107	K02510	4-hydroxy-2-oxoheptanedioate aldolase [EC:4.1.2.52]	COG3836	HpcH	2-keto-3-deoxy-L-rhamnonate aldolase RhmA	AG-349-O05_00081	3
+CACBGQ010000001.1	77084	78526	-	AG-349-O05_00085	AG-349-O05	480	OG0000465	K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-349-O05_00081	4
+CACBGQ010000001.1	78611	80455	+	AG-349-O05_00086	AG-349-O05	614	OG0000014	K03336	3D-(3,5/4)-trihydroxycyclohexane-1,2-dione acylhydrolase (decyclizing) [EC:3.7.1.22]	COG3962	IolD	TPP-dependent trihydroxycyclohexane-1,2-dione (THcHDO) dehydratase, myo-inositol metabolism	AG-349-O05_00081	5
+CACDRL010000009.1	24382	25347	-	AG-390-C17_01040	AG-390-C17	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-390-C17_01045	-5
+CACDRL010000009.1	25460	26056	+	AG-390-C17_01041	AG-390-C17	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-390-C17_01045	-4
+CACDRL010000009.1	26056	27345	+	AG-390-C17_01042	AG-390-C17	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-390-C17_01045	-3
+CACDRL010000009.1	27433	28485	+	AG-390-C17_01043	AG-390-C17	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-390-C17_01045	-2
+CACDRL010000009.1	28526	28996	-	AG-390-C17_01044	AG-390-C17	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-390-C17_01045	-1
+CACDRL010000009.1	29072	30334	+	AG-390-C17_01045	AG-390-C17	420	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-390-C17_01045	0
+CACDRL010000009.1	30366	31448	+	AG-390-C17_01046	AG-390-C17	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-390-C17_01045	1
+CACDRL010000009.1	31441	32361	-	AG-390-C17_01047	AG-390-C17	306	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-390-C17_01045	2
+CACDRL010000009.1	32378	33361	-	AG-390-C17_01048	AG-390-C17	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-390-C17_01045	3
+CACDRL010000009.1	33393	34262	-	AG-390-C17_01049	AG-390-C17	289	OG0001287	NA	NA	NA	NA	NA	AG-390-C17_01045	4
+CACDRL010000009.1	34262	35206	-	AG-390-C17_01050	AG-390-C17	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	AG-390-C17_01045	5
+CACDYK010000009.1	27404	28369	-	AG-390-G11_00883	AG-390-G11	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-390-G11_00888	-5
+CACDYK010000009.1	28501	29097	+	AG-390-G11_00884	AG-390-G11	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-390-G11_00888	-4
+CACDYK010000009.1	29097	30386	+	AG-390-G11_00885	AG-390-G11	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-390-G11_00888	-3
+CACDYK010000009.1	30473	31525	+	AG-390-G11_00886	AG-390-G11	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-390-G11_00888	-2
+CACDYK010000009.1	31567	32037	-	AG-390-G11_00887	AG-390-G11	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-390-G11_00888	-1
+CACDYK010000009.1	32170	33375	+	AG-390-G11_00888	AG-390-G11	401	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-390-G11_00888	0
+CACDYK010000009.1	33406	34488	+	AG-390-G11_00889	AG-390-G11	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-390-G11_00888	1
+CACDYK010000009.1	34478	35404	-	AG-390-G11_00890	AG-390-G11	308	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-390-G11_00888	2
+CACDYK010000009.1	35413	35865	-	AG-390-G11_00891	AG-390-G11	150	OG0002148	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-390-G11_00888	3
+CACDYK010000009.1	35862	37361	-	AG-390-G11_00892	AG-390-G11	499	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-390-G11_00888	4
+CACDYK010000009.1	37374	38324	-	AG-390-G11_00893	AG-390-G11	316	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-390-G11_00888	5
+CACDYR010000001.1	9	668	+	AG-390-G23_00001	AG-390-G23	219	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-390-G23_00004	-3
+CACDYR010000001.1	685	1608	+	AG-390-G23_00002	AG-390-G23	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-390-G23_00004	-2
+CACDYR010000001.1	1601	2683	-	AG-390-G23_00003	AG-390-G23	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-390-G23_00004	-1
+CACDYR010000001.1	2714	3697	-	AG-390-G23_00004	AG-390-G23	327	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-390-G23_00004	0
+CACDYR010000001.1	4052	4522	+	AG-390-G23_00005	AG-390-G23	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-390-G23_00004	1
+CACDYR010000001.1	4563	5615	-	AG-390-G23_00006	AG-390-G23	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-390-G23_00004	2
+CACDYR010000001.1	5704	6993	-	AG-390-G23_00007	AG-390-G23	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-390-G23_00004	3
+CACDYR010000001.1	6993	7481	-	AG-390-G23_00008	AG-390-G23	162	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-390-G23_00004	4
+CACDYR010000001.1	7701	8666	+	AG-390-G23_00009	AG-390-G23	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-390-G23_00004	5
+CACEDD010000008.1	23919	24884	-	AG-390-L03_01290	AG-390-L03	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-390-L03_01295	-5
+CACEDD010000008.1	25016	25612	+	AG-390-L03_01291	AG-390-L03	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-390-L03_01295	-4
+CACEDD010000008.1	25612	26901	+	AG-390-L03_01292	AG-390-L03	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-390-L03_01295	-3
+CACEDD010000008.1	26988	28040	+	AG-390-L03_01293	AG-390-L03	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-390-L03_01295	-2
+CACEDD010000008.1	28082	28552	-	AG-390-L03_01294	AG-390-L03	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-390-L03_01295	-1
+CACEDD010000008.1	28685	29890	+	AG-390-L03_01295	AG-390-L03	401	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-390-L03_01295	0
+CACEDD010000008.1	29921	31003	+	AG-390-L03_01296	AG-390-L03	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-390-L03_01295	1
+CACEDD010000008.1	30993	31919	-	AG-390-L03_01297	AG-390-L03	308	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-390-L03_01295	2
+CACEDD010000008.1	31928	32380	-	AG-390-L03_01298	AG-390-L03	150	OG0002148	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-390-L03_01295	3
+CACEDD010000008.1	32377	32775	-	AG-390-L03_01299	AG-390-L03	132	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-390-L03_01295	4
+CACGAU010000004.1	40021	40965	+	AG-422-B22_00569	AG-422-B22	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	AG-422-B22_00574	-5
+CACGAU010000004.1	40966	41835	+	AG-422-B22_00570	AG-422-B22	289	OG0001287	NA	NA	NA	NA	NA	AG-422-B22_00574	-4
+CACGAU010000004.1	41864	42850	+	AG-422-B22_00571	AG-422-B22	328	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-422-B22_00574	-3
+CACGAU010000004.1	42867	43790	+	AG-422-B22_00572	AG-422-B22	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-422-B22_00574	-2
+CACGAU010000004.1	43783	44865	-	AG-422-B22_00573	AG-422-B22	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-422-B22_00574	-1
+CACGAU010000004.1	44896	46317	-	AG-422-B22_00574	AG-422-B22	473	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-422-B22_00574	0
+CACGAU010000004.1	46348	46704	+	AG-422-B22_00575	AG-422-B22	118	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-422-B22_00574	1
+CACGAU010000004.1	46745	47797	-	AG-422-B22_00576	AG-422-B22	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-422-B22_00574	2
+CACGAU010000004.1	47887	49176	-	AG-422-B22_00577	AG-422-B22	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-422-B22_00574	3
+CACGAU010000004.1	49176	49664	-	AG-422-B22_00578	AG-422-B22	162	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-422-B22_00574	4
+CACGAU010000004.1	49884	50849	+	AG-422-B22_00579	AG-422-B22	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-422-B22_00574	5
+CACGDQ010000006.1	34311	35276	-	AG-422-D23_00859	AG-422-D23	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-422-D23_00864	-5
+CACGDQ010000006.1	35388	35984	+	AG-422-D23_00860	AG-422-D23	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-422-D23_00864	-4
+CACGDQ010000006.1	35984	37273	+	AG-422-D23_00861	AG-422-D23	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-422-D23_00864	-3
+CACGDQ010000006.1	37362	38414	+	AG-422-D23_00862	AG-422-D23	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-422-D23_00864	-2
+CACGDQ010000006.1	38455	38925	-	AG-422-D23_00863	AG-422-D23	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-422-D23_00864	-1
+CACGDQ010000006.1	39283	40263	+	AG-422-D23_00864	AG-422-D23	326	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-422-D23_00864	0
+CACGDQ010000006.1	40294	41376	+	AG-422-D23_00865	AG-422-D23	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-422-D23_00864	1
+CACGDQ010000006.1	41369	42298	-	AG-422-D23_00866	AG-422-D23	309	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-422-D23_00864	2
+CACGDQ010000006.1	42355	43347	-	AG-422-D23_00867	AG-422-D23	330	OG0001528	K05878	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaK [EC:2.7.1.121]	COG2376	DAK1	Dihydroxyacetone kinase	AG-422-D23_00864	3
+CACGDQ010000006.1	43356	43985	-	AG-422-D23_00868	AG-422-D23	209	OG0001544	K05879	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaL [EC:2.7.1.121]	COG2376	DAK1	Dihydroxyacetone kinase	AG-422-D23_00864	4
+CACGDQ010000006.1	43975	44985	-	AG-422-D23_00869	AG-422-D23	336	OG0000001	NA	NA	COG3839	MalK	ABC-type sugar transport system, ATPase component MalK	AG-422-D23_00864	5
+CACGDZ010000001.1	237040	238032	-	AG-422-E09_00248	AG-422-E09	330	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-422-E09_00253	-5
+CACGDZ010000001.1	238116	238712	+	AG-422-E09_00249	AG-422-E09	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-422-E09_00253	-4
+CACGDZ010000001.1	238712	240001	+	AG-422-E09_00250	AG-422-E09	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-422-E09_00253	-3
+CACGDZ010000001.1	240076	241146	+	AG-422-E09_00251	AG-422-E09	356	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-422-E09_00253	-2
+CACGDZ010000001.1	241187	241657	-	AG-422-E09_00252	AG-422-E09	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-422-E09_00253	-1
+CACGDZ010000001.1	241763	242995	+	AG-422-E09_00253	AG-422-E09	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-422-E09_00253	0
+CACGDZ010000001.1	243026	244108	+	AG-422-E09_00254	AG-422-E09	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-422-E09_00253	1
+CACGDZ010000001.1	244101	245033	-	AG-422-E09_00255	AG-422-E09	310	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-422-E09_00253	2
+CACGDZ010000001.1	245089	246081	-	AG-422-E09_00256	AG-422-E09	330	OG0001528	K05878	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaK [EC:2.7.1.121]	COG2376	DAK1	Dihydroxyacetone kinase	AG-422-E09_00253	3
+CACGDZ010000001.1	246090	246719	-	AG-422-E09_00257	AG-422-E09	209	OG0001544	K05879	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaL [EC:2.7.1.121]	COG2376	DAK1	Dihydroxyacetone kinase	AG-422-E09_00253	4
+CACGDZ010000001.1	246709	247719	-	AG-422-E09_00258	AG-422-E09	336	OG0000001	NA	NA	COG3839	MalK	ABC-type sugar transport system, ATPase component MalK	AG-422-E09_00253	5
+CACHFM010000002.1	120834	121799	-	AG-430-A11_00357	AG-430-A11	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-430-A11_00362	-5
+CACHFM010000002.1	121910	122506	+	AG-430-A11_00358	AG-430-A11	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-430-A11_00362	-4
+CACHFM010000002.1	122506	123795	+	AG-430-A11_00359	AG-430-A11	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-430-A11_00362	-3
+CACHFM010000002.1	123887	124939	+	AG-430-A11_00360	AG-430-A11	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-430-A11_00362	-2
+CACHFM010000002.1	124979	125449	-	AG-430-A11_00361	AG-430-A11	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-430-A11_00362	-1
+CACHFM010000002.1	125924	126787	+	AG-430-A11_00362	AG-430-A11	287	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-430-A11_00362	0
+CACHFM010000002.1	126817	127899	+	AG-430-A11_00363	AG-430-A11	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-430-A11_00362	1
+CACHFM010000002.1	127892	128815	-	AG-430-A11_00364	AG-430-A11	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-430-A11_00362	2
+CACHFM010000002.1	128867	129658	-	AG-430-A11_00365	AG-430-A11	263	OG0001107	K02510	4-hydroxy-2-oxoheptanedioate aldolase [EC:4.1.2.52]	COG3836	HpcH	2-keto-3-deoxy-L-rhamnonate aldolase RhmA	AG-430-A11_00362	3
+CACHFM010000002.1	129662	131104	-	AG-430-A11_00366	AG-430-A11	480	OG0000465	K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AG-430-A11_00362	4
+CACHFM010000002.1	131192	133036	+	AG-430-A11_00367	AG-430-A11	614	OG0000014	K03336	3D-(3,5/4)-trihydroxycyclohexane-1,2-dione acylhydrolase (decyclizing) [EC:3.7.1.22]	COG3962	IolD	TPP-dependent trihydroxycyclohexane-1,2-dione (THcHDO) dehydratase, myo-inositol metabolism	AG-430-A11_00362	5
+CACJIJ010000017.1	12059	13024	-	AG-447-E19_00908	AG-447-E19	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-447-E19_00913	-5
+CACJIJ010000017.1	13137	13733	+	AG-447-E19_00909	AG-447-E19	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-447-E19_00913	-4
+CACJIJ010000017.1	13733	15022	+	AG-447-E19_00910	AG-447-E19	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-447-E19_00913	-3
+CACJIJ010000017.1	15115	16167	+	AG-447-E19_00911	AG-447-E19	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-447-E19_00913	-2
+CACJIJ010000017.1	16208	16576	-	AG-447-E19_00912	AG-447-E19	122	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-447-E19_00913	-1
+CACJIJ010000017.1	16595	18016	+	AG-447-E19_00913	AG-447-E19	473	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-447-E19_00913	0
+CACJIJ010000017.1	18047	19129	+	AG-447-E19_00914	AG-447-E19	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-447-E19_00913	1
+CACJIJ010000017.1	19122	20045	-	AG-447-E19_00915	AG-447-E19	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-447-E19_00913	2
+CACJIJ010000017.1	20062	21048	-	AG-447-E19_00916	AG-447-E19	328	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-447-E19_00913	3
+CACJIJ010000017.1	21077	21946	-	AG-447-E19_00917	AG-447-E19	289	OG0001287	NA	NA	NA	NA	NA	AG-447-E19_00913	4
+CACJIJ010000017.1	21947	22891	-	AG-447-E19_00918	AG-447-E19	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	AG-447-E19_00913	5
+CACJNJ010000003.1	49028	49993	-	AG-447-K11_00374	AG-447-K11	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-447-K11_00379	-5
+CACJNJ010000003.1	50106	50702	+	AG-447-K11_00375	AG-447-K11	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-447-K11_00379	-4
+CACJNJ010000003.1	50702	51991	+	AG-447-K11_00376	AG-447-K11	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-447-K11_00379	-3
+CACJNJ010000003.1	52080	53132	+	AG-447-K11_00377	AG-447-K11	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-447-K11_00379	-2
+CACJNJ010000003.1	53173	53643	-	AG-447-K11_00378	AG-447-K11	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-447-K11_00379	-1
+CACJNJ010000003.1	53749	54981	+	AG-447-K11_00379	AG-447-K11	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-447-K11_00379	0
+CACJNJ010000003.1	55013	56095	+	AG-447-K11_00380	AG-447-K11	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-447-K11_00379	1
+CACJNJ010000003.1	56088	57008	-	AG-447-K11_00381	AG-447-K11	306	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-447-K11_00379	2
+CACJNJ010000003.1	57023	58006	-	AG-447-K11_00382	AG-447-K11	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-447-K11_00379	3
+CACJNJ010000003.1	58038	58907	-	AG-447-K11_00383	AG-447-K11	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-447-K11_00379	4
+CACJNJ010000003.1	58907	59851	-	AG-447-K11_00384	AG-447-K11	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	AG-447-K11_00379	5
+CACJMB010000001.1	47624	48589	-	AG-447-L03_00054	AG-447-L03	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-447-L03_00059	-5
+CACJMB010000001.1	48702	49298	+	AG-447-L03_00055	AG-447-L03	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-447-L03_00059	-4
+CACJMB010000001.1	49298	50587	+	AG-447-L03_00056	AG-447-L03	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-447-L03_00059	-3
+CACJMB010000001.1	50676	51728	+	AG-447-L03_00057	AG-447-L03	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-447-L03_00059	-2
+CACJMB010000001.1	51769	52239	-	AG-447-L03_00058	AG-447-L03	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-447-L03_00059	-1
+CACJMB010000001.1	52594	53577	+	AG-447-L03_00059	AG-447-L03	327	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-447-L03_00059	0
+CACJMB010000001.1	53609	54691	+	AG-447-L03_00060	AG-447-L03	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-447-L03_00059	1
+CACJMB010000001.1	54684	55604	-	AG-447-L03_00061	AG-447-L03	306	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-447-L03_00059	2
+CACJMB010000001.1	55622	56605	-	AG-447-L03_00062	AG-447-L03	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-447-L03_00059	3
+CACJMB010000001.1	56637	57506	-	AG-447-L03_00063	AG-447-L03	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-447-L03_00059	4
+CACJMB010000001.1	57506	58450	-	AG-447-L03_00064	AG-447-L03	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	AG-447-L03_00059	5
+CACPOX010000006.1	54259	55224	-	AG-447-L10_00630	AG-447-L10	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-447-L10_00635	-5
+CACPOX010000006.1	55336	55932	+	AG-447-L10_00631	AG-447-L10	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-447-L10_00635	-4
+CACPOX010000006.1	55932	57221	+	AG-447-L10_00632	AG-447-L10	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-447-L10_00635	-3
+CACPOX010000006.1	57313	58365	+	AG-447-L10_00633	AG-447-L10	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-447-L10_00635	-2
+CACPOX010000006.1	58406	58774	-	AG-447-L10_00634	AG-447-L10	122	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-447-L10_00635	-1
+CACPOX010000006.1	58793	60214	+	AG-447-L10_00635	AG-447-L10	473	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-447-L10_00635	0
+CACPOX010000006.1	60245	61327	+	AG-447-L10_00636	AG-447-L10	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-447-L10_00635	1
+CACPOX010000006.1	61320	62243	-	AG-447-L10_00637	AG-447-L10	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-447-L10_00635	2
+CACPOX010000006.1	62260	63246	-	AG-447-L10_00638	AG-447-L10	328	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-447-L10_00635	3
+CACJTU010000006.1	12185	13150	-	AG-447-P03_00642	AG-447-P03	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-447-P03_00647	-5
+CACJTU010000006.1	13262	13858	+	AG-447-P03_00643	AG-447-P03	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-447-P03_00647	-4
+CACJTU010000006.1	13858	15147	+	AG-447-P03_00644	AG-447-P03	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-447-P03_00647	-3
+CACJTU010000006.1	15239	16291	+	AG-447-P03_00645	AG-447-P03	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-447-P03_00647	-2
+CACJTU010000006.1	16332	16802	-	AG-447-P03_00646	AG-447-P03	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-447-P03_00647	-1
+CACJTU010000006.1	17175	18140	+	AG-447-P03_00647	AG-447-P03	321	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-447-P03_00647	0
+CACJTU010000006.1	18172	19254	+	AG-447-P03_00648	AG-447-P03	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-447-P03_00647	1
+CACJTU010000006.1	19247	20167	-	AG-447-P03_00649	AG-447-P03	306	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-447-P03_00647	2
+CACJTU010000006.1	20185	21168	-	AG-447-P03_00650	AG-447-P03	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-447-P03_00647	3
+CACJTU010000006.1	21200	22069	-	AG-447-P03_00651	AG-447-P03	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-447-P03_00647	4
+CACJTU010000006.1	22069	23013	-	AG-447-P03_00652	AG-447-P03	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	AG-447-P03_00647	5
+CACMIH010000005.1	104262	105272	+	AG-891-I18_00981	AG-891-I18	336	OG0000001	NA	NA	COG3839	MalK	ABC-type sugar transport system, ATPase component MalK	AG-891-I18_00986	-5
+CACMIH010000005.1	105238	105891	+	AG-891-I18_00982	AG-891-I18	217	OG0001544	K05879	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaL [EC:2.7.1.121]	COG2376	DAK1	Dihydroxyacetone kinase	AG-891-I18_00986	-4
+CACMIH010000005.1	105900	106892	+	AG-891-I18_00983	AG-891-I18	330	OG0001528	K05878	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaK [EC:2.7.1.121]	COG2376	DAK1	Dihydroxyacetone kinase	AG-891-I18_00986	-3
+CACMIH010000005.1	106948	107880	+	AG-891-I18_00984	AG-891-I18	310	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-891-I18_00986	-2
+CACMIH010000005.1	107873	108955	-	AG-891-I18_00985	AG-891-I18	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-891-I18_00986	-1
+CACMIH010000005.1	108986	109969	-	AG-891-I18_00986	AG-891-I18	327	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-891-I18_00986	0
+CACMIH010000005.1	110324	110794	+	AG-891-I18_00987	AG-891-I18	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-891-I18_00986	1
+CACMIH010000005.1	110835	111887	-	AG-891-I18_00988	AG-891-I18	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-891-I18_00986	2
+CACMIH010000005.1	111979	113268	-	AG-891-I18_00989	AG-891-I18	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-891-I18_00986	3
+CACMIH010000005.1	113268	113864	-	AG-891-I18_00990	AG-891-I18	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-891-I18_00986	4
+CACMIH010000005.1	113976	114941	+	AG-891-I18_00991	AG-891-I18	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-891-I18_00986	5
+CACMRC010000002.1	77920	78516	+	AG-892-A22_00325	AG-892-A22	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-892-A22_00330	-5
+CACMRC010000002.1	78516	79805	+	AG-892-A22_00326	AG-892-A22	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-892-A22_00330	-4
+CACMRC010000002.1	79897	80949	+	AG-892-A22_00327	AG-892-A22	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-892-A22_00330	-3
+CACMRC010000002.1	80990	81460	-	AG-892-A22_00328	AG-892-A22	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-892-A22_00330	-2
+CACMRC010000002.1	81658	81807	-	AG-892-A22_00329	AG-892-A22	49	OG0004083	NA	NA	NA	NA	NA	AG-892-A22_00330	-1
+CACMRC010000002.1	81815	82798	+	AG-892-A22_00330	AG-892-A22	327	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-892-A22_00330	0
+CACMRC010000002.1	82829	83911	+	AG-892-A22_00331	AG-892-A22	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-892-A22_00330	1
+CACMRC010000002.1	83904	84827	-	AG-892-A22_00332	AG-892-A22	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-892-A22_00330	2
+CACMRC010000002.1	84844	85827	-	AG-892-A22_00333	AG-892-A22	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-892-A22_00330	3
+CACMRC010000002.1	85859	86728	-	AG-892-A22_00334	AG-892-A22	289	OG0001287	NA	NA	NA	NA	NA	AG-892-A22_00330	4
+CACMRC010000002.1	86729	87673	-	AG-892-A22_00335	AG-892-A22	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	AG-892-A22_00330	5
+CACMWB010000016.1	1065	2030	-	AG-892-F02_01166	AG-892-F02	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-892-F02_01171	-5
+CACMWB010000016.1	2142	2738	+	AG-892-F02_01167	AG-892-F02	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-892-F02_01171	-4
+CACMWB010000016.1	2738	4027	+	AG-892-F02_01168	AG-892-F02	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-892-F02_01171	-3
+CACMWB010000016.1	4116	5168	+	AG-892-F02_01169	AG-892-F02	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-892-F02_01171	-2
+CACMWB010000016.1	5209	5679	-	AG-892-F02_01170	AG-892-F02	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-892-F02_01171	-1
+CACMWB010000016.1	6037	7017	+	AG-892-F02_01171	AG-892-F02	326	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-892-F02_01171	0
+CACMWB010000016.1	7048	8130	+	AG-892-F02_01172	AG-892-F02	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-892-F02_01171	1
+CACMWB010000016.1	8123	9046	-	AG-892-F02_01173	AG-892-F02	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-892-F02_01171	2
+CACMWB010000016.1	9063	10046	-	AG-892-F02_01174	AG-892-F02	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-892-F02_01171	3
+CACMWB010000016.1	10078	10947	-	AG-892-F02_01175	AG-892-F02	289	OG0001287	NA	NA	NA	NA	NA	AG-892-F02_01171	4
+CACMWB010000016.1	10948	11892	-	AG-892-F02_01176	AG-892-F02	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	AG-892-F02_01171	5
+CACFHY010000001.1	22895	23860	-	AG-908-C18_00030	AG-908-C18	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-908-C18_00035	-5
+CACFHY010000001.1	23972	24568	+	AG-908-C18_00031	AG-908-C18	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-908-C18_00035	-4
+CACFHY010000001.1	24568	25857	+	AG-908-C18_00032	AG-908-C18	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-908-C18_00035	-3
+CACFHY010000001.1	25932	27002	+	AG-908-C18_00033	AG-908-C18	356	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-908-C18_00035	-2
+CACFHY010000001.1	27043	27513	-	AG-908-C18_00034	AG-908-C18	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-908-C18_00035	-1
+CACFHY010000001.1	27619	28851	+	AG-908-C18_00035	AG-908-C18	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-908-C18_00035	0
+CACFHY010000001.1	28882	29964	+	AG-908-C18_00036	AG-908-C18	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-908-C18_00035	1
+CACFHY010000001.1	29957	30880	-	AG-908-C18_00037	AG-908-C18	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-908-C18_00035	2
+CACFHY010000001.1	30896	31876	-	AG-908-C18_00038	AG-908-C18	326	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-908-C18_00035	3
+CACFHY010000001.1	31908	32777	-	AG-908-C18_00039	AG-908-C18	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AG-908-C18_00035	4
+CACFHY010000001.1	32778	33722	-	AG-908-C18_00040	AG-908-C18	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	AG-908-C18_00035	5
+CACIKZ010000008.1	18645	19652	+	AG-913-F03_00949	AG-913-F03	335	OG0000001	NA	NA	COG3839	MalK	ABC-type sugar transport system, ATPase component MalK	AG-913-F03_00954	-5
+CACIKZ010000008.1	19642	20271	+	AG-913-F03_00950	AG-913-F03	209	OG0001544	K05879	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaL [EC:2.7.1.121]	COG2376	DAK1	Dihydroxyacetone kinase	AG-913-F03_00954	-4
+CACIKZ010000008.1	20280	21272	+	AG-913-F03_00951	AG-913-F03	330	OG0001528	K05878	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaK [EC:2.7.1.121]	COG2376	DAK1	Dihydroxyacetone kinase	AG-913-F03_00954	-3
+CACIKZ010000008.1	21328	22260	+	AG-913-F03_00952	AG-913-F03	310	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-913-F03_00954	-2
+CACIKZ010000008.1	22253	23335	-	AG-913-F03_00953	AG-913-F03	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-913-F03_00954	-1
+CACIKZ010000008.1	23366	24598	-	AG-913-F03_00954	AG-913-F03	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-913-F03_00954	0
+CACIKZ010000008.1	24704	25174	+	AG-913-F03_00955	AG-913-F03	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-913-F03_00954	1
+CACIKZ010000008.1	25215	26285	-	AG-913-F03_00956	AG-913-F03	356	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-913-F03_00954	2
+CACIKZ010000008.1	26360	27649	-	AG-913-F03_00957	AG-913-F03	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-913-F03_00954	3
+CACIKZ010000008.1	27649	28239	-	AG-913-F03_00958	AG-913-F03	196	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-913-F03_00954	4
+CACIKZ010000008.1	28357	29322	+	AG-913-F03_00959	AG-913-F03	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-913-F03_00954	5
+CACIMN010000001.1	13968	14978	+	AG-913-L03_00016	AG-913-L03	336	OG0000001	NA	NA	COG3839	MalK	ABC-type sugar transport system, ATPase component MalK	AG-913-L03_00021	-5
+CACIMN010000001.1	14968	15597	+	AG-913-L03_00017	AG-913-L03	209	OG0001544	K05879	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaL [EC:2.7.1.121]	COG2376	DAK1	Dihydroxyacetone kinase	AG-913-L03_00021	-4
+CACIMN010000001.1	15606	16598	+	AG-913-L03_00018	AG-913-L03	330	OG0001528	K05878	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaK [EC:2.7.1.121]	COG2376	DAK1	Dihydroxyacetone kinase	AG-913-L03_00021	-3
+CACIMN010000001.1	16654	17586	+	AG-913-L03_00019	AG-913-L03	310	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-913-L03_00021	-2
+CACIMN010000001.1	17579	18661	-	AG-913-L03_00020	AG-913-L03	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AG-913-L03_00021	-1
+CACIMN010000001.1	18692	19924	-	AG-913-L03_00021	AG-913-L03	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AG-913-L03_00021	0
+CACIMN010000001.1	20030	20500	+	AG-913-L03_00022	AG-913-L03	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AG-913-L03_00021	1
+CACIMN010000001.1	20541	21611	-	AG-913-L03_00023	AG-913-L03	356	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AG-913-L03_00021	2
+CACIMN010000001.1	21686	22975	-	AG-913-L03_00024	AG-913-L03	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AG-913-L03_00021	3
+CACIMN010000001.1	22975	23571	-	AG-913-L03_00025	AG-913-L03	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AG-913-L03_00021	4
+CACIMN010000001.1	23683	24648	+	AG-913-L03_00026	AG-913-L03	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AG-913-L03_00021	5
+CACNSD010000009.1	28163	29107	+	AH-287-B07_00977	AH-287-B07	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	AH-287-B07_00982	-5
+CACNSD010000009.1	29108	29977	+	AH-287-B07_00978	AH-287-B07	289	OG0001287	NA	NA	NA	NA	NA	AH-287-B07_00982	-4
+CACNSD010000009.1	30009	30989	+	AH-287-B07_00979	AH-287-B07	326	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AH-287-B07_00982	-3
+CACNSD010000009.1	31003	31926	+	AH-287-B07_00980	AH-287-B07	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AH-287-B07_00982	-2
+CACNSD010000009.1	31919	33001	-	AH-287-B07_00981	AH-287-B07	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AH-287-B07_00982	-1
+CACNSD010000009.1	33032	34264	-	AH-287-B07_00982	AH-287-B07	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AH-287-B07_00982	0
+CACNSD010000009.1	34370	34840	+	AH-287-B07_00983	AH-287-B07	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AH-287-B07_00982	1
+CACNSD010000009.1	34883	35935	-	AH-287-B07_00984	AH-287-B07	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AH-287-B07_00982	2
+CACNSD010000009.1	36023	37312	-	AH-287-B07_00985	AH-287-B07	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AH-287-B07_00982	3
+CACNSD010000009.1	37312	37908	-	AH-287-B07_00986	AH-287-B07	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AH-287-B07_00982	4
+CACNSD010000009.1	38020	38985	+	AH-287-B07_00987	AH-287-B07	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AH-287-B07_00982	5
+CACNWL010000011.1	18	1100	-	AH-287-E17_00973	AH-287-E17	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AH-287-E17_00974	-1
+CACNWL010000011.1	1132	2364	-	AH-287-E17_00974	AH-287-E17	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AH-287-E17_00974	0
+CACNWL010000011.1	2470	2940	+	AH-287-E17_00975	AH-287-E17	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AH-287-E17_00974	1
+CACNWL010000011.1	2980	4032	-	AH-287-E17_00976	AH-287-E17	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AH-287-E17_00974	2
+CACNWL010000011.1	4122	5411	-	AH-287-E17_00977	AH-287-E17	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AH-287-E17_00974	3
+CACNWL010000011.1	5411	6007	-	AH-287-E17_00978	AH-287-E17	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AH-287-E17_00974	4
+CACNWL010000011.1	6118	7083	+	AH-287-E17_00979	AH-287-E17	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AH-287-E17_00974	5
+CACOEF010000004.1	79759	81603	-	AH-321-A17_00663	AH-321-A17	614	OG0000014	K03336	3D-(3,5/4)-trihydroxycyclohexane-1,2-dione acylhydrolase (decyclizing) [EC:3.7.1.22]	COG3962	IolD	TPP-dependent trihydroxycyclohexane-1,2-dione (THcHDO) dehydratase, myo-inositol metabolism	AH-321-A17_00668	-5
+CACOEF010000004.1	81695	83137	+	AH-321-A17_00664	AH-321-A17	480	OG0000465	K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]	COG1012	AdhE	Acyl-CoA reductase or other NAD-dependent aldehyde dehydrogenase	AH-321-A17_00668	-4
+CACOEF010000004.1	83140	83931	+	AH-321-A17_00665	AH-321-A17	263	OG0001107	K02510	4-hydroxy-2-oxoheptanedioate aldolase [EC:4.1.2.52]	COG3836	HpcH	2-keto-3-deoxy-L-rhamnonate aldolase RhmA	AH-321-A17_00668	-3
+CACOEF010000004.1	83956	84879	+	AH-321-A17_00666	AH-321-A17	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AH-321-A17_00668	-2
+CACOEF010000004.1	84872	85954	-	AH-321-A17_00667	AH-321-A17	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AH-321-A17_00668	-1
+CACOEF010000004.1	85986	87218	-	AH-321-A17_00668	AH-321-A17	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AH-321-A17_00668	0
+CACOEF010000004.1	87324	87794	+	AH-321-A17_00669	AH-321-A17	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AH-321-A17_00668	1
+CACOEF010000004.1	87834	88886	-	AH-321-A17_00670	AH-321-A17	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AH-321-A17_00668	2
+CACOEF010000004.1	88975	90264	-	AH-321-A17_00671	AH-321-A17	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AH-321-A17_00668	3
+CACOEF010000004.1	90264	90860	-	AH-321-A17_00672	AH-321-A17	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AH-321-A17_00668	4
+CACOEF010000004.1	90972	91937	+	AH-321-A17_00673	AH-321-A17	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AH-321-A17_00668	5
+CACORG010000014.1	85	1029	+	AH-324-K09_00863	AH-324-K09	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	AH-324-K09_00868	-5
+CACORG010000014.1	1030	1899	+	AH-324-K09_00864	AH-324-K09	289	OG0001287	NA	NA	NA	NA	NA	AH-324-K09_00868	-4
+CACORG010000014.1	1928	2911	+	AH-324-K09_00865	AH-324-K09	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	AH-324-K09_00868	-3
+CACORG010000014.1	2925	3848	+	AH-324-K09_00866	AH-324-K09	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AH-324-K09_00868	-2
+CACORG010000014.1	3841	4923	-	AH-324-K09_00867	AH-324-K09	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	AH-324-K09_00868	-1
+CACORG010000014.1	4955	5818	-	AH-324-K09_00868	AH-324-K09	287	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	AH-324-K09_00868	0
+CACORG010000014.1	6293	6763	+	AH-324-K09_00869	AH-324-K09	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	AH-324-K09_00868	1
+CACORG010000014.1	6802	7854	-	AH-324-K09_00870	AH-324-K09	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	AH-324-K09_00868	2
+CACORG010000014.1	7946	9235	-	AH-324-K09_00871	AH-324-K09	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	AH-324-K09_00868	3
+CACORG010000014.1	9235	9831	-	AH-324-K09_00872	AH-324-K09	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	AH-324-K09_00868	4
+CACORG010000014.1	9941	10906	+	AH-324-K09_00873	AH-324-K09	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	AH-324-K09_00868	5
+O147DRAFT_scaffold00001.1	1390689	1391558	+	HIMB122_01481	HIMB122	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB122_01486	-5
+O147DRAFT_scaffold00001.1	1391590	1392573	+	HIMB122_01482	HIMB122	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB122_01486	-4
+O147DRAFT_scaffold00001.1	1392584	1393504	+	HIMB122_01483	HIMB122	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB122_01486	-3
+O147DRAFT_scaffold00001.1	1393542	1394465	+	HIMB122_01484	HIMB122	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB122_01486	-2
+O147DRAFT_scaffold00001.1	1394458	1395540	-	HIMB122_01485	HIMB122	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB122_01486	-1
+O147DRAFT_scaffold00001.1	1395572	1396804	-	HIMB122_01486	HIMB122	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB122_01486	0
+O147DRAFT_scaffold00001.1	1396910	1397380	+	HIMB122_01487	HIMB122	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB122_01486	1
+O147DRAFT_scaffold00001.1	1397421	1398473	-	HIMB122_01488	HIMB122	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB122_01486	2
+O147DRAFT_scaffold00001.1	1398560	1399849	-	HIMB122_01489	HIMB122	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB122_01486	3
+O147DRAFT_scaffold00001.1	1399849	1400445	-	HIMB122_01490	HIMB122	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB122_01486	4
+O147DRAFT_scaffold00001.1	1400559	1401524	+	HIMB122_01491	HIMB122	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB122_01486	5
+HIMB123-00000000004	24686	25174	+	HIMB123_00150	HIMB123	162	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB123_00155	-5
+HIMB123-00000000004	25174	26463	+	HIMB123_00151	HIMB123	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB123_00155	-4
+HIMB123-00000000004	26550	27602	+	HIMB123_00152	HIMB123	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB123_00155	-3
+HIMB123-00000000004	27644	28114	-	HIMB123_00153	HIMB123	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB123_00155	-2
+HIMB123-00000000004	28306	28461	-	HIMB123_00154	HIMB123	51	OG0004083	NA	NA	NA	NA	NA	HIMB123_00155	-1
+HIMB123-00000000004	28487	29452	+	HIMB123_00155	HIMB123	321	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB123_00155	0
+HIMB123-00000000004	29484	30566	+	HIMB123_00156	HIMB123	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB123_00155	1
+HIMB123-00000000004	30559	31479	-	HIMB123_00157	HIMB123	306	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB123_00155	2
+HIMB123-00000000004	31497	32480	-	HIMB123_00158	HIMB123	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB123_00155	3
+HIMB123-00000000004	32512	33381	-	HIMB123_00159	HIMB123	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB123_00155	4
+HIMB123-00000000004	33381	34325	-	HIMB123_00160	HIMB123	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	HIMB123_00155	5
+HIMB1409-00000000003	136887	137831	+	HIMB1409_00801	HIMB1409	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	HIMB1409_00806	-5
+HIMB1409-00000000003	137832	138701	+	HIMB1409_00802	HIMB1409	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1409_00806	-4
+HIMB1409-00000000003	138733	139713	+	HIMB1409_00803	HIMB1409	326	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1409_00806	-3
+HIMB1409-00000000003	139729	140652	+	HIMB1409_00804	HIMB1409	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1409_00806	-2
+HIMB1409-00000000003	140645	141727	-	HIMB1409_00805	HIMB1409	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1409_00806	-1
+HIMB1409-00000000003	141758	142741	-	HIMB1409_00806	HIMB1409	327	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1409_00806	0
+HIMB1409-00000000003	143096	143566	+	HIMB1409_00807	HIMB1409	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1409_00806	1
+HIMB1409-00000000003	143607	144677	-	HIMB1409_00808	HIMB1409	356	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1409_00806	2
+HIMB1409-00000000003	144747	146036	-	HIMB1409_00809	HIMB1409	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1409_00806	3
+HIMB1409-00000000003	146036	146632	-	HIMB1409_00810	HIMB1409	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1409_00806	4
+HIMB1409-00000000003	146744	147709	+	HIMB1409_00811	HIMB1409	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1409_00806	5
+NZ_LAMZ01000001.1	411578	412447	+	HIMB140_00479	HIMB140	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB140_00484	-5
+NZ_LAMZ01000001.1	412479	413462	+	HIMB140_00480	HIMB140	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB140_00484	-4
+NZ_LAMZ01000001.1	413474	414394	+	HIMB140_00481	HIMB140	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB140_00484	-3
+NZ_LAMZ01000001.1	414432	415355	+	HIMB140_00482	HIMB140	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB140_00484	-2
+NZ_LAMZ01000001.1	415348	416430	-	HIMB140_00483	HIMB140	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB140_00484	-1
+NZ_LAMZ01000001.1	416462	417694	-	HIMB140_00484	HIMB140	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB140_00484	0
+NZ_LAMZ01000001.1	417800	418270	+	HIMB140_00485	HIMB140	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB140_00484	1
+NZ_LAMZ01000001.1	418311	419363	-	HIMB140_00486	HIMB140	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB140_00484	2
+NZ_LAMZ01000001.1	419450	420739	-	HIMB140_00487	HIMB140	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB140_00484	3
+NZ_LAMZ01000001.1	420739	421335	-	HIMB140_00488	HIMB140	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB140_00484	4
+NZ_LAMZ01000001.1	421447	422412	+	HIMB140_00489	HIMB140	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB140_00484	5
+HIMB1413-00000000001	685229	686173	+	HIMB1413_00753	HIMB1413	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	HIMB1413_00758	-5
+HIMB1413-00000000001	686174	687043	+	HIMB1413_00754	HIMB1413	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1413_00758	-4
+HIMB1413-00000000001	687075	688055	+	HIMB1413_00755	HIMB1413	326	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1413_00758	-3
+HIMB1413-00000000001	688071	688994	+	HIMB1413_00756	HIMB1413	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1413_00758	-2
+HIMB1413-00000000001	688987	690069	-	HIMB1413_00757	HIMB1413	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1413_00758	-1
+HIMB1413-00000000001	690100	691083	-	HIMB1413_00758	HIMB1413	327	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1413_00758	0
+HIMB1413-00000000001	691438	691908	+	HIMB1413_00759	HIMB1413	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1413_00758	1
+HIMB1413-00000000001	691949	693019	-	HIMB1413_00760	HIMB1413	356	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1413_00758	2
+HIMB1413-00000000001	693094	694383	-	HIMB1413_00761	HIMB1413	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1413_00758	3
+HIMB1413-00000000001	694383	694979	-	HIMB1413_00762	HIMB1413	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1413_00758	4
+HIMB1413-00000000001	695091	696056	+	HIMB1413_00763	HIMB1413	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1413_00758	5
+HIMB1430-00000000001	51921	52886	-	HIMB1430_00059	HIMB1430	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1430_00064	-5
+HIMB1430-00000000001	52999	53595	+	HIMB1430_00060	HIMB1430	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1430_00064	-4
+HIMB1430-00000000001	53595	54884	+	HIMB1430_00061	HIMB1430	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1430_00064	-3
+HIMB1430-00000000001	54971	56023	+	HIMB1430_00062	HIMB1430	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1430_00064	-2
+HIMB1430-00000000001	56064	56534	-	HIMB1430_00063	HIMB1430	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1430_00064	-1
+HIMB1430-00000000001	56640	57872	+	HIMB1430_00064	HIMB1430	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1430_00064	0
+HIMB1430-00000000001	57904	58986	+	HIMB1430_00065	HIMB1430	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1430_00064	1
+HIMB1430-00000000001	58979	59902	-	HIMB1430_00066	HIMB1430	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1430_00064	2
+HIMB1430-00000000001	59940	60860	-	HIMB1430_00067	HIMB1430	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1430_00064	3
+HIMB1430-00000000001	60871	61854	-	HIMB1430_00068	HIMB1430	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1430_00064	4
+HIMB1430-00000000001	61886	62755	-	HIMB1430_00069	HIMB1430	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1430_00064	5
+HIMB1444-00000000002	23518	24483	-	HIMB1444_00427	HIMB1444	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1444_00432	-5
+HIMB1444-00000000002	24595	25191	+	HIMB1444_00428	HIMB1444	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1444_00432	-4
+HIMB1444-00000000002	25191	26480	+	HIMB1444_00429	HIMB1444	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1444_00432	-3
+HIMB1444-00000000002	26571	27623	+	HIMB1444_00430	HIMB1444	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1444_00432	-2
+HIMB1444-00000000002	27664	28134	-	HIMB1444_00431	HIMB1444	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1444_00432	-1
+HIMB1444-00000000002	28489	29472	+	HIMB1444_00432	HIMB1444	327	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1444_00432	0
+HIMB1444-00000000002	29503	30585	+	HIMB1444_00433	HIMB1444	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1444_00432	1
+HIMB1444-00000000002	30578	31501	-	HIMB1444_00434	HIMB1444	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1444_00432	2
+HIMB1444-00000000002	31517	32497	-	HIMB1444_00435	HIMB1444	326	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1444_00432	3
+HIMB1444-00000000002	32529	33398	-	HIMB1444_00436	HIMB1444	289	OG0001287	NA	NA	NA	NA	NA	HIMB1444_00432	4
+HIMB1444-00000000002	33399	34343	-	HIMB1444_00437	HIMB1444	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	HIMB1444_00432	5
+HIMB1485-00000000002	709224	710189	-	HIMB1485_01231	HIMB1485	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1485_01236	-5
+HIMB1485-00000000002	710303	710899	+	HIMB1485_01232	HIMB1485	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1485_01236	-4
+HIMB1485-00000000002	710899	712188	+	HIMB1485_01233	HIMB1485	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1485_01236	-3
+HIMB1485-00000000002	712275	713327	+	HIMB1485_01234	HIMB1485	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1485_01236	-2
+HIMB1485-00000000002	713368	713838	-	HIMB1485_01235	HIMB1485	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1485_01236	-1
+HIMB1485-00000000002	713944	715176	+	HIMB1485_01236	HIMB1485	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1485_01236	0
+HIMB1485-00000000002	715208	716290	+	HIMB1485_01237	HIMB1485	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1485_01236	1
+HIMB1485-00000000002	716283	717203	-	HIMB1485_01238	HIMB1485	306	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1485_01236	2
+HIMB1485-00000000002	717215	718198	-	HIMB1485_01239	HIMB1485	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1485_01236	3
+HIMB1485-00000000002	718230	719099	-	HIMB1485_01240	HIMB1485	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1485_01236	4
+HIMB1485-00000000002	719099	720043	-	HIMB1485_01241	HIMB1485	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	HIMB1485_01236	5
+HIMB1488-00000000001	509242	510207	-	HIMB1488_00539	HIMB1488	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1488_00544	-5
+HIMB1488-00000000001	510320	510916	+	HIMB1488_00540	HIMB1488	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1488_00544	-4
+HIMB1488-00000000001	510916	512205	+	HIMB1488_00541	HIMB1488	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1488_00544	-3
+HIMB1488-00000000001	512292	513344	+	HIMB1488_00542	HIMB1488	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1488_00544	-2
+HIMB1488-00000000001	513385	513855	-	HIMB1488_00543	HIMB1488	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1488_00544	-1
+HIMB1488-00000000001	513961	515193	+	HIMB1488_00544	HIMB1488	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1488_00544	0
+HIMB1488-00000000001	515225	516307	+	HIMB1488_00545	HIMB1488	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1488_00544	1
+HIMB1488-00000000001	516300	517223	-	HIMB1488_00546	HIMB1488	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1488_00544	2
+HIMB1488-00000000001	517261	518181	-	HIMB1488_00547	HIMB1488	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1488_00544	3
+HIMB1488-00000000001	518192	519175	-	HIMB1488_00548	HIMB1488	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1488_00544	4
+HIMB1488-00000000001	519207	520076	-	HIMB1488_00549	HIMB1488	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1488_00544	5
+HIMB1490-00000000014	30502	31467	-	HIMB1490_01041	HIMB1490	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1490_01046	-5
+HIMB1490-00000000014	31580	32176	+	HIMB1490_01042	HIMB1490	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1490_01046	-4
+HIMB1490-00000000014	32176	33465	+	HIMB1490_01043	HIMB1490	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1490_01046	-3
+HIMB1490-00000000014	33552	34604	+	HIMB1490_01044	HIMB1490	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1490_01046	-2
+HIMB1490-00000000014	34645	35115	-	HIMB1490_01045	HIMB1490	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1490_01046	-1
+HIMB1490-00000000014	35221	36453	+	HIMB1490_01046	HIMB1490	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1490_01046	0
+HIMB1490-00000000014	36485	37567	+	HIMB1490_01047	HIMB1490	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1490_01046	1
+HIMB1490-00000000014	37560	38483	-	HIMB1490_01048	HIMB1490	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1490_01046	2
+HIMB1490-00000000014	38521	39441	-	HIMB1490_01049	HIMB1490	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1490_01046	3
+HIMB1490-00000000014	39452	40435	-	HIMB1490_01050	HIMB1490	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1490_01046	4
+HIMB1490-00000000014	40467	41336	-	HIMB1490_01051	HIMB1490	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1490_01046	5
+HIMB1491-00000000001	1404990	1405859	+	HIMB1491_01479	HIMB1491	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1491_01484	-5
+HIMB1491-00000000001	1405891	1406874	+	HIMB1491_01480	HIMB1491	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1491_01484	-4
+HIMB1491-00000000001	1406885	1407805	+	HIMB1491_01481	HIMB1491	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1491_01484	-3
+HIMB1491-00000000001	1407843	1408766	+	HIMB1491_01482	HIMB1491	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1491_01484	-2
+HIMB1491-00000000001	1408759	1409841	-	HIMB1491_01483	HIMB1491	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1491_01484	-1
+HIMB1491-00000000001	1409873	1411105	-	HIMB1491_01484	HIMB1491	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1491_01484	0
+HIMB1491-00000000001	1411211	1411681	+	HIMB1491_01485	HIMB1491	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1491_01484	1
+HIMB1491-00000000001	1411722	1412774	-	HIMB1491_01486	HIMB1491	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1491_01484	2
+HIMB1491-00000000001	1412861	1414150	-	HIMB1491_01487	HIMB1491	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1491_01484	3
+HIMB1491-00000000001	1414150	1414746	-	HIMB1491_01488	HIMB1491	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1491_01484	4
+HIMB1491-00000000001	1414859	1415824	+	HIMB1491_01489	HIMB1491	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1491_01484	5
+HIMB1492-00000000040	408	1640	+	HIMB1492_00614	HIMB1492	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1492_00614	0
+HIMB1492-00000000040	1672	2754	+	HIMB1492_00615	HIMB1492	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1492_00614	1
+HIMB1492-00000000040	2747	3670	-	HIMB1492_00616	HIMB1492	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1492_00614	2
+HIMB1492-00000000040	3708	4628	-	HIMB1492_00617	HIMB1492	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1492_00614	3
+HIMB1492-00000000040	4639	5622	-	HIMB1492_00618	HIMB1492	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1492_00614	4
+HIMB1492-00000000040	5654	6523	-	HIMB1492_00619	HIMB1492	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1492_00614	5
+HIMB1493-00000000001	688137	689006	+	HIMB1493_00747	HIMB1493	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1493_00752	-5
+HIMB1493-00000000001	689038	690021	+	HIMB1493_00748	HIMB1493	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1493_00752	-4
+HIMB1493-00000000001	690032	690952	+	HIMB1493_00749	HIMB1493	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1493_00752	-3
+HIMB1493-00000000001	690990	691913	+	HIMB1493_00750	HIMB1493	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1493_00752	-2
+HIMB1493-00000000001	691906	692988	-	HIMB1493_00751	HIMB1493	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1493_00752	-1
+HIMB1493-00000000001	693020	694252	-	HIMB1493_00752	HIMB1493	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1493_00752	0
+HIMB1493-00000000001	694358	694828	+	HIMB1493_00753	HIMB1493	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1493_00752	1
+HIMB1493-00000000001	694869	695921	-	HIMB1493_00754	HIMB1493	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1493_00752	2
+HIMB1493-00000000001	696008	697297	-	HIMB1493_00755	HIMB1493	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1493_00752	3
+HIMB1493-00000000001	697297	697893	-	HIMB1493_00756	HIMB1493	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1493_00752	4
+HIMB1493-00000000001	698006	698971	+	HIMB1493_00757	HIMB1493	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1493_00752	5
+HIMB1494-00000000001	730284	731249	-	HIMB1494_00763	HIMB1494	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1494_00768	-5
+HIMB1494-00000000001	731362	731958	+	HIMB1494_00764	HIMB1494	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1494_00768	-4
+HIMB1494-00000000001	731958	733247	+	HIMB1494_00765	HIMB1494	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1494_00768	-3
+HIMB1494-00000000001	733334	734386	+	HIMB1494_00766	HIMB1494	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1494_00768	-2
+HIMB1494-00000000001	734427	734897	-	HIMB1494_00767	HIMB1494	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1494_00768	-1
+HIMB1494-00000000001	735003	736235	+	HIMB1494_00768	HIMB1494	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1494_00768	0
+HIMB1494-00000000001	736267	737349	+	HIMB1494_00769	HIMB1494	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1494_00768	1
+HIMB1494-00000000001	737342	738265	-	HIMB1494_00770	HIMB1494	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1494_00768	2
+HIMB1494-00000000001	738303	739223	-	HIMB1494_00771	HIMB1494	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1494_00768	3
+HIMB1494-00000000001	739234	740217	-	HIMB1494_00772	HIMB1494	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1494_00768	4
+HIMB1494-00000000001	740249	741118	-	HIMB1494_00773	HIMB1494	289	OG0001287	NA	NA	NA	NA	NA	HIMB1494_00768	5
+HIMB1495-00000000001	706989	707954	-	HIMB1495_00741	HIMB1495	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1495_00746	-5
+HIMB1495-00000000001	708067	708663	+	HIMB1495_00742	HIMB1495	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1495_00746	-4
+HIMB1495-00000000001	708663	709952	+	HIMB1495_00743	HIMB1495	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1495_00746	-3
+HIMB1495-00000000001	710039	711091	+	HIMB1495_00744	HIMB1495	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1495_00746	-2
+HIMB1495-00000000001	711132	711602	-	HIMB1495_00745	HIMB1495	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1495_00746	-1
+HIMB1495-00000000001	711708	712940	+	HIMB1495_00746	HIMB1495	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1495_00746	0
+HIMB1495-00000000001	712972	714054	+	HIMB1495_00747	HIMB1495	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1495_00746	1
+HIMB1495-00000000001	714047	714970	-	HIMB1495_00748	HIMB1495	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1495_00746	2
+HIMB1495-00000000001	715008	715928	-	HIMB1495_00749	HIMB1495	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1495_00746	3
+HIMB1495-00000000001	715939	716922	-	HIMB1495_00750	HIMB1495	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1495_00746	4
+HIMB1495-00000000001	716954	717823	-	HIMB1495_00751	HIMB1495	289	OG0001287	NA	NA	NA	NA	NA	HIMB1495_00746	5
+HIMB1506-00000000001	763147	764016	+	HIMB1506_00836	HIMB1506	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1506_00841	-5
+HIMB1506-00000000001	764048	765031	+	HIMB1506_00837	HIMB1506	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1506_00841	-4
+HIMB1506-00000000001	765043	765963	+	HIMB1506_00838	HIMB1506	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1506_00841	-3
+HIMB1506-00000000001	766001	766924	+	HIMB1506_00839	HIMB1506	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1506_00841	-2
+HIMB1506-00000000001	766917	767999	-	HIMB1506_00840	HIMB1506	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1506_00841	-1
+HIMB1506-00000000001	768031	769263	-	HIMB1506_00841	HIMB1506	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1506_00841	0
+HIMB1506-00000000001	769369	769839	+	HIMB1506_00842	HIMB1506	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1506_00841	1
+HIMB1506-00000000001	769880	770932	-	HIMB1506_00843	HIMB1506	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1506_00841	2
+HIMB1506-00000000001	771019	772308	-	HIMB1506_00844	HIMB1506	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1506_00841	3
+HIMB1506-00000000001	772308	772904	-	HIMB1506_00845	HIMB1506	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1506_00841	4
+HIMB1506-00000000001	773017	773982	+	HIMB1506_00846	HIMB1506	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1506_00841	5
+HIMB1507-00000000001	1416088	1416957	+	HIMB1507_01505	HIMB1507	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1507_01510	-5
+HIMB1507-00000000001	1416989	1417972	+	HIMB1507_01506	HIMB1507	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1507_01510	-4
+HIMB1507-00000000001	1417983	1418903	+	HIMB1507_01507	HIMB1507	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1507_01510	-3
+HIMB1507-00000000001	1418941	1419864	+	HIMB1507_01508	HIMB1507	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1507_01510	-2
+HIMB1507-00000000001	1419857	1420939	-	HIMB1507_01509	HIMB1507	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1507_01510	-1
+HIMB1507-00000000001	1420971	1422203	-	HIMB1507_01510	HIMB1507	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1507_01510	0
+HIMB1507-00000000001	1422309	1422779	+	HIMB1507_01511	HIMB1507	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1507_01510	1
+HIMB1507-00000000001	1422820	1423872	-	HIMB1507_01512	HIMB1507	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1507_01510	2
+HIMB1507-00000000001	1423959	1425248	-	HIMB1507_01513	HIMB1507	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1507_01510	3
+HIMB1507-00000000001	1425248	1425844	-	HIMB1507_01514	HIMB1507	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1507_01510	4
+HIMB1507-00000000001	1425957	1426922	+	HIMB1507_01515	HIMB1507	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1507_01510	5
+HIMB1509-00000000001	682555	683520	-	HIMB1509_00709	HIMB1509	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1509_00714	-5
+HIMB1509-00000000001	683634	684230	+	HIMB1509_00710	HIMB1509	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1509_00714	-4
+HIMB1509-00000000001	684230	685519	+	HIMB1509_00711	HIMB1509	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1509_00714	-3
+HIMB1509-00000000001	685607	686659	+	HIMB1509_00712	HIMB1509	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1509_00714	-2
+HIMB1509-00000000001	686700	687170	-	HIMB1509_00713	HIMB1509	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1509_00714	-1
+HIMB1509-00000000001	687276	688508	+	HIMB1509_00714	HIMB1509	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1509_00714	0
+HIMB1509-00000000001	688540	689622	+	HIMB1509_00715	HIMB1509	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1509_00714	1
+HIMB1509-00000000001	689615	690538	-	HIMB1509_00716	HIMB1509	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1509_00714	2
+HIMB1509-00000000001	690576	691496	-	HIMB1509_00717	HIMB1509	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1509_00714	3
+HIMB1509-00000000001	691507	692490	-	HIMB1509_00718	HIMB1509	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1509_00714	4
+HIMB1509-00000000001	692522	693391	-	HIMB1509_00719	HIMB1509	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1509_00714	5
+HIMB1513-00000000001	1377685	1378554	+	HIMB1513_01460	HIMB1513	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1513_01465	-5
+HIMB1513-00000000001	1378586	1379569	+	HIMB1513_01461	HIMB1513	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1513_01465	-4
+HIMB1513-00000000001	1379580	1380500	+	HIMB1513_01462	HIMB1513	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1513_01465	-3
+HIMB1513-00000000001	1380538	1381461	+	HIMB1513_01463	HIMB1513	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1513_01465	-2
+HIMB1513-00000000001	1381454	1382536	-	HIMB1513_01464	HIMB1513	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1513_01465	-1
+HIMB1513-00000000001	1382568	1383800	-	HIMB1513_01465	HIMB1513	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1513_01465	0
+HIMB1513-00000000001	1383906	1384376	+	HIMB1513_01466	HIMB1513	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1513_01465	1
+HIMB1513-00000000001	1384417	1385469	-	HIMB1513_01467	HIMB1513	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1513_01465	2
+HIMB1513-00000000001	1385556	1386845	-	HIMB1513_01468	HIMB1513	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1513_01465	3
+HIMB1513-00000000001	1386845	1387441	-	HIMB1513_01469	HIMB1513	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1513_01465	4
+HIMB1513-00000000001	1387554	1388519	+	HIMB1513_01470	HIMB1513	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1513_01465	5
+HIMB1518-00000000001	843588	844457	+	HIMB1518_00902	HIMB1518	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1518_00907	-5
+HIMB1518-00000000001	844489	845472	+	HIMB1518_00903	HIMB1518	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1518_00907	-4
+HIMB1518-00000000001	845483	846403	+	HIMB1518_00904	HIMB1518	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1518_00907	-3
+HIMB1518-00000000001	846441	847364	+	HIMB1518_00905	HIMB1518	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1518_00907	-2
+HIMB1518-00000000001	847357	848439	-	HIMB1518_00906	HIMB1518	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1518_00907	-1
+HIMB1518-00000000001	848471	849703	-	HIMB1518_00907	HIMB1518	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1518_00907	0
+HIMB1518-00000000001	849809	850279	+	HIMB1518_00908	HIMB1518	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1518_00907	1
+HIMB1518-00000000001	850320	851372	-	HIMB1518_00909	HIMB1518	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1518_00907	2
+HIMB1518-00000000001	851459	852748	-	HIMB1518_00910	HIMB1518	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1518_00907	3
+HIMB1518-00000000001	852748	853344	-	HIMB1518_00911	HIMB1518	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1518_00907	4
+HIMB1518-00000000001	853457	854422	+	HIMB1518_00912	HIMB1518	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1518_00907	5
+HIMB1521-00000000005	55986	56855	+	HIMB1521_00556	HIMB1521	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1521_00561	-5
+HIMB1521-00000000005	56887	57870	+	HIMB1521_00557	HIMB1521	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1521_00561	-4
+HIMB1521-00000000005	57881	58801	+	HIMB1521_00558	HIMB1521	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1521_00561	-3
+HIMB1521-00000000005	58839	59762	+	HIMB1521_00559	HIMB1521	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1521_00561	-2
+HIMB1521-00000000005	59755	60837	-	HIMB1521_00560	HIMB1521	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1521_00561	-1
+HIMB1521-00000000005	60869	62101	-	HIMB1521_00561	HIMB1521	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1521_00561	0
+HIMB1521-00000000005	62207	62677	+	HIMB1521_00562	HIMB1521	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1521_00561	1
+HIMB1521-00000000005	62718	63770	-	HIMB1521_00563	HIMB1521	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1521_00561	2
+HIMB1521-00000000005	63857	65146	-	HIMB1521_00564	HIMB1521	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1521_00561	3
+HIMB1521-00000000005	65146	65742	-	HIMB1521_00565	HIMB1521	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1521_00561	4
+HIMB1521-00000000005	65855	66820	+	HIMB1521_00566	HIMB1521	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1521_00561	5
+HIMB1526-00000000001	577261	578226	-	HIMB1526_00597	HIMB1526	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1526_00602	-5
+HIMB1526-00000000001	578339	578935	+	HIMB1526_00598	HIMB1526	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1526_00602	-4
+HIMB1526-00000000001	578935	580224	+	HIMB1526_00599	HIMB1526	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1526_00602	-3
+HIMB1526-00000000001	580311	581363	+	HIMB1526_00600	HIMB1526	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1526_00602	-2
+HIMB1526-00000000001	581404	581874	-	HIMB1526_00601	HIMB1526	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1526_00602	-1
+HIMB1526-00000000001	581980	583212	+	HIMB1526_00602	HIMB1526	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1526_00602	0
+HIMB1526-00000000001	583244	584326	+	HIMB1526_00603	HIMB1526	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1526_00602	1
+HIMB1526-00000000001	584319	585242	-	HIMB1526_00604	HIMB1526	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1526_00602	2
+HIMB1526-00000000001	585280	586200	-	HIMB1526_00605	HIMB1526	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1526_00602	3
+HIMB1526-00000000001	586211	587194	-	HIMB1526_00606	HIMB1526	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1526_00602	4
+HIMB1526-00000000001	587226	588095	-	HIMB1526_00607	HIMB1526	289	OG0001287	NA	NA	NA	NA	NA	HIMB1526_00602	5
+HIMB1552-00000000001	127623	128588	-	HIMB1552_00133	HIMB1552	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1552_00138	-5
+HIMB1552-00000000001	128701	129297	+	HIMB1552_00134	HIMB1552	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1552_00138	-4
+HIMB1552-00000000001	129297	130586	+	HIMB1552_00135	HIMB1552	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1552_00138	-3
+HIMB1552-00000000001	130673	131725	+	HIMB1552_00136	HIMB1552	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1552_00138	-2
+HIMB1552-00000000001	131766	132236	-	HIMB1552_00137	HIMB1552	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1552_00138	-1
+HIMB1552-00000000001	132342	133574	+	HIMB1552_00138	HIMB1552	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1552_00138	0
+HIMB1552-00000000001	133606	134688	+	HIMB1552_00139	HIMB1552	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1552_00138	1
+HIMB1552-00000000001	134681	135604	-	HIMB1552_00140	HIMB1552	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1552_00138	2
+HIMB1552-00000000001	135642	136562	-	HIMB1552_00141	HIMB1552	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1552_00138	3
+HIMB1552-00000000001	136573	137556	-	HIMB1552_00142	HIMB1552	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1552_00138	4
+HIMB1552-00000000001	137588	138457	-	HIMB1552_00143	HIMB1552	289	OG0001287	NA	NA	NA	NA	NA	HIMB1552_00138	5
+HIMB1556-00000000001	1326575	1327444	+	HIMB1556_01402	HIMB1556	289	OG0001287	NA	NA	NA	NA	NA	HIMB1556_01407	-5
+HIMB1556-00000000001	1327476	1328459	+	HIMB1556_01403	HIMB1556	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1556_01407	-4
+HIMB1556-00000000001	1328470	1329390	+	HIMB1556_01404	HIMB1556	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1556_01407	-3
+HIMB1556-00000000001	1329428	1330351	+	HIMB1556_01405	HIMB1556	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1556_01407	-2
+HIMB1556-00000000001	1330344	1331426	-	HIMB1556_01406	HIMB1556	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1556_01407	-1
+HIMB1556-00000000001	1331458	1332690	-	HIMB1556_01407	HIMB1556	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1556_01407	0
+HIMB1556-00000000001	1332796	1333266	+	HIMB1556_01408	HIMB1556	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1556_01407	1
+HIMB1556-00000000001	1333307	1334359	-	HIMB1556_01409	HIMB1556	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1556_01407	2
+HIMB1556-00000000001	1334446	1335735	-	HIMB1556_01410	HIMB1556	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1556_01407	3
+HIMB1556-00000000001	1335735	1336331	-	HIMB1556_01411	HIMB1556	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1556_01407	4
+HIMB1556-00000000001	1336444	1337409	+	HIMB1556_01412	HIMB1556	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1556_01407	5
+HIMB1559-00000000001	51819	52784	-	HIMB1559_00059	HIMB1559	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1559_00064	-5
+HIMB1559-00000000001	52897	53490	+	HIMB1559_00060	HIMB1559	197	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1559_00064	-4
+HIMB1559-00000000001	53493	54782	+	HIMB1559_00061	HIMB1559	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1559_00064	-3
+HIMB1559-00000000001	54868	55920	+	HIMB1559_00062	HIMB1559	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1559_00064	-2
+HIMB1559-00000000001	55961	56431	-	HIMB1559_00063	HIMB1559	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1559_00064	-1
+HIMB1559-00000000001	56537	57769	+	HIMB1559_00064	HIMB1559	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1559_00064	0
+HIMB1559-00000000001	57801	58883	+	HIMB1559_00065	HIMB1559	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1559_00064	1
+HIMB1559-00000000001	58876	59799	-	HIMB1559_00066	HIMB1559	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1559_00064	2
+HIMB1559-00000000001	59837	60757	-	HIMB1559_00067	HIMB1559	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1559_00064	3
+HIMB1559-00000000001	60769	61752	-	HIMB1559_00068	HIMB1559	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1559_00064	4
+HIMB1559-00000000001	61784	62653	-	HIMB1559_00069	HIMB1559	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1559_00064	5
+HIMB1573-00000000001	1382598	1383467	+	HIMB1573_01497	HIMB1573	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1573_01502	-5
+HIMB1573-00000000001	1383499	1384482	+	HIMB1573_01498	HIMB1573	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1573_01502	-4
+HIMB1573-00000000001	1384493	1385413	+	HIMB1573_01499	HIMB1573	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1573_01502	-3
+HIMB1573-00000000001	1385451	1386374	+	HIMB1573_01500	HIMB1573	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1573_01502	-2
+HIMB1573-00000000001	1386367	1387449	-	HIMB1573_01501	HIMB1573	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1573_01502	-1
+HIMB1573-00000000001	1387481	1388713	-	HIMB1573_01502	HIMB1573	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1573_01502	0
+HIMB1573-00000000001	1388819	1389289	+	HIMB1573_01503	HIMB1573	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1573_01502	1
+HIMB1573-00000000001	1389330	1390382	-	HIMB1573_01504	HIMB1573	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1573_01502	2
+HIMB1573-00000000001	1390469	1391758	-	HIMB1573_01505	HIMB1573	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1573_01502	3
+HIMB1573-00000000001	1391758	1392354	-	HIMB1573_01506	HIMB1573	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1573_01502	4
+HIMB1573-00000000001	1392467	1393432	+	HIMB1573_01507	HIMB1573	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1573_01502	5
+HIMB1577-00000000001	1166126	1167091	-	HIMB1577_01237	HIMB1577	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1577_01242	-5
+HIMB1577-00000000001	1167204	1167800	+	HIMB1577_01238	HIMB1577	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1577_01242	-4
+HIMB1577-00000000001	1167800	1169089	+	HIMB1577_01239	HIMB1577	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1577_01242	-3
+HIMB1577-00000000001	1169178	1170230	+	HIMB1577_01240	HIMB1577	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1577_01242	-2
+HIMB1577-00000000001	1170271	1170741	-	HIMB1577_01241	HIMB1577	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1577_01242	-1
+HIMB1577-00000000001	1170847	1172079	+	HIMB1577_01242	HIMB1577	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1577_01242	0
+HIMB1577-00000000001	1172111	1173193	+	HIMB1577_01243	HIMB1577	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1577_01242	1
+HIMB1577-00000000001	1173190	1174110	-	HIMB1577_01244	HIMB1577	306	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1577_01242	2
+HIMB1577-00000000001	1174148	1175068	-	HIMB1577_01245	HIMB1577	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1577_01242	3
+HIMB1577-00000000001	1175080	1176063	-	HIMB1577_01246	HIMB1577	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1577_01242	4
+HIMB1577-00000000001	1176095	1176964	-	HIMB1577_01247	HIMB1577	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1577_01242	5
+HIMB1587-00000000001	52019	52984	-	HIMB1587_00059	HIMB1587	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1587_00064	-5
+HIMB1587-00000000001	53097	53690	+	HIMB1587_00060	HIMB1587	197	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1587_00064	-4
+HIMB1587-00000000001	53693	54982	+	HIMB1587_00061	HIMB1587	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1587_00064	-3
+HIMB1587-00000000001	55068	56120	+	HIMB1587_00062	HIMB1587	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1587_00064	-2
+HIMB1587-00000000001	56161	56631	-	HIMB1587_00063	HIMB1587	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1587_00064	-1
+HIMB1587-00000000001	56737	57969	+	HIMB1587_00064	HIMB1587	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1587_00064	0
+HIMB1587-00000000001	58001	59083	+	HIMB1587_00065	HIMB1587	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1587_00064	1
+HIMB1587-00000000001	59076	59999	-	HIMB1587_00066	HIMB1587	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1587_00064	2
+HIMB1587-00000000001	60037	60957	-	HIMB1587_00067	HIMB1587	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1587_00064	3
+HIMB1587-00000000001	60969	61952	-	HIMB1587_00068	HIMB1587	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1587_00064	4
+HIMB1587-00000000001	61984	62853	-	HIMB1587_00069	HIMB1587	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1587_00064	5
+HIMB1593-00000000001	719807	720772	-	HIMB1593_00747	HIMB1593	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1593_00752	-5
+HIMB1593-00000000001	720885	721481	+	HIMB1593_00748	HIMB1593	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1593_00752	-4
+HIMB1593-00000000001	721481	722770	+	HIMB1593_00749	HIMB1593	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1593_00752	-3
+HIMB1593-00000000001	722857	723909	+	HIMB1593_00750	HIMB1593	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1593_00752	-2
+HIMB1593-00000000001	723950	724420	-	HIMB1593_00751	HIMB1593	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1593_00752	-1
+HIMB1593-00000000001	724526	725758	+	HIMB1593_00752	HIMB1593	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1593_00752	0
+HIMB1593-00000000001	725790	726872	+	HIMB1593_00753	HIMB1593	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1593_00752	1
+HIMB1593-00000000001	726865	727788	-	HIMB1593_00754	HIMB1593	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1593_00752	2
+HIMB1593-00000000001	727826	728746	-	HIMB1593_00755	HIMB1593	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1593_00752	3
+HIMB1593-00000000001	728757	729740	-	HIMB1593_00756	HIMB1593	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1593_00752	4
+HIMB1593-00000000001	729772	730641	-	HIMB1593_00757	HIMB1593	289	OG0001287	NA	NA	NA	NA	NA	HIMB1593_00752	5
+HIMB1597-00000000001	259288	260157	+	HIMB1597_00286	HIMB1597	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1597_00291	-5
+HIMB1597-00000000001	260189	261172	+	HIMB1597_00287	HIMB1597	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1597_00291	-4
+HIMB1597-00000000001	261184	262104	+	HIMB1597_00288	HIMB1597	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1597_00291	-3
+HIMB1597-00000000001	262142	263065	+	HIMB1597_00289	HIMB1597	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1597_00291	-2
+HIMB1597-00000000001	263058	264140	-	HIMB1597_00290	HIMB1597	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1597_00291	-1
+HIMB1597-00000000001	264172	265404	-	HIMB1597_00291	HIMB1597	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1597_00291	0
+HIMB1597-00000000001	265510	265980	+	HIMB1597_00292	HIMB1597	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1597_00291	1
+HIMB1597-00000000001	266021	267073	-	HIMB1597_00293	HIMB1597	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1597_00291	2
+HIMB1597-00000000001	267159	268448	-	HIMB1597_00294	HIMB1597	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1597_00291	3
+HIMB1597-00000000001	268451	269044	-	HIMB1597_00295	HIMB1597	197	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1597_00291	4
+HIMB1597-00000000001	269157	270122	+	HIMB1597_00296	HIMB1597	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1597_00291	5
+HIMB1611-00000000001	731800	732669	+	HIMB1611_00820	HIMB1611	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1611_00825	-5
+HIMB1611-00000000001	732701	733684	+	HIMB1611_00821	HIMB1611	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1611_00825	-4
+HIMB1611-00000000001	733695	734615	+	HIMB1611_00822	HIMB1611	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1611_00825	-3
+HIMB1611-00000000001	734653	735576	+	HIMB1611_00823	HIMB1611	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1611_00825	-2
+HIMB1611-00000000001	735569	736651	-	HIMB1611_00824	HIMB1611	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1611_00825	-1
+HIMB1611-00000000001	736683	737915	-	HIMB1611_00825	HIMB1611	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1611_00825	0
+HIMB1611-00000000001	738021	738491	+	HIMB1611_00826	HIMB1611	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1611_00825	1
+HIMB1611-00000000001	738532	739584	-	HIMB1611_00827	HIMB1611	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1611_00825	2
+HIMB1611-00000000001	739671	740960	-	HIMB1611_00828	HIMB1611	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1611_00825	3
+HIMB1611-00000000001	740960	741556	-	HIMB1611_00829	HIMB1611	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1611_00825	4
+HIMB1611-00000000001	741669	742634	+	HIMB1611_00830	HIMB1611	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1611_00825	5
+HIMB1623-00000000001	170999	171868	+	HIMB1623_00188	HIMB1623	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1623_00193	-5
+HIMB1623-00000000001	171900	172883	+	HIMB1623_00189	HIMB1623	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1623_00193	-4
+HIMB1623-00000000001	172895	173815	+	HIMB1623_00190	HIMB1623	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1623_00193	-3
+HIMB1623-00000000001	173853	174776	+	HIMB1623_00191	HIMB1623	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1623_00193	-2
+HIMB1623-00000000001	174769	175851	-	HIMB1623_00192	HIMB1623	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1623_00193	-1
+HIMB1623-00000000001	175883	177115	-	HIMB1623_00193	HIMB1623	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1623_00193	0
+HIMB1623-00000000001	177221	177691	+	HIMB1623_00194	HIMB1623	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1623_00193	1
+HIMB1623-00000000001	177732	178784	-	HIMB1623_00195	HIMB1623	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1623_00193	2
+HIMB1623-00000000001	178871	180160	-	HIMB1623_00196	HIMB1623	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1623_00193	3
+HIMB1623-00000000001	180160	180756	-	HIMB1623_00197	HIMB1623	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1623_00193	4
+HIMB1623-00000000001	180870	181835	+	HIMB1623_00198	HIMB1623	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1623_00193	5
+HIMB1631-00000000001	51414	52379	-	HIMB1631_00058	HIMB1631	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1631_00063	-5
+HIMB1631-00000000001	52492	53088	+	HIMB1631_00059	HIMB1631	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1631_00063	-4
+HIMB1631-00000000001	53088	54377	+	HIMB1631_00060	HIMB1631	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1631_00063	-3
+HIMB1631-00000000001	54466	55518	+	HIMB1631_00061	HIMB1631	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1631_00063	-2
+HIMB1631-00000000001	55559	56029	-	HIMB1631_00062	HIMB1631	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1631_00063	-1
+HIMB1631-00000000001	56135	57367	+	HIMB1631_00063	HIMB1631	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1631_00063	0
+HIMB1631-00000000001	57399	58481	+	HIMB1631_00064	HIMB1631	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1631_00063	1
+HIMB1631-00000000001	58478	59398	-	HIMB1631_00065	HIMB1631	306	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1631_00063	2
+HIMB1631-00000000001	59436	60356	-	HIMB1631_00066	HIMB1631	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1631_00063	3
+HIMB1631-00000000001	60368	61351	-	HIMB1631_00067	HIMB1631	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1631_00063	4
+HIMB1631-00000000001	61383	62252	-	HIMB1631_00068	HIMB1631	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1631_00063	5
+HIMB1636-00000000001	706820	707689	+	HIMB1636_00753	HIMB1636	289	OG0001287	NA	NA	NA	NA	NA	HIMB1636_00758	-5
+HIMB1636-00000000001	707721	708704	+	HIMB1636_00754	HIMB1636	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1636_00758	-4
+HIMB1636-00000000001	708715	709635	+	HIMB1636_00755	HIMB1636	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1636_00758	-3
+HIMB1636-00000000001	709673	710596	+	HIMB1636_00756	HIMB1636	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1636_00758	-2
+HIMB1636-00000000001	710589	711671	-	HIMB1636_00757	HIMB1636	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1636_00758	-1
+HIMB1636-00000000001	711703	712935	-	HIMB1636_00758	HIMB1636	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1636_00758	0
+HIMB1636-00000000001	713041	713511	+	HIMB1636_00759	HIMB1636	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1636_00758	1
+HIMB1636-00000000001	713552	714604	-	HIMB1636_00760	HIMB1636	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1636_00758	2
+HIMB1636-00000000001	714691	715980	-	HIMB1636_00761	HIMB1636	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1636_00758	3
+HIMB1636-00000000001	715980	716576	-	HIMB1636_00762	HIMB1636	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1636_00758	4
+HIMB1636-00000000001	716689	717654	+	HIMB1636_00763	HIMB1636	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1636_00758	5
+HIMB1641-00000000001	1299943	1300812	+	HIMB1641_01367	HIMB1641	289	OG0001287	NA	NA	NA	NA	NA	HIMB1641_01372	-5
+HIMB1641-00000000001	1300844	1301827	+	HIMB1641_01368	HIMB1641	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1641_01372	-4
+HIMB1641-00000000001	1301838	1302758	+	HIMB1641_01369	HIMB1641	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1641_01372	-3
+HIMB1641-00000000001	1302796	1303719	+	HIMB1641_01370	HIMB1641	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1641_01372	-2
+HIMB1641-00000000001	1303712	1304794	-	HIMB1641_01371	HIMB1641	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1641_01372	-1
+HIMB1641-00000000001	1304826	1306058	-	HIMB1641_01372	HIMB1641	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1641_01372	0
+HIMB1641-00000000001	1306164	1306634	+	HIMB1641_01373	HIMB1641	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1641_01372	1
+HIMB1641-00000000001	1306675	1307727	-	HIMB1641_01374	HIMB1641	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1641_01372	2
+HIMB1641-00000000001	1307814	1309103	-	HIMB1641_01375	HIMB1641	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1641_01372	3
+HIMB1641-00000000001	1309103	1309699	-	HIMB1641_01376	HIMB1641	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1641_01372	4
+HIMB1641-00000000001	1309812	1310777	+	HIMB1641_01377	HIMB1641	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1641_01372	5
+HIMB1662-00000000001	1281995	1282864	+	HIMB1662_01367	HIMB1662	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1662_01372	-5
+HIMB1662-00000000001	1282896	1283879	+	HIMB1662_01368	HIMB1662	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1662_01372	-4
+HIMB1662-00000000001	1283891	1284811	+	HIMB1662_01369	HIMB1662	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1662_01372	-3
+HIMB1662-00000000001	1284849	1285772	+	HIMB1662_01370	HIMB1662	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1662_01372	-2
+HIMB1662-00000000001	1285765	1286847	-	HIMB1662_01371	HIMB1662	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1662_01372	-1
+HIMB1662-00000000001	1286879	1288111	-	HIMB1662_01372	HIMB1662	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1662_01372	0
+HIMB1662-00000000001	1288217	1288687	+	HIMB1662_01373	HIMB1662	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1662_01372	1
+HIMB1662-00000000001	1288728	1289780	-	HIMB1662_01374	HIMB1662	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1662_01372	2
+HIMB1662-00000000001	1289867	1291156	-	HIMB1662_01375	HIMB1662	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1662_01372	3
+HIMB1662-00000000001	1291156	1291752	-	HIMB1662_01376	HIMB1662	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1662_01372	4
+HIMB1662-00000000001	1291865	1292830	+	HIMB1662_01377	HIMB1662	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1662_01372	5
+HIMB1685-00000000001	422510	423379	+	HIMB1685_00481	HIMB1685	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1685_00486	-5
+HIMB1685-00000000001	423411	424394	+	HIMB1685_00482	HIMB1685	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1685_00486	-4
+HIMB1685-00000000001	424406	425326	+	HIMB1685_00483	HIMB1685	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1685_00486	-3
+HIMB1685-00000000001	425364	426287	+	HIMB1685_00484	HIMB1685	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1685_00486	-2
+HIMB1685-00000000001	426280	427362	-	HIMB1685_00485	HIMB1685	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1685_00486	-1
+HIMB1685-00000000001	427394	428626	-	HIMB1685_00486	HIMB1685	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1685_00486	0
+HIMB1685-00000000001	428732	429202	+	HIMB1685_00487	HIMB1685	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1685_00486	1
+HIMB1685-00000000001	429243	430295	-	HIMB1685_00488	HIMB1685	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1685_00486	2
+HIMB1685-00000000001	430382	431671	-	HIMB1685_00489	HIMB1685	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1685_00486	3
+HIMB1685-00000000001	431671	432267	-	HIMB1685_00490	HIMB1685	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1685_00486	4
+HIMB1685-00000000001	432380	433345	+	HIMB1685_00491	HIMB1685	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1685_00486	5
+HIMB1695-00000000001	509030	509899	+	HIMB1695_00568	HIMB1695	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1695_00573	-5
+HIMB1695-00000000001	509931	510914	+	HIMB1695_00569	HIMB1695	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1695_00573	-4
+HIMB1695-00000000001	510925	511845	+	HIMB1695_00570	HIMB1695	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1695_00573	-3
+HIMB1695-00000000001	511883	512806	+	HIMB1695_00571	HIMB1695	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1695_00573	-2
+HIMB1695-00000000001	512799	513881	-	HIMB1695_00572	HIMB1695	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1695_00573	-1
+HIMB1695-00000000001	513913	515145	-	HIMB1695_00573	HIMB1695	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1695_00573	0
+HIMB1695-00000000001	515251	515721	+	HIMB1695_00574	HIMB1695	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1695_00573	1
+HIMB1695-00000000001	515762	516814	-	HIMB1695_00575	HIMB1695	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1695_00573	2
+HIMB1695-00000000001	516901	518190	-	HIMB1695_00576	HIMB1695	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1695_00573	3
+HIMB1695-00000000001	518190	518786	-	HIMB1695_00577	HIMB1695	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1695_00573	4
+HIMB1695-00000000001	518899	519864	+	HIMB1695_00578	HIMB1695	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1695_00573	5
+HIMB1701-00000000001	438584	439453	+	HIMB1701_00503	HIMB1701	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1701_00508	-5
+HIMB1701-00000000001	439485	440468	+	HIMB1701_00504	HIMB1701	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1701_00508	-4
+HIMB1701-00000000001	440479	441399	+	HIMB1701_00505	HIMB1701	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1701_00508	-3
+HIMB1701-00000000001	441437	442360	+	HIMB1701_00506	HIMB1701	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1701_00508	-2
+HIMB1701-00000000001	442353	443435	-	HIMB1701_00507	HIMB1701	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1701_00508	-1
+HIMB1701-00000000001	443467	444699	-	HIMB1701_00508	HIMB1701	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1701_00508	0
+HIMB1701-00000000001	444805	445275	+	HIMB1701_00509	HIMB1701	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1701_00508	1
+HIMB1701-00000000001	445316	446368	-	HIMB1701_00510	HIMB1701	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1701_00508	2
+HIMB1701-00000000001	446455	447744	-	HIMB1701_00511	HIMB1701	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1701_00508	3
+HIMB1701-00000000001	447744	448340	-	HIMB1701_00512	HIMB1701	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1701_00508	4
+HIMB1701-00000000001	448453	449418	+	HIMB1701_00513	HIMB1701	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1701_00508	5
+HIMB1702-00000000001	717642	718607	-	HIMB1702_00743	HIMB1702	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1702_00748	-5
+HIMB1702-00000000001	718720	719316	+	HIMB1702_00744	HIMB1702	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1702_00748	-4
+HIMB1702-00000000001	719316	720605	+	HIMB1702_00745	HIMB1702	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1702_00748	-3
+HIMB1702-00000000001	720692	721744	+	HIMB1702_00746	HIMB1702	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1702_00748	-2
+HIMB1702-00000000001	721785	722255	-	HIMB1702_00747	HIMB1702	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1702_00748	-1
+HIMB1702-00000000001	722361	723593	+	HIMB1702_00748	HIMB1702	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1702_00748	0
+HIMB1702-00000000001	723625	724707	+	HIMB1702_00749	HIMB1702	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1702_00748	1
+HIMB1702-00000000001	724700	725623	-	HIMB1702_00750	HIMB1702	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1702_00748	2
+HIMB1702-00000000001	725661	726581	-	HIMB1702_00751	HIMB1702	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1702_00748	3
+HIMB1702-00000000001	726592	727575	-	HIMB1702_00752	HIMB1702	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1702_00748	4
+HIMB1702-00000000001	727607	728476	-	HIMB1702_00753	HIMB1702	289	OG0001287	NA	NA	NA	NA	NA	HIMB1702_00748	5
+HIMB1709-00000000001	491841	492710	+	HIMB1709_00556	HIMB1709	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1709_00561	-5
+HIMB1709-00000000001	492742	493725	+	HIMB1709_00557	HIMB1709	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1709_00561	-4
+HIMB1709-00000000001	493737	494657	+	HIMB1709_00558	HIMB1709	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1709_00561	-3
+HIMB1709-00000000001	494695	495618	+	HIMB1709_00559	HIMB1709	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1709_00561	-2
+HIMB1709-00000000001	495611	496693	-	HIMB1709_00560	HIMB1709	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1709_00561	-1
+HIMB1709-00000000001	496725	497957	-	HIMB1709_00561	HIMB1709	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1709_00561	0
+HIMB1709-00000000001	498063	498533	+	HIMB1709_00562	HIMB1709	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1709_00561	1
+HIMB1709-00000000001	498574	499626	-	HIMB1709_00563	HIMB1709	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1709_00561	2
+HIMB1709-00000000001	499713	501002	-	HIMB1709_00564	HIMB1709	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1709_00561	3
+HIMB1709-00000000001	501002	501598	-	HIMB1709_00565	HIMB1709	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1709_00561	4
+HIMB1709-00000000001	501712	502677	+	HIMB1709_00566	HIMB1709	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1709_00561	5
+HIMB1710-00000000003	694604	695569	-	HIMB1710_00737	HIMB1710	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1710_00742	-5
+HIMB1710-00000000003	695682	696278	+	HIMB1710_00738	HIMB1710	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1710_00742	-4
+HIMB1710-00000000003	696278	697567	+	HIMB1710_00739	HIMB1710	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1710_00742	-3
+HIMB1710-00000000003	697654	698706	+	HIMB1710_00740	HIMB1710	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1710_00742	-2
+HIMB1710-00000000003	698747	699217	-	HIMB1710_00741	HIMB1710	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1710_00742	-1
+HIMB1710-00000000003	699323	700555	+	HIMB1710_00742	HIMB1710	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1710_00742	0
+HIMB1710-00000000003	700587	701669	+	HIMB1710_00743	HIMB1710	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1710_00742	1
+HIMB1710-00000000003	701662	702585	-	HIMB1710_00744	HIMB1710	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1710_00742	2
+HIMB1710-00000000003	702623	703543	-	HIMB1710_00745	HIMB1710	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1710_00742	3
+HIMB1710-00000000003	703554	704537	-	HIMB1710_00746	HIMB1710	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1710_00742	4
+HIMB1710-00000000003	704569	705438	-	HIMB1710_00747	HIMB1710	289	OG0001287	NA	NA	NA	NA	NA	HIMB1710_00742	5
+HIMB1715-00000000005	34593	35462	+	HIMB1715_00530	HIMB1715	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1715_00535	-5
+HIMB1715-00000000005	35494	36477	+	HIMB1715_00531	HIMB1715	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1715_00535	-4
+HIMB1715-00000000005	36488	37408	+	HIMB1715_00532	HIMB1715	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1715_00535	-3
+HIMB1715-00000000005	37446	38369	+	HIMB1715_00533	HIMB1715	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1715_00535	-2
+HIMB1715-00000000005	38362	39444	-	HIMB1715_00534	HIMB1715	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1715_00535	-1
+HIMB1715-00000000005	39476	40708	-	HIMB1715_00535	HIMB1715	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1715_00535	0
+HIMB1715-00000000005	40814	41284	+	HIMB1715_00536	HIMB1715	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1715_00535	1
+HIMB1715-00000000005	41325	42377	-	HIMB1715_00537	HIMB1715	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1715_00535	2
+HIMB1715-00000000005	42464	43753	-	HIMB1715_00538	HIMB1715	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1715_00535	3
+HIMB1715-00000000005	43753	44349	-	HIMB1715_00539	HIMB1715	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1715_00535	4
+HIMB1715-00000000005	44462	45427	+	HIMB1715_00540	HIMB1715	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1715_00535	5
+HIMB1723-00000000001	192878	193747	+	HIMB1723_00219	HIMB1723	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1723_00224	-5
+HIMB1723-00000000001	193779	194762	+	HIMB1723_00220	HIMB1723	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1723_00224	-4
+HIMB1723-00000000001	194775	195695	+	HIMB1723_00221	HIMB1723	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1723_00224	-3
+HIMB1723-00000000001	195733	196656	+	HIMB1723_00222	HIMB1723	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1723_00224	-2
+HIMB1723-00000000001	196649	197731	-	HIMB1723_00223	HIMB1723	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1723_00224	-1
+HIMB1723-00000000001	197763	198995	-	HIMB1723_00224	HIMB1723	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1723_00224	0
+HIMB1723-00000000001	199101	199571	+	HIMB1723_00225	HIMB1723	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1723_00224	1
+HIMB1723-00000000001	199612	200664	-	HIMB1723_00226	HIMB1723	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1723_00224	2
+HIMB1723-00000000001	200751	202040	-	HIMB1723_00227	HIMB1723	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1723_00224	3
+HIMB1723-00000000001	202040	202636	-	HIMB1723_00228	HIMB1723	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1723_00224	4
+HIMB1723-00000000001	202750	203715	+	HIMB1723_00229	HIMB1723	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1723_00224	5
+HIMB1746-00000000003	234998	235942	+	HIMB1746_01066	HIMB1746	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	HIMB1746_01071	-5
+HIMB1746-00000000003	235942	236811	+	HIMB1746_01067	HIMB1746	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1746_01071	-4
+HIMB1746-00000000003	236843	237826	+	HIMB1746_01068	HIMB1746	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1746_01071	-3
+HIMB1746-00000000003	237838	238758	+	HIMB1746_01069	HIMB1746	306	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1746_01071	-2
+HIMB1746-00000000003	238751	239833	-	HIMB1746_01070	HIMB1746	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1746_01071	-1
+HIMB1746-00000000003	239865	241097	-	HIMB1746_01071	HIMB1746	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1746_01071	0
+HIMB1746-00000000003	241203	241673	+	HIMB1746_01072	HIMB1746	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1746_01071	1
+HIMB1746-00000000003	241714	242766	-	HIMB1746_01073	HIMB1746	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1746_01071	2
+HIMB1746-00000000003	242853	244142	-	HIMB1746_01074	HIMB1746	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1746_01071	3
+HIMB1746-00000000003	244142	244738	-	HIMB1746_01075	HIMB1746	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1746_01071	4
+HIMB1746-00000000003	244851	245816	+	HIMB1746_01076	HIMB1746	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1746_01071	5
+HIMB1748-00000000003	705367	706236	+	HIMB1748_01385	HIMB1748	289	OG0001287	NA	NA	NA	NA	NA	HIMB1748_01390	-5
+HIMB1748-00000000003	706268	707251	+	HIMB1748_01386	HIMB1748	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1748_01390	-4
+HIMB1748-00000000003	707262	708182	+	HIMB1748_01387	HIMB1748	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1748_01390	-3
+HIMB1748-00000000003	708220	709143	+	HIMB1748_01388	HIMB1748	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1748_01390	-2
+HIMB1748-00000000003	709136	710218	-	HIMB1748_01389	HIMB1748	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1748_01390	-1
+HIMB1748-00000000003	710250	711482	-	HIMB1748_01390	HIMB1748	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1748_01390	0
+HIMB1748-00000000003	711588	712058	+	HIMB1748_01391	HIMB1748	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1748_01390	1
+HIMB1748-00000000003	712099	713151	-	HIMB1748_01392	HIMB1748	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1748_01390	2
+HIMB1748-00000000003	713238	714527	-	HIMB1748_01393	HIMB1748	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1748_01390	3
+HIMB1748-00000000003	714527	715123	-	HIMB1748_01394	HIMB1748	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1748_01390	4
+HIMB1748-00000000003	715236	716201	+	HIMB1748_01395	HIMB1748	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1748_01390	5
+HIMB1758-00000000001	1395889	1396758	+	HIMB1758_01495	HIMB1758	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1758_01500	-5
+HIMB1758-00000000001	1396790	1397773	+	HIMB1758_01496	HIMB1758	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1758_01500	-4
+HIMB1758-00000000001	1397784	1398704	+	HIMB1758_01497	HIMB1758	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1758_01500	-3
+HIMB1758-00000000001	1398742	1399665	+	HIMB1758_01498	HIMB1758	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1758_01500	-2
+HIMB1758-00000000001	1399658	1400740	-	HIMB1758_01499	HIMB1758	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1758_01500	-1
+HIMB1758-00000000001	1400772	1402004	-	HIMB1758_01500	HIMB1758	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1758_01500	0
+HIMB1758-00000000001	1402110	1402580	+	HIMB1758_01501	HIMB1758	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1758_01500	1
+HIMB1758-00000000001	1402621	1403673	-	HIMB1758_01502	HIMB1758	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1758_01500	2
+HIMB1758-00000000001	1403760	1405049	-	HIMB1758_01503	HIMB1758	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1758_01500	3
+HIMB1758-00000000001	1405049	1405645	-	HIMB1758_01504	HIMB1758	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1758_01500	4
+HIMB1758-00000000001	1405758	1406723	+	HIMB1758_01505	HIMB1758	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1758_01500	5
+HIMB1765-00000000001	51917	52882	-	HIMB1765_00059	HIMB1765	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1765_00064	-5
+HIMB1765-00000000001	52995	53591	+	HIMB1765_00060	HIMB1765	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1765_00064	-4
+HIMB1765-00000000001	53591	54880	+	HIMB1765_00061	HIMB1765	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1765_00064	-3
+HIMB1765-00000000001	54966	56018	+	HIMB1765_00062	HIMB1765	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1765_00064	-2
+HIMB1765-00000000001	56059	56529	-	HIMB1765_00063	HIMB1765	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1765_00064	-1
+HIMB1765-00000000001	56635	57867	+	HIMB1765_00064	HIMB1765	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1765_00064	0
+HIMB1765-00000000001	57899	58981	+	HIMB1765_00065	HIMB1765	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1765_00064	1
+HIMB1765-00000000001	58974	59897	-	HIMB1765_00066	HIMB1765	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1765_00064	2
+HIMB1765-00000000001	59935	60855	-	HIMB1765_00067	HIMB1765	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1765_00064	3
+HIMB1765-00000000001	60867	61850	-	HIMB1765_00068	HIMB1765	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1765_00064	4
+HIMB1765-00000000001	61882	62751	-	HIMB1765_00069	HIMB1765	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1765_00064	5
+HIMB1770-00000000001	321865	322734	+	HIMB1770_00369	HIMB1770	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1770_00374	-5
+HIMB1770-00000000001	322766	323749	+	HIMB1770_00370	HIMB1770	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1770_00374	-4
+HIMB1770-00000000001	323760	324680	+	HIMB1770_00371	HIMB1770	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1770_00374	-3
+HIMB1770-00000000001	324718	325641	+	HIMB1770_00372	HIMB1770	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1770_00374	-2
+HIMB1770-00000000001	325634	326716	-	HIMB1770_00373	HIMB1770	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1770_00374	-1
+HIMB1770-00000000001	326748	327980	-	HIMB1770_00374	HIMB1770	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1770_00374	0
+HIMB1770-00000000001	328086	328556	+	HIMB1770_00375	HIMB1770	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1770_00374	1
+HIMB1770-00000000001	328597	329649	-	HIMB1770_00376	HIMB1770	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1770_00374	2
+HIMB1770-00000000001	329736	331025	-	HIMB1770_00377	HIMB1770	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1770_00374	3
+HIMB1770-00000000001	331025	331621	-	HIMB1770_00378	HIMB1770	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1770_00374	4
+HIMB1770-00000000001	331734	332699	+	HIMB1770_00379	HIMB1770	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1770_00374	5
+HIMB1782-00000000001	159433	160302	+	HIMB1782_00174	HIMB1782	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1782_00179	-5
+HIMB1782-00000000001	160334	161317	+	HIMB1782_00175	HIMB1782	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1782_00179	-4
+HIMB1782-00000000001	161329	162249	+	HIMB1782_00176	HIMB1782	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB1782_00179	-3
+HIMB1782-00000000001	162287	163210	+	HIMB1782_00177	HIMB1782	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1782_00179	-2
+HIMB1782-00000000001	163203	164285	-	HIMB1782_00178	HIMB1782	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB1782_00179	-1
+HIMB1782-00000000001	164317	165549	-	HIMB1782_00179	HIMB1782	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB1782_00179	0
+HIMB1782-00000000001	165655	166125	+	HIMB1782_00180	HIMB1782	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB1782_00179	1
+HIMB1782-00000000001	166166	167218	-	HIMB1782_00181	HIMB1782	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB1782_00179	2
+HIMB1782-00000000001	167305	168594	-	HIMB1782_00182	HIMB1782	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB1782_00179	3
+HIMB1782-00000000001	168594	169190	-	HIMB1782_00183	HIMB1782	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB1782_00179	4
+HIMB1782-00000000001	169303	170268	+	HIMB1782_00184	HIMB1782	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1782_00179	5
+HIMB2201-00000000001	164952	165917	-	HIMB2201_00174	HIMB2201	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB2201_00179	-5
+HIMB2201-00000000001	166029	166625	+	HIMB2201_00175	HIMB2201	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB2201_00179	-4
+HIMB2201-00000000001	166625	167914	+	HIMB2201_00176	HIMB2201	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB2201_00179	-3
+HIMB2201-00000000001	167989	169059	+	HIMB2201_00177	HIMB2201	356	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB2201_00179	-2
+HIMB2201-00000000001	169099	169569	-	HIMB2201_00178	HIMB2201	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB2201_00179	-1
+HIMB2201-00000000001	169927	170907	+	HIMB2201_00179	HIMB2201	326	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB2201_00179	0
+HIMB2201-00000000001	170938	172020	+	HIMB2201_00180	HIMB2201	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB2201_00179	1
+HIMB2201-00000000001	172013	172936	-	HIMB2201_00181	HIMB2201	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB2201_00179	2
+HIMB2201-00000000001	172952	173932	-	HIMB2201_00182	HIMB2201	326	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB2201_00179	3
+HIMB2201-00000000001	173964	174833	-	HIMB2201_00183	HIMB2201	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB2201_00179	4
+HIMB2201-00000000001	174834	175778	-	HIMB2201_00184	HIMB2201	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	HIMB2201_00179	5
+HIMB2211-00000000001	723368	724237	+	HIMB2211_00792	HIMB2211	289	OG0001287	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB2211_00797	-5
+HIMB2211-00000000001	724269	725252	+	HIMB2211_00793	HIMB2211	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB2211_00797	-4
+HIMB2211-00000000001	725263	726183	+	HIMB2211_00794	HIMB2211	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HIMB2211_00797	-3
+HIMB2211-00000000001	726221	727144	+	HIMB2211_00795	HIMB2211	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB2211_00797	-2
+HIMB2211-00000000001	727137	728219	-	HIMB2211_00796	HIMB2211	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB2211_00797	-1
+HIMB2211-00000000001	728251	729483	-	HIMB2211_00797	HIMB2211	410	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB2211_00797	0
+HIMB2211-00000000001	729589	730059	+	HIMB2211_00798	HIMB2211	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB2211_00797	1
+HIMB2211-00000000001	730100	731152	-	HIMB2211_00799	HIMB2211	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB2211_00797	2
+HIMB2211-00000000001	731239	732528	-	HIMB2211_00800	HIMB2211	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB2211_00797	3
+HIMB2211-00000000001	732528	733124	-	HIMB2211_00801	HIMB2211	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB2211_00797	4
+HIMB2211-00000000001	733237	734202	+	HIMB2211_00802	HIMB2211	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB2211_00797	5
+HIMB2250-00000000001	779985	780929	+	HIMB2250_00847	HIMB2250	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	HIMB2250_00852	-5
+HIMB2250-00000000001	780930	781799	+	HIMB2250_00848	HIMB2250	289	OG0001287	NA	NA	NA	NA	NA	HIMB2250_00852	-4
+HIMB2250-00000000001	781831	782811	+	HIMB2250_00849	HIMB2250	326	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB2250_00852	-3
+HIMB2250-00000000001	782827	783750	+	HIMB2250_00850	HIMB2250	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB2250_00852	-2
+HIMB2250-00000000001	783743	784825	-	HIMB2250_00851	HIMB2250	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HIMB2250_00852	-1
+HIMB2250-00000000001	784856	785839	-	HIMB2250_00852	HIMB2250	327	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HIMB2250_00852	0
+HIMB2250-00000000001	786194	786664	+	HIMB2250_00853	HIMB2250	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HIMB2250_00852	1
+HIMB2250-00000000001	786705	787757	-	HIMB2250_00854	HIMB2250	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HIMB2250_00852	2
+HIMB2250-00000000001	787848	789137	-	HIMB2250_00855	HIMB2250	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HIMB2250_00852	3
+HIMB2250-00000000001	789137	789733	-	HIMB2250_00856	HIMB2250	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HIMB2250_00852	4
+HIMB2250-00000000001	789844	790809	+	HIMB2250_00857	HIMB2250	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB2250_00852	5
+KI421440.1	359599	360564	-	HTCC8051_00374	HTCC8051	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HTCC8051_00379	-5
+KI421440.1	360679	361275	+	HTCC8051_00375	HTCC8051	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HTCC8051_00379	-4
+KI421440.1	361275	362564	+	HTCC8051_00376	HTCC8051	429	OG0000052	K21393	TRAP-type transport system large permease protein	COG1593	DctQ	TRAP-type C4-dicarboxylate transport system, large permease component	HTCC8051_00379	-3
+KI421440.1	362650	363702	+	HTCC8051_00377	HTCC8051	350	OG0000086	K21395	TRAP-type transport system periplasmic protein	COG1638	DctP	TRAP-type C4-dicarboxylate transport system, periplasmic component	HTCC8051_00379	-2
+KI421440.1	363742	364212	-	HTCC8051_00378	HTCC8051	156	OG0001435	K07126	uncharacterized protein	COG0790	Sel1	Sel1-like repeat, TPR-related	HTCC8051_00379	-1
+KI421440.1	364312	365550	+	HTCC8051_00379	HTCC8051	412	OG0001505	K00428	cytochrome c peroxidase [EC:1.11.1.5]	COG1858	MauG	Cytochrome c peroxidase	HTCC8051_00379	0
+KI421440.1	365582	366664	+	HTCC8051_00380	HTCC8051	360	OG0000013	NA	NA	COG0673	MviM	Predicted dehydrogenase	HTCC8051_00379	1
+KI421440.1	366657	367580	-	HTCC8051_00381	HTCC8051	307	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HTCC8051_00379	2
+KI421440.1	367587	368570	-	HTCC8051_00382	HTCC8051	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HTCC8051_00379	3
+KI421440.1	368585	369454	-	HTCC8051_00383	HTCC8051	289	OG0001287	NA	NA	NA	NA	NA	HTCC8051_00379	4
+KI421440.1	369455	370399	-	HTCC8051_00384	HTCC8051	314	OG0001215	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	COG1893	PanE	Ketopantoate reductase	HTCC8051_00379	5

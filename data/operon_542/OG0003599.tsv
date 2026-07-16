@@ -1,0 +1,29 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CACLNT010000003.1	12769	13107	+	AG-464-P13_00220	AG-464-P13	112	OG0001443	K02277	cytochrome c oxidase subunit IV [EC:7.1.1.9]	COG5605	COX4	Cytochrome c oxidase subunit IV	AG-464-P13_00225	-5
+CACLNT010000003.1	13111	13374	+	AG-464-P13_00221	AG-464-P13	87	OG0001452	NA	NA	NA	NA	NA	AG-464-P13_00225	-4
+CACLNT010000003.1	13377	14288	+	AG-464-P13_00222	AG-464-P13	303	OG0000544	K02257	heme o synthase [EC:2.5.1.141]	COG0109	CyoE	Polyprenyltransferase (heme O synthase)	AG-464-P13_00225	-3
+CACLNT010000003.1	14337	15704	+	AG-464-P13_00223	AG-464-P13	455	OG0000286	K01733	threonine synthase [EC:4.2.3.1]	COG0498	ThrC	Threonine synthase	AG-464-P13_00225	-2
+CACLNT010000003.1	15823	16026	-	AG-464-P13_00224	AG-464-P13	67	OG0000914	K03704	cold shock protein	COG1278	CspC	Cold shock protein, CspA family	AG-464-P13_00225	-1
+CACLNT010000003.1	16187	16669	-	AG-464-P13_00225	AG-464-P13	160	OG0003599	NA	NA	COG0454	PhnO	N-acetyltransferase, GNAT superfamily (includes histone acetyltransferase HPA2)	AG-464-P13_00225	0
+CACLNT010000003.1	16710	17132	-	AG-464-P13_00226	AG-464-P13	140	OG0000266	K03469	ribonuclease HI [EC:3.1.26.4]	COG0328	RnhA	Ribonuclease HI	AG-464-P13_00225	1
+CACLNT010000003.1	17133	18101	-	AG-464-P13_00227	AG-464-P13	322	OG0000380	K02204	homoserine kinase type II [EC:2.7.1.39]	COG2334	SrkA	Ser/Thr protein kinase RdoA involved in Cpx stress response, MazF antagonist	AG-464-P13_00225	2
+CACLNT010000003.1	18102	19046	-	AG-464-P13_00228	AG-464-P13	314	OG0000475	K03527	4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase [EC:1.17.7.4]	COG0761	IspH	4-Hydroxy-3-methylbut-2-enyl diphosphate reductase IspH	AG-464-P13_00225	3
+CACLNT010000003.1	19091	19588	-	AG-464-P13_00229	AG-464-P13	165	OG0000391	K02109	F-type H+-transporting ATPase subunit b	COG0711	AtpF	FoF1-type ATP synthase, membrane subunit b or b'	AG-464-P13_00225	4
+CACLNT010000003.1	19578	20165	-	AG-464-P13_00230	AG-464-P13	195	OG0000435	K02109	F-type H+-transporting ATPase subunit b	COG0711	AtpF	FoF1-type ATP synthase, membrane subunit b or b'	AG-464-P13_00225	5
+NZES01000046.1	7013	7738	-	ARS1_01107	ARS1	241	NA	K02003	putative ABC transport system ATP-binding protein	COG1136	LolD	ABC-type lipoprotein targeting system ATPase component LolD	ARS1_01112	-5
+NZES01000046.1	7735	8988	-	ARS1_01108	ARS1	417	OG0001918	K02004	putative ABC transport system permease protein	COG4591	LolC	ABC-type lipoprotein targeting system transmembrane component LolC/LolE	ARS1_01112	-4
+NZES01000046.1	8985	10205	-	ARS1_01109	ARS1	406	OG0001918	K02004	putative ABC transport system permease protein	COG4591	LolC	ABC-type lipoprotein targeting system transmembrane component LolC/LolE	ARS1_01112	-3
+NZES01000046.1	10223	10969	-	ARS1_01110	ARS1	248	OG0001821	NA	NA	COG2834	LolA	Periplasmic chaperone for outer membrane lipoprotein sorting	ARS1_01112	-2
+NZES01000046.1	10997	11155	+	ARS1_01111	ARS1	52	NA	NA	NA	NA	NA	NA	ARS1_01112	-1
+NZES01000046.1	11240	11722	+	ARS1_01112	ARS1	160	OG0003599	NA	NA	COG0454	PhnO	N-acetyltransferase, GNAT superfamily (includes histone acetyltransferase HPA2)	ARS1_01112	0
+NZES01000046.1	11744	12538	-	ARS1_01113	ARS1	264	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	ARS1_01112	1
+NZES01000046.1	12535	15489	-	ARS1_01114	ARS1	984	OG0000422	K23270	phosphoribosylformylglycinamidine synthase subunit PurSL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	ARS1_01112	2
+NZES01000046.1	15583	16623	+	ARS1_01115	ARS1	346	OG0000574	K01933	phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1]	COG0150	PurM	Phosphoribosylaminoimidazole (AIR) synthetase	ARS1_01112	3
+NZES01000046.1	16668	17207	+	ARS1_01116	ARS1	179	OG0000035	K11175	phosphoribosylglycinamide formyltransferase 1 [EC:2.1.2.2]	COG0299	PurN	Folate-dependent phosphoribosylglycinamide formyltransferase PurN	ARS1_01112	4
+NZES01000046.1	17207	18622	+	ARS1_01117	ARS1	471	OG0000379	K00764	amidophosphoribosyltransferase [EC:2.4.2.14]	COG0034	PurF	Glutamine phosphoribosylpyrophosphate amidotransferase	ARS1_01112	5
+NZES01000054.1	8265	9680	-	ARS1_01306	ARS1	471	OG0000379	K00764	amidophosphoribosyltransferase [EC:2.4.2.14]	COG0034	PurF	Glutamine phosphoribosylpyrophosphate amidotransferase	ARS1_01311	-5
+NZES01000054.1	9680	10219	-	ARS1_01307	ARS1	179	OG0000035	K11175	phosphoribosylglycinamide formyltransferase 1 [EC:2.1.2.2]	COG0299	PurN	Folate-dependent phosphoribosylglycinamide formyltransferase PurN	ARS1_01311	-4
+NZES01000054.1	10264	11304	-	ARS1_01308	ARS1	346	OG0000574	K01933	phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1]	COG0150	PurM	Phosphoribosylaminoimidazole (AIR) synthetase	ARS1_01311	-3
+NZES01000054.1	11398	14352	+	ARS1_01309	ARS1	984	OG0000422	K23270	phosphoribosylformylglycinamidine synthase subunit PurSL [EC:6.3.5.3]	COG0046	PurL1	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	ARS1_01311	-2
+NZES01000054.1	14349	15143	+	ARS1_01310	ARS1	264	OG0000684	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	COG0047	PurL2	Phosphoribosylformylglycinamidine (FGAM) synthase, glutamine amidotransferase domain	ARS1_01311	-1
+NZES01000054.1	15165	15647	-	ARS1_01311	ARS1	160	OG0003599	NA	NA	COG0454	PhnO	N-acetyltransferase, GNAT superfamily (includes histone acetyltransferase HPA2)	ARS1_01311	0

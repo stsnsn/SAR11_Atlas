@@ -1,0 +1,669 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CABZDS010000003.1	155	1627	+	AG-337-D16_00435	AG-337-D16	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-337-D16_00436	-1
+CABZDS010000003.1	1627	3051	+	AG-337-D16_00436	AG-337-D16	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-337-D16_00436	0
+CABZDS010000003.1	3056	3826	-	AG-337-D16_00437	AG-337-D16	256	OG0001840	K01004	phosphatidylcholine synthase [EC:2.7.8.24]	COG1183	PssA	Phosphatidylserine synthase	AG-337-D16_00436	1
+CABZDS010000003.1	3845	4969	-	AG-337-D16_00438	AG-337-D16	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-337-D16_00436	2
+CABZDS010000003.1	4969	5865	-	AG-337-D16_00439	AG-337-D16	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-337-D16_00436	3
+CABZDS010000003.1	5865	7367	-	AG-337-D16_00440	AG-337-D16	500	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-337-D16_00436	4
+CABZDS010000003.1	7408	8097	-	AG-337-D16_00441	AG-337-D16	229	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-337-D16_00436	5
+CACBKZ010000020.1	146	880	+	AG-359-C09_01190	AG-359-C09	244	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-359-C09_01194	-4
+CACBKZ010000020.1	995	1972	+	AG-359-C09_01191	AG-359-C09	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-359-C09_01194	-3
+CACBKZ010000020.1	2034	2498	+	AG-359-C09_01192	AG-359-C09	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-359-C09_01194	-2
+CACBKZ010000020.1	2498	3976	+	AG-359-C09_01193	AG-359-C09	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-359-C09_01194	-1
+CACBKZ010000020.1	3973	5397	+	AG-359-C09_01194	AG-359-C09	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-359-C09_01194	0
+CACBKZ010000020.1	5414	6028	-	AG-359-C09_01195	AG-359-C09	204	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-359-C09_01194	1
+CACBWH010000001.1	158176	159258	+	AG-359-M21_00192	AG-359-M21	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-359-M21_00197	-5
+CACBWH010000001.1	159255	160751	-	AG-359-M21_00193	AG-359-M21	498	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-359-M21_00197	-4
+CACBWH010000001.1	160748	161218	-	AG-359-M21_00194	AG-359-M21	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-359-M21_00197	-3
+CACBWH010000001.1	161250	162230	-	AG-359-M21_00195	AG-359-M21	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-359-M21_00197	-2
+CACBWH010000001.1	162413	163492	+	AG-359-M21_00196	AG-359-M21	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-359-M21_00197	-1
+CACBWH010000001.1	163509	164933	-	AG-359-M21_00197	AG-359-M21	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-359-M21_00197	0
+CACBWH010000001.1	164930	166408	-	AG-359-M21_00198	AG-359-M21	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-359-M21_00197	1
+CACBWH010000001.1	166408	166872	-	AG-359-M21_00199	AG-359-M21	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-359-M21_00197	2
+CACBWH010000001.1	166934	167911	-	AG-359-M21_00200	AG-359-M21	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-359-M21_00197	3
+CACBWH010000001.1	168025	168975	-	AG-359-M21_00201	AG-359-M21	316	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-359-M21_00197	4
+CACBWH010000001.1	169008	169397	+	AG-359-M21_00202	AG-359-M21	129	OG0000745	NA	NA	NA	NA	NA	AG-359-M21_00197	5
+CACBWZ010000005.1	21718	22731	+	AG-359-O11_00571	AG-359-O11	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	AG-359-O11_00576	-5
+CACBWZ010000005.1	22738	22992	+	AG-359-O11_00572	AG-359-O11	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-359-O11_00576	-4
+CACBWZ010000005.1	23093	24064	+	AG-359-O11_00573	AG-359-O11	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-359-O11_00576	-3
+CACBWZ010000005.1	24110	24574	+	AG-359-O11_00574	AG-359-O11	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-359-O11_00576	-2
+CACBWZ010000005.1	24574	26046	+	AG-359-O11_00575	AG-359-O11	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-359-O11_00576	-1
+CACBWZ010000005.1	26046	27470	+	AG-359-O11_00576	AG-359-O11	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-359-O11_00576	0
+CACBWZ010000005.1	27471	28595	-	AG-359-O11_00577	AG-359-O11	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-359-O11_00576	1
+CACBWZ010000005.1	28595	29491	-	AG-359-O11_00578	AG-359-O11	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-359-O11_00576	2
+CACBWZ010000005.1	29491	30993	-	AG-359-O11_00579	AG-359-O11	500	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-359-O11_00576	3
+CACBWZ010000005.1	31034	31723	-	AG-359-O11_00580	AG-359-O11	229	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-359-O11_00576	4
+CACBWZ010000005.1	31793	32401	+	AG-359-O11_00581	AG-359-O11	202	OG0000577	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	AG-359-O11_00576	5
+CACDZS010000007.1	19710	20558	+	AG-390-I15_00730	AG-390-I15	282	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-390-I15_00735	-5
+CACDZS010000007.1	20555	21688	-	AG-390-I15_00731	AG-390-I15	377	OG0001718	K09788	2-methylaconitate isomerase [EC:5.3.3.-]	COG2828	PrpF	2-Methylaconitate cis-trans-isomerase PrpF (2-methyl citrate pathway)	AG-390-I15_00735	-4
+CACDZS010000007.1	21694	24321	-	AG-390-I15_00732	AG-390-I15	875	OG0000262	NA	NA	COG1048	AcnA	Aconitase A	AG-390-I15_00735	-3
+CACDZS010000007.1	24406	25467	+	AG-390-I15_00733	AG-390-I15	353	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-390-I15_00735	-2
+CACDZS010000007.1	25457	26926	-	AG-390-I15_00734	AG-390-I15	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-390-I15_00735	-1
+CACDZS010000007.1	27067	28491	-	AG-390-I15_00735	AG-390-I15	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-390-I15_00735	0
+CACDZS010000007.1	28570	29259	+	AG-390-I15_00736	AG-390-I15	229	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	AG-390-I15_00735	1
+CACDZS010000007.1	29265	30107	+	AG-390-I15_00737	AG-390-I15	280	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-390-I15_00735	2
+CACDZS010000007.1	30110	31168	+	AG-390-I15_00738	AG-390-I15	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-390-I15_00735	3
+CACDZS010000007.1	31219	32352	+	AG-390-I15_00739	AG-390-I15	377	OG0002112	NA	NA	COG1506	DAP2	Dipeptidyl aminopeptidase/acylaminoacyl peptidase	AG-390-I15_00735	4
+CACDZS010000007.1	32399	33073	+	AG-390-I15_00740	AG-390-I15	224	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	AG-390-I15_00735	5
+CACFXO010000009.1	10266	11348	+	AG-414-O11_01132	AG-414-O11	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-414-O11_01137	-5
+CACFXO010000009.1	11345	12841	-	AG-414-O11_01133	AG-414-O11	498	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-414-O11_01137	-4
+CACFXO010000009.1	12838	13308	-	AG-414-O11_01134	AG-414-O11	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-414-O11_01137	-3
+CACFXO010000009.1	13340	14320	-	AG-414-O11_01135	AG-414-O11	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-414-O11_01137	-2
+CACFXO010000009.1	14502	15581	+	AG-414-O11_01136	AG-414-O11	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-414-O11_01137	-1
+CACFXO010000009.1	15598	17022	-	AG-414-O11_01137	AG-414-O11	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-414-O11_01137	0
+CACFXO010000009.1	17019	18497	-	AG-414-O11_01138	AG-414-O11	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-414-O11_01137	1
+CACFXO010000009.1	18497	18961	-	AG-414-O11_01139	AG-414-O11	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-414-O11_01137	2
+CACFXO010000009.1	19023	20000	-	AG-414-O11_01140	AG-414-O11	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-414-O11_01137	3
+CACFXO010000009.1	20115	21065	-	AG-414-O11_01141	AG-414-O11	316	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-414-O11_01137	4
+CACFXO010000009.1	21098	21487	+	AG-414-O11_01142	AG-414-O11	129	OG0000745	NA	NA	NA	NA	NA	AG-414-O11_01137	5
+CACHEQ010000019.1	44	298	+	AG-426-M19_01334	AG-426-M19	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-426-M19_01338	-4
+CACHEQ010000019.1	399	1370	+	AG-426-M19_01335	AG-426-M19	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-426-M19_01338	-3
+CACHEQ010000019.1	1416	1880	+	AG-426-M19_01336	AG-426-M19	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-426-M19_01338	-2
+CACHEQ010000019.1	1880	3352	+	AG-426-M19_01337	AG-426-M19	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-426-M19_01338	-1
+CACHEQ010000019.1	3352	4776	+	AG-426-M19_01338	AG-426-M19	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-426-M19_01338	0
+CACHIY010000001.1	196471	197145	-	AG-430-E20_00213	AG-430-E20	224	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	AG-430-E20_00218	-5
+CACHIY010000001.1	197183	198316	-	AG-430-E20_00214	AG-430-E20	377	OG0002112	NA	NA	COG1506	DAP2	Dipeptidyl aminopeptidase/acylaminoacyl peptidase	AG-430-E20_00218	-4
+CACHIY010000001.1	198366	199424	-	AG-430-E20_00215	AG-430-E20	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-430-E20_00218	-3
+CACHIY010000001.1	199427	200269	-	AG-430-E20_00216	AG-430-E20	280	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-430-E20_00218	-2
+CACHIY010000001.1	200274	200942	-	AG-430-E20_00217	AG-430-E20	222	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	AG-430-E20_00218	-1
+CACHIY010000001.1	201041	202465	+	AG-430-E20_00218	AG-430-E20	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-430-E20_00218	0
+CACHIY010000001.1	202609	204078	+	AG-430-E20_00219	AG-430-E20	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-430-E20_00218	1
+CACHIY010000001.1	204068	205129	-	AG-430-E20_00220	AG-430-E20	353	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-430-E20_00218	2
+CACHIY010000001.1	205213	207840	+	AG-430-E20_00221	AG-430-E20	875	OG0000262	NA	NA	COG1048	AcnA	Aconitase A	AG-430-E20_00218	3
+CACHIY010000001.1	207846	208979	+	AG-430-E20_00222	AG-430-E20	377	OG0001718	K09788	2-methylaconitate isomerase [EC:5.3.3.-]	COG2828	PrpF	2-Methylaconitate cis-trans-isomerase PrpF (2-methyl citrate pathway)	AG-430-E20_00218	4
+CACHIY010000001.1	208976	209824	-	AG-430-E20_00223	AG-430-E20	282	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-430-E20_00218	5
+CACKOH010000002.1	7757	8839	+	AG-457-B14_00156	AG-457-B14	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-457-B14_00161	-5
+CACKOH010000002.1	8836	10335	-	AG-457-B14_00157	AG-457-B14	499	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-457-B14_00161	-4
+CACKOH010000002.1	10332	10802	-	AG-457-B14_00158	AG-457-B14	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-457-B14_00161	-3
+CACKOH010000002.1	10834	11814	-	AG-457-B14_00159	AG-457-B14	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-457-B14_00161	-2
+CACKOH010000002.1	11998	13077	+	AG-457-B14_00160	AG-457-B14	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-457-B14_00161	-1
+CACKOH010000002.1	13094	14518	-	AG-457-B14_00161	AG-457-B14	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-457-B14_00161	0
+CACKOH010000002.1	14515	15993	-	AG-457-B14_00162	AG-457-B14	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-457-B14_00161	1
+CACKOH010000002.1	15993	16457	-	AG-457-B14_00163	AG-457-B14	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-457-B14_00161	2
+CACKOH010000002.1	16519	17496	-	AG-457-B14_00164	AG-457-B14	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-457-B14_00161	3
+CACKOH010000002.1	17669	18400	-	AG-457-B14_00165	AG-457-B14	243	OG0000062	K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]	COG1212	KdsB	CMP-2-keto-3-deoxyoctulosonic acid synthetase	AG-457-B14_00161	4
+CACKOH010000002.1	18425	19363	-	AG-457-B14_00166	AG-457-B14	312	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-457-B14_00161	5
+CACLQB010000009.1	7425	7814	-	AG-470-D02_00860	AG-470-D02	129	OG0000745	NA	NA	NA	NA	NA	AG-470-D02_00865	-5
+CACLQB010000009.1	7847	8788	+	AG-470-D02_00861	AG-470-D02	313	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-470-D02_00865	-4
+CACLQB010000009.1	8895	9887	+	AG-470-D02_00862	AG-470-D02	330	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-470-D02_00865	-3
+CACLQB010000009.1	9950	10414	+	AG-470-D02_00863	AG-470-D02	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-470-D02_00865	-2
+CACLQB010000009.1	10414	11892	+	AG-470-D02_00864	AG-470-D02	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-470-D02_00865	-1
+CACLQB010000009.1	11889	13313	+	AG-470-D02_00865	AG-470-D02	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-470-D02_00865	0
+CACLQB010000009.1	13330	14409	-	AG-470-D02_00866	AG-470-D02	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-470-D02_00865	1
+CACLQB010000009.1	14593	15573	+	AG-470-D02_00867	AG-470-D02	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-470-D02_00865	2
+CACLQB010000009.1	15605	16075	+	AG-470-D02_00868	AG-470-D02	156	OG0001140	NA	NA	NA	NA	NA	AG-470-D02_00865	3
+CACLQB010000009.1	16072	17571	+	AG-470-D02_00869	AG-470-D02	499	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-470-D02_00865	4
+CACLQB010000009.1	17568	18650	-	AG-470-D02_00870	AG-470-D02	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-470-D02_00865	5
+CACMVC010000001.1	122132	123214	+	AG-892-E08_00139	AG-892-E08	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-892-E08_00144	-5
+CACMVC010000001.1	123211	124710	-	AG-892-E08_00140	AG-892-E08	499	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-892-E08_00144	-4
+CACMVC010000001.1	124707	125177	-	AG-892-E08_00141	AG-892-E08	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-892-E08_00144	-3
+CACMVC010000001.1	125208	126188	-	AG-892-E08_00142	AG-892-E08	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-892-E08_00144	-2
+CACMVC010000001.1	126374	127453	+	AG-892-E08_00143	AG-892-E08	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-892-E08_00144	-1
+CACMVC010000001.1	127470	128894	-	AG-892-E08_00144	AG-892-E08	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-892-E08_00144	0
+CACMVC010000001.1	128891	130369	-	AG-892-E08_00145	AG-892-E08	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-892-E08_00144	1
+CACMVC010000001.1	130369	130833	-	AG-892-E08_00146	AG-892-E08	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-892-E08_00144	2
+CACMVC010000001.1	130895	131872	-	AG-892-E08_00147	AG-892-E08	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-892-E08_00144	3
+CACMVC010000001.1	131987	132937	-	AG-892-E08_00148	AG-892-E08	316	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-892-E08_00144	4
+CACMVC010000001.1	132970	133359	+	AG-892-E08_00149	AG-892-E08	129	OG0000745	NA	NA	NA	NA	NA	AG-892-E08_00144	5
+CACMWQ010000002.1	173724	174332	-	AG-892-F15_00537	AG-892-F15	202	OG0000577	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	AG-892-F15_00542	-5
+CACMWQ010000002.1	174402	175082	+	AG-892-F15_00538	AG-892-F15	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-892-F15_00542	-4
+CACMWQ010000002.1	175142	176638	+	AG-892-F15_00539	AG-892-F15	498	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-892-F15_00542	-3
+CACMWQ010000002.1	176638	177534	+	AG-892-F15_00540	AG-892-F15	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-892-F15_00542	-2
+CACMWQ010000002.1	177534	178658	+	AG-892-F15_00541	AG-892-F15	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-892-F15_00542	-1
+CACMWQ010000002.1	178659	180083	-	AG-892-F15_00542	AG-892-F15	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-892-F15_00542	0
+CACMWQ010000002.1	180083	181555	-	AG-892-F15_00543	AG-892-F15	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-892-F15_00542	1
+CACMWQ010000002.1	181555	182019	-	AG-892-F15_00544	AG-892-F15	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-892-F15_00542	2
+CACMWQ010000002.1	182065	183036	-	AG-892-F15_00545	AG-892-F15	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-892-F15_00542	3
+CACMWQ010000002.1	183137	183391	-	AG-892-F15_00546	AG-892-F15	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-892-F15_00542	4
+CACMWQ010000002.1	183398	184411	-	AG-892-F15_00547	AG-892-F15	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	AG-892-F15_00542	5
+CACNTH010000004.1	39423	40103	+	AG-893-M22_00854	AG-893-M22	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-893-M22_00859	-5
+CACNTH010000004.1	40157	41659	+	AG-893-M22_00855	AG-893-M22	500	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-893-M22_00859	-4
+CACNTH010000004.1	41659	42555	+	AG-893-M22_00856	AG-893-M22	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-893-M22_00859	-3
+CACNTH010000004.1	42555	43679	+	AG-893-M22_00857	AG-893-M22	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-893-M22_00859	-2
+CACNTH010000004.1	43757	44221	+	AG-893-M22_00858	AG-893-M22	154	OG0002733	NA	NA	NA	NA	NA	AG-893-M22_00859	-1
+CACNTH010000004.1	44274	45698	-	AG-893-M22_00859	AG-893-M22	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-893-M22_00859	0
+CACNTH010000004.1	45698	47170	-	AG-893-M22_00860	AG-893-M22	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-893-M22_00859	1
+CACNTH010000004.1	47170	47634	-	AG-893-M22_00861	AG-893-M22	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-893-M22_00859	2
+CACNTH010000004.1	47680	48651	-	AG-893-M22_00862	AG-893-M22	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-893-M22_00859	3
+CACNTH010000004.1	48752	49006	-	AG-893-M22_00863	AG-893-M22	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-893-M22_00859	4
+CACNTH010000004.1	49013	50026	-	AG-893-M22_00864	AG-893-M22	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	AG-893-M22_00859	5
+CACNTW010000001.1	120212	121225	+	AG-893-N07_00125	AG-893-N07	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	AG-893-N07_00130	-5
+CACNTW010000001.1	121232	121486	+	AG-893-N07_00126	AG-893-N07	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-893-N07_00130	-4
+CACNTW010000001.1	121587	122558	+	AG-893-N07_00127	AG-893-N07	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-893-N07_00130	-3
+CACNTW010000001.1	122604	123068	+	AG-893-N07_00128	AG-893-N07	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-893-N07_00130	-2
+CACNTW010000001.1	123068	124540	+	AG-893-N07_00129	AG-893-N07	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-893-N07_00130	-1
+CACNTW010000001.1	124540	125964	+	AG-893-N07_00130	AG-893-N07	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-893-N07_00130	0
+CACNTW010000001.1	125965	127089	-	AG-893-N07_00131	AG-893-N07	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-893-N07_00130	1
+CACNTW010000001.1	127089	127985	-	AG-893-N07_00132	AG-893-N07	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-893-N07_00130	2
+CACNTW010000001.1	127985	129487	-	AG-893-N07_00133	AG-893-N07	500	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-893-N07_00130	3
+CACNTW010000001.1	129528	130217	-	AG-893-N07_00134	AG-893-N07	229	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-893-N07_00130	4
+CACNTW010000001.1	130288	130893	+	AG-893-N07_00135	AG-893-N07	201	OG0000577	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	AG-893-N07_00130	5
+CABYGC010000003.1	48734	49582	+	AG-894-C14_00778	AG-894-C14	282	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-894-C14_00783	-5
+CABYGC010000003.1	49579	50712	-	AG-894-C14_00779	AG-894-C14	377	OG0001718	K09788	2-methylaconitate isomerase [EC:5.3.3.-]	COG2828	PrpF	2-Methylaconitate cis-trans-isomerase PrpF (2-methyl citrate pathway)	AG-894-C14_00783	-4
+CABYGC010000003.1	50718	53345	-	AG-894-C14_00780	AG-894-C14	875	OG0000262	NA	NA	COG1048	AcnA	Aconitase A	AG-894-C14_00783	-3
+CABYGC010000003.1	53425	54486	+	AG-894-C14_00781	AG-894-C14	353	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-894-C14_00783	-2
+CABYGC010000003.1	54476	55945	-	AG-894-C14_00782	AG-894-C14	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-894-C14_00783	-1
+CABYGC010000003.1	56089	57513	-	AG-894-C14_00783	AG-894-C14	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-894-C14_00783	0
+CABYGC010000003.1	57591	58280	+	AG-894-C14_00784	AG-894-C14	229	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	AG-894-C14_00783	1
+CABYGC010000003.1	58285	59127	+	AG-894-C14_00785	AG-894-C14	280	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-894-C14_00783	2
+CABYGC010000003.1	59130	60188	+	AG-894-C14_00786	AG-894-C14	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-894-C14_00783	3
+CABYGC010000003.1	60238	61371	+	AG-894-C14_00787	AG-894-C14	377	OG0002112	NA	NA	COG1506	DAP2	Dipeptidyl aminopeptidase/acylaminoacyl peptidase	AG-894-C14_00783	4
+CABYGC010000003.1	61409	62083	+	AG-894-C14_00788	AG-894-C14	224	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	AG-894-C14_00783	5
+CABYPJ010000010.1	116	1129	+	AG-894-L19_00964	AG-894-L19	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	AG-894-L19_00969	-5
+CABYPJ010000010.1	1136	1390	+	AG-894-L19_00965	AG-894-L19	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-894-L19_00969	-4
+CABYPJ010000010.1	1492	2463	+	AG-894-L19_00966	AG-894-L19	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-894-L19_00969	-3
+CABYPJ010000010.1	2509	2973	+	AG-894-L19_00967	AG-894-L19	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-894-L19_00969	-2
+CABYPJ010000010.1	2973	4445	+	AG-894-L19_00968	AG-894-L19	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-894-L19_00969	-1
+CABYPJ010000010.1	4445	5869	+	AG-894-L19_00969	AG-894-L19	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-894-L19_00969	0
+CABYPJ010000010.1	5870	6994	-	AG-894-L19_00970	AG-894-L19	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-894-L19_00969	1
+CABYPJ010000010.1	6994	7890	-	AG-894-L19_00971	AG-894-L19	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-894-L19_00969	2
+CABYPJ010000010.1	7890	9392	-	AG-894-L19_00972	AG-894-L19	500	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-894-L19_00969	3
+CABYPJ010000010.1	9446	10126	-	AG-894-L19_00973	AG-894-L19	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-894-L19_00969	4
+CABYPJ010000010.1	10196	10804	+	AG-894-L19_00974	AG-894-L19	202	OG0000577	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	AG-894-L19_00969	5
+CABZPQ010000002.1	137279	138292	+	AG-896-G07_00480	AG-896-G07	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	AG-896-G07_00485	-5
+CABZPQ010000002.1	138299	138553	+	AG-896-G07_00481	AG-896-G07	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-896-G07_00485	-4
+CABZPQ010000002.1	138654	139625	+	AG-896-G07_00482	AG-896-G07	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-896-G07_00485	-3
+CABZPQ010000002.1	139671	140135	+	AG-896-G07_00483	AG-896-G07	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-896-G07_00485	-2
+CABZPQ010000002.1	140135	141607	+	AG-896-G07_00484	AG-896-G07	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-896-G07_00485	-1
+CABZPQ010000002.1	141607	143031	+	AG-896-G07_00485	AG-896-G07	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-896-G07_00485	0
+CABZPQ010000002.1	143032	144156	-	AG-896-G07_00486	AG-896-G07	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-896-G07_00485	1
+CABZPQ010000002.1	144156	145052	-	AG-896-G07_00487	AG-896-G07	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-896-G07_00485	2
+CABZPQ010000002.1	145052	146548	-	AG-896-G07_00488	AG-896-G07	498	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-896-G07_00485	3
+CABZPQ010000002.1	146608	147288	-	AG-896-G07_00489	AG-896-G07	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-896-G07_00485	4
+CABZPQ010000002.1	147358	147966	+	AG-896-G07_00490	AG-896-G07	202	OG0000577	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	AG-896-G07_00485	5
+CACADE010000018.1	70	1257	+	AG-897-G09_01353	AG-897-G09	395	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-897-G09_01354	-1
+CACADE010000018.1	1257	2681	+	AG-897-G09_01354	AG-897-G09	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-897-G09_01354	0
+CACADE010000018.1	2682	3806	-	AG-897-G09_01355	AG-897-G09	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-897-G09_01354	1
+CACADE010000018.1	3806	4294	-	AG-897-G09_01356	AG-897-G09	162	OG0000766	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-897-G09_01354	2
+CACAZW010000001.1	129259	129507	+	AG-899-A06_00136	AG-899-A06	82	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-899-A06_00141	-5
+CACAZW010000001.1	129553	130215	-	AG-899-A06_00137	AG-899-A06	220	OG0001390	K17893	ubiquinol oxidase [EC:1.10.3.11]	NA	NA	NA	AG-899-A06_00141	-4
+CACAZW010000001.1	130358	131329	+	AG-899-A06_00138	AG-899-A06	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-899-A06_00141	-3
+CACAZW010000001.1	131374	131838	+	AG-899-A06_00139	AG-899-A06	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-899-A06_00141	-2
+CACAZW010000001.1	131838	133310	+	AG-899-A06_00140	AG-899-A06	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-899-A06_00141	-1
+CACAZW010000001.1	133310	134734	+	AG-899-A06_00141	AG-899-A06	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-899-A06_00141	0
+CACAZW010000001.1	134739	135515	-	AG-899-A06_00142	AG-899-A06	258	OG0001840	K01004	phosphatidylcholine synthase [EC:2.7.8.24]	COG1183	PssA	Phosphatidylserine synthase	AG-899-A06_00141	1
+CACAZW010000001.1	135532	136656	-	AG-899-A06_00143	AG-899-A06	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-899-A06_00141	2
+CACAZW010000001.1	136656	137552	-	AG-899-A06_00144	AG-899-A06	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-899-A06_00141	3
+CACAZW010000001.1	137552	139048	-	AG-899-A06_00145	AG-899-A06	498	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-899-A06_00141	4
+CACAZW010000001.1	139108	139788	-	AG-899-A06_00146	AG-899-A06	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-899-A06_00141	5
+CACBNI010000012.1	17671	18753	+	AG-899-N21_01082	AG-899-N21	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-899-N21_01087	-5
+CACBNI010000012.1	18750	20249	-	AG-899-N21_01083	AG-899-N21	499	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-899-N21_01087	-4
+CACBNI010000012.1	20246	20716	-	AG-899-N21_01084	AG-899-N21	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-899-N21_01087	-3
+CACBNI010000012.1	20747	21727	-	AG-899-N21_01085	AG-899-N21	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-899-N21_01087	-2
+CACBNI010000012.1	21913	22992	+	AG-899-N21_01086	AG-899-N21	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-899-N21_01087	-1
+CACBNI010000012.1	23009	24184	-	AG-899-N21_01087	AG-899-N21	391	OG0001579	NA	NA	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-899-N21_01087	0
+CACBXW010000001.1	306525	307538	+	AG-900-G16_00313	AG-900-G16	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	AG-900-G16_00318	-5
+CACBXW010000001.1	307545	307799	+	AG-900-G16_00314	AG-900-G16	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-900-G16_00318	-4
+CACBXW010000001.1	307900	308871	+	AG-900-G16_00315	AG-900-G16	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-900-G16_00318	-3
+CACBXW010000001.1	308917	309381	+	AG-900-G16_00316	AG-900-G16	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-900-G16_00318	-2
+CACBXW010000001.1	309381	310853	+	AG-900-G16_00317	AG-900-G16	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-900-G16_00318	-1
+CACBXW010000001.1	310853	312277	+	AG-900-G16_00318	AG-900-G16	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-900-G16_00318	0
+CACBXW010000001.1	312330	312794	-	AG-900-G16_00319	AG-900-G16	154	OG0002733	NA	NA	NA	NA	NA	AG-900-G16_00318	1
+CACBXW010000001.1	312872	313996	-	AG-900-G16_00320	AG-900-G16	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-900-G16_00318	2
+CACBXW010000001.1	313996	314892	-	AG-900-G16_00321	AG-900-G16	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-900-G16_00318	3
+CACBXW010000001.1	314892	316394	-	AG-900-G16_00322	AG-900-G16	500	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-900-G16_00318	4
+CACBXW010000001.1	316448	317128	-	AG-900-G16_00323	AG-900-G16	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-900-G16_00318	5
+CACCXO010000002.1	34979	35827	+	AG-903-D02_00334	AG-903-D02	282	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-903-D02_00339	-5
+CACCXO010000002.1	35824	36957	-	AG-903-D02_00335	AG-903-D02	377	OG0001718	K09788	2-methylaconitate isomerase [EC:5.3.3.-]	COG2828	PrpF	2-Methylaconitate cis-trans-isomerase PrpF (2-methyl citrate pathway)	AG-903-D02_00339	-4
+CACCXO010000002.1	36963	39590	-	AG-903-D02_00336	AG-903-D02	875	OG0000262	NA	NA	COG1048	AcnA	Aconitase A	AG-903-D02_00339	-3
+CACCXO010000002.1	39674	40735	+	AG-903-D02_00337	AG-903-D02	353	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-903-D02_00339	-2
+CACCXO010000002.1	40725	42194	-	AG-903-D02_00338	AG-903-D02	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-903-D02_00339	-1
+CACCXO010000002.1	42338	43762	-	AG-903-D02_00339	AG-903-D02	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-903-D02_00339	0
+CACCXO010000002.1	43861	44529	+	AG-903-D02_00340	AG-903-D02	222	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	AG-903-D02_00339	1
+CACCXO010000002.1	44534	45376	+	AG-903-D02_00341	AG-903-D02	280	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-903-D02_00339	2
+CACCXO010000002.1	45379	46437	+	AG-903-D02_00342	AG-903-D02	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-903-D02_00339	3
+CACCXO010000002.1	46487	47620	+	AG-903-D02_00343	AG-903-D02	377	OG0002112	NA	NA	COG1506	DAP2	Dipeptidyl aminopeptidase/acylaminoacyl peptidase	AG-903-D02_00339	4
+CACCXO010000002.1	47658	48332	+	AG-903-D02_00344	AG-903-D02	224	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	AG-903-D02_00339	5
+CACDGO010000007.1	17023	18300	-	AG-903-M21_00924	AG-903-M21	425	OG0002111	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	AG-903-M21_00929	-5
+CACDGO010000007.1	18279	19406	-	AG-903-M21_00925	AG-903-M21	375	OG0002112	NA	NA	COG2267	PldB	Lysophospholipase, alpha-beta hydrolase superfamily	AG-903-M21_00929	-4
+CACDGO010000007.1	19446	20504	-	AG-903-M21_00926	AG-903-M21	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-903-M21_00929	-3
+CACDGO010000007.1	20507	21349	-	AG-903-M21_00927	AG-903-M21	280	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-903-M21_00929	-2
+CACDGO010000007.1	21342	22019	-	AG-903-M21_00928	AG-903-M21	225	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	AG-903-M21_00929	-1
+CACDGO010000007.1	22113	23537	+	AG-903-M21_00929	AG-903-M21	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-903-M21_00929	0
+CACDGO010000007.1	23641	25110	+	AG-903-M21_00930	AG-903-M21	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-903-M21_00929	1
+CACDGO010000007.1	25100	26161	-	AG-903-M21_00931	AG-903-M21	353	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-903-M21_00929	2
+CACDGO010000007.1	26249	28876	+	AG-903-M21_00932	AG-903-M21	875	OG0000262	NA	NA	COG1048	AcnA	Aconitase A	AG-903-M21_00929	3
+CACDGO010000007.1	28882	30015	+	AG-903-M21_00933	AG-903-M21	377	OG0001718	NA	NA	COG2828	PrpF	2-Methylaconitate cis-trans-isomerase PrpF (2-methyl citrate pathway)	AG-903-M21_00929	4
+CACDGO010000007.1	30017	30775	-	AG-903-M21_00934	AG-903-M21	252	OG0001148	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	AG-903-M21_00929	5
+CACDQH010000001.1	97526	97915	-	AG-904-F17_00115	AG-904-F17	129	OG0000745	NA	NA	NA	NA	NA	AG-904-F17_00120	-5
+CACDQH010000001.1	97948	98898	+	AG-904-F17_00116	AG-904-F17	316	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-904-F17_00120	-4
+CACDQH010000001.1	99013	99990	+	AG-904-F17_00117	AG-904-F17	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-904-F17_00120	-3
+CACDQH010000001.1	100052	100516	+	AG-904-F17_00118	AG-904-F17	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-904-F17_00120	-2
+CACDQH010000001.1	100516	101994	+	AG-904-F17_00119	AG-904-F17	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-904-F17_00120	-1
+CACDQH010000001.1	101991	103415	+	AG-904-F17_00120	AG-904-F17	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-904-F17_00120	0
+CACDQH010000001.1	103432	104511	-	AG-904-F17_00121	AG-904-F17	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-904-F17_00120	1
+CACDQH010000001.1	104694	105674	+	AG-904-F17_00122	AG-904-F17	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-904-F17_00120	2
+CACDQH010000001.1	105706	106176	+	AG-904-F17_00123	AG-904-F17	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-904-F17_00120	3
+CACDQH010000001.1	106173	107669	+	AG-904-F17_00124	AG-904-F17	498	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-904-F17_00120	4
+CACDQH010000001.1	107666	108748	-	AG-904-F17_00125	AG-904-F17	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-904-F17_00120	5
+CACEFR010000008.1	34325	35194	+	AG-905-G04_00851	AG-905-G04	289	OG0000005	K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]	COG2084	MmsB	3-hydroxyisobutyrate dehydrogenase or related beta-hydroxyacid dehydrogenase	AG-905-G04_00856	-5
+CACEFR010000008.1	35198	35797	+	AG-905-G04_00852	AG-905-G04	199	OG0000304	K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]	COG5135	NA	Uncharacterized conserved protein	AG-905-G04_00856	-4
+CACEFR010000008.1	35794	36306	-	AG-905-G04_00853	AG-905-G04	170	OG0000407	K01726	gamma-carbonic anhydrase [EC:4.2.1.-]	COG0663	PaaY	Carbonic anhydrase or acetyltransferase, isoleucine patch superfamily	AG-905-G04_00856	-3
+CACEFR010000008.1	36327	36881	+	AG-905-G04_00854	AG-905-G04	184	OG0000411	NA	NA	COG1225	Bcp	Peroxiredoxin	AG-905-G04_00856	-2
+CACEFR010000008.1	36881	37963	+	AG-905-G04_00855	AG-905-G04	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-905-G04_00856	-1
+CACEFR010000008.1	38020	39444	-	AG-905-G04_00856	AG-905-G04	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-905-G04_00856	0
+CACEFR010000008.1	39437	40918	-	AG-905-G04_00857	AG-905-G04	493	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-905-G04_00856	1
+CACEFR010000008.1	40918	41382	-	AG-905-G04_00858	AG-905-G04	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-905-G04_00856	2
+CACEFR010000008.1	41431	42408	-	AG-905-G04_00859	AG-905-G04	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-905-G04_00856	3
+CACEFR010000008.1	42547	43626	+	AG-905-G04_00860	AG-905-G04	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-905-G04_00856	4
+CACEFR010000008.1	43630	44568	-	AG-905-G04_00861	AG-905-G04	312	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-905-G04_00856	5
+CACHEO010000001.1	180884	181273	-	AG-911-G03_00203	AG-911-G03	129	OG0000745	NA	NA	NA	NA	NA	AG-911-G03_00208	-5
+CACHEO010000001.1	181306	182262	+	AG-911-G03_00204	AG-911-G03	318	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-911-G03_00208	-4
+CACHEO010000001.1	182372	183349	+	AG-911-G03_00205	AG-911-G03	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-911-G03_00208	-3
+CACHEO010000001.1	183411	183875	+	AG-911-G03_00206	AG-911-G03	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-911-G03_00208	-2
+CACHEO010000001.1	183875	185353	+	AG-911-G03_00207	AG-911-G03	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-911-G03_00208	-1
+CACHEO010000001.1	185350	186774	+	AG-911-G03_00208	AG-911-G03	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-911-G03_00208	0
+CACHEO010000001.1	186791	187870	-	AG-911-G03_00209	AG-911-G03	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-911-G03_00208	1
+CACHEO010000001.1	188053	189033	+	AG-911-G03_00210	AG-911-G03	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-911-G03_00208	2
+CACHEO010000001.1	189065	189535	+	AG-911-G03_00211	AG-911-G03	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-911-G03_00208	3
+CACHEO010000001.1	189532	191028	+	AG-911-G03_00212	AG-911-G03	498	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-911-G03_00208	4
+CACHEO010000001.1	191025	192107	-	AG-911-G03_00213	AG-911-G03	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-911-G03_00208	5
+CACHLB010000001.1	107727	108335	-	AG-912-A14_00134	AG-912-A14	202	OG0000577	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	AG-912-A14_00139	-5
+CACHLB010000001.1	108405	109085	+	AG-912-A14_00135	AG-912-A14	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-912-A14_00139	-4
+CACHLB010000001.1	109145	110641	+	AG-912-A14_00136	AG-912-A14	498	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-912-A14_00139	-3
+CACHLB010000001.1	110641	111537	+	AG-912-A14_00137	AG-912-A14	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-912-A14_00139	-2
+CACHLB010000001.1	111537	112661	+	AG-912-A14_00138	AG-912-A14	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-912-A14_00139	-1
+CACHLB010000001.1	112662	114086	-	AG-912-A14_00139	AG-912-A14	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-912-A14_00139	0
+CACHLB010000001.1	114086	115558	-	AG-912-A14_00140	AG-912-A14	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-912-A14_00139	1
+CACHLB010000001.1	115558	116022	-	AG-912-A14_00141	AG-912-A14	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-912-A14_00139	2
+CACHLB010000001.1	116068	117039	-	AG-912-A14_00142	AG-912-A14	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-912-A14_00139	3
+CACHLB010000001.1	117140	117352	-	AG-912-A14_00143	AG-912-A14	70	OG0000990	NA	NA	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-912-A14_00139	4
+CACHLB010000001.1	117401	118414	-	AG-912-A14_00144	AG-912-A14	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	AG-912-A14_00139	5
+CACHUT010000001.1	195259	195933	-	AG-912-F16_00211	AG-912-F16	224	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	AG-912-F16_00216	-5
+CACHUT010000001.1	195971	197104	-	AG-912-F16_00212	AG-912-F16	377	OG0002112	NA	NA	COG1506	DAP2	Dipeptidyl aminopeptidase/acylaminoacyl peptidase	AG-912-F16_00216	-4
+CACHUT010000001.1	197154	198212	-	AG-912-F16_00213	AG-912-F16	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-912-F16_00216	-3
+CACHUT010000001.1	198215	199057	-	AG-912-F16_00214	AG-912-F16	280	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-912-F16_00216	-2
+CACHUT010000001.1	199062	199730	-	AG-912-F16_00215	AG-912-F16	222	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	AG-912-F16_00216	-1
+CACHUT010000001.1	199829	201253	+	AG-912-F16_00216	AG-912-F16	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-912-F16_00216	0
+CACHUT010000001.1	201397	202866	+	AG-912-F16_00217	AG-912-F16	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-912-F16_00216	1
+CACHUT010000001.1	202856	203917	-	AG-912-F16_00218	AG-912-F16	353	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-912-F16_00216	2
+CACHUT010000001.1	204001	206628	+	AG-912-F16_00219	AG-912-F16	875	OG0000262	NA	NA	COG1048	AcnA	Aconitase A	AG-912-F16_00216	3
+CACHUT010000001.1	206634	207767	+	AG-912-F16_00220	AG-912-F16	377	OG0001718	NA	NA	COG2828	PrpF	2-Methylaconitate cis-trans-isomerase PrpF (2-methyl citrate pathway)	AG-912-F16_00216	4
+CACHUT010000001.1	207764	208612	-	AG-912-F16_00221	AG-912-F16	282	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-912-F16_00216	5
+CACICB010000008.1	21111	22388	-	AG-912-P19_00824	AG-912-P19	425	OG0002111	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	AG-912-P19_00829	-5
+CACICB010000008.1	22367	23494	-	AG-912-P19_00825	AG-912-P19	375	OG0002112	NA	NA	COG2267	PldB	Lysophospholipase, alpha-beta hydrolase superfamily	AG-912-P19_00829	-4
+CACICB010000008.1	23534	24592	-	AG-912-P19_00826	AG-912-P19	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-912-P19_00829	-3
+CACICB010000008.1	24595	25437	-	AG-912-P19_00827	AG-912-P19	280	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-912-P19_00829	-2
+CACICB010000008.1	25430	26107	-	AG-912-P19_00828	AG-912-P19	225	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	AG-912-P19_00829	-1
+CACICB010000008.1	26201	27625	+	AG-912-P19_00829	AG-912-P19	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-912-P19_00829	0
+CACICB010000008.1	27729	29198	+	AG-912-P19_00830	AG-912-P19	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-912-P19_00829	1
+CACICB010000008.1	29188	29883	-	AG-912-P19_00831	AG-912-P19	231	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-912-P19_00829	2
+CACIEE010000005.1	29039	29428	-	AG-913-A04_00809	AG-913-A04	129	OG0000745	NA	NA	NA	NA	NA	AG-913-A04_00814	-5
+CACIEE010000005.1	29461	30411	+	AG-913-A04_00810	AG-913-A04	316	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-913-A04_00814	-4
+CACIEE010000005.1	30526	31503	+	AG-913-A04_00811	AG-913-A04	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-913-A04_00814	-3
+CACIEE010000005.1	31565	32029	+	AG-913-A04_00812	AG-913-A04	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-913-A04_00814	-2
+CACIEE010000005.1	32029	33507	+	AG-913-A04_00813	AG-913-A04	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-913-A04_00814	-1
+CACIEE010000005.1	33504	34928	+	AG-913-A04_00814	AG-913-A04	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-913-A04_00814	0
+CACIEE010000005.1	34945	36024	-	AG-913-A04_00815	AG-913-A04	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-913-A04_00814	1
+CACIEE010000005.1	36206	37186	+	AG-913-A04_00816	AG-913-A04	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-913-A04_00814	2
+CACIEE010000005.1	37218	37688	+	AG-913-A04_00817	AG-913-A04	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-913-A04_00814	3
+CACIEE010000005.1	37685	39181	+	AG-913-A04_00818	AG-913-A04	498	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-913-A04_00814	4
+CACIEE010000005.1	39178	40260	-	AG-913-A04_00819	AG-913-A04	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-913-A04_00814	5
+CACIEM010000003.1	83516	83905	-	AG-913-C03_00653	AG-913-C03	129	OG0000745	NA	NA	NA	NA	NA	AG-913-C03_00658	-5
+CACIEM010000003.1	83938	84888	+	AG-913-C03_00654	AG-913-C03	316	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-913-C03_00658	-4
+CACIEM010000003.1	85003	85980	+	AG-913-C03_00655	AG-913-C03	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-913-C03_00658	-3
+CACIEM010000003.1	86042	86506	+	AG-913-C03_00656	AG-913-C03	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-913-C03_00658	-2
+CACIEM010000003.1	86506	87984	+	AG-913-C03_00657	AG-913-C03	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-913-C03_00658	-1
+CACIEM010000003.1	87981	89405	+	AG-913-C03_00658	AG-913-C03	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-913-C03_00658	0
+CACIEM010000003.1	89422	90501	-	AG-913-C03_00659	AG-913-C03	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-913-C03_00658	1
+CACIEM010000003.1	90683	91663	+	AG-913-C03_00660	AG-913-C03	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-913-C03_00658	2
+CACIEM010000003.1	91695	92165	+	AG-913-C03_00661	AG-913-C03	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-913-C03_00658	3
+CACIEM010000003.1	92162	93658	+	AG-913-C03_00662	AG-913-C03	498	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-913-C03_00658	4
+CACIEM010000003.1	93655	94737	-	AG-913-C03_00663	AG-913-C03	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-913-C03_00658	5
+CACILR010000003.1	24572	25180	-	AG-913-I09_00556	AG-913-I09	202	OG0000577	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	AG-913-I09_00561	-5
+CACILR010000003.1	25250	25930	+	AG-913-I09_00557	AG-913-I09	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-913-I09_00561	-4
+CACILR010000003.1	25984	27486	+	AG-913-I09_00558	AG-913-I09	500	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-913-I09_00561	-3
+CACILR010000003.1	27486	28382	+	AG-913-I09_00559	AG-913-I09	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-913-I09_00561	-2
+CACILR010000003.1	28382	29506	+	AG-913-I09_00560	AG-913-I09	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-913-I09_00561	-1
+CACILR010000003.1	29507	30931	-	AG-913-I09_00561	AG-913-I09	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-913-I09_00561	0
+CACILR010000003.1	30931	32403	-	AG-913-I09_00562	AG-913-I09	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-913-I09_00561	1
+CACILR010000003.1	32403	32867	-	AG-913-I09_00563	AG-913-I09	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-913-I09_00561	2
+CACILR010000003.1	32913	33884	-	AG-913-I09_00564	AG-913-I09	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-913-I09_00561	3
+CACILR010000003.1	33985	34239	-	AG-913-I09_00565	AG-913-I09	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-913-I09_00561	4
+CACILR010000003.1	34246	35259	-	AG-913-I09_00566	AG-913-I09	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	AG-913-I09_00561	5
+CACIOQ010000008.1	6951	7631	+	AG-913-N09_00763	AG-913-N09	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-913-N09_00768	-5
+CACIOQ010000008.1	7685	9187	+	AG-913-N09_00764	AG-913-N09	500	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-913-N09_00768	-4
+CACIOQ010000008.1	9187	10083	+	AG-913-N09_00765	AG-913-N09	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-913-N09_00768	-3
+CACIOQ010000008.1	10083	11207	+	AG-913-N09_00766	AG-913-N09	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-913-N09_00768	-2
+CACIOQ010000008.1	11285	11749	+	AG-913-N09_00767	AG-913-N09	154	OG0002733	NA	NA	NA	NA	NA	AG-913-N09_00768	-1
+CACIOQ010000008.1	11802	13226	-	AG-913-N09_00768	AG-913-N09	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-913-N09_00768	0
+CACIOQ010000008.1	13226	14698	-	AG-913-N09_00769	AG-913-N09	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-913-N09_00768	1
+CACIOQ010000008.1	14698	15162	-	AG-913-N09_00770	AG-913-N09	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-913-N09_00768	2
+CACIOQ010000008.1	15207	16169	-	AG-913-N09_00771	AG-913-N09	320	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-913-N09_00768	3
+CACIOQ010000008.1	16321	16983	+	AG-913-N09_00772	AG-913-N09	220	OG0001390	K17893	ubiquinol oxidase [EC:1.10.3.11]	NA	NA	NA	AG-913-N09_00768	4
+CACIOQ010000008.1	17030	17278	-	AG-913-N09_00773	AG-913-N09	82	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-913-N09_00768	5
+CACJFQ010000009.1	74	1552	+	AG-914-P23_01005	AG-914-P23	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-914-P23_01006	-1
+CACJFQ010000009.1	1549	2973	+	AG-914-P23_01006	AG-914-P23	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-914-P23_01006	0
+CACJFQ010000009.1	2990	4069	-	AG-914-P23_01007	AG-914-P23	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-914-P23_01006	1
+CACJFQ010000009.1	4252	5232	+	AG-914-P23_01008	AG-914-P23	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-914-P23_01006	2
+CACJFQ010000009.1	5264	5734	+	AG-914-P23_01009	AG-914-P23	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-914-P23_01006	3
+CACJFQ010000009.1	5731	7227	+	AG-914-P23_01010	AG-914-P23	498	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-914-P23_01006	4
+CACJFQ010000009.1	7224	8306	-	AG-914-P23_01011	AG-914-P23	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-914-P23_01006	5
+CACJNI010000005.1	63955	64968	+	AG-915-G14_00963	AG-915-G14	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	AG-915-G14_00968	-5
+CACJNI010000005.1	64975	65229	+	AG-915-G14_00964	AG-915-G14	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-915-G14_00968	-4
+CACJNI010000005.1	65330	66301	+	AG-915-G14_00965	AG-915-G14	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-915-G14_00968	-3
+CACJNI010000005.1	66347	66811	+	AG-915-G14_00966	AG-915-G14	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-915-G14_00968	-2
+CACJNI010000005.1	66811	68283	+	AG-915-G14_00967	AG-915-G14	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-915-G14_00968	-1
+CACJNI010000005.1	68283	69707	+	AG-915-G14_00968	AG-915-G14	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-915-G14_00968	0
+CACJNI010000005.1	69708	70832	-	AG-915-G14_00969	AG-915-G14	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-915-G14_00968	1
+CACJNI010000005.1	70832	71728	-	AG-915-G14_00970	AG-915-G14	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-915-G14_00968	2
+CACJNI010000005.1	71728	73230	-	AG-915-G14_00971	AG-915-G14	500	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-915-G14_00968	3
+CACJNI010000005.1	73271	73960	-	AG-915-G14_00972	AG-915-G14	229	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-915-G14_00968	4
+CACJNI010000005.1	74030	74638	+	AG-915-G14_00973	AG-915-G14	202	OG0000577	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	AG-915-G14_00968	5
+CACJMX010000007.1	22828	23217	-	AG-915-K13_01221	AG-915-K13	129	OG0000745	NA	NA	NA	NA	NA	AG-915-K13_01226	-5
+CACJMX010000007.1	23250	24200	+	AG-915-K13_01222	AG-915-K13	316	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-915-K13_01226	-4
+CACJMX010000007.1	24315	25292	+	AG-915-K13_01223	AG-915-K13	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-915-K13_01226	-3
+CACJMX010000007.1	25354	25818	+	AG-915-K13_01224	AG-915-K13	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-915-K13_01226	-2
+CACJMX010000007.1	25818	27296	+	AG-915-K13_01225	AG-915-K13	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-915-K13_01226	-1
+CACJMX010000007.1	27293	28717	+	AG-915-K13_01226	AG-915-K13	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-915-K13_01226	0
+CACJMX010000007.1	28734	29813	-	AG-915-K13_01227	AG-915-K13	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-915-K13_01226	1
+CACJMX010000007.1	29994	30974	+	AG-915-K13_01228	AG-915-K13	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-915-K13_01226	2
+CACJMX010000007.1	31006	31476	+	AG-915-K13_01229	AG-915-K13	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-915-K13_01226	3
+CACJMX010000007.1	31473	32969	+	AG-915-K13_01230	AG-915-K13	498	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-915-K13_01226	4
+CACJMX010000007.1	32966	34048	-	AG-915-K13_01231	AG-915-K13	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-915-K13_01226	5
+CACJUJ010000006.1	54957	55205	+	AG-916-B06_00626	AG-916-B06	82	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-916-B06_00631	-5
+CACJUJ010000006.1	55252	55914	-	AG-916-B06_00627	AG-916-B06	220	OG0001390	K17893	ubiquinol oxidase [EC:1.10.3.11]	NA	NA	NA	AG-916-B06_00631	-4
+CACJUJ010000006.1	56057	57028	+	AG-916-B06_00628	AG-916-B06	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-916-B06_00631	-3
+CACJUJ010000006.1	57073	57537	+	AG-916-B06_00629	AG-916-B06	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-916-B06_00631	-2
+CACJUJ010000006.1	57537	59009	+	AG-916-B06_00630	AG-916-B06	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-916-B06_00631	-1
+CACJUJ010000006.1	59009	60433	+	AG-916-B06_00631	AG-916-B06	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-916-B06_00631	0
+CACJUJ010000006.1	60438	61208	-	AG-916-B06_00632	AG-916-B06	256	OG0001840	K01004	phosphatidylcholine synthase [EC:2.7.8.24]	COG1183	PssA	Phosphatidylserine synthase	AG-916-B06_00631	1
+CACJUJ010000006.1	61231	62355	-	AG-916-B06_00633	AG-916-B06	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-916-B06_00631	2
+CACJUJ010000006.1	62355	63251	-	AG-916-B06_00634	AG-916-B06	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-916-B06_00631	3
+CACJUJ010000006.1	63251	64717	-	AG-916-B06_00635	AG-916-B06	488	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-916-B06_00631	4
+CACJUJ010000006.1	64807	65487	-	AG-916-B06_00636	AG-916-B06	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-916-B06_00631	5
+CACJWN010000002.1	74525	75283	+	AG-916-E17_00241	AG-916-E17	252	OG0001148	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	AG-916-E17_00246	-5
+CACJWN010000002.1	75285	76418	-	AG-916-E17_00242	AG-916-E17	377	OG0001718	NA	NA	COG2828	PrpF	2-Methylaconitate cis-trans-isomerase PrpF (2-methyl citrate pathway)	AG-916-E17_00246	-4
+CACJWN010000002.1	76424	79051	-	AG-916-E17_00243	AG-916-E17	875	OG0000262	NA	NA	COG1048	AcnA	Aconitase A	AG-916-E17_00246	-3
+CACJWN010000002.1	79139	80200	+	AG-916-E17_00244	AG-916-E17	353	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-916-E17_00246	-2
+CACJWN010000002.1	80190	81659	-	AG-916-E17_00245	AG-916-E17	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-916-E17_00246	-1
+CACJWN010000002.1	81763	83187	-	AG-916-E17_00246	AG-916-E17	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-916-E17_00246	0
+CACJWN010000002.1	83281	83958	+	AG-916-E17_00247	AG-916-E17	225	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	AG-916-E17_00246	1
+CACJWN010000002.1	83951	84793	+	AG-916-E17_00248	AG-916-E17	280	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-916-E17_00246	2
+CACJWN010000002.1	84796	85854	+	AG-916-E17_00249	AG-916-E17	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-916-E17_00246	3
+CACJWN010000002.1	85894	87021	+	AG-916-E17_00250	AG-916-E17	375	OG0002112	NA	NA	COG2267	PldB	Lysophospholipase, alpha-beta hydrolase superfamily	AG-916-E17_00246	4
+CACJWN010000002.1	87000	88277	+	AG-916-E17_00251	AG-916-E17	425	OG0002111	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	AG-916-E17_00246	5
+CACKCQ010000007.1	12589	13197	-	AG-916-L11_00920	AG-916-L11	202	OG0000577	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	AG-916-L11_00925	-5
+CACKCQ010000007.1	13267	13947	+	AG-916-L11_00921	AG-916-L11	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-916-L11_00925	-4
+CACKCQ010000007.1	14001	15503	+	AG-916-L11_00922	AG-916-L11	500	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-916-L11_00925	-3
+CACKCQ010000007.1	15503	16399	+	AG-916-L11_00923	AG-916-L11	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-916-L11_00925	-2
+CACKCQ010000007.1	16399	17523	+	AG-916-L11_00924	AG-916-L11	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-916-L11_00925	-1
+CACKCQ010000007.1	17524	18948	-	AG-916-L11_00925	AG-916-L11	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-916-L11_00925	0
+CACKCQ010000007.1	18948	20420	-	AG-916-L11_00926	AG-916-L11	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-916-L11_00925	1
+CACKCQ010000007.1	20420	20884	-	AG-916-L11_00927	AG-916-L11	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-916-L11_00925	2
+CACKCQ010000007.1	20930	21901	-	AG-916-L11_00928	AG-916-L11	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-916-L11_00925	3
+CACKCQ010000007.1	22003	22257	-	AG-916-L11_00929	AG-916-L11	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-916-L11_00925	4
+CACKCQ010000007.1	22264	23277	-	AG-916-L11_00930	AG-916-L11	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	AG-916-L11_00925	5
+CACKFZ010000002.1	6789	7463	-	AG-916-M15_00120	AG-916-M15	224	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	AG-916-M15_00125	-5
+CACKFZ010000002.1	7501	8634	-	AG-916-M15_00121	AG-916-M15	377	OG0002112	NA	NA	COG1506	DAP2	Dipeptidyl aminopeptidase/acylaminoacyl peptidase	AG-916-M15_00125	-4
+CACKFZ010000002.1	8665	9741	-	AG-916-M15_00122	AG-916-M15	358	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-916-M15_00125	-3
+CACKFZ010000002.1	9744	10586	-	AG-916-M15_00123	AG-916-M15	280	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-916-M15_00125	-2
+CACKFZ010000002.1	10591	11259	-	AG-916-M15_00124	AG-916-M15	222	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	AG-916-M15_00125	-1
+CACKFZ010000002.1	11358	12782	+	AG-916-M15_00125	AG-916-M15	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-916-M15_00125	0
+CACKFZ010000002.1	12926	14395	+	AG-916-M15_00126	AG-916-M15	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-916-M15_00125	1
+CACKFZ010000002.1	14385	15446	-	AG-916-M15_00127	AG-916-M15	353	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-916-M15_00125	2
+CACKFZ010000002.1	15530	18157	+	AG-916-M15_00128	AG-916-M15	875	OG0000262	NA	NA	COG1048	AcnA	Aconitase A	AG-916-M15_00125	3
+CACKFZ010000002.1	18163	19296	+	AG-916-M15_00129	AG-916-M15	377	OG0001718	K09788	2-methylaconitate isomerase [EC:5.3.3.-]	COG2828	PrpF	2-Methylaconitate cis-trans-isomerase PrpF (2-methyl citrate pathway)	AG-916-M15_00125	4
+CACKFZ010000002.1	19293	20141	-	AG-916-M15_00130	AG-916-M15	282	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-916-M15_00125	5
+CACKKI010000004.1	56072	56461	-	AG-917-C08_00736	AG-917-C08	129	OG0000745	NA	NA	NA	NA	NA	AG-917-C08_00741	-5
+CACKKI010000004.1	56494	57444	+	AG-917-C08_00737	AG-917-C08	316	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-917-C08_00741	-4
+CACKKI010000004.1	57559	58536	+	AG-917-C08_00738	AG-917-C08	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-917-C08_00741	-3
+CACKKI010000004.1	58598	59062	+	AG-917-C08_00739	AG-917-C08	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-917-C08_00741	-2
+CACKKI010000004.1	59062	60540	+	AG-917-C08_00740	AG-917-C08	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-917-C08_00741	-1
+CACKKI010000004.1	60537	61961	+	AG-917-C08_00741	AG-917-C08	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-917-C08_00741	0
+CACKKI010000004.1	61978	63057	-	AG-917-C08_00742	AG-917-C08	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-917-C08_00741	1
+CACKKI010000004.1	63240	64220	+	AG-917-C08_00743	AG-917-C08	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-917-C08_00741	2
+CACKKI010000004.1	64252	64722	+	AG-917-C08_00744	AG-917-C08	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-917-C08_00741	3
+CACKKI010000004.1	64719	66215	+	AG-917-C08_00745	AG-917-C08	498	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-917-C08_00741	4
+CACKKI010000004.1	66212	67294	-	AG-917-C08_00746	AG-917-C08	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-917-C08_00741	5
+CACKQD010000001.1	282739	283587	+	AG-917-I17_00283	AG-917-I17	282	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-917-I17_00288	-5
+CACKQD010000001.1	283584	284717	-	AG-917-I17_00284	AG-917-I17	377	OG0001718	K09788	2-methylaconitate isomerase [EC:5.3.3.-]	COG2828	PrpF	2-Methylaconitate cis-trans-isomerase PrpF (2-methyl citrate pathway)	AG-917-I17_00288	-4
+CACKQD010000001.1	284723	287350	-	AG-917-I17_00285	AG-917-I17	875	OG0000262	NA	NA	COG1048	AcnA	Aconitase A	AG-917-I17_00288	-3
+CACKQD010000001.1	287430	288491	+	AG-917-I17_00286	AG-917-I17	353	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-917-I17_00288	-2
+CACKQD010000001.1	288481	289950	-	AG-917-I17_00287	AG-917-I17	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-917-I17_00288	-1
+CACKQD010000001.1	290094	291518	-	AG-917-I17_00288	AG-917-I17	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-917-I17_00288	0
+CACKQD010000001.1	291617	292285	+	AG-917-I17_00289	AG-917-I17	222	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	AG-917-I17_00288	1
+CACKQD010000001.1	292290	293132	+	AG-917-I17_00290	AG-917-I17	280	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-917-I17_00288	2
+CACKQD010000001.1	293135	294193	+	AG-917-I17_00291	AG-917-I17	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-917-I17_00288	3
+CACKQD010000001.1	294244	295377	+	AG-917-I17_00292	AG-917-I17	377	OG0002112	NA	NA	COG1506	DAP2	Dipeptidyl aminopeptidase/acylaminoacyl peptidase	AG-917-I17_00288	4
+CACKQD010000001.1	295415	296089	+	AG-917-I17_00293	AG-917-I17	224	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	AG-917-I17_00288	5
+CACLVR010000001.1	143703	144785	+	AG-917-M22_00172	AG-917-M22	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-917-M22_00177	-5
+CACLVR010000001.1	144782	146278	-	AG-917-M22_00173	AG-917-M22	498	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-917-M22_00177	-4
+CACLVR010000001.1	146275	146745	-	AG-917-M22_00174	AG-917-M22	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-917-M22_00177	-3
+CACLVR010000001.1	146777	147757	-	AG-917-M22_00175	AG-917-M22	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-917-M22_00177	-2
+CACLVR010000001.1	147940	149019	+	AG-917-M22_00176	AG-917-M22	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-917-M22_00177	-1
+CACLVR010000001.1	149036	150460	-	AG-917-M22_00177	AG-917-M22	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-917-M22_00177	0
+CACLVR010000001.1	150457	151935	-	AG-917-M22_00178	AG-917-M22	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-917-M22_00177	1
+CACLVR010000001.1	151935	152399	-	AG-917-M22_00179	AG-917-M22	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-917-M22_00177	2
+CACLVR010000001.1	152461	153438	-	AG-917-M22_00180	AG-917-M22	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-917-M22_00177	3
+CACLVR010000001.1	153553	154503	-	AG-917-M22_00181	AG-917-M22	316	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-917-M22_00177	4
+CACLVR010000001.1	154536	154925	+	AG-917-M22_00182	AG-917-M22	129	OG0000745	NA	NA	NA	NA	NA	AG-917-M22_00177	5
+CACMDY010000005.1	25487	26095	-	AG-918-G22_01042	AG-918-G22	202	OG0000577	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	AG-918-G22_01047	-5
+CACMDY010000005.1	26165	26845	+	AG-918-G22_01043	AG-918-G22	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-918-G22_01047	-4
+CACMDY010000005.1	26905	28401	+	AG-918-G22_01044	AG-918-G22	498	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-918-G22_01047	-3
+CACMDY010000005.1	28401	29297	+	AG-918-G22_01045	AG-918-G22	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-918-G22_01047	-2
+CACMDY010000005.1	29297	30421	+	AG-918-G22_01046	AG-918-G22	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-918-G22_01047	-1
+CACMDY010000005.1	30422	31846	-	AG-918-G22_01047	AG-918-G22	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-918-G22_01047	0
+CACMDY010000005.1	31846	33318	-	AG-918-G22_01048	AG-918-G22	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-918-G22_01047	1
+CACMDY010000005.1	33318	33782	-	AG-918-G22_01049	AG-918-G22	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-918-G22_01047	2
+CACMDY010000005.1	33828	34799	-	AG-918-G22_01050	AG-918-G22	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-918-G22_01047	3
+CACMDY010000005.1	34900	35154	-	AG-918-G22_01051	AG-918-G22	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	AG-918-G22_01047	4
+CACMDY010000005.1	35161	36174	-	AG-918-G22_01052	AG-918-G22	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	AG-918-G22_01047	5
+CACMFM010000003.1	115757	116605	+	AG-918-K09_00727	AG-918-K09	282	OG0000927	NA	NA	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	AG-918-K09_00732	-5
+CACMFM010000003.1	116602	117735	-	AG-918-K09_00728	AG-918-K09	377	OG0001718	K09788	2-methylaconitate isomerase [EC:5.3.3.-]	COG2828	PrpF	2-Methylaconitate cis-trans-isomerase PrpF (2-methyl citrate pathway)	AG-918-K09_00732	-4
+CACMFM010000003.1	117741	120368	-	AG-918-K09_00729	AG-918-K09	875	OG0000262	NA	NA	COG1048	AcnA	Aconitase A	AG-918-K09_00732	-3
+CACMFM010000003.1	120452	121513	+	AG-918-K09_00730	AG-918-K09	353	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AG-918-K09_00732	-2
+CACMFM010000003.1	121503	122972	-	AG-918-K09_00731	AG-918-K09	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AG-918-K09_00732	-1
+CACMFM010000003.1	123116	124540	-	AG-918-K09_00732	AG-918-K09	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-918-K09_00732	0
+CACMFM010000003.1	124639	125307	+	AG-918-K09_00733	AG-918-K09	222	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	AG-918-K09_00732	1
+CACMFM010000003.1	125312	126154	+	AG-918-K09_00734	AG-918-K09	280	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-918-K09_00732	2
+CACMFM010000003.1	126157	127215	+	AG-918-K09_00735	AG-918-K09	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-918-K09_00732	3
+CACMFM010000003.1	127265	128398	+	AG-918-K09_00736	AG-918-K09	377	OG0002112	NA	NA	COG1506	DAP2	Dipeptidyl aminopeptidase/acylaminoacyl peptidase	AG-918-K09_00732	4
+CACMFM010000003.1	128436	129110	+	AG-918-K09_00737	AG-918-K09	224	OG0000980	NA	NA	COG2049	PxpB	5-oxoprolinase subunit B/Allophanate hydrolase subunit 1	AG-918-K09_00732	5
+CACMFU010000013.1	22026	22640	-	AG-918-K13_01113	AG-918-K13	204	OG0000577	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	AG-918-K13_01118	-5
+CACMFU010000013.1	22710	23390	+	AG-918-K13_01114	AG-918-K13	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-918-K13_01118	-4
+CACMFU010000013.1	23444	24946	+	AG-918-K13_01115	AG-918-K13	500	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-918-K13_01118	-3
+CACMFU010000013.1	24946	25842	+	AG-918-K13_01116	AG-918-K13	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-918-K13_01118	-2
+CACMFU010000013.1	25842	26966	+	AG-918-K13_01117	AG-918-K13	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-918-K13_01118	-1
+CACMFU010000013.1	26967	28391	-	AG-918-K13_01118	AG-918-K13	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-918-K13_01118	0
+CACMGQ010000003.1	31620	32009	-	AG-918-L07_00613	AG-918-L07	129	OG0000745	NA	NA	NA	NA	NA	AG-918-L07_00618	-5
+CACMGQ010000003.1	32042	32992	+	AG-918-L07_00614	AG-918-L07	316	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-918-L07_00618	-4
+CACMGQ010000003.1	33107	34084	+	AG-918-L07_00615	AG-918-L07	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-918-L07_00618	-3
+CACMGQ010000003.1	34146	34610	+	AG-918-L07_00616	AG-918-L07	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-918-L07_00618	-2
+CACMGQ010000003.1	34610	36088	+	AG-918-L07_00617	AG-918-L07	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-918-L07_00618	-1
+CACMGQ010000003.1	36085	37509	+	AG-918-L07_00618	AG-918-L07	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-918-L07_00618	0
+CACMGQ010000003.1	37526	38605	-	AG-918-L07_00619	AG-918-L07	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-918-L07_00618	1
+CACMGQ010000003.1	38786	39766	+	AG-918-L07_00620	AG-918-L07	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-918-L07_00618	2
+CACMGQ010000003.1	39798	40268	+	AG-918-L07_00621	AG-918-L07	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-918-L07_00618	3
+CACMGQ010000003.1	40265	41761	+	AG-918-L07_00622	AG-918-L07	498	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-918-L07_00618	4
+CACMGQ010000003.1	41758	42840	-	AG-918-L07_00623	AG-918-L07	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-918-L07_00618	5
+CACNGH010000006.1	18336	19418	+	AG-920-J04_00680	AG-920-J04	360	OG0000128	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-920-J04_00685	-5
+CACNGH010000006.1	19415	20911	-	AG-920-J04_00681	AG-920-J04	498	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-920-J04_00685	-4
+CACNGH010000006.1	20908	21378	-	AG-920-J04_00682	AG-920-J04	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-920-J04_00685	-3
+CACNGH010000006.1	21410	22390	-	AG-920-J04_00683	AG-920-J04	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-920-J04_00685	-2
+CACNGH010000006.1	22573	23652	+	AG-920-J04_00684	AG-920-J04	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AG-920-J04_00685	-1
+CACNGH010000006.1	23669	25093	-	AG-920-J04_00685	AG-920-J04	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-920-J04_00685	0
+CACNGH010000006.1	25090	26568	-	AG-920-J04_00686	AG-920-J04	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-920-J04_00685	1
+CACNGH010000006.1	26568	27032	-	AG-920-J04_00687	AG-920-J04	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	AG-920-J04_00685	2
+CACNGH010000006.1	27094	28071	-	AG-920-J04_00688	AG-920-J04	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	AG-920-J04_00685	3
+CACNGH010000006.1	28186	29136	-	AG-920-J04_00689	AG-920-J04	316	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	AG-920-J04_00685	4
+CACNGH010000006.1	29169	29558	+	AG-920-J04_00690	AG-920-J04	129	OG0000745	NA	NA	NA	NA	NA	AG-920-J04_00685	5
+CACNIV010000009.1	28995	29675	+	AG-920-L20_01173	AG-920-L20	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	AG-920-L20_01178	-5
+CACNIV010000009.1	29729	31231	+	AG-920-L20_01174	AG-920-L20	500	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-920-L20_01178	-4
+CACNIV010000009.1	31231	32127	+	AG-920-L20_01175	AG-920-L20	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AG-920-L20_01178	-3
+CACNIV010000009.1	32127	33251	+	AG-920-L20_01176	AG-920-L20	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	AG-920-L20_01178	-2
+CACNIV010000009.1	33329	33793	+	AG-920-L20_01177	AG-920-L20	154	OG0002733	NA	NA	NA	NA	NA	AG-920-L20_01178	-1
+CACNIV010000009.1	33846	35270	-	AG-920-L20_01178	AG-920-L20	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AG-920-L20_01178	0
+CACNIV010000009.1	35270	36286	-	AG-920-L20_01179	AG-920-L20	338	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	AG-920-L20_01178	1
+CACNWV010000005.1	8971	10251	-	AH-287-E19_00445	AH-287-E19	426	OG0002111	NA	NA	COG0607	PspE	Rhodanese-related sulfurtransferase	AH-287-E19_00450	-5
+CACNWV010000005.1	10230	11357	-	AH-287-E19_00446	AH-287-E19	375	OG0002112	NA	NA	COG1506	DAP2	Dipeptidyl aminopeptidase/acylaminoacyl peptidase	AH-287-E19_00450	-4
+CACNWV010000005.1	11400	12458	-	AH-287-E19_00447	AH-287-E19	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	AH-287-E19_00450	-3
+CACNWV010000005.1	12469	13299	-	AH-287-E19_00448	AH-287-E19	276	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	AH-287-E19_00450	-2
+CACNWV010000005.1	13292	13990	-	AH-287-E19_00449	AH-287-E19	232	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	AH-287-E19_00450	-1
+CACNWV010000005.1	14063	15487	+	AH-287-E19_00450	AH-287-E19	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	AH-287-E19_00450	0
+CACNWV010000005.1	15591	17060	+	AH-287-E19_00451	AH-287-E19	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	AH-287-E19_00450	1
+CACNWV010000005.1	17050	18111	-	AH-287-E19_00452	AH-287-E19	353	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	AH-287-E19_00450	2
+CACNWV010000005.1	18199	20826	+	AH-287-E19_00453	AH-287-E19	875	OG0000262	NA	NA	COG1048	AcnA	Aconitase A	AH-287-E19_00450	3
+CACNWV010000005.1	20832	21965	+	AH-287-E19_00454	AH-287-E19	377	OG0001718	K09788	2-methylaconitate isomerase [EC:5.3.3.-]	COG2828	PrpF	2-Methylaconitate cis-trans-isomerase PrpF (2-methyl citrate pathway)	AH-287-E19_00450	4
+CACNWV010000005.1	21967	22725	-	AH-287-E19_00455	AH-287-E19	252	OG0001148	K07090	uncharacterized protein	COG0730	TauE	Sulfite exporter TauE/SafE/YfcA and related permeases, UPF0721 family	AH-287-E19_00450	5
+NYVZ01000012.1	22258	23331	-	CPC289_00727	CPC289	357	OG0000040	NA	NA	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	CPC289_00732	-5
+NYVZ01000012.1	23373	24458	+	CPC289_00728	CPC289	361	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	CPC289_00732	-4
+NYVZ01000012.1	24455	25924	-	CPC289_00729	CPC289	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	CPC289_00732	-3
+NYVZ01000012.1	26008	26403	+	CPC289_00730	CPC289	131	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	CPC289_00732	-2
+NYVZ01000012.1	26406	26789	+	CPC289_00731	CPC289	127	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	CPC289_00732	-1
+NYVZ01000012.1	26794	28155	+	CPC289_00732	CPC289	453	OG0001579	NA	NA	COG2079	PrpD	2-methylcitrate dehydratase PrpD	CPC289_00732	0
+NYVZ01000012.1	28163	29107	-	CPC289_00733	CPC289	314	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	CPC289_00732	1
+NYVZ01000012.1	29114	30538	-	CPC289_00734	CPC289	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	CPC289_00732	2
+NYVZ01000012.1	30642	31319	+	CPC289_00735	CPC289	225	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	CPC289_00732	3
+NYVZ01000012.1	31312	32160	+	CPC289_00736	CPC289	282	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	CPC289_00732	4
+NYVZ01000012.1	32162	33217	+	CPC289_00737	CPC289	351	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	CPC289_00732	5
+NYVZ01000012.1	24455	25924	-	CPC289_00729	CPC289	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	CPC289_00734	-5
+NYVZ01000012.1	26008	26403	+	CPC289_00730	CPC289	131	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	CPC289_00734	-4
+NYVZ01000012.1	26406	26789	+	CPC289_00731	CPC289	127	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	CPC289_00734	-3
+NYVZ01000012.1	26794	28155	+	CPC289_00732	CPC289	453	OG0001579	NA	NA	COG2079	PrpD	2-methylcitrate dehydratase PrpD	CPC289_00734	-2
+NYVZ01000012.1	28163	29107	-	CPC289_00733	CPC289	314	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	CPC289_00734	-1
+NYVZ01000012.1	29114	30538	-	CPC289_00734	CPC289	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	CPC289_00734	0
+NYVZ01000012.1	30642	31319	+	CPC289_00735	CPC289	225	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	CPC289_00734	1
+NYVZ01000012.1	31312	32160	+	CPC289_00736	CPC289	282	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	CPC289_00734	2
+NYVZ01000012.1	32162	33217	+	CPC289_00737	CPC289	351	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	CPC289_00734	3
+NYVZ01000012.1	33214	33783	-	CPC289_00738	CPC289	189	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	CPC289_00734	4
+NYVZ01000012.1	33849	34757	+	CPC289_00739	CPC289	302	OG0000167	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	CPC289_00734	5
+LHBX01000008.1	64122	65135	+	GOM-A1_01288	GOM-A1	337	OG0000550	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	COG0208	NrdB	Ribonucleotide reductase beta subunit, ferritin-like domain	GOM-A1_01293	-5
+LHBX01000008.1	65142	65396	+	GOM-A1_01289	GOM-A1	84	OG0000990	K06938	uncharacterized protein	COG3313	YdhL	Predicted Fe-S protein YdhL, DUF1289 family	GOM-A1_01293	-4
+LHBX01000008.1	65497	66468	+	GOM-A1_01290	GOM-A1	323	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	GOM-A1_01293	-3
+LHBX01000008.1	66514	66978	+	GOM-A1_01291	GOM-A1	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	GOM-A1_01293	-2
+LHBX01000008.1	66978	68450	+	GOM-A1_01292	GOM-A1	490	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	GOM-A1_01293	-1
+LHBX01000008.1	68450	69874	+	GOM-A1_01293	GOM-A1	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	GOM-A1_01293	0
+LHBX01000008.1	69875	70999	-	GOM-A1_01294	GOM-A1	374	OG0000151	NA	NA	COG0372	GltA	Citrate synthase	GOM-A1_01293	1
+LHBX01000008.1	70999	71895	-	GOM-A1_01295	GOM-A1	298	OG0000766	K03417	methylisocitrate lyase [EC:4.1.3.30]	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	GOM-A1_01293	2
+LHBX01000008.1	71895	73391	-	GOM-A1_01296	GOM-A1	498	OG0000649	K01720	2-methylcitrate dehydratase [EC:4.2.1.79]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	GOM-A1_01293	3
+LHBX01000008.1	73451	74131	-	GOM-A1_01297	GOM-A1	226	OG0000155	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	COG0546	Gph	Phosphoglycolate phosphatase, HAD superfamily	GOM-A1_01293	4
+LHBX01000008.1	74201	74809	+	GOM-A1_01298	GOM-A1	202	OG0000577	NA	NA	COG1207	GlmU	Bifunctional protein GlmU, N-acetylglucosamine-1-phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase	GOM-A1_01293	5
+HIMB109-00000000002	135978	136373	+	HIMB109_00483	HIMB109	131	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	HIMB109_00488	-5
+HIMB109-00000000002	136383	137456	-	HIMB109_00484	HIMB109	357	OG0000040	NA	NA	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB109_00488	-4
+HIMB109-00000000002	137487	137888	+	HIMB109_00485	HIMB109	133	OG0002431	NA	NA	COG0662	ManC	Mannose-6-phosphate isomerase, cupin superfamily	HIMB109_00488	-3
+HIMB109-00000000002	137892	138278	+	HIMB109_00486	HIMB109	128	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB109_00488	-2
+HIMB109-00000000002	138288	139235	-	HIMB109_00487	HIMB109	315	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB109_00488	-1
+HIMB109-00000000002	139242	140666	-	HIMB109_00488	HIMB109	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	HIMB109_00488	0
+HIMB109-00000000002	140769	141446	+	HIMB109_00489	HIMB109	225	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	HIMB109_00488	1
+HIMB109-00000000002	141439	142287	+	HIMB109_00490	HIMB109	282	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	HIMB109_00488	2
+HIMB109-00000000002	142290	143345	+	HIMB109_00491	HIMB109	351	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	HIMB109_00488	3
+HIMB109-00000000002	143342	143860	-	HIMB109_00492	HIMB109	172	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	HIMB109_00488	4
+HIMB109-00000000002	143911	144822	-	HIMB109_00493	HIMB109	303	OG0001090	K15737	glutarate dioxygenase [EC:1.14.11.64]	NA	NA	NA	HIMB109_00488	5
+ADAC02000001.1	193473	194384	+	HIMB114_00206	HIMB114	303	OG0001090	K15737	glutarate dioxygenase [EC:1.14.11.64]	NA	NA	NA	HIMB114_00211	-5
+ADAC02000001.1	194435	194953	+	HIMB114_00207	HIMB114	172	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	HIMB114_00211	-4
+ADAC02000001.1	194950	196005	-	HIMB114_00208	HIMB114	351	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	HIMB114_00211	-3
+ADAC02000001.1	196008	196856	-	HIMB114_00209	HIMB114	282	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	HIMB114_00211	-2
+ADAC02000001.1	196849	197526	-	HIMB114_00210	HIMB114	225	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	HIMB114_00211	-1
+ADAC02000001.1	197627	199051	+	HIMB114_00211	HIMB114	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	HIMB114_00211	0
+ADAC02000001.1	199058	200005	+	HIMB114_00212	HIMB114	315	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB114_00211	1
+ADAC02000001.1	200015	200401	-	HIMB114_00213	HIMB114	128	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB114_00211	2
+ADAC02000001.1	200405	200806	-	HIMB114_00214	HIMB114	133	OG0002431	NA	NA	COG0662	ManC	Mannose-6-phosphate isomerase, cupin superfamily	HIMB114_00211	3
+ADAC02000001.1	200837	201910	+	HIMB114_00215	HIMB114	357	OG0000040	NA	NA	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB114_00211	4
+ADAC02000001.1	201920	202315	-	HIMB114_00216	HIMB114	131	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	HIMB114_00211	5
+HIMB1517-00000000006	16420	17331	+	HIMB1517_00761	HIMB1517	303	OG0001090	K15737	glutarate dioxygenase [EC:1.14.11.64]	NA	NA	NA	HIMB1517_00766	-5
+HIMB1517-00000000006	17328	17900	+	HIMB1517_00762	HIMB1517	190	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	HIMB1517_00766	-4
+HIMB1517-00000000006	17897	18952	-	HIMB1517_00763	HIMB1517	351	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	HIMB1517_00766	-3
+HIMB1517-00000000006	18955	19803	-	HIMB1517_00764	HIMB1517	282	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	HIMB1517_00766	-2
+HIMB1517-00000000006	19796	20473	-	HIMB1517_00765	HIMB1517	225	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	HIMB1517_00766	-1
+HIMB1517-00000000006	20576	22000	+	HIMB1517_00766	HIMB1517	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	HIMB1517_00766	0
+HIMB1517-00000000006	22007	22954	+	HIMB1517_00767	HIMB1517	315	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1517_00766	1
+HIMB1517-00000000006	22957	23343	-	HIMB1517_00768	HIMB1517	128	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1517_00766	2
+HIMB1517-00000000006	23347	23748	-	HIMB1517_00769	HIMB1517	133	OG0002431	NA	NA	COG0662	ManC	Mannose-6-phosphate isomerase, cupin superfamily	HIMB1517_00766	3
+HIMB1517-00000000006	23779	24852	+	HIMB1517_00770	HIMB1517	357	OG0000040	NA	NA	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB1517_00766	4
+HIMB1517-00000000006	24862	25257	-	HIMB1517_00771	HIMB1517	131	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	HIMB1517_00766	5
+HIMB1565-00000000001	593808	594719	+	HIMB1565_00655	HIMB1565	303	OG0001090	K15737	glutarate dioxygenase [EC:1.14.11.64]	NA	NA	NA	HIMB1565_00660	-5
+HIMB1565-00000000001	594770	595288	+	HIMB1565_00656	HIMB1565	172	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	HIMB1565_00660	-4
+HIMB1565-00000000001	595285	596340	-	HIMB1565_00657	HIMB1565	351	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	HIMB1565_00660	-3
+HIMB1565-00000000001	596343	597191	-	HIMB1565_00658	HIMB1565	282	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	HIMB1565_00660	-2
+HIMB1565-00000000001	597184	597861	-	HIMB1565_00659	HIMB1565	225	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	HIMB1565_00660	-1
+HIMB1565-00000000001	597963	599387	+	HIMB1565_00660	HIMB1565	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	HIMB1565_00660	0
+HIMB1565-00000000001	599394	600341	+	HIMB1565_00661	HIMB1565	315	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HIMB1565_00660	1
+HIMB1565-00000000001	600349	600735	-	HIMB1565_00662	HIMB1565	128	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	HIMB1565_00660	2
+HIMB1565-00000000001	600782	601855	+	HIMB1565_00663	HIMB1565	357	OG0000040	NA	NA	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	HIMB1565_00660	3
+HIMB1565-00000000001	601865	602260	-	HIMB1565_00664	HIMB1565	131	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	HIMB1565_00660	4
+HIMB1565-00000000001	602344	603813	+	HIMB1565_00665	HIMB1565	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	HIMB1565_00660	5
+CP002511.1	705015	705341	+	IMCC9063_00799	IMCC9063	108	OG0001083	NA	NA	COG4541	NA	Uncharacterized membrane protein	IMCC9063_00804	-5
+CP002511.1	705344	706252	+	IMCC9063_00800	IMCC9063	302	OG0001090	K15737	glutarate dioxygenase [EC:1.14.11.64]	COG2175	TauD	Taurine dioxygenase, alpha-ketoglutarate-dependent	IMCC9063_00804	-4
+CP002511.1	706257	707315	-	IMCC9063_00801	IMCC9063	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	IMCC9063_00804	-3
+CP002511.1	707315	708172	-	IMCC9063_00802	IMCC9063	285	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	IMCC9063_00804	-2
+CP002511.1	708216	708896	-	IMCC9063_00803	IMCC9063	226	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	IMCC9063_00804	-1
+CP002511.1	709015	710439	+	IMCC9063_00804	IMCC9063	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	IMCC9063_00804	0
+CP002511.1	710448	711395	+	IMCC9063_00805	IMCC9063	315	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	IMCC9063_00804	1
+CP002511.1	711433	712635	-	IMCC9063_00806	IMCC9063	400	OG0001579	NA	NA	COG2079	PrpD	2-methylcitrate dehydratase PrpD	IMCC9063_00804	2
+CP002511.1	712800	713186	-	IMCC9063_00807	IMCC9063	128	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	IMCC9063_00804	3
+CP002511.1	713190	713573	-	IMCC9063_00808	IMCC9063	127	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	IMCC9063_00804	4
+CP002511.1	713614	713850	+	IMCC9063_00809	IMCC9063	78	NA	NA	NA	NA	NA	NA	IMCC9063_00804	5
+CP002511.1	706257	707315	-	IMCC9063_00801	IMCC9063	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	IMCC9063_00806	-5
+CP002511.1	707315	708172	-	IMCC9063_00802	IMCC9063	285	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	IMCC9063_00806	-4
+CP002511.1	708216	708896	-	IMCC9063_00803	IMCC9063	226	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	IMCC9063_00806	-3
+CP002511.1	709015	710439	+	IMCC9063_00804	IMCC9063	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	IMCC9063_00806	-2
+CP002511.1	710448	711395	+	IMCC9063_00805	IMCC9063	315	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	IMCC9063_00806	-1
+CP002511.1	711433	712635	-	IMCC9063_00806	IMCC9063	400	OG0001579	NA	NA	COG2079	PrpD	2-methylcitrate dehydratase PrpD	IMCC9063_00806	0
+CP002511.1	712800	713186	-	IMCC9063_00807	IMCC9063	128	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	IMCC9063_00806	1
+CP002511.1	713190	713573	-	IMCC9063_00808	IMCC9063	127	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	IMCC9063_00806	2
+CP002511.1	713614	713850	+	IMCC9063_00809	IMCC9063	78	NA	NA	NA	NA	NA	NA	IMCC9063_00806	3
+CP002511.1	713944	715413	+	IMCC9063_00810	IMCC9063	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	IMCC9063_00806	4
+CP002511.1	715410	716474	-	IMCC9063_00811	IMCC9063	354	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	IMCC9063_00806	5
+Ga0197930_11	756217	757281	+	LSUCC0723_00828	LSUCC0723	354	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	LSUCC0723_00833	-5
+Ga0197930_11	757278	758747	-	LSUCC0723_00829	LSUCC0723	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	LSUCC0723_00833	-4
+Ga0197930_11	758832	759224	+	LSUCC0723_00830	LSUCC0723	130	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	LSUCC0723_00833	-3
+Ga0197930_11	759226	759612	+	LSUCC0723_00831	LSUCC0723	128	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	LSUCC0723_00833	-2
+Ga0197930_11	759615	760562	-	LSUCC0723_00832	LSUCC0723	315	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	LSUCC0723_00833	-1
+Ga0197930_11	760569	761993	-	LSUCC0723_00833	LSUCC0723	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	LSUCC0723_00833	0
+Ga0197930_11	762096	762773	+	LSUCC0723_00834	LSUCC0723	225	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	LSUCC0723_00833	1
+Ga0197930_11	762766	763611	+	LSUCC0723_00835	LSUCC0723	281	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	LSUCC0723_00833	2
+Ga0197930_11	763614	764672	+	LSUCC0723_00836	LSUCC0723	352	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	LSUCC0723_00833	3
+Ga0197930_11	764669	765187	-	LSUCC0723_00837	LSUCC0723	172	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	LSUCC0723_00833	4
+Ga0197930_11	765238	766179	-	LSUCC0723_00838	LSUCC0723	313	OG0001090	K15737	glutarate dioxygenase [EC:1.14.11.64]	NA	NA	NA	LSUCC0723_00833	5
+NZJW01000014.1	311	1258	-	MED1116_00290	MED1116	315	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	MED1116_00291	-1
+NZJW01000014.1	1265	2689	-	MED1116_00291	MED1116	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	MED1116_00291	0
+NZJW01000014.1	2793	3470	+	MED1116_00292	MED1116	225	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	MED1116_00291	1
+NZJW01000014.1	3463	4311	+	MED1116_00293	MED1116	282	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	MED1116_00291	2
+NZJW01000014.1	4313	5368	+	MED1116_00294	MED1116	351	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	MED1116_00291	3
+NZJW01000014.1	5365	5967	-	MED1116_00295	MED1116	200	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	MED1116_00291	4
+NZJW01000014.1	6000	6908	+	MED1116_00296	MED1116	302	OG0000167	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	MED1116_00291	5
+JACWDF010000005.1	25458	25847	-	SAG-MED08_00963	SAG-MED08	129	OG0000745	NA	NA	NA	NA	NA	SAG-MED08_00968	-5
+JACWDF010000005.1	25880	26830	+	SAG-MED08_00964	SAG-MED08	316	OG0000424	NA	NA	COG0859	RfaF	ADP-heptose:LPS heptosyltransferase	SAG-MED08_00968	-4
+JACWDF010000005.1	26945	27922	+	SAG-MED08_00965	SAG-MED08	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	SAG-MED08_00968	-3
+JACWDF010000005.1	27984	28448	+	SAG-MED08_00966	SAG-MED08	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	SAG-MED08_00968	-2
+JACWDF010000005.1	28448	29926	+	SAG-MED08_00967	SAG-MED08	492	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	SAG-MED08_00968	-1
+JACWDF010000005.1	29923	31347	+	SAG-MED08_00968	SAG-MED08	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	SAG-MED08_00968	0
+JACWDF010000005.1	31364	32443	-	SAG-MED08_00969	SAG-MED08	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	SAG-MED08_00968	1
+JACWDF010000005.1	32626	33606	+	SAG-MED08_00970	SAG-MED08	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	SAG-MED08_00968	2
+JACWDF010000005.1	33638	34108	+	SAG-MED08_00971	SAG-MED08	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	SAG-MED08_00968	3
+JACWDF010000005.1	34105	34980	+	SAG-MED08_00972	SAG-MED08	291	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	SAG-MED08_00968	4
+JACWDF010000005.1	34958	35608	+	SAG-MED08_00973	SAG-MED08	216	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	SAG-MED08_00968	5
+PBKK01000003.1	86458	87366	-	SP27_00507	SP27	302	OG0000167	NA	NA	COG0535	SkfB	Radical SAM superfamily maturase, SkfB/NifB/PqqE family	SP27_00512	-5
+PBKK01000003.1	87399	88001	+	SP27_00508	SP27	200	OG0001159	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	COG0225	MsrA	Peptide methionine sulfoxide reductase MsrA	SP27_00512	-4
+PBKK01000003.1	87998	89053	-	SP27_00509	SP27	351	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	SP27_00512	-3
+PBKK01000003.1	89055	89903	-	SP27_00510	SP27	282	OG0001501	NA	NA	COG2513	PrpB	2-Methylisocitrate lyase and related enzymes, PEP mutase family	SP27_00512	-2
+PBKK01000003.1	89860	90573	-	SP27_00511	SP27	237	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	SP27_00512	-1
+PBKK01000003.1	90675	92099	+	SP27_00512	SP27	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	SP27_00512	0
+PBKK01000003.1	92106	93050	+	SP27_00513	SP27	314	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	SP27_00512	1
+PBKK01000003.1	93093	93836	+	SP27_00514	SP27	247	OG0002337	NA	NA	COG2267	PldB	Lysophospholipase, alpha-beta hydrolase superfamily	SP27_00512	2
+PBKK01000003.1	93818	94399	+	SP27_00515	SP27	193	OG0001459	NA	NA	NA	NA	NA	SP27_00512	3
+PBKK01000003.1	94423	95790	-	SP27_00516	SP27	455	OG0001579	NA	NA	COG2079	PrpD	2-methylcitrate dehydratase PrpD	SP27_00512	4
+PBKK01000003.1	95795	96178	-	SP27_00517	SP27	127	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	SP27_00512	5
+PBKK01000003.1	89860	90573	-	SP27_00511	SP27	237	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	SP27_00516	-5
+PBKK01000003.1	90675	92099	+	SP27_00512	SP27	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	SP27_00516	-4
+PBKK01000003.1	92106	93050	+	SP27_00513	SP27	314	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	SP27_00516	-3
+PBKK01000003.1	93093	93836	+	SP27_00514	SP27	247	OG0002337	NA	NA	COG2267	PldB	Lysophospholipase, alpha-beta hydrolase superfamily	SP27_00516	-2
+PBKK01000003.1	93818	94399	+	SP27_00515	SP27	193	OG0001459	NA	NA	NA	NA	NA	SP27_00516	-1
+PBKK01000003.1	94423	95790	-	SP27_00516	SP27	455	OG0001579	NA	NA	COG2079	PrpD	2-methylcitrate dehydratase PrpD	SP27_00516	0
+PBKK01000003.1	95795	96178	-	SP27_00517	SP27	127	OG0000142	NA	NA	COG2050	PaaI	Acyl-CoA thioesterase PaaI, contains HGG motif	SP27_00516	1
+PBKK01000003.1	96185	96580	-	SP27_00518	SP27	131	OG0001094	NA	NA	COG0229	MsrB	Peptide methionine sulfoxide reductase MsrB	SP27_00516	2
+PBKK01000003.1	96664	98133	+	SP27_00519	SP27	489	OG0001580	K13796	tricarballylate dehydrogenase	COG1053	SdhA	Succinate dehydrogenase/fumarate reductase, flavoprotein subunit	SP27_00516	3
+PBKK01000003.1	98130	99191	-	SP27_00520	SP27	353	OG0000026	NA	NA	COG2055	AllD	Malate/lactate/ureidoglycolate dehydrogenase, LDH2 family	SP27_00516	4
+PBKK01000003.1	99259	100332	+	SP27_00521	SP27	357	OG0000040	NA	NA	COG0473	LeuB	Isocitrate/isopropylmalate dehydrogenase	SP27_00516	5
+CP159815.1	371139	372218	-	Uisw_127_00395	Uisw_127	359	OG0001130	K07120	uncharacterized protein	COG3180	AbrB	Uncharacterized membrane protein AbrB, regulator of aidB expression	Uisw_127_00400	-5
+CP159815.1	372245	372919	-	Uisw_127_00396	Uisw_127	224	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	Uisw_127_00400	-4
+CP159815.1	373086	374063	+	Uisw_127_00397	Uisw_127	325	OG0001163	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	Uisw_127_00400	-3
+CP159815.1	374142	374606	+	Uisw_127_00398	Uisw_127	154	OG0001187	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	Uisw_127_00400	-2
+CP159815.1	374606	376081	+	Uisw_127_00399	Uisw_127	491	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	Uisw_127_00400	-1
+CP159815.1	376081	377505	+	Uisw_127_00400	Uisw_127	474	OG0001579	K17724	aconitate decarboxylase [EC:4.1.1.6]	COG2079	PrpD	2-methylcitrate dehydratase PrpD	Uisw_127_00400	0
+CP159815.1	377599	378297	-	Uisw_127_00401	Uisw_127	232	OG0001598	NA	NA	COG1414	IclR	DNA-binding transcriptional regulator, IclR family	Uisw_127_00400	1
+CP159815.1	378416	379396	+	Uisw_127_00402	Uisw_127	326	OG0001110	K07795	putative tricarboxylic transport membrane protein	COG3181	TctC	Tripartite-type tricarboxylate transporter, extracytoplasmic receptor component TctC	Uisw_127_00400	2
+CP159815.1	379426	379896	+	Uisw_127_00403	Uisw_127	156	OG0001140	K07794	putative tricarboxylic transport membrane protein	NA	NA	NA	Uisw_127_00400	3
+CP159815.1	379893	381395	+	Uisw_127_00404	Uisw_127	500	OG0000068	K07793	putative tricarboxylic transport membrane protein	COG3333	NA	TctA family transporter	Uisw_127_00400	4
+CP159815.1	381543	382319	+	Uisw_127_00405	Uisw_127	258	OG0003801	K01799	maleate isomerase [EC:5.2.1.1]	COG3473	NA	Maleate cis-trans isomerase	Uisw_127_00400	5

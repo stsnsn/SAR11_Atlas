@@ -1,0 +1,515 @@
+contig	start	end	strand	seq_id	genome	aa_length	Orthogroup	ko_id	ko_description	COG_ID	GENE_NAME	COG_NAME	center_query	relative_order
+CACDQH010000003.1	41656	42138	+	AG-904-F17_00742	AG-904-F17	160	OG0001006	NA	NA	COG2606	EbsC	Cys-tRNA(Pro) deacylase, prolyl-tRNA editing enzyme YbaK/EbsC	AG-904-F17_00747	-5
+CACDQH010000003.1	42135	43022	+	AG-904-F17_00743	AG-904-F17	295	OG0000082	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-904-F17_00747	-4
+CACDQH010000003.1	43014	43931	-	AG-904-F17_00744	AG-904-F17	305	OG0000123	NA	NA	COG2040	MHT1	Homocysteine/selenocysteine methylase (S-methylmethionine-dependent)	AG-904-F17_00747	-3
+CACDQH010000003.1	43935	44525	-	AG-904-F17_00745	AG-904-F17	196	OG0000048	NA	NA	NA	NA	NA	AG-904-F17_00747	-2
+CACDQH010000003.1	44617	45579	-	AG-904-F17_00746	AG-904-F17	320	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	AG-904-F17_00747	-1
+CACDQH010000003.1	45583	46425	-	AG-904-F17_00747	AG-904-F17	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	AG-904-F17_00747	0
+CACDQH010000003.1	46446	47297	-	AG-904-F17_00748	AG-904-F17	283	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-904-F17_00747	1
+CACDQH010000003.1	47365	48369	-	AG-904-F17_00749	AG-904-F17	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	AG-904-F17_00747	2
+CACDQH010000003.1	48529	49566	-	AG-904-F17_00750	AG-904-F17	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	AG-904-F17_00747	3
+CACDQH010000003.1	49563	50303	-	AG-904-F17_00751	AG-904-F17	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	AG-904-F17_00747	4
+CACDQH010000003.1	50305	51306	-	AG-904-F17_00752	AG-904-F17	333	OG0000013	K00010	myo-inositol 2-dehydrogenase / D-chiro-inositol 1-dehydrogenase [EC:1.1.1.18 1.1.1.369]	COG0673	MviM	Predicted dehydrogenase	AG-904-F17_00747	5
+CACJMX010000001.1	602713	603195	+	AG-915-K13_00642	AG-915-K13	160	OG0001006	NA	NA	COG2606	EbsC	Cys-tRNA(Pro) deacylase, prolyl-tRNA editing enzyme YbaK/EbsC	AG-915-K13_00647	-5
+CACJMX010000001.1	603192	604079	+	AG-915-K13_00643	AG-915-K13	295	OG0000082	NA	NA	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	AG-915-K13_00647	-4
+CACJMX010000001.1	604071	604988	-	AG-915-K13_00644	AG-915-K13	305	OG0000123	NA	NA	COG2040	MHT1	Homocysteine/selenocysteine methylase (S-methylmethionine-dependent)	AG-915-K13_00647	-3
+CACJMX010000001.1	604992	605582	-	AG-915-K13_00645	AG-915-K13	196	OG0000048	NA	NA	NA	NA	NA	AG-915-K13_00647	-2
+CACJMX010000001.1	605674	606636	-	AG-915-K13_00646	AG-915-K13	320	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	AG-915-K13_00647	-1
+CACJMX010000001.1	606640	607482	-	AG-915-K13_00647	AG-915-K13	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	AG-915-K13_00647	0
+CACJMX010000001.1	607503	608354	-	AG-915-K13_00648	AG-915-K13	283	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	AG-915-K13_00647	1
+CACJMX010000001.1	608423	609427	-	AG-915-K13_00649	AG-915-K13	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	AG-915-K13_00647	2
+CACJMX010000001.1	609587	610624	-	AG-915-K13_00650	AG-915-K13	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	AG-915-K13_00647	3
+CACJMX010000001.1	610621	611361	-	AG-915-K13_00651	AG-915-K13	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	AG-915-K13_00647	4
+CACJMX010000001.1	611363	612364	-	AG-915-K13_00652	AG-915-K13	333	OG0000013	K00010	myo-inositol 2-dehydrogenase / D-chiro-inositol 1-dehydrogenase [EC:1.1.1.18 1.1.1.369]	COG0673	MviM	Predicted dehydrogenase	AG-915-K13_00647	5
+CACLYY010000001.1	236025	237806	+	AG-918-B06_00258	AG-918-B06	593	OG0001064	K24846	ATP-binding cassette, subfamily B, bacterial PglK [EC:7.5.2.-]	COG1132	MdlB	ABC-type multidrug and LPS transport system, ATPase and permease component MsbA	AG-918-B06_00263	-5
+CACLYY010000001.1	237826	238734	+	AG-918-B06_00259	AG-918-B06	302	NA	NA	NA	NA	NA	NA	AG-918-B06_00263	-4
+CACLYY010000001.1	238706	239482	+	AG-918-B06_00260	AG-918-B06	258	OG0000028	K05303	O-methyltransferase [EC:2.1.1.-]	NA	NA	NA	AG-918-B06_00263	-3
+CACLYY010000001.1	239479	240141	+	AG-918-B06_00261	AG-918-B06	220	OG0001196	NA	NA	COG1083	NeuA	CMP-N-acetylneuraminic acid synthetase, NeuA/PseF family	AG-918-B06_00263	-2
+CACLYY010000001.1	240141	240929	+	AG-918-B06_00262	AG-918-B06	262	OG0002305	NA	NA	NA	NA	NA	AG-918-B06_00263	-1
+CACLYY010000001.1	240926	241798	+	AG-918-B06_00263	AG-918-B06	290	OG0001691	NA	NA	NA	NA	NA	AG-918-B06_00263	0
+CACLYY010000001.1	241801	242652	+	AG-918-B06_00264	AG-918-B06	283	NA	NA	NA	NA	NA	NA	AG-918-B06_00263	1
+CACLYY010000001.1	242677	243567	-	AG-918-B06_00265	AG-918-B06	296	OG0001500	NA	NA	NA	NA	NA	AG-918-B06_00263	2
+CACLYY010000001.1	243588	244640	-	AG-918-B06_00266	AG-918-B06	350	OG0001775	NA	NA	NA	NA	NA	AG-918-B06_00263	3
+CACLYY010000001.1	244729	246003	+	AG-918-B06_00267	AG-918-B06	424	OG0000031	K02474	UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-]	COG0677	WecC	UDP-N-acetyl-D-mannosaminuronate dehydrogenase	AG-918-B06_00263	4
+CACLYY010000001.1	246009	247238	+	AG-918-B06_00268	AG-918-B06	409	OG0000010	NA	NA	COG0438	RfaB	Lipopolysaccharide 1,6-galactosyltransferase, GT1 family	AG-918-B06_00263	5
+NSIJ01000014.1	5487	6269	-	Baikal-G1_00301	Baikal-G1	260	OG0002910	K02050	NitT/TauT family transport system permease protein	COG0600	TauC	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	Baikal-G1_00306	-5
+NSIJ01000014.1	6278	7045	-	Baikal-G1_00302	Baikal-G1	255	OG0000001	NA	NA	COG1116	TauB	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	Baikal-G1_00306	-4
+NSIJ01000014.1	7106	8101	-	Baikal-G1_00303	Baikal-G1	331	OG0002911	NA	NA	COG0715	TauA	ABC-type nitrate/sulfonate/bicarbonate transport system, periplasmic component	Baikal-G1_00306	-3
+NSIJ01000014.1	8298	9275	+	Baikal-G1_00304	Baikal-G1	325	OG0002912	NA	NA	COG4977	GlxA	Transcriptional regulator GlxA, contains an amidase domain and an AraC-type DNA-binding HTH domain	Baikal-G1_00306	-2
+NSIJ01000014.1	9289	10251	-	Baikal-G1_00305	Baikal-G1	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	Baikal-G1_00306	-1
+NSIJ01000014.1	10255	11097	-	Baikal-G1_00306	Baikal-G1	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	Baikal-G1_00306	0
+NSIJ01000014.1	11122	11976	-	Baikal-G1_00307	Baikal-G1	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Baikal-G1_00306	1
+NSIJ01000014.1	12055	13047	-	Baikal-G1_00308	Baikal-G1	330	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	Baikal-G1_00306	2
+NSIJ01000014.1	13212	14243	-	Baikal-G1_00309	Baikal-G1	343	OG0000021	NA	NA	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	Baikal-G1_00306	3
+NSIJ01000014.1	14248	14988	-	Baikal-G1_00310	Baikal-G1	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	Baikal-G1_00306	4
+NSIJ01000014.1	14988	15992	-	Baikal-G1_00311	Baikal-G1	334	OG0000013	K00010	myo-inositol 2-dehydrogenase / D-chiro-inositol 1-dehydrogenase [EC:1.1.1.18 1.1.1.369]	COG0673	MviM	Predicted dehydrogenase	Baikal-G1_00306	5
+O147DRAFT_scaffold00001.1	1403611	1404351	+	HIMB122_01494	HIMB122	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB122_01499	-5
+O147DRAFT_scaffold00001.1	1404348	1405385	+	HIMB122_01495	HIMB122	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB122_01499	-4
+O147DRAFT_scaffold00001.1	1405386	1406405	-	HIMB122_01496	HIMB122	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB122_01499	-3
+O147DRAFT_scaffold00001.1	1406548	1407552	+	HIMB122_01497	HIMB122	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB122_01499	-2
+O147DRAFT_scaffold00001.1	1407628	1408482	+	HIMB122_01498	HIMB122	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB122_01499	-1
+O147DRAFT_scaffold00001.1	1408502	1409344	+	HIMB122_01499	HIMB122	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB122_01499	0
+O147DRAFT_scaffold00001.1	1409348	1410310	+	HIMB122_01500	HIMB122	320	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB122_01499	1
+O147DRAFT_scaffold00001.1	1410346	1411185	-	HIMB122_01501	HIMB122	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB122_01499	2
+O147DRAFT_scaffold00001.1	1411219	1412211	+	HIMB122_01502	HIMB122	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB122_01499	3
+O147DRAFT_scaffold00001.1	1412213	1412758	+	HIMB122_01503	HIMB122	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB122_01499	4
+O147DRAFT_scaffold00001.1	1412710	1413033	+	HIMB122_01504	HIMB122	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB122_01499	5
+NZ_LAMZ01000001.1	424499	425239	+	HIMB140_00492	HIMB140	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB140_00497	-5
+NZ_LAMZ01000001.1	425236	426273	+	HIMB140_00493	HIMB140	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB140_00497	-4
+NZ_LAMZ01000001.1	426274	427293	-	HIMB140_00494	HIMB140	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB140_00497	-3
+NZ_LAMZ01000001.1	427436	428440	+	HIMB140_00495	HIMB140	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB140_00497	-2
+NZ_LAMZ01000001.1	428516	429370	+	HIMB140_00496	HIMB140	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB140_00497	-1
+NZ_LAMZ01000001.1	429390	430232	+	HIMB140_00497	HIMB140	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB140_00497	0
+NZ_LAMZ01000001.1	430236	431198	+	HIMB140_00498	HIMB140	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB140_00497	1
+NZ_LAMZ01000001.1	431234	432073	-	HIMB140_00499	HIMB140	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB140_00497	2
+NZ_LAMZ01000001.1	432107	433099	+	HIMB140_00500	HIMB140	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB140_00497	3
+NZ_LAMZ01000001.1	433101	433646	+	HIMB140_00501	HIMB140	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB140_00497	4
+NZ_LAMZ01000001.1	433598	433921	+	HIMB140_00502	HIMB140	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB140_00497	5
+HIMB1413-00000000001	698184	698924	+	HIMB1413_00766	HIMB1413	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1413_00771	-5
+HIMB1413-00000000001	698921	699958	+	HIMB1413_00767	HIMB1413	345	NA	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1413_00771	-4
+HIMB1413-00000000001	699959	700978	-	HIMB1413_00768	HIMB1413	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1413_00771	-3
+HIMB1413-00000000001	701119	702123	+	HIMB1413_00769	HIMB1413	334	NA	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1413_00771	-2
+HIMB1413-00000000001	702197	703051	+	HIMB1413_00770	HIMB1413	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1413_00771	-1
+HIMB1413-00000000001	703071	703913	+	HIMB1413_00771	HIMB1413	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1413_00771	0
+HIMB1413-00000000001	703917	704879	+	HIMB1413_00772	HIMB1413	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1413_00771	1
+HIMB1413-00000000001	705050	706264	+	HIMB1413_00773	HIMB1413	404	OG0001040	K10117	raffinose/stachyose/melibiose transport system substrate-binding protein	COG1653	UgpB	ABC-type glycerol-3-phosphate transport system, periplasmic component	HIMB1413_00771	2
+HIMB1413-00000000001	706340	707260	+	HIMB1413_00774	HIMB1413	306	OG0000016	NA	NA	COG1175	UgpA	ABC-type sugar transport system, permease component	HIMB1413_00771	3
+HIMB1413-00000000001	707261	708112	+	HIMB1413_00775	HIMB1413	283	OG0000002	NA	NA	COG0395	UgpE	ABC-type glycerol-3-phosphate transport system, permease component	HIMB1413_00771	4
+HIMB1413-00000000001	708093	709442	+	HIMB1413_00776	HIMB1413	449	OG0001760	K07406	alpha-galactosidase [EC:3.2.1.22]	COG1486	CelF	Alpha-galactosidase/6-phospho-beta-glucosidase, family 4 of glycosyl hydrolase	HIMB1413_00771	5
+HIMB1430-00000000001	40413	40682	-	HIMB1430_00046	HIMB1430	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1430_00051	-5
+HIMB1430-00000000001	40688	41233	-	HIMB1430_00047	HIMB1430	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1430_00051	-4
+HIMB1430-00000000001	41235	42227	-	HIMB1430_00048	HIMB1430	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1430_00051	-3
+HIMB1430-00000000001	42261	43100	+	HIMB1430_00049	HIMB1430	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1430_00051	-2
+HIMB1430-00000000001	43136	44098	-	HIMB1430_00050	HIMB1430	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1430_00051	-1
+HIMB1430-00000000001	44102	44944	-	HIMB1430_00051	HIMB1430	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1430_00051	0
+HIMB1430-00000000001	44964	45818	-	HIMB1430_00052	HIMB1430	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1430_00051	1
+HIMB1430-00000000001	45893	46897	-	HIMB1430_00053	HIMB1430	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1430_00051	2
+HIMB1430-00000000001	47040	48059	+	HIMB1430_00054	HIMB1430	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1430_00051	3
+HIMB1430-00000000001	48060	49097	-	HIMB1430_00055	HIMB1430	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1430_00051	4
+HIMB1430-00000000001	49094	49834	-	HIMB1430_00056	HIMB1430	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1430_00051	5
+HIMB1490-00000000014	18991	19314	-	HIMB1490_01028	HIMB1490	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1490_01033	-5
+HIMB1490-00000000014	19266	19811	-	HIMB1490_01029	HIMB1490	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1490_01033	-4
+HIMB1490-00000000014	19813	20805	-	HIMB1490_01030	HIMB1490	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1490_01033	-3
+HIMB1490-00000000014	20839	21678	+	HIMB1490_01031	HIMB1490	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1490_01033	-2
+HIMB1490-00000000014	21714	22676	-	HIMB1490_01032	HIMB1490	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1490_01033	-1
+HIMB1490-00000000014	22680	23522	-	HIMB1490_01033	HIMB1490	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1490_01033	0
+HIMB1490-00000000014	23542	24396	-	HIMB1490_01034	HIMB1490	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1490_01033	1
+HIMB1490-00000000014	24472	25476	-	HIMB1490_01035	HIMB1490	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1490_01033	2
+HIMB1490-00000000014	25619	26638	+	HIMB1490_01036	HIMB1490	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1490_01033	3
+HIMB1490-00000000014	26639	27676	-	HIMB1490_01037	HIMB1490	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1490_01033	4
+HIMB1490-00000000014	27673	28413	-	HIMB1490_01038	HIMB1490	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1490_01033	5
+HIMB1491-00000000001	1417913	1418653	+	HIMB1491_01492	HIMB1491	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1491_01497	-5
+HIMB1491-00000000001	1418650	1419687	+	HIMB1491_01493	HIMB1491	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1491_01497	-4
+HIMB1491-00000000001	1419688	1420707	-	HIMB1491_01494	HIMB1491	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1491_01497	-3
+HIMB1491-00000000001	1420850	1421854	+	HIMB1491_01495	HIMB1491	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1491_01497	-2
+HIMB1491-00000000001	1421930	1422784	+	HIMB1491_01496	HIMB1491	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1491_01497	-1
+HIMB1491-00000000001	1422804	1423646	+	HIMB1491_01497	HIMB1491	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1491_01497	0
+HIMB1491-00000000001	1423650	1424612	+	HIMB1491_01498	HIMB1491	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1491_01497	1
+HIMB1491-00000000001	1424648	1425487	-	HIMB1491_01499	HIMB1491	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1491_01497	2
+HIMB1491-00000000001	1425521	1426513	+	HIMB1491_01500	HIMB1491	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1491_01497	3
+HIMB1491-00000000001	1426515	1427060	+	HIMB1491_01501	HIMB1491	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1491_01497	4
+HIMB1491-00000000001	1427012	1427335	+	HIMB1491_01502	HIMB1491	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1491_01497	5
+HIMB1494-00000000001	718773	719096	-	HIMB1494_00750	HIMB1494	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1494_00755	-5
+HIMB1494-00000000001	719048	719593	-	HIMB1494_00751	HIMB1494	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1494_00755	-4
+HIMB1494-00000000001	719595	720587	-	HIMB1494_00752	HIMB1494	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1494_00755	-3
+HIMB1494-00000000001	720621	721460	+	HIMB1494_00753	HIMB1494	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1494_00755	-2
+HIMB1494-00000000001	721496	722458	-	HIMB1494_00754	HIMB1494	320	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1494_00755	-1
+HIMB1494-00000000001	722462	723304	-	HIMB1494_00755	HIMB1494	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1494_00755	0
+HIMB1494-00000000001	723324	724178	-	HIMB1494_00756	HIMB1494	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1494_00755	1
+HIMB1494-00000000001	724254	725258	-	HIMB1494_00757	HIMB1494	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1494_00755	2
+HIMB1494-00000000001	725403	726422	+	HIMB1494_00758	HIMB1494	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1494_00755	3
+HIMB1494-00000000001	726423	727460	-	HIMB1494_00759	HIMB1494	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1494_00755	4
+HIMB1494-00000000001	727457	728197	-	HIMB1494_00760	HIMB1494	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1494_00755	5
+HIMB1495-00000000001	695478	695747	-	HIMB1495_00728	HIMB1495	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1495_00733	-5
+HIMB1495-00000000001	695753	696298	-	HIMB1495_00729	HIMB1495	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1495_00733	-4
+HIMB1495-00000000001	696300	697292	-	HIMB1495_00730	HIMB1495	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1495_00733	-3
+HIMB1495-00000000001	697326	698165	+	HIMB1495_00731	HIMB1495	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1495_00733	-2
+HIMB1495-00000000001	698201	699163	-	HIMB1495_00732	HIMB1495	320	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1495_00733	-1
+HIMB1495-00000000001	699167	700009	-	HIMB1495_00733	HIMB1495	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1495_00733	0
+HIMB1495-00000000001	700029	700883	-	HIMB1495_00734	HIMB1495	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1495_00733	1
+HIMB1495-00000000001	700959	701963	-	HIMB1495_00735	HIMB1495	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1495_00733	2
+HIMB1495-00000000001	702108	703127	+	HIMB1495_00736	HIMB1495	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1495_00733	3
+HIMB1495-00000000001	703128	704165	-	HIMB1495_00737	HIMB1495	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1495_00733	4
+HIMB1495-00000000001	704162	704902	-	HIMB1495_00738	HIMB1495	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1495_00733	5
+HIMB1506-00000000001	776069	776809	+	HIMB1506_00849	HIMB1506	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1506_00854	-5
+HIMB1506-00000000001	776806	777843	+	HIMB1506_00850	HIMB1506	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1506_00854	-4
+HIMB1506-00000000001	777844	778863	-	HIMB1506_00851	HIMB1506	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1506_00854	-3
+HIMB1506-00000000001	779006	780010	+	HIMB1506_00852	HIMB1506	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1506_00854	-2
+HIMB1506-00000000001	780086	780940	+	HIMB1506_00853	HIMB1506	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1506_00854	-1
+HIMB1506-00000000001	780960	781802	+	HIMB1506_00854	HIMB1506	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1506_00854	0
+HIMB1506-00000000001	781806	782768	+	HIMB1506_00855	HIMB1506	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1506_00854	1
+HIMB1506-00000000001	782804	783643	-	HIMB1506_00856	HIMB1506	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1506_00854	2
+HIMB1506-00000000001	783677	784669	+	HIMB1506_00857	HIMB1506	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1506_00854	3
+HIMB1506-00000000001	784671	785216	+	HIMB1506_00858	HIMB1506	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1506_00854	4
+HIMB1506-00000000001	785222	785491	+	HIMB1506_00859	HIMB1506	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1506_00854	5
+HIMB1507-00000000001	1429010	1429750	+	HIMB1507_01518	HIMB1507	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1507_01523	-5
+HIMB1507-00000000001	1429747	1430784	+	HIMB1507_01519	HIMB1507	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1507_01523	-4
+HIMB1507-00000000001	1430785	1431804	-	HIMB1507_01520	HIMB1507	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1507_01523	-3
+HIMB1507-00000000001	1431947	1432951	+	HIMB1507_01521	HIMB1507	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1507_01523	-2
+HIMB1507-00000000001	1433027	1433881	+	HIMB1507_01522	HIMB1507	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1507_01523	-1
+HIMB1507-00000000001	1433901	1434743	+	HIMB1507_01523	HIMB1507	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1507_01523	0
+HIMB1507-00000000001	1434747	1435709	+	HIMB1507_01524	HIMB1507	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1507_01523	1
+HIMB1507-00000000001	1435745	1436584	-	HIMB1507_01525	HIMB1507	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1507_01523	2
+HIMB1507-00000000001	1436618	1437610	+	HIMB1507_01526	HIMB1507	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1507_01523	3
+HIMB1507-00000000001	1437612	1438157	+	HIMB1507_01527	HIMB1507	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1507_01523	4
+HIMB1507-00000000001	1438109	1438432	+	HIMB1507_01528	HIMB1507	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1507_01523	5
+HIMB1509-00000000001	671045	671368	-	HIMB1509_00696	HIMB1509	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1509_00701	-5
+HIMB1509-00000000001	671320	671865	-	HIMB1509_00697	HIMB1509	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1509_00701	-4
+HIMB1509-00000000001	671867	672859	-	HIMB1509_00698	HIMB1509	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1509_00701	-3
+HIMB1509-00000000001	672893	673732	+	HIMB1509_00699	HIMB1509	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1509_00701	-2
+HIMB1509-00000000001	673768	674730	-	HIMB1509_00700	HIMB1509	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1509_00701	-1
+HIMB1509-00000000001	674734	675576	-	HIMB1509_00701	HIMB1509	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1509_00701	0
+HIMB1509-00000000001	675596	676450	-	HIMB1509_00702	HIMB1509	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1509_00701	1
+HIMB1509-00000000001	676525	677529	-	HIMB1509_00703	HIMB1509	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1509_00701	2
+HIMB1509-00000000001	677672	678691	+	HIMB1509_00704	HIMB1509	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1509_00701	3
+HIMB1509-00000000001	678692	679729	-	HIMB1509_00705	HIMB1509	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1509_00701	4
+HIMB1509-00000000001	679726	680466	-	HIMB1509_00706	HIMB1509	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1509_00701	5
+HIMB1513-00000000001	1390606	1391346	+	HIMB1513_01473	HIMB1513	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1513_01478	-5
+HIMB1513-00000000001	1391343	1392380	+	HIMB1513_01474	HIMB1513	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1513_01478	-4
+HIMB1513-00000000001	1392381	1393400	-	HIMB1513_01475	HIMB1513	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1513_01478	-3
+HIMB1513-00000000001	1393543	1394547	+	HIMB1513_01476	HIMB1513	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1513_01478	-2
+HIMB1513-00000000001	1394623	1395477	+	HIMB1513_01477	HIMB1513	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1513_01478	-1
+HIMB1513-00000000001	1395497	1396339	+	HIMB1513_01478	HIMB1513	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1513_01478	0
+HIMB1513-00000000001	1396343	1397305	+	HIMB1513_01479	HIMB1513	320	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1513_01478	1
+HIMB1513-00000000001	1397341	1398180	-	HIMB1513_01480	HIMB1513	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1513_01478	2
+HIMB1513-00000000001	1398214	1399206	+	HIMB1513_01481	HIMB1513	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1513_01478	3
+HIMB1513-00000000001	1399208	1399753	+	HIMB1513_01482	HIMB1513	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1513_01478	4
+HIMB1513-00000000001	1399759	1400028	+	HIMB1513_01483	HIMB1513	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1513_01478	5
+HIMB1521-00000000005	68907	69647	+	HIMB1521_00569	HIMB1521	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1521_00574	-5
+HIMB1521-00000000005	69644	70681	+	HIMB1521_00570	HIMB1521	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1521_00574	-4
+HIMB1521-00000000005	70682	71701	-	HIMB1521_00571	HIMB1521	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1521_00574	-3
+HIMB1521-00000000005	71844	72848	+	HIMB1521_00572	HIMB1521	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1521_00574	-2
+HIMB1521-00000000005	72924	73778	+	HIMB1521_00573	HIMB1521	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1521_00574	-1
+HIMB1521-00000000005	73798	74640	+	HIMB1521_00574	HIMB1521	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1521_00574	0
+HIMB1521-00000000005	74644	75606	+	HIMB1521_00575	HIMB1521	320	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1521_00574	1
+HIMB1521-00000000005	75642	76481	-	HIMB1521_00576	HIMB1521	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1521_00574	2
+HIMB1521-00000000005	76515	77507	+	HIMB1521_00577	HIMB1521	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1521_00574	3
+HIMB1521-00000000005	77509	78054	+	HIMB1521_00578	HIMB1521	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1521_00574	4
+HIMB1521-00000000005	78060	78329	+	HIMB1521_00579	HIMB1521	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1521_00574	5
+HIMB1526-00000000001	565749	566018	-	HIMB1526_00584	HIMB1526	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1526_00589	-5
+HIMB1526-00000000001	566024	566569	-	HIMB1526_00585	HIMB1526	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1526_00589	-4
+HIMB1526-00000000001	566571	567563	-	HIMB1526_00586	HIMB1526	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1526_00589	-3
+HIMB1526-00000000001	567597	568436	+	HIMB1526_00587	HIMB1526	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1526_00589	-2
+HIMB1526-00000000001	568473	569435	-	HIMB1526_00588	HIMB1526	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1526_00589	-1
+HIMB1526-00000000001	569439	570281	-	HIMB1526_00589	HIMB1526	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1526_00589	0
+HIMB1526-00000000001	570301	571155	-	HIMB1526_00590	HIMB1526	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1526_00589	1
+HIMB1526-00000000001	571231	572235	-	HIMB1526_00591	HIMB1526	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1526_00589	2
+HIMB1526-00000000001	572378	573397	+	HIMB1526_00592	HIMB1526	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1526_00589	3
+HIMB1526-00000000001	573398	574435	-	HIMB1526_00593	HIMB1526	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1526_00589	4
+HIMB1526-00000000001	574432	575172	-	HIMB1526_00594	HIMB1526	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1526_00589	5
+HIMB1542-00000000001	716641	717381	+	HIMB1542_00789	HIMB1542	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1542_00794	-5
+HIMB1542-00000000001	717378	718415	+	HIMB1542_00790	HIMB1542	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1542_00794	-4
+HIMB1542-00000000001	718416	719435	-	HIMB1542_00791	HIMB1542	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1542_00794	-3
+HIMB1542-00000000001	719578	720582	+	HIMB1542_00792	HIMB1542	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1542_00794	-2
+HIMB1542-00000000001	720658	721512	+	HIMB1542_00793	HIMB1542	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1542_00794	-1
+HIMB1542-00000000001	721532	722374	+	HIMB1542_00794	HIMB1542	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1542_00794	0
+HIMB1542-00000000001	722378	723340	+	HIMB1542_00795	HIMB1542	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1542_00794	1
+HIMB1542-00000000001	723376	724215	-	HIMB1542_00796	HIMB1542	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1542_00794	2
+HIMB1542-00000000001	724249	725241	+	HIMB1542_00797	HIMB1542	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1542_00794	3
+HIMB1542-00000000001	725243	725788	+	HIMB1542_00798	HIMB1542	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1542_00794	4
+HIMB1542-00000000001	725740	726063	+	HIMB1542_00799	HIMB1542	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1542_00794	5
+HIMB1552-00000000001	116111	116380	-	HIMB1552_00120	HIMB1552	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1552_00125	-5
+HIMB1552-00000000001	116386	116931	-	HIMB1552_00121	HIMB1552	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1552_00125	-4
+HIMB1552-00000000001	116933	117925	-	HIMB1552_00122	HIMB1552	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1552_00125	-3
+HIMB1552-00000000001	117959	118798	+	HIMB1552_00123	HIMB1552	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1552_00125	-2
+HIMB1552-00000000001	118835	119797	-	HIMB1552_00124	HIMB1552	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1552_00125	-1
+HIMB1552-00000000001	119801	120643	-	HIMB1552_00125	HIMB1552	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1552_00125	0
+HIMB1552-00000000001	120663	121517	-	HIMB1552_00126	HIMB1552	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1552_00125	1
+HIMB1552-00000000001	121593	122597	-	HIMB1552_00127	HIMB1552	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1552_00125	2
+HIMB1552-00000000001	122740	123759	+	HIMB1552_00128	HIMB1552	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1552_00125	3
+HIMB1552-00000000001	123760	124797	-	HIMB1552_00129	HIMB1552	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1552_00125	4
+HIMB1552-00000000001	124794	125534	-	HIMB1552_00130	HIMB1552	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1552_00125	5
+HIMB1556-00000000001	1339498	1340238	+	HIMB1556_01415	HIMB1556	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1556_01420	-5
+HIMB1556-00000000001	1340235	1341272	+	HIMB1556_01416	HIMB1556	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1556_01420	-4
+HIMB1556-00000000001	1341273	1342292	-	HIMB1556_01417	HIMB1556	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1556_01420	-3
+HIMB1556-00000000001	1342435	1343439	+	HIMB1556_01418	HIMB1556	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1556_01420	-2
+HIMB1556-00000000001	1343515	1344369	+	HIMB1556_01419	HIMB1556	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1556_01420	-1
+HIMB1556-00000000001	1344389	1345231	+	HIMB1556_01420	HIMB1556	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1556_01420	0
+HIMB1556-00000000001	1345235	1346197	+	HIMB1556_01421	HIMB1556	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1556_01420	1
+HIMB1556-00000000001	1346234	1347073	-	HIMB1556_01422	HIMB1556	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1556_01420	2
+HIMB1556-00000000001	1347107	1348099	+	HIMB1556_01423	HIMB1556	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1556_01420	3
+HIMB1556-00000000001	1348101	1348646	+	HIMB1556_01424	HIMB1556	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1556_01420	4
+HIMB1556-00000000001	1348652	1348921	+	HIMB1556_01425	HIMB1556	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1556_01420	5
+HIMB1559-00000000001	40309	40632	-	HIMB1559_00046	HIMB1559	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1559_00051	-5
+HIMB1559-00000000001	40584	41129	-	HIMB1559_00047	HIMB1559	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1559_00051	-4
+HIMB1559-00000000001	41131	42123	-	HIMB1559_00048	HIMB1559	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1559_00051	-3
+HIMB1559-00000000001	42157	42996	+	HIMB1559_00049	HIMB1559	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1559_00051	-2
+HIMB1559-00000000001	43032	43994	-	HIMB1559_00050	HIMB1559	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1559_00051	-1
+HIMB1559-00000000001	43998	44840	-	HIMB1559_00051	HIMB1559	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1559_00051	0
+HIMB1559-00000000001	44860	45714	-	HIMB1559_00052	HIMB1559	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1559_00051	1
+HIMB1559-00000000001	45789	46793	-	HIMB1559_00053	HIMB1559	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1559_00051	2
+HIMB1559-00000000001	46936	47955	+	HIMB1559_00054	HIMB1559	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1559_00051	3
+HIMB1559-00000000001	47956	48993	-	HIMB1559_00055	HIMB1559	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1559_00051	4
+HIMB1559-00000000001	48990	49730	-	HIMB1559_00056	HIMB1559	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1559_00051	5
+HIMB1573-00000000001	1395519	1396259	+	HIMB1573_01510	HIMB1573	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1573_01515	-5
+HIMB1573-00000000001	1396256	1397293	+	HIMB1573_01511	HIMB1573	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1573_01515	-4
+HIMB1573-00000000001	1397294	1398313	-	HIMB1573_01512	HIMB1573	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1573_01515	-3
+HIMB1573-00000000001	1398456	1399460	+	HIMB1573_01513	HIMB1573	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1573_01515	-2
+HIMB1573-00000000001	1399535	1400389	+	HIMB1573_01514	HIMB1573	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1573_01515	-1
+HIMB1573-00000000001	1400409	1401251	+	HIMB1573_01515	HIMB1573	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1573_01515	0
+HIMB1573-00000000001	1401255	1402217	+	HIMB1573_01516	HIMB1573	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1573_01515	1
+HIMB1573-00000000001	1402253	1403092	-	HIMB1573_01517	HIMB1573	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1573_01515	2
+HIMB1573-00000000001	1403126	1404118	+	HIMB1573_01518	HIMB1573	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1573_01515	3
+HIMB1573-00000000001	1404120	1404665	+	HIMB1573_01519	HIMB1573	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1573_01515	4
+HIMB1573-00000000001	1404617	1404940	+	HIMB1573_01520	HIMB1573	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1573_01515	5
+HIMB1577-00000000001	1154616	1154885	-	HIMB1577_01224	HIMB1577	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1577_01229	-5
+HIMB1577-00000000001	1154891	1155436	-	HIMB1577_01225	HIMB1577	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1577_01229	-4
+HIMB1577-00000000001	1155438	1156430	-	HIMB1577_01226	HIMB1577	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1577_01229	-3
+HIMB1577-00000000001	1156464	1157303	+	HIMB1577_01227	HIMB1577	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1577_01229	-2
+HIMB1577-00000000001	1157339	1158301	-	HIMB1577_01228	HIMB1577	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1577_01229	-1
+HIMB1577-00000000001	1158305	1159147	-	HIMB1577_01229	HIMB1577	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1577_01229	0
+HIMB1577-00000000001	1159167	1160021	-	HIMB1577_01230	HIMB1577	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1577_01229	1
+HIMB1577-00000000001	1160096	1161100	-	HIMB1577_01231	HIMB1577	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1577_01229	2
+HIMB1577-00000000001	1161243	1162262	+	HIMB1577_01232	HIMB1577	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1577_01229	3
+HIMB1577-00000000001	1162263	1163300	-	HIMB1577_01233	HIMB1577	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1577_01229	4
+HIMB1577-00000000001	1163297	1164037	-	HIMB1577_01234	HIMB1577	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1577_01229	5
+HIMB1587-00000000001	40509	40832	-	HIMB1587_00046	HIMB1587	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1587_00051	-5
+HIMB1587-00000000001	40784	41329	-	HIMB1587_00047	HIMB1587	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1587_00051	-4
+HIMB1587-00000000001	41331	42323	-	HIMB1587_00048	HIMB1587	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1587_00051	-3
+HIMB1587-00000000001	42357	43196	+	HIMB1587_00049	HIMB1587	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1587_00051	-2
+HIMB1587-00000000001	43232	44194	-	HIMB1587_00050	HIMB1587	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1587_00051	-1
+HIMB1587-00000000001	44198	45040	-	HIMB1587_00051	HIMB1587	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1587_00051	0
+HIMB1587-00000000001	45060	45914	-	HIMB1587_00052	HIMB1587	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1587_00051	1
+HIMB1587-00000000001	45989	46993	-	HIMB1587_00053	HIMB1587	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1587_00051	2
+HIMB1587-00000000001	47136	48155	+	HIMB1587_00054	HIMB1587	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1587_00051	3
+HIMB1587-00000000001	48156	49193	-	HIMB1587_00055	HIMB1587	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1587_00051	4
+HIMB1587-00000000001	49190	49930	-	HIMB1587_00056	HIMB1587	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1587_00051	5
+HIMB1593-00000000001	708297	708566	-	HIMB1593_00734	HIMB1593	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1593_00739	-5
+HIMB1593-00000000001	708572	709117	-	HIMB1593_00735	HIMB1593	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1593_00739	-4
+HIMB1593-00000000001	709119	710111	-	HIMB1593_00736	HIMB1593	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1593_00739	-3
+HIMB1593-00000000001	710145	710984	+	HIMB1593_00737	HIMB1593	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1593_00739	-2
+HIMB1593-00000000001	711020	711982	-	HIMB1593_00738	HIMB1593	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1593_00739	-1
+HIMB1593-00000000001	711986	712828	-	HIMB1593_00739	HIMB1593	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1593_00739	0
+HIMB1593-00000000001	712848	713702	-	HIMB1593_00740	HIMB1593	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1593_00739	1
+HIMB1593-00000000001	713778	714782	-	HIMB1593_00741	HIMB1593	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1593_00739	2
+HIMB1593-00000000001	714925	715944	+	HIMB1593_00742	HIMB1593	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1593_00739	3
+HIMB1593-00000000001	715945	716982	-	HIMB1593_00743	HIMB1593	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1593_00739	4
+HIMB1593-00000000001	716979	717719	-	HIMB1593_00744	HIMB1593	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1593_00739	5
+HIMB1597-00000000001	272211	272951	+	HIMB1597_00299	HIMB1597	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1597_00304	-5
+HIMB1597-00000000001	272948	273985	+	HIMB1597_00300	HIMB1597	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1597_00304	-4
+HIMB1597-00000000001	273986	275005	-	HIMB1597_00301	HIMB1597	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1597_00304	-3
+HIMB1597-00000000001	275148	276152	+	HIMB1597_00302	HIMB1597	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1597_00304	-2
+HIMB1597-00000000001	276227	277081	+	HIMB1597_00303	HIMB1597	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1597_00304	-1
+HIMB1597-00000000001	277101	277943	+	HIMB1597_00304	HIMB1597	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1597_00304	0
+HIMB1597-00000000001	277947	278909	+	HIMB1597_00305	HIMB1597	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1597_00304	1
+HIMB1597-00000000001	278945	279784	-	HIMB1597_00306	HIMB1597	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1597_00304	2
+HIMB1597-00000000001	279818	280810	+	HIMB1597_00307	HIMB1597	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1597_00304	3
+HIMB1597-00000000001	280812	281357	+	HIMB1597_00308	HIMB1597	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1597_00304	4
+HIMB1597-00000000001	281309	281632	+	HIMB1597_00309	HIMB1597	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1597_00304	5
+HIMB1602-00000000031	1077	1817	+	HIMB1602_00435	HIMB1602	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1602_00440	-5
+HIMB1602-00000000031	1814	2851	+	HIMB1602_00436	HIMB1602	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1602_00440	-4
+HIMB1602-00000000031	2852	3871	-	HIMB1602_00437	HIMB1602	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1602_00440	-3
+HIMB1602-00000000031	4014	5018	+	HIMB1602_00438	HIMB1602	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1602_00440	-2
+HIMB1602-00000000031	5094	5948	+	HIMB1602_00439	HIMB1602	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1602_00440	-1
+HIMB1602-00000000031	5968	6810	+	HIMB1602_00440	HIMB1602	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1602_00440	0
+HIMB1602-00000000031	6814	7776	+	HIMB1602_00441	HIMB1602	320	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1602_00440	1
+HIMB1602-00000000031	7812	8651	-	HIMB1602_00442	HIMB1602	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1602_00440	2
+HIMB1611-00000000001	744721	745461	+	HIMB1611_00833	HIMB1611	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1611_00838	-5
+HIMB1611-00000000001	745458	746495	+	HIMB1611_00834	HIMB1611	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1611_00838	-4
+HIMB1611-00000000001	746496	747515	-	HIMB1611_00835	HIMB1611	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1611_00838	-3
+HIMB1611-00000000001	747658	748662	+	HIMB1611_00836	HIMB1611	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1611_00838	-2
+HIMB1611-00000000001	748737	749591	+	HIMB1611_00837	HIMB1611	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1611_00838	-1
+HIMB1611-00000000001	749611	750453	+	HIMB1611_00838	HIMB1611	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1611_00838	0
+HIMB1611-00000000001	750457	751419	+	HIMB1611_00839	HIMB1611	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1611_00838	1
+HIMB1611-00000000001	751455	752294	-	HIMB1611_00840	HIMB1611	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1611_00838	2
+HIMB1611-00000000001	752328	753320	+	HIMB1611_00841	HIMB1611	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1611_00838	3
+HIMB1611-00000000001	753322	753867	+	HIMB1611_00842	HIMB1611	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1611_00838	4
+HIMB1611-00000000001	753873	754142	+	HIMB1611_00843	HIMB1611	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1611_00838	5
+HIMB1623-00000000001	183923	184663	+	HIMB1623_00201	HIMB1623	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1623_00206	-5
+HIMB1623-00000000001	184660	185697	+	HIMB1623_00202	HIMB1623	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1623_00206	-4
+HIMB1623-00000000001	185698	186717	-	HIMB1623_00203	HIMB1623	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1623_00206	-3
+HIMB1623-00000000001	186860	187864	+	HIMB1623_00204	HIMB1623	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1623_00206	-2
+HIMB1623-00000000001	187939	188793	+	HIMB1623_00205	HIMB1623	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1623_00206	-1
+HIMB1623-00000000001	188813	189655	+	HIMB1623_00206	HIMB1623	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1623_00206	0
+HIMB1623-00000000001	189659	190621	+	HIMB1623_00207	HIMB1623	320	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1623_00206	1
+HIMB1623-00000000001	190657	191496	-	HIMB1623_00208	HIMB1623	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1623_00206	2
+HIMB1623-00000000001	191530	192522	+	HIMB1623_00209	HIMB1623	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1623_00206	3
+HIMB1623-00000000001	192524	193069	+	HIMB1623_00210	HIMB1623	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1623_00206	4
+HIMB1623-00000000001	193021	193344	+	HIMB1623_00211	HIMB1623	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1623_00206	5
+HIMB1631-00000000001	39904	40173	-	HIMB1631_00045	HIMB1631	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1631_00050	-5
+HIMB1631-00000000001	40179	40724	-	HIMB1631_00046	HIMB1631	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1631_00050	-4
+HIMB1631-00000000001	40726	41718	-	HIMB1631_00047	HIMB1631	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1631_00050	-3
+HIMB1631-00000000001	41752	42591	+	HIMB1631_00048	HIMB1631	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1631_00050	-2
+HIMB1631-00000000001	42627	43589	-	HIMB1631_00049	HIMB1631	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1631_00050	-1
+HIMB1631-00000000001	43593	44435	-	HIMB1631_00050	HIMB1631	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1631_00050	0
+HIMB1631-00000000001	44455	45309	-	HIMB1631_00051	HIMB1631	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1631_00050	1
+HIMB1631-00000000001	45384	46388	-	HIMB1631_00052	HIMB1631	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1631_00050	2
+HIMB1631-00000000001	46531	47550	+	HIMB1631_00053	HIMB1631	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1631_00050	3
+HIMB1631-00000000001	47551	48588	-	HIMB1631_00054	HIMB1631	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1631_00050	4
+HIMB1631-00000000001	48585	49325	-	HIMB1631_00055	HIMB1631	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1631_00050	5
+HIMB1636-00000000001	719743	720483	+	HIMB1636_00766	HIMB1636	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1636_00771	-5
+HIMB1636-00000000001	720480	721517	+	HIMB1636_00767	HIMB1636	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1636_00771	-4
+HIMB1636-00000000001	721518	722537	-	HIMB1636_00768	HIMB1636	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1636_00771	-3
+HIMB1636-00000000001	722680	723684	+	HIMB1636_00769	HIMB1636	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1636_00771	-2
+HIMB1636-00000000001	723760	724614	+	HIMB1636_00770	HIMB1636	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1636_00771	-1
+HIMB1636-00000000001	724634	725476	+	HIMB1636_00771	HIMB1636	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1636_00771	0
+HIMB1636-00000000001	725480	726442	+	HIMB1636_00772	HIMB1636	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1636_00771	1
+HIMB1636-00000000001	726479	727318	-	HIMB1636_00773	HIMB1636	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1636_00771	2
+HIMB1636-00000000001	727352	728344	+	HIMB1636_00774	HIMB1636	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1636_00771	3
+HIMB1636-00000000001	728346	728891	+	HIMB1636_00775	HIMB1636	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1636_00771	4
+HIMB1636-00000000001	728897	729166	+	HIMB1636_00776	HIMB1636	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1636_00771	5
+HIMB1641-00000000001	1312866	1313606	+	HIMB1641_01380	HIMB1641	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1641_01385	-5
+HIMB1641-00000000001	1313603	1314640	+	HIMB1641_01381	HIMB1641	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1641_01385	-4
+HIMB1641-00000000001	1314641	1315660	-	HIMB1641_01382	HIMB1641	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1641_01385	-3
+HIMB1641-00000000001	1315803	1316807	+	HIMB1641_01383	HIMB1641	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1641_01385	-2
+HIMB1641-00000000001	1316883	1317737	+	HIMB1641_01384	HIMB1641	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1641_01385	-1
+HIMB1641-00000000001	1317757	1318599	+	HIMB1641_01385	HIMB1641	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1641_01385	0
+HIMB1641-00000000001	1318603	1319565	+	HIMB1641_01386	HIMB1641	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1641_01385	1
+HIMB1641-00000000001	1319602	1320441	-	HIMB1641_01387	HIMB1641	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1641_01385	2
+HIMB1641-00000000001	1320475	1321467	+	HIMB1641_01388	HIMB1641	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1641_01385	3
+HIMB1641-00000000001	1321469	1322014	+	HIMB1641_01389	HIMB1641	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1641_01385	4
+HIMB1641-00000000001	1322020	1322289	+	HIMB1641_01390	HIMB1641	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1641_01385	5
+HIMB1662-00000000001	1294919	1295659	+	HIMB1662_01380	HIMB1662	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1662_01385	-5
+HIMB1662-00000000001	1295656	1296693	+	HIMB1662_01381	HIMB1662	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1662_01385	-4
+HIMB1662-00000000001	1296694	1297713	-	HIMB1662_01382	HIMB1662	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1662_01385	-3
+HIMB1662-00000000001	1297856	1298860	+	HIMB1662_01383	HIMB1662	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1662_01385	-2
+HIMB1662-00000000001	1298935	1299789	+	HIMB1662_01384	HIMB1662	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1662_01385	-1
+HIMB1662-00000000001	1299809	1300651	+	HIMB1662_01385	HIMB1662	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1662_01385	0
+HIMB1662-00000000001	1300655	1301617	+	HIMB1662_01386	HIMB1662	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1662_01385	1
+HIMB1662-00000000001	1301653	1302492	-	HIMB1662_01387	HIMB1662	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1662_01385	2
+HIMB1662-00000000001	1302526	1303518	+	HIMB1662_01388	HIMB1662	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1662_01385	3
+HIMB1662-00000000001	1303520	1304065	+	HIMB1662_01389	HIMB1662	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1662_01385	4
+HIMB1662-00000000001	1304071	1304340	+	HIMB1662_01390	HIMB1662	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1662_01385	5
+HIMB1685-00000000001	435434	436174	+	HIMB1685_00494	HIMB1685	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1685_00499	-5
+HIMB1685-00000000001	436171	437208	+	HIMB1685_00495	HIMB1685	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1685_00499	-4
+HIMB1685-00000000001	437209	438228	-	HIMB1685_00496	HIMB1685	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1685_00499	-3
+HIMB1685-00000000001	438371	439375	+	HIMB1685_00497	HIMB1685	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1685_00499	-2
+HIMB1685-00000000001	439451	440305	+	HIMB1685_00498	HIMB1685	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1685_00499	-1
+HIMB1685-00000000001	440325	441167	+	HIMB1685_00499	HIMB1685	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1685_00499	0
+HIMB1685-00000000001	441171	442133	+	HIMB1685_00500	HIMB1685	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1685_00499	1
+HIMB1685-00000000001	442169	443008	-	HIMB1685_00501	HIMB1685	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1685_00499	2
+HIMB1685-00000000001	443042	444034	+	HIMB1685_00502	HIMB1685	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1685_00499	3
+HIMB1685-00000000001	444036	444581	+	HIMB1685_00503	HIMB1685	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1685_00499	4
+HIMB1685-00000000001	444587	444856	+	HIMB1685_00504	HIMB1685	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1685_00499	5
+HIMB1695-00000000001	521951	522691	+	HIMB1695_00581	HIMB1695	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1695_00586	-5
+HIMB1695-00000000001	522688	523725	+	HIMB1695_00582	HIMB1695	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1695_00586	-4
+HIMB1695-00000000001	523726	524745	-	HIMB1695_00583	HIMB1695	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1695_00586	-3
+HIMB1695-00000000001	524888	525892	+	HIMB1695_00584	HIMB1695	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1695_00586	-2
+HIMB1695-00000000001	525967	526821	+	HIMB1695_00585	HIMB1695	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1695_00586	-1
+HIMB1695-00000000001	526841	527683	+	HIMB1695_00586	HIMB1695	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1695_00586	0
+HIMB1695-00000000001	527687	528649	+	HIMB1695_00587	HIMB1695	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1695_00586	1
+HIMB1695-00000000001	528685	529524	-	HIMB1695_00588	HIMB1695	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1695_00586	2
+HIMB1695-00000000001	529558	530550	+	HIMB1695_00589	HIMB1695	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1695_00586	3
+HIMB1695-00000000001	530552	531097	+	HIMB1695_00590	HIMB1695	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1695_00586	4
+HIMB1695-00000000001	531049	531372	+	HIMB1695_00591	HIMB1695	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1695_00586	5
+HIMB1701-00000000001	451505	452245	+	HIMB1701_00516	HIMB1701	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1701_00521	-5
+HIMB1701-00000000001	452242	453279	+	HIMB1701_00517	HIMB1701	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1701_00521	-4
+HIMB1701-00000000001	453280	454299	-	HIMB1701_00518	HIMB1701	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1701_00521	-3
+HIMB1701-00000000001	454442	455446	+	HIMB1701_00519	HIMB1701	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1701_00521	-2
+HIMB1701-00000000001	455522	456376	+	HIMB1701_00520	HIMB1701	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1701_00521	-1
+HIMB1701-00000000001	456396	457238	+	HIMB1701_00521	HIMB1701	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1701_00521	0
+HIMB1701-00000000001	457242	458204	+	HIMB1701_00522	HIMB1701	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1701_00521	1
+HIMB1701-00000000001	458241	459080	-	HIMB1701_00523	HIMB1701	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1701_00521	2
+HIMB1701-00000000001	459114	460106	+	HIMB1701_00524	HIMB1701	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1701_00521	3
+HIMB1701-00000000001	460108	460653	+	HIMB1701_00525	HIMB1701	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1701_00521	4
+HIMB1701-00000000001	460659	460928	+	HIMB1701_00526	HIMB1701	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1701_00521	5
+HIMB1702-00000000001	706130	706399	-	HIMB1702_00730	HIMB1702	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1702_00735	-5
+HIMB1702-00000000001	706405	706950	-	HIMB1702_00731	HIMB1702	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1702_00735	-4
+HIMB1702-00000000001	706952	707944	-	HIMB1702_00732	HIMB1702	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1702_00735	-3
+HIMB1702-00000000001	707978	708817	+	HIMB1702_00733	HIMB1702	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1702_00735	-2
+HIMB1702-00000000001	708854	709816	-	HIMB1702_00734	HIMB1702	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1702_00735	-1
+HIMB1702-00000000001	709820	710662	-	HIMB1702_00735	HIMB1702	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1702_00735	0
+HIMB1702-00000000001	710682	711536	-	HIMB1702_00736	HIMB1702	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1702_00735	1
+HIMB1702-00000000001	711612	712616	-	HIMB1702_00737	HIMB1702	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1702_00735	2
+HIMB1702-00000000001	712759	713778	+	HIMB1702_00738	HIMB1702	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1702_00735	3
+HIMB1702-00000000001	713779	714816	-	HIMB1702_00739	HIMB1702	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1702_00735	4
+HIMB1702-00000000001	714813	715553	-	HIMB1702_00740	HIMB1702	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1702_00735	5
+HIMB1709-00000000001	504765	505505	+	HIMB1709_00569	HIMB1709	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1709_00574	-5
+HIMB1709-00000000001	505502	506539	+	HIMB1709_00570	HIMB1709	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1709_00574	-4
+HIMB1709-00000000001	506540	507559	-	HIMB1709_00571	HIMB1709	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1709_00574	-3
+HIMB1709-00000000001	507702	508706	+	HIMB1709_00572	HIMB1709	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1709_00574	-2
+HIMB1709-00000000001	508781	509635	+	HIMB1709_00573	HIMB1709	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1709_00574	-1
+HIMB1709-00000000001	509655	510497	+	HIMB1709_00574	HIMB1709	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1709_00574	0
+HIMB1709-00000000001	510501	511463	+	HIMB1709_00575	HIMB1709	320	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1709_00574	1
+HIMB1709-00000000001	511499	512338	-	HIMB1709_00576	HIMB1709	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1709_00574	2
+HIMB1709-00000000001	512372	513364	+	HIMB1709_00577	HIMB1709	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1709_00574	3
+HIMB1709-00000000001	513366	513911	+	HIMB1709_00578	HIMB1709	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1709_00574	4
+HIMB1709-00000000001	513863	514186	+	HIMB1709_00579	HIMB1709	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1709_00574	5
+HIMB1710-00000000003	683092	683361	-	HIMB1710_00724	HIMB1710	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1710_00729	-5
+HIMB1710-00000000003	683367	683912	-	HIMB1710_00725	HIMB1710	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1710_00729	-4
+HIMB1710-00000000003	683914	684906	-	HIMB1710_00726	HIMB1710	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1710_00729	-3
+HIMB1710-00000000003	684940	685779	+	HIMB1710_00727	HIMB1710	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1710_00729	-2
+HIMB1710-00000000003	685816	686778	-	HIMB1710_00728	HIMB1710	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1710_00729	-1
+HIMB1710-00000000003	686782	687624	-	HIMB1710_00729	HIMB1710	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1710_00729	0
+HIMB1710-00000000003	687644	688498	-	HIMB1710_00730	HIMB1710	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1710_00729	1
+HIMB1710-00000000003	688574	689578	-	HIMB1710_00731	HIMB1710	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1710_00729	2
+HIMB1710-00000000003	689721	690740	+	HIMB1710_00732	HIMB1710	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1710_00729	3
+HIMB1710-00000000003	690741	691778	-	HIMB1710_00733	HIMB1710	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1710_00729	4
+HIMB1710-00000000003	691775	692515	-	HIMB1710_00734	HIMB1710	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1710_00729	5
+HIMB1715-00000000005	47511	48251	+	HIMB1715_00543	HIMB1715	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1715_00548	-5
+HIMB1715-00000000005	48248	49285	+	HIMB1715_00544	HIMB1715	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1715_00548	-4
+HIMB1715-00000000005	49286	50305	-	HIMB1715_00545	HIMB1715	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1715_00548	-3
+HIMB1715-00000000005	50448	51452	+	HIMB1715_00546	HIMB1715	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1715_00548	-2
+HIMB1715-00000000005	51527	52381	+	HIMB1715_00547	HIMB1715	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1715_00548	-1
+HIMB1715-00000000005	52401	53243	+	HIMB1715_00548	HIMB1715	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1715_00548	0
+HIMB1715-00000000005	53247	54209	+	HIMB1715_00549	HIMB1715	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1715_00548	1
+HIMB1715-00000000005	54245	55084	-	HIMB1715_00550	HIMB1715	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1715_00548	2
+HIMB1715-00000000005	55118	56110	+	HIMB1715_00551	HIMB1715	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1715_00548	3
+HIMB1715-00000000005	56112	56657	+	HIMB1715_00552	HIMB1715	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1715_00548	4
+HIMB1715-00000000005	56609	56932	+	HIMB1715_00553	HIMB1715	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1715_00548	5
+HIMB1748-00000000003	718290	719030	+	HIMB1748_01398	HIMB1748	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1748_01403	-5
+HIMB1748-00000000003	719027	720064	+	HIMB1748_01399	HIMB1748	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1748_01403	-4
+HIMB1748-00000000003	720065	721084	-	HIMB1748_01400	HIMB1748	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1748_01403	-3
+HIMB1748-00000000003	721227	722231	+	HIMB1748_01401	HIMB1748	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1748_01403	-2
+HIMB1748-00000000003	722307	723161	+	HIMB1748_01402	HIMB1748	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1748_01403	-1
+HIMB1748-00000000003	723181	724023	+	HIMB1748_01403	HIMB1748	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1748_01403	0
+HIMB1748-00000000003	724027	724989	+	HIMB1748_01404	HIMB1748	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1748_01403	1
+HIMB1748-00000000003	725026	725865	-	HIMB1748_01405	HIMB1748	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1748_01403	2
+HIMB1748-00000000003	725899	726891	+	HIMB1748_01406	HIMB1748	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1748_01403	3
+HIMB1748-00000000003	726893	727438	+	HIMB1748_01407	HIMB1748	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1748_01403	4
+HIMB1748-00000000003	727444	727713	+	HIMB1748_01408	HIMB1748	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1748_01403	5
+HIMB1758-00000000001	1408810	1409550	+	HIMB1758_01508	HIMB1758	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1758_01513	-5
+HIMB1758-00000000001	1409547	1410584	+	HIMB1758_01509	HIMB1758	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1758_01513	-4
+HIMB1758-00000000001	1410585	1411604	-	HIMB1758_01510	HIMB1758	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1758_01513	-3
+HIMB1758-00000000001	1411747	1412751	+	HIMB1758_01511	HIMB1758	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1758_01513	-2
+HIMB1758-00000000001	1412826	1413680	+	HIMB1758_01512	HIMB1758	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1758_01513	-1
+HIMB1758-00000000001	1413700	1414542	+	HIMB1758_01513	HIMB1758	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1758_01513	0
+HIMB1758-00000000001	1414546	1415508	+	HIMB1758_01514	HIMB1758	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1758_01513	1
+HIMB1758-00000000001	1415544	1416383	-	HIMB1758_01515	HIMB1758	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1758_01513	2
+HIMB1758-00000000001	1416417	1417409	+	HIMB1758_01516	HIMB1758	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1758_01513	3
+HIMB1758-00000000001	1417411	1417956	+	HIMB1758_01517	HIMB1758	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1758_01513	4
+HIMB1758-00000000001	1417962	1418231	+	HIMB1758_01518	HIMB1758	89	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1758_01513	5
+HIMB1765-00000000001	40407	40730	-	HIMB1765_00046	HIMB1765	107	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HIMB1765_00051	-5
+HIMB1765-00000000001	40682	41236	-	HIMB1765_00047	HIMB1765	184	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HIMB1765_00051	-4
+HIMB1765-00000000001	41229	42221	-	HIMB1765_00048	HIMB1765	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HIMB1765_00051	-3
+HIMB1765-00000000001	42255	43094	+	HIMB1765_00049	HIMB1765	279	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	HIMB1765_00051	-2
+HIMB1765-00000000001	43130	44092	-	HIMB1765_00050	HIMB1765	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HIMB1765_00051	-1
+HIMB1765-00000000001	44096	44938	-	HIMB1765_00051	HIMB1765	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HIMB1765_00051	0
+HIMB1765-00000000001	44958	45812	-	HIMB1765_00052	HIMB1765	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HIMB1765_00051	1
+HIMB1765-00000000001	45888	46892	-	HIMB1765_00053	HIMB1765	334	OG0001272	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1765_00051	2
+HIMB1765-00000000001	47035	48054	+	HIMB1765_00054	HIMB1765	339	OG0001769	NA	NA	COG1879	RbsB	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain	HIMB1765_00051	3
+HIMB1765-00000000001	48055	49092	-	HIMB1765_00055	HIMB1765	345	OG0000021	K10440	ribose transport system permease protein	COG1172	AraH	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component	HIMB1765_00051	4
+HIMB1765-00000000001	49089	49829	-	HIMB1765_00056	HIMB1765	246	OG0000110	NA	NA	COG1129	MglA	ABC-type sugar transport system, ATPase component	HIMB1765_00051	5
+KI421440.1	352411	352677	-	HTCC8051_00365	HTCC8051	88	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HTCC8051_00370	-5
+KI421440.1	352690	353235	-	HTCC8051_00366	HTCC8051	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HTCC8051_00370	-4
+KI421440.1	353237	354223	-	HTCC8051_00367	HTCC8051	328	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HTCC8051_00370	-3
+KI421440.1	354369	354695	-	HTCC8051_00368	HTCC8051	108	OG0000490	NA	NA	COG4274	NA	Uncharacterized conserved protein, contains GYD domain	HTCC8051_00370	-2
+KI421440.1	354828	355790	-	HTCC8051_00369	HTCC8051	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HTCC8051_00370	-1
+KI421440.1	355794	356636	-	HTCC8051_00370	HTCC8051	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HTCC8051_00370	0
+KI421440.1	356657	357511	-	HTCC8051_00371	HTCC8051	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HTCC8051_00370	1
+KI421440.1	357513	358514	-	HTCC8051_00372	HTCC8051	333	OG0000013	K00010	myo-inositol 2-dehydrogenase / D-chiro-inositol 1-dehydrogenase [EC:1.1.1.18 1.1.1.369]	COG0673	MviM	Predicted dehydrogenase	HTCC8051_00370	2
+KI421440.1	358655	359557	+	HTCC8051_00373	HTCC8051	300	OG0001154	K03335	inosose dehydratase [EC:4.2.1.44]	COG1082	YcjR	Sugar phosphate isomerase/epimerase	HTCC8051_00370	3
+KI421440.1	359599	360564	-	HTCC8051_00374	HTCC8051	321	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HTCC8051_00370	4
+KI421440.1	360679	361275	+	HTCC8051_00375	HTCC8051	198	OG0001457	K21394	TRAP-type transport system small permease protein	COG3090	DctM	TRAP-type C4-dicarboxylate transport system, small permease component YiaM	HTCC8051_00370	5
+KI421433.1	280468	280920	-	HTCC9022_00852	HTCC9022	150	OG0001248	K03635	molybdopterin synthase catalytic subunit [EC:2.8.1.12]	COG0314	MoaE	Molybdopterin synthase catalytic subunit MoaE	HTCC9022_00857	-5
+KI421433.1	280920	281186	-	HTCC9022_00853	HTCC9022	88	OG0001254	NA	NA	COG1977	MoaD	Molybdopterin synthase sulfur carrier subunit MoaD	HTCC9022_00857	-4
+KI421433.1	281199	281744	-	HTCC9022_00854	HTCC9022	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	HTCC9022_00857	-3
+KI421433.1	281746	282738	-	HTCC9022_00855	HTCC9022	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	HTCC9022_00857	-2
+KI421433.1	282809	283771	-	HTCC9022_00856	HTCC9022	320	OG0000039	NA	NA	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	HTCC9022_00857	-1
+KI421433.1	283775	284617	-	HTCC9022_00857	HTCC9022	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	HTCC9022_00857	0
+KI421433.1	284638	285492	-	HTCC9022_00858	HTCC9022	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	HTCC9022_00857	1
+KI421433.1	285494	286495	-	HTCC9022_00859	HTCC9022	333	OG0000013	K00010	myo-inositol 2-dehydrogenase / D-chiro-inositol 1-dehydrogenase [EC:1.1.1.18 1.1.1.369]	COG0673	MviM	Predicted dehydrogenase	HTCC9022_00857	2
+KI421433.1	286635	287537	+	HTCC9022_00860	HTCC9022	300	OG0001154	K03335	inosose dehydratase [EC:4.2.1.44]	COG1082	YcjR	Sugar phosphate isomerase/epimerase	HTCC9022_00857	3
+KI421433.1	287546	288502	-	HTCC9022_00861	HTCC9022	318	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	HTCC9022_00857	4
+KI421433.1	288552	289472	-	HTCC9022_00862	HTCC9022	306	OG0000003	K15270	S-adenosylmethionine uptake transporter	COG0697	EamA	Amino acid export permease, drug/metabolite transporter (DMT) superfamily	HTCC9022_00857	5
+CP159823.1	386476	387021	-	Uisw_094_00411	Uisw_094	181	OG0001255	K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]	COG0315	MoaC	Molybdenum cofactor biosynthesis enzyme MoaC	Uisw_094_00416	-5
+CP159823.1	387022	388014	-	Uisw_094_00412	Uisw_094	330	OG0000167	K03639	GTP 3',8-cyclase [EC:4.1.99.22]	COG2896	MoaA	GTP 3',8-cyclase (molybdenum cofactor biosynthesis protein MoaA)	Uisw_094_00416	-4
+CP159823.1	388050	388883	+	Uisw_094_00413	Uisw_094	277	OG0001105	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_094_00416	-3
+CP159823.1	388920	389246	-	Uisw_094_00414	Uisw_094	108	OG0000490	NA	NA	COG4274	NA	Uncharacterized conserved protein, contains GYD domain	Uisw_094_00416	-2
+CP159823.1	389650	390612	-	Uisw_094_00415	Uisw_094	320	OG0000039	K00064	D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]	COG0667	PdxI	Pyridoxal reductase PdxI or related oxidoreductase, aldo/keto reductase family	Uisw_094_00416	-1
+CP159823.1	390616	391458	-	Uisw_094_00416	Uisw_094	280	OG0001691	K07046	L-fucono-1,5-lactonase [EC:3.1.1.120]	COG3618	NA	Predicted metal-dependent hydrolase, TIM-barrel fold	Uisw_094_00416	0
+CP159823.1	391485	392339	-	Uisw_094_00417	Uisw_094	284	OG0000046	NA	NA	COG1028	FabG	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	Uisw_094_00416	1
+CP159823.1	392341	393342	-	Uisw_094_00418	Uisw_094	333	OG0000013	K00010	myo-inositol 2-dehydrogenase / D-chiro-inositol 1-dehydrogenase [EC:1.1.1.18 1.1.1.369]	COG0673	MviM	Predicted dehydrogenase	Uisw_094_00416	2
+CP159823.1	393479	394381	+	Uisw_094_00419	Uisw_094	300	OG0001154	K03335	inosose dehydratase [EC:4.2.1.44]	COG1082	YcjR	Sugar phosphate isomerase/epimerase	Uisw_094_00416	3
+CP159823.1	394390	395346	-	Uisw_094_00420	Uisw_094	318	OG0000011	NA	NA	COG0111	SerA	Phosphoglycerate dehydrogenase or related dehydrogenase	Uisw_094_00416	4
+CP159823.1	395377	396360	-	Uisw_094_00421	Uisw_094	327	OG0000057	NA	NA	COG5285	PhyH	Ectoine hydroxylase-related dioxygenase, phytanoyl-CoA dioxygenase (PhyH) family	Uisw_094_00416	5
