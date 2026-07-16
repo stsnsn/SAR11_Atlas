@@ -76,7 +76,7 @@
                 </header>
 
                 <div class="atlas-intro">
-                    <p>Available files can be downloaded directly below. Additional genome, table, phylogeny, and profile archives will be added as the updated release is finalized.</p>
+                    <p>Compact, web-facing release files can be downloaded directly below. Larger reproducibility archives, including sequences, complete annotations, analysis outputs, and HMM profiles, will be released through Zenodo.</p>
                 </div>
 
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Dark mode</button>
@@ -96,32 +96,81 @@
                             <h3>Genome metadata</h3>
                             <p>Complete metadata for 542 SAR11 genomes and 20 phylogenetic outgroups, including numeric sampling values and their categorical summaries.</p>
                             <div class="atlas-download-links">
-                                <a href="../data/phylogeny/subclade_master.tsv" download="subclade_master.tsv">Complete metadata</a>
-                                <a href="../data/phylogeny/subclade.txt" download="subclade.txt">Table-view metadata</a>
+                                <a href="../data/phylogeny/subclade_master.tsv" download="subclade_master.tsv">Complete metadata <span class="atlas-download-size">241 KB</span></a>
                             </div>
-                        </article>
-                        <article class="atlas-download-card">
-                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
-                            <h3>SAR11 genome sequences</h3>
-                            <p>Genome sequence archive for the SAR11 genomes included in the atlas release.</p>
-                        </article>
-                        <article class="atlas-download-card">
-                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
-                            <h3>Analysis tables</h3>
-                            <p>Processed tables supporting orthogroup, annotation, and comparative genome analyses.</p>
                         </article>
                         <article class="atlas-download-card atlas-download-card--available">
                             <span class="atlas-status-badge">Available</span>
-                            <h3>Phylogenetic trees</h3>
-                            <p>The bac120 IQ-TREE phylogeny rooted with 20 alphaproteobacterial outgroups and pruned to 542 SAR11 genomes. Individual OG trees will be added separately.</p>
+                            <h3>Orthogroup annotations and chart data</h3>
+                            <p>Representative annotations for 4,577 orthogroups and the count tables underlying the KO and COG pie charts and Pfam bar chart in the OG Information Viewer.</p>
                             <div class="atlas-download-links">
-                                <a href="../data/phylogeny/tree/SAR11_542_bac120_iqtree_rooted_SAR11_only.tree" download="SAR11_542_bac120_iqtree_rooted_SAR11_only.tree">Rooted bac120 IQ-TREE phylogeny</a>
+                                <a href="../data/orthogroups/og_suggest.tsv" download="og_suggest.tsv">OG annotation summary <span class="atlas-download-size">931 KB</span></a>
+                                <a href="../data/orthogroups/og_ko_counts.tsv" download="og_ko_counts.tsv">KO pie-chart data <span class="atlas-download-size">149 KB</span></a>
+                                <a href="../data/orthogroups/og_cog_counts.tsv" download="og_cog_counts.tsv">COG pie-chart data <span class="atlas-download-size">532 KB</span></a>
+                                <a href="../data/orthogroups/og_pfam_counts.tsv" download="og_pfam_counts.tsv">Pfam bar-chart data <span class="atlas-download-size">220 KB</span></a>
+                            </div>
+                        </article>
+                        <article class="atlas-download-card atlas-download-card--available">
+                            <span class="atlas-status-badge">Available</span>
+                            <h3>Comparative-genome networks</h3>
+                            <p>Edge tables used by the Neighboring Network and CORGIAS Network viewers in the updated 542-genome atlas.</p>
+                            <div class="atlas-download-links">
+                                <a href="../data/network/neighbor_network.tsv" download="neighbor_network.tsv">Neighboring network <span class="atlas-download-size">1.6 MB</span></a>
+                                <a href="../data/network/corgias_network.tsv" download="corgias_network.tsv">CORGIAS network <span class="atlas-download-size">1.3 MB</span></a>
+                            </div>
+                        </article>
+                        <article class="atlas-download-card atlas-download-card--available">
+                            <span class="atlas-status-badge">Available</span>
+                            <h3>Species phylogenies</h3>
+                            <p>Species trees inferred from bac120 and from <a href="https://merenlab.org/data/sar11-phylogenomics/" target="_blank" rel="noopener noreferrer">SAR11_165 HMM profiles obtained from the Meren Lab workflow</a>. SAR11_165 is a SAR11-focused subset of an earlier 200-gene Alphaproteobacterial SCG collection. The rooted IQ-TREE phylogeny was pruned to 542 SAR11 genomes after rooting with 20 alphaproteobacterial outgroups.</p>
+                            <div class="atlas-download-links">
+                                <a href="../data/phylogeny/tree/SAR11_542_bac120_iqtree_rooted_SAR11_only.tree" download="SAR11_542_bac120_iqtree_rooted_SAR11_only.tree">Rooted bac120 IQ-TREE phylogeny <span class="atlas-download-size">24 KB</span></a>
+                                <a href="../data/phylogeny/tree/SAR11_542_SCG165_fasttree.tree" download="SAR11_542_SCG165_fasttree.tree">SAR11_165 FastTree phylogeny <span class="atlas-download-size">22 KB</span></a>
+                                <a href="../data/phylogeny/tree/SAR11_542_bac120_fasttree.tree" download="SAR11_542_bac120_fasttree.tree">bac120 FastTree phylogeny <span class="atlas-download-size">23 KB</span></a>
+                            </div>
+                        </article>
+                        <article class="atlas-download-card atlas-download-card--available">
+                            <span class="atlas-status-badge">Available</span>
+                            <h3>SAR11 literature table</h3>
+                            <p>The publication metadata table displayed on the Literature page, compiled for exploring the history and research themes of the SAR11 field.</p>
+                            <div class="atlas-download-links">
+                                <a href="../data/literature/250729_SAR11_paper_list.tsv" download="250729_SAR11_paper_list.tsv">Literature table <span class="atlas-download-size">132 KB · Updated 2025-07-29</span></a>
                             </div>
                         </article>
                         <article class="atlas-download-card">
                             <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
-                            <h3>OG HMM profiles</h3>
-                            <p>Profile HMM files representing the orthogroups in the SAR11 gene catalog.</p>
+                            <h3>Genome and protein sequences</h3>
+                            <p>FNA genome assemblies and FAA protein sequences for all 542 SAR11 genomes, distributed as versioned Zenodo archives.</p>
+                        </article>
+                        <article class="atlas-download-card">
+                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
+                            <h3>Full gene-level annotations</h3>
+                            <p>Complete protein-level physicochemical, KO, COG, Pfam, and orthogroup annotations for the 542-genome collection.</p>
+                        </article>
+                        <article class="atlas-download-card">
+                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
+                            <h3>Ortholog clustering results</h3>
+                            <p>Complete OrthoFinder membership and gene-count tables, unassigned genes, clustering statistics, and associated outputs.</p>
+                        </article>
+                        <article class="atlas-download-card">
+                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
+                            <h3>Comparative-analysis archives</h3>
+                            <p>Complete neighborhood, operon, network, CORGIAS, and related comparative-genome analysis outputs.</p>
+                        </article>
+                        <article class="atlas-download-card">
+                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
+                            <h3>UniProt similarity-search results</h3>
+                            <p>Protein-to-UniProt similarity-search results for all 542 genomes and a compact table of representative matches for each orthogroup.</p>
+                        </article>
+                        <article class="atlas-download-card">
+                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
+                            <h3>Metatranscriptome mapping results</h3>
+                            <p>Sample-level mapping results and orthogroup-level expression summaries underlying the Metatranscriptome Viewer.</p>
+                        </article>
+                        <article class="atlas-download-card">
+                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
+                            <h3>OG HMM profiles and gene trees</h3>
+                            <p>Profile HMM files and gene trees representing the 4,577 orthogroups in the SAR11 gene catalog.</p>
                         </article>
                     </div>
                 </section>
