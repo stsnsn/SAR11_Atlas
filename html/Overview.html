@@ -127,26 +127,32 @@
                         </div>
 
                         <div class="atlas-stats" aria-label="Atlas summary statistics">
-                            <a class="atlas-stat" href="./SAR11_phylogeny.html" aria-label="View genome information">
-                                <span class="atlas-stat__value" id="statGenomes">–</span>
-                                <span class="atlas-stat__label">genomes</span>
-                            </a>
-                            <a class="atlas-stat" href="./SAR11_phylogeny.html" aria-label="View subclade information">
-                                <span class="atlas-stat__value" id="statSubclades">–</span>
-                                <span class="atlas-stat__label">subclades</span>
-                            </a>
-                            <a class="atlas-stat" href="./og_list.html" aria-label="View proteins in the orthogroup list">
-                                <span class="atlas-stat__value" id="statProteins">–</span>
-                                <span class="atlas-stat__label">proteins</span>
-                            </a>
-                            <a class="atlas-stat atlas-stat--accent" href="./og_list.html" aria-label="View annotations in the orthogroup list">
-                                <span class="atlas-stat__value" id="statAnnotated">–</span>
-                                <span class="atlas-stat__label">with ≥1 annotation</span>
-                            </a>
+                            <div class="atlas-stat-group atlas-stat-group--genomes" aria-label="Genome collection statistics">
+                                <span class="atlas-stat-group__label">Genome collection</span>
+                                <a class="atlas-stat" href="./SAR11_phylogeny.html" aria-label="View genome information">
+                                    <span class="atlas-stat__value" id="statGenomes">–</span>
+                                    <span class="atlas-stat__label">genomes</span>
+                                </a>
+                                <a class="atlas-stat" href="./SAR11_phylogeny.html" aria-label="View subclade information">
+                                    <span class="atlas-stat__value" id="statSubclades">–</span>
+                                    <span class="atlas-stat__label">subclades</span>
+                                </a>
+                            </div>
+                            <div class="atlas-stat-group atlas-stat-group--proteins" aria-label="Protein catalog statistics">
+                                <span class="atlas-stat-group__label">Protein catalog</span>
+                                <a class="atlas-stat" href="./og_list.html" aria-label="View proteins in the orthogroup list">
+                                    <span class="atlas-stat__value" id="statProteins">–</span>
+                                    <span class="atlas-stat__label">proteins</span>
+                                </a>
+                                <a class="atlas-stat" href="./og_list.html" aria-label="View annotations in the orthogroup list">
+                                    <span class="atlas-stat__value" id="statAnnotated">–</span>
+                                    <span class="atlas-stat__label">with ≥1 annotation</span>
+                                </a>
+                            </div>
                             <a class="atlas-stat" href="./og_list.html" aria-label="View all orthogroups">
-                                <span class="atlas-stat__value atlas-stat__value--pending" id="statOrthogroups">Pending</span>
+                                <span class="atlas-stat__value" id="statOrthogroups">–</span>
                                 <span class="atlas-stat__label">orthogroups</span>
-                                <span class="atlas-stat__detail">refreshing after genome QC</span>
+                                <span class="atlas-stat__detail" id="statOrthogroupCoverage">99.3% of genes assigned</span>
                             </a>
                         </div>
 

@@ -4,7 +4,8 @@
     const DATA_PATHS = {
         genomes: "../data/overview/genome_summary.tsv",
         annotations: "../data/overview/annotation_intersections.tsv",
-        lengths: "../data/overview/protein_length_bins.tsv"
+        lengths: "../data/overview/protein_length_bins.tsv",
+        orthogroups: "../data/overview/orthogroup_summary.tsv"
     };
 
     const TYPE_COLORS = {
@@ -18,6 +19,7 @@
         genomes: [],
         annotations: [],
         lengths: [],
+        orthogroups: [],
         genomeType: "All",
         subclade: "All",
         annotation: "All"
@@ -29,6 +31,7 @@
         notation: "compact",
         maximumFractionDigits: 1
     });
+    const statAnimations = new WeakMap();
 
     function loadTsv(url) {
         return fetch(url).then((response) => {
@@ -47,6 +50,52 @@
             return "Unknown";
         }
         return String(value);
+    }
+
+    function updateStatValue(id, value, options = {}) {
+        const element = $(id);
+        const numericValue = Number(value);
+        const decimals = options.decimals || 0;
+        const suffix = options.suffix || "";
+        const existingAnimation = statAnimations.get(element);
+
+        if (existingAnimation) cancelAnimationFrame(existingAnimation);
+        if (!Number.isFinite(numericValue)) {
+            element.textContent = "–";
+            return;
+        }
+
+        const valueFormat = decimals
+            ? new Intl.NumberFormat("en-US", {
+                minimumFractionDigits: decimals,
+                maximumFractionDigits: decimals
+            })
+            : numberFormat;
+        const formatValue = (current) => `${valueFormat.format(current)}${suffix}`;
+        const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        const currentValue = Number(element.textContent.replace(/[^0-9.-]/g, ""));
+        const startValue = Number.isFinite(currentValue) ? currentValue : 0;
+
+        if (reducedMotion || startValue === numericValue) {
+            element.textContent = formatValue(numericValue);
+            return;
+        }
+
+        const startTime = performance.now();
+        const duration = 360;
+        const animate = (now) => {
+            const progress = Math.min(1, (now - startTime) / duration);
+            const eased = 1 - Math.pow(1 - progress, 3);
+            element.textContent = formatValue(startValue + (numericValue - startValue) * eased);
+
+            if (progress < 1) {
+                statAnimations.set(element, requestAnimationFrame(animate));
+            } else {
+                statAnimations.delete(element);
+            }
+        };
+
+        statAnimations.set(element, requestAnimationFrame(animate));
     }
 
     function isTrue(value) {
@@ -122,6 +171,13 @@
         });
     }
 
+    function selectedOrthogroupSummary() {
+        return state.orthogroups.find((row) => {
+            return cleanCategory(row.genome_type) === state.genomeType &&
+                cleanCategory(row.subclade) === state.subclade;
+        });
+    }
+
     function renderStats() {
         const genomes = filteredGenomes();
         const annotations = filteredAnnotations();
@@ -130,11 +186,20 @@
             return sum + (row.annotation_combination === "No annotation" ? 0 : Number(row.n_proteins || 0));
         }, 0);
         const subclades = new Set(genomes.map((row) => cleanCategory(row.subclade)).filter((value) => value !== "Unknown"));
+        const orthogroupSummary = selectedOrthogroupSummary();
 
-        $("statGenomes").textContent = numberFormat.format(genomes.length);
-        $("statProteins").textContent = numberFormat.format(proteinCount);
-        $("statSubclades").textContent = numberFormat.format(subclades.size);
-        $("statAnnotated").textContent = proteinCount ? `${(annotatedCount / proteinCount * 100).toFixed(1)}%` : "–";
+        updateStatValue("statGenomes", genomes.length);
+        updateStatValue("statProteins", proteinCount);
+        updateStatValue("statSubclades", subclades.size);
+        updateStatValue("statAnnotated", proteinCount ? annotatedCount / proteinCount * 100 : NaN, {
+            decimals: 1,
+            suffix: "%"
+        });
+        updateStatValue(
+            "statOrthogroups",
+            orthogroupSummary ? Number(orthogroupSummary.n_orthogroups || 0) : NaN
+        );
+        $("statOrthogroupCoverage").hidden = state.genomeType !== "All" || state.subclade !== "All";
     }
 
     function renderGenomeTypes() {
@@ -424,11 +489,13 @@
         Promise.all([
             loadTsv(DATA_PATHS.genomes),
             loadTsv(DATA_PATHS.annotations),
-            loadTsv(DATA_PATHS.lengths)
-        ]).then(([genomes, annotations, lengths]) => {
+            loadTsv(DATA_PATHS.lengths),
+            loadTsv(DATA_PATHS.orthogroups)
+        ]).then(([genomes, annotations, lengths, orthogroups]) => {
             state.genomes = genomes;
             state.annotations = annotations;
             state.lengths = lengths;
+            state.orthogroups = orthogroups;
             initializeFilters();
             $("overviewLoading").hidden = true;
             $("overviewDashboard").hidden = false;

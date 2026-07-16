@@ -113,24 +113,72 @@
     background: rgba(11, 61, 87, 0.12);
 }
 
-.atlas-stat--accent {
-    background: linear-gradient(135deg, #073e56 0%, #087d82 100%);
+.atlas-stat-group {
+    position: relative;
+    display: grid;
+    grid-column: span 2;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    box-shadow: inset 1px 0 rgba(8, 125, 130, 0.13), inset -1px 0 rgba(8, 125, 130, 0.13);
 }
 
-.atlas-stat--accent:hover,
-.atlas-stat--accent:focus {
-    background: linear-gradient(135deg, #062f43 0%, #076e73 100%);
-    box-shadow: inset 0 -3px 0 #73d4d0;
+.atlas-stat-group--genomes {
+    background: linear-gradient(135deg, #eef6fa 0%, #e6f1f6 100%);
+}
+
+.atlas-stat-group--proteins {
+    background: linear-gradient(135deg, #edf8f7 0%, #e4f4f4 100%);
+}
+
+.atlas-stat-group--genomes:hover,
+.atlas-stat-group--genomes:focus-within {
+    background: linear-gradient(135deg, #e4f1f7 0%, #dcebf2 100%);
+    box-shadow: inset 1px 0 rgba(8, 125, 130, 0.13), inset -1px 0 rgba(8, 125, 130, 0.13), inset 0 -3px 0 #4389a3;
+}
+
+.atlas-stat-group--proteins:hover,
+.atlas-stat-group--proteins:focus-within {
+    background: linear-gradient(135deg, #e3f4f2 0%, #d9efee 100%);
+    box-shadow: inset 1px 0 rgba(8, 125, 130, 0.13), inset -1px 0 rgba(8, 125, 130, 0.13), inset 0 -3px 0 #087d82;
+}
+
+.atlas-stat-group:hover .atlas-stat,
+.atlas-stat-group:focus-within .atlas-stat,
+.atlas-stat-group .atlas-stat:hover,
+.atlas-stat-group .atlas-stat:focus {
+    background: transparent;
+    box-shadow: none;
+}
+
+.atlas-stat-group__label {
+    position: absolute;
+    top: 0.45rem;
+    left: 1.35rem;
+    z-index: 2;
+    color: #087d82;
+    font-size: 0.62rem;
+    font-weight: 850;
+    letter-spacing: 0.12em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.atlas-stat-group .atlas-stat {
+    padding-top: 1.65rem;
+}
+
+.atlas-stat-group + .atlas-stat::before {
+    position: absolute;
+    top: 22%;
+    bottom: 22%;
+    left: 0;
+    width: 1px;
+    background: rgba(11, 61, 87, 0.12);
+    content: "";
 }
 
 .atlas-stat__value,
 .atlas-stat__label {
     display: block;
-}
-
-.atlas-stat__value--pending {
-    font-size: clamp(1.25rem, 2vw, 1.75rem);
-    letter-spacing: -0.025em;
 }
 
 .atlas-stat__value {
@@ -162,9 +210,8 @@
     line-height: 1.25;
 }
 
-.atlas-stat--accent .atlas-stat__value,
-.atlas-stat--accent .atlas-stat__label {
-    color: #ffffff;
+.atlas-stat__detail[hidden] {
+    display: none;
 }
 
 .atlas-filterbar {
@@ -487,19 +534,43 @@ body.dark-mode .atlas-panel {
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
 }
 
-body.dark-mode .atlas-stat + .atlas-stat::before {
+body.dark-mode .atlas-stat + .atlas-stat::before,
+body.dark-mode .atlas-stat-group + .atlas-stat::before {
     background: rgba(150, 198, 213, 0.18);
+}
+
+body.dark-mode .atlas-stat-group {
+    box-shadow: inset 1px 0 rgba(105, 215, 211, 0.16), inset -1px 0 rgba(105, 215, 211, 0.16);
+}
+
+body.dark-mode .atlas-stat-group--genomes {
+    background: linear-gradient(135deg, #132e3b 0%, #153543 100%);
+}
+
+body.dark-mode .atlas-stat-group--proteins {
+    background: linear-gradient(135deg, #14333d 0%, #153b43 100%);
+}
+
+body.dark-mode .atlas-stat-group--genomes:hover,
+body.dark-mode .atlas-stat-group--genomes:focus-within {
+    background: linear-gradient(135deg, #173846 0%, #193f4d 100%);
+    box-shadow: inset 1px 0 rgba(105, 215, 211, 0.16), inset -1px 0 rgba(105, 215, 211, 0.16), inset 0 -3px 0 #62b4cc;
+}
+
+body.dark-mode .atlas-stat-group--proteins:hover,
+body.dark-mode .atlas-stat-group--proteins:focus-within {
+    background: linear-gradient(135deg, #173d45 0%, #19474d 100%);
+    box-shadow: inset 1px 0 rgba(105, 215, 211, 0.16), inset -1px 0 rgba(105, 215, 211, 0.16), inset 0 -3px 0 #64cbc8;
+}
+
+body.dark-mode .atlas-stat-group__label {
+    color: #69d7d3;
 }
 
 body.dark-mode .atlas-stat:hover,
 body.dark-mode .atlas-stat:focus {
     background: #173542;
     box-shadow: inset 0 -3px 0 #64cbc8;
-}
-
-body.dark-mode .atlas-stat--accent:hover,
-body.dark-mode .atlas-stat--accent:focus {
-    background: linear-gradient(135deg, #062f43 0%, #076e73 100%);
 }
 
 body.dark-mode .atlas-stat__value,
@@ -547,11 +618,6 @@ body.dark-mode .atlas-upset .atlas-upset__count {
 @media (max-width: 991.98px) {
     .atlas-stats {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .atlas-stat:nth-child(3)::before,
-    .atlas-stat:nth-child(5)::before {
-        display: none;
     }
 
     .atlas-filterbar {
