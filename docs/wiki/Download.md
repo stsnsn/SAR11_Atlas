@@ -40,6 +40,7 @@ Large or complete reproducibility datasets remain marked **Coming soon** until t
 - Complete neighborhood, operon, network, CORGIAS, and related comparative-analysis archives.
 - Protein-to-UniProt similarity-search results for all 542 genomes and representative matches for each OG.
 - Sample-level metatranscriptome mapping results and OG-level expression summaries used by the Metatranscriptome Viewer.
+- An all-vs-all average nucleotide identity matrix for the 542 SAR11 genomes.
 - Profile HMM files and gene trees representing all 4,577 orthogroups.
 
 The compact summaries available from the website are intended for browsing and routine reuse. Use the future Zenodo archives when complete records, all intermediate outputs, or a citable frozen release are required.
