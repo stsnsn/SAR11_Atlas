@@ -80,7 +80,9 @@
                 </header>
 
                 <div class="atlas-intro">
-                    <p>Protein sequences were matched to UniProt (Jan 2026) with MMseqs2 v13.45111 using a minimum sequence identity of 0.85 and up to one match per query. A match below 100% identity is not sequence-identical to the SAR11 protein, and not every accession has an AlphaFoldDB prediction.</p>
+                    <p>The table lists 3,660 SAR11 protein matches with confirmed AlphaFoldDB models across 1,711 orthogroups. A match below 100% identity is not sequence-identical to the SAR11 protein.</p>
+                    <p>Search or filter the table by orthogroup, gene, genome, or annotation. Select an accession to open its AlphaFoldDB structure in the viewer below; select an orthogroup to explore related SAR11 information.</p>
+                    <p>Complete sequence-similarity search results against UniProtKB 2026_01 Swiss-Prot and TrEMBL are available from the <a href="./download.html">Download page</a>.</p>
                 </div>
 
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Deep mode</button>
@@ -96,6 +98,7 @@
                     </div>
                     <a class="atlas-section__link" href="./pure_uniprot.html" target="_blank">Open the match table in full screen</a>
                     <iframe src="./pure_uniprot.html" id="OGs" class="atlas-content-frame" data-theme-sync title="SAR11 protein to UniProt matches" allowfullscreen allow="autoplay"></iframe>
+<p class="atlas-note atlas-note--muted"><strong>How this table was prepared:</strong> All 542-genome protein sequences were searched against UniProtKB release 2026_01 with DIAMOND v2.1.10.164. Hits with at least 85% sequence identity were retained, and up to the five highest-ranking hits per orthogroup were screened against the AlphaFold DB prediction API. The table therefore lists, at most, the top five hits for each orthogroup when a predicted structure was available.</p>
                 </section>
 
                 <section class="atlas-section">
@@ -202,11 +205,18 @@
                     });
 
                     // ページロード時に既に値がある場合は自動でチェックを実行して有効化判定する
-                    window.addEventListener('load', function() {
+                        window.addEventListener('load', function() {
                         try {
                             if (afdbInput.value && afdbInput.value.trim().length > 0) {
                                 // 非同期関数を呼び出して API チェックを行う
                                 try { updateIframeSrc(); } catch (e) { /* ignore */ }
+                                // Accession links open this page with a query parameter; focus the viewer.
+                                if (window.location.search) {
+                                    setTimeout(function() {
+                                        var viewer = document.getElementById('molstar-iframe');
+                                        if (viewer) viewer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                    }, 150);
+                                }
                             }
                         } catch (e) { }
                     });

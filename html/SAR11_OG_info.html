@@ -880,13 +880,21 @@
                                 const molLink = document.getElementById('molstar-link');
 
                                 if (!matches || matches.length === 0) {
-                                    if (infoEl) infoEl.innerText = 'No UniProt matches with structural accessions were found for this OG.';
+                                    if (infoEl) infoEl.innerHTML = '<div class="og-structure-empty"><strong>No predicted structure is available for this OG.</strong><span>No qualifying UniProt match with an AlphaFoldDB model was found in the current dataset. Try another OG or browse the <a href="./genes_linked_to_3d_structures.html">Protein Structures page</a> for other matches.</span><span>If you need a prediction for a specific SAR11 protein, you can submit its sequence to the <a href="https://alphafoldserver.com/" target="_blank" rel="noopener noreferrer">AlphaFold Server</a>.</span></div>';
                                     if (controlsEl) controlsEl.innerHTML = '';
-                                    if (molIframe) molIframe.src = 'about:blank';
-                                    if (molLink) molLink.href = '#';
+                                    if (molIframe) {
+                                        molIframe.src = 'about:blank';
+                                        molIframe.hidden = true;
+                                    }
+                                    if (molLink) {
+                                        molLink.href = '#';
+                                        molLink.hidden = true;
+                                    }
                                 } else {
                                     // Show only a Foldseek button and automatically display a protein structure
                                     controlsEl.innerHTML = '';
+                                    if (molIframe) molIframe.hidden = false;
+                                    if (molLink) molLink.hidden = false;
                                     // sort by pident desc (best first for consistent display)
                                     matches.sort((a,b) => (parseFloat(b.pident||0) - parseFloat(a.pident||0)));
                                     const first = matches[0];

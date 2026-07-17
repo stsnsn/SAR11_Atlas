@@ -28,7 +28,7 @@
 	<script>
 		$(document).ready(function() {
 			// Load TSV via PapaParse and initialize DataTable
-			Papa.parse("../data/structure/allhitog_uniprot.tsv", {
+			Papa.parse("../data/structure/uniprot_afdb_web.tsv", {
 				download: true,
 				header: true,
 				delimiter: "\t",
@@ -62,7 +62,7 @@
 									try {
 										var esc = encodeURIComponent(data);
 										var href = './genes_linked_to_3d_structures.html?afdb=' + esc;
-										return '<a target="_blank" rel="noopener noreferrer" href="' + href + '">' + data + '</a>';
+										return '<a target="_top" rel="noopener noreferrer" href="' + href + '">' + data + '</a>';
 									} catch (e) {
 										return data;
 									}
@@ -220,9 +220,10 @@
 		#table_wrapper table th {
 			font-size: 14px;
 			font-weight: normal;
-			color: #039;
+			color: #fff;
+			background-color: #003366;
 			padding: 10px 8px;
-			border-bottom: 2px solid #6678b1;
+			border-bottom: 2px solid #164b6b;
 			position: relative;
 		}
 
@@ -326,6 +327,11 @@
 
 		body.dark-mode #table_wrapper table tbody tr:hover td {
 			color: #ffffff;
+		}
+
+		body.dark-mode #table_wrapper table th {
+			color: #d5e9ef !important;
+			background-color: #16465c !important;
 		}
 	</style>
 </body>

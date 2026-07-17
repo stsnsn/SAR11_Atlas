@@ -396,6 +396,33 @@ body.dark-mode #egoMini canvas {
     margin-top: 0.65rem;
 }
 
+.og-structure-empty {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    max-width: 52rem;
+    padding: 1rem 1.1rem;
+    border: 1px dashed rgba(83, 96, 106, 0.35);
+    border-radius: 0.65rem;
+    color: #53606a;
+    background: rgba(83, 96, 106, 0.06);
+    font-size: 0.92rem;
+}
+
+.og-structure-empty strong {
+    color: #26343d;
+}
+
+body.dark-mode .og-structure-empty {
+    color: #b8c8ce;
+    border-color: rgba(184, 200, 206, 0.35);
+    background: rgba(184, 200, 206, 0.08);
+}
+
+body.dark-mode .og-structure-empty strong {
+    color: #e5f0f3;
+}
+
 .og-note {
     margin: 0.9rem 0 0;
     color: var(--og-muted);
