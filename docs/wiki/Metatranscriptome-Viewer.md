@@ -14,13 +14,9 @@ After the data load, use **Download CSV** to save the sample-level values for th
 
 The default scatter plots compare Expression Score with temperature, salinity, depth, and oxygen. Hover over points to inspect sample information and values.
 
-Use **Choose another parameter** and **Draw Plot** to examine an additional variable. Available options include:
+Use **Additional parameter** and **Draw plot** to examine continuous numeric metadata, including sampling location and depth, hydrographic variables, nutrients, pigments, mixed-layer and oxygen depths, physical diagnostics, sigma-theta, and fCDOM. Categorical, date, and identifier fields remain available in the downloadable metadata table but are not offered as plot axes.
 
-- Latitude and longitude
-- Temperature and sigma-theta
-- Salinity and oxygen
-- Nitrate, chlorophyll a, and fCDOM
-- Sampling depth
+The OG CSV files contain only `sample_id` and `sumTPM`. The complete metadata are stored separately in `tara_metadata_542.tsv` and joined in the browser by `sample_id`.
 
 Correlations describe associations across the sampled environments and do not by themselves establish a causal environmental response.
 

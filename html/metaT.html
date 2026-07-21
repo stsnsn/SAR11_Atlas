@@ -99,7 +99,7 @@
                 </header>
 
                 <div class="atlas-intro">
-                    <p>Search by OG ID or functional annotation. Within each sample, Expression Score is the sum of TPM values assigned to an OG and should be interpreted as an aggregate signal rather than a conventional TPM measurement.</p>
+                    <p>Search by OG ID or functional annotation. Within each sample, Expression Score is the sum of TPM values assigned to an OG and should be interpreted as an aggregate signal rather than a conventional TPM measurement. Environmental metadata are loaded once from a shared Tara Oceans lookup table rather than duplicated in every OG file.</p>
                 </div>
 
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Deep mode</button>
@@ -219,14 +219,43 @@
                         <div class="atlas-custom-plot__controls">
                             <label for="userParameterSelect">Additional parameter</label>
                             <select id="userParameterSelect">
-                                <option value="Nitrate">Nitrate</option>
-                                <option value="Chl_a">Chl_a</option>
-                                <option value="fCDOM">fCDOM</option>
+                                <option value="lower.size.fraction">Lower size fraction</option>
+                                <option value="upper.size.fraction">Upper size fraction</option>
                                 <option value="Latitude">Latitude</option>
                                 <option value="Longitude">Longitude</option>
+                                <option value="Depth.nominal">Nominal depth</option>
+                                <option value="Temperature">Temperature</option>
+                                <option value="Oxygen">Oxygen</option>
+                                <option value="ChlorophyllA">Chlorophyll A</option>
+                                <option value="Carbon.total">Total carbon</option>
+                                <option value="Salinity">Salinity</option>
+                                <option value="Gradient.Surface.temp(SST)">Surface temperature gradient</option>
+                                <option value="Fluorescence">Fluorescence</option>
+                                <option value="CO3">CO3</option>
+                                <option value="HCO3">HCO3</option>
+                                <option value="Density">Density</option>
+                                <option value="PO4">PO4</option>
+                                <option value="PAR.PC">PAR</option>
+                                <option value="NO3">NO3</option>
+                                <option value="Si">Si</option>
+                                <option value="Alkalinity.total">Total alkalinity</option>
+                                <option value="Ammonium.5m">Ammonium (5 m)</option>
+                                <option value="Depth.Mixed.Layer">Mixed-layer depth</option>
+                                <option value="Lyapunov">Lyapunov exponent</option>
+                                <option value="NO2">NO2</option>
+                                <option value="Depth.Min.O2">Minimum-O2 depth</option>
+                                <option value="NO2NO3">NO2/NO3</option>
+                                <option value="Nitracline">Nitracline depth</option>
+                                <option value="Brunt.V_is_l_">Brunt-Vaisala frequency</option>
+                                <option value="Iron.5m">Iron (5 m)</option>
+                                <option value="Depth.Max.O2">Maximum-O2 depth</option>
+                                <option value="Okubo.Weiss">Okubo-Weiss parameter</option>
+                                <option value="Residence.time">Residence time</option>
                                 <option value="Sigma-theta">Sigma-theta</option>
+                                <option value="fCDOM">fCDOM</option>
                             </select>
                             <button id="updateUserPlot" class="atlas-secondary-button" type="button">Draw plot</button>
+                            <small class="atlas-form-hint">Only continuous numeric metadata are available for plotting. Station, layer, region, date, and identifier fields remain in the downloadable metadata table.</small>
                         </div>
                         <div id="userPlot" class="atlas-plot-frame"></div>
                     </div>
@@ -298,7 +327,7 @@
                                 toggle.addEventListener('change', () => {
                                     try {
                                         const ogNumber = (document.getElementById('ogInput') || {}).value.trim() || 'OG0000000';
-                                        const newCsvFile = `../data/env_corr/${ogNumber}.csv`;
+                                        const newCsvFile = `../data/env_corr_542/${ogNumber}.csv`;
                                         updateCircles(newCsvFile);
                                     } catch (e) { console.warn('Failed to re-render circles on scale toggle', e); }
                                 });

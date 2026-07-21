@@ -1,6 +1,6 @@
 // ダウンロードボタン
 document.getElementById('downloadData').addEventListener('click', () => {
-    const csvFilePath = `../data/env_corr/${document.getElementById('ogInput').value.trim()}.csv`;
+    const csvFilePath = `../data/env_corr_542/${document.getElementById('ogInput').value.trim()}.csv`;
     downloadCSV(csvFilePath);
 });
 
@@ -32,7 +32,7 @@ const downloadCSV = (csvFilePath) => {
             download: true,
             header: true,
             complete: function(results) {
-                const data = results.data || [];
+                const data = mergeExpressionMetadata(results.data || []);
                 try {
                     const csv = Papa.unparse(data);
                     const blob = new Blob([csv], { type: 'text/csv' });
@@ -64,7 +64,7 @@ const downloadCSV = (csvFilePath) => {
         });
     };
 
-    doParse(fetchPath);
+    loadMetadata().then(() => doParse(fetchPath)).catch(() => alert('Metadata file loading error'));
 };
 
 const map = L.map('map', {
@@ -75,6 +75,35 @@ const map = L.map('map', {
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
+
+const METADATA_FILE = '../data/env_corr_542/tara_metadata_542.tsv';
+let metadataRows = [];
+let metadataBySample = new Map();
+let metadataPromise = null;
+
+function loadMetadata() {
+    if (metadataPromise) return metadataPromise;
+    metadataPromise = new Promise((resolve, reject) => {
+        Papa.parse(`${METADATA_FILE}?ts=${Date.now()}`, {
+            download: true,
+            header: true,
+            skipEmptyLines: true,
+            complete: results => {
+                metadataRows = (results.data || []).filter(row => row.sample_id);
+                metadataBySample = new Map(metadataRows.map(row => [row.sample_id, row]));
+                resolve(metadataRows);
+            },
+            error: reject
+        });
+    });
+    return metadataPromise;
+}
+
+function mergeExpressionMetadata(rows) {
+    return rows
+        .filter(row => row.sample_id)
+        .map(row => ({ ...row, ...(metadataBySample.get(row.sample_id) || {}) }));
+}
 
 
 // Determine the current rendered map size (use Leaflet map size if available,
@@ -129,7 +158,7 @@ const updateCircles = (csvFilePath) => {
         download: true,
         header: true,
         complete: function(results) {
-            const data = results.data;
+            const data = mergeExpressionMetadata(results.data || []);
             // Compute the maximum expression score for linear marker scaling.
             const expressionValues = data.map(r => parseFloat(r.sumTPM)).filter(v => !isNaN(v) && v > 0);
             const dataMax = expressionValues.length ? Math.max(...expressionValues) : 0;
@@ -167,7 +196,7 @@ const updateCircles = (csvFilePath) => {
                     }).addTo(map).bindPopup(`
                         <b>Sample:</b> ${row.sample_id || row.sample || 'Unknown'}<br>
                         <b>Expression Score:</b> ${expressionScore.toFixed(2)}<br>
-                        <b>Depth:</b> ${row.Depth || 'Unknown'}<br>
+                        <b>Depth:</b> ${row['Depth.nominal'] || 'Unknown'}<br>
                         <b>Temperature:</b> ${row.Temperature || 'Unknown'}<br>
                     `);
 
@@ -188,10 +217,10 @@ const updateCircles = (csvFilePath) => {
 const urlParams = new URLSearchParams(window.location.search || window.location.hash.replace(/^#/, ''));
 const ogFromUrl = urlParams.get('ogInput') || urlParams.get('og') || null;
 const initialOg = (ogFromUrl && ogFromUrl.trim()) ? ogFromUrl.trim() : (ogInputEl && ogInputEl.value ? ogInputEl.value.trim() : 'OG0000000');
-const initialCsvFile = `../data/env_corr/${initialOg}.csv?ts=${Date.now()}`;
+const initialCsvFile = `../data/env_corr_542/${initialOg}.csv?ts=${Date.now()}`;
 // Clear plots and render initial circles
 try { resetUserPlot(); } catch (e) {}
-updateCircles(initialCsvFile);
+Promise.all([loadMetadata(), Promise.resolve()]).then(() => updateCircles(initialCsvFile));
 // Ensure easyPrint filename includes OG id
 try {
     const setPrintFilename = () => {
@@ -255,14 +284,14 @@ addLegend();
 
 
 // 地図のズーム時に円のサイズを調整
-map.on('zoomend', () => updateCircles(`../data/env_corr/${document.getElementById('ogInput').value.trim()}.csv`));
+map.on('zoomend', () => updateCircles(`../data/env_corr_542/${document.getElementById('ogInput').value.trim()}.csv`));
 
 // 地図更新ボタンのクリックイベント
 document.getElementById('updateMap').addEventListener('click', () => {
     const ogNumber = document.getElementById('ogInput').value.trim();
     if (ogNumber) {
-        const newCsvFile = `../data/env_corr/${ogNumber}.csv`;
-        updateCircles(newCsvFile);
+        const newCsvFile = `../data/env_corr_542/${ogNumber}.csv`;
+        loadMetadata().then(() => updateCircles(newCsvFile));
         resetUserPlot();
         // Show expression profile header between map and plots
         try {
@@ -393,6 +422,10 @@ function prepareCorrelationPlot(pair, label, sharedRange, useLogAxis) {
         row.Longitude || 'NA'
     ]);
 
+    const correlationText = xValues.length
+        ? `Pearson r = ${formatCorrelation(pearson)} &nbsp; Spearman ρ = ${formatCorrelation(spearman)} &nbsp; n = ${xValues.length}`
+        : 'No numeric pairs available for this field';
+
     const trace = {
         x: xValues,
         y: yValues,
@@ -424,7 +457,7 @@ function prepareCorrelationPlot(pair, label, sharedRange, useLogAxis) {
             xanchor: 'right',
             yanchor: 'top',
             showarrow: false,
-            text: `Pearson r = ${formatCorrelation(pearson)} &nbsp; Spearman ρ = ${formatCorrelation(spearman)} &nbsp; n = ${xValues.length}`,
+            text: correlationText,
             font: { size: 10, color: theme.muted }
         }],
         xaxis: {
@@ -456,31 +489,109 @@ const updatePlots = data => {
     const sharedRange = getSharedExpressionRange(data, useLogAxis);
     drawCorrelationPlot('temperaturePlot', buildPairedArrays(data, 'Temperature', 'sumTPM'), 'Temperature', sharedRange, useLogAxis);
     drawCorrelationPlot('salinityPlot', buildPairedArrays(data, 'Salinity', 'sumTPM'), 'Salinity', sharedRange, useLogAxis);
-    drawCorrelationPlot('depthPlot', buildPairedArrays(data, 'Depth', 'sumTPM'), 'Depth', sharedRange, useLogAxis);
+    drawCorrelationPlot('depthPlot', buildPairedArrays(data, 'Depth.nominal', 'sumTPM'), 'Nominal depth', sharedRange, useLogAxis);
     drawCorrelationPlot('oxygenPlot', buildPairedArrays(data, 'Oxygen', 'sumTPM'), 'Oxygen', sharedRange, useLogAxis);
 };
 
 function renderUserCorrelationPlot(data, parameter) {
     const useLogAxis = useLogExpressionScale();
     const sharedRange = getSharedExpressionRange(data, useLogAxis);
+    if (parameter === 'lower.size.fraction' || parameter === 'upper.size.fraction') {
+        renderSizeFractionPlot(data, parameter, useLogAxis);
+        return;
+    }
     drawCorrelationPlot('userPlot', buildPairedArrays(data, parameter, 'sumTPM'), parameter, sharedRange, useLogAxis);
+}
+
+function renderSizeFractionPlot(data, parameter, useLogAxis) {
+    const groups = new Map();
+    data.forEach(row => {
+        const fraction = parseFloat(row[parameter]);
+        const score = parseFloat(row.sumTPM);
+        if (isNaN(fraction) || isNaN(score) || (useLogAxis && score <= 0)) return;
+        const label = Number.isInteger(fraction) ? String(fraction) : fraction.toFixed(2).replace(/0+$/, '').replace(/\.$/, '');
+        if (!groups.has(label)) groups.set(label, []);
+        groups.get(label).push(score);
+    });
+
+    const theme = getCorrelationPlotTheme();
+    const labels = Array.from(groups.keys()).sort((a, b) => parseFloat(a) - parseFloat(b));
+    const colors = ['#0a8f91', '#2f8fba', '#5b73c4', '#a35eae', '#d46b84', '#e28a3b'];
+    const traces = labels.map((label, index) => ({
+        type: 'violin',
+        name: label,
+        x: Array(groups.get(label).length).fill(label),
+        y: groups.get(label),
+        box: { visible: true, width: 0.18 },
+        meanline: { visible: true },
+        points: 'all',
+        jitter: 0.22,
+        pointpos: 0,
+        marker: {
+            color: colors[index % colors.length],
+            size: 4,
+            opacity: 0.35,
+            line: { color: colors[index % colors.length], width: 0.4 }
+        },
+        line: { color: colors[index % colors.length], width: 1.2 },
+        fillcolor: colors[index % colors.length],
+        opacity: 0.62,
+        hovertemplate: `${label}<br>Expression Score: %{y:.4g}<extra></extra>`
+    }));
+    const n = traces.reduce((total, trace) => total + trace.y.length, 0);
+    const label = parameter === 'lower.size.fraction' ? 'Lower size fraction' : 'Upper size fraction';
+    const layout = {
+        autosize: true,
+        showlegend: false,
+        hovermode: 'closest',
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: theme.plot,
+        font: { color: theme.text, family: 'Aptos, Helvetica Neue, sans-serif', size: 12 },
+        margin: { l: 68, r: 22, t: 76, b: 64 },
+        title: { text: `<b>Expression Score by ${label}</b>`, x: 0.04, xanchor: 'left', font: { size: 16, color: theme.text } },
+        annotations: [{
+            x: 0.99,
+            y: 1.13,
+            xref: 'paper',
+            yref: 'paper',
+            xanchor: 'right',
+            yanchor: 'top',
+            showarrow: false,
+            text: `${n} plotted samples across ${labels.length} fraction groups`,
+            font: { size: 10, color: theme.muted }
+        }],
+        xaxis: {
+            title: { text: label, standoff: 10 },
+            type: 'category',
+            gridcolor: theme.grid,
+            automargin: true
+        },
+        yaxis: {
+            title: { text: useLogAxis ? 'Expression Score (log scale)' : 'Expression Score', standoff: 8 },
+            type: useLogAxis ? 'log' : 'linear',
+            gridcolor: theme.grid,
+            zerolinecolor: theme.grid,
+            automargin: true
+        }
+    };
+    Plotly.react('userPlot', traces, layout, CORRELATION_PLOT_CONFIG);
 }
 
 document.getElementById('updateUserPlot').addEventListener('click', () => {
     const userParam = document.getElementById('userParameterSelect').value;
-    const validParams = ['Temperature', 'Salinity', 'Depth', 'Oxygen', 'Latitude', 'Longitude', 'Sigma-theta', 'Nitrate', 'Chl_a', 'fCDOM'];
+    const validParams = Array.from(document.querySelectorAll('#userParameterSelect option')).map(option => option.value);
     if (!validParams.includes(userParam)) {
-        alert('Invalid parameter. Valid options are: Latitude, Longitude, Temperature, Sigma-theta, Salinity, Oxygen, Nitrate, Chl_a, fCDOM, Depth');
+        alert('Please select a Tara Oceans metadata field.');
         return;
     }
 
     const ogId = document.getElementById('ogInput').value.trim();
-    const csvFilePath = `../data/env_corr/${ogId}.csv?ts=${Date.now()}`;
+    const csvFilePath = `../data/env_corr_542/${ogId}.csv?ts=${Date.now()}`;
     Papa.parse(csvFilePath, {
         download: true,
         header: true,
         complete: function(results) {
-            lastUserPlotData = results.data;
+            lastUserPlotData = mergeExpressionMetadata(results.data || []);
             lastUserParameter = userParam;
             renderUserCorrelationPlot(lastUserPlotData, lastUserParameter);
         },

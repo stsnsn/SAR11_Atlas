@@ -1061,6 +1061,26 @@
                 let currentMetaTData = [];
                 let currentMetaTOg = '';
                 let metaTRequestId = 0;
+                let metaTMetadataPromise = null;
+                let metaTMetadataBySample = new Map();
+
+                function loadMetaTMetadata() {
+                    if (metaTMetadataPromise) return metaTMetadataPromise;
+                    metaTMetadataPromise = new Promise((resolve, reject) => {
+                        Papa.parse(`../data/env_corr_542/tara_metadata_542.tsv?ts=${Date.now()}`, {
+                            download: true,
+                            header: true,
+                            skipEmptyLines: true,
+                            complete: function(results) {
+                                const rows = (results.data || []).filter(row => row.sample_id);
+                                metaTMetadataBySample = new Map(rows.map(row => [row.sample_id, row]));
+                                resolve(rows);
+                            },
+                            error: reject
+                        });
+                    });
+                    return metaTMetadataPromise;
+                }
 
                 function metaTMarkerDiameter(score) {
                     const minDiameter = 6;
@@ -1094,7 +1114,7 @@
                     if (!mapElement || typeof Plotly === 'undefined') return;
                     renderMetaTLegend();
                     const validRows = currentMetaTData.map(row => ({
-                        sample: row.sample || 'NA',
+                        sample: row.sample_id || row.sample || 'NA',
                         lat: parseFloat(row.Latitude),
                         lon: parseFloat(row.Longitude),
                         score: parseFloat(row.sumTPM)
@@ -1167,18 +1187,25 @@
                     updateMetaTHeader();
                     renderMetaTMap();
                     const requestId = ++metaTRequestId;
-                    Papa.parse(`../data/env_corr/${og}.csv`, {
-                        download: true,
-                        header: true,
-                        complete: function(results) {
-                            if (requestId !== metaTRequestId) return;
-                            currentMetaTData = results.data || [];
-                            renderMetaTMap();
-                        },
-                        error: function() {
-                            if (requestId !== metaTRequestId) return;
-                            console.warn('metaT CSV load error');
-                        }
+                    Promise.all([
+                        loadMetaTMetadata(),
+                        new Promise((resolve, reject) => Papa.parse(`../data/env_corr_542/${og}.csv?ts=${Date.now()}`, {
+                            download: true,
+                            header: true,
+                            skipEmptyLines: true,
+                            complete: resolve,
+                            error: reject
+                        }))
+                    ]).then(([, results]) => {
+                        if (requestId !== metaTRequestId) return;
+                        currentMetaTData = (results.data || []).map(row => ({
+                            ...row,
+                            ...(metaTMetadataBySample.get(row.sample_id) || {})
+                        }));
+                        renderMetaTMap();
+                    }).catch(() => {
+                        if (requestId !== metaTRequestId) return;
+                        console.warn('metaT data or metadata load error');
                     });
                 }
 

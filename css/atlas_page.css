@@ -556,6 +556,14 @@
     outline-offset: 2px;
 }
 
+.atlas-download-unavailable {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.32rem 0.45rem;
+    color: var(--atlas-muted);
+    opacity: 0.78;
+}
+
 .atlas-download-size {
     display: inline-flex;
     align-items: center;

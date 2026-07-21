@@ -89,6 +89,32 @@
                                 <a href="../data/phylogeny/subclade_master.tsv" download="subclade_master.tsv">Complete metadata <span class="atlas-download-size">241 KB</span></a>
                             </div>
                         </article>
+                        <article class="atlas-download-card">
+                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
+                            <h3>Genome and protein files</h3>
+                            <p>Genome assemblies, predicted protein sequences, and GFF annotations for all 542 SAR11 genomes, distributed as versioned external archives.</p>
+                            <div class="atlas-download-links">
+                                <span class="atlas-download-unavailable">fna_files.tar.gz <span class="atlas-download-size">External archive coming soon</span></span>
+                                <span class="atlas-download-unavailable">faa_files.tar.gz <span class="atlas-download-size">External archive coming soon</span></span>
+                                <span class="atlas-download-unavailable">gff_files.tar.gz <span class="atlas-download-size">External archive coming soon</span></span>
+                            </div>
+                        </article>
+                        <article class="atlas-download-card">
+                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
+                            <h3>Full gene-level annotations</h3>
+                            <p>Complete protein-level annotations for the 675,669-gene collection, distributed through an external data repository.</p>
+                            <div class="atlas-download-links">
+                                <span class="atlas-download-unavailable">all_prot_annotations.tsv <span class="atlas-download-size">External archive coming soon</span></span>
+                            </div>
+                        </article>
+                        <article class="atlas-download-card atlas-download-card--available">
+                            <span class="atlas-status-badge">Available</span>
+                            <h3>Orthogroup assignments and statistics</h3>
+                            <p>Core OrthoFinder 3 results for the 542-genome dataset, including orthogroup membership and gene-count tables, unassigned genes, overall and per-genome statistics, species-overlap counts, root-level hierarchical orthogroups, the labeled species tree, and run metadata.</p>
+                            <div class="atlas-download-links">
+                                <a href="../data/orthogroups/SAR11_Orthogroup_Assignments_542.tar.gz" download="SAR11_Orthogroup_Assignments_542.tar.gz">Orthogroup assignments archive <span class="atlas-download-size">3.4 MB</span></a>
+                            </div>
+                        </article>
                         <article class="atlas-download-card atlas-download-card--available">
                             <span class="atlas-status-badge">Available</span>
                             <h3>Orthogroup annotations and chart data</h3>
@@ -100,13 +126,20 @@
                                 <a href="../data/orthogroups/og_pfam_counts.tsv" download="og_pfam_counts.tsv">Pfam bar-chart data <span class="atlas-download-size">220 KB</span></a>
                             </div>
                         </article>
+                        <article class="atlas-download-card">
+                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
+                            <h3>Orthogroup HMM profiles</h3>
+                            <p>The 4,577 orthogroup profile HMMs will be distributed as a combined HMM file. Individual OG profiles can be retrieved from the combined file with <code>hmmfetch</code>.</p>
+                            <div class="atlas-download-links">
+                                <span class="atlas-download-unavailable">SAR11_Orthogroups_4577.hmm.tar.gz <span class="atlas-download-size">External archive coming soon</span></span>
+                            </div>
+                        </article>
                         <article class="atlas-download-card atlas-download-card--available">
                             <span class="atlas-status-badge">Available</span>
-                            <h3>Comparative-genome networks</h3>
-                            <p>Edge tables used by the Neighboring Network and CORGIAS Network viewers.</p>
+                            <h3>Orthogroup gene trees</h3>
+                            <p>Resolved gene trees for the 3,411 orthogroups containing at least four protein sequences, generated with the OrthoFinder 3 default workflow. Amino-acid sequences were aligned with FAMSA, approximate maximum-likelihood trees were inferred with FastTree using its <code>-fastest</code> option, and the trees were rooted and resolved by OrthoFinder using its hybrid species-overlap/duplication-loss coalescent model.</p>
                             <div class="atlas-download-links">
-                                <a href="../data/network/neighbor_network.tsv" download="neighbor_network.tsv">Neighboring network <span class="atlas-download-size">1.6 MB</span></a>
-                                <a href="../data/network/corgias_network.tsv" download="corgias_network.tsv">CORGIAS network <span class="atlas-download-size">1.3 MB</span></a>
+                                <a href="../data/phylogeny/tree/Resolved_Gene_Trees.txt.tar.gz" download="Resolved_Gene_Trees.txt.tar.gz">Resolved gene trees <span class="atlas-download-size">9.4 MB</span></a>
                             </div>
                         </article>
                         <article class="atlas-download-card atlas-download-card--available">
@@ -121,40 +154,41 @@
                         </article>
                         <article class="atlas-download-card atlas-download-card--available">
                             <span class="atlas-status-badge">Available</span>
-                            <h3>SAR11 literature table</h3>
-                            <p>The publication metadata table displayed on the Literature page, compiled for exploring the history and research themes of the SAR11 field.</p>
+                            <h3>All-vs-all ANI and AAI results</h3>
+                            <p>Pairwise genomic similarity results for all 542 SAR11 genomes. ANI was calculated with fastANI v1.34 using each genome as both query and reference; comparisons without sufficient matching fragments are not reported by fastANI. AAI was calculated from predicted proteins with the CompareM v0.1.2 <code>aai_wf</code> workflow.</p>
                             <div class="atlas-download-links">
-                                <a href="../data/literature/250729_SAR11_paper_list.tsv" download="250729_SAR11_paper_list.tsv">Literature table <span class="atlas-download-size">132 KB · Updated 2025-07-29</span></a>
+                                <a href="../data/phylogeny/fastani_SAR11_542.out" download="fastani_SAR11_542.out">fastANI pairwise results <span class="atlas-download-size">8.9 MB</span></a>
+                                <a href="../data/phylogeny/comparem_aaiwf_SAR11_542_out_summary.tsv" download="comparem_aaiwf_SAR11_542_out_summary.tsv">CompareM AAI summary <span class="atlas-download-size">7.4 MB</span></a>
                             </div>
                         </article>
-                        <article class="atlas-download-card">
-                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
-                            <h3>Genome and protein sequences</h3>
-                            <p>FNA genome assemblies and FAA protein sequences for all 542 SAR11 genomes, distributed as versioned Zenodo archives.</p>
+                        <article class="atlas-download-card atlas-download-card--available">
+                            <span class="atlas-status-badge">Partly available</span>
+                            <h3>Neighboring-gene network</h3>
+                            <p>The edge table used by the Neighboring Network viewer and the complete gene-coordinate table underlying the neighborhood and operon analyses. The coordinate table will be distributed through an external data repository.</p>
+                            <div class="atlas-download-links">
+                                <a href="../data/network/neighbor_network.tsv" download="neighbor_network.tsv">Neighboring network <span class="atlas-download-size">1.6 MB</span></a>
+                                <span class="atlas-download-unavailable">gene_coordinates_with_og.tsv <span class="atlas-download-size">External archive coming soon</span></span>
+                            </div>
                         </article>
-                        <article class="atlas-download-card">
-                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
-                            <h3>Full gene-level annotations</h3>
-                            <p>Complete protein-level annotations for the 675669-gene collection.</p>
-                        </article>
-                        <article class="atlas-download-card">
-                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
-                            <h3>Ortholog clustering results</h3>
-                            <p>Complete OrthoFinder membership and gene-count tables, unassigned genes, clustering statistics, and associated outputs.</p>
-                        </article>
-                        <article class="atlas-download-card">
-                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
-                            <h3>Comparative-analysis archives</h3>
-                            <p>Complete neighborhood, operon, network, CORGIAS, and related comparative-genome analysis outputs.</p>
+                        <article class="atlas-download-card atlas-download-card--available">
+                            <span class="atlas-status-badge">Partly available</span>
+                            <h3>CORGIAS results</h3>
+                            <p>The network edge table used by the CORGIAS Network viewer and the complete CORGIAS analysis results. The full result table is large and will be distributed through Zenodo or Figshare.</p>
+                            <div class="atlas-download-links">
+                                <a href="../data/network/corgias_network.tsv" download="corgias_network.tsv">CORGIAS network <span class="atlas-download-size">1.3 MB</span></a>
+                                <span class="atlas-download-unavailable">CORGIAS_result.csv <span class="atlas-download-size">External archive coming soon</span></span>
+                            </div>
                         </article>
                         <article class="atlas-download-card atlas-download-card--available">
                             <span class="atlas-status-badge">Available</span>
                             <h3>UniProt similarity-search results</h3>
                             <p>Protein-to-UniProt similarity-search results for all 542 genomes, generated against UniProtKB release 2026_01 with DIAMOND v2.1.10.164. Hits with at least 85% identity were retained, with the top hit saved for each query protein and a representative table provided for each orthogroup.</p>
                             <div class="atlas-download-links">
-                                <a href="../data/structure/allhitog_uniprot.tsv" download="allhitog_uniprot.tsv">Complete gene-level hit table</a>
-                                <a href="../data/structure/tophitog_uniprot.tsv" download="tophitog_uniprot.tsv">OG representative hit table</a>
-                                <a href="../data/structure/uniprot_afdb_web.tsv" download="uniprot_afdb_web.tsv">AlphaFold DB-linked match table</a>
+                                <a href="../data/structure/sar11_vs_sprot_2026_01.tsv" download="sar11_vs_sprot_2026_01.tsv">Raw Swiss-Prot top-hit results <span class="atlas-download-size">2.0 MB</span></a>
+                                <a href="../data/structure/sar11_vs_trembl_2026_01.tsv" download="sar11_vs_trembl_2026_01.tsv">Raw TrEMBL top-hit results <span class="atlas-download-size">14 MB</span></a>
+                                <a href="../data/structure/allhitog_uniprot.tsv" download="allhitog_uniprot.tsv">Complete gene-level hit table <span class="atlas-download-size">40 MB</span></a>
+                                <a href="../data/structure/tophitog_uniprot.tsv" download="tophitog_uniprot.tsv">OG representative hit table <span class="atlas-download-size">141 KB</span></a>
+                                <a href="../data/structure/uniprot_afdb_web.tsv" download="uniprot_afdb_web.tsv">AlphaFold DB-linked match table <span class="atlas-download-size">581 KB</span></a>
                             </div>
                         </article>
                         <article class="atlas-download-card">
@@ -162,20 +196,13 @@
                             <h3>Metatranscriptome mapping results</h3>
                             <p>Sample-level mapping results and orthogroup-level expression summaries underlying the Metatranscriptome Viewer.</p>
                         </article>
-                        <article class="atlas-download-card">
-                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
-                            <h3>All-vs-all ANI results</h3>
-                            <p>Pairwise average nucleotide identity results for all 542 SAR11 genomes, provided as a reusable matrix.</p>
-                        </article>
-                        <article class="atlas-download-card">
-                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
-                            <h3>95% ANI representative genomes</h3>
-                            <p>A dereplicated SAR11 genome set selected from the 542-genome collection using a 95% ANI clustering threshold.</p>
-                        </article>
-                        <article class="atlas-download-card">
-                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
-                            <h3>OG HMM profiles and gene trees</h3>
-                            <p>Profile HMM files and gene trees representing the 4,577 orthogroups.</p>
+                        <article class="atlas-download-card atlas-download-card--available">
+                            <span class="atlas-status-badge">Available</span>
+                            <h3>SAR11 literature table</h3>
+                            <p>The publication metadata table displayed on the Literature page, compiled for exploring the history and research themes of the SAR11 field.</p>
+                            <div class="atlas-download-links">
+                                <a href="../data/literature/250729_SAR11_paper_list.tsv" download="250729_SAR11_paper_list.tsv">Literature table <span class="atlas-download-size">132 KB · Updated 2025-07-29</span></a>
+                            </div>
                         </article>
                     </div>
                 </section>
