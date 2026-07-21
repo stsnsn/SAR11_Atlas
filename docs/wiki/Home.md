@@ -4,9 +4,9 @@ The SAR11 Genome Atlas provides interactive tools for exploring SAR11 genomes, o
 
 ## Current Data Release
 
-The current atlas contains 542 SAR11 genomes, 675,669 predicted proteins, and 4,577 orthogroups. Genome metadata, orthogroup assignments and annotations, the Neighboring Genes dataset, the Neighboring Network, and the CORGIAS association network have been updated for this collection.
+The current atlas contains 542 SAR11 genomes, 675,669 predicted proteins, and 4,577 orthogroups. Of the predicted proteins, 670,693 (99.3%) were assigned to orthogroups. Twenty alphaproteobacterial genomes are retained separately as phylogenetic outgroups.
 
-The rooted bac120 IQ-TREE phylogeny and CORGIAS association network now use the same 542-genome collection. Protein-structure links still reflect the preceding analysis release and will be updated separately.
+Genome metadata, orthogroup assignments and annotations, neighboring-gene views, neighboring and CORGIAS networks, the rooted bac120 IQ-TREE phylogeny, UniProt/AlphaFoldDB links, and Tara Oceans orthogroup Expression Scores have been updated for this release.
 
 Open the [SAR11 Genome Atlas](https://stsnsn.github.io/SAR11_Atlas/), or use the guides below to learn about each page.
 
@@ -27,11 +27,11 @@ Open the [SAR11 Genome Atlas](https://stsnsn.github.io/SAR11_Atlas/), or use the
 
 - [Metatranscriptome Viewer](Metatranscriptome-Viewer): examine orthogroup expression across Tara Oceans samples.
 - [Protein Structures](Protein-Structures): connect SAR11 proteins to UniProt accessions and AlphaFold DB models.
-- [Literatures](Literatures): browse SAR11 publication networks and a searchable paper table.
+- [Literature](Literatures): browse SAR11 publication networks and a searchable paper table.
 - [Download](Download): find downloadable genome, annotation, tree, and orthogroup resources.
 
 ## Common Controls
 
-The atlas sidebar is available on every main page. Use the **Dark mode** or **Light mode** button to change the display theme; the selected theme is retained while moving between pages.
+The atlas sidebar is available on every main page. On narrow screens, use the menu button in the top navigation bar to open or close it. Use the **Deep mode** or **Shallow mode** switch to change the display theme; the selected theme is retained while moving between pages.
 
 Several tools accept an orthogroup identifier in the form `OG0000001`. Links between atlas pages may fill this identifier automatically.

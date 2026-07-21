@@ -1,4 +1,4 @@
-# Literatures
+# Literature
 
 The Literature Information page provides network views and a searchable bibliography for publications related to the SAR11 clade.
 
@@ -15,8 +15,8 @@ Use the VOSviewer controls to zoom, search, change the visualization, and inspec
 
 ## SAR11 Paper List
 
-The paper table includes titles, authors, journals, publication dates, DOIs, and citation counts where available. Use the search box to find papers by topic, author, journal, or identifier, and select column headings to sort the results.
+The paper table includes titles, authors, journals, publication dates, DOIs, and citation counts where available. Use the search box to find papers by topic, author, journal, or identifier, and select column headings to sort the results. The header remains fixed and aligned while the table is scrolled horizontally.
 
-The table can be exported with its built-in download controls. The underlying paper lists for the table and network are also linked on the page.
+The table can be exported with its built-in download controls. The underlying paper list for the table and the Web of Science list used for network analysis are also linked on the page. The curated table is additionally available from the [Download](Download) page with its update date and file size.
 
 The collection was assembled from PubMed and Web of Science searches using SAR11-related terms. Citation counts are time-dependent and may differ from values shown by other indexing services.

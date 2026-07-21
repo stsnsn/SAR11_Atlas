@@ -3,6 +3,8 @@ body {
   font-size: .875rem;
   background-color: #f7fbfc; /* 背景 白色 */
   color: #000000; /* 黒のテキスト */
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 /* アイコンの色 */
@@ -118,6 +120,10 @@ button:hover {
   display: none;
 }
 
+body.mobile-menu-is-open {
+  overflow: hidden;
+}
+
 @media (max-width: 767.98px) {
   .mobile-menu-toggle {
     display: inline-flex !important;
@@ -132,11 +138,22 @@ button:hover {
     border: 0;
     border-radius: 0;
     font-size: 1.35rem;
+    line-height: 1;
+    transition: background-color 140ms ease, transform 140ms ease;
   }
 
   .mobile-menu-toggle:hover,
   .mobile-menu-toggle:focus {
     background: rgba(255, 255, 255, 0.14);
+  }
+
+  .mobile-menu-toggle:active {
+    transform: scale(0.94);
+  }
+
+  .mobile-menu-toggle:focus-visible {
+    outline: 2px solid #b8ebe7;
+    outline-offset: -4px;
   }
 
   .sidebar.mobile-sidebar-open {
@@ -152,5 +169,11 @@ button:hover {
     inset: 0;
     z-index: 1030;
     background: rgba(0, 18, 32, 0.55);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-menu-toggle {
+    transition: none;
   }
 }

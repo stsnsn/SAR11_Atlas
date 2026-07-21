@@ -23,11 +23,11 @@ The Explore cards provide direct access to the major tools in the atlas:
 - **Genome Information**: explore genome sampling locations, phylogenetic relationships, and searchable genome metadata.
 - **OG Information Viewer**: inspect orthogroup members, functional annotations, expression patterns, and related information.
 - **CORGIAS Network**: explore correlation-based relationships among SAR11 orthogroups.
-- **SAR11 Paper Network**: browse curated SAR11 publications and literature relationships.
-- **Neighboring Network**: compare conserved neighboring-orthogroup relationships across SAR11 genomes.
+- **Literature**: browse curated SAR11 publications and citation, keyword, and co-authorship relationships.
+- **Neighboring Genes**: compare local gene arrangements around a selected orthogroup across SAR11 genomes.
 - **Metatranscriptome Viewer**: examine orthogroup expression across Tara Oceans metatranscriptomic samples.
 
-Hover over or focus a card to display its description. Select a card to open that tool in the current browser tab.
+Hover over or focus a card to display its description. Select a card to open that tool in the current browser tab. Summary-card values animate when the genome filters change.
 
 ## Filtering The Collection
 

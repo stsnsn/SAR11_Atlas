@@ -10,5 +10,5 @@
 - [CORGIAS Network](CORGIAS-Network)
 - [Metatranscriptome Viewer](Metatranscriptome-Viewer)
 - [Protein Structures](Protein-Structures)
-- [Literatures](Literatures)
+- [Literature](Literatures)
 - [Download](Download)

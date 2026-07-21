@@ -191,13 +191,13 @@
                             <button id="updateMap" class="atlas-action-button" type="button">Update map and plots</button>
                             <button id="downloadData" class="atlas-secondary-button" type="button" disabled>Download CSV</button>
                             <label class="atlas-switch" for="sizeLogToggle">
-                                <input type="checkbox" id="sizeLogToggle" checked>
+                                <input type="checkbox" id="sizeLogToggle">
                                 <span><strong>Log scale</strong><small>Compress marker radii and use a logarithmic plot axis.</small></span>
                             </label>
                         </div>
                     </div>
                     <div id="expressionProfileHeader" class="atlas-expression-heading" style="display: none;"></div>
-                    <div id="map" class="atlas-metat-map"></div>
+                    <div id="map" class="atlas-metat-map" role="img" aria-label="Global map of SAR11 Expression Scores"></div>
                 </section>
 
                 <section class="atlas-section">
@@ -208,7 +208,7 @@
                             <p>Each panel reports Pearson r on the displayed scale, Spearman ρ, and the number of paired samples (n).</p>
                         </div>
                     </div>
-                    <div class="atlas-plot-grid">
+                    <div class="atlas-plot-grid" aria-live="polite">
                         <div id="temperaturePlot" class="single-plot atlas-plot-frame"></div>
                         <div id="salinityPlot" class="single-plot atlas-plot-frame"></div>
                         <div id="depthPlot" class="single-plot atlas-plot-frame"></div>

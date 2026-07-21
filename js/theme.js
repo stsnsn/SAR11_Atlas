@@ -88,6 +88,42 @@
         });
     }
 
+    function initializeEmbedStates() {
+        document.querySelectorAll("iframe.atlas-content-frame, iframe.atlas-embed-frame, iframe.og-embed-frame").forEach((frame) => {
+            if (frame.dataset.embedStateInitialized === "true" || frame.getAttribute("src") === "about:blank") return;
+
+            frame.dataset.embedStateInitialized = "true";
+            frame.setAttribute("aria-busy", "true");
+            const status = document.createElement("p");
+            status.className = "atlas-embed-status";
+            status.setAttribute("role", "status");
+            status.textContent = "Loading embedded viewer...";
+            frame.parentNode.insertBefore(status, frame);
+
+            const finish = () => {
+                frame.removeAttribute("aria-busy");
+                status.hidden = true;
+            };
+            frame.addEventListener("load", finish, { once: true });
+            window.setTimeout(() => {
+                if (!status.hidden) {
+                    status.textContent = "This embedded viewer is taking longer than usual to load.";
+                    status.classList.add("atlas-embed-status--slow");
+                }
+            }, 12000);
+        });
+    }
+
+    function initializeTableScrollHints() {
+        const update = () => {
+            document.querySelectorAll(".atlas-table-wrap:not(.atlas-table-wrap--datatable-scroll)").forEach((wrap) => {
+                wrap.classList.toggle("atlas-table-wrap--overflowing", wrap.scrollWidth > wrap.clientWidth + 2);
+            });
+        };
+        update();
+        window.addEventListener("resize", update, { passive: true });
+    }
+
     function themeToggleIcon(mode) {
         if (mode === "deep") {
             return `
@@ -116,8 +152,8 @@
                 <span class="theme-toggle__knob"></span>
             </span>
             ${themeToggleIcon("deep")}`;
-        button.setAttribute("aria-label", `Switch to ${nextMode} mode`);
-        button.setAttribute("title", `Switch to ${nextMode} mode`);
+        button.setAttribute("aria-label", `Switch to ${nextMode} theme`);
+        button.setAttribute("title", `Switch to ${nextMode} theme`);
     }
 
     function applyTheme(dark, persist) {
@@ -140,6 +176,8 @@
         initializeNavbarBrand();
         positionThemeToggles();
         initializeSyncedFrames();
+        initializeEmbedStates();
+        initializeTableScrollHints();
         const savedTheme = readSavedTheme();
         const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
         let dark = savedTheme ? savedTheme === "dark" : prefersDark;

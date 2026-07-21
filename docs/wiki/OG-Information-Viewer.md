@@ -1,12 +1,12 @@
 # OG Information Viewer
 
-The OG Information Viewer brings together functional annotations, environmental expression, and protein-structure information for an individual SAR11 orthogroup.
+The OG Information Viewer brings together functional annotations, phylogenetic distribution, environmental expression, genome-context links, and protein-structure information for an individual SAR11 orthogroup.
 
 ## Search For An Orthogroup
 
 Enter an orthogroup ID such as `OG0000173`. The autocomplete search also accepts COG IDs, KEGG Orthology (KO) IDs, Pfam accessions or names, and gene names. Select a suggestion and press **Update OG Data**.
 
-After an orthogroup is loaded, the shortcut buttons open its genome-context view, neighboring-gene network, or expression profile.
+After an orthogroup is loaded, the shortcut buttons open its genome-context view, neighboring-gene network, CORGIAS network, or expression profile.
 
 ## Annotation Summary
 
@@ -28,15 +28,15 @@ The Taxonium panel shows presence or absence of the selected orthogroup across t
 
 ## Expression Profile
 
-The map displays the metatranscriptomic Expression Score of the selected orthogroup across Tara Oceans stations using a log-style visual scale. The score is the sum of TPM values assigned to the OG within a sample and is not a conventional single-gene TPM measurement. Use the linked orthogroup name or **Expression Profile** button to open the full [Metatranscriptome Viewer](Metatranscriptome-Viewer).
+The map displays the metatranscriptomic Expression Score of the selected orthogroup across Tara Oceans samples using a log-style visual scale. The score is the sum of TPM values assigned to the OG within a sample and is not a conventional single-gene TPM measurement. Use the linked orthogroup name or **Expression Profile** button to open the full [Metatranscriptome Viewer](Metatranscriptome-Viewer).
 
 ## Protein Structure
 
-When a matching cultured-strain protein is available, the page displays a predicted structure through Mol*. Links to strain HTCC1062 are preferred; otherwise, the cultured-strain match with the highest amino-acid identity is used.
+The structure panel uses the current OG representative UniProt match table generated from the 542-genome protein collection. The displayed accession is loaded into Mol*, and **Open Foldseek** starts a structural-homology search for that AlphaFoldDB model.
 
-The structure-link dataset has not yet been regenerated for the complete 542-genome release. Structure results may therefore be unavailable for newly added or renumbered orthogroups until that update is complete.
+Protein sequences were searched against UniProtKB release 2026_01 with DIAMOND v2.1.10.164. Hits with at least 85% amino-acid identity were retained, and the highest-ranking hit was saved for each query protein. A UniProt match below 100% identity is not sequence-identical to the SAR11 protein.
 
-The reported UniProt accession is a sequence match and is not necessarily identical to every member of the orthogroup. Some accessions may no longer resolve in the current UniProt release or may not have an AlphaFold DB prediction.
+If no representative hit is available, the viewer hides the empty Mol* frame and explains that no predicted structure is available in the current dataset. The message links to the [Protein Structures](Protein-Structures) page and suggests AlphaFold Server when a new prediction for a specific SAR11 protein is needed. A matched accession can still lack an AlphaFoldDB model; use the structure-focused page to inspect confirmed alternatives.
 
 ## Related Pages
 

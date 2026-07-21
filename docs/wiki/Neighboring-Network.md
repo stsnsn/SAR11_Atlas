@@ -18,6 +18,6 @@ The status line reports the total network size, the number of nodes selected by 
 
 ## Explore And Export
 
-Hover over nodes and edges to inspect their metadata. Orthogroup annotations can include COG and KO information where available. The network can be exported as PNG for figures or JSON for downstream analysis.
+Hover over nodes and edges to inspect their metadata. The pointer cursor identifies clickable nodes; select a node to open its [OG Information Viewer](OG-Information-Viewer) in a separate tab. Orthogroup annotations can include COG and KO information where available. The network can be exported as PNG for figures or JSON for downstream analysis.
 
-The page also links to the full network in Cosmograph. Cosmograph reads `neighbor_network.tsv` as the edge table and `og_suggest.tsv` as node metadata; source and target are the directed `source` and `target` fields, node labels are OG IDs, node colors use COG letters, and edge width uses prevalence. For linear genome-context views, use [Neighboring Genes](Neighboring-Genes).
+The page also links to the full network in Cosmograph. Cosmograph reads the public copies of `neighbor_network.tsv` and `og_suggest.tsv`; source and target are the directed `source` and `target` fields, node labels are OG IDs, node colors use COG letters, and edge width uses prevalence. For linear genome-context views, use [Neighboring Genes](Neighboring-Genes).

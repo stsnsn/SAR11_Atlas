@@ -90,17 +90,24 @@
                     <div class="atlas-network-controls control-row">
                         <label for="egoNode">Center node (OG ID):</label>
                         <input type="text" id="egoNode" placeholder="OG0000173">
-                        <label for="depthRange">Depth</label>
-                        <input type="range" id="depthRange" min="1" max="3" value="1">
-                        <span id="depthVal">1</span>
-                        <button id="extractBtn">Show network</button>
-                        <button id="exportPngBtn" disabled>Export PNG</button>
-                        <button id="exportJsonBtn" disabled>Export JSON</button>
-                        <label class="atlas-inline-check"><input type="checkbox" id="onlyBidirectional"> Only show bidirectional edges</label>
-                        <label class="atlas-max-nodes" for="maxNodes">Max nodes: <input id="maxNodes" type="number" value="500"></label>
+                        <div class="atlas-network-controls__actions">
+                            <button id="extractBtn">Show network</button>
+                            <button id="exportPngBtn" disabled>Export PNG</button>
+                            <button id="exportJsonBtn" disabled>Export JSON</button>
+                        </div>
+                        <details class="atlas-control-details">
+                            <summary>Display options</summary>
+                            <div class="atlas-control-details__body">
+                                <label for="depthRange">Depth</label>
+                                <input type="range" id="depthRange" min="1" max="3" value="1">
+                                <span id="depthVal">1</span>
+                                <label class="atlas-inline-check"><input type="checkbox" id="onlyBidirectional"> Only show bidirectional edges</label>
+                                <label class="atlas-max-nodes" for="maxNodes">Max nodes: <input id="maxNodes" type="number" value="500"></label>
+                            </div>
+                        </details>
                     </div>
-                    <div id="cyInfo" class="atlas-network-status">Total nodes = 0; Selected nodes = 0; Visualized nodes = 0</div>
-                    <div id="cy" class="atlas-network-canvas"></div>
+                    <div id="cyInfo" class="atlas-network-status" role="status" aria-live="polite">Total nodes = 0; Selected nodes = 0; Visualized nodes = 0</div>
+                    <div id="cy" class="atlas-network-canvas" role="img" aria-label="Interactive neighboring-gene network"></div>
                 </section>
 
                 <script>

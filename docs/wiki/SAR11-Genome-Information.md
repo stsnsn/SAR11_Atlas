@@ -25,7 +25,7 @@ Click an individual marker to open a popup containing the metadata for that geno
 
 ## SAR11 Genome Phylogeny
 
-The phylogenetic tree was inferred with IQ-TREE from the bac120 marker alignment, rooted with 20 alphaproteobacterial outgroups, and then pruned to the 542 SAR11 genomes displayed in Taxonium. Taxonium supports interactive zooming, panning, searching, and metadata-based coloring.
+The phylogenetic tree was inferred with IQ-TREE from the bac120 marker alignment, rooted with 20 alphaproteobacterial outgroups, and then pruned to the 542 SAR11 genomes displayed in Taxonium. The tree and Taxonium metadata are loaded from the public atlas-data repository so the embedded viewer can access them while the development repository remains private. Taxonium supports interactive zooming, panning, searching, and metadata-based coloring.
 
 Use the tree controls to:
 
@@ -39,7 +39,7 @@ The tree file and associated metadata are available from the [Download](Download
 
 ## SAR11 Genome Information Table
 
-The genome information table lists 542 SAR11 genomes and 20 cultured alphaproteobacterial genomes used as phylogenetic outgroups. Available fields include taxonomy, genome source type, numeric sampling depth and coordinates, marine Longhurst province, habitat, waterbody, and source references where available.
+The genome information table lists 542 SAR11 genomes and 20 alphaproteobacterial genomes used as phylogenetic outgroups. Available fields include taxonomy, genome source type, numeric sampling depth and coordinates, marine Longhurst province, habitat, waterbody, genome-quality information, and source references where available.
 
 The generic **description** field contains the available sampling-region description. Longhurst codes are retained only for marine records. Freshwater and other nonmarine records keep Longhurst fields as `NA` and are described with **habitat_type** and **waterbody_name** instead.
 

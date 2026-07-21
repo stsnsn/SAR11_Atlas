@@ -26,12 +26,14 @@ The status text reports the number of focal-gene neighborhoods and genomes match
 - Hover over a gene to view its full sequence ID, OG ID, COG assignment, gene name, KO ID, and KO description.
 - Select an OG label to open its [OG Information Viewer](OG-Information-Viewer).
 
-Use **Actual gene lengths** to switch between a shared base-pair scale and a row-fitted display. Strand orientation is normalized so that the focal gene points in the same direction in every row.
+Use **Actual gene lengths** to switch between a shared base-pair scale and a row-fitted display. The focal OG is aligned across rows, and the horizontally scrollable drawing area prevents long labels and neighborhoods from being clipped.
 
 - **Shared-OG ribbons** connects matching OGs between adjacent rows.
 - **Sort by neighborhood similarity** places similar local OG arrangements next to one another.
 - **Show color legend** displays the top-20 neighboring-OG key.
 - **Pin labels to left** keeps genome and contig labels in a fixed left column and is enabled by default.
+
+The default display uses actual gene lengths, shared-OG ribbons, and pinned labels. Neighborhood-similarity sorting and the color legend are off by default.
 
 ## Export Data And Figures
 

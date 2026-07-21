@@ -4,7 +4,7 @@ The All OG List is a searchable table of all 4,577 orthogroups and their represe
 
 ## Browse The Table
 
-Use the search box to find an orthogroup by OG ID or annotation term. Select a column heading to sort the table, and scroll horizontally to inspect all annotation fields.
+Use the search box to find an orthogroup by OG ID or annotation term. Select a column heading to sort the table, and scroll horizontally to inspect all annotation fields. The header remains fixed and aligned with the columns during horizontal and vertical scrolling.
 
 The table is generated from the current `og_suggest.tsv` summary. It includes orthogroup size and prevalence together with representative COG, KO, and Pfam information where available. Representative annotations are selected from protein-level assignments within each orthogroup and should not be interpreted as assignments shared by every member. `NA` or **No Annotation** indicates that no supported assignment was available for that field.
 
@@ -21,4 +21,4 @@ External database links open in a separate browser tab.
 
 The table controls can export the displayed data as copy, CSV, JSON, Excel, or print output. Apply a search first when only a subset of orthogroups is needed.
 
-Full gene-level annotation tables, orthogroup HMM profiles, and orthogroup phylogenetic trees are distributed separately through the [Download](Download) page.
+The [Download](Download) page provides the complete OrthoFinder assignment archive and the resolved gene-tree archive. Full protein-level annotations and the combined orthogroup HMM archive are listed separately according to their current release status.

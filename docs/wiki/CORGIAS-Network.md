@@ -26,6 +26,6 @@ The **CORGIAS result table** lists all 18,606 significant associations and is or
 
 ## Explore And Export
 
-Hover over network elements to inspect orthogroup and annotation information. Use **Export PNG** for a figure or **Export JSON** for the currently extracted network.
+Hover over network elements to inspect orthogroup and annotation information. The pointer cursor identifies clickable nodes; select one to open its [OG Information Viewer](OG-Information-Viewer) in a separate tab. Use **Export PNG** for a figure or **Export JSON** for the currently extracted network.
 
 CORGIAS relationships are phylogenetically informed statistical associations and should not by themselves be interpreted as direct physical interactions or evidence of a shared operon. Use [Neighboring Genes](Neighboring-Genes) or the [Neighboring Network](Neighboring-Network) to examine genome context.

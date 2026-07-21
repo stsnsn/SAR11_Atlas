@@ -92,19 +92,26 @@
                     <div class="atlas-network-controls control-row">
                         <label for="egoNode">Center node (OG ID):</label>
                         <input type="text" id="egoNode" placeholder="OG0001059">
-                        <label for="depthRange">Depth</label>
-                            <input type="range" id="depthRange" min="1" max="5" value="2">
-                            <span id="depthVal">2</span>
-                        <label for="qValueRange">Significance (-log10 q):</label>
-                            <input type="range" id="qValueRange" min="0" max="20" step="1" value="2">
-                            <span id="qValueVal">2</span>
-                        <button id="extractBtn">Show network</button>
-                        <button id="exportPngBtn" disabled>Export PNG</button>
-                        <button id="exportJsonBtn" disabled>Export JSON</button>
-                        <label class="atlas-max-nodes" for="maxNodes">Max nodes: <input id="maxNodes" type="number" value="500"></label>
+                        <div class="atlas-network-controls__actions">
+                            <button id="extractBtn">Show network</button>
+                            <button id="exportPngBtn" disabled>Export PNG</button>
+                            <button id="exportJsonBtn" disabled>Export JSON</button>
+                        </div>
+                        <details class="atlas-control-details">
+                            <summary>Display options</summary>
+                            <div class="atlas-control-details__body">
+                                <label for="depthRange">Depth</label>
+                                <input type="range" id="depthRange" min="1" max="5" value="2">
+                                <span id="depthVal">2</span>
+                                <label for="qValueRange">Significance (-log10 q):</label>
+                                <input type="range" id="qValueRange" min="0" max="20" step="1" value="2">
+                                <span id="qValueVal">2</span>
+                                <label class="atlas-max-nodes" for="maxNodes">Max nodes: <input id="maxNodes" type="number" value="500"></label>
+                            </div>
+                        </details>
                     </div>
-                    <div id="cyInfo" class="atlas-network-status">Total nodes = 0; Selected nodes = 0; Visualized nodes = 0</div>
-                    <div id="cy" class="atlas-network-canvas"></div>
+                    <div id="cyInfo" class="atlas-network-status" role="status" aria-live="polite">Total nodes = 0; Selected nodes = 0; Visualized nodes = 0</div>
+                    <div id="cy" class="atlas-network-canvas" role="img" aria-label="Interactive CORGIAS association network"></div>
                 </section>
 
                 <section class="atlas-section" id="corgiasResultsPanel">
