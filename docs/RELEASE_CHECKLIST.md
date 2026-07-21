@@ -1,31 +1,59 @@
 # Release Checklist
 
-## Handoff For The Next Session
+## Current Status And Handoff
 
-The broad UI update and the 542-genome updates for genome metadata, orthogroup annotations, neighboring-gene views, neighboring and CORGIAS networks, and the species phylogeny are complete. Browser-based visual confirmation remains with the project owner.
+The 542-genome update is functionally complete for genome metadata, orthogroups and annotations, species and gene trees, neighboring-gene views, neighboring and CORGIAS networks, UniProt/AlphaFoldDB links, and the Metatranscriptome Viewer. The broad responsive UI, Deep/Shallow theme, mobile navigation, table styling, and documentation update are also complete. Browser-based visual confirmation remains with the project owner.
 
-Resume the remaining analyses in this order:
+The remaining work is primarily release packaging and final quality assurance rather than rebuilding the Web views. Resume in this order:
 
-1. Complete the UniProtKB `2026_01` transfer and run the all-protein similarity search with either MMseqs2 or DIAMOND. Freeze the database metadata and search parameters before generating the complete hit archive and one representative hit per OG for the Web interface.
-2. Run FastANI v1.34 all-vs-all on the 542 SAR11 genomes. Preserve directional output and alignment fractions, prepare the reciprocal-mean matrix, and generate the separately documented 95% ANI representative genome set.
-3. After metatranscriptome mapping finishes, aggregate the results by OG, update the Metatranscriptome Viewer inputs, and prepare the sample-level and OG-level release tables.
+1. Package and publish the large external datasets, then replace every Coming soon entry with a versioned Zenodo or Figshare URL.
+2. Finalize the AAI documentation and expose the AAI file on the Download page.
+3. Freeze the reproducibility metadata for UniProt, OrthoFinder, FastANI, CompareM, CORGIAS, and metatranscriptome processing.
+4. Replace temporary `stsnsn/public_data` URLs, recalculate download sizes, and perform the final browser and link checks.
 
-After these analyses, update the affected HTML and Wiki pages, prepare the versioned Zenodo archives, replace the Coming soon cards with final links, switch temporary public-data URLs to `stsnsn/SAR11_Atlas`, and complete the final file-size, literature-date, and phylogeny-order checks.
+## Completed Updates
 
-## Pending Analysis Updates
+- [x] Updated the collection to 542 SAR11 genomes, with 20 additional alphaproteobacterial outgroups retained in the complete genome metadata table.
+- [x] Updated genome metadata, Taxonium metadata, genome tables, sampling-location views, and freshwater/nonmarine Longhurst handling.
+- [x] Updated the OrthoFinder 3 dataset to 4,577 orthogroups and 675,669 proteins; 670,693 proteins are assigned to orthogroups and 4,976 are unassigned.
+- [x] Generated and installed the compact OG annotation summary and KO, COG, and Pfam count tables used by the Web charts.
+- [x] Packaged the core OrthoFinder assignments and statistics as `SAR11_Orthogroup_Assignments_542.tar.gz`.
+- [x] Added the rooted 542-tip bac120 IQ-TREE phylogeny, two alternative FastTree phylogenies, and the archive of 3,411 resolved OrthoFinder gene trees.
+- [x] Updated the 542-genome neighboring-gene files, operon viewer, directed neighboring network, CORGIAS network, and CORGIAS result table.
+- [x] Downloaded and checksum-verified UniProtKB release `2026_01`, extracted Swiss-Prot and TrEMBL sequences, and searched all 675,669 proteins with DIAMOND v2.1.10.164 at a minimum of 85% identity with one top hit per query.
+- [x] Generated `allhitog_uniprot.tsv`, `tophitog_uniprot.tsv`, and the AlphaFoldDB-confirmed Web table. The structure table contains up to five checked candidates per OG and retains all candidates with confirmed models.
+- [x] Updated Protein Structures, OG Information Viewer, Download, and the associated Wiki pages for the UniProtKB/AlphaFoldDB workflow and no-hit handling.
+- [x] Completed FastANI v1.34 all-vs-all computation and retained `data/phylogeny/fastani_SAR11_542.out`.
+- [x] Generated and validated the symmetric 542 x 542 ANI matrix, retained the directional raw output with fragment counts, and added both files to the Download page and Download Wiki.
+- [x] Completed CompareM v0.1.2 AAI computation and retained `data/phylogeny/comparem_aaiwf_SAR11_542_out_summary.tsv`.
+- [x] Rebuilt all 4,577 OG-level metatranscriptome files in `data/env_corr_542`, separated the complete Tara Oceans metadata table, and updated both metatranscriptome pages and Wiki documentation.
+- [x] Updated all Wiki pages to reflect the current 542-genome data and interface behavior.
+- [x] Removed Google Analytics, consent code, and the Privacy Policy after deciding not to collect access statistics.
+- [x] Added mobile sidebar navigation and standardized Deep/Shallow theme behavior, network dark backgrounds, tables, controls, focus states, and responsive layout.
+- [x] Corrected corrupted non-ASCII author names in 98 literature records by matching their PMIDs to PubMed; no author-field underscores remain.
 
-- [ ] Download and verify the archived UniProtKB release `2026_01` locally.
-- [ ] Extract the Swiss-Prot and TrEMBL FASTA files and transfer them to the analysis server with a resumable transfer.
-- [ ] Select MMseqs2 or DIAMOND, search all proteins from the 542 SAR11 genomes against UniProtKB `2026_01`, and record the tool version, command, thresholds, database checksums, and download date.
-- [ ] Prepare the complete protein-to-UniProt hit table and supporting metadata for deposition in Zenodo.
-- [ ] Prepare a compact Web table containing one representative UniProt hit per OG, with AlphaFold DB availability where possible.
-- [ ] Replace `data/structure/allhitog_uniprot.tsv` and `data/structure/tophitog_uniprot.tsv`, then update the Protein Structures page, OG Information Viewer, and related Wiki pages.
-- [ ] Update the metatranscriptome datasets and OG mappings after the ongoing computation is complete, prepare the mapping and OG-level expression results for release, and add their download link. This task is currently on hold.
-- [ ] Calculate all-vs-all average nucleotide identity for the 542 SAR11 genomes with FastANI v1.34. Retain directional ANI values, matched and total fragment counts, and alignment fractions; generate a reciprocal-mean symmetric matrix with unreported comparisons represented as `NA`; and record the complete command and parameters. Prepare both raw and matrix-form results for download.
-- [ ] Cluster the 542 SAR11 genomes at 95% ANI and prepare a representative genome set. Document the clustering procedure and representative-selection priorities, provide the complete cluster membership table, and release representative FNA/FAA archives. State explicitly that 95% ANI is used here for technical dereplication rather than SAR11 species classification.
-- [ ] Review the three species-phylogeny downloads on `html/download.html` and finalize their order by scientific importance and recommended use. Clearly distinguish the primary tree from the alternative `SAR11_165` and bac120 marker-set or inference-method trees in both the card text and Download Wiki.
-- [ ] Prepare versioned Zenodo archives for the 542-genome FNA/FAA collection, full gene-level annotations, OrthoFinder clustering outputs, complete comparative-analysis results, and OG HMM profiles and gene trees; then replace the corresponding Coming soon cards with release links.
-- [ ] Recalculate every file-size badge and verify the displayed literature-table update date on `html/download.html` after the final release files are frozen and before publication.
+## Remaining Release Work
+
+- [ ] Add a release README or methods record containing the UniProtKB `2026_01` archive checksum, download date, DIAMOND command and database-build command, query/subject coverage policy, and result-selection rules. The Web pages already record the principal version and thresholds, but the complete reproducibility record is not yet packaged.
+- [ ] Add the finalized AAI file, method, size, and link to the Download page and Download Wiki.
+- [ ] Decide whether a 95% ANI dereplicated representative set is needed as a separate analysis. It is no longer a required Download-page card; if restored, document it as technical dereplication rather than formal SAR11 species classification.
+- [ ] Prepare versioned external archives for the 542 FNA, FAA, and GFF collections.
+- [ ] Publish `all_prot_annotations.tsv`, including OG, COGclassifier, KofamScan, PfamScan, and quickARSC results, through the external repository.
+- [ ] Publish the combined `SAR11_Orthogroups_4577.hmm.tar.gz` archive and explain that individual profiles can be extracted with `hmmfetch`.
+- [ ] Publish `gene_coordinates_with_og.tsv` and the complete `CORGIAS_result.csv` through the external repository.
+- [ ] Publish the full metatranscriptome mapping outputs and OG-level Expression Score release tables; the Web-ready `env_corr_542` files are complete, but the large archival dataset is not linked from the Download page.
+- [ ] Confirm that the core OrthoFinder assignment archive and resolved gene-tree archive are also copied to the chosen long-term repository, even though local downloads currently work.
+- [ ] Review the three species-phylogeny downloads and finalize their order by scientific importance and recommended use. Clearly distinguish the primary rooted bac120 IQ-TREE result from the alternative SAR11_165 and bac120 FastTree results.
+- [ ] Recalculate every file-size badge and verify the literature-table displayed date after all release files and external URLs are frozen.
+
+## Final Quality Assurance
+
+- [ ] Replace all temporary public-data URLs listed below with `stsnsn/SAR11_Atlas` URLs and confirm HTTP 200 responses.
+- [ ] Test the Genome Information and OG Information Taxonium views and the full Cosmograph neighboring network after the URL replacement.
+- [ ] Check every Download-page link, external archive name, displayed size, status badge, and update date.
+- [ ] Confirm that no Google Analytics, consent, private URL, API key, credential, local filesystem URL, or unpublished server path remains in public HTML, JavaScript, CSS, or documentation.
+- [ ] Perform owner-led Chrome, Safari, and mobile checks for navigation, Deep/Shallow switching, fixed table headers, network labels/backgrounds, Plotly interactions, Mol* loading, downloads, and horizontal overflow.
+- [ ] Remove release-only clutter such as `.DS_Store` files and confirm that large analysis intermediates intended for Zenodo are not accidentally committed to the GitHub Pages repository.
 
 ## External Data URLs
 

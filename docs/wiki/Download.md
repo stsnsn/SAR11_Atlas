@@ -11,6 +11,7 @@ The following resources can currently be downloaded directly:
 - **Orthogroup annotations and chart data**: `og_suggest.tsv` contains representative annotations for all 4,577 orthogroups. The KO and COG count tables drive the pie charts, and the Pfam count table drives the bar chart in the OG Information Viewer.
 - **Resolved orthogroup gene trees**: `Resolved_Gene_Trees.txt.tar.gz` contains 3,411 resolved gene trees.
 - **Species phylogenies**: the rooted bac120 IQ-TREE phylogeny and alternative FastTree phylogenies inferred from bac120 and SAR11_165 marker sets.
+- **All-vs-all ANI results**: the directional FastANI v1.34 output and a symmetric 542-genome ANI matrix.
 - **Neighboring-gene network**: `neighbor_network.tsv` is the directed edge table used by the Neighboring Network page.
 - **CORGIAS network**: `corgias_network.tsv` contains the significant phylogenetically informed OG associations used by the network and result table.
 - **UniProt similarity-search results**: gene-level, OG-representative, and AlphaFoldDB-confirmed match tables generated against UniProtKB release 2026_01.
@@ -65,7 +66,11 @@ The directly available network files are the complete edge tables used by the Ne
 - `CORGIAS_result.csv`, the complete CORGIAS analysis output beyond the compact significant-edge table.
 - Sample-level metatranscriptome mapping results and OG-level Expression Score summaries.
 
-The all-vs-all ANI card remains marked **Coming soon** until a documented, reusable matrix and associated FastANI output are published. It is not presented as a SAR11 species classification.
+## All-vs-all ANI
+
+`fastani_SAR11_542.out` is the original directional five-column FastANI v1.34 output: query genome, reference genome, ANI, matched fragments, and total query fragments. `fastani_SAR11_542_symmetric_matrix.tsv` is a 542 x 542 matrix derived from that output. Reciprocal ANI estimates are averaged when both directions are reported; a single reported direction is retained when its reciprocal comparison is absent; comparisons absent in both directions are shown as `NA`; and the diagonal is set to 100. Genome names in the matrix omit the `.fna` suffix.
+
+The ANI files are comparative-genome measurements and are not presented as a formal SAR11 species classification. The matrix can be regenerated with `scripts/build_fastani_matrix.R`.
 
 ## External Archives Still Pending
 
@@ -76,7 +81,6 @@ The following large resources remain marked **Coming soon** or **Partly availabl
 - The combined 4,577-orthogroup HMM archive.
 - The complete gene-coordinate table and complete CORGIAS result table.
 - Sample-level metatranscriptome mapping outputs and OG-level summaries.
-- A documented all-vs-all ANI result and matrix.
 
 ## Choosing A File
 
