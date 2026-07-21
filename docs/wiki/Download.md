@@ -11,10 +11,10 @@ The following resources can currently be downloaded directly:
 - **Orthogroup annotations and chart data**: `og_suggest.tsv` contains representative annotations for all 4,577 orthogroups. The KO and COG count tables drive the pie charts, and the Pfam count table drives the bar chart in the OG Information Viewer.
 - **Resolved orthogroup gene trees**: `Resolved_Gene_Trees.txt.tar.gz` contains 3,411 resolved gene trees.
 - **Species phylogenies**: the rooted bac120 IQ-TREE phylogeny and alternative FastTree phylogenies inferred from bac120 and SAR11_165 marker sets.
-- **All-vs-all ANI results**: the directional FastANI v1.34 output and a symmetric 542-genome ANI matrix.
+- **All-vs-all ANI and AAI results**: the directional FastANI v1.34 output, a symmetric 542-genome ANI matrix, and the CompareM v0.1.2 pairwise AAI summary.
 - **Neighboring-gene network**: `neighbor_network.tsv` is the directed edge table used by the Neighboring Network page.
 - **CORGIAS network**: `corgias_network.tsv` contains the significant phylogenetically informed OG associations used by the network and result table.
-- **UniProt similarity-search results**: gene-level, OG-representative, and AlphaFoldDB-confirmed match tables generated against UniProtKB release 2026_01.
+- **High-similarity UniProt matches**: gene-level, OG-representative, and AlphaFoldDB-confirmed match tables generated against UniProtKB release 2026_01 at a minimum of 85% identity.
 - **SAR11 literature table**: `250729_SAR11_paper_list.tsv`, updated on 2025-07-29, contains the publication metadata displayed on the Literature page.
 
 The Download cards show the file size next to each available resource. OG-specific neighborhood tables are downloaded separately from the [Neighboring Genes](Neighboring-Genes) page.
@@ -50,13 +50,15 @@ The full protein-coding gene annotation resource is a separate, larger table for
 
 ## UniProt And AlphaFoldDB Results
 
-All SAR11 proteins were searched against UniProtKB release 2026_01 Swiss-Prot and TrEMBL with DIAMOND v2.1.10.164. Hits with at least 85% amino-acid identity were retained, with the highest-ranking hit saved for each query protein. Candidates for the AlphaFoldDB-linked web table were additionally required to cover at least 70% of both query and subject sequences.
+All SAR11 proteins were searched against UniProtKB release 2026_01 Swiss-Prot and TrEMBL with DIAMOND v2.1.10.164 using a minimum amino-acid identity of 85% and `--max-target-seqs 1`. Candidates for the AlphaFoldDB-linked web table were additionally required to cover at least 70% of both query and subject sequences.
 
-- `allhitog_uniprot.tsv` contains 226,536 matched SAR11 proteins across 1,912 orthogroups.
-- `tophitog_uniprot.tsv` contains one representative UniProt hit for each of those 1,912 orthogroups.
-- `uniprot_afdb_web.tsv` contains 3,660 confirmed AlphaFoldDB-linked matches across 1,711 orthogroups and is the compact table used by the Protein Structures page.
+- `uniprot_pid85_gene_hits.tsv` contains 226,536 matched SAR11 proteins across 1,912 orthogroups.
+- `uniprot_pid85_og_representative_hits.tsv` contains one representative UniProt hit for each of those 1,912 orthogroups.
+- `uniprot_pid85_afdb_matches.tsv` contains 3,660 confirmed AlphaFoldDB-linked matches across 1,711 orthogroups and is the compact table used by the Protein Structures page.
 
 A UniProt hit is a sequence-similarity result, not proof that every orthogroup member has the same sequence or structure. Use identity, coverage, domain annotations, and AlphaFold confidence together when interpreting a match.
+
+A broader DIAMOND search using a minimum identity of 30% and `--max-target-seqs 10` is being prepared as a separate Zenodo release. It uses a different search configuration from the compact high-similarity tables above and is not yet served directly by the atlas.
 
 ## Network And Expression Resources
 
@@ -66,11 +68,13 @@ The directly available network files are the complete edge tables used by the Ne
 - `CORGIAS_result.csv`, the complete CORGIAS analysis output beyond the compact significant-edge table.
 - Sample-level metatranscriptome mapping results and OG-level Expression Score summaries.
 
-## All-vs-all ANI
+## All-vs-all ANI And AAI
 
 `fastani_SAR11_542.out` is the original directional five-column FastANI v1.34 output: query genome, reference genome, ANI, matched fragments, and total query fragments. `fastani_SAR11_542_symmetric_matrix.tsv` is a 542 x 542 matrix derived from that output. Reciprocal ANI estimates are averaged when both directions are reported; a single reported direction is retained when its reciprocal comparison is absent; comparisons absent in both directions are shown as `NA`; and the diagonal is set to 100. Genome names in the matrix omit the `.fna` suffix.
 
-The ANI files are comparative-genome measurements and are not presented as a formal SAR11 species classification. The matrix can be regenerated with `scripts/build_fastani_matrix.R`.
+`comparem_aaiwf_SAR11_542_out_summary.tsv` is the all-vs-all amino-acid identity summary generated with CompareM v0.1.2 `aai_wf` from the predicted proteins of the same 542 genomes. It reports the protein-coding gene counts for each genome, number of detected orthologs, mean and standard deviation of AAI, and orthologous fraction for each genome pair.
+
+The ANI and AAI files are comparative-genome measurements and are not presented as a formal SAR11 species classification. The ANI matrix can be regenerated with `scripts/build_fastani_matrix.R`.
 
 ## External Archives Still Pending
 
@@ -81,6 +85,7 @@ The following large resources remain marked **Coming soon** or **Partly availabl
 - The combined 4,577-orthogroup HMM archive.
 - The complete gene-coordinate table and complete CORGIAS result table.
 - Sample-level metatranscriptome mapping outputs and OG-level summaries.
+- The broader UniProtKB similarity-search result generated with `--id 30 --max-target-seqs 10`.
 
 ## Choosing A File
 

@@ -154,11 +154,12 @@
                         </article>
                         <article class="atlas-download-card atlas-download-card--available">
                             <span class="atlas-status-badge">Available</span>
-                            <h3>All-vs-all ANI results</h3>
-                            <p>FastANI v1.34 results for all 542 SAR11 genomes. The directional raw output retains matched and total fragment counts. The symmetric matrix reports the mean of reciprocal ANI estimates when both directions are available, uses the reported estimate when only one direction is available, and represents comparisons not reported in either direction as <code>NA</code>.</p>
+                            <h3>All-vs-all ANI and AAI results</h3>
+                            <p>Pairwise nucleotide- and amino-acid identity results for all 542 SAR11 genomes, calculated with FastANI v1.34 and CompareM v0.1.2 <code>aai_wf</code>. Both the original directional FastANI output and a symmetric ANI matrix are provided.</p>
                             <div class="atlas-download-links">
                                 <a href="../data/phylogeny/fastani_SAR11_542.out" download="fastani_SAR11_542.out">Directional FastANI output <span class="atlas-download-size">8.9 MB</span></a>
                                 <a href="../data/phylogeny/fastani_SAR11_542_symmetric_matrix.tsv" download="fastani_SAR11_542_symmetric_matrix.tsv">Symmetric ANI matrix <span class="atlas-download-size">2.0 MB</span></a>
+                                <a href="../data/phylogeny/comparem_aaiwf_SAR11_542_out_summary.tsv" download="comparem_aaiwf_SAR11_542_out_summary.tsv">CompareM AAI summary <span class="atlas-download-size">7.4 MB</span></a>
                             </div>
                         </article>
                         <article class="atlas-download-card atlas-download-card--available">
@@ -181,13 +182,18 @@
                         </article>
                         <article class="atlas-download-card atlas-download-card--available">
                             <span class="atlas-status-badge">Available</span>
-                            <h3>UniProt similarity-search results</h3>
-                            <p>Protein-to-UniProt similarity-search results for all 542 genomes, generated against UniProtKB release 2026_01 with DIAMOND v2.1.10.164. Hits with at least 85% identity were retained, with the top hit saved for each query protein and a representative table provided for each orthogroup.</p>
+                            <h3>High-similarity UniProt matches</h3>
+                            <p>High-similarity protein matches for all 542 genomes, generated against UniProtKB release 2026_01 with DIAMOND v2.1.10.164 using a minimum identity of 85% and <code>--max-target-seqs 1</code>. Gene-level and orthogroup-level summary tables are provided.</p>
                             <div class="atlas-download-links">
-                                <a href="../data/structure/allhitog_uniprot.tsv" download="allhitog_uniprot.tsv">Complete gene-level hit table <span class="atlas-download-size">40 MB</span></a>
-                                <a href="../data/structure/tophitog_uniprot.tsv" download="tophitog_uniprot.tsv">OG representative hit table <span class="atlas-download-size">141 KB</span></a>
-                                <a href="../data/structure/uniprot_afdb_web.tsv" download="uniprot_afdb_web.tsv">AlphaFold DB-linked match table <span class="atlas-download-size">581 KB</span></a>
+                                <a href="../data/structure/uniprot_pid85_gene_hits.tsv" download="uniprot_pid85_gene_hits.tsv">Complete gene-level hit table <span class="atlas-download-size">40 MB</span></a>
+                                <a href="../data/structure/uniprot_pid85_og_representative_hits.tsv" download="uniprot_pid85_og_representative_hits.tsv">OG representative hit table <span class="atlas-download-size">141 KB</span></a>
+                                <a href="../data/structure/uniprot_pid85_afdb_matches.tsv" download="uniprot_pid85_afdb_matches.tsv">AlphaFold DB-linked match table <span class="atlas-download-size">581 KB</span></a>
                             </div>
+                        </article>
+                        <article class="atlas-download-card">
+                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
+                            <h3>Broad UniProt similarity-search results</h3>
+                            <p>A broader search of all SAR11 proteins against UniProtKB release 2026_01, generated with DIAMOND using a minimum identity of 30% and <code>--max-target-seqs 10</code>. The complete result will be released through Zenodo.</p>
                         </article>
                         <article class="atlas-download-card">
                             <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>

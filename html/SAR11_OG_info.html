@@ -866,9 +866,9 @@
                                 document.getElementById('pfamBar').innerHTML = '<p style="color:gray;">Pfam data not found</p>';
                             }
 
-                            // --- Mol* viewer: load accessions from tophitog_uniprot.tsv ---
+                            // --- Mol* viewer: load accessions from the representative UniProt hit table ---
                             try {
-                                const structRows = await d3.tsv('../data/structure/tophitog_uniprot.tsv');
+                                const structRows = await d3.tsv('../data/structure/uniprot_pid85_og_representative_hits.tsv');
                                 const matches = (structRows || []).filter(r => {
                                     const key = (r.Orthogroup || r.orthogroup || r.OG || '').trim();
                                     return key === og;
