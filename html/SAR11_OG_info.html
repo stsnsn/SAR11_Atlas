@@ -866,9 +866,9 @@
                                 document.getElementById('pfamBar').innerHTML = '<p style="color:gray;">Pfam data not found</p>';
                             }
 
-                            // --- Mol* viewer: load accessions from the representative UniProt hit table ---
+                            // --- Mol* viewer: use close matches first, then homologous references ---
                             try {
-                                const structRows = await d3.tsv('../data/structure/uniprot_pid85_og_representative_hits.tsv');
+                                const structRows = await d3.tsv('../data/structure/uniprot_structure_references.tsv');
                                 const matches = (structRows || []).filter(r => {
                                     const key = (r.Orthogroup || r.orthogroup || r.OG || '').trim();
                                     return key === og;
@@ -880,7 +880,7 @@
                                 const molLink = document.getElementById('molstar-link');
 
                                 if (!matches || matches.length === 0) {
-                                    if (infoEl) infoEl.innerHTML = '<div class="og-structure-empty"><strong>No predicted structure is available for this OG.</strong><span>No qualifying UniProt match with an AlphaFoldDB model was found in the current dataset. Try another OG or browse the <a href="./genes_linked_to_3d_structures.html">Protein Structures page</a> for other matches.</span><span>If you need a prediction for a specific SAR11 protein, you can submit its sequence to the <a href="https://alphafoldserver.com/" target="_blank" rel="noopener noreferrer">AlphaFold Server</a>.</span></div>';
+                                    if (infoEl) infoEl.innerHTML = '<div class="og-structure-empty"><strong>No structural reference is available for this OG.</strong><span>No qualifying UniProt match with a confirmed AlphaFoldDB model was found in the current dataset.</span><span>If you need a prediction for a specific SAR11 protein, you can submit its sequence to the <a href="https://alphafoldserver.com/" target="_blank" rel="noopener noreferrer">AlphaFold Server</a>.</span></div>';
                                     if (controlsEl) controlsEl.innerHTML = '';
                                     if (molIframe) {
                                         molIframe.src = 'about:blank';
@@ -901,10 +901,19 @@
                                     const acc0 = first.Accession_number || first.Accession || first.accession || '';
                                     const gid0 = first.gene_id || '';
                                     const pid0 = first.pident || '';
+                                    const qcov0 = first.qcovhsp || '';
+                                    const scov0 = first.scovhsp || '';
+                                    const matchType = first.structure_match_type || 'Close sequence match';
                                     const url0 = 'https://molstar.org/viewer/?afdb=' + encodeURIComponent(acc0);
                                     if (molIframe) molIframe.src = url0;
                                     if (molLink) molLink.href = url0;
-                                    if (infoEl) infoEl.innerHTML = `Showing ${matches.length} UniProt match(es). Accession: ${acc0}; linked gene ID: ${gid0}; amino acid identity: ${pid0}%.<br>If the model does not load, an AlphaFoldDB prediction may not be available for ${acc0}. Open the <a href="./genes_linked_to_3d_structures.html">Protein Structures page</a> to inspect other matches.<br><em>Selection rule:</em> A match from strain HTCC1062 is preferred; otherwise, the cultured-strain match with the highest percent identity is shown.`;
+                                    if (infoEl) {
+                                        if (matchType === 'Homologous structure reference') {
+                                            infoEl.innerHTML = `<div class="og-structure-empty"><strong>Homologous structure reference</strong><span>This AlphaFoldDB model belongs to a homologous UniProt protein and is not a structure prediction of the SAR11 protein itself.</span><span>Accession: ${acc0}; linked SAR11 gene: ${gid0}; identity: ${pid0}%; query coverage: ${qcov0}%; subject coverage: ${scov0}%.</span><span>Interpret domain arrangement, insertions, active-site residues, and oligomeric state with caution.</span></div>`;
+                                        } else {
+                                            infoEl.innerHTML = `Showing a close UniProt sequence match with a confirmed AlphaFoldDB model. Accession: ${acc0}; linked SAR11 gene: ${gid0}; identity: ${pid0}%; query coverage: ${qcov0}%; subject coverage: ${scov0}%.`;
+                                        }
+                                    }
 
                                     // Create a Foldseek button (single) that opens search for the displayed accession
                                     const foldBtn = document.createElement('button');

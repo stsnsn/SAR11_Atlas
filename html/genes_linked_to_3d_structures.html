@@ -19,6 +19,279 @@
             opacity: 1 !important;
         }
         #openFoldseek[disabled]:hover { background-color: #e9ecef !important; }
+
+        .structure-overview-grid {
+            display: grid;
+            grid-template-columns: minmax(260px, 0.85fr) minmax(0, 1.8fr);
+            gap: 1.2rem;
+            margin-bottom: 1.35rem;
+        }
+
+        .structure-overview-grid .atlas-section {
+            min-width: 0;
+            margin-bottom: 0;
+        }
+
+        .structure-coverage-card {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .structure-coverage-visual {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1.35rem;
+            padding: 0.45rem 0 0.25rem;
+        }
+
+        .structure-coverage-donut {
+            --close-color: #168f96;
+            --homolog-color: #e69a3a;
+            --missing-color: #d5dde1;
+            position: relative;
+            display: grid;
+            width: min(100%, 250px);
+            aspect-ratio: 1;
+            place-items: center;
+            border-radius: 50%;
+            background: conic-gradient(
+                var(--close-color) 0 36.8%,
+                var(--homolog-color) 36.8% 65.4%,
+                var(--missing-color) 65.4% 100%
+            );
+            box-shadow: inset 0 0 0 1px rgba(11, 61, 87, 0.08);
+        }
+
+        .structure-coverage-donut::before {
+            position: absolute;
+            width: 62%;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background: var(--atlas-surface);
+            box-shadow: 0 0 0 1px var(--atlas-border);
+            content: '';
+        }
+
+        .structure-coverage-center {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: var(--atlas-muted);
+            font-size: 0.74rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .structure-coverage-center strong {
+            color: var(--atlas-ink);
+            font-size: 2rem;
+            line-height: 1.05;
+            letter-spacing: -0.04em;
+        }
+
+        .structure-coverage-center small {
+            margin-top: 0.25rem;
+            font-size: 0.68rem;
+            font-weight: 650;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+
+        .structure-coverage-legend {
+            display: grid;
+            width: 100%;
+            gap: 0.7rem;
+        }
+
+        .structure-coverage-item {
+            display: grid;
+            grid-template-columns: 0.75rem minmax(0, 1fr) auto;
+            align-items: start;
+            gap: 0.55rem;
+            color: var(--atlas-muted);
+            font-size: 0.82rem;
+        }
+
+        .structure-coverage-item strong {
+            color: var(--atlas-ink);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .structure-coverage-swatch {
+            width: 0.75rem;
+            height: 0.75rem;
+            margin-top: 0.18rem;
+            border-radius: 50%;
+        }
+
+        .structure-coverage-label {
+            display: flex;
+            min-width: 0;
+            flex-direction: column;
+            line-height: 1.3;
+        }
+
+        .structure-coverage-label small {
+            margin-top: 0.12rem;
+            color: var(--atlas-muted);
+            font-size: 0.68rem;
+            line-height: 1.35;
+        }
+
+        .structure-coverage-swatch--close { background: #168f96; }
+        .structure-coverage-swatch--homolog { background: #e69a3a; }
+        .structure-coverage-swatch--missing { background: #d5dde1; }
+
+        .structure-viewer-card #molstar-iframe {
+            height: 480px;
+        }
+
+        .structure-suggest-field {
+            position: relative;
+            z-index: 5;
+        }
+
+        .structure-suggest-help {
+            display: block;
+            margin-top: 0.35rem;
+            color: var(--atlas-muted);
+            font-size: 0.7rem;
+            line-height: 1.35;
+        }
+
+        .structure-suggest-list {
+            position: absolute;
+            z-index: 30;
+            top: calc(100% + 0.35rem);
+            right: 0;
+            left: 0;
+            max-height: 340px;
+            margin: 0;
+            padding: 0.35rem;
+            overflow-y: auto;
+            border: 1px solid var(--atlas-border);
+            border-radius: 0.8rem;
+            background: var(--atlas-surface);
+            box-shadow: 0 18px 38px rgba(9, 43, 59, 0.18);
+            list-style: none;
+        }
+
+        .structure-suggest-list[hidden] {
+            display: none;
+        }
+
+        .structure-suggest-option {
+            display: grid;
+            width: 100%;
+            gap: 0.25rem;
+            padding: 0.65rem 0.7rem;
+            border: 0;
+            border-radius: 0.6rem;
+            background: transparent;
+            color: var(--atlas-ink);
+            text-align: left;
+        }
+
+        .structure-suggest-option:hover,
+        .structure-suggest-option.is-active {
+            background: var(--atlas-tint);
+            cursor: pointer;
+        }
+
+        .structure-suggest-primary {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.65rem;
+            font-size: 0.82rem;
+            font-weight: 750;
+        }
+
+        .structure-suggest-secondary {
+            overflow: hidden;
+            color: var(--atlas-muted);
+            font-size: 0.7rem;
+            line-height: 1.4;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .structure-suggest-annotation {
+            overflow: hidden;
+            color: var(--atlas-muted);
+            font-size: 0.65rem;
+            line-height: 1.35;
+            opacity: 0.88;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .structure-suggest-badge {
+            flex: 0 0 auto;
+            padding: 0.18rem 0.42rem;
+            border-radius: 999px;
+            font-size: 0.6rem;
+            font-weight: 750;
+            letter-spacing: 0.025em;
+        }
+
+        .structure-suggest-badge--close {
+            background: rgba(22, 143, 150, 0.14);
+            color: #11777d;
+        }
+
+        .structure-suggest-badge--homolog {
+            background: rgba(230, 154, 58, 0.16);
+            color: #a25c0b;
+        }
+
+        body.dark-mode .structure-coverage-donut {
+            --close-color: #40bdc0;
+            --homolog-color: #f0aa4f;
+            --missing-color: #3d5059;
+        }
+
+        body.dark-mode .structure-coverage-swatch--close { background: #40bdc0; }
+        body.dark-mode .structure-coverage-swatch--homolog { background: #f0aa4f; }
+        body.dark-mode .structure-coverage-swatch--missing { background: #3d5059; }
+        body.dark-mode .structure-suggest-badge--close { color: #68d6d8; }
+        body.dark-mode .structure-suggest-badge--homolog { color: #ffc16f; }
+
+        @media (max-width: 991.98px) {
+            .structure-overview-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .structure-coverage-visual {
+                flex-direction: row;
+            }
+
+            .structure-coverage-donut {
+                width: min(42%, 230px);
+                flex: 0 0 auto;
+            }
+        }
+
+        @media (max-width: 575.98px) {
+            .structure-coverage-visual {
+                flex-direction: column;
+            }
+
+            .structure-coverage-donut {
+                width: min(78%, 230px);
+            }
+
+            .structure-viewer-card #molstar-iframe {
+                height: 440px;
+            }
+        }
     </style>
 </head>
 
@@ -80,28 +353,57 @@
                 </header>
 
                 <div class="atlas-intro">
-                    <p>The table lists 3,660 SAR11 protein matches with confirmed AlphaFoldDB models across 1,711 orthogroups. A match below 100% identity is not sequence-identical to the SAR11 protein.</p>
-                    <p>Search or filter the table by orthogroup, gene, genome, or annotation. Select an accession to open its AlphaFoldDB structure in the viewer below; select an orthogroup to explore related SAR11 information.</p>
-                    <p>Complete sequence-similarity search results against UniProtKB 2026_01 Swiss-Prot and TrEMBL are available from the <a href="./download.html">Download page</a>.</p>
+                    <p>Explore close UniProt sequence matches and homologous AlphaFoldDB structure references covering 2,994 of 4,577 SAR11 orthogroups.</p>
+                    <p>The complete DIAMOND similarity-search results and compact structure-reference tables are provided through the <a href="./download.html">Download page</a>. See the <a href="https://github.com/stsnsn/SAR11_Atlas/wiki/Protein-Structures" target="_blank" rel="noopener noreferrer">Protein Structures Wiki</a> for the mapping workflow and interpretation guidance.</p>
                 </div>
 
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Deep mode</button>
                 <script src="../js/theme.js"></script>
                 <!-- EDITABLE ZONE START -->
-                <section class="atlas-section">
+                <div class="structure-overview-grid">
+                <section class="atlas-section structure-coverage-card">
                     <div class="atlas-section__header">
                         <div>
-                            <p class="atlas-section__kicker">Accession lookup</p>
-                            <h2>SAR11 protein matches in UniProt</h2>
-                            <p>Search and filter the embedded table, then use an accession in the structure viewer below.</p>
+                            <p class="atlas-section__kicker">Structure coverage</p>
+                            <h2>Orthogroup coverage</h2>
+                            <p>Close matches are preferred; homologous references fill OGs without a close match.</p>
                         </div>
                     </div>
-                    <a class="atlas-section__link" href="./pure_uniprot.html" target="_blank">Open the match table in full screen</a>
-                    <iframe src="./pure_uniprot.html" id="OGs" class="atlas-content-frame" data-theme-sync title="SAR11 protein to UniProt matches" allowfullscreen allow="autoplay"></iframe>
-<p class="atlas-note atlas-note--muted"><strong>How this table was prepared:</strong> All 542-genome protein sequences were searched against UniProtKB release 2026_01 with DIAMOND v2.1.10.164. Hits with at least 85% sequence identity were retained, and up to the five highest-ranking hits per orthogroup were screened against the AlphaFold DB prediction API. The table therefore lists, at most, the top five hits for each orthogroup when a predicted structure was available.</p>
+                    <div class="structure-coverage-visual">
+                        <div class="structure-coverage-donut" role="img" aria-label="Structure-reference coverage: 36.8% close sequence matches, 28.6% additional homologous references, and 34.6% without a qualifying reference.">
+                            <div class="structure-coverage-center">
+                                <strong>65.4%</strong>
+                                covered
+                                <small>2,994 / 4,577 OGs</small>
+                            </div>
+                        </div>
+                        <div class="structure-coverage-legend" aria-label="Structure coverage legend">
+                            <div class="structure-coverage-item">
+                                <span class="structure-coverage-swatch structure-coverage-swatch--close"></span>
+                                <span class="structure-coverage-label">
+                                    <span>Close sequence match</span>
+                                    <small>Identity ≥85%; query and subject coverage ≥80%</small>
+                                </span>
+                                <strong>36.8%</strong>
+                            </div>
+                            <div class="structure-coverage-item">
+                                <span class="structure-coverage-swatch structure-coverage-swatch--homolog"></span>
+                                <span class="structure-coverage-label">
+                                    <span>Homologous reference</span>
+                                    <small>Identity ≥30%; query and subject coverage ≥80%; E-value ≤1e-5</small>
+                                </span>
+                                <strong>28.6%</strong>
+                            </div>
+                            <div class="structure-coverage-item">
+                                <span class="structure-coverage-swatch structure-coverage-swatch--missing"></span>
+                                <span>No qualifying reference</span>
+                                <strong>34.6%</strong>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
-                <section class="atlas-section">
+                <section class="atlas-section structure-viewer-card">
                     <div class="atlas-section__header">
                         <div>
                             <p class="atlas-section__kicker">3D inspection</p>
@@ -111,9 +413,11 @@
                     </div>
                     <div class="atlas-control-panel">
                         <div class="atlas-search-row">
-                            <div class="atlas-search-field">
+                            <div class="atlas-search-field structure-suggest-field">
                                 <label for="afdb-input">UniProt accession</label>
-                                <input type="text" id="afdb-input" placeholder="e.g. D0RN70">
+                                <input type="text" id="afdb-input" placeholder="Search accession, OG ID, or gene name" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="structure-suggest-list" aria-expanded="false">
+                                <small id="structure-suggest-help" class="structure-suggest-help">Search by accession, OG ID, gene name, SAR11 gene ID, genome, KO ID, or COG ID.</small>
+                                <ul id="structure-suggest-list" class="structure-suggest-list" role="listbox" hidden></ul>
                             </div>
                             <button class="atlas-action-button" id="updateProteinBtn" type="button" onclick="updateIframeSrc()">Update structure</button>
                             <button class="atlas-secondary-button" id="openFoldseek" type="button" onclick="openFoldseek()" disabled>Open Foldseek</button>
@@ -221,9 +525,236 @@
                         } catch (e) { }
                     });
                 })();
+
+                (function setupStructureSuggestions() {
+                    const input = document.getElementById('afdb-input');
+                    const list = document.getElementById('structure-suggest-list');
+                    const help = document.getElementById('structure-suggest-help');
+                    if (!input || !list || !help) return;
+
+                    const defaultHelp = help.textContent;
+                    let records = null;
+                    let loadPromise = null;
+                    let visibleMatches = [];
+                    let activeIndex = -1;
+                    let searchTimer = null;
+
+                    function closeSuggestions() {
+                        list.hidden = true;
+                        list.replaceChildren();
+                        input.setAttribute('aria-expanded', 'false');
+                        input.removeAttribute('aria-activedescendant');
+                        visibleMatches = [];
+                        activeIndex = -1;
+                    }
+
+                    function parseTsv(text) {
+                        const lines = text.trim().split(/\r?\n/);
+                        const headers = lines.shift().split('\t');
+                        return lines.map(function(line) {
+                            const values = line.split('\t');
+                            const row = {};
+                            headers.forEach(function(header, index) {
+                                row[header] = values[index] || '';
+                            });
+                            row.searchText = [
+                                row.accession, row.orthogroup, row.gene_name, row.cog_gene,
+                                row.ko_name, row.pfam_names, row.gene_id, row.genome,
+                                row.ko_id, row.cog_id
+                            ].join(' ').toLowerCase();
+                            return row;
+                        });
+                    }
+
+                    function loadSuggestions() {
+                        if (records) return Promise.resolve(records);
+                        if (loadPromise) return loadPromise;
+                        help.textContent = 'Loading structure-reference suggestions…';
+                        loadPromise = fetch('../data/structure/uniprot_structure_suggest.tsv')
+                            .then(function(response) {
+                                if (!response.ok) throw new Error('HTTP ' + response.status);
+                                return response.text();
+                            })
+                            .then(function(text) {
+                                records = parseTsv(text);
+                                help.textContent = defaultHelp;
+                                return records;
+                            })
+                            .catch(function(error) {
+                                console.warn('Structure suggestions could not be loaded', error);
+                                help.textContent = 'Suggestions are unavailable; enter a UniProt accession directly.';
+                                loadPromise = null;
+                                return [];
+                            });
+                        return loadPromise;
+                    }
+
+                    function matchScore(row, query) {
+                        const accession = row.accession.toLowerCase();
+                        const orthogroup = row.orthogroup.toLowerCase();
+                        const geneName = row.gene_name.toLowerCase();
+                        if (accession === query) return 0;
+                        if (accession.startsWith(query)) return 1;
+                        if (orthogroup === query) return 2;
+                        if (orthogroup.startsWith(query)) return 3;
+                        if (geneName === query) return 4;
+                        if (geneName.startsWith(query)) return 5;
+                        return 10;
+                    }
+
+                    function renderSuggestions(query) {
+                        const normalized = query.trim().toLowerCase();
+                        if (!records || normalized.length < 2) {
+                            closeSuggestions();
+                            return;
+                        }
+                        const terms = normalized.split(/\s+/).filter(Boolean);
+                        visibleMatches = records
+                            .filter(function(row) {
+                                return terms.every(function(term) { return row.searchText.includes(term); });
+                            })
+                            .map(function(row) {
+                                return { row: row, score: matchScore(row, normalized) };
+                            })
+                            .sort(function(a, b) {
+                                if (a.score !== b.score) return a.score - b.score;
+                                const aClose = a.row.match_type === 'Close sequence match' ? 0 : 1;
+                                const bClose = b.row.match_type === 'Close sequence match' ? 0 : 1;
+                                if (aClose !== bClose) return aClose - bClose;
+                                return Number(b.row.pident || 0) - Number(a.row.pident || 0);
+                            })
+                            .slice(0, 8)
+                            .map(function(item) { return item.row; });
+
+                        list.replaceChildren();
+                        activeIndex = -1;
+                        if (!visibleMatches.length) {
+                            closeSuggestions();
+                            help.textContent = 'No matching structure reference. Try another OG, gene, or annotation.';
+                            return;
+                        }
+                        help.textContent = defaultHelp;
+
+                        visibleMatches.forEach(function(row, index) {
+                            const item = document.createElement('li');
+                            const button = document.createElement('button');
+                            const primary = document.createElement('span');
+                            const accession = document.createElement('span');
+                            const badge = document.createElement('span');
+                            const secondary = document.createElement('span');
+                            const annotation = document.createElement('span');
+
+                            item.setAttribute('role', 'none');
+                            button.type = 'button';
+                            button.id = 'structure-suggest-option-' + index;
+                            button.className = 'structure-suggest-option';
+                            button.setAttribute('role', 'option');
+                            button.setAttribute('aria-selected', 'false');
+                            primary.className = 'structure-suggest-primary';
+                            accession.textContent = row.accession;
+                            badge.className = 'structure-suggest-badge ' + (
+                                row.match_type === 'Close sequence match'
+                                    ? 'structure-suggest-badge--close'
+                                    : 'structure-suggest-badge--homolog'
+                            );
+                            badge.textContent = row.match_type === 'Close sequence match'
+                                ? 'Close match'
+                                : 'Homologous ref';
+                            secondary.className = 'structure-suggest-secondary';
+                            secondary.textContent = [
+                                row.orthogroup,
+                                row.gene_name || row.cog_gene || row.gene_id,
+                                row.ko_id || row.cog_id,
+                                row.pident ? row.pident + '% identity' : ''
+                            ].filter(Boolean).join(' · ');
+                            annotation.className = 'structure-suggest-annotation';
+                            annotation.textContent = [
+                                row.ko_name ? 'KO: ' + row.ko_name : '',
+                                row.pfam_names ? 'Pfam: ' + row.pfam_names : ''
+                            ].filter(Boolean).join(' · ');
+
+                            primary.append(accession, badge);
+                            button.append(primary, secondary);
+                            if (annotation.textContent) button.append(annotation);
+                            button.addEventListener('mousedown', function(event) {
+                                event.preventDefault();
+                            });
+                            button.addEventListener('click', function() {
+                                selectSuggestion(row);
+                            });
+                            item.append(button);
+                            list.append(item);
+                        });
+                        list.hidden = false;
+                        input.setAttribute('aria-expanded', 'true');
+                    }
+
+                    function selectSuggestion(row) {
+                        input.value = row.accession;
+                        closeSuggestions();
+                        help.textContent = row.orthogroup + ' · ' + row.match_type;
+                        updateIframeSrc();
+                    }
+
+                    function setActive(index) {
+                        const options = Array.from(list.querySelectorAll('.structure-suggest-option'));
+                        if (!options.length) return;
+                        activeIndex = (index + options.length) % options.length;
+                        options.forEach(function(option, optionIndex) {
+                            const active = optionIndex === activeIndex;
+                            option.classList.toggle('is-active', active);
+                            option.setAttribute('aria-selected', active ? 'true' : 'false');
+                        });
+                        input.setAttribute('aria-activedescendant', options[activeIndex].id);
+                        options[activeIndex].scrollIntoView({ block: 'nearest' });
+                    }
+
+                    input.addEventListener('focus', function() {
+                        loadSuggestions().then(function() {
+                            if (input.value.trim().length >= 2) renderSuggestions(input.value);
+                        });
+                    });
+                    input.addEventListener('input', function() {
+                        window.clearTimeout(searchTimer);
+                        searchTimer = window.setTimeout(function() {
+                            loadSuggestions().then(function() { renderSuggestions(input.value); });
+                        }, 90);
+                    });
+                    input.addEventListener('keydown', function(event) {
+                        if (event.key === 'ArrowDown' && !list.hidden) {
+                            event.preventDefault();
+                            setActive(activeIndex + 1);
+                        } else if (event.key === 'ArrowUp' && !list.hidden) {
+                            event.preventDefault();
+                            setActive(activeIndex - 1);
+                        } else if (event.key === 'Enter' && activeIndex >= 0) {
+                            event.preventDefault();
+                            selectSuggestion(visibleMatches[activeIndex]);
+                        } else if (event.key === 'Escape') {
+                            closeSuggestions();
+                        }
+                    });
+                    document.addEventListener('click', function(event) {
+                        if (!event.target.closest('.structure-suggest-field')) closeSuggestions();
+                    });
+                })();
                 </script>
 
                     <p class="atlas-note"><strong>Data note:</strong> UniProtKB/TrEMBL applies proteome redundancy reduction, so some previously registered sequences may have been removed. If a structure is unavailable, check UniParc for historical sequence records.</p>
+                </section>
+                </div>
+
+                <section class="atlas-section">
+                    <div class="atlas-section__header">
+                        <div>
+                            <p class="atlas-section__kicker">Accession lookup</p>
+                            <h2>SAR11 protein matches in UniProt</h2>
+                            <p>Search by orthogroup, gene, genome, accession, or annotation. Select an accession to load its AlphaFoldDB model above.</p>
+                        </div>
+                    </div>
+                    <a class="atlas-section__link" href="./pure_uniprot.html" target="_blank">Open the match table in full screen</a>
+                    <iframe src="./pure_uniprot.html" id="OGs" class="atlas-content-frame" data-theme-sync title="SAR11 protein to UniProt matches" allowfullscreen allow="autoplay"></iframe>
+                    <p class="atlas-note atlas-note--muted"><strong>Reference tiers:</strong> Close matches require identity ≥85% with query and subject coverage ≥80%. Homologous references require identity ≥30%, query and subject coverage ≥80%, and E-value ≤1e-5. A homologous reference is not a structure prediction of the SAR11 protein itself. <a href="https://github.com/stsnsn/SAR11_Atlas/wiki/Protein-Structures" target="_blank" rel="noopener noreferrer">Read the full methodology</a>.</p>
                 </section>
 
                 <!-- EDITABLE ZONE END -->

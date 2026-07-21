@@ -50,15 +50,17 @@ The full protein-coding gene annotation resource is a separate, larger table for
 
 ## UniProt And AlphaFoldDB Results
 
-All SAR11 proteins were searched against UniProtKB release 2026_01 Swiss-Prot and TrEMBL with DIAMOND v2.1.10.164 using a minimum amino-acid identity of 85% and `--max-target-seqs 1`. Candidates for the AlphaFoldDB-linked web table were additionally required to cover at least 70% of both query and subject sequences.
+All SAR11 proteins were searched against UniProtKB release 2026_01 Swiss-Prot and TrEMBL with DIAMOND v2.1.10.164 using a minimum amino-acid identity of 85% and `--max-target-seqs 1`. Candidates for the AlphaFoldDB-linked web table were additionally required to cover at least 80% of both query and subject sequences.
 
 - `uniprot_pid85_gene_hits.tsv` contains 226,536 matched SAR11 proteins across 1,912 orthogroups.
 - `uniprot_pid85_og_representative_hits.tsv` contains one representative UniProt hit for each of those 1,912 orthogroups.
-- `uniprot_pid85_afdb_matches.tsv` contains 3,660 confirmed AlphaFoldDB-linked matches across 1,711 orthogroups and is the compact table used by the Protein Structures page.
+- `uniprot_pid85_afdb_matches.tsv` contains 3,622 close sequence matches with confirmed AlphaFoldDB models across 1,686 orthogroups.
+- `uniprot_pid30_homologous_afdb_matches.tsv` contains 11,051 confirmed homologous structure references across 2,993 orthogroups after applying at least 30% identity, at least 80% query and subject coverage, and an E-value no greater than 1e-5.
+- `uniprot_structure_references.tsv` is the downloadable compact Web table containing 8,057 AlphaFoldDB structure references. It retains close matches where available and uses homologous references only for the 1,308 additional orthogroups without a close match, covering 2,994 orthogroups in total.
 
 A UniProt hit is a sequence-similarity result, not proof that every orthogroup member has the same sequence or structure. Use identity, coverage, domain annotations, and AlphaFold confidence together when interpreting a match.
 
-A broader DIAMOND search using a minimum identity of 30% and `--max-target-seqs 10` is being prepared as a separate Zenodo release. It uses a different search configuration from the compact high-similarity tables above and is not yet served directly by the atlas.
+A broader DIAMOND search using a minimum identity of 30% and `--max-target-seqs 10` was filtered at 80% query coverage, 80% subject coverage, and an E-value of 1e-5. For the combined structure-reference table, close matches require identity ≥85% and both coverage values ≥80%; homologous references require identity ≥30%, both coverage values ≥80%, and E-value ≤1e-5. The 30%-identity and 80%-coverage combination follows a sequence-similarity criterion used in [Seq2Symm](https://www.nature.com/articles/s41467-025-57148-3). The complete 8,300,702-row filtered table is being prepared as a 190 MB compressed Zenodo release; the compact AFDB-confirmed tables are available directly from the atlas.
 
 ## Network And Expression Resources
 

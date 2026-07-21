@@ -19,9 +19,12 @@ The remaining work is primarily release packaging and final quality assurance ra
 - [x] Packaged the core OrthoFinder assignments and statistics as `SAR11_Orthogroup_Assignments_542.tar.gz`.
 - [x] Added the rooted 542-tip bac120 IQ-TREE phylogeny, two alternative FastTree phylogenies, and the archive of 3,411 resolved OrthoFinder gene trees.
 - [x] Updated the 542-genome neighboring-gene files, operon viewer, directed neighboring network, CORGIAS network, and CORGIAS result table.
-- [x] Downloaded and checksum-verified UniProtKB release `2026_01`, extracted Swiss-Prot and TrEMBL sequences, and searched all 675,669 proteins with DIAMOND v2.1.10.164 at a minimum of 85% identity with one top hit per query.
+- [x] Downloaded and checksum-verified UniProtKB release `2026_01`, extracted Swiss-Prot and TrEMBL sequences, and searched all 675,669 proteins with DIAMOND v2.1.10.164 using the documented high-similarity configuration (`--id 85 --max-target-seqs 1`).
 - [x] Generated `uniprot_pid85_gene_hits.tsv`, `uniprot_pid85_og_representative_hits.tsv`, and `uniprot_pid85_afdb_matches.tsv`. The structure table contains up to five checked candidates per OG and retains all candidates with confirmed models.
 - [x] Updated Protein Structures, OG Information Viewer, Download, and the associated Wiki pages for the UniProtKB/AlphaFoldDB workflow and no-hit handling.
+- [x] Added a lazy-loaded structure-reference suggestion index for accession, OG, gene, genome, KO, and COG lookup with visible close-match and homologous-reference labels.
+- [x] Merged the Swiss-Prot and TrEMBL `--id 30 --max-target-seqs 10` searches, applied 80% query and subject coverage plus E-value 1e-5 filters, and generated the 8,300,702-row compressed release table.
+- [x] Checked 13,633 candidate accessions against AlphaFoldDB, standardized both structure-reference tiers at 80% query and subject coverage, and added homolog-only fallback structures for 1,308 OGs. The combined Web table now covers 2,994 OGs.
 - [x] Completed FastANI v1.34 all-vs-all computation and retained `data/phylogeny/fastani_SAR11_542.out`.
 - [x] Generated and validated the symmetric 542 x 542 ANI matrix, retained the directional raw output with fragment counts, and added both files to the Download page and Download Wiki.
 - [x] Completed CompareM v0.1.2 AAI computation and retained `data/phylogeny/comparem_aaiwf_SAR11_542_out_summary.tsv`.
@@ -35,7 +38,7 @@ The remaining work is primarily release packaging and final quality assurance ra
 ## Remaining Release Work
 
 - [ ] Add a release README or methods record containing the UniProtKB `2026_01` archive checksum, download date, DIAMOND command and database-build command, query/subject coverage policy, and result-selection rules. The Web pages already record the principal version and thresholds, but the complete reproducibility record is not yet packaged.
-- [ ] Publish the broader UniProtKB/TrEMBL similarity-search result generated with DIAMOND using `--id 30 --max-target-seqs 10` on Zenodo, then replace its Coming soon Download card with the versioned archive link and file size. Keep this search configuration distinct from the current high-similarity `--id 85 --max-target-seqs 1` dataset.
+- [ ] Publish `uniprot_pid30_cov80_filtered_hits.tsv.gz` (190 MB) on Zenodo and add its versioned URL to the partly available Download card. Keep this search configuration distinct from the high-similarity `--id 85 --max-target-seqs 1` dataset.
 - [ ] Decide whether a 95% ANI dereplicated representative set is needed as a separate analysis. It is no longer a required Download-page card; if restored, document it as technical dereplication rather than formal SAR11 species classification.
 - [ ] Prepare versioned external archives for the 542 FNA, FAA, and GFF collections.
 - [ ] Publish `all_prot_annotations.tsv`, including OG, COGclassifier, KofamScan, PfamScan, and quickARSC results, through the external repository.

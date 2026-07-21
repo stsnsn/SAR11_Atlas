@@ -32,11 +32,11 @@ The map displays the metatranscriptomic Expression Score of the selected orthogr
 
 ## Protein Structure
 
-The structure panel uses the current OG representative UniProt match table generated from the 542-genome protein collection. The displayed accession is loaded into Mol*, and **Open Foldseek** starts a structural-homology search for that AlphaFoldDB model.
+The structure panel uses the AFDB-confirmed structure-reference table generated from the 542-genome protein collection. It prioritizes close sequence matches. If an OG has no close match, a homologous reference meeting the 30% identity, 80% query coverage, 80% subject coverage, and E-value 1e-5 criteria is displayed when available. The accession is loaded into Mol*, and **Open Foldseek** starts a structural-homology search for that AlphaFoldDB model.
 
 Protein sequences were searched against UniProtKB release 2026_01 with DIAMOND v2.1.10.164. Hits with at least 85% amino-acid identity were retained, and the highest-ranking hit was saved for each query protein. A UniProt match below 100% identity is not sequence-identical to the SAR11 protein.
 
-If no representative hit is available, the viewer hides the empty Mol* frame and explains that no predicted structure is available in the current dataset. The message links to the [Protein Structures](Protein-Structures) page and suggests AlphaFold Server when a new prediction for a specific SAR11 protein is needed. A matched accession can still lack an AlphaFoldDB model; use the structure-focused page to inspect confirmed alternatives.
+When a homologous reference is used, the viewer warns that the model belongs to a homologous UniProt protein and is not a prediction of the SAR11 protein itself. If no confirmed reference is available, the viewer hides the empty Mol* frame and suggests AlphaFold Server when a new prediction for a specific SAR11 protein is needed.
 
 ## Related Pages
 

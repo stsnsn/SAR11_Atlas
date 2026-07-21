@@ -183,17 +183,22 @@
                         <article class="atlas-download-card atlas-download-card--available">
                             <span class="atlas-status-badge">Available</span>
                             <h3>High-similarity UniProt matches</h3>
-                            <p>High-similarity protein matches for all 542 genomes, generated against UniProtKB release 2026_01 with DIAMOND v2.1.10.164 using a minimum identity of 85% and <code>--max-target-seqs 1</code>. Gene-level and orthogroup-level summary tables are provided.</p>
+                            <p>High-similarity protein matches for all 542 genomes, generated against UniProtKB release 2026_01 with DIAMOND v2.1.10.164 using a minimum identity of 85% and <code>--max-target-seqs 1</code>. The AlphaFoldDB-linked subset additionally requires at least 80% query and subject coverage. Gene-level and orthogroup-level summary tables are provided.</p>
                             <div class="atlas-download-links">
                                 <a href="../data/structure/uniprot_pid85_gene_hits.tsv" download="uniprot_pid85_gene_hits.tsv">Complete gene-level hit table <span class="atlas-download-size">40 MB</span></a>
                                 <a href="../data/structure/uniprot_pid85_og_representative_hits.tsv" download="uniprot_pid85_og_representative_hits.tsv">OG representative hit table <span class="atlas-download-size">141 KB</span></a>
-                                <a href="../data/structure/uniprot_pid85_afdb_matches.tsv" download="uniprot_pid85_afdb_matches.tsv">AlphaFold DB-linked match table <span class="atlas-download-size">581 KB</span></a>
+                                <a href="../data/structure/uniprot_pid85_afdb_matches.tsv" download="uniprot_pid85_afdb_matches.tsv">AlphaFold DB-linked match table <span class="atlas-download-size">556 KB</span></a>
                             </div>
                         </article>
-                        <article class="atlas-download-card">
-                            <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>
+                        <article class="atlas-download-card atlas-download-card--available">
+                            <span class="atlas-status-badge">Partly available</span>
                             <h3>Broad UniProt similarity-search results</h3>
-                            <p>A broader search of all SAR11 proteins against UniProtKB release 2026_01, generated with DIAMOND using a minimum identity of 30% and <code>--max-target-seqs 10</code>. The complete result will be released through Zenodo.</p>
+                            <p>A broader search against UniProtKB release 2026_01 was generated with DIAMOND using <code>--max-target-seqs 10</code>. In the combined structure-reference table, close matches require identity ≥85% with query and subject coverage ≥80%; homologous references require identity ≥30%, query and subject coverage ≥80%, and E-value ≤1e-5. The table contains the 8,057 AlphaFoldDB structure references used by the Web interface across 2,994 orthogroups. The complete filtered DIAMOND result will be released through Zenodo.</p>
+                            <div class="atlas-download-links">
+                                <a href="../data/structure/uniprot_pid30_homologous_afdb_matches.tsv" download="uniprot_pid30_homologous_afdb_matches.tsv">AFDB-confirmed homologous references <span class="atlas-download-size">1.6 MB</span></a>
+                                <a href="../data/structure/uniprot_structure_references.tsv" download="uniprot_structure_references.tsv">Combined AlphaFoldDB structure-reference table (8,057 references; 2,994 OGs) <span class="atlas-download-size">1.3 MB</span></a>
+                                <span class="atlas-download-unavailable">uniprot_pid30_cov80_filtered_hits.tsv.gz <span class="atlas-download-size">190 MB · Zenodo link coming soon</span></span>
+                            </div>
                         </article>
                         <article class="atlas-download-card">
                             <span class="atlas-status-badge atlas-status-badge--pending">Coming soon</span>

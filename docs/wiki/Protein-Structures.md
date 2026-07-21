@@ -1,25 +1,50 @@
 # Protein Structures
 
-The Protein Structures page links proteins from the complete 542-genome SAR11 collection to UniProt accessions with confirmed AlphaFoldDB predictions. The web table contains 3,660 protein matches across 1,711 orthogroups.
+The Protein Structures page links proteins from the complete 542-genome SAR11 collection to UniProt accessions with confirmed AlphaFoldDB predictions. The combined web table contains 8,057 structure references across 2,994 orthogroups.
 
-All 675,669 SAR11 protein sequences were searched against UniProtKB release 2026_01 Swiss-Prot and TrEMBL with DIAMOND v2.1.10.164. Hits with at least 85% amino-acid identity were retained. For the structure-focused web table, candidates were further required to cover at least 70% of both the SAR11 query and UniProt subject. Up to the five highest-ranking candidates per orthogroup were checked with the AlphaFoldDB prediction API, and the web table retains those for which a model was available.
+The upper panel places an orthogroup-coverage summary beside the Mol* structure viewer. The searchable reference table is shown below them, so coverage, structure inspection, and accession lookup can be followed in that order.
+
+## Orthogroup Coverage
+
+- **Close sequence matches:** 1,686/4,577 OGs (36.8%).
+- **Additional homologous structure references:** 1,308/4,577 OGs (28.6%).
+- **No qualifying structure reference:** 1,583/4,577 OGs (34.6%).
+- **Total covered:** 2,994/4,577 OGs (65.4%).
+
+The close-match rows comprise 3,622 protein-to-UniProt links. The homolog-only OGs contribute another 4,435 displayed references. The categories are mutually exclusive because homologous references are used only when an OG has no close match.
+
+## Mapping Workflow
+
+All 675,669 SAR11 protein sequences were searched separately against the Swiss-Prot and TrEMBL sections of UniProtKB release 2026_01 with DIAMOND v2.1.10.164.
+
+1. The close-match search used `--id 85 --max-target-seqs 1`. AFDB-confirmed hits were required to have at least 80% query and subject coverage before being used as preferred structure references.
+2. The broader searches used `--id 30 --max-target-seqs 10`. Swiss-Prot and TrEMBL results were merged and duplicate gene-accession pairs were resolved by retaining the strongest result.
+3. Broader-search hits were required to have at least 30% identity, at least 80% query coverage, at least 80% subject coverage, and an E-value no greater than 1e-5.
+4. Hits were joined to the 542-genome protein annotation table by protein ID to add orthogroup, genome, KO, and COG fields.
+5. Within each orthogroup, unique UniProt accessions were ranked by identity, minimum bidirectional coverage, query coverage, subject coverage, bitscore, and E-value. Up to five candidates were retained.
+6. Candidate accessions were checked against the AlphaFoldDB prediction API. Only accessions with a confirmed model were retained.
+7. The final Web table uses close matches wherever available. AFDB-confirmed homologous references are added only for OGs without a close match.
+
+These identity, coverage, and E-value thresholds are the operational cutoffs used to select structure references. The 30%-identity and 80%-coverage combination follows a sequence-similarity criterion used in [Seq2Symm](https://www.nature.com/articles/s41467-025-57148-3). Passing the cutoffs does not prove structural identity or conserved function.
 
 ## Find A Protein Match
 
 Use the searchable table to locate a SAR11 protein, gene, genome, orthogroup, annotation, or UniProt accession. The table reports sequence identity and coverage information together with KO and COG annotations where available. A `pident` value below 100% means that the SAR11 protein and UniProt sequence are not identical.
 
-Select an accession to open the same page with that model loaded in the viewer below. Select an orthogroup to open its integrated [OG Information Viewer](OG-Information-Viewer). Use **Full screen view** when a larger table is needed.
+Select an accession to reload the page with that model in the structure viewer above. Select an orthogroup to open its integrated [OG Information Viewer](OG-Information-Viewer). Use **Open the match table in full screen** when a larger table is needed.
 
 ## View And Compare A Structure
 
-Enter a UniProt accession and press **Update structure**. The page checks the AlphaFoldDB prediction API; if a model exists, it is displayed with Mol* and the **Open Foldseek** button becomes available.
+The accession field provides lightweight suggestions after it is focused. Search by UniProt accession, OG ID, COG-derived gene name, KO name, Pfam name, SAR11 gene ID, genome, KO ID, or COG ID. Each suggestion identifies the reference as either a **Close match** or **Homologous ref**; selecting it loads the accession in Mol*.
+
+You can also enter a UniProt accession directly and press **Update structure**. The page checks the AlphaFoldDB prediction API; if a model exists, it is displayed with Mol* and the **Open Foldseek** button becomes available.
 
 - Use **Open Mol* in full screen** for a larger interactive structure display.
 - Use **Open Foldseek** to search for structurally similar proteins.
 
 ## Interpretation Notes
 
-The web table includes only accessions confirmed through the AlphaFoldDB API when it was prepared. The complete UniProt similarity-search archive contains additional matches that may not have a predicted structure. A matched structure represents the UniProt sequence and is not necessarily identical to every protein in the corresponding orthogroup.
+The web table includes only accessions confirmed through the AlphaFoldDB API when it was prepared. The complete UniProt similarity-search archive contains additional matches that may not have a predicted structure. Every displayed model represents its UniProt sequence. In particular, a homologous structure reference is not a prediction of the linked SAR11 protein itself; differences in domains, insertions, active-site geometry, and oligomeric state remain possible.
 
 UniProtKB/TrEMBL redundancy reduction can remove or merge records that were present in an earlier release. If an accession no longer resolves, UniParc can be used to look for its historical sequence record. Complete gene-level and OG-representative UniProtKB 2026_01 search results are available from the [Download](Download) page.
 
