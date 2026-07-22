@@ -90,7 +90,11 @@
 
     function initializeEmbedStates() {
         document.querySelectorAll("iframe.atlas-content-frame, iframe.atlas-embed-frame, iframe.og-embed-frame").forEach((frame) => {
-            if (frame.dataset.embedStateInitialized === "true" || frame.getAttribute("src") === "about:blank") return;
+            if (
+                frame.dataset.embedStateInitialized === "true" ||
+                frame.hasAttribute("data-no-embed-status") ||
+                frame.getAttribute("src") === "about:blank"
+            ) return;
 
             frame.dataset.embedStateInitialized = "true";
             frame.setAttribute("aria-busy", "true");
