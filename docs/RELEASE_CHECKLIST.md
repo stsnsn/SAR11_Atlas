@@ -35,6 +35,7 @@ The remaining work is primarily release packaging and final quality assurance ra
 - [x] Removed Google Analytics, consent code, and the Privacy Policy after deciding not to collect access statistics.
 - [x] Added mobile sidebar navigation and standardized Deep/Shallow theme behavior, network dark backgrounds, tables, controls, focus states, and responsive layout.
 - [x] Corrected corrupted non-ASCII author names in 98 literature records by matching their PMIDs to PubMed; no author-field underscores remain.
+- [x] Removed offline data-preparation code from the GitHub Pages `scripts/` directory and organized the retained ANI, metatranscriptome, and UniProt/AlphaFoldDB workflows under `SAR11_Gene_Catalog_analysis/reproducibility_scripts/` for inclusion in the final Zenodo reproducibility package. The obsolete UniProt rebuild step was folded into the finalization workflow.
 
 ## Remaining Release Work
 

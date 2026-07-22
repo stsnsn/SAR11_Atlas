@@ -78,7 +78,7 @@ The directly available network files are the complete edge tables used by the Ne
 
 `comparem_aaiwf_SAR11_542_out_summary.tsv` is the all-vs-all amino-acid identity summary generated with CompareM v0.1.2 `aai_wf` from the predicted proteins of the same 542 genomes. It reports the protein-coding gene counts for each genome, number of detected orthologs, mean and standard deviation of AAI, and orthologous fraction for each genome pair.
 
-The ANI and AAI files are comparative-genome measurements and are not presented as a formal SAR11 species classification. The ANI matrix can be regenerated with `scripts/build_fastani_matrix.R`.
+The ANI and AAI files are comparative-genome measurements and are not presented as a formal SAR11 species classification. The ANI matrix can be regenerated with `build_fastani_matrix.R` from the accompanying reproducibility-script package.
 
 ## External Archives Still Pending
 
