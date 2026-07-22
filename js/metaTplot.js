@@ -137,10 +137,31 @@ const MapPrintPlugin = L.easyPrint({
     // Use a single custom fixed-size mode matching the current map pixels
     sizeModes: [{ height: _mapSize.height, width: _mapSize.width, name: 'Map Size', className: 'MapSize page' }],
     filename: 'SAR11_metaT_Map',
-    // エクスポート時は Leaflet の操作UIを画像から除外する
-    // これでズームボタンや easyPrint ボタンが出力に混ざらない
-    hideControlContainer: true,
+    // Keep the legend and map attribution in the exported image.
+    hideControlContainer: false,
 }).addTo(map);
+
+// easyPrint can only hide the complete Leaflet control container. Hide only
+// interactive controls so the Expression Score legend remains in the image.
+let exportHiddenControls = [];
+map.on('easyPrint-start', () => {
+    exportHiddenControls = [];
+    map.getContainer().querySelectorAll('.leaflet-control').forEach((control) => {
+        const keepInExport = control.classList.contains('legend') ||
+            control.classList.contains('leaflet-control-attribution');
+        if (keepInExport) return;
+
+        exportHiddenControls.push({ control, display: control.style.display });
+        control.style.display = 'none';
+    });
+});
+
+map.on('easyPrint-finished', () => {
+    exportHiddenControls.forEach(({ control, display }) => {
+        control.style.display = display;
+    });
+    exportHiddenControls = [];
+});
 
 
 // 地図の円を更新する関数
