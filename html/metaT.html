@@ -219,7 +219,6 @@
                         <div class="atlas-custom-plot__controls">
                             <label for="userParameterSelect">Additional parameter</label>
                             <select id="userParameterSelect">
-                                <option value="lower.size.fraction">Lower size fraction</option>
                                 <option value="upper.size.fraction">Upper size fraction</option>
                                 <option value="Latitude">Latitude</option>
                                 <option value="Longitude">Longitude</option>
@@ -227,27 +226,21 @@
                                 <option value="Temperature">Temperature</option>
                                 <option value="Oxygen">Oxygen</option>
                                 <option value="ChlorophyllA">Chlorophyll A</option>
-                                <option value="Carbon.total">Total carbon</option>
                                 <option value="Salinity">Salinity</option>
                                 <option value="Gradient.Surface.temp(SST)">Surface temperature gradient</option>
-                                <option value="Fluorescence">Fluorescence</option>
-                                <option value="CO3">CO3</option>
-                                <option value="HCO3">HCO3</option>
-                                <option value="Density">Density</option>
                                 <option value="PO4">PO4</option>
                                 <option value="PAR.PC">PAR</option>
                                 <option value="NO3">NO3</option>
                                 <option value="Si">Si</option>
-                                <option value="Alkalinity.total">Total alkalinity</option>
-                                <option value="Ammonium.5m">Ammonium (5 m)</option>
+                                <option value="Ammonium.5m">Modeled ammonium (5 m)</option>
                                 <option value="Depth.Mixed.Layer">Mixed-layer depth</option>
                                 <option value="Lyapunov">Lyapunov exponent</option>
                                 <option value="NO2">NO2</option>
                                 <option value="Depth.Min.O2">Minimum-O2 depth</option>
-                                <option value="NO2NO3">NO2/NO3</option>
+                                <option value="NO2NO3">Nitrate + nitrite</option>
                                 <option value="Nitracline">Nitracline depth</option>
                                 <option value="Brunt.V_is_l_">Brunt-Vaisala frequency</option>
-                                <option value="Iron.5m">Iron (5 m)</option>
+                                <option value="Iron.5m">Modeled iron (5 m)</option>
                                 <option value="Depth.Max.O2">Maximum-O2 depth</option>
                                 <option value="Okubo.Weiss">Okubo-Weiss parameter</option>
                                 <option value="Residence.time">Residence time</option>
@@ -255,7 +248,7 @@
                                 <option value="fCDOM">fCDOM</option>
                             </select>
                             <button id="updateUserPlot" class="atlas-secondary-button" type="button">Draw plot</button>
-                            <small class="atlas-form-hint">Only continuous numeric metadata are available for plotting. Station, layer, region, date, and identifier fields remain in the downloadable metadata table.</small>
+                            <small class="atlas-form-hint">Only continuous numeric metadata are available for plotting. Known-invalid carbonate-context fields and redundant variables are excluded; all original fields remain in the downloadable metadata table.</small>
                         </div>
                         <div id="userPlot" class="atlas-plot-frame"></div>
                     </div>

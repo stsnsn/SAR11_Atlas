@@ -384,6 +384,9 @@ function buildPairedArrays(rows, xKey, yKey) {
     rows.forEach(row => {
         const xValue = parseFloat(typeof xKey === 'function' ? xKey(row) : row[xKey]);
         const yValue = parseFloat(typeof yKey === 'function' ? yKey(row) : row[yKey]);
+        // Negative calibrated chlorophyll signals are background-correction
+        // artifacts, not biologically meaningful concentrations.
+        if (xKey === 'ChlorophyllA' && xValue < 0) return;
         if (!isNaN(xValue) && !isNaN(yValue)) {
             xs.push(xValue);
             ys.push(yValue);
