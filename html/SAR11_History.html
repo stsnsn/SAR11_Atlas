@@ -92,14 +92,36 @@
                             download: true,
                             delimiter: "\t", // TSVの場合
                             header: true, // ヘッダー行を利用
+                            skipEmptyLines: "greedy",
                             complete: function (result) {
-                                const data = result.data; // データ部分
-                                const headers = Object.keys(data[0]); // ヘッダー部分
+                                const expectedHeaders = [
+                                    "PMID",
+                                    "Title",
+                                    "FirstAuthor",
+                                    "LastAuthor",
+                                    "Journal",
+                                    "PubDate",
+                                    "doi",
+                                    "CitationCount",
+                                    "AccessedDate"
+                                ];
+                                const availableHeaders = new Set(result.meta.fields || []);
+                                const headers = expectedHeaders.filter(header => availableHeaders.has(header));
+                                const data = (result.data || []).filter(row =>
+                                    headers.some(header => String(row[header] ?? "").trim() !== "")
+                                );
+
+                                const escapeHtml = value => String(value ?? "")
+                                    .replaceAll("&", "&amp;")
+                                    .replaceAll("<", "&lt;")
+                                    .replaceAll(">", "&gt;")
+                                    .replaceAll('"', "&quot;")
+                                    .replaceAll("'", "&#039;");
 
                                 // ヘッダー行を生成
                                 let headerHtml = "";
                                 headers.forEach(header => {
-                                    headerHtml += `<th>${header}</th>`;
+                                    headerHtml += `<th>${escapeHtml(header)}</th>`;
                                 });
                                 $("#table thead tr").html(headerHtml);
 
@@ -108,7 +130,7 @@
                                 data.forEach(row => {
                                     bodyHtml += "<tr>";
                                     headers.forEach(header => {
-                                        bodyHtml += `<td>${row[header]}</td>`;
+                                        bodyHtml += `<td>${escapeHtml(row[header])}</td>`;
                                     });
                                     bodyHtml += "</tr>";
                                 });
