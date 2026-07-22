@@ -197,8 +197,8 @@
                                 </select>
                             </div>
                             <div class="atlas-search-field">
-                                <label for="cladeFilter">Clade</label>
-                                <select id="cladeFilter"><option value="all">All clades</option></select>
+                                <label for="cladeFilter">Family-level lineage</label>
+                                <select id="cladeFilter"><option value="all">All family-level lineages</option></select>
                             </div>
                             <div class="atlas-search-field">
                                 <label for="subcladeFilter">Subclade</label>
@@ -305,6 +305,11 @@
                         return value && value !== 'NA' ? value : null;
                     }
 
+                    function familyLevelLineage(row) {
+                        return validMetadataValue(row.Family) ||
+                            (row.Clade1 === 'IV' ? 'Family unassigned (Clade IV)' : 'Family unassigned');
+                    }
+
                     function replaceFilterOptions(select, values, allLabel) {
                         const previous = select.value;
                         select.innerHTML = '';
@@ -320,12 +325,12 @@
                         const metadataRows = Array.from(genomeMetadata.values()).filter(row =>
                             row.Clade1 !== 'outgroup' && (type === 'all' || row.type === type)
                         );
-                        const clades = Array.from(new Set(metadataRows.map(row => validMetadataValue(row.Clade1)).filter(Boolean))).sort();
-                        replaceFilterOptions(cladeSelect, clades, 'All clades');
+                        const families = Array.from(new Set(metadataRows.map(familyLevelLineage))).sort();
+                        replaceFilterOptions(cladeSelect, families, 'All family-level lineages');
 
-                        const clade = cladeSelect.value;
+                        const family = cladeSelect.value;
                         const subclades = Array.from(new Set(metadataRows
-                            .filter(row => clade === 'all' || row.Clade1 === clade)
+                            .filter(row => family === 'all' || familyLevelLineage(row) === family)
                             .map(row => validMetadataValue(row.Subclade))
                             .filter(Boolean))).sort();
                         replaceFilterOptions(subcladeSelect, subclades, 'All subclades');
@@ -333,13 +338,13 @@
 
                     function filterOperonRows(rows) {
                         const type = document.getElementById('genomeTypeFilter').value;
-                        const clade = document.getElementById('cladeFilter').value;
+                        const family = document.getElementById('cladeFilter').value;
                         const subclade = document.getElementById('subcladeFilter').value;
                         return rows.filter(row => {
                             const metadata = genomeMetadata.get(row.genome);
                             if (!metadata) return false;
                             return (type === 'all' || metadata.type === type) &&
-                                (clade === 'all' || metadata.Clade1 === clade) &&
+                                (family === 'all' || familyLevelLineage(metadata) === family) &&
                                 (subclade === 'all' || metadata.Subclade === subclade);
                         });
                     }

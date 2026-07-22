@@ -14,6 +14,7 @@ The remaining work is primarily release packaging and final quality assurance ra
 
 - [x] Updated the collection to 542 SAR11 genomes, with 20 additional alphaproteobacterial outgroups retained in the complete genome metadata table.
 - [x] Updated genome metadata, Taxonium metadata, genome tables, sampling-location views, and freshwater/nonmarine Longhurst handling.
+- [x] Packaged `SAR11_Atlas_542_CheckM2_v1.0.2_quality_report.tsv` and verified that its genome identifiers match the 542-genome release exactly, with no missing or additional genomes.
 - [x] Updated the OrthoFinder 3 dataset to 4,577 orthogroups and 675,669 proteins; 670,693 proteins are assigned to orthogroups and 4,976 are unassigned.
 - [x] Generated and installed the compact OG annotation summary and KO, COG, and Pfam count tables used by the Web charts.
 - [x] Packaged the core OrthoFinder assignments and statistics as `SAR11_Orthogroup_Assignments_542.tar.gz`.
@@ -37,6 +38,7 @@ The remaining work is primarily release packaging and final quality assurance ra
 
 ## Remaining Release Work
 
+- [ ] Incorporate the phylogeny and genome-selection notes below into the revised manuscript. Keep the distinction between the observed topology, historical clade labels, and current family-level assignments explicit.
 - [ ] Add a release README or methods record containing the UniProtKB `2026_01` archive checksum, download date, DIAMOND command and database-build command, query/subject coverage policy, and result-selection rules. The Web pages already record the principal version and thresholds, but the complete reproducibility record is not yet packaged.
 - [ ] Publish `uniprot_pid30_cov80_filtered_hits.tsv.gz` (190 MB) on Zenodo and add its versioned URL to the partly available Download card. Keep this search configuration distinct from the high-similarity `--id 85 --max-target-seqs 1` dataset.
 - [ ] Decide whether a 95% ANI dereplicated representative set is needed as a separate analysis. It is no longer a required Download-page card; if restored, document it as technical dereplication rather than formal SAR11 species classification.
@@ -48,6 +50,38 @@ The remaining work is primarily release packaging and final quality assurance ra
 - [ ] Confirm that the core OrthoFinder assignment archive and resolved gene-tree archive are also copied to the chosen long-term repository, even though local downloads currently work.
 - [ ] Review the three species-phylogeny downloads and finalize their order by scientific importance and recommended use. Clearly distinguish the primary rooted bac120 IQ-TREE result from the alternative SAR11_165 and bac120 FastTree results.
 - [ ] Recalculate every file-size badge and verify the literature-table displayed date after all release files and external URLs are frozen.
+
+## Manuscript Revision Notes: Ic Sampling And Family-Level Lineages
+
+### Results
+
+- Do not state that Ic itself is non-monophyletic without a separate test. In both current species trees, the three included Ic.2 genomes (`AG-414-E02`, `ARS1`, and `MED605`) form the lineage whose placement next to Clade II makes the historical broad Clade I grouping non-monophyletic/paraphyletic.
+- Report this as a result concerning the placement of the sampled Ic.2 lineage and the non-monophyly of historical Clade I, not as a rejection of Mesopelagibacteraceae.
+- Explain that this topology does not inherently conflict with the family-level name **Mesopelagibacteraceae**. The atlas now uses family-level lineages for broad display while retaining historical Ia/Ib/Ic and related labels for continuity with earlier literature.
+- Report the marker-set comparison: the bac120 FastTree and SAR11_165 FastTree recover the same family-level backbone, and Pelagibacteraceae, Cosmipelagibacteraceae, Mesopelagibacteraceae, Allofontibacteraceae, and the family-unassigned SAR11 lineage are monophyletic in both trees. Fine-scale relationships are more marker-dependent, particularly within Pelagibacteraceae (normalized unrooted RF distance 0.575 within that family; global normalized unrooted RF distance 0.539).
+- Emphasize the reproducible placement of Mesopelagibacteraceae as sister to Cosmipelagibacteraceae in both FastTree analyses. The relevant FastTree SH-like local support is 1.000 in the SAR11_165 tree and 0.991 in the bac120 tree. Do not describe these default FastTree values as conventional bootstrap support.
+- Treat comparison with Freel et al. (2026) cautiously because the Ic genome sampling differs. Freel included five Ic SAGs: `AG-414-E02`, `AAA240-E13`, `AAA288-E13`, `AAA288-G21`, and `AAA288-N07`; the current atlas shares only `AG-414-E02` with that set and additionally includes `ARS1` and `MED605`.
+- State the sampling limitation: the current 542-genome phylogeny does not contain the four Thrash et al. (2014) Ic genomes and therefore does not directly reproduce Freel's test of the broader historical Ic lineage.
+
+### Methods
+
+- For the binary habitat annotation in Figure 1, classify records with `habitat_type == "marine"` or `habitat_type == "brackish_coastal"` as **Marine** and all remaining SAR11 records as **Others**. Note in the figure legend or Methods that Marine includes coastal seawater strains such as `IMCC9063`; this isolate was obtained from coastal surface seawater near Ny-Alesund in Kongsfjorden, although it has also been described as brackish- or mesohaline-adapted.
+
+- State that genome inclusion was based on completeness and contamination reassessed consistently with the current CheckM2 workflow, rather than accepting completeness values reported by the original genome publications or later compilations without re-evaluation.
+- Record CheckM2 v1.0.2, its model/workflow, the atlas thresholds of completeness >85% and contamination <10%, the command, and the quality-report date before submission. Preserve the strict boundary operators because SAGs estimated at exactly 85.0% completeness were excluded.
+- Explain that the four Thrash et al. (2014) Ic SAGs were not retained because their current CheckM2 completeness estimates did not exceed the atlas completeness threshold of 85%. Preserve the source-reported values separately rather than presenting them as the values used for atlas selection.
+- Document the lineage-scope filter separately from the CheckM2 filter: GTDB-Tk can classify historical Clade V genomes within Pelagibacterales, but Clade V was excluded from the SAR11 Atlas collection. Do not describe `order == Pelagibacterales` alone as the complete inclusion rule.
+- Document that MAGs were not admitted automatically when they passed CheckM2. MAG inclusion was restricted to the explicitly curated lineage representatives used by the atlas, including the documented OMZ exception; other qualifying MAGs were excluded.
+- Include the concrete discrepancy for auditability: `AAA240-E13` is reported as 93.8% complete in the Freel supplementary table but was estimated by the atlas CheckM2 run as 82.63% complete with 3.16% contamination (`Neural Network (Specific Model)`). Add the corresponding current CheckM2 values for `AAA288-E13`, `AAA288-G21`, and `AAA288-N07` from the final frozen quality report.
+- Clarify any documented exceptions to the general quality rule and confirm that none of these four Thrash Ic SAGs qualified for an exception.
+
+### Discussion And Figure Labels
+
+- Use **family-level lineage** as the primary broad grouping in phylogenetic rings, Web filters, figure legends, and narrative summaries: Pelagibacteraceae (Ia/Ib), Mesopelagibacteraceae (Ic), Cosmipelagibacteraceae (II), Allofontibacteraceae (III), and family-unassigned Clade IV.
+- Add a paired supplementary phylogeny figure comparing the bac120 FastTree and SAR11_165 FastTree. Use identical tip order, Family colors, and a restricted view centered on Mesopelagibacteraceae, Cosmipelagibacteraceae, and their neighboring family-level lineages; label SH-like local support at the Mesopelagibacteraceae-Cosmipelagibacteraceae split (0.991 and 1.000, respectively). State that the full-tree comparison supports the same family-level backbone while fine-scale within-family topology varies between marker sets.
+- [x] Generated the paired reduced-family supplementary figure, reproducible R script, support summary, and interpretation memo under `SAR11_Gene_Catalog_analysis/fig1_phylogeny/supp_fasttree_family_comparison/`. The plotting workflow roots both 562-tip trees with the same 20 outgroups, removes the outgroups, preserves MRCA branch-length positions, expands the three Mesopelagibacteraceae genomes, and collapses the other monophyletic families for legibility.
+- Retain `Clade1`, `Clade2`, and subclade labels in released metadata as historical labels, but avoid visually combining Ia/Ib/Ic into a single apparently monophyletic Clade I ring.
+- Mention that differences between source-reported and CheckM2-reassessed completeness can alter lineage representation, particularly for sparsely sampled groups such as Ic, and therefore constrain topological comparisons across studies.
 
 ## Final Quality Assurance
 

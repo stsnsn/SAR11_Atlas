@@ -304,8 +304,10 @@
                         return {
                             title: {
                                 text: title,
-                                x: 0.04,
-                                xanchor: 'left',
+                                x: 0.5,
+                                xanchor: 'center',
+                                y: 0.98,
+                                yanchor: 'top',
                                 font: { color: theme.title, size: 15 }
                             },
                             paper_bgcolor: 'rgba(0,0,0,0)',
@@ -780,7 +782,7 @@
                                         }
                                     }];
                                     const layout = Object.assign(ogChartBaseLayout('Pfam-specific counts'), {
-                                        margin: { t: 40, l: 60, r: 10, b: 140 },
+                                        margin: { t: 58, l: 92, r: 18, b: 140 },
                                         bargap: 0.24,
                                         xaxis: {
                                             tickangle: -45,
@@ -790,7 +792,11 @@
                                             showgrid: false
                                         },
                                         yaxis: {
-                                            title: 'Specific Pfam domain count',
+                                            title: {
+                                                text: 'Specific Pfam domain count',
+                                                standoff: 14
+                                            },
+                                            automargin: true,
                                             color: chartTheme.text,
                                             gridcolor: chartTheme.grid,
                                             linecolor: chartTheme.axis,

@@ -35,6 +35,8 @@ Use the tree controls to:
 - Change tip color coding with the **Color by:** menu.
 - Click or hover over tree tips to view genome metadata.
 
+The tree is initially colored by **Family**, which is used as the atlas's broad family-level lineage display. Historical `Clade1`, `Clade2`, and subclade labels remain in the metadata for continuity with earlier SAR11 studies, but the historical Clade I grouping is not used as the primary higher-level grouping. Clade IV is retained as a family-unassigned lineage.
+
 The tree file and associated metadata are available from the [Download](Download) page.
 
 ## SAR11 Genome Information Table

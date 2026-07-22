@@ -12,12 +12,18 @@ if (ogInputEl && !ogInputEl.value.trim()) {
 let lastCorrelationData = null;
 let lastUserPlotData = null;
 let lastUserParameter = null;
+let userPlotRequestId = 0;
 
 // Reset the user plot
 const resetUserPlot = () => {
-    // Clear the plot by removing the existing graph
     const userPlotDiv = document.getElementById('userPlot');
-    userPlotDiv.innerHTML = ''; // This removes the current plot
+    // Plotly keeps state on the graph div. Removing only its children leaves a
+    // stale graph object that can make the next Plotly.react() render blank.
+    if (userPlotDiv) {
+        try { Plotly.purge(userPlotDiv); } catch (error) { /* plot may not exist yet */ }
+        userPlotDiv.replaceChildren();
+    }
+    userPlotRequestId += 1; // Ignore any response started for the previous OG.
     lastUserPlotData = null;
     lastUserParameter = null;
 };
@@ -586,16 +592,23 @@ document.getElementById('updateUserPlot').addEventListener('click', () => {
     }
 
     const ogId = document.getElementById('ogInput').value.trim();
+    if (!ogId) {
+        alert('Please enter an OG ID.');
+        return;
+    }
+    const requestId = ++userPlotRequestId;
     const csvFilePath = `../data/env_corr_542/${ogId}.csv?ts=${Date.now()}`;
     Papa.parse(csvFilePath, {
         download: true,
         header: true,
         complete: function(results) {
+            if (requestId !== userPlotRequestId) return;
             lastUserPlotData = mergeExpressionMetadata(results.data || []);
             lastUserParameter = userParam;
             renderUserCorrelationPlot(lastUserPlotData, lastUserParameter);
         },
         error: function() {
+            if (requestId !== userPlotRequestId) return;
             alert('Invalid OG ID. Please enter a valid OG ID');
         }
     });

@@ -6,7 +6,7 @@ The Download page is the entry point for reusable files underlying the SAR11 Gen
 
 The following resources can currently be downloaded directly:
 
-- **Genome metadata**: `subclade_master.tsv` contains the complete metadata for 542 SAR11 genomes and 20 phylogenetic outgroups.
+- **Genome metadata and quality estimates**: `subclade_master.tsv` contains the complete metadata for 542 SAR11 genomes and 20 phylogenetic outgroups. `SAR11_Atlas_542_CheckM2_v1.0.2_quality_report.tsv` contains the CheckM2 quality estimates for the 542 released SAR11 genomes.
 - **Orthogroup assignments and statistics**: `SAR11_Orthogroup_Assignments_542.tar.gz` contains the core OrthoFinder 3 assignment, count, overlap, hierarchical-orthogroup, species-tree, and run-information files.
 - **Orthogroup annotations and chart data**: `og_suggest.tsv` contains representative annotations for all 4,577 orthogroups. The KO and COG count tables drive the pie charts, and the Pfam count table drives the bar chart in the OG Information Viewer.
 - **Resolved orthogroup gene trees**: `Resolved_Gene_Trees.txt.tar.gz` contains 3,411 resolved gene trees.
@@ -27,6 +27,8 @@ The Download cards show the file size next to each available resource. OG-specif
 - `subclade_cat.tsv` emphasizes categorical metadata for Taxonium coloring.
 
 All three forms contain 542 SAR11 genomes and 20 phylogenetic outgroups. Marine Longhurst codes and descriptions are retained where applicable. Freshwater and other nonmarine records keep Longhurst fields as `NA` and are represented through habitat and waterbody fields instead. Use `subclade_master.tsv` unless a web-component-specific input is required.
+
+`SAR11_Atlas_542_CheckM2_v1.0.2_quality_report.tsv` contains CheckM2 v1.0.2 completeness and contamination estimates for exactly the 542 SAR11 genomes in the release; the 20 phylogenetic outgroups are not included. Genome selection used strict thresholds of completeness >85% and contamination <10%, with the documented cultured-strain exception `HIMB2304` and OMZ genome exception `ETNP2013_S02_SV82_300m_MAG_01` retained by design.
 
 ## Orthogroup Assignments And Trees
 
