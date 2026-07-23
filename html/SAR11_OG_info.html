@@ -911,7 +911,7 @@
                                     const qcov0 = first.qcovhsp || '';
                                     const scov0 = first.scovhsp || '';
                                     const matchType = first.structure_match_type || 'Close sequence match';
-                                    const url0 = 'https://molstar.org/viewer/?afdb=' + encodeURIComponent(acc0);
+                                    const url0 = 'https://molstar.org/viewer/?afdb=' + encodeURIComponent(acc0) + '&hide-controls=1';
                                     if (molIframe) molIframe.src = url0;
                                     if (molLink) molLink.href = url0;
                                     if (infoEl) {

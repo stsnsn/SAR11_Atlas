@@ -54,6 +54,14 @@ The remaining work is primarily release packaging and final quality assurance ra
 
 ## Manuscript Revision Notes: Ic Sampling And Family-Level Lineages
 
+### FAIR Resource Framing
+
+- Describe the SAR11 Genome Atlas conservatively as a resource **developed and released in accordance with the FAIR principles**. Do not claim formal FAIR+COPE compliance or certification.
+- Support the FAIR statement with the original FAIR principles citation: Wilkinson et al. (2016), *The FAIR Guiding Principles for scientific data management and stewardship*, Scientific Data 3, 160018, https://doi.org/10.1038/sdata.2016.18.
+- Cite Wood-Charlson et al. (2026), *Advancing FAIR data towards comparable, organized, predictive AI-ready data for community validation*, Communications Biology 9, 983, https://doi.org/10.1038/s42003-026-10694-y, only if the Introduction or Discussion explicitly mentions FAIR+COPE or the further development of FAIR resources into comparable, organized, predictive, and community-evaluated datasets.
+- Suggested manuscript wording: "The SAR11 Genome Atlas was developed in accordance with the FAIR principles by providing findable, openly accessible, interoperable, and reusable genome-scale data together with versioned metadata, analysis outputs, and documented provenance."
+- Before using this wording in the final manuscript, publish the Zenodo record with a persistent DOI, state the applicable data and code licenses, retain version and provenance records, and verify that every cited release file is openly accessible.
+
 ### Results
 
 - Do not state that Ic itself is non-monophyletic without a separate test. In both current species trees, the three included Ic.2 genomes (`AG-414-E02`, `ARS1`, and `MED605`) form the lineage whose placement next to Clade II makes the historical broad Clade I grouping non-monophyletic/paraphyletic.

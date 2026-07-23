@@ -150,7 +150,7 @@
         .structure-coverage-swatch--missing { background: #d5dde1; }
 
         .structure-viewer-card #molstar-iframe {
-            height: 480px;
+            height: clamp(560px, 68vh, 760px);
         }
 
         .structure-suggest-field {
@@ -289,7 +289,7 @@
             }
 
             .structure-viewer-card #molstar-iframe {
-                height: 440px;
+                height: 520px;
             }
         }
     </style>
@@ -423,32 +423,37 @@
                             <button class="atlas-secondary-button" id="openFoldseek" type="button" onclick="openFoldseek()" disabled>Open Foldseek</button>
                         </div>
                     </div>
-                    <a class="atlas-section__link" href="#" id="molstar-link" target="_blank" rel="noopener">Open Mol* in full screen</a>
-                    <iframe src="https://molstar.org/viewer/?afdb=D0RN70" id="molstar-iframe" class="atlas-content-frame" title="Molstar protein structure viewer" allowfullscreen allow="autoplay"></iframe>
+                    <a class="atlas-section__link" href="https://molstar.org/viewer/?afdb=D0RN70&amp;hide-controls=1" id="molstar-link" target="_blank" rel="noopener">Open Mol* in full screen</a>
+                    <iframe src="https://molstar.org/viewer/?afdb=D0RN70&amp;hide-controls=1" id="molstar-iframe" class="atlas-content-frame" title="Molstar protein structure viewer" allowfullscreen allow="autoplay"></iframe>
 
                 <!-- JavaScript部分 -->
                 <script>
+                function buildMolstarUrl(afdbCode) {
+                    return 'https://molstar.org/viewer/?afdb=' + encodeURIComponent(afdbCode) + '&hide-controls=1';
+                }
+
                 async function updateIframeSrc() {
-                    var afdbCode = document.getElementById('afdb-input').value;
+                    var afdbCode = document.getElementById('afdb-input').value.trim();
                     var molstarLink = document.getElementById('molstar-link');
                     var molstarIframe = document.getElementById('molstar-iframe');
                     var foldBtn = document.getElementById('openFoldseek');
-
-                    // Update Molstar viewer link and iframe regardless
-                    try {
-                        molstarLink.href = 'https://molstar.org/viewer/?afdb=' + afdbCode;
-                        molstarIframe.src = 'https://molstar.org/viewer/?afdb=' + afdbCode;
-                    } catch (e) { /* ignore */ }
 
                     // 初期: 無効化してから API チェックを行う
                     try { if (foldBtn) foldBtn.disabled = true; } catch (e) { }
 
                     // 入力が空ならチェックしない（無効のまま）
-                    if (!afdbCode || !afdbCode.trim()) return;
+                    if (!afdbCode) return;
+
+                    // Keep Mol* focused on the structure by hiding its side controls initially.
+                    try {
+                        var viewerUrl = buildMolstarUrl(afdbCode);
+                        molstarLink.href = viewerUrl;
+                        molstarIframe.src = viewerUrl;
+                    } catch (e) { /* ignore */ }
 
                     // AlphaFold API を問い合わせて構造が存在するかを確認する
                     // 参考: https://alphafold.ebi.ac.uk/api/prediction/{UniProtID}
-                    const apiUrl = 'https://alphafold.ebi.ac.uk/api/prediction/' + encodeURIComponent(afdbCode.trim());
+                    const apiUrl = 'https://alphafold.ebi.ac.uk/api/prediction/' + encodeURIComponent(afdbCode);
                     try {
                         const resp = await fetch(apiUrl, { method: 'GET' });
                         // レスポンスがエラーJSONを返す場合（例: Invalid identifier format）や 404 は構造なし扱い

@@ -39,6 +39,7 @@ The accession field provides lightweight suggestions after it is focused. Search
 
 You can also enter a UniProt accession directly and press **Update structure**. The page checks the AlphaFoldDB prediction API; if a model exists, it is displayed with Mol* and the **Open Foldseek** button becomes available.
 
+- Mol* opens in a focused structure view with its side controls collapsed. Use the wrench icon in the upper-right corner of Mol* when the full control interface is needed.
 - Use **Open Mol* in full screen** for a larger interactive structure display.
 - Use **Open Foldseek** to search for structurally similar proteins.
 
