@@ -4,9 +4,9 @@
 
 The 542-genome update is functionally complete for genome metadata, orthogroups and annotations, species and gene trees, neighboring-gene views, neighboring and CORGIAS networks, UniProt/AlphaFoldDB links, and the Metatranscriptome Viewer. The broad responsive UI, Deep/Shallow theme, mobile navigation, table styling, and documentation update are also complete. Browser-based visual confirmation remains with the project owner.
 
-The remaining work is primarily release packaging and final quality assurance rather than rebuilding the Web views. Resume in this order:
+The remaining work is primarily Zenodo publication and final quality assurance rather than rebuilding the Web views. Resume in this order:
 
-1. Package and publish the large external datasets, then replace every Coming soon entry with a versioned Zenodo or Figshare URL.
+1. Publish the prepared Zenodo record reserved as DOI `10.5281/zenodo.21468730`, then verify every public file URL.
 2. Freeze the reproducibility metadata for UniProt, OrthoFinder, FastANI, CompareM, CORGIAS, and metatranscriptome processing.
 3. Replace temporary `stsnsn/public_data` URLs, recalculate download sizes, and perform the final browser and link checks.
 
@@ -36,21 +36,25 @@ The remaining work is primarily release packaging and final quality assurance ra
 - [x] Added mobile sidebar navigation and standardized Deep/Shallow theme behavior, network dark backgrounds, tables, controls, focus states, and responsive layout.
 - [x] Corrected corrupted non-ASCII author names in 98 literature records by matching their PMIDs to PubMed; no author-field underscores remain.
 - [x] Removed offline data-preparation code from the GitHub Pages `scripts/` directory and organized the retained ANI, metatranscriptome, and UniProt/AlphaFoldDB workflows under `SAR11_Gene_Catalog_analysis/reproducibility_scripts/` for inclusion in the final Zenodo reproducibility package. The obsolete UniProt rebuild step was folded into the finalization workflow.
+- [x] Uploaded the large release datasets and updated README to the Zenodo draft reserved as DOI `10.5281/zenodo.21468730`.
+- [x] Uploaded `SAR11_Gene_Catalog_analysis_2026-07-23.tar.gz` (12.98 MB; MD5 `697e89d6f0ed43193db65b2537abc0aa`) with plotting, case-study, supplementary-table, and reproducibility workflows, including the retained Jupyter-generated phylogeny HTML.
+- [x] Removed stale Coming soon wording and updated the Download Wiki for the FNA/FAA/GFF, complete annotation, HMM, CORGIAS, gene-coordinate, UniProt, and metatranscriptome releases.
+- [x] Verified that every repository-hosted Download-page file exists and that its displayed binary file-size badge matches the local file.
 
 ## Remaining Release Work
 
 - [ ] Incorporate the phylogeny and genome-selection notes below into the revised manuscript. Keep the distinction between the observed topology, historical clade labels, and current family-level assignments explicit.
 - [ ] Add a release README or methods record containing the UniProtKB `2026_01` archive checksum, download date, DIAMOND command and database-build command, query/subject coverage policy, and result-selection rules. The Web pages already record the principal version and thresholds, but the complete reproducibility record is not yet packaged.
-- [ ] Publish `uniprot_pid30_cov80_filtered_hits.tsv.gz` (190 MB) on Zenodo and add its versioned URL to the partly available Download card. Keep this search configuration distinct from the high-similarity `--id 85 --max-target-seqs 1` dataset.
+- [x] Uploaded `uniprot_pid30_cov80_filtered_hits.tsv.gz` (199.50 MB) to Zenodo and added its file link to the Download card. This search configuration remains distinct from the high-similarity `--id 85 --max-target-seqs 1` dataset.
 - [ ] Decide whether a 95% ANI dereplicated representative set is needed as a separate analysis. It is no longer a required Download-page card; if restored, document it as technical dereplication rather than formal SAR11 species classification.
-- [ ] Prepare versioned external archives for the 542 FNA, FAA, and GFF collections.
-- [ ] Publish `all_prot_annotations.tsv`, including OG, COGclassifier, KofamScan, PfamScan, and quickARSC results, through the external repository.
-- [ ] Publish the combined `SAR11_Orthogroups_4577.hmm.tar.gz` archive and explain that individual profiles can be extracted with `hmmfetch`.
-- [ ] Publish `gene_coordinates_with_og.tsv` and the complete `CORGIAS_result.csv` through the external repository.
-- [ ] Publish the full metatranscriptome mapping outputs and OG-level Expression Score release tables; the Web-ready `env_corr_542` files are complete, but the large archival dataset is not linked from the Download page.
+- [x] Uploaded versioned FNA, FAA, and GFF archives for the 542-genome collection to Zenodo.
+- [x] Uploaded `all_prot_annotations.tsv`, including OG, COGclassifier, KofamScan, PfamScan, and quickARSC results, to Zenodo.
+- [x] Uploaded `SAR11_Orthogroups_4577.hmm.tar.gz` and documented extraction of individual profiles with `hmmfetch`.
+- [x] Uploaded `gene_coordinates_with_og.tsv` and the complete `corgias_result.csv` to Zenodo.
+- [x] Published `SAR11_merged_metaT.tsv.gz`, the gene-level quantification table for 509 Tara Oceans metatranscriptomic runs, through Zenodo and linked the 6.59 GB archive from the Download page. OG-level Expression Scores remain reproducible by joining protein identifiers to OG assignments and summing TPM by sample and orthogroup.
 - [ ] Confirm that the core OrthoFinder assignment archive and resolved gene-tree archive are also copied to the chosen long-term repository, even though local downloads currently work.
 - [ ] Review the three species-phylogeny downloads and finalize their order by scientific importance and recommended use. Clearly distinguish the primary rooted bac120 IQ-TREE result from the alternative SAR11_165 and bac120 FastTree results.
-- [ ] Recalculate every file-size badge and verify the literature-table displayed date after all release files and external URLs are frozen.
+- [ ] After Zenodo publication, confirm the displayed external sizes against the public record and verify the literature-table displayed date. Repository-hosted sizes have already been checked.
 
 ## Manuscript Revision Notes: Ic Sampling And Family-Level Lineages
 
@@ -99,8 +103,9 @@ The remaining work is primarily release packaging and final quality assurance ra
 ## Final Quality Assurance
 
 - [ ] Replace all temporary public-data URLs listed below with `stsnsn/SAR11_Atlas` URLs and confirm HTTP 200 responses.
+- [ ] At the same publication switch, replace the legacy `https://stsnsn.github.io/SAR11_Gene_Catalog/` canonical URLs in the HTML files with the final `https://stsnsn.github.io/SAR11_Atlas/` URL.
 - [ ] Test the Genome Information and OG Information Taxonium views and the full Cosmograph neighboring network after the URL replacement.
-- [ ] Check every Download-page link, external archive name, displayed size, status badge, and update date.
+- [ ] After Zenodo publication, check every Download-page link, external archive name, displayed size, status badge, and update date. Local file existence and sizes are already verified; the reserved DOI and public records API returned HTTP 404 while the record remained a draft on 2026-07-23.
 - [ ] Confirm that no Google Analytics, consent, private URL, API key, credential, local filesystem URL, or unpublished server path remains in public HTML, JavaScript, CSS, or documentation.
 - [ ] Perform owner-led Chrome, Safari, and mobile checks for navigation, Deep/Shallow switching, fixed table headers, network labels/backgrounds, Plotly interactions, Mol* loading, downloads, and horizontal overflow.
 - [ ] Remove release-only clutter such as `.DS_Store` files and confirm that large analysis intermediates intended for Zenodo are not accidentally committed to the GitHub Pages repository.

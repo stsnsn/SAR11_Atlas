@@ -1,20 +1,25 @@
 # Download
 
-The Download page is the entry point for reusable files underlying the SAR11 Genome Atlas. Compact web-facing files are served directly from the atlas repository, while larger sequence, annotation, HMM, and analysis archives are listed with their current external-release status.
+The Download page is the entry point for reusable files underlying the SAR11 Genome Atlas. Compact web-facing files are served directly from the atlas repository, while larger sequence, annotation, HMM, and analysis archives are distributed through the versioned [Zenodo dataset](https://doi.org/10.5281/zenodo.21468730). Download links identify Zenodo-hosted files next to their displayed size.
 
 ## Available Atlas Datasets
 
 The following resources can currently be downloaded directly:
 
 - **Genome metadata and quality estimates**: `subclade_master.tsv` contains the complete metadata for 542 SAR11 genomes and 20 phylogenetic outgroups. `SAR11_Atlas_542_CheckM2_v1.0.2_quality_report.tsv` contains the CheckM2 quality estimates for the 542 released SAR11 genomes.
+- **Genome and protein files**: versioned FNA, FAA, and GFF archives contain assemblies, predicted proteins, and annotations for all 542 SAR11 genomes.
+- **Full protein-level annotations**: `all_prot_annotations.tsv` contains orthogroup assignments, COGclassifier, KOfamScan, PfamScan, quickARSC, and related fields for all 675,669 predicted proteins.
 - **Orthogroup assignments and statistics**: `SAR11_Orthogroup_Assignments_542.tar.gz` contains the core OrthoFinder 3 assignment, count, overlap, hierarchical-orthogroup, species-tree, and run-information files.
 - **Orthogroup annotations and chart data**: `og_suggest.tsv` contains representative annotations for all 4,577 orthogroups. The KO and COG count tables drive the pie charts, and the Pfam count table drives the bar chart in the OG Information Viewer.
+- **Orthogroup HMM profiles**: `SAR11_Orthogroups_4577.hmm.tar.gz` contains the combined profile-HMM library for all 4,577 orthogroups.
 - **Resolved orthogroup gene trees**: `Resolved_Gene_Trees.txt.tar.gz` contains 3,411 resolved gene trees.
 - **Species phylogenies**: the rooted bac120 IQ-TREE phylogeny and alternative FastTree phylogenies inferred from bac120 and SAR11_165 marker sets.
 - **All-vs-all ANI and AAI results**: the directional FastANI v1.34 output, a symmetric 542-genome ANI matrix, and the CompareM v0.1.2 pairwise AAI summary.
 - **Neighboring-gene network**: `neighbor_network.tsv` is the directed edge table used by the Neighboring Network page.
 - **CORGIAS network**: `corgias_network.tsv` contains the significant phylogenetically informed OG associations used by the network and result table.
 - **High-similarity UniProt matches**: gene-level, OG-representative, and AlphaFoldDB-confirmed match tables generated against UniProtKB release 2026_01 at a minimum of 85% identity.
+- **Broader UniProt similarity results**: `uniprot_pid30_cov80_filtered_hits.tsv.gz` contains the filtered 30%-identity search results used to identify homologous structure references.
+- **Tara Oceans metatranscriptomic quantification**: `SAR11_merged_metaT.tsv.gz` contains the gene-level quantification table for 509 runs used to derive OG Expression Scores.
 - **SAR11 literature table**: `250729_SAR11_paper_list.tsv`, updated on 2025-07-29, contains the publication metadata displayed on the Literature page.
 
 The Download cards show the file size next to each available resource. OG-specific neighborhood tables are downloaded separately from the [Neighboring Genes](Neighboring-Genes) page.
@@ -36,7 +41,7 @@ The OrthoFinder archive includes `Orthogroups.tsv`, `Orthogroups.GeneCount.tsv`,
 
 The resolved gene-tree archive contains trees for the 3,411 orthogroups with at least four protein sequences. In the OrthoFinder 3 default workflow, amino-acid sequences were aligned with FAMSA, approximate maximum-likelihood trees were inferred with FastTree using `-fastest`, and OrthoFinder rooted and resolved the trees with its hybrid species-overlap/duplication-loss coalescent procedure.
 
-The combined `SAR11_Orthogroups_4577.hmm.tar.gz` archive remains listed as an external release. It will provide one profile HMM for each orthogroup in a combined HMM file; individual profiles can be extracted with `hmmfetch`.
+The Zenodo-hosted `SAR11_Orthogroups_4577.hmm.tar.gz` archive provides one profile HMM for each orthogroup in a combined HMM file; individual profiles can be extracted with `hmmfetch`.
 
 ## Species Phylogenies
 
@@ -48,7 +53,7 @@ The combined `SAR11_Orthogroups_4577.hmm.tar.gz` archive remains listed as an ex
 
 `og_suggest.tsv` summarizes representative KO, COG, and Pfam evidence for browsing. Representative values describe the most supported annotations within an orthogroup and are not necessarily shared by every member. The accompanying `og_ko_counts.tsv`, `og_cog_counts.tsv`, and `og_pfam_counts.tsv` files preserve the within-OG counts used by the interactive charts.
 
-The full protein-coding gene annotation resource is a separate, larger table for all 675,669 proteins. It combines orthogroup IDs with outputs from COGclassifier, KOfamScan, PfamScan, quickARSC, and related protein-level fields. This complete table remains listed as an external archive until its versioned release is available.
+The full protein-coding gene annotation resource is a separate, larger table for all 675,669 proteins. It combines orthogroup IDs with outputs from COGclassifier, KOfamScan, PfamScan, quickARSC, and related protein-level fields. The complete `all_prot_annotations.tsv` table is distributed through Zenodo.
 
 ## UniProt And AlphaFoldDB Results
 
@@ -62,15 +67,15 @@ All SAR11 proteins were searched against UniProtKB release 2026_01 Swiss-Prot an
 
 A UniProt hit is a sequence-similarity result, not proof that every orthogroup member has the same sequence or structure. Use identity, coverage, domain annotations, and AlphaFold confidence together when interpreting a match.
 
-A broader DIAMOND search using a minimum identity of 30% and `--max-target-seqs 10` was filtered at 80% query coverage, 80% subject coverage, and an E-value of 1e-5. For the combined structure-reference table, close matches require identity ≥85% and both coverage values ≥80%; homologous references require identity ≥30%, both coverage values ≥80%, and E-value ≤1e-5. The 30%-identity and 80%-coverage combination follows a sequence-similarity criterion used in [Seq2Symm](https://www.nature.com/articles/s41467-025-57148-3). The complete 8,300,702-row filtered table is being prepared as a 190 MB compressed Zenodo release; the compact AFDB-confirmed tables are available directly from the atlas.
+A broader DIAMOND search using a minimum identity of 30% and `--max-target-seqs 10` was filtered at 80% query coverage, 80% subject coverage, and an E-value of 1e-5. For the combined structure-reference table, close matches require identity ≥85% and both coverage values ≥80%; homologous references require identity ≥30%, both coverage values ≥80%, and E-value ≤1e-5. The 30%-identity and 80%-coverage combination follows a sequence-similarity criterion used in [Seq2Symm](https://www.nature.com/articles/s41467-025-57148-3). The complete 8,300,702-row filtered table is distributed as the 199.50 MB compressed `uniprot_pid30_cov80_filtered_hits.tsv.gz` Zenodo file; compact AFDB-confirmed tables are available directly from the atlas.
 
 ## Network And Expression Resources
 
-The directly available network files are the complete edge tables used by the Neighboring Network and CORGIAS Network interfaces. Larger supporting files remain external-release items:
+The directly available network files are the complete edge tables used by the Neighboring Network and CORGIAS Network interfaces. Larger supporting files are distributed through the Zenodo release:
 
 - `gene_coordinates_with_og.tsv`, which underlies the neighborhood, operon, and neighboring-network analyses.
 - `CORGIAS_result.csv`, the complete CORGIAS analysis output beyond the compact significant-edge table.
-- Sample-level metatranscriptome mapping results and OG-level Expression Score summaries.
+- `SAR11_merged_metaT.tsv.gz` contains gene-level quantification results for 509 Tara Oceans metatranscriptomic runs. Join its `feature` identifiers to the protein and orthogroup assignments, then sum TPM by sample and orthogroup, to reproduce the aggregate Expression Scores used by the Metatranscriptome Viewer.
 
 ## All-vs-all ANI And AAI
 
@@ -80,19 +85,12 @@ The directly available network files are the complete edge tables used by the Ne
 
 The ANI and AAI files are comparative-genome measurements and are not presented as a formal SAR11 species classification. The ANI matrix can be regenerated with `build_fastani_matrix.R` from the accompanying reproducibility-script package.
 
-## External Archives Still Pending
+## Distribution And Versioning
 
-The following large resources remain marked **Coming soon** or **Partly available** until their versioned external archives are released:
-
-- FNA genome assemblies, FAA protein sequences, and GFF annotations for all 542 SAR11 genomes.
-- Full protein-level annotations for all 675,669 proteins.
-- The combined 4,577-orthogroup HMM archive.
-- The complete gene-coordinate table and complete CORGIAS result table.
-- Sample-level metatranscriptome mapping outputs and OG-level summaries.
-- The broader UniProtKB similarity-search result generated with `--id 30 --max-target-seqs 10`.
+Small interactive tables are downloaded from the atlas repository. Large sequence collections, complete annotations, HMM profiles, CORGIAS output, UniProt similarity results, gene-coordinate data, and metatranscriptomic quantification are downloaded from Zenodo. The OrthoFinder assignment and resolved gene-tree archives currently remain direct atlas downloads.
 
 ## Choosing A File
 
 Use [SAR11 Genome Information](SAR11-Genome-Information) to inspect genome metadata before downloading genome resources. Use [All OG List](All-OG-List) or [OG Information Viewer](OG-Information-Viewer) to identify orthogroups before downloading assignments, annotations, trees, or HMM profiles.
 
-Large collections will be distributed as compressed, versioned archives. Check each archive's README, column definitions, software versions, and release identifier before combining it with results from another atlas release.
+Large collections are distributed as compressed, versioned archives. Check each archive's README, column definitions, software versions, and release identifier before combining it with results from another atlas release.

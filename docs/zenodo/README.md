@@ -1,14 +1,16 @@
 # SAR11 Genome Atlas: 542-genome dataset
 
 This archive contains genome sequences, gene annotations, orthogroup profiles,
-comparative-genomic results, and UniProt similarity-search outputs generated for
-the 542-genome release of the **SAR11 Genome Atlas**.
+comparative-genomic results, metatranscriptomic quantification results, and
+UniProt similarity-search outputs generated for the 542-genome release of the
+**SAR11 Genome Atlas**.
 
 The collection comprises 542 SAR11 genomes, including cultured strains,
 single-amplified genomes (SAGs), and selected metagenome-assembled genomes
-(MAGs). A total of 675,669 predicted protein-coding genes were assigned to 4,577
-orthogroups using OrthoFinder and integrated with functional annotations and
-downstream comparative analyses.
+(MAGs). The collection contains 675,669 predicted protein-coding genes, of which
+670,693 (99.3%) were assigned to 4,577 orthogroups using OrthoFinder. The
+remaining 4,976 genes were unassigned. Orthogroup assignments were integrated
+with functional annotations and downstream comparative analyses.
 
 ## Dataset contents
 
@@ -70,6 +72,25 @@ UniProt accession does not demonstrate functional equivalence, and a UniProt
 match does not necessarily have an experimentally determined or
 AlphaFoldDB-predicted structure.
 
+### Tara Oceans metatranscriptomic quantification
+
+| File | Description | Size |
+|---|---|---:|
+| `SAR11_merged_metaT.tsv.gz` | Gzip-compressed, gene-level metatranscriptomic quantification table for 509 Tara Oceans runs mapped to the SAR11 protein-coding gene collection. Each row reports a sample, SAR11 protein identifier, reference sequence and gene coordinates, strand, feature length, read count, coverage, FPKM/RPKM, and TPM. | 6.59 GB |
+
+The `feature` column corresponds to the protein identifiers used in
+`all_prot_annotations.tsv`. To reproduce the orthogroup-level **Expression
+Score** displayed in the SAR11 Genome Atlas, join the two tables by protein
+identifier and sum TPM across all genes assigned to the same orthogroup within
+each sample. The resulting value is an aggregate orthogroup signal and should
+not be interpreted as a conventional single-gene TPM measurement.
+
+### Analysis and plotting scripts
+
+| File | Description | Size |
+|---|---|---:|
+| `SAR11_Gene_Catalog_analysis_2026-07-23.tar.gz` | Reproducibility archive containing Fig. 1 phylogeny workflows, case-study analyses, supplementary-table generation, comparative-genomics, metatranscriptome, and protein-structure scripts, compact plotting inputs and outputs, and the retained Jupyter-generated phylogeny HTML. | 12.98 MB |
+
 ## MD5 checksums
 
 | File | MD5 |
@@ -84,6 +105,8 @@ AlphaFoldDB-predicted structure.
 | `SAR11_Orthogroups_4577.hmm.tar.gz` | `3645caf19765d91a14beb6545c864e1a` |
 | `uniprot_pid30_cov80_filtered_hits.tsv.gz` | `806178d82480a92fea0a2605ce367fa4` |
 | `sar11_vs_sprot_2026_01.tsv` | `3aad351d1b5badf7e6bf96a29fe95ce7` |
+| `SAR11_merged_metaT.tsv.gz` | `179e0a0131620b312afa636e25466ccb` |
+| `SAR11_Gene_Catalog_analysis_2026-07-23.tar.gz` | `697e89d6f0ed43193db65b2537abc0aa` |
 
 Checksums can be verified with:
 
