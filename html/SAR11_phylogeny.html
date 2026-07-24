@@ -114,7 +114,7 @@
                     </div>
 
                     <div class="atlas-toolbar">
-                        <div id="controls">
+                        <div id="controls" class="atlas-map-filters">
                             <label for="filter" class="atlas-filter">Genome type
                                 <select id="filter">
                                     <option value="all" selected>All genomes</option>
@@ -123,6 +123,19 @@
                                     <option value="isolate">Cultured strain</option>
                                 </select>
                             </label>
+                            <label for="mapFamilyFilter" class="atlas-filter">Family
+                                <select id="mapFamilyFilter">
+                                    <option value="all">All families</option>
+                                </select>
+                            </label>
+                            <label for="mapGenusFilter" class="atlas-filter">Genus
+                                <select id="mapGenusFilter">
+                                    <option value="all">All genera</option>
+                                </select>
+                            </label>
+                            <button id="resetMapFilters" class="atlas-action-button" type="button">
+                                Reset
+                            </button>
                         </div>
                         <div class="atlas-map-legend" aria-label="Genome type legend">
                             <span class="atlas-map-legend__item"><img src="../css/images/marker-icon.png" alt="" class="icon acmarker_yellow" /> Cultured strain</span>

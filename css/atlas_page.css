@@ -119,6 +119,13 @@
     background: var(--atlas-tint);
 }
 
+.atlas-map-filters {
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    gap: 0.65rem 1rem;
+}
+
 .atlas-filter {
     display: flex;
     align-items: center;
@@ -1178,6 +1185,11 @@ body.dark-mode .atlas-association--negative {
 
     .atlas-section__header,
     .atlas-toolbar {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .atlas-map-filters {
         align-items: stretch;
         flex-direction: column;
     }

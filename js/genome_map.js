@@ -127,9 +127,60 @@ function getIconByType(type) {
 const tsvFilePath = '../data/phylogeny/subclade.txt'; // ここにTSVファイルのパスを指定
 let originalData = []; // 全データを保持する配列
 
+const mapFilterState = {
+    type: 'all',
+    family: 'all',
+    genus: 'all'
+};
+
+function metadataCategory(value) {
+    return value && value !== 'NA' ? value : 'Unassigned';
+}
+
+function uniqueSorted(values) {
+    return Array.from(new Set(values)).sort((a, b) => {
+        if (a === 'Unassigned') return 1;
+        if (b === 'Unassigned') return -1;
+        return a.localeCompare(b, undefined, { numeric: true });
+    });
+}
+
+function replaceMapFilterOptions(select, values, allLabel) {
+    const previous = select.value;
+    select.replaceChildren();
+    select.add(new Option(allLabel, 'all'));
+    values.forEach(value => select.add(new Option(value, value)));
+    select.value = values.includes(previous) ? previous : 'all';
+    return select.value;
+}
+
+function refreshMapTaxonomyFilters() {
+    const sar11Rows = originalData.filter(row =>
+        row.Clade1 !== 'outgroup' &&
+        (mapFilterState.type === 'all' || row.type === mapFilterState.type)
+    );
+    const familySelect = document.getElementById('mapFamilyFilter');
+    const genusSelect = document.getElementById('mapGenusFilter');
+
+    mapFilterState.family = replaceMapFilterOptions(
+        familySelect,
+        uniqueSorted(sar11Rows.map(row => metadataCategory(row.Family))),
+        'All families'
+    );
+
+    const familyRows = sar11Rows.filter(row =>
+        mapFilterState.family === 'all' ||
+        metadataCategory(row.Family) === mapFilterState.family
+    );
+    mapFilterState.genus = replaceMapFilterOptions(
+        genusSelect,
+        uniqueSorted(familyRows.map(row => metadataCategory(row.Genus))),
+        'All genera'
+    );
+}
 
 // 地図上のマーカーを更新する関数
-function updateMarkers(filterType) {
+function updateMarkers() {
     markers.clearLayers(); // 既存のマーカーを削除
 
     originalData.forEach(row => {
@@ -140,7 +191,12 @@ function updateMarkers(filterType) {
         if (
             !isNaN(latitude) &&
             !isNaN(longitude) &&
-            (filterType === 'all' || row.type === filterType)
+            row.Clade1 !== 'outgroup' &&
+            (mapFilterState.type === 'all' || row.type === mapFilterState.type) &&
+            (mapFilterState.family === 'all' ||
+                metadataCategory(row.Family) === mapFilterState.family) &&
+            (mapFilterState.genus === 'all' ||
+                metadataCategory(row.Genus) === mapFilterState.genus)
         ) {
             const marker = L.marker([latitude, longitude], {
                 icon: getIconByType(row.type), // typeに基づいてアイコンを設定
@@ -175,7 +231,8 @@ Papa.parse(tsvFilePath, {
     skipEmptyLines: true, // 空行をスキップ
     complete: function(results) {
         originalData = results.data; // データを保持
-        updateMarkers('all'); // 初期状態で全データを表示
+        refreshMapTaxonomyFilters();
+        updateMarkers(); // 初期状態で全データを表示
     },
     error: function(error) {
         console.error('TSV file loading error:', error);
@@ -184,6 +241,30 @@ Papa.parse(tsvFilePath, {
 
 // プルダウンメニューの変更イベントを監視
 document.getElementById('filter').addEventListener('change', (event) => {
-    const selectedFilter = event.target.value; // 選択された値
-    updateMarkers(selectedFilter); // 地図を更新
+    mapFilterState.type = event.target.value;
+    refreshMapTaxonomyFilters();
+    updateMarkers();
+});
+
+document.getElementById('mapFamilyFilter').addEventListener('change', (event) => {
+    mapFilterState.family = event.target.value;
+    refreshMapTaxonomyFilters();
+    updateMarkers();
+});
+
+document.getElementById('mapGenusFilter').addEventListener('change', (event) => {
+    mapFilterState.genus = event.target.value;
+    refreshMapTaxonomyFilters();
+    updateMarkers();
+});
+
+document.getElementById('resetMapFilters').addEventListener('click', () => {
+    mapFilterState.type = 'all';
+    mapFilterState.family = 'all';
+    mapFilterState.genus = 'all';
+    document.getElementById('filter').value = 'all';
+    document.getElementById('mapFamilyFilter').value = 'all';
+    document.getElementById('mapGenusFilter').value = 'all';
+    refreshMapTaxonomyFilters();
+    updateMarkers();
 });

@@ -6,12 +6,19 @@ The Genome Information page provides three linked views for exploring the genome
 
 The SAR11 Genome Map shows reported sampling locations for genomes included in the atlas.
 
-Use the **Data filter** menu to switch between:
+Use the linked map filters to restrict markers by:
 
-- **All**: show all genomes with valid latitude and longitude.
-- **MAG**: show metagenome-assembled genomes only.
-- **SAG**: show single-amplified genomes only.
-- **Cultured strain**: show cultured isolates only.
+- **Genome type**: show all genomes with valid coordinates or select MAGs,
+  SAGs, or cultured isolates.
+- **Family**: select a harmonized family-level lineage.
+- **Genus**: select a harmonized genus within the selected genome type and
+  family.
+- **Reset**: restore all three map filters and display every SAR11 genome with
+  valid coordinates.
+
+Family and genus options are populated from the current genome metadata.
+Unclassified records remain available as **Unassigned** rather than being
+silently removed.
 
 Individual markers use the following colors:
 
