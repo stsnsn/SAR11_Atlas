@@ -13,10 +13,11 @@ Each row represents one occurrence of the focal orthogroup. The genome and conti
 Use the filters above the visualization to limit the displayed rows:
 
 - **Genome type** selects cultured strains, SAGs, MAGs, or all genome types. The default is **Cultured strain**.
-- **Family-level lineage** restricts rows using the current family assignment rather than the historical broad clade grouping. Clade IV remains available as a family-unassigned lineage.
-- **Subclade** provides a more specific historical lineage filter based on the selected genome type and family-level lineage.
+- **Family-level lineage** restricts rows using the current harmonized family assignment.
+- **Genus** restricts rows to a harmonized genus within the selected genome type and family.
+- **Subclade** provides the most specific lineage filter available within the selected genome type, family, and genus.
 
-The status text reports the number of focal-gene neighborhoods and genomes matching the current filters. Filtering affects the visualization but does not remove records from the underlying OG-specific TSV.
+The taxonomy menus are linked and populated from the current `subclade.txt` metadata, including explicit unassigned values where applicable. The status text reports the number of focal-gene neighborhoods and genomes matching the current filters. Filtering affects the visualization but does not remove records from the underlying OG-specific TSV.
 
 ## Read The Visualization
 

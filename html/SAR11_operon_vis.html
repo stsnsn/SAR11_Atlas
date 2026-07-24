@@ -201,6 +201,10 @@
                                 <select id="cladeFilter"><option value="all">All family-level lineages</option></select>
                             </div>
                             <div class="atlas-search-field">
+                                <label for="genusFilter">Genus</label>
+                                <select id="genusFilter"><option value="all">All genera</option></select>
+                            </div>
+                            <div class="atlas-search-field">
                                 <label for="subcladeFilter">Subclade</label>
                                 <select id="subcladeFilter"><option value="all">All subclades</option></select>
                             </div>
@@ -306,8 +310,7 @@
                     }
 
                     function familyLevelLineage(row) {
-                        return validMetadataValue(row.Family) ||
-                            (row.Clade1 === 'IV' ? 'Family unassigned (Clade IV)' : 'Family unassigned');
+                        return validMetadataValue(row.Family) || 'Family unassigned';
                     }
 
                     function replaceFilterOptions(select, values, allLabel) {
@@ -321,6 +324,7 @@
                     function refreshOperonTaxonomyFilters() {
                         const type = document.getElementById('genomeTypeFilter').value;
                         const cladeSelect = document.getElementById('cladeFilter');
+                        const genusSelect = document.getElementById('genusFilter');
                         const subcladeSelect = document.getElementById('subcladeFilter');
                         const metadataRows = Array.from(genomeMetadata.values()).filter(row =>
                             row.Clade1 !== 'outgroup' && (type === 'all' || row.type === type)
@@ -329,8 +333,16 @@
                         replaceFilterOptions(cladeSelect, families, 'All family-level lineages');
 
                         const family = cladeSelect.value;
+                        const genera = Array.from(new Set(metadataRows
+                            .filter(row => family === 'all' || familyLevelLineage(row) === family)
+                            .map(row => validMetadataValue(row.Genus))
+                            .filter(Boolean))).sort();
+                        replaceFilterOptions(genusSelect, genera, 'All genera');
+
+                        const genus = genusSelect.value;
                         const subclades = Array.from(new Set(metadataRows
                             .filter(row => family === 'all' || familyLevelLineage(row) === family)
+                            .filter(row => genus === 'all' || row.Genus === genus)
                             .map(row => validMetadataValue(row.Subclade))
                             .filter(Boolean))).sort();
                         replaceFilterOptions(subcladeSelect, subclades, 'All subclades');
@@ -339,12 +351,14 @@
                     function filterOperonRows(rows) {
                         const type = document.getElementById('genomeTypeFilter').value;
                         const family = document.getElementById('cladeFilter').value;
+                        const genus = document.getElementById('genusFilter').value;
                         const subclade = document.getElementById('subcladeFilter').value;
                         return rows.filter(row => {
                             const metadata = genomeMetadata.get(row.genome);
                             if (!metadata) return false;
                             return (type === 'all' || metadata.type === type) &&
                                 (family === 'all' || familyLevelLineage(metadata) === family) &&
+                                (genus === 'all' || metadata.Genus === genus) &&
                                 (subclade === 'all' || metadata.Subclade === subclade);
                         });
                     }
@@ -886,6 +900,10 @@
                         rerenderOperonIfSelected();
                     });
                     document.getElementById('cladeFilter').addEventListener('change', function () {
+                        refreshOperonTaxonomyFilters();
+                        rerenderOperonIfSelected();
+                    });
+                    document.getElementById('genusFilter').addEventListener('change', function () {
                         refreshOperonTaxonomyFilters();
                         rerenderOperonIfSelected();
                     });

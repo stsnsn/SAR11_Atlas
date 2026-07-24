@@ -26,7 +26,7 @@ The Download cards show the file size next to each available resource. OG-specif
 
 ## Genome Metadata
 
-`subclade_master.tsv` is the public, source-preserving metadata table. Two derived forms are maintained for web components:
+`subclade_master.tsv` is the complete metadata table with harmonized taxonomic labels. It records the evidence source, confidence category, dual-tree support, and ANI/AAI reference used for each applicable assignment. Previous labels are intentionally excluded from the public subclade tables to avoid mixing classification systems; they are retained only in the internal harmonization audit and archived pre-harmonization files. Two derived forms are maintained for web components:
 
 - `subclade.txt` emphasizes numeric sampling depth and coordinates for the searchable table and map.
 - `subclade_cat.tsv` emphasizes categorical metadata for Taxonium coloring.

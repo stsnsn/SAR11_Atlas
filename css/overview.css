@@ -183,7 +183,10 @@
 
 .atlas-filterbar {
     display: grid;
-    grid-template-columns: minmax(180px, 1fr) minmax(160px, 0.55fr) minmax(160px, 0.55fr) auto;
+    grid-template-columns:
+        minmax(150px, 1fr)
+        repeat(4, minmax(125px, 0.6fr))
+        auto;
     gap: 0.85rem;
     align-items: end;
     margin: 0 0 1rem;

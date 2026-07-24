@@ -1,70 +1,544 @@
-genome_type	subclade	n_genomes	n_orthogroups
-All	All	542	4577
-All	IIIa.1	9	1578
-All	IIIa.2	3	1420
-All	IIIa.3	2	1380
-All	IIIb	8	1362
-All	IIa.A	17	1633
-All	IIa.B	35	1848
-All	IV	24	1808
-All	Ia.1	25	2198
-All	Ia.3	1	1354
-All	Ia.3.I	4	1579
-All	Ia.3.II	7	1543
-All	Ia.3.III	11	1739
-All	Ia.3.IV	7	1711
-All	Ia.3.V	53	2339
-All	Ia.3.VI	52	2426
-All	Ia.3.VII	32	1983
-All	Ia.4	98	2502
-All	Ia.5	3	1366
-All	Ib.1	56	2277
-All	Ib.2.a	24	1932
-All	Ib.2.b	10	1487
-All	Ib.3	6	1502
-All	Ib.4	19	1572
-All	Ib.5	14	1620
-All	Ic.2	3	1549
-All	Unknown	19	1866
-MAG	All	11	2196
-MAG	IIIa.1	3	1320
-MAG	IIIa.2	1	1346
-MAG	IIa.A	2	1111
-MAG	Ia.5	3	1366
-MAG	Ic.2	2	1457
-SAG	All	399	4048
-SAG	IIIa.2	2	1121
-SAG	IIa.A	15	1538
-SAG	IIa.B	34	1809
-SAG	IV	24	1808
-SAG	Ia.1	2	1366
-SAG	Ia.3.I	1	1278
-SAG	Ia.3.III	6	1476
-SAG	Ia.3.IV	5	1609
-SAG	Ia.3.V	43	2237
-SAG	Ia.3.VI	4	1492
-SAG	Ia.3.VII	32	1983
-SAG	Ia.4	84	2445
-SAG	Ib.1	54	2265
-SAG	Ib.2.a	24	1932
-SAG	Ib.2.b	10	1487
-SAG	Ib.3	6	1502
-SAG	Ib.4	19	1572
-SAG	Ib.5	14	1620
-SAG	Ic.2	1	1071
-SAG	Unknown	19	1866
-Isolate	All	132	3368
-Isolate	IIIa.1	6	1432
-Isolate	IIIa.3	2	1380
-Isolate	IIIb	8	1362
-Isolate	IIa.B	1	1103
-Isolate	Ia.1	23	2138
-Isolate	Ia.3	1	1354
-Isolate	Ia.3.I	3	1494
-Isolate	Ia.3.II	7	1543
-Isolate	Ia.3.III	5	1500
-Isolate	Ia.3.IV	2	1410
-Isolate	Ia.3.V	10	1706
-Isolate	Ia.3.VI	48	2334
-Isolate	Ia.4	14	1640
-Isolate	Ib.1	2	1378
+genome_type	family	genus	subclade	n_genomes	n_orthogroups
+All	NA	NA	NA	2	1457
+All	NA	NA	All	26	2227
+All	NA	NA	IV	24	1808
+All	NA	All	NA	2	1457
+All	NA	All	All	26	2227
+All	NA	All	IV	24	1808
+All	All	NA	NA	87	2917
+All	All	NA	All	123	3591
+All	All	NA	IIIa.2	3	1420
+All	All	NA	IIIa.3	2	1380
+All	All	NA	IIa.A	7	1405
+All	All	NA	IV	24	1808
+All	All	Accedentipelagibacter	All	6	1660
+All	All	Accedentipelagibacter	Ia.3.IV	6	1660
+All	All	Alipelagibacter	All	1	1226
+All	All	Alipelagibacter	Ia.4.N1	1	1226
+All	All	All	NA	87	2917
+All	All	All	All	542	4577
+All	All	All	IIIa.1	9	1578
+All	All	All	IIIa.2	3	1420
+All	All	All	IIIa.3	2	1380
+All	All	All	IIIb.16	1	1135
+All	All	All	IIIb.8	5	1241
+All	All	All	IIIb.9	2	1169
+All	All	All	IIa.A	17	1633
+All	All	All	IIa.B	35	1848
+All	All	All	IV	24	1808
+All	All	All	Ia.1.I	23	2144
+All	All	All	Ia.3.I	4	1579
+All	All	All	Ia.3.II	7	1543
+All	All	All	Ia.3.III	5	1500
+All	All	All	Ia.3.IV	6	1660
+All	All	All	Ia.3.V	52	2326
+All	All	All	Ia.3.VI	53	2438
+All	All	All	Ia.3.VII	32	1983
+All	All	All	Ia.4.II	24	1721
+All	All	All	Ia.4.N1	1	1226
+All	All	All	Ia.4.N2	6	1406
+All	All	All	Ia.4.N3	10	1423
+All	All	All	Ia.4.N4	3	1319
+All	All	All	Ia.4.N5	24	1690
+All	All	All	Ia.4.N6	4	1364
+All	All	All	Ib.1	8	1546
+All	All	All	Ib.1.III	47	2089
+All	All	All	Ib.2.I	14	1676
+All	All	All	Ib.2.N7	5	1461
+All	All	All	Ib.2.N9	4	1254
+All	All	All	Ib.4.I	3	1247
+All	All	All	Ib.4.N8	9	1398
+All	All	All	Ib.4.N9	1	1125
+All	All	All	Ib.N10	5	1350
+All	All	All	Ib.N11	5	1357
+All	All	All	Ib.N7	1	1272
+All	All	All	Ic	1	1071
+All	All	Amplipelagibacter	All	5	1296
+All	All	Amplipelagibacter	Ib.2.N9	4	1254
+All	All	Amplipelagibacter	Ib.4.N9	1	1125
+All	All	Angustipelagibacter	All	32	1983
+All	All	Angustipelagibacter	Ia.3.VII	32	1983
+All	All	Anoxipelagibacter	All	9	1432
+All	All	Anoxipelagibacter	IIa.A	9	1432
+All	All	Anoxypelagibacter	All	1	866
+All	All	Anoxypelagibacter	IIa.A	1	866
+All	All	Atlantikopelagibacter	All	4	1579
+All	All	Atlantikopelagibacter	Ia.3.I	4	1579
+All	All	Colligatipelagibacter	All	4	1364
+All	All	Colligatipelagibacter	Ia.4.N6	4	1364
+All	All	Copipelagibacter	All	47	2089
+All	All	Copipelagibacter	Ib.1.III	47	2089
+All	All	Coralipelagibacter	All	7	1543
+All	All	Coralipelagibacter	Ia.3.II	7	1543
+All	All	Cosmipelagibacter	All	35	1848
+All	All	Cosmipelagibacter	IIa.B	35	1848
+All	All	Elongatipelagibacter	All	9	1578
+All	All	Elongatipelagibacter	IIIa.1	9	1578
+All	All	Extensipelagibacter	All	3	1247
+All	All	Extensipelagibacter	Ib.4.I	3	1247
+All	All	Fontibacterium	All	8	1362
+All	All	Fontibacterium	IIIb.16	1	1135
+All	All	Fontibacterium	IIIb.8	5	1241
+All	All	Fontibacterium	IIIb.9	2	1169
+All	All	Fusipelagibacter	All	5	1350
+All	All	Fusipelagibacter	Ib.N10	5	1350
+All	All	Lacunipelagibacter	All	24	1721
+All	All	Lacunipelagibacter	Ia.4.II	24	1721
+All	All	Litoralipelagibacter	All	5	1500
+All	All	Litoralipelagibacter	Ia.3.III	5	1500
+All	All	Medipelagibacter	All	9	1398
+All	All	Medipelagibacter	Ib.4.N8	9	1398
+All	All	Mesopelagibacter	All	1	1071
+All	All	Mesopelagibacter	Ic	1	1071
+All	All	Pantolocipelagibacter	All	6	1406
+All	All	Pantolocipelagibacter	Ia.4.N2	6	1406
+All	All	Parvipelagibacter	All	6	1562
+All	All	Parvipelagibacter	Ib.2.N7	5	1461
+All	All	Parvipelagibacter	Ib.N7	1	1272
+All	All	Pelagibacter	All	23	2144
+All	All	Pelagibacter	Ia.1.I	23	2144
+All	All	Proventipelagibacter	All	10	1423
+All	All	Proventipelagibacter	Ia.4.N3	10	1423
+All	All	Punctipelagibacter	All	3	1319
+All	All	Punctipelagibacter	Ia.4.N4	3	1319
+All	All	Rubripelagibacter	All	5	1357
+All	All	Rubripelagibacter	Ib.N11	5	1357
+All	All	Stellipelagibacter	All	14	1676
+All	All	Stellipelagibacter	Ib.2.I	14	1676
+All	All	Superipelagibacter	All	8	1546
+All	All	Superipelagibacter	Ib.1	8	1546
+All	All	Tantillipelagibacter	All	24	1690
+All	All	Tantillipelagibacter	Ia.4.N5	24	1690
+All	All	Undatipelagibacter	All	53	2438
+All	All	Undatipelagibacter	Ia.3.VI	53	2438
+All	All	Xanthinipelagibacter	All	52	2326
+All	All	Xanthinipelagibacter	Ia.3.V	52	2326
+All	Cosmipelagibacteraceae	NA	All	7	1405
+All	Cosmipelagibacteraceae	NA	IIa.A	7	1405
+All	Cosmipelagibacteraceae	All	All	52	2066
+All	Cosmipelagibacteraceae	All	IIa.A	17	1633
+All	Cosmipelagibacteraceae	All	IIa.B	35	1848
+All	Cosmipelagibacteraceae	Anoxipelagibacter	All	9	1432
+All	Cosmipelagibacteraceae	Anoxipelagibacter	IIa.A	9	1432
+All	Cosmipelagibacteraceae	Anoxypelagibacter	All	1	866
+All	Cosmipelagibacteraceae	Anoxypelagibacter	IIa.A	1	866
+All	Cosmipelagibacteraceae	Cosmipelagibacter	All	35	1848
+All	Cosmipelagibacteraceae	Cosmipelagibacter	IIa.B	35	1848
+All	Fontibacteriaceae	NA	All	5	1754
+All	Fontibacteriaceae	NA	IIIa.2	3	1420
+All	Fontibacteriaceae	NA	IIIa.3	2	1380
+All	Fontibacteriaceae	All	All	22	2188
+All	Fontibacteriaceae	All	IIIa.1	9	1578
+All	Fontibacteriaceae	All	IIIa.2	3	1420
+All	Fontibacteriaceae	All	IIIa.3	2	1380
+All	Fontibacteriaceae	All	IIIb.16	1	1135
+All	Fontibacteriaceae	All	IIIb.8	5	1241
+All	Fontibacteriaceae	All	IIIb.9	2	1169
+All	Fontibacteriaceae	Elongatipelagibacter	All	9	1578
+All	Fontibacteriaceae	Elongatipelagibacter	IIIa.1	9	1578
+All	Fontibacteriaceae	Fontibacterium	All	8	1362
+All	Fontibacteriaceae	Fontibacterium	IIIb.16	1	1135
+All	Fontibacteriaceae	Fontibacterium	IIIb.8	5	1241
+All	Fontibacteriaceae	Fontibacterium	IIIb.9	2	1169
+All	Mesopelagibacteraceae	All	All	1	1071
+All	Mesopelagibacteraceae	All	Ic	1	1071
+All	Mesopelagibacteraceae	Mesopelagibacter	All	1	1071
+All	Mesopelagibacteraceae	Mesopelagibacter	Ic	1	1071
+All	Pelagibacteraceae	NA	NA	85	2763
+All	Pelagibacteraceae	NA	All	85	2763
+All	Pelagibacteraceae	Accedentipelagibacter	All	6	1660
+All	Pelagibacteraceae	Accedentipelagibacter	Ia.3.IV	6	1660
+All	Pelagibacteraceae	Alipelagibacter	All	1	1226
+All	Pelagibacteraceae	Alipelagibacter	Ia.4.N1	1	1226
+All	Pelagibacteraceae	All	NA	85	2763
+All	Pelagibacteraceae	All	All	441	3874
+All	Pelagibacteraceae	All	Ia.1.I	23	2144
+All	Pelagibacteraceae	All	Ia.3.I	4	1579
+All	Pelagibacteraceae	All	Ia.3.II	7	1543
+All	Pelagibacteraceae	All	Ia.3.III	5	1500
+All	Pelagibacteraceae	All	Ia.3.IV	6	1660
+All	Pelagibacteraceae	All	Ia.3.V	52	2326
+All	Pelagibacteraceae	All	Ia.3.VI	53	2438
+All	Pelagibacteraceae	All	Ia.3.VII	32	1983
+All	Pelagibacteraceae	All	Ia.4.II	24	1721
+All	Pelagibacteraceae	All	Ia.4.N1	1	1226
+All	Pelagibacteraceae	All	Ia.4.N2	6	1406
+All	Pelagibacteraceae	All	Ia.4.N3	10	1423
+All	Pelagibacteraceae	All	Ia.4.N4	3	1319
+All	Pelagibacteraceae	All	Ia.4.N5	24	1690
+All	Pelagibacteraceae	All	Ia.4.N6	4	1364
+All	Pelagibacteraceae	All	Ib.1	8	1546
+All	Pelagibacteraceae	All	Ib.1.III	47	2089
+All	Pelagibacteraceae	All	Ib.2.I	14	1676
+All	Pelagibacteraceae	All	Ib.2.N7	5	1461
+All	Pelagibacteraceae	All	Ib.2.N9	4	1254
+All	Pelagibacteraceae	All	Ib.4.I	3	1247
+All	Pelagibacteraceae	All	Ib.4.N8	9	1398
+All	Pelagibacteraceae	All	Ib.4.N9	1	1125
+All	Pelagibacteraceae	All	Ib.N10	5	1350
+All	Pelagibacteraceae	All	Ib.N11	5	1357
+All	Pelagibacteraceae	All	Ib.N7	1	1272
+All	Pelagibacteraceae	Amplipelagibacter	All	5	1296
+All	Pelagibacteraceae	Amplipelagibacter	Ib.2.N9	4	1254
+All	Pelagibacteraceae	Amplipelagibacter	Ib.4.N9	1	1125
+All	Pelagibacteraceae	Angustipelagibacter	All	32	1983
+All	Pelagibacteraceae	Angustipelagibacter	Ia.3.VII	32	1983
+All	Pelagibacteraceae	Atlantikopelagibacter	All	4	1579
+All	Pelagibacteraceae	Atlantikopelagibacter	Ia.3.I	4	1579
+All	Pelagibacteraceae	Colligatipelagibacter	All	4	1364
+All	Pelagibacteraceae	Colligatipelagibacter	Ia.4.N6	4	1364
+All	Pelagibacteraceae	Copipelagibacter	All	47	2089
+All	Pelagibacteraceae	Copipelagibacter	Ib.1.III	47	2089
+All	Pelagibacteraceae	Coralipelagibacter	All	7	1543
+All	Pelagibacteraceae	Coralipelagibacter	Ia.3.II	7	1543
+All	Pelagibacteraceae	Extensipelagibacter	All	3	1247
+All	Pelagibacteraceae	Extensipelagibacter	Ib.4.I	3	1247
+All	Pelagibacteraceae	Fusipelagibacter	All	5	1350
+All	Pelagibacteraceae	Fusipelagibacter	Ib.N10	5	1350
+All	Pelagibacteraceae	Lacunipelagibacter	All	24	1721
+All	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	24	1721
+All	Pelagibacteraceae	Litoralipelagibacter	All	5	1500
+All	Pelagibacteraceae	Litoralipelagibacter	Ia.3.III	5	1500
+All	Pelagibacteraceae	Medipelagibacter	All	9	1398
+All	Pelagibacteraceae	Medipelagibacter	Ib.4.N8	9	1398
+All	Pelagibacteraceae	Pantolocipelagibacter	All	6	1406
+All	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	6	1406
+All	Pelagibacteraceae	Parvipelagibacter	All	6	1562
+All	Pelagibacteraceae	Parvipelagibacter	Ib.2.N7	5	1461
+All	Pelagibacteraceae	Parvipelagibacter	Ib.N7	1	1272
+All	Pelagibacteraceae	Pelagibacter	All	23	2144
+All	Pelagibacteraceae	Pelagibacter	Ia.1.I	23	2144
+All	Pelagibacteraceae	Proventipelagibacter	All	10	1423
+All	Pelagibacteraceae	Proventipelagibacter	Ia.4.N3	10	1423
+All	Pelagibacteraceae	Punctipelagibacter	All	3	1319
+All	Pelagibacteraceae	Punctipelagibacter	Ia.4.N4	3	1319
+All	Pelagibacteraceae	Rubripelagibacter	All	5	1357
+All	Pelagibacteraceae	Rubripelagibacter	Ib.N11	5	1357
+All	Pelagibacteraceae	Stellipelagibacter	All	14	1676
+All	Pelagibacteraceae	Stellipelagibacter	Ib.2.I	14	1676
+All	Pelagibacteraceae	Superipelagibacter	All	8	1546
+All	Pelagibacteraceae	Superipelagibacter	Ib.1	8	1546
+All	Pelagibacteraceae	Tantillipelagibacter	All	24	1690
+All	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	24	1690
+All	Pelagibacteraceae	Undatipelagibacter	All	53	2438
+All	Pelagibacteraceae	Undatipelagibacter	Ia.3.VI	53	2438
+All	Pelagibacteraceae	Xanthinipelagibacter	All	52	2326
+All	Pelagibacteraceae	Xanthinipelagibacter	Ia.3.V	52	2326
+Isolate	All	NA	NA	1	1286
+Isolate	All	NA	All	3	1643
+Isolate	All	NA	IIIa.3	2	1380
+Isolate	All	Accedentipelagibacter	All	2	1410
+Isolate	All	Accedentipelagibacter	Ia.3.IV	2	1410
+Isolate	All	Alipelagibacter	All	1	1226
+Isolate	All	Alipelagibacter	Ia.4.N1	1	1226
+Isolate	All	All	NA	1	1286
+Isolate	All	All	All	132	3368
+Isolate	All	All	IIIa.1	6	1432
+Isolate	All	All	IIIa.3	2	1380
+Isolate	All	All	IIIb.16	1	1135
+Isolate	All	All	IIIb.8	5	1241
+Isolate	All	All	IIIb.9	2	1169
+Isolate	All	All	IIa.B	1	1103
+Isolate	All	All	Ia.1.I	22	2129
+Isolate	All	All	Ia.3.I	3	1494
+Isolate	All	All	Ia.3.II	7	1543
+Isolate	All	All	Ia.3.III	5	1500
+Isolate	All	All	Ia.3.IV	2	1410
+Isolate	All	All	Ia.3.V	10	1706
+Isolate	All	All	Ia.3.VI	49	2347
+Isolate	All	All	Ia.4.II	9	1464
+Isolate	All	All	Ia.4.N1	1	1226
+Isolate	All	All	Ia.4.N5	4	1347
+Isolate	All	All	Ib.1	2	1378
+Isolate	All	Atlantikopelagibacter	All	3	1494
+Isolate	All	Atlantikopelagibacter	Ia.3.I	3	1494
+Isolate	All	Coralipelagibacter	All	7	1543
+Isolate	All	Coralipelagibacter	Ia.3.II	7	1543
+Isolate	All	Cosmipelagibacter	All	1	1103
+Isolate	All	Cosmipelagibacter	IIa.B	1	1103
+Isolate	All	Elongatipelagibacter	All	6	1432
+Isolate	All	Elongatipelagibacter	IIIa.1	6	1432
+Isolate	All	Fontibacterium	All	8	1362
+Isolate	All	Fontibacterium	IIIb.16	1	1135
+Isolate	All	Fontibacterium	IIIb.8	5	1241
+Isolate	All	Fontibacterium	IIIb.9	2	1169
+Isolate	All	Lacunipelagibacter	All	9	1464
+Isolate	All	Lacunipelagibacter	Ia.4.II	9	1464
+Isolate	All	Litoralipelagibacter	All	5	1500
+Isolate	All	Litoralipelagibacter	Ia.3.III	5	1500
+Isolate	All	Pelagibacter	All	22	2129
+Isolate	All	Pelagibacter	Ia.1.I	22	2129
+Isolate	All	Superipelagibacter	All	2	1378
+Isolate	All	Superipelagibacter	Ib.1	2	1378
+Isolate	All	Tantillipelagibacter	All	4	1347
+Isolate	All	Tantillipelagibacter	Ia.4.N5	4	1347
+Isolate	All	Undatipelagibacter	All	49	2347
+Isolate	All	Undatipelagibacter	Ia.3.VI	49	2347
+Isolate	All	Xanthinipelagibacter	All	10	1706
+Isolate	All	Xanthinipelagibacter	Ia.3.V	10	1706
+Isolate	Cosmipelagibacteraceae	All	All	1	1103
+Isolate	Cosmipelagibacteraceae	All	IIa.B	1	1103
+Isolate	Cosmipelagibacteraceae	Cosmipelagibacter	All	1	1103
+Isolate	Cosmipelagibacteraceae	Cosmipelagibacter	IIa.B	1	1103
+Isolate	Fontibacteriaceae	NA	All	2	1380
+Isolate	Fontibacteriaceae	NA	IIIa.3	2	1380
+Isolate	Fontibacteriaceae	All	All	16	1838
+Isolate	Fontibacteriaceae	All	IIIa.1	6	1432
+Isolate	Fontibacteriaceae	All	IIIa.3	2	1380
+Isolate	Fontibacteriaceae	All	IIIb.16	1	1135
+Isolate	Fontibacteriaceae	All	IIIb.8	5	1241
+Isolate	Fontibacteriaceae	All	IIIb.9	2	1169
+Isolate	Fontibacteriaceae	Elongatipelagibacter	All	6	1432
+Isolate	Fontibacteriaceae	Elongatipelagibacter	IIIa.1	6	1432
+Isolate	Fontibacteriaceae	Fontibacterium	All	8	1362
+Isolate	Fontibacteriaceae	Fontibacterium	IIIb.16	1	1135
+Isolate	Fontibacteriaceae	Fontibacterium	IIIb.8	5	1241
+Isolate	Fontibacteriaceae	Fontibacterium	IIIb.9	2	1169
+Isolate	Pelagibacteraceae	NA	NA	1	1286
+Isolate	Pelagibacteraceae	NA	All	1	1286
+Isolate	Pelagibacteraceae	Accedentipelagibacter	All	2	1410
+Isolate	Pelagibacteraceae	Accedentipelagibacter	Ia.3.IV	2	1410
+Isolate	Pelagibacteraceae	Alipelagibacter	All	1	1226
+Isolate	Pelagibacteraceae	Alipelagibacter	Ia.4.N1	1	1226
+Isolate	Pelagibacteraceae	All	NA	1	1286
+Isolate	Pelagibacteraceae	All	All	115	3104
+Isolate	Pelagibacteraceae	All	Ia.1.I	22	2129
+Isolate	Pelagibacteraceae	All	Ia.3.I	3	1494
+Isolate	Pelagibacteraceae	All	Ia.3.II	7	1543
+Isolate	Pelagibacteraceae	All	Ia.3.III	5	1500
+Isolate	Pelagibacteraceae	All	Ia.3.IV	2	1410
+Isolate	Pelagibacteraceae	All	Ia.3.V	10	1706
+Isolate	Pelagibacteraceae	All	Ia.3.VI	49	2347
+Isolate	Pelagibacteraceae	All	Ia.4.II	9	1464
+Isolate	Pelagibacteraceae	All	Ia.4.N1	1	1226
+Isolate	Pelagibacteraceae	All	Ia.4.N5	4	1347
+Isolate	Pelagibacteraceae	All	Ib.1	2	1378
+Isolate	Pelagibacteraceae	Atlantikopelagibacter	All	3	1494
+Isolate	Pelagibacteraceae	Atlantikopelagibacter	Ia.3.I	3	1494
+Isolate	Pelagibacteraceae	Coralipelagibacter	All	7	1543
+Isolate	Pelagibacteraceae	Coralipelagibacter	Ia.3.II	7	1543
+Isolate	Pelagibacteraceae	Lacunipelagibacter	All	9	1464
+Isolate	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	9	1464
+Isolate	Pelagibacteraceae	Litoralipelagibacter	All	5	1500
+Isolate	Pelagibacteraceae	Litoralipelagibacter	Ia.3.III	5	1500
+Isolate	Pelagibacteraceae	Pelagibacter	All	22	2129
+Isolate	Pelagibacteraceae	Pelagibacter	Ia.1.I	22	2129
+Isolate	Pelagibacteraceae	Superipelagibacter	All	2	1378
+Isolate	Pelagibacteraceae	Superipelagibacter	Ib.1	2	1378
+Isolate	Pelagibacteraceae	Tantillipelagibacter	All	4	1347
+Isolate	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	4	1347
+Isolate	Pelagibacteraceae	Undatipelagibacter	All	49	2347
+Isolate	Pelagibacteraceae	Undatipelagibacter	Ia.3.VI	49	2347
+Isolate	Pelagibacteraceae	Xanthinipelagibacter	All	10	1706
+Isolate	Pelagibacteraceae	Xanthinipelagibacter	Ia.3.V	10	1706
+MAG	NA	NA	NA	2	1457
+MAG	NA	NA	All	2	1457
+MAG	NA	All	NA	2	1457
+MAG	NA	All	All	2	1457
+MAG	All	NA	NA	5	1738
+MAG	All	NA	All	7	2041
+MAG	All	NA	IIIa.2	1	1346
+MAG	All	NA	IIa.A	1	948
+MAG	All	All	NA	5	1738
+MAG	All	All	All	11	2196
+MAG	All	All	IIIa.1	3	1320
+MAG	All	All	IIIa.2	1	1346
+MAG	All	All	IIa.A	2	1111
+MAG	All	Anoxypelagibacter	All	1	866
+MAG	All	Anoxypelagibacter	IIa.A	1	866
+MAG	All	Elongatipelagibacter	All	3	1320
+MAG	All	Elongatipelagibacter	IIIa.1	3	1320
+MAG	Cosmipelagibacteraceae	NA	All	1	948
+MAG	Cosmipelagibacteraceae	NA	IIa.A	1	948
+MAG	Cosmipelagibacteraceae	All	All	2	1111
+MAG	Cosmipelagibacteraceae	All	IIa.A	2	1111
+MAG	Cosmipelagibacteraceae	Anoxypelagibacter	All	1	866
+MAG	Cosmipelagibacteraceae	Anoxypelagibacter	IIa.A	1	866
+MAG	Fontibacteriaceae	NA	All	1	1346
+MAG	Fontibacteriaceae	NA	IIIa.2	1	1346
+MAG	Fontibacteriaceae	All	All	4	1606
+MAG	Fontibacteriaceae	All	IIIa.1	3	1320
+MAG	Fontibacteriaceae	All	IIIa.2	1	1346
+MAG	Fontibacteriaceae	Elongatipelagibacter	All	3	1320
+MAG	Fontibacteriaceae	Elongatipelagibacter	IIIa.1	3	1320
+MAG	Pelagibacteraceae	NA	NA	3	1366
+MAG	Pelagibacteraceae	NA	All	3	1366
+MAG	Pelagibacteraceae	All	NA	3	1366
+MAG	Pelagibacteraceae	All	All	3	1366
+SAG	NA	NA	All	24	1808
+SAG	NA	NA	IV	24	1808
+SAG	NA	All	All	24	1808
+SAG	NA	All	IV	24	1808
+SAG	All	NA	NA	81	2667
+SAG	All	NA	All	113	3254
+SAG	All	NA	IIIa.2	2	1121
+SAG	All	NA	IIa.A	6	1384
+SAG	All	NA	IV	24	1808
+SAG	All	Accedentipelagibacter	All	4	1521
+SAG	All	Accedentipelagibacter	Ia.3.IV	4	1521
+SAG	All	All	NA	81	2667
+SAG	All	All	All	399	4048
+SAG	All	All	IIIa.2	2	1121
+SAG	All	All	IIa.A	15	1538
+SAG	All	All	IIa.B	34	1809
+SAG	All	All	IV	24	1808
+SAG	All	All	Ia.1.I	1	1106
+SAG	All	All	Ia.3.I	1	1278
+SAG	All	All	Ia.3.IV	4	1521
+SAG	All	All	Ia.3.V	42	2223
+SAG	All	All	Ia.3.VI	4	1492
+SAG	All	All	Ia.3.VII	32	1983
+SAG	All	All	Ia.4.II	15	1635
+SAG	All	All	Ia.4.N2	6	1406
+SAG	All	All	Ia.4.N3	10	1423
+SAG	All	All	Ia.4.N4	3	1319
+SAG	All	All	Ia.4.N5	20	1649
+SAG	All	All	Ia.4.N6	4	1364
+SAG	All	All	Ib.1	6	1487
+SAG	All	All	Ib.1.III	47	2089
+SAG	All	All	Ib.2.I	14	1676
+SAG	All	All	Ib.2.N7	5	1461
+SAG	All	All	Ib.2.N9	4	1254
+SAG	All	All	Ib.4.I	3	1247
+SAG	All	All	Ib.4.N8	9	1398
+SAG	All	All	Ib.4.N9	1	1125
+SAG	All	All	Ib.N10	5	1350
+SAG	All	All	Ib.N11	5	1357
+SAG	All	All	Ib.N7	1	1272
+SAG	All	All	Ic	1	1071
+SAG	All	Amplipelagibacter	All	5	1296
+SAG	All	Amplipelagibacter	Ib.2.N9	4	1254
+SAG	All	Amplipelagibacter	Ib.4.N9	1	1125
+SAG	All	Angustipelagibacter	All	32	1983
+SAG	All	Angustipelagibacter	Ia.3.VII	32	1983
+SAG	All	Anoxipelagibacter	All	9	1432
+SAG	All	Anoxipelagibacter	IIa.A	9	1432
+SAG	All	Atlantikopelagibacter	All	1	1278
+SAG	All	Atlantikopelagibacter	Ia.3.I	1	1278
+SAG	All	Colligatipelagibacter	All	4	1364
+SAG	All	Colligatipelagibacter	Ia.4.N6	4	1364
+SAG	All	Copipelagibacter	All	47	2089
+SAG	All	Copipelagibacter	Ib.1.III	47	2089
+SAG	All	Cosmipelagibacter	All	34	1809
+SAG	All	Cosmipelagibacter	IIa.B	34	1809
+SAG	All	Extensipelagibacter	All	3	1247
+SAG	All	Extensipelagibacter	Ib.4.I	3	1247
+SAG	All	Fusipelagibacter	All	5	1350
+SAG	All	Fusipelagibacter	Ib.N10	5	1350
+SAG	All	Lacunipelagibacter	All	15	1635
+SAG	All	Lacunipelagibacter	Ia.4.II	15	1635
+SAG	All	Medipelagibacter	All	9	1398
+SAG	All	Medipelagibacter	Ib.4.N8	9	1398
+SAG	All	Mesopelagibacter	All	1	1071
+SAG	All	Mesopelagibacter	Ic	1	1071
+SAG	All	Pantolocipelagibacter	All	6	1406
+SAG	All	Pantolocipelagibacter	Ia.4.N2	6	1406
+SAG	All	Parvipelagibacter	All	6	1562
+SAG	All	Parvipelagibacter	Ib.2.N7	5	1461
+SAG	All	Parvipelagibacter	Ib.N7	1	1272
+SAG	All	Pelagibacter	All	1	1106
+SAG	All	Pelagibacter	Ia.1.I	1	1106
+SAG	All	Proventipelagibacter	All	10	1423
+SAG	All	Proventipelagibacter	Ia.4.N3	10	1423
+SAG	All	Punctipelagibacter	All	3	1319
+SAG	All	Punctipelagibacter	Ia.4.N4	3	1319
+SAG	All	Rubripelagibacter	All	5	1357
+SAG	All	Rubripelagibacter	Ib.N11	5	1357
+SAG	All	Stellipelagibacter	All	14	1676
+SAG	All	Stellipelagibacter	Ib.2.I	14	1676
+SAG	All	Superipelagibacter	All	6	1487
+SAG	All	Superipelagibacter	Ib.1	6	1487
+SAG	All	Tantillipelagibacter	All	20	1649
+SAG	All	Tantillipelagibacter	Ia.4.N5	20	1649
+SAG	All	Undatipelagibacter	All	4	1492
+SAG	All	Undatipelagibacter	Ia.3.VI	4	1492
+SAG	All	Xanthinipelagibacter	All	42	2223
+SAG	All	Xanthinipelagibacter	Ia.3.V	42	2223
+SAG	Cosmipelagibacteraceae	NA	All	6	1384
+SAG	Cosmipelagibacteraceae	NA	IIa.A	6	1384
+SAG	Cosmipelagibacteraceae	All	All	49	1962
+SAG	Cosmipelagibacteraceae	All	IIa.A	15	1538
+SAG	Cosmipelagibacteraceae	All	IIa.B	34	1809
+SAG	Cosmipelagibacteraceae	Anoxipelagibacter	All	9	1432
+SAG	Cosmipelagibacteraceae	Anoxipelagibacter	IIa.A	9	1432
+SAG	Cosmipelagibacteraceae	Cosmipelagibacter	All	34	1809
+SAG	Cosmipelagibacteraceae	Cosmipelagibacter	IIa.B	34	1809
+SAG	Fontibacteriaceae	NA	All	2	1121
+SAG	Fontibacteriaceae	NA	IIIa.2	2	1121
+SAG	Fontibacteriaceae	All	All	2	1121
+SAG	Fontibacteriaceae	All	IIIa.2	2	1121
+SAG	Mesopelagibacteraceae	All	All	1	1071
+SAG	Mesopelagibacteraceae	All	Ic	1	1071
+SAG	Mesopelagibacteraceae	Mesopelagibacter	All	1	1071
+SAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	1	1071
+SAG	Pelagibacteraceae	NA	NA	81	2667
+SAG	Pelagibacteraceae	NA	All	81	2667
+SAG	Pelagibacteraceae	Accedentipelagibacter	All	4	1521
+SAG	Pelagibacteraceae	Accedentipelagibacter	Ia.3.IV	4	1521
+SAG	Pelagibacteraceae	All	NA	81	2667
+SAG	Pelagibacteraceae	All	All	323	3549
+SAG	Pelagibacteraceae	All	Ia.1.I	1	1106
+SAG	Pelagibacteraceae	All	Ia.3.I	1	1278
+SAG	Pelagibacteraceae	All	Ia.3.IV	4	1521
+SAG	Pelagibacteraceae	All	Ia.3.V	42	2223
+SAG	Pelagibacteraceae	All	Ia.3.VI	4	1492
+SAG	Pelagibacteraceae	All	Ia.3.VII	32	1983
+SAG	Pelagibacteraceae	All	Ia.4.II	15	1635
+SAG	Pelagibacteraceae	All	Ia.4.N2	6	1406
+SAG	Pelagibacteraceae	All	Ia.4.N3	10	1423
+SAG	Pelagibacteraceae	All	Ia.4.N4	3	1319
+SAG	Pelagibacteraceae	All	Ia.4.N5	20	1649
+SAG	Pelagibacteraceae	All	Ia.4.N6	4	1364
+SAG	Pelagibacteraceae	All	Ib.1	6	1487
+SAG	Pelagibacteraceae	All	Ib.1.III	47	2089
+SAG	Pelagibacteraceae	All	Ib.2.I	14	1676
+SAG	Pelagibacteraceae	All	Ib.2.N7	5	1461
+SAG	Pelagibacteraceae	All	Ib.2.N9	4	1254
+SAG	Pelagibacteraceae	All	Ib.4.I	3	1247
+SAG	Pelagibacteraceae	All	Ib.4.N8	9	1398
+SAG	Pelagibacteraceae	All	Ib.4.N9	1	1125
+SAG	Pelagibacteraceae	All	Ib.N10	5	1350
+SAG	Pelagibacteraceae	All	Ib.N11	5	1357
+SAG	Pelagibacteraceae	All	Ib.N7	1	1272
+SAG	Pelagibacteraceae	Amplipelagibacter	All	5	1296
+SAG	Pelagibacteraceae	Amplipelagibacter	Ib.2.N9	4	1254
+SAG	Pelagibacteraceae	Amplipelagibacter	Ib.4.N9	1	1125
+SAG	Pelagibacteraceae	Angustipelagibacter	All	32	1983
+SAG	Pelagibacteraceae	Angustipelagibacter	Ia.3.VII	32	1983
+SAG	Pelagibacteraceae	Atlantikopelagibacter	All	1	1278
+SAG	Pelagibacteraceae	Atlantikopelagibacter	Ia.3.I	1	1278
+SAG	Pelagibacteraceae	Colligatipelagibacter	All	4	1364
+SAG	Pelagibacteraceae	Colligatipelagibacter	Ia.4.N6	4	1364
+SAG	Pelagibacteraceae	Copipelagibacter	All	47	2089
+SAG	Pelagibacteraceae	Copipelagibacter	Ib.1.III	47	2089
+SAG	Pelagibacteraceae	Extensipelagibacter	All	3	1247
+SAG	Pelagibacteraceae	Extensipelagibacter	Ib.4.I	3	1247
+SAG	Pelagibacteraceae	Fusipelagibacter	All	5	1350
+SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	5	1350
+SAG	Pelagibacteraceae	Lacunipelagibacter	All	15	1635
+SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	15	1635
+SAG	Pelagibacteraceae	Medipelagibacter	All	9	1398
+SAG	Pelagibacteraceae	Medipelagibacter	Ib.4.N8	9	1398
+SAG	Pelagibacteraceae	Pantolocipelagibacter	All	6	1406
+SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	6	1406
+SAG	Pelagibacteraceae	Parvipelagibacter	All	6	1562
+SAG	Pelagibacteraceae	Parvipelagibacter	Ib.2.N7	5	1461
+SAG	Pelagibacteraceae	Parvipelagibacter	Ib.N7	1	1272
+SAG	Pelagibacteraceae	Pelagibacter	All	1	1106
+SAG	Pelagibacteraceae	Pelagibacter	Ia.1.I	1	1106
+SAG	Pelagibacteraceae	Proventipelagibacter	All	10	1423
+SAG	Pelagibacteraceae	Proventipelagibacter	Ia.4.N3	10	1423
+SAG	Pelagibacteraceae	Punctipelagibacter	All	3	1319
+SAG	Pelagibacteraceae	Punctipelagibacter	Ia.4.N4	3	1319
+SAG	Pelagibacteraceae	Rubripelagibacter	All	5	1357
+SAG	Pelagibacteraceae	Rubripelagibacter	Ib.N11	5	1357
+SAG	Pelagibacteraceae	Stellipelagibacter	All	14	1676
+SAG	Pelagibacteraceae	Stellipelagibacter	Ib.2.I	14	1676
+SAG	Pelagibacteraceae	Superipelagibacter	All	6	1487
+SAG	Pelagibacteraceae	Superipelagibacter	Ib.1	6	1487
+SAG	Pelagibacteraceae	Tantillipelagibacter	All	20	1649
+SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	20	1649
+SAG	Pelagibacteraceae	Undatipelagibacter	All	4	1492
+SAG	Pelagibacteraceae	Undatipelagibacter	Ia.3.VI	4	1492
+SAG	Pelagibacteraceae	Xanthinipelagibacter	All	42	2223
+SAG	Pelagibacteraceae	Xanthinipelagibacter	Ia.3.V	42	2223

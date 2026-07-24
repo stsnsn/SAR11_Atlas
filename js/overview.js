@@ -21,6 +21,8 @@
         lengths: [],
         orthogroups: [],
         genomeType: "All",
+        family: "All",
+        genus: "All",
         subclade: "All",
         annotation: "All"
     };
@@ -104,8 +106,12 @@
 
     function matchesGlobalFilters(row) {
         const type = cleanCategory(row.genome_type);
+        const family = cleanCategory(row.family || row.Family);
+        const genus = cleanCategory(row.genus || row.Genus);
         const subclade = cleanCategory(row.subclade);
         return (state.genomeType === "All" || type === state.genomeType) &&
+            (state.family === "All" || family === state.family) &&
+            (state.genus === "All" || genus === state.genus) &&
             (state.subclade === "All" || subclade === state.subclade);
     }
 
@@ -124,6 +130,50 @@
             option.textContent = value;
             select.appendChild(option);
         });
+    }
+
+    function replaceOptions(select, values, allLabel) {
+        const previous = select.value;
+        select.replaceChildren();
+        const allOption = document.createElement("option");
+        allOption.value = "All";
+        allOption.textContent = allLabel;
+        select.appendChild(allOption);
+        addOptions(select, values);
+        select.value = values.includes(previous) ? previous : "All";
+        return select.value;
+    }
+
+    function refreshTaxonomyFilters() {
+        const typeRows = state.genomes.filter((row) => {
+            return state.genomeType === "All" ||
+                cleanCategory(row.genome_type) === state.genomeType;
+        });
+        state.family = replaceOptions(
+            $("filterFamily"),
+            uniqueSorted(typeRows.map((row) => row.Family)),
+            "All families"
+        );
+
+        const familyRows = typeRows.filter((row) => {
+            return state.family === "All" ||
+                cleanCategory(row.Family) === state.family;
+        });
+        state.genus = replaceOptions(
+            $("filterGenus"),
+            uniqueSorted(familyRows.map((row) => row.Genus)),
+            "All genera"
+        );
+
+        const genusRows = familyRows.filter((row) => {
+            return state.genus === "All" ||
+                cleanCategory(row.Genus) === state.genus;
+        });
+        state.subclade = replaceOptions(
+            $("filterSubclade"),
+            uniqueSorted(genusRows.map((row) => row.subclade)),
+            "All subclades"
+        );
     }
 
     function chartTheme() {
@@ -174,6 +224,8 @@
     function selectedOrthogroupSummary() {
         return state.orthogroups.find((row) => {
             return cleanCategory(row.genome_type) === state.genomeType &&
+                cleanCategory(row.family) === state.family &&
+                cleanCategory(row.genus) === state.genus &&
                 cleanCategory(row.subclade) === state.subclade;
         });
     }
@@ -200,7 +252,10 @@
             "statOrthogroups",
             orthogroupSummary ? Number(orthogroupSummary.n_orthogroups || 0) : NaN
         );
-        $("statOrthogroupCoverage").hidden = state.genomeType !== "All" || state.subclade !== "All";
+        $("statOrthogroupCoverage").hidden = state.genomeType !== "All" ||
+            state.family !== "All" ||
+            state.genus !== "All" ||
+            state.subclade !== "All";
     }
 
     function renderGenomeTypes() {
@@ -369,6 +424,7 @@
             y: rows.map((row) => Number(row.gc_percent)),
             text: rows.map((row) => [
                 `<b>${row.genome_id}</b>`,
+                `${cleanCategory(row.Family)} · ${cleanCategory(row.Genus)}`,
                 `${cleanCategory(row.subclade)} · ${type}`,
                 `${(Number(row.genome_size_bp) / 1e6).toFixed(3)} Mbp · ${Number(row.gc_percent).toFixed(2)}% GC`,
                 `${numberFormat.format(row.n_proteins)} proteins`,
@@ -457,11 +513,22 @@
 
     function initializeFilters() {
         addOptions($("filterGenomeType"), uniqueSorted(state.genomes.map((row) => row.genome_type)));
-        addOptions($("filterSubclade"), uniqueSorted(state.genomes.map((row) => row.subclade)));
+        refreshTaxonomyFilters();
         addOptions($("filterAnnotation"), uniqueSorted(state.annotations.map((row) => row.annotation_combination)));
 
         $("filterGenomeType").addEventListener("change", (event) => {
             state.genomeType = event.target.value;
+            refreshTaxonomyFilters();
+            renderAll();
+        });
+        $("filterFamily").addEventListener("change", (event) => {
+            state.family = event.target.value;
+            refreshTaxonomyFilters();
+            renderAll();
+        });
+        $("filterGenus").addEventListener("change", (event) => {
+            state.genus = event.target.value;
+            refreshTaxonomyFilters();
             renderAll();
         });
         $("filterSubclade").addEventListener("change", (event) => {
@@ -474,10 +541,12 @@
         });
         $("resetOverviewFilters").addEventListener("click", () => {
             state.genomeType = "All";
+            state.family = "All";
+            state.genus = "All";
             state.subclade = "All";
             state.annotation = "All";
             $("filterGenomeType").value = "All";
-            $("filterSubclade").value = "All";
+            refreshTaxonomyFilters();
             $("filterAnnotation").value = "All";
             renderAll();
         });

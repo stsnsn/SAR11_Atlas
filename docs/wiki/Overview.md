@@ -7,7 +7,7 @@ The Overview page provides a visual summary of the SAR11 Genome Atlas and serves
 The summary cards at the top of the page report the current size and annotation coverage of the atlas:
 
 - **Genomes**: 542 SAR11 genomes in the unfiltered collection.
-- **Subclades**: 25 represented SAR11 subclades in the unfiltered collection.
+- **Subclades**: 36 named SAR11 subclades in the unfiltered collection.
 - **Proteins**: 675,669 predicted protein sequences.
 - **With at least one annotation**: 91.8% of proteins have at least one COG, KO, or Pfam assignment.
 - **Orthogroups**: 4,577 groups inferred across the collection; 670,693 proteins, or 99.3%, were assigned to an orthogroup.
@@ -34,10 +34,12 @@ Hover over or focus a card to display its description. Select a card to open tha
 Use the controls under **Explore the collection** to filter the summary statistics and visualizations.
 
 - **Genome type**: show all genomes or select MAGs, SAGs, or cultured isolates.
-- **Subclade**: restrict the collection to a selected SAR11 subclade.
+- **Family**: restrict the collection to a harmonized family-level lineage.
+- **Genus**: restrict the collection to a harmonized genus assignment.
+- **Subclade**: restrict the collection to a harmonized SAR11 subclade.
 - **Reset**: return all filters to their default values.
 
-The selected genome type and subclade are applied simultaneously to all panels. The protein-length panel also has its own annotation-group filter.
+The taxonomy controls are linked in the order genome type, family, genus, and subclade, so each menu presents only values compatible with the preceding selections. These filters are applied simultaneously to all panels. The protein-length panel also has its own annotation-group filter.
 
 ## Genome Sources
 
