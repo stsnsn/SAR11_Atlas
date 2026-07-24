@@ -186,11 +186,6 @@
                         </table>
                     </div>
 
-                <style>
-                    /* ページネーションを非表示に */
-                    .dataTables_wrapper .dataTables_paginate {display: none;}
-                    .dataTables_length {display: none;}
-                </style>
                 <script>
                     $(document).ready(function () {
                         // GitHub上のCSV/TSVファイルのURL
@@ -241,14 +236,23 @@
                                             }
                                     }, "excel", "print"],
                                     responsive: false,
+                                    lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
                                     searching: true,
                                     ordering: true,
                                     paging: true,
+                                    pagingType: "full_numbers",
                                     scroller: false,
                                     language: {
                                         infoEmpty: "No data available",
                                         info: "Showing _START_ to _END_ of _TOTAL_ entries",
+                                        lengthMenu: "Show _MENU_ entries",
                                         search: "Search:",
+                                        paginate: {
+                                            first: "First",
+                                            previous: "Previous",
+                                            next: "Next",
+                                            last: "Last"
+                                        }
                                     }
                                 });
                             }

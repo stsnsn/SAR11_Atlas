@@ -105,6 +105,8 @@ The remaining work is primarily Zenodo publication and final quality assurance r
 - [ ] Replace all temporary public-data URLs listed below with `stsnsn/SAR11_Atlas` URLs and confirm HTTP 200 responses.
 - [ ] At the same publication switch, replace the legacy `https://stsnsn.github.io/SAR11_Gene_Catalog/` canonical URLs in the HTML files with the final `https://stsnsn.github.io/SAR11_Atlas/` URL.
 - [ ] Test the Genome Information and OG Information Taxonium views and the full Cosmograph neighboring network after the URL replacement.
+- [ ] Upload the promoted `subclade_cat.tsv` and `tree_annottable_ogpage_542.tsv` together; confirm that ARS1 and MED605 are Mesopelagibacteraceae in both external copies.
+- [ ] Run `audit_taxonomy_outputs.R` and confirm that the four full metadata tables contain the same 562 genomes, the Overview summary contains the same 542 SAR11 genomes, and no Family assignment is missing in Clades I-III.
 - [ ] After Zenodo publication, check every Download-page link, external archive name, displayed size, status badge, and update date. Local file existence and sizes are already verified; the reserved DOI and public records API returned HTTP 404 while the record remained a draft on 2026-07-23.
 - [ ] Confirm that no Google Analytics, consent, private URL, API key, credential, local filesystem URL, or unpublished server path remains in public HTML, JavaScript, CSS, or documentation.
 - [ ] Perform owner-led Chrome, Safari, and mobile checks for navigation, Deep/Shallow switching, fixed table headers, network labels/backgrounds, Plotly interactions, Mol* loading, downloads, and horizontal overflow.
