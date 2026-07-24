@@ -45,6 +45,10 @@ The genome information table lists 542 SAR11 genomes and 20 alphaproteobacterial
 
 The generic **description** field contains the available sampling-region description. Longhurst codes are retained only for marine records. Freshwater and other nonmarine records keep Longhurst fields as `NA` and are described with **habitat_type** and **waterbody_name** instead.
 
+Marine provinces were assigned from sampling longitude and latitude using the **Longhurst Provinces version 4 (March 2010)** polygon layer distributed by [Marine Regions/Flanders Marine Institute](https://www.marineregions.org/downloads.php#longhurst). Coordinates were treated as WGS84 points and matched to the containing province by a point-in-polygon procedure. Re-running this assignment for the final metadata reproduced all 508 automatic assignments. Thirteen marine records outside the polygons near a coastline or boundary were retained as manually reviewed assignments: 12 records share one western Mediterranean sampling coordinate and one record is from the Antarctic Ocean. Records without coordinates were not inferred.
+
+Longhurst is a marine classification, so freshwater, brackish, and other nonmarine records are intentionally left unassigned even when a coarse polygon overlap is possible. Their source environments are represented by the habitat and waterbody fields instead.
+
 Use the table controls to:
 
 - Search for genomes or metadata terms.
