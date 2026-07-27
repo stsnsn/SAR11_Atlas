@@ -54,6 +54,15 @@
         return String(value);
     }
 
+    function cleanGenomeType(value) {
+        const cleaned = cleanCategory(value);
+        const normalized = cleaned.toLowerCase().replace(/[_-]+/g, " ");
+        if (normalized === "isolate" || normalized === "cultured strain") return "Isolate";
+        if (normalized === "sag") return "SAG";
+        if (normalized === "mag") return "MAG";
+        return cleaned;
+    }
+
     function updateStatValue(id, value, options = {}) {
         const element = $(id);
         const numericValue = Number(value);
@@ -105,7 +114,7 @@
     }
 
     function matchesGlobalFilters(row) {
-        const type = cleanCategory(row.genome_type);
+        const type = cleanGenomeType(row.genome_type);
         const family = cleanCategory(row.family || row.Family);
         const genus = cleanCategory(row.genus || row.Genus);
         const subclade = cleanCategory(row.subclade);
@@ -147,7 +156,7 @@
     function refreshTaxonomyFilters() {
         const typeRows = state.genomes.filter((row) => {
             return state.genomeType === "All" ||
-                cleanCategory(row.genome_type) === state.genomeType;
+                cleanGenomeType(row.genome_type) === state.genomeType;
         });
         state.family = replaceOptions(
             $("filterFamily"),
@@ -223,7 +232,7 @@
 
     function selectedOrthogroupSummary() {
         return state.orthogroups.find((row) => {
-            return cleanCategory(row.genome_type) === state.genomeType &&
+            return cleanGenomeType(row.genome_type) === state.genomeType &&
                 cleanCategory(row.family) === state.family &&
                 cleanCategory(row.genus) === state.genus &&
                 cleanCategory(row.subclade) === state.subclade;
@@ -261,7 +270,7 @@
     function renderGenomeTypes() {
         const counts = new Map();
         filteredGenomes().forEach((row) => {
-            const type = cleanCategory(row.genome_type);
+            const type = cleanGenomeType(row.genome_type);
             counts.set(type, (counts.get(type) || 0) + 1);
         });
 
@@ -410,7 +419,7 @@
         const genomes = filteredGenomes();
         const grouped = new Map();
         genomes.forEach((row) => {
-            const type = cleanCategory(row.genome_type);
+            const type = cleanGenomeType(row.genome_type);
             if (!grouped.has(type)) grouped.set(type, []);
             grouped.get(type).push(row);
         });
@@ -512,7 +521,7 @@
     }
 
     function initializeFilters() {
-        addOptions($("filterGenomeType"), uniqueSorted(state.genomes.map((row) => row.genome_type)));
+        addOptions($("filterGenomeType"), uniqueSorted(state.genomes.map((row) => cleanGenomeType(row.genome_type))));
         refreshTaxonomyFilters();
         addOptions($("filterAnnotation"), uniqueSorted(state.annotations.map((row) => row.annotation_combination)));
 
