@@ -24,7 +24,7 @@ Select a plotted annotation to open its external database record when a link is 
 
 ## Phylogenetic Distribution
 
-The Taxonium panel shows presence or absence of the selected orthogroup across the bac120 IQ-TREE phylogeny. The tree was rooted with 20 alphaproteobacterial outgroups and then pruned to the 542 SAR11 genomes shown in the panel. Orthogroup presence is calculated from the current 542-genome OrthoFinder assignment.
+The Taxonium panel shows presence or absence of the selected orthogroup across the default SAR11_165 IQ-TREE 2 phylogeny. The tree was rooted with 20 alphaproteobacterial outgroups and then pruned to the 542 SAR11 genomes shown in the panel. Orthogroup presence is calculated from the current 542-genome OrthoFinder assignment.
 
 ## Expression Profile
 

@@ -13,7 +13,7 @@ The following resources can currently be downloaded directly:
 - **Orthogroup annotations and chart data**: `og_suggest.tsv` contains representative annotations for all 4,577 orthogroups. The KO and COG count tables drive the pie charts, and the Pfam count table drives the bar chart in the OG Information Viewer.
 - **Orthogroup HMM profiles**: `SAR11_Orthogroups_4577.hmm.tar.gz` contains the combined profile-HMM library for all 4,577 orthogroups.
 - **Resolved orthogroup gene trees**: `Resolved_Gene_Trees.txt.tar.gz` contains 3,411 resolved gene trees.
-- **Species phylogenies**: the rooted bac120 IQ-TREE phylogeny and alternative FastTree phylogenies inferred from bac120 and SAR11_165 marker sets.
+- **Species phylogenies**: the default rooted SAR11_165 IQ-TREE 2 phylogeny, the original SAR11_165 and bac120 IQ-TREE 2 trees with outgroups, and alternative rooted bac120 and FastTree results.
 - **All-vs-all ANI and AAI results**: the directional FastANI v1.34 output, a symmetric 542-genome ANI matrix, and the CompareM v0.1.2 pairwise AAI summary.
 - **Neighboring-gene network**: `neighbor_network.tsv` is the directed edge table used by the Neighboring Network page.
 - **CORGIAS network**: `corgias_network.tsv` contains the significant phylogenetically informed OG associations used by the network and result table.
@@ -45,9 +45,9 @@ The Zenodo-hosted `SAR11_Orthogroups_4577.hmm.tar.gz` archive provides one profi
 
 ## Species Phylogenies
 
-`SAR11_542_bac120_iqtree_rooted_SAR11_only.tree` contains the same 542 SAR11 tips displayed in the Genome Information and OG Information Taxonium views. It was rooted using 20 alphaproteobacterial outgroups before those outgroups were pruned.
+`SAR11_542_SCG165_iqtree_rooted_SAR11_only.tree` is the default tree displayed in the Genome Information and OG Information Taxonium views. The original SAR11_165 IQ-TREE 2 tree was rooted using 20 alphaproteobacterial outgroups before those outgroups were pruned, leaving the 542 SAR11 tips.
 
-`SAR11_542_SCG165_fasttree.tree` and `SAR11_542_bac120_fasttree.tree` provide alternative marker-set and inference-method results. The SAR11_165 HMM profiles were obtained from the [Meren Lab SAR11 phylogenomics workflow](https://merenlab.org/data/sar11-phylogenomics/), which describes the SAR11-focused genes retained from an earlier curated collection of 200 Alphaproteobacterial single-copy genes.
+The original 562-tip SAR11_165 and bac120 IQ-TREE 2 trees, the rooted 542-tip bac120 IQ-TREE 2 tree, and the two FastTree trees are retained for comparison. The SAR11_165 HMM profiles were obtained from the [Meren Lab SAR11 phylogenomics workflow](https://merenlab.org/data/sar11-phylogenomics/), which describes the SAR11-focused genes retained from an earlier curated collection of 200 Alphaproteobacterial single-copy genes.
 
 ## Functional Annotations
 

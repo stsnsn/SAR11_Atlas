@@ -32,7 +32,7 @@ Click an individual marker to open a popup containing the metadata for that geno
 
 ## SAR11 Genome Phylogeny
 
-The phylogenetic tree was inferred with IQ-TREE from the bac120 marker alignment, rooted with 20 alphaproteobacterial outgroups, and then pruned to the 542 SAR11 genomes displayed in Taxonium. The tree and Taxonium metadata are loaded from the public atlas-data repository so the embedded viewer can access them while the development repository remains private. Taxonium supports interactive zooming, panning, searching, and metadata-based coloring.
+The default phylogenetic tree was inferred with IQ-TREE 2 from the SAR11_165 marker alignment, rooted with 20 alphaproteobacterial outgroups, and then pruned to the 542 SAR11 genomes displayed in Taxonium. The tree and Taxonium metadata are loaded from the public SAR11 Genome Atlas repository. Taxonium supports interactive zooming, panning, searching, and metadata-based coloring.
 
 Use the tree controls to:
 
