@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Conceptual workflow for harmonizing SAR11 taxonomy</title>
+  <desc id="desc">A workflow diagram showing evidence collection, ANI-based species transfer, dual-tree crown interpolation, confidence assignment, and audited taxonomy output.</desc>
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#073B4C"/>
+      <stop offset="58%" stop-color="#087E8B"/>
+      <stop offset="100%" stop-color="#38A3A5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#17324D" flood-opacity="0.11"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#4C6578"/>
+    </marker>
+    <style>
+      .title { font: 700 40px "Avenir Next", "Helvetica Neue", Arial, sans-serif; fill: #FFFFFF; }
+      .subtitle { font: 400 19px "Avenir Next", "Helvetica Neue", Arial, sans-serif; fill: #D8F3F2; }
+      .section { font: 700 22px "Avenir Next", "Helvetica Neue", Arial, sans-serif; fill: #123447; }
+      .step { font: 700 15px "Avenir Next", "Helvetica Neue", Arial, sans-serif; letter-spacing: 1.4px; fill: #087E8B; }
+      .body { font: 400 17px "Avenir Next", "Helvetica Neue", Arial, sans-serif; fill: #314B5D; }
+      .bodyStrong { font: 700 17px "Avenir Next", "Helvetica Neue", Arial, sans-serif; fill: #17384A; }
+      .small { font: 400 15px "Avenir Next", "Helvetica Neue", Arial, sans-serif; fill: #526A79; }
+      .badge { font: 700 15px "Avenir Next", "Helvetica Neue", Arial, sans-serif; fill: #FFFFFF; }
+      .metric { font: 700 22px "Avenir Next", "Helvetica Neue", Arial, sans-serif; fill: #073B4C; }
+      .metricLabel { font: 600 13px "Avenir Next", "Helvetica Neue", Arial, sans-serif; fill: #526A79; letter-spacing: 0.4px; }
+      .note { font: 500 15px "Avenir Next", "Helvetica Neue", Arial, sans-serif; fill: #6B4B13; }
+      .arrow { stroke: #4C6578; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .divider { stroke: #D7E4E9; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1120" fill="#F5F8FA"/>
+  <rect x="0" y="0" width="1800" height="140" fill="url(#headerGradient)"/>
+  <text class="title" x="70" y="62">Harmonizing taxonomy across the 542-genome SAR11 Atlas</text>
+  <text class="subtitle" x="72" y="101">Hierarchical evidence transfer with conservative ANI matching and dual-phylogeny crown interpolation</text>
+
+  <!-- Input card 1 -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="180" width="510" height="250" rx="20" fill="#FFFFFF"/>
+  </g>
+  <rect x="50" y="180" width="10" height="250" rx="5" fill="#138A8A"/>
+  <circle cx="102" cy="225" r="24" fill="#138A8A"/>
+  <text class="badge" x="102" y="231" text-anchor="middle">01</text>
+  <text class="step" x="142" y="217">CLASSIFIED REFERENCE GENOMES</text>
+  <text class="section" x="142" y="247">Direct literature evidence</text>
+  <text class="body" x="85" y="291">
+    <tspan x="85" dy="0">Marine lineages: Freel et al. (2025)</tspan>
+    <tspan x="85" dy="31">Freshwater lineages: Lanclos et al. and</tspan>
+    <tspan x="85" dy="25">Fernandes et al.</tspan>
+    <tspan x="85" dy="31">Type strains and previously used genomes</tspan>
+    <tspan x="85" dy="31">Clade III labels retained from curated metadata</tspan>
+  </text>
+
+  <!-- Input card 2 -->
+  <g filter="url(#shadow)">
+    <rect x="645" y="180" width="510" height="250" rx="20" fill="#FFFFFF"/>
+  </g>
+  <rect x="645" y="180" width="10" height="250" rx="5" fill="#E99A2F"/>
+  <circle cx="697" cy="225" r="24" fill="#E99A2F"/>
+  <text class="badge" x="697" y="231" text-anchor="middle">02</text>
+  <text class="step" x="737" y="217" fill="#B76C00">ALL-VS-ALL ANI AND AAI</text>
+  <text class="section" x="737" y="247">Conservative species transfer</text>
+  <text class="body" x="680" y="286">
+    <tspan x="680" dy="0">fastANI v1.34 and CompareM v0.1.2 aai_wf</tspan>
+    <tspan x="680" dy="29">Mean of reciprocal ANI estimates</tspan>
+    <tspan x="680" dy="29">Transfer only at ANI &gt;=95% and AAI &gt;=95%</tspan>
+    <tspan x="680" dy="29">All qualifying references must agree</tspan>
+  </text>
+  <rect x="680" y="391" width="435" height="26" rx="13" fill="#FFF3DF"/>
+  <text class="small" x="897" y="409" text-anchor="middle" fill="#8A5A0A">Species is never inferred from topology alone</text>
+
+  <!-- Input card 3 -->
+  <g filter="url(#shadow)">
+    <rect x="1240" y="180" width="510" height="250" rx="20" fill="#FFFFFF"/>
+  </g>
+  <rect x="1240" y="180" width="10" height="250" rx="5" fill="#3B82F6"/>
+  <circle cx="1292" cy="225" r="24" fill="#3B82F6"/>
+  <text class="badge" x="1292" y="231" text-anchor="middle">03</text>
+  <text class="step" x="1332" y="217" fill="#2464C7">INDEPENDENT PHYLOGENIES</text>
+  <text class="section" x="1332" y="247">Two marker-gene trees</text>
+  <text class="body" x="1275" y="286">
+    <tspan x="1275" dy="0">bac120: IQ-TREE 2 with UFBoot</tspan>
+    <tspan x="1275" dy="29">SAR11_165: IQ-TREE 2 with UFBoot</tspan>
+    <tspan x="1275" dy="29">Rooted with the same 20 outgroups</tspan>
+    <tspan x="1275" dy="29">Outgroups removed before SAR11 assignment</tspan>
+  </text>
+  <rect x="1275" y="391" width="435" height="26" rx="13" fill="#EAF2FF"/>
+  <text class="small" x="1492" y="409" text-anchor="middle" fill="#245EA8">Final dual-IQ-TREE 2 taxonomy workflow</text>
+
+  <!-- Connections to central rule -->
+  <path class="arrow" d="M305 430 L305 480 L650 480 L650 510"/>
+  <path class="arrow" d="M900 430 L900 510"/>
+  <path class="arrow" d="M1495 430 L1495 480 L1150 480 L1150 510"/>
+
+  <!-- Central methodology -->
+  <g filter="url(#shadow)">
+    <rect x="245" y="520" width="1310" height="245" rx="24" fill="#FFFFFF"/>
+  </g>
+  <rect x="245" y="520" width="1310" height="56" rx="24" fill="#E8F5F5"/>
+  <rect x="245" y="552" width="1310" height="24" fill="#E8F5F5"/>
+  <text class="step" x="285" y="554">04  SEED-BOUNDED CROWN INTERPOLATION</text>
+
+  <line class="divider" x1="680" y1="602" x2="680" y2="731"/>
+  <line class="divider" x1="1122" y1="602" x2="1122" y2="731"/>
+
+  <text class="bodyStrong" x="285" y="616">Seed hierarchy</text>
+  <text class="body" x="285" y="650">
+    <tspan x="285" dy="0">Primary: literature or type-strain evidence</tspan>
+    <tspan x="285" dy="29">Supplementary: ANI-based assignments</tspan>
+    <tspan x="285" dy="29">At least 1 primary and 2 total seeds</tspan>
+    <tspan x="285" dy="29">Topology assignments are never reused as seeds</tspan>
+  </text>
+
+  <text class="bodyStrong" x="720" y="616">Eligible crown in each tree</text>
+  <text class="body" x="720" y="650">
+    <tspan x="720" dy="0">At least 2 same-taxon seeds</tspan>
+    <tspan x="720" dy="29">No competing seed at the same rank</tspan>
+    <tspan x="720" dy="29">Parent Family must be consistent</tspan>
+    <tspan x="720" dy="29">Use the smallest eligible nested crown</tspan>
+  </text>
+
+  <text class="bodyStrong" x="1162" y="616">Assignment scope</text>
+  <text class="body" x="1162" y="650">
+    <tspan x="1162" dy="0">Family is evaluated independently</tspan>
+    <tspan x="1162" dy="29">Genus and Subclade are evaluated jointly</tspan>
+    <tspan x="1162" dy="29">Interpolation inside a crown is allowed</tspan>
+    <tspan x="1162" dy="29">Extrapolation beyond a crown is prohibited</tspan>
+  </text>
+
+  <path class="arrow" d="M900 765 L900 812"/>
+
+  <!-- Consensus -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="825" width="650" height="205" rx="20" fill="#FFFFFF"/>
+  </g>
+  <rect x="50" y="825" width="10" height="205" rx="5" fill="#087E8B"/>
+  <text class="step" x="85" y="864">05  DUAL-TREE CONSENSUS</text>
+  <text class="bodyStrong" x="85" y="899">Assign only when both trees support the same lineage</text>
+  <text class="body" x="85" y="934">
+    <tspan x="85" dy="0">Candidate lies within an eligible crown in both trees</tspan>
+    <tspan x="85" dy="29">Both trees return the same Family or Genus/Subclade</tspan>
+    <tspan x="85" dy="29">Discordant, conflicting, or unsupported genomes remain unassigned</tspan>
+  </text>
+
+  <path class="arrow" d="M700 927 L775 927"/>
+
+  <!-- Confidence -->
+  <g filter="url(#shadow)">
+    <rect x="790" y="825" width="480" height="205" rx="20" fill="#FFFFFF"/>
+  </g>
+  <text class="step" x="825" y="864">06  CONFIDENCE</text>
+  <rect x="825" y="890" width="185" height="42" rx="21" fill="#DDF3E5"/>
+  <text class="bodyStrong" x="917" y="917" text-anchor="middle" fill="#277348">HIGH</text>
+  <text class="small" x="1030" y="916">both supports &gt;=0.95</text>
+  <rect x="825" y="945" width="185" height="42" rx="21" fill="#FFF0D6"/>
+  <text class="bodyStrong" x="917" y="972" text-anchor="middle" fill="#9A6100">PROVISIONAL</text>
+  <text class="small" x="1030" y="963">
+    <tspan x="1030" dy="0">both &gt;=0.50;</tspan>
+    <tspan x="1030" dy="21">at least one &lt;0.95</tspan>
+  </text>
+  <text class="small" x="825" y="1011">Either support &lt;0.50: no topology-based assignment</text>
+
+  <path class="arrow" d="M1270 927 L1315 927"/>
+
+  <!-- Output -->
+  <g filter="url(#shadow)">
+    <rect x="1330" y="825" width="420" height="205" rx="20" fill="#FFFFFF"/>
+  </g>
+  <rect x="1330" y="825" width="10" height="205" rx="5" fill="#D95852"/>
+  <text class="step" x="1365" y="864" fill="#B94742">07  AUDITED OUTPUT</text>
+  <text class="body" x="1365" y="900">
+    <tspan x="1365" dy="0">Taxonomic label and rank</tspan>
+    <tspan x="1365" dy="28">Evidence source and confidence</tspan>
+    <tspan x="1365" dy="28">Support in both phylogenies</tspan>
+    <tspan x="1365" dy="28">Candidate crown and decision trail</tspan>
+  </text>
+  <rect x="1365" y="992" width="100" height="28" rx="14" fill="#E8F5F5"/>
+  <text class="metric" x="1415" y="1015" text-anchor="middle">542</text>
+  <text class="metricLabel" x="1480" y="1011">SAR11 GENOMES</text>
+
+  <!-- Footer -->
+  <rect x="50" y="1060" width="1700" height="38" rx="19" fill="#FFF4DE"/>
+  <circle cx="77" cy="1079" r="7" fill="#E99A2F"/>
+  <text class="note" x="96" y="1085">Final assignments use seed-bounded crowns supported consistently by bac120 and SAR11_165 IQ-TREE 2 phylogenies.</text>
+</svg>

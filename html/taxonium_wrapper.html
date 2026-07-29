@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -28,8 +28,8 @@
         const og = params.get('og') || 'OG0000000';
         const ts = params.get('ts') || Date.now();
 
-        const treeUrl = 'https://raw.githubusercontent.com/stsnsn/public_data/main/SAR11_542_bac120_iqtree_rooted_SAR11_only.tree';
-        const metaUrl = 'https://raw.githubusercontent.com/stsnsn/public_data/main/tree_annottable_ogpage_542.tsv';
+        const treeUrl = 'https://raw.githubusercontent.com/stsnsn/SAR11_Atlas/master/data/phylogeny/tree/SAR11_542_SCG165_iqtree_rooted_SAR11_only.tree';
+        const metaUrl = 'https://raw.githubusercontent.com/stsnsn/SAR11_Atlas/master/data/phylogeny/tree/tree_annottable_ogpage_542.tsv';
         const colorParam = encodeURIComponent(JSON.stringify({ field: `meta_${og}` }));
 
         const taxoniumUrl = `https://taxonium.org/?treeUrl=${encodeURIComponent(treeUrl)}&ladderizeTree=true&treeType=nwk&metaUrl=${encodeURIComponent(metaUrl)}&metaType=meta_tsv&xType=x_dist&color=${colorParam}&ts=${ts}`;
