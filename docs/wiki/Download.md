@@ -17,7 +17,7 @@ The following resources can currently be downloaded directly:
 - **Species phylogenies**: the final dual-IQ-TREE 2 analysis, comprising the default rooted SAR11_165 phylogeny, the original SAR11_165 and bac120 trees with outgroups, and the rooted bac120 derivative. The SAR11_165 and bac120 FastTree results are retained as comparison trees and are not the final taxonomy.
 - **All-vs-all ANI and AAI results**: the directional FastANI v1.34 output, a symmetric 542-genome ANI matrix, and the CompareM v0.1.2 pairwise AAI summary.
 - **Neighboring-gene network**: `neighbor_network.tsv` is the directed edge table used by the Neighboring Network page.
-- **CORGIAS network**: `corgias_network.tsv` contains the significant phylogenetically informed OG associations used by the network and result table.
+- **CORGIAS results**: `corgias_network.tsv` contains the significant phylogenetically informed OG associations calculated with the rooted SAR11_165 phylogeny and used by the network and result table. `bac120_stat_sev.tsv` contains the corresponding significant associations calculated with the rooted bac120 phylogeny.
 - **High-similarity UniProt matches**: gene-level, OG-representative, and AlphaFoldDB-confirmed match tables generated against UniProtKB release 2026_01 at a minimum of 85% identity.
 - **Broader UniProt similarity results**: `uniprot_pid30_cov80_filtered_hits.tsv.gz` contains the filtered 30%-identity search results used to identify homologous structure references.
 - **Tara Oceans metatranscriptomic quantification**: `SAR11_merged_metaT.tsv.gz` contains the gene-level quantification table for 509 runs used to derive OG Expression Scores.
@@ -81,7 +81,7 @@ A broader DIAMOND search using a minimum identity of 30% and `--max-target-seqs 
 
 ## Network And Expression Resources
 
-The directly available network files are the complete edge tables used by the Neighboring Network and CORGIAS Network interfaces. The CORGIAS edge table was calculated using the rooted SAR11_165 IQ-TREE 2 phylogeny. Larger supporting files are distributed through the Zenodo release:
+The directly available network files include the complete edge tables used by the Neighboring Network and CORGIAS Network interfaces. The CORGIAS viewer edge table (`corgias_network.tsv`) was calculated using the rooted SAR11_165 IQ-TREE 2 phylogeny. The directly downloadable `bac120_stat_sev.tsv` table contains 18,606 significant associations from the parallel CORGIAS analysis using the rooted bac120 IQ-TREE 2 phylogeny. Larger supporting files are distributed through the Zenodo release:
 
 - `gene_coordinates_with_og.tsv`, which underlies the neighborhood, operon, and neighboring-network analyses.
 - `CORGIAS_result.csv`, the complete CORGIAS analysis output beyond the compact significant-edge table.
