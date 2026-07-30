@@ -11,6 +11,7 @@ The following resources can currently be downloaded directly:
 - **Full protein-level annotations**: `all_prot_annotations.tsv` contains orthogroup assignments, COGclassifier, KOfamScan, PfamScan, quickARSC, and related fields for all 675,669 predicted proteins.
 - **Orthogroup assignments and statistics**: `SAR11_Orthogroup_Assignments_542.tar.gz` contains the core OrthoFinder 3 assignment, count, overlap, hierarchical-orthogroup, species-tree, and run-information files.
 - **Orthogroup annotations and chart data**: `og_suggest.tsv` contains representative annotations for all 4,577 orthogroups. The KO and COG count tables drive the pie charts, and the Pfam count table drives the bar chart in the OG Information Viewer.
+- **OG representative protein sequences**: `OG_representative_sequences.faa` contains one observed representative protein for each of the 4,577 orthogroups. `representative_sequences.tsv` records the selected sequence ID, length, alignment gap count, identity and difference counts, and percent change from the multiple-alignment consensus.
 - **Orthogroup HMM profiles**: `SAR11_Orthogroups_4577.hmm.tar.gz` contains the combined profile-HMM library for all 4,577 orthogroups.
 - **Resolved orthogroup gene trees**: `Resolved_Gene_Trees.txt.tar.gz` contains 3,411 resolved gene trees.
 - **Species phylogenies**: the final dual-IQ-TREE 2 analysis, comprising the default rooted SAR11_165 phylogeny, the original SAR11_165 and bac120 trees with outgroups, and the rooted bac120 derivative. The SAR11_165 and bac120 FastTree results are retained as comparison trees and are not the final taxonomy.
@@ -42,6 +43,15 @@ The OrthoFinder archive includes `Orthogroups.tsv`, `Orthogroups.GeneCount.tsv`,
 The resolved gene-tree archive contains trees for the 3,411 orthogroups with at least four protein sequences. In the OrthoFinder 3 default workflow, amino-acid sequences were aligned with FAMSA, approximate maximum-likelihood trees were inferred with FastTree using `-fastest`, and OrthoFinder rooted and resolved the trees with its hybrid species-overlap/duplication-loss coalescent procedure.
 
 The Zenodo-hosted `SAR11_Orthogroups_4577.hmm.tar.gz` archive provides one profile HMM for each orthogroup in a combined HMM file; individual profiles can be extracted with `hmmfetch`.
+
+## OG Representative Sequences
+
+The compact files used by the browser-based [OG Representative Similarity Search](OG-Representative-Similarity-Search) are available directly:
+
+- [`OG_representative_sequences.faa`](https://stsnsn.github.io/SAR11_Atlas/data/BLAST/OG_representative_sequences.faa) contains one representative amino-acid sequence for each of the 4,577 orthogroups. FASTA headers use the form `OG_ID|Sequence_ID`.
+- [`representative_sequences.tsv`](https://stsnsn.github.io/SAR11_Atlas/data/BLAST/representative_sequences.tsv) records the representative selection statistics.
+
+For each OG, the representative is an observed member sequence rather than a synthetic consensus. It was selected as the sequence with the lowest EMBOSS `infoalign` percent change from the existing multiple-sequence-alignment consensus; ties were resolved by lower gap count and then sequence ID. These representatives support rapid exploratory assignment but do not capture all within-OG diversity. For more sensitive assignment, use the combined OG HMM profiles with HMMER.
 
 ## Species Phylogenies
 

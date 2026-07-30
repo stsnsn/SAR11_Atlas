@@ -98,6 +98,21 @@ body {
   background-color: #000000 ; /* ホバー時に海の深い色 */
 }
 
+.nav-beta-badge {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.08rem 0.35rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 999px;
+  color: #ffe08a;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  line-height: 1.25;
+  text-transform: uppercase;
+  vertical-align: 0.08rem;
+}
+
 /* ボタン、リンクのホバーエフェクト */
 button {
   background-color: #0288d1; /* 水の青色 */

@@ -5,6 +5,7 @@
 - [Genome Information](SAR11-Genome-Information)
 - [OG Information Viewer](OG-Information-Viewer)
 - [All OG List](All-OG-List)
+- [OG Representative Similarity Search (Beta)](OG-Representative-Similarity-Search)
 - [Neighboring Genes](Neighboring-Genes)
 - [Neighboring Network](Neighboring-Network)
 - [CORGIAS Network](CORGIAS-Network)
