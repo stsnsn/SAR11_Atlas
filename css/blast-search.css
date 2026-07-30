@@ -265,6 +265,24 @@ body.dark-mode .blast-database-version {
   border-color: rgba(210, 231, 238, 0.16);
 }
 
+body.dark-mode .blast-results-table {
+  color: #dce9ed;
+}
+
+body.dark-mode .blast-results-table th,
+body.dark-mode .blast-results-table td {
+  border-color: rgba(210, 231, 238, 0.16);
+}
+
+body.dark-mode .blast-results-table.table-hover tbody tr:hover {
+  background: rgba(92, 175, 199, 0.1);
+  color: #f2fbfd;
+}
+
+body.dark-mode .blast-detail-button {
+  color: #9ec9d5;
+}
+
 body.dark-mode .blast-note-grid p,
 body.dark-mode .blast-results-table small,
 body.dark-mode .blast-progress-message,

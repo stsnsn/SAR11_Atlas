@@ -422,12 +422,11 @@ function getSharedExpressionRange(data, useLogAxis) {
 }
 
 function getCorrelationPlotTheme() {
-    const dark = document.body.classList.contains('dark-mode');
     return {
-        text: dark ? '#eaf7fa' : '#143f50',
-        muted: dark ? '#aac2cc' : '#607985',
-        grid: dark ? 'rgba(170, 194, 204, 0.16)' : 'rgba(20, 63, 80, 0.12)',
-        plot: dark ? '#102733' : '#f8fbfb'
+        text: '#143f50',
+        muted: '#607985',
+        grid: 'rgba(20, 63, 80, 0.12)',
+        plot: '#f8fbfb'
     };
 }
 
@@ -474,7 +473,7 @@ function prepareCorrelationPlot(pair, label, sharedRange, useLogAxis) {
         autosize: true,
         showlegend: false,
         hovermode: 'closest',
-        paper_bgcolor: 'rgba(0,0,0,0)',
+        paper_bgcolor: theme.plot,
         plot_bgcolor: theme.plot,
         font: { color: theme.text, family: 'Aptos, Helvetica Neue, sans-serif', size: 12 },
         margin: { l: 68, r: 22, t: 76, b: 58 },
@@ -574,7 +573,7 @@ function renderSizeFractionPlot(data, parameter, useLogAxis) {
         autosize: true,
         showlegend: false,
         hovermode: 'closest',
-        paper_bgcolor: 'rgba(0,0,0,0)',
+        paper_bgcolor: theme.plot,
         plot_bgcolor: theme.plot,
         font: { color: theme.text, family: 'Aptos, Helvetica Neue, sans-serif', size: 12 },
         margin: { l: 68, r: 22, t: 76, b: 64 },
