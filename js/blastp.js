@@ -115,7 +115,6 @@
       row.append(makeCell(formatPercent(result.query_coverage), "blast-number"));
       row.append(makeCell(formatPercent(result.subject_coverage), "blast-number"));
       row.append(makeCell(String(result.sequence_length), "blast-number"));
-      row.append(makeCell(result.subclade || "—"));
 
       const actionCell = document.createElement("td");
       const button = document.createElement("button");
@@ -268,7 +267,7 @@
     const headers = [
       "Query_name", "Query_length", "Rank", "OG_ID", "Representative_sequence_ID",
       "Annotation", "Score", "Normalized_score", "Identity_percent", "Alignment_length",
-      "Query_coverage_percent", "Subject_coverage_percent", "Subject_length", "Subclade",
+      "Query_coverage_percent", "Subject_coverage_percent", "Subject_length",
       "Database_version", "Search_date", "Scoring_matrix", "Gap_open", "Gap_extension",
     ];
     const escape = (value) => {
@@ -281,7 +280,7 @@
       searchData.query.name, searchData.query.length, result.rank, result.og_id,
       result.sequence_id, result.annotation, result.score, result.normalized_score.toFixed(4),
       result.identity.toFixed(2), result.alignment_length, result.query_coverage.toFixed(2),
-      result.subject_coverage.toFixed(2), result.sequence_length, result.subclade,
+      result.subject_coverage.toFixed(2), result.sequence_length,
       searchData.version.database_version, searchData.searched_at,
       searchData.version.scoring_matrix, searchData.version.gap_open,
       searchData.version.gap_extension,

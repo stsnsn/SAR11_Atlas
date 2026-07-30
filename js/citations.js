@@ -22,6 +22,10 @@
         "SAR11_phylogeny.html": { wiki: "SAR11-Genome-Information", wikiTitle: "SAR11 Genome Information" },
         "SAR11_OG_info.html": { wiki: "OG-Information-Viewer", wikiTitle: "OG Information Viewer" },
         "og_list.html": { wiki: "All-OG-List", wikiTitle: "All OG List" },
+        "SAR11_BLAST.html": {
+            wiki: "OG-Representative-Similarity-Search",
+            wikiTitle: "OG Representative Similarity Search"
+        },
         "SAR11_operon_vis.html": { wiki: "Neighboring-Genes", wikiTitle: "Neighboring Genes" },
         "Neighborhood_network.html": { wiki: "Neighboring-Network", wikiTitle: "Neighboring Network" },
         "Corgias_network.html": {
