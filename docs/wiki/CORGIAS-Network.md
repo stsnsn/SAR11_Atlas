@@ -1,8 +1,8 @@
 # CORGIAS Network
 
-The CORGIAS Network displays phylogenetically informed associations among SAR11 orthogroups, calculated with [CORGIAS](https://doi.org/10.1093/nargab/lqaf182) from the current 542-genome orthogroup matrix and rooted bac120 phylogeny.
+The CORGIAS Network displays phylogenetically informed associations among SAR11 orthogroups, calculated with [CORGIAS](https://doi.org/10.1093/nargab/lqaf182) from the current 542-genome orthogroup matrix and rooted SAR11_165 IQ-TREE 2 phylogeny.
 
-The network contains 18,606 significant associations among 2,987 OGs after multiple-testing correction: 18,403 positive associations and 203 negative associations. Node labels and functional annotations are read from the current `og_suggest.tsv` summary.
+The network contains 17,853 significant associations among 2,982 OGs after multiple-testing correction: 17,631 positive associations and 222 negative associations. Node labels and functional annotations are read from the current `og_suggest.tsv` summary.
 
 Nodes represent orthogroups and are colored by COG functional category. Edges summarize statistically supported relationships:
 
@@ -22,7 +22,7 @@ The status line reports the total, selected, and visualized node counts. If the 
 
 ## Browse Significant Associations
 
-The **CORGIAS result table** lists all 18,606 significant associations and is ordered by ascending q-value by default. Search OG IDs or representative COG and KO annotations, or sort the table by association direction, p-value, q-value, or `-log10(q-value)`. Select an OG ID to open its integrated information page. The complete table can also be downloaded as TSV.
+The **CORGIAS result table** lists all 17,853 significant associations and is ordered by ascending q-value by default. Search OG IDs or representative COG and KO annotations, or sort the table by association direction, p-value, q-value, or `-log10(q-value)`. Select an OG ID to open its integrated information page. The complete table can also be downloaded as TSV.
 
 ## Explore And Export
 

@@ -438,6 +438,16 @@ body.dark-mode .og-structure-empty strong {
     background: var(--og-tint);
 }
 
+.og-viewer .atlas-wiki-guide {
+    margin: 1.5rem 0 -0.75rem;
+    color: var(--og-ink);
+    font-size: 0.9rem;
+}
+
+.og-viewer .atlas-wiki-guide a {
+    font-weight: 750;
+}
+
 .og-viewer .atlas-citation h2 {
     margin: 0 0 0.65rem;
     color: var(--og-accent);

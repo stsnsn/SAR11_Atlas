@@ -77,7 +77,7 @@
 
                 <div class="atlas-intro">
                     <p>Nodes represent OGs and are colored by COG functional category. Red edges indicate co-occurrence, blue edges indicate anti-occurrence, and edge width reflects association significance as -log<sub>10</sub>(q-value).</p>
-                    <p>The current 542-genome network contains 18,606 significant associations among 2,987 OGs. Enter an OG ID, set the exploration depth and minimum significance, then extract its local association network.</p>
+                    <p>The associations were calculated from the current 542-genome orthogroup matrix using the rooted SAR11_165 IQ-TREE 2 phylogeny. The network contains 17,853 significant associations among 2,982 OGs. Enter an OG ID, set the exploration depth and minimum significance, then extract its local association network.</p>
                 </div>
 
                 <button id="toggleTheme" class="theme-toggle mb-3" type="button" data-theme-toggle aria-pressed="false">Deep mode</button>
@@ -150,12 +150,8 @@
                 <script src="../js/Corgias_ego.js"></script>
                 <!-- EDITABLE ZONE END -->
 
-                <div class="atlas-citation">
-                    <h2>Citation information</h2>
-                    <p>Nishino et al. <strong>"SAR11 Genome Atlas."</strong> <em>in prep.</em></p>
-                    <p>Nishimura et al. <strong>"CORGIAS: identifying correlated gene pairs by considering evolutionary history in a large-scale prokaryotic genome dataset."</strong> <em>NAR Genomics and Bioinformatics</em> 7(4), lqaf182 (2025). <a href="https://doi.org/10.1093/nargab/lqaf182" target="_blank" rel="noopener">DOI</a></p>
-                    <p>Nishino et al. <strong>"Functional Unknomics of the SAR11 clade using bioinformatics approaches."</strong> <em>bioRxiv 2025.</em></p>
-                </div>
+                <div class="atlas-citation" data-page-citation></div>
+                <script src="../js/citations.js"></script>
 
             </main>
         </div>

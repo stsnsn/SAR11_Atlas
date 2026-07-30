@@ -967,6 +967,15 @@
     background: var(--atlas-tint);
 }
 
+.atlas-wiki-guide {
+    margin: 1.5rem 0 -0.75rem;
+    font-size: 0.9rem;
+}
+
+.atlas-wiki-guide a {
+    font-weight: 750;
+}
+
 .atlas-citation h2 {
     margin: 0 0 0.65rem;
     color: var(--atlas-accent);

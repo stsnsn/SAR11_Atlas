@@ -81,7 +81,7 @@ A broader DIAMOND search using a minimum identity of 30% and `--max-target-seqs 
 
 ## Network And Expression Resources
 
-The directly available network files are the complete edge tables used by the Neighboring Network and CORGIAS Network interfaces. Larger supporting files are distributed through the Zenodo release:
+The directly available network files are the complete edge tables used by the Neighboring Network and CORGIAS Network interfaces. The CORGIAS edge table was calculated using the rooted SAR11_165 IQ-TREE 2 phylogeny. Larger supporting files are distributed through the Zenodo release:
 
 - `gene_coordinates_with_og.tsv`, which underlies the neighborhood, operon, and neighboring-network analyses.
 - `CORGIAS_result.csv`, the complete CORGIAS analysis output beyond the compact significant-edge table.
