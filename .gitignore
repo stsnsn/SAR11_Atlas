@@ -1,5 +1,47 @@
 .DS_Store
 
+# macOS metadata and editor backup files
+.AppleDouble
+.LSOverride
+Icon?
+._*
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.temp
+*.log
+.cache/
+.env
+
+# Local temporary inputs, downloaded profiles, and runtime outputs
+tmp/*
+!tmp/.gitkeep
+!tmp/README.md
+sga-toolkit/work/
+sga-toolkit/results/
+sga-toolkit/cache/
+sga-toolkit/.snakemake/
+
+# Python build and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+
+# Conda build artifacts
+conda-bld/
+*.conda
+*.tar.bz2
+
 # Full protein-level tables are distributed separately from the web app.
 data/protein_summary.tsv
 data/pfam_all_genomes.domain_level.csv
