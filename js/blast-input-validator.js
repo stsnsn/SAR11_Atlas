@@ -5,11 +5,11 @@
   const MAX_SEQUENCE_LENGTH = 5000;
   const MAX_RAW_INPUT_LENGTH = 100000;
   const MAX_QUERY_NAME_LENGTH = 120;
-  const NUCLEOTIDE_FRACTION_THRESHOLD = 0.98;
+  const NUCLEOTIDE_FRACTION_THRESHOLD = 0.99;
   const AMINO_ACID_PATTERN = /^[ACDEFGHIKLMNPQRSTVWYBZJUO]+$/;
   const REMOVABLE_SEQUENCE_CHARACTERS = /[\s\d*\-]/g;
   const FORBIDDEN_CONTROL_CHARACTERS = /[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/;
-  const IUPAC_NUCLEOTIDES = new Set([..."ACGTURYSWKMBDHVN"]);
+  const IUPAC_NUCLEOTIDES = new Set([..."ATGCURYSWKMBDHVN"]);
 
   function sanitizeQueryName(value) {
     const normalized = String(value ?? "")
