@@ -155,8 +155,11 @@
                             <h3>Search scope</h3>
                             <p>
                                 The database contains one observed representative protein per OG,
-                                selected as the sequence closest to its multiple-alignment consensus.
-                                It does not contain every OG member.
+                                selected from the OG members as the sequence closest to its
+                                multiple-alignment consensus. We used EMBOSS
+                                <code>infoalign</code> to compare each sequence with the
+                                consensus and chose the sequence with the lowest percent change
+                                as the representative. It does not contain every OG member.
                             </p>
                         </div>
                         <div>
