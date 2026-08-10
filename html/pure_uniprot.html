@@ -55,6 +55,7 @@
 
 							// Orthogroup-like column -> open SAR11_OG_info with ogInput param
 							var isOG = (lname === 'orthogroup' || lname.indexOf('orthogroup') !== -1 || lname === 'og' || lname === 'og_id' || lname === 'orthogroup_id');
+							var isMatchType = (lname === 'structure_match_type');
 
 							if (isAccession) {
 								col.render = function(data, type, row, meta) {
@@ -77,6 +78,19 @@
 									} catch (e) {
 										return data;
 									}
+								};
+							} else if (isMatchType) {
+								col.render = function(data, type, row) {
+									var identity = Number(row.pident);
+									var queryCoverage = Number(row.qcovhsp);
+									var subjectCoverage = Number(row.scovhsp);
+									if (identity === 100 && queryCoverage === 100 && subjectCoverage === 100) {
+										return 'Exact sequence match';
+									}
+									if (identity >= 85 && queryCoverage >= 80 && subjectCoverage >= 80) {
+										return 'Close sequence match';
+									}
+									return 'Distant homologous match';
 								};
 							}
 						} catch (e) { /* ignore */ }

@@ -48,6 +48,7 @@
         }
 
         .structure-coverage-donut {
+            --exact-color: #0b6670;
             --close-color: #168f96;
             --homolog-color: #e69a3a;
             --missing-color: #d5dde1;
@@ -58,7 +59,8 @@
             place-items: center;
             border-radius: 50%;
             background: conic-gradient(
-                var(--close-color) 0 36.8%,
+                var(--exact-color) 0 30.8%,
+                var(--close-color) 30.8% 36.8%,
                 var(--homolog-color) 36.8% 65.4%,
                 var(--missing-color) 65.4% 100%
             );
@@ -145,6 +147,7 @@
             line-height: 1.35;
         }
 
+        .structure-coverage-swatch--exact { background: #0b6670; }
         .structure-coverage-swatch--close { background: #168f96; }
         .structure-coverage-swatch--homolog { background: #e69a3a; }
         .structure-coverage-swatch--missing { background: #d5dde1; }
@@ -253,11 +256,13 @@
         }
 
         body.dark-mode .structure-coverage-donut {
+            --exact-color: #238b98;
             --close-color: #40bdc0;
             --homolog-color: #f0aa4f;
             --missing-color: #3d5059;
         }
 
+        body.dark-mode .structure-coverage-swatch--exact { background: #238b98; }
         body.dark-mode .structure-coverage-swatch--close { background: #40bdc0; }
         body.dark-mode .structure-coverage-swatch--homolog { background: #f0aa4f; }
         body.dark-mode .structure-coverage-swatch--missing { background: #3d5059; }
@@ -356,7 +361,7 @@
                 </header>
 
                 <div class="atlas-intro">
-                    <p>Explore close UniProt sequence matches and homologous AlphaFoldDB structure references covering 2,994 of 4,577 SAR11 orthogroups.</p>
+                    <p>Explore exact, close, and more distant homologous UniProt sequence matches with available AlphaFoldDB structure references, covering 2,994 of 4,577 SAR11 orthogroups.</p>
                     <p>The complete DIAMOND similarity-search results and compact structure-reference tables are provided through the <a href="./download.html">Download page</a>. See the <a href="https://github.com/stsnsn/SAR11_Atlas/wiki/Protein-Structures" target="_blank" rel="noopener noreferrer">Protein Structures Wiki</a> for the mapping workflow and interpretation guidance.</p>
                 </div>
 
@@ -369,11 +374,11 @@
                         <div>
                             <p class="atlas-section__kicker">Structure coverage</p>
                             <h2>Orthogroup coverage</h2>
-                            <p>Close matches are preferred; homologous references fill OGs without a close match.</p>
+                            <p>Exact and close matches are preferred; distant homologous matches fill OGs without either.</p>
                         </div>
                     </div>
                     <div class="structure-coverage-visual">
-                        <div class="structure-coverage-donut" role="img" aria-label="Structure-reference coverage: 36.8% close sequence matches, 28.6% additional homologous references, and 34.6% without a qualifying reference.">
+                        <div class="structure-coverage-donut" role="img" aria-label="Structure-reference coverage: 30.8% exact sequence matches, 6.1% additional close sequence matches, 28.6% additional distant homologous matches, and 34.6% without a qualifying reference.">
                             <div class="structure-coverage-center">
                                 <strong>65.4%</strong>
                                 covered
@@ -382,17 +387,25 @@
                         </div>
                         <div class="structure-coverage-legend" aria-label="Structure coverage legend">
                             <div class="structure-coverage-item">
+                                <span class="structure-coverage-swatch structure-coverage-swatch--exact"></span>
+                                <span class="structure-coverage-label">
+                                    <span>Exact sequence match</span>
+                                    <small>Identity 100%; query and subject coverage 100%</small>
+                                </span>
+                                <strong>30.8%</strong>
+                            </div>
+                            <div class="structure-coverage-item">
                                 <span class="structure-coverage-swatch structure-coverage-swatch--close"></span>
                                 <span class="structure-coverage-label">
                                     <span>Close sequence match</span>
-                                    <small>Identity ≥85%; query and subject coverage ≥80%</small>
+                                    <small>Identity ≥85%; query and subject coverage ≥80%; exact matches excluded</small>
                                 </span>
-                                <strong>36.8%</strong>
+                                <strong>6.1%</strong>
                             </div>
                             <div class="structure-coverage-item">
                                 <span class="structure-coverage-swatch structure-coverage-swatch--homolog"></span>
                                 <span class="structure-coverage-label">
-                                    <span>Homologous reference</span>
+                                    <span>Distant homologous match</span>
                                     <small>Identity ≥30%; query and subject coverage ≥80%; E-value ≤1e-5</small>
                                 </span>
                                 <strong>28.6%</strong>
@@ -660,14 +673,13 @@
                             button.setAttribute('aria-selected', 'false');
                             primary.className = 'structure-suggest-primary';
                             accession.textContent = row.accession;
+                            const isClose = row.match_type === 'Close sequence match';
                             badge.className = 'structure-suggest-badge ' + (
-                                row.match_type === 'Close sequence match'
+                                isClose
                                     ? 'structure-suggest-badge--close'
                                     : 'structure-suggest-badge--homolog'
                             );
-                            badge.textContent = row.match_type === 'Close sequence match'
-                                ? 'Close match'
-                                : 'Homologous ref';
+                            badge.textContent = isClose ? 'Exact / close' : 'Distant homolog';
                             secondary.className = 'structure-suggest-secondary';
                             secondary.textContent = [
                                 row.orthogroup,
@@ -762,7 +774,7 @@
                     </div>
                     <a class="atlas-section__link" href="./pure_uniprot.html" target="_blank">Open the match table in full screen</a>
                     <iframe src="./pure_uniprot.html" id="OGs" class="atlas-content-frame" data-theme-sync title="SAR11 protein to UniProt matches" allowfullscreen allow="autoplay"></iframe>
-                    <p class="atlas-note atlas-note--muted"><strong>Reference tiers:</strong> Close matches require identity ≥85% with query and subject coverage ≥80%. Homologous references require identity ≥30%, query and subject coverage ≥80%, and E-value ≤1e-5. A homologous reference is not a structure prediction of the SAR11 protein itself. <a href="https://github.com/stsnsn/SAR11_Atlas/wiki/Protein-Structures" target="_blank" rel="noopener noreferrer">Read the full methodology</a>.</p>
+                    <p class="atlas-note atlas-note--muted"><strong>Sequence-match classes:</strong> Exact matches require 100% identity and 100% query and subject coverage. Close matches require identity ≥85% and both coverage values ≥80%, excluding exact matches. Distant homologous matches require identity ≥30%, both coverage values ≥80%, and E-value ≤1e-5. Only accessions with a confirmed AlphaFoldDB model are shown as structure references. <a href="https://github.com/stsnsn/SAR11_Atlas/wiki/Protein-Structures" target="_blank" rel="noopener noreferrer">Read the full methodology</a>.</p>
                 </section>
 
                 <!-- EDITABLE ZONE END -->
