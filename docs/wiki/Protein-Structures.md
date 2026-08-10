@@ -27,7 +27,7 @@ All 675,669 SAR11 protein sequences were searched separately against the Swiss-P
 7. Sequence matches were classified from their final alignment statistics: **exact sequence matches** have 100% identity and 100% query and subject coverage; **close sequence matches** have at least 85% identity and at least 80% query and subject coverage, excluding exact matches; and **distant homologous matches** have at least 30% identity, at least 80% query and subject coverage, and an E-value no greater than 1e-5.
 8. The final Web table prioritizes exact matches, followed by close matches. AFDB-confirmed distant homologous matches are added only for OGs without either class.
 
-These identity, coverage, and E-value thresholds are the operational cutoffs used to select structure references. The 30%-identity and 80%-coverage combination follows a sequence-similarity criterion used in [Seq2Symm](https://www.nature.com/articles/s41467-025-57148-3). Passing the cutoffs does not prove structural identity or conserved function.
+These identity, coverage, and E-value thresholds are the operational cutoffs used to select structure references. Passing the cutoffs does not prove structural identity or conserved function.
 
 ## Find A Protein Match
 
