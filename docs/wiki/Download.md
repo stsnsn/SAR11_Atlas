@@ -14,7 +14,7 @@ The following resources can currently be downloaded directly:
 - **OG representative protein sequences**: `OG_representative_sequences.faa` contains one observed representative protein for each of the 4,577 orthogroups. `representative_sequences.tsv` records the selected sequence ID, length, alignment gap count, identity and difference counts, and percent change from the multiple-alignment consensus.
 - **Orthogroup HMM profiles**: `SAR11_Orthogroups_4577.hmm.tar.gz` contains the combined profile-HMM library for all 4,577 orthogroups.
 - **Resolved orthogroup gene trees**: `Resolved_Gene_Trees.txt.tar.gz` contains 3,411 resolved gene trees.
-- **Species phylogenies**: the final dual-IQ-TREE 2 analysis, comprising the default rooted SAR11_165 phylogeny, the original SAR11_165 and bac120 trees with outgroups, and the rooted bac120 derivative. The SAR11_165 and bac120 FastTree results are retained as comparison trees and are not the final taxonomy.
+- **Species phylogenies**: the default rooted SAR11_165 IQ-TREE 2 phylogeny used for topology-based taxonomy assignment, plus the original SAR11_165 tree with outgroups. The bac120 IQ-TREE 2 tree and both FastTree results are retained only as comparison trees and are not used for taxonomy assignment.
 - **All-vs-all ANI and AAI results**: the directional FastANI v1.34 output, a symmetric 542-genome ANI matrix, and the CompareM v0.1.2 pairwise AAI summary.
 - **Neighboring-gene network**: `neighbor_network.tsv` is the directed edge table used by the Neighboring Network page.
 - **CORGIAS results**: `corgias_network.tsv` contains the significant phylogenetically informed OG associations calculated with the rooted SAR11_165 phylogeny and used by the network and result table. `bac120_stat_sev.tsv` contains the corresponding significant associations calculated with the rooted bac120 phylogeny.
@@ -27,7 +27,7 @@ The Download cards show the file size next to each available resource. OG-specif
 
 ## Genome Metadata
 
-`subclade_master.tsv` is the complete metadata table with harmonized taxonomic labels. It records the evidence source, confidence category, dual-tree support, and ANI/AAI reference used for each applicable assignment. Previous labels are intentionally excluded from the public subclade tables to avoid mixing classification systems; they are retained only in the internal harmonization audit and archived pre-harmonization files. Two derived forms are maintained for web components:
+`subclade_master.tsv` is the complete metadata table with harmonized taxonomic labels. It records the evidence source, confidence category, SAR11_165 crown support, and ANI/AAI reference used for each applicable assignment. Literature-based assignments and ANI/AAI transfers are retained directly. Topology-based Family, Genus, and Subclade assignments use only the SAR11_165 IQ-TREE 2 phylogeny and require crown support ≥0.95; lower-support candidates remain unassigned. Previous labels are excluded from the public subclade tables to avoid mixing classification systems and are retained in the internal harmonization audit and archived pre-update files. Two derived forms are maintained for web components:
 
 - `subclade.txt` emphasizes numeric sampling depth and coordinates for the searchable table and map.
 - `subclade_cat.tsv` emphasizes categorical metadata for Taxonium coloring.

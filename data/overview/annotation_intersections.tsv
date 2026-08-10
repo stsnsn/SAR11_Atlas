@@ -142,14 +142,6 @@ Isolate	Pelagibacteraceae	Xanthinipelagibacter	Ia.3.V	TRUE	FALSE	FALSE	COG only	
 Isolate	Pelagibacteraceae	Xanthinipelagibacter	Ia.3.V	FALSE	TRUE	TRUE	KO + Pfam	102
 Isolate	Pelagibacteraceae	Xanthinipelagibacter	Ia.3.V	TRUE	TRUE	FALSE	COG + KO	71
 Isolate	Pelagibacteraceae	Xanthinipelagibacter	Ia.3.V	FALSE	TRUE	FALSE	KO only	15
-MAG	NA	NA	NA	TRUE	TRUE	TRUE	COG + KO + Pfam	1518
-MAG	NA	NA	NA	TRUE	FALSE	TRUE	COG + Pfam	817
-MAG	NA	NA	NA	FALSE	FALSE	FALSE	No annotation	527
-MAG	NA	NA	NA	TRUE	FALSE	FALSE	COG only	108
-MAG	NA	NA	NA	FALSE	FALSE	TRUE	Pfam only	99
-MAG	NA	NA	NA	FALSE	TRUE	TRUE	KO + Pfam	20
-MAG	NA	NA	NA	TRUE	TRUE	FALSE	COG + KO	12
-MAG	NA	NA	NA	FALSE	TRUE	FALSE	KO only	1
 MAG	Cosmipelagibacteraceae	NA	IIa.A	TRUE	TRUE	TRUE	COG + KO + Pfam	617
 MAG	Cosmipelagibacteraceae	NA	IIa.A	TRUE	FALSE	TRUE	COG + Pfam	219
 MAG	Cosmipelagibacteraceae	NA	IIa.A	FALSE	FALSE	FALSE	No annotation	64
@@ -180,6 +172,14 @@ MAG	Fontibacteriaceae	Elongatipelagibacter	IIIa.1	TRUE	FALSE	FALSE	COG only	91
 MAG	Fontibacteriaceae	Elongatipelagibacter	IIIa.1	FALSE	TRUE	TRUE	KO + Pfam	22
 MAG	Fontibacteriaceae	Elongatipelagibacter	IIIa.1	TRUE	TRUE	FALSE	COG + KO	20
 MAG	Fontibacteriaceae	Elongatipelagibacter	IIIa.1	FALSE	TRUE	FALSE	KO only	2
+MAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	TRUE	TRUE	TRUE	COG + KO + Pfam	1518
+MAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	TRUE	FALSE	TRUE	COG + Pfam	817
+MAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	FALSE	FALSE	FALSE	No annotation	527
+MAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	TRUE	FALSE	FALSE	COG only	108
+MAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	FALSE	FALSE	TRUE	Pfam only	99
+MAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	FALSE	TRUE	TRUE	KO + Pfam	20
+MAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	TRUE	TRUE	FALSE	COG + KO	12
+MAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	FALSE	TRUE	FALSE	KO only	1
 MAG	Pelagibacteraceae	NA	NA	TRUE	TRUE	TRUE	COG + KO + Pfam	2122
 MAG	Pelagibacteraceae	NA	NA	TRUE	FALSE	TRUE	COG + Pfam	1039
 MAG	Pelagibacteraceae	NA	NA	FALSE	FALSE	FALSE	No annotation	326
@@ -204,14 +204,14 @@ SAG	Cosmipelagibacteraceae	NA	IIa.A	TRUE	FALSE	FALSE	COG only	150
 SAG	Cosmipelagibacteraceae	NA	IIa.A	FALSE	TRUE	TRUE	KO + Pfam	55
 SAG	Cosmipelagibacteraceae	NA	IIa.A	TRUE	TRUE	FALSE	COG + KO	27
 SAG	Cosmipelagibacteraceae	NA	IIa.A	FALSE	TRUE	FALSE	KO only	7
-SAG	Cosmipelagibacteraceae	Anoxipelagibacter	IIa.A	TRUE	TRUE	TRUE	COG + KO + Pfam	5891
-SAG	Cosmipelagibacteraceae	Anoxipelagibacter	IIa.A	TRUE	FALSE	TRUE	COG + Pfam	2368
-SAG	Cosmipelagibacteraceae	Anoxipelagibacter	IIa.A	FALSE	FALSE	FALSE	No annotation	705
-SAG	Cosmipelagibacteraceae	Anoxipelagibacter	IIa.A	FALSE	FALSE	TRUE	Pfam only	272
-SAG	Cosmipelagibacteraceae	Anoxipelagibacter	IIa.A	TRUE	FALSE	FALSE	COG only	245
-SAG	Cosmipelagibacteraceae	Anoxipelagibacter	IIa.A	FALSE	TRUE	TRUE	KO + Pfam	87
-SAG	Cosmipelagibacteraceae	Anoxipelagibacter	IIa.A	TRUE	TRUE	FALSE	COG + KO	39
-SAG	Cosmipelagibacteraceae	Anoxipelagibacter	IIa.A	FALSE	TRUE	FALSE	KO only	9
+SAG	Cosmipelagibacteraceae	Anoxypelagibacter	IIa.A	TRUE	TRUE	TRUE	COG + KO + Pfam	5891
+SAG	Cosmipelagibacteraceae	Anoxypelagibacter	IIa.A	TRUE	FALSE	TRUE	COG + Pfam	2368
+SAG	Cosmipelagibacteraceae	Anoxypelagibacter	IIa.A	FALSE	FALSE	FALSE	No annotation	705
+SAG	Cosmipelagibacteraceae	Anoxypelagibacter	IIa.A	FALSE	FALSE	TRUE	Pfam only	272
+SAG	Cosmipelagibacteraceae	Anoxypelagibacter	IIa.A	TRUE	FALSE	FALSE	COG only	245
+SAG	Cosmipelagibacteraceae	Anoxypelagibacter	IIa.A	FALSE	TRUE	TRUE	KO + Pfam	87
+SAG	Cosmipelagibacteraceae	Anoxypelagibacter	IIa.A	TRUE	TRUE	FALSE	COG + KO	39
+SAG	Cosmipelagibacteraceae	Anoxypelagibacter	IIa.A	FALSE	TRUE	FALSE	KO only	9
 SAG	Cosmipelagibacteraceae	Cosmipelagibacter	IIa.B	TRUE	TRUE	TRUE	COG + KO + Pfam	21798
 SAG	Cosmipelagibacteraceae	Cosmipelagibacter	IIa.B	TRUE	FALSE	TRUE	COG + Pfam	8770
 SAG	Cosmipelagibacteraceae	Cosmipelagibacter	IIa.B	FALSE	FALSE	FALSE	No annotation	2743
@@ -236,14 +236,14 @@ SAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	FALSE	FALSE	TRUE	Pfam only	31
 SAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	FALSE	TRUE	TRUE	KO + Pfam	6
 SAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	TRUE	TRUE	FALSE	COG + KO	3
 SAG	Mesopelagibacteraceae	Mesopelagibacter	Ic	FALSE	TRUE	FALSE	KO only	1
-SAG	Pelagibacteraceae	NA	NA	TRUE	TRUE	TRUE	COG + KO + Pfam	54505
-SAG	Pelagibacteraceae	NA	NA	TRUE	FALSE	TRUE	COG + Pfam	24405
-SAG	Pelagibacteraceae	NA	NA	FALSE	FALSE	FALSE	No annotation	7911
-SAG	Pelagibacteraceae	NA	NA	FALSE	FALSE	TRUE	Pfam only	3037
-SAG	Pelagibacteraceae	NA	NA	TRUE	FALSE	FALSE	COG only	2174
-SAG	Pelagibacteraceae	NA	NA	FALSE	TRUE	TRUE	KO + Pfam	645
-SAG	Pelagibacteraceae	NA	NA	TRUE	TRUE	FALSE	COG + KO	541
-SAG	Pelagibacteraceae	NA	NA	FALSE	TRUE	FALSE	KO only	95
+SAG	Pelagibacteraceae	NA	NA	TRUE	TRUE	TRUE	COG + KO + Pfam	55146
+SAG	Pelagibacteraceae	NA	NA	TRUE	FALSE	TRUE	COG + Pfam	24678
+SAG	Pelagibacteraceae	NA	NA	FALSE	FALSE	FALSE	No annotation	8009
+SAG	Pelagibacteraceae	NA	NA	FALSE	FALSE	TRUE	Pfam only	3076
+SAG	Pelagibacteraceae	NA	NA	TRUE	FALSE	FALSE	COG only	2208
+SAG	Pelagibacteraceae	NA	NA	FALSE	TRUE	TRUE	KO + Pfam	656
+SAG	Pelagibacteraceae	NA	NA	TRUE	TRUE	FALSE	COG + KO	544
+SAG	Pelagibacteraceae	NA	NA	FALSE	TRUE	FALSE	KO only	96
 SAG	Pelagibacteraceae	Accedentipelagibacter	Ia.3.IV	TRUE	TRUE	TRUE	COG + KO + Pfam	3082
 SAG	Pelagibacteraceae	Accedentipelagibacter	Ia.3.IV	TRUE	FALSE	TRUE	COG + Pfam	1470
 SAG	Pelagibacteraceae	Accedentipelagibacter	Ia.3.IV	FALSE	FALSE	FALSE	No annotation	437
@@ -308,22 +308,22 @@ SAG	Pelagibacteraceae	Extensipelagibacter	Ib.4.I	TRUE	FALSE	FALSE	COG only	86
 SAG	Pelagibacteraceae	Extensipelagibacter	Ib.4.I	TRUE	TRUE	FALSE	COG + KO	23
 SAG	Pelagibacteraceae	Extensipelagibacter	Ib.4.I	FALSE	TRUE	TRUE	KO + Pfam	22
 SAG	Pelagibacteraceae	Extensipelagibacter	Ib.4.I	FALSE	TRUE	FALSE	KO only	8
-SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	TRUE	TRUE	TRUE	COG + KO + Pfam	3420
-SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	TRUE	FALSE	TRUE	COG + Pfam	1559
-SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	FALSE	FALSE	FALSE	No annotation	485
-SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	FALSE	FALSE	TRUE	Pfam only	210
-SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	TRUE	FALSE	FALSE	COG only	106
-SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	FALSE	TRUE	TRUE	KO + Pfam	37
-SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	TRUE	TRUE	FALSE	COG + KO	37
-SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	FALSE	TRUE	FALSE	KO only	5
-SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	TRUE	TRUE	TRUE	COG + KO + Pfam	10540
-SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	TRUE	FALSE	TRUE	COG + Pfam	4452
-SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	FALSE	FALSE	FALSE	No annotation	1560
-SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	FALSE	FALSE	TRUE	Pfam only	536
-SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	TRUE	FALSE	FALSE	COG only	430
-SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	FALSE	TRUE	TRUE	KO + Pfam	112
-SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	TRUE	TRUE	FALSE	COG + KO	90
-SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	FALSE	TRUE	FALSE	KO only	30
+SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	TRUE	TRUE	TRUE	COG + KO + Pfam	4075
+SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	TRUE	FALSE	TRUE	COG + Pfam	1865
+SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	FALSE	FALSE	FALSE	No annotation	587
+SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	FALSE	FALSE	TRUE	Pfam only	249
+SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	TRUE	FALSE	FALSE	COG only	128
+SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	TRUE	TRUE	FALSE	COG + KO	46
+SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	FALSE	TRUE	TRUE	KO + Pfam	45
+SAG	Pelagibacteraceae	Fusipelagibacter	Ib.N10	FALSE	TRUE	FALSE	KO only	6
+SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	TRUE	TRUE	TRUE	COG + KO + Pfam	9877
+SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	TRUE	FALSE	TRUE	COG + Pfam	4163
+SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	FALSE	FALSE	FALSE	No annotation	1452
+SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	FALSE	FALSE	TRUE	Pfam only	497
+SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	TRUE	FALSE	FALSE	COG only	403
+SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	FALSE	TRUE	TRUE	KO + Pfam	105
+SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	TRUE	TRUE	FALSE	COG + KO	86
+SAG	Pelagibacteraceae	Lacunipelagibacter	Ia.4.II	FALSE	TRUE	FALSE	KO only	27
 SAG	Pelagibacteraceae	Medipelagibacter	Ib.4.N8	TRUE	TRUE	TRUE	COG + KO + Pfam	5939
 SAG	Pelagibacteraceae	Medipelagibacter	Ib.4.N8	TRUE	FALSE	TRUE	COG + Pfam	2572
 SAG	Pelagibacteraceae	Medipelagibacter	Ib.4.N8	FALSE	FALSE	FALSE	No annotation	755
@@ -332,14 +332,14 @@ SAG	Pelagibacteraceae	Medipelagibacter	Ib.4.N8	TRUE	FALSE	FALSE	COG only	250
 SAG	Pelagibacteraceae	Medipelagibacter	Ib.4.N8	FALSE	TRUE	TRUE	KO + Pfam	67
 SAG	Pelagibacteraceae	Medipelagibacter	Ib.4.N8	TRUE	TRUE	FALSE	COG + KO	54
 SAG	Pelagibacteraceae	Medipelagibacter	Ib.4.N8	FALSE	TRUE	FALSE	KO only	22
-SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	TRUE	TRUE	TRUE	COG + KO + Pfam	4135
-SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	TRUE	FALSE	TRUE	COG + Pfam	1769
-SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	FALSE	FALSE	FALSE	No annotation	558
-SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	FALSE	FALSE	TRUE	Pfam only	207
-SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	TRUE	FALSE	FALSE	COG only	161
-SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	FALSE	TRUE	TRUE	KO + Pfam	66
-SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	TRUE	TRUE	FALSE	COG + KO	36
-SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	FALSE	TRUE	FALSE	KO only	14
+SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	TRUE	TRUE	TRUE	COG + KO + Pfam	4756
+SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	TRUE	FALSE	TRUE	COG + Pfam	2048
+SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	FALSE	FALSE	FALSE	No annotation	641
+SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	FALSE	FALSE	TRUE	Pfam only	238
+SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	TRUE	FALSE	FALSE	COG only	181
+SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	FALSE	TRUE	TRUE	KO + Pfam	73
+SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	TRUE	TRUE	FALSE	COG + KO	39
+SAG	Pelagibacteraceae	Pantolocipelagibacter	Ia.4.N2	FALSE	TRUE	FALSE	KO only	16
 SAG	Pelagibacteraceae	Parvipelagibacter	Ib.2.N7	TRUE	TRUE	TRUE	COG + KO + Pfam	3657
 SAG	Pelagibacteraceae	Parvipelagibacter	Ib.2.N7	TRUE	FALSE	TRUE	COG + Pfam	1712
 SAG	Pelagibacteraceae	Parvipelagibacter	Ib.2.N7	FALSE	FALSE	FALSE	No annotation	526
@@ -404,14 +404,14 @@ SAG	Pelagibacteraceae	Superipelagibacter	Ib.1	TRUE	FALSE	FALSE	COG only	156
 SAG	Pelagibacteraceae	Superipelagibacter	Ib.1	TRUE	TRUE	FALSE	COG + KO	55
 SAG	Pelagibacteraceae	Superipelagibacter	Ib.1	FALSE	TRUE	TRUE	KO + Pfam	36
 SAG	Pelagibacteraceae	Superipelagibacter	Ib.1	FALSE	TRUE	FALSE	KO only	6
-SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	TRUE	TRUE	TRUE	COG + KO + Pfam	13179
-SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	TRUE	FALSE	TRUE	COG + Pfam	5913
-SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	FALSE	FALSE	FALSE	No annotation	1855
-SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	FALSE	FALSE	TRUE	Pfam only	755
-SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	TRUE	FALSE	FALSE	COG only	527
-SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	FALSE	TRUE	TRUE	KO + Pfam	146
-SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	TRUE	TRUE	FALSE	COG + KO	120
-SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	FALSE	TRUE	FALSE	KO only	32
+SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	TRUE	TRUE	TRUE	COG + KO + Pfam	11925
+SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	TRUE	FALSE	TRUE	COG + Pfam	5344
+SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	FALSE	FALSE	FALSE	No annotation	1680
+SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	FALSE	FALSE	TRUE	Pfam only	685
+SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	TRUE	FALSE	FALSE	COG only	478
+SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	FALSE	TRUE	TRUE	KO + Pfam	127
+SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	TRUE	TRUE	FALSE	COG + KO	109
+SAG	Pelagibacteraceae	Tantillipelagibacter	Ia.4.N5	FALSE	TRUE	FALSE	KO only	31
 SAG	Pelagibacteraceae	Undatipelagibacter	Ia.3.VI	TRUE	TRUE	TRUE	COG + KO + Pfam	3044
 SAG	Pelagibacteraceae	Undatipelagibacter	Ia.3.VI	TRUE	FALSE	TRUE	COG + Pfam	1394
 SAG	Pelagibacteraceae	Undatipelagibacter	Ia.3.VI	FALSE	FALSE	FALSE	No annotation	371

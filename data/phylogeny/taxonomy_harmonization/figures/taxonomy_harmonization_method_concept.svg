@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120" role="img" aria-labelledby="title desc">
   <title id="title">Conceptual workflow for harmonizing SAR11 taxonomy</title>
-  <desc id="desc">A workflow diagram showing evidence collection, ANI-based species transfer, dual-tree crown interpolation, confidence assignment, and audited taxonomy output.</desc>
+  <desc id="desc">A workflow diagram showing evidence collection, ANI-based species transfer, SAR11_165 crown interpolation at high support, and audited taxonomy output.</desc>
   <defs>
     <linearGradient id="headerGradient" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#073B4C"/>
@@ -77,16 +77,16 @@
   <rect x="1240" y="180" width="10" height="250" rx="5" fill="#3B82F6"/>
   <circle cx="1292" cy="225" r="24" fill="#3B82F6"/>
   <text class="badge" x="1292" y="231" text-anchor="middle">03</text>
-  <text class="step" x="1332" y="217" fill="#2464C7">INDEPENDENT PHYLOGENIES</text>
-  <text class="section" x="1332" y="247">Two marker-gene trees</text>
+  <text class="step" x="1332" y="217" fill="#2464C7">REFERENCE PHYLOGENY</text>
+  <text class="section" x="1332" y="247">SAR11-focused marker tree</text>
   <text class="body" x="1275" y="286">
-    <tspan x="1275" dy="0">bac120: IQ-TREE 2 with UFBoot</tspan>
-    <tspan x="1275" dy="29">SAR11_165: IQ-TREE 2 with UFBoot</tspan>
+    <tspan x="1275" dy="0">SAR11_165: IQ-TREE 2 with UFBoot</tspan>
+    <tspan x="1275" dy="29">Sole tree used for topology assignment</tspan>
     <tspan x="1275" dy="29">Rooted with the same 20 outgroups</tspan>
     <tspan x="1275" dy="29">Outgroups removed before SAR11 assignment</tspan>
   </text>
   <rect x="1275" y="391" width="435" height="26" rx="13" fill="#EAF2FF"/>
-  <text class="small" x="1492" y="409" text-anchor="middle" fill="#245EA8">Final dual-IQ-TREE 2 taxonomy workflow</text>
+  <text class="small" x="1492" y="409" text-anchor="middle" fill="#245EA8">Final SAR11_165 IQ-TREE 2 taxonomy workflow</text>
 
   <!-- Connections to central rule -->
   <path class="arrow" d="M305 430 L305 480 L650 480 L650 510"/>
@@ -112,7 +112,7 @@
     <tspan x="285" dy="29">Topology assignments are never reused as seeds</tspan>
   </text>
 
-  <text class="bodyStrong" x="720" y="616">Eligible crown in each tree</text>
+  <text class="bodyStrong" x="720" y="616">Eligible SAR11_165 crown</text>
   <text class="body" x="720" y="650">
     <tspan x="720" dy="0">At least 2 same-taxon seeds</tspan>
     <tspan x="720" dy="29">No competing seed at the same rank</tspan>
@@ -135,12 +135,12 @@
     <rect x="50" y="825" width="650" height="205" rx="20" fill="#FFFFFF"/>
   </g>
   <rect x="50" y="825" width="10" height="205" rx="5" fill="#087E8B"/>
-  <text class="step" x="85" y="864">05  DUAL-TREE CONSENSUS</text>
-  <text class="bodyStrong" x="85" y="899">Assign only when both trees support the same lineage</text>
+  <text class="step" x="85" y="864">05  SINGLE-TREE DECISION</text>
+  <text class="bodyStrong" x="85" y="899">Assign only within a high-support SAR11_165 crown</text>
   <text class="body" x="85" y="934">
-    <tspan x="85" dy="0">Candidate lies within an eligible crown in both trees</tspan>
-    <tspan x="85" dy="29">Both trees return the same Family or Genus/Subclade</tspan>
-    <tspan x="85" dy="29">Discordant, conflicting, or unsupported genomes remain unassigned</tspan>
+    <tspan x="85" dy="0">Candidate lies within an eligible SAR11_165 crown</tspan>
+    <tspan x="85" dy="29">Crown support is at least 0.95</tspan>
+    <tspan x="85" dy="29">Conflicting or lower-support genomes remain unassigned</tspan>
   </text>
 
   <path class="arrow" d="M700 927 L775 927"/>
@@ -152,14 +152,8 @@
   <text class="step" x="825" y="864">06  CONFIDENCE</text>
   <rect x="825" y="890" width="185" height="42" rx="21" fill="#DDF3E5"/>
   <text class="bodyStrong" x="917" y="917" text-anchor="middle" fill="#277348">HIGH</text>
-  <text class="small" x="1030" y="916">both supports &gt;=0.95</text>
-  <rect x="825" y="945" width="185" height="42" rx="21" fill="#FFF0D6"/>
-  <text class="bodyStrong" x="917" y="972" text-anchor="middle" fill="#9A6100">PROVISIONAL</text>
-  <text class="small" x="1030" y="963">
-    <tspan x="1030" dy="0">both &gt;=0.50;</tspan>
-    <tspan x="1030" dy="21">at least one &lt;0.95</tspan>
-  </text>
-  <text class="small" x="825" y="1011">Either support &lt;0.50: no topology-based assignment</text>
+  <text class="small" x="1030" y="916">SAR11_165 support &gt;=0.95</text>
+  <text class="small" x="825" y="972">Support &lt;0.95: no topology-based assignment</text>
 
   <path class="arrow" d="M1270 927 L1315 927"/>
 
@@ -172,7 +166,7 @@
   <text class="body" x="1365" y="900">
     <tspan x="1365" dy="0">Taxonomic label and rank</tspan>
     <tspan x="1365" dy="28">Evidence source and confidence</tspan>
-    <tspan x="1365" dy="28">Support in both phylogenies</tspan>
+    <tspan x="1365" dy="28">SAR11_165 crown support</tspan>
     <tspan x="1365" dy="28">Candidate crown and decision trail</tspan>
   </text>
   <rect x="1365" y="992" width="100" height="28" rx="14" fill="#E8F5F5"/>
@@ -182,5 +176,5 @@
   <!-- Footer -->
   <rect x="50" y="1060" width="1700" height="38" rx="19" fill="#FFF4DE"/>
   <circle cx="77" cy="1079" r="7" fill="#E99A2F"/>
-  <text class="note" x="96" y="1085">Final assignments use seed-bounded crowns supported consistently by bac120 and SAR11_165 IQ-TREE 2 phylogenies.</text>
+  <text class="note" x="96" y="1085">Topology assignments use only SAR11_165 IQ-TREE 2 seed-bounded crowns with support &gt;=0.95.</text>
 </svg>

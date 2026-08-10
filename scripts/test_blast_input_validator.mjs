@@ -86,7 +86,7 @@ assert.equal(neutralizeSpreadsheetCell("@SUM(A1:A2)"), "'@SUM(A1:A2)");
 assert.equal(neutralizeSpreadsheetCell("OG0000001"), "OG0000001");
 assert.equal(
   globalThis.SAR11BlastInput.limits.nucleotideFractionThreshold,
-  0.98,
+  0.99,
 );
 assert.equal(status(parse(""), ""), "No sequence");
 assert.match(

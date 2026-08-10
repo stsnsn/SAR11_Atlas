@@ -18,7 +18,7 @@ const taxonomyPath = path.join(
   "phylogeny",
   "taxonomy_harmonization",
   "outputs",
-  "final_dual_iqtree",
+  "final_sar11_165_iqtree_high_support",
   "subclade_harmonized.tsv",
 );
 
