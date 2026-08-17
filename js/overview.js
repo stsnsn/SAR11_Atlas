@@ -555,6 +555,9 @@
             state.subclade = "All";
             state.annotation = "All";
             $("filterGenomeType").value = "All";
+            $("filterFamily").value = "All";
+            $("filterGenus").value = "All";
+            $("filterSubclade").value = "All";
             refreshTaxonomyFilters();
             $("filterAnnotation").value = "All";
             renderAll();

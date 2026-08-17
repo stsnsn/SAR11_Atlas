@@ -2,7 +2,7 @@
 For all SAR11 researchers,
 please open [index.html](https://stsnsn.github.io/SAR11_Atlas/index.html)
 
-last update: 2026-08-07 for ISME20!
+last update: 2026-08-17 for ISME20!
 
 ## License
 
