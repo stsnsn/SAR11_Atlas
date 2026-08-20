@@ -7,13 +7,15 @@
     const COMMON_CITATIONS = [
         {
             authors: "Nishino et al.",
-            title: "SAR11 Genome Atlas.",
-            publication: "in prep."
+            title: "SAR11 Genome Atlas: a genome and gene catalog for functional profiling of the most abundant bacterial clade in the ocean.",
+            publication: "bioRxiv 2026.",
+            doi: "https://doi.org/10.64898/2026.08.15.744057"
         },
         {
             authors: "Nishino et al.",
             title: "Functional Unknomics of the SAR11 clade using bioinformatics approaches.",
-            publication: "bioRxiv 2025."
+            publication: "bioRxiv 2025.",
+            doi: "https://doi.org/10.64898/2025.12.11.693642"
         }
     ];
 
