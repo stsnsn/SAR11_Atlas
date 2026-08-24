@@ -2,6 +2,8 @@
 
 The [OG Representative Similarity Search](https://stsnsn.github.io/SAR11_Atlas/html/SAR11_BLAST.html) compares one amino-acid query with one observed representative sequence from each of the 4,577 SAR11 orthogroups. It is intended for rapid exploration of candidate OGs, not definitive classification.
 
+For annotation workflows, [SAR11 Genome Atlas Tools (SGAtools)](https://github.com/stsnsn/SGAtools) provides `sga-maper`, which can be used to annotate sequences against SAR11 orthogroups.
+
 ## Input
 
 Paste one protein in FASTA format or as a plain amino-acid sequence. Spaces, line breaks, tabs, digits, `*`, and alignment-gap characters are removed before validation.
@@ -34,4 +36,4 @@ Each representative is an observed OG member selected as the sequence with the l
 
 The query and results remain in the browser. They are not transmitted, uploaded, logged, retained, or saved by this search. The SAR11 Genome Atlas does not collect query sequences, search results, or usage data through the OG Search.
 
-The page does not use an AI model or interpret query text as instructions. Sequence and FASTA-header input is never inserted as executable HTML or JavaScript. A restrictive Content Security Policy blocks external scripts, inline scripts, `eval`-style execution, external network requests, and plugin objects on the search page. Validation is applied in both the page and its Web Worker, and downloadable tables neutralize spreadsheet-formula prefixes.
+The search runs locally in the browser. Query sequences and results are not uploaded or retained by the search. Invalid or unsupported sequence input is rejected, and downloaded tables are protected against spreadsheet-formula interpretation.

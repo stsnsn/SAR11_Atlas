@@ -24,15 +24,8 @@ Correlations describe associations across the sampled environments and do not by
 
 ## Environmental Metadata Quality Control
 
-The complete Tara Oceans metadata table is retained for provenance and download, but not every source field is offered in **Additional parameter**. The following fields were excluded from interactive plotting:
+The complete Tara Oceans metadata table is retained for download, but only suitable continuous variables are offered as plot axes. Carbonate fields are excluded because the integrated values are inconsistent with station-level measurements. Fluorescence and Density are omitted because they duplicate fCDOM and Sigma-theta, respectively. The lower size fraction is constant and is therefore omitted; the varying upper size fraction remains available as a violin plot.
 
-- `Carbon.total`, `CO3`, `HCO3`, and `Alkalinity.total` were excluded because the values in the integrated environmental-context table are inconsistent with the corresponding station-level carbonate measurements. For example, the integrated record for run `TARA_A100001026` reports `HCO3 = 0`, whereas the station-level source reports approximately 2,026 micromoles per kilogram at the corresponding TARA_032 surface sample. Nonzero values in the integrated carbonate columns are also implausibly small, so replacing only zeros with missing values would not resolve the problem. These four fields must not be used for environmental correlations unless they are reconstructed from the station-specific source tables.
-- `Fluorescence` was excluded because it duplicates `fCDOM` across the available records. `fCDOM` is retained as the displayed variable.
-- `Density` was excluded because it duplicates `Sigma-theta` across the available records. `Sigma-theta` is retained as the displayed variable.
-- `lower.size.fraction` was excluded because it is constant at 0.22 micrometres for all included samples and therefore contains no variation to compare with Expression Score. The varying upper size fraction remains available as a violin plot.
-
-Negative calibrated Chlorophyll A values are treated as missing only when plots and correlations are calculated because they represent background-correction artifacts rather than biologically meaningful negative concentrations. The original values and all excluded columns remain unchanged in the downloadable metadata table so that the source data and these decisions remain auditable.
-
-The carbonate-field assessment compared the integrated Tara environmental-context table ([PANGAEA.875567](https://doi.org/10.1594/PANGAEA.875567)) with its station-specific primary records, including TARA_032 ([PANGAEA.838996](https://doi.org/10.1594/PANGAEA.838996)), within the Tara Oceans environmental-data collection ([PANGAEA.836319](https://doi.org/10.1594/PANGAEA.836319)). Nutrient fields such as phosphate, nitrite, nitrate plus nitrite, and silicate were retained after representative values were checked against the station-level source.
+Negative calibrated Chlorophyll A values are treated as missing for plots and correlations. Original values and excluded fields remain available in the downloadable metadata table.
 
 The [OG Information Viewer](OG-Information-Viewer) provides a compact expression map alongside functional and structural annotations.

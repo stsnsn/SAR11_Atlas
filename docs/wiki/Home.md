@@ -4,7 +4,7 @@ The SAR11 Genome Atlas provides interactive tools for exploring SAR11 genomes, o
 
 ## Current Data Release
 
-The current atlas contains 542 SAR11 genomes, 675,669 predicted proteins, and 4,577 orthogroups. Of the predicted proteins, 670,693 (99.3%) were assigned to orthogroups. Twenty alphaproteobacterial genomes are retained separately as phylogenetic outgroups.
+The current atlas release contains 542 SAR11 genomes, 675,669 predicted proteins, and 4,577 orthogroups. Of the predicted proteins, 670,693 (99.3%) were assigned to orthogroups. Twenty alphaproteobacterial genomes are included separately as phylogenetic outgroups; pages that include them therefore show 562 genomes in total.
 
 Genome metadata, orthogroup assignments and annotations, neighboring-gene views, neighboring and CORGIAS networks, the rooted SAR11_165 IQ-TREE 2 phylogeny, UniProt/AlphaFoldDB links, and Tara Oceans orthogroup Expression Scores have been updated for this release.
 

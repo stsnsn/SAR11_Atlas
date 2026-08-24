@@ -214,6 +214,28 @@
     font-weight: 700;
 }
 
+.og-representative-sequence {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 0.85rem;
+    min-height: 0;
+    height: auto;
+    padding: 0.85rem;
+    border: 1px solid rgba(8, 125, 130, 0.2);
+    border-radius: 10px;
+    background: #f7fbfb;
+    color: var(--og-ink);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.76rem;
+    line-height: 1.45;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-all;
+    overflow-x: hidden;
+    resize: vertical;
+}
+
 #ogPlots {
     display: grid;
     grid-template-columns: minmax(330px, 0.8fr) minmax(480px, 1.2fr);
@@ -512,6 +534,12 @@ body.dark-mode .og-selection-status {
     background: rgba(16, 39, 51, 0.8);
 }
 
+body.dark-mode .og-representative-sequence {
+    border-color: rgba(123, 184, 206, 0.28);
+    background: #0c202a;
+    color: #f0fbfd;
+}
+
 body.dark-mode .og-map-legend {
     border-color: rgba(123, 184, 206, 0.3);
     background: rgba(16, 39, 51, 0.9);
@@ -599,6 +627,7 @@ body.dark-mode .ui-menu-item-wrapper.ui-state-active {
     .og-search-panel__heading > span {
         align-self: flex-start;
     }
+
 
     .og-actions button,
     #updateOGButton {

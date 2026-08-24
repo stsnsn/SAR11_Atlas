@@ -13,8 +13,8 @@
       gtag('config', 'G-4J68VLT52H');
     </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>SAR11 Genome Atlas</title>
-    <link rel="canonical" href="https://stsnsn.github.io/SAR11_Atlas/">
+    <title>OG Information Viewer | SAR11 Genome Atlas</title>
+    <link rel="canonical" href="https://stsnsn.github.io/SAR11_Atlas/html/SAR11_OG_info.html">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/data_table_style.css">  <!-- 通常色の統一のため （ダークモードはコメントアウト済み）-->
@@ -113,7 +113,7 @@
                 <div class="og-page-heading">
                     <p class="og-eyebrow">Orthogroup workspace</p>
                     <h1 class="h2">OG Information Viewer</h1>
-                    <p>Connect functional annotations.</p>
+                    <p>Inspect functional annotations, phylogenetic distribution, expression, genome context, and structure references for a selected orthogroup.</p>
                 </div>
                 <script>
                     let og_data = [];
@@ -214,11 +214,9 @@
                             <button id="openExpressionButton" disabled>Metatranscriptome</button>
                         </div>
                     </div>
+                    <textarea id="representativeSequenceText" class="og-representative-sequence" readonly hidden rows="2" spellcheck="false" aria-label="Representative protein sequence"></textarea>
                 </section>
-
-                <!-- 大きな説明をここに表示（Enter OG name の下、見やすく） -->
-                <div id="bigOgCaption" class="og-selection-status">Select an OG and update the viewer to see its integrated profile.</div>
-
+                <div id="bigOgCaption" class="og-selection-status" hidden></div>
 
                 <!-- OG に基づく円グラフと Taxonium 埋め込みの領域 -->
                 <div id="ogPlots">
@@ -502,6 +500,68 @@
                     }
 
                     let lastUpdatedOG = null;
+                    let representativeFastaPromise = null;
+
+                    function loadRepresentativeFasta() {
+                        if (!representativeFastaPromise) {
+                            representativeFastaPromise = fetch('../data/BLAST/OG_representative_sequences.faa')
+                                .then(response => {
+                                    if (!response.ok) throw new Error(`Representative FASTA request failed: ${response.status}`);
+                                    return response.text();
+                                })
+                                .then(text => {
+                                    const records = new Map();
+                                    let header = '';
+                                    let sequence = [];
+                                    const saveRecord = () => {
+                                        if (!header) return;
+                                        const separator = header.indexOf('|');
+                                        if (separator < 1) return;
+                                        records.set(header.slice(0, separator), {
+                                            header,
+                                            sequence: sequence.join('').replace(/\s+/g, '').toUpperCase()
+                                        });
+                                    };
+                                    text.replace(/\r/g, '').split('\n').forEach(line => {
+                                        if (line.startsWith('>')) {
+                                            saveRecord();
+                                            header = line.slice(1).trim().split(/\s+/, 1)[0];
+                                            sequence = [];
+                                        } else if (line.trim()) {
+                                            sequence.push(line.trim());
+                                        }
+                                    });
+                                    saveRecord();
+                                    return records;
+                                });
+                        }
+                        return representativeFastaPromise;
+                    }
+
+                    async function updateRepresentativeSequence(og) {
+                        const textArea = document.getElementById('representativeSequenceText');
+                        if (!textArea) return;
+
+                        textArea.hidden = false;
+                        textArea.value = '';
+
+                        try {
+                            const records = await loadRepresentativeFasta();
+                            const record = records.get(og);
+                            if (!record || !record.sequence) throw new Error(`No representative sequence found for ${og}`);
+                            const headerParts = record.header.split('|');
+                            const displayHeader = `>${headerParts[0]}|representative_protein|${headerParts.slice(1).join('|')}`;
+                            const fasta = `${displayHeader}\n${record.sequence}`;
+                            textArea.value = fasta;
+                            textArea.style.height = 'auto';
+                            textArea.style.height = `${textArea.scrollHeight}px`;
+                        } catch (error) {
+                            console.error('Failed to load representative sequence', error);
+                            textArea.value = 'Representative sequence is unavailable for this OG.';
+                            textArea.style.height = 'auto';
+                            textArea.style.height = `${textArea.scrollHeight}px`;
+                        }
+                    }
 
                     async function updateOGData() {
                         const og = document.getElementById('ogInput').value.trim();
@@ -511,6 +571,10 @@
                             alert(`OG ID '${og}' Not Found. Please check the OG ID and try again.`);
                             return;
                         }
+
+                        const bigCaption = document.getElementById('bigOgCaption');
+                        if (bigCaption) bigCaption.hidden = false;
+                        updateRepresentativeSequence(og);
 
                         // KO pie
                         try {

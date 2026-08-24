@@ -1,18 +1,15 @@
 # Download
 
-The Download page is the entry point for reusable files underlying the SAR11 Genome Atlas. Compact web-facing files are served directly from the atlas repository, while larger sequence, annotation, HMM, and analysis archives are distributed through the versioned [Zenodo dataset](https://doi.org/10.5281/zenodo.21468730). Download links identify Zenodo-hosted files next to their displayed size.
+The Download page is the entry point for reusable files underlying the SAR11 Genome Atlas. Compact web-facing files are served directly from the atlas repository, while larger sequence, annotation, HMM, and analysis archives are distributed through the versioned [Zenodo dataset](https://doi.org/10.5281/zenodo.21468730). Direct files are marked **Available**, mixed cards **Partially available**, and Zenodo-derived files **Embargoed**.
 
-## Available Atlas Datasets
+## Directly Available Atlas Datasets
 
-The following resources can currently be downloaded directly:
+The following compact resources can currently be downloaded directly from the atlas repository:
 
 - **Genome metadata and quality estimates**: `subclade_master.tsv` contains the complete metadata for 542 SAR11 genomes and 20 phylogenetic outgroups. `SAR11_Atlas_542_CheckM2_v1.0.2_quality_report.tsv` contains the CheckM2 quality estimates for the 542 released SAR11 genomes.
-- **Genome and protein files**: versioned FNA, FAA, and GFF archives contain assemblies, predicted proteins, and annotations for all 542 SAR11 genomes.
-- **Full protein-level annotations**: `all_prot_annotations.tsv` contains orthogroup assignments, COGclassifier, KOfamScan, PfamScan, quickARSC, and related fields for all 675,669 predicted proteins.
 - **Orthogroup assignments and statistics**: `SAR11_Orthogroup_Assignments_542.tar.gz` contains the core OrthoFinder 3 assignment, count, overlap, hierarchical-orthogroup, species-tree, and run-information files.
 - **Orthogroup annotations and chart data**: `og_suggest.tsv` contains representative annotations for all 4,577 orthogroups. The KO and COG count tables drive the pie charts, and the Pfam count table drives the bar chart in the OG Information Viewer.
 - **OG representative protein sequences**: `OG_representative_sequences.faa` contains one observed representative protein for each of the 4,577 orthogroups. `representative_sequences.tsv` records the selected sequence ID, length, alignment gap count, identity and difference counts, and percent change from the multiple-alignment consensus.
-- **Orthogroup HMM profiles**: `SAR11_Orthogroups_4577.hmm.tar.gz` contains the combined profile-HMM library for all 4,577 orthogroups.
 - **Resolved orthogroup gene trees**: `Resolved_Gene_Trees.txt.tar.gz` contains 3,411 resolved gene trees.
 - **Species phylogenies**: the default rooted SAR11_165 IQ-TREE 2 phylogeny used for topology-based taxonomy assignment, plus the original SAR11_165 tree with outgroups. The bac120 IQ-TREE 2 tree and both FastTree results are retained only as comparison trees and are not used for taxonomy assignment.
 - **All-vs-all ANI and AAI results**: the directional FastANI v1.34 output, a symmetric 542-genome ANI matrix, and the CompareM v0.1.2 pairwise AAI summary.
@@ -23,24 +20,33 @@ The following resources can currently be downloaded directly:
 - **Tara Oceans metatranscriptomic quantification**: `SAR11_merged_metaT.tsv.gz` contains the gene-level quantification table for 509 runs used to derive OG Expression Scores.
 - **SAR11 literature table**: `250729_SAR11_paper_list.tsv`, updated on 2025-07-29, contains the publication metadata displayed on the Literature page.
 
-The Download cards show the file size next to each available resource. OG-specific neighborhood tables are downloaded separately from the [Neighboring Genes](Neighboring-Genes) page.
+The Download page marks every link by source. Direct atlas files are labelled **Available**; Zenodo files under the current embargo are labelled **Embargoed**; cards containing both types are labelled **Partially available**. OG-specific neighborhood tables are downloaded separately from the [Neighboring Genes](Neighboring-Genes) page.
+
+## Zenodo Resources (Embargoed)
+
+The following larger resources are hosted in the versioned [Zenodo dataset](https://doi.org/10.5281/zenodo.21468730) and are currently marked **Embargoed** on the Download page:
+
+- Genome assemblies, predicted proteins, and GFF annotations for all 542 SAR11 genomes.
+- The complete protein-level annotation table for 675,669 predicted proteins.
+- The combined HMM library for 4,577 orthogroups.
+- Complete gene-coordinate, CORGIAS, UniProt similarity-search, and Tara Oceans metatranscriptome resources.
 
 ## Genome Metadata
 
-`subclade_master.tsv` is the complete metadata table with harmonized taxonomic labels. It records the evidence source, confidence category, SAR11_165 crown support, and ANI/AAI reference used for each applicable assignment. Literature-based assignments and ANI/AAI transfers are retained directly. Topology-based Family, Genus, and Subclade assignments use only the SAR11_165 IQ-TREE 2 phylogeny and require crown support ≥0.95; lower-support candidates remain unassigned. Previous labels are excluded from the public subclade tables to avoid mixing classification systems and are retained in the internal harmonization audit and archived pre-update files. Two derived forms are maintained for web components:
+`subclade_master.tsv` is the complete metadata table with harmonized taxonomic labels. It records assignment evidence, confidence, and the phylogenetic or ANI/AAI reference used where applicable. Two derived forms are maintained for web components:
 
 - `subclade.txt` emphasizes numeric sampling depth and coordinates for the searchable table and map.
 - `subclade_cat.tsv` emphasizes categorical metadata for Taxonium coloring.
 
 All three forms contain 542 SAR11 genomes and 20 phylogenetic outgroups. Marine Longhurst codes and descriptions are retained where applicable. Freshwater and other nonmarine records keep Longhurst fields as `NA` and are represented through habitat and waterbody fields instead. Use `subclade_master.tsv` unless a web-component-specific input is required.
 
-`SAR11_Atlas_542_CheckM2_v1.0.2_quality_report.tsv` contains CheckM2 v1.0.2 completeness and contamination estimates for exactly the 542 SAR11 genomes in the release; the 20 phylogenetic outgroups are not included. Genome selection used strict thresholds of completeness >85% and contamination <10%, with the documented cultured-strain exception `HIMB2304` and OMZ genome exception `ETNP2013_S02_SV82_300m_MAG_01` retained by design.
+`SAR11_Atlas_542_CheckM2_v1.0.2_quality_report.tsv` contains CheckM2 v1.0.2 completeness and contamination estimates for the 542 SAR11 genomes; the 20 phylogenetic outgroups are not included.
 
 ## Orthogroup Assignments And Trees
 
 The OrthoFinder archive includes `Orthogroups.tsv`, `Orthogroups.GeneCount.tsv`, `Orthogroups_UnassignedGenes.tsv`, overall and per-species statistics, species-overlap counts, the root-level hierarchical orthogroup table, the rooted node-labeled species tree, and a README recording the 542-genome analysis.
 
-The resolved gene-tree archive contains trees for the 3,411 orthogroups with at least four protein sequences. In the OrthoFinder 3 default workflow, amino-acid sequences were aligned with FAMSA, approximate maximum-likelihood trees were inferred with FastTree using `-fastest`, and OrthoFinder rooted and resolved the trees with its hybrid species-overlap/duplication-loss coalescent procedure.
+The resolved gene-tree archive contains trees for the 3,411 orthogroups with at least four protein sequences. The archive README records the analysis workflow and software versions.
 
 The Zenodo-hosted `SAR11_Orthogroups_4577.hmm.tar.gz` archive provides one profile HMM for each orthogroup in a combined HMM file; individual profiles can be extracted with `hmmfetch`.
 
@@ -51,13 +57,13 @@ The compact files used by the browser-based [OG Representative Similarity Search
 - [`OG_representative_sequences.faa`](https://stsnsn.github.io/SAR11_Atlas/data/BLAST/OG_representative_sequences.faa) contains one representative amino-acid sequence for each of the 4,577 orthogroups. FASTA headers use the form `OG_ID|Sequence_ID`.
 - [`representative_sequences.tsv`](https://stsnsn.github.io/SAR11_Atlas/data/BLAST/representative_sequences.tsv) records the representative selection statistics.
 
-For each OG, the representative is an observed member sequence rather than a synthetic consensus. It was selected as the sequence with the lowest EMBOSS `infoalign` percent change from the existing multiple-sequence-alignment consensus; ties were resolved by lower gap count and then sequence ID. These representatives support rapid exploratory assignment but do not capture all within-OG diversity. For more sensitive assignment, use the combined OG HMM profiles with HMMER.
+For each OG, the representative is an observed member sequence rather than a synthetic consensus. These representatives support rapid exploratory assignment but do not capture all within-OG diversity. For more sensitive assignment, use the combined OG HMM profiles with HMMER.
 
 ## Species Phylogenies
 
 `SAR11_542_SCG165_iqtree_rooted_SAR11_only.tree` is the default tree displayed in the Genome Information and OG Information Taxonium views. The original SAR11_165 IQ-TREE 2 tree was rooted using 20 alphaproteobacterial outgroups before those outgroups were pruned, leaving the 542 SAR11 tips.
 
-The original 562-tip SAR11_165 and bac120 IQ-TREE 2 trees, the rooted 542-tip bac120 IQ-TREE 2 tree, and the two FastTree trees are retained for comparison. The SAR11_165 HMM profiles were obtained from the [Meren Lab SAR11 phylogenomics workflow](https://merenlab.org/data/sar11-phylogenomics/), which describes the SAR11-focused genes retained from an earlier curated collection of 200 Alphaproteobacterial single-copy genes.
+The original 562-tip SAR11_165 and bac120 IQ-TREE 2 trees, the rooted 542-tip bac120 IQ-TREE 2 tree, and the two FastTree trees are retained for comparison.
 
 ## Functional Annotations
 
@@ -93,7 +99,7 @@ The directly available network files include the complete edge tables used by th
 
 `comparem_aaiwf_SAR11_542_out_summary.tsv` is the all-vs-all amino-acid identity summary generated with CompareM v0.1.2 `aai_wf` from the predicted proteins of the same 542 genomes. It reports the protein-coding gene counts for each genome, number of detected orthologs, mean and standard deviation of AAI, and orthologous fraction for each genome pair.
 
-The ANI and AAI files are comparative-genome measurements and are not presented as a formal SAR11 species classification. The ANI matrix can be regenerated with `build_fastani_matrix.R` from the accompanying reproducibility-script package.
+The ANI and AAI files are comparative-genome measurements and are not presented as a formal SAR11 species classification.
 
 ## Distribution And Versioning
 
@@ -103,4 +109,4 @@ Small interactive tables are downloaded from the atlas repository. Large sequenc
 
 Use [SAR11 Genome Information](SAR11-Genome-Information) to inspect genome metadata before downloading genome resources. Use [All OG List](All-OG-List) or [OG Information Viewer](OG-Information-Viewer) to identify orthogroups before downloading assignments, annotations, trees, or HMM profiles.
 
-Large collections are distributed as compressed, versioned archives. Check each archive's README, column definitions, software versions, and release identifier before combining it with results from another atlas release.
+Large collections are distributed as compressed, versioned archives. Check each archive's README and column definitions before combining it with results from another atlas release.

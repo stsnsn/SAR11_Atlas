@@ -21,4 +21,4 @@ External database links open in a separate browser tab.
 
 The table controls can export the displayed data as copy, CSV, JSON, Excel, or print output. Apply a search first when only a subset of orthogroups is needed.
 
-The [Download](Download) page provides the complete OrthoFinder assignment archive and the resolved gene-tree archive. Full protein-level annotations and the combined orthogroup HMM archive are listed separately according to their current release status.
+The [Download](Download) page provides the complete OrthoFinder assignment archive and the resolved gene-tree archive. Full protein-level annotations and the combined orthogroup HMM archive are listed as Zenodo resources and are currently embargoed.

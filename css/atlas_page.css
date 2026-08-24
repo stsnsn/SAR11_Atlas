@@ -549,6 +549,16 @@
     background: linear-gradient(145deg, var(--atlas-surface), var(--atlas-tint));
 }
 
+.atlas-download-card--partial {
+    border-color: rgba(184, 126, 24, 0.35);
+    background: linear-gradient(145deg, var(--atlas-surface), #fffaf0);
+}
+
+.atlas-download-card--embargoed {
+    border-color: rgba(156, 59, 59, 0.28);
+    background: linear-gradient(145deg, var(--atlas-surface), #fff7f7);
+}
+
 .atlas-download-card h3 {
     margin: 0.65rem 0 0.45rem;
     color: var(--atlas-ink);
@@ -646,6 +656,16 @@
 .atlas-status-badge--pending {
     background: #e8edef;
     color: #657a83;
+}
+
+.atlas-status-badge--partial {
+    background: #fff0d4;
+    color: #8a5a00;
+}
+
+.atlas-status-badge--embargoed {
+    background: #f5dcdc;
+    color: #8a3030;
 }
 
 .atlas-page #controls.atlas-control-panel {
@@ -1087,6 +1107,26 @@ body.dark-mode .atlas-status-badge {
 body.dark-mode .atlas-status-badge--pending {
     background: #263d46;
     color: #b2c4ca;
+}
+
+body.dark-mode .atlas-status-badge--partial {
+    background: #59461f;
+    color: #ffe3a1;
+}
+
+body.dark-mode .atlas-status-badge--embargoed {
+    background: #5b3034;
+    color: #ffc3c3;
+}
+
+body.dark-mode .atlas-download-card--partial {
+    border-color: rgba(230, 182, 73, 0.42);
+    background: linear-gradient(145deg, var(--atlas-surface), #2b281c);
+}
+
+body.dark-mode .atlas-download-card--embargoed {
+    border-color: rgba(220, 118, 118, 0.36);
+    background: linear-gradient(145deg, var(--atlas-surface), #2b2022);
 }
 
 body.dark-mode .atlas-download-size {
