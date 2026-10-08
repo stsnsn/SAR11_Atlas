@@ -13,9 +13,9 @@
         },
         {
             authors: "Nishino et al.",
-            title: "Functional Unknomics of the SAR11 clade using bioinformatics approaches.",
-            publication: "bioRxiv 2025.",
-            doi: "https://doi.org/10.64898/2025.12.11.693642"
+            title: "Functional unknomics of the SAR11 clade reveal hidden genetic potential underlying adaptation to bottom-up and top-down pressures.",
+            publication: "mSystems (2026).",
+            doi: "https://doi.org/10.1128/msystems.01026-26"
         }
     ];
 

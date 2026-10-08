@@ -120,8 +120,6 @@
                 <script src="../js/buttons.html5.min.js"></script>
                 <script src="../js/buttons.print.min.js"></script>
                 <script src="../js/papaparse.min.js"></script>
-                <script src="../js/dataTables.scroller.min.js"></script>
-
                 <script>
                     $(document).ready(function () {
                         // path to TSV
@@ -132,6 +130,11 @@
                             delimiter: "\t",
                             header: true,
                             complete: function (result) {
+                                if (result.errors && result.errors.some(error => error.type === "Network")) {
+                                    showTableLoadError();
+                                    return;
+                                }
+
                                 const data = result.data || [];
                                 // prefer meta.fields if available
                                 const headers = (result.meta && result.meta.fields)
@@ -218,11 +221,9 @@
                                 $("#table").DataTable({
                                     // removed 'l' from dom to hide the "show N entries" length menu
                                     dom: "Bfrtip",
-                                    pageLength: 10,
+                                    pageLength: 25,
                                     lengthChange: false, // hide length (show N entries) control
                                     scrollX: true,
-                                    scrollY: "600px",
-                                    scrollCollapse: true,
                                     buttons: ["copy", "csv",
                                         {
                                             text: "JSON",
@@ -238,24 +239,18 @@
                                                 document.body.removeChild(link);
                                             }
                                     }, "excel", "print"],
-                                    // enable deferred rendering for large datasets (helps Scroller)
                                     deferRender: true,
                                     responsive: false,
                                     autoWidth: true,
                                     searching: true,
                                     ordering: true,
-                                    // configure Scroller as an object for more stable behaviour
-                                    scroller: {
-                                        loadingIndicator: true,
-                                        // set a reasonable fixed row height (px) to avoid virtual scroll miscalculation
-                                        rowHeight: 28
-                                    },
+                                    paging: true,
                                     initComplete: function () {
                                         this.api().columns.adjust();
                                     },
                                     language: {
                                         infoEmpty: "No data available",
-                                        info: "Showing _TOTAL_ entries",
+                                        info: "Showing _START_ to _END_ of _TOTAL_ entries",
                                         search: "Search:",
                                         paginate: {
                                             first: "First",
@@ -265,8 +260,15 @@
                                         }
                                     }
                                 });
-                            }
+                            },
+                            error: showTableLoadError
                         });
+
+                        function showTableLoadError() {
+                            $("#table tbody").html(
+                                '<tr><td class="atlas-table-load-error" colspan="100">The orthogroup table could not be loaded. Please reload the page or try again later.</td></tr>'
+                            );
+                        }
                     });
                 </script>
                 </section>

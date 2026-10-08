@@ -128,4 +128,4 @@ md5 <filename>
 
 ## Citation
 
-Nishino et al. **"SAR11 Genome Atlas."** *In preparation.*
+Nishino et al. **"SAR11 Genome Atlas: a genome and gene catalog for functional profiling of the most abundant bacterial clade in the ocean."** *bioRxiv* (2026). https://doi.org/10.64898/2026.08.15.744057
